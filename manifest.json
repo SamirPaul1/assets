@@ -1,0 +1,21 @@
+{
+  "short_name": "samirpaulb.github.io",
+  "name": "samirpaulb.github.io",
+  "icons": [
+    {
+      "src": "./favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./favicon.ico",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/samirpaulb.github.io/",
+  "background_color": "#ff473e",
+  "theme_color": "#ff473e",
+  "display": "standalone",
+  "scope": "/samirpaulb.github.io/"
+}

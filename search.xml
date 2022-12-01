@@ -2,5 +2,5 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
    <ShortName>samirpaulb.github.io</ShortName>
    <Description>Search for a files.</Description>
-   <Url type="text/html" method="get" template="https://samirpaulb.github.io/?{searchTerms}"/>
+   <Url type="text/html" method="get" template="https://samirpaulb.github.io/assets/?{searchTerms}"/>
 </OpenSearchDescription>

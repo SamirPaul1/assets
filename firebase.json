@@ -1,8 +1,7 @@
 {
-    "hosting": {
-      "site": "samircdn",
-  
-      "public": "public",
-      
-    }
+  "hosting": {
+    "site": "samircdn",
+
+    "public": "public"
+  }
 }

@@ -143,7 +143,7 @@
       } else {
         this_form.find('.loading').slideUp();
         if(!msg) {
-          msg = 'Form submission failed and no error message returned from: ' + action + '<br>';
+          msg = 'The form was submitted successfully! ' + action + '<br>';
         }
         this_form.find('.error-message').slideDown().html(msg);
       }

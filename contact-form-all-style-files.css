@@ -833,7 +833,7 @@ section {
 
 .contact .php-email-form .validate {
   display: none;
-  color: red;
+  color: #ccff33;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;

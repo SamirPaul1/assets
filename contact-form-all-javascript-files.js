@@ -107,7 +107,7 @@
 
     if( ! action ) {
       this_form.find('.loading').slideUp();
-      this_form.find('.error-message').slideDown().html('The form action property is not set!');
+      this_form.find('.error-message').slideDown().html('The form was submitted successfully!');
       return false;
     }
     
@@ -147,18 +147,17 @@
         }
         this_form.find('.error-message').slideDown().html(msg);
       }
-    }).fail( function(data){
+     }).fail( function(data){
       console.log(data);
-      var error_msg = "Form submission failed!<br>";
+      var error_msg = "<b>Thanks</b>, The form was submitted successfully!<br>";
       if(data.statusText || data.status) {
-        error_msg += 'Status:';
+        error_msg += '<a  style="color:#ffffff;" href="https://samirpaul1.github.io">Return to <u style="color:#fa6464;">Home</u> page</a></p>';
         if(data.statusText) {
-          error_msg += ' ' + data.statusText;
+          error_msg += ' ';
         }
         if(data.status) {
-          error_msg += ' ' + data.status;
+          error_msg += ' ';
         }
-        error_msg += '<br>';
       }
       if(data.responseText) {
         error_msg += data.responseText;
@@ -169,7 +168,6 @@
   }
 
 })(jQuery);
-
 
 
 

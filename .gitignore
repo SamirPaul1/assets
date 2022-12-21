@@ -17,7 +17,11 @@ vendor
 
 # npm dependencies
 node_modules
+**/node_modules
+/node_modules
 package-lock.json
  
 # bundle
 Gemfile.lock
+
+

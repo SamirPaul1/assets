@@ -7,3 +7,7 @@
 </a>
 </p>
 
+---
+
+- **https://samirpaulb.github.io/assets/**
+- **https://samircdn.pages.dev/**

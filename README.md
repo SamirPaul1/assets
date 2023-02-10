@@ -10,4 +10,4 @@
 ---
 
 - **https://samirpaulb.github.io/assets/**
-- **https://samircdn.pages.dev/**
+- **https://spcdn.pages.dev/**

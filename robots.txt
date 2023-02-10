@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://samirpaul1.github.io/sitemap.xml

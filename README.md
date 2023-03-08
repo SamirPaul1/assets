@@ -7,3 +7,8 @@
 </a>
 </p>
 
+---
+
+- **https://samirpaulb.github.io/assets/**
+- **https://spcdn.pages.dev/**
+- **https://scdn.netlify.app/**  [![Netlify Status](https://api.netlify.com/api/v1/badges/b680ee7d-e120-4949-a41d-81ee38297dde/deploy-status)](https://app.netlify.com/sites/scdn/deploys)

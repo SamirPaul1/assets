@@ -1,0 +1,228 @@
+.ace-cobalt {
+    background-color: #002240;
+    color: #FFFFFF;
+}
+.ace-solarized-dark {
+    background-color: #002B36;
+    color: #93A1A1;
+}
+.ace-kr-theme {
+    background-color: #0B0A09;
+    color: #FCFFE0;
+}
+.ace-monokai {
+    background-color: #272822;
+    color: #F8F8F2;
+}
+.ace-terminal-theme {
+    background-color: black;
+    color: #DEDEDE;
+}
+.ace-twilight {
+    background-color: #141414;
+    color: #F8F8F8;
+}
+.ace-vibrant-ink {
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+}
+#cc {
+    font-family: "Open Sans", Arial, sans-serif;
+}
+p{
+   font-size: 14px;
+}
+.l-btn-text, .tabs-title{
+   font-size: 12px;
+}
+.title {
+    border-left: 1px solid #ccc;
+    height: 17px;
+    color: #000;
+    font-size: 16px;
+    float: left;
+    margin: 15px 5px 0px -10px;
+    padding: 1px 0px 0px 5px;
+    font-weight: bold;
+}
+.sign{
+    width:530px;height:475px;padding:10px;
+}
+.north{
+   height:53px; width:100%;overflow:hidden;background:url(/images/top_bg.png);
+}
+.logo{
+   padding:5px; padding-right:22px; float:left; margin-top: 0px;width: 153px;
+}
+.main-menu{
+   margin:12px 10px 0px 0px; float:right;
+}
+.right-align{
+   float:right;
+}
+#help{
+  padding: 0px 15px;
+}
+.display-none{
+   display:none;
+}
+#editor, #terminal {
+ width: inherit !important;
+}
+#container {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center !important;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+#container h2 a {
+    text-decoration: none;
+    color: #057d2c;
+}
+.terms a {
+    text-decoration: none;
+    color: #057d2c;
+}
+.login-cover {
+    width: 500px;
+    padding: 10px 60px;
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    text-align: left;
+    background: #f3f3f3;
+}
+.warning-cover {
+/*
+    padding: 10px 3px;
+*/
+    height: 30px;
+    color: #d00606;
+    font-size: 14px;
+}
+.inputbox {
+    padding: 0px 10px;
+    margin: 0px;
+    width: 356px;
+}
+#save{
+   display:none;
+}
+.textbox {
+    height: 32px;
+    position: relative;
+    /* top: -15px; */
+    moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#container #forgot, #container #login {
+    border-left: 2px solid #d6d6d6;
+}
+#container #forgot, #container #login {
+    text-decoration: none;
+    color: #057d2c;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 580px) {
+   .menu-item{
+      height: 25px;
+   }
+   .menu-text, .menu-text span {
+       font-size: 14px;
+   }
+   .no-display{
+      display:none;
+   }
+  .login-cover{
+      width:200px!important;
+  }
+  #container .panel{
+      width:323px!important;
+  }
+  #container .textbox{
+      width:200px!important;
+  }
+/*
+  #container .login.l-btn {
+     width: 65px!important;
+  }
+  #container .l-btn{
+     width: 90px!important;
+   }
+*/
+  #container #forgot, #container #login {
+    text-decoration: none;
+    color: #057d2c;
+    font-size: 14px;
+    padding-left: 6px;
+    margin-left: 2px;
+  }
+  #container h2{
+    font-size: 12px;
+  }
+}
+div#loading {
+    position: relative;
+    margin: 0 auto;
+    width: 150px;
+    top: 34%;
+    height: 150px;
+    z-index: 109;
+    background: url(https://www.tutorialspoint.com/cg/images/loading.gif) no-repeat;
+    background-color: transparent;
+    visibility: hidden;
+}
+.loader {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-indent: -9999em;
+    color: #8bc34a;
+    font-size: 8px;
+    opacity: .7;
+    animation: loader 1s infinite ease-in-out;
+    animation-delay: 0.16s;
+    top: -15px;
+}
+#codebox .datagrid-wrap {
+    border: 0px !important;
+}
+#codebox .datagrid{
+    border: 0px;
+}
+#edit-title {
+    float: left;
+    margin: 9px 5px 0px -10px;
+    padding: 2px 1px 0px 6px;
+    opacity: 0.5;
+}
+.menu-item {
+    height: 26px !important;
+    padding-left: 2px;
+}
+.panel-icon, .panel-tool {
+    line-height: 18px;
+    margin-top: -8px;
+}
+.panel-tool a {
+    line-height: 16px;
+    color: #3f3f3f;
+    margin: 0 0 0 10px;
+    opacity:1.0;
+}
+.icon-clean{
+    background:url('/themes/css/icons/maximize.png') no-repeat center center;
+}
+.icon-v-terminal{
+    background:url('/themes/css/icons/vertical.png') no-repeat center center;
+}
+.icon-h-terminal{
+    background:url('/themes/css/icons/horizontal.png') no-repeat center center;
+}

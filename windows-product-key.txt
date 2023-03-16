@@ -1,0 +1,9 @@
+1. Command prompt (run as administrator):
+
+wmic path softwareLicensingService get OA3xOriginalProductKey
+
+
+
+2. PowerShell (run as administrator):
+
+powershell "(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey"

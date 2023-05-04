@@ -1,0 +1,69 @@
+Google
+Meta(Facebook)
+Microsoft
+Amazon
+Uber
+Netflix
+Atlassian
+Goldman Sachs
+Morgan Stanley
+Flipkart
+Salesforce
+Intuit
+Adobe
+Rubrik Inc
+Workday
+Mongo DB
+Twitter
+Booking.com
+Stripe
+OYO
+PhonePe
+TikTok
+Coinbase
+Apple
+Confluent
+Arcesium
+DE Shaw
+Airbnb
+Samsung 
+Alphabet 
+Foxconn 
+Intel 
+IBM 
+Cisco 
+Tesla
+Amadeus 
+QUALCOMM
+Texas Instruments
+SAP
+PayPal
+Vmware
+Shopify
+MediaTek
+Media.net
+Autodesk
+Cadence 
+HP
+Dell
+Ericsson
+Cerner
+Nvidia
+Alibaba
+Oracle
+Sony
+Ola Cabs
+Snap Inc
+Palo Alto Networks
+Crowd Strike
+Zscaler
+Meesho
+Swiggy
+Zomato
+Dunzo
+Rezorpay
+Groww
+Fiserv
+Align Technology
+Cloudflare
+eBay Inc

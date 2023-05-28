@@ -1,2 +1,2 @@
 [build]
-  ignore = "package.json"
+  ignore = "node package.json"

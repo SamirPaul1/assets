@@ -1,10 +1,7 @@
 {
   "dependencies": {
     "firebase": "^9.14.0"
-  },
-  "scripts": {
-    "build": "npm build"
-}
+  }
 }
 
 

@@ -4681,7 +4681,7 @@ function scrollCustomJs(){
 <script>
 /*<![CDATA[*/
 /* Template js */ 
-const baseUrl = 'https://cdn.jsdelivr.net/gh/ngylduy/blog@d0ca1ff';
+const baseUrl = 'https://cdn.jsdelivr.net/gh/SamirPaulb/assets@main/blogger/plus-ui';
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({
         pageLanguage: PuSet.gTranslate.pageLang,

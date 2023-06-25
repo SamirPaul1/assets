@@ -1,1 +1,1 @@
-##### Template used for my blogger website.
+##### Template and files used for my blogger website.

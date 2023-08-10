@@ -22,11 +22,7 @@ def make_md_file(folder_name):
   md_file.write("categories: leetcode\n")
   md_file.write(f"keywords: LeetCode, leetcode solution in Python3 C++ Java, {folder_name} solution\n")
   md_file.write(f"description: {replace_dash_with_space(folder_name)} LeetCode Solution Explained\n")
-  md_file.write("cover: /assets/img/leetcode-cover-img.webp
-date: 2021-08-15 09:55:52
-
-date: 2021-08-15 09:55:52
-\n")
+  md_file.write("cover: /assets/img/leetcode-cover-img.webp\n")
   # md_file.write("date: 2022-08-10 09:54:55\n")
   md_file.write("---\n")
   md_file.write("\n")

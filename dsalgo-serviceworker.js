@@ -18,7 +18,7 @@ const PRECACHE_URLS = [
   'https://github1s.com/static/../../../workbench/workbench.web.main.js',
   'https://github1s.com/static/../../../code/browser/workbench/workbench.js',
   'https://unpkg.com/favicon-switcher@1.2.2/dist/index.js',
-  'https://github1s.com/SamirPaul1/DSAlgo'
+  'https://github1s.com/SamirPaulb/DSAlgo'
 
 ];
 

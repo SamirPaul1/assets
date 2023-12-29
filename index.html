@@ -2,9 +2,24 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Daily UI #008 - 404 Page</title>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ff473e">
+  <title>Static Assets Storage</title>
+  <meta name="title" content="Static Assets Storage">
+  <meta name="description" content="Static Assets Storage">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="canonical" href="https://spcdn.pages.dev" />
+  <link rel="icon" href="./favicon.ico" type="image/png" />
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+  <title>Static Assets Storage</title>
+  
   <link rel="stylesheet" href="./404-style.css">
 
+  
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -85,8 +100,63 @@
         </div>
     </section>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./404-script.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>
+</script><script  src="./404-script.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('http://localhost:8081/jobs/static/service-worker.js?v=4').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+    }
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CP4QE6ZEV0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CP4QE6ZEV0');
+</script>
+  
+<?php
+/*  
+Motivation: To help provide an accurate list of files
+for JavScript service workers to cache. Saves time,
+tedium, and possible typos in doing it manually.
+
+Use the POSTed directory path to return an array
+that lists all the files in that directory,
+less the "." and ".." entries.
+Prepend the directory name to the filenames so that
+we have the "full path" to each file.
+Return this array as a json string.
+*/   
+     $directory = $_POST["directory"] ;
+      /* 
+       You should probably sanitize $directory of all "../" prefixes
+       in order to prevent a Directory Traversal Attack. 
+       Using str_replace("/", "", $directory) has been suggested.
+       It throws an error but prevents the attack.
+     */
+     $filelistArray = scandir( "../" . $directory );
+     $cleanFileArray =  array();
+     foreach( $filelistArray  as $file ){
+         if ( $file !== "." and $file !== ".." ){
+                array_push( $cleanFileArray, $directory . "/" . $file );
+         }       
+     }
+     $fileArrayJson = json_encode( $cleanFileArray );
+     exit( $fileArrayJson );
+?>
+
 
 </body>
 </html>

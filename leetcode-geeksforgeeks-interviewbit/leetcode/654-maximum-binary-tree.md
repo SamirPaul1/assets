@@ -1,10 +1,16 @@
 ---
-title: 654 maximum binary tree
-tags: leetcode
-categories: leetcode
+title: 654 Maximum Binary Tree
+summary: 654 Maximum Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/654-maximum-binary-tree", "/blog/posts/654-maximum-binary-tree", "/654-maximum-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 654-maximum-binary-tree solution
-description: 654 maximum binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:654 Maximum Binary Tree/problem-solving.webp
+    alt: 654 Maximum Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

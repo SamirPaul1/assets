@@ -1,10 +1,16 @@
 ---
-title: palindromic substrings
-tags: leetcode
-categories: leetcode
+title: Palindromic Substrings
+summary: Palindromic Substrings LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/palindromic-substrings", "/blog/posts/palindromic-substrings", "/palindromic-substrings"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, palindromic-substrings solution
-description: palindromic substrings LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindromic Substrings/problem-solving.webp
+    alt: Palindromic Substrings
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

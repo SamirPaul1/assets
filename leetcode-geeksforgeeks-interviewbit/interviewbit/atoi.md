@@ -1,3 +1,18 @@
+---
+title: Atoi
+summary: Atoi - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Atoi solution]
+aliases: ["/posts/atoi", "/blog/posts/atoi", "/atoi"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Atoi - Solution Explained/problem-solving.webp
+    alt: Atoi
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Atoi
 
 https://www.interviewbit.com/problems/atoi

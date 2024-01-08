@@ -1,10 +1,16 @@
 ---
-title: 0329 longest increasing path in a matrix
-tags: leetcode
-categories: leetcode
+title: 0329 Longest Increasing Path In A Matrix
+summary: 0329 Longest Increasing Path In A Matrix LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0329-longest-increasing-path-in-a-matrix", "/blog/posts/0329-longest-increasing-path-in-a-matrix", "/0329-longest-increasing-path-in-a-matrix"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0329-longest-increasing-path-in-a-matrix solution
-description: 0329 longest increasing path in a matrix LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0329 Longest Increasing Path In A Matrix/problem-solving.webp
+    alt: 0329 Longest Increasing Path In A Matrix
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

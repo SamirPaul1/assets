@@ -1,10 +1,16 @@
 ---
-title: 0137 single number ii
-tags: leetcode
-categories: leetcode
+title: 0137 Single Number Ii
+summary: 0137 Single Number Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0137-single-number-ii", "/blog/posts/0137-single-number-ii", "/0137-single-number-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0137-single-number-ii solution
-description: 0137 single number ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0137 Single Number Ii/problem-solving.webp
+    alt: 0137 Single Number Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

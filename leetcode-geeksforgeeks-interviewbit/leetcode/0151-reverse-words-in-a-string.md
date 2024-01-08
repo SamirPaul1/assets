@@ -1,10 +1,16 @@
 ---
-title: 0151 reverse words in a string
-tags: leetcode
-categories: leetcode
+title: 0151 Reverse Words In A String
+summary: 0151 Reverse Words In A String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0151-reverse-words-in-a-string", "/blog/posts/0151-reverse-words-in-a-string", "/0151-reverse-words-in-a-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0151-reverse-words-in-a-string solution
-description: 0151 reverse words in a string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0151 Reverse Words In A String/problem-solving.webp
+    alt: 0151 Reverse Words In A String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

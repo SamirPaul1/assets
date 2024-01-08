@@ -1,10 +1,16 @@
 ---
-title: 0622 design circular queue
-tags: leetcode
-categories: leetcode
+title: 0622 Design Circular Queue
+summary: 0622 Design Circular Queue LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0622-design-circular-queue", "/blog/posts/0622-design-circular-queue", "/0622-design-circular-queue"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0622-design-circular-queue solution
-description: 0622 design circular queue LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0622 Design Circular Queue/problem-solving.webp
+    alt: 0622 Design Circular Queue
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

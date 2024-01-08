@@ -1,10 +1,16 @@
 ---
-title: 0974 subarray sums divisible by k
-tags: leetcode
-categories: leetcode
+title: 0974 Subarray Sums Divisible By K
+summary: 0974 Subarray Sums Divisible By K LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0974-subarray-sums-divisible-by-k", "/blog/posts/0974-subarray-sums-divisible-by-k", "/0974-subarray-sums-divisible-by-k"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0974-subarray-sums-divisible-by-k solution
-description: 0974 subarray sums divisible by k LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0974 Subarray Sums Divisible By K/problem-solving.webp
+    alt: 0974 Subarray Sums Divisible By K
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0312 burst balloons
-tags: leetcode
-categories: leetcode
+title: 0312 Burst Balloons
+summary: 0312 Burst Balloons LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0312-burst-balloons", "/blog/posts/0312-burst-balloons", "/0312-burst-balloons"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0312-burst-balloons solution
-description: 0312 burst balloons LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0312 Burst Balloons/problem-solving.webp
+    alt: 0312 Burst Balloons
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0229 majority element ii
-tags: leetcode
-categories: leetcode
+title: 0229 Majority Element Ii
+summary: 0229 Majority Element Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0229-majority-element-ii", "/blog/posts/0229-majority-element-ii", "/0229-majority-element-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0229-majority-element-ii solution
-description: 0229 majority element ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0229 Majority Element Ii/problem-solving.webp
+    alt: 0229 Majority Element Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Distinct Subsequences
+summary: Distinct Subsequences - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Distinct Subsequences solution]
+aliases: ["/posts/distinct-subsequences", "/blog/posts/distinct-subsequences", "/distinct-subsequences"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Distinct Subsequences - Solution Explained/problem-solving.webp
+    alt: Distinct Subsequences
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Distinct Subsequences
 
 https://www.interviewbit.com/problems/distinct-subsequences/

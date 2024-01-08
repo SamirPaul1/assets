@@ -1,10 +1,16 @@
 ---
-title: deepest leaves sum
-tags: leetcode
-categories: leetcode
+title: Deepest Leaves Sum
+summary: Deepest Leaves Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/deepest-leaves-sum", "/blog/posts/deepest-leaves-sum", "/deepest-leaves-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, deepest-leaves-sum solution
-description: deepest leaves sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Deepest Leaves Sum/problem-solving.webp
+    alt: Deepest Leaves Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

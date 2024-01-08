@@ -1,10 +1,16 @@
 ---
-title: 0881 boats to save people
-tags: leetcode
-categories: leetcode
+title: 0881 Boats To Save People
+summary: 0881 Boats To Save People LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0881-boats-to-save-people", "/blog/posts/0881-boats-to-save-people", "/0881-boats-to-save-people"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0881-boats-to-save-people solution
-description: 0881 boats to save people LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0881 Boats To Save People/problem-solving.webp
+    alt: 0881 Boats To Save People
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

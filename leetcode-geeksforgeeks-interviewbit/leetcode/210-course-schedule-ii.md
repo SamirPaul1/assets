@@ -1,10 +1,16 @@
 ---
-title: 210 course schedule ii
-tags: leetcode
-categories: leetcode
+title: 210 Course Schedule Ii
+summary: 210 Course Schedule Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/210-course-schedule-ii", "/blog/posts/210-course-schedule-ii", "/210-course-schedule-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 210-course-schedule-ii solution
-description: 210 course schedule ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:210 Course Schedule Ii/problem-solving.webp
+    alt: 210 Course Schedule Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

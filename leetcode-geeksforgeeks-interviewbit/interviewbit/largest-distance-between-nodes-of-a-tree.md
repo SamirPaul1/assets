@@ -1,3 +1,18 @@
+---
+title: Largest Distance Between Nodes Of A Tree
+summary: Largest Distance Between Nodes Of A Tree - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Largest Distance Between Nodes Of A Tree solution]
+aliases: ["/posts/largest-distance-between-nodes-of-a-tree", "/blog/posts/largest-distance-between-nodes-of-a-tree", "/largest-distance-between-nodes-of-a-tree"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Distance Between Nodes Of A Tree - Solution Explained/problem-solving.webp
+    alt: Largest Distance Between Nodes Of A Tree
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Largest Distance between nodes of a Tree
 
 https://www.interviewbit.com/problems/largest-distance-between-nodes-of-a-tree/

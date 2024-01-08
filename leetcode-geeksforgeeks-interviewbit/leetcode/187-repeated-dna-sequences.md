@@ -1,10 +1,16 @@
 ---
-title: 187 repeated dna sequences
-tags: leetcode
-categories: leetcode
+title: 187 Repeated Dna Sequences
+summary: 187 Repeated Dna Sequences LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/187-repeated-dna-sequences", "/blog/posts/187-repeated-dna-sequences", "/187-repeated-dna-sequences"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 187-repeated-dna-sequences solution
-description: 187 repeated dna sequences LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:187 Repeated Dna Sequences/problem-solving.webp
+    alt: 187 Repeated Dna Sequences
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

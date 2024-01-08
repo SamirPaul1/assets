@@ -1,10 +1,16 @@
 ---
-title: 0797 all paths from source to target
-tags: leetcode
-categories: leetcode
+title: 0797 All Paths From Source To Target
+summary: 0797 All Paths From Source To Target LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0797-all-paths-from-source-to-target", "/blog/posts/0797-all-paths-from-source-to-target", "/0797-all-paths-from-source-to-target"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0797-all-paths-from-source-to-target solution
-description: 0797 all paths from source to target LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0797 All Paths From Source To Target/problem-solving.webp
+    alt: 0797 All Paths From Source To Target
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

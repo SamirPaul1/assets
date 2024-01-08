@@ -1,10 +1,16 @@
 ---
-title: 0584 find customer referee
-tags: leetcode
-categories: leetcode
+title: 0584 Find Customer Referee
+summary: 0584 Find Customer Referee LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0584-find-customer-referee", "/blog/posts/0584-find-customer-referee", "/0584-find-customer-referee"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0584-find-customer-referee solution
-description: 0584 find customer referee LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0584 Find Customer Referee/problem-solving.webp
+    alt: 0584 Find Customer Referee
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Root To Leaf Paths With Sum
+summary: Root To Leaf Paths With Sum - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Root To Leaf Paths With Sum solution]
+aliases: ["/posts/root-to-leaf-paths-with-sum", "/blog/posts/root-to-leaf-paths-with-sum", "/root-to-leaf-paths-with-sum"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Root To Leaf Paths With Sum - Solution Explained/problem-solving.webp
+    alt: Root To Leaf Paths With Sum
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Root to Leaf Paths With Sum
 
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.

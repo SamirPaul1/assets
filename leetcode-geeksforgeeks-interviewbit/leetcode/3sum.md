@@ -1,10 +1,16 @@
 ---
-title: 3sum
-tags: leetcode
-categories: leetcode
+title: 3Sum
+summary: 3Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/3sum", "/blog/posts/3sum", "/3sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 3sum solution
-description: 3sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:3Sum/problem-solving.webp
+    alt: 3Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

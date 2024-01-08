@@ -1,3 +1,18 @@
+---
+title: Minimum Characters Required To Make A String Palindromic
+summary: Minimum Characters Required To Make A String Palindromic - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimum Characters Required To Make A String Palindromic solution]
+aliases: ["/posts/minimum-characters-required-to-make-a-string-palindromic", "/blog/posts/minimum-characters-required-to-make-a-string-palindromic", "/minimum-characters-required-to-make-a-string-palindromic"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Characters Required To Make A String Palindromic - Solution Explained/problem-solving.webp
+    alt: Minimum Characters Required To Make A String Palindromic
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Minimum Characters Required To Make a String Palindromic
 
 https://www.interviewbit.com/problems/minimum-characters-required-to-make-a-string-palindromic

@@ -1,10 +1,16 @@
 ---
-title: 477 total hamming distance
-tags: leetcode
-categories: leetcode
+title: 477 Total Hamming Distance
+summary: 477 Total Hamming Distance LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/477-total-hamming-distance", "/blog/posts/477-total-hamming-distance", "/477-total-hamming-distance"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 477-total-hamming-distance solution
-description: 477 total hamming distance LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:477 Total Hamming Distance/problem-solving.webp
+    alt: 477 Total Hamming Distance
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

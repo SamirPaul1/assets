@@ -1,10 +1,16 @@
 ---
-title: Maximum sum increasing subsequence   GFG
-tags: leetcode
-categories: leetcode
+title: Maximum Sum Increasing Subsequence   Gfg
+summary: Maximum Sum Increasing Subsequence   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Maximum-sum-increasing-subsequence---GFG", "/blog/posts/Maximum-sum-increasing-subsequence---GFG", "/Maximum-sum-increasing-subsequence---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Maximum sum increasing subsequence - GFG solution
-description: Maximum sum increasing subsequence   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Sum Increasing Subsequence   Gfg/problem-solving.webp
+    alt: Maximum Sum Increasing Subsequence   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

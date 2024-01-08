@@ -1,10 +1,16 @@
 ---
-title: coin change
-tags: leetcode
-categories: leetcode
+title: Coin Change
+summary: Coin Change LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/coin-change", "/blog/posts/coin-change", "/coin-change"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, coin-change solution
-description: coin change LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Coin Change/problem-solving.webp
+    alt: Coin Change
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

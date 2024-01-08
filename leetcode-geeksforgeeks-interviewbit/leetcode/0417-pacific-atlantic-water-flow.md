@@ -1,10 +1,16 @@
 ---
-title: 0417 pacific atlantic water flow
-tags: leetcode
-categories: leetcode
+title: 0417 Pacific Atlantic Water Flow
+summary: 0417 Pacific Atlantic Water Flow LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0417-pacific-atlantic-water-flow", "/blog/posts/0417-pacific-atlantic-water-flow", "/0417-pacific-atlantic-water-flow"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0417-pacific-atlantic-water-flow solution
-description: 0417 pacific atlantic water flow LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0417 Pacific Atlantic Water Flow/problem-solving.webp
+    alt: 0417 Pacific Atlantic Water Flow
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

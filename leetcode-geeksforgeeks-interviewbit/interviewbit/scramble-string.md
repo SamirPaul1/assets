@@ -1,3 +1,18 @@
+---
+title: Scramble String
+summary: Scramble String - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Scramble String solution]
+aliases: ["/posts/scramble-string", "/blog/posts/scramble-string", "/scramble-string"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Scramble String - Solution Explained/problem-solving.webp
+    alt: Scramble String
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Scramble String
 
 https://www.interviewbit.com/problems/scramble-string/

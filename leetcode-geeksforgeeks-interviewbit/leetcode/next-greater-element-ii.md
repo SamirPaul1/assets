@@ -1,10 +1,16 @@
 ---
-title: next greater element ii
-tags: leetcode
-categories: leetcode
+title: Next Greater Element Ii
+summary: Next Greater Element Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/next-greater-element-ii", "/blog/posts/next-greater-element-ii", "/next-greater-element-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, next-greater-element-ii solution
-description: next greater element ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Next Greater Element Ii/problem-solving.webp
+    alt: Next Greater Element Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

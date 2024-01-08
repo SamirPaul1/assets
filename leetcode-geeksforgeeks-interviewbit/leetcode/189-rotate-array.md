@@ -1,10 +1,16 @@
 ---
-title: 189 rotate array
-tags: leetcode
-categories: leetcode
+title: 189 Rotate Array
+summary: 189 Rotate Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/189-rotate-array", "/blog/posts/189-rotate-array", "/189-rotate-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 189-rotate-array solution
-description: 189 rotate array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:189 Rotate Array/problem-solving.webp
+    alt: 189 Rotate Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

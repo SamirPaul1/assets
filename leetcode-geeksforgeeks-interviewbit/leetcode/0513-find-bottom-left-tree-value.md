@@ -1,10 +1,16 @@
 ---
-title: 0513 find bottom left tree value
-tags: leetcode
-categories: leetcode
+title: 0513 Find Bottom Left Tree Value
+summary: 0513 Find Bottom Left Tree Value LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0513-find-bottom-left-tree-value", "/blog/posts/0513-find-bottom-left-tree-value", "/0513-find-bottom-left-tree-value"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0513-find-bottom-left-tree-value solution
-description: 0513 find bottom left tree value LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0513 Find Bottom Left Tree Value/problem-solving.webp
+    alt: 0513 Find Bottom Left Tree Value
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

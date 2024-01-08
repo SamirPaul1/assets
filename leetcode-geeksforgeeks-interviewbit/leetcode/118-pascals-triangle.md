@@ -1,10 +1,16 @@
 ---
-title: 118 pascals triangle
-tags: leetcode
-categories: leetcode
+title: 118 Pascals Triangle
+summary: 118 Pascals Triangle LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/118-pascals-triangle", "/blog/posts/118-pascals-triangle", "/118-pascals-triangle"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 118-pascals-triangle solution
-description: 118 pascals triangle LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:118 Pascals Triangle/problem-solving.webp
+    alt: 118 Pascals Triangle
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

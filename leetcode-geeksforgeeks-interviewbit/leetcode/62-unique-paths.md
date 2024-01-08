@@ -1,10 +1,16 @@
 ---
-title: 62 unique paths
-tags: leetcode
-categories: leetcode
+title: 62 Unique Paths
+summary: 62 Unique Paths LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/62-unique-paths", "/blog/posts/62-unique-paths", "/62-unique-paths"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 62-unique-paths solution
-description: 62 unique paths LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:62 Unique Paths/problem-solving.webp
+    alt: 62 Unique Paths
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

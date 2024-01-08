@@ -1,10 +1,16 @@
 ---
-title: two sum
-tags: leetcode
-categories: leetcode
+title: Two Sum
+summary: Two Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/two-sum", "/blog/posts/two-sum", "/two-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, two-sum solution
-description: two sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Two Sum/problem-solving.webp
+    alt: Two Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

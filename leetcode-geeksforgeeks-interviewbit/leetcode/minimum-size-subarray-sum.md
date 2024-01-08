@@ -1,10 +1,16 @@
 ---
-title: minimum size subarray sum
-tags: leetcode
-categories: leetcode
+title: Minimum Size Subarray Sum
+summary: Minimum Size Subarray Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-size-subarray-sum", "/blog/posts/minimum-size-subarray-sum", "/minimum-size-subarray-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-size-subarray-sum solution
-description: minimum size subarray sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Size Subarray Sum/problem-solving.webp
+    alt: Minimum Size Subarray Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

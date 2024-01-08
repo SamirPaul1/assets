@@ -1,10 +1,16 @@
 ---
-title: 2241 design an atm machine
-tags: leetcode
-categories: leetcode
+title: 2241 Design An Atm Machine
+summary: 2241 Design An Atm Machine LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2241-design-an-atm-machine", "/blog/posts/2241-design-an-atm-machine", "/2241-design-an-atm-machine"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2241-design-an-atm-machine solution
-description: 2241 design an atm machine LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2241 Design An Atm Machine/problem-solving.webp
+    alt: 2241 Design An Atm Machine
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

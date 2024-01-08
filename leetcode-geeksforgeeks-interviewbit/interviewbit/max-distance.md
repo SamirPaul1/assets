@@ -1,3 +1,18 @@
+---
+title: Max Distance
+summary: Max Distance - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Distance solution]
+aliases: ["/posts/max-distance", "/blog/posts/max-distance", "/max-distance"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Distance - Solution Explained/problem-solving.webp
+    alt: Max Distance
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Max Distance
 
 https://www.interviewbit.com/problems/max-distance

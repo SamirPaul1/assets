@@ -1,3 +1,18 @@
+---
+title: Single Element In A Sorted Array
+summary: Single Element In A Sorted Array - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Single Element In A Sorted Array solution]
+aliases: ["/posts/single-element-in-a-sorted-array", "/blog/posts/single-element-in-a-sorted-array", "/single-element-in-a-sorted-array"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Element In A Sorted Array - Solution Explained/problem-solving.webp
+    alt: Single Element In A Sorted Array
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Single Element in a Sorted Array
 
 https://www.interviewbit.com/problems/single-element-in-a-sorted-array/

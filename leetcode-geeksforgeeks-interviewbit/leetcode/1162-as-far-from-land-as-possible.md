@@ -1,10 +1,16 @@
 ---
-title: 1162 as far from land as possible
-tags: leetcode
-categories: leetcode
+title: 1162 As Far From Land As Possible
+summary: 1162 As Far From Land As Possible LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1162-as-far-from-land-as-possible", "/blog/posts/1162-as-far-from-land-as-possible", "/1162-as-far-from-land-as-possible"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1162-as-far-from-land-as-possible solution
-description: 1162 as far from land as possible LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1162 As Far From Land As Possible/problem-solving.webp
+    alt: 1162 As Far From Land As Possible
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

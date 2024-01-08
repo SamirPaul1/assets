@@ -1,10 +1,16 @@
 ---
-title: 0646 maximum length of pair chain
-tags: leetcode
-categories: leetcode
+title: 0646 Maximum Length Of Pair Chain
+summary: 0646 Maximum Length Of Pair Chain LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0646-maximum-length-of-pair-chain", "/blog/posts/0646-maximum-length-of-pair-chain", "/0646-maximum-length-of-pair-chain"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0646-maximum-length-of-pair-chain solution
-description: 0646 maximum length of pair chain LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0646 Maximum Length Of Pair Chain/problem-solving.webp
+    alt: 0646 Maximum Length Of Pair Chain
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

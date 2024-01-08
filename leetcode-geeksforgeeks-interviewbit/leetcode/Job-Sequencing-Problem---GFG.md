@@ -1,10 +1,16 @@
 ---
-title: Job Sequencing Problem   GFG
-tags: leetcode
-categories: leetcode
+title: Job Sequencing Problem   Gfg
+summary: Job Sequencing Problem   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Job-Sequencing-Problem---GFG", "/blog/posts/Job-Sequencing-Problem---GFG", "/Job-Sequencing-Problem---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Job Sequencing Problem - GFG solution
-description: Job Sequencing Problem   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Job Sequencing Problem   Gfg/problem-solving.webp
+    alt: Job Sequencing Problem   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

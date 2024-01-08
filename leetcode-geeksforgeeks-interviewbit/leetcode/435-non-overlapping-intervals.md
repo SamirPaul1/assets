@@ -1,10 +1,16 @@
 ---
-title: 435 non overlapping intervals
-tags: leetcode
-categories: leetcode
+title: 435 Non Overlapping Intervals
+summary: 435 Non Overlapping Intervals LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/435-non-overlapping-intervals", "/blog/posts/435-non-overlapping-intervals", "/435-non-overlapping-intervals"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 435-non-overlapping-intervals solution
-description: 435 non overlapping intervals LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:435 Non Overlapping Intervals/problem-solving.webp
+    alt: 435 Non Overlapping Intervals
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

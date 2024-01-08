@@ -1,10 +1,16 @@
 ---
-title: find k closest elements
-tags: leetcode
-categories: leetcode
+title: Find K Closest Elements
+summary: Find K Closest Elements LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-k-closest-elements", "/blog/posts/find-k-closest-elements", "/find-k-closest-elements"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-k-closest-elements solution
-description: find k closest elements LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find K Closest Elements/problem-solving.webp
+    alt: Find K Closest Elements
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: validate binary search tree
-tags: leetcode
-categories: leetcode
+title: Validate Binary Search Tree
+summary: Validate Binary Search Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/validate-binary-search-tree", "/blog/posts/validate-binary-search-tree", "/validate-binary-search-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, validate-binary-search-tree solution
-description: validate binary search tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Validate Binary Search Tree/problem-solving.webp
+    alt: Validate Binary Search Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

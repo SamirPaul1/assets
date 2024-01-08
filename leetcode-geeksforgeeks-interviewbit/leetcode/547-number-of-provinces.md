@@ -1,10 +1,16 @@
 ---
-title: 547 number of provinces
-tags: leetcode
-categories: leetcode
+title: 547 Number Of Provinces
+summary: 547 Number Of Provinces LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/547-number-of-provinces", "/blog/posts/547-number-of-provinces", "/547-number-of-provinces"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 547-number-of-provinces solution
-description: 547 number of provinces LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:547 Number Of Provinces/problem-solving.webp
+    alt: 547 Number Of Provinces
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: multiply strings
-tags: leetcode
-categories: leetcode
+title: Multiply Strings
+summary: Multiply Strings LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/multiply-strings", "/blog/posts/multiply-strings", "/multiply-strings"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, multiply-strings solution
-description: multiply strings LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Multiply Strings/problem-solving.webp
+    alt: Multiply Strings
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

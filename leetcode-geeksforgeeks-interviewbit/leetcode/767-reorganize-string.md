@@ -1,10 +1,16 @@
 ---
-title: 767 reorganize string
-tags: leetcode
-categories: leetcode
+title: 767 Reorganize String
+summary: 767 Reorganize String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/767-reorganize-string", "/blog/posts/767-reorganize-string", "/767-reorganize-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 767-reorganize-string solution
-description: 767 reorganize string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:767 Reorganize String/problem-solving.webp
+    alt: 767 Reorganize String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

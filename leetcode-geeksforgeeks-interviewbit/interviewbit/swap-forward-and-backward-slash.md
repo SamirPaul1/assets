@@ -1,3 +1,18 @@
+---
+title: Swap Forward And Backward Slash
+summary: Swap Forward And Backward Slash - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Swap Forward And Backward Slash solution]
+aliases: ["/posts/swap-forward-and-backward-slash", "/blog/posts/swap-forward-and-backward-slash", "/swap-forward-and-backward-slash"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Swap Forward And Backward Slash - Solution Explained/problem-solving.webp
+    alt: Swap Forward And Backward Slash
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Swap Forward And Backward Slash
 
 https://www.interviewbit.com/problems/swap-forward-and-backward-slash/

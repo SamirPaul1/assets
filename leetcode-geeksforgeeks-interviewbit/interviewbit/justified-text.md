@@ -1,3 +1,18 @@
+---
+title: Justified Text
+summary: Justified Text - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Justified Text solution]
+aliases: ["/posts/justified-text", "/blog/posts/justified-text", "/justified-text"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Justified Text - Solution Explained/problem-solving.webp
+    alt: Justified Text
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Justified Text
 
 https://www.interviewbit.com/problems/justified-text

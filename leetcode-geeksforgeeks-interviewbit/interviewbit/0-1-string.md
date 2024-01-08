@@ -1,3 +1,18 @@
+---
+title: 0 1 String
+summary: 0 1 String - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, 0 1 String solution]
+aliases: ["/posts/0-1-string", "/blog/posts/0-1-string", "/0-1-string"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0 1 String - Solution Explained/problem-solving.webp
+    alt: 0 1 String
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # 0/1 String
 
 https://www.interviewbit.com/problems/0-1-string/

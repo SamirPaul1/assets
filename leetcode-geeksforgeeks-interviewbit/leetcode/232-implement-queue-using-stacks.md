@@ -1,10 +1,16 @@
 ---
-title: 232 implement queue using stacks
-tags: leetcode
-categories: leetcode
+title: 232 Implement Queue Using Stacks
+summary: 232 Implement Queue Using Stacks LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/232-implement-queue-using-stacks", "/blog/posts/232-implement-queue-using-stacks", "/232-implement-queue-using-stacks"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 232-implement-queue-using-stacks solution
-description: 232 implement queue using stacks LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:232 Implement Queue Using Stacks/problem-solving.webp
+    alt: 232 Implement Queue Using Stacks
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

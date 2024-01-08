@@ -1,10 +1,16 @@
 ---
-title: 152 maximum product subarray
-tags: leetcode
-categories: leetcode
+title: 152 Maximum Product Subarray
+summary: 152 Maximum Product Subarray LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/152-maximum-product-subarray", "/blog/posts/152-maximum-product-subarray", "/152-maximum-product-subarray"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 152-maximum-product-subarray solution
-description: 152 maximum product subarray LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:152 Maximum Product Subarray/problem-solving.webp
+    alt: 152 Maximum Product Subarray
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

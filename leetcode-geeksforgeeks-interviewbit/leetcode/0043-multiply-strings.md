@@ -1,10 +1,16 @@
 ---
-title: 0043 multiply strings
-tags: leetcode
-categories: leetcode
+title: 0043 Multiply Strings
+summary: 0043 Multiply Strings LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0043-multiply-strings", "/blog/posts/0043-multiply-strings", "/0043-multiply-strings"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0043-multiply-strings solution
-description: 0043 multiply strings LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0043 Multiply Strings/problem-solving.webp
+    alt: 0043 Multiply Strings
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

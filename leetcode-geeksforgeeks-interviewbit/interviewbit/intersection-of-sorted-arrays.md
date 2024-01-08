@@ -1,3 +1,18 @@
+---
+title: Intersection Of Sorted Arrays
+summary: Intersection Of Sorted Arrays - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Intersection Of Sorted Arrays solution]
+aliases: ["/posts/intersection-of-sorted-arrays", "/blog/posts/intersection-of-sorted-arrays", "/intersection-of-sorted-arrays"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Intersection Of Sorted Arrays - Solution Explained/problem-solving.webp
+    alt: Intersection Of Sorted Arrays
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Intersection Of Sorted Arrays
 
 https://www.interviewbit.com/problems/intersection-of-sorted-arrays

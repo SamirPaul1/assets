@@ -1,10 +1,16 @@
 ---
-title: triangle
-tags: leetcode
-categories: leetcode
+title: Triangle
+summary: Triangle LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/triangle", "/blog/posts/triangle", "/triangle"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, triangle solution
-description: triangle LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Triangle/problem-solving.webp
+    alt: Triangle
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

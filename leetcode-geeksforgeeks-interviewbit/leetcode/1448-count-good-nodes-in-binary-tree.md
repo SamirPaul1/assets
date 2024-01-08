@@ -1,10 +1,16 @@
 ---
-title: 1448 count good nodes in binary tree
-tags: leetcode
-categories: leetcode
+title: 1448 Count Good Nodes In Binary Tree
+summary: 1448 Count Good Nodes In Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1448-count-good-nodes-in-binary-tree", "/blog/posts/1448-count-good-nodes-in-binary-tree", "/1448-count-good-nodes-in-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1448-count-good-nodes-in-binary-tree solution
-description: 1448 count good nodes in binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1448 Count Good Nodes In Binary Tree/problem-solving.webp
+    alt: 1448 Count Good Nodes In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

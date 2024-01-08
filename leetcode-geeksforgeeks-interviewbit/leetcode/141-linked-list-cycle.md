@@ -1,10 +1,16 @@
 ---
-title: 141 linked list cycle
-tags: leetcode
-categories: leetcode
+title: 141 Linked List Cycle
+summary: 141 Linked List Cycle LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/141-linked-list-cycle", "/blog/posts/141-linked-list-cycle", "/141-linked-list-cycle"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 141-linked-list-cycle solution
-description: 141 linked list cycle LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:141 Linked List Cycle/problem-solving.webp
+    alt: 141 Linked List Cycle
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Sort By Frequency
+summary: Sort By Frequency - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sort By Frequency solution]
+aliases: ["/posts/sort-by-frequency", "/blog/posts/sort-by-frequency", "/sort-by-frequency"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort By Frequency - Solution Explained/problem-solving.webp
+    alt: Sort By Frequency
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sort by Frequency
 
 https://www.interviewbit.com/problems/sort-by-frequency/

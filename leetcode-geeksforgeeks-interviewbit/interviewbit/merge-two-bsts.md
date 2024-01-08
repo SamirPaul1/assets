@@ -1,3 +1,18 @@
+---
+title: Merge Two Bsts
+summary: Merge Two Bsts - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge Two Bsts solution]
+aliases: ["/posts/merge-two-bsts", "/blog/posts/merge-two-bsts", "/merge-two-bsts"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Two Bsts - Solution Explained/problem-solving.webp
+    alt: Merge Two Bsts
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Merge Two BSTs
 
 https://www.interviewbit.com/problems/merge-two-bsts

@@ -1,10 +1,16 @@
 ---
-title: 0176 second highest salary
-tags: leetcode
-categories: leetcode
+title: 0176 Second Highest Salary
+summary: 0176 Second Highest Salary LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0176-second-highest-salary", "/blog/posts/0176-second-highest-salary", "/0176-second-highest-salary"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0176-second-highest-salary solution
-description: 0176 second highest salary LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0176 Second Highest Salary/problem-solving.webp
+    alt: 0176 Second Highest Salary
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 1312 minimum insertion steps to make a string palindrome
-tags: leetcode
-categories: leetcode
+title: 1312 Minimum Insertion Steps To Make A String Palindrome
+summary: 1312 Minimum Insertion Steps To Make A String Palindrome LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1312-minimum-insertion-steps-to-make-a-string-palindrome", "/blog/posts/1312-minimum-insertion-steps-to-make-a-string-palindrome", "/1312-minimum-insertion-steps-to-make-a-string-palindrome"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1312-minimum-insertion-steps-to-make-a-string-palindrome solution
-description: 1312 minimum insertion steps to make a string palindrome LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1312 Minimum Insertion Steps To Make A String Palindrome/problem-solving.webp
+    alt: 1312 Minimum Insertion Steps To Make A String Palindrome
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

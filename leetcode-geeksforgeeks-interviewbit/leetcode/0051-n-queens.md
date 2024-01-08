@@ -1,10 +1,16 @@
 ---
-title: 0051 n queens
-tags: leetcode
-categories: leetcode
+title: 0051 N Queens
+summary: 0051 N Queens LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0051-n-queens", "/blog/posts/0051-n-queens", "/0051-n-queens"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0051-n-queens solution
-description: 0051 n queens LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0051 N Queens/problem-solving.webp
+    alt: 0051 N Queens
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

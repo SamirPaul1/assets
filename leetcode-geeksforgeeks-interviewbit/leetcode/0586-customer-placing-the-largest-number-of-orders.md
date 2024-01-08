@@ -1,10 +1,16 @@
 ---
-title: 0586 customer placing the largest number of orders
-tags: leetcode
-categories: leetcode
+title: 0586 Customer Placing The Largest Number Of Orders
+summary: 0586 Customer Placing The Largest Number Of Orders LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0586-customer-placing-the-largest-number-of-orders", "/blog/posts/0586-customer-placing-the-largest-number-of-orders", "/0586-customer-placing-the-largest-number-of-orders"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0586-customer-placing-the-largest-number-of-orders solution
-description: 0586 customer placing the largest number of orders LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0586 Customer Placing The Largest Number Of Orders/problem-solving.webp
+    alt: 0586 Customer Placing The Largest Number Of Orders
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

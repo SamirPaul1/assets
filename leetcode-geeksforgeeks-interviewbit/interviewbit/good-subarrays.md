@@ -1,3 +1,18 @@
+---
+title: Good Subarrays
+summary: Good Subarrays - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Good Subarrays solution]
+aliases: ["/posts/good-subarrays", "/blog/posts/good-subarrays", "/good-subarrays"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Good Subarrays - Solution Explained/problem-solving.webp
+    alt: Good Subarrays
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Good Subarrays
 
 https://www.interviewbit.com/problems/good-subarrays/

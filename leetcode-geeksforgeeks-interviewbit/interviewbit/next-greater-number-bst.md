@@ -1,3 +1,18 @@
+---
+title: Next Greater Number Bst
+summary: Next Greater Number Bst - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Next Greater Number Bst solution]
+aliases: ["/posts/next-greater-number-bst", "/blog/posts/next-greater-number-bst", "/next-greater-number-bst"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Next Greater Number Bst - Solution Explained/problem-solving.webp
+    alt: Next Greater Number Bst
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Next Greater Number Bst
 
 https://www.interviewbit.com/problems/next-greater-number-bst

@@ -1,10 +1,16 @@
 ---
-title: 0493 reverse pairs
-tags: leetcode
-categories: leetcode
+title: 0493 Reverse Pairs
+summary: 0493 Reverse Pairs LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0493-reverse-pairs", "/blog/posts/0493-reverse-pairs", "/0493-reverse-pairs"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0493-reverse-pairs solution
-description: 0493 reverse pairs LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0493 Reverse Pairs/problem-solving.webp
+    alt: 0493 Reverse Pairs
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

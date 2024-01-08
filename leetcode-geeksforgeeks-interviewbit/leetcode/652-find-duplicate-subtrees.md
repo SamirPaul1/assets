@@ -1,10 +1,16 @@
 ---
-title: 652 find duplicate subtrees
-tags: leetcode
-categories: leetcode
+title: 652 Find Duplicate Subtrees
+summary: 652 Find Duplicate Subtrees LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/652-find-duplicate-subtrees", "/blog/posts/652-find-duplicate-subtrees", "/652-find-duplicate-subtrees"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 652-find-duplicate-subtrees solution
-description: 652 find duplicate subtrees LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:652 Find Duplicate Subtrees/problem-solving.webp
+    alt: 652 Find Duplicate Subtrees
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 1321 get equal substrings within budget
-tags: leetcode
-categories: leetcode
+title: 1321 Get Equal Substrings Within Budget
+summary: 1321 Get Equal Substrings Within Budget LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1321-get-equal-substrings-within-budget", "/blog/posts/1321-get-equal-substrings-within-budget", "/1321-get-equal-substrings-within-budget"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1321-get-equal-substrings-within-budget solution
-description: 1321 get equal substrings within budget LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1321 Get Equal Substrings Within Budget/problem-solving.webp
+    alt: 1321 Get Equal Substrings Within Budget
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

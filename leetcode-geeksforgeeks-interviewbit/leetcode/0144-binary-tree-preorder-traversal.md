@@ -1,10 +1,16 @@
 ---
-title: 0144 binary tree preorder traversal
-tags: leetcode
-categories: leetcode
+title: 0144 Binary Tree Preorder Traversal
+summary: 0144 Binary Tree Preorder Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0144-binary-tree-preorder-traversal", "/blog/posts/0144-binary-tree-preorder-traversal", "/0144-binary-tree-preorder-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0144-binary-tree-preorder-traversal solution
-description: 0144 binary tree preorder traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0144 Binary Tree Preorder Traversal/problem-solving.webp
+    alt: 0144 Binary Tree Preorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

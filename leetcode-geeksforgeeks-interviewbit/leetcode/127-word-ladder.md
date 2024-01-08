@@ -1,10 +1,16 @@
 ---
-title: 127 word ladder
-tags: leetcode
-categories: leetcode
+title: 127 Word Ladder
+summary: 127 Word Ladder LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/127-word-ladder", "/blog/posts/127-word-ladder", "/127-word-ladder"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 127-word-ladder solution
-description: 127 word ladder LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:127 Word Ladder/problem-solving.webp
+    alt: 127 Word Ladder
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: find and replace pattern
-tags: leetcode
-categories: leetcode
+title: Find And Replace Pattern
+summary: Find And Replace Pattern LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-and-replace-pattern", "/blog/posts/find-and-replace-pattern", "/find-and-replace-pattern"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-and-replace-pattern solution
-description: find and replace pattern LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find And Replace Pattern/problem-solving.webp
+    alt: Find And Replace Pattern
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

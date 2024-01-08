@@ -1,3 +1,18 @@
+---
+title: Magician And Chocolates
+summary: Magician And Chocolates - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Magician And Chocolates solution]
+aliases: ["/posts/magician-and-chocolates", "/blog/posts/magician-and-chocolates", "/magician-and-chocolates"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Magician And Chocolates - Solution Explained/problem-solving.webp
+    alt: Magician And Chocolates
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Magician and Chocolates
 
 https://www.interviewbit.com/problems/magician-and-chocolates

@@ -1,10 +1,16 @@
 ---
-title: 1084 sales analysis iii
-tags: leetcode
-categories: leetcode
+title: 1084 Sales Analysis Iii
+summary: 1084 Sales Analysis Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1084-sales-analysis-iii", "/blog/posts/1084-sales-analysis-iii", "/1084-sales-analysis-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1084-sales-analysis-iii solution
-description: 1084 sales analysis iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1084 Sales Analysis Iii/problem-solving.webp
+    alt: 1084 Sales Analysis Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

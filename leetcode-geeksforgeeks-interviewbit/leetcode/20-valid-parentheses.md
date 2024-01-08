@@ -1,10 +1,16 @@
 ---
-title: 20 valid parentheses
-tags: leetcode
-categories: leetcode
+title: 20 Valid Parentheses
+summary: 20 Valid Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/20-valid-parentheses", "/blog/posts/20-valid-parentheses", "/20-valid-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 20-valid-parentheses solution
-description: 20 valid parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:20 Valid Parentheses/problem-solving.webp
+    alt: 20 Valid Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

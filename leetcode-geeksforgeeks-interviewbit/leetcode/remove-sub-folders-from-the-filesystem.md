@@ -1,10 +1,16 @@
 ---
-title: remove sub folders from the filesystem
-tags: leetcode
-categories: leetcode
+title: Remove Sub Folders From The Filesystem
+summary: Remove Sub Folders From The Filesystem LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/remove-sub-folders-from-the-filesystem", "/blog/posts/remove-sub-folders-from-the-filesystem", "/remove-sub-folders-from-the-filesystem"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, remove-sub-folders-from-the-filesystem solution
-description: remove sub folders from the filesystem LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Sub Folders From The Filesystem/problem-solving.webp
+    alt: Remove Sub Folders From The Filesystem
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

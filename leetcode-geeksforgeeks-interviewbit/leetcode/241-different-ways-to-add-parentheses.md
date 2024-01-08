@@ -1,10 +1,16 @@
 ---
-title: 241 different ways to add parentheses
-tags: leetcode
-categories: leetcode
+title: 241 Different Ways To Add Parentheses
+summary: 241 Different Ways To Add Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/241-different-ways-to-add-parentheses", "/blog/posts/241-different-ways-to-add-parentheses", "/241-different-ways-to-add-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 241-different-ways-to-add-parentheses solution
-description: 241 different ways to add parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:241 Different Ways To Add Parentheses/problem-solving.webp
+    alt: 241 Different Ways To Add Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

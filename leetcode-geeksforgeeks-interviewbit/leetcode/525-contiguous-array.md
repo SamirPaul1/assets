@@ -1,10 +1,16 @@
 ---
-title: 525 contiguous array
-tags: leetcode
-categories: leetcode
+title: 525 Contiguous Array
+summary: 525 Contiguous Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/525-contiguous-array", "/blog/posts/525-contiguous-array", "/525-contiguous-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 525-contiguous-array solution
-description: 525 contiguous array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:525 Contiguous Array/problem-solving.webp
+    alt: 525 Contiguous Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

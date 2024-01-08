@@ -1,3 +1,18 @@
+---
+title: Implement Strstr
+summary: Implement Strstr - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Implement Strstr solution]
+aliases: ["/posts/implement-strstr", "/blog/posts/implement-strstr", "/implement-strstr"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Implement Strstr - Solution Explained/problem-solving.webp
+    alt: Implement Strstr
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Implement Strstr
 
 https://www.interviewbit.com/problems/implement-strstr

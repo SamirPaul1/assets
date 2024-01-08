@@ -1,10 +1,16 @@
 ---
-title: 0190 reverse bits
-tags: leetcode
-categories: leetcode
+title: 0190 Reverse Bits
+summary: 0190 Reverse Bits LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0190-reverse-bits", "/blog/posts/0190-reverse-bits", "/0190-reverse-bits"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0190-reverse-bits solution
-description: 0190 reverse bits LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0190 Reverse Bits/problem-solving.webp
+    alt: 0190 Reverse Bits
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

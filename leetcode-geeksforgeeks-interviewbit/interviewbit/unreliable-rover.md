@@ -1,3 +1,18 @@
+---
+title: Unreliable Rover
+summary: Unreliable Rover - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Unreliable Rover solution]
+aliases: ["/posts/unreliable-rover", "/blog/posts/unreliable-rover", "/unreliable-rover"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Unreliable Rover - Solution Explained/problem-solving.webp
+    alt: Unreliable Rover
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Unreliable Rover
 
 https://www.interviewbit.com/problems/unreliable-rover/

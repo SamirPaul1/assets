@@ -1,3 +1,18 @@
+---
+title: Matrix Search
+summary: Matrix Search - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Matrix Search solution]
+aliases: ["/posts/matrix-search", "/blog/posts/matrix-search", "/matrix-search"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Matrix Search - Solution Explained/problem-solving.webp
+    alt: Matrix Search
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Matrix Search
 
 https://www.interviewbit.com/problems/matrix-search

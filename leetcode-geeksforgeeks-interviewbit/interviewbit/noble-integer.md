@@ -1,3 +1,18 @@
+---
+title: Noble Integer
+summary: Noble Integer - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Noble Integer solution]
+aliases: ["/posts/noble-integer", "/blog/posts/noble-integer", "/noble-integer"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Noble Integer - Solution Explained/problem-solving.webp
+    alt: Noble Integer
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Noble Integer
 
 https://www.interviewbit.com/problems/noble-integer/

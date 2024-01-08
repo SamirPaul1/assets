@@ -1,10 +1,16 @@
 ---
-title: 743 network delay time
-tags: leetcode
-categories: leetcode
+title: 743 Network Delay Time
+summary: 743 Network Delay Time LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/743-network-delay-time", "/blog/posts/743-network-delay-time", "/743-network-delay-time"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 743-network-delay-time solution
-description: 743 network delay time LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:743 Network Delay Time/problem-solving.webp
+    alt: 743 Network Delay Time
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

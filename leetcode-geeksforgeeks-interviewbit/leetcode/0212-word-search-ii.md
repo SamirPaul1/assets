@@ -1,10 +1,16 @@
 ---
-title: 0212 word search ii
-tags: leetcode
-categories: leetcode
+title: 0212 Word Search Ii
+summary: 0212 Word Search Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0212-word-search-ii", "/blog/posts/0212-word-search-ii", "/0212-word-search-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0212-word-search-ii solution
-description: 0212 word search ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0212 Word Search Ii/problem-solving.webp
+    alt: 0212 Word Search Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

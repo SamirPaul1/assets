@@ -1,10 +1,16 @@
 ---
-title: 1741 find total time spent by each employee
-tags: leetcode
-categories: leetcode
+title: 1741 Find Total Time Spent By Each Employee
+summary: 1741 Find Total Time Spent By Each Employee LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1741-find-total-time-spent-by-each-employee", "/blog/posts/1741-find-total-time-spent-by-each-employee", "/1741-find-total-time-spent-by-each-employee"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1741-find-total-time-spent-by-each-employee solution
-description: 1741 find total time spent by each employee LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1741 Find Total Time Spent By Each Employee/problem-solving.webp
+    alt: 1741 Find Total Time Spent By Each Employee
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

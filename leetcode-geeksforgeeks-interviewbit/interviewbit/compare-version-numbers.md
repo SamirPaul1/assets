@@ -1,3 +1,18 @@
+---
+title: Compare Version Numbers
+summary: Compare Version Numbers - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Compare Version Numbers solution]
+aliases: ["/posts/compare-version-numbers", "/blog/posts/compare-version-numbers", "/compare-version-numbers"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Compare Version Numbers - Solution Explained/problem-solving.webp
+    alt: Compare Version Numbers
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Compare Version Numbers
 
 https://www.interviewbit.com/problems/compare-version-numbers

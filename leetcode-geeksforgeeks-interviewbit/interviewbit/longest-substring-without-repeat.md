@@ -1,3 +1,18 @@
+---
+title: Longest Substring Without Repeat
+summary: Longest Substring Without Repeat - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Substring Without Repeat solution]
+aliases: ["/posts/longest-substring-without-repeat", "/blog/posts/longest-substring-without-repeat", "/longest-substring-without-repeat"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Substring Without Repeat - Solution Explained/problem-solving.webp
+    alt: Longest Substring Without Repeat
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Longest Substring Without Repeat
 
 https://www.interviewbit.com/problems/longest-substring-without-repeat

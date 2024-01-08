@@ -1,3 +1,18 @@
+---
+title: Nqueens
+summary: Nqueens - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Nqueens solution]
+aliases: ["/posts/nqueens", "/blog/posts/nqueens", "/nqueens"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Nqueens - Solution Explained/problem-solving.webp
+    alt: Nqueens
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Nq Queens
 
 https://www.interviewbit.com/problems/nq-queens

@@ -1,10 +1,16 @@
 ---
-title: subsets ii
-tags: leetcode
-categories: leetcode
+title: Subsets Ii
+summary: Subsets Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/subsets-ii", "/blog/posts/subsets-ii", "/subsets-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, subsets-ii solution
-description: subsets ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subsets Ii/problem-solving.webp
+    alt: Subsets Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

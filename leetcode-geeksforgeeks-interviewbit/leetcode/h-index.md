@@ -1,10 +1,16 @@
 ---
-title: h index
-tags: leetcode
-categories: leetcode
+title: H Index
+summary: H Index LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/h-index", "/blog/posts/h-index", "/h-index"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, h-index solution
-description: h index LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:H Index/problem-solving.webp
+    alt: H Index
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

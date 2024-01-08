@@ -1,10 +1,16 @@
 ---
-title: 1729 find followers count
-tags: leetcode
-categories: leetcode
+title: 1729 Find Followers Count
+summary: 1729 Find Followers Count LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1729-find-followers-count", "/blog/posts/1729-find-followers-count", "/1729-find-followers-count"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1729-find-followers-count solution
-description: 1729 find followers count LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1729 Find Followers Count/problem-solving.webp
+    alt: 1729 Find Followers Count
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

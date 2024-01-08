@@ -1,10 +1,16 @@
 ---
-title: 2 keys keyboard
-tags: leetcode
-categories: leetcode
+title: 2 Keys Keyboard
+summary: 2 Keys Keyboard LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2-keys-keyboard", "/blog/posts/2-keys-keyboard", "/2-keys-keyboard"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2-keys-keyboard solution
-description: 2 keys keyboard LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2 Keys Keyboard/problem-solving.webp
+    alt: 2 Keys Keyboard
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 1911 maximum alternating subsequence sum
-tags: leetcode
-categories: leetcode
+title: 1911 Maximum Alternating Subsequence Sum
+summary: 1911 Maximum Alternating Subsequence Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1911-maximum-alternating-subsequence-sum", "/blog/posts/1911-maximum-alternating-subsequence-sum", "/1911-maximum-alternating-subsequence-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1911-maximum-alternating-subsequence-sum solution
-description: 1911 maximum alternating subsequence sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1911 Maximum Alternating Subsequence Sum/problem-solving.webp
+    alt: 1911 Maximum Alternating Subsequence Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

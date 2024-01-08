@@ -1,10 +1,16 @@
 ---
-title: 128 longest consecutive sequence
-tags: leetcode
-categories: leetcode
+title: 128 Longest Consecutive Sequence
+summary: 128 Longest Consecutive Sequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/128-longest-consecutive-sequence", "/blog/posts/128-longest-consecutive-sequence", "/128-longest-consecutive-sequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 128-longest-consecutive-sequence solution
-description: 128 longest consecutive sequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:128 Longest Consecutive Sequence/problem-solving.webp
+    alt: 128 Longest Consecutive Sequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

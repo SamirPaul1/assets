@@ -1,10 +1,16 @@
 ---
-title: 632 smallest range covering elements from k lists
-tags: leetcode
-categories: leetcode
+title: 632 Smallest Range Covering Elements From K Lists
+summary: 632 Smallest Range Covering Elements From K Lists LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/632-smallest-range-covering-elements-from-k-lists", "/blog/posts/632-smallest-range-covering-elements-from-k-lists", "/632-smallest-range-covering-elements-from-k-lists"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 632-smallest-range-covering-elements-from-k-lists solution
-description: 632 smallest range covering elements from k lists LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:632 Smallest Range Covering Elements From K Lists/problem-solving.webp
+    alt: 632 Smallest Range Covering Elements From K Lists
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

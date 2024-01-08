@@ -1,10 +1,16 @@
 ---
-title: partition equal subset sum
-tags: leetcode
-categories: leetcode
+title: Partition Equal Subset Sum
+summary: Partition Equal Subset Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/partition-equal-subset-sum", "/blog/posts/partition-equal-subset-sum", "/partition-equal-subset-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, partition-equal-subset-sum solution
-description: partition equal subset sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Partition Equal Subset Sum/problem-solving.webp
+    alt: Partition Equal Subset Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

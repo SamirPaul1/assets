@@ -1,10 +1,16 @@
 ---
-title: 91 decode ways
-tags: leetcode
-categories: leetcode
+title: 91 Decode Ways
+summary: 91 Decode Ways LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/91-decode-ways", "/blog/posts/91-decode-ways", "/91-decode-ways"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 91-decode-ways solution
-description: 91 decode ways LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:91 Decode Ways/problem-solving.webp
+    alt: 91 Decode Ways
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

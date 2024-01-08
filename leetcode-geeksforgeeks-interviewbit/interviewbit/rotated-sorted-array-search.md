@@ -1,3 +1,18 @@
+---
+title: Rotated Sorted Array Search
+summary: Rotated Sorted Array Search - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rotated Sorted Array Search solution]
+aliases: ["/posts/rotated-sorted-array-search", "/blog/posts/rotated-sorted-array-search", "/rotated-sorted-array-search"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotated Sorted Array Search - Solution Explained/problem-solving.webp
+    alt: Rotated Sorted Array Search
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Rotated Sorted Array Search
 
 https://www.interviewbit.com/problems/rotated-sorted-array-search/

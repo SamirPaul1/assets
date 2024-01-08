@@ -1,3 +1,18 @@
+---
+title: Rotate Matrix
+summary: Rotate Matrix - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rotate Matrix solution]
+aliases: ["/posts/rotate-matrix", "/blog/posts/rotate-matrix", "/rotate-matrix"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotate Matrix - Solution Explained/problem-solving.webp
+    alt: Rotate Matrix
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Rotate Matrix
 
 https://www.interviewbit.com/problems/rotate-matrix/

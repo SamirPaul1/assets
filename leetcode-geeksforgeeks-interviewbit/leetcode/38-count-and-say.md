@@ -1,10 +1,16 @@
 ---
-title: 38 count and say
-tags: leetcode
-categories: leetcode
+title: 38 Count And Say
+summary: 38 Count And Say LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/38-count-and-say", "/blog/posts/38-count-and-say", "/38-count-and-say"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 38-count-and-say solution
-description: 38 count and say LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:38 Count And Say/problem-solving.webp
+    alt: 38 Count And Say
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

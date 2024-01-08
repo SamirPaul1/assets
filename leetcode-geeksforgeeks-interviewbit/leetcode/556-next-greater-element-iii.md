@@ -1,10 +1,16 @@
 ---
-title: 556 next greater element iii
-tags: leetcode
-categories: leetcode
+title: 556 Next Greater Element Iii
+summary: 556 Next Greater Element Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/556-next-greater-element-iii", "/blog/posts/556-next-greater-element-iii", "/556-next-greater-element-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 556-next-greater-element-iii solution
-description: 556 next greater element iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:556 Next Greater Element Iii/problem-solving.webp
+    alt: 556 Next Greater Element Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

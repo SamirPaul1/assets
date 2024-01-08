@@ -1,10 +1,16 @@
 ---
-title: 1219 path with maximum gold
-tags: leetcode
-categories: leetcode
+title: 1219 Path With Maximum Gold
+summary: 1219 Path With Maximum Gold LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1219-path-with-maximum-gold", "/blog/posts/1219-path-with-maximum-gold", "/1219-path-with-maximum-gold"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1219-path-with-maximum-gold solution
-description: 1219 path with maximum gold LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1219 Path With Maximum Gold/problem-solving.webp
+    alt: 1219 Path With Maximum Gold
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

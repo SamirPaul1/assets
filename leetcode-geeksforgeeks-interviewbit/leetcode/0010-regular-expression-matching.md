@@ -1,10 +1,16 @@
 ---
-title: 0010 regular expression matching
-tags: leetcode
-categories: leetcode
+title: 0010 Regular Expression Matching
+summary: 0010 Regular Expression Matching LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0010-regular-expression-matching", "/blog/posts/0010-regular-expression-matching", "/0010-regular-expression-matching"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0010-regular-expression-matching solution
-description: 0010 regular expression matching LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0010 Regular Expression Matching/problem-solving.webp
+    alt: 0010 Regular Expression Matching
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

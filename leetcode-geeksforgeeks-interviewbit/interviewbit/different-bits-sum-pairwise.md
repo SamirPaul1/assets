@@ -1,3 +1,18 @@
+---
+title: Different Bits Sum Pairwise
+summary: Different Bits Sum Pairwise - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Different Bits Sum Pairwise solution]
+aliases: ["/posts/different-bits-sum-pairwise", "/blog/posts/different-bits-sum-pairwise", "/different-bits-sum-pairwise"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Different Bits Sum Pairwise - Solution Explained/problem-solving.webp
+    alt: Different Bits Sum Pairwise
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Different Bits Sum Pairwise
 
 https://www.interviewbit.com/problems/different-bits-sum-pairwise

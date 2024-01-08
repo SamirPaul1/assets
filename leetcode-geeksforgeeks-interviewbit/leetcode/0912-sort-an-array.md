@@ -1,10 +1,16 @@
 ---
-title: 0912 sort an array
-tags: leetcode
-categories: leetcode
+title: 0912 Sort An Array
+summary: 0912 Sort An Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0912-sort-an-array", "/blog/posts/0912-sort-an-array", "/0912-sort-an-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0912-sort-an-array solution
-description: 0912 sort an array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0912 Sort An Array/problem-solving.webp
+    alt: 0912 Sort An Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

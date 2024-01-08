@@ -1,3 +1,18 @@
+---
+title: Stairs
+summary: Stairs - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Stairs solution]
+aliases: ["/posts/stairs", "/blog/posts/stairs", "/stairs"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Stairs - Solution Explained/problem-solving.webp
+    alt: Stairs
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Stairs
 
 https://www.interviewbit.com/problems/stairs/

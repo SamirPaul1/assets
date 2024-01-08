@@ -1,3 +1,18 @@
+---
+title: Max Sum Contiguous Subarray
+summary: Max Sum Contiguous Subarray - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Sum Contiguous Subarray solution]
+aliases: ["/posts/max-sum-contiguous-subarray", "/blog/posts/max-sum-contiguous-subarray", "/max-sum-contiguous-subarray"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Sum Contiguous Subarray - Solution Explained/problem-solving.webp
+    alt: Max Sum Contiguous Subarray
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Max Sum Contiguous Subarray
 
 https://www.interviewbit.com/problems/max-sum-contiguous-subarray/

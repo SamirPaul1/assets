@@ -1,10 +1,16 @@
 ---
-title: 0687 longest univalue path
-tags: leetcode
-categories: leetcode
+title: 0687 Longest Univalue Path
+summary: 0687 Longest Univalue Path LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0687-longest-univalue-path", "/blog/posts/0687-longest-univalue-path", "/0687-longest-univalue-path"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0687-longest-univalue-path solution
-description: 0687 longest univalue path LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0687 Longest Univalue Path/problem-solving.webp
+    alt: 0687 Longest Univalue Path
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

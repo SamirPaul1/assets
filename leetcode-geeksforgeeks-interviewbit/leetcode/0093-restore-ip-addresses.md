@@ -1,10 +1,16 @@
 ---
-title: 0093 restore ip addresses
-tags: leetcode
-categories: leetcode
+title: 0093 Restore Ip Addresses
+summary: 0093 Restore Ip Addresses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0093-restore-ip-addresses", "/blog/posts/0093-restore-ip-addresses", "/0093-restore-ip-addresses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0093-restore-ip-addresses solution
-description: 0093 restore ip addresses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0093 Restore Ip Addresses/problem-solving.webp
+    alt: 0093 Restore Ip Addresses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

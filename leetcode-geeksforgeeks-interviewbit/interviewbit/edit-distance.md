@@ -1,3 +1,18 @@
+---
+title: Edit Distance
+summary: Edit Distance - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Edit Distance solution]
+aliases: ["/posts/edit-distance", "/blog/posts/edit-distance", "/edit-distance"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Edit Distance - Solution Explained/problem-solving.webp
+    alt: Edit Distance
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Edit Distance
 
 https://www.interviewbit.com/problems/edit-distance/

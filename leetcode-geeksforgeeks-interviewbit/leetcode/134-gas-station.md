@@ -1,10 +1,16 @@
 ---
-title: 134 gas station
-tags: leetcode
-categories: leetcode
+title: 134 Gas Station
+summary: 134 Gas Station LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/134-gas-station", "/blog/posts/134-gas-station", "/134-gas-station"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 134-gas-station solution
-description: 134 gas station LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:134 Gas Station/problem-solving.webp
+    alt: 134 Gas Station
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

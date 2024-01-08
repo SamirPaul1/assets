@@ -1,3 +1,18 @@
+---
+title: Largest Number
+summary: Largest Number - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Largest Number solution]
+aliases: ["/posts/largest-number", "/blog/posts/largest-number", "/largest-number"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Number - Solution Explained/problem-solving.webp
+    alt: Largest Number
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Largest Number
 
 https://www.interviewbit.com/problems/largest-number/

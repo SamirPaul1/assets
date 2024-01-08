@@ -1,10 +1,16 @@
 ---
-title: 53 maximum subarray
-tags: leetcode
-categories: leetcode
+title: 53 Maximum Subarray
+summary: 53 Maximum Subarray LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/53-maximum-subarray", "/blog/posts/53-maximum-subarray", "/53-maximum-subarray"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 53-maximum-subarray solution
-description: 53 maximum subarray LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:53 Maximum Subarray/problem-solving.webp
+    alt: 53 Maximum Subarray
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Maximum Consecutive Gap
+summary: Maximum Consecutive Gap - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Consecutive Gap solution]
+aliases: ["/posts/maximum-consecutive-gap", "/blog/posts/maximum-consecutive-gap", "/maximum-consecutive-gap"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Consecutive Gap - Solution Explained/problem-solving.webp
+    alt: Maximum Consecutive Gap
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Maximum Consecutive Gap
 
 https://www.interviewbit.com/problems/maximum-consecutive-gap/

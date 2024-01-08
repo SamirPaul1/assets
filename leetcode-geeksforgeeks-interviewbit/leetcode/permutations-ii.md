@@ -1,10 +1,16 @@
 ---
-title: permutations ii
-tags: leetcode
-categories: leetcode
+title: Permutations Ii
+summary: Permutations Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/permutations-ii", "/blog/posts/permutations-ii", "/permutations-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, permutations-ii solution
-description: permutations ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Permutations Ii/problem-solving.webp
+    alt: Permutations Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

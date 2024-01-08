@@ -1,3 +1,18 @@
+---
+title: Valid Email Address
+summary: Valid Email Address - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Valid Email Address solution]
+aliases: ["/posts/valid-email-address", "/blog/posts/valid-email-address", "/valid-email-address"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Valid Email Address - Solution Explained/problem-solving.webp
+    alt: Valid Email Address
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Valid Email Address
 
 https://www.interviewbit.com/problems/valid-email-address/

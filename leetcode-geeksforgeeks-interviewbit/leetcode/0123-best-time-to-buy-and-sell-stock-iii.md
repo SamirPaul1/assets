@@ -1,10 +1,16 @@
 ---
-title: 0123 best time to buy and sell stock iii
-tags: leetcode
-categories: leetcode
+title: 0123 Best Time To Buy And Sell Stock Iii
+summary: 0123 Best Time To Buy And Sell Stock Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0123-best-time-to-buy-and-sell-stock-iii", "/blog/posts/0123-best-time-to-buy-and-sell-stock-iii", "/0123-best-time-to-buy-and-sell-stock-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0123-best-time-to-buy-and-sell-stock-iii solution
-description: 0123 best time to buy and sell stock iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0123 Best Time To Buy And Sell Stock Iii/problem-solving.webp
+    alt: 0123 Best Time To Buy And Sell Stock Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

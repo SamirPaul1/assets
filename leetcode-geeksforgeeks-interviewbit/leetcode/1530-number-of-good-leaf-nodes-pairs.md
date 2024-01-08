@@ -1,10 +1,16 @@
 ---
-title: 1530 number of good leaf nodes pairs
-tags: leetcode
-categories: leetcode
+title: 1530 Number Of Good Leaf Nodes Pairs
+summary: 1530 Number Of Good Leaf Nodes Pairs LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1530-number-of-good-leaf-nodes-pairs", "/blog/posts/1530-number-of-good-leaf-nodes-pairs", "/1530-number-of-good-leaf-nodes-pairs"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1530-number-of-good-leaf-nodes-pairs solution
-description: 1530 number of good leaf nodes pairs LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1530 Number Of Good Leaf Nodes Pairs/problem-solving.webp
+    alt: 1530 Number Of Good Leaf Nodes Pairs
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0146 lru cache
-tags: leetcode
-categories: leetcode
+title: 0146 Lru Cache
+summary: 0146 Lru Cache LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0146-lru-cache", "/blog/posts/0146-lru-cache", "/0146-lru-cache"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0146-lru-cache solution
-description: 0146 lru cache LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0146 Lru Cache/problem-solving.webp
+    alt: 0146 Lru Cache
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

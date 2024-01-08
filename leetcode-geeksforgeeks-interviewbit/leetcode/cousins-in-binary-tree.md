@@ -1,10 +1,16 @@
 ---
-title: cousins in binary tree
-tags: leetcode
-categories: leetcode
+title: Cousins In Binary Tree
+summary: Cousins In Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/cousins-in-binary-tree", "/blog/posts/cousins-in-binary-tree", "/cousins-in-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, cousins-in-binary-tree solution
-description: cousins in binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cousins In Binary Tree/problem-solving.webp
+    alt: Cousins In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

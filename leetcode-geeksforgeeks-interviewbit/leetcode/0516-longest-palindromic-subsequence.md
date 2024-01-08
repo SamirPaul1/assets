@@ -1,10 +1,16 @@
 ---
-title: 0516 longest palindromic subsequence
-tags: leetcode
-categories: leetcode
+title: 0516 Longest Palindromic Subsequence
+summary: 0516 Longest Palindromic Subsequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0516-longest-palindromic-subsequence", "/blog/posts/0516-longest-palindromic-subsequence", "/0516-longest-palindromic-subsequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0516-longest-palindromic-subsequence solution
-description: 0516 longest palindromic subsequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0516 Longest Palindromic Subsequence/problem-solving.webp
+    alt: 0516 Longest Palindromic Subsequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

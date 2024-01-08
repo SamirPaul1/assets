@@ -1,10 +1,16 @@
 ---
-title: search in rotated sorted array
-tags: leetcode
-categories: leetcode
+title: Search In Rotated Sorted Array
+summary: Search In Rotated Sorted Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/search-in-rotated-sorted-array", "/blog/posts/search-in-rotated-sorted-array", "/search-in-rotated-sorted-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, search-in-rotated-sorted-array solution
-description: search in rotated sorted array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Search In Rotated Sorted Array/problem-solving.webp
+    alt: Search In Rotated Sorted Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

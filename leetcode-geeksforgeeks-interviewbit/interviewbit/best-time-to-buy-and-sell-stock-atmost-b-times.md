@@ -1,3 +1,18 @@
+---
+title: Best Time To Buy And Sell Stock Atmost B Times
+summary: Best Time To Buy And Sell Stock Atmost B Times - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Best Time To Buy And Sell Stock Atmost B Times solution]
+aliases: ["/posts/best-time-to-buy-and-sell-stock-atmost-b-times", "/blog/posts/best-time-to-buy-and-sell-stock-atmost-b-times", "/best-time-to-buy-and-sell-stock-atmost-b-times"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Best Time To Buy And Sell Stock Atmost B Times - Solution Explained/problem-solving.webp
+    alt: Best Time To Buy And Sell Stock Atmost B Times
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Best Time to Buy and Sell Stock atmost B times
 
 https://www.interviewbit.com/problems/best-time-to-buy-and-sell-stock-atmost-b-times

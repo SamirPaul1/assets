@@ -1,10 +1,16 @@
 ---
-title: 2527 count subarrays with fixed bounds
-tags: leetcode
-categories: leetcode
+title: 2527 Count Subarrays With Fixed Bounds
+summary: 2527 Count Subarrays With Fixed Bounds LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2527-count-subarrays-with-fixed-bounds", "/blog/posts/2527-count-subarrays-with-fixed-bounds", "/2527-count-subarrays-with-fixed-bounds"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2527-count-subarrays-with-fixed-bounds solution
-description: 2527 count subarrays with fixed bounds LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2527 Count Subarrays With Fixed Bounds/problem-solving.webp
+    alt: 2527 Count Subarrays With Fixed Bounds
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

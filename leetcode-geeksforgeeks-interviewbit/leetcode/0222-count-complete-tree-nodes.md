@@ -1,10 +1,16 @@
 ---
-title: 0222 count complete tree nodes
-tags: leetcode
-categories: leetcode
+title: 0222 Count Complete Tree Nodes
+summary: 0222 Count Complete Tree Nodes LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0222-count-complete-tree-nodes", "/blog/posts/0222-count-complete-tree-nodes", "/0222-count-complete-tree-nodes"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0222-count-complete-tree-nodes solution
-description: 0222 count complete tree nodes LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0222 Count Complete Tree Nodes/problem-solving.webp
+    alt: 0222 Count Complete Tree Nodes
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

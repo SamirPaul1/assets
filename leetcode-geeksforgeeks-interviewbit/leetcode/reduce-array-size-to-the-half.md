@@ -1,10 +1,16 @@
 ---
-title: reduce array size to the half
-tags: leetcode
-categories: leetcode
+title: Reduce Array Size To The Half
+summary: Reduce Array Size To The Half LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/reduce-array-size-to-the-half", "/blog/posts/reduce-array-size-to-the-half", "/reduce-array-size-to-the-half"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, reduce-array-size-to-the-half solution
-description: reduce array size to the half LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reduce Array Size To The Half/problem-solving.webp
+    alt: Reduce Array Size To The Half
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

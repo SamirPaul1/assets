@@ -1,3 +1,18 @@
+---
+title: Ways To Color A 3Xn Board
+summary: Ways To Color A 3Xn Board - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Ways To Color A 3Xn Board solution]
+aliases: ["/posts/ways-to-color-a-3xn-board", "/blog/posts/ways-to-color-a-3xn-board", "/ways-to-color-a-3xn-board"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Ways To Color A 3Xn Board - Solution Explained/problem-solving.webp
+    alt: Ways To Color A 3Xn Board
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Ways to color a 3xN Board
 
 https://www.interviewbit.com/problems/ways-to-color-a-3xn-board/

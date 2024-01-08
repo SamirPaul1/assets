@@ -1,10 +1,16 @@
 ---
-title: 0198 house robber
-tags: leetcode
-categories: leetcode
+title: 0198 House Robber
+summary: 0198 House Robber LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0198-house-robber", "/blog/posts/0198-house-robber", "/0198-house-robber"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0198-house-robber solution
-description: 0198 house robber LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0198 House Robber/problem-solving.webp
+    alt: 0198 House Robber
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

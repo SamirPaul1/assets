@@ -1,10 +1,16 @@
 ---
-title: regular expression matching
-tags: leetcode
-categories: leetcode
+title: Regular Expression Matching
+summary: Regular Expression Matching LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/regular-expression-matching", "/blog/posts/regular-expression-matching", "/regular-expression-matching"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, regular-expression-matching solution
-description: regular expression matching LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Regular Expression Matching/problem-solving.webp
+    alt: Regular Expression Matching
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

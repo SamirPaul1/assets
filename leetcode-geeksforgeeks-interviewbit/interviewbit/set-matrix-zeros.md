@@ -1,3 +1,18 @@
+---
+title: Set Matrix Zeros
+summary: Set Matrix Zeros - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Set Matrix Zeros solution]
+aliases: ["/posts/set-matrix-zeros", "/blog/posts/set-matrix-zeros", "/set-matrix-zeros"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Set Matrix Zeros - Solution Explained/problem-solving.webp
+    alt: Set Matrix Zeros
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Set Matrix Zeros
 
 https://www.interviewbit.com/problems/set-matrix-zeros/

@@ -1,3 +1,18 @@
+---
+title: Spiral Order Matrix Ii
+summary: Spiral Order Matrix Ii - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Spiral Order Matrix Ii solution]
+aliases: ["/posts/spiral-order-matrix-ii", "/blog/posts/spiral-order-matrix-ii", "/spiral-order-matrix-ii"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Spiral Order Matrix Ii - Solution Explained/problem-solving.webp
+    alt: Spiral Order Matrix Ii
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Spiral Order Matrix II
 
 https://www.interviewbit.com/problems/spiral-order-matrix-ii/

@@ -1,10 +1,16 @@
 ---
-title: bitwise and of numbers range
-tags: leetcode
-categories: leetcode
+title: Bitwise And Of Numbers Range
+summary: Bitwise And Of Numbers Range LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/bitwise-and-of-numbers-range", "/blog/posts/bitwise-and-of-numbers-range", "/bitwise-and-of-numbers-range"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, bitwise-and-of-numbers-range solution
-description: bitwise and of numbers range LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Bitwise And Of Numbers Range/problem-solving.webp
+    alt: Bitwise And Of Numbers Range
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

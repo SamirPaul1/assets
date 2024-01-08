@@ -1,3 +1,18 @@
+---
+title: Vertical Order Traversal Of Binary Tree
+summary: Vertical Order Traversal Of Binary Tree - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Vertical Order Traversal Of Binary Tree solution]
+aliases: ["/posts/vertical-order-traversal-of-binary-tree", "/blog/posts/vertical-order-traversal-of-binary-tree", "/vertical-order-traversal-of-binary-tree"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Vertical Order Traversal Of Binary Tree - Solution Explained/problem-solving.webp
+    alt: Vertical Order Traversal Of Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Vertical Order Traversal
 
 https://www.interviewbit.com/problems/vertical-order-traversal

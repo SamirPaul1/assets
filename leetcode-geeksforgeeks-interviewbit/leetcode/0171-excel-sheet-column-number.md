@@ -1,10 +1,16 @@
 ---
-title: 0171 excel sheet column number
-tags: leetcode
-categories: leetcode
+title: 0171 Excel Sheet Column Number
+summary: 0171 Excel Sheet Column Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0171-excel-sheet-column-number", "/blog/posts/0171-excel-sheet-column-number", "/0171-excel-sheet-column-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0171-excel-sheet-column-number solution
-description: 0171 excel sheet column number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0171 Excel Sheet Column Number/problem-solving.webp
+    alt: 0171 Excel Sheet Column Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

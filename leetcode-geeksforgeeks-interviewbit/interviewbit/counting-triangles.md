@@ -1,3 +1,18 @@
+---
+title: Counting Triangles
+summary: Counting Triangles - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Counting Triangles solution]
+aliases: ["/posts/counting-triangles", "/blog/posts/counting-triangles", "/counting-triangles"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Counting Triangles - Solution Explained/problem-solving.webp
+    alt: Counting Triangles
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Counting Triangles
 
 https://www.interviewbit.com/problems/counting-triangles

@@ -1,3 +1,18 @@
+---
+title: Palindrome List
+summary: Palindrome List - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Palindrome List solution]
+aliases: ["/posts/palindrome-list", "/blog/posts/palindrome-list", "/palindrome-list"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindrome List - Solution Explained/problem-solving.webp
+    alt: Palindrome List
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Palindrome List
 
 https://www.interviewbit.com/problems/palindrome-list

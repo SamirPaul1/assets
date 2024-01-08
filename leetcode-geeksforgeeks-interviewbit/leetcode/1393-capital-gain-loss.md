@@ -1,10 +1,16 @@
 ---
-title: 1393 capital gain loss
-tags: leetcode
-categories: leetcode
+title: 1393 Capital Gain Loss
+summary: 1393 Capital Gain Loss LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1393-capital-gain-loss", "/blog/posts/1393-capital-gain-loss", "/1393-capital-gain-loss"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1393-capital-gain-loss solution
-description: 1393 capital gain loss LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1393 Capital Gain Loss/problem-solving.webp
+    alt: 1393 Capital Gain Loss
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

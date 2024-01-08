@@ -1,3 +1,18 @@
+---
+title: Maximum Frequency Stack
+summary: Maximum Frequency Stack - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Frequency Stack solution]
+aliases: ["/posts/maximum-frequency-stack", "/blog/posts/maximum-frequency-stack", "/maximum-frequency-stack"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Frequency Stack - Solution Explained/problem-solving.webp
+    alt: Maximum Frequency Stack
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Maximum Frequency stack
 
 https://www.interviewbit.com/problems/maximum-frequency-stack

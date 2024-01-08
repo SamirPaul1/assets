@@ -1,10 +1,16 @@
 ---
-title: 90 subsets ii
-tags: leetcode
-categories: leetcode
+title: 90 Subsets Ii
+summary: 90 Subsets Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/90-subsets-ii", "/blog/posts/90-subsets-ii", "/90-subsets-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 90-subsets-ii solution
-description: 90 subsets ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:90 Subsets Ii/problem-solving.webp
+    alt: 90 Subsets Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

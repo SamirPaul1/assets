@@ -1,10 +1,16 @@
 ---
-title: 73 set matrix zeroes
-tags: leetcode
-categories: leetcode
+title: 73 Set Matrix Zeroes
+summary: 73 Set Matrix Zeroes LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/73-set-matrix-zeroes", "/blog/posts/73-set-matrix-zeroes", "/73-set-matrix-zeroes"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 73-set-matrix-zeroes solution
-description: 73 set matrix zeroes LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:73 Set Matrix Zeroes/problem-solving.webp
+    alt: 73 Set Matrix Zeroes
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

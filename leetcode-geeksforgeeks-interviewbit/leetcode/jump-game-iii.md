@@ -1,10 +1,16 @@
 ---
-title: jump game iii
-tags: leetcode
-categories: leetcode
+title: Jump Game Iii
+summary: Jump Game Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/jump-game-iii", "/blog/posts/jump-game-iii", "/jump-game-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, jump-game-iii solution
-description: jump game iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Jump Game Iii/problem-solving.webp
+    alt: Jump Game Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 771 jewels and stones
-tags: leetcode
-categories: leetcode
+title: 771 Jewels And Stones
+summary: 771 Jewels And Stones LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/771-jewels-and-stones", "/blog/posts/771-jewels-and-stones", "/771-jewels-and-stones"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 771-jewels-and-stones solution
-description: 771 jewels and stones LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:771 Jewels And Stones/problem-solving.webp
+    alt: 771 Jewels And Stones
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

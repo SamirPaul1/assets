@@ -1,3 +1,18 @@
+---
+title: Maximum Height Of The Staircase
+summary: Maximum Height Of The Staircase - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Height Of The Staircase solution]
+aliases: ["/posts/maximum-height-of-the-staircase", "/blog/posts/maximum-height-of-the-staircase", "/maximum-height-of-the-staircase"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Height Of The Staircase - Solution Explained/problem-solving.webp
+    alt: Maximum Height Of The Staircase
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Maximum height of the staircase
 
 https://www.interviewbit.com/problems/maximum-height-of-the-staircase/?ref=random-problem

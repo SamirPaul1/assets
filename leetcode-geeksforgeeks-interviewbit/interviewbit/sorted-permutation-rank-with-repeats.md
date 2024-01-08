@@ -1,3 +1,18 @@
+---
+title: Sorted Permutation Rank With Repeats
+summary: Sorted Permutation Rank With Repeats - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sorted Permutation Rank With Repeats solution]
+aliases: ["/posts/sorted-permutation-rank-with-repeats", "/blog/posts/sorted-permutation-rank-with-repeats", "/sorted-permutation-rank-with-repeats"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sorted Permutation Rank With Repeats - Solution Explained/problem-solving.webp
+    alt: Sorted Permutation Rank With Repeats
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sorted Permutation Rank With Repeats
 
 https://www.interviewbit.com/problems/sorted-permutation-rank-with-repeats

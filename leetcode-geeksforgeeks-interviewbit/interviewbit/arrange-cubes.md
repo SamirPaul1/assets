@@ -1,3 +1,18 @@
+---
+title: Arrange Cubes
+summary: Arrange Cubes - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Arrange Cubes solution]
+aliases: ["/posts/arrange-cubes", "/blog/posts/arrange-cubes", "/arrange-cubes"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Arrange Cubes - Solution Explained/problem-solving.webp
+    alt: Arrange Cubes
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Arrange Cubes
 
 https://www.interviewbit.com/problems/arrange-cubes/

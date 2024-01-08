@@ -1,3 +1,18 @@
+---
+title: World Trips
+summary: World Trips - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, World Trips solution]
+aliases: ["/posts/world-trips", "/blog/posts/world-trips", "/world-trips"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:World Trips - Solution Explained/problem-solving.webp
+    alt: World Trips
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # World Trips
 
 https://www.interviewbit.com/problems/world-trips

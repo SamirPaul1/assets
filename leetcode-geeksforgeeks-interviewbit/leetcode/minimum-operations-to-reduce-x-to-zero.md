@@ -1,10 +1,16 @@
 ---
-title: minimum operations to reduce x to zero
-tags: leetcode
-categories: leetcode
+title: Minimum Operations To Reduce X To Zero
+summary: Minimum Operations To Reduce X To Zero LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-operations-to-reduce-x-to-zero", "/blog/posts/minimum-operations-to-reduce-x-to-zero", "/minimum-operations-to-reduce-x-to-zero"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-operations-to-reduce-x-to-zero solution
-description: minimum operations to reduce x to zero LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Operations To Reduce X To Zero/problem-solving.webp
+    alt: Minimum Operations To Reduce X To Zero
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

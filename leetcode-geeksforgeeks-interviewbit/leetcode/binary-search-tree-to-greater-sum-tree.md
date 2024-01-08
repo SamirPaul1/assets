@@ -1,10 +1,16 @@
 ---
-title: binary search tree to greater sum tree
-tags: leetcode
-categories: leetcode
+title: Binary Search Tree To Greater Sum Tree
+summary: Binary Search Tree To Greater Sum Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/binary-search-tree-to-greater-sum-tree", "/blog/posts/binary-search-tree-to-greater-sum-tree", "/binary-search-tree-to-greater-sum-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, binary-search-tree-to-greater-sum-tree solution
-description: binary search tree to greater sum tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Binary Search Tree To Greater Sum Tree/problem-solving.webp
+    alt: Binary Search Tree To Greater Sum Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

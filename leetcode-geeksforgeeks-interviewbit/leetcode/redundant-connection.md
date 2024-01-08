@@ -1,10 +1,16 @@
 ---
-title: redundant connection
-tags: leetcode
-categories: leetcode
+title: Redundant Connection
+summary: Redundant Connection LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/redundant-connection", "/blog/posts/redundant-connection", "/redundant-connection"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, redundant-connection solution
-description: redundant connection LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Redundant Connection/problem-solving.webp
+    alt: Redundant Connection
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

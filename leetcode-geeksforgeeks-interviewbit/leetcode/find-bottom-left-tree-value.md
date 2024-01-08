@@ -1,10 +1,16 @@
 ---
-title: find bottom left tree value
-tags: leetcode
-categories: leetcode
+title: Find Bottom Left Tree Value
+summary: Find Bottom Left Tree Value LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-bottom-left-tree-value", "/blog/posts/find-bottom-left-tree-value", "/find-bottom-left-tree-value"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-bottom-left-tree-value solution
-description: find bottom left tree value LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Bottom Left Tree Value/problem-solving.webp
+    alt: Find Bottom Left Tree Value
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

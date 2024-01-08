@@ -1,10 +1,16 @@
 ---
-title: 1795 rearrange products table
-tags: leetcode
-categories: leetcode
+title: 1795 Rearrange Products Table
+summary: 1795 Rearrange Products Table LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1795-rearrange-products-table", "/blog/posts/1795-rearrange-products-table", "/1795-rearrange-products-table"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1795-rearrange-products-table solution
-description: 1795 rearrange products table LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1795 Rearrange Products Table/problem-solving.webp
+    alt: 1795 Rearrange Products Table
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

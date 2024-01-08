@@ -1,3 +1,18 @@
+---
+title: Rotten Oranges
+summary: Rotten Oranges - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rotten Oranges solution]
+aliases: ["/posts/rotten-oranges", "/blog/posts/rotten-oranges", "/rotten-oranges"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotten Oranges - Solution Explained/problem-solving.webp
+    alt: Rotten Oranges
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Rotten Oranges
 
 https://www.interviewbit.com/problems/rotten-oranges

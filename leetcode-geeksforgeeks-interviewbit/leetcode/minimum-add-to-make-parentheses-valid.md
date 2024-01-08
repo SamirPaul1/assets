@@ -1,10 +1,16 @@
 ---
-title: minimum add to make parentheses valid
-tags: leetcode
-categories: leetcode
+title: Minimum Add To Make Parentheses Valid
+summary: Minimum Add To Make Parentheses Valid LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-add-to-make-parentheses-valid", "/blog/posts/minimum-add-to-make-parentheses-valid", "/minimum-add-to-make-parentheses-valid"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-add-to-make-parentheses-valid solution
-description: minimum add to make parentheses valid LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Add To Make Parentheses Valid/problem-solving.webp
+    alt: Minimum Add To Make Parentheses Valid
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 1092 shortest common supersequence
-tags: leetcode
-categories: leetcode
+title: 1092 Shortest Common Supersequence
+summary: 1092 Shortest Common Supersequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1092-shortest-common-supersequence", "/blog/posts/1092-shortest-common-supersequence", "/1092-shortest-common-supersequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1092-shortest-common-supersequence solution
-description: 1092 shortest common supersequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1092 Shortest Common Supersequence/problem-solving.webp
+    alt: 1092 Shortest Common Supersequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

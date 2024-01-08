@@ -1,10 +1,16 @@
 ---
-title: 0213 house robber ii
-tags: leetcode
-categories: leetcode
+title: 0213 House Robber Ii
+summary: 0213 House Robber Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0213-house-robber-ii", "/blog/posts/0213-house-robber-ii", "/0213-house-robber-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0213-house-robber-ii solution
-description: 0213 house robber ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0213 House Robber Ii/problem-solving.webp
+    alt: 0213 House Robber Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 54 spiral matrix
-tags: leetcode
-categories: leetcode
+title: 54 Spiral Matrix
+summary: 54 Spiral Matrix LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/54-spiral-matrix", "/blog/posts/54-spiral-matrix", "/54-spiral-matrix"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 54-spiral-matrix solution
-description: 54 spiral matrix LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:54 Spiral Matrix/problem-solving.webp
+    alt: 54 Spiral Matrix
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

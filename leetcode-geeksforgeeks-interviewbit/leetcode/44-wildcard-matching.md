@@ -1,10 +1,16 @@
 ---
-title: 44 wildcard matching
-tags: leetcode
-categories: leetcode
+title: 44 Wildcard Matching
+summary: 44 Wildcard Matching LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/44-wildcard-matching", "/blog/posts/44-wildcard-matching", "/44-wildcard-matching"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 44-wildcard-matching solution
-description: 44 wildcard matching LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:44 Wildcard Matching/problem-solving.webp
+    alt: 44 Wildcard Matching
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

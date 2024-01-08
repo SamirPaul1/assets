@@ -1,10 +1,16 @@
 ---
-title: 0175 combine two tables
-tags: leetcode
-categories: leetcode
+title: 0175 Combine Two Tables
+summary: 0175 Combine Two Tables LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0175-combine-two-tables", "/blog/posts/0175-combine-two-tables", "/0175-combine-two-tables"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0175-combine-two-tables solution
-description: 0175 combine two tables LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0175 Combine Two Tables/problem-solving.webp
+    alt: 0175 Combine Two Tables
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

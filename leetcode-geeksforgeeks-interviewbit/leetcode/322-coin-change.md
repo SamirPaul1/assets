@@ -1,10 +1,16 @@
 ---
-title: 322 coin change
-tags: leetcode
-categories: leetcode
+title: 322 Coin Change
+summary: 322 Coin Change LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/322-coin-change", "/blog/posts/322-coin-change", "/322-coin-change"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 322-coin-change solution
-description: 322 coin change LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:322 Coin Change/problem-solving.webp
+    alt: 322 Coin Change
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

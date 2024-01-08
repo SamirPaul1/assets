@@ -1,10 +1,16 @@
 ---
-title: 1158 market analysis i
-tags: leetcode
-categories: leetcode
+title: 1158 Market Analysis I
+summary: 1158 Market Analysis I LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1158-market-analysis-i", "/blog/posts/1158-market-analysis-i", "/1158-market-analysis-i"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1158-market-analysis-i solution
-description: 1158 market analysis i LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1158 Market Analysis I/problem-solving.webp
+    alt: 1158 Market Analysis I
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

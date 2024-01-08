@@ -1,10 +1,16 @@
 ---
-title: count vowels permutation
-tags: leetcode
-categories: leetcode
+title: Count Vowels Permutation
+summary: Count Vowels Permutation LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/count-vowels-permutation", "/blog/posts/count-vowels-permutation", "/count-vowels-permutation"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, count-vowels-permutation solution
-description: count vowels permutation LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Vowels Permutation/problem-solving.webp
+    alt: Count Vowels Permutation
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

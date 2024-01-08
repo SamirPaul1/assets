@@ -1,10 +1,16 @@
 ---
-title: 1838 frequency of the most frequent element
-tags: leetcode
-categories: leetcode
+title: 1838 Frequency Of The Most Frequent Element
+summary: 1838 Frequency Of The Most Frequent Element LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1838-frequency-of-the-most-frequent-element", "/blog/posts/1838-frequency-of-the-most-frequent-element", "/1838-frequency-of-the-most-frequent-element"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1838-frequency-of-the-most-frequent-element solution
-description: 1838 frequency of the most frequent element LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1838 Frequency Of The Most Frequent Element/problem-solving.webp
+    alt: 1838 Frequency Of The Most Frequent Element
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

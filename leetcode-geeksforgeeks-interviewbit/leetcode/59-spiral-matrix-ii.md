@@ -1,10 +1,16 @@
 ---
-title: 59 spiral matrix ii
-tags: leetcode
-categories: leetcode
+title: 59 Spiral Matrix Ii
+summary: 59 Spiral Matrix Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/59-spiral-matrix-ii", "/blog/posts/59-spiral-matrix-ii", "/59-spiral-matrix-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 59-spiral-matrix-ii solution
-description: 59 spiral matrix ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:59 Spiral Matrix Ii/problem-solving.webp
+    alt: 59 Spiral Matrix Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0027 remove element
-tags: leetcode
-categories: leetcode
+title: 0027 Remove Element
+summary: 0027 Remove Element LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0027-remove-element", "/blog/posts/0027-remove-element", "/0027-remove-element"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0027-remove-element solution
-description: 0027 remove element LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0027 Remove Element/problem-solving.webp
+    alt: 0027 Remove Element
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

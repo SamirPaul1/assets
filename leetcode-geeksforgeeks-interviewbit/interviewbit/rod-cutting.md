@@ -1,3 +1,18 @@
+---
+title: Rod Cutting
+summary: Rod Cutting - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rod Cutting solution]
+aliases: ["/posts/rod-cutting", "/blog/posts/rod-cutting", "/rod-cutting"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rod Cutting - Solution Explained/problem-solving.webp
+    alt: Rod Cutting
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Rod Cutting
 
 https://www.interviewbit.com/problems/rod-cutting/

@@ -1,3 +1,18 @@
+---
+title: Sub Matrix Sum Queries
+summary: Sub Matrix Sum Queries - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sub Matrix Sum Queries solution]
+aliases: ["/posts/sub-matrix-sum-queries", "/blog/posts/sub-matrix-sum-queries", "/sub-matrix-sum-queries"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sub Matrix Sum Queries - Solution Explained/problem-solving.webp
+    alt: Sub Matrix Sum Queries
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sub-matrix Sum Queries
 
 https://www.interviewbit.com/problems/sub-matrix-sum-queries/

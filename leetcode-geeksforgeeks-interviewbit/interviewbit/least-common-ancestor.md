@@ -1,3 +1,18 @@
+---
+title: Least Common Ancestor
+summary: Least Common Ancestor - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Least Common Ancestor solution]
+aliases: ["/posts/least-common-ancestor", "/blog/posts/least-common-ancestor", "/least-common-ancestor"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Least Common Ancestor - Solution Explained/problem-solving.webp
+    alt: Least Common Ancestor
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Least Common Ancestor
 
 https://www.interviewbit.com/problems/least-common-ancestor

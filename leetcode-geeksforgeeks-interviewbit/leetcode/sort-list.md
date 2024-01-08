@@ -1,10 +1,16 @@
 ---
-title: sort list
-tags: leetcode
-categories: leetcode
+title: Sort List
+summary: Sort List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/sort-list", "/blog/posts/sort-list", "/sort-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, sort-list solution
-description: sort list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort List/problem-solving.webp
+    alt: Sort List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

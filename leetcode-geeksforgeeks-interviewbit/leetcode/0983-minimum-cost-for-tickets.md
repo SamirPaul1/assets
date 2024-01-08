@@ -1,10 +1,16 @@
 ---
-title: 0983 minimum cost for tickets
-tags: leetcode
-categories: leetcode
+title: 0983 Minimum Cost For Tickets
+summary: 0983 Minimum Cost For Tickets LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0983-minimum-cost-for-tickets", "/blog/posts/0983-minimum-cost-for-tickets", "/0983-minimum-cost-for-tickets"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0983-minimum-cost-for-tickets solution
-description: 0983 minimum cost for tickets LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0983 Minimum Cost For Tickets/problem-solving.webp
+    alt: 0983 Minimum Cost For Tickets
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: The Square Game
+summary: The Square Game - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, The Square Game solution]
+aliases: ["/posts/the-square-game", "/blog/posts/the-square-game", "/the-square-game"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:The Square Game - Solution Explained/problem-solving.webp
+    alt: The Square Game
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # The square game
 
 https://www.interviewbit.com/problems/the-square-game

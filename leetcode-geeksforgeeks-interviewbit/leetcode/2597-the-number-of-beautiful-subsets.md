@@ -1,10 +1,16 @@
 ---
-title: 2597 the number of beautiful subsets
-tags: leetcode
-categories: leetcode
+title: 2597 The Number Of Beautiful Subsets
+summary: 2597 The Number Of Beautiful Subsets LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2597-the-number-of-beautiful-subsets", "/blog/posts/2597-the-number-of-beautiful-subsets", "/2597-the-number-of-beautiful-subsets"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2597-the-number-of-beautiful-subsets solution
-description: 2597 the number of beautiful subsets LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2597 The Number Of Beautiful Subsets/problem-solving.webp
+    alt: 2597 The Number Of Beautiful Subsets
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Flip
+summary: Flip - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Flip solution]
+aliases: ["/posts/flip", "/blog/posts/flip", "/flip"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Flip - Solution Explained/problem-solving.webp
+    alt: Flip
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Flip
 
 https://www.interviewbit.com/problems/flip/

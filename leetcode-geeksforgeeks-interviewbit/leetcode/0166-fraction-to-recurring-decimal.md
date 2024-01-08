@@ -1,10 +1,16 @@
 ---
-title: 0166 fraction to recurring decimal
-tags: leetcode
-categories: leetcode
+title: 0166 Fraction To Recurring Decimal
+summary: 0166 Fraction To Recurring Decimal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0166-fraction-to-recurring-decimal", "/blog/posts/0166-fraction-to-recurring-decimal", "/0166-fraction-to-recurring-decimal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0166-fraction-to-recurring-decimal solution
-description: 0166 fraction to recurring decimal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0166 Fraction To Recurring Decimal/problem-solving.webp
+    alt: 0166 Fraction To Recurring Decimal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: merge intervals
-tags: leetcode
-categories: leetcode
+title: Merge Intervals
+summary: Merge Intervals LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/merge-intervals", "/blog/posts/merge-intervals", "/merge-intervals"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, merge-intervals solution
-description: merge intervals LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Intervals/problem-solving.webp
+    alt: Merge Intervals
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

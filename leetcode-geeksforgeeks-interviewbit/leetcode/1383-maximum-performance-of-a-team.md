@@ -1,10 +1,16 @@
 ---
-title: 1383 maximum performance of a team
-tags: leetcode
-categories: leetcode
+title: 1383 Maximum Performance Of A Team
+summary: 1383 Maximum Performance Of A Team LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1383-maximum-performance-of-a-team", "/blog/posts/1383-maximum-performance-of-a-team", "/1383-maximum-performance-of-a-team"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1383-maximum-performance-of-a-team solution
-description: 1383 maximum performance of a team LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1383 Maximum Performance Of A Team/problem-solving.webp
+    alt: 1383 Maximum Performance Of A Team
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

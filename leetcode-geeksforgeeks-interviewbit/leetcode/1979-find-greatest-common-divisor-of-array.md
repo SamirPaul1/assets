@@ -1,10 +1,16 @@
 ---
-title: 1979 find greatest common divisor of array
-tags: leetcode
-categories: leetcode
+title: 1979 Find Greatest Common Divisor Of Array
+summary: 1979 Find Greatest Common Divisor Of Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1979-find-greatest-common-divisor-of-array", "/blog/posts/1979-find-greatest-common-divisor-of-array", "/1979-find-greatest-common-divisor-of-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1979-find-greatest-common-divisor-of-array solution
-description: 1979 find greatest common divisor of array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1979 Find Greatest Common Divisor Of Array/problem-solving.webp
+    alt: 1979 Find Greatest Common Divisor Of Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

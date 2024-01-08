@@ -1,10 +1,16 @@
 ---
-title: longest valid parentheses
-tags: leetcode
-categories: leetcode
+title: Longest Valid Parentheses
+summary: Longest Valid Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/longest-valid-parentheses", "/blog/posts/longest-valid-parentheses", "/longest-valid-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-valid-parentheses solution
-description: longest valid parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Valid Parentheses/problem-solving.webp
+    alt: Longest Valid Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

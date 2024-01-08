@@ -1,10 +1,16 @@
 ---
-title: 1871 jump game vii
-tags: leetcode
-categories: leetcode
+title: 1871 Jump Game Vii
+summary: 1871 Jump Game Vii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1871-jump-game-vii", "/blog/posts/1871-jump-game-vii", "/1871-jump-game-vii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1871-jump-game-vii solution
-description: 1871 jump game vii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1871 Jump Game Vii/problem-solving.webp
+    alt: 1871 Jump Game Vii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

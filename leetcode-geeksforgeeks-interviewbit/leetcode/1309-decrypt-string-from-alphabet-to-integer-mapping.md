@@ -1,10 +1,16 @@
 ---
-title: 1309 decrypt string from alphabet to integer mapping
-tags: leetcode
-categories: leetcode
+title: 1309 Decrypt String From Alphabet To Integer Mapping
+summary: 1309 Decrypt String From Alphabet To Integer Mapping LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1309-decrypt-string-from-alphabet-to-integer-mapping", "/blog/posts/1309-decrypt-string-from-alphabet-to-integer-mapping", "/1309-decrypt-string-from-alphabet-to-integer-mapping"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1309-decrypt-string-from-alphabet-to-integer-mapping solution
-description: 1309 decrypt string from alphabet to integer mapping LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1309 Decrypt String From Alphabet To Integer Mapping/problem-solving.webp
+    alt: 1309 Decrypt String From Alphabet To Integer Mapping
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

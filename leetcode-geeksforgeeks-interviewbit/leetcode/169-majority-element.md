@@ -1,10 +1,16 @@
 ---
-title: 169 majority element
-tags: leetcode
-categories: leetcode
+title: 169 Majority Element
+summary: 169 Majority Element LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/169-majority-element", "/blog/posts/169-majority-element", "/169-majority-element"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 169-majority-element solution
-description: 169 majority element LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:169 Majority Element/problem-solving.webp
+    alt: 169 Majority Element
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

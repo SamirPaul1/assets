@@ -1,3 +1,18 @@
+---
+title: Kth Row Of Pascals Triangle
+summary: Kth Row Of Pascals Triangle - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Kth Row Of Pascals Triangle solution]
+aliases: ["/posts/kth-row-of-pascals-triangle", "/blog/posts/kth-row-of-pascals-triangle", "/kth-row-of-pascals-triangle"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Kth Row Of Pascals Triangle - Solution Explained/problem-solving.webp
+    alt: Kth Row Of Pascals Triangle
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Kth Row of Pascal's Triangle
 
 https://www.interviewbit.com/problems/kth-row-of-pascals-triangle/

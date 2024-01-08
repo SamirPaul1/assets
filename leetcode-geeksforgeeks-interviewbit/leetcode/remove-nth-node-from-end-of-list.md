@@ -1,10 +1,16 @@
 ---
-title: remove nth node from end of list
-tags: leetcode
-categories: leetcode
+title: Remove Nth Node From End Of List
+summary: Remove Nth Node From End Of List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/remove-nth-node-from-end-of-list", "/blog/posts/remove-nth-node-from-end-of-list", "/remove-nth-node-from-end-of-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, remove-nth-node-from-end-of-list solution
-description: remove nth node from end of list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Nth Node From End Of List/problem-solving.webp
+    alt: Remove Nth Node From End Of List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

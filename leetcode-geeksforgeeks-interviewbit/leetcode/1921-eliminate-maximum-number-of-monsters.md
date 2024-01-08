@@ -1,10 +1,16 @@
 ---
-title: 1921 eliminate maximum number of monsters
-tags: leetcode
-categories: leetcode
+title: 1921 Eliminate Maximum Number Of Monsters
+summary: 1921 Eliminate Maximum Number Of Monsters LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1921-eliminate-maximum-number-of-monsters", "/blog/posts/1921-eliminate-maximum-number-of-monsters", "/1921-eliminate-maximum-number-of-monsters"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1921-eliminate-maximum-number-of-monsters solution
-description: 1921 eliminate maximum number of monsters LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1921 Eliminate Maximum Number Of Monsters/problem-solving.webp
+    alt: 1921 Eliminate Maximum Number Of Monsters
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

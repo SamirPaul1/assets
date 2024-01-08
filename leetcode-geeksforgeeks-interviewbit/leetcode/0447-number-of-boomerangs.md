@@ -1,10 +1,16 @@
 ---
-title: 0447 number of boomerangs
-tags: leetcode
-categories: leetcode
+title: 0447 Number Of Boomerangs
+summary: 0447 Number Of Boomerangs LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0447-number-of-boomerangs", "/blog/posts/0447-number-of-boomerangs", "/0447-number-of-boomerangs"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0447-number-of-boomerangs solution
-description: 0447 number of boomerangs LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0447 Number Of Boomerangs/problem-solving.webp
+    alt: 0447 Number Of Boomerangs
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

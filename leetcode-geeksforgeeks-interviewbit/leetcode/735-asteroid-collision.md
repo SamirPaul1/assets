@@ -1,10 +1,16 @@
 ---
-title: 735 asteroid collision
-tags: leetcode
-categories: leetcode
+title: 735 Asteroid Collision
+summary: 735 Asteroid Collision LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/735-asteroid-collision", "/blog/posts/735-asteroid-collision", "/735-asteroid-collision"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 735-asteroid-collision solution
-description: 735 asteroid collision LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:735 Asteroid Collision/problem-solving.webp
+    alt: 735 Asteroid Collision
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

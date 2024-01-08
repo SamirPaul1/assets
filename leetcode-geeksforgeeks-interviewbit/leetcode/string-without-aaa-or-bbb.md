@@ -1,10 +1,16 @@
 ---
-title: string without aaa or bbb
-tags: leetcode
-categories: leetcode
+title: String Without Aaa Or Bbb
+summary: String Without Aaa Or Bbb LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/string-without-aaa-or-bbb", "/blog/posts/string-without-aaa-or-bbb", "/string-without-aaa-or-bbb"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, string-without-aaa-or-bbb solution
-description: string without aaa or bbb LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:String Without Aaa Or Bbb/problem-solving.webp
+    alt: String Without Aaa Or Bbb
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

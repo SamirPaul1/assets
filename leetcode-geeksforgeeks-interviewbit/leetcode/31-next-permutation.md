@@ -1,10 +1,16 @@
 ---
-title: 31 next permutation
-tags: leetcode
-categories: leetcode
+title: 31 Next Permutation
+summary: 31 Next Permutation LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/31-next-permutation", "/blog/posts/31-next-permutation", "/31-next-permutation"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 31-next-permutation solution
-description: 31 next permutation LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:31 Next Permutation/problem-solving.webp
+    alt: 31 Next Permutation
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

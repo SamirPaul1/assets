@@ -1,10 +1,16 @@
 ---
-title: 1614 maximum nesting depth of the parentheses
-tags: leetcode
-categories: leetcode
+title: 1614 Maximum Nesting Depth Of The Parentheses
+summary: 1614 Maximum Nesting Depth Of The Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1614-maximum-nesting-depth-of-the-parentheses", "/blog/posts/1614-maximum-nesting-depth-of-the-parentheses", "/1614-maximum-nesting-depth-of-the-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1614-maximum-nesting-depth-of-the-parentheses solution
-description: 1614 maximum nesting depth of the parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1614 Maximum Nesting Depth Of The Parentheses/problem-solving.webp
+    alt: 1614 Maximum Nesting Depth Of The Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

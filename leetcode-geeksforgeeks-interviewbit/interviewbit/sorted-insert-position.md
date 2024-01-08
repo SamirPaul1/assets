@@ -1,3 +1,18 @@
+---
+title: Sorted Insert Position
+summary: Sorted Insert Position - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sorted Insert Position solution]
+aliases: ["/posts/sorted-insert-position", "/blog/posts/sorted-insert-position", "/sorted-insert-position"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sorted Insert Position - Solution Explained/problem-solving.webp
+    alt: Sorted Insert Position
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sorted Insert Position
 
 https://www.interviewbit.com/problems/sorted-insert-position

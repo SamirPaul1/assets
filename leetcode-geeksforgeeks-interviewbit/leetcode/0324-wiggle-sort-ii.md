@@ -1,10 +1,16 @@
 ---
-title: 0324 wiggle sort ii
-tags: leetcode
-categories: leetcode
+title: 0324 Wiggle Sort Ii
+summary: 0324 Wiggle Sort Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0324-wiggle-sort-ii", "/blog/posts/0324-wiggle-sort-ii", "/0324-wiggle-sort-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0324-wiggle-sort-ii solution
-description: 0324 wiggle sort ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0324 Wiggle Sort Ii/problem-solving.webp
+    alt: 0324 Wiggle Sort Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0451 sort characters by frequency
-tags: leetcode
-categories: leetcode
+title: 0451 Sort Characters By Frequency
+summary: 0451 Sort Characters By Frequency LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0451-sort-characters-by-frequency", "/blog/posts/0451-sort-characters-by-frequency", "/0451-sort-characters-by-frequency"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0451-sort-characters-by-frequency solution
-description: 0451 sort characters by frequency LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0451 Sort Characters By Frequency/problem-solving.webp
+    alt: 0451 Sort Characters By Frequency
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

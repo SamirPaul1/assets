@@ -1,10 +1,16 @@
 ---
-title: 75 sort colors
-tags: leetcode
-categories: leetcode
+title: 75 Sort Colors
+summary: 75 Sort Colors LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/75-sort-colors", "/blog/posts/75-sort-colors", "/75-sort-colors"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 75-sort-colors solution
-description: 75 sort colors LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:75 Sort Colors/problem-solving.webp
+    alt: 75 Sort Colors
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

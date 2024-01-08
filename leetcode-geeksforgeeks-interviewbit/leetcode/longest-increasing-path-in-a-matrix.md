@@ -1,10 +1,16 @@
 ---
-title: longest increasing path in a matrix
-tags: leetcode
-categories: leetcode
+title: Longest Increasing Path In A Matrix
+summary: Longest Increasing Path In A Matrix LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/longest-increasing-path-in-a-matrix", "/blog/posts/longest-increasing-path-in-a-matrix", "/longest-increasing-path-in-a-matrix"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-increasing-path-in-a-matrix solution
-description: longest increasing path in a matrix LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Increasing Path In A Matrix/problem-solving.webp
+    alt: Longest Increasing Path In A Matrix
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

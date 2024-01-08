@@ -1,10 +1,16 @@
 ---
-title: 1472 design browser history
-tags: leetcode
-categories: leetcode
+title: 1472 Design Browser History
+summary: 1472 Design Browser History LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1472-design-browser-history", "/blog/posts/1472-design-browser-history", "/1472-design-browser-history"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1472-design-browser-history solution
-description: 1472 design browser history LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1472 Design Browser History/problem-solving.webp
+    alt: 1472 Design Browser History
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

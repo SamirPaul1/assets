@@ -1,10 +1,16 @@
 ---
-title: verifying an alien dictionary
-tags: leetcode
-categories: leetcode
+title: Verifying An Alien Dictionary
+summary: Verifying An Alien Dictionary LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/verifying-an-alien-dictionary", "/blog/posts/verifying-an-alien-dictionary", "/verifying-an-alien-dictionary"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, verifying-an-alien-dictionary solution
-description: verifying an alien dictionary LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Verifying An Alien Dictionary/problem-solving.webp
+    alt: Verifying An Alien Dictionary
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

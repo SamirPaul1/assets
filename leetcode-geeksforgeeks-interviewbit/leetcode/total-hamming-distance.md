@@ -1,10 +1,16 @@
 ---
-title: total hamming distance
-tags: leetcode
-categories: leetcode
+title: Total Hamming Distance
+summary: Total Hamming Distance LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/total-hamming-distance", "/blog/posts/total-hamming-distance", "/total-hamming-distance"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, total-hamming-distance solution
-description: total hamming distance LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Total Hamming Distance/problem-solving.webp
+    alt: Total Hamming Distance
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

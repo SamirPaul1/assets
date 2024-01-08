@@ -1,10 +1,16 @@
 ---
-title: 0678 valid parenthesis string
-tags: leetcode
-categories: leetcode
+title: 0678 Valid Parenthesis String
+summary: 0678 Valid Parenthesis String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0678-valid-parenthesis-string", "/blog/posts/0678-valid-parenthesis-string", "/0678-valid-parenthesis-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0678-valid-parenthesis-string solution
-description: 0678 valid parenthesis string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0678 Valid Parenthesis String/problem-solving.webp
+    alt: 0678 Valid Parenthesis String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

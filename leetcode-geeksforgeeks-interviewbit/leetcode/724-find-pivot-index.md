@@ -1,10 +1,16 @@
 ---
-title: 724 find pivot index
-tags: leetcode
-categories: leetcode
+title: 724 Find Pivot Index
+summary: 724 Find Pivot Index LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/724-find-pivot-index", "/blog/posts/724-find-pivot-index", "/724-find-pivot-index"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 724-find-pivot-index solution
-description: 724 find pivot index LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:724 Find Pivot Index/problem-solving.webp
+    alt: 724 Find Pivot Index
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

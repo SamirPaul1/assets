@@ -1,10 +1,16 @@
 ---
-title: 0753 open the lock
-tags: leetcode
-categories: leetcode
+title: 0753 Open The Lock
+summary: 0753 Open The Lock LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0753-open-the-lock", "/blog/posts/0753-open-the-lock", "/0753-open-the-lock"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0753-open-the-lock solution
-description: 0753 open the lock LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0753 Open The Lock/problem-solving.webp
+    alt: 0753 Open The Lock
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

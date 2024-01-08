@@ -1,10 +1,16 @@
 ---
-title: custom sort string
-tags: leetcode
-categories: leetcode
+title: Custom Sort String
+summary: Custom Sort String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/custom-sort-string", "/blog/posts/custom-sort-string", "/custom-sort-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, custom-sort-string solution
-description: custom sort string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Custom Sort String/problem-solving.webp
+    alt: Custom Sort String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

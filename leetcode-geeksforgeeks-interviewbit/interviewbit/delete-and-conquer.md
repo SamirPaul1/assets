@@ -1,3 +1,18 @@
+---
+title: Delete And Conquer
+summary: Delete And Conquer - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Delete And Conquer solution]
+aliases: ["/posts/delete-and-conquer", "/blog/posts/delete-and-conquer", "/delete-and-conquer"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Delete And Conquer - Solution Explained/problem-solving.webp
+    alt: Delete And Conquer
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Delete and Conquer
 
 https://www.interviewbit.com/problems/delete-and-conquer/

@@ -1,10 +1,16 @@
 ---
-title: shortest completing word
-tags: leetcode
-categories: leetcode
+title: Shortest Completing Word
+summary: Shortest Completing Word LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/shortest-completing-word", "/blog/posts/shortest-completing-word", "/shortest-completing-word"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, shortest-completing-word solution
-description: shortest completing word LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Completing Word/problem-solving.webp
+    alt: Shortest Completing Word
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

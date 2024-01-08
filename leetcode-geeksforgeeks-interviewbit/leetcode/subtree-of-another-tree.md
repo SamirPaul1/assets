@@ -1,10 +1,16 @@
 ---
-title: subtree of another tree
-tags: leetcode
-categories: leetcode
+title: Subtree Of Another Tree
+summary: Subtree Of Another Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/subtree-of-another-tree", "/blog/posts/subtree-of-another-tree", "/subtree-of-another-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, subtree-of-another-tree solution
-description: subtree of another tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subtree Of Another Tree/problem-solving.webp
+    alt: Subtree Of Another Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0462 minimum moves to equal array elements ii
-tags: leetcode
-categories: leetcode
+title: 0462 Minimum Moves To Equal Array Elements Ii
+summary: 0462 Minimum Moves To Equal Array Elements Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0462-minimum-moves-to-equal-array-elements-ii", "/blog/posts/0462-minimum-moves-to-equal-array-elements-ii", "/0462-minimum-moves-to-equal-array-elements-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0462-minimum-moves-to-equal-array-elements-ii solution
-description: 0462 minimum moves to equal array elements ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0462 Minimum Moves To Equal Array Elements Ii/problem-solving.webp
+    alt: 0462 Minimum Moves To Equal Array Elements Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

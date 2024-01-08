@@ -1,3 +1,18 @@
+---
+title: Maxspprod
+summary: Maxspprod - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maxspprod solution]
+aliases: ["/posts/maxspprod", "/blog/posts/maxspprod", "/maxspprod"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maxspprod - Solution Explained/problem-solving.webp
+    alt: Maxspprod
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # MAXSPPROD
 
 https://www.interviewbit.com/problems/maxspprod/

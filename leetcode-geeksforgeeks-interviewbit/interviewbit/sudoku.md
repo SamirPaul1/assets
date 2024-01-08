@@ -1,3 +1,18 @@
+---
+title: Sudoku
+summary: Sudoku - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sudoku solution]
+aliases: ["/posts/sudoku", "/blog/posts/sudoku", "/sudoku"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sudoku - Solution Explained/problem-solving.webp
+    alt: Sudoku
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sudoku
 
 https://www.interviewbit.com/problems/sudoku/

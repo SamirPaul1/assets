@@ -1,10 +1,16 @@
 ---
-title: backspace string compare
-tags: leetcode
-categories: leetcode
+title: Backspace String Compare
+summary: Backspace String Compare LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/backspace-string-compare", "/blog/posts/backspace-string-compare", "/backspace-string-compare"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, backspace-string-compare solution
-description: backspace string compare LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Backspace String Compare/problem-solving.webp
+    alt: Backspace String Compare
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

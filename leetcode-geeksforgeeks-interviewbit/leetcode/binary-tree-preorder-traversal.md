@@ -1,10 +1,16 @@
 ---
-title: binary tree preorder traversal
-tags: leetcode
-categories: leetcode
+title: Binary Tree Preorder Traversal
+summary: Binary Tree Preorder Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/binary-tree-preorder-traversal", "/blog/posts/binary-tree-preorder-traversal", "/binary-tree-preorder-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, binary-tree-preorder-traversal solution
-description: binary tree preorder traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Binary Tree Preorder Traversal/problem-solving.webp
+    alt: Binary Tree Preorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 993 cousins in binary tree
-tags: leetcode
-categories: leetcode
+title: 993 Cousins In Binary Tree
+summary: 993 Cousins In Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/993-cousins-in-binary-tree", "/blog/posts/993-cousins-in-binary-tree", "/993-cousins-in-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 993-cousins-in-binary-tree solution
-description: 993 cousins in binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:993 Cousins In Binary Tree/problem-solving.webp
+    alt: 993 Cousins In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

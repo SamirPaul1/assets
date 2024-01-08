@@ -1,3 +1,18 @@
+---
+title: Ways To Decode
+summary: Ways To Decode - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Ways To Decode solution]
+aliases: ["/posts/ways-to-decode", "/blog/posts/ways-to-decode", "/ways-to-decode"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Ways To Decode - Solution Explained/problem-solving.webp
+    alt: Ways To Decode
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Ways To Decode
 
 https://www.interviewbit.com/problems/ways-to-decode

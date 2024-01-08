@@ -1,3 +1,18 @@
+---
+title: Count Of Rectangles With Area Less Than The Given Number
+summary: Count Of Rectangles With Area Less Than The Given Number - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Count Of Rectangles With Area Less Than The Given Number solution]
+aliases: ["/posts/count-of-rectangles-with-area-less-than-the-given-number", "/blog/posts/count-of-rectangles-with-area-less-than-the-given-number", "/count-of-rectangles-with-area-less-than-the-given-number"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Of Rectangles With Area Less Than The Given Number - Solution Explained/problem-solving.webp
+    alt: Count Of Rectangles With Area Less Than The Given Number
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Count of rectangles with area less than the given number
 
 https://www.interviewbit.com/problems/count-of-rectangles-with-area-less-than-the-given-number/

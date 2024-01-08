@@ -1,3 +1,18 @@
+---
+title: Number Of Hosts Per Subnet
+summary: Number Of Hosts Per Subnet - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Number Of Hosts Per Subnet solution]
+aliases: ["/posts/number-of-hosts-per-subnet", "/blog/posts/number-of-hosts-per-subnet", "/number-of-hosts-per-subnet"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Hosts Per Subnet - Solution Explained/problem-solving.webp
+    alt: Number Of Hosts Per Subnet
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Number of Hosts per Subnet
 
 https://www.interviewbit.com/problems/number-of-hosts-per-subnet/

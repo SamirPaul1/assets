@@ -1,10 +1,16 @@
 ---
-title: knight probability in chessboard
-tags: leetcode
-categories: leetcode
+title: Knight Probability In Chessboard
+summary: Knight Probability In Chessboard LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/knight-probability-in-chessboard", "/blog/posts/knight-probability-in-chessboard", "/knight-probability-in-chessboard"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, knight-probability-in-chessboard solution
-description: knight probability in chessboard LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Knight Probability In Chessboard/problem-solving.webp
+    alt: Knight Probability In Chessboard
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

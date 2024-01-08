@@ -1,10 +1,16 @@
 ---
-title: rotate list
-tags: leetcode
-categories: leetcode
+title: Rotate List
+summary: Rotate List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/rotate-list", "/blog/posts/rotate-list", "/rotate-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, rotate-list solution
-description: rotate list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotate List/problem-solving.webp
+    alt: Rotate List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: Top View of Binary Tree   GFG
-tags: leetcode
-categories: leetcode
+title: Top View Of Binary Tree   Gfg
+summary: Top View Of Binary Tree   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Top-View-of-Binary-Tree---GFG", "/blog/posts/Top-View-of-Binary-Tree---GFG", "/Top-View-of-Binary-Tree---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Top View of Binary Tree - GFG solution
-description: Top View of Binary Tree   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Top View Of Binary Tree   Gfg/problem-solving.webp
+    alt: Top View Of Binary Tree   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

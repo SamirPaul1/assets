@@ -1,10 +1,16 @@
 ---
-title: 863 all nodes distance k in binary tree
-tags: leetcode
-categories: leetcode
+title: 863 All Nodes Distance K In Binary Tree
+summary: 863 All Nodes Distance K In Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/863-all-nodes-distance-k-in-binary-tree", "/blog/posts/863-all-nodes-distance-k-in-binary-tree", "/863-all-nodes-distance-k-in-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 863-all-nodes-distance-k-in-binary-tree solution
-description: 863 all nodes distance k in binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:863 All Nodes Distance K In Binary Tree/problem-solving.webp
+    alt: 863 All Nodes Distance K In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

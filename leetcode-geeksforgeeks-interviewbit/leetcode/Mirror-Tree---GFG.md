@@ -1,10 +1,16 @@
 ---
-title: Mirror Tree   GFG
-tags: leetcode
-categories: leetcode
+title: Mirror Tree   Gfg
+summary: Mirror Tree   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Mirror-Tree---GFG", "/blog/posts/Mirror-Tree---GFG", "/Mirror-Tree---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Mirror Tree - GFG solution
-description: Mirror Tree   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Mirror Tree   Gfg/problem-solving.webp
+    alt: Mirror Tree   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

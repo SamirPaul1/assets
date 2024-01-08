@@ -1,10 +1,16 @@
 ---
-title: range sum query mutable
-tags: leetcode
-categories: leetcode
+title: Range Sum Query Mutable
+summary: Range Sum Query Mutable LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/range-sum-query-mutable", "/blog/posts/range-sum-query-mutable", "/range-sum-query-mutable"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, range-sum-query-mutable solution
-description: range sum query mutable LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Range Sum Query Mutable/problem-solving.webp
+    alt: Range Sum Query Mutable
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

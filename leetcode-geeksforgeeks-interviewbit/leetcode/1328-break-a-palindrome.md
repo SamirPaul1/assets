@@ -1,10 +1,16 @@
 ---
-title: 1328 break a palindrome
-tags: leetcode
-categories: leetcode
+title: 1328 Break A Palindrome
+summary: 1328 Break A Palindrome LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1328-break-a-palindrome", "/blog/posts/1328-break-a-palindrome", "/1328-break-a-palindrome"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1328-break-a-palindrome solution
-description: 1328 break a palindrome LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1328 Break A Palindrome/problem-solving.webp
+    alt: 1328 Break A Palindrome
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

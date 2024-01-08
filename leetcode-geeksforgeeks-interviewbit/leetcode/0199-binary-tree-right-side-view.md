@@ -1,10 +1,16 @@
 ---
-title: 0199 binary tree right side view
-tags: leetcode
-categories: leetcode
+title: 0199 Binary Tree Right Side View
+summary: 0199 Binary Tree Right Side View LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0199-binary-tree-right-side-view", "/blog/posts/0199-binary-tree-right-side-view", "/0199-binary-tree-right-side-view"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0199-binary-tree-right-side-view solution
-description: 0199 binary tree right side view LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0199 Binary Tree Right Side View/problem-solving.webp
+    alt: 0199 Binary Tree Right Side View
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

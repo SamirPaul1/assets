@@ -1,10 +1,16 @@
 ---
-title: 2452 words within two edits of dictionary
-tags: leetcode
-categories: leetcode
+title: 2452 Words Within Two Edits Of Dictionary
+summary: 2452 Words Within Two Edits Of Dictionary LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2452-words-within-two-edits-of-dictionary", "/blog/posts/2452-words-within-two-edits-of-dictionary", "/2452-words-within-two-edits-of-dictionary"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2452-words-within-two-edits-of-dictionary solution
-description: 2452 words within two edits of dictionary LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2452 Words Within Two Edits Of Dictionary/problem-solving.webp
+    alt: 2452 Words Within Two Edits Of Dictionary
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

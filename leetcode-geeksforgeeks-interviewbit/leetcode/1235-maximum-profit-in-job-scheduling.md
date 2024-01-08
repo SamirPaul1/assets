@@ -1,10 +1,16 @@
 ---
-title: 1235 maximum profit in job scheduling
-tags: leetcode
-categories: leetcode
+title: 1235 Maximum Profit In Job Scheduling
+summary: 1235 Maximum Profit In Job Scheduling LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1235-maximum-profit-in-job-scheduling", "/blog/posts/1235-maximum-profit-in-job-scheduling", "/1235-maximum-profit-in-job-scheduling"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1235-maximum-profit-in-job-scheduling solution
-description: 1235 maximum profit in job scheduling LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1235 Maximum Profit In Job Scheduling/problem-solving.webp
+    alt: 1235 Maximum Profit In Job Scheduling
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

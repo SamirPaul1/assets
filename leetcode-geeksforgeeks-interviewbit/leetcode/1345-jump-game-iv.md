@@ -1,10 +1,16 @@
 ---
-title: 1345 jump game iv
-tags: leetcode
-categories: leetcode
+title: 1345 Jump Game Iv
+summary: 1345 Jump Game Iv LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1345-jump-game-iv", "/blog/posts/1345-jump-game-iv", "/1345-jump-game-iv"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1345-jump-game-iv solution
-description: 1345 jump game iv LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1345 Jump Game Iv/problem-solving.webp
+    alt: 1345 Jump Game Iv
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

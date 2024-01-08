@@ -1,3 +1,18 @@
+---
+title: Queen Attack
+summary: Queen Attack - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Queen Attack solution]
+aliases: ["/posts/queen-attack", "/blog/posts/queen-attack", "/queen-attack"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Queen Attack - Solution Explained/problem-solving.webp
+    alt: Queen Attack
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Queen Attack
 
 https://www.interviewbit.com/problems/queen-attack/

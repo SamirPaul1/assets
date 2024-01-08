@@ -1,10 +1,16 @@
 ---
-title: 386 lexicographical numbers
-tags: leetcode
-categories: leetcode
+title: 386 Lexicographical Numbers
+summary: 386 Lexicographical Numbers LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/386-lexicographical-numbers", "/blog/posts/386-lexicographical-numbers", "/386-lexicographical-numbers"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 386-lexicographical-numbers solution
-description: 386 lexicographical numbers LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:386 Lexicographical Numbers/problem-solving.webp
+    alt: 386 Lexicographical Numbers
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 11 container with most water
-tags: leetcode
-categories: leetcode
+title: 11 Container With Most Water
+summary: 11 Container With Most Water LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/11-container-with-most-water", "/blog/posts/11-container-with-most-water", "/11-container-with-most-water"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 11-container-with-most-water solution
-description: 11 container with most water LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:11 Container With Most Water/problem-solving.webp
+    alt: 11 Container With Most Water
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

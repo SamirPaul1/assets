@@ -1,10 +1,16 @@
 ---
-title: 848 shifting letters
-tags: leetcode
-categories: leetcode
+title: 848 Shifting Letters
+summary: 848 Shifting Letters LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/848-shifting-letters", "/blog/posts/848-shifting-letters", "/848-shifting-letters"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 848-shifting-letters solution
-description: 848 shifting letters LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:848 Shifting Letters/problem-solving.webp
+    alt: 848 Shifting Letters
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

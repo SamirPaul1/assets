@@ -1,10 +1,16 @@
 ---
-title: 0467 unique substrings in wraparound string
-tags: leetcode
-categories: leetcode
+title: 0467 Unique Substrings In Wraparound String
+summary: 0467 Unique Substrings In Wraparound String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0467-unique-substrings-in-wraparound-string", "/blog/posts/0467-unique-substrings-in-wraparound-string", "/0467-unique-substrings-in-wraparound-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0467-unique-substrings-in-wraparound-string solution
-description: 0467 unique substrings in wraparound string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0467 Unique Substrings In Wraparound String/problem-solving.webp
+    alt: 0467 Unique Substrings In Wraparound String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

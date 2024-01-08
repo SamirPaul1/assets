@@ -1,3 +1,18 @@
+---
+title: Max Sum Path In Binary Tree
+summary: Max Sum Path In Binary Tree - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Sum Path In Binary Tree solution]
+aliases: ["/posts/max-sum-path-in-binary-tree", "/blog/posts/max-sum-path-in-binary-tree", "/max-sum-path-in-binary-tree"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Sum Path In Binary Tree - Solution Explained/problem-solving.webp
+    alt: Max Sum Path In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Max Sum Path in Binary Tree
 
 https://www.interviewbit.com/problems/max-sum-path-in-binary-tree/

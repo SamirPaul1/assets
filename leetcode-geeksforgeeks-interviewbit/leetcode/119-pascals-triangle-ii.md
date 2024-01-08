@@ -1,10 +1,16 @@
 ---
-title: 119 pascals triangle ii
-tags: leetcode
-categories: leetcode
+title: 119 Pascals Triangle Ii
+summary: 119 Pascals Triangle Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/119-pascals-triangle-ii", "/blog/posts/119-pascals-triangle-ii", "/119-pascals-triangle-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 119-pascals-triangle-ii solution
-description: 119 pascals triangle ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:119 Pascals Triangle Ii/problem-solving.webp
+    alt: 119 Pascals Triangle Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

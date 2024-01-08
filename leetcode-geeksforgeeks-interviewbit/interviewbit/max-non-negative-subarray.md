@@ -1,3 +1,18 @@
+---
+title: Max Non Negative Subarray
+summary: Max Non Negative Subarray - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Non Negative Subarray solution]
+aliases: ["/posts/max-non-negative-subarray", "/blog/posts/max-non-negative-subarray", "/max-non-negative-subarray"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Non Negative Subarray - Solution Explained/problem-solving.webp
+    alt: Max Non Negative Subarray
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Max Non-Negative Subarray
 
 https://www.interviewbit.com/problems/max-non-negative-subarray/

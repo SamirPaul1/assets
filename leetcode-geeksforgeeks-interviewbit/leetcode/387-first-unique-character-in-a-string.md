@@ -1,10 +1,16 @@
 ---
-title: 387 first unique character in a string
-tags: leetcode
-categories: leetcode
+title: 387 First Unique Character In A String
+summary: 387 First Unique Character In A String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/387-first-unique-character-in-a-string", "/blog/posts/387-first-unique-character-in-a-string", "/387-first-unique-character-in-a-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 387-first-unique-character-in-a-string solution
-description: 387 first unique character in a string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:387 First Unique Character In A String/problem-solving.webp
+    alt: 387 First Unique Character In A String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0106 construct binary tree from inorder and postorder traversal
-tags: leetcode
-categories: leetcode
+title: 0106 Construct Binary Tree From Inorder And Postorder Traversal
+summary: 0106 Construct Binary Tree From Inorder And Postorder Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0106-construct-binary-tree-from-inorder-and-postorder-traversal", "/blog/posts/0106-construct-binary-tree-from-inorder-and-postorder-traversal", "/0106-construct-binary-tree-from-inorder-and-postorder-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0106-construct-binary-tree-from-inorder-and-postorder-traversal solution
-description: 0106 construct binary tree from inorder and postorder traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0106 Construct Binary Tree From Inorder And Postorder Traversal/problem-solving.webp
+    alt: 0106 Construct Binary Tree From Inorder And Postorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

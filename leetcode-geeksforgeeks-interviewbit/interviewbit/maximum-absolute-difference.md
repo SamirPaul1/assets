@@ -1,3 +1,18 @@
+---
+title: Maximum Absolute Difference
+summary: Maximum Absolute Difference - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Absolute Difference solution]
+aliases: ["/posts/maximum-absolute-difference", "/blog/posts/maximum-absolute-difference", "/maximum-absolute-difference"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Absolute Difference - Solution Explained/problem-solving.webp
+    alt: Maximum Absolute Difference
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Maximum Absolute Difference
 
 https://www.interviewbit.com/problems/maximum-absolute-difference/

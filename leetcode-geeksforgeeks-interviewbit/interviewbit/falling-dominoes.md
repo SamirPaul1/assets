@@ -1,3 +1,18 @@
+---
+title: Falling Dominoes
+summary: Falling Dominoes - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Falling Dominoes solution]
+aliases: ["/posts/falling-dominoes", "/blog/posts/falling-dominoes", "/falling-dominoes"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Falling Dominoes - Solution Explained/problem-solving.webp
+    alt: Falling Dominoes
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Falling Dominoes
 
 https://www.interviewbit.com/problems/falling-dominoes/

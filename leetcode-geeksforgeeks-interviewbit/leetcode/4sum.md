@@ -1,10 +1,16 @@
 ---
-title: 4sum
-tags: leetcode
-categories: leetcode
+title: 4Sum
+summary: 4Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/4sum", "/blog/posts/4sum", "/4sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 4sum solution
-description: 4sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:4Sum/problem-solving.webp
+    alt: 4Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

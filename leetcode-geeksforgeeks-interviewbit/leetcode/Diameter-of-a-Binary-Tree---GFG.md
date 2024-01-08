@@ -1,10 +1,16 @@
 ---
-title: Diameter of a Binary Tree   GFG
-tags: leetcode
-categories: leetcode
+title: Diameter Of A Binary Tree   Gfg
+summary: Diameter Of A Binary Tree   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Diameter-of-a-Binary-Tree---GFG", "/blog/posts/Diameter-of-a-Binary-Tree---GFG", "/Diameter-of-a-Binary-Tree---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Diameter of a Binary Tree - GFG solution
-description: Diameter of a Binary Tree   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Diameter Of A Binary Tree   Gfg/problem-solving.webp
+    alt: Diameter Of A Binary Tree   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

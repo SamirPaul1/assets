@@ -1,3 +1,18 @@
+---
+title: Wave Array
+summary: Wave Array - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Wave Array solution]
+aliases: ["/posts/wave-array", "/blog/posts/wave-array", "/wave-array"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Wave Array - Solution Explained/problem-solving.webp
+    alt: Wave Array
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Wave Array
 
 https://www.interviewbit.com/problems/wave-array/

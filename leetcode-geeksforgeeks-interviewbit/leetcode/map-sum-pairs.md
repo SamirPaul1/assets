@@ -1,10 +1,16 @@
 ---
-title: map sum pairs
-tags: leetcode
-categories: leetcode
+title: Map Sum Pairs
+summary: Map Sum Pairs LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/map-sum-pairs", "/blog/posts/map-sum-pairs", "/map-sum-pairs"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, map-sum-pairs solution
-description: map sum pairs LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Map Sum Pairs/problem-solving.webp
+    alt: Map Sum Pairs
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

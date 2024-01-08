@@ -1,10 +1,16 @@
 ---
-title: 1288 remove covered intervals
-tags: leetcode
-categories: leetcode
+title: 1288 Remove Covered Intervals
+summary: 1288 Remove Covered Intervals LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1288-remove-covered-intervals", "/blog/posts/1288-remove-covered-intervals", "/1288-remove-covered-intervals"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1288-remove-covered-intervals solution
-description: 1288 remove covered intervals LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1288 Remove Covered Intervals/problem-solving.webp
+    alt: 1288 Remove Covered Intervals
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

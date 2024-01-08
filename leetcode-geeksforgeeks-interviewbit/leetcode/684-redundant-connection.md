@@ -1,10 +1,16 @@
 ---
-title: 684 redundant connection
-tags: leetcode
-categories: leetcode
+title: 684 Redundant Connection
+summary: 684 Redundant Connection LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/684-redundant-connection", "/blog/posts/684-redundant-connection", "/684-redundant-connection"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 684-redundant-connection solution
-description: 684 redundant connection LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:684 Redundant Connection/problem-solving.webp
+    alt: 684 Redundant Connection
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

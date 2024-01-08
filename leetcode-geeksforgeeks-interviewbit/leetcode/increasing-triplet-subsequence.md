@@ -1,10 +1,16 @@
 ---
-title: increasing triplet subsequence
-tags: leetcode
-categories: leetcode
+title: Increasing Triplet Subsequence
+summary: Increasing Triplet Subsequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/increasing-triplet-subsequence", "/blog/posts/increasing-triplet-subsequence", "/increasing-triplet-subsequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, increasing-triplet-subsequence solution
-description: increasing triplet subsequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Increasing Triplet Subsequence/problem-solving.webp
+    alt: Increasing Triplet Subsequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

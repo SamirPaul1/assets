@@ -1,3 +1,18 @@
+---
+title: Max Sum Without Adjacent Elements
+summary: Max Sum Without Adjacent Elements - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Sum Without Adjacent Elements solution]
+aliases: ["/posts/max-sum-without-adjacent-elements", "/blog/posts/max-sum-without-adjacent-elements", "/max-sum-without-adjacent-elements"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Sum Without Adjacent Elements - Solution Explained/problem-solving.webp
+    alt: Max Sum Without Adjacent Elements
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Max Sum Without Adjacent Elements
 
 https://www.interviewbit.com/problems/max-sum-without-adjacent-elements/

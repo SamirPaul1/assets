@@ -1,10 +1,16 @@
 ---
-title: minimum number of k consecutive bit flips
-tags: leetcode
-categories: leetcode
+title: Minimum Number Of K Consecutive Bit Flips
+summary: Minimum Number Of K Consecutive Bit Flips LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-number-of-k-consecutive-bit-flips", "/blog/posts/minimum-number-of-k-consecutive-bit-flips", "/minimum-number-of-k-consecutive-bit-flips"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-number-of-k-consecutive-bit-flips solution
-description: minimum number of k consecutive bit flips LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Number Of K Consecutive Bit Flips/problem-solving.webp
+    alt: Minimum Number Of K Consecutive Bit Flips
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

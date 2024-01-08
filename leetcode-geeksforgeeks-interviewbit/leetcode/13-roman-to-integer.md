@@ -1,10 +1,16 @@
 ---
-title: 13 roman to integer
-tags: leetcode
-categories: leetcode
+title: 13 Roman To Integer
+summary: 13 Roman To Integer LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/13-roman-to-integer", "/blog/posts/13-roman-to-integer", "/13-roman-to-integer"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 13-roman-to-integer solution
-description: 13 roman to integer LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:13 Roman To Integer/problem-solving.webp
+    alt: 13 Roman To Integer
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

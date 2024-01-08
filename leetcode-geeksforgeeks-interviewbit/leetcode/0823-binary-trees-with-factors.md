@@ -1,10 +1,16 @@
 ---
-title: 0823 binary trees with factors
-tags: leetcode
-categories: leetcode
+title: 0823 Binary Trees With Factors
+summary: 0823 Binary Trees With Factors LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0823-binary-trees-with-factors", "/blog/posts/0823-binary-trees-with-factors", "/0823-binary-trees-with-factors"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0823-binary-trees-with-factors solution
-description: 0823 binary trees with factors LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0823 Binary Trees With Factors/problem-solving.webp
+    alt: 0823 Binary Trees With Factors
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

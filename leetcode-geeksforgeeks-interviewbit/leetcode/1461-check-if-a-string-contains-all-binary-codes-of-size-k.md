@@ -1,10 +1,16 @@
 ---
-title: 1461 check if a string contains all binary codes of size k
-tags: leetcode
-categories: leetcode
+title: 1461 Check If A String Contains All Binary Codes Of Size K
+summary: 1461 Check If A String Contains All Binary Codes Of Size K LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1461-check-if-a-string-contains-all-binary-codes-of-size-k", "/blog/posts/1461-check-if-a-string-contains-all-binary-codes-of-size-k", "/1461-check-if-a-string-contains-all-binary-codes-of-size-k"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1461-check-if-a-string-contains-all-binary-codes-of-size-k solution
-description: 1461 check if a string contains all binary codes of size k LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1461 Check If A String Contains All Binary Codes Of Size K/problem-solving.webp
+    alt: 1461 Check If A String Contains All Binary Codes Of Size K
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

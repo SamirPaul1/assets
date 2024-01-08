@@ -1,10 +1,16 @@
 ---
-title: 0682 baseball game
-tags: leetcode
-categories: leetcode
+title: 0682 Baseball Game
+summary: 0682 Baseball Game LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0682-baseball-game", "/blog/posts/0682-baseball-game", "/0682-baseball-game"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0682-baseball-game solution
-description: 0682 baseball game LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0682 Baseball Game/problem-solving.webp
+    alt: 0682 Baseball Game
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

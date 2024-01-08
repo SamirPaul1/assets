@@ -1,10 +1,16 @@
 ---
-title: 421 maximum xor of two numbers in an array
-tags: leetcode
-categories: leetcode
+title: 421 Maximum Xor Of Two Numbers In An Array
+summary: 421 Maximum Xor Of Two Numbers In An Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/421-maximum-xor-of-two-numbers-in-an-array", "/blog/posts/421-maximum-xor-of-two-numbers-in-an-array", "/421-maximum-xor-of-two-numbers-in-an-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 421-maximum-xor-of-two-numbers-in-an-array solution
-description: 421 maximum xor of two numbers in an array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:421 Maximum Xor Of Two Numbers In An Array/problem-solving.webp
+    alt: 421 Maximum Xor Of Two Numbers In An Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

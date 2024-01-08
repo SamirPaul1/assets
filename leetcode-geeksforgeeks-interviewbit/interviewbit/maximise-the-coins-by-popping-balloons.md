@@ -1,3 +1,18 @@
+---
+title: Maximise The Coins By Popping Balloons
+summary: Maximise The Coins By Popping Balloons - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximise The Coins By Popping Balloons solution]
+aliases: ["/posts/maximise-the-coins-by-popping-balloons", "/blog/posts/maximise-the-coins-by-popping-balloons", "/maximise-the-coins-by-popping-balloons"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximise The Coins By Popping Balloons - Solution Explained/problem-solving.webp
+    alt: Maximise The Coins By Popping Balloons
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Maximise the coins by popping balloons
 
 https://www.interviewbit.com/problems/maximise-the-coins-by-popping-balloons/

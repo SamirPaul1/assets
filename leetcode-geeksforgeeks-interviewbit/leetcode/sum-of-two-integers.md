@@ -1,10 +1,16 @@
 ---
-title: sum of two integers
-tags: leetcode
-categories: leetcode
+title: Sum Of Two Integers
+summary: Sum Of Two Integers LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/sum-of-two-integers", "/blog/posts/sum-of-two-integers", "/sum-of-two-integers"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, sum-of-two-integers solution
-description: sum of two integers LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Two Integers/problem-solving.webp
+    alt: Sum Of Two Integers
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

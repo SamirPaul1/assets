@@ -1,10 +1,16 @@
 ---
-title: 1695 maximum erasure value
-tags: leetcode
-categories: leetcode
+title: 1695 Maximum Erasure Value
+summary: 1695 Maximum Erasure Value LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1695-maximum-erasure-value", "/blog/posts/1695-maximum-erasure-value", "/1695-maximum-erasure-value"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1695-maximum-erasure-value solution
-description: 1695 maximum erasure value LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1695 Maximum Erasure Value/problem-solving.webp
+    alt: 1695 Maximum Erasure Value
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

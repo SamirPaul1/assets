@@ -1,10 +1,16 @@
 ---
-title: 397 integer replacement
-tags: leetcode
-categories: leetcode
+title: 397 Integer Replacement
+summary: 397 Integer Replacement LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/397-integer-replacement", "/blog/posts/397-integer-replacement", "/397-integer-replacement"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 397-integer-replacement solution
-description: 397 integer replacement LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:397 Integer Replacement/problem-solving.webp
+    alt: 397 Integer Replacement
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

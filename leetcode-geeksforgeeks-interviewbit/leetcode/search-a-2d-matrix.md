@@ -1,10 +1,16 @@
 ---
-title: search a 2d matrix
-tags: leetcode
-categories: leetcode
+title: Search A 2D Matrix
+summary: Search A 2D Matrix LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/search-a-2d-matrix", "/blog/posts/search-a-2d-matrix", "/search-a-2d-matrix"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, search-a-2d-matrix solution
-description: search a 2d matrix LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Search A 2D Matrix/problem-solving.webp
+    alt: Search A 2D Matrix
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Level Order
+summary: Level Order - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Level Order solution]
+aliases: ["/posts/level-order", "/blog/posts/level-order", "/level-order"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Level Order - Solution Explained/problem-solving.webp
+    alt: Level Order
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Level Order
 https://www.interviewbit.com/problems/level-order/
 

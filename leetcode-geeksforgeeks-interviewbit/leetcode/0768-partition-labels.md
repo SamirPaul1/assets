@@ -1,10 +1,16 @@
 ---
-title: 0768 partition labels
-tags: leetcode
-categories: leetcode
+title: 0768 Partition Labels
+summary: 0768 Partition Labels LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0768-partition-labels", "/blog/posts/0768-partition-labels", "/0768-partition-labels"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0768-partition-labels solution
-description: 0768 partition labels LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0768 Partition Labels/problem-solving.webp
+    alt: 0768 Partition Labels
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

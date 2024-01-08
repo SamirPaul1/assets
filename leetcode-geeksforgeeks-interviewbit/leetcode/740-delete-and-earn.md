@@ -1,10 +1,16 @@
 ---
-title: 740 delete and earn
-tags: leetcode
-categories: leetcode
+title: 740 Delete And Earn
+summary: 740 Delete And Earn LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/740-delete-and-earn", "/blog/posts/740-delete-and-earn", "/740-delete-and-earn"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 740-delete-and-earn solution
-description: 740 delete and earn LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:740 Delete And Earn/problem-solving.webp
+    alt: 740 Delete And Earn
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Median Of Array
+summary: Median Of Array - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Median Of Array solution]
+aliases: ["/posts/median-of-array", "/blog/posts/median-of-array", "/median-of-array"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Median Of Array - Solution Explained/problem-solving.webp
+    alt: Median Of Array
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Median Of Array
 
 https://www.interviewbit.com/problems/median-of-array

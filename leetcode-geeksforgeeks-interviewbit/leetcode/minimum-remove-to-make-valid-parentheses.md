@@ -1,10 +1,16 @@
 ---
-title: minimum remove to make valid parentheses
-tags: leetcode
-categories: leetcode
+title: Minimum Remove To Make Valid Parentheses
+summary: Minimum Remove To Make Valid Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-remove-to-make-valid-parentheses", "/blog/posts/minimum-remove-to-make-valid-parentheses", "/minimum-remove-to-make-valid-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-remove-to-make-valid-parentheses solution
-description: minimum remove to make valid parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Remove To Make Valid Parentheses/problem-solving.webp
+    alt: Minimum Remove To Make Valid Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

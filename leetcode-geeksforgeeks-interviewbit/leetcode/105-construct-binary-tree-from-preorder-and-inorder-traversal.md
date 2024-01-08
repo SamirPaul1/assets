@@ -1,10 +1,16 @@
 ---
-title: 105 construct binary tree from preorder and inorder traversal
-tags: leetcode
-categories: leetcode
+title: 105 Construct Binary Tree From Preorder And Inorder Traversal
+summary: 105 Construct Binary Tree From Preorder And Inorder Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/105-construct-binary-tree-from-preorder-and-inorder-traversal", "/blog/posts/105-construct-binary-tree-from-preorder-and-inorder-traversal", "/105-construct-binary-tree-from-preorder-and-inorder-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 105-construct-binary-tree-from-preorder-and-inorder-traversal solution
-description: 105 construct binary tree from preorder and inorder traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:105 Construct Binary Tree From Preorder And Inorder Traversal/problem-solving.webp
+    alt: 105 Construct Binary Tree From Preorder And Inorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

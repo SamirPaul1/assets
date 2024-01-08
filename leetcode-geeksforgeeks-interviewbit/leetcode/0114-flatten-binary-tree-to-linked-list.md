@@ -1,10 +1,16 @@
 ---
-title: 0114 flatten binary tree to linked list
-tags: leetcode
-categories: leetcode
+title: 0114 Flatten Binary Tree To Linked List
+summary: 0114 Flatten Binary Tree To Linked List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0114-flatten-binary-tree-to-linked-list", "/blog/posts/0114-flatten-binary-tree-to-linked-list", "/0114-flatten-binary-tree-to-linked-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0114-flatten-binary-tree-to-linked-list solution
-description: 0114 flatten binary tree to linked list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0114 Flatten Binary Tree To Linked List/problem-solving.webp
+    alt: 0114 Flatten Binary Tree To Linked List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

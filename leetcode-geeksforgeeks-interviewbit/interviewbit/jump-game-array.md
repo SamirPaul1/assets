@@ -1,3 +1,18 @@
+---
+title: Jump Game Array
+summary: Jump Game Array - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Jump Game Array solution]
+aliases: ["/posts/jump-game-array", "/blog/posts/jump-game-array", "/jump-game-array"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Jump Game Array - Solution Explained/problem-solving.webp
+    alt: Jump Game Array
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Jump Game Array
 
 https://www.interviewbit.com/problems/jump-game-array

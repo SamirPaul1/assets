@@ -1,10 +1,16 @@
 ---
-title: 461 hamming distance
-tags: leetcode
-categories: leetcode
+title: 461 Hamming Distance
+summary: 461 Hamming Distance LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/461-hamming-distance", "/blog/posts/461-hamming-distance", "/461-hamming-distance"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 461-hamming-distance solution
-description: 461 hamming distance LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:461 Hamming Distance/problem-solving.webp
+    alt: 461 Hamming Distance
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

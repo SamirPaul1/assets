@@ -1,10 +1,16 @@
 ---
-title: 720 longest word in dictionary
-tags: leetcode
-categories: leetcode
+title: 720 Longest Word In Dictionary
+summary: 720 Longest Word In Dictionary LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/720-longest-word-in-dictionary", "/blog/posts/720-longest-word-in-dictionary", "/720-longest-word-in-dictionary"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 720-longest-word-in-dictionary solution
-description: 720 longest word in dictionary LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:720 Longest Word In Dictionary/problem-solving.webp
+    alt: 720 Longest Word In Dictionary
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

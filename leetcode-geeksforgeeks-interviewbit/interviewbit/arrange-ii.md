@@ -1,3 +1,18 @@
+---
+title: Arrange Ii
+summary: Arrange Ii - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Arrange Ii solution]
+aliases: ["/posts/arrange-ii", "/blog/posts/arrange-ii", "/arrange-ii"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Arrange Ii - Solution Explained/problem-solving.webp
+    alt: Arrange Ii
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Arrange II
 
 https://www.interviewbit.com/problems/arrange-ii/

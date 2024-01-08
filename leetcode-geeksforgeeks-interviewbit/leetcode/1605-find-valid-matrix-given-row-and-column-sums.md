@@ -1,10 +1,16 @@
 ---
-title: 1605 find valid matrix given row and column sums
-tags: leetcode
-categories: leetcode
+title: 1605 Find Valid Matrix Given Row And Column Sums
+summary: 1605 Find Valid Matrix Given Row And Column Sums LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1605-find-valid-matrix-given-row-and-column-sums", "/blog/posts/1605-find-valid-matrix-given-row-and-column-sums", "/1605-find-valid-matrix-given-row-and-column-sums"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1605-find-valid-matrix-given-row-and-column-sums solution
-description: 1605 find valid matrix given row and column sums LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1605 Find Valid Matrix Given Row And Column Sums/problem-solving.webp
+    alt: 1605 Find Valid Matrix Given Row And Column Sums
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

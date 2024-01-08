@@ -1,10 +1,16 @@
 ---
-title: reverse pairs
-tags: leetcode
-categories: leetcode
+title: Reverse Pairs
+summary: Reverse Pairs LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/reverse-pairs", "/blog/posts/reverse-pairs", "/reverse-pairs"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, reverse-pairs solution
-description: reverse pairs LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse Pairs/problem-solving.webp
+    alt: Reverse Pairs
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

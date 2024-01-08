@@ -1,10 +1,16 @@
 ---
-title: reach a number
-tags: leetcode
-categories: leetcode
+title: Reach A Number
+summary: Reach A Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/reach-a-number", "/blog/posts/reach-a-number", "/reach-a-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, reach-a-number solution
-description: reach a number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reach A Number/problem-solving.webp
+    alt: Reach A Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

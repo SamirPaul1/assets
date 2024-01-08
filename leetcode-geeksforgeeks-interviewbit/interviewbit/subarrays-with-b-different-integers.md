@@ -1,3 +1,18 @@
+---
+title: Subarrays With B Different Integers
+summary: Subarrays With B Different Integers - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Subarrays With B Different Integers solution]
+aliases: ["/posts/subarrays-with-b-different-integers", "/blog/posts/subarrays-with-b-different-integers", "/subarrays-with-b-different-integers"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subarrays With B Different Integers - Solution Explained/problem-solving.webp
+    alt: Subarrays With B Different Integers
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Subarrays with B Different Integers
 
 https://www.interviewbit.com/problems/subarrays-with-b-different-integers/

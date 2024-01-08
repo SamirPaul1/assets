@@ -1,3 +1,18 @@
+---
+title: Sliding Window Maximum
+summary: Sliding Window Maximum - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sliding Window Maximum solution]
+aliases: ["/posts/sliding-window-maximum", "/blog/posts/sliding-window-maximum", "/sliding-window-maximum"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sliding Window Maximum - Solution Explained/problem-solving.webp
+    alt: Sliding Window Maximum
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sliding Window Maxiumum
 
 https://www.interviewbit.com/problems/sliding-window-maxiumum

@@ -1,3 +1,18 @@
+---
+title: Power Of Two Integers
+summary: Power Of Two Integers - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Power Of Two Integers solution]
+aliases: ["/posts/power-of-two-integers", "/blog/posts/power-of-two-integers", "/power-of-two-integers"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Power Of Two Integers - Solution Explained/problem-solving.webp
+    alt: Power Of Two Integers
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Power Of Two Integers
 
 https://www.interviewbit.com/problems/power-of-two-integers

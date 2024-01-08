@@ -1,10 +1,16 @@
 ---
-title: 1382 balance a binary search tree
-tags: leetcode
-categories: leetcode
+title: 1382 Balance A Binary Search Tree
+summary: 1382 Balance A Binary Search Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1382-balance-a-binary-search-tree", "/blog/posts/1382-balance-a-binary-search-tree", "/1382-balance-a-binary-search-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1382-balance-a-binary-search-tree solution
-description: 1382 balance a binary search tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1382 Balance A Binary Search Tree/problem-solving.webp
+    alt: 1382 Balance A Binary Search Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

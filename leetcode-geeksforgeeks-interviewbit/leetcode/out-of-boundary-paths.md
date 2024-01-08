@@ -1,10 +1,16 @@
 ---
-title: out of boundary paths
-tags: leetcode
-categories: leetcode
+title: Out Of Boundary Paths
+summary: Out Of Boundary Paths LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/out-of-boundary-paths", "/blog/posts/out-of-boundary-paths", "/out-of-boundary-paths"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, out-of-boundary-paths solution
-description: out of boundary paths LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Out Of Boundary Paths/problem-solving.webp
+    alt: Out Of Boundary Paths
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

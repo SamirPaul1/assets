@@ -1,10 +1,16 @@
 ---
-title: 1898 maximum number of removable characters
-tags: leetcode
-categories: leetcode
+title: 1898 Maximum Number Of Removable Characters
+summary: 1898 Maximum Number Of Removable Characters LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1898-maximum-number-of-removable-characters", "/blog/posts/1898-maximum-number-of-removable-characters", "/1898-maximum-number-of-removable-characters"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1898-maximum-number-of-removable-characters solution
-description: 1898 maximum number of removable characters LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1898 Maximum Number Of Removable Characters/problem-solving.webp
+    alt: 1898 Maximum Number Of Removable Characters
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

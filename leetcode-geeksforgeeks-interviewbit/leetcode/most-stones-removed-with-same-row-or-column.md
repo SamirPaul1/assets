@@ -1,10 +1,16 @@
 ---
-title: most stones removed with same row or column
-tags: leetcode
-categories: leetcode
+title: Most Stones Removed With Same Row Or Column
+summary: Most Stones Removed With Same Row Or Column LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/most-stones-removed-with-same-row-or-column", "/blog/posts/most-stones-removed-with-same-row-or-column", "/most-stones-removed-with-same-row-or-column"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, most-stones-removed-with-same-row-or-column solution
-description: most stones removed with same row or column LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Most Stones Removed With Same Row Or Column/problem-solving.webp
+    alt: Most Stones Removed With Same Row Or Column
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 190 reverse bits
-tags: leetcode
-categories: leetcode
+title: 190 Reverse Bits
+summary: 190 Reverse Bits LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/190-reverse-bits", "/blog/posts/190-reverse-bits", "/190-reverse-bits"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 190-reverse-bits solution
-description: 190 reverse bits LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:190 Reverse Bits/problem-solving.webp
+    alt: 190 Reverse Bits
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

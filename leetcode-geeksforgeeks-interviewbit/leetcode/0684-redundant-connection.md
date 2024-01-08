@@ -1,10 +1,16 @@
 ---
-title: 0684 redundant connection
-tags: leetcode
-categories: leetcode
+title: 0684 Redundant Connection
+summary: 0684 Redundant Connection LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0684-redundant-connection", "/blog/posts/0684-redundant-connection", "/0684-redundant-connection"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0684-redundant-connection solution
-description: 0684 redundant connection LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0684 Redundant Connection/problem-solving.webp
+    alt: 0684 Redundant Connection
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

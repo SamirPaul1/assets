@@ -1,10 +1,16 @@
 ---
-title: koko eating bananas
-tags: leetcode
-categories: leetcode
+title: Koko Eating Bananas
+summary: Koko Eating Bananas LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/koko-eating-bananas", "/blog/posts/koko-eating-bananas", "/koko-eating-bananas"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, koko-eating-bananas solution
-description: koko eating bananas LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Koko Eating Bananas/problem-solving.webp
+    alt: Koko Eating Bananas
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

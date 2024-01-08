@@ -1,3 +1,18 @@
+---
+title: Prettyprint
+summary: Prettyprint - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Prettyprint solution]
+aliases: ["/posts/prettyprint", "/blog/posts/prettyprint", "/prettyprint"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Prettyprint - Solution Explained/problem-solving.webp
+    alt: Prettyprint
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # PRETTYPRINT
 
 https://www.interviewbit.com/problems/prettyprint/

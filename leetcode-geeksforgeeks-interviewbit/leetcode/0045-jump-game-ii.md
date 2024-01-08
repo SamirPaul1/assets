@@ -1,10 +1,16 @@
 ---
-title: 0045 jump game ii
-tags: leetcode
-categories: leetcode
+title: 0045 Jump Game Ii
+summary: 0045 Jump Game Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0045-jump-game-ii", "/blog/posts/0045-jump-game-ii", "/0045-jump-game-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0045-jump-game-ii solution
-description: 0045 jump game ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0045 Jump Game Ii/problem-solving.webp
+    alt: 0045 Jump Game Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

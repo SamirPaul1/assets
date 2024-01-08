@@ -1,10 +1,16 @@
 ---
-title: equal sum arrays with minimum number of operations
-tags: leetcode
-categories: leetcode
+title: Equal Sum Arrays With Minimum Number Of Operations
+summary: Equal Sum Arrays With Minimum Number Of Operations LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/equal-sum-arrays-with-minimum-number-of-operations", "/blog/posts/equal-sum-arrays-with-minimum-number-of-operations", "/equal-sum-arrays-with-minimum-number-of-operations"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, equal-sum-arrays-with-minimum-number-of-operations solution
-description: equal sum arrays with minimum number of operations LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Equal Sum Arrays With Minimum Number Of Operations/problem-solving.webp
+    alt: Equal Sum Arrays With Minimum Number Of Operations
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

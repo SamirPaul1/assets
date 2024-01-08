@@ -1,10 +1,16 @@
 ---
-title: Consecutive 1's not allowed   GFG
-tags: leetcode
-categories: leetcode
+title: Consecutive 1'S Not Allowed   Gfg
+summary: Consecutive 1'S Not Allowed   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Consecutive-1's-not-allowed---GFG", "/blog/posts/Consecutive-1's-not-allowed---GFG", "/Consecutive-1's-not-allowed---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Consecutive 1's not allowed - GFG solution
-description: Consecutive 1's not allowed   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Consecutive 1'S Not Allowed   Gfg/problem-solving.webp
+    alt: Consecutive 1'S Not Allowed   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

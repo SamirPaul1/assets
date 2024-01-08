@@ -1,3 +1,18 @@
+---
+title: Evaluate Expression To True
+summary: Evaluate Expression To True - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Evaluate Expression To True solution]
+aliases: ["/posts/evaluate-expression-to-true", "/blog/posts/evaluate-expression-to-true", "/evaluate-expression-to-true"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Evaluate Expression To True - Solution Explained/problem-solving.webp
+    alt: Evaluate Expression To True
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Evaluate Expression To True
 
 Given expression with operands and operators (OR , AND , XOR) , in how many ways can you evaluate the expression to true, by grouping in different ways? Operands are only true and false.

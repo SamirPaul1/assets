@@ -1,10 +1,16 @@
 ---
-title: queue reconstruction by height
-tags: leetcode
-categories: leetcode
+title: Queue Reconstruction By Height
+summary: Queue Reconstruction By Height LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/queue-reconstruction-by-height", "/blog/posts/queue-reconstruction-by-height", "/queue-reconstruction-by-height"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, queue-reconstruction-by-height solution
-description: queue reconstruction by height LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Queue Reconstruction By Height/problem-solving.webp
+    alt: Queue Reconstruction By Height
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

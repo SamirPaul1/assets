@@ -1,10 +1,16 @@
 ---
-title: merge sorted array
-tags: leetcode
-categories: leetcode
+title: Merge Sorted Array
+summary: Merge Sorted Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/merge-sorted-array", "/blog/posts/merge-sorted-array", "/merge-sorted-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, merge-sorted-array solution
-description: merge sorted array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Sorted Array/problem-solving.webp
+    alt: Merge Sorted Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

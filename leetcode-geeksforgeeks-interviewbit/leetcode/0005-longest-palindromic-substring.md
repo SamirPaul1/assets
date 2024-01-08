@@ -1,10 +1,16 @@
 ---
-title: 0005 longest palindromic substring
-tags: leetcode
-categories: leetcode
+title: 0005 Longest Palindromic Substring
+summary: 0005 Longest Palindromic Substring LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0005-longest-palindromic-substring", "/blog/posts/0005-longest-palindromic-substring", "/0005-longest-palindromic-substring"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0005-longest-palindromic-substring solution
-description: 0005 longest palindromic substring LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0005 Longest Palindromic Substring/problem-solving.webp
+    alt: 0005 Longest Palindromic Substring
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

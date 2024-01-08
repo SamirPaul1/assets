@@ -1,3 +1,18 @@
+---
+title: Find A Peak Element
+summary: Find A Peak Element - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Find A Peak Element solution]
+aliases: ["/posts/find-a-peak-element", "/blog/posts/find-a-peak-element", "/find-a-peak-element"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find A Peak Element - Solution Explained/problem-solving.webp
+    alt: Find A Peak Element
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Find a peak element
 
 https://www.interviewbit.com/problems/find-a-peak-element/

@@ -1,10 +1,16 @@
 ---
-title: word search
-tags: leetcode
-categories: leetcode
+title: Word Search
+summary: Word Search LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/word-search", "/blog/posts/word-search", "/word-search"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, word-search solution
-description: word search LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Search/problem-solving.webp
+    alt: Word Search
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

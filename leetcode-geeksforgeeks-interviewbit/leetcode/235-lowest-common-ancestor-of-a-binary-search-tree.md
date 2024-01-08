@@ -1,10 +1,16 @@
 ---
-title: 235 lowest common ancestor of a binary search tree
-tags: leetcode
-categories: leetcode
+title: 235 Lowest Common Ancestor Of A Binary Search Tree
+summary: 235 Lowest Common Ancestor Of A Binary Search Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/235-lowest-common-ancestor-of-a-binary-search-tree", "/blog/posts/235-lowest-common-ancestor-of-a-binary-search-tree", "/235-lowest-common-ancestor-of-a-binary-search-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 235-lowest-common-ancestor-of-a-binary-search-tree solution
-description: 235 lowest common ancestor of a binary search tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:235 Lowest Common Ancestor Of A Binary Search Tree/problem-solving.webp
+    alt: 235 Lowest Common Ancestor Of A Binary Search Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

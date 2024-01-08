@@ -1,3 +1,18 @@
+---
+title: City Tour
+summary: City Tour - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, City Tour solution]
+aliases: ["/posts/city-tour", "/blog/posts/city-tour", "/city-tour"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:City Tour - Solution Explained/problem-solving.webp
+    alt: City Tour
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # City Tour
 
 https://www.interviewbit.com/problems/city-tour

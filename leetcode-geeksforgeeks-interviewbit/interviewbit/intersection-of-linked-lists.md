@@ -1,3 +1,18 @@
+---
+title: Intersection Of Linked Lists
+summary: Intersection Of Linked Lists - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Intersection Of Linked Lists solution]
+aliases: ["/posts/intersection-of-linked-lists", "/blog/posts/intersection-of-linked-lists", "/intersection-of-linked-lists"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Intersection Of Linked Lists - Solution Explained/problem-solving.webp
+    alt: Intersection Of Linked Lists
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Intersection of Linked Lists
 
 https://www.interviewbit.com/problems/intersection-of-linked-lists/

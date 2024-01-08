@@ -1,10 +1,16 @@
 ---
-title: invert binary tree
-tags: leetcode
-categories: leetcode
+title: Invert Binary Tree
+summary: Invert Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/invert-binary-tree", "/blog/posts/invert-binary-tree", "/invert-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, invert-binary-tree solution
-description: invert binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Invert Binary Tree/problem-solving.webp
+    alt: Invert Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

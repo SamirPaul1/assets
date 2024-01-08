@@ -1,10 +1,16 @@
 ---
-title: 0343 integer break
-tags: leetcode
-categories: leetcode
+title: 0343 Integer Break
+summary: 0343 Integer Break LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0343-integer-break", "/blog/posts/0343-integer-break", "/0343-integer-break"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0343-integer-break solution
-description: 0343 integer break LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0343 Integer Break/problem-solving.webp
+    alt: 0343 Integer Break
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

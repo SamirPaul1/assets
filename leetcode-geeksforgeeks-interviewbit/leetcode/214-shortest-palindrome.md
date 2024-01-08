@@ -1,10 +1,16 @@
 ---
-title: 214 shortest palindrome
-tags: leetcode
-categories: leetcode
+title: 214 Shortest Palindrome
+summary: 214 Shortest Palindrome LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/214-shortest-palindrome", "/blog/posts/214-shortest-palindrome", "/214-shortest-palindrome"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 214-shortest-palindrome solution
-description: 214 shortest palindrome LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:214 Shortest Palindrome/problem-solving.webp
+    alt: 214 Shortest Palindrome
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

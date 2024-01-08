@@ -1,3 +1,18 @@
+---
+title: Grid Unique Paths
+summary: Grid Unique Paths - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Grid Unique Paths solution]
+aliases: ["/posts/grid-unique-paths", "/blog/posts/grid-unique-paths", "/grid-unique-paths"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Grid Unique Paths - Solution Explained/problem-solving.webp
+    alt: Grid Unique Paths
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Grid Unique Paths
 
 https://www.interviewbit.com/problems/grid-unique-paths

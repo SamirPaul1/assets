@@ -1,3 +1,18 @@
+---
+title: Product Array Puzzle
+summary: Product Array Puzzle - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Product Array Puzzle solution]
+aliases: ["/posts/product-array-puzzle", "/blog/posts/product-array-puzzle", "/product-array-puzzle"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Product Array Puzzle - Solution Explained/problem-solving.webp
+    alt: Product Array Puzzle
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Product array puzzle
 
 https://www.interviewbit.com/problems/product-array-puzzle/

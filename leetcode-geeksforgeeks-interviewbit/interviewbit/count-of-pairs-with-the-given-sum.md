@@ -1,3 +1,18 @@
+---
+title: Count Of Pairs With The Given Sum
+summary: Count Of Pairs With The Given Sum - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Count Of Pairs With The Given Sum solution]
+aliases: ["/posts/count-of-pairs-with-the-given-sum", "/blog/posts/count-of-pairs-with-the-given-sum", "/count-of-pairs-with-the-given-sum"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Of Pairs With The Given Sum - Solution Explained/problem-solving.webp
+    alt: Count Of Pairs With The Given Sum
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Count of pairs with the given sum
 
 https://www.interviewbit.com/problems/count-of-pairs-with-the-given-sum

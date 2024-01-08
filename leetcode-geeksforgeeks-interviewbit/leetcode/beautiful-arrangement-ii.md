@@ -1,10 +1,16 @@
 ---
-title: beautiful arrangement ii
-tags: leetcode
-categories: leetcode
+title: Beautiful Arrangement Ii
+summary: Beautiful Arrangement Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/beautiful-arrangement-ii", "/blog/posts/beautiful-arrangement-ii", "/beautiful-arrangement-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, beautiful-arrangement-ii solution
-description: beautiful arrangement ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Beautiful Arrangement Ii/problem-solving.webp
+    alt: Beautiful Arrangement Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

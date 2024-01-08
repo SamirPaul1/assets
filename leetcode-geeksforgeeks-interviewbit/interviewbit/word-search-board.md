@@ -1,3 +1,18 @@
+---
+title: Word Search Board
+summary: Word Search Board - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Word Search Board solution]
+aliases: ["/posts/word-search-board", "/blog/posts/word-search-board", "/word-search-board"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Search Board - Solution Explained/problem-solving.webp
+    alt: Word Search Board
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Word Search Board
 
 https://www.interviewbit.com/problems/word-search-board/

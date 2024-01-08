@@ -1,10 +1,16 @@
 ---
-title: 581 shortest unsorted continuous subarray
-tags: leetcode
-categories: leetcode
+title: 581 Shortest Unsorted Continuous Subarray
+summary: 581 Shortest Unsorted Continuous Subarray LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/581-shortest-unsorted-continuous-subarray", "/blog/posts/581-shortest-unsorted-continuous-subarray", "/581-shortest-unsorted-continuous-subarray"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 581-shortest-unsorted-continuous-subarray solution
-description: 581 shortest unsorted continuous subarray LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:581 Shortest Unsorted Continuous Subarray/problem-solving.webp
+    alt: 581 Shortest Unsorted Continuous Subarray
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

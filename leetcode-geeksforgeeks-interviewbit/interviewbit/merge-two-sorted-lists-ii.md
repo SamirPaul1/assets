@@ -1,3 +1,18 @@
+---
+title: Merge Two Sorted Lists Ii
+summary: Merge Two Sorted Lists Ii - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge Two Sorted Lists Ii solution]
+aliases: ["/posts/merge-two-sorted-lists-ii", "/blog/posts/merge-two-sorted-lists-ii", "/merge-two-sorted-lists-ii"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Two Sorted Lists Ii - Solution Explained/problem-solving.webp
+    alt: Merge Two Sorted Lists Ii
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Merge Two Sorted Lists II
 
 https://www.interviewbit.com/problems/merge-two-sorted-lists-ii

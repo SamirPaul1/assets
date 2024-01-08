@@ -1,10 +1,16 @@
 ---
-title: stone game iii
-tags: leetcode
-categories: leetcode
+title: Stone Game Iii
+summary: Stone Game Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/stone-game-iii", "/blog/posts/stone-game-iii", "/stone-game-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, stone-game-iii solution
-description: stone game iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Stone Game Iii/problem-solving.webp
+    alt: Stone Game Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

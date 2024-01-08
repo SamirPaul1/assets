@@ -1,3 +1,18 @@
+---
+title: Insertion Sort List
+summary: Insertion Sort List - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Insertion Sort List solution]
+aliases: ["/posts/insertion-sort-list", "/blog/posts/insertion-sort-list", "/insertion-sort-list"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Insertion Sort List - Solution Explained/problem-solving.webp
+    alt: Insertion Sort List
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Insertion Sort List
 
 https://www.interviewbit.com/problems/insertion-sort-list

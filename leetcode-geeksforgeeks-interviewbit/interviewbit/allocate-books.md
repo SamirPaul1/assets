@@ -1,3 +1,18 @@
+---
+title: Allocate Books
+summary: Allocate Books - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Allocate Books solution]
+aliases: ["/posts/allocate-books", "/blog/posts/allocate-books", "/allocate-books"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Allocate Books - Solution Explained/problem-solving.webp
+    alt: Allocate Books
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Allocate Books
 
 https://www.interviewbit.com/problems/allocate-books

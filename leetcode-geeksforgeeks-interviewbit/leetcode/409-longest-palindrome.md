@@ -1,10 +1,16 @@
 ---
-title: 409 longest palindrome
-tags: leetcode
-categories: leetcode
+title: 409 Longest Palindrome
+summary: 409 Longest Palindrome LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/409-longest-palindrome", "/blog/posts/409-longest-palindrome", "/409-longest-palindrome"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 409-longest-palindrome solution
-description: 409 longest palindrome LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:409 Longest Palindrome/problem-solving.webp
+    alt: 409 Longest Palindrome
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

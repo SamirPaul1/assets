@@ -1,10 +1,16 @@
 ---
-title: 406 queue reconstruction by height
-tags: leetcode
-categories: leetcode
+title: 406 Queue Reconstruction By Height
+summary: 406 Queue Reconstruction By Height LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/406-queue-reconstruction-by-height", "/blog/posts/406-queue-reconstruction-by-height", "/406-queue-reconstruction-by-height"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 406-queue-reconstruction-by-height solution
-description: 406 queue reconstruction by height LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:406 Queue Reconstruction By Height/problem-solving.webp
+    alt: 406 Queue Reconstruction By Height
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0121 best time to buy and sell stock
-tags: leetcode
-categories: leetcode
+title: 0121 Best Time To Buy And Sell Stock
+summary: 0121 Best Time To Buy And Sell Stock LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0121-best-time-to-buy-and-sell-stock", "/blog/posts/0121-best-time-to-buy-and-sell-stock", "/0121-best-time-to-buy-and-sell-stock"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0121-best-time-to-buy-and-sell-stock solution
-description: 0121 best time to buy and sell stock LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0121 Best Time To Buy And Sell Stock/problem-solving.webp
+    alt: 0121 Best Time To Buy And Sell Stock
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

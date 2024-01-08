@@ -1,10 +1,16 @@
 ---
-title: 1834 single threaded cpu
-tags: leetcode
-categories: leetcode
+title: 1834 Single Threaded Cpu
+summary: 1834 Single Threaded Cpu LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1834-single-threaded-cpu", "/blog/posts/1834-single-threaded-cpu", "/1834-single-threaded-cpu"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1834-single-threaded-cpu solution
-description: 1834 single threaded cpu LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1834 Single Threaded Cpu/problem-solving.webp
+    alt: 1834 Single Threaded Cpu
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

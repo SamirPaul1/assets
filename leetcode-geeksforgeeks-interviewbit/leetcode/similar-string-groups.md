@@ -1,10 +1,16 @@
 ---
-title: similar string groups
-tags: leetcode
-categories: leetcode
+title: Similar String Groups
+summary: Similar String Groups LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/similar-string-groups", "/blog/posts/similar-string-groups", "/similar-string-groups"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, similar-string-groups solution
-description: similar string groups LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Similar String Groups/problem-solving.webp
+    alt: Similar String Groups
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: gas station
-tags: leetcode
-categories: leetcode
+title: Gas Station
+summary: Gas Station LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/gas-station", "/blog/posts/gas-station", "/gas-station"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, gas-station solution
-description: gas station LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Gas Station/problem-solving.webp
+    alt: Gas Station
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

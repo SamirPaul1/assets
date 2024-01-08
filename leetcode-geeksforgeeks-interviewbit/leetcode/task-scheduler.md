@@ -1,10 +1,16 @@
 ---
-title: task scheduler
-tags: leetcode
-categories: leetcode
+title: Task Scheduler
+summary: Task Scheduler LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/task-scheduler", "/blog/posts/task-scheduler", "/task-scheduler"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, task-scheduler solution
-description: task scheduler LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Task Scheduler/problem-solving.webp
+    alt: Task Scheduler
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

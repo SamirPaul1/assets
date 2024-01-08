@@ -1,3 +1,18 @@
+---
+title: Shortest Common Superstring
+summary: Shortest Common Superstring - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Shortest Common Superstring solution]
+aliases: ["/posts/shortest-common-superstring", "/blog/posts/shortest-common-superstring", "/shortest-common-superstring"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Common Superstring - Solution Explained/problem-solving.webp
+    alt: Shortest Common Superstring
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Shortest common superstring
 
 Given a set of strings. Find the length of smallest string which

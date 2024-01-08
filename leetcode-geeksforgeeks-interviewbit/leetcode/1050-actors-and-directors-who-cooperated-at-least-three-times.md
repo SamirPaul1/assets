@@ -1,10 +1,16 @@
 ---
-title: 1050 actors and directors who cooperated at least three times
-tags: leetcode
-categories: leetcode
+title: 1050 Actors And Directors Who Cooperated At Least Three Times
+summary: 1050 Actors And Directors Who Cooperated At Least Three Times LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1050-actors-and-directors-who-cooperated-at-least-three-times", "/blog/posts/1050-actors-and-directors-who-cooperated-at-least-three-times", "/1050-actors-and-directors-who-cooperated-at-least-three-times"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1050-actors-and-directors-who-cooperated-at-least-three-times solution
-description: 1050 actors and directors who cooperated at least three times LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1050 Actors And Directors Who Cooperated At Least Three Times/problem-solving.webp
+    alt: 1050 Actors And Directors Who Cooperated At Least Three Times
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

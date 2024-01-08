@@ -1,10 +1,16 @@
 ---
-title: single number ii
-tags: leetcode
-categories: leetcode
+title: Single Number Ii
+summary: Single Number Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/single-number-ii", "/blog/posts/single-number-ii", "/single-number-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, single-number-ii solution
-description: single number ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Number Ii/problem-solving.webp
+    alt: Single Number Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

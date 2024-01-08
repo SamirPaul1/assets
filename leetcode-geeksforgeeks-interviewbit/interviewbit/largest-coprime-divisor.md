@@ -1,3 +1,18 @@
+---
+title: Largest Coprime Divisor
+summary: Largest Coprime Divisor - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Largest Coprime Divisor solution]
+aliases: ["/posts/largest-coprime-divisor", "/blog/posts/largest-coprime-divisor", "/largest-coprime-divisor"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Coprime Divisor - Solution Explained/problem-solving.webp
+    alt: Largest Coprime Divisor
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Largest Coprime Divisor
 
 https://www.interviewbit.com/problems/largest-coprime-divisor

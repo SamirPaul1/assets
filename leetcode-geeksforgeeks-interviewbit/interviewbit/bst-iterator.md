@@ -1,3 +1,18 @@
+---
+title: Bst Iterator
+summary: Bst Iterator - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Bst Iterator solution]
+aliases: ["/posts/bst-iterator", "/blog/posts/bst-iterator", "/bst-iterator"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Bst Iterator - Solution Explained/problem-solving.webp
+    alt: Bst Iterator
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Bst Iterator
 
 https://www.interviewbit.com/problems/bst-iterator/

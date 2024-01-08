@@ -1,3 +1,18 @@
+---
+title: Find Subsequence
+summary: Find Subsequence - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Find Subsequence solution]
+aliases: ["/posts/find-subsequence", "/blog/posts/find-subsequence", "/find-subsequence"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Subsequence - Solution Explained/problem-solving.webp
+    alt: Find Subsequence
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Find subsequence
 
 https://www.interviewbit.com/problems/find-subsequence/

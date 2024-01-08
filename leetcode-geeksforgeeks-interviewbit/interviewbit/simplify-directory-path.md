@@ -1,3 +1,18 @@
+---
+title: Simplify Directory Path
+summary: Simplify Directory Path - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Simplify Directory Path solution]
+aliases: ["/posts/simplify-directory-path", "/blog/posts/simplify-directory-path", "/simplify-directory-path"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Simplify Directory Path - Solution Explained/problem-solving.webp
+    alt: Simplify Directory Path
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Simplify Directory Path
 
 https://www.interviewbit.com/problems/simplify-directory-path

@@ -1,3 +1,18 @@
+---
+title: Max Continuous Series Of 1S
+summary: Max Continuous Series Of 1S - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Continuous Series Of 1S solution]
+aliases: ["/posts/max-continuous-series-of-1s", "/blog/posts/max-continuous-series-of-1s", "/max-continuous-series-of-1s"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Continuous Series Of 1S - Solution Explained/problem-solving.webp
+    alt: Max Continuous Series Of 1S
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Max Continuous Series Of 1s
 
 https://www.interviewbit.com/problems/max-continuous-series-of-1s

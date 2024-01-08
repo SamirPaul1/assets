@@ -1,10 +1,16 @@
 ---
-title: 763 partition labels
-tags: leetcode
-categories: leetcode
+title: 763 Partition Labels
+summary: 763 Partition Labels LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/763-partition-labels", "/blog/posts/763-partition-labels", "/763-partition-labels"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 763-partition-labels solution
-description: 763 partition labels LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:763 Partition Labels/problem-solving.webp
+    alt: 763 Partition Labels
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

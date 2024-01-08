@@ -1,10 +1,16 @@
 ---
-title: 1631 path with minimum effort
-tags: leetcode
-categories: leetcode
+title: 1631 Path With Minimum Effort
+summary: 1631 Path With Minimum Effort LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1631-path-with-minimum-effort", "/blog/posts/1631-path-with-minimum-effort", "/1631-path-with-minimum-effort"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1631-path-with-minimum-effort solution
-description: 1631 path with minimum effort LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1631 Path With Minimum Effort/problem-solving.webp
+    alt: 1631 Path With Minimum Effort
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

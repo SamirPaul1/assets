@@ -1,3 +1,18 @@
+---
+title: Another Chocolate Game
+summary: Another Chocolate Game - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Another Chocolate Game solution]
+aliases: ["/posts/another-chocolate-game", "/blog/posts/another-chocolate-game", "/another-chocolate-game"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Another Chocolate Game - Solution Explained/problem-solving.webp
+    alt: Another Chocolate Game
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Another chocolate game
 
 https://www.interviewbit.com/problems/another-chocolate-game/

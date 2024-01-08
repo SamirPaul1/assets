@@ -1,3 +1,18 @@
+---
+title: Merge Overlapping Intervals
+summary: Merge Overlapping Intervals - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge Overlapping Intervals solution]
+aliases: ["/posts/merge-overlapping-intervals", "/blog/posts/merge-overlapping-intervals", "/merge-overlapping-intervals"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Overlapping Intervals - Solution Explained/problem-solving.webp
+    alt: Merge Overlapping Intervals
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Merge Overlapping Intervals
 
 https://www.interviewbit.com/problems/merge-overlapping-intervals/

@@ -1,10 +1,16 @@
 ---
-title: 101 symmetric tree
-tags: leetcode
-categories: leetcode
+title: 101 Symmetric Tree
+summary: 101 Symmetric Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/101-symmetric-tree", "/blog/posts/101-symmetric-tree", "/101-symmetric-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 101-symmetric-tree solution
-description: 101 symmetric tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:101 Symmetric Tree/problem-solving.webp
+    alt: 101 Symmetric Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 2187 minimum time to complete trips
-tags: leetcode
-categories: leetcode
+title: 2187 Minimum Time To Complete Trips
+summary: 2187 Minimum Time To Complete Trips LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2187-minimum-time-to-complete-trips", "/blog/posts/2187-minimum-time-to-complete-trips", "/2187-minimum-time-to-complete-trips"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2187-minimum-time-to-complete-trips solution
-description: 2187 minimum time to complete trips LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2187 Minimum Time To Complete Trips/problem-solving.webp
+    alt: 2187 Minimum Time To Complete Trips
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

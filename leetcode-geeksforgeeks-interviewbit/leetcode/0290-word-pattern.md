@@ -1,10 +1,16 @@
 ---
-title: 0290 word pattern
-tags: leetcode
-categories: leetcode
+title: 0290 Word Pattern
+summary: 0290 Word Pattern LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0290-word-pattern", "/blog/posts/0290-word-pattern", "/0290-word-pattern"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0290-word-pattern solution
-description: 0290 word pattern LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0290 Word Pattern/problem-solving.webp
+    alt: 0290 Word Pattern
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

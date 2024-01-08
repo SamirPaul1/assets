@@ -1,10 +1,16 @@
 ---
-title: 0076 minimum window substring
-tags: leetcode
-categories: leetcode
+title: 0076 Minimum Window Substring
+summary: 0076 Minimum Window Substring LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0076-minimum-window-substring", "/blog/posts/0076-minimum-window-substring", "/0076-minimum-window-substring"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0076-minimum-window-substring solution
-description: 0076 minimum window substring LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0076 Minimum Window Substring/problem-solving.webp
+    alt: 0076 Minimum Window Substring
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

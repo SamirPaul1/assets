@@ -1,10 +1,16 @@
 ---
-title: number of closed islands
-tags: leetcode
-categories: leetcode
+title: Number Of Closed Islands
+summary: Number Of Closed Islands LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/number-of-closed-islands", "/blog/posts/number-of-closed-islands", "/number-of-closed-islands"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-closed-islands solution
-description: number of closed islands LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Closed Islands/problem-solving.webp
+    alt: Number Of Closed Islands
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

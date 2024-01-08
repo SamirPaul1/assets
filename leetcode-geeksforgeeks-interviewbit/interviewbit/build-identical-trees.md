@@ -1,3 +1,18 @@
+---
+title: Build Identical Trees
+summary: Build Identical Trees - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Build Identical Trees solution]
+aliases: ["/posts/build-identical-trees", "/blog/posts/build-identical-trees", "/build-identical-trees"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Build Identical Trees - Solution Explained/problem-solving.webp
+    alt: Build Identical Trees
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Build Identical Trees
 
 https://www.interviewbit.com/problems/build-identical-trees/

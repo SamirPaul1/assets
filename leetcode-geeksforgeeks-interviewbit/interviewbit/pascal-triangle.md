@@ -1,3 +1,18 @@
+---
+title: Pascal Triangle
+summary: Pascal Triangle - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Pascal Triangle solution]
+aliases: ["/posts/pascal-triangle", "/blog/posts/pascal-triangle", "/pascal-triangle"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Pascal Triangle - Solution Explained/problem-solving.webp
+    alt: Pascal Triangle
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Pascal Triangle
 
 https://www.interviewbit.com/problems/pascal-triangle/

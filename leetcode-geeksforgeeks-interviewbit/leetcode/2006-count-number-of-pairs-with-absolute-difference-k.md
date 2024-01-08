@@ -1,10 +1,16 @@
 ---
-title: 2006 count number of pairs with absolute difference k
-tags: leetcode
-categories: leetcode
+title: 2006 Count Number Of Pairs With Absolute Difference K
+summary: 2006 Count Number Of Pairs With Absolute Difference K LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2006-count-number-of-pairs-with-absolute-difference-k", "/blog/posts/2006-count-number-of-pairs-with-absolute-difference-k", "/2006-count-number-of-pairs-with-absolute-difference-k"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2006-count-number-of-pairs-with-absolute-difference-k solution
-description: 2006 count number of pairs with absolute difference k LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2006 Count Number Of Pairs With Absolute Difference K/problem-solving.webp
+    alt: 2006 Count Number Of Pairs With Absolute Difference K
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

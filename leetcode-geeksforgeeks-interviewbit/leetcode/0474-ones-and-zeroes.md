@@ -1,10 +1,16 @@
 ---
-title: 0474 ones and zeroes
-tags: leetcode
-categories: leetcode
+title: 0474 Ones And Zeroes
+summary: 0474 Ones And Zeroes LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0474-ones-and-zeroes", "/blog/posts/0474-ones-and-zeroes", "/0474-ones-and-zeroes"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0474-ones-and-zeroes solution
-description: 0474 ones and zeroes LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0474 Ones And Zeroes/problem-solving.webp
+    alt: 0474 Ones And Zeroes
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

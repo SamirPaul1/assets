@@ -1,3 +1,18 @@
+---
+title: Convert Sorted List To Binary Search Tree
+summary: Convert Sorted List To Binary Search Tree - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Convert Sorted List To Binary Search Tree solution]
+aliases: ["/posts/convert-sorted-list-to-binary-search-tree", "/blog/posts/convert-sorted-list-to-binary-search-tree", "/convert-sorted-list-to-binary-search-tree"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Convert Sorted List To Binary Search Tree - Solution Explained/problem-solving.webp
+    alt: Convert Sorted List To Binary Search Tree
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Convert Sorted List To Binary Search Tree
 
 https://www.interviewbit.com/problems/convert-sorted-list-to-binary-search-tree

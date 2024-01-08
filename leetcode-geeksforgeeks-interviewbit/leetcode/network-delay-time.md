@@ -1,10 +1,16 @@
 ---
-title: network delay time
-tags: leetcode
-categories: leetcode
+title: Network Delay Time
+summary: Network Delay Time LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/network-delay-time", "/blog/posts/network-delay-time", "/network-delay-time"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, network-delay-time solution
-description: network delay time LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Network Delay Time/problem-solving.webp
+    alt: Network Delay Time
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

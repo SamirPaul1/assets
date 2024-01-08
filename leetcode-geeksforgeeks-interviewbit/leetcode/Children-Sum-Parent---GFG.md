@@ -1,10 +1,16 @@
 ---
-title: Children Sum Parent   GFG
-tags: leetcode
-categories: leetcode
+title: Children Sum Parent   Gfg
+summary: Children Sum Parent   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Children-Sum-Parent---GFG", "/blog/posts/Children-Sum-Parent---GFG", "/Children-Sum-Parent---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Children Sum Parent - GFG solution
-description: Children Sum Parent   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Children Sum Parent   Gfg/problem-solving.webp
+    alt: Children Sum Parent   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

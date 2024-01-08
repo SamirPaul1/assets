@@ -1,10 +1,16 @@
 ---
-title: binary tree paths
-tags: leetcode
-categories: leetcode
+title: Binary Tree Paths
+summary: Binary Tree Paths LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/binary-tree-paths", "/blog/posts/binary-tree-paths", "/binary-tree-paths"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, binary-tree-paths solution
-description: binary tree paths LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Binary Tree Paths/problem-solving.webp
+    alt: Binary Tree Paths
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0511 game play analysis i
-tags: leetcode
-categories: leetcode
+title: 0511 Game Play Analysis I
+summary: 0511 Game Play Analysis I LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0511-game-play-analysis-i", "/blog/posts/0511-game-play-analysis-i", "/0511-game-play-analysis-i"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0511-game-play-analysis-i solution
-description: 0511 game play analysis i LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0511 Game Play Analysis I/problem-solving.webp
+    alt: 0511 Game Play Analysis I
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

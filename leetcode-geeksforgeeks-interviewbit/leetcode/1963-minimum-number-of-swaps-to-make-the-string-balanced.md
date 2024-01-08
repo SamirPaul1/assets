@@ -1,10 +1,16 @@
 ---
-title: 1963 minimum number of swaps to make the string balanced
-tags: leetcode
-categories: leetcode
+title: 1963 Minimum Number Of Swaps To Make The String Balanced
+summary: 1963 Minimum Number Of Swaps To Make The String Balanced LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1963-minimum-number-of-swaps-to-make-the-string-balanced", "/blog/posts/1963-minimum-number-of-swaps-to-make-the-string-balanced", "/1963-minimum-number-of-swaps-to-make-the-string-balanced"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1963-minimum-number-of-swaps-to-make-the-string-balanced solution
-description: 1963 minimum number of swaps to make the string balanced LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1963 Minimum Number Of Swaps To Make The String Balanced/problem-solving.webp
+    alt: 1963 Minimum Number Of Swaps To Make The String Balanced
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

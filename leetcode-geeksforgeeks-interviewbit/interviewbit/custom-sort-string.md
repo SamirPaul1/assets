@@ -1,3 +1,18 @@
+---
+title: Custom Sort String
+summary: Custom Sort String - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Custom Sort String solution]
+aliases: ["/posts/custom-sort-string", "/blog/posts/custom-sort-string", "/custom-sort-string"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Custom Sort String - Solution Explained/problem-solving.webp
+    alt: Custom Sort String
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Custom Sort String
 
 https://www.interviewbit.com/problems/custom-sort-string

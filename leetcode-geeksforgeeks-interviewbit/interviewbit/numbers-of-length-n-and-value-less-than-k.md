@@ -1,3 +1,18 @@
+---
+title: Numbers Of Length N And Value Less Than K
+summary: Numbers Of Length N And Value Less Than K - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Numbers Of Length N And Value Less Than K solution]
+aliases: ["/posts/numbers-of-length-n-and-value-less-than-k", "/blog/posts/numbers-of-length-n-and-value-less-than-k", "/numbers-of-length-n-and-value-less-than-k"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Numbers Of Length N And Value Less Than K - Solution Explained/problem-solving.webp
+    alt: Numbers Of Length N And Value Less Than K
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Numbers Of Length N and Value Less Than K
 
 https://www.interviewbit.com/problems/numbers-of-length-n-and-value-less-than-k

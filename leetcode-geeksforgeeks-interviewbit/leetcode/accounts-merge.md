@@ -1,10 +1,16 @@
 ---
-title: accounts merge
-tags: leetcode
-categories: leetcode
+title: Accounts Merge
+summary: Accounts Merge LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/accounts-merge", "/blog/posts/accounts-merge", "/accounts-merge"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, accounts-merge solution
-description: accounts merge LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Accounts Merge/problem-solving.webp
+    alt: Accounts Merge
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

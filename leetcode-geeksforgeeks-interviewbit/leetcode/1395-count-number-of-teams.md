@@ -1,10 +1,16 @@
 ---
-title: 1395 count number of teams
-tags: leetcode
-categories: leetcode
+title: 1395 Count Number Of Teams
+summary: 1395 Count Number Of Teams LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1395-count-number-of-teams", "/blog/posts/1395-count-number-of-teams", "/1395-count-number-of-teams"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1395-count-number-of-teams solution
-description: 1395 count number of teams LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1395 Count Number Of Teams/problem-solving.webp
+    alt: 1395 Count Number Of Teams
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Implement Power Function
+summary: Implement Power Function - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Implement Power Function solution]
+aliases: ["/posts/implement-power-function", "/blog/posts/implement-power-function", "/implement-power-function"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Implement Power Function - Solution Explained/problem-solving.webp
+    alt: Implement Power Function
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Implement Power Function
 
 https://www.interviewbit.com/problems/implement-power-function

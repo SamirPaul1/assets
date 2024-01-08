@@ -1,10 +1,16 @@
 ---
-title: 1509 minimum difference between largest and smallest value in three moves
-tags: leetcode
-categories: leetcode
+title: 1509 Minimum Difference Between Largest And Smallest Value In Three Moves
+summary: 1509 Minimum Difference Between Largest And Smallest Value In Three Moves LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves", "/blog/posts/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves", "/1509-minimum-difference-between-largest-and-smallest-value-in-three-moves"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1509-minimum-difference-between-largest-and-smallest-value-in-three-moves solution
-description: 1509 minimum difference between largest and smallest value in three moves LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1509 Minimum Difference Between Largest And Smallest Value In Three Moves/problem-solving.webp
+    alt: 1509 Minimum Difference Between Largest And Smallest Value In Three Moves
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

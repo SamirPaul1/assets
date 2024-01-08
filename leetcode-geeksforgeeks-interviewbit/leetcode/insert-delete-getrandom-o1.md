@@ -1,10 +1,16 @@
 ---
-title: insert delete getrandom o1
-tags: leetcode
-categories: leetcode
+title: Insert Delete Getrandom O1
+summary: Insert Delete Getrandom O1 LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/insert-delete-getrandom-o1", "/blog/posts/insert-delete-getrandom-o1", "/insert-delete-getrandom-o1"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, insert-delete-getrandom-o1 solution
-description: insert delete getrandom o1 LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Insert Delete Getrandom O1/problem-solving.webp
+    alt: Insert Delete Getrandom O1
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

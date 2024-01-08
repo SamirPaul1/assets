@@ -1,10 +1,16 @@
 ---
-title: reverse linked list ii
-tags: leetcode
-categories: leetcode
+title: Reverse Linked List Ii
+summary: Reverse Linked List Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/reverse-linked-list-ii", "/blog/posts/reverse-linked-list-ii", "/reverse-linked-list-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, reverse-linked-list-ii solution
-description: reverse linked list ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse Linked List Ii/problem-solving.webp
+    alt: Reverse Linked List Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

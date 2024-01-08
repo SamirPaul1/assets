@@ -1,10 +1,16 @@
 ---
-title: 0691 stickers to spell word
-tags: leetcode
-categories: leetcode
+title: 0691 Stickers To Spell Word
+summary: 0691 Stickers To Spell Word LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0691-stickers-to-spell-word", "/blog/posts/0691-stickers-to-spell-word", "/0691-stickers-to-spell-word"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0691-stickers-to-spell-word solution
-description: 0691 stickers to spell word LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0691 Stickers To Spell Word/problem-solving.webp
+    alt: 0691 Stickers To Spell Word
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

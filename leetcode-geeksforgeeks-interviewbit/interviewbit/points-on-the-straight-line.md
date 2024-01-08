@@ -1,3 +1,18 @@
+---
+title: Points On The Straight Line
+summary: Points On The Straight Line - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Points On The Straight Line solution]
+aliases: ["/posts/points-on-the-straight-line", "/blog/posts/points-on-the-straight-line", "/points-on-the-straight-line"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Points On The Straight Line - Solution Explained/problem-solving.webp
+    alt: Points On The Straight Line
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Points On The Straight Line
 
 https://www.interviewbit.com/problems/points-on-the-straight-line

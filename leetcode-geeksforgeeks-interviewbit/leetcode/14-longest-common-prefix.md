@@ -1,10 +1,16 @@
 ---
-title: 14 longest common prefix
-tags: leetcode
-categories: leetcode
+title: 14 Longest Common Prefix
+summary: 14 Longest Common Prefix LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/14-longest-common-prefix", "/blog/posts/14-longest-common-prefix", "/14-longest-common-prefix"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 14-longest-common-prefix solution
-description: 14 longest common prefix LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:14 Longest Common Prefix/problem-solving.webp
+    alt: 14 Longest Common Prefix
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

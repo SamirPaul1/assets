@@ -1,10 +1,16 @@
 ---
-title: 0140 word break ii
-tags: leetcode
-categories: leetcode
+title: 0140 Word Break Ii
+summary: 0140 Word Break Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0140-word-break-ii", "/blog/posts/0140-word-break-ii", "/0140-word-break-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0140-word-break-ii solution
-description: 0140 word break ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0140 Word Break Ii/problem-solving.webp
+    alt: 0140 Word Break Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

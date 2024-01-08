@@ -1,10 +1,16 @@
 ---
-title: 160 intersection of two linked lists
-tags: leetcode
-categories: leetcode
+title: 160 Intersection Of Two Linked Lists
+summary: 160 Intersection Of Two Linked Lists LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/160-intersection-of-two-linked-lists", "/blog/posts/160-intersection-of-two-linked-lists", "/160-intersection-of-two-linked-lists"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 160-intersection-of-two-linked-lists solution
-description: 160 intersection of two linked lists LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:160 Intersection Of Two Linked Lists/problem-solving.webp
+    alt: 160 Intersection Of Two Linked Lists
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

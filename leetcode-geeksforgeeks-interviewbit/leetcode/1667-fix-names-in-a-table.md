@@ -1,10 +1,16 @@
 ---
-title: 1667 fix names in a table
-tags: leetcode
-categories: leetcode
+title: 1667 Fix Names In A Table
+summary: 1667 Fix Names In A Table LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1667-fix-names-in-a-table", "/blog/posts/1667-fix-names-in-a-table", "/1667-fix-names-in-a-table"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1667-fix-names-in-a-table solution
-description: 1667 fix names in a table LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1667 Fix Names In A Table/problem-solving.webp
+    alt: 1667 Fix Names In A Table
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

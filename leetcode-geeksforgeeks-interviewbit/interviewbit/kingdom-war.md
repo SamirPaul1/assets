@@ -1,3 +1,18 @@
+---
+title: Kingdom War
+summary: Kingdom War - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Kingdom War solution]
+aliases: ["/posts/kingdom-war", "/blog/posts/kingdom-war", "/kingdom-war"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Kingdom War - Solution Explained/problem-solving.webp
+    alt: Kingdom War
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Kingdom War
 
 https://www.interviewbit.com/problems/kingdom-war/

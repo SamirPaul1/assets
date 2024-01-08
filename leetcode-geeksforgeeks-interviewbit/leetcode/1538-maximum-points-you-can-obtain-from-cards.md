@@ -1,10 +1,16 @@
 ---
-title: 1538 maximum points you can obtain from cards
-tags: leetcode
-categories: leetcode
+title: 1538 Maximum Points You Can Obtain From Cards
+summary: 1538 Maximum Points You Can Obtain From Cards LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1538-maximum-points-you-can-obtain-from-cards", "/blog/posts/1538-maximum-points-you-can-obtain-from-cards", "/1538-maximum-points-you-can-obtain-from-cards"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1538-maximum-points-you-can-obtain-from-cards solution
-description: 1538 maximum points you can obtain from cards LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1538 Maximum Points You Can Obtain From Cards/problem-solving.webp
+    alt: 1538 Maximum Points You Can Obtain From Cards
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

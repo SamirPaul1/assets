@@ -1,10 +1,16 @@
 ---
-title: camelcase matching
-tags: leetcode
-categories: leetcode
+title: Camelcase Matching
+summary: Camelcase Matching LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/camelcase-matching", "/blog/posts/camelcase-matching", "/camelcase-matching"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, camelcase-matching solution
-description: camelcase matching LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Camelcase Matching/problem-solving.webp
+    alt: Camelcase Matching
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

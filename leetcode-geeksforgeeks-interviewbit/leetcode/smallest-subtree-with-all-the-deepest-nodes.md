@@ -1,10 +1,16 @@
 ---
-title: smallest subtree with all the deepest nodes
-tags: leetcode
-categories: leetcode
+title: Smallest Subtree With All The Deepest Nodes
+summary: Smallest Subtree With All The Deepest Nodes LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/smallest-subtree-with-all-the-deepest-nodes", "/blog/posts/smallest-subtree-with-all-the-deepest-nodes", "/smallest-subtree-with-all-the-deepest-nodes"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, smallest-subtree-with-all-the-deepest-nodes solution
-description: smallest subtree with all the deepest nodes LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Smallest Subtree With All The Deepest Nodes/problem-solving.webp
+    alt: Smallest Subtree With All The Deepest Nodes
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

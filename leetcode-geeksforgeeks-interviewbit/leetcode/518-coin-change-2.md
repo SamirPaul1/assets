@@ -1,10 +1,16 @@
 ---
-title: 518 coin change 2
-tags: leetcode
-categories: leetcode
+title: 518 Coin Change 2
+summary: 518 Coin Change 2 LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/518-coin-change-2", "/blog/posts/518-coin-change-2", "/518-coin-change-2"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 518-coin-change-2 solution
-description: 518 coin change 2 LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:518 Coin Change 2/problem-solving.webp
+    alt: 518 Coin Change 2
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Hotel Reviews
+summary: Hotel Reviews - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Hotel Reviews solution]
+aliases: ["/posts/hotel-reviews", "/blog/posts/hotel-reviews", "/hotel-reviews"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Hotel Reviews - Solution Explained/problem-solving.webp
+    alt: Hotel Reviews
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Hotel Reviews
 
 https://www.interviewbit.com/problems/hotel-reviews

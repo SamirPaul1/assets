@@ -1,10 +1,16 @@
 ---
-title: 87 scramble string
-tags: leetcode
-categories: leetcode
+title: 87 Scramble String
+summary: 87 Scramble String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/87-scramble-string", "/blog/posts/87-scramble-string", "/87-scramble-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 87-scramble-string solution
-description: 87 scramble string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:87 Scramble String/problem-solving.webp
+    alt: 87 Scramble String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

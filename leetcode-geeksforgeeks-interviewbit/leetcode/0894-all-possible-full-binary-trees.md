@@ -1,10 +1,16 @@
 ---
-title: 0894 all possible full binary trees
-tags: leetcode
-categories: leetcode
+title: 0894 All Possible Full Binary Trees
+summary: 0894 All Possible Full Binary Trees LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0894-all-possible-full-binary-trees", "/blog/posts/0894-all-possible-full-binary-trees", "/0894-all-possible-full-binary-trees"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0894-all-possible-full-binary-trees solution
-description: 0894 all possible full binary trees LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0894 All Possible Full Binary Trees/problem-solving.webp
+    alt: 0894 All Possible Full Binary Trees
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: sliding window maximum
-tags: leetcode
-categories: leetcode
+title: Sliding Window Maximum
+summary: Sliding Window Maximum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/sliding-window-maximum", "/blog/posts/sliding-window-maximum", "/sliding-window-maximum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, sliding-window-maximum solution
-description: sliding window maximum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sliding Window Maximum/problem-solving.webp
+    alt: Sliding Window Maximum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

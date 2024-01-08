@@ -1,10 +1,16 @@
 ---
-title: 124 binary tree maximum path sum
-tags: leetcode
-categories: leetcode
+title: 124 Binary Tree Maximum Path Sum
+summary: 124 Binary Tree Maximum Path Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/124-binary-tree-maximum-path-sum", "/blog/posts/124-binary-tree-maximum-path-sum", "/124-binary-tree-maximum-path-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 124-binary-tree-maximum-path-sum solution
-description: 124 binary tree maximum path sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:124 Binary Tree Maximum Path Sum/problem-solving.webp
+    alt: 124 Binary Tree Maximum Path Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

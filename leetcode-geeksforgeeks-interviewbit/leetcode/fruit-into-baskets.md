@@ -1,10 +1,16 @@
 ---
-title: fruit into baskets
-tags: leetcode
-categories: leetcode
+title: Fruit Into Baskets
+summary: Fruit Into Baskets LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/fruit-into-baskets", "/blog/posts/fruit-into-baskets", "/fruit-into-baskets"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, fruit-into-baskets solution
-description: fruit into baskets LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Fruit Into Baskets/problem-solving.webp
+    alt: Fruit Into Baskets
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

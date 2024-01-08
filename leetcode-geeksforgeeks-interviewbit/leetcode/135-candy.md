@@ -1,10 +1,16 @@
 ---
-title: 135 candy
-tags: leetcode
-categories: leetcode
+title: 135 Candy
+summary: 135 Candy LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/135-candy", "/blog/posts/135-candy", "/135-candy"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 135-candy solution
-description: 135 candy LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:135 Candy/problem-solving.webp
+    alt: 135 Candy
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

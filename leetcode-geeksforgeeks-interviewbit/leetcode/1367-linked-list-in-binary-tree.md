@@ -1,10 +1,16 @@
 ---
-title: 1367 linked list in binary tree
-tags: leetcode
-categories: leetcode
+title: 1367 Linked List In Binary Tree
+summary: 1367 Linked List In Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1367-linked-list-in-binary-tree", "/blog/posts/1367-linked-list-in-binary-tree", "/1367-linked-list-in-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1367-linked-list-in-binary-tree solution
-description: 1367 linked list in binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1367 Linked List In Binary Tree/problem-solving.webp
+    alt: 1367 Linked List In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

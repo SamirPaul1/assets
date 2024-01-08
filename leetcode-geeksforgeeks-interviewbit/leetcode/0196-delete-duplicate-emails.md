@@ -1,10 +1,16 @@
 ---
-title: 0196 delete duplicate emails
-tags: leetcode
-categories: leetcode
+title: 0196 Delete Duplicate Emails
+summary: 0196 Delete Duplicate Emails LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0196-delete-duplicate-emails", "/blog/posts/0196-delete-duplicate-emails", "/0196-delete-duplicate-emails"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0196-delete-duplicate-emails solution
-description: 0196 delete duplicate emails LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0196 Delete Duplicate Emails/problem-solving.webp
+    alt: 0196 Delete Duplicate Emails
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

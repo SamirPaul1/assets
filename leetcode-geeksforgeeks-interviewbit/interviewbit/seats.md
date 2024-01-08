@@ -1,3 +1,18 @@
+---
+title: Seats
+summary: Seats - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Seats solution]
+aliases: ["/posts/seats", "/blog/posts/seats", "/seats"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Seats - Solution Explained/problem-solving.webp
+    alt: Seats
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Seats
 
 https://www.interviewbit.com/problems/seats/

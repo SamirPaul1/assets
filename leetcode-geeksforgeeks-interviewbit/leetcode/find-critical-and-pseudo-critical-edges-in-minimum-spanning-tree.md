@@ -1,10 +1,16 @@
 ---
-title: find critical and pseudo critical edges in minimum spanning tree
-tags: leetcode
-categories: leetcode
+title: Find Critical And Pseudo Critical Edges In Minimum Spanning Tree
+summary: Find Critical And Pseudo Critical Edges In Minimum Spanning Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree", "/blog/posts/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree", "/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree solution
-description: find critical and pseudo critical edges in minimum spanning tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Critical And Pseudo Critical Edges In Minimum Spanning Tree/problem-solving.webp
+    alt: Find Critical And Pseudo Critical Edges In Minimum Spanning Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

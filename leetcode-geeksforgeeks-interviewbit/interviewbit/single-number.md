@@ -1,3 +1,18 @@
+---
+title: Single Number
+summary: Single Number - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Single Number solution]
+aliases: ["/posts/single-number", "/blog/posts/single-number", "/single-number"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Number - Solution Explained/problem-solving.webp
+    alt: Single Number
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Single Number
 
 https://www.interviewbit.com/problems/single-number

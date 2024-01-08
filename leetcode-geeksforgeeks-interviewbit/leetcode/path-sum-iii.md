@@ -1,10 +1,16 @@
 ---
-title: path sum iii
-tags: leetcode
-categories: leetcode
+title: Path Sum Iii
+summary: Path Sum Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/path-sum-iii", "/blog/posts/path-sum-iii", "/path-sum-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, path-sum-iii solution
-description: path sum iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Path Sum Iii/problem-solving.webp
+    alt: Path Sum Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

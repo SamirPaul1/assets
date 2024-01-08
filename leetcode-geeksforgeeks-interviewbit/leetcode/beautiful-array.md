@@ -1,10 +1,16 @@
 ---
-title: beautiful array
-tags: leetcode
-categories: leetcode
+title: Beautiful Array
+summary: Beautiful Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/beautiful-array", "/blog/posts/beautiful-array", "/beautiful-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, beautiful-array solution
-description: beautiful array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Beautiful Array/problem-solving.webp
+    alt: Beautiful Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

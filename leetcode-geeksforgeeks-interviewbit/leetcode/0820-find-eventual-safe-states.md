@@ -1,10 +1,16 @@
 ---
-title: 0820 find eventual safe states
-tags: leetcode
-categories: leetcode
+title: 0820 Find Eventual Safe States
+summary: 0820 Find Eventual Safe States LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0820-find-eventual-safe-states", "/blog/posts/0820-find-eventual-safe-states", "/0820-find-eventual-safe-states"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0820-find-eventual-safe-states solution
-description: 0820 find eventual safe states LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0820 Find Eventual Safe States/problem-solving.webp
+    alt: 0820 Find Eventual Safe States
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

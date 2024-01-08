@@ -1,10 +1,16 @@
 ---
-title: decode xored array
-tags: leetcode
-categories: leetcode
+title: Decode Xored Array
+summary: Decode Xored Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/decode-xored-array", "/blog/posts/decode-xored-array", "/decode-xored-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, decode-xored-array solution
-description: decode xored array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Decode Xored Array/problem-solving.webp
+    alt: Decode Xored Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

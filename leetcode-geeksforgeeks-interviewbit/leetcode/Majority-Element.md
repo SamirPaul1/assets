@@ -1,60 +1,131 @@
 ---
-title: majority element
-tags: leetcode
-categories: leetcode
-keywords: LeetCode, leetcode solution in Python3 C++ Java, majority-element solution
-description: majority element LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+title: Majority Element
+summary: Majority Element LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Majority-Element", "/blog/posts/Majority-Element", "/Majority-Element"]
+keywords: LeetCode, leetcode solution in Python3 C++ Java, Majority Element solution
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Majority Element/problem-solving.webp
+    alt: Majority Element
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 
-<h2>169. Majority Element</h2><h3>Easy</h3><hr><div><p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>
+<h2><a href="https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?page=1&company[]=Amazon&sortBy=submissions">Majority Element</a></h2><h3>Difficulty Level : Medium</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array <strong>A</strong> of <strong>N</strong> elements. Find the majority element in the array.&nbsp;A majority element in an array A of size N is an <strong>element that appears more than N/2 times in the array</strong>.</span><br>
+&nbsp;</p>
 
-<p>The majority element is the element that appears more than <code>⌊n / 2⌋</code> times. You may assume that the majority element always exists in the array.</p>
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
-<p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
-<pre><strong>Input:</strong> nums = [3,2,3]
-<strong>Output:</strong> 3
-</pre><p><strong>Example 2:</strong></p>
-<pre><strong>Input:</strong> nums = [2,2,1,1,1,2,2]
-<strong>Output:</strong> 2
+<pre><span style="font-size:18px"><strong>Input:
+</strong>N = 3 
+A[] = {1,2,3} 
+<strong>Output:
+</strong>-1<strong>
+Explanation:
+</strong>Since, each element in 
+{1,2,3} appears only once so there 
+is no majority element.</span>
 </pre>
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
 
-<ul>
-	<li><code>n == nums.length</code></li>
-	<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
-</ul>
+<p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
 
-<p>&nbsp;</p>
-<strong>Follow-up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?</div>
+<pre><span style="font-size:18px"><strong>Input:
+</strong>N = 5 
+A[] = {3,1,3,3,2} 
+<strong>Output:
+</strong>3<strong>
+Explanation:
+</strong>Since, 3 is present more
+than N/2 times, so it is 
+the majority element.</span>
+</pre>
+
+<p><br>
+<span style="font-size:18px"><strong>Your Task:</strong><br>
+The task is to complete the function <strong>majorityElement</strong>() which returns&nbsp;the majority element in the array. If no majority exists, return -1.</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong>&nbsp;O(N).<br>
+<strong>Expected Auxiliary Space:</strong>&nbsp;O(1).</span><br>
+&nbsp;</p>
+
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+1 ≤ N ≤ 10<sup>7</sup><br>
+0 ≤ A<sub>i</sub> ≤ 10<sup>6</sup></span></p>
+</div><p><span style=font-size:18px><strong>Company Tags : </strong><br><code>Flipkart</code>&nbsp;<code>Accolite</code>&nbsp;<code>Amazon</code>&nbsp;<code>Microsoft</code>&nbsp;<code>D-E-Shaw</code>&nbsp;<code>Google</code>&nbsp;<code>Nagarro</code>&nbsp;<code>Atlassian</code>&nbsp;<br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Arrays</code>&nbsp;<code>Searching</code>&nbsp;<code>Greedy</code>&nbsp;<code>Data Structures</code>&nbsp;<code>Algorithms</code>&nbsp;
 
 ---
 
 
 
 
-```cpp
-class Solution {
-public:
-    int majorityElement(vector<int>& nums) {
-        int ans=0;
-        vector<int> v(32);
-        int n=nums.size();
-        for(int i=0;i<n;i++){
-           for(int j=0;j<32;j++){
-               if((1<<j) & nums[i])
-                   v[j]++;
-           }   
-        }
-        for(int j=0;j<32;j++){
-           if(v[j]>(n/2))
-               ans+=(1<<j);
-        }
-        return ans;
-    }
-};
+```python
+#Back-end complete function Template for Python 3
+
+class Solution:
+    # use linear search to compute candidate for majority element
+    def findCandidate(self, A):
+        maj_index = 0
+        count = 1
+        for i in range(len(A)):
+            if A[maj_index] == A[i]:
+                count += 1
+            else:
+                count -= 1
+            if count == 0:
+                maj_index = i
+                count = 1
+        return A[maj_index]
+        
+    # Function to check if the candidate occurs more than n/2 times
+    def isMajority(self, A, cand):
+        count = 0
+        for i in range(len(A)):
+            if A[i] == cand:
+                count += 1
+        if count > len(A)/2:
+            return True
+        else:
+            return False
+    
+    def majorityElement(self, A,N):
+        cand = self.findCandidate(A)
+    
+        # Print the candidate if it is Majority
+        if self.isMajority(A, cand) == True:
+            return cand
+        else:
+            return -1
+
+
+#{ 
+ # Driver Code Starts
+#Initial Template for Python 3
+
+import math
+
+from sys import stdin
+
+
+def main():
+        T=int(input())
+        while(T>0):
+            
+            N=int(input())
+
+            A=[int(x) for x in input().strip().split()]
+            
+            
+            obj = Solution()
+            print(obj.majorityElement(A,N))
+            
+            T-=1
+
+
+if __name__ == "__main__":
+    main()
+# } Driver Code Ends
 ```

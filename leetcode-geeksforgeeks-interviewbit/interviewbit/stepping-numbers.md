@@ -1,3 +1,18 @@
+---
+title: Stepping Numbers
+summary: Stepping Numbers - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Stepping Numbers solution]
+aliases: ["/posts/stepping-numbers", "/blog/posts/stepping-numbers", "/stepping-numbers"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Stepping Numbers - Solution Explained/problem-solving.webp
+    alt: Stepping Numbers
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Stepping Numbers
 
 https://www.interviewbit.com/problems/stepping-numbers/

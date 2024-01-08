@@ -1,10 +1,16 @@
 ---
-title: minimum cost to move chips to the same position
-tags: leetcode
-categories: leetcode
+title: Minimum Cost To Move Chips To The Same Position
+summary: Minimum Cost To Move Chips To The Same Position LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-cost-to-move-chips-to-the-same-position", "/blog/posts/minimum-cost-to-move-chips-to-the-same-position", "/minimum-cost-to-move-chips-to-the-same-position"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-cost-to-move-chips-to-the-same-position solution
-description: minimum cost to move chips to the same position LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Cost To Move Chips To The Same Position/problem-solving.webp
+    alt: Minimum Cost To Move Chips To The Same Position
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

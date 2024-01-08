@@ -1,3 +1,18 @@
+---
+title: Substring Concatenation
+summary: Substring Concatenation - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Substring Concatenation solution]
+aliases: ["/posts/substring-concatenation", "/blog/posts/substring-concatenation", "/substring-concatenation"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Substring Concatenation - Solution Explained/problem-solving.webp
+    alt: Substring Concatenation
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Substring Concatenation
 
 https://www.interviewbit.com/problems/substring-concatenation

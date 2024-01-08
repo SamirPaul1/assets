@@ -1,10 +1,16 @@
 ---
-title: trim a binary search tree
-tags: leetcode
-categories: leetcode
+title: Trim A Binary Search Tree
+summary: Trim A Binary Search Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/trim-a-binary-search-tree", "/blog/posts/trim-a-binary-search-tree", "/trim-a-binary-search-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, trim-a-binary-search-tree solution
-description: trim a binary search tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Trim A Binary Search Tree/problem-solving.webp
+    alt: Trim A Binary Search Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

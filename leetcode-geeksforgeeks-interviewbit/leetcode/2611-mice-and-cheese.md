@@ -1,10 +1,16 @@
 ---
-title: 2611 mice and cheese
-tags: leetcode
-categories: leetcode
+title: 2611 Mice And Cheese
+summary: 2611 Mice And Cheese LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2611-mice-and-cheese", "/blog/posts/2611-mice-and-cheese", "/2611-mice-and-cheese"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2611-mice-and-cheese solution
-description: 2611 mice and cheese LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2611 Mice And Cheese/problem-solving.webp
+    alt: 2611 Mice And Cheese
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

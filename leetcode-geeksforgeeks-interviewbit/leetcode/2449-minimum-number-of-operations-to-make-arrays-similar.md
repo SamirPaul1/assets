@@ -1,10 +1,16 @@
 ---
-title: 2449 minimum number of operations to make arrays similar
-tags: leetcode
-categories: leetcode
+title: 2449 Minimum Number Of Operations To Make Arrays Similar
+summary: 2449 Minimum Number Of Operations To Make Arrays Similar LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2449-minimum-number-of-operations-to-make-arrays-similar", "/blog/posts/2449-minimum-number-of-operations-to-make-arrays-similar", "/2449-minimum-number-of-operations-to-make-arrays-similar"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2449-minimum-number-of-operations-to-make-arrays-similar solution
-description: 2449 minimum number of operations to make arrays similar LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2449 Minimum Number Of Operations To Make Arrays Similar/problem-solving.webp
+    alt: 2449 Minimum Number Of Operations To Make Arrays Similar
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

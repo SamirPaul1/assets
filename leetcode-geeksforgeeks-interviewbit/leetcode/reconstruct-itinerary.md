@@ -1,10 +1,16 @@
 ---
-title: reconstruct itinerary
-tags: leetcode
-categories: leetcode
+title: Reconstruct Itinerary
+summary: Reconstruct Itinerary LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/reconstruct-itinerary", "/blog/posts/reconstruct-itinerary", "/reconstruct-itinerary"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, reconstruct-itinerary solution
-description: reconstruct itinerary LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reconstruct Itinerary/problem-solving.webp
+    alt: Reconstruct Itinerary
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

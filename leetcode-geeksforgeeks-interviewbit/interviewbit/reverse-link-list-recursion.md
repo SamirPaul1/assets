@@ -1,3 +1,18 @@
+---
+title: Reverse Link List Recursion
+summary: Reverse Link List Recursion - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Reverse Link List Recursion solution]
+aliases: ["/posts/reverse-link-list-recursion", "/blog/posts/reverse-link-list-recursion", "/reverse-link-list-recursion"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse Link List Recursion - Solution Explained/problem-solving.webp
+    alt: Reverse Link List Recursion
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Reverse Link List Recursion
 
 https://www.interviewbit.com/problems/reverse-link-list-recursion/

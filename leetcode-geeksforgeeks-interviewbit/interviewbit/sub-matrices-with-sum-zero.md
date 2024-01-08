@@ -1,3 +1,18 @@
+---
+title: Sub Matrices With Sum Zero
+summary: Sub Matrices With Sum Zero - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sub Matrices With Sum Zero solution]
+aliases: ["/posts/sub-matrices-with-sum-zero", "/blog/posts/sub-matrices-with-sum-zero", "/sub-matrices-with-sum-zero"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sub Matrices With Sum Zero - Solution Explained/problem-solving.webp
+    alt: Sub Matrices With Sum Zero
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sub Matrices with sum Zero
 
 https://www.interviewbit.com/problems/sub-matrices-with-sum-zero/

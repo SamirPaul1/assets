@@ -1,10 +1,16 @@
 ---
-title: 1117 as far from land as possible
-tags: leetcode
-categories: leetcode
+title: 1117 As Far From Land As Possible
+summary: 1117 As Far From Land As Possible LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1117-as-far-from-land-as-possible", "/blog/posts/1117-as-far-from-land-as-possible", "/1117-as-far-from-land-as-possible"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1117-as-far-from-land-as-possible solution
-description: 1117 as far from land as possible LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1117 As Far From Land As Possible/problem-solving.webp
+    alt: 1117 As Far From Land As Possible
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 
@@ -46,29 +52,6 @@ cover: /assets/img/leetcode-cover-img.webp
 
 
 ```python
-class Solution:
-    def maxDistance(self, grid: List[List[int]]) -> int:
-        q = collections.deque()
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == 1:
-                    q.append((i,j))
-        res = -1
-        while q:
-            res += 1
-            n = len(q)
-            for _ in range(n):
-                i,j = q.popleft()
-                for x,y in ((1,0),(-1,0),(0,1),(0,-1)):
-                    r,c = i+x,j+y
-                    if 0<=r<len(grid) and 0<=c<len(grid[0]) and grid[r][c] == 0:
-                        grid[r][c] = 1
-                        q.append((r,c))
-        return res if res != 0 else -1
-```
-
-
-```python
 # https://leetcode.com/problems/as-far-from-land-as-possible/
 
 class Solution:
@@ -107,4 +90,27 @@ class Solution:
         return res
 
         
+```
+
+
+```python
+class Solution:
+    def maxDistance(self, grid: List[List[int]]) -> int:
+        q = collections.deque()
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if grid[i][j] == 1:
+                    q.append((i,j))
+        res = -1
+        while q:
+            res += 1
+            n = len(q)
+            for _ in range(n):
+                i,j = q.popleft()
+                for x,y in ((1,0),(-1,0),(0,1),(0,-1)):
+                    r,c = i+x,j+y
+                    if 0<=r<len(grid) and 0<=c<len(grid[0]) and grid[r][c] == 0:
+                        grid[r][c] = 1
+                        q.append((r,c))
+        return res if res != 0 else -1
 ```

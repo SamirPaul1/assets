@@ -1,10 +1,16 @@
 ---
-title: minimum cost to make at least one valid path in a grid
-tags: leetcode
-categories: leetcode
+title: Minimum Cost To Make At Least One Valid Path In A Grid
+summary: Minimum Cost To Make At Least One Valid Path In A Grid LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-cost-to-make-at-least-one-valid-path-in-a-grid", "/blog/posts/minimum-cost-to-make-at-least-one-valid-path-in-a-grid", "/minimum-cost-to-make-at-least-one-valid-path-in-a-grid"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-cost-to-make-at-least-one-valid-path-in-a-grid solution
-description: minimum cost to make at least one valid path in a grid LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Cost To Make At Least One Valid Path In A Grid/problem-solving.webp
+    alt: Minimum Cost To Make At Least One Valid Path In A Grid
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

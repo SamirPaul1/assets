@@ -1,3 +1,18 @@
+---
+title: Painters Partition Problem
+summary: Painters Partition Problem - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Painters Partition Problem solution]
+aliases: ["/posts/painters-partition-problem", "/blog/posts/painters-partition-problem", "/painters-partition-problem"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Painters Partition Problem - Solution Explained/problem-solving.webp
+    alt: Painters Partition Problem
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Painters Partition Problem
 
 https://www.interviewbit.com/problems/painters-partition-problem

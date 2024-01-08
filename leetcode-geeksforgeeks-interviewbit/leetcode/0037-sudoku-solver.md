@@ -1,10 +1,16 @@
 ---
-title: 0037 sudoku solver
-tags: leetcode
-categories: leetcode
+title: 0037 Sudoku Solver
+summary: 0037 Sudoku Solver LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0037-sudoku-solver", "/blog/posts/0037-sudoku-solver", "/0037-sudoku-solver"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0037-sudoku-solver solution
-description: 0037 sudoku solver LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0037 Sudoku Solver/problem-solving.webp
+    alt: 0037 Sudoku Solver
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Time Based Key Value Store
+summary: Time Based Key Value Store - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Time Based Key Value Store solution]
+aliases: ["/posts/time-based-key-value-store", "/blog/posts/time-based-key-value-store", "/time-based-key-value-store"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Time Based Key Value Store - Solution Explained/problem-solving.webp
+    alt: Time Based Key Value Store
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Time Based Key-Value Store
 
 https://www.interviewbit.com/problems/time-based-key-value-store/

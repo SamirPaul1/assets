@@ -1,3 +1,18 @@
+---
+title: Zigzag String
+summary: Zigzag String - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Zigzag String solution]
+aliases: ["/posts/zigzag-string", "/blog/posts/zigzag-string", "/zigzag-string"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Zigzag String - Solution Explained/problem-solving.webp
+    alt: Zigzag String
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Zigzag String
 
 https://www.interviewbit.com/problems/zigzag-string

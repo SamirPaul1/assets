@@ -1,10 +1,16 @@
 ---
-title: number of ways to stay in the same place after some steps
-tags: leetcode
-categories: leetcode
+title: Number Of Ways To Stay In The Same Place After Some Steps
+summary: Number Of Ways To Stay In The Same Place After Some Steps LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/number-of-ways-to-stay-in-the-same-place-after-some-steps", "/blog/posts/number-of-ways-to-stay-in-the-same-place-after-some-steps", "/number-of-ways-to-stay-in-the-same-place-after-some-steps"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-ways-to-stay-in-the-same-place-after-some-steps solution
-description: number of ways to stay in the same place after some steps LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Ways To Stay In The Same Place After Some Steps/problem-solving.webp
+    alt: Number Of Ways To Stay In The Same Place After Some Steps
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

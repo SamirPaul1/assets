@@ -1,10 +1,16 @@
 ---
-title: maximum xor with an element from array
-tags: leetcode
-categories: leetcode
+title: Maximum Xor With An Element From Array
+summary: Maximum Xor With An Element From Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/maximum-xor-with-an-element-from-array", "/blog/posts/maximum-xor-with-an-element-from-array", "/maximum-xor-with-an-element-from-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, maximum-xor-with-an-element-from-array solution
-description: maximum xor with an element from array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Xor With An Element From Array/problem-solving.webp
+    alt: Maximum Xor With An Element From Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

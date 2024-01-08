@@ -1,3 +1,18 @@
+---
+title: Min Sum Path In Triangle
+summary: Min Sum Path In Triangle - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Min Sum Path In Triangle solution]
+aliases: ["/posts/min-sum-path-in-triangle", "/blog/posts/min-sum-path-in-triangle", "/min-sum-path-in-triangle"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Min Sum Path In Triangle - Solution Explained/problem-solving.webp
+    alt: Min Sum Path In Triangle
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Min Sum Path in Triangle
 
 https://www.interviewbit.com/problems/min-sum-path-in-triangle/

@@ -1,3 +1,18 @@
+---
+title: Most Stones Removed
+summary: Most Stones Removed - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Most Stones Removed solution]
+aliases: ["/posts/most-stones-removed", "/blog/posts/most-stones-removed", "/most-stones-removed"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Most Stones Removed - Solution Explained/problem-solving.webp
+    alt: Most Stones Removed
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Most Stones Removed
 
 https://www.interviewbit.com/problems/most-stones-removed

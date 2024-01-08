@@ -1,3 +1,18 @@
+---
+title: Largest Rectangle In Histogram
+summary: Largest Rectangle In Histogram - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Largest Rectangle In Histogram solution]
+aliases: ["/posts/largest-rectangle-in-histogram", "/blog/posts/largest-rectangle-in-histogram", "/largest-rectangle-in-histogram"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Rectangle In Histogram - Solution Explained/problem-solving.webp
+    alt: Largest Rectangle In Histogram
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Largest Rectangle In Histogram
 
 https://www.interviewbit.com/problems/largest-rectangle-in-histogram

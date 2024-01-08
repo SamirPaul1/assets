@@ -1,10 +1,16 @@
 ---
-title: house robber
-tags: leetcode
-categories: leetcode
+title: House Robber
+summary: House Robber LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/house-robber", "/blog/posts/house-robber", "/house-robber"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, house-robber solution
-description: house robber LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:House Robber/problem-solving.webp
+    alt: House Robber
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: pascals triangle ii
-tags: leetcode
-categories: leetcode
+title: Pascals Triangle Ii
+summary: Pascals Triangle Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/pascals-triangle-ii", "/blog/posts/pascals-triangle-ii", "/pascals-triangle-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, pascals-triangle-ii solution
-description: pascals triangle ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Pascals Triangle Ii/problem-solving.webp
+    alt: Pascals Triangle Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

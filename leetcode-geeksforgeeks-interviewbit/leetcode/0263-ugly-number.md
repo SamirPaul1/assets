@@ -1,10 +1,16 @@
 ---
-title: 0263 ugly number
-tags: leetcode
-categories: leetcode
+title: 0263 Ugly Number
+summary: 0263 Ugly Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0263-ugly-number", "/blog/posts/0263-ugly-number", "/0263-ugly-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0263-ugly-number solution
-description: 0263 ugly number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0263 Ugly Number/problem-solving.webp
+    alt: 0263 Ugly Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

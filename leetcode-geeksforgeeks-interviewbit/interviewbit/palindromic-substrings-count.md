@@ -1,3 +1,18 @@
+---
+title: Palindromic Substrings Count
+summary: Palindromic Substrings Count - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Palindromic Substrings Count solution]
+aliases: ["/posts/palindromic-substrings-count", "/blog/posts/palindromic-substrings-count", "/palindromic-substrings-count"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindromic Substrings Count - Solution Explained/problem-solving.webp
+    alt: Palindromic Substrings Count
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Palindromic Substrings Count
 
 https://www.interviewbit.com/problems/palindromic-substrings-count/

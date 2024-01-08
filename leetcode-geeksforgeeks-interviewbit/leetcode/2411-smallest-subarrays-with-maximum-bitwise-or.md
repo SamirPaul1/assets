@@ -1,10 +1,16 @@
 ---
-title: 2411 smallest subarrays with maximum bitwise or
-tags: leetcode
-categories: leetcode
+title: 2411 Smallest Subarrays With Maximum Bitwise Or
+summary: 2411 Smallest Subarrays With Maximum Bitwise Or LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2411-smallest-subarrays-with-maximum-bitwise-or", "/blog/posts/2411-smallest-subarrays-with-maximum-bitwise-or", "/2411-smallest-subarrays-with-maximum-bitwise-or"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2411-smallest-subarrays-with-maximum-bitwise-or solution
-description: 2411 smallest subarrays with maximum bitwise or LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2411 Smallest Subarrays With Maximum Bitwise Or/problem-solving.webp
+    alt: 2411 Smallest Subarrays With Maximum Bitwise Or
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

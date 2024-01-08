@@ -1,3 +1,18 @@
+---
+title: Regular Expression Match
+summary: Regular Expression Match - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Regular Expression Match solution]
+aliases: ["/posts/regular-expression-match", "/blog/posts/regular-expression-match", "/regular-expression-match"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Regular Expression Match - Solution Explained/problem-solving.webp
+    alt: Regular Expression Match
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Regular Expression Match
 
 https://www.interviewbit.com/problems/regular-expression-match/

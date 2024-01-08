@@ -1,3 +1,18 @@
+---
+title: Order Of People Heights
+summary: Order Of People Heights - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Order Of People Heights solution]
+aliases: ["/posts/order-of-people-heights", "/blog/posts/order-of-people-heights", "/order-of-people-heights"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Order Of People Heights - Solution Explained/problem-solving.webp
+    alt: Order Of People Heights
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Order Of People Heights
 
 https://www.interviewbit.com/problems/order-of-people-heights

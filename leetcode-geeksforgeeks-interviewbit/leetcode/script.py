@@ -16,18 +16,20 @@ def remove_spaces(sentence):
 def make_md_file(folder_name):
   md_file_name = remove_spaces(folder_name)
   md_file = open(f"{md_file_name}.md", "w")
+  title_name = replace_dash_with_space(folder_name).title()
   md_file.write("---\n")
-  md_file.write(f"title: {replace_dash_with_space(folder_name)}\n")
-  md_file.write("tags: leetcode\n")
-  md_file.write("categories: leetcode\n")
+  md_file.write(f"title: {title_name}\n")
+  md_file.write(f"summary: {title_name} LeetCode Solution Explained\n")
+  md_file.write("date: 2020-06-20\n")
+  md_file.write("tags: [leetcode]\n")
+  md_file.write("series: [leetcode]\n")
+  md_file.write(f"aliases: [\"/posts/{md_file_name}\", \"/blog/posts/{md_file_name}\", \"/{md_file_name}\"]\n")
   md_file.write(f"keywords: LeetCode, leetcode solution in Python3 C++ Java, {folder_name} solution\n")
-  md_file.write(f"description: {replace_dash_with_space(folder_name)} LeetCode Solution Explained\n")
-  md_file.write("cover: /assets/img/leetcode-cover-img.webp
-date: 2021-08-15 09:55:52
-
-date: 2021-08-15 09:55:52
-\n")
-  # md_file.write("date: 2022-08-10 09:54:55\n")
+  md_file.write("cover:\n")
+  md_file.write(f"    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:{title_name}/problem-solving.webp\n")
+  md_file.write(f"    alt: {title_name}\n")
+  md_file.write("    hiddenInList: true\n")
+  md_file.write("    hiddenInSingle: false\n")
   md_file.write("---\n")
   md_file.write("\n")
   md_file.write("\n")

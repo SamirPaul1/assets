@@ -1,10 +1,16 @@
 ---
-title: minimum swaps to make sequences increasing
-tags: leetcode
-categories: leetcode
+title: Minimum Swaps To Make Sequences Increasing
+summary: Minimum Swaps To Make Sequences Increasing LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/minimum-swaps-to-make-sequences-increasing", "/blog/posts/minimum-swaps-to-make-sequences-increasing", "/minimum-swaps-to-make-sequences-increasing"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-swaps-to-make-sequences-increasing solution
-description: minimum swaps to make sequences increasing LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Swaps To Make Sequences Increasing/problem-solving.webp
+    alt: Minimum Swaps To Make Sequences Increasing
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

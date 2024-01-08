@@ -1,10 +1,16 @@
 ---
-title: 221 maximal square
-tags: leetcode
-categories: leetcode
+title: 221 Maximal Square
+summary: 221 Maximal Square LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/221-maximal-square", "/blog/posts/221-maximal-square", "/221-maximal-square"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 221-maximal-square solution
-description: 221 maximal square LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:221 Maximal Square/problem-solving.webp
+    alt: 221 Maximal Square
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

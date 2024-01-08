@@ -1,10 +1,16 @@
 ---
-title: 543 diameter of binary tree
-tags: leetcode
-categories: leetcode
+title: 543 Diameter Of Binary Tree
+summary: 543 Diameter Of Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/543-diameter-of-binary-tree", "/blog/posts/543-diameter-of-binary-tree", "/543-diameter-of-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 543-diameter-of-binary-tree solution
-description: 543 diameter of binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:543 Diameter Of Binary Tree/problem-solving.webp
+    alt: 543 Diameter Of Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

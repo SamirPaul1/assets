@@ -1,10 +1,16 @@
 ---
-title: 680 valid palindrome ii
-tags: leetcode
-categories: leetcode
+title: 680 Valid Palindrome Ii
+summary: 680 Valid Palindrome Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/680-valid-palindrome-ii", "/blog/posts/680-valid-palindrome-ii", "/680-valid-palindrome-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 680-valid-palindrome-ii solution
-description: 680 valid palindrome ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:680 Valid Palindrome Ii/problem-solving.webp
+    alt: 680 Valid Palindrome Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

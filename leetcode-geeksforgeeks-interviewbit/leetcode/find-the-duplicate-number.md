@@ -1,10 +1,16 @@
 ---
-title: find the duplicate number
-tags: leetcode
-categories: leetcode
+title: Find The Duplicate Number
+summary: Find The Duplicate Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-the-duplicate-number", "/blog/posts/find-the-duplicate-number", "/find-the-duplicate-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-the-duplicate-number solution
-description: find the duplicate number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find The Duplicate Number/problem-solving.webp
+    alt: Find The Duplicate Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

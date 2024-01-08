@@ -1,3 +1,18 @@
+---
+title: Number Of Islands
+summary: Number Of Islands - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Number Of Islands solution]
+aliases: ["/posts/number-of-islands", "/blog/posts/number-of-islands", "/number-of-islands"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Islands - Solution Explained/problem-solving.webp
+    alt: Number Of Islands
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Number of islands
 
 https://www.interviewbit.com/problems/number-of-islands/

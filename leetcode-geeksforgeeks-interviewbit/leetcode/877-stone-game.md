@@ -1,10 +1,16 @@
 ---
-title: 877 stone game
-tags: leetcode
-categories: leetcode
+title: 877 Stone Game
+summary: 877 Stone Game LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/877-stone-game", "/blog/posts/877-stone-game", "/877-stone-game"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 877-stone-game solution
-description: 877 stone game LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:877 Stone Game/problem-solving.webp
+    alt: 877 Stone Game
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0147 insertion sort list
-tags: leetcode
-categories: leetcode
+title: 0147 Insertion Sort List
+summary: 0147 Insertion Sort List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0147-insertion-sort-list", "/blog/posts/0147-insertion-sort-list", "/0147-insertion-sort-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0147-insertion-sort-list solution
-description: 0147 insertion sort list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0147 Insertion Sort List/problem-solving.webp
+    alt: 0147 Insertion Sort List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

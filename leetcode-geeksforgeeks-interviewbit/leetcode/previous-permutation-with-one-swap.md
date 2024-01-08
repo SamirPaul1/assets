@@ -1,10 +1,16 @@
 ---
-title: previous permutation with one swap
-tags: leetcode
-categories: leetcode
+title: Previous Permutation With One Swap
+summary: Previous Permutation With One Swap LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/previous-permutation-with-one-swap", "/blog/posts/previous-permutation-with-one-swap", "/previous-permutation-with-one-swap"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, previous-permutation-with-one-swap solution
-description: previous permutation with one swap LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Previous Permutation With One Swap/problem-solving.webp
+    alt: Previous Permutation With One Swap
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

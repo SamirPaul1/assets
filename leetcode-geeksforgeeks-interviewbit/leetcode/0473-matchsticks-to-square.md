@@ -1,10 +1,16 @@
 ---
-title: 0473 matchsticks to square
-tags: leetcode
-categories: leetcode
+title: 0473 Matchsticks To Square
+summary: 0473 Matchsticks To Square LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0473-matchsticks-to-square", "/blog/posts/0473-matchsticks-to-square", "/0473-matchsticks-to-square"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0473-matchsticks-to-square solution
-description: 0473 matchsticks to square LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0473 Matchsticks To Square/problem-solving.webp
+    alt: 0473 Matchsticks To Square
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

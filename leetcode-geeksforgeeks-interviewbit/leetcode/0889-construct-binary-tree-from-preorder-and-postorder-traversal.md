@@ -1,10 +1,16 @@
 ---
-title: 0889 construct binary tree from preorder and postorder traversal
-tags: leetcode
-categories: leetcode
+title: 0889 Construct Binary Tree From Preorder And Postorder Traversal
+summary: 0889 Construct Binary Tree From Preorder And Postorder Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0889-construct-binary-tree-from-preorder-and-postorder-traversal", "/blog/posts/0889-construct-binary-tree-from-preorder-and-postorder-traversal", "/0889-construct-binary-tree-from-preorder-and-postorder-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0889-construct-binary-tree-from-preorder-and-postorder-traversal solution
-description: 0889 construct binary tree from preorder and postorder traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0889 Construct Binary Tree From Preorder And Postorder Traversal/problem-solving.webp
+    alt: 0889 Construct Binary Tree From Preorder And Postorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

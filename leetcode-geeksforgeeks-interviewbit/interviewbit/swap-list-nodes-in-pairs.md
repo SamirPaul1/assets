@@ -1,3 +1,18 @@
+---
+title: Swap List Nodes In Pairs
+summary: Swap List Nodes In Pairs - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Swap List Nodes In Pairs solution]
+aliases: ["/posts/swap-list-nodes-in-pairs", "/blog/posts/swap-list-nodes-in-pairs", "/swap-list-nodes-in-pairs"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Swap List Nodes In Pairs - Solution Explained/problem-solving.webp
+    alt: Swap List Nodes In Pairs
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Swap List Nodes in pairs
 
 https://www.interviewbit.com/problems/swap-list-nodes-in-pairs/

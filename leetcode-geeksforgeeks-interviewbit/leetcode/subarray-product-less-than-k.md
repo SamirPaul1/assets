@@ -1,10 +1,16 @@
 ---
-title: subarray product less than k
-tags: leetcode
-categories: leetcode
+title: Subarray Product Less Than K
+summary: Subarray Product Less Than K LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/subarray-product-less-than-k", "/blog/posts/subarray-product-less-than-k", "/subarray-product-less-than-k"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, subarray-product-less-than-k solution
-description: subarray product less than k LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subarray Product Less Than K/problem-solving.webp
+    alt: Subarray Product Less Than K
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

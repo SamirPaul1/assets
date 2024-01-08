@@ -1,3 +1,18 @@
+---
+title: Top View
+summary: Top View - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Top View solution]
+aliases: ["/posts/top-view", "/blog/posts/top-view", "/top-view"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Top View - Solution Explained/problem-solving.webp
+    alt: Top View
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Top View
 
 https://www.interviewbit.com/problems/top-view/

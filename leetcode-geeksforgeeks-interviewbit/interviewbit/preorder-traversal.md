@@ -1,3 +1,18 @@
+---
+title: Preorder Traversal
+summary: Preorder Traversal - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Preorder Traversal solution]
+aliases: ["/posts/preorder-traversal", "/blog/posts/preorder-traversal", "/preorder-traversal"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Preorder Traversal - Solution Explained/problem-solving.webp
+    alt: Preorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Preorder Traversal
 
 https://www.interviewbit.com/problems/preorder-traversal

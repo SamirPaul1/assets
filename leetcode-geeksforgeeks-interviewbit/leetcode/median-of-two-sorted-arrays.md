@@ -1,10 +1,16 @@
 ---
-title: median of two sorted arrays
-tags: leetcode
-categories: leetcode
+title: Median Of Two Sorted Arrays
+summary: Median Of Two Sorted Arrays LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/median-of-two-sorted-arrays", "/blog/posts/median-of-two-sorted-arrays", "/median-of-two-sorted-arrays"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, median-of-two-sorted-arrays solution
-description: median of two sorted arrays LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Median Of Two Sorted Arrays/problem-solving.webp
+    alt: Median Of Two Sorted Arrays
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

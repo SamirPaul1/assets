@@ -1,10 +1,16 @@
 ---
-title: find k pairs with smallest sums
-tags: leetcode
-categories: leetcode
+title: Find K Pairs With Smallest Sums
+summary: Find K Pairs With Smallest Sums LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-k-pairs-with-smallest-sums", "/blog/posts/find-k-pairs-with-smallest-sums", "/find-k-pairs-with-smallest-sums"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-k-pairs-with-smallest-sums solution
-description: find k pairs with smallest sums LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find K Pairs With Smallest Sums/problem-solving.webp
+    alt: Find K Pairs With Smallest Sums
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

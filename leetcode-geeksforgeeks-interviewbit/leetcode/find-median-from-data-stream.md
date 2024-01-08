@@ -1,10 +1,16 @@
 ---
-title: find median from data stream
-tags: leetcode
-categories: leetcode
+title: Find Median From Data Stream
+summary: Find Median From Data Stream LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-median-from-data-stream", "/blog/posts/find-median-from-data-stream", "/find-median-from-data-stream"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-median-from-data-stream solution
-description: find median from data stream LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Median From Data Stream/problem-solving.webp
+    alt: Find Median From Data Stream
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

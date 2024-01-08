@@ -1,3 +1,18 @@
+---
+title: Capture Regions On Board
+summary: Capture Regions On Board - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Capture Regions On Board solution]
+aliases: ["/posts/capture-regions-on-board", "/blog/posts/capture-regions-on-board", "/capture-regions-on-board"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Capture Regions On Board - Solution Explained/problem-solving.webp
+    alt: Capture Regions On Board
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Capture Regions on Board
 
 https://www.interviewbit.com/problems/capture-regions-on-board/

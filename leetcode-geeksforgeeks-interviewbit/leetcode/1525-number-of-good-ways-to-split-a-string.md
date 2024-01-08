@@ -1,10 +1,16 @@
 ---
-title: 1525 number of good ways to split a string
-tags: leetcode
-categories: leetcode
+title: 1525 Number Of Good Ways To Split A String
+summary: 1525 Number Of Good Ways To Split A String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1525-number-of-good-ways-to-split-a-string", "/blog/posts/1525-number-of-good-ways-to-split-a-string", "/1525-number-of-good-ways-to-split-a-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1525-number-of-good-ways-to-split-a-string solution
-description: 1525 number of good ways to split a string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1525 Number Of Good Ways To Split A String/problem-solving.webp
+    alt: 1525 Number Of Good Ways To Split A String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

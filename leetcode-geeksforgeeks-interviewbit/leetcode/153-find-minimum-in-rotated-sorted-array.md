@@ -1,10 +1,16 @@
 ---
-title: 153 find minimum in rotated sorted array
-tags: leetcode
-categories: leetcode
+title: 153 Find Minimum In Rotated Sorted Array
+summary: 153 Find Minimum In Rotated Sorted Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/153-find-minimum-in-rotated-sorted-array", "/blog/posts/153-find-minimum-in-rotated-sorted-array", "/153-find-minimum-in-rotated-sorted-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 153-find-minimum-in-rotated-sorted-array solution
-description: 153 find minimum in rotated sorted array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:153 Find Minimum In Rotated Sorted Array/problem-solving.webp
+    alt: 153 Find Minimum In Rotated Sorted Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

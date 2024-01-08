@@ -1,10 +1,16 @@
 ---
-title: 0057 insert interval
-tags: leetcode
-categories: leetcode
+title: 0057 Insert Interval
+summary: 0057 Insert Interval LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0057-insert-interval", "/blog/posts/0057-insert-interval", "/0057-insert-interval"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0057-insert-interval solution
-description: 0057 insert interval LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0057 Insert Interval/problem-solving.webp
+    alt: 0057 Insert Interval
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

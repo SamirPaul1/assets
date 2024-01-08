@@ -1,10 +1,16 @@
 ---
-title: 1004 max consecutive ones iii
-tags: leetcode
-categories: leetcode
+title: 1004 Max Consecutive Ones Iii
+summary: 1004 Max Consecutive Ones Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1004-max-consecutive-ones-iii", "/blog/posts/1004-max-consecutive-ones-iii", "/1004-max-consecutive-ones-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1004-max-consecutive-ones-iii solution
-description: 1004 max consecutive ones iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1004 Max Consecutive Ones Iii/problem-solving.webp
+    alt: 1004 Max Consecutive Ones Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

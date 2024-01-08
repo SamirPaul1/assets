@@ -1,10 +1,16 @@
 ---
-title: non overlapping intervals
-tags: leetcode
-categories: leetcode
+title: Non Overlapping Intervals
+summary: Non Overlapping Intervals LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/non-overlapping-intervals", "/blog/posts/non-overlapping-intervals", "/non-overlapping-intervals"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, non-overlapping-intervals solution
-description: non overlapping intervals LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Non Overlapping Intervals/problem-solving.webp
+    alt: Non Overlapping Intervals
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

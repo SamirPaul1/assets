@@ -1,10 +1,16 @@
 ---
-title: partition to k equal sum subsets
-tags: leetcode
-categories: leetcode
+title: Partition To K Equal Sum Subsets
+summary: Partition To K Equal Sum Subsets LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/partition-to-k-equal-sum-subsets", "/blog/posts/partition-to-k-equal-sum-subsets", "/partition-to-k-equal-sum-subsets"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, partition-to-k-equal-sum-subsets solution
-description: partition to k equal sum subsets LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Partition To K Equal Sum Subsets/problem-solving.webp
+    alt: Partition To K Equal Sum Subsets
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

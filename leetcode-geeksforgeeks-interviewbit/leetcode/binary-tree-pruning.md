@@ -1,10 +1,16 @@
 ---
-title: binary tree pruning
-tags: leetcode
-categories: leetcode
+title: Binary Tree Pruning
+summary: Binary Tree Pruning LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/binary-tree-pruning", "/blog/posts/binary-tree-pruning", "/binary-tree-pruning"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, binary-tree-pruning solution
-description: binary tree pruning LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Binary Tree Pruning/problem-solving.webp
+    alt: Binary Tree Pruning
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

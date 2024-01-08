@@ -1,10 +1,16 @@
 ---
-title: sudoku solver
-tags: leetcode
-categories: leetcode
+title: Sudoku Solver
+summary: Sudoku Solver LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/sudoku-solver", "/blog/posts/sudoku-solver", "/sudoku-solver"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, sudoku-solver solution
-description: sudoku solver LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sudoku Solver/problem-solving.webp
+    alt: Sudoku Solver
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

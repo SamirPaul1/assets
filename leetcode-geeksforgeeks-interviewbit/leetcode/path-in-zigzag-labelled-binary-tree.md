@@ -1,10 +1,16 @@
 ---
-title: path in zigzag labelled binary tree
-tags: leetcode
-categories: leetcode
+title: Path In Zigzag Labelled Binary Tree
+summary: Path In Zigzag Labelled Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/path-in-zigzag-labelled-binary-tree", "/blog/posts/path-in-zigzag-labelled-binary-tree", "/path-in-zigzag-labelled-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, path-in-zigzag-labelled-binary-tree solution
-description: path in zigzag labelled binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Path In Zigzag Labelled Binary Tree/problem-solving.webp
+    alt: Path In Zigzag Labelled Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

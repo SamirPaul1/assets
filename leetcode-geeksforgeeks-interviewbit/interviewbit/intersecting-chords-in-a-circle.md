@@ -1,3 +1,18 @@
+---
+title: Intersecting Chords In A Circle
+summary: Intersecting Chords In A Circle - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Intersecting Chords In A Circle solution]
+aliases: ["/posts/intersecting-chords-in-a-circle", "/blog/posts/intersecting-chords-in-a-circle", "/intersecting-chords-in-a-circle"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Intersecting Chords In A Circle - Solution Explained/problem-solving.webp
+    alt: Intersecting Chords In A Circle
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Intersecting Chords in a Circle
 
 https://www.interviewbit.com/problems/intersecting-chords-in-a-circle/

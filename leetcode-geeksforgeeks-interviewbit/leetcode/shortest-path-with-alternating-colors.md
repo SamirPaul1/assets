@@ -1,10 +1,16 @@
 ---
-title: shortest path with alternating colors
-tags: leetcode
-categories: leetcode
+title: Shortest Path With Alternating Colors
+summary: Shortest Path With Alternating Colors LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/shortest-path-with-alternating-colors", "/blog/posts/shortest-path-with-alternating-colors", "/shortest-path-with-alternating-colors"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, shortest-path-with-alternating-colors solution
-description: shortest path with alternating colors LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Path With Alternating Colors/problem-solving.webp
+    alt: Shortest Path With Alternating Colors
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

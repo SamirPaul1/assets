@@ -1,10 +1,16 @@
 ---
-title: group the people given the group size they belong to
-tags: leetcode
-categories: leetcode
+title: Group The People Given The Group Size They Belong To
+summary: Group The People Given The Group Size They Belong To LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/group-the-people-given-the-group-size-they-belong-to", "/blog/posts/group-the-people-given-the-group-size-they-belong-to", "/group-the-people-given-the-group-size-they-belong-to"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, group-the-people-given-the-group-size-they-belong-to solution
-description: group the people given the group size they belong to LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Group The People Given The Group Size They Belong To/problem-solving.webp
+    alt: Group The People Given The Group Size They Belong To
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

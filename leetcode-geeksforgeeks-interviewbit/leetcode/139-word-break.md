@@ -1,10 +1,16 @@
 ---
-title: 139 word break
-tags: leetcode
-categories: leetcode
+title: 139 Word Break
+summary: 139 Word Break LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/139-word-break", "/blog/posts/139-word-break", "/139-word-break"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 139-word-break solution
-description: 139 word break LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:139 Word Break/problem-solving.webp
+    alt: 139 Word Break
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

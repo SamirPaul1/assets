@@ -1,10 +1,16 @@
 ---
-title: 16 3sum closest
-tags: leetcode
-categories: leetcode
+title: 16 3Sum Closest
+summary: 16 3Sum Closest LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/16-3sum-closest", "/blog/posts/16-3sum-closest", "/16-3sum-closest"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 16-3sum-closest solution
-description: 16 3sum closest LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:16 3Sum Closest/problem-solving.webp
+    alt: 16 3Sum Closest
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

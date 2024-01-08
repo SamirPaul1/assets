@@ -1,10 +1,16 @@
 ---
-title: 0696 count binary substrings
-tags: leetcode
-categories: leetcode
+title: 0696 Count Binary Substrings
+summary: 0696 Count Binary Substrings LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0696-count-binary-substrings", "/blog/posts/0696-count-binary-substrings", "/0696-count-binary-substrings"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0696-count-binary-substrings solution
-description: 0696 count binary substrings LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0696 Count Binary Substrings/problem-solving.webp
+    alt: 0696 Count Binary Substrings
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

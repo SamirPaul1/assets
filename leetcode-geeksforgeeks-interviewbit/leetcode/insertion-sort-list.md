@@ -1,10 +1,16 @@
 ---
-title: insertion sort list
-tags: leetcode
-categories: leetcode
+title: Insertion Sort List
+summary: Insertion Sort List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/insertion-sort-list", "/blog/posts/insertion-sort-list", "/insertion-sort-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, insertion-sort-list solution
-description: insertion sort list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Insertion Sort List/problem-solving.webp
+    alt: Insertion Sort List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

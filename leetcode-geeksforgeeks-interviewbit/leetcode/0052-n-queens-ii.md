@@ -1,10 +1,16 @@
 ---
-title: 0052 n queens ii
-tags: leetcode
-categories: leetcode
+title: 0052 N Queens Ii
+summary: 0052 N Queens Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0052-n-queens-ii", "/blog/posts/0052-n-queens-ii", "/0052-n-queens-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0052-n-queens-ii solution
-description: 0052 n queens ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0052 N Queens Ii/problem-solving.webp
+    alt: 0052 N Queens Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

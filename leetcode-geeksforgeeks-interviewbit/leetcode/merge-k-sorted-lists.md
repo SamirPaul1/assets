@@ -1,10 +1,16 @@
 ---
-title: merge k sorted lists
-tags: leetcode
-categories: leetcode
+title: Merge K Sorted Lists
+summary: Merge K Sorted Lists LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/merge-k-sorted-lists", "/blog/posts/merge-k-sorted-lists", "/merge-k-sorted-lists"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, merge-k-sorted-lists solution
-description: merge k sorted lists LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge K Sorted Lists/problem-solving.webp
+    alt: Merge K Sorted Lists
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

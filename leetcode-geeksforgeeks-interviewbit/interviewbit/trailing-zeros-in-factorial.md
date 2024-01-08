@@ -1,3 +1,18 @@
+---
+title: Trailing Zeros In Factorial
+summary: Trailing Zeros In Factorial - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Trailing Zeros In Factorial solution]
+aliases: ["/posts/trailing-zeros-in-factorial", "/blog/posts/trailing-zeros-in-factorial", "/trailing-zeros-in-factorial"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Trailing Zeros In Factorial - Solution Explained/problem-solving.webp
+    alt: Trailing Zeros In Factorial
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Trailing zeros in factorial
 
 https://interviewbit.com/problems/trailing-zeros-in-factorial

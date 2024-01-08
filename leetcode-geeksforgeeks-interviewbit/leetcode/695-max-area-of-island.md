@@ -1,10 +1,16 @@
 ---
-title: 695 max area of island
-tags: leetcode
-categories: leetcode
+title: 695 Max Area Of Island
+summary: 695 Max Area Of Island LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/695-max-area-of-island", "/blog/posts/695-max-area-of-island", "/695-max-area-of-island"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 695-max-area-of-island solution
-description: 695 max area of island LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:695 Max Area Of Island/problem-solving.webp
+    alt: 695 Max Area Of Island
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

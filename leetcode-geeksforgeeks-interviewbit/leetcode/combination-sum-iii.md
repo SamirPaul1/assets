@@ -1,10 +1,16 @@
 ---
-title: combination sum iii
-tags: leetcode
-categories: leetcode
+title: Combination Sum Iii
+summary: Combination Sum Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/combination-sum-iii", "/blog/posts/combination-sum-iii", "/combination-sum-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, combination-sum-iii solution
-description: combination sum iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Combination Sum Iii/problem-solving.webp
+    alt: Combination Sum Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Gray Code
+summary: Gray Code - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Gray Code solution]
+aliases: ["/posts/gray-code", "/blog/posts/gray-code", "/gray-code"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Gray Code - Solution Explained/problem-solving.webp
+    alt: Gray Code
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Gray Code
 
 https://www.interviewbit.com/problems/gray-code

@@ -1,10 +1,16 @@
 ---
-title: 0391 perfect rectangle
-tags: leetcode
-categories: leetcode
+title: 0391 Perfect Rectangle
+summary: 0391 Perfect Rectangle LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0391-perfect-rectangle", "/blog/posts/0391-perfect-rectangle", "/0391-perfect-rectangle"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0391-perfect-rectangle solution
-description: 0391 perfect rectangle LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0391 Perfect Rectangle/problem-solving.webp
+    alt: 0391 Perfect Rectangle
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

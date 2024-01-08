@@ -1,10 +1,16 @@
 ---
-title: burst balloons
-tags: leetcode
-categories: leetcode
+title: Burst Balloons
+summary: Burst Balloons LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/burst-balloons", "/blog/posts/burst-balloons", "/burst-balloons"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, burst-balloons solution
-description: burst balloons LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Burst Balloons/problem-solving.webp
+    alt: Burst Balloons
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

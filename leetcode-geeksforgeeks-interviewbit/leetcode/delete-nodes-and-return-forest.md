@@ -1,10 +1,16 @@
 ---
-title: delete nodes and return forest
-tags: leetcode
-categories: leetcode
+title: Delete Nodes And Return Forest
+summary: Delete Nodes And Return Forest LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/delete-nodes-and-return-forest", "/blog/posts/delete-nodes-and-return-forest", "/delete-nodes-and-return-forest"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, delete-nodes-and-return-forest solution
-description: delete nodes and return forest LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Delete Nodes And Return Forest/problem-solving.webp
+    alt: Delete Nodes And Return Forest
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

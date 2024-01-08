@@ -1,10 +1,16 @@
 ---
-title: jump game v
-tags: leetcode
-categories: leetcode
+title: Jump Game V
+summary: Jump Game V LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/jump-game-v", "/blog/posts/jump-game-v", "/jump-game-v"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, jump-game-v solution
-description: jump game v LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Jump Game V/problem-solving.webp
+    alt: Jump Game V
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

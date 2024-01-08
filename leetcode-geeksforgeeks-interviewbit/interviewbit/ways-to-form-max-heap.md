@@ -1,3 +1,18 @@
+---
+title: Ways To Form Max Heap
+summary: Ways To Form Max Heap - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Ways To Form Max Heap solution]
+aliases: ["/posts/ways-to-form-max-heap", "/blog/posts/ways-to-form-max-heap", "/ways-to-form-max-heap"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Ways To Form Max Heap - Solution Explained/problem-solving.webp
+    alt: Ways To Form Max Heap
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Ways To Form Max Heap
 
 https://www.interviewbit.com/problems/ways-to-form-max-heap

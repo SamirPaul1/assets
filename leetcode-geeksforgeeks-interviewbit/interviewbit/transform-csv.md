@@ -1,3 +1,18 @@
+---
+title: Transform Csv
+summary: Transform Csv - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Transform Csv solution]
+aliases: ["/posts/transform-csv", "/blog/posts/transform-csv", "/transform-csv"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Transform Csv - Solution Explained/problem-solving.webp
+    alt: Transform Csv
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Transform CSV
 
 https://www.interviewbit.com/problems/transform-csv/

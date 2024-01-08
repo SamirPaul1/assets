@@ -1,10 +1,16 @@
 ---
-title: employee importance
-tags: leetcode
-categories: leetcode
+title: Employee Importance
+summary: Employee Importance LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/employee-importance", "/blog/posts/employee-importance", "/employee-importance"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, employee-importance solution
-description: employee importance LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Employee Importance/problem-solving.webp
+    alt: Employee Importance
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

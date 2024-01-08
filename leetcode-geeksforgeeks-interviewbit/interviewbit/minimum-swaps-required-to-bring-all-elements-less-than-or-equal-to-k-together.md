@@ -1,3 +1,18 @@
+---
+title: Minimum Swaps Required To Bring All Elements Less Than Or Equal To K Together
+summary: Minimum Swaps Required To Bring All Elements Less Than Or Equal To K Together - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimum Swaps Required To Bring All Elements Less Than Or Equal To K Together solution]
+aliases: ["/posts/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together", "/blog/posts/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together", "/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Swaps Required To Bring All Elements Less Than Or Equal To K Together - Solution Explained/problem-solving.webp
+    alt: Minimum Swaps Required To Bring All Elements Less Than Or Equal To K Together
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Minimum swaps required to bring all elements less than or equal to k together
 
 https://www.interviewbit.com/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/

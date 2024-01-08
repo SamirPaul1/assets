@@ -1,10 +1,16 @@
 ---
-title: concatenated words
-tags: leetcode
-categories: leetcode
+title: Concatenated Words
+summary: Concatenated Words LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/concatenated-words", "/blog/posts/concatenated-words", "/concatenated-words"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, concatenated-words solution
-description: concatenated words LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Concatenated Words/problem-solving.webp
+    alt: Concatenated Words
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

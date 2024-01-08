@@ -1,10 +1,16 @@
 ---
-title: Maximize XOR   GFG
-tags: leetcode
-categories: leetcode
+title: Maximize Xor   Gfg
+summary: Maximize Xor   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Maximize-XOR---GFG", "/blog/posts/Maximize-XOR---GFG", "/Maximize-XOR---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Maximize XOR - GFG solution
-description: Maximize XOR   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximize Xor   Gfg/problem-solving.webp
+    alt: Maximize Xor   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

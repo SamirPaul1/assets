@@ -1,3 +1,18 @@
+---
+title: Majority Element
+summary: Majority Element - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Majority Element solution]
+aliases: ["/posts/majority-element", "/blog/posts/majority-element", "/majority-element"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Majority Element - Solution Explained/problem-solving.webp
+    alt: Majority Element
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Majority Element
 
 https://www.interviewbit.com/problems/majority-element

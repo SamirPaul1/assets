@@ -1,10 +1,16 @@
 ---
-title: regions cut by slashes
-tags: leetcode
-categories: leetcode
+title: Regions Cut By Slashes
+summary: Regions Cut By Slashes LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/regions-cut-by-slashes", "/blog/posts/regions-cut-by-slashes", "/regions-cut-by-slashes"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, regions-cut-by-slashes solution
-description: regions cut by slashes LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Regions Cut By Slashes/problem-solving.webp
+    alt: Regions Cut By Slashes
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

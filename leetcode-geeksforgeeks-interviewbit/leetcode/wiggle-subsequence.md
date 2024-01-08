@@ -1,10 +1,16 @@
 ---
-title: wiggle subsequence
-tags: leetcode
-categories: leetcode
+title: Wiggle Subsequence
+summary: Wiggle Subsequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/wiggle-subsequence", "/blog/posts/wiggle-subsequence", "/wiggle-subsequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, wiggle-subsequence solution
-description: wiggle subsequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Wiggle Subsequence/problem-solving.webp
+    alt: Wiggle Subsequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: satisfiability of equality equations
-tags: leetcode
-categories: leetcode
+title: Satisfiability Of Equality Equations
+summary: Satisfiability Of Equality Equations LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/satisfiability-of-equality-equations", "/blog/posts/satisfiability-of-equality-equations", "/satisfiability-of-equality-equations"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, satisfiability-of-equality-equations solution
-description: satisfiability of equality equations LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Satisfiability Of Equality Equations/problem-solving.webp
+    alt: Satisfiability Of Equality Equations
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

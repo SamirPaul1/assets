@@ -1,10 +1,16 @@
 ---
-title: 0145 binary tree postorder traversal
-tags: leetcode
-categories: leetcode
+title: 0145 Binary Tree Postorder Traversal
+summary: 0145 Binary Tree Postorder Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0145-binary-tree-postorder-traversal", "/blog/posts/0145-binary-tree-postorder-traversal", "/0145-binary-tree-postorder-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0145-binary-tree-postorder-traversal solution
-description: 0145 binary tree postorder traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0145 Binary Tree Postorder Traversal/problem-solving.webp
+    alt: 0145 Binary Tree Postorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

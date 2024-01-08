@@ -1,10 +1,16 @@
 ---
-title: 129 sum root to leaf numbers
-tags: leetcode
-categories: leetcode
+title: 129 Sum Root To Leaf Numbers
+summary: 129 Sum Root To Leaf Numbers LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/129-sum-root-to-leaf-numbers", "/blog/posts/129-sum-root-to-leaf-numbers", "/129-sum-root-to-leaf-numbers"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 129-sum-root-to-leaf-numbers solution
-description: 129 sum root to leaf numbers LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:129 Sum Root To Leaf Numbers/problem-solving.webp
+    alt: 129 Sum Root To Leaf Numbers
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

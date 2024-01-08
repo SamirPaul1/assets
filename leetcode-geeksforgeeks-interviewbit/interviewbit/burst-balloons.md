@@ -1,3 +1,18 @@
+---
+title: Burst Balloons
+summary: Burst Balloons - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Burst Balloons solution]
+aliases: ["/posts/burst-balloons", "/blog/posts/burst-balloons", "/burst-balloons"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Burst Balloons - Solution Explained/problem-solving.webp
+    alt: Burst Balloons
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Burst Balloons
 
 https://www.interviewbit.com/problems/burst-balloons/

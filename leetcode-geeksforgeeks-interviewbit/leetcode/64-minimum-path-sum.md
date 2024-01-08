@@ -1,10 +1,16 @@
 ---
-title: 64 minimum path sum
-tags: leetcode
-categories: leetcode
+title: 64 Minimum Path Sum
+summary: 64 Minimum Path Sum LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/64-minimum-path-sum", "/blog/posts/64-minimum-path-sum", "/64-minimum-path-sum"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 64-minimum-path-sum solution
-description: 64 minimum path sum LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:64 Minimum Path Sum/problem-solving.webp
+    alt: 64 Minimum Path Sum
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

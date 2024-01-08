@@ -1,10 +1,16 @@
 ---
-title: 2 add two numbers
-tags: leetcode
-categories: leetcode
+title: 2 Add Two Numbers
+summary: 2 Add Two Numbers LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2-add-two-numbers", "/blog/posts/2-add-two-numbers", "/2-add-two-numbers"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2-add-two-numbers solution
-description: 2 add two numbers LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2 Add Two Numbers/problem-solving.webp
+    alt: 2 Add Two Numbers
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

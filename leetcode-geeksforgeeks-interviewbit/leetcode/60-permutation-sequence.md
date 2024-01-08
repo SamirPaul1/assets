@@ -1,10 +1,16 @@
 ---
-title: 60 permutation sequence
-tags: leetcode
-categories: leetcode
+title: 60 Permutation Sequence
+summary: 60 Permutation Sequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/60-permutation-sequence", "/blog/posts/60-permutation-sequence", "/60-permutation-sequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 60-permutation-sequence solution
-description: 60 permutation sequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:60 Permutation Sequence/problem-solving.webp
+    alt: 60 Permutation Sequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

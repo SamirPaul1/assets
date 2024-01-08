@@ -1,3 +1,18 @@
+---
+title: Min Steps In Infinite Grid
+summary: Min Steps In Infinite Grid - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Min Steps In Infinite Grid solution]
+aliases: ["/posts/min-steps-in-infinite-grid", "/blog/posts/min-steps-in-infinite-grid", "/min-steps-in-infinite-grid"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Min Steps In Infinite Grid - Solution Explained/problem-solving.webp
+    alt: Min Steps In Infinite Grid
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Min Steps in Infinite Grid
 
 https://www.interviewbit.com/problems/min-steps-in-infinite-grid/

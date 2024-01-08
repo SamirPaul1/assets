@@ -1,3 +1,18 @@
+---
+title: Equal
+summary: Equal - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Equal solution]
+aliases: ["/posts/equal", "/blog/posts/equal", "/equal"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Equal - Solution Explained/problem-solving.webp
+    alt: Equal
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Equal
 
 https://www.interviewbit.com/problems/equal

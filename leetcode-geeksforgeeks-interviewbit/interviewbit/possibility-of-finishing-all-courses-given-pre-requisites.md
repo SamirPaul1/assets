@@ -1,3 +1,18 @@
+---
+title: Possibility Of Finishing All Courses Given Pre Requisites
+summary: Possibility Of Finishing All Courses Given Pre Requisites - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Possibility Of Finishing All Courses Given Pre Requisites solution]
+aliases: ["/posts/possibility-of-finishing-all-courses-given-pre-requisites", "/blog/posts/possibility-of-finishing-all-courses-given-pre-requisites", "/possibility-of-finishing-all-courses-given-pre-requisites"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Possibility Of Finishing All Courses Given Pre Requisites - Solution Explained/problem-solving.webp
+    alt: Possibility Of Finishing All Courses Given Pre Requisites
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Possibility of finishing all courses given pre-requisites
 
 https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/

@@ -1,10 +1,16 @@
 ---
-title: 787 cheapest flights within k stops
-tags: leetcode
-categories: leetcode
+title: 787 Cheapest Flights Within K Stops
+summary: 787 Cheapest Flights Within K Stops LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/787-cheapest-flights-within-k-stops", "/blog/posts/787-cheapest-flights-within-k-stops", "/787-cheapest-flights-within-k-stops"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 787-cheapest-flights-within-k-stops solution
-description: 787 cheapest flights within k stops LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:787 Cheapest Flights Within K Stops/problem-solving.webp
+    alt: 787 Cheapest Flights Within K Stops
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Nextgreater
+summary: Nextgreater - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Nextgreater solution]
+aliases: ["/posts/nextgreater", "/blog/posts/nextgreater", "/nextgreater"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Nextgreater - Solution Explained/problem-solving.webp
+    alt: Nextgreater
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # NEXTGREATER
 
 https://www.interviewbit.com/problems/nextgreater/

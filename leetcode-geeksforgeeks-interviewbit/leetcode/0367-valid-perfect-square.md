@@ -1,10 +1,16 @@
 ---
-title: 0367 valid perfect square
-tags: leetcode
-categories: leetcode
+title: 0367 Valid Perfect Square
+summary: 0367 Valid Perfect Square LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0367-valid-perfect-square", "/blog/posts/0367-valid-perfect-square", "/0367-valid-perfect-square"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0367-valid-perfect-square solution
-description: 0367 valid perfect square LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0367 Valid Perfect Square/problem-solving.webp
+    alt: 0367 Valid Perfect Square
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: substring with concatenation of all words
-tags: leetcode
-categories: leetcode
+title: Substring With Concatenation Of All Words
+summary: Substring With Concatenation Of All Words LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/substring-with-concatenation-of-all-words", "/blog/posts/substring-with-concatenation-of-all-words", "/substring-with-concatenation-of-all-words"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, substring-with-concatenation-of-all-words solution
-description: substring with concatenation of all words LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Substring With Concatenation Of All Words/problem-solving.webp
+    alt: Substring With Concatenation Of All Words
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

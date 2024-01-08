@@ -1,3 +1,18 @@
+---
+title: Single Number Ii
+summary: Single Number Ii - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Single Number Ii solution]
+aliases: ["/posts/single-number-ii", "/blog/posts/single-number-ii", "/single-number-ii"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Number Ii - Solution Explained/problem-solving.webp
+    alt: Single Number Ii
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Single Number II
 
 https://www.interviewbit.com/problems/single-number-ii

@@ -1,10 +1,16 @@
 ---
-title: find center of star graph
-tags: leetcode
-categories: leetcode
+title: Find Center Of Star Graph
+summary: Find Center Of Star Graph LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/find-center-of-star-graph", "/blog/posts/find-center-of-star-graph", "/find-center-of-star-graph"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, find-center-of-star-graph solution
-description: find center of star graph LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Center Of Star Graph/problem-solving.webp
+    alt: Find Center Of Star Graph
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

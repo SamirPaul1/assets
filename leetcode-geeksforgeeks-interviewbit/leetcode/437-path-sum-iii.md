@@ -1,10 +1,16 @@
 ---
-title: 437 path sum iii
-tags: leetcode
-categories: leetcode
+title: 437 Path Sum Iii
+summary: 437 Path Sum Iii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/437-path-sum-iii", "/blog/posts/437-path-sum-iii", "/437-path-sum-iii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 437-path-sum-iii solution
-description: 437 path sum iii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:437 Path Sum Iii/problem-solving.webp
+    alt: 437 Path Sum Iii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: subarray sum equals k
-tags: leetcode
-categories: leetcode
+title: Subarray Sum Equals K
+summary: Subarray Sum Equals K LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/subarray-sum-equals-k", "/blog/posts/subarray-sum-equals-k", "/subarray-sum-equals-k"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, subarray-sum-equals-k solution
-description: subarray sum equals k LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subarray Sum Equals K/problem-solving.webp
+    alt: Subarray Sum Equals K
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

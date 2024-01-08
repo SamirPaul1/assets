@@ -1,10 +1,16 @@
 ---
-title: 46 permutations
-tags: leetcode
-categories: leetcode
+title: 46 Permutations
+summary: 46 Permutations LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/46-permutations", "/blog/posts/46-permutations", "/46-permutations"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 46-permutations solution
-description: 46 permutations LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:46 Permutations/problem-solving.webp
+    alt: 46 Permutations
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

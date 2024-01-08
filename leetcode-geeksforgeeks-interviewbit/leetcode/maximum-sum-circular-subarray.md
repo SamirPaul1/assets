@@ -1,10 +1,16 @@
 ---
-title: maximum sum circular subarray
-tags: leetcode
-categories: leetcode
+title: Maximum Sum Circular Subarray
+summary: Maximum Sum Circular Subarray LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/maximum-sum-circular-subarray", "/blog/posts/maximum-sum-circular-subarray", "/maximum-sum-circular-subarray"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, maximum-sum-circular-subarray solution
-description: maximum sum circular subarray LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Sum Circular Subarray/problem-solving.webp
+    alt: Maximum Sum Circular Subarray
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

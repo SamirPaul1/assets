@@ -1,3 +1,18 @@
+---
+title: Find Duplicate In Array
+summary: Find Duplicate In Array - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Find Duplicate In Array solution]
+aliases: ["/posts/find-duplicate-in-array", "/blog/posts/find-duplicate-in-array", "/find-duplicate-in-array"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Duplicate In Array - Solution Explained/problem-solving.webp
+    alt: Find Duplicate In Array
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Find Duplicate in Array
 
 https://www.interviewbit.com/problems/find-duplicate-in-array/

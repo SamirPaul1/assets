@@ -1,3 +1,18 @@
+---
+title: Next Permutation
+summary: Next Permutation - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Next Permutation solution]
+aliases: ["/posts/next-permutation", "/blog/posts/next-permutation", "/next-permutation"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Next Permutation - Solution Explained/problem-solving.webp
+    alt: Next Permutation
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Next Permutation
 
 https://www.interviewbit.com/problems/next-permutation/

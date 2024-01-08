@@ -1,10 +1,16 @@
 ---
-title: 0174 dungeon game
-tags: leetcode
-categories: leetcode
+title: 0174 Dungeon Game
+summary: 0174 Dungeon Game LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0174-dungeon-game", "/blog/posts/0174-dungeon-game", "/0174-dungeon-game"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0174-dungeon-game solution
-description: 0174 dungeon game LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0174 Dungeon Game/problem-solving.webp
+    alt: 0174 Dungeon Game
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

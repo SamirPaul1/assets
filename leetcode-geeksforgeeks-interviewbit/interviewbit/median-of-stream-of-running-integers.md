@@ -1,3 +1,18 @@
+---
+title: Median Of Stream Of Running Integers
+summary: Median Of Stream Of Running Integers - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Median Of Stream Of Running Integers solution]
+aliases: ["/posts/median-of-stream-of-running-integers", "/blog/posts/median-of-stream-of-running-integers", "/median-of-stream-of-running-integers"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Median Of Stream Of Running Integers - Solution Explained/problem-solving.webp
+    alt: Median Of Stream Of Running Integers
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Median of stream of running integers
 
 https://www.interviewbit.com/problems/median-of-stream-of-running-integers

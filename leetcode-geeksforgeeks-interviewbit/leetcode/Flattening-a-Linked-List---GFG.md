@@ -1,10 +1,16 @@
 ---
-title: Flattening a Linked List   GFG
-tags: leetcode
-categories: leetcode
+title: Flattening A Linked List   Gfg
+summary: Flattening A Linked List   Gfg LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/Flattening-a-Linked-List---GFG", "/blog/posts/Flattening-a-Linked-List---GFG", "/Flattening-a-Linked-List---GFG"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, Flattening a Linked List - GFG solution
-description: Flattening a Linked List   GFG LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Flattening A Linked List   Gfg/problem-solving.webp
+    alt: Flattening A Linked List   Gfg
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

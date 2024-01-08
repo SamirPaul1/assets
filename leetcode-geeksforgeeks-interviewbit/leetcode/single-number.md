@@ -1,10 +1,16 @@
 ---
-title: single number
-tags: leetcode
-categories: leetcode
+title: Single Number
+summary: Single Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/single-number", "/blog/posts/single-number", "/single-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, single-number solution
-description: single number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Number/problem-solving.webp
+    alt: Single Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

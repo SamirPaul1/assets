@@ -1,10 +1,16 @@
 ---
-title: 0223 rectangle area
-tags: leetcode
-categories: leetcode
+title: 0223 Rectangle Area
+summary: 0223 Rectangle Area LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0223-rectangle-area", "/blog/posts/0223-rectangle-area", "/0223-rectangle-area"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0223-rectangle-area solution
-description: 0223 rectangle area LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0223 Rectangle Area/problem-solving.webp
+    alt: 0223 Rectangle Area
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

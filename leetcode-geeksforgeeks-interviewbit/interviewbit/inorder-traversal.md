@@ -1,3 +1,18 @@
+---
+title: Inorder Traversal
+summary: Inorder Traversal - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Inorder Traversal solution]
+aliases: ["/posts/inorder-traversal", "/blog/posts/inorder-traversal", "/inorder-traversal"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Inorder Traversal - Solution Explained/problem-solving.webp
+    alt: Inorder Traversal
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Inorder Traversal
 
 https://www.interviewbit.com/problems/inorder-traversal

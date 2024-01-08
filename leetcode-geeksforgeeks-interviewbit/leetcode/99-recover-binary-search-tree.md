@@ -1,10 +1,16 @@
 ---
-title: 99 recover binary search tree
-tags: leetcode
-categories: leetcode
+title: 99 Recover Binary Search Tree
+summary: 99 Recover Binary Search Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/99-recover-binary-search-tree", "/blog/posts/99-recover-binary-search-tree", "/99-recover-binary-search-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 99-recover-binary-search-tree solution
-description: 99 recover binary search tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:99 Recover Binary Search Tree/problem-solving.webp
+    alt: 99 Recover Binary Search Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0129 sum root to leaf numbers
-tags: leetcode
-categories: leetcode
+title: 0129 Sum Root To Leaf Numbers
+summary: 0129 Sum Root To Leaf Numbers LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0129-sum-root-to-leaf-numbers", "/blog/posts/0129-sum-root-to-leaf-numbers", "/0129-sum-root-to-leaf-numbers"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0129-sum-root-to-leaf-numbers solution
-description: 0129 sum root to leaf numbers LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0129 Sum Root To Leaf Numbers/problem-solving.webp
+    alt: 0129 Sum Root To Leaf Numbers
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

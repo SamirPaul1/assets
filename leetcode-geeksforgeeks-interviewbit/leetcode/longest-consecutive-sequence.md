@@ -1,10 +1,16 @@
 ---
-title: longest consecutive sequence
-tags: leetcode
-categories: leetcode
+title: Longest Consecutive Sequence
+summary: Longest Consecutive Sequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/longest-consecutive-sequence", "/blog/posts/longest-consecutive-sequence", "/longest-consecutive-sequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-consecutive-sequence solution
-description: longest consecutive sequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Consecutive Sequence/problem-solving.webp
+    alt: Longest Consecutive Sequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

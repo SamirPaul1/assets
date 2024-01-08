@@ -1,10 +1,16 @@
 ---
-title: longest palindromic substring
-tags: leetcode
-categories: leetcode
+title: Longest Palindromic Substring
+summary: Longest Palindromic Substring LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/longest-palindromic-substring", "/blog/posts/longest-palindromic-substring", "/longest-palindromic-substring"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-palindromic-substring solution
-description: longest palindromic substring LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Palindromic Substring/problem-solving.webp
+    alt: Longest Palindromic Substring
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

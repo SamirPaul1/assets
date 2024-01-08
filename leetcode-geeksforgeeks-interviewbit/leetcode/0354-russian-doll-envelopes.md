@@ -1,10 +1,16 @@
 ---
-title: 0354 russian doll envelopes
-tags: leetcode
-categories: leetcode
+title: 0354 Russian Doll Envelopes
+summary: 0354 Russian Doll Envelopes LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0354-russian-doll-envelopes", "/blog/posts/0354-russian-doll-envelopes", "/0354-russian-doll-envelopes"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0354-russian-doll-envelopes solution
-description: 0354 russian doll envelopes LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0354 Russian Doll Envelopes/problem-solving.webp
+    alt: 0354 Russian Doll Envelopes
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

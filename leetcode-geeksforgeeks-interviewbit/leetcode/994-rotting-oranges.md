@@ -1,10 +1,16 @@
 ---
-title: 994 rotting oranges
-tags: leetcode
-categories: leetcode
+title: 994 Rotting Oranges
+summary: 994 Rotting Oranges LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/994-rotting-oranges", "/blog/posts/994-rotting-oranges", "/994-rotting-oranges"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 994-rotting-oranges solution
-description: 994 rotting oranges LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:994 Rotting Oranges/problem-solving.webp
+    alt: 994 Rotting Oranges
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

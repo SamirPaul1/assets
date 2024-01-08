@@ -1,10 +1,16 @@
 ---
-title: 228 summary ranges
-tags: leetcode
-categories: leetcode
+title: 228 Summary Ranges
+summary: 228 Summary Ranges LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/228-summary-ranges", "/blog/posts/228-summary-ranges", "/228-summary-ranges"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 228-summary-ranges solution
-description: 228 summary ranges LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:228 Summary Ranges/problem-solving.webp
+    alt: 228 Summary Ranges
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

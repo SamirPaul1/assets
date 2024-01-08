@@ -1,10 +1,16 @@
 ---
-title: maximum erasure value
-tags: leetcode
-categories: leetcode
+title: Maximum Erasure Value
+summary: Maximum Erasure Value LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/maximum-erasure-value", "/blog/posts/maximum-erasure-value", "/maximum-erasure-value"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, maximum-erasure-value solution
-description: maximum erasure value LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Erasure Value/problem-solving.webp
+    alt: Maximum Erasure Value
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

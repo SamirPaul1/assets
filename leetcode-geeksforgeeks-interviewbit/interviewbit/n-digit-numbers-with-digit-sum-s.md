@@ -1,3 +1,18 @@
+---
+title: N Digit Numbers With Digit Sum S
+summary: N Digit Numbers With Digit Sum S - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, N Digit Numbers With Digit Sum S solution]
+aliases: ["/posts/n-digit-numbers-with-digit-sum-s", "/blog/posts/n-digit-numbers-with-digit-sum-s", "/n-digit-numbers-with-digit-sum-s"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:N Digit Numbers With Digit Sum S - Solution Explained/problem-solving.webp
+    alt: N Digit Numbers With Digit Sum S
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # N digit numbers with digit sum S
 
 https://www.interviewbit.com/problems/n-digit-numbers-with-digit-sum-s-/

@@ -1,10 +1,16 @@
 ---
-title: longest common subsequence
-tags: leetcode
-categories: leetcode
+title: Longest Common Subsequence
+summary: Longest Common Subsequence LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/longest-common-subsequence", "/blog/posts/longest-common-subsequence", "/longest-common-subsequence"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-common-subsequence solution
-description: longest common subsequence LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Common Subsequence/problem-solving.webp
+    alt: Longest Common Subsequence
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

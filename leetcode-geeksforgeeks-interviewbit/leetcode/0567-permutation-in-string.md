@@ -1,10 +1,16 @@
 ---
-title: 0567 permutation in string
-tags: leetcode
-categories: leetcode
+title: 0567 Permutation In String
+summary: 0567 Permutation In String LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0567-permutation-in-string", "/blog/posts/0567-permutation-in-string", "/0567-permutation-in-string"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0567-permutation-in-string solution
-description: 0567 permutation in string LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0567 Permutation In String/problem-solving.webp
+    alt: 0567 Permutation In String
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

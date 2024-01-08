@@ -1,10 +1,16 @@
 ---
-title: 102 binary tree level order traversal
-tags: leetcode
-categories: leetcode
+title: 102 Binary Tree Level Order Traversal
+summary: 102 Binary Tree Level Order Traversal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/102-binary-tree-level-order-traversal", "/blog/posts/102-binary-tree-level-order-traversal", "/102-binary-tree-level-order-traversal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 102-binary-tree-level-order-traversal solution
-description: 102 binary tree level order traversal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:102 Binary Tree Level Order Traversal/problem-solving.webp
+    alt: 102 Binary Tree Level Order Traversal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

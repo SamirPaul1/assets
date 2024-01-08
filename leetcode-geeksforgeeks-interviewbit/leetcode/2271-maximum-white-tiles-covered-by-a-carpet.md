@@ -1,10 +1,16 @@
 ---
-title: 2271 maximum white tiles covered by a carpet
-tags: leetcode
-categories: leetcode
+title: 2271 Maximum White Tiles Covered By A Carpet
+summary: 2271 Maximum White Tiles Covered By A Carpet LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2271-maximum-white-tiles-covered-by-a-carpet", "/blog/posts/2271-maximum-white-tiles-covered-by-a-carpet", "/2271-maximum-white-tiles-covered-by-a-carpet"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2271-maximum-white-tiles-covered-by-a-carpet solution
-description: 2271 maximum white tiles covered by a carpet LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2271 Maximum White Tiles Covered By A Carpet/problem-solving.webp
+    alt: 2271 Maximum White Tiles Covered By A Carpet
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

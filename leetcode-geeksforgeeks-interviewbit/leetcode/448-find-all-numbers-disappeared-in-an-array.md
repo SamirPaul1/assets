@@ -1,10 +1,16 @@
 ---
-title: 448 find all numbers disappeared in an array
-tags: leetcode
-categories: leetcode
+title: 448 Find All Numbers Disappeared In An Array
+summary: 448 Find All Numbers Disappeared In An Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/448-find-all-numbers-disappeared-in-an-array", "/blog/posts/448-find-all-numbers-disappeared-in-an-array", "/448-find-all-numbers-disappeared-in-an-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 448-find-all-numbers-disappeared-in-an-array solution
-description: 448 find all numbers disappeared in an array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:448 Find All Numbers Disappeared In An Array/problem-solving.webp
+    alt: 448 Find All Numbers Disappeared In An Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

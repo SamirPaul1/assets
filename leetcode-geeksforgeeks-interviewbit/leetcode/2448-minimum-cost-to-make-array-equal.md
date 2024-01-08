@@ -1,10 +1,16 @@
 ---
-title: 2448 minimum cost to make array equal
-tags: leetcode
-categories: leetcode
+title: 2448 Minimum Cost To Make Array Equal
+summary: 2448 Minimum Cost To Make Array Equal LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/2448-minimum-cost-to-make-array-equal", "/blog/posts/2448-minimum-cost-to-make-array-equal", "/2448-minimum-cost-to-make-array-equal"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 2448-minimum-cost-to-make-array-equal solution
-description: 2448 minimum cost to make array equal LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2448 Minimum Cost To Make Array Equal/problem-solving.webp
+    alt: 2448 Minimum Cost To Make Array Equal
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

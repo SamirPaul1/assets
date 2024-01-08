@@ -1,3 +1,18 @@
+---
+title: Sorted Array To Balanced Bst
+summary: Sorted Array To Balanced Bst - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sorted Array To Balanced Bst solution]
+aliases: ["/posts/sorted-array-to-balanced-bst", "/blog/posts/sorted-array-to-balanced-bst", "/sorted-array-to-balanced-bst"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sorted Array To Balanced Bst - Solution Explained/problem-solving.webp
+    alt: Sorted Array To Balanced Bst
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Sorted Array To Balanced Bst
 
 https://www.interviewbit.com/problems/sorted-array-to-balanced-bst

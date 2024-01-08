@@ -1,3 +1,18 @@
+---
+title: Maximum Rectangle
+summary: Maximum Rectangle - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Rectangle solution]
+aliases: ["/posts/maximum-rectangle", "/blog/posts/maximum-rectangle", "/maximum-rectangle"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Rectangle - Solution Explained/problem-solving.webp
+    alt: Maximum Rectangle
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Maximum Rectangle
 
 https://www.interviewbit.com/problems/maximum-rectangle

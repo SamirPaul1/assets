@@ -1,10 +1,16 @@
 ---
-title: remove invalid parentheses
-tags: leetcode
-categories: leetcode
+title: Remove Invalid Parentheses
+summary: Remove Invalid Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/remove-invalid-parentheses", "/blog/posts/remove-invalid-parentheses", "/remove-invalid-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, remove-invalid-parentheses solution
-description: remove invalid parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Invalid Parentheses/problem-solving.webp
+    alt: Remove Invalid Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

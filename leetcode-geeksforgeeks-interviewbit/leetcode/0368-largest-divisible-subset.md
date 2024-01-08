@@ -1,10 +1,16 @@
 ---
-title: 0368 largest divisible subset
-tags: leetcode
-categories: leetcode
+title: 0368 Largest Divisible Subset
+summary: 0368 Largest Divisible Subset LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0368-largest-divisible-subset", "/blog/posts/0368-largest-divisible-subset", "/0368-largest-divisible-subset"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0368-largest-divisible-subset solution
-description: 0368 largest divisible subset LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0368 Largest Divisible Subset/problem-solving.webp
+    alt: 0368 Largest Divisible Subset
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 1851 minimum interval to include each query
-tags: leetcode
-categories: leetcode
+title: 1851 Minimum Interval To Include Each Query
+summary: 1851 Minimum Interval To Include Each Query LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1851-minimum-interval-to-include-each-query", "/blog/posts/1851-minimum-interval-to-include-each-query", "/1851-minimum-interval-to-include-each-query"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1851-minimum-interval-to-include-each-query solution
-description: 1851 minimum interval to include each query LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1851 Minimum Interval To Include Each Query/problem-solving.webp
+    alt: 1851 Minimum Interval To Include Each Query
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,3 +1,18 @@
+---
+title: Assign Mice To Holes
+summary: Assign Mice To Holes - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Assign Mice To Holes solution]
+aliases: ["/posts/assign-mice-to-holes", "/blog/posts/assign-mice-to-holes", "/assign-mice-to-holes"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Assign Mice To Holes - Solution Explained/problem-solving.webp
+    alt: Assign Mice To Holes
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Assign Mice To Holes
 
 https://www.interviewbit.com/problems/assign-mice-to-holes

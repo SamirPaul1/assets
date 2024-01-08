@@ -1,3 +1,18 @@
+---
+title: Count Element Occurence
+summary: Count Element Occurence - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Count Element Occurence solution]
+aliases: ["/posts/count-element-occurence", "/blog/posts/count-element-occurence", "/count-element-occurence"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Element Occurence - Solution Explained/problem-solving.webp
+    alt: Count Element Occurence
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Count Element Occurence
 
 https://www.interviewbit.com/problems/count-element-occurence

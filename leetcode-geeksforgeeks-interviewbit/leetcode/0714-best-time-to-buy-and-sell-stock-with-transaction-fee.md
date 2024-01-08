@@ -1,10 +1,16 @@
 ---
-title: 0714 best time to buy and sell stock with transaction fee
-tags: leetcode
-categories: leetcode
+title: 0714 Best Time To Buy And Sell Stock With Transaction Fee
+summary: 0714 Best Time To Buy And Sell Stock With Transaction Fee LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0714-best-time-to-buy-and-sell-stock-with-transaction-fee", "/blog/posts/0714-best-time-to-buy-and-sell-stock-with-transaction-fee", "/0714-best-time-to-buy-and-sell-stock-with-transaction-fee"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0714-best-time-to-buy-and-sell-stock-with-transaction-fee solution
-description: 0714 best time to buy and sell stock with transaction fee LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0714 Best Time To Buy And Sell Stock With Transaction Fee/problem-solving.webp
+    alt: 0714 Best Time To Buy And Sell Stock With Transaction Fee
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

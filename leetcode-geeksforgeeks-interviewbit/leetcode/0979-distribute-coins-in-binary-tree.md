@@ -1,10 +1,16 @@
 ---
-title: 0979 distribute coins in binary tree
-tags: leetcode
-categories: leetcode
+title: 0979 Distribute Coins In Binary Tree
+summary: 0979 Distribute Coins In Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0979-distribute-coins-in-binary-tree", "/blog/posts/0979-distribute-coins-in-binary-tree", "/0979-distribute-coins-in-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0979-distribute-coins-in-binary-tree solution
-description: 0979 distribute coins in binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0979 Distribute Coins In Binary Tree/problem-solving.webp
+    alt: 0979 Distribute Coins In Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 148 sort list
-tags: leetcode
-categories: leetcode
+title: 148 Sort List
+summary: 148 Sort List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/148-sort-list", "/blog/posts/148-sort-list", "/148-sort-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 148-sort-list solution
-description: 148 sort list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:148 Sort List/problem-solving.webp
+    alt: 148 Sort List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

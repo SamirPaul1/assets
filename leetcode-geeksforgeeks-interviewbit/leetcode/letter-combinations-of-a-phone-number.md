@@ -1,10 +1,16 @@
 ---
-title: letter combinations of a phone number
-tags: leetcode
-categories: leetcode
+title: Letter Combinations Of A Phone Number
+summary: Letter Combinations Of A Phone Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/letter-combinations-of-a-phone-number", "/blog/posts/letter-combinations-of-a-phone-number", "/letter-combinations-of-a-phone-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, letter-combinations-of-a-phone-number solution
-description: letter combinations of a phone number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Letter Combinations Of A Phone Number/problem-solving.webp
+    alt: Letter Combinations Of A Phone Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

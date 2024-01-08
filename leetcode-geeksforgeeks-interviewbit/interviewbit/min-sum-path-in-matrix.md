@@ -1,3 +1,18 @@
+---
+title: Min Sum Path In Matrix
+summary: Min Sum Path In Matrix - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Min Sum Path In Matrix solution]
+aliases: ["/posts/min-sum-path-in-matrix", "/blog/posts/min-sum-path-in-matrix", "/min-sum-path-in-matrix"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Min Sum Path In Matrix - Solution Explained/problem-solving.webp
+    alt: Min Sum Path In Matrix
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Min Sum Path in Matrix
 
 https://www.interviewbit.com/problems/min-sum-path-in-matrix/

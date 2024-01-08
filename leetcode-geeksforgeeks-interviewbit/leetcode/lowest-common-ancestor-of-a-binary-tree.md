@@ -1,10 +1,16 @@
 ---
-title: lowest common ancestor of a binary tree
-tags: leetcode
-categories: leetcode
+title: Lowest Common Ancestor Of A Binary Tree
+summary: Lowest Common Ancestor Of A Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/lowest-common-ancestor-of-a-binary-tree", "/blog/posts/lowest-common-ancestor-of-a-binary-tree", "/lowest-common-ancestor-of-a-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, lowest-common-ancestor-of-a-binary-tree solution
-description: lowest common ancestor of a binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Lowest Common Ancestor Of A Binary Tree/problem-solving.webp
+    alt: Lowest Common Ancestor Of A Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

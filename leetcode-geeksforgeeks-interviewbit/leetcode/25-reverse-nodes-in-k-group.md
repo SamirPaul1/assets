@@ -1,10 +1,16 @@
 ---
-title: 25 reverse nodes in k group
-tags: leetcode
-categories: leetcode
+title: 25 Reverse Nodes In K Group
+summary: 25 Reverse Nodes In K Group LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/25-reverse-nodes-in-k-group", "/blog/posts/25-reverse-nodes-in-k-group", "/25-reverse-nodes-in-k-group"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 25-reverse-nodes-in-k-group solution
-description: 25 reverse nodes in k group LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:25 Reverse Nodes In K Group/problem-solving.webp
+    alt: 25 Reverse Nodes In K Group
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

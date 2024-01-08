@@ -1,10 +1,16 @@
 ---
-title: 0363 max sum of rectangle no larger than k
-tags: leetcode
-categories: leetcode
+title: 0363 Max Sum Of Rectangle No Larger Than K
+summary: 0363 Max Sum Of Rectangle No Larger Than K LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0363-max-sum-of-rectangle-no-larger-than-k", "/blog/posts/0363-max-sum-of-rectangle-no-larger-than-k", "/0363-max-sum-of-rectangle-no-larger-than-k"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0363-max-sum-of-rectangle-no-larger-than-k solution
-description: 0363 max sum of rectangle no larger than k LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0363 Max Sum Of Rectangle No Larger Than K/problem-solving.webp
+    alt: 0363 Max Sum Of Rectangle No Larger Than K
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

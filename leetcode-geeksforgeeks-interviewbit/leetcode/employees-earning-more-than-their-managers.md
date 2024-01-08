@@ -1,10 +1,16 @@
 ---
-title: employees earning more than their managers
-tags: leetcode
-categories: leetcode
+title: Employees Earning More Than Their Managers
+summary: Employees Earning More Than Their Managers LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/employees-earning-more-than-their-managers", "/blog/posts/employees-earning-more-than-their-managers", "/employees-earning-more-than-their-managers"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, employees-earning-more-than-their-managers solution
-description: employees earning more than their managers LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Employees Earning More Than Their Managers/problem-solving.webp
+    alt: Employees Earning More Than Their Managers
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

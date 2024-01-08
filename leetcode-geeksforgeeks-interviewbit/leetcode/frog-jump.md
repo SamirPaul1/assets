@@ -1,10 +1,16 @@
 ---
-title: frog jump
-tags: leetcode
-categories: leetcode
+title: Frog Jump
+summary: Frog Jump LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/frog-jump", "/blog/posts/frog-jump", "/frog-jump"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, frog-jump solution
-description: frog jump LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Frog Jump/problem-solving.webp
+    alt: Frog Jump
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 17 letter combinations of a phone number
-tags: leetcode
-categories: leetcode
+title: 17 Letter Combinations Of A Phone Number
+summary: 17 Letter Combinations Of A Phone Number LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/17-letter-combinations-of-a-phone-number", "/blog/posts/17-letter-combinations-of-a-phone-number", "/17-letter-combinations-of-a-phone-number"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 17-letter-combinations-of-a-phone-number solution
-description: 17 letter combinations of a phone number LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:17 Letter Combinations Of A Phone Number/problem-solving.webp
+    alt: 17 Letter Combinations Of A Phone Number
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

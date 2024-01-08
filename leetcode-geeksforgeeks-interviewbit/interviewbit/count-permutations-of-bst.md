@@ -1,3 +1,18 @@
+---
+title: Count Permutations Of Bst
+summary: Count Permutations Of Bst - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Count Permutations Of Bst solution]
+aliases: ["/posts/count-permutations-of-bst", "/blog/posts/count-permutations-of-bst", "/count-permutations-of-bst"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Permutations Of Bst - Solution Explained/problem-solving.webp
+    alt: Count Permutations Of Bst
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Count Permutations of BST
 
 https://www.interviewbit.com/problems/count-permutations-of-bst/

@@ -1,10 +1,16 @@
 ---
-title: largest rectangle in histogram
-tags: leetcode
-categories: leetcode
+title: Largest Rectangle In Histogram
+summary: Largest Rectangle In Histogram LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/largest-rectangle-in-histogram", "/blog/posts/largest-rectangle-in-histogram", "/largest-rectangle-in-histogram"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, largest-rectangle-in-histogram solution
-description: largest rectangle in histogram LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Rectangle In Histogram/problem-solving.webp
+    alt: Largest Rectangle In Histogram
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

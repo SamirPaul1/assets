@@ -1,3 +1,18 @@
+---
+title: Diffk
+summary: Diffk - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Diffk solution]
+aliases: ["/posts/diffk", "/blog/posts/diffk", "/diffk"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Diffk - Solution Explained/problem-solving.webp
+    alt: Diffk
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Diffk
 https://www.interviewbit.com/problems/diffk/
 

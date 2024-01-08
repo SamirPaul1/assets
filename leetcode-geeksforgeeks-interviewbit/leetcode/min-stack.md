@@ -1,10 +1,16 @@
 ---
-title: min stack
-tags: leetcode
-categories: leetcode
+title: Min Stack
+summary: Min Stack LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/min-stack", "/blog/posts/min-stack", "/min-stack"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, min-stack solution
-description: min stack LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Min Stack/problem-solving.webp
+    alt: Min Stack
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

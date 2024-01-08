@@ -1,10 +1,16 @@
 ---
-title: first missing positive
-tags: leetcode
-categories: leetcode
+title: First Missing Positive
+summary: First Missing Positive LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/first-missing-positive", "/blog/posts/first-missing-positive", "/first-missing-positive"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, first-missing-positive solution
-description: first missing positive LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:First Missing Positive/problem-solving.webp
+    alt: First Missing Positive
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

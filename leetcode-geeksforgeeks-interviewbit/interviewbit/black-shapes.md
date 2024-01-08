@@ -1,3 +1,18 @@
+---
+title: Black Shapes
+summary: Black Shapes - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Black Shapes solution]
+aliases: ["/posts/black-shapes", "/blog/posts/black-shapes", "/black-shapes"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Black Shapes - Solution Explained/problem-solving.webp
+    alt: Black Shapes
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Black Shapes
 
 https://www.interviewbit.com/problems/black-shapes/

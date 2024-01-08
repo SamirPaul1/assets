@@ -1,10 +1,16 @@
 ---
-title: 1114 print in order
-tags: leetcode
-categories: leetcode
+title: 1114 Print In Order
+summary: 1114 Print In Order LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1114-print-in-order", "/blog/posts/1114-print-in-order", "/1114-print-in-order"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1114-print-in-order solution
-description: 1114 print in order LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1114 Print In Order/problem-solving.webp
+    alt: 1114 Print In Order
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 0003 longest substring without repeating characters
-tags: leetcode
-categories: leetcode
+title: 0003 Longest Substring Without Repeating Characters
+summary: 0003 Longest Substring Without Repeating Characters LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0003-longest-substring-without-repeating-characters", "/blog/posts/0003-longest-substring-without-repeating-characters", "/0003-longest-substring-without-repeating-characters"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0003-longest-substring-without-repeating-characters solution
-description: 0003 longest substring without repeating characters LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0003 Longest Substring Without Repeating Characters/problem-solving.webp
+    alt: 0003 Longest Substring Without Repeating Characters
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

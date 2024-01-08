@@ -1,10 +1,16 @@
 ---
-title: 234 palindrome linked list
-tags: leetcode
-categories: leetcode
+title: 234 Palindrome Linked List
+summary: 234 Palindrome Linked List LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/234-palindrome-linked-list", "/blog/posts/234-palindrome-linked-list", "/234-palindrome-linked-list"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 234-palindrome-linked-list solution
-description: 234 palindrome linked list LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:234 Palindrome Linked List/problem-solving.webp
+    alt: 234 Palindrome Linked List
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

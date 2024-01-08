@@ -1,3 +1,18 @@
+---
+title: Remove Duplicates From Sorted Array Ii
+summary: Remove Duplicates From Sorted Array Ii - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Remove Duplicates From Sorted Array Ii solution]
+aliases: ["/posts/remove-duplicates-from-sorted-array-ii", "/blog/posts/remove-duplicates-from-sorted-array-ii", "/remove-duplicates-from-sorted-array-ii"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Duplicates From Sorted Array Ii - Solution Explained/problem-solving.webp
+    alt: Remove Duplicates From Sorted Array Ii
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Remove Duplicates From Sorted Array II
 
 https://www.interviewbit.com/problems/remove-duplicates-from-sorted-array-ii

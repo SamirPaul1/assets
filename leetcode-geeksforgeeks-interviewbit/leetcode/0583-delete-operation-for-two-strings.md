@@ -1,10 +1,16 @@
 ---
-title: 0583 delete operation for two strings
-tags: leetcode
-categories: leetcode
+title: 0583 Delete Operation For Two Strings
+summary: 0583 Delete Operation For Two Strings LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0583-delete-operation-for-two-strings", "/blog/posts/0583-delete-operation-for-two-strings", "/0583-delete-operation-for-two-strings"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0583-delete-operation-for-two-strings solution
-description: 0583 delete operation for two strings LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0583 Delete Operation For Two Strings/problem-solving.webp
+    alt: 0583 Delete Operation For Two Strings
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

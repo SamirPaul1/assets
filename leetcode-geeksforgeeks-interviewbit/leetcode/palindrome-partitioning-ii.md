@@ -1,10 +1,16 @@
 ---
-title: palindrome partitioning ii
-tags: leetcode
-categories: leetcode
+title: Palindrome Partitioning Ii
+summary: Palindrome Partitioning Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/palindrome-partitioning-ii", "/blog/posts/palindrome-partitioning-ii", "/palindrome-partitioning-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, palindrome-partitioning-ii solution
-description: palindrome partitioning ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindrome Partitioning Ii/problem-solving.webp
+    alt: Palindrome Partitioning Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

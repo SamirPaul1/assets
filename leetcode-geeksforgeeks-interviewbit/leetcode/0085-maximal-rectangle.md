@@ -1,10 +1,16 @@
 ---
-title: 0085 maximal rectangle
-tags: leetcode
-categories: leetcode
+title: 0085 Maximal Rectangle
+summary: 0085 Maximal Rectangle LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0085-maximal-rectangle", "/blog/posts/0085-maximal-rectangle", "/0085-maximal-rectangle"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0085-maximal-rectangle solution
-description: 0085 maximal rectangle LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0085 Maximal Rectangle/problem-solving.webp
+    alt: 0085 Maximal Rectangle
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

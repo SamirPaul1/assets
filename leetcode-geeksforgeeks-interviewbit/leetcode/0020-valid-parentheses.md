@@ -1,10 +1,16 @@
 ---
-title: 0020 valid parentheses
-tags: leetcode
-categories: leetcode
+title: 0020 Valid Parentheses
+summary: 0020 Valid Parentheses LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0020-valid-parentheses", "/blog/posts/0020-valid-parentheses", "/0020-valid-parentheses"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0020-valid-parentheses solution
-description: 0020 valid parentheses LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0020 Valid Parentheses/problem-solving.webp
+    alt: 0020 Valid Parentheses
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

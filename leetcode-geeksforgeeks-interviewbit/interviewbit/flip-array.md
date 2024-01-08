@@ -1,3 +1,18 @@
+---
+title: Flip Array
+summary: Flip Array - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Flip Array solution]
+aliases: ["/posts/flip-array", "/blog/posts/flip-array", "/flip-array"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Flip Array - Solution Explained/problem-solving.webp
+    alt: Flip Array
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Flip Array
 
 https://www.interviewbit.com/problems/flip-array/

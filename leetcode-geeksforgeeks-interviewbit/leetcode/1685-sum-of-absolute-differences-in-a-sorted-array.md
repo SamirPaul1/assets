@@ -1,10 +1,16 @@
 ---
-title: 1685 sum of absolute differences in a sorted array
-tags: leetcode
-categories: leetcode
+title: 1685 Sum Of Absolute Differences In A Sorted Array
+summary: 1685 Sum Of Absolute Differences In A Sorted Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1685-sum-of-absolute-differences-in-a-sorted-array", "/blog/posts/1685-sum-of-absolute-differences-in-a-sorted-array", "/1685-sum-of-absolute-differences-in-a-sorted-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1685-sum-of-absolute-differences-in-a-sorted-array solution
-description: 1685 sum of absolute differences in a sorted array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1685 Sum Of Absolute Differences In A Sorted Array/problem-solving.webp
+    alt: 1685 Sum Of Absolute Differences In A Sorted Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

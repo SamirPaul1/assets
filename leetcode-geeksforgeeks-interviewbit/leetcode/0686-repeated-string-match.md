@@ -1,10 +1,16 @@
 ---
-title: 0686 repeated string match
-tags: leetcode
-categories: leetcode
+title: 0686 Repeated String Match
+summary: 0686 Repeated String Match LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0686-repeated-string-match", "/blog/posts/0686-repeated-string-match", "/0686-repeated-string-match"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0686-repeated-string-match solution
-description: 0686 repeated string match LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0686 Repeated String Match/problem-solving.webp
+    alt: 0686 Repeated String Match
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

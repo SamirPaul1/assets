@@ -1,10 +1,16 @@
 ---
-title: 0443 string compression
-tags: leetcode
-categories: leetcode
+title: 0443 String Compression
+summary: 0443 String Compression LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0443-string-compression", "/blog/posts/0443-string-compression", "/0443-string-compression"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0443-string-compression solution
-description: 0443 string compression LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0443 String Compression/problem-solving.webp
+    alt: 0443 String Compression
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

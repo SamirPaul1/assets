@@ -1,10 +1,16 @@
 ---
-title: 40 combination sum ii
-tags: leetcode
-categories: leetcode
+title: 40 Combination Sum Ii
+summary: 40 Combination Sum Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/40-combination-sum-ii", "/blog/posts/40-combination-sum-ii", "/40-combination-sum-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 40-combination-sum-ii solution
-description: 40 combination sum ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:40 Combination Sum Ii/problem-solving.webp
+    alt: 40 Combination Sum Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

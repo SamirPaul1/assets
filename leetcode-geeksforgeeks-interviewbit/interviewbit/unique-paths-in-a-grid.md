@@ -1,3 +1,18 @@
+---
+title: Unique Paths In A Grid
+summary: Unique Paths In A Grid - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Unique Paths In A Grid solution]
+aliases: ["/posts/unique-paths-in-a-grid", "/blog/posts/unique-paths-in-a-grid", "/unique-paths-in-a-grid"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Unique Paths In A Grid - Solution Explained/problem-solving.webp
+    alt: Unique Paths In A Grid
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Unique Paths in a Grid
 
 https://www.interviewbit.com/problems/unique-paths-in-a-grid/

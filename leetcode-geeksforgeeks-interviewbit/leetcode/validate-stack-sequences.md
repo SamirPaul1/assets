@@ -1,10 +1,16 @@
 ---
-title: validate stack sequences
-tags: leetcode
-categories: leetcode
+title: Validate Stack Sequences
+summary: Validate Stack Sequences LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/validate-stack-sequences", "/blog/posts/validate-stack-sequences", "/validate-stack-sequences"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, validate-stack-sequences solution
-description: validate stack sequences LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Validate Stack Sequences/problem-solving.webp
+    alt: Validate Stack Sequences
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

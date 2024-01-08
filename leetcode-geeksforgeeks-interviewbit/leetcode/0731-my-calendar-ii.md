@@ -1,10 +1,16 @@
 ---
-title: 0731 my calendar ii
-tags: leetcode
-categories: leetcode
+title: 0731 My Calendar Ii
+summary: 0731 My Calendar Ii LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0731-my-calendar-ii", "/blog/posts/0731-my-calendar-ii", "/0731-my-calendar-ii"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0731-my-calendar-ii solution
-description: 0731 my calendar ii LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0731 My Calendar Ii/problem-solving.webp
+    alt: 0731 My Calendar Ii
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

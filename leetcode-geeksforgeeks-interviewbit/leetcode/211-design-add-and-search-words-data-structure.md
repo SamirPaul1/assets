@@ -1,10 +1,16 @@
 ---
-title: 211 design add and search words data structure
-tags: leetcode
-categories: leetcode
+title: 211 Design Add And Search Words Data Structure
+summary: 211 Design Add And Search Words Data Structure LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/211-design-add-and-search-words-data-structure", "/blog/posts/211-design-add-and-search-words-data-structure", "/211-design-add-and-search-words-data-structure"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 211-design-add-and-search-words-data-structure solution
-description: 211 design add and search words data structure LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:211 Design Add And Search Words Data Structure/problem-solving.webp
+    alt: 211 Design Add And Search Words Data Structure
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

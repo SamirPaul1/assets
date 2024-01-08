@@ -1,10 +1,16 @@
 ---
-title: 0053 maximum subarray
-tags: leetcode
-categories: leetcode
+title: 0053 Maximum Subarray
+summary: 0053 Maximum Subarray LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0053-maximum-subarray", "/blog/posts/0053-maximum-subarray", "/0053-maximum-subarray"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0053-maximum-subarray solution
-description: 0053 maximum subarray LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0053 Maximum Subarray/problem-solving.webp
+    alt: 0053 Maximum Subarray
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

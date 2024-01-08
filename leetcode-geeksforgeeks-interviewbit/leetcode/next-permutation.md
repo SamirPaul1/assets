@@ -1,10 +1,16 @@
 ---
-title: next permutation
-tags: leetcode
-categories: leetcode
+title: Next Permutation
+summary: Next Permutation LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/next-permutation", "/blog/posts/next-permutation", "/next-permutation"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, next-permutation solution
-description: next permutation LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Next Permutation/problem-solving.webp
+    alt: Next Permutation
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

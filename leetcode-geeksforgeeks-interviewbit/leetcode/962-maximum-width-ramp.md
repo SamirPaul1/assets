@@ -1,10 +1,16 @@
 ---
-title: 962 maximum width ramp
-tags: leetcode
-categories: leetcode
+title: 962 Maximum Width Ramp
+summary: 962 Maximum Width Ramp LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/962-maximum-width-ramp", "/blog/posts/962-maximum-width-ramp", "/962-maximum-width-ramp"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 962-maximum-width-ramp solution
-description: 962 maximum width ramp LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:962 Maximum Width Ramp/problem-solving.webp
+    alt: 962 Maximum Width Ramp
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

@@ -1,10 +1,16 @@
 ---
-title: 66 plus one
-tags: leetcode
-categories: leetcode
+title: 66 Plus One
+summary: 66 Plus One LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/66-plus-one", "/blog/posts/66-plus-one", "/66-plus-one"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 66-plus-one solution
-description: 66 plus one LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:66 Plus One/problem-solving.webp
+    alt: 66 Plus One
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

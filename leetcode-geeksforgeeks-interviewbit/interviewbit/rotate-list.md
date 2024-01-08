@@ -1,3 +1,18 @@
+---
+title: Rotate List
+summary: Rotate List - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rotate List solution]
+aliases: ["/posts/rotate-list", "/blog/posts/rotate-list", "/rotate-list"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotate List - Solution Explained/problem-solving.webp
+    alt: Rotate List
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Rotate List
 
 https://www.interviewbit.com/problems/rotate-list

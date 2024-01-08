@@ -1,10 +1,16 @@
 ---
-title: 1480 running sum of 1d array
-tags: leetcode
-categories: leetcode
+title: 1480 Running Sum Of 1D Array
+summary: 1480 Running Sum Of 1D Array LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/1480-running-sum-of-1d-array", "/blog/posts/1480-running-sum-of-1d-array", "/1480-running-sum-of-1d-array"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 1480-running-sum-of-1d-array solution
-description: 1480 running sum of 1d array LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1480 Running Sum Of 1D Array/problem-solving.webp
+    alt: 1480 Running Sum Of 1D Array
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

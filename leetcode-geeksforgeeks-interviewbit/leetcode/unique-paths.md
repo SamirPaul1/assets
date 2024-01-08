@@ -1,10 +1,16 @@
 ---
-title: unique paths
-tags: leetcode
-categories: leetcode
+title: Unique Paths
+summary: Unique Paths LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/unique-paths", "/blog/posts/unique-paths", "/unique-paths"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, unique-paths solution
-description: unique paths LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Unique Paths/problem-solving.webp
+    alt: Unique Paths
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

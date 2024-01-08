@@ -1,10 +1,16 @@
 ---
-title: 973 k closest points to origin
-tags: leetcode
-categories: leetcode
+title: 973 K Closest Points To Origin
+summary: 973 K Closest Points To Origin LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/973-k-closest-points-to-origin", "/blog/posts/973-k-closest-points-to-origin", "/973-k-closest-points-to-origin"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 973-k-closest-points-to-origin solution
-description: 973 k closest points to origin LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:973 K Closest Points To Origin/problem-solving.webp
+    alt: 973 K Closest Points To Origin
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

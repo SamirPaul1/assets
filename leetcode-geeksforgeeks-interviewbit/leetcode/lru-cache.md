@@ -1,10 +1,16 @@
 ---
-title: lru cache
-tags: leetcode
-categories: leetcode
+title: Lru Cache
+summary: Lru Cache LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/lru-cache", "/blog/posts/lru-cache", "/lru-cache"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, lru-cache solution
-description: lru cache LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Lru Cache/problem-solving.webp
+    alt: Lru Cache
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

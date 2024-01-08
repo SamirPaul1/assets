@@ -1,3 +1,18 @@
+---
+title: Check Whether The Graph Is Bipartide Or Not
+summary: Check Whether The Graph Is Bipartide Or Not - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Check Whether The Graph Is Bipartide Or Not solution]
+aliases: ["/posts/check-whether-the-graph-is-bipartide-or-not", "/blog/posts/check-whether-the-graph-is-bipartide-or-not", "/check-whether-the-graph-is-bipartide-or-not"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Check Whether The Graph Is Bipartide Or Not - Solution Explained/problem-solving.webp
+    alt: Check Whether The Graph Is Bipartide Or Not
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Check whether the graph is bipartide or not
 
 https://www.interviewbit.com/problems/check-whether-the-graph-is-bipartide-or-not/

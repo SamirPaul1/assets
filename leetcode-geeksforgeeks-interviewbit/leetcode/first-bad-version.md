@@ -1,10 +1,16 @@
 ---
-title: first bad version
-tags: leetcode
-categories: leetcode
+title: First Bad Version
+summary: First Bad Version LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/first-bad-version", "/blog/posts/first-bad-version", "/first-bad-version"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, first-bad-version solution
-description: first bad version LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:First Bad Version/problem-solving.webp
+    alt: First Bad Version
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

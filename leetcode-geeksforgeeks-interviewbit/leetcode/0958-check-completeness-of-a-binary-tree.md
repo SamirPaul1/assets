@@ -1,10 +1,16 @@
 ---
-title: 0958 check completeness of a binary tree
-tags: leetcode
-categories: leetcode
+title: 0958 Check Completeness Of A Binary Tree
+summary: 0958 Check Completeness Of A Binary Tree LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0958-check-completeness-of-a-binary-tree", "/blog/posts/0958-check-completeness-of-a-binary-tree", "/0958-check-completeness-of-a-binary-tree"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0958-check-completeness-of-a-binary-tree solution
-description: 0958 check completeness of a binary tree LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0958 Check Completeness Of A Binary Tree/problem-solving.webp
+    alt: 0958 Check Completeness Of A Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

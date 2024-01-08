@@ -1,10 +1,16 @@
 ---
-title: 535 encode and decode tinyurl
-tags: leetcode
-categories: leetcode
+title: 535 Encode And Decode Tinyurl
+summary: 535 Encode And Decode Tinyurl LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/535-encode-and-decode-tinyurl", "/blog/posts/535-encode-and-decode-tinyurl", "/535-encode-and-decode-tinyurl"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 535-encode-and-decode-tinyurl solution
-description: 535 encode and decode tinyurl LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:535 Encode And Decode Tinyurl/problem-solving.webp
+    alt: 535 Encode And Decode Tinyurl
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

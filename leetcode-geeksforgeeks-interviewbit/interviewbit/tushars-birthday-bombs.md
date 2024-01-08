@@ -1,3 +1,18 @@
+---
+title: Tushars Birthday Bombs
+summary: Tushars Birthday Bombs - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Tushars Birthday Bombs solution]
+aliases: ["/posts/tushars-birthday-bombs", "/blog/posts/tushars-birthday-bombs", "/tushars-birthday-bombs"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Tushars Birthday Bombs - Solution Explained/problem-solving.webp
+    alt: Tushars Birthday Bombs
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Tushar's Birthday Bombs
 
 https://www.interviewbit.com/problems/tushars-birthday-bombs/

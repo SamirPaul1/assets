@@ -1,10 +1,16 @@
 ---
-title: 0441 arranging coins
-tags: leetcode
-categories: leetcode
+title: 0441 Arranging Coins
+summary: 0441 Arranging Coins LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/0441-arranging-coins", "/blog/posts/0441-arranging-coins", "/0441-arranging-coins"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, 0441-arranging-coins solution
-description: 0441 arranging coins LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0441 Arranging Coins/problem-solving.webp
+    alt: 0441 Arranging Coins
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

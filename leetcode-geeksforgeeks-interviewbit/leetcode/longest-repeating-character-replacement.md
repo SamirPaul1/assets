@@ -1,10 +1,16 @@
 ---
-title: longest repeating character replacement
-tags: leetcode
-categories: leetcode
+title: Longest Repeating Character Replacement
+summary: Longest Repeating Character Replacement LeetCode Solution Explained
+date: 2020-06-20
+tags: [leetcode]
+series: [leetcode]
+aliases: ["/posts/longest-repeating-character-replacement", "/blog/posts/longest-repeating-character-replacement", "/longest-repeating-character-replacement"]
 keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-repeating-character-replacement solution
-description: longest repeating character replacement LeetCode Solution Explained
-cover: /assets/img/leetcode-cover-img.webp
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Repeating Character Replacement/problem-solving.webp
+    alt: Longest Repeating Character Replacement
+    hiddenInList: true
+    hiddenInSingle: false
 ---
 
 

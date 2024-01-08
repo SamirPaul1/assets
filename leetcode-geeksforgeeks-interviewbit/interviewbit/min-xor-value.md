@@ -1,3 +1,18 @@
+---
+title: Min Xor Value
+summary: Min Xor Value - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Min Xor Value solution]
+aliases: ["/posts/min-xor-value", "/blog/posts/min-xor-value", "/min-xor-value"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Min Xor Value - Solution Explained/problem-solving.webp
+    alt: Min Xor Value
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Min Xor Value
 
 https://www.interviewbit.com/problems/min-xor-value

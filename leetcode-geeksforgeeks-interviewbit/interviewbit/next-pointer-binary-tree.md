@@ -1,3 +1,18 @@
+---
+title: Next Pointer Binary Tree
+summary: Next Pointer Binary Tree - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Next Pointer Binary Tree solution]
+aliases: ["/posts/next-pointer-binary-tree", "/blog/posts/next-pointer-binary-tree", "/next-pointer-binary-tree"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Next Pointer Binary Tree - Solution Explained/problem-solving.webp
+    alt: Next Pointer Binary Tree
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Next Pointer Binary Tree
 
 https://www.interviewbit.com/problems/next-pointer-binary-tree/

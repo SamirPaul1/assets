@@ -1,3 +1,18 @@
+---
+title: Reverse Link List Ii
+summary: Reverse Link List Ii - Interviewbit Solution Explained
+date: 2020-06-20
+tags: [interviewbit]
+series: [interviewbit]
+keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Reverse Link List Ii solution]
+aliases: ["/posts/reverse-link-list-ii", "/blog/posts/reverse-link-list-ii", "/reverse-link-list-ii"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse Link List Ii - Solution Explained/problem-solving.webp
+    alt: Reverse Link List Ii
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
 # Reverse Linked List II
 
 https://www.interviewbit.com/problems/reverse-linked-list-ii

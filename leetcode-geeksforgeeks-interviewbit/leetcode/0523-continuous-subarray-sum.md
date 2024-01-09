@@ -4,10 +4,9 @@ summary: 0523 Continuous Subarray Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0523-continuous-subarray-sum", "/blog/posts/0523-continuous-subarray-sum", "/0523-continuous-subarray-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0523-continuous-subarray-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0523-continuous-subarray-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0523 Continuous Subarray Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0523 Continuous Subarray Sum - Solution Explained/problem-solving.webp
     alt: 0523 Continuous Subarray Sum
     hiddenInList: true
     hiddenInSingle: false

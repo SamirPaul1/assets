@@ -4,10 +4,9 @@ summary: 155 Min Stack LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/155-min-stack", "/blog/posts/155-min-stack", "/155-min-stack"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 155-min-stack solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "155-min-stack LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:155 Min Stack/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:155 Min Stack - Solution Explained/problem-solving.webp
     alt: 155 Min Stack
     hiddenInList: true
     hiddenInSingle: false

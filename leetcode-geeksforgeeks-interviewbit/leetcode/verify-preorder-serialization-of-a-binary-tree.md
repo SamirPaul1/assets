@@ -4,10 +4,9 @@ summary: Verify Preorder Serialization Of A Binary Tree LeetCode Solution Explai
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/verify-preorder-serialization-of-a-binary-tree", "/blog/posts/verify-preorder-serialization-of-a-binary-tree", "/verify-preorder-serialization-of-a-binary-tree"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, verify-preorder-serialization-of-a-binary-tree solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "verify-preorder-serialization-of-a-binary-tree LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Verify Preorder Serialization Of A Binary Tree/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Verify Preorder Serialization Of A Binary Tree - Solution Explained/problem-solving.webp
     alt: Verify Preorder Serialization Of A Binary Tree
     hiddenInList: true
     hiddenInSingle: false

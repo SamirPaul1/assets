@@ -4,10 +4,9 @@ summary: 258 Add Digits LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/258-add-digits", "/blog/posts/258-add-digits", "/258-add-digits"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 258-add-digits solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "258-add-digits LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:258 Add Digits/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:258 Add Digits - Solution Explained/problem-solving.webp
     alt: 258 Add Digits
     hiddenInList: true
     hiddenInSingle: false

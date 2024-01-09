@@ -4,10 +4,9 @@ summary: 0357 Count Numbers With Unique Digits LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0357-count-numbers-with-unique-digits", "/blog/posts/0357-count-numbers-with-unique-digits", "/0357-count-numbers-with-unique-digits"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0357-count-numbers-with-unique-digits solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0357-count-numbers-with-unique-digits LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0357 Count Numbers With Unique Digits/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0357 Count Numbers With Unique Digits - Solution Explained/problem-solving.webp
     alt: 0357 Count Numbers With Unique Digits
     hiddenInList: true
     hiddenInSingle: false

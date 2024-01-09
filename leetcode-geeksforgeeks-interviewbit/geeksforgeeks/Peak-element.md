@@ -4,10 +4,9 @@ summary: Peak Element - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Peak-element", "/blog/posts/Peak-element", "/Peak-element", "/blog/Peak-element",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Peak Element solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Peak Element Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Peak Element - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Peak Element - Solution Explained/problem-solving.webp
     alt: Peak Element
     hiddenInList: true
     hiddenInSingle: false

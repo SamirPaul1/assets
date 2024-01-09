@@ -4,10 +4,9 @@ summary: 907 Sum Of Subarray Minimums LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/907-sum-of-subarray-minimums", "/blog/posts/907-sum-of-subarray-minimums", "/907-sum-of-subarray-minimums"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 907-sum-of-subarray-minimums solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "907-sum-of-subarray-minimums LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:907 Sum Of Subarray Minimums/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:907 Sum Of Subarray Minimums - Solution Explained/problem-solving.webp
     alt: 907 Sum Of Subarray Minimums
     hiddenInList: true
     hiddenInSingle: false

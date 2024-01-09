@@ -4,10 +4,9 @@ summary: Search In Linked List - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Search-in-Linked-List", "/blog/posts/Search-in-Linked-List", "/Search-in-Linked-List", "/blog/Search-in-Linked-List",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Search In Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Search In Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Search In Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Search In Linked List - Solution Explained/problem-solving.webp
     alt: Search In Linked List
     hiddenInList: true
     hiddenInSingle: false

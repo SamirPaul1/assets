@@ -4,10 +4,9 @@ summary: Delete Without Head Pointer - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Delete-without-head-pointer", "/blog/posts/Delete-without-head-pointer", "/Delete-without-head-pointer", "/blog/Delete-without-head-pointer",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Delete Without Head Pointer solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Delete Without Head Pointer Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Delete Without Head Pointer - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Delete Without Head Pointer - Solution Explained/problem-solving.webp
     alt: Delete Without Head Pointer
     hiddenInList: true
     hiddenInSingle: false

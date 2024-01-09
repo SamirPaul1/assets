@@ -4,10 +4,9 @@ summary: 34 Find First And Last Position Of Element In Sorted Array LeetCode Sol
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/34-find-first-and-last-position-of-element-in-sorted-array", "/blog/posts/34-find-first-and-last-position-of-element-in-sorted-array", "/34-find-first-and-last-position-of-element-in-sorted-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 34-find-first-and-last-position-of-element-in-sorted-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "34-find-first-and-last-position-of-element-in-sorted-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:34 Find First And Last Position Of Element In Sorted Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:34 Find First And Last Position Of Element In Sorted Array - Solution Explained/problem-solving.webp
     alt: 34 Find First And Last Position Of Element In Sorted Array
     hiddenInList: true
     hiddenInSingle: false

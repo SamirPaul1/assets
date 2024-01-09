@@ -4,10 +4,9 @@ summary: 2492 Minimum Score Of A Path Between Two Cities LeetCode Solution Expla
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2492-minimum-score-of-a-path-between-two-cities", "/blog/posts/2492-minimum-score-of-a-path-between-two-cities", "/2492-minimum-score-of-a-path-between-two-cities"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2492-minimum-score-of-a-path-between-two-cities solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2492-minimum-score-of-a-path-between-two-cities LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2492 Minimum Score Of A Path Between Two Cities/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2492 Minimum Score Of A Path Between Two Cities - Solution Explained/problem-solving.webp
     alt: 2492 Minimum Score Of A Path Between Two Cities
     hiddenInList: true
     hiddenInSingle: false

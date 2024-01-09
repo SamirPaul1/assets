@@ -4,10 +4,9 @@ summary: 2477 Minimum Fuel Cost To Report To The Capital LeetCode Solution Expla
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2477-minimum-fuel-cost-to-report-to-the-capital", "/blog/posts/2477-minimum-fuel-cost-to-report-to-the-capital", "/2477-minimum-fuel-cost-to-report-to-the-capital"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2477-minimum-fuel-cost-to-report-to-the-capital solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2477-minimum-fuel-cost-to-report-to-the-capital LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2477 Minimum Fuel Cost To Report To The Capital/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2477 Minimum Fuel Cost To Report To The Capital - Solution Explained/problem-solving.webp
     alt: 2477 Minimum Fuel Cost To Report To The Capital
     hiddenInList: true
     hiddenInSingle: false

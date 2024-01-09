@@ -4,10 +4,9 @@ summary: Rain Water Trapped - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rain Water Trapped solution]
-aliases: ["/posts/rain-water-trapped", "/blog/posts/rain-water-trapped", "/rain-water-trapped"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Rain Water Trapped Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rain Water Trapped - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rain Water Trapped - Solution Explained/problem-solving.webp
     alt: Rain Water Trapped
     hiddenInList: true
     hiddenInSingle: false

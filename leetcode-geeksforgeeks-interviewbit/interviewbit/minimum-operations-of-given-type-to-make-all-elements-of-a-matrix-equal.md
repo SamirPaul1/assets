@@ -4,10 +4,9 @@ summary: Minimum Operations Of Given Type To Make All Elements Of A Matrix Equal
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimum Operations Of Given Type To Make All Elements Of A Matrix Equal solution]
-aliases: ["/posts/minimum-operations-of-given-type-to-make-all-elements-of-a-matrix-equal", "/blog/posts/minimum-operations-of-given-type-to-make-all-elements-of-a-matrix-equal", "/minimum-operations-of-given-type-to-make-all-elements-of-a-matrix-equal"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Minimum Operations Of Given Type To Make All Elements Of A Matrix Equal Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Operations Of Given Type To Make All Elements Of A Matrix Equal - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Operations Of Given Type To Make All Elements Of A Matrix Equal - Solution Explained/problem-solving.webp
     alt: Minimum Operations Of Given Type To Make All Elements Of A Matrix Equal
     hiddenInList: true
     hiddenInSingle: false

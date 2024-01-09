@@ -4,10 +4,9 @@ summary: Find If There Is A Sub Array With 0 Sum - Interviewbit Solution Explain
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Find If There Is A Sub Array With 0 Sum solution]
-aliases: ["/posts/find-if-there-is-a-sub-array-with-0-sum", "/blog/posts/find-if-there-is-a-sub-array-with-0-sum", "/find-if-there-is-a-sub-array-with-0-sum"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Find If There Is A Sub Array With 0 Sum Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find If There Is A Sub Array With 0 Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find If There Is A Sub Array With 0 Sum - Solution Explained/problem-solving.webp
     alt: Find If There Is A Sub Array With 0 Sum
     hiddenInList: true
     hiddenInSingle: false

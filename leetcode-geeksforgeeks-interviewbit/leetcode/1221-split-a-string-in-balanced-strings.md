@@ -4,10 +4,9 @@ summary: 1221 Split A String In Balanced Strings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1221-split-a-string-in-balanced-strings", "/blog/posts/1221-split-a-string-in-balanced-strings", "/1221-split-a-string-in-balanced-strings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1221-split-a-string-in-balanced-strings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1221-split-a-string-in-balanced-strings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1221 Split A String In Balanced Strings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1221 Split A String In Balanced Strings - Solution Explained/problem-solving.webp
     alt: 1221 Split A String In Balanced Strings
     hiddenInList: true
     hiddenInSingle: false

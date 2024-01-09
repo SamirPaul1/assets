@@ -4,10 +4,9 @@ summary: 1873 Calculate Special Bonus LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1873-calculate-special-bonus", "/blog/posts/1873-calculate-special-bonus", "/1873-calculate-special-bonus"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1873-calculate-special-bonus solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1873-calculate-special-bonus LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1873 Calculate Special Bonus/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1873 Calculate Special Bonus - Solution Explained/problem-solving.webp
     alt: 1873 Calculate Special Bonus
     hiddenInList: true
     hiddenInSingle: false

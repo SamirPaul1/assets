@@ -4,10 +4,9 @@ summary: Regular Expression Matching LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/regular-expression-matching", "/blog/posts/regular-expression-matching", "/regular-expression-matching"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, regular-expression-matching solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "regular-expression-matching LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Regular Expression Matching/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Regular Expression Matching - Solution Explained/problem-solving.webp
     alt: Regular Expression Matching
     hiddenInList: true
     hiddenInSingle: false

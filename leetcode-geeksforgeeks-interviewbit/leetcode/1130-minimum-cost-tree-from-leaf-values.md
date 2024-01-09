@@ -4,10 +4,9 @@ summary: 1130 Minimum Cost Tree From Leaf Values LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1130-minimum-cost-tree-from-leaf-values", "/blog/posts/1130-minimum-cost-tree-from-leaf-values", "/1130-minimum-cost-tree-from-leaf-values"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1130-minimum-cost-tree-from-leaf-values solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1130-minimum-cost-tree-from-leaf-values LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1130 Minimum Cost Tree From Leaf Values/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1130 Minimum Cost Tree From Leaf Values - Solution Explained/problem-solving.webp
     alt: 1130 Minimum Cost Tree From Leaf Values
     hiddenInList: true
     hiddenInSingle: false

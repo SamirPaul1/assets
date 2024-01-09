@@ -4,10 +4,9 @@ summary: 0475 Heaters LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0475-heaters", "/blog/posts/0475-heaters", "/0475-heaters"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0475-heaters solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0475-heaters LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0475 Heaters/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0475 Heaters - Solution Explained/problem-solving.webp
     alt: 0475 Heaters
     hiddenInList: true
     hiddenInSingle: false

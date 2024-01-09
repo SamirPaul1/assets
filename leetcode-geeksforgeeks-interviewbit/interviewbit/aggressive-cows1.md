@@ -4,10 +4,9 @@ summary: Aggressive Cows1 - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Aggressive Cows1 solution]
-aliases: ["/posts/aggressive-cows1", "/blog/posts/aggressive-cows1", "/aggressive-cows1"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Aggressive Cows1 Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Aggressive Cows1 - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Aggressive Cows1 - Solution Explained/problem-solving.webp
     alt: Aggressive Cows1
     hiddenInList: true
     hiddenInSingle: false

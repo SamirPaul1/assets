@@ -4,10 +4,9 @@ summary: Complete Binary Tree - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Complete-Binary-Tree", "/blog/posts/Complete-Binary-Tree", "/Complete-Binary-Tree", "/blog/Complete-Binary-Tree",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Complete Binary Tree solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Complete Binary Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Complete Binary Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Complete Binary Tree - Solution Explained/problem-solving.webp
     alt: Complete Binary Tree
     hiddenInList: true
     hiddenInSingle: false

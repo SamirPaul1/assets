@@ -4,10 +4,9 @@ summary: Find The Frequency - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Find-the-Frequency", "/blog/posts/Find-the-Frequency", "/Find-the-Frequency", "/blog/Find-the-Frequency",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Find The Frequency solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Find The Frequency Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find The Frequency - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find The Frequency - Solution Explained/problem-solving.webp
     alt: Find The Frequency
     hiddenInList: true
     hiddenInSingle: false

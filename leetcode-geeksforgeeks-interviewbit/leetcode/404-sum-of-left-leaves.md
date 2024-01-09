@@ -4,10 +4,9 @@ summary: 404 Sum Of Left Leaves LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/404-sum-of-left-leaves", "/blog/posts/404-sum-of-left-leaves", "/404-sum-of-left-leaves"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 404-sum-of-left-leaves solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "404-sum-of-left-leaves LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:404 Sum Of Left Leaves/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:404 Sum Of Left Leaves - Solution Explained/problem-solving.webp
     alt: 404 Sum Of Left Leaves
     hiddenInList: true
     hiddenInSingle: false

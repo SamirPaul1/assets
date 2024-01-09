@@ -4,10 +4,9 @@ summary: Valid Phone Number - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Valid Phone Number solution]
-aliases: ["/posts/valid-phone-number", "/blog/posts/valid-phone-number", "/valid-phone-number"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Valid Phone Number Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Valid Phone Number - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Valid Phone Number - Solution Explained/problem-solving.webp
     alt: Valid Phone Number
     hiddenInList: true
     hiddenInSingle: false

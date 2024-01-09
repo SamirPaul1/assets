@@ -4,10 +4,9 @@ summary: 1813 Maximum Erasure Value LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1813-maximum-erasure-value", "/blog/posts/1813-maximum-erasure-value", "/1813-maximum-erasure-value"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1813-maximum-erasure-value solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1813-maximum-erasure-value LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1813 Maximum Erasure Value/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1813 Maximum Erasure Value - Solution Explained/problem-solving.webp
     alt: 1813 Maximum Erasure Value
     hiddenInList: true
     hiddenInSingle: false

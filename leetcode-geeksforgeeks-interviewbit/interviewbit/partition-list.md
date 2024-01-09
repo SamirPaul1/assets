@@ -4,10 +4,9 @@ summary: Partition List - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Partition List solution]
-aliases: ["/posts/partition-list", "/blog/posts/partition-list", "/partition-list"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Partition List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Partition List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Partition List - Solution Explained/problem-solving.webp
     alt: Partition List
     hiddenInList: true
     hiddenInSingle: false

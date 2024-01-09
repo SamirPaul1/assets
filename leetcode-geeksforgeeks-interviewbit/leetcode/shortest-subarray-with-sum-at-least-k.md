@@ -4,10 +4,9 @@ summary: Shortest Subarray With Sum At Least K LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/shortest-subarray-with-sum-at-least-k", "/blog/posts/shortest-subarray-with-sum-at-least-k", "/shortest-subarray-with-sum-at-least-k"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, shortest-subarray-with-sum-at-least-k solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "shortest-subarray-with-sum-at-least-k LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Subarray With Sum At Least K/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Shortest Subarray With Sum At Least K - Solution Explained/problem-solving.webp
     alt: Shortest Subarray With Sum At Least K
     hiddenInList: true
     hiddenInSingle: false

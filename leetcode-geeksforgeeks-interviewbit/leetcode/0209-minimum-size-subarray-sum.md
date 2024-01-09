@@ -4,10 +4,9 @@ summary: 0209 Minimum Size Subarray Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0209-minimum-size-subarray-sum", "/blog/posts/0209-minimum-size-subarray-sum", "/0209-minimum-size-subarray-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0209-minimum-size-subarray-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0209-minimum-size-subarray-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0209 Minimum Size Subarray Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0209 Minimum Size Subarray Sum - Solution Explained/problem-solving.webp
     alt: 0209 Minimum Size Subarray Sum
     hiddenInList: true
     hiddenInSingle: false

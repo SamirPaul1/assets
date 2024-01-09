@@ -4,10 +4,9 @@ summary: Remove Duplicate Element From Sorted Linked List - GeeksforGeeks Soluti
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Remove-duplicate-element-from-sorted-Linked-List", "/blog/posts/Remove-duplicate-element-from-sorted-Linked-List", "/Remove-duplicate-element-from-sorted-Linked-List", "/blog/Remove-duplicate-element-from-sorted-Linked-List",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Remove Duplicate Element From Sorted Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Remove Duplicate Element From Sorted Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Duplicate Element From Sorted Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove Duplicate Element From Sorted Linked List - Solution Explained/problem-solving.webp
     alt: Remove Duplicate Element From Sorted Linked List
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 0197 Rising Temperature LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0197-rising-temperature", "/blog/posts/0197-rising-temperature", "/0197-rising-temperature"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0197-rising-temperature solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0197-rising-temperature LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0197 Rising Temperature/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0197 Rising Temperature - Solution Explained/problem-solving.webp
     alt: 0197 Rising Temperature
     hiddenInList: true
     hiddenInSingle: false

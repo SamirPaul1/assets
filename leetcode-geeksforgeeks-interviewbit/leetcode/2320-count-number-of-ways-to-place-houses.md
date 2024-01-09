@@ -4,10 +4,9 @@ summary: 2320 Count Number Of Ways To Place Houses LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2320-count-number-of-ways-to-place-houses", "/blog/posts/2320-count-number-of-ways-to-place-houses", "/2320-count-number-of-ways-to-place-houses"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2320-count-number-of-ways-to-place-houses solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2320-count-number-of-ways-to-place-houses LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2320 Count Number Of Ways To Place Houses/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2320 Count Number Of Ways To Place Houses - Solution Explained/problem-solving.webp
     alt: 2320 Count Number Of Ways To Place Houses
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Remove Element From Array - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Remove Element From Array solution]
-aliases: ["/posts/remove-element-from-array", "/blog/posts/remove-element-from-array", "/remove-element-from-array"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Remove Element From Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Element From Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove Element From Array - Solution Explained/problem-solving.webp
     alt: Remove Element From Array
     hiddenInList: true
     hiddenInSingle: false

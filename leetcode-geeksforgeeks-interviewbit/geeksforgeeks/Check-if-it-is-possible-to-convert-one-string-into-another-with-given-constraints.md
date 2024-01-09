@@ -4,10 +4,9 @@ summary: Check If It Is Possible To Convert One String Into Another With Given C
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints", "/blog/posts/Check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints", "/Check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints", "/blog/Check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Check If It Is Possible To Convert One String Into Another With Given Constraints solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Check If It Is Possible To Convert One String Into Another With Given Constraints Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Check If It Is Possible To Convert One String Into Another With Given Constraints - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Check If It Is Possible To Convert One String Into Another With Given Constraints - Solution Explained/problem-solving.webp
     alt: Check If It Is Possible To Convert One String Into Another With Given Constraints
     hiddenInList: true
     hiddenInSingle: false

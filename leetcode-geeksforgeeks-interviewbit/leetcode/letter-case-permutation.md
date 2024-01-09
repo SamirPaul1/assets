@@ -4,10 +4,9 @@ summary: Letter Case Permutation LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/letter-case-permutation", "/blog/posts/letter-case-permutation", "/letter-case-permutation"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, letter-case-permutation solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "letter-case-permutation LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Letter Case Permutation/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Letter Case Permutation - Solution Explained/problem-solving.webp
     alt: Letter Case Permutation
     hiddenInList: true
     hiddenInSingle: false

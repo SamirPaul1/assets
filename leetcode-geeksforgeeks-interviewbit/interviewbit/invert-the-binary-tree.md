@@ -4,10 +4,9 @@ summary: Invert The Binary Tree - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Invert The Binary Tree solution]
-aliases: ["/posts/invert-the-binary-tree", "/blog/posts/invert-the-binary-tree", "/invert-the-binary-tree"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Invert The Binary Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Invert The Binary Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Invert The Binary Tree - Solution Explained/problem-solving.webp
     alt: Invert The Binary Tree
     hiddenInList: true
     hiddenInSingle: false

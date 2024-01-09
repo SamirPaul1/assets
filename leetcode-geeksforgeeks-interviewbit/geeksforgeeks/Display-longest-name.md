@@ -4,10 +4,9 @@ summary: Display Longest Name - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Display-longest-name", "/blog/posts/Display-longest-name", "/Display-longest-name", "/blog/Display-longest-name",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Display Longest Name solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Display Longest Name Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Display Longest Name - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Display Longest Name - Solution Explained/problem-solving.webp
     alt: Display Longest Name
     hiddenInList: true
     hiddenInSingle: false

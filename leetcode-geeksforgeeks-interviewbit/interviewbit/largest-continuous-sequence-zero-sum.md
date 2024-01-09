@@ -4,10 +4,9 @@ summary: Largest Continuous Sequence Zero Sum - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Largest Continuous Sequence Zero Sum solution]
-aliases: ["/posts/largest-continuous-sequence-zero-sum", "/blog/posts/largest-continuous-sequence-zero-sum", "/largest-continuous-sequence-zero-sum"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Largest Continuous Sequence Zero Sum Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Continuous Sequence Zero Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Largest Continuous Sequence Zero Sum - Solution Explained/problem-solving.webp
     alt: Largest Continuous Sequence Zero Sum
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 0275 H Index Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0275-h-index-ii", "/blog/posts/0275-h-index-ii", "/0275-h-index-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0275-h-index-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0275-h-index-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0275 H Index Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0275 H Index Ii - Solution Explained/problem-solving.webp
     alt: 0275 H Index Ii
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Loud And Rich LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/loud-and-rich", "/blog/posts/loud-and-rich", "/loud-and-rich"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, loud-and-rich solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "loud-and-rich LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Loud And Rich/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Loud And Rich - Solution Explained/problem-solving.webp
     alt: Loud And Rich
     hiddenInList: true
     hiddenInSingle: false

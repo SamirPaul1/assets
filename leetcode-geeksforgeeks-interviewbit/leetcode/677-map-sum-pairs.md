@@ -4,10 +4,9 @@ summary: 677 Map Sum Pairs LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/677-map-sum-pairs", "/blog/posts/677-map-sum-pairs", "/677-map-sum-pairs"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 677-map-sum-pairs solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "677-map-sum-pairs LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:677 Map Sum Pairs/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:677 Map Sum Pairs - Solution Explained/problem-solving.webp
     alt: 677 Map Sum Pairs
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Diameter Of Binary Tree LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/diameter-of-binary-tree", "/blog/posts/diameter-of-binary-tree", "/diameter-of-binary-tree"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, diameter-of-binary-tree solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "diameter-of-binary-tree LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Diameter Of Binary Tree/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Diameter Of Binary Tree - Solution Explained/problem-solving.webp
     alt: Diameter Of Binary Tree
     hiddenInList: true
     hiddenInSingle: false

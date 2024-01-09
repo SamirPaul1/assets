@@ -4,10 +4,9 @@ summary: K Closest Points To Origin LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/k-closest-points-to-origin", "/blog/posts/k-closest-points-to-origin", "/k-closest-points-to-origin"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, k-closest-points-to-origin solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "k-closest-points-to-origin LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:K Closest Points To Origin/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:K Closest Points To Origin - Solution Explained/problem-solving.webp
     alt: K Closest Points To Origin
     hiddenInList: true
     hiddenInSingle: false

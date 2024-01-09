@@ -4,10 +4,9 @@ summary: Rearrange Array - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Rearrange Array solution]
-aliases: ["/posts/rearrange-array", "/blog/posts/rearrange-array", "/rearrange-array"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Rearrange Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rearrange Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rearrange Array - Solution Explained/problem-solving.webp
     alt: Rearrange Array
     hiddenInList: true
     hiddenInSingle: false

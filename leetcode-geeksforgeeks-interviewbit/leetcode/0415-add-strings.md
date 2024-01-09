@@ -4,10 +4,9 @@ summary: 0415 Add Strings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0415-add-strings", "/blog/posts/0415-add-strings", "/0415-add-strings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0415-add-strings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0415-add-strings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0415 Add Strings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0415 Add Strings - Solution Explained/problem-solving.webp
     alt: 0415 Add Strings
     hiddenInList: true
     hiddenInSingle: false

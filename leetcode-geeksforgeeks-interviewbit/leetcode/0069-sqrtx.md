@@ -4,10 +4,9 @@ summary: 0069 Sqrtx LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0069-sqrtx", "/blog/posts/0069-sqrtx", "/0069-sqrtx"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0069-sqrtx solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0069-sqrtx LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0069 Sqrtx/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0069 Sqrtx - Solution Explained/problem-solving.webp
     alt: 0069 Sqrtx
     hiddenInList: true
     hiddenInSingle: false

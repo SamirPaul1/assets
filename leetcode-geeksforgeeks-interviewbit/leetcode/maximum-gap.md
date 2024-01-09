@@ -4,10 +4,9 @@ summary: Maximum Gap LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/maximum-gap", "/blog/posts/maximum-gap", "/maximum-gap"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, maximum-gap solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "maximum-gap LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Gap/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Maximum Gap - Solution Explained/problem-solving.webp
     alt: Maximum Gap
     hiddenInList: true
     hiddenInSingle: false

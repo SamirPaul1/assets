@@ -4,10 +4,9 @@ summary: 0605 Can Place Flowers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0605-can-place-flowers", "/blog/posts/0605-can-place-flowers", "/0605-can-place-flowers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0605-can-place-flowers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0605-can-place-flowers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0605 Can Place Flowers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0605 Can Place Flowers - Solution Explained/problem-solving.webp
     alt: 0605 Can Place Flowers
     hiddenInList: true
     hiddenInSingle: false

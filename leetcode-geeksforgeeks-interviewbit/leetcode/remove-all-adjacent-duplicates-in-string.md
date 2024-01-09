@@ -4,10 +4,9 @@ summary: Remove All Adjacent Duplicates In String LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/remove-all-adjacent-duplicates-in-string", "/blog/posts/remove-all-adjacent-duplicates-in-string", "/remove-all-adjacent-duplicates-in-string"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, remove-all-adjacent-duplicates-in-string solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "remove-all-adjacent-duplicates-in-string LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove All Adjacent Duplicates In String/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove All Adjacent Duplicates In String - Solution Explained/problem-solving.webp
     alt: Remove All Adjacent Duplicates In String
     hiddenInList: true
     hiddenInSingle: false

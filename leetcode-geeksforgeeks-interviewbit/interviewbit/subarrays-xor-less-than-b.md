@@ -4,10 +4,9 @@ summary: Subarrays Xor Less Than B - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Subarrays Xor Less Than B solution]
-aliases: ["/posts/subarrays-xor-less-than-b", "/blog/posts/subarrays-xor-less-than-b", "/subarrays-xor-less-than-b"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Subarrays Xor Less Than B Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subarrays Xor Less Than B - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Subarrays Xor Less Than B - Solution Explained/problem-solving.webp
     alt: Subarrays Xor Less Than B
     hiddenInList: true
     hiddenInSingle: false

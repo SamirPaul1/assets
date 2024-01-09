@@ -4,10 +4,9 @@ summary: 551 Student Attendance Record I LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/551-student-attendance-record-i", "/blog/posts/551-student-attendance-record-i", "/551-student-attendance-record-i"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 551-student-attendance-record-i solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "551-student-attendance-record-i LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:551 Student Attendance Record I/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:551 Student Attendance Record I - Solution Explained/problem-solving.webp
     alt: 551 Student Attendance Record I
     hiddenInList: true
     hiddenInSingle: false

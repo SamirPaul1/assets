@@ -4,10 +4,9 @@ summary: Neutral Reviewers - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Neutral Reviewers solution]
-aliases: ["/posts/neutral-reviewers", "/blog/posts/neutral-reviewers", "/neutral-reviewers"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Neutral Reviewers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Neutral Reviewers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Neutral Reviewers - Solution Explained/problem-solving.webp
     alt: Neutral Reviewers
     hiddenInList: true
     hiddenInSingle: false

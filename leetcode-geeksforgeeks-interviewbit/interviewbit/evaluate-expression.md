@@ -4,10 +4,9 @@ summary: Evaluate Expression - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Evaluate Expression solution]
-aliases: ["/posts/evaluate-expression", "/blog/posts/evaluate-expression", "/evaluate-expression"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Evaluate Expression Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Evaluate Expression - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Evaluate Expression - Solution Explained/problem-solving.webp
     alt: Evaluate Expression
     hiddenInList: true
     hiddenInSingle: false

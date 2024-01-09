@@ -4,10 +4,9 @@ summary: 496 Next Greater Element I LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/496-next-greater-element-i", "/blog/posts/496-next-greater-element-i", "/496-next-greater-element-i"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 496-next-greater-element-i solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "496-next-greater-element-i LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:496 Next Greater Element I/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:496 Next Greater Element I - Solution Explained/problem-solving.webp
     alt: 496 Next Greater Element I
     hiddenInList: true
     hiddenInSingle: false

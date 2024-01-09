@@ -4,10 +4,9 @@ summary: 0096 Unique Binary Search Trees LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0096-unique-binary-search-trees", "/blog/posts/0096-unique-binary-search-trees", "/0096-unique-binary-search-trees"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0096-unique-binary-search-trees solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0096-unique-binary-search-trees LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0096 Unique Binary Search Trees/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0096 Unique Binary Search Trees - Solution Explained/problem-solving.webp
     alt: 0096 Unique Binary Search Trees
     hiddenInList: true
     hiddenInSingle: false

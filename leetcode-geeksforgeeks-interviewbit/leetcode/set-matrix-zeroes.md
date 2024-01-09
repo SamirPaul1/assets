@@ -4,10 +4,9 @@ summary: Set Matrix Zeroes LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/set-matrix-zeroes", "/blog/posts/set-matrix-zeroes", "/set-matrix-zeroes"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, set-matrix-zeroes solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "set-matrix-zeroes LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Set Matrix Zeroes/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Set Matrix Zeroes - Solution Explained/problem-solving.webp
     alt: Set Matrix Zeroes
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 589 N Ary Tree Preorder Traversal LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/589-n-ary-tree-preorder-traversal", "/blog/posts/589-n-ary-tree-preorder-traversal", "/589-n-ary-tree-preorder-traversal"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 589-n-ary-tree-preorder-traversal solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "589-n-ary-tree-preorder-traversal LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:589 N Ary Tree Preorder Traversal/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:589 N Ary Tree Preorder Traversal - Solution Explained/problem-solving.webp
     alt: 589 N Ary Tree Preorder Traversal
     hiddenInList: true
     hiddenInSingle: false

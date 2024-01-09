@@ -4,10 +4,9 @@ summary: Find The Town Judge LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/find-the-town-judge", "/blog/posts/find-the-town-judge", "/find-the-town-judge"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, find-the-town-judge solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "find-the-town-judge LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find The Town Judge/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find The Town Judge - Solution Explained/problem-solving.webp
     alt: Find The Town Judge
     hiddenInList: true
     hiddenInSingle: false

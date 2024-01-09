@@ -4,10 +4,9 @@ summary: 1318 Minimum Flips To Make A Or B Equal To C LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1318-minimum-flips-to-make-a-or-b-equal-to-c", "/blog/posts/1318-minimum-flips-to-make-a-or-b-equal-to-c", "/1318-minimum-flips-to-make-a-or-b-equal-to-c"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1318-minimum-flips-to-make-a-or-b-equal-to-c solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1318-minimum-flips-to-make-a-or-b-equal-to-c LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1318 Minimum Flips To Make A Or B Equal To C/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1318 Minimum Flips To Make A Or B Equal To C - Solution Explained/problem-solving.webp
     alt: 1318 Minimum Flips To Make A Or B Equal To C
     hiddenInList: true
     hiddenInSingle: false

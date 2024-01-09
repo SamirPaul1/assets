@@ -4,10 +4,9 @@ summary: Min Depth Of Binary Tree - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Min Depth Of Binary Tree solution]
-aliases: ["/posts/min-depth-of-binary-tree", "/blog/posts/min-depth-of-binary-tree", "/min-depth-of-binary-tree"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Min Depth Of Binary Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Min Depth Of Binary Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Min Depth Of Binary Tree - Solution Explained/problem-solving.webp
     alt: Min Depth Of Binary Tree
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Print Leaf Nodes From Preorder Traversal Of Bst - GeeksforGeeks Solutio
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Print-leaf-nodes-from-preorder-traversal-of-BST", "/blog/posts/Print-leaf-nodes-from-preorder-traversal-of-BST", "/Print-leaf-nodes-from-preorder-traversal-of-BST", "/blog/Print-leaf-nodes-from-preorder-traversal-of-BST",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Print Leaf Nodes From Preorder Traversal Of Bst solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Print Leaf Nodes From Preorder Traversal Of Bst Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Print Leaf Nodes From Preorder Traversal Of Bst - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Print Leaf Nodes From Preorder Traversal Of Bst - Solution Explained/problem-solving.webp
     alt: Print Leaf Nodes From Preorder Traversal Of Bst
     hiddenInList: true
     hiddenInSingle: false

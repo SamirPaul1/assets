@@ -4,10 +4,9 @@ summary: Find Minimum And Maximum Element In An Array - GeeksforGeeks Solution E
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Find-minimum-and-maximum-element-in-an-array", "/blog/posts/Find-minimum-and-maximum-element-in-an-array", "/Find-minimum-and-maximum-element-in-an-array", "/blog/Find-minimum-and-maximum-element-in-an-array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Find Minimum And Maximum Element In An Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Find Minimum And Maximum Element In An Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Minimum And Maximum Element In An Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find Minimum And Maximum Element In An Array - Solution Explained/problem-solving.webp
     alt: Find Minimum And Maximum Element In An Array
     hiddenInList: true
     hiddenInSingle: false

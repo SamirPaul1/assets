@@ -4,10 +4,9 @@ summary: 0953 Verifying An Alien Dictionary LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0953-verifying-an-alien-dictionary", "/blog/posts/0953-verifying-an-alien-dictionary", "/0953-verifying-an-alien-dictionary"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0953-verifying-an-alien-dictionary solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0953-verifying-an-alien-dictionary LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0953 Verifying An Alien Dictionary/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0953 Verifying An Alien Dictionary - Solution Explained/problem-solving.webp
     alt: 0953 Verifying An Alien Dictionary
     hiddenInList: true
     hiddenInSingle: false

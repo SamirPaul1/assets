@@ -4,10 +4,9 @@ summary: Minimum Cost To Hire K Workers - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimum Cost To Hire K Workers solution]
-aliases: ["/posts/minimum-cost-to-hire-k-workers", "/blog/posts/minimum-cost-to-hire-k-workers", "/minimum-cost-to-hire-k-workers"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Minimum Cost To Hire K Workers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Cost To Hire K Workers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Cost To Hire K Workers - Solution Explained/problem-solving.webp
     alt: Minimum Cost To Hire K Workers
     hiddenInList: true
     hiddenInSingle: false

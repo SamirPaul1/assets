@@ -4,10 +4,9 @@ summary: Scores - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Scores solution]
-aliases: ["/posts/scores", "/blog/posts/scores", "/scores"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Scores Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Scores - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Scores - Solution Explained/problem-solving.webp
     alt: Scores
     hiddenInList: true
     hiddenInSingle: false
@@ -30,10 +29,10 @@ Choose some value of D that would do the task and tell the the scores for both t
 Input
 
 The first argument is an array of length N (1 <= N <= 200000) - the number of throws of the first team.
-It contains array of N integer numbers — the distances of throws Ai (1 <= Ai <= 2000000000).
+It contains array of N integer numbers ï¿½ the distances of throws Ai (1 <= Ai <= 2000000000).
 
 The second argument is an array of length M (1 <= M <= 200000) - the number of throws of the second team.
-It contains array of M integer numbers — the distances of throws Bi (1 <= Bi <= 2000000000).
+It contains array of M integer numbers ï¿½ the distances of throws Bi (1 <= Bi <= 2000000000).
 
 Output
 

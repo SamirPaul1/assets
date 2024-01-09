@@ -4,10 +4,9 @@ summary: First Missing Integer - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, First Missing Integer solution]
-aliases: ["/posts/first-missing-integer", "/blog/posts/first-missing-integer", "/first-missing-integer"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "First Missing Integer Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:First Missing Integer - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:First Missing Integer - Solution Explained/problem-solving.webp
     alt: First Missing Integer
     hiddenInList: true
     hiddenInSingle: false

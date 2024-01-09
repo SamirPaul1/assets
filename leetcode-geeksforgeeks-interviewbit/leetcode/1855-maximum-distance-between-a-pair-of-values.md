@@ -4,10 +4,9 @@ summary: 1855 Maximum Distance Between A Pair Of Values LeetCode Solution Explai
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1855-maximum-distance-between-a-pair-of-values", "/blog/posts/1855-maximum-distance-between-a-pair-of-values", "/1855-maximum-distance-between-a-pair-of-values"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1855-maximum-distance-between-a-pair-of-values solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1855-maximum-distance-between-a-pair-of-values LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1855 Maximum Distance Between A Pair Of Values/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1855 Maximum Distance Between A Pair Of Values - Solution Explained/problem-solving.webp
     alt: 1855 Maximum Distance Between A Pair Of Values
     hiddenInList: true
     hiddenInSingle: false

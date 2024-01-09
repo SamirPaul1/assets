@@ -4,10 +4,9 @@ summary: Remove Duplicates From An Unsorted Linked List - GeeksforGeeks Solution
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Remove-duplicates-from-an-unsorted-linked-list", "/blog/posts/Remove-duplicates-from-an-unsorted-linked-list", "/Remove-duplicates-from-an-unsorted-linked-list", "/blog/Remove-duplicates-from-an-unsorted-linked-list",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Remove Duplicates From An Unsorted Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Remove Duplicates From An Unsorted Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Duplicates From An Unsorted Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove Duplicates From An Unsorted Linked List - Solution Explained/problem-solving.webp
     alt: Remove Duplicates From An Unsorted Linked List
     hiddenInList: true
     hiddenInSingle: false

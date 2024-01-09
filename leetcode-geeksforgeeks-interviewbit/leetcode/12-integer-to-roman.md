@@ -4,10 +4,9 @@ summary: 12 Integer To Roman LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/12-integer-to-roman", "/blog/posts/12-integer-to-roman", "/12-integer-to-roman"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 12-integer-to-roman solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "12-integer-to-roman LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:12 Integer To Roman/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:12 Integer To Roman - Solution Explained/problem-solving.webp
     alt: 12 Integer To Roman
     hiddenInList: true
     hiddenInSingle: false

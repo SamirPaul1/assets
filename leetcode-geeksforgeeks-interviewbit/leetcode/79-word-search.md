@@ -4,10 +4,9 @@ summary: 79 Word Search LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/79-word-search", "/blog/posts/79-word-search", "/79-word-search"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 79-word-search solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "79-word-search LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:79 Word Search/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:79 Word Search - Solution Explained/problem-solving.webp
     alt: 79 Word Search
     hiddenInList: true
     hiddenInSingle: false

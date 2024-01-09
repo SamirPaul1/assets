@@ -4,10 +4,9 @@ summary: Sieve Of Eratosthenes - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sieve-of-Eratosthenes", "/blog/posts/Sieve-of-Eratosthenes", "/Sieve-of-Eratosthenes", "/blog/Sieve-of-Eratosthenes",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sieve Of Eratosthenes solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sieve Of Eratosthenes Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sieve Of Eratosthenes - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sieve Of Eratosthenes - Solution Explained/problem-solving.webp
     alt: Sieve Of Eratosthenes
     hiddenInList: true
     hiddenInSingle: false

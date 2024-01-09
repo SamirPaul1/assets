@@ -4,10 +4,9 @@ summary: Inorder Traversal Of Cartesian Tree - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Inorder Traversal Of Cartesian Tree solution]
-aliases: ["/posts/inorder-traversal-of-cartesian-tree", "/blog/posts/inorder-traversal-of-cartesian-tree", "/inorder-traversal-of-cartesian-tree"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Inorder Traversal Of Cartesian Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Inorder Traversal Of Cartesian Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Inorder Traversal Of Cartesian Tree - Solution Explained/problem-solving.webp
     alt: Inorder Traversal Of Cartesian Tree
     hiddenInList: true
     hiddenInSingle: false

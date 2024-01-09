@@ -4,10 +4,9 @@ summary: 179 Largest Number LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/179-largest-number", "/blog/posts/179-largest-number", "/179-largest-number"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 179-largest-number solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "179-largest-number LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:179 Largest Number/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:179 Largest Number - Solution Explained/problem-solving.webp
     alt: 179 Largest Number
     hiddenInList: true
     hiddenInSingle: false

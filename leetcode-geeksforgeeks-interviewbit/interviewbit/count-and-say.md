@@ -4,10 +4,9 @@ summary: Count And Say - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Count And Say solution]
-aliases: ["/posts/count-and-say", "/blog/posts/count-and-say", "/count-and-say"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Count And Say Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count And Say - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count And Say - Solution Explained/problem-solving.webp
     alt: Count And Say
     hiddenInList: true
     hiddenInSingle: false

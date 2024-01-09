@@ -4,10 +4,9 @@ summary: 1094 Car Pooling LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1094-car-pooling", "/blog/posts/1094-car-pooling", "/1094-car-pooling"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1094-car-pooling solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1094-car-pooling LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1094 Car Pooling/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1094 Car Pooling - Solution Explained/problem-solving.webp
     alt: 1094 Car Pooling
     hiddenInList: true
     hiddenInSingle: false

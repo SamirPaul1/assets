@@ -4,10 +4,9 @@ summary: 0778 Swim In Rising Water LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0778-swim-in-rising-water", "/blog/posts/0778-swim-in-rising-water", "/0778-swim-in-rising-water"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0778-swim-in-rising-water solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0778-swim-in-rising-water LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0778 Swim In Rising Water/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0778 Swim In Rising Water - Solution Explained/problem-solving.webp
     alt: 0778 Swim In Rising Water
     hiddenInList: true
     hiddenInSingle: false

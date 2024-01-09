@@ -4,10 +4,9 @@ summary: 287 Find The Duplicate Number LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/287-find-the-duplicate-number", "/blog/posts/287-find-the-duplicate-number", "/287-find-the-duplicate-number"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 287-find-the-duplicate-number solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "287-find-the-duplicate-number LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:287 Find The Duplicate Number/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:287 Find The Duplicate Number - Solution Explained/problem-solving.webp
     alt: 287 Find The Duplicate Number
     hiddenInList: true
     hiddenInSingle: false

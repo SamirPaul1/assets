@@ -4,10 +4,9 @@ summary: Aggressive Cows - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Aggressive-Cows", "/blog/posts/Aggressive-Cows", "/Aggressive-Cows", "/blog/Aggressive-Cows",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Aggressive Cows solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Aggressive Cows Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Aggressive Cows - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Aggressive Cows - Solution Explained/problem-solving.webp
     alt: Aggressive Cows
     hiddenInList: true
     hiddenInSingle: false

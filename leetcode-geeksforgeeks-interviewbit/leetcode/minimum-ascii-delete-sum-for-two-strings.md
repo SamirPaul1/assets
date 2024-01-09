@@ -4,10 +4,9 @@ summary: Minimum Ascii Delete Sum For Two Strings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/minimum-ascii-delete-sum-for-two-strings", "/blog/posts/minimum-ascii-delete-sum-for-two-strings", "/minimum-ascii-delete-sum-for-two-strings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-ascii-delete-sum-for-two-strings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "minimum-ascii-delete-sum-for-two-strings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Ascii Delete Sum For Two Strings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Ascii Delete Sum For Two Strings - Solution Explained/problem-solving.webp
     alt: Minimum Ascii Delete Sum For Two Strings
     hiddenInList: true
     hiddenInSingle: false

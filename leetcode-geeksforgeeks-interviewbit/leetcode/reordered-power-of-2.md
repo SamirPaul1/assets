@@ -4,10 +4,9 @@ summary: Reordered Power Of 2 LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/reordered-power-of-2", "/blog/posts/reordered-power-of-2", "/reordered-power-of-2"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, reordered-power-of-2 solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "reordered-power-of-2 LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reordered Power Of 2/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Reordered Power Of 2 - Solution Explained/problem-solving.webp
     alt: Reordered Power Of 2
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 0452 Minimum Number Of Arrows To Burst Balloons LeetCode Solution Expla
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0452-minimum-number-of-arrows-to-burst-balloons", "/blog/posts/0452-minimum-number-of-arrows-to-burst-balloons", "/0452-minimum-number-of-arrows-to-burst-balloons"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0452-minimum-number-of-arrows-to-burst-balloons solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0452-minimum-number-of-arrows-to-burst-balloons LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0452 Minimum Number Of Arrows To Burst Balloons/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0452 Minimum Number Of Arrows To Burst Balloons - Solution Explained/problem-solving.webp
     alt: 0452 Minimum Number Of Arrows To Burst Balloons
     hiddenInList: true
     hiddenInSingle: false

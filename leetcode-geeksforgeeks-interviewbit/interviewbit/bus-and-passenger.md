@@ -4,10 +4,9 @@ summary: Bus And Passenger - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Bus And Passenger solution]
-aliases: ["/posts/bus-and-passenger", "/blog/posts/bus-and-passenger", "/bus-and-passenger"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Bus And Passenger Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Bus And Passenger - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Bus And Passenger - Solution Explained/problem-solving.webp
     alt: Bus And Passenger
     hiddenInList: true
     hiddenInSingle: false

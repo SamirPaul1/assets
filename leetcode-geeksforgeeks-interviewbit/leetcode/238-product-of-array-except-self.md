@@ -4,10 +4,9 @@ summary: 238 Product Of Array Except Self LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/238-product-of-array-except-self", "/blog/posts/238-product-of-array-except-self", "/238-product-of-array-except-self"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 238-product-of-array-except-self solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "238-product-of-array-except-self LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:238 Product Of Array Except Self/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:238 Product Of Array Except Self - Solution Explained/problem-solving.webp
     alt: 238 Product Of Array Except Self
     hiddenInList: true
     hiddenInSingle: false

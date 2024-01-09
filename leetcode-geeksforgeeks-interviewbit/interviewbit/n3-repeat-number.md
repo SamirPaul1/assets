@@ -4,10 +4,9 @@ summary: N3 Repeat Number - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, N3 Repeat Number solution]
-aliases: ["/posts/n3-repeat-number", "/blog/posts/n3-repeat-number", "/n3-repeat-number"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "N3 Repeat Number Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:N3 Repeat Number - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:N3 Repeat Number - Solution Explained/problem-solving.webp
     alt: N3 Repeat Number
     hiddenInList: true
     hiddenInSingle: false

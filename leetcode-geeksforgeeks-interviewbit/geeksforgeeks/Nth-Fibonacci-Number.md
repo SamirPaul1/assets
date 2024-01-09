@@ -4,10 +4,9 @@ summary: Nth Fibonacci Number - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Nth-Fibonacci-Number", "/blog/posts/Nth-Fibonacci-Number", "/Nth-Fibonacci-Number", "/blog/Nth-Fibonacci-Number",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Nth Fibonacci Number solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Nth Fibonacci Number Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Nth Fibonacci Number - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Nth Fibonacci Number - Solution Explained/problem-solving.webp
     alt: Nth Fibonacci Number
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Kth Manhattan Distance Neighbourhood - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Kth Manhattan Distance Neighbourhood solution]
-aliases: ["/posts/kth-manhattan-distance-neighbourhood", "/blog/posts/kth-manhattan-distance-neighbourhood", "/kth-manhattan-distance-neighbourhood"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Kth Manhattan Distance Neighbourhood Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Kth Manhattan Distance Neighbourhood - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Kth Manhattan Distance Neighbourhood - Solution Explained/problem-solving.webp
     alt: Kth Manhattan Distance Neighbourhood
     hiddenInList: true
     hiddenInSingle: false

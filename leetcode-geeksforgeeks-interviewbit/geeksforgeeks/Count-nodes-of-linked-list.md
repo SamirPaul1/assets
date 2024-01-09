@@ -4,10 +4,9 @@ summary: Count Nodes Of Linked List - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Count-nodes-of-linked-list", "/blog/posts/Count-nodes-of-linked-list", "/Count-nodes-of-linked-list", "/blog/Count-nodes-of-linked-list",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Count Nodes Of Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Count Nodes Of Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Nodes Of Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Nodes Of Linked List - Solution Explained/problem-solving.webp
     alt: Count Nodes Of Linked List
     hiddenInList: true
     hiddenInSingle: false

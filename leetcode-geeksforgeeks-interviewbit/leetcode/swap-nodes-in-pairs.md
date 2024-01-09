@@ -4,10 +4,9 @@ summary: Swap Nodes In Pairs LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/swap-nodes-in-pairs", "/blog/posts/swap-nodes-in-pairs", "/swap-nodes-in-pairs"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, swap-nodes-in-pairs solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "swap-nodes-in-pairs LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Swap Nodes In Pairs/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Swap Nodes In Pairs - Solution Explained/problem-solving.webp
     alt: Swap Nodes In Pairs
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 0494 Target Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0494-target-sum", "/blog/posts/0494-target-sum", "/0494-target-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0494-target-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0494-target-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0494 Target Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0494 Target Sum - Solution Explained/problem-solving.webp
     alt: 0494 Target Sum
     hiddenInList: true
     hiddenInSingle: false

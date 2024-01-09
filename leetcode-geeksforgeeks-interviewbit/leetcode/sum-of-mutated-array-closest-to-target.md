@@ -4,10 +4,9 @@ summary: Sum Of Mutated Array Closest To Target LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/sum-of-mutated-array-closest-to-target", "/blog/posts/sum-of-mutated-array-closest-to-target", "/sum-of-mutated-array-closest-to-target"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, sum-of-mutated-array-closest-to-target solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sum-of-mutated-array-closest-to-target LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Mutated Array Closest To Target/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Mutated Array Closest To Target - Solution Explained/problem-solving.webp
     alt: Sum Of Mutated Array Closest To Target
     hiddenInList: true
     hiddenInSingle: false

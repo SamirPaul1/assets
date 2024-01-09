@@ -4,10 +4,9 @@ summary: 526 Beautiful Arrangement LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/526-beautiful-arrangement", "/blog/posts/526-beautiful-arrangement", "/526-beautiful-arrangement"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 526-beautiful-arrangement solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "526-beautiful-arrangement LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:526 Beautiful Arrangement/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:526 Beautiful Arrangement - Solution Explained/problem-solving.webp
     alt: 526 Beautiful Arrangement
     hiddenInList: true
     hiddenInSingle: false

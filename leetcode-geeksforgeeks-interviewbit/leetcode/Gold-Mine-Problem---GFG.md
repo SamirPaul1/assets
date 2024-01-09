@@ -4,10 +4,9 @@ summary: Gold Mine Problem   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Gold-Mine-Problem---GFG", "/blog/posts/Gold-Mine-Problem---GFG", "/Gold-Mine-Problem---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Gold Mine Problem - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Gold Mine Problem - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Gold Mine Problem   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Gold Mine Problem   Gfg - Solution Explained/problem-solving.webp
     alt: Gold Mine Problem   Gfg
     hiddenInList: true
     hiddenInSingle: false

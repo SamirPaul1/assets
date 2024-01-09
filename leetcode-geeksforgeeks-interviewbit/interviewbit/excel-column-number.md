@@ -4,10 +4,9 @@ summary: Excel Column Number - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Excel Column Number solution]
-aliases: ["/posts/excel-column-number", "/blog/posts/excel-column-number", "/excel-column-number"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Excel Column Number Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Excel Column Number - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Excel Column Number - Solution Explained/problem-solving.webp
     alt: Excel Column Number
     hiddenInList: true
     hiddenInSingle: false

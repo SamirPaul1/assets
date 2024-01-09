@@ -4,10 +4,9 @@ summary: 116 Populating Next Right Pointers In Each Node LeetCode Solution Expla
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/116-populating-next-right-pointers-in-each-node", "/blog/posts/116-populating-next-right-pointers-in-each-node", "/116-populating-next-right-pointers-in-each-node"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 116-populating-next-right-pointers-in-each-node solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "116-populating-next-right-pointers-in-each-node LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:116 Populating Next Right Pointers In Each Node/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:116 Populating Next Right Pointers In Each Node - Solution Explained/problem-solving.webp
     alt: 116 Populating Next Right Pointers In Each Node
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Domino And Tromino Tiling LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/domino-and-tromino-tiling", "/blog/posts/domino-and-tromino-tiling", "/domino-and-tromino-tiling"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, domino-and-tromino-tiling solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "domino-and-tromino-tiling LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Domino And Tromino Tiling/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Domino And Tromino Tiling - Solution Explained/problem-solving.webp
     alt: Domino And Tromino Tiling
     hiddenInList: true
     hiddenInSingle: false

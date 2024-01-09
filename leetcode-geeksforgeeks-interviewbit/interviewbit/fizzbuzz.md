@@ -4,10 +4,9 @@ summary: Fizzbuzz - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Fizzbuzz solution]
-aliases: ["/posts/fizzbuzz", "/blog/posts/fizzbuzz", "/fizzbuzz"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Fizzbuzz Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Fizzbuzz - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Fizzbuzz - Solution Explained/problem-solving.webp
     alt: Fizzbuzz
     hiddenInList: true
     hiddenInSingle: false

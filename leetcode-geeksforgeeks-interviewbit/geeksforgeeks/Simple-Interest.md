@@ -4,10 +4,9 @@ summary: Simple Interest - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Simple-Interest", "/blog/posts/Simple-Interest", "/Simple-Interest", "/blog/Simple-Interest",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Simple Interest solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Simple Interest Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Simple Interest - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Simple Interest - Solution Explained/problem-solving.webp
     alt: Simple Interest
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 801 Minimum Swaps To Make Sequences Increasing LeetCode Solution Explai
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/801-minimum-swaps-to-make-sequences-increasing", "/blog/posts/801-minimum-swaps-to-make-sequences-increasing", "/801-minimum-swaps-to-make-sequences-increasing"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 801-minimum-swaps-to-make-sequences-increasing solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "801-minimum-swaps-to-make-sequences-increasing LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:801 Minimum Swaps To Make Sequences Increasing/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:801 Minimum Swaps To Make Sequences Increasing - Solution Explained/problem-solving.webp
     alt: 801 Minimum Swaps To Make Sequences Increasing
     hiddenInList: true
     hiddenInSingle: false

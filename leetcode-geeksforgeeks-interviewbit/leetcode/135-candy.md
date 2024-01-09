@@ -4,10 +4,9 @@ summary: 135 Candy LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/135-candy", "/blog/posts/135-candy", "/135-candy"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 135-candy solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "135-candy LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:135 Candy/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:135 Candy - Solution Explained/problem-solving.webp
     alt: 135 Candy
     hiddenInList: true
     hiddenInSingle: false

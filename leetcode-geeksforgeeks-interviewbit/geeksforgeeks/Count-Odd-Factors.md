@@ -4,10 +4,9 @@ summary: Count Odd Factors - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Count-Odd-Factors", "/blog/posts/Count-Odd-Factors", "/Count-Odd-Factors", "/blog/Count-Odd-Factors",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Count Odd Factors solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Count Odd Factors Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Odd Factors - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Odd Factors - Solution Explained/problem-solving.webp
     alt: Count Odd Factors
     hiddenInList: true
     hiddenInSingle: false

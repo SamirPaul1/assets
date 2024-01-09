@@ -4,10 +4,9 @@ summary: Squares Of A Sorted Array LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/squares-of-a-sorted-array", "/blog/posts/squares-of-a-sorted-array", "/squares-of-a-sorted-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, squares-of-a-sorted-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "squares-of-a-sorted-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Squares Of A Sorted Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Squares Of A Sorted Array - Solution Explained/problem-solving.webp
     alt: Squares Of A Sorted Array
     hiddenInList: true
     hiddenInSingle: false

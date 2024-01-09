@@ -4,10 +4,9 @@ summary: Valid Ip Addresses - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Valid Ip Addresses solution]
-aliases: ["/posts/valid-ip-addresses", "/blog/posts/valid-ip-addresses", "/valid-ip-addresses"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Valid Ip Addresses Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Valid Ip Addresses - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Valid Ip Addresses - Solution Explained/problem-solving.webp
     alt: Valid Ip Addresses
     hiddenInList: true
     hiddenInSingle: false

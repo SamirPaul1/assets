@@ -4,10 +4,9 @@ summary: Length Of Longest Consecutive Ones - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Length Of Longest Consecutive Ones solution]
-aliases: ["/posts/length-of-longest-consecutive-ones", "/blog/posts/length-of-longest-consecutive-ones", "/length-of-longest-consecutive-ones"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Length Of Longest Consecutive Ones Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Length Of Longest Consecutive Ones - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Length Of Longest Consecutive Ones - Solution Explained/problem-solving.webp
     alt: Length Of Longest Consecutive Ones
     hiddenInList: true
     hiddenInSingle: false

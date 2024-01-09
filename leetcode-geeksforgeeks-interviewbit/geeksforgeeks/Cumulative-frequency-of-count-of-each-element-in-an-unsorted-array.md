@@ -4,10 +4,9 @@ summary: Cumulative Frequency Of Count Of Each Element In An Unsorted Array - Ge
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Cumulative-frequency-of-count-of-each-element-in-an-unsorted-array", "/blog/posts/Cumulative-frequency-of-count-of-each-element-in-an-unsorted-array", "/Cumulative-frequency-of-count-of-each-element-in-an-unsorted-array", "/blog/Cumulative-frequency-of-count-of-each-element-in-an-unsorted-array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Cumulative Frequency Of Count Of Each Element In An Unsorted Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Cumulative Frequency Of Count Of Each Element In An Unsorted Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cumulative Frequency Of Count Of Each Element In An Unsorted Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Cumulative Frequency Of Count Of Each Element In An Unsorted Array - Solution Explained/problem-solving.webp
     alt: Cumulative Frequency Of Count Of Each Element In An Unsorted Array
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Maximum Unsorted Subarray - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Unsorted Subarray solution]
-aliases: ["/posts/maximum-unsorted-subarray", "/blog/posts/maximum-unsorted-subarray", "/maximum-unsorted-subarray"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Maximum Unsorted Subarray Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Unsorted Subarray - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Maximum Unsorted Subarray - Solution Explained/problem-solving.webp
     alt: Maximum Unsorted Subarray
     hiddenInList: true
     hiddenInSingle: false

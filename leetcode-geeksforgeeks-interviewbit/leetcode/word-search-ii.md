@@ -4,10 +4,9 @@ summary: Word Search Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/word-search-ii", "/blog/posts/word-search-ii", "/word-search-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, word-search-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "word-search-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Search Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Search Ii - Solution Explained/problem-solving.webp
     alt: Word Search Ii
     hiddenInList: true
     hiddenInSingle: false

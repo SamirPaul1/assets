@@ -4,10 +4,9 @@ summary: 106 Construct Binary Tree From Inorder And Postorder Traversal LeetCode
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/106-construct-binary-tree-from-inorder-and-postorder-traversal", "/blog/posts/106-construct-binary-tree-from-inorder-and-postorder-traversal", "/106-construct-binary-tree-from-inorder-and-postorder-traversal"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 106-construct-binary-tree-from-inorder-and-postorder-traversal solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "106-construct-binary-tree-from-inorder-and-postorder-traversal LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:106 Construct Binary Tree From Inorder And Postorder Traversal/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:106 Construct Binary Tree From Inorder And Postorder Traversal - Solution Explained/problem-solving.webp
     alt: 106 Construct Binary Tree From Inorder And Postorder Traversal
     hiddenInList: true
     hiddenInSingle: false

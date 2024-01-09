@@ -4,10 +4,9 @@ summary: 983 Minimum Cost For Tickets LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/983-minimum-cost-for-tickets", "/blog/posts/983-minimum-cost-for-tickets", "/983-minimum-cost-for-tickets"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 983-minimum-cost-for-tickets solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "983-minimum-cost-for-tickets LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:983 Minimum Cost For Tickets/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:983 Minimum Cost For Tickets - Solution Explained/problem-solving.webp
     alt: 983 Minimum Cost For Tickets
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Permutation In String LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/permutation-in-string", "/blog/posts/permutation-in-string", "/permutation-in-string"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, permutation-in-string solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "permutation-in-string LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Permutation In String/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Permutation In String - Solution Explained/problem-solving.webp
     alt: Permutation In String
     hiddenInList: true
     hiddenInSingle: false

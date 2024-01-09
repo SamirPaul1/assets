@@ -4,10 +4,9 @@ summary: Distinct Numbers In Window - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Distinct Numbers In Window solution]
-aliases: ["/posts/distinct-numbers-in-window", "/blog/posts/distinct-numbers-in-window", "/distinct-numbers-in-window"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Distinct Numbers In Window Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Distinct Numbers In Window - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Distinct Numbers In Window - Solution Explained/problem-solving.webp
     alt: Distinct Numbers In Window
     hiddenInList: true
     hiddenInSingle: false

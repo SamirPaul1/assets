@@ -4,10 +4,9 @@ summary: Merge Two Sorted Linked Lists - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Merge-two-sorted-linked-lists", "/blog/posts/Merge-two-sorted-linked-lists", "/Merge-two-sorted-linked-lists", "/blog/Merge-two-sorted-linked-lists",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Merge Two Sorted Linked Lists solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Merge Two Sorted Linked Lists Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Two Sorted Linked Lists - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Merge Two Sorted Linked Lists - Solution Explained/problem-solving.webp
     alt: Merge Two Sorted Linked Lists
     hiddenInList: true
     hiddenInSingle: false

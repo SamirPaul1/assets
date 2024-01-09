@@ -4,10 +4,9 @@ summary: Sum Of Root To Leaf Binary Numbers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/sum-of-root-to-leaf-binary-numbers", "/blog/posts/sum-of-root-to-leaf-binary-numbers", "/sum-of-root-to-leaf-binary-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, sum-of-root-to-leaf-binary-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sum-of-root-to-leaf-binary-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Root To Leaf Binary Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Root To Leaf Binary Numbers - Solution Explained/problem-solving.webp
     alt: Sum Of Root To Leaf Binary Numbers
     hiddenInList: true
     hiddenInSingle: false

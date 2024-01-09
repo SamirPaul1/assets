@@ -4,10 +4,9 @@ summary: Maximum Product Of An Increasing Subsequence Of Size 3 - Interviewbit S
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Maximum Product Of An Increasing Subsequence Of Size 3 solution]
-aliases: ["/posts/maximum-product-of-an-increasing-subsequence-of-size-3", "/blog/posts/maximum-product-of-an-increasing-subsequence-of-size-3", "/maximum-product-of-an-increasing-subsequence-of-size-3"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Maximum Product Of An Increasing Subsequence Of Size 3 Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Product Of An Increasing Subsequence Of Size 3 - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Maximum Product Of An Increasing Subsequence Of Size 3 - Solution Explained/problem-solving.webp
     alt: Maximum Product Of An Increasing Subsequence Of Size 3
     hiddenInList: true
     hiddenInSingle: false

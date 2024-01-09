@@ -4,10 +4,9 @@ summary: Best Time To Buy And Sell Stocks I - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Best Time To Buy And Sell Stocks I solution]
-aliases: ["/posts/best-time-to-buy-and-sell-stocks-i", "/blog/posts/best-time-to-buy-and-sell-stocks-i", "/best-time-to-buy-and-sell-stocks-i"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Best Time To Buy And Sell Stocks I Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Best Time To Buy And Sell Stocks I - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Best Time To Buy And Sell Stocks I - Solution Explained/problem-solving.webp
     alt: Best Time To Buy And Sell Stocks I
     hiddenInList: true
     hiddenInSingle: false

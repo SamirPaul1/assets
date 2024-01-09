@@ -4,10 +4,9 @@ summary: Find N Unique Integers Sum Up To Zero LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/find-n-unique-integers-sum-up-to-zero", "/blog/posts/find-n-unique-integers-sum-up-to-zero", "/find-n-unique-integers-sum-up-to-zero"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, find-n-unique-integers-sum-up-to-zero solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "find-n-unique-integers-sum-up-to-zero LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find N Unique Integers Sum Up To Zero/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find N Unique Integers Sum Up To Zero - Solution Explained/problem-solving.webp
     alt: Find N Unique Integers Sum Up To Zero
     hiddenInList: true
     hiddenInSingle: false

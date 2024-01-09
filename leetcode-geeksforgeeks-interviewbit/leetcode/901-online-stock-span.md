@@ -4,10 +4,9 @@ summary: 901 Online Stock Span LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/901-online-stock-span", "/blog/posts/901-online-stock-span", "/901-online-stock-span"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 901-online-stock-span solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "901-online-stock-span LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:901 Online Stock Span/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:901 Online Stock Span - Solution Explained/problem-solving.webp
     alt: 901 Online Stock Span
     hiddenInList: true
     hiddenInSingle: false

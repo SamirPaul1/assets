@@ -4,10 +4,9 @@ summary: Number Of Islands LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/number-of-islands", "/blog/posts/number-of-islands", "/number-of-islands"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-islands solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "number-of-islands LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Islands/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Islands - Solution Explained/problem-solving.webp
     alt: Number Of Islands
     hiddenInList: true
     hiddenInSingle: false

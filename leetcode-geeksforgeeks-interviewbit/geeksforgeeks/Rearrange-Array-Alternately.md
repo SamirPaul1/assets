@@ -4,10 +4,9 @@ summary: Rearrange Array Alternately - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Rearrange-Array-Alternately", "/blog/posts/Rearrange-Array-Alternately", "/Rearrange-Array-Alternately", "/blog/Rearrange-Array-Alternately",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Rearrange Array Alternately solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Rearrange Array Alternately Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rearrange Array Alternately - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rearrange Array Alternately - Solution Explained/problem-solving.webp
     alt: Rearrange Array Alternately
     hiddenInList: true
     hiddenInSingle: false

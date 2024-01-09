@@ -4,10 +4,9 @@ summary: Split Linked List In Parts LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/split-linked-list-in-parts", "/blog/posts/split-linked-list-in-parts", "/split-linked-list-in-parts"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, split-linked-list-in-parts solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "split-linked-list-in-parts LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Split Linked List In Parts/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Split Linked List In Parts - Solution Explained/problem-solving.webp
     alt: Split Linked List In Parts
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: N Queens LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/n-queens", "/blog/posts/n-queens", "/n-queens"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, n-queens solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "n-queens LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:N Queens/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:N Queens - Solution Explained/problem-solving.webp
     alt: N Queens
     hiddenInList: true
     hiddenInSingle: false

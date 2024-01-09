@@ -4,10 +4,9 @@ summary: Infinite String - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Infinite String solution]
-aliases: ["/posts/infinite-string", "/blog/posts/infinite-string", "/infinite-string"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Infinite String Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Infinite String - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Infinite String - Solution Explained/problem-solving.webp
     alt: Infinite String
     hiddenInList: true
     hiddenInSingle: false

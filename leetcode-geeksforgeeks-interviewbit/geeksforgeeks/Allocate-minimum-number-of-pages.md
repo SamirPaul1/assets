@@ -4,10 +4,9 @@ summary: Allocate Minimum Number Of Pages - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Allocate-minimum-number-of-pages", "/blog/posts/Allocate-minimum-number-of-pages", "/Allocate-minimum-number-of-pages", "/blog/Allocate-minimum-number-of-pages",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Allocate Minimum Number Of Pages solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Allocate Minimum Number Of Pages Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Allocate Minimum Number Of Pages - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Allocate Minimum Number Of Pages - Solution Explained/problem-solving.webp
     alt: Allocate Minimum Number Of Pages
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Detect And Remove Loop From A Linked List - Interviewbit Solution Expla
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Detect And Remove Loop From A Linked List solution]
-aliases: ["/posts/detect-and-remove-loop-from-a-linked-list", "/blog/posts/detect-and-remove-loop-from-a-linked-list", "/detect-and-remove-loop-from-a-linked-list"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Detect And Remove Loop From A Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Detect And Remove Loop From A Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Detect And Remove Loop From A Linked List - Solution Explained/problem-solving.webp
     alt: Detect And Remove Loop From A Linked List
     hiddenInList: true
     hiddenInSingle: false

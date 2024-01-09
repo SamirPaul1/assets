@@ -4,10 +4,9 @@ summary: 538 Convert Bst To Greater Tree LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/538-convert-bst-to-greater-tree", "/blog/posts/538-convert-bst-to-greater-tree", "/538-convert-bst-to-greater-tree"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 538-convert-bst-to-greater-tree solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "538-convert-bst-to-greater-tree LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:538 Convert Bst To Greater Tree/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:538 Convert Bst To Greater Tree - Solution Explained/problem-solving.webp
     alt: 538 Convert Bst To Greater Tree
     hiddenInList: true
     hiddenInSingle: false

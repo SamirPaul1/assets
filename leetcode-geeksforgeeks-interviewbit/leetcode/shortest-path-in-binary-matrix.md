@@ -4,10 +4,9 @@ summary: Shortest Path In Binary Matrix LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/shortest-path-in-binary-matrix", "/blog/posts/shortest-path-in-binary-matrix", "/shortest-path-in-binary-matrix"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, shortest-path-in-binary-matrix solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "shortest-path-in-binary-matrix LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Path In Binary Matrix/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Shortest Path In Binary Matrix - Solution Explained/problem-solving.webp
     alt: Shortest Path In Binary Matrix
     hiddenInList: true
     hiddenInSingle: false

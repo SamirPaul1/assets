@@ -4,10 +4,9 @@ summary: Unique Email Addresses LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/unique-email-addresses", "/blog/posts/unique-email-addresses", "/unique-email-addresses"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, unique-email-addresses solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "unique-email-addresses LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Unique Email Addresses/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Unique Email Addresses - Solution Explained/problem-solving.webp
     alt: Unique Email Addresses
     hiddenInList: true
     hiddenInSingle: false

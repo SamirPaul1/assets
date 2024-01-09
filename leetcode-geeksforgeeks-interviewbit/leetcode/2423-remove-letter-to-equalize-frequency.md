@@ -4,10 +4,9 @@ summary: 2423 Remove Letter To Equalize Frequency LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2423-remove-letter-to-equalize-frequency", "/blog/posts/2423-remove-letter-to-equalize-frequency", "/2423-remove-letter-to-equalize-frequency"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2423-remove-letter-to-equalize-frequency solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2423-remove-letter-to-equalize-frequency LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2423 Remove Letter To Equalize Frequency/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2423 Remove Letter To Equalize Frequency - Solution Explained/problem-solving.webp
     alt: 2423 Remove Letter To Equalize Frequency
     hiddenInList: true
     hiddenInSingle: false

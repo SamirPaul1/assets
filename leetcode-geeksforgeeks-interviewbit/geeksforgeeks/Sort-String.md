@@ -4,10 +4,9 @@ summary: Sort String - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sort-String", "/blog/posts/Sort-String", "/Sort-String", "/blog/Sort-String",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sort String solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sort String Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort String - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sort String - Solution Explained/problem-solving.webp
     alt: Sort String
     hiddenInList: true
     hiddenInSingle: false

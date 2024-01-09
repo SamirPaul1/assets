@@ -4,10 +4,9 @@ summary: 1545 Find Kth Bit In Nth Binary String LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1545-find-kth-bit-in-nth-binary-string", "/blog/posts/1545-find-kth-bit-in-nth-binary-string", "/1545-find-kth-bit-in-nth-binary-string"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1545-find-kth-bit-in-nth-binary-string solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1545-find-kth-bit-in-nth-binary-string LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1545 Find Kth Bit In Nth Binary String/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1545 Find Kth Bit In Nth Binary String - Solution Explained/problem-solving.webp
     alt: 1545 Find Kth Bit In Nth Binary String
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Possible Bipartition LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/possible-bipartition", "/blog/posts/possible-bipartition", "/possible-bipartition"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, possible-bipartition solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "possible-bipartition LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Possible Bipartition/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Possible Bipartition - Solution Explained/problem-solving.webp
     alt: Possible Bipartition
     hiddenInList: true
     hiddenInSingle: false

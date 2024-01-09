@@ -4,10 +4,9 @@ summary: Longest Consecutive Sequence - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Consecutive Sequence solution]
-aliases: ["/posts/longest-consecutive-sequence", "/blog/posts/longest-consecutive-sequence", "/longest-consecutive-sequence"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Longest Consecutive Sequence Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Consecutive Sequence - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Consecutive Sequence - Solution Explained/problem-solving.webp
     alt: Longest Consecutive Sequence
     hiddenInList: true
     hiddenInSingle: false

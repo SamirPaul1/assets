@@ -4,10 +4,9 @@ summary: Number Of Dice Rolls With Target Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/number-of-dice-rolls-with-target-sum", "/blog/posts/number-of-dice-rolls-with-target-sum", "/number-of-dice-rolls-with-target-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-dice-rolls-with-target-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "number-of-dice-rolls-with-target-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Dice Rolls With Target Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Dice Rolls With Target Sum - Solution Explained/problem-solving.webp
     alt: Number Of Dice Rolls With Target Sum
     hiddenInList: true
     hiddenInSingle: false

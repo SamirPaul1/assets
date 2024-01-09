@@ -4,10 +4,9 @@ summary: Rotting Oranges LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/rotting-oranges", "/blog/posts/rotting-oranges", "/rotting-oranges"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, rotting-oranges solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "rotting-oranges LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotting Oranges/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rotting Oranges - Solution Explained/problem-solving.webp
     alt: Rotting Oranges
     hiddenInList: true
     hiddenInSingle: false

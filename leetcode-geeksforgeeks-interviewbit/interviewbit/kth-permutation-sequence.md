@@ -4,10 +4,9 @@ summary: Kth Permutation Sequence - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Kth Permutation Sequence solution]
-aliases: ["/posts/kth-permutation-sequence", "/blog/posts/kth-permutation-sequence", "/kth-permutation-sequence"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Kth Permutation Sequence Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Kth Permutation Sequence - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Kth Permutation Sequence - Solution Explained/problem-solving.webp
     alt: Kth Permutation Sequence
     hiddenInList: true
     hiddenInSingle: false

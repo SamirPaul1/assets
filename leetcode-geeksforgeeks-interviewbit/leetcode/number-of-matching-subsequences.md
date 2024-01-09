@@ -4,10 +4,9 @@ summary: Number Of Matching Subsequences LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/number-of-matching-subsequences", "/blog/posts/number-of-matching-subsequences", "/number-of-matching-subsequences"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-matching-subsequences solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "number-of-matching-subsequences LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Matching Subsequences/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Matching Subsequences - Solution Explained/problem-solving.webp
     alt: Number Of Matching Subsequences
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Array 3 Pointers - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Array 3 Pointers solution]
-aliases: ["/posts/array-3-pointers", "/blog/posts/array-3-pointers", "/array-3-pointers"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Array 3 Pointers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Array 3 Pointers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Array 3 Pointers - Solution Explained/problem-solving.webp
     alt: Array 3 Pointers
     hiddenInList: true
     hiddenInSingle: false

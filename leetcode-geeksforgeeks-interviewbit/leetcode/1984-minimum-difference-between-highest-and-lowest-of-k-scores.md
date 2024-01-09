@@ -4,10 +4,9 @@ summary: 1984 Minimum Difference Between Highest And Lowest Of K Scores LeetCode
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1984-minimum-difference-between-highest-and-lowest-of-k-scores", "/blog/posts/1984-minimum-difference-between-highest-and-lowest-of-k-scores", "/1984-minimum-difference-between-highest-and-lowest-of-k-scores"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1984-minimum-difference-between-highest-and-lowest-of-k-scores solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1984-minimum-difference-between-highest-and-lowest-of-k-scores LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1984 Minimum Difference Between Highest And Lowest Of K Scores/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1984 Minimum Difference Between Highest And Lowest Of K Scores - Solution Explained/problem-solving.webp
     alt: 1984 Minimum Difference Between Highest And Lowest Of K Scores
     hiddenInList: true
     hiddenInSingle: false

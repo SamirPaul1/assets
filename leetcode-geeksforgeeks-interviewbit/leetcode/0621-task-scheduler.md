@@ -4,10 +4,9 @@ summary: 0621 Task Scheduler LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0621-task-scheduler", "/blog/posts/0621-task-scheduler", "/0621-task-scheduler"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0621-task-scheduler solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0621-task-scheduler LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0621 Task Scheduler/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0621 Task Scheduler - Solution Explained/problem-solving.webp
     alt: 0621 Task Scheduler
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Sorted Permutation Rank - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sorted Permutation Rank solution]
-aliases: ["/posts/sorted-permutation-rank", "/blog/posts/sorted-permutation-rank", "/sorted-permutation-rank"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Sorted Permutation Rank Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sorted Permutation Rank - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sorted Permutation Rank - Solution Explained/problem-solving.webp
     alt: Sorted Permutation Rank
     hiddenInList: true
     hiddenInSingle: false

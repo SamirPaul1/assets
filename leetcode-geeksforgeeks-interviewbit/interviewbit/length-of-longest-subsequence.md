@@ -4,10 +4,9 @@ summary: Length Of Longest Subsequence - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Length Of Longest Subsequence solution]
-aliases: ["/posts/length-of-longest-subsequence", "/blog/posts/length-of-longest-subsequence", "/length-of-longest-subsequence"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Length Of Longest Subsequence Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Length Of Longest Subsequence - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Length Of Longest Subsequence - Solution Explained/problem-solving.webp
     alt: Length Of Longest Subsequence
     hiddenInList: true
     hiddenInSingle: false

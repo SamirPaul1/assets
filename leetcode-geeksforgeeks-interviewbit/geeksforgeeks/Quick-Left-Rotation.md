@@ -4,10 +4,9 @@ summary: Quick Left Rotation - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Quick-Left-Rotation", "/blog/posts/Quick-Left-Rotation", "/Quick-Left-Rotation", "/blog/Quick-Left-Rotation",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Quick Left Rotation solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Quick Left Rotation Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Quick Left Rotation - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Quick Left Rotation - Solution Explained/problem-solving.webp
     alt: Quick Left Rotation
     hiddenInList: true
     hiddenInSingle: false

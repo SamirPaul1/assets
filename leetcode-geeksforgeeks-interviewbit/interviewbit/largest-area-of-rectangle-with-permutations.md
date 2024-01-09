@@ -4,10 +4,9 @@ summary: Largest Area Of Rectangle With Permutations - Interviewbit Solution Exp
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Largest Area Of Rectangle With Permutations solution]
-aliases: ["/posts/largest-area-of-rectangle-with-permutations", "/blog/posts/largest-area-of-rectangle-with-permutations", "/largest-area-of-rectangle-with-permutations"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Largest Area Of Rectangle With Permutations Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Area Of Rectangle With Permutations - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Largest Area Of Rectangle With Permutations - Solution Explained/problem-solving.webp
     alt: Largest Area Of Rectangle With Permutations
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Minimum Window Substring LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/minimum-window-substring", "/blog/posts/minimum-window-substring", "/minimum-window-substring"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, minimum-window-substring solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "minimum-window-substring LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Window Substring/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Window Substring - Solution Explained/problem-solving.webp
     alt: Minimum Window Substring
     hiddenInList: true
     hiddenInSingle: false

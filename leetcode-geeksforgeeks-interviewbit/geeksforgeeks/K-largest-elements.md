@@ -4,10 +4,9 @@ summary: K Largest Elements - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/K-largest-elements", "/blog/posts/K-largest-elements", "/K-largest-elements", "/blog/K-largest-elements",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, K Largest Elements solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "K Largest Elements Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:K Largest Elements - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:K Largest Elements - Solution Explained/problem-solving.webp
     alt: K Largest Elements
     hiddenInList: true
     hiddenInSingle: false

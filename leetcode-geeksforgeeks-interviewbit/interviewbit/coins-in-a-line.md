@@ -4,10 +4,9 @@ summary: Coins In A Line - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Coins In A Line solution]
-aliases: ["/posts/coins-in-a-line", "/blog/posts/coins-in-a-line", "/coins-in-a-line"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Coins In A Line Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Coins In A Line - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Coins In A Line - Solution Explained/problem-solving.webp
     alt: Coins In A Line
     hiddenInList: true
     hiddenInSingle: false

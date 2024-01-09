@@ -4,10 +4,9 @@ summary: Sum Of Array - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sum-of-Array", "/blog/posts/Sum-of-Array", "/Sum-of-Array", "/blog/Sum-of-Array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sum Of Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sum Of Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Array - Solution Explained/problem-solving.webp
     alt: Sum Of Array
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 47 Permutations Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/47-permutations-ii", "/blog/posts/47-permutations-ii", "/47-permutations-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 47-permutations-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "47-permutations-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:47 Permutations Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:47 Permutations Ii - Solution Explained/problem-solving.webp
     alt: 47 Permutations Ii
     hiddenInList: true
     hiddenInSingle: false

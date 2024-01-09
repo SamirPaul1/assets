@@ -4,10 +4,9 @@ summary: Actors And Their Movies - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Actors And Their Movies solution]
-aliases: ["/posts/actors-and-their-movies", "/blog/posts/actors-and-their-movies", "/actors-and-their-movies"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Actors And Their Movies Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Actors And Their Movies - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Actors And Their Movies - Solution Explained/problem-solving.webp
     alt: Actors And Their Movies
     hiddenInList: true
     hiddenInSingle: false

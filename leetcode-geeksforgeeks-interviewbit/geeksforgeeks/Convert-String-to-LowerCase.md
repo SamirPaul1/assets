@@ -4,10 +4,9 @@ summary: Convert String To Lowercase - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Convert-String-to-LowerCase", "/blog/posts/Convert-String-to-LowerCase", "/Convert-String-to-LowerCase", "/blog/Convert-String-to-LowerCase",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Convert String To Lowercase solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Convert String To Lowercase Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Convert String To Lowercase - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Convert String To Lowercase - Solution Explained/problem-solving.webp
     alt: Convert String To Lowercase
     hiddenInList: true
     hiddenInSingle: false

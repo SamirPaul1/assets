@@ -4,10 +4,9 @@ summary: Maximum Subarray LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/maximum-subarray", "/blog/posts/maximum-subarray", "/maximum-subarray"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, maximum-subarray solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "maximum-subarray LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Subarray/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Maximum Subarray - Solution Explained/problem-solving.webp
     alt: Maximum Subarray
     hiddenInList: true
     hiddenInSingle: false

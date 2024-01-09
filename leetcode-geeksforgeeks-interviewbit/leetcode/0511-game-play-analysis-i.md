@@ -4,10 +4,9 @@ summary: 0511 Game Play Analysis I LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0511-game-play-analysis-i", "/blog/posts/0511-game-play-analysis-i", "/0511-game-play-analysis-i"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0511-game-play-analysis-i solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0511-game-play-analysis-i LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0511 Game Play Analysis I/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0511 Game Play Analysis I - Solution Explained/problem-solving.webp
     alt: 0511 Game Play Analysis I
     hiddenInList: true
     hiddenInSingle: false

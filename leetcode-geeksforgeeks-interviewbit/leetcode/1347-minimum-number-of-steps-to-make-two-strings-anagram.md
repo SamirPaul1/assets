@@ -4,10 +4,9 @@ summary: 1347 Minimum Number Of Steps To Make Two Strings Anagram LeetCode Solut
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1347-minimum-number-of-steps-to-make-two-strings-anagram", "/blog/posts/1347-minimum-number-of-steps-to-make-two-strings-anagram", "/1347-minimum-number-of-steps-to-make-two-strings-anagram"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1347-minimum-number-of-steps-to-make-two-strings-anagram solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1347-minimum-number-of-steps-to-make-two-strings-anagram LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1347 Minimum Number Of Steps To Make Two Strings Anagram/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1347 Minimum Number Of Steps To Make Two Strings Anagram - Solution Explained/problem-solving.webp
     alt: 1347 Minimum Number Of Steps To Make Two Strings Anagram
     hiddenInList: true
     hiddenInSingle: false

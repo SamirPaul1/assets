@@ -4,10 +4,9 @@ summary: 1014 Best Sightseeing Pair LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1014-best-sightseeing-pair", "/blog/posts/1014-best-sightseeing-pair", "/1014-best-sightseeing-pair"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1014-best-sightseeing-pair solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1014-best-sightseeing-pair LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1014 Best Sightseeing Pair/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1014 Best Sightseeing Pair - Solution Explained/problem-solving.webp
     alt: 1014 Best Sightseeing Pair
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Power Of 2 - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Power-of-2", "/blog/posts/Power-of-2", "/Power-of-2", "/blog/Power-of-2",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Power Of 2 solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Power Of 2 Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Power Of 2 - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Power Of 2 - Solution Explained/problem-solving.webp
     alt: Power Of 2
     hiddenInList: true
     hiddenInSingle: false

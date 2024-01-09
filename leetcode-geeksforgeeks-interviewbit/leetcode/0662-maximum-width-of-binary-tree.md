@@ -4,10 +4,9 @@ summary: 0662 Maximum Width Of Binary Tree LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0662-maximum-width-of-binary-tree", "/blog/posts/0662-maximum-width-of-binary-tree", "/0662-maximum-width-of-binary-tree"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0662-maximum-width-of-binary-tree solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0662-maximum-width-of-binary-tree LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0662 Maximum Width Of Binary Tree/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0662 Maximum Width Of Binary Tree - Solution Explained/problem-solving.webp
     alt: 0662 Maximum Width Of Binary Tree
     hiddenInList: true
     hiddenInSingle: false

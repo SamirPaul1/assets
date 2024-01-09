@@ -4,10 +4,9 @@ summary: Longest Increasing Subsequence - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Increasing Subsequence solution]
-aliases: ["/posts/longest-increasing-subsequence", "/blog/posts/longest-increasing-subsequence", "/longest-increasing-subsequence"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Longest Increasing Subsequence Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Increasing Subsequence - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Increasing Subsequence - Solution Explained/problem-solving.webp
     alt: Longest Increasing Subsequence
     hiddenInList: true
     hiddenInSingle: false

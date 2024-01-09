@@ -4,10 +4,9 @@ summary: Power Of Numbers - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Power-Of-Numbers", "/blog/posts/Power-Of-Numbers", "/Power-Of-Numbers", "/blog/Power-Of-Numbers",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Power Of Numbers solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Power Of Numbers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Power Of Numbers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Power Of Numbers - Solution Explained/problem-solving.webp
     alt: Power Of Numbers
     hiddenInList: true
     hiddenInSingle: false

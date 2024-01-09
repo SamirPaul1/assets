@@ -4,10 +4,9 @@ summary: 769 Max Chunks To Make Sorted LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/769-max-chunks-to-make-sorted", "/blog/posts/769-max-chunks-to-make-sorted", "/769-max-chunks-to-make-sorted"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 769-max-chunks-to-make-sorted solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "769-max-chunks-to-make-sorted LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:769 Max Chunks To Make Sorted/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:769 Max Chunks To Make Sorted - Solution Explained/problem-solving.webp
     alt: 769 Max Chunks To Make Sorted
     hiddenInList: true
     hiddenInSingle: false

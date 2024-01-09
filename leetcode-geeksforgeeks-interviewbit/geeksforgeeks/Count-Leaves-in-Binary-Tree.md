@@ -4,10 +4,9 @@ summary: Count Leaves In Binary Tree - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Count-Leaves-in-Binary-Tree", "/blog/posts/Count-Leaves-in-Binary-Tree", "/Count-Leaves-in-Binary-Tree", "/blog/Count-Leaves-in-Binary-Tree",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Count Leaves In Binary Tree solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Count Leaves In Binary Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Leaves In Binary Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Leaves In Binary Tree - Solution Explained/problem-solving.webp
     alt: Count Leaves In Binary Tree
     hiddenInList: true
     hiddenInSingle: false

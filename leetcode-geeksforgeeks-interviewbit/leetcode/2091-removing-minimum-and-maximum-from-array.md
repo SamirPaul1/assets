@@ -4,10 +4,9 @@ summary: 2091 Removing Minimum And Maximum From Array LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2091-removing-minimum-and-maximum-from-array", "/blog/posts/2091-removing-minimum-and-maximum-from-array", "/2091-removing-minimum-and-maximum-from-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2091-removing-minimum-and-maximum-from-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2091-removing-minimum-and-maximum-from-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2091 Removing Minimum And Maximum From Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2091 Removing Minimum And Maximum From Array - Solution Explained/problem-solving.webp
     alt: 2091 Removing Minimum And Maximum From Array
     hiddenInList: true
     hiddenInSingle: false

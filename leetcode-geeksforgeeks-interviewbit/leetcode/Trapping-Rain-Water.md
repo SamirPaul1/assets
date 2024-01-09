@@ -4,10 +4,9 @@ summary: Trapping Rain Water LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Trapping-Rain-Water", "/blog/posts/Trapping-Rain-Water", "/Trapping-Rain-Water"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Trapping Rain Water solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Trapping Rain Water LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Trapping Rain Water/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Trapping Rain Water - Solution Explained/problem-solving.webp
     alt: Trapping Rain Water
     hiddenInList: true
     hiddenInSingle: false

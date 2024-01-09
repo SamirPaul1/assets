@@ -4,10 +4,9 @@ summary: Middle Of The Linked List LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/middle-of-the-linked-list", "/blog/posts/middle-of-the-linked-list", "/middle-of-the-linked-list"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, middle-of-the-linked-list solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "middle-of-the-linked-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Middle Of The Linked List/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Middle Of The Linked List - Solution Explained/problem-solving.webp
     alt: Middle Of The Linked List
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Boats To Save People LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/boats-to-save-people", "/blog/posts/boats-to-save-people", "/boats-to-save-people"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, boats-to-save-people solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "boats-to-save-people LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Boats To Save People/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Boats To Save People - Solution Explained/problem-solving.webp
     alt: Boats To Save People
     hiddenInList: true
     hiddenInSingle: false

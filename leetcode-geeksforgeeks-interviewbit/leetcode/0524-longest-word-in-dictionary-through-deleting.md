@@ -4,10 +4,9 @@ summary: 0524 Longest Word In Dictionary Through Deleting LeetCode Solution Expl
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0524-longest-word-in-dictionary-through-deleting", "/blog/posts/0524-longest-word-in-dictionary-through-deleting", "/0524-longest-word-in-dictionary-through-deleting"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0524-longest-word-in-dictionary-through-deleting solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0524-longest-word-in-dictionary-through-deleting LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0524 Longest Word In Dictionary Through Deleting/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0524 Longest Word In Dictionary Through Deleting - Solution Explained/problem-solving.webp
     alt: 0524 Longest Word In Dictionary Through Deleting
     hiddenInList: true
     hiddenInSingle: false

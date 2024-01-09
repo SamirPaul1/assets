@@ -4,10 +4,9 @@ summary: Shortest Path In A Grid With Obstacles Elimination LeetCode Solution Ex
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/shortest-path-in-a-grid-with-obstacles-elimination", "/blog/posts/shortest-path-in-a-grid-with-obstacles-elimination", "/shortest-path-in-a-grid-with-obstacles-elimination"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, shortest-path-in-a-grid-with-obstacles-elimination solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "shortest-path-in-a-grid-with-obstacles-elimination LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Path In A Grid With Obstacles Elimination/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Shortest Path In A Grid With Obstacles Elimination - Solution Explained/problem-solving.webp
     alt: Shortest Path In A Grid With Obstacles Elimination
     hiddenInList: true
     hiddenInSingle: false

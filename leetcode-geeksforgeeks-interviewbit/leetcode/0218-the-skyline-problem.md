@@ -4,10 +4,9 @@ summary: 0218 The Skyline Problem LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0218-the-skyline-problem", "/blog/posts/0218-the-skyline-problem", "/0218-the-skyline-problem"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0218-the-skyline-problem solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0218-the-skyline-problem LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0218 The Skyline Problem/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0218 The Skyline Problem - Solution Explained/problem-solving.webp
     alt: 0218 The Skyline Problem
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: The Nth Fibonnaci - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/The-Nth-Fibonnaci", "/blog/posts/The-Nth-Fibonnaci", "/The-Nth-Fibonnaci", "/blog/The-Nth-Fibonnaci",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, The Nth Fibonnaci solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "The Nth Fibonnaci Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:The Nth Fibonnaci - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:The Nth Fibonnaci - Solution Explained/problem-solving.webp
     alt: The Nth Fibonnaci
     hiddenInList: true
     hiddenInSingle: false

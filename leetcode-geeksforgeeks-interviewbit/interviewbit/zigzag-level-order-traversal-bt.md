@@ -4,10 +4,9 @@ summary: Zigzag Level Order Traversal Bt - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Zigzag Level Order Traversal Bt solution]
-aliases: ["/posts/zigzag-level-order-traversal-bt", "/blog/posts/zigzag-level-order-traversal-bt", "/zigzag-level-order-traversal-bt"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Zigzag Level Order Traversal Bt Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Zigzag Level Order Traversal Bt - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Zigzag Level Order Traversal Bt - Solution Explained/problem-solving.webp
     alt: Zigzag Level Order Traversal Bt
     hiddenInList: true
     hiddenInSingle: false

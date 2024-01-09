@@ -4,10 +4,9 @@ summary: 0424 Longest Repeating Character Replacement LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0424-longest-repeating-character-replacement", "/blog/posts/0424-longest-repeating-character-replacement", "/0424-longest-repeating-character-replacement"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0424-longest-repeating-character-replacement solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0424-longest-repeating-character-replacement LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0424 Longest Repeating Character Replacement/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0424 Longest Repeating Character Replacement - Solution Explained/problem-solving.webp
     alt: 0424 Longest Repeating Character Replacement
     hiddenInList: true
     hiddenInSingle: false

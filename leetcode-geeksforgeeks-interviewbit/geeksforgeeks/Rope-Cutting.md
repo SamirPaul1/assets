@@ -4,10 +4,9 @@ summary: Rope Cutting - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Rope-Cutting", "/blog/posts/Rope-Cutting", "/Rope-Cutting", "/blog/Rope-Cutting",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Rope Cutting solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Rope Cutting Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rope Cutting - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rope Cutting - Solution Explained/problem-solving.webp
     alt: Rope Cutting
     hiddenInList: true
     hiddenInSingle: false

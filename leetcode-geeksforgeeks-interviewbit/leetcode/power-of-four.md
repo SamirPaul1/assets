@@ -4,10 +4,9 @@ summary: Power Of Four LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/power-of-four", "/blog/posts/power-of-four", "/power-of-four"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, power-of-four solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "power-of-four LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Power Of Four/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Power Of Four - Solution Explained/problem-solving.webp
     alt: Power Of Four
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 143 Reorder List LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/143-reorder-list", "/blog/posts/143-reorder-list", "/143-reorder-list"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 143-reorder-list solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "143-reorder-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:143 Reorder List/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:143 Reorder List - Solution Explained/problem-solving.webp
     alt: 143 Reorder List
     hiddenInList: true
     hiddenInSingle: false

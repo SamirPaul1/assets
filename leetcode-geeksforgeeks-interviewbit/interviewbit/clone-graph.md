@@ -4,10 +4,9 @@ summary: Clone Graph - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Clone Graph solution]
-aliases: ["/posts/clone-graph", "/blog/posts/clone-graph", "/clone-graph"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Clone Graph Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Clone Graph - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Clone Graph - Solution Explained/problem-solving.webp
     alt: Clone Graph
     hiddenInList: true
     hiddenInSingle: false

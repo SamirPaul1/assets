@@ -4,10 +4,9 @@ summary: Largest Element In Array - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Largest-Element-in-Array", "/blog/posts/Largest-Element-in-Array", "/Largest-Element-in-Array", "/blog/Largest-Element-in-Array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Largest Element In Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Largest Element In Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Element In Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Largest Element In Array - Solution Explained/problem-solving.webp
     alt: Largest Element In Array
     hiddenInList: true
     hiddenInSingle: false

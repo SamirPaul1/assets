@@ -4,10 +4,9 @@ summary: Median Of 2 Sorted Arrays Of Different Sizes - GeeksforGeeks Solution E
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Median-of-2-Sorted-Arrays-of-Different-Sizes", "/blog/posts/Median-of-2-Sorted-Arrays-of-Different-Sizes", "/Median-of-2-Sorted-Arrays-of-Different-Sizes", "/blog/Median-of-2-Sorted-Arrays-of-Different-Sizes",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Median Of 2 Sorted Arrays Of Different Sizes solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Median Of 2 Sorted Arrays Of Different Sizes Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Median Of 2 Sorted Arrays Of Different Sizes - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Median Of 2 Sorted Arrays Of Different Sizes - Solution Explained/problem-solving.webp
     alt: Median Of 2 Sorted Arrays Of Different Sizes
     hiddenInList: true
     hiddenInSingle: false

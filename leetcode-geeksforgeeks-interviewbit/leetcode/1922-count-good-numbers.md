@@ -4,10 +4,9 @@ summary: 1922 Count Good Numbers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1922-count-good-numbers", "/blog/posts/1922-count-good-numbers", "/1922-count-good-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1922-count-good-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1922-count-good-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1922 Count Good Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1922 Count Good Numbers - Solution Explained/problem-solving.webp
     alt: 1922 Count Good Numbers
     hiddenInList: true
     hiddenInSingle: false

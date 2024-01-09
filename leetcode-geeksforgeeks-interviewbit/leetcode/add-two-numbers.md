@@ -4,10 +4,9 @@ summary: Add Two Numbers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/add-two-numbers", "/blog/posts/add-two-numbers", "/add-two-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, add-two-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "add-two-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Add Two Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Add Two Numbers - Solution Explained/problem-solving.webp
     alt: Add Two Numbers
     hiddenInList: true
     hiddenInSingle: false

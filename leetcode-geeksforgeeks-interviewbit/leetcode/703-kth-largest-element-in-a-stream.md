@@ -4,10 +4,9 @@ summary: 703 Kth Largest Element In A Stream LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/703-kth-largest-element-in-a-stream", "/blog/posts/703-kth-largest-element-in-a-stream", "/703-kth-largest-element-in-a-stream"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 703-kth-largest-element-in-a-stream solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "703-kth-largest-element-in-a-stream LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:703 Kth Largest Element In A Stream/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:703 Kth Largest Element In A Stream - Solution Explained/problem-solving.webp
     alt: 703 Kth Largest Element In A Stream
     hiddenInList: true
     hiddenInSingle: false

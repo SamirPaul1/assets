@@ -4,10 +4,9 @@ summary: Clone Graph LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/clone-graph", "/blog/posts/clone-graph", "/clone-graph"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, clone-graph solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "clone-graph LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Clone Graph/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Clone Graph - Solution Explained/problem-solving.webp
     alt: Clone Graph
     hiddenInList: true
     hiddenInSingle: false

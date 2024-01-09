@@ -4,10 +4,9 @@ summary: First Non Repeating Character In A Stream Of Characters - Interviewbit 
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, First Non Repeating Character In A Stream Of Characters solution]
-aliases: ["/posts/first-non-repeating-character-in-a-stream-of-characters", "/blog/posts/first-non-repeating-character-in-a-stream-of-characters", "/first-non-repeating-character-in-a-stream-of-characters"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "First Non Repeating Character In A Stream Of Characters Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:First Non Repeating Character In A Stream Of Characters - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:First Non Repeating Character In A Stream Of Characters - Solution Explained/problem-solving.webp
     alt: First Non Repeating Character In A Stream Of Characters
     hiddenInList: true
     hiddenInSingle: false

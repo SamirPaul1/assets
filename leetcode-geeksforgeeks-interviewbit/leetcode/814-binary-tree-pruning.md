@@ -4,10 +4,9 @@ summary: 814 Binary Tree Pruning LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/814-binary-tree-pruning", "/blog/posts/814-binary-tree-pruning", "/814-binary-tree-pruning"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 814-binary-tree-pruning solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "814-binary-tree-pruning LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:814 Binary Tree Pruning/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:814 Binary Tree Pruning - Solution Explained/problem-solving.webp
     alt: 814 Binary Tree Pruning
     hiddenInList: true
     hiddenInSingle: false

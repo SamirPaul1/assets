@@ -4,10 +4,9 @@ summary: Merge Intervals - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge Intervals solution]
-aliases: ["/posts/merge-intervals", "/blog/posts/merge-intervals", "/merge-intervals"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Merge Intervals Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Intervals - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Merge Intervals - Solution Explained/problem-solving.webp
     alt: Merge Intervals
     hiddenInList: true
     hiddenInSingle: false

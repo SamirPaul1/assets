@@ -4,10 +4,9 @@ summary: Sum Of All Submatrices - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sum Of All Submatrices solution]
-aliases: ["/posts/sum-of-all-submatrices", "/blog/posts/sum-of-all-submatrices", "/sum-of-all-submatrices"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Sum Of All Submatrices Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of All Submatrices - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of All Submatrices - Solution Explained/problem-solving.webp
     alt: Sum Of All Submatrices
     hiddenInList: true
     hiddenInSingle: false

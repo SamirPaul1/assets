@@ -4,10 +4,9 @@ summary: 438 Find All Anagrams In A String LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/438-find-all-anagrams-in-a-string", "/blog/posts/438-find-all-anagrams-in-a-string", "/438-find-all-anagrams-in-a-string"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 438-find-all-anagrams-in-a-string solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "438-find-all-anagrams-in-a-string LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:438 Find All Anagrams In A String/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:438 Find All Anagrams In A String - Solution Explained/problem-solving.webp
     alt: 438 Find All Anagrams In A String
     hiddenInList: true
     hiddenInSingle: false

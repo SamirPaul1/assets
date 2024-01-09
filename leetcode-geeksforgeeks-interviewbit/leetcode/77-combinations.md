@@ -4,10 +4,9 @@ summary: 77 Combinations LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/77-combinations", "/blog/posts/77-combinations", "/77-combinations"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 77-combinations solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "77-combinations LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:77 Combinations/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:77 Combinations - Solution Explained/problem-solving.webp
     alt: 77 Combinations
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1882 Process Tasks Using Servers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1882-process-tasks-using-servers", "/blog/posts/1882-process-tasks-using-servers", "/1882-process-tasks-using-servers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1882-process-tasks-using-servers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1882-process-tasks-using-servers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1882 Process Tasks Using Servers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1882 Process Tasks Using Servers - Solution Explained/problem-solving.webp
     alt: 1882 Process Tasks Using Servers
     hiddenInList: true
     hiddenInSingle: false

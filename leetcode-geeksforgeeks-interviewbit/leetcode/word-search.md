@@ -4,10 +4,9 @@ summary: Word Search LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/word-search", "/blog/posts/word-search", "/word-search"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, word-search solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "word-search LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Search/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Search - Solution Explained/problem-solving.webp
     alt: Word Search
     hiddenInList: true
     hiddenInSingle: false

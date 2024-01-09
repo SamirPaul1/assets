@@ -4,10 +4,9 @@ summary: Knight On Chess Board - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Knight On Chess Board solution]
-aliases: ["/posts/knight-on-chess-board", "/blog/posts/knight-on-chess-board", "/knight-on-chess-board"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Knight On Chess Board Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Knight On Chess Board - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Knight On Chess Board - Solution Explained/problem-solving.webp
     alt: Knight On Chess Board
     hiddenInList: true
     hiddenInSingle: false

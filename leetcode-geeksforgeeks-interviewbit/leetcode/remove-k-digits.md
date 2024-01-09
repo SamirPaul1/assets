@@ -4,10 +4,9 @@ summary: Remove K Digits LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/remove-k-digits", "/blog/posts/remove-k-digits", "/remove-k-digits"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, remove-k-digits solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "remove-k-digits LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove K Digits/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove K Digits - Solution Explained/problem-solving.webp
     alt: Remove K Digits
     hiddenInList: true
     hiddenInSingle: false

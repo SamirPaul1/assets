@@ -4,10 +4,9 @@ summary: Leaves To Dll   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Leaves-to-DLL---GFG", "/blog/posts/Leaves-to-DLL---GFG", "/Leaves-to-DLL---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Leaves to DLL - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Leaves to DLL - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Leaves To Dll   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Leaves To Dll   Gfg - Solution Explained/problem-solving.webp
     alt: Leaves To Dll   Gfg
     hiddenInList: true
     hiddenInSingle: false

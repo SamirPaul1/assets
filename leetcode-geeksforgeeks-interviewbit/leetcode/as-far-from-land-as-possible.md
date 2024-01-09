@@ -4,10 +4,9 @@ summary: As Far From Land As Possible LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/as-far-from-land-as-possible", "/blog/posts/as-far-from-land-as-possible", "/as-far-from-land-as-possible"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, as-far-from-land-as-possible solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "as-far-from-land-as-possible LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:As Far From Land As Possible/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:As Far From Land As Possible - Solution Explained/problem-solving.webp
     alt: As Far From Land As Possible
     hiddenInList: true
     hiddenInSingle: false

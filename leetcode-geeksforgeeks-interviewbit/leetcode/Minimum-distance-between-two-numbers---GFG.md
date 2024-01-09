@@ -4,10 +4,9 @@ summary: Minimum Distance Between Two Numbers   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Minimum-distance-between-two-numbers---GFG", "/blog/posts/Minimum-distance-between-two-numbers---GFG", "/Minimum-distance-between-two-numbers---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Minimum distance between two numbers - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Minimum distance between two numbers - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Distance Between Two Numbers   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Distance Between Two Numbers   Gfg - Solution Explained/problem-solving.webp
     alt: Minimum Distance Between Two Numbers   Gfg
     hiddenInList: true
     hiddenInSingle: false

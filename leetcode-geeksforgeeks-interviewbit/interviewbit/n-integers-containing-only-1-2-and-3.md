@@ -4,10 +4,9 @@ summary: N Integers Containing Only 1 2 And 3 - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, N Integers Containing Only 1 2 And 3 solution]
-aliases: ["/posts/n-integers-containing-only-1-2-and-3", "/blog/posts/n-integers-containing-only-1-2-and-3", "/n-integers-containing-only-1-2-and-3"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "N Integers Containing Only 1 2 And 3 Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:N Integers Containing Only 1 2 And 3 - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:N Integers Containing Only 1 2 And 3 - Solution Explained/problem-solving.webp
     alt: N Integers Containing Only 1 2 And 3
     hiddenInList: true
     hiddenInSingle: false

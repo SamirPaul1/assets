@@ -4,10 +4,9 @@ summary: 0698 Partition To K Equal Sum Subsets LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0698-partition-to-k-equal-sum-subsets", "/blog/posts/0698-partition-to-k-equal-sum-subsets", "/0698-partition-to-k-equal-sum-subsets"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0698-partition-to-k-equal-sum-subsets solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0698-partition-to-k-equal-sum-subsets LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0698 Partition To K Equal Sum Subsets/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0698 Partition To K Equal Sum Subsets - Solution Explained/problem-solving.webp
     alt: 0698 Partition To K Equal Sum Subsets
     hiddenInList: true
     hiddenInSingle: false

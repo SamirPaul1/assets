@@ -4,10 +4,9 @@ summary: Fraction - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Fraction solution]
-aliases: ["/posts/fraction", "/blog/posts/fraction", "/fraction"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Fraction Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Fraction - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Fraction - Solution Explained/problem-solving.webp
     alt: Fraction
     hiddenInList: true
     hiddenInSingle: false

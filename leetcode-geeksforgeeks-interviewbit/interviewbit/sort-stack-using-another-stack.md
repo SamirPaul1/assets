@@ -4,10 +4,9 @@ summary: Sort Stack Using Another Stack - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sort Stack Using Another Stack solution]
-aliases: ["/posts/sort-stack-using-another-stack", "/blog/posts/sort-stack-using-another-stack", "/sort-stack-using-another-stack"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Sort Stack Using Another Stack Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort Stack Using Another Stack - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sort Stack Using Another Stack - Solution Explained/problem-solving.webp
     alt: Sort Stack Using Another Stack
     hiddenInList: true
     hiddenInSingle: false

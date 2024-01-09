@@ -4,10 +4,9 @@ summary: 1035 Uncrossed Lines LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1035-uncrossed-lines", "/blog/posts/1035-uncrossed-lines", "/1035-uncrossed-lines"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1035-uncrossed-lines solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1035-uncrossed-lines LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1035 Uncrossed Lines/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1035 Uncrossed Lines - Solution Explained/problem-solving.webp
     alt: 1035 Uncrossed Lines
     hiddenInList: true
     hiddenInSingle: false

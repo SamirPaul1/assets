@@ -4,10 +4,9 @@ summary: Course Schedule LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/course-schedule", "/blog/posts/course-schedule", "/course-schedule"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, course-schedule solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "course-schedule LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Course Schedule/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Course Schedule - Solution Explained/problem-solving.webp
     alt: Course Schedule
     hiddenInList: true
     hiddenInSingle: false

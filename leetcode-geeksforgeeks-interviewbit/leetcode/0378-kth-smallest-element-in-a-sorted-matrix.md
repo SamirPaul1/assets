@@ -4,10 +4,9 @@ summary: 0378 Kth Smallest Element In A Sorted Matrix LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0378-kth-smallest-element-in-a-sorted-matrix", "/blog/posts/0378-kth-smallest-element-in-a-sorted-matrix", "/0378-kth-smallest-element-in-a-sorted-matrix"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0378-kth-smallest-element-in-a-sorted-matrix solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0378-kth-smallest-element-in-a-sorted-matrix LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0378 Kth Smallest Element In A Sorted Matrix/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0378 Kth Smallest Element In A Sorted Matrix - Solution Explained/problem-solving.webp
     alt: 0378 Kth Smallest Element In A Sorted Matrix
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Valid Binary Search Tree - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Valid Binary Search Tree solution]
-aliases: ["/posts/valid-binary-search-tree", "/blog/posts/valid-binary-search-tree", "/valid-binary-search-tree"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Valid Binary Search Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Valid Binary Search Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Valid Binary Search Tree - Solution Explained/problem-solving.webp
     alt: Valid Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false

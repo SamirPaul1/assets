@@ -4,10 +4,9 @@ summary: 207 Course Schedule LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/207-course-schedule", "/blog/posts/207-course-schedule", "/207-course-schedule"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 207-course-schedule solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "207-course-schedule LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:207 Course Schedule/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:207 Course Schedule - Solution Explained/problem-solving.webp
     alt: 207 Course Schedule
     hiddenInList: true
     hiddenInSingle: false

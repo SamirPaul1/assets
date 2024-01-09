@@ -4,10 +4,9 @@ summary: Longest Arithmetic Progression - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Arithmetic Progression solution]
-aliases: ["/posts/longest-arithmetic-progression", "/blog/posts/longest-arithmetic-progression", "/longest-arithmetic-progression"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Longest Arithmetic Progression Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Arithmetic Progression - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Arithmetic Progression - Solution Explained/problem-solving.webp
     alt: Longest Arithmetic Progression
     hiddenInList: true
     hiddenInSingle: false

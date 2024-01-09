@@ -4,10 +4,9 @@ summary: Multiply Strings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/multiply-strings", "/blog/posts/multiply-strings", "/multiply-strings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, multiply-strings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "multiply-strings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Multiply Strings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Multiply Strings - Solution Explained/problem-solving.webp
     alt: Multiply Strings
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Remove Duplicates From Sorted List - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Remove Duplicates From Sorted List solution]
-aliases: ["/posts/remove-duplicates-from-sorted-list", "/blog/posts/remove-duplicates-from-sorted-list", "/remove-duplicates-from-sorted-list"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Remove Duplicates From Sorted List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Duplicates From Sorted List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove Duplicates From Sorted List - Solution Explained/problem-solving.webp
     alt: Remove Duplicates From Sorted List
     hiddenInList: true
     hiddenInSingle: false

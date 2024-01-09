@@ -4,10 +4,9 @@ summary: Trailing Zeroes In Factorial - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Trailing-zeroes-in-factorial", "/blog/posts/Trailing-zeroes-in-factorial", "/Trailing-zeroes-in-factorial", "/blog/Trailing-zeroes-in-factorial",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Trailing Zeroes In Factorial solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Trailing Zeroes In Factorial Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Trailing Zeroes In Factorial - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Trailing Zeroes In Factorial - Solution Explained/problem-solving.webp
     alt: Trailing Zeroes In Factorial
     hiddenInList: true
     hiddenInSingle: false

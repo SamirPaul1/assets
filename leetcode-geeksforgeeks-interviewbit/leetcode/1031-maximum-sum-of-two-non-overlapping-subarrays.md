@@ -4,10 +4,9 @@ summary: 1031 Maximum Sum Of Two Non Overlapping Subarrays LeetCode Solution Exp
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1031-maximum-sum-of-two-non-overlapping-subarrays", "/blog/posts/1031-maximum-sum-of-two-non-overlapping-subarrays", "/1031-maximum-sum-of-two-non-overlapping-subarrays"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1031-maximum-sum-of-two-non-overlapping-subarrays solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1031-maximum-sum-of-two-non-overlapping-subarrays LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1031 Maximum Sum Of Two Non Overlapping Subarrays/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1031 Maximum Sum Of Two Non Overlapping Subarrays - Solution Explained/problem-solving.webp
     alt: 1031 Maximum Sum Of Two Non Overlapping Subarrays
     hiddenInList: true
     hiddenInSingle: false

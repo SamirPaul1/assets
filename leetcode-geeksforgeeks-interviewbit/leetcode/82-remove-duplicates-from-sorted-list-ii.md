@@ -4,10 +4,9 @@ summary: 82 Remove Duplicates From Sorted List Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/82-remove-duplicates-from-sorted-list-ii", "/blog/posts/82-remove-duplicates-from-sorted-list-ii", "/82-remove-duplicates-from-sorted-list-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 82-remove-duplicates-from-sorted-list-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "82-remove-duplicates-from-sorted-list-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:82 Remove Duplicates From Sorted List Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:82 Remove Duplicates From Sorted List Ii - Solution Explained/problem-solving.webp
     alt: 82 Remove Duplicates From Sorted List Ii
     hiddenInList: true
     hiddenInSingle: false

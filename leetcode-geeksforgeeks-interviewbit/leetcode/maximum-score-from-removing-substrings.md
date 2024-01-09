@@ -4,10 +4,9 @@ summary: Maximum Score From Removing Substrings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/maximum-score-from-removing-substrings", "/blog/posts/maximum-score-from-removing-substrings", "/maximum-score-from-removing-substrings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, maximum-score-from-removing-substrings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "maximum-score-from-removing-substrings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximum Score From Removing Substrings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Maximum Score From Removing Substrings - Solution Explained/problem-solving.webp
     alt: Maximum Score From Removing Substrings
     hiddenInList: true
     hiddenInSingle: false

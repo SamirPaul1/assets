@@ -4,10 +4,9 @@ summary: Print 1 To N Without Using Loops - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Print-1-to-n-without-using-loops", "/blog/posts/Print-1-to-n-without-using-loops", "/Print-1-to-n-without-using-loops", "/blog/Print-1-to-n-without-using-loops",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Print 1 To N Without Using Loops solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Print 1 To N Without Using Loops Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Print 1 To N Without Using Loops - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Print 1 To N Without Using Loops - Solution Explained/problem-solving.webp
     alt: Print 1 To N Without Using Loops
     hiddenInList: true
     hiddenInSingle: false

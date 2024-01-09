@@ -4,10 +4,9 @@ summary: 28 Implement Strstr LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/28-implement-strstr", "/blog/posts/28-implement-strstr", "/28-implement-strstr"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 28-implement-strstr solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "28-implement-strstr LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:28 Implement Strstr/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:28 Implement Strstr - Solution Explained/problem-solving.webp
     alt: 28 Implement Strstr
     hiddenInList: true
     hiddenInSingle: false

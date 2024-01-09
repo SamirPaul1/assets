@@ -4,10 +4,9 @@ summary: Minimize The Absolute Difference - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimize The Absolute Difference solution]
-aliases: ["/posts/minimize-the-absolute-difference", "/blog/posts/minimize-the-absolute-difference", "/minimize-the-absolute-difference"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Minimize The Absolute Difference Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimize The Absolute Difference - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimize The Absolute Difference - Solution Explained/problem-solving.webp
     alt: Minimize The Absolute Difference
     hiddenInList: true
     hiddenInSingle: false

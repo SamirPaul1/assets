@@ -4,10 +4,9 @@ summary: Cows2 - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Cows2 solution]
-aliases: ["/posts/cows2", "/blog/posts/cows2", "/cows2"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Cows2 Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cows2 - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Cows2 - Solution Explained/problem-solving.webp
     alt: Cows2
     hiddenInList: true
     hiddenInSingle: false

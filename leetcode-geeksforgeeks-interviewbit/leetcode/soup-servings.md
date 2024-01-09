@@ -4,10 +4,9 @@ summary: Soup Servings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/soup-servings", "/blog/posts/soup-servings", "/soup-servings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, soup-servings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "soup-servings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Soup Servings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Soup Servings - Solution Explained/problem-solving.webp
     alt: Soup Servings
     hiddenInList: true
     hiddenInSingle: false

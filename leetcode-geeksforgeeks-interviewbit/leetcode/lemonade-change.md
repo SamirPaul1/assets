@@ -4,10 +4,9 @@ summary: Lemonade Change LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/lemonade-change", "/blog/posts/lemonade-change", "/lemonade-change"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, lemonade-change solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "lemonade-change LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Lemonade Change/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Lemonade Change - Solution Explained/problem-solving.webp
     alt: Lemonade Change
     hiddenInList: true
     hiddenInSingle: false

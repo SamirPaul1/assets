@@ -4,10 +4,9 @@ summary: Move All Zeroes To End Of Array - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Move-all-zeroes-to-end-of-array", "/blog/posts/Move-all-zeroes-to-end-of-array", "/Move-all-zeroes-to-end-of-array", "/blog/Move-all-zeroes-to-end-of-array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Move All Zeroes To End Of Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Move All Zeroes To End Of Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Move All Zeroes To End Of Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Move All Zeroes To End Of Array - Solution Explained/problem-solving.webp
     alt: Move All Zeroes To End Of Array
     hiddenInList: true
     hiddenInSingle: false

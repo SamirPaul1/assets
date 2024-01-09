@@ -4,10 +4,9 @@ summary: Anagram Substring Search - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Anagram Substring Search solution]
-aliases: ["/posts/anagram-substring-search", "/blog/posts/anagram-substring-search", "/anagram-substring-search"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Anagram Substring Search Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Anagram Substring Search - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Anagram Substring Search - Solution Explained/problem-solving.webp
     alt: Anagram Substring Search
     hiddenInList: true
     hiddenInSingle: false

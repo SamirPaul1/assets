@@ -4,10 +4,9 @@ summary: Parity Queries - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Parity Queries solution]
-aliases: ["/posts/parity-queries", "/blog/posts/parity-queries", "/parity-queries"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Parity Queries Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Parity Queries - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Parity Queries - Solution Explained/problem-solving.webp
     alt: Parity Queries
     hiddenInList: true
     hiddenInSingle: false

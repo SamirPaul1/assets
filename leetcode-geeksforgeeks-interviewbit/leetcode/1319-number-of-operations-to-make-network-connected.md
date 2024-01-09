@@ -4,10 +4,9 @@ summary: 1319 Number Of Operations To Make Network Connected LeetCode Solution E
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1319-number-of-operations-to-make-network-connected", "/blog/posts/1319-number-of-operations-to-make-network-connected", "/1319-number-of-operations-to-make-network-connected"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1319-number-of-operations-to-make-network-connected solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1319-number-of-operations-to-make-network-connected LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1319 Number Of Operations To Make Network Connected/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1319 Number Of Operations To Make Network Connected - Solution Explained/problem-solving.webp
     alt: 1319 Number Of Operations To Make Network Connected
     hiddenInList: true
     hiddenInSingle: false

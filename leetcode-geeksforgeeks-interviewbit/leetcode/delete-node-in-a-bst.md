@@ -4,10 +4,9 @@ summary: Delete Node In A Bst LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/delete-node-in-a-bst", "/blog/posts/delete-node-in-a-bst", "/delete-node-in-a-bst"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, delete-node-in-a-bst solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "delete-node-in-a-bst LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Delete Node In A Bst/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Delete Node In A Bst - Solution Explained/problem-solving.webp
     alt: Delete Node In A Bst
     hiddenInList: true
     hiddenInSingle: false

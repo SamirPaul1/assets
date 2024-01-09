@@ -4,10 +4,9 @@ summary: Recover Binary Search Tree - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Recover Binary Search Tree solution]
-aliases: ["/posts/recover-binary-search-tree", "/blog/posts/recover-binary-search-tree", "/recover-binary-search-tree"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Recover Binary Search Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Recover Binary Search Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Recover Binary Search Tree - Solution Explained/problem-solving.webp
     alt: Recover Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false

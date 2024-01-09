@@ -4,10 +4,9 @@ summary: 1890 The Latest Login In 2020 LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1890-the-latest-login-in-2020", "/blog/posts/1890-the-latest-login-in-2020", "/1890-the-latest-login-in-2020"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1890-the-latest-login-in-2020 solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1890-the-latest-login-in-2020 LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1890 The Latest Login In 2020/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1890 The Latest Login In 2020 - Solution Explained/problem-solving.webp
     alt: 1890 The Latest Login In 2020
     hiddenInList: true
     hiddenInSingle: false

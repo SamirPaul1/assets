@@ -4,10 +4,9 @@ summary: Nth Highest Salary LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/nth-highest-salary", "/blog/posts/nth-highest-salary", "/nth-highest-salary"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, nth-highest-salary solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "nth-highest-salary LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Nth Highest Salary/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Nth Highest Salary - Solution Explained/problem-solving.webp
     alt: Nth Highest Salary
     hiddenInList: true
     hiddenInSingle: false

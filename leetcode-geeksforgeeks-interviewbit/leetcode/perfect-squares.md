@@ -4,10 +4,9 @@ summary: Perfect Squares LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/perfect-squares", "/blog/posts/perfect-squares", "/perfect-squares"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, perfect-squares solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "perfect-squares LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Perfect Squares/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Perfect Squares - Solution Explained/problem-solving.webp
     alt: Perfect Squares
     hiddenInList: true
     hiddenInSingle: false

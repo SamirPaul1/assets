@@ -4,10 +4,9 @@ summary: 1974 Minimum Time To Type Word Using Special Typewriter LeetCode Soluti
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1974-minimum-time-to-type-word-using-special-typewriter", "/blog/posts/1974-minimum-time-to-type-word-using-special-typewriter", "/1974-minimum-time-to-type-word-using-special-typewriter"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1974-minimum-time-to-type-word-using-special-typewriter solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1974-minimum-time-to-type-word-using-special-typewriter LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1974 Minimum Time To Type Word Using Special Typewriter/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1974 Minimum Time To Type Word Using Special Typewriter - Solution Explained/problem-solving.webp
     alt: 1974 Minimum Time To Type Word Using Special Typewriter
     hiddenInList: true
     hiddenInSingle: false

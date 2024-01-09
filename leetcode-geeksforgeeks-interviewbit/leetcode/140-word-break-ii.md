@@ -4,10 +4,9 @@ summary: 140 Word Break Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/140-word-break-ii", "/blog/posts/140-word-break-ii", "/140-word-break-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 140-word-break-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "140-word-break-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:140 Word Break Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:140 Word Break Ii - Solution Explained/problem-solving.webp
     alt: 140 Word Break Ii
     hiddenInList: true
     hiddenInSingle: false

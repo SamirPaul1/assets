@@ -4,10 +4,9 @@ summary: 112 Path Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/112-path-sum", "/blog/posts/112-path-sum", "/112-path-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 112-path-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "112-path-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:112 Path Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:112 Path Sum - Solution Explained/problem-solving.webp
     alt: 112 Path Sum
     hiddenInList: true
     hiddenInSingle: false

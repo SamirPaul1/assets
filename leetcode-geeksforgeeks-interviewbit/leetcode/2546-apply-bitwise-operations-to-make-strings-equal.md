@@ -4,10 +4,9 @@ summary: 2546 Apply Bitwise Operations To Make Strings Equal LeetCode Solution E
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2546-apply-bitwise-operations-to-make-strings-equal", "/blog/posts/2546-apply-bitwise-operations-to-make-strings-equal", "/2546-apply-bitwise-operations-to-make-strings-equal"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2546-apply-bitwise-operations-to-make-strings-equal solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2546-apply-bitwise-operations-to-make-strings-equal LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2546 Apply Bitwise Operations To Make Strings Equal/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2546 Apply Bitwise Operations To Make Strings Equal - Solution Explained/problem-solving.webp
     alt: 2546 Apply Bitwise Operations To Make Strings Equal
     hiddenInList: true
     hiddenInSingle: false

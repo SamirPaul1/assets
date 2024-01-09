@@ -4,10 +4,9 @@ summary: Plates Between Candles LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/plates-between-candles", "/blog/posts/plates-between-candles", "/plates-between-candles"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, plates-between-candles solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "plates-between-candles LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Plates Between Candles/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Plates Between Candles - Solution Explained/problem-solving.webp
     alt: Plates Between Candles
     hiddenInList: true
     hiddenInSingle: false

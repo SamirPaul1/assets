@@ -4,10 +4,9 @@ summary: Left View Of Binary Tree - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Left-View-of-Binary-Tree", "/blog/posts/Left-View-of-Binary-Tree", "/Left-View-of-Binary-Tree", "/blog/Left-View-of-Binary-Tree",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Left View Of Binary Tree solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Left View Of Binary Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Left View Of Binary Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Left View Of Binary Tree - Solution Explained/problem-solving.webp
     alt: Left View Of Binary Tree
     hiddenInList: true
     hiddenInSingle: false

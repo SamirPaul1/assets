@@ -4,10 +4,9 @@ summary: First Negative Integer In Window Size B - Interviewbit Solution Explain
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, First Negative Integer In Window Size B solution]
-aliases: ["/posts/first-negative-integer-in-window-size-b", "/blog/posts/first-negative-integer-in-window-size-b", "/first-negative-integer-in-window-size-b"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "First Negative Integer In Window Size B Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:First Negative Integer In Window Size B - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:First Negative Integer In Window Size B - Solution Explained/problem-solving.webp
     alt: First Negative Integer In Window Size B
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Largest Bst   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Largest-BST---GFG", "/blog/posts/Largest-BST---GFG", "/Largest-BST---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Largest BST - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Largest BST - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Largest Bst   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Largest Bst   Gfg - Solution Explained/problem-solving.webp
     alt: Largest Bst   Gfg
     hiddenInList: true
     hiddenInSingle: false

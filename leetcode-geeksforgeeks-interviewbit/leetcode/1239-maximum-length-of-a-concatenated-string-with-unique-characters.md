@@ -4,10 +4,9 @@ summary: 1239 Maximum Length Of A Concatenated String With Unique Characters Lee
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1239-maximum-length-of-a-concatenated-string-with-unique-characters", "/blog/posts/1239-maximum-length-of-a-concatenated-string-with-unique-characters", "/1239-maximum-length-of-a-concatenated-string-with-unique-characters"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1239-maximum-length-of-a-concatenated-string-with-unique-characters solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1239-maximum-length-of-a-concatenated-string-with-unique-characters LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1239 Maximum Length Of A Concatenated String With Unique Characters/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1239 Maximum Length Of A Concatenated String With Unique Characters - Solution Explained/problem-solving.webp
     alt: 1239 Maximum Length Of A Concatenated String With Unique Characters
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1011 Capacity To Ship Packages Within D Days LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1011-capacity-to-ship-packages-within-d-days", "/blog/posts/1011-capacity-to-ship-packages-within-d-days", "/1011-capacity-to-ship-packages-within-d-days"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1011-capacity-to-ship-packages-within-d-days solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1011-capacity-to-ship-packages-within-d-days LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1011 Capacity To Ship Packages Within D Days/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1011 Capacity To Ship Packages Within D Days - Solution Explained/problem-solving.webp
     alt: 1011 Capacity To Ship Packages Within D Days
     hiddenInList: true
     hiddenInSingle: false

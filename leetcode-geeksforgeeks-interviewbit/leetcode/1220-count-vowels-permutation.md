@@ -4,10 +4,9 @@ summary: 1220 Count Vowels Permutation LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1220-count-vowels-permutation", "/blog/posts/1220-count-vowels-permutation", "/1220-count-vowels-permutation"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1220-count-vowels-permutation solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1220-count-vowels-permutation LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1220 Count Vowels Permutation/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1220 Count Vowels Permutation - Solution Explained/problem-solving.webp
     alt: 1220 Count Vowels Permutation
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Remove Duplicate Elements From Sorted Array - GeeksforGeeks Solution Ex
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Remove-duplicate-elements-from-sorted-Array", "/blog/posts/Remove-duplicate-elements-from-sorted-Array", "/Remove-duplicate-elements-from-sorted-Array", "/blog/Remove-duplicate-elements-from-sorted-Array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Remove Duplicate Elements From Sorted Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Remove Duplicate Elements From Sorted Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove Duplicate Elements From Sorted Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove Duplicate Elements From Sorted Array - Solution Explained/problem-solving.webp
     alt: Remove Duplicate Elements From Sorted Array
     hiddenInList: true
     hiddenInSingle: false

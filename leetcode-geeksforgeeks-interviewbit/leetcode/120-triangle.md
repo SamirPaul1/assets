@@ -4,10 +4,9 @@ summary: 120 Triangle LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/120-triangle", "/blog/posts/120-triangle", "/120-triangle"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 120-triangle solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "120-triangle LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:120 Triangle/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:120 Triangle - Solution Explained/problem-solving.webp
     alt: 120 Triangle
     hiddenInList: true
     hiddenInSingle: false

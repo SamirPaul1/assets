@@ -4,10 +4,9 @@ summary: Binary Tree Level Order Traversal Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/binary-tree-level-order-traversal-ii", "/blog/posts/binary-tree-level-order-traversal-ii", "/binary-tree-level-order-traversal-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, binary-tree-level-order-traversal-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "binary-tree-level-order-traversal-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Binary Tree Level Order Traversal Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Binary Tree Level Order Traversal Ii - Solution Explained/problem-solving.webp
     alt: Binary Tree Level Order Traversal Ii
     hiddenInList: true
     hiddenInSingle: false

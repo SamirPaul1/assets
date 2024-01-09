@@ -4,10 +4,9 @@ summary: Wildcard Matching LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/wildcard-matching", "/blog/posts/wildcard-matching", "/wildcard-matching"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, wildcard-matching solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "wildcard-matching LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Wildcard Matching/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Wildcard Matching - Solution Explained/problem-solving.webp
     alt: Wildcard Matching
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Greatest Common Divisor - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Greatest Common Divisor solution]
-aliases: ["/posts/greatest-common-divisor", "/blog/posts/greatest-common-divisor", "/greatest-common-divisor"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Greatest Common Divisor Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Greatest Common Divisor - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Greatest Common Divisor - Solution Explained/problem-solving.webp
     alt: Greatest Common Divisor
     hiddenInList: true
     hiddenInSingle: false

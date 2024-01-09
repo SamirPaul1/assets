@@ -4,10 +4,9 @@ summary: Find The Element That Appears Once In Sorted Array - GeeksforGeeks Solu
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Find-the-element-that-appears-once-in-sorted-array", "/blog/posts/Find-the-element-that-appears-once-in-sorted-array", "/Find-the-element-that-appears-once-in-sorted-array", "/blog/Find-the-element-that-appears-once-in-sorted-array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Find The Element That Appears Once In Sorted Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Find The Element That Appears Once In Sorted Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find The Element That Appears Once In Sorted Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find The Element That Appears Once In Sorted Array - Solution Explained/problem-solving.webp
     alt: Find The Element That Appears Once In Sorted Array
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Gcd Of Two Numbers - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/GCD-of-two-numbers", "/blog/posts/GCD-of-two-numbers", "/GCD-of-two-numbers", "/blog/GCD-of-two-numbers",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Gcd Of Two Numbers solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Gcd Of Two Numbers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Gcd Of Two Numbers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Gcd Of Two Numbers - Solution Explained/problem-solving.webp
     alt: Gcd Of Two Numbers
     hiddenInList: true
     hiddenInSingle: false

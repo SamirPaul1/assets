@@ -4,10 +4,9 @@ summary: Count Total Set Bits - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Count-total-set-bits", "/blog/posts/Count-total-set-bits", "/Count-total-set-bits", "/blog/Count-total-set-bits",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Count Total Set Bits solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Count Total Set Bits Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Total Set Bits - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Total Set Bits - Solution Explained/problem-solving.webp
     alt: Count Total Set Bits
     hiddenInList: true
     hiddenInSingle: false

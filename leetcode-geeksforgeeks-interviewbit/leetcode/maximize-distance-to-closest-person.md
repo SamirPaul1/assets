@@ -4,10 +4,9 @@ summary: Maximize Distance To Closest Person LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/maximize-distance-to-closest-person", "/blog/posts/maximize-distance-to-closest-person", "/maximize-distance-to-closest-person"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, maximize-distance-to-closest-person solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "maximize-distance-to-closest-person LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Maximize Distance To Closest Person/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Maximize Distance To Closest Person - Solution Explained/problem-solving.webp
     alt: Maximize Distance To Closest Person
     hiddenInList: true
     hiddenInSingle: false

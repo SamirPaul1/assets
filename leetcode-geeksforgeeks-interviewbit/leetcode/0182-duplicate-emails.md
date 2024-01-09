@@ -4,10 +4,9 @@ summary: 0182 Duplicate Emails LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0182-duplicate-emails", "/blog/posts/0182-duplicate-emails", "/0182-duplicate-emails"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0182-duplicate-emails solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0182-duplicate-emails LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0182 Duplicate Emails/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0182 Duplicate Emails - Solution Explained/problem-solving.webp
     alt: 0182 Duplicate Emails
     hiddenInList: true
     hiddenInSingle: false

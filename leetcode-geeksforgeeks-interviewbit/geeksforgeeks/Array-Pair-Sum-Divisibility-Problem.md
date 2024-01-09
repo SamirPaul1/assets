@@ -4,10 +4,9 @@ summary: Array Pair Sum Divisibility Problem - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Array-Pair-Sum-Divisibility-Problem", "/blog/posts/Array-Pair-Sum-Divisibility-Problem", "/Array-Pair-Sum-Divisibility-Problem", "/blog/Array-Pair-Sum-Divisibility-Problem",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Array Pair Sum Divisibility Problem solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Array Pair Sum Divisibility Problem Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Array Pair Sum Divisibility Problem - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Array Pair Sum Divisibility Problem - Solution Explained/problem-solving.webp
     alt: Array Pair Sum Divisibility Problem
     hiddenInList: true
     hiddenInSingle: false

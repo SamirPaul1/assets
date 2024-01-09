@@ -4,10 +4,9 @@ summary: Find Right Interval LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/find-right-interval", "/blog/posts/find-right-interval", "/find-right-interval"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, find-right-interval solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "find-right-interval LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Right Interval/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find Right Interval - Solution Explained/problem-solving.webp
     alt: Find Right Interval
     hiddenInList: true
     hiddenInSingle: false

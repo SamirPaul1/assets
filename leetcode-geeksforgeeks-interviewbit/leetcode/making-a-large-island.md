@@ -4,10 +4,9 @@ summary: Making A Large Island LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/making-a-large-island", "/blog/posts/making-a-large-island", "/making-a-large-island"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, making-a-large-island solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "making-a-large-island LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Making A Large Island/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Making A Large Island - Solution Explained/problem-solving.webp
     alt: Making A Large Island
     hiddenInList: true
     hiddenInSingle: false

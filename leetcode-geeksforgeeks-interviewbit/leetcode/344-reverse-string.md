@@ -4,10 +4,9 @@ summary: 344 Reverse String LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/344-reverse-string", "/blog/posts/344-reverse-string", "/344-reverse-string"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 344-reverse-string solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "344-reverse-string LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:344 Reverse String/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:344 Reverse String - Solution Explained/problem-solving.webp
     alt: 344 Reverse String
     hiddenInList: true
     hiddenInSingle: false

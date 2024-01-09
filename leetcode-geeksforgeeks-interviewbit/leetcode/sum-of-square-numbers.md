@@ -4,10 +4,9 @@ summary: Sum Of Square Numbers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/sum-of-square-numbers", "/blog/posts/sum-of-square-numbers", "/sum-of-square-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, sum-of-square-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sum-of-square-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Square Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Square Numbers - Solution Explained/problem-solving.webp
     alt: Sum Of Square Numbers
     hiddenInList: true
     hiddenInSingle: false

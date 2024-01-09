@@ -4,10 +4,9 @@ summary: Path Sum Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/path-sum-ii", "/blog/posts/path-sum-ii", "/path-sum-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, path-sum-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "path-sum-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Path Sum Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Path Sum Ii - Solution Explained/problem-solving.webp
     alt: Path Sum Ii
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Movie Character - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Movie Character solution]
-aliases: ["/posts/movie-character", "/blog/posts/movie-character", "/movie-character"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Movie Character Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Movie Character - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Movie Character - Solution Explained/problem-solving.webp
     alt: Movie Character
     hiddenInList: true
     hiddenInSingle: false

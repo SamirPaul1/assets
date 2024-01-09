@@ -4,10 +4,9 @@ summary: Average Of Levels In Binary Tree LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/average-of-levels-in-binary-tree", "/blog/posts/average-of-levels-in-binary-tree", "/average-of-levels-in-binary-tree"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, average-of-levels-in-binary-tree solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "average-of-levels-in-binary-tree LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Average Of Levels In Binary Tree/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Average Of Levels In Binary Tree - Solution Explained/problem-solving.webp
     alt: Average Of Levels In Binary Tree
     hiddenInList: true
     hiddenInSingle: false

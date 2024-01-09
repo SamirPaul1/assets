@@ -4,10 +4,9 @@ summary: 0347 Top K Frequent Elements LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0347-top-k-frequent-elements", "/blog/posts/0347-top-k-frequent-elements", "/0347-top-k-frequent-elements"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0347-top-k-frequent-elements solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0347-top-k-frequent-elements LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0347 Top K Frequent Elements/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0347 Top K Frequent Elements - Solution Explained/problem-solving.webp
     alt: 0347 Top K Frequent Elements
     hiddenInList: true
     hiddenInSingle: false

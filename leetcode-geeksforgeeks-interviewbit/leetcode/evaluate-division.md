@@ -4,10 +4,9 @@ summary: Evaluate Division LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/evaluate-division", "/blog/posts/evaluate-division", "/evaluate-division"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, evaluate-division solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "evaluate-division LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Evaluate Division/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Evaluate Division - Solution Explained/problem-solving.webp
     alt: Evaluate Division
     hiddenInList: true
     hiddenInSingle: false

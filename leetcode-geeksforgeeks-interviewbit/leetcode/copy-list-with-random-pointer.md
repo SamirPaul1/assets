@@ -4,10 +4,9 @@ summary: Copy List With Random Pointer LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/copy-list-with-random-pointer", "/blog/posts/copy-list-with-random-pointer", "/copy-list-with-random-pointer"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, copy-list-with-random-pointer solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "copy-list-with-random-pointer LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Copy List With Random Pointer/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Copy List With Random Pointer - Solution Explained/problem-solving.webp
     alt: Copy List With Random Pointer
     hiddenInList: true
     hiddenInSingle: false

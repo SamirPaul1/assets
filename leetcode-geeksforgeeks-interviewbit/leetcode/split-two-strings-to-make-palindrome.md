@@ -4,10 +4,9 @@ summary: Split Two Strings To Make Palindrome LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/split-two-strings-to-make-palindrome", "/blog/posts/split-two-strings-to-make-palindrome", "/split-two-strings-to-make-palindrome"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, split-two-strings-to-make-palindrome solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "split-two-strings-to-make-palindrome LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Split Two Strings To Make Palindrome/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Split Two Strings To Make Palindrome - Solution Explained/problem-solving.webp
     alt: Split Two Strings To Make Palindrome
     hiddenInList: true
     hiddenInSingle: false

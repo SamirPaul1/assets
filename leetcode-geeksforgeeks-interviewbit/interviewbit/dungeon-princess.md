@@ -4,10 +4,9 @@ summary: Dungeon Princess - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Dungeon Princess solution]
-aliases: ["/posts/dungeon-princess", "/blog/posts/dungeon-princess", "/dungeon-princess"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Dungeon Princess Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Dungeon Princess - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Dungeon Princess - Solution Explained/problem-solving.webp
     alt: Dungeon Princess
     hiddenInList: true
     hiddenInSingle: false

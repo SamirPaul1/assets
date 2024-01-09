@@ -4,10 +4,9 @@ summary: Get Mode Array Updates - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Get Mode Array Updates solution]
-aliases: ["/posts/get-mode-array-updates", "/blog/posts/get-mode-array-updates", "/get-mode-array-updates"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Get Mode Array Updates Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Get Mode Array Updates - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Get Mode Array Updates - Solution Explained/problem-solving.webp
     alt: Get Mode Array Updates
     hiddenInList: true
     hiddenInSingle: false

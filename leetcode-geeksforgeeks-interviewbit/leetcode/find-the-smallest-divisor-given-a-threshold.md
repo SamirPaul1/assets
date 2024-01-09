@@ -4,10 +4,9 @@ summary: Find The Smallest Divisor Given A Threshold LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/find-the-smallest-divisor-given-a-threshold", "/blog/posts/find-the-smallest-divisor-given-a-threshold", "/find-the-smallest-divisor-given-a-threshold"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, find-the-smallest-divisor-given-a-threshold solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "find-the-smallest-divisor-given-a-threshold LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find The Smallest Divisor Given A Threshold/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find The Smallest Divisor Given A Threshold - Solution Explained/problem-solving.webp
     alt: Find The Smallest Divisor Given A Threshold
     hiddenInList: true
     hiddenInSingle: false

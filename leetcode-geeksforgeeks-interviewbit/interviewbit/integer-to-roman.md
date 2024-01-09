@@ -4,10 +4,9 @@ summary: Integer To Roman - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Integer To Roman solution]
-aliases: ["/posts/integer-to-roman", "/blog/posts/integer-to-roman", "/integer-to-roman"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Integer To Roman Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Integer To Roman - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Integer To Roman - Solution Explained/problem-solving.webp
     alt: Integer To Roman
     hiddenInList: true
     hiddenInSingle: false

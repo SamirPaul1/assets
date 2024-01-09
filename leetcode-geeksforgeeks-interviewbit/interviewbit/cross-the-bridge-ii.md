@@ -4,10 +4,9 @@ summary: Cross The Bridge Ii - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Cross The Bridge Ii solution]
-aliases: ["/posts/cross-the-bridge-ii", "/blog/posts/cross-the-bridge-ii", "/cross-the-bridge-ii"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Cross The Bridge Ii Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cross The Bridge Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Cross The Bridge Ii - Solution Explained/problem-solving.webp
     alt: Cross The Bridge Ii
     hiddenInList: true
     hiddenInSingle: false

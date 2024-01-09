@@ -4,10 +4,9 @@ summary: Sum Of First N Terms - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sum-of-first-n-terms", "/blog/posts/Sum-of-first-n-terms", "/Sum-of-first-n-terms", "/blog/Sum-of-first-n-terms",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sum Of First N Terms solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sum Of First N Terms Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of First N Terms - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of First N Terms - Solution Explained/problem-solving.webp
     alt: Sum Of First N Terms
     hiddenInList: true
     hiddenInSingle: false

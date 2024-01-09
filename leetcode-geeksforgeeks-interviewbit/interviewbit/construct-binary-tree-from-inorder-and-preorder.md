@@ -4,10 +4,9 @@ summary: Construct Binary Tree From Inorder And Preorder - Interviewbit Solution
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Construct Binary Tree From Inorder And Preorder solution]
-aliases: ["/posts/construct-binary-tree-from-inorder-and-preorder", "/blog/posts/construct-binary-tree-from-inorder-and-preorder", "/construct-binary-tree-from-inorder-and-preorder"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Construct Binary Tree From Inorder And Preorder Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Construct Binary Tree From Inorder And Preorder - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Construct Binary Tree From Inorder And Preorder - Solution Explained/problem-solving.webp
     alt: Construct Binary Tree From Inorder And Preorder
     hiddenInList: true
     hiddenInSingle: false

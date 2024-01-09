@@ -4,10 +4,9 @@ summary: Bitwise Operators - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Bitwise-Operators", "/blog/posts/Bitwise-Operators", "/Bitwise-Operators", "/blog/Bitwise-Operators",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Bitwise Operators solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Bitwise Operators Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Bitwise Operators - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Bitwise Operators - Solution Explained/problem-solving.webp
     alt: Bitwise Operators
     hiddenInList: true
     hiddenInSingle: false

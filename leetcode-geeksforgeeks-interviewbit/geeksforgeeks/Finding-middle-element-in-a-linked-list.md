@@ -4,10 +4,9 @@ summary: Finding Middle Element In A Linked List - GeeksforGeeks Solution Explai
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Finding-middle-element-in-a-linked-list", "/blog/posts/Finding-middle-element-in-a-linked-list", "/Finding-middle-element-in-a-linked-list", "/blog/Finding-middle-element-in-a-linked-list",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Finding Middle Element In A Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Finding Middle Element In A Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Finding Middle Element In A Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Finding Middle Element In A Linked List - Solution Explained/problem-solving.webp
     alt: Finding Middle Element In A Linked List
     hiddenInList: true
     hiddenInSingle: false

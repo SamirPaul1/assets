@@ -4,10 +4,9 @@ summary: Left Most And Right Most Index - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Left-most-and-right-most-index", "/blog/posts/Left-most-and-right-most-index", "/Left-most-and-right-most-index", "/blog/Left-most-and-right-most-index",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Left Most And Right Most Index solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Left Most And Right Most Index Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Left Most And Right Most Index - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Left Most And Right Most Index - Solution Explained/problem-solving.webp
     alt: Left Most And Right Most Index
     hiddenInList: true
     hiddenInSingle: false

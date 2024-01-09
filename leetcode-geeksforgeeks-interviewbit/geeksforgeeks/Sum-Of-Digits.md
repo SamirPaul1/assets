@@ -4,10 +4,9 @@ summary: Sum Of Digits - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sum-Of-Digits", "/blog/posts/Sum-Of-Digits", "/Sum-Of-Digits", "/blog/Sum-Of-Digits",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sum Of Digits solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sum Of Digits Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Digits - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Digits - Solution Explained/problem-solving.webp
     alt: Sum Of Digits
     hiddenInList: true
     hiddenInSingle: false

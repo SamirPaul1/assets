@@ -4,10 +4,9 @@ summary: Contiguous Array LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/contiguous-array", "/blog/posts/contiguous-array", "/contiguous-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, contiguous-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "contiguous-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Contiguous Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Contiguous Array - Solution Explained/problem-solving.webp
     alt: Contiguous Array
     hiddenInList: true
     hiddenInSingle: false

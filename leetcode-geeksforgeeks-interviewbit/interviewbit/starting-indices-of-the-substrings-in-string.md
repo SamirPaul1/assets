@@ -4,10 +4,9 @@ summary: Starting Indices Of The Substrings In String - Interviewbit Solution Ex
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Starting Indices Of The Substrings In String solution]
-aliases: ["/posts/starting-indices-of-the-substrings-in-string", "/blog/posts/starting-indices-of-the-substrings-in-string", "/starting-indices-of-the-substrings-in-string"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Starting Indices Of The Substrings In String Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Starting Indices Of The Substrings In String - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Starting Indices Of The Substrings In String - Solution Explained/problem-solving.webp
     alt: Starting Indices Of The Substrings In String
     hiddenInList: true
     hiddenInSingle: false

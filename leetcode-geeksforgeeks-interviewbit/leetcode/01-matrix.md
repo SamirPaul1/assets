@@ -4,10 +4,9 @@ summary: 01 Matrix LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/01-matrix", "/blog/posts/01-matrix", "/01-matrix"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 01-matrix solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "01-matrix LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:01 Matrix/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:01 Matrix - Solution Explained/problem-solving.webp
     alt: 01 Matrix
     hiddenInList: true
     hiddenInSingle: false

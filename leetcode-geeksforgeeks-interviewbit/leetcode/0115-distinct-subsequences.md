@@ -4,10 +4,9 @@ summary: 0115 Distinct Subsequences LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0115-distinct-subsequences", "/blog/posts/0115-distinct-subsequences", "/0115-distinct-subsequences"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0115-distinct-subsequences solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0115-distinct-subsequences LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0115 Distinct Subsequences/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0115 Distinct Subsequences - Solution Explained/problem-solving.webp
     alt: 0115 Distinct Subsequences
     hiddenInList: true
     hiddenInSingle: false

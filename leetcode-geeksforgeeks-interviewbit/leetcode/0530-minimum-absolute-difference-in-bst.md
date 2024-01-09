@@ -4,10 +4,9 @@ summary: 0530 Minimum Absolute Difference In Bst LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0530-minimum-absolute-difference-in-bst", "/blog/posts/0530-minimum-absolute-difference-in-bst", "/0530-minimum-absolute-difference-in-bst"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0530-minimum-absolute-difference-in-bst solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0530-minimum-absolute-difference-in-bst LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0530 Minimum Absolute Difference In Bst/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0530 Minimum Absolute Difference In Bst - Solution Explained/problem-solving.webp
     alt: 0530 Minimum Absolute Difference In Bst
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Smallest Sequence With Given Primes - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Smallest Sequence With Given Primes solution]
-aliases: ["/posts/smallest-sequence-with-given-primes", "/blog/posts/smallest-sequence-with-given-primes", "/smallest-sequence-with-given-primes"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Smallest Sequence With Given Primes Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Smallest Sequence With Given Primes - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Smallest Sequence With Given Primes - Solution Explained/problem-solving.webp
     alt: Smallest Sequence With Given Primes
     hiddenInList: true
     hiddenInSingle: false

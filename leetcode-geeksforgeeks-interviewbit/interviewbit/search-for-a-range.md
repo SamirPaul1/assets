@@ -4,10 +4,9 @@ summary: Search For A Range - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Search For A Range solution]
-aliases: ["/posts/search-for-a-range", "/blog/posts/search-for-a-range", "/search-for-a-range"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Search For A Range Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Search For A Range - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Search For A Range - Solution Explained/problem-solving.webp
     alt: Search For A Range
     hiddenInList: true
     hiddenInSingle: false

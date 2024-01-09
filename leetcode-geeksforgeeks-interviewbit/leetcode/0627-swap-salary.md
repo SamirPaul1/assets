@@ -4,10 +4,9 @@ summary: 0627 Swap Salary LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0627-swap-salary", "/blog/posts/0627-swap-salary", "/0627-swap-salary"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0627-swap-salary solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0627-swap-salary LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0627 Swap Salary/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0627 Swap Salary - Solution Explained/problem-solving.webp
     alt: 0627 Swap Salary
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Square Root Of A Number - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Square-root-of-a-number", "/blog/posts/Square-root-of-a-number", "/Square-root-of-a-number", "/blog/Square-root-of-a-number",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Square Root Of A Number solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Square Root Of A Number Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Square Root Of A Number - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Square Root Of A Number - Solution Explained/problem-solving.webp
     alt: Square Root Of A Number
     hiddenInList: true
     hiddenInSingle: false

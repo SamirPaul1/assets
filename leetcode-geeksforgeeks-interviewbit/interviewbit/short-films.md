@@ -4,10 +4,9 @@ summary: Short Films - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Short Films solution]
-aliases: ["/posts/short-films", "/blog/posts/short-films", "/short-films"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Short Films Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Short Films - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Short Films - Solution Explained/problem-solving.webp
     alt: Short Films
     hiddenInList: true
     hiddenInSingle: false

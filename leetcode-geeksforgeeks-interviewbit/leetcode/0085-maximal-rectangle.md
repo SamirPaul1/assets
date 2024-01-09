@@ -4,10 +4,9 @@ summary: 0085 Maximal Rectangle LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0085-maximal-rectangle", "/blog/posts/0085-maximal-rectangle", "/0085-maximal-rectangle"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0085-maximal-rectangle solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0085-maximal-rectangle LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0085 Maximal Rectangle/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0085 Maximal Rectangle - Solution Explained/problem-solving.webp
     alt: 0085 Maximal Rectangle
     hiddenInList: true
     hiddenInSingle: false

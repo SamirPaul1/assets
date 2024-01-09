@@ -4,10 +4,9 @@ summary: 0844 Backspace String Compare LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0844-backspace-string-compare", "/blog/posts/0844-backspace-string-compare", "/0844-backspace-string-compare"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0844-backspace-string-compare solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0844-backspace-string-compare LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0844 Backspace String Compare/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0844 Backspace String Compare - Solution Explained/problem-solving.webp
     alt: 0844 Backspace String Compare
     hiddenInList: true
     hiddenInSingle: false

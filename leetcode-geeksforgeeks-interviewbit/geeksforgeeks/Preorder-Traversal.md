@@ -4,10 +4,9 @@ summary: Preorder Traversal - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Preorder-Traversal", "/blog/posts/Preorder-Traversal", "/Preorder-Traversal", "/blog/Preorder-Traversal",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Preorder Traversal solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Preorder Traversal Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Preorder Traversal - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Preorder Traversal - Solution Explained/problem-solving.webp
     alt: Preorder Traversal
     hiddenInList: true
     hiddenInSingle: false

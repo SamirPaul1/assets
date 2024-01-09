@@ -4,10 +4,9 @@ summary: Cinema Seat Allocation LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/cinema-seat-allocation", "/blog/posts/cinema-seat-allocation", "/cinema-seat-allocation"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, cinema-seat-allocation solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "cinema-seat-allocation LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cinema Seat Allocation/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Cinema Seat Allocation - Solution Explained/problem-solving.webp
     alt: Cinema Seat Allocation
     hiddenInList: true
     hiddenInSingle: false

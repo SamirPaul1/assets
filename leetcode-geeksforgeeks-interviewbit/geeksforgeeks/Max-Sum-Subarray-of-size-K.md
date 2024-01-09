@@ -4,10 +4,9 @@ summary: Max Sum Subarray Of Size K - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Max-Sum-Subarray-of-size-K", "/blog/posts/Max-Sum-Subarray-of-size-K", "/Max-Sum-Subarray-of-size-K", "/blog/Max-Sum-Subarray-of-size-K",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Max Sum Subarray Of Size K solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Max Sum Subarray Of Size K Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Sum Subarray Of Size K - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Max Sum Subarray Of Size K - Solution Explained/problem-solving.webp
     alt: Max Sum Subarray Of Size K
     hiddenInList: true
     hiddenInSingle: false

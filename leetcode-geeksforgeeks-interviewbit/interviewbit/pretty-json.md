@@ -4,10 +4,9 @@ summary: Pretty Json - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Pretty Json solution]
-aliases: ["/posts/pretty-json", "/blog/posts/pretty-json", "/pretty-json"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Pretty Json Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Pretty Json - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Pretty Json - Solution Explained/problem-solving.webp
     alt: Pretty Json
     hiddenInList: true
     hiddenInSingle: false

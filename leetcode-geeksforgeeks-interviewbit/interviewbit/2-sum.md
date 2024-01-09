@@ -4,10 +4,9 @@ summary: 2 Sum - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, 2 Sum solution]
-aliases: ["/posts/2-sum", "/blog/posts/2-sum", "/2-sum"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "2 Sum Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2 Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2 Sum - Solution Explained/problem-solving.webp
     alt: 2 Sum
     hiddenInList: true
     hiddenInSingle: false

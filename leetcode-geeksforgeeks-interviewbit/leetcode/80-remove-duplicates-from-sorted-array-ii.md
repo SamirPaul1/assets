@@ -4,10 +4,9 @@ summary: 80 Remove Duplicates From Sorted Array Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/80-remove-duplicates-from-sorted-array-ii", "/blog/posts/80-remove-duplicates-from-sorted-array-ii", "/80-remove-duplicates-from-sorted-array-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 80-remove-duplicates-from-sorted-array-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "80-remove-duplicates-from-sorted-array-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:80 Remove Duplicates From Sorted Array Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:80 Remove Duplicates From Sorted Array Ii - Solution Explained/problem-solving.webp
     alt: 80 Remove Duplicates From Sorted Array Ii
     hiddenInList: true
     hiddenInSingle: false

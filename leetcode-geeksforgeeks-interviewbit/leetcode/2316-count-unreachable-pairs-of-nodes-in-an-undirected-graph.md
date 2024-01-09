@@ -4,10 +4,9 @@ summary: 2316 Count Unreachable Pairs Of Nodes In An Undirected Graph LeetCode S
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph", "/blog/posts/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph", "/2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2316-count-unreachable-pairs-of-nodes-in-an-undirected-graph LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2316 Count Unreachable Pairs Of Nodes In An Undirected Graph/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2316 Count Unreachable Pairs Of Nodes In An Undirected Graph - Solution Explained/problem-solving.webp
     alt: 2316 Count Unreachable Pairs Of Nodes In An Undirected Graph
     hiddenInList: true
     hiddenInSingle: false

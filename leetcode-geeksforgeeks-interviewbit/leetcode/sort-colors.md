@@ -4,10 +4,9 @@ summary: Sort Colors LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/sort-colors", "/blog/posts/sort-colors", "/sort-colors"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, sort-colors solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sort-colors LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort Colors/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sort Colors - Solution Explained/problem-solving.webp
     alt: Sort Colors
     hiddenInList: true
     hiddenInSingle: false

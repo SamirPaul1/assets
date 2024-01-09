@@ -4,10 +4,9 @@ summary: Bitwise And Of Numbers Range LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/bitwise-and-of-numbers-range", "/blog/posts/bitwise-and-of-numbers-range", "/bitwise-and-of-numbers-range"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, bitwise-and-of-numbers-range solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "bitwise-and-of-numbers-range LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Bitwise And Of Numbers Range/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Bitwise And Of Numbers Range - Solution Explained/problem-solving.webp
     alt: Bitwise And Of Numbers Range
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Word Ladder LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/word-ladder", "/blog/posts/word-ladder", "/word-ladder"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, word-ladder solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "word-ladder LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Ladder/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Ladder - Solution Explained/problem-solving.webp
     alt: Word Ladder
     hiddenInList: true
     hiddenInSingle: false

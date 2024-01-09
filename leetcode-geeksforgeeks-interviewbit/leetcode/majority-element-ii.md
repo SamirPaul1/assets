@@ -4,10 +4,9 @@ summary: Majority Element Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/majority-element-ii", "/blog/posts/majority-element-ii", "/majority-element-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, majority-element-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "majority-element-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Majority Element Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Majority Element Ii - Solution Explained/problem-solving.webp
     alt: Majority Element Ii
     hiddenInList: true
     hiddenInSingle: false

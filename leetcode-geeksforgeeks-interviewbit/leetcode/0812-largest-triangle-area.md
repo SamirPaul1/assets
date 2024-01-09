@@ -4,10 +4,9 @@ summary: 0812 Largest Triangle Area LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0812-largest-triangle-area", "/blog/posts/0812-largest-triangle-area", "/0812-largest-triangle-area"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0812-largest-triangle-area solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0812-largest-triangle-area LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0812 Largest Triangle Area/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0812 Largest Triangle Area - Solution Explained/problem-solving.webp
     alt: 0812 Largest Triangle Area
     hiddenInList: true
     hiddenInSingle: false

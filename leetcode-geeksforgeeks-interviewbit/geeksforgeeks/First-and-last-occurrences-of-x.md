@@ -4,10 +4,9 @@ summary: First And Last Occurrences Of X - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/First-and-last-occurrences-of-x", "/blog/posts/First-and-last-occurrences-of-x", "/First-and-last-occurrences-of-x", "/blog/First-and-last-occurrences-of-x",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, First And Last Occurrences Of X solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "First And Last Occurrences Of X Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:First And Last Occurrences Of X - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:First And Last Occurrences Of X - Solution Explained/problem-solving.webp
     alt: First And Last Occurrences Of X
     hiddenInList: true
     hiddenInSingle: false

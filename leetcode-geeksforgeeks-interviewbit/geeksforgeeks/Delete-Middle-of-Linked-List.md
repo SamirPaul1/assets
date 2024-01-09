@@ -4,10 +4,9 @@ summary: Delete Middle Of Linked List - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Delete-Middle-of-Linked-List", "/blog/posts/Delete-Middle-of-Linked-List", "/Delete-Middle-of-Linked-List", "/blog/Delete-Middle-of-Linked-List",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Delete Middle Of Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Delete Middle Of Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Delete Middle Of Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Delete Middle Of Linked List - Solution Explained/problem-solving.webp
     alt: Delete Middle Of Linked List
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1041 Robot Bounded In Circle LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1041-robot-bounded-in-circle", "/blog/posts/1041-robot-bounded-in-circle", "/1041-robot-bounded-in-circle"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1041-robot-bounded-in-circle solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1041-robot-bounded-in-circle LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1041 Robot Bounded In Circle/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1041 Robot Bounded In Circle - Solution Explained/problem-solving.webp
     alt: 1041 Robot Bounded In Circle
     hiddenInList: true
     hiddenInSingle: false

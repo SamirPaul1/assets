@@ -4,10 +4,9 @@ summary: 4 Median Of Two Sorted Arrays LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/4-median-of-two-sorted-arrays", "/blog/posts/4-median-of-two-sorted-arrays", "/4-median-of-two-sorted-arrays"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 4-median-of-two-sorted-arrays solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "4-median-of-two-sorted-arrays LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:4 Median Of Two Sorted Arrays/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:4 Median Of Two Sorted Arrays - Solution Explained/problem-solving.webp
     alt: 4 Median Of Two Sorted Arrays
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Count Odd Even - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Count-Odd-Even", "/blog/posts/Count-Odd-Even", "/Count-Odd-Even", "/blog/Count-Odd-Even",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Count Odd Even solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Count Odd Even Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Odd Even - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Odd Even - Solution Explained/problem-solving.webp
     alt: Count Odd Even
     hiddenInList: true
     hiddenInSingle: false

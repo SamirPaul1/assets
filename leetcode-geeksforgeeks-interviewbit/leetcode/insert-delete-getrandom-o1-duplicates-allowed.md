@@ -4,10 +4,9 @@ summary: Insert Delete Getrandom O1 Duplicates Allowed LeetCode Solution Explain
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/insert-delete-getrandom-o1-duplicates-allowed", "/blog/posts/insert-delete-getrandom-o1-duplicates-allowed", "/insert-delete-getrandom-o1-duplicates-allowed"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, insert-delete-getrandom-o1-duplicates-allowed solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "insert-delete-getrandom-o1-duplicates-allowed LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Insert Delete Getrandom O1 Duplicates Allowed/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Insert Delete Getrandom O1 Duplicates Allowed - Solution Explained/problem-solving.webp
     alt: Insert Delete Getrandom O1 Duplicates Allowed
     hiddenInList: true
     hiddenInSingle: false

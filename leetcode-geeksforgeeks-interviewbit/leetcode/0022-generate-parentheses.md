@@ -4,10 +4,9 @@ summary: 0022 Generate Parentheses LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0022-generate-parentheses", "/blog/posts/0022-generate-parentheses", "/0022-generate-parentheses"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0022-generate-parentheses solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0022-generate-parentheses LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0022 Generate Parentheses/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0022 Generate Parentheses - Solution Explained/problem-solving.webp
     alt: 0022 Generate Parentheses
     hiddenInList: true
     hiddenInSingle: false

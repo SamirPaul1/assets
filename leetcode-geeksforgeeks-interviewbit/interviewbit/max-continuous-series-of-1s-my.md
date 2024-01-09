@@ -4,10 +4,9 @@ summary: Max Continuous Series Of 1S My - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Max Continuous Series Of 1S My solution]
-aliases: ["/posts/max-continuous-series-of-1s-my", "/blog/posts/max-continuous-series-of-1s-my", "/max-continuous-series-of-1s-my"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Max Continuous Series Of 1S My Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Max Continuous Series Of 1S My - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Max Continuous Series Of 1S My - Solution Explained/problem-solving.webp
     alt: Max Continuous Series Of 1S My
     hiddenInList: true
     hiddenInSingle: false

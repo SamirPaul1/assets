@@ -4,10 +4,9 @@ summary: Number Of Steps To Reduce A Number To Zero LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/number-of-steps-to-reduce-a-number-to-zero", "/blog/posts/number-of-steps-to-reduce-a-number-to-zero", "/number-of-steps-to-reduce-a-number-to-zero"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-steps-to-reduce-a-number-to-zero solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "number-of-steps-to-reduce-a-number-to-zero LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Steps To Reduce A Number To Zero/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Steps To Reduce A Number To Zero - Solution Explained/problem-solving.webp
     alt: Number Of Steps To Reduce A Number To Zero
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Construct K Palindrome Strings LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/construct-k-palindrome-strings", "/blog/posts/construct-k-palindrome-strings", "/construct-k-palindrome-strings"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, construct-k-palindrome-strings solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "construct-k-palindrome-strings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Construct K Palindrome Strings/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Construct K Palindrome Strings - Solution Explained/problem-solving.webp
     alt: Construct K Palindrome Strings
     hiddenInList: true
     hiddenInSingle: false

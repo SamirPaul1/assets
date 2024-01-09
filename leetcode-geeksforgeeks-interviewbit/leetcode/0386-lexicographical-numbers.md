@@ -4,10 +4,9 @@ summary: 0386 Lexicographical Numbers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0386-lexicographical-numbers", "/blog/posts/0386-lexicographical-numbers", "/0386-lexicographical-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0386-lexicographical-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0386-lexicographical-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0386 Lexicographical Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0386 Lexicographical Numbers - Solution Explained/problem-solving.webp
     alt: 0386 Lexicographical Numbers
     hiddenInList: true
     hiddenInSingle: false

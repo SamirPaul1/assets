@@ -4,10 +4,9 @@ summary: Combination Sum Ii - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Combination Sum Ii solution]
-aliases: ["/posts/combination-sum-ii", "/blog/posts/combination-sum-ii", "/combination-sum-ii"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Combination Sum Ii Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Combination Sum Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Combination Sum Ii - Solution Explained/problem-solving.webp
     alt: Combination Sum Ii
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Second Largest - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Second-Largest", "/blog/posts/Second-Largest", "/Second-Largest", "/blog/Second-Largest",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Second Largest solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Second Largest Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Second Largest - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Second Largest - Solution Explained/problem-solving.webp
     alt: Second Largest
     hiddenInList: true
     hiddenInSingle: false

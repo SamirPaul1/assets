@@ -4,10 +4,9 @@ summary: Sum Of Minimum And Maximum Elements Of All Subarrays Of Size K - Interv
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sum Of Minimum And Maximum Elements Of All Subarrays Of Size K solution]
-aliases: ["/posts/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k", "/blog/posts/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k", "/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Sum Of Minimum And Maximum Elements Of All Subarrays Of Size K Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Minimum And Maximum Elements Of All Subarrays Of Size K - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Minimum And Maximum Elements Of All Subarrays Of Size K - Solution Explained/problem-solving.webp
     alt: Sum Of Minimum And Maximum Elements Of All Subarrays Of Size K
     hiddenInList: true
     hiddenInSingle: false

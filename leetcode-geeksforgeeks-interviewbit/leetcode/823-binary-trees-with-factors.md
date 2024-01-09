@@ -4,10 +4,9 @@ summary: 823 Binary Trees With Factors LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/823-binary-trees-with-factors", "/blog/posts/823-binary-trees-with-factors", "/823-binary-trees-with-factors"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 823-binary-trees-with-factors solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "823-binary-trees-with-factors LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:823 Binary Trees With Factors/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:823 Binary Trees With Factors - Solution Explained/problem-solving.webp
     alt: 823 Binary Trees With Factors
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Number Of Burgers With No Waste Of Ingredients LeetCode Solution Explai
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/number-of-burgers-with-no-waste-of-ingredients", "/blog/posts/number-of-burgers-with-no-waste-of-ingredients", "/number-of-burgers-with-no-waste-of-ingredients"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-burgers-with-no-waste-of-ingredients solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "number-of-burgers-with-no-waste-of-ingredients LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Burgers With No Waste Of Ingredients/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Burgers With No Waste Of Ingredients - Solution Explained/problem-solving.webp
     alt: Number Of Burgers With No Waste Of Ingredients
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: List Cycle - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, List Cycle solution]
-aliases: ["/posts/list-cycle", "/blog/posts/list-cycle", "/list-cycle"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "List Cycle Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:List Cycle - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:List Cycle - Solution Explained/problem-solving.webp
     alt: List Cycle
     hiddenInList: true
     hiddenInSingle: false

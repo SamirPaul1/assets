@@ -4,10 +4,9 @@ summary: Best Time To Buy And Sell Stock LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/best-time-to-buy-and-sell-stock", "/blog/posts/best-time-to-buy-and-sell-stock", "/best-time-to-buy-and-sell-stock"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, best-time-to-buy-and-sell-stock solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "best-time-to-buy-and-sell-stock LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Best Time To Buy And Sell Stock/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Best Time To Buy And Sell Stock - Solution Explained/problem-solving.webp
     alt: Best Time To Buy And Sell Stock
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Word Ladder Ii - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Word Ladder Ii solution]
-aliases: ["/posts/word-ladder-ii", "/blog/posts/word-ladder-ii", "/word-ladder-ii"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Word Ladder Ii Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Ladder Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Ladder Ii - Solution Explained/problem-solving.webp
     alt: Word Ladder Ii
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 188 Best Time To Buy And Sell Stock Iv LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/188-best-time-to-buy-and-sell-stock-iv", "/blog/posts/188-best-time-to-buy-and-sell-stock-iv", "/188-best-time-to-buy-and-sell-stock-iv"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 188-best-time-to-buy-and-sell-stock-iv solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "188-best-time-to-buy-and-sell-stock-iv LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:188 Best Time To Buy And Sell Stock Iv/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:188 Best Time To Buy And Sell Stock Iv - Solution Explained/problem-solving.webp
     alt: 188 Best Time To Buy And Sell Stock Iv
     hiddenInList: true
     hiddenInSingle: false

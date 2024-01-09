@@ -4,10 +4,9 @@ summary: Sort An Array Of 0S, 1S And 2S - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sort-an-array-of-0s,-1s-and-2s", "/blog/posts/Sort-an-array-of-0s,-1s-and-2s", "/Sort-an-array-of-0s,-1s-and-2s", "/blog/Sort-an-array-of-0s,-1s-and-2s",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sort An Array Of 0S, 1S And 2S solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sort An Array Of 0S, 1S And 2S Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort An Array Of 0S, 1S And 2S - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sort An Array Of 0S, 1S And 2S - Solution Explained/problem-solving.webp
     alt: Sort An Array Of 0S, 1S And 2S
     hiddenInList: true
     hiddenInSingle: false

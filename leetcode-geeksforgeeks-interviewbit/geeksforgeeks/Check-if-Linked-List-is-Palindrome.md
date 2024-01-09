@@ -4,10 +4,9 @@ summary: Check If Linked List Is Palindrome - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Check-if-Linked-List-is-Palindrome", "/blog/posts/Check-if-Linked-List-is-Palindrome", "/Check-if-Linked-List-is-Palindrome", "/blog/Check-if-Linked-List-is-Palindrome",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Check If Linked List Is Palindrome solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Check If Linked List Is Palindrome Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Check If Linked List Is Palindrome - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Check If Linked List Is Palindrome - Solution Explained/problem-solving.webp
     alt: Check If Linked List Is Palindrome
     hiddenInList: true
     hiddenInSingle: false

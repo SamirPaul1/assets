@@ -4,10 +4,9 @@ summary: Sum Root To Leaf Numbers - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sum Root To Leaf Numbers solution]
-aliases: ["/posts/sum-root-to-leaf-numbers", "/blog/posts/sum-root-to-leaf-numbers", "/sum-root-to-leaf-numbers"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Sum Root To Leaf Numbers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Root To Leaf Numbers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Root To Leaf Numbers - Solution Explained/problem-solving.webp
     alt: Sum Root To Leaf Numbers
     hiddenInList: true
     hiddenInSingle: false

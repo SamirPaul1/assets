@@ -4,10 +4,9 @@ summary: 38 Count And Say LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/38-count-and-say", "/blog/posts/38-count-and-say", "/38-count-and-say"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 38-count-and-say solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "38-count-and-say LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:38 Count And Say/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:38 Count And Say - Solution Explained/problem-solving.webp
     alt: 38 Count And Say
     hiddenInList: true
     hiddenInSingle: false

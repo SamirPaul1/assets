@@ -4,10 +4,9 @@ summary: 532 K Diff Pairs In An Array LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/532-k-diff-pairs-in-an-array", "/blog/posts/532-k-diff-pairs-in-an-array", "/532-k-diff-pairs-in-an-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 532-k-diff-pairs-in-an-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "532-k-diff-pairs-in-an-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:532 K Diff Pairs In An Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:532 K Diff Pairs In An Array - Solution Explained/problem-solving.webp
     alt: 532 K Diff Pairs In An Array
     hiddenInList: true
     hiddenInSingle: false

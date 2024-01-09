@@ -4,10 +4,9 @@ summary: Palindrome Linked List LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/palindrome-linked-list", "/blog/posts/palindrome-linked-list", "/palindrome-linked-list"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, palindrome-linked-list solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "palindrome-linked-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindrome Linked List/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Palindrome Linked List - Solution Explained/problem-solving.webp
     alt: Palindrome Linked List
     hiddenInList: true
     hiddenInSingle: false

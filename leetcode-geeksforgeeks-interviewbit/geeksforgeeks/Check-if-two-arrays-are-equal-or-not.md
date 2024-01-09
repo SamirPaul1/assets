@@ -4,10 +4,9 @@ summary: Check If Two Arrays Are Equal Or Not - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Check-if-two-arrays-are-equal-or-not", "/blog/posts/Check-if-two-arrays-are-equal-or-not", "/Check-if-two-arrays-are-equal-or-not", "/blog/Check-if-two-arrays-are-equal-or-not",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Check If Two Arrays Are Equal Or Not solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Check If Two Arrays Are Equal Or Not Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Check If Two Arrays Are Equal Or Not - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Check If Two Arrays Are Equal Or Not - Solution Explained/problem-solving.webp
     alt: Check If Two Arrays Are Equal Or Not
     hiddenInList: true
     hiddenInSingle: false

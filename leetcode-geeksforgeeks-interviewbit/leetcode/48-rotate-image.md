@@ -4,10 +4,9 @@ summary: 48 Rotate Image LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/48-rotate-image", "/blog/posts/48-rotate-image", "/48-rotate-image"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 48-rotate-image solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "48-rotate-image LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:48 Rotate Image/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:48 Rotate Image - Solution Explained/problem-solving.webp
     alt: 48 Rotate Image
     hiddenInList: true
     hiddenInSingle: false

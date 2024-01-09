@@ -4,10 +4,9 @@ summary: 63 Unique Paths Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/63-unique-paths-ii", "/blog/posts/63-unique-paths-ii", "/63-unique-paths-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 63-unique-paths-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "63-unique-paths-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:63 Unique Paths Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:63 Unique Paths Ii - Solution Explained/problem-solving.webp
     alt: 63 Unique Paths Ii
     hiddenInList: true
     hiddenInSingle: false

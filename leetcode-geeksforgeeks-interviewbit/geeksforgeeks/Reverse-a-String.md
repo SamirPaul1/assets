@@ -4,10 +4,9 @@ summary: Reverse A String - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Reverse-a-String", "/blog/posts/Reverse-a-String", "/Reverse-a-String", "/blog/Reverse-a-String",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Reverse A String solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Reverse A String Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse A String - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Reverse A String - Solution Explained/problem-solving.webp
     alt: Reverse A String
     hiddenInList: true
     hiddenInSingle: false

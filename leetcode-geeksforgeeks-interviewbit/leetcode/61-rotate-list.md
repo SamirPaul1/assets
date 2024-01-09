@@ -4,10 +4,9 @@ summary: 61 Rotate List LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/61-rotate-list", "/blog/posts/61-rotate-list", "/61-rotate-list"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 61-rotate-list solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "61-rotate-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:61 Rotate List/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:61 Rotate List - Solution Explained/problem-solving.webp
     alt: 61 Rotate List
     hiddenInList: true
     hiddenInSingle: false

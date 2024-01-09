@@ -4,10 +4,9 @@ summary: 1466 Reorder Routes To Make All Paths Lead To The City Zero LeetCode So
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero", "/blog/posts/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero", "/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1466 Reorder Routes To Make All Paths Lead To The City Zero/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1466 Reorder Routes To Make All Paths Lead To The City Zero - Solution Explained/problem-solving.webp
     alt: 1466 Reorder Routes To Make All Paths Lead To The City Zero
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1268 Search Suggestions System LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1268-search-suggestions-system", "/blog/posts/1268-search-suggestions-system", "/1268-search-suggestions-system"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1268-search-suggestions-system solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1268-search-suggestions-system LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1268 Search Suggestions System/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1268 Search Suggestions System - Solution Explained/problem-solving.webp
     alt: 1268 Search Suggestions System
     hiddenInList: true
     hiddenInSingle: false

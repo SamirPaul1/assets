@@ -4,10 +4,9 @@ summary: Inorder Traversal - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Inorder-Traversal", "/blog/posts/Inorder-Traversal", "/Inorder-Traversal", "/blog/Inorder-Traversal",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Inorder Traversal solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Inorder Traversal Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Inorder Traversal - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Inorder Traversal - Solution Explained/problem-solving.webp
     alt: Inorder Traversal
     hiddenInList: true
     hiddenInSingle: false

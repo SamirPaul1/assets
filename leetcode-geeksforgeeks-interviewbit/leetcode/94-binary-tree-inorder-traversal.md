@@ -4,10 +4,9 @@ summary: 94 Binary Tree Inorder Traversal LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/94-binary-tree-inorder-traversal", "/blog/posts/94-binary-tree-inorder-traversal", "/94-binary-tree-inorder-traversal"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 94-binary-tree-inorder-traversal solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "94-binary-tree-inorder-traversal LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:94 Binary Tree Inorder Traversal/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:94 Binary Tree Inorder Traversal - Solution Explained/problem-solving.webp
     alt: 94 Binary Tree Inorder Traversal
     hiddenInList: true
     hiddenInSingle: false

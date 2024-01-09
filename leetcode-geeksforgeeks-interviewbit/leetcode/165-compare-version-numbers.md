@@ -4,10 +4,9 @@ summary: 165 Compare Version Numbers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/165-compare-version-numbers", "/blog/posts/165-compare-version-numbers", "/165-compare-version-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 165-compare-version-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "165-compare-version-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:165 Compare Version Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:165 Compare Version Numbers - Solution Explained/problem-solving.webp
     alt: 165 Compare Version Numbers
     hiddenInList: true
     hiddenInSingle: false

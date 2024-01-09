@@ -4,10 +4,9 @@ summary: Advantage Shuffle LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/advantage-shuffle", "/blog/posts/advantage-shuffle", "/advantage-shuffle"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, advantage-shuffle solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "advantage-shuffle LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Advantage Shuffle/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Advantage Shuffle - Solution Explained/problem-solving.webp
     alt: Advantage Shuffle
     hiddenInList: true
     hiddenInSingle: false

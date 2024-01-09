@@ -4,10 +4,9 @@ summary: Reverse A Linked List - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Reverse-a-linked-list", "/blog/posts/Reverse-a-linked-list", "/Reverse-a-linked-list", "/blog/Reverse-a-linked-list",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Reverse A Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Reverse A Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse A Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Reverse A Linked List - Solution Explained/problem-solving.webp
     alt: Reverse A Linked List
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 147 Insertion Sort List LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/147-insertion-sort-list", "/blog/posts/147-insertion-sort-list", "/147-insertion-sort-list"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 147-insertion-sort-list solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "147-insertion-sort-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:147 Insertion Sort List/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:147 Insertion Sort List - Solution Explained/problem-solving.webp
     alt: 147 Insertion Sort List
     hiddenInList: true
     hiddenInSingle: false

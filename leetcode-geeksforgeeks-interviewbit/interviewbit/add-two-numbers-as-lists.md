@@ -4,10 +4,9 @@ summary: Add Two Numbers As Lists - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Add Two Numbers As Lists solution]
-aliases: ["/posts/add-two-numbers-as-lists", "/blog/posts/add-two-numbers-as-lists", "/add-two-numbers-as-lists"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Add Two Numbers As Lists Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Add Two Numbers As Lists - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Add Two Numbers As Lists - Solution Explained/problem-solving.webp
     alt: Add Two Numbers As Lists
     hiddenInList: true
     hiddenInSingle: false

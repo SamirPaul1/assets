@@ -4,10 +4,9 @@ summary: 225 Implement Stack Using Queues LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/225-implement-stack-using-queues", "/blog/posts/225-implement-stack-using-queues", "/225-implement-stack-using-queues"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 225-implement-stack-using-queues solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "225-implement-stack-using-queues LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:225 Implement Stack Using Queues/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:225 Implement Stack Using Queues - Solution Explained/problem-solving.webp
     alt: 225 Implement Stack Using Queues
     hiddenInList: true
     hiddenInSingle: false

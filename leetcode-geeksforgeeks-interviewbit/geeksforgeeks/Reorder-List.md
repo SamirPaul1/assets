@@ -4,10 +4,9 @@ summary: Reorder List - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Reorder-List", "/blog/posts/Reorder-List", "/Reorder-List", "/blog/Reorder-List",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Reorder List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Reorder List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reorder List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Reorder List - Solution Explained/problem-solving.webp
     alt: Reorder List
     hiddenInList: true
     hiddenInSingle: false

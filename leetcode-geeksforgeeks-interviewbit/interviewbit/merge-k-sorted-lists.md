@@ -4,10 +4,9 @@ summary: Merge K Sorted Lists - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge K Sorted Lists solution]
-aliases: ["/posts/merge-k-sorted-lists", "/blog/posts/merge-k-sorted-lists", "/merge-k-sorted-lists"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Merge K Sorted Lists Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge K Sorted Lists - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Merge K Sorted Lists - Solution Explained/problem-solving.webp
     alt: Merge K Sorted Lists
     hiddenInList: true
     hiddenInSingle: false

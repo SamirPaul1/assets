@@ -4,10 +4,9 @@ summary: Find Sub Array With The Given Sum - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Find Sub Array With The Given Sum solution]
-aliases: ["/posts/find-sub-array-with-the-given-sum", "/blog/posts/find-sub-array-with-the-given-sum", "/find-sub-array-with-the-given-sum"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Find Sub Array With The Given Sum Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Sub Array With The Given Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find Sub Array With The Given Sum - Solution Explained/problem-solving.webp
     alt: Find Sub Array With The Given Sum
     hiddenInList: true
     hiddenInSingle: false

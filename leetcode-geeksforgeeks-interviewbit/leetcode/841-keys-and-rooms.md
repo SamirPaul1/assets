@@ -4,10 +4,9 @@ summary: 841 Keys And Rooms LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/841-keys-and-rooms", "/blog/posts/841-keys-and-rooms", "/841-keys-and-rooms"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 841-keys-and-rooms solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "841-keys-and-rooms LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:841 Keys And Rooms/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:841 Keys And Rooms - Solution Explained/problem-solving.webp
     alt: 841 Keys And Rooms
     hiddenInList: true
     hiddenInSingle: false

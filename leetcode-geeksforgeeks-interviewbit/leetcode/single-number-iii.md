@@ -4,10 +4,9 @@ summary: Single Number Iii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/single-number-iii", "/blog/posts/single-number-iii", "/single-number-iii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, single-number-iii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "single-number-iii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Number Iii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Single Number Iii - Solution Explained/problem-solving.webp
     alt: Single Number Iii
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 739 Daily Temperatures LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/739-daily-temperatures", "/blog/posts/739-daily-temperatures", "/739-daily-temperatures"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 739-daily-temperatures solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "739-daily-temperatures LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:739 Daily Temperatures/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:739 Daily Temperatures - Solution Explained/problem-solving.webp
     alt: 739 Daily Temperatures
     hiddenInList: true
     hiddenInSingle: false

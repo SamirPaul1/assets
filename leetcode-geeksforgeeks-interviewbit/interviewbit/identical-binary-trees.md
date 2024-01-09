@@ -4,10 +4,9 @@ summary: Identical Binary Trees - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Identical Binary Trees solution]
-aliases: ["/posts/identical-binary-trees", "/blog/posts/identical-binary-trees", "/identical-binary-trees"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Identical Binary Trees Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Identical Binary Trees - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Identical Binary Trees - Solution Explained/problem-solving.webp
     alt: Identical Binary Trees
     hiddenInList: true
     hiddenInSingle: false

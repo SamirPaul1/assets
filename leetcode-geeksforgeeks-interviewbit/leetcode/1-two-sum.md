@@ -4,10 +4,9 @@ summary: 1 Two Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1-two-sum", "/blog/posts/1-two-sum", "/1-two-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1-two-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1-two-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1 Two Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1 Two Sum - Solution Explained/problem-solving.webp
     alt: 1 Two Sum
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 0607 Sales Person LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0607-sales-person", "/blog/posts/0607-sales-person", "/0607-sales-person"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0607-sales-person solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0607-sales-person LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0607 Sales Person/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0607 Sales Person - Solution Explained/problem-solving.webp
     alt: 0607 Sales Person
     hiddenInList: true
     hiddenInSingle: false

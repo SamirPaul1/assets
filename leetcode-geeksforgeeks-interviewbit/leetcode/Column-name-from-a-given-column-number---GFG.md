@@ -4,10 +4,9 @@ summary: Column Name From A Given Column Number   Gfg LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Column-name-from-a-given-column-number---GFG", "/blog/posts/Column-name-from-a-given-column-number---GFG", "/Column-name-from-a-given-column-number---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Column name from a given column number - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Column name from a given column number - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Column Name From A Given Column Number   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Column Name From A Given Column Number   Gfg - Solution Explained/problem-solving.webp
     alt: Column Name From A Given Column Number   Gfg
     hiddenInList: true
     hiddenInSingle: false

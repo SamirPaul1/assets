@@ -4,10 +4,9 @@ summary: Reverse An Array - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Reverse-an-Array", "/blog/posts/Reverse-an-Array", "/Reverse-an-Array", "/blog/Reverse-an-Array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Reverse An Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Reverse An Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse An Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Reverse An Array - Solution Explained/problem-solving.webp
     alt: Reverse An Array
     hiddenInList: true
     hiddenInSingle: false

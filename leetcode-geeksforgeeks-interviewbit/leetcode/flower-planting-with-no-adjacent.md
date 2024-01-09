@@ -4,10 +4,9 @@ summary: Flower Planting With No Adjacent LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/flower-planting-with-no-adjacent", "/blog/posts/flower-planting-with-no-adjacent", "/flower-planting-with-no-adjacent"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, flower-planting-with-no-adjacent solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "flower-planting-with-no-adjacent LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Flower Planting With No Adjacent/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Flower Planting With No Adjacent - Solution Explained/problem-solving.webp
     alt: Flower Planting With No Adjacent
     hiddenInList: true
     hiddenInSingle: false

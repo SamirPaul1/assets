@@ -4,10 +4,9 @@ summary: 909 Snakes And Ladders LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/909-snakes-and-ladders", "/blog/posts/909-snakes-and-ladders", "/909-snakes-and-ladders"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 909-snakes-and-ladders solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "909-snakes-and-ladders LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:909 Snakes And Ladders/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:909 Snakes And Ladders - Solution Explained/problem-solving.webp
     alt: 909 Snakes And Ladders
     hiddenInList: true
     hiddenInSingle: false

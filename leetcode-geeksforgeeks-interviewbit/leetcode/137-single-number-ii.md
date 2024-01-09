@@ -4,10 +4,9 @@ summary: 137 Single Number Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/137-single-number-ii", "/blog/posts/137-single-number-ii", "/137-single-number-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 137-single-number-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "137-single-number-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:137 Single Number Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:137 Single Number Ii - Solution Explained/problem-solving.webp
     alt: 137 Single Number Ii
     hiddenInList: true
     hiddenInSingle: false

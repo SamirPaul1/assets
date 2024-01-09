@@ -4,10 +4,9 @@ summary: Stringoholics - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Stringoholics solution]
-aliases: ["/posts/stringoholics", "/blog/posts/stringoholics", "/stringoholics"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Stringoholics Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Stringoholics - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Stringoholics - Solution Explained/problem-solving.webp
     alt: Stringoholics
     hiddenInList: true
     hiddenInSingle: false

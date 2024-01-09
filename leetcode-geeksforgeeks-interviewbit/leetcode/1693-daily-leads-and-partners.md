@@ -4,10 +4,9 @@ summary: 1693 Daily Leads And Partners LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1693-daily-leads-and-partners", "/blog/posts/1693-daily-leads-and-partners", "/1693-daily-leads-and-partners"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1693-daily-leads-and-partners solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1693-daily-leads-and-partners LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1693 Daily Leads And Partners/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1693 Daily Leads And Partners - Solution Explained/problem-solving.webp
     alt: 1693 Daily Leads And Partners
     hiddenInList: true
     hiddenInSingle: false

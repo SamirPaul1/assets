@@ -4,10 +4,9 @@ summary: Decode Xored Permutation LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/decode-xored-permutation", "/blog/posts/decode-xored-permutation", "/decode-xored-permutation"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, decode-xored-permutation solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "decode-xored-permutation LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Decode Xored Permutation/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Decode Xored Permutation - Solution Explained/problem-solving.webp
     alt: Decode Xored Permutation
     hiddenInList: true
     hiddenInSingle: false

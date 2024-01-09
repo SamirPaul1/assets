@@ -4,10 +4,9 @@ summary: Prime Number - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Prime-Number", "/blog/posts/Prime-Number", "/Prime-Number", "/blog/Prime-Number",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Prime Number solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Prime Number Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Prime Number - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Prime Number - Solution Explained/problem-solving.webp
     alt: Prime Number
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1266 Minimum Time Visiting All Points LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1266-minimum-time-visiting-all-points", "/blog/posts/1266-minimum-time-visiting-all-points", "/1266-minimum-time-visiting-all-points"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1266-minimum-time-visiting-all-points solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1266-minimum-time-visiting-all-points LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1266 Minimum Time Visiting All Points/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1266 Minimum Time Visiting All Points - Solution Explained/problem-solving.webp
     alt: 1266 Minimum Time Visiting All Points
     hiddenInList: true
     hiddenInSingle: false

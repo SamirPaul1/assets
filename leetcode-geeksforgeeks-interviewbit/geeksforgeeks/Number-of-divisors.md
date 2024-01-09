@@ -4,10 +4,9 @@ summary: Number Of Divisors - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Number-of-divisors", "/blog/posts/Number-of-divisors", "/Number-of-divisors", "/blog/Number-of-divisors",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Number Of Divisors solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Number Of Divisors Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Divisors - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Divisors - Solution Explained/problem-solving.webp
     alt: Number Of Divisors
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 2024 Maximize The Confusion Of An Exam LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/2024-maximize-the-confusion-of-an-exam", "/blog/posts/2024-maximize-the-confusion-of-an-exam", "/2024-maximize-the-confusion-of-an-exam"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 2024-maximize-the-confusion-of-an-exam solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "2024-maximize-the-confusion-of-an-exam LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:2024 Maximize The Confusion Of An Exam/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2024 Maximize The Confusion Of An Exam - Solution Explained/problem-solving.webp
     alt: 2024 Maximize The Confusion Of An Exam
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: The Time When The Network Becomes Idle LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/the-time-when-the-network-becomes-idle", "/blog/posts/the-time-when-the-network-becomes-idle", "/the-time-when-the-network-becomes-idle"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, the-time-when-the-network-becomes-idle solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "the-time-when-the-network-becomes-idle LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:The Time When The Network Becomes Idle/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:The Time When The Network Becomes Idle - Solution Explained/problem-solving.webp
     alt: The Time When The Network Becomes Idle
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1302 Deepest Leaves Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1302-deepest-leaves-sum", "/blog/posts/1302-deepest-leaves-sum", "/1302-deepest-leaves-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1302-deepest-leaves-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1302-deepest-leaves-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1302 Deepest Leaves Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1302 Deepest Leaves Sum - Solution Explained/problem-solving.webp
     alt: 1302 Deepest Leaves Sum
     hiddenInList: true
     hiddenInSingle: false

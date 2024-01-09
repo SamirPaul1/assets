@@ -4,10 +4,9 @@ summary: 131 Palindrome Partitioning LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/131-palindrome-partitioning", "/blog/posts/131-palindrome-partitioning", "/131-palindrome-partitioning"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 131-palindrome-partitioning solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "131-palindrome-partitioning LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:131 Palindrome Partitioning/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:131 Palindrome Partitioning - Solution Explained/problem-solving.webp
     alt: 131 Palindrome Partitioning
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: 1079 Letter Tile Possibilities LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1079-letter-tile-possibilities", "/blog/posts/1079-letter-tile-possibilities", "/1079-letter-tile-possibilities"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1079-letter-tile-possibilities solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1079-letter-tile-possibilities LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1079 Letter Tile Possibilities/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1079 Letter Tile Possibilities - Solution Explained/problem-solving.webp
     alt: 1079 Letter Tile Possibilities
     hiddenInList: true
     hiddenInSingle: false

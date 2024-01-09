@@ -4,10 +4,9 @@ summary: Binary Array Sorting - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Binary-Array-Sorting", "/blog/posts/Binary-Array-Sorting", "/Binary-Array-Sorting", "/blog/Binary-Array-Sorting",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Binary Array Sorting solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Binary Array Sorting Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Binary Array Sorting - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Binary Array Sorting - Solution Explained/problem-solving.webp
     alt: Binary Array Sorting
     hiddenInList: true
     hiddenInSingle: false

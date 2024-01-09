@@ -4,10 +4,9 @@ summary: Number Of Provinces LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/number-of-provinces", "/blog/posts/number-of-provinces", "/number-of-provinces"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, number-of-provinces solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "number-of-provinces LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Number Of Provinces/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Number Of Provinces - Solution Explained/problem-solving.webp
     alt: Number Of Provinces
     hiddenInList: true
     hiddenInSingle: false

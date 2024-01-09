@@ -4,10 +4,9 @@ summary: 1029 Two City Scheduling LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1029-two-city-scheduling", "/blog/posts/1029-two-city-scheduling", "/1029-two-city-scheduling"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1029-two-city-scheduling solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1029-two-city-scheduling LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1029 Two City Scheduling/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1029 Two City Scheduling - Solution Explained/problem-solving.webp
     alt: 1029 Two City Scheduling
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Pascals Triangle LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/pascals-triangle", "/blog/posts/pascals-triangle", "/pascals-triangle"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, pascals-triangle solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "pascals-triangle LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Pascals Triangle/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Pascals Triangle - Solution Explained/problem-solving.webp
     alt: Pascals Triangle
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Subdomain Visit Count LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/subdomain-visit-count", "/blog/posts/subdomain-visit-count", "/subdomain-visit-count"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, subdomain-visit-count solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "subdomain-visit-count LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subdomain Visit Count/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Subdomain Visit Count - Solution Explained/problem-solving.webp
     alt: Subdomain Visit Count
     hiddenInList: true
     hiddenInSingle: false

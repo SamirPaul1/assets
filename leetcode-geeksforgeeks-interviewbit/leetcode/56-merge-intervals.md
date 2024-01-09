@@ -4,10 +4,9 @@ summary: 56 Merge Intervals LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/56-merge-intervals", "/blog/posts/56-merge-intervals", "/56-merge-intervals"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 56-merge-intervals solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "56-merge-intervals LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:56 Merge Intervals/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:56 Merge Intervals - Solution Explained/problem-solving.webp
     alt: 56 Merge Intervals
     hiddenInList: true
     hiddenInSingle: false

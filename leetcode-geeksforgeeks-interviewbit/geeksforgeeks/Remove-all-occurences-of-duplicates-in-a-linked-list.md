@@ -4,10 +4,9 @@ summary: Remove All Occurences Of Duplicates In A Linked List - GeeksforGeeks So
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Remove-all-occurences-of-duplicates-in-a-linked-list", "/blog/posts/Remove-all-occurences-of-duplicates-in-a-linked-list", "/Remove-all-occurences-of-duplicates-in-a-linked-list", "/blog/Remove-all-occurences-of-duplicates-in-a-linked-list",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Remove All Occurences Of Duplicates In A Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Remove All Occurences Of Duplicates In A Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Remove All Occurences Of Duplicates In A Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Remove All Occurences Of Duplicates In A Linked List - Solution Explained/problem-solving.webp
     alt: Remove All Occurences Of Duplicates In A Linked List
     hiddenInList: true
     hiddenInSingle: false

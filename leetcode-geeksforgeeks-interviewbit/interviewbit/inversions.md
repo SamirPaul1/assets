@@ -4,10 +4,9 @@ summary: Inversions - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Inversions solution]
-aliases: ["/posts/inversions", "/blog/posts/inversions", "/inversions"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Inversions Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Inversions - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Inversions - Solution Explained/problem-solving.webp
     alt: Inversions
     hiddenInList: true
     hiddenInSingle: false

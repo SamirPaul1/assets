@@ -4,10 +4,9 @@ summary: Triplet Sum In Array - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Triplet-Sum-in-Array", "/blog/posts/Triplet-Sum-in-Array", "/Triplet-Sum-in-Array", "/blog/Triplet-Sum-in-Array",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Triplet Sum In Array solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Triplet Sum In Array Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Triplet Sum In Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Triplet Sum In Array - Solution Explained/problem-solving.webp
     alt: Triplet Sum In Array
     hiddenInList: true
     hiddenInSingle: false

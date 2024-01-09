@@ -4,10 +4,9 @@ summary: Sqrtx LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/sqrtx", "/blog/posts/sqrtx", "/sqrtx"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, sqrtx solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sqrtx LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sqrtx/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sqrtx - Solution Explained/problem-solving.webp
     alt: Sqrtx
     hiddenInList: true
     hiddenInSingle: false

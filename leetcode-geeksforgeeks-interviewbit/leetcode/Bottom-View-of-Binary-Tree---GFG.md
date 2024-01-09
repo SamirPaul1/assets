@@ -4,10 +4,9 @@ summary: Bottom View Of Binary Tree   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Bottom-View-of-Binary-Tree---GFG", "/blog/posts/Bottom-View-of-Binary-Tree---GFG", "/Bottom-View-of-Binary-Tree---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Bottom View of Binary Tree - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Bottom View of Binary Tree - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Bottom View Of Binary Tree   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Bottom View Of Binary Tree   Gfg - Solution Explained/problem-solving.webp
     alt: Bottom View Of Binary Tree   Gfg
     hiddenInList: true
     hiddenInSingle: false

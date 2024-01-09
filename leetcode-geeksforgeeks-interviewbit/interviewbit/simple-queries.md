@@ -4,10 +4,9 @@ summary: Simple Queries - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Simple Queries solution]
-aliases: ["/posts/simple-queries", "/blog/posts/simple-queries", "/simple-queries"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Simple Queries Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Simple Queries - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Simple Queries - Solution Explained/problem-solving.webp
     alt: Simple Queries
     hiddenInList: true
     hiddenInSingle: false

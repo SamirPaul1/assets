@@ -4,10 +4,9 @@ summary: Populate Next Right Pointers Tree - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Populate Next Right Pointers Tree solution]
-aliases: ["/posts/populate-next-right-pointers-tree", "/blog/posts/populate-next-right-pointers-tree", "/populate-next-right-pointers-tree"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Populate Next Right Pointers Tree Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Populate Next Right Pointers Tree - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Populate Next Right Pointers Tree - Solution Explained/problem-solving.webp
     alt: Populate Next Right Pointers Tree
     hiddenInList: true
     hiddenInSingle: false

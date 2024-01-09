@@ -4,10 +4,9 @@ summary: 494 Target Sum LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/494-target-sum", "/blog/posts/494-target-sum", "/494-target-sum"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 494-target-sum solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "494-target-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:494 Target Sum/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:494 Target Sum - Solution Explained/problem-solving.webp
     alt: 494 Target Sum
     hiddenInList: true
     hiddenInSingle: false

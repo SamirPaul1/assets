@@ -4,10 +4,9 @@ summary: 1508 Range Sum Of Sorted Subarray Sums LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1508-range-sum-of-sorted-subarray-sums", "/blog/posts/1508-range-sum-of-sorted-subarray-sums", "/1508-range-sum-of-sorted-subarray-sums"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1508-range-sum-of-sorted-subarray-sums solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1508-range-sum-of-sorted-subarray-sums LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1508 Range Sum Of Sorted Subarray Sums/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1508 Range Sum Of Sorted Subarray Sums - Solution Explained/problem-solving.webp
     alt: 1508 Range Sum Of Sorted Subarray Sums
     hiddenInList: true
     hiddenInSingle: false

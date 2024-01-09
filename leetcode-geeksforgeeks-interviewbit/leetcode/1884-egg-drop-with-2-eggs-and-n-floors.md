@@ -4,10 +4,9 @@ summary: 1884 Egg Drop With 2 Eggs And N Floors LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1884-egg-drop-with-2-eggs-and-n-floors", "/blog/posts/1884-egg-drop-with-2-eggs-and-n-floors", "/1884-egg-drop-with-2-eggs-and-n-floors"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1884-egg-drop-with-2-eggs-and-n-floors solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1884-egg-drop-with-2-eggs-and-n-floors LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1884 Egg Drop With 2 Eggs And N Floors/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1884 Egg Drop With 2 Eggs And N Floors - Solution Explained/problem-solving.webp
     alt: 1884 Egg Drop With 2 Eggs And N Floors
     hiddenInList: true
     hiddenInSingle: false

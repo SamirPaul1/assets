@@ -4,10 +4,9 @@ summary: Construct Binary Search Tree From Preorder Traversal LeetCode Solution 
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/construct-binary-search-tree-from-preorder-traversal", "/blog/posts/construct-binary-search-tree-from-preorder-traversal", "/construct-binary-search-tree-from-preorder-traversal"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, construct-binary-search-tree-from-preorder-traversal solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "construct-binary-search-tree-from-preorder-traversal LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Construct Binary Search Tree From Preorder Traversal/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Construct Binary Search Tree From Preorder Traversal - Solution Explained/problem-solving.webp
     alt: Construct Binary Search Tree From Preorder Traversal
     hiddenInList: true
     hiddenInSingle: false

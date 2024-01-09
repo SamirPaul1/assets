@@ -4,10 +4,9 @@ summary: Shortest Unique Prefix - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Shortest Unique Prefix solution]
-aliases: ["/posts/shortest-unique-prefix", "/blog/posts/shortest-unique-prefix", "/shortest-unique-prefix"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Shortest Unique Prefix Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Shortest Unique Prefix - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Shortest Unique Prefix - Solution Explained/problem-solving.webp
     alt: Shortest Unique Prefix
     hiddenInList: true
     hiddenInSingle: false

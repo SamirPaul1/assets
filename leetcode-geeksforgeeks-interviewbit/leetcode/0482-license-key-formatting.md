@@ -4,10 +4,9 @@ summary: 0482 License Key Formatting LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0482-license-key-formatting", "/blog/posts/0482-license-key-formatting", "/0482-license-key-formatting"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0482-license-key-formatting solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0482-license-key-formatting LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0482 License Key Formatting/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0482 License Key Formatting - Solution Explained/problem-solving.webp
     alt: 0482 License Key Formatting
     hiddenInList: true
     hiddenInSingle: false

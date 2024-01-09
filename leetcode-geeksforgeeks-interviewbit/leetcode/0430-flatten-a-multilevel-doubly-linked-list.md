@@ -4,10 +4,9 @@ summary: 0430 Flatten A Multilevel Doubly Linked List LeetCode Solution Explaine
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0430-flatten-a-multilevel-doubly-linked-list", "/blog/posts/0430-flatten-a-multilevel-doubly-linked-list", "/0430-flatten-a-multilevel-doubly-linked-list"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0430-flatten-a-multilevel-doubly-linked-list solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0430-flatten-a-multilevel-doubly-linked-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0430 Flatten A Multilevel Doubly Linked List/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0430 Flatten A Multilevel Doubly Linked List - Solution Explained/problem-solving.webp
     alt: 0430 Flatten A Multilevel Doubly Linked List
     hiddenInList: true
     hiddenInSingle: false

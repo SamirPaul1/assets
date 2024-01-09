@@ -4,10 +4,9 @@ summary: H Index Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/h-index-ii", "/blog/posts/h-index-ii", "/h-index-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, h-index-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "h-index-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:H Index Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:H Index Ii - Solution Explained/problem-solving.webp
     alt: H Index Ii
     hiddenInList: true
     hiddenInSingle: false

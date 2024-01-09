@@ -4,10 +4,9 @@ summary: Coin Change LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/coin-change", "/blog/posts/coin-change", "/coin-change"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, coin-change solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "coin-change LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Coin Change/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Coin Change - Solution Explained/problem-solving.webp
     alt: Coin Change
     hiddenInList: true
     hiddenInSingle: false

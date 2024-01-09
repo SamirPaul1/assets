@@ -4,10 +4,9 @@ summary: House Robber Iii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/house-robber-iii", "/blog/posts/house-robber-iii", "/house-robber-iii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, house-robber-iii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "house-robber-iii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:House Robber Iii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:House Robber Iii - Solution Explained/problem-solving.webp
     alt: House Robber Iii
     hiddenInList: true
     hiddenInSingle: false

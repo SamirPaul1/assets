@@ -4,10 +4,9 @@ summary: Two Numbers With Odd Occurrences - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Two-numbers-with-odd-occurrences", "/blog/posts/Two-numbers-with-odd-occurrences", "/Two-numbers-with-odd-occurrences", "/blog/Two-numbers-with-odd-occurrences",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Two Numbers With Odd Occurrences solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Two Numbers With Odd Occurrences Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Two Numbers With Odd Occurrences - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Two Numbers With Odd Occurrences - Solution Explained/problem-solving.webp
     alt: Two Numbers With Odd Occurrences
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Array And Prime Divisors - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Array And Prime Divisors solution]
-aliases: ["/posts/array-and-prime-divisors", "/blog/posts/array-and-prime-divisors", "/array-and-prime-divisors"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Array And Prime Divisors Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Array And Prime Divisors - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Array And Prime Divisors - Solution Explained/problem-solving.webp
     alt: Array And Prime Divisors
     hiddenInList: true
     hiddenInSingle: false

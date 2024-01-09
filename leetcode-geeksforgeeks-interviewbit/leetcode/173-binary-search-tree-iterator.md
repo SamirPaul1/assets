@@ -4,10 +4,9 @@ summary: 173 Binary Search Tree Iterator LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/173-binary-search-tree-iterator", "/blog/posts/173-binary-search-tree-iterator", "/173-binary-search-tree-iterator"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 173-binary-search-tree-iterator solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "173-binary-search-tree-iterator LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:173 Binary Search Tree Iterator/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:173 Binary Search Tree Iterator - Solution Explained/problem-solving.webp
     alt: 173 Binary Search Tree Iterator
     hiddenInList: true
     hiddenInSingle: false

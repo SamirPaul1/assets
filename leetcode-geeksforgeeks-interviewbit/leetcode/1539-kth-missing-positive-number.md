@@ -4,10 +4,9 @@ summary: 1539 Kth Missing Positive Number LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1539-kth-missing-positive-number", "/blog/posts/1539-kth-missing-positive-number", "/1539-kth-missing-positive-number"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1539-kth-missing-positive-number solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1539-kth-missing-positive-number LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1539 Kth Missing Positive Number/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1539 Kth Missing Positive Number - Solution Explained/problem-solving.webp
     alt: 1539 Kth Missing Positive Number
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Check If Binary String Has At Most One Segment Of Ones LeetCode Solutio
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/check-if-binary-string-has-at-most-one-segment-of-ones", "/blog/posts/check-if-binary-string-has-at-most-one-segment-of-ones", "/check-if-binary-string-has-at-most-one-segment-of-ones"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, check-if-binary-string-has-at-most-one-segment-of-ones solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "check-if-binary-string-has-at-most-one-segment-of-ones LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Check If Binary String Has At Most One Segment Of Ones/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Check If Binary String Has At Most One Segment Of Ones - Solution Explained/problem-solving.webp
     alt: Check If Binary String Has At Most One Segment Of Ones
     hiddenInList: true
     hiddenInSingle: false

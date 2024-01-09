@@ -4,10 +4,9 @@ summary: Count Right Triangles - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Count Right Triangles solution]
-aliases: ["/posts/count-right-triangles", "/blog/posts/count-right-triangles", "/count-right-triangles"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Count Right Triangles Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Right Triangles - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Right Triangles - Solution Explained/problem-solving.webp
     alt: Count Right Triangles
     hiddenInList: true
     hiddenInSingle: false

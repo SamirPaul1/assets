@@ -4,10 +4,9 @@ summary: Stock Buy And Sell - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Stock-buy-and-sell", "/blog/posts/Stock-buy-and-sell", "/Stock-buy-and-sell", "/blog/Stock-buy-and-sell",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Stock Buy And Sell solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Stock Buy And Sell Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Stock Buy And Sell - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Stock Buy And Sell - Solution Explained/problem-solving.webp
     alt: Stock Buy And Sell
     hiddenInList: true
     hiddenInSingle: false

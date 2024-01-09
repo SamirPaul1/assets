@@ -4,10 +4,9 @@ summary: Find Minimum In Rotated Sorted Array LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/find-minimum-in-rotated-sorted-array", "/blog/posts/find-minimum-in-rotated-sorted-array", "/find-minimum-in-rotated-sorted-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, find-minimum-in-rotated-sorted-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "find-minimum-in-rotated-sorted-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find Minimum In Rotated Sorted Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find Minimum In Rotated Sorted Array - Solution Explained/problem-solving.webp
     alt: Find Minimum In Rotated Sorted Array
     hiddenInList: true
     hiddenInSingle: false

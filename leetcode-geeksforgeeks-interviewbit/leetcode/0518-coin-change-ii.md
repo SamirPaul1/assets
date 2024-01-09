@@ -4,10 +4,9 @@ summary: 0518 Coin Change Ii LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0518-coin-change-ii", "/blog/posts/0518-coin-change-ii", "/0518-coin-change-ii"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0518-coin-change-ii solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0518-coin-change-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0518 Coin Change Ii/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0518 Coin Change Ii - Solution Explained/problem-solving.webp
     alt: 0518 Coin Change Ii
     hiddenInList: true
     hiddenInSingle: false

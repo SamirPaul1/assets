@@ -4,10 +4,9 @@ summary: 88 Merge Sorted Array LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/88-merge-sorted-array", "/blog/posts/88-merge-sorted-array", "/88-merge-sorted-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 88-merge-sorted-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "88-merge-sorted-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:88 Merge Sorted Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:88 Merge Sorted Array - Solution Explained/problem-solving.webp
     alt: 88 Merge Sorted Array
     hiddenInList: true
     hiddenInSingle: false

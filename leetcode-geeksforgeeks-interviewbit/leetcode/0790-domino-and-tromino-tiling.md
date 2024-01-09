@@ -4,10 +4,9 @@ summary: 0790 Domino And Tromino Tiling LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0790-domino-and-tromino-tiling", "/blog/posts/0790-domino-and-tromino-tiling", "/0790-domino-and-tromino-tiling"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0790-domino-and-tromino-tiling solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0790-domino-and-tromino-tiling LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0790 Domino And Tromino Tiling/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0790 Domino And Tromino Tiling - Solution Explained/problem-solving.webp
     alt: 0790 Domino And Tromino Tiling
     hiddenInList: true
     hiddenInSingle: false

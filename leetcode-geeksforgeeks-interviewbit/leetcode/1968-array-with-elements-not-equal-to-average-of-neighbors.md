@@ -4,10 +4,9 @@ summary: 1968 Array With Elements Not Equal To Average Of Neighbors LeetCode Sol
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1968-array-with-elements-not-equal-to-average-of-neighbors", "/blog/posts/1968-array-with-elements-not-equal-to-average-of-neighbors", "/1968-array-with-elements-not-equal-to-average-of-neighbors"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1968-array-with-elements-not-equal-to-average-of-neighbors solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1968-array-with-elements-not-equal-to-average-of-neighbors LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1968 Array With Elements Not Equal To Average Of Neighbors/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1968 Array With Elements Not Equal To Average Of Neighbors - Solution Explained/problem-solving.webp
     alt: 1968 Array With Elements Not Equal To Average Of Neighbors
     hiddenInList: true
     hiddenInSingle: false

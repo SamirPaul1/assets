@@ -4,10 +4,9 @@ summary: Divide Integers - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Divide Integers solution]
-aliases: ["/posts/divide-integers", "/blog/posts/divide-integers", "/divide-integers"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Divide Integers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Divide Integers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Divide Integers - Solution Explained/problem-solving.webp
     alt: Divide Integers
     hiddenInList: true
     hiddenInSingle: false

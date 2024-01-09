@@ -4,10 +4,9 @@ summary: 172 Factorial Trailing Zeroes LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/172-factorial-trailing-zeroes", "/blog/posts/172-factorial-trailing-zeroes", "/172-factorial-trailing-zeroes"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 172-factorial-trailing-zeroes solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "172-factorial-trailing-zeroes LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:172 Factorial Trailing Zeroes/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:172 Factorial Trailing Zeroes - Solution Explained/problem-solving.webp
     alt: 172 Factorial Trailing Zeroes
     hiddenInList: true
     hiddenInSingle: false

@@ -4,10 +4,9 @@ summary: Equal Average Partition - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Equal Average Partition solution]
-aliases: ["/posts/equal-average-partition", "/blog/posts/equal-average-partition", "/equal-average-partition"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Equal Average Partition Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Equal Average Partition - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Equal Average Partition - Solution Explained/problem-solving.webp
     alt: Equal Average Partition
     hiddenInList: true
     hiddenInSingle: false

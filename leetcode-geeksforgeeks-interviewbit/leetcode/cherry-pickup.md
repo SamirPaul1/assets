@@ -4,10 +4,9 @@ summary: Cherry Pickup LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/cherry-pickup", "/blog/posts/cherry-pickup", "/cherry-pickup"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, cherry-pickup solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "cherry-pickup LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cherry Pickup/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Cherry Pickup - Solution Explained/problem-solving.webp
     alt: Cherry Pickup
     hiddenInList: true
     hiddenInSingle: false

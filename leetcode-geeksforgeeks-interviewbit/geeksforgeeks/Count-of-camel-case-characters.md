@@ -4,10 +4,9 @@ summary: Count Of Camel Case Characters - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Count-of-camel-case-characters", "/blog/posts/Count-of-camel-case-characters", "/Count-of-camel-case-characters", "/blog/Count-of-camel-case-characters",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Count Of Camel Case Characters solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Count Of Camel Case Characters Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Count Of Camel Case Characters - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Count Of Camel Case Characters - Solution Explained/problem-solving.webp
     alt: Count Of Camel Case Characters
     hiddenInList: true
     hiddenInSingle: false

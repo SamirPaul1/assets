@@ -4,10 +4,9 @@ summary: 136 Single Number LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/136-single-number", "/blog/posts/136-single-number", "/136-single-number"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 136-single-number solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "136-single-number LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:136 Single Number/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:136 Single Number - Solution Explained/problem-solving.webp
     alt: 136 Single Number
     hiddenInList: true
     hiddenInSingle: false

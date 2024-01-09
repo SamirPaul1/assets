@@ -4,10 +4,9 @@ summary: Merge Sort For Linked List - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Merge-Sort-for-Linked-List", "/blog/posts/Merge-Sort-for-Linked-List", "/Merge-Sort-for-Linked-List", "/blog/Merge-Sort-for-Linked-List",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Merge Sort For Linked List solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Merge Sort For Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Sort For Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Merge Sort For Linked List - Solution Explained/problem-solving.webp
     alt: Merge Sort For Linked List
     hiddenInList: true
     hiddenInSingle: false

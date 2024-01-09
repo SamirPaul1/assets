@@ -4,10 +4,9 @@ summary: N Max Pair Combinations - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, N Max Pair Combinations solution]
-aliases: ["/posts/n-max-pair-combinations", "/blog/posts/n-max-pair-combinations", "/n-max-pair-combinations"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "N Max Pair Combinations Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:N Max Pair Combinations - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:N Max Pair Combinations - Solution Explained/problem-solving.webp
     alt: N Max Pair Combinations
     hiddenInList: true
     hiddenInSingle: false

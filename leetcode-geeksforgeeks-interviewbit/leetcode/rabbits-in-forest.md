@@ -4,10 +4,9 @@ summary: Rabbits In Forest LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/rabbits-in-forest", "/blog/posts/rabbits-in-forest", "/rabbits-in-forest"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, rabbits-in-forest solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "rabbits-in-forest LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rabbits In Forest/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rabbits In Forest - Solution Explained/problem-solving.webp
     alt: Rabbits In Forest
     hiddenInList: true
     hiddenInSingle: false

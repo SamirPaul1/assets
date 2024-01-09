@@ -4,10 +4,9 @@ summary: Department Highest Salary LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/department-highest-salary", "/blog/posts/department-highest-salary", "/department-highest-salary"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, department-highest-salary solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "department-highest-salary LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Department Highest Salary/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Department Highest Salary - Solution Explained/problem-solving.webp
     alt: Department Highest Salary
     hiddenInList: true
     hiddenInSingle: false

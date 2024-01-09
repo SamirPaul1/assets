@@ -4,10 +4,9 @@ summary: 1985 Find The Kth Largest Integer In The Array LeetCode Solution Explai
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1985-find-the-kth-largest-integer-in-the-array", "/blog/posts/1985-find-the-kth-largest-integer-in-the-array", "/1985-find-the-kth-largest-integer-in-the-array"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1985-find-the-kth-largest-integer-in-the-array solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1985-find-the-kth-largest-integer-in-the-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1985 Find The Kth Largest Integer In The Array/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1985 Find The Kth Largest Integer In The Array - Solution Explained/problem-solving.webp
     alt: 1985 Find The Kth Largest Integer In The Array
     hiddenInList: true
     hiddenInSingle: false

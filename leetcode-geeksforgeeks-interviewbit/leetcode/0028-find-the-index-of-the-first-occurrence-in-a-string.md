@@ -4,10 +4,9 @@ summary: 0028 Find The Index Of The First Occurrence In A String LeetCode Soluti
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0028-find-the-index-of-the-first-occurrence-in-a-string", "/blog/posts/0028-find-the-index-of-the-first-occurrence-in-a-string", "/0028-find-the-index-of-the-first-occurrence-in-a-string"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0028-find-the-index-of-the-first-occurrence-in-a-string solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0028-find-the-index-of-the-first-occurrence-in-a-string LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0028 Find The Index Of The First Occurrence In A String/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0028 Find The Index Of The First Occurrence In A String - Solution Explained/problem-solving.webp
     alt: 0028 Find The Index Of The First Occurrence In A String
     hiddenInList: true
     hiddenInSingle: false

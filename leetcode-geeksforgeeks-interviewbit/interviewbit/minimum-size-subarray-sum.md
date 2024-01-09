@@ -4,10 +4,9 @@ summary: Minimum Size Subarray Sum - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimum Size Subarray Sum solution]
-aliases: ["/posts/minimum-size-subarray-sum", "/blog/posts/minimum-size-subarray-sum", "/minimum-size-subarray-sum"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Minimum Size Subarray Sum Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Size Subarray Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Size Subarray Sum - Solution Explained/problem-solving.webp
     alt: Minimum Size Subarray Sum
     hiddenInList: true
     hiddenInSingle: false

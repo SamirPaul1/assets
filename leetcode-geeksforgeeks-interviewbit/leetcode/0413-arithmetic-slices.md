@@ -4,10 +4,9 @@ summary: 0413 Arithmetic Slices LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0413-arithmetic-slices", "/blog/posts/0413-arithmetic-slices", "/0413-arithmetic-slices"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0413-arithmetic-slices solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0413-arithmetic-slices LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0413 Arithmetic Slices/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0413 Arithmetic Slices - Solution Explained/problem-solving.webp
     alt: 0413 Arithmetic Slices
     hiddenInList: true
     hiddenInSingle: false

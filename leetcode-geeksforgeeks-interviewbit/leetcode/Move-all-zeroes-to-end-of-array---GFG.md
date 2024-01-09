@@ -4,10 +4,9 @@ summary: Move All Zeroes To End Of Array   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Move-all-zeroes-to-end-of-array---GFG", "/blog/posts/Move-all-zeroes-to-end-of-array---GFG", "/Move-all-zeroes-to-end-of-array---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Move all zeroes to end of array - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Move all zeroes to end of array - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Move All Zeroes To End Of Array   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Move All Zeroes To End Of Array   Gfg - Solution Explained/problem-solving.webp
     alt: Move All Zeroes To End Of Array   Gfg
     hiddenInList: true
     hiddenInSingle: false

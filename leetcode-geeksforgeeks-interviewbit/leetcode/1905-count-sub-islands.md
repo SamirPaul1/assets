@@ -4,10 +4,9 @@ summary: 1905 Count Sub Islands LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1905-count-sub-islands", "/blog/posts/1905-count-sub-islands", "/1905-count-sub-islands"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1905-count-sub-islands solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1905-count-sub-islands LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1905 Count Sub Islands/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1905 Count Sub Islands - Solution Explained/problem-solving.webp
     alt: 1905 Count Sub Islands
     hiddenInList: true
     hiddenInSingle: false

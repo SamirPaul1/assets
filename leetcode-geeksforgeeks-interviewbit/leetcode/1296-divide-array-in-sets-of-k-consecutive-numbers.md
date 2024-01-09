@@ -4,10 +4,9 @@ summary: 1296 Divide Array In Sets Of K Consecutive Numbers LeetCode Solution Ex
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/1296-divide-array-in-sets-of-k-consecutive-numbers", "/blog/posts/1296-divide-array-in-sets-of-k-consecutive-numbers", "/1296-divide-array-in-sets-of-k-consecutive-numbers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 1296-divide-array-in-sets-of-k-consecutive-numbers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "1296-divide-array-in-sets-of-k-consecutive-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:1296 Divide Array In Sets Of K Consecutive Numbers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1296 Divide Array In Sets Of K Consecutive Numbers - Solution Explained/problem-solving.webp
     alt: 1296 Divide Array In Sets Of K Consecutive Numbers
     hiddenInList: true
     hiddenInSingle: false

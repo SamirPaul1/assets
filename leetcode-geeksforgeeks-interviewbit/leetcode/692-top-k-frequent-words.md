@@ -4,10 +4,9 @@ summary: 692 Top K Frequent Words LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/692-top-k-frequent-words", "/blog/posts/692-top-k-frequent-words", "/692-top-k-frequent-words"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 692-top-k-frequent-words solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "692-top-k-frequent-words LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:692 Top K Frequent Words/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:692 Top K Frequent Words - Solution Explained/problem-solving.webp
     alt: 692 Top K Frequent Words
     hiddenInList: true
     hiddenInSingle: false

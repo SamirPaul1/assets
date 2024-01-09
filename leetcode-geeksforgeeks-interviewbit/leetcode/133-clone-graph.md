@@ -4,10 +4,9 @@ summary: 133 Clone Graph LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/133-clone-graph", "/blog/posts/133-clone-graph", "/133-clone-graph"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 133-clone-graph solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "133-clone-graph LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:133 Clone Graph/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:133 Clone Graph - Solution Explained/problem-solving.webp
     alt: 133 Clone Graph
     hiddenInList: true
     hiddenInSingle: false

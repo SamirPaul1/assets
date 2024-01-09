@@ -4,10 +4,9 @@ summary: 4 Sum - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, 4 Sum solution]
-aliases: ["/posts/4-sum", "/blog/posts/4-sum", "/4-sum"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "4 Sum Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:4 Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:4 Sum - Solution Explained/problem-solving.webp
     alt: 4 Sum
     hiddenInList: true
     hiddenInSingle: false

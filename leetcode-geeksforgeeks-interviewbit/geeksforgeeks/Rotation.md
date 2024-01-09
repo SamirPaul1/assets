@@ -4,10 +4,9 @@ summary: Rotation - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Rotation", "/blog/posts/Rotation", "/Rotation", "/blog/Rotation",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Rotation solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Rotation Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Rotation - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Rotation - Solution Explained/problem-solving.webp
     alt: Rotation
     hiddenInList: true
     hiddenInSingle: false

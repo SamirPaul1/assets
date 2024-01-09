@@ -4,10 +4,9 @@ summary: Generate All Parentheses Ii - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Generate All Parentheses Ii solution]
-aliases: ["/posts/generate-all-parentheses-ii", "/blog/posts/generate-all-parentheses-ii", "/generate-all-parentheses-ii"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Generate All Parentheses Ii Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Generate All Parentheses Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Generate All Parentheses Ii - Solution Explained/problem-solving.webp
     alt: Generate All Parentheses Ii
     hiddenInList: true
     hiddenInSingle: false

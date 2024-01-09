@@ -4,10 +4,9 @@ summary: 848 Shifting Letters LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/848-shifting-letters", "/blog/posts/848-shifting-letters", "/848-shifting-letters"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 848-shifting-letters solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "848-shifting-letters LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:848 Shifting Letters/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:848 Shifting Letters - Solution Explained/problem-solving.webp
     alt: 848 Shifting Letters
     hiddenInList: true
     hiddenInSingle: false

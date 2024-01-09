@@ -4,10 +4,9 @@ summary: Multiply Strings - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Multiply Strings solution]
-aliases: ["/posts/multiply-strings", "/blog/posts/multiply-strings", "/multiply-strings"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Multiply Strings Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Multiply Strings - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Multiply Strings - Solution Explained/problem-solving.webp
     alt: Multiply Strings
     hiddenInList: true
     hiddenInSingle: false

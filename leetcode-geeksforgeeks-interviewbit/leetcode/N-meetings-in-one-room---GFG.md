@@ -4,10 +4,9 @@ summary: N Meetings In One Room   Gfg LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/N-meetings-in-one-room---GFG", "/blog/posts/N-meetings-in-one-room---GFG", "/N-meetings-in-one-room---GFG"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, N meetings in one room - GFG solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "N meetings in one room - GFG LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:N Meetings In One Room   Gfg/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:N Meetings In One Room   Gfg - Solution Explained/problem-solving.webp
     alt: N Meetings In One Room   Gfg
     hiddenInList: true
     hiddenInSingle: false

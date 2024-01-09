@@ -4,10 +4,9 @@ summary: 162 Find Peak Element LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/162-find-peak-element", "/blog/posts/162-find-peak-element", "/162-find-peak-element"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 162-find-peak-element solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "162-find-peak-element LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:162 Find Peak Element/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:162 Find Peak Element - Solution Explained/problem-solving.webp
     alt: 162 Find Peak Element
     hiddenInList: true
     hiddenInSingle: false

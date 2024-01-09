@@ -4,10 +4,9 @@ summary: Longest Common Prefix LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/longest-common-prefix", "/blog/posts/longest-common-prefix", "/longest-common-prefix"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, longest-common-prefix solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "longest-common-prefix LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Common Prefix/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Common Prefix - Solution Explained/problem-solving.webp
     alt: Longest Common Prefix
     hiddenInList: true
     hiddenInSingle: false

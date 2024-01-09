@@ -4,10 +4,9 @@ summary: Balanced Binary Tree LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/balanced-binary-tree", "/blog/posts/balanced-binary-tree", "/balanced-binary-tree"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, balanced-binary-tree solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "balanced-binary-tree LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Balanced Binary Tree/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Balanced Binary Tree - Solution Explained/problem-solving.webp
     alt: Balanced Binary Tree
     hiddenInList: true
     hiddenInSingle: false

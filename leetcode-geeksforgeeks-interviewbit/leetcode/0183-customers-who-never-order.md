@@ -4,10 +4,9 @@ summary: 0183 Customers Who Never Order LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/0183-customers-who-never-order", "/blog/posts/0183-customers-who-never-order", "/0183-customers-who-never-order"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 0183-customers-who-never-order solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "0183-customers-who-never-order LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:0183 Customers Who Never Order/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0183 Customers Who Never Order - Solution Explained/problem-solving.webp
     alt: 0183 Customers Who Never Order
     hiddenInList: true
     hiddenInSingle: false

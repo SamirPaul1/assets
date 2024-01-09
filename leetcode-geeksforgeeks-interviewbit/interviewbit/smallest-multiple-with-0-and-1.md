@@ -4,10 +4,9 @@ summary: Smallest Multiple With 0 And 1 - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Smallest Multiple With 0 And 1 solution]
-aliases: ["/posts/smallest-multiple-with-0-and-1", "/blog/posts/smallest-multiple-with-0-and-1", "/smallest-multiple-with-0-and-1"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Smallest Multiple With 0 And 1 Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Smallest Multiple With 0 And 1 - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Smallest Multiple With 0 And 1 - Solution Explained/problem-solving.webp
     alt: Smallest Multiple With 0 And 1
     hiddenInList: true
     hiddenInSingle: false

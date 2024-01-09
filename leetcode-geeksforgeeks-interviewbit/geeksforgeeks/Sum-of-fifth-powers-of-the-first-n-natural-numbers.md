@@ -4,10 +4,9 @@ summary: Sum Of Fifth Powers Of The First N Natural Numbers - GeeksforGeeks Solu
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/Sum-of-fifth-powers-of-the-first-n-natural-numbers", "/blog/posts/Sum-of-fifth-powers-of-the-first-n-natural-numbers", "/Sum-of-fifth-powers-of-the-first-n-natural-numbers", "/blog/Sum-of-fifth-powers-of-the-first-n-natural-numbers",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, Sum Of Fifth Powers Of The First N Natural Numbers solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "Sum Of Fifth Powers Of The First N Natural Numbers Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sum Of Fifth Powers Of The First N Natural Numbers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sum Of Fifth Powers Of The First N Natural Numbers - Solution Explained/problem-solving.webp
     alt: Sum Of Fifth Powers Of The First N Natural Numbers
     hiddenInList: true
     hiddenInSingle: false

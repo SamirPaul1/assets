@@ -4,10 +4,9 @@ summary: Game Of Life LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/game-of-life", "/blog/posts/game-of-life", "/game-of-life"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, game-of-life solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "game-of-life LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Game Of Life/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Game Of Life - Solution Explained/problem-solving.webp
     alt: Game Of Life
     hiddenInList: true
     hiddenInSingle: false

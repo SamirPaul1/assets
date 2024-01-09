@@ -4,10 +4,9 @@ summary: Cat And Mouse LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/cat-and-mouse", "/blog/posts/cat-and-mouse", "/cat-and-mouse"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, cat-and-mouse solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "cat-and-mouse LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Cat And Mouse/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Cat And Mouse - Solution Explained/problem-solving.webp
     alt: Cat And Mouse
     hiddenInList: true
     hiddenInSingle: false

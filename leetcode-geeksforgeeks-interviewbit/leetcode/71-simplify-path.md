@@ -4,10 +4,9 @@ summary: 71 Simplify Path LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/71-simplify-path", "/blog/posts/71-simplify-path", "/71-simplify-path"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 71-simplify-path solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "71-simplify-path LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:71 Simplify Path/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:71 Simplify Path - Solution Explained/problem-solving.webp
     alt: 71 Simplify Path
     hiddenInList: true
     hiddenInSingle: false

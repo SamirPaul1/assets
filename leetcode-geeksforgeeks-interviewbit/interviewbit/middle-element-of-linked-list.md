@@ -4,10 +4,9 @@ summary: Middle Element Of Linked List - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Middle Element Of Linked List solution]
-aliases: ["/posts/middle-element-of-linked-list", "/blog/posts/middle-element-of-linked-list", "/middle-element-of-linked-list"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Middle Element Of Linked List Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Middle Element Of Linked List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Middle Element Of Linked List - Solution Explained/problem-solving.webp
     alt: Middle Element Of Linked List
     hiddenInList: true
     hiddenInSingle: false

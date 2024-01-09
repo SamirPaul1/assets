@@ -4,10 +4,9 @@ summary: Tower Of Hanoi LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/Tower-Of-Hanoi", "/blog/posts/Tower-Of-Hanoi", "/Tower-Of-Hanoi"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, Tower Of Hanoi solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "Tower Of Hanoi LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Tower Of Hanoi/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Tower Of Hanoi - Solution Explained/problem-solving.webp
     alt: Tower Of Hanoi
     hiddenInList: true
     hiddenInSingle: false

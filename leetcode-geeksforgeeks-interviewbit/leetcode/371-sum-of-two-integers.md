@@ -4,10 +4,9 @@ summary: 371 Sum Of Two Integers LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/371-sum-of-two-integers", "/blog/posts/371-sum-of-two-integers", "/371-sum-of-two-integers"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, 371-sum-of-two-integers solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "371-sum-of-two-integers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:371 Sum Of Two Integers/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:371 Sum Of Two Integers - Solution Explained/problem-solving.webp
     alt: 371 Sum Of Two Integers
     hiddenInList: true
     hiddenInSingle: false

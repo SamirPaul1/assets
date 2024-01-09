@@ -4,10 +4,9 @@ summary: Queries On A Permutation With Key LeetCode Solution Explained
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/queries-on-a-permutation-with-key", "/blog/posts/queries-on-a-permutation-with-key", "/queries-on-a-permutation-with-key"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, queries-on-a-permutation-with-key solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "queries-on-a-permutation-with-key LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Queries On A Permutation With Key/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Queries On A Permutation With Key - Solution Explained/problem-solving.webp
     alt: Queries On A Permutation With Key
     hiddenInList: true
     hiddenInSingle: false

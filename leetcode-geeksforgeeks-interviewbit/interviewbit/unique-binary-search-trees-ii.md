@@ -4,10 +4,9 @@ summary: Unique Binary Search Trees Ii - Interviewbit Solution Explained
 date: 2020-06-20
 tags: [interviewbit]
 series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Unique Binary Search Trees Ii solution]
-aliases: ["/posts/unique-binary-search-trees-ii", "/blog/posts/unique-binary-search-trees-ii", "/unique-binary-search-trees-ii"]
+keywords: ["interviewbit", "interviewbit solution in Python3 C++ Java", "Unique Binary Search Trees Ii Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Unique Binary Search Trees Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Unique Binary Search Trees Ii - Solution Explained/problem-solving.webp
     alt: Unique Binary Search Trees Ii
     hiddenInList: true
     hiddenInSingle: false

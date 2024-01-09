@@ -4,10 +4,9 @@ summary: Find The City With The Smallest Number Of Neighbors At A Threshold Dist
 date: 2020-06-20
 tags: [leetcode]
 series: [leetcode]
-aliases: ["/posts/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance", "/blog/posts/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance", "/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance"]
-keywords: LeetCode, leetcode solution in Python3 C++ Java, find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance solution
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Find The City With The Smallest Number Of Neighbors At A Threshold Distance/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Find The City With The Smallest Number Of Neighbors At A Threshold Distance - Solution Explained/problem-solving.webp
     alt: Find The City With The Smallest Number Of Neighbors At A Threshold Distance
     hiddenInList: true
     hiddenInSingle: false

@@ -1,76 +1,60 @@
-# [1273. 删除树节点](https://leetcode.cn/problems/delete-tree-nodes)
+# [1273. Delete Tree Nodes](https://leetcode.com/problems/delete-tree-nodes)
 
-[English Version](/solution/1200-1299/1273.Delete%20Tree%20Nodes/README_EN.md)
+[中文文档](/solution/1200-1299/1273.Delete%20Tree%20Nodes/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一棵以节点 0 为根节点的树，定义如下：</p>
+<p>A tree rooted at node 0 is given as follows:</p>
 
 <ul>
-	<li>节点的总数为&nbsp;<code>nodes</code>&nbsp;个；</li>
-	<li>第&nbsp;<code>i</code> 个节点的值为&nbsp;<code>value[i]</code>&nbsp;；</li>
-	<li>第&nbsp;<code>i</code> 个节点的父节点是&nbsp;<code>parent[i]</code>&nbsp;。</li>
+	<li>The number of nodes is <code>nodes</code>;</li>
+	<li>The value of the <code>i<sup>th</sup></code> node is <code>value[i]</code>;</li>
+	<li>The parent of the <code>i<sup>th</sup></code> node is <code>parent[i]</code>.</li>
 </ul>
 
-<p>请你删除节点值之和为 0 的每一棵子树。</p>
+<p>Remove every subtree whose sum of values of nodes is zero.</p>
 
-<p>在完成所有删除之后，返回树中剩余节点的数目。</p>
+<p>Return <em>the number of the remaining nodes in the tree</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1273.Delete%20Tree%20Nodes/images/1421_sample_1.png" style="height: 347px; width: 403px;"></p>
-
-<pre><strong>输入：</strong>nodes = 7, parent = [-1,0,0,1,2,2,2], value = [1,-2,4,0,-2,-1,-1]
-<strong>输出：</strong>2
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1273.Delete%20Tree%20Nodes/images/1421_sample_1.png" style="width: 403px; height: 347px;" />
+<pre>
+<strong>Input:</strong> nodes = 7, parent = [-1,0,0,1,2,2,2], value = [1,-2,4,0,-2,-1,-1]
+<strong>Output:</strong> 2
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nodes = 7, parent = [-1,0,0,1,2,2,2], value = [1,-2,4,0,-2,-1,-2]
-<strong>输出：</strong>6
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre><strong>输入：</strong>nodes = 5, parent = [-1,0,1,0,0], value = [-672,441,18,728,378]
-<strong>输出：</strong>5
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输入：</strong>nodes = 5, parent = [-1,0,0,1,1], value = [-686,-842,616,-739,-746]
-<strong>输出：</strong>5
+<pre>
+<strong>Input:</strong> nodes = 7, parent = [-1,0,0,1,2,2,2], value = [1,-2,4,0,-2,-1,-2]
+<strong>Output:</strong> 6
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= nodes &lt;= 10^4</code></li>
+	<li><code>1 &lt;= nodes &lt;= 10<sup>4</sup></code></li>
 	<li><code>parent.length == nodes</code></li>
 	<li><code>0 &lt;= parent[i] &lt;= nodes - 1</code></li>
-	<li><code>parent[0] == -1</code>&nbsp;表示节点 <code>0</code> 是树的根。</li>
+	<li><code>parent[0] == -1</code> which indicates that <code>0</code> is the root.</li>
 	<li><code>value.length == nodes</code></li>
-	<li><code>-10^5 &lt;= value[i] &lt;= 10^5</code></li>
-	<li>题目输入数据 <strong>保证</strong> 是一棵 <strong>有效的树</strong> 。</li>
+	<li><code>-10<sup>5</sup> &lt;= value[i] &lt;= 10<sup>5</sup></code></li>
+	<li>The given input is <strong>guaranteed</strong> to represent a <strong>valid tree</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
+### Solution 1: DFS
 
-我们先将树转换成图 $g$，其中 $g[i]$ 表示节点 $i$ 的所有子节点。
+First, we convert the tree into a graph $g$, where $g[i]$ represents all the child nodes of node $i$.
 
-然后我们设计一个函数 $dfs(i)$，表示以节点 $i$ 为根的子树的节点数目和权值之和。那么答案就是 $dfs(0)[1]$。
+Then we design a function $dfs(i)$, which represents the number of nodes and the sum of the weights in the subtree rooted at node $i$. The answer is $dfs(0)[1]$.
 
-在这个函数中，我们递归地计算出以每个子节点 $j$ 为根的子树的节点数目和权值之和，然后将这些值进行累加，如果累加后的值为零，那么我们就将这个子树的节点数目置为零。最后我们返回以节点 $i$ 为根的子树的节点数目和权值之和。
+In this function, we recursively calculate the number of nodes and the sum of the weights in the subtree rooted at each child node $j$, and then accumulate these values. If the accumulated value is zero, we set the number of nodes in this subtree to zero. Finally, we return the number of nodes and the sum of the weights in the subtree rooted at node $i$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是树的节点数目。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is the number of nodes in the tree.
 
 <!-- tabs:start -->
 

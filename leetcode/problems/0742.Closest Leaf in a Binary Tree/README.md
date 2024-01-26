@@ -1,61 +1,51 @@
-# [742. 二叉树最近的叶节点](https://leetcode.cn/problems/closest-leaf-in-a-binary-tree)
+# [742. Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree)
 
-[English Version](/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree where every node has <strong>a unique value</strong> and a target integer <code>k</code>, return <em>the value of the <strong>nearest leaf node</strong> to the target </em><code>k</code><em> in the tree</em>.</p>
 
-<p>给定一个 <strong>每个结点的值互不相同</strong>&nbsp;的二叉树，和一个目标整数值 <code>k</code>，返回 <em>树中与目标值 <code>k</code>&nbsp; <strong>最近的叶结点</strong></em> 。&nbsp;</p>
-
-<p><strong>与叶结点最近</strong><em> </em>表示在二叉树中到达该叶节点需要行进的边数与到达其它叶结点相比最少。而且，当一个结点没有孩子结点时称其为叶结点。</p>
+<p><strong>Nearest to a leaf</strong> means the least number of edges traveled on the binary tree to reach any leaf of the tree. Also, a node is called a leaf if it has no children.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/images/closest1-tree.jpg" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/images/closest1-tree.jpg" style="width: 224px; height: 145px;" />
 <pre>
-<strong>输入：</strong>root = [1, 3, 2], k = 1
-<strong>输出：</strong> 2
-<strong>解释：</strong> 2 和 3 都是距离目标 1 最近的叶节点。
+<strong>Input:</strong> root = [1,3,2], k = 1
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Either 2 or 3 is the nearest leaf node to the target of 1.
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/images/closest2-tree.jpg" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/images/closest2-tree.jpg" style="width: 64px; height: 65px;" />
 <pre>
-<strong>输入：</strong>root = [1], k = 1
-<strong>输出：</strong>1
-<strong>解释：</strong>最近的叶节点是根结点自身。
+<strong>Input:</strong> root = [1], k = 1
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The nearest leaf node is the root node itself.
 </pre>
 
-<p><strong>示例 3：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/images/closest3-tree.jpg" /></p>
-
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0742.Closest%20Leaf%20in%20a%20Binary%20Tree/images/closest3-tree.jpg" style="width: 464px; height: 384px;" />
 <pre>
-<strong>输入：</strong>root = [1,2,3,4,null,null,null,5,null,6], k = 2
-<strong>输出：</strong>3
-<strong>解释：</strong>值为 3（而不是值为 6）的叶节点是距离结点 2 的最近结点。
+<strong>Input:</strong> root = [1,2,3,4,null,null,null,5,null,6], k = 2
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The leaf node with value 3 (and not the leaf node with value 6) is nearest to the node with value 2.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>二叉树节点数在&nbsp;<code>[1, 1000]</code> 范围内</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 1000]</code>.</li>
 	<li><code>1 &lt;= Node.val &lt;= 1000</code></li>
-	<li>每个节点值都 <strong>不同</strong></li>
-	<li>给定的二叉树中有某个结点使得&nbsp;<code>node.val == k</code></li>
+	<li>All the values of the tree are <strong>unique</strong>.</li>
+	<li>There exist some node in the tree where <code>Node.val == k</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

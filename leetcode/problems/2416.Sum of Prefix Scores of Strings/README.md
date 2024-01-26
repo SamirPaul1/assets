@@ -1,72 +1,70 @@
-# [2416. 字符串的前缀分数和](https://leetcode.cn/problems/sum-of-prefix-scores-of-strings)
+# [2416. Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings)
 
-[English Version](/solution/2400-2499/2416.Sum%20of%20Prefix%20Scores%20of%20Strings/README_EN.md)
+[中文文档](/solution/2400-2499/2416.Sum%20of%20Prefix%20Scores%20of%20Strings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array <code>words</code> of size <code>n</code> consisting of <strong>non-empty</strong> strings.</p>
 
-<p>给你一个长度为 <code>n</code> 的数组 <code>words</code> ，该数组由 <strong>非空</strong> 字符串组成。</p>
-
-<p>定义字符串 <code>word</code> 的 <strong>分数</strong> 等于以 <code>word</code> 作为 <strong>前缀</strong> 的 <code>words[i]</code> 的数目。</p>
+<p>We define the <strong>score</strong> of a string <code>word</code> as the <strong>number</strong> of strings <code>words[i]</code> such that <code>word</code> is a <strong>prefix</strong> of <code>words[i]</code>.</p>
 
 <ul>
-	<li>例如，如果 <code>words = ["a", "ab", "abc", "cab"]</code> ，那么 <code>"ab"</code> 的分数是 <code>2</code> ，因为 <code>"ab"</code> 是 <code>"ab"</code> 和 <code>"abc"</code> 的一个前缀。</li>
+	<li>For example, if <code>words = [&quot;a&quot;, &quot;ab&quot;, &quot;abc&quot;, &quot;cab&quot;]</code>, then the score of <code>&quot;ab&quot;</code> is <code>2</code>, since <code>&quot;ab&quot;</code> is a prefix of both <code>&quot;ab&quot;</code> and <code>&quot;abc&quot;</code>.</li>
 </ul>
 
-<p>返回一个长度为<em> </em><code>n</code> 的数组<em> </em><code>answer</code><em> </em>，其中<em> </em><code>answer[i]</code><em> </em>是<em>&nbsp;</em><code>words[i]</code> 的每个非空前缀的分数 <strong>总和</strong> <em>。</em></p>
+<p>Return <em>an array </em><code>answer</code><em> of size </em><code>n</code><em> where </em><code>answer[i]</code><em> is the <strong>sum</strong> of scores of every <strong>non-empty</strong> prefix of </em><code>words[i]</code>.</p>
 
-<p><strong>注意：</strong>字符串视作它自身的一个前缀。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>words = ["abc","ab","bc","b"]
-<strong>输出：</strong>[5,4,3,2]
-<strong>解释：</strong>对应每个字符串的答案如下：
-- "abc" 有 3 个前缀："a"、"ab" 和 "abc" 。
-- 2 个字符串的前缀为 "a" ，2 个字符串的前缀为 "ab" ，1 个字符串的前缀为 "abc" 。
-总计 answer[0] = 2 + 2 + 1 = 5 。
-- "ab" 有 2 个前缀："a" 和 "ab" 。
-- 2 个字符串的前缀为 "a" ，2 个字符串的前缀为 "ab" 。
-总计 answer[1] = 2 + 2 = 4 。
-- "bc" 有 2 个前缀："b" 和 "bc" 。
-- 2 个字符串的前缀为 "b" ，1 个字符串的前缀为 "bc" 。 
-总计 answer[2] = 2 + 1 = 3 。
-- "b" 有 1 个前缀："b"。
-- 2 个字符串的前缀为 "b" 。
-总计 answer[3] = 2 。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre><strong>输入：</strong>words = ["abcd"]
-<strong>输出：</strong>[4]
-<strong>解释：</strong>
-"abcd" 有 4 个前缀 "a"、"ab"、"abc" 和 "abcd"。
-每个前缀的分数都是 1 ，总计 answer[0] = 1 + 1 + 1 + 1 = 4 。
-</pre>
+<p><strong>Note</strong> that a string is considered as a prefix of itself.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> words = [&quot;abc&quot;,&quot;ab&quot;,&quot;bc&quot;,&quot;b&quot;]
+<strong>Output:</strong> [5,4,3,2]
+<strong>Explanation:</strong> The answer for each string is the following:
+- &quot;abc&quot; has 3 prefixes: &quot;a&quot;, &quot;ab&quot;, and &quot;abc&quot;.
+- There are 2 strings with the prefix &quot;a&quot;, 2 strings with the prefix &quot;ab&quot;, and 1 string with the prefix &quot;abc&quot;.
+The total is answer[0] = 2 + 2 + 1 = 5.
+- &quot;ab&quot; has 2 prefixes: &quot;a&quot; and &quot;ab&quot;.
+- There are 2 strings with the prefix &quot;a&quot;, and 2 strings with the prefix &quot;ab&quot;.
+The total is answer[1] = 2 + 2 = 4.
+- &quot;bc&quot; has 2 prefixes: &quot;b&quot; and &quot;bc&quot;.
+- There are 2 strings with the prefix &quot;b&quot;, and 1 string with the prefix &quot;bc&quot;.
+The total is answer[2] = 2 + 1 = 3.
+- &quot;b&quot; has 1 prefix: &quot;b&quot;.
+- There are 2 strings with the prefix &quot;b&quot;.
+The total is answer[3] = 2.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> words = [&quot;abcd&quot;]
+<strong>Output:</strong> [4]
+<strong>Explanation:</strong>
+&quot;abcd&quot; has 4 prefixes: &quot;a&quot;, &quot;ab&quot;, &quot;abc&quot;, and &quot;abcd&quot;.
+Each prefix has a score of one, so the total is answer[0] = 1 + 1 + 1 + 1 = 4.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= words.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= words[i].length &lt;= 1000</code></li>
-	<li><code>words[i]</code> 由小写英文字母组成</li>
+	<li><code>words[i]</code> consists of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀树
+### Solution 1: Trie
 
-用前缀树维护所有字符串的前缀以及每个前缀出现的次数。
+Use a trie to maintain the prefixes of all strings and the occurrence count of each prefix.
 
-然后遍历每个字符串，累加每个前缀的出现次数即可。
+Then, traverse each string, accumulating the occurrence count of each prefix.
 
-时间复杂度 $O(n \times m)$。其中 $n$, $m$ 分别为字符串数组 `words` 的长度和其中字符串的最大长度。
+The time complexity is $O(n \times m)$. Here, $n$ and $m$ are the length of the string array `words` and the maximum length of the strings in it, respectively.
 
 <!-- tabs:start -->
 
@@ -276,7 +274,7 @@ function sumPrefixScores(words: string[]): number[] {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

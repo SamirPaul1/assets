@@ -1,58 +1,49 @@
-# [1493. 删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element)
+# [1493. Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
 
-[English Version](/solution/1400-1499/1493.Longest%20Subarray%20of%201%27s%20After%20Deleting%20One%20Element/README_EN.md)
+[中文文档](/solution/1400-1499/1493.Longest%20Subarray%20of%201%27s%20After%20Deleting%20One%20Element/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a binary array <code>nums</code>, you should delete one element from it.</p>
 
-<p>给你一个二进制数组&nbsp;<code>nums</code>&nbsp;，你需要从中删掉一个元素。</p>
-
-<p>请你在删掉元素的结果数组中，返回最长的且只包含 1 的非空子数组的长度。</p>
-
-<p>如果不存在这样的子数组，请返回 0 。</p>
+<p>Return <em>the size of the longest non-empty subarray containing only </em><code>1</code><em>&#39;s in the resulting array</em>. Return <code>0</code> if there is no such subarray.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>提示 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,1,0,1]
-<strong>输出：</strong>3
-<strong>解释：</strong>删掉位置 2 的数后，[1,1,1] 包含 3 个 1 。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [0,1,1,1,0,1,1,0,1]
-<strong>输出：</strong>5
-<strong>解释：</strong>删掉位置 4 的数字后，[0,1,1,1,1,1,0,1] 的最长全 1 子数组为 [1,1,1,1,1] 。</pre>
+<strong>Input:</strong> nums = [1,1,0,1]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> After deleting the number in position 2, [1,1,1] contains 3 numbers with value of 1&#39;s.
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,1,1]
-<strong>输出：</strong>2
-<strong>解释：</strong>你必须要删除一个元素。</pre>
+<strong>Input:</strong> nums = [0,1,1,1,0,1,1,0,1]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> After deleting the number in position 4, [0,1,1,1,1,1,0,1] longest subarray with value of 1&#39;s is [1,1,1,1,1].
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,1,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> You must delete one element.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>nums[i]</code>&nbsp;要么是&nbsp;<code>0</code>&nbsp;要么是&nbsp;<code>1</code> 。</li>
+	<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
-
-枚举删除的位置 $i$，那么每一个位置 $i$ 的最长子数组长度为 $i$ 左边连续的 $1$ 的个数加上 $i$ 右边连续的 $1$ 的个数。
-
-因此，我们可以先遍历一遍数组，统计每个位置 $i$ 左边连续的 $1$ 的个数，记录在 `left` 数组；然后再从右向左遍历一遍数组，统计每个位置 $i$ 右边连续的 $1$ 的个数，记录在 `right` 数组，最后枚举删除的位置 $i$，求出最大值即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 `nums` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

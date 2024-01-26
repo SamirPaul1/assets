@@ -1,59 +1,56 @@
-# [1408. 数组中的字符串匹配](https://leetcode.cn/problems/string-matching-in-an-array)
+# [1408. String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array)
 
-[English Version](/solution/1400-1499/1408.String%20Matching%20in%20an%20Array/README_EN.md)
+[中文文档](/solution/1400-1499/1408.String%20Matching%20in%20an%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of string <code>words</code>, return <em>all strings in </em><code>words</code><em> that is a <strong>substring</strong> of another word</em>. You can return the answer in <strong>any order</strong>.</p>
 
-<p>给你一个字符串数组 <code>words</code> ，数组中的每个字符串都可以看作是一个单词。请你按 <strong>任意</strong> 顺序返回 <code>words</code> 中是其他单词的子字符串的所有单词。</p>
-
-<p>如果你可以删除 <code>words[j]</code>&nbsp;最左侧和/或最右侧的若干字符得到 <code>words[i]</code> ，那么字符串 <code>words[i]</code> 就是 <code>words[j]</code> 的一个子字符串。</p>
+<p>A <strong>substring</strong> is a contiguous sequence of characters within a string</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>words = ["mass","as","hero","superhero"]
-<strong>输出：</strong>["as","hero"]
-<strong>解释：</strong>"as" 是 "mass" 的子字符串，"hero" 是 "superhero" 的子字符串。
-["hero","as"] 也是有效的答案。
+<strong>Input:</strong> words = [&quot;mass&quot;,&quot;as&quot;,&quot;hero&quot;,&quot;superhero&quot;]
+<strong>Output:</strong> [&quot;as&quot;,&quot;hero&quot;]
+<strong>Explanation:</strong> &quot;as&quot; is substring of &quot;mass&quot; and &quot;hero&quot; is substring of &quot;superhero&quot;.
+[&quot;hero&quot;,&quot;as&quot;] is also a valid answer.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>words = ["leetcode","et","code"]
-<strong>输出：</strong>["et","code"]
-<strong>解释：</strong>"et" 和 "code" 都是 "leetcode" 的子字符串。
+<strong>Input:</strong> words = [&quot;leetcode&quot;,&quot;et&quot;,&quot;code&quot;]
+<strong>Output:</strong> [&quot;et&quot;,&quot;code&quot;]
+<strong>Explanation:</strong> &quot;et&quot;, &quot;code&quot; are substring of &quot;leetcode&quot;.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>words = ["blue","green","bu"]
-<strong>输出：</strong>[]
+<strong>Input:</strong> words = [&quot;blue&quot;,&quot;green&quot;,&quot;bu&quot;]
+<strong>Output:</strong> []
+<strong>Explanation:</strong> No string of words is substring of another string.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= words.length &lt;= 100</code></li>
 	<li><code>1 &lt;= words[i].length &lt;= 30</code></li>
-	<li><code>words[i]</code> 仅包含小写英文字母。</li>
-	<li>题目数据 <strong>保证</strong> 每个 <code>words[i]</code> 都是独一无二的。</li>
+	<li><code>words[i]</code> contains only lowercase English letters.</li>
+	<li>All the strings of <code>words</code> are <strong>unique</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：暴力枚举
+### Solution 1: Brute Force Enumeration
 
-我们直接枚举所有的字符串 $words[i]$，判断其是否为其他字符串的子串，如果是，将其加入答案。
+We directly enumerate all strings $words[i]$, and check whether it is a substring of other strings. If it is, we add it to the answer.
 
-时间复杂度 $O(n^3)$，空间复杂度 $O(n)$。其中 $n$ 为字符串数组的长度。
+The time complexity is $O(n^3)$, and the space complexity is $O(n)$. Where $n$ is the length of the string array.
 
 <!-- tabs:start -->
 

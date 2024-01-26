@@ -1,55 +1,51 @@
-# [1228. 等差数列中缺失的数字](https://leetcode.cn/problems/missing-number-in-arithmetic-progression)
+# [1228. Missing Number In Arithmetic Progression](https://leetcode.com/problems/missing-number-in-arithmetic-progression)
 
-[English Version](/solution/1200-1299/1228.Missing%20Number%20In%20Arithmetic%20Progression/README_EN.md)
+[中文文档](/solution/1200-1299/1228.Missing%20Number%20In%20Arithmetic%20Progression/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>In some array <code>arr</code>, the values were in arithmetic progression: the values <code>arr[i + 1] - arr[i]</code> are all equal for every <code>0 &lt;= i &lt; arr.length - 1</code>.</p>
 
-<p>在某个数组&nbsp;<code>arr</code>&nbsp;中，值符合等差数列的数值规律：在&nbsp;<code>0 &lt;= i &lt; arr.length - 1</code>&nbsp;的前提下，<code>arr[i+1] - arr[i]</code>&nbsp;的值都相等。</p>
+<p>A value from <code>arr</code> was removed that <strong>was not the first or last value in the array</strong>.</p>
 
-<p>我们会从该数组中删除一个 <strong>既不是第一个 </strong>也<strong>&nbsp;不是最后一个的值</strong>，得到一个新的数组&nbsp;&nbsp;<code>arr</code>。</p>
-
-<p>给你这个缺值的数组&nbsp;<code>arr</code>，返回 <em>被删除的那个数</em> 。</p>
+<p>Given <code>arr</code>, return <em>the removed value</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>arr = [5,7,11,13]
-<strong>输出：</strong>9
-<strong>解释：</strong>原来的数组是 [5,7,<strong>9</strong>,11,13]。
+<strong>Input:</strong> arr = [5,7,11,13]
+<strong>Output:</strong> 9
+<strong>Explanation:</strong> The previous array was [5,7,<strong>9</strong>,11,13].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>arr = [15,13,12]
-<strong>输出：</strong>14
-<strong>解释：</strong>原来的数组是 [15,<strong>14</strong>,13,12]。</pre>
+<strong>Input:</strong> arr = [15,13,12]
+<strong>Output:</strong> 14
+<strong>Explanation:</strong> The previous array was [15,<strong>14</strong>,13,12].</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>3 &lt;= arr.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= arr[i] &lt;= 10<sup>5</sup></code></li>
-	<li>给定的数组 <strong>保证</strong> 是一个有效的数组。</li>
+	<li>The given array is <strong>guaranteed</strong> to be a valid array.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：等差数列求和公式
+### Solution 1: Arithmetic Series Sum Formula
 
-等差数列求和公式为 $\frac{n(a_1 + a_n)}{2}$，其中 $n$ 为等差数列的项数，$a_1$ 为等差数列的首项，$a_n$ 为等差数列的末项。
+The sum formula for an arithmetic series is $\frac{n(a_1 + a_n)}{2}$, where $n$ is the number of terms in the arithmetic series, $a_1$ is the first term of the arithmetic series, and $a_n$ is the last term of the arithmetic series.
 
-因为题目中给出的数组是一个等差数列，且缺失了一个数，所以数组的项数为 $n + 1$，首项为 $a_1$，末项为 $a_n$，则数组的和为 $\frac{n + 1}{2}(a_1 + a_n)$。
+Since the array given in the problem is an arithmetic series and is missing a number, the number of terms in the array is $n + 1$, the first term is $a_1$, and the last term is $a_n$, so the sum of the array is $\frac{n + 1}{2}(a_1 + a_n)$.
 
-因此，缺失的数为 $\frac{n + 1}{2}(a_1 + a_n) - \sum_{i = 0}^n a_i$。
+Therefore, the missing number is $\frac{n + 1}{2}(a_1 + a_n) - \sum_{i = 0}^n a_i$.
 
-时间复杂度 $O(n)$，其中 $n$ 为数组的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, and the space complexity is $O(1)$. Where $n$ is the length of the array.
 
 <!-- tabs:start -->
 
@@ -97,7 +93,7 @@ func missingNumber(arr []int) int {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

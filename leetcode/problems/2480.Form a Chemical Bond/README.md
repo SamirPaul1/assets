@@ -1,12 +1,10 @@
-# [2480. 形成化学键](https://leetcode.cn/problems/form-a-chemical-bond)
+# [2480. Form a Chemical Bond](https://leetcode.com/problems/form-a-chemical-bond)
 
-[English Version](/solution/2400-2499/2480.Form%20a%20Chemical%20Bond/README_EN.md)
+[中文文档](/solution/2400-2499/2480.Form%20a%20Chemical%20Bond/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Elements</code></p>
+<p>Table: <code>Elements</code></p>
 
 <pre>
 +-------------+---------+
@@ -16,31 +14,30 @@
 | type        | enum    |
 | electrons   | int     |
 +-------------+---------+
-symbol 是该表的主键(具有唯一值的列)。
-该表的每一行包含一个元素的信息。
-type 是 ENUM&nbsp;类型，它的值是 ('Metal', 'Nonmetal', 'Noble') 之一
- - 如果 type 是 Noble, electrons 是 0。
- - 如果 type 是 Metal, electrons 是这种元素的一个原子所能给出的电子数。
- - 如果 type 是 Nonmetal, electrons 这种元素的一个原子所需要的电子数。
+symbol is the primary key (column with unique values) for this table.
+Each row of this table contains information of one element.
+type is an ENUM (category) of type (&#39;Metal&#39;, &#39;Nonmetal&#39;, &#39;Noble&#39;)
+ - If type is Noble, electrons is 0.
+ - If type is Metal, electrons is the number of electrons that one atom of this element can give.
+ - If type is Nonmetal, electrons is the number of electrons that one atom of this element needs.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>如果一个元素是&nbsp;<code>'Metal'</code>，另外一个元素是&nbsp;<code>'Nonmetal'</code>&nbsp;，那么它们可以形成键。</p>
+<p>Two elements can form a bond if one of them is <code>&#39;Metal&#39;</code> and the other is <code>&#39;Nonmetal&#39;</code>.</p>
 
-<p>编写一个解决方案找出所有可以形成键的元素对。</p>
+<p>Write a solution to find all the pairs of elements that can form a bond.</p>
 
-<p data-group="1-1">以&nbsp;<strong>任意顺序&nbsp;</strong>返回结果表。</p>
+<p>Return the result table <strong>in any order</strong>.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Elements 表:
+<strong>Input:</strong> 
+Elements table:
 +--------+----------+-----------+
 | symbol | type     | electrons |
 +--------+----------+-----------+
@@ -52,7 +49,7 @@ Elements 表:
 | O      | Nonmetal | 2         |
 | N      | Nonmetal | 3         |
 +--------+----------+-----------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +-------+----------+
 | metal | nonmetal |
 +-------+----------+
@@ -66,14 +63,15 @@ Elements 表:
 | Ca    | N        |
 | Na    | N        |
 +-------+----------+
-<strong>解释:</strong> 
-Metal 元素包括 La, Ca, and Na.
-Nonmeal 元素包括 Cl, O, and N.
-每个 Metal 元素与输出表中的 Nonmeal 元素配对。</pre>
+<strong>Explanation:</strong> 
+Metal elements are La, Ca, and Na.
+Nonmeal elements are Cl, O, and N.
+Each Metal element pairs with a Nonmetal element in the output table.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

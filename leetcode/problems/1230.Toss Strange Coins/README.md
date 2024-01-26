@@ -1,47 +1,38 @@
-# [1230. 抛掷硬币](https://leetcode.cn/problems/toss-strange-coins)
+# [1230. Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins)
 
-[English Version](/solution/1200-1299/1230.Toss%20Strange%20Coins/README_EN.md)
+[中文文档](/solution/1200-1299/1230.Toss%20Strange%20Coins/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You have some coins.&nbsp; The <code>i</code>-th&nbsp;coin has a probability&nbsp;<code>prob[i]</code> of facing heads when tossed.</p>
 
-<p>有一些不规则的硬币。在这些硬币中，<code>prob[i]</code>&nbsp;表示第&nbsp;<code>i</code>&nbsp;枚硬币正面朝上的概率。</p>
-
-<p>请对每一枚硬币抛掷&nbsp;<strong>一次</strong>，然后返回正面朝上的硬币数等于&nbsp;<code>target</code>&nbsp;的概率。</p>
+<p>Return the probability that the number of coins facing heads equals <code>target</code> if you toss every coin exactly once.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>prob = [0.4], target = 1
-<strong>输出：</strong>0.40000
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> prob = [0.4], target = 1
+<strong>Output:</strong> 0.40000
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> prob = [0.5,0.5,0.5,0.5,0.5], target = 0
+<strong>Output:</strong> 0.03125
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre><strong>输入：</strong>prob = [0.5,0.5,0.5,0.5,0.5], target = 0
-<strong>输出：</strong>0.03125
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= prob.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= prob[i] &lt;= 1</code></li>
 	<li><code>0 &lt;= target&nbsp;</code><code>&lt;= prob.length</code></li>
-	<li>如果答案与标准答案的误差在&nbsp;<code>10^-5</code>&nbsp;内，则被视为正确答案。</li>
+	<li>Answers will be accepted as correct if they are within <code>10^-5</code> of the correct answer.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i][j]$ 表示前 $i$ 枚硬币中有 $j$ 枚正面朝上的概率，初始时 $f[0][0]=1$，答案即为 $f[n][target]$。
+Let $f[i][j]$ represent the probability of having $j$ coins facing up in the first $i$ coins, and initially $f[0][0]=1$. The answer is $f[n][target]$.
 
-考虑 $f[i][j]$，其中 $i \geq 1$，如果当前硬币反面朝上，那么 $f[i][j] = (1 - p) \times f[i - 1][j]$；如果当前硬币正面朝上，并且 $j \gt 0$，那么 $f[i][j] = p \times f[i - 1][j - 1]$。因此状态转移方程为：
+Consider $f[i][j]$, where $i \geq 1$. If the current coin is facing down, then $f[i][j] = (1 - p) \times f[i - 1][j]$; If the current coin is facing up and $j \gt 0$, then $f[i][j] = p \times f[i - 1][j - 1]$. Therefore, the state transition equation is:
 
 $$
 f[i][j] = \begin{cases}
@@ -50,11 +41,11 @@ f[i][j] = \begin{cases}
 \end{cases}
 $$
 
-其中 $p$ 表示第 $i$ 枚硬币正面朝上的概率。
+where $p$ represents the probability of the $i$-th coin facing up.
 
-我们注意到，状态 $f[i][j]$ 只与状态 $f[i - 1][j]$ 和 $f[i - 1][j - 1]$ 有关，因此，我们可以将二维空间优化为一维空间。
+We note that the state $f[i][j]$ is only related to $f[i - 1][j]$ and $f[i - 1][j - 1]$, so we can optimize the two-dimensional space into one-dimensional space.
 
-时间复杂度 $O(n \times target)$，空间复杂度 $O(target)$。其中 $n$ 为硬币的数量。
+The time complexity is $O(n \times target)$, and the space complexity is $O(target)$. Where $n$ is the number of coins.
 
 <!-- tabs:start -->
 
@@ -151,7 +142,7 @@ function probabilityOfHeads(prob: number[], target: number): number {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

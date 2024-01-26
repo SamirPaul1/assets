@@ -1,15 +1,11 @@
-# [602. 好友申请 II ：谁有最多的好友](https://leetcode.cn/problems/friend-requests-ii-who-has-the-most-friends)
+# [602. Friend Requests II Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends)
 
-[English Version](/solution/0600-0699/0602.Friend%20Requests%20II%20Who%20Has%20the%20Most%20Friends/README_EN.md)
+[中文文档](/solution/0600-0699/0602.Friend%20Requests%20II%20Who%20Has%20the%20Most%20Friends/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Table: <code>RequestAccepted</code></p>
 
-<p><code>RequestAccepted</code> 表：</p>
-
-<div class="original__bRMd">
-<div>
 <pre>
 +----------------+---------+
 | Column Name    | Type    |
@@ -18,25 +14,24 @@
 | accepter_id    | int     |
 | accept_date    | date    |
 +----------------+---------+
-(requester_id, accepter_id) 是这张表的主键(具有唯一值的列的组合)。
-这张表包含发送好友请求的人的 ID ，接收好友请求的人的 ID ，以及好友请求通过的日期。
+(requester_id, accepter_id) is the primary key (combination of columns with unique values) for this table.
+This table contains the ID of the user who sent the request, the ID of the user who received the request, and the date when the request was accepted.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，找出拥有最多的好友的人和他拥有的好友数目。</p>
+<p>Write a solution to find the people who have the most friends and the most friends number.</p>
 
-<p>生成的测试用例保证拥有最多好友数目的只有 1 个人。</p>
+<p>The test cases are generated so that only one person has the most friends.</p>
 
-<p>查询结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-RequestAccepted 表：
+<strong>Input:</strong> 
+RequestAccepted table:
 +--------------+-------------+-------------+
 | requester_id | accepter_id | accept_date |
 +--------------+-------------+-------------+
@@ -45,24 +40,22 @@ RequestAccepted 表：
 | 2            | 3           | 2016/06/08  |
 | 3            | 4           | 2016/06/09  |
 +--------------+-------------+-------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +----+-----+
 | id | num |
 +----+-----+
 | 3  | 3   |
 +----+-----+
-<strong>解释：</strong>
-编号为 3 的人是编号为 1 ，2 和 4 的人的好友，所以他总共有 3 个好友，比其他人都多。</pre>
+<strong>Explanation:</strong> 
+The person with id 3 is a friend of people 1, 2, and 4, so he has three friends in total, which is the most number than any others.
+</pre>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> In the real world, multiple people could have the same most number of friends. Could you find all these people in this case?</p>
 
-<p><strong>进阶：</strong>在真实世界里，可能会有多个人拥有好友数相同且最多，你能找到所有这些人吗？</p>
-</div>
-</div>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,69 +1,47 @@
-# [132. 分割回文串 II](https://leetcode.cn/problems/palindrome-partitioning-ii)
+# [132. Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii)
 
-[English Version](/solution/0100-0199/0132.Palindrome%20Partitioning%20II/README_EN.md)
+[中文文档](/solution/0100-0199/0132.Palindrome%20Partitioning%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code>, partition <code>s</code> such that every <span data-keyword="substring-nonempty">substring</span> of the partition is a <span data-keyword="palindrome-string">palindrome</span>.</p>
 
-<p>给你一个字符串 <code>s</code>，请你将 <code>s</code> 分割成一些子串，使每个子串都是回文。</p>
+<p>Return <em>the <strong>minimum</strong> cuts needed for a palindrome partitioning of</em> <code>s</code>.</p>
 
-<p>返回符合要求的 <strong>最少分割次数</strong> 。</p>
-
-<div class="original__bRMd">
-<div>
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "aab"
-<strong>输出：</strong>1
-<strong>解释：</strong>只需一次分割就可将 <em>s </em>分割成 ["aa","b"] 这样两个回文子串。
+<strong>Input:</strong> s = &quot;aab&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The palindrome partitioning [&quot;aa&quot;,&quot;b&quot;] could be produced using 1 cut.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "a"
-<strong>输出：</strong>0
+<strong>Input:</strong> s = &quot;a&quot;
+<strong>Output:</strong> 0
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "ab"
-<strong>输出：</strong>1
+<strong>Input:</strong> s = &quot;ab&quot;
+<strong>Output:</strong> 1
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= s.length <= 2000</code></li>
-	<li><code>s</code> 仅由小写英文字母组成</li>
+	<li><code>1 &lt;= s.length &lt;= 2000</code></li>
+	<li><code>s</code> consists of lowercase English letters only.</li>
 </ul>
-</div>
-</div>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们先预处理得到字符串 $s$ 的每一个子串 $s[i..j]$ 是否为回文串，记录在二维数组 $g[i][j]$ 中，其中 $g[i][j]$ 表示子串 $s[i..j]$ 是否为回文串。
-
-接下来，我们定义 $f[i]$ 表示字符串 $s[0..i-1]$ 的最少分割次数，初始时 $f[i]=i$。
-
-接下来，我们考虑 $f[i]$ 如何进行状态转移。我们可以枚举上一个分割点 $j$，如果子串 $s[j..i]$ 是一个回文串，那么 $f[i]$ 就可以从 $f[j]$ 转移而来。如果 $j=0$，那么说明 $s[0..i]$ 本身就是一个回文串，此时不需要进行分割，即 $f[i]=0$。因此，状态转移方程如下：
-
-$$
-f[i]=\min_{0\leq j \leq i}\begin{cases} f[j-1]+1, & \text{if}\ g[j][i]=\text{True} \\ 0, & \text{if}\ g[0][i]=\text{True} \end{cases}
-$$
-
-答案即为 $f[n]$，其中 $n$ 是字符串 $s$ 的长度。
-
-时间复杂度 $O(n^2)$，空间复杂度 $O(n^2)$。其中 $n$ 是字符串 $s$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

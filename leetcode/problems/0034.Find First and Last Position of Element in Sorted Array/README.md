@@ -1,59 +1,47 @@
-# [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array)
+# [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
 
-[English Version](/solution/0000-0099/0034.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README_EN.md)
+[中文文档](/solution/0000-0099/0034.Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of integers <code>nums</code> sorted in non-decreasing order, find the starting and ending position of a given <code>target</code> value.</p>
 
-<p>给你一个按照非递减顺序排列的整数数组 <code>nums</code>，和一个目标值 <code>target</code>。请你找出给定目标值在数组中的开始位置和结束位置。</p>
+<p>If <code>target</code> is not found in the array, return <code>[-1, -1]</code>.</p>
 
-<p>如果数组中不存在目标值 <code>target</code>，返回&nbsp;<code>[-1, -1]</code>。</p>
-
-<p>你必须设计并实现时间复杂度为&nbsp;<code>O(log n)</code>&nbsp;的算法解决此问题。</p>
+<p>You must&nbsp;write an algorithm with&nbsp;<code>O(log n)</code> runtime complexity.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [<code>5,7,7,8,8,10]</code>, target = 8
-<strong>输出：</strong>[3,4]</pre>
-
-<p><strong>示例&nbsp;2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [<code>5,7,7,8,8,10]</code>, target = 6
-<strong>输出：</strong>[-1,-1]</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [], target = 0
-<strong>输出：</strong>[-1,-1]</pre>
-
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [5,7,7,8,8,10], target = 8
+<strong>Output:</strong> [3,4]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [5,7,7,8,8,10], target = 6
+<strong>Output:</strong> [-1,-1]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> nums = [], target = 0
+<strong>Output:</strong> [-1,-1]
+</pre>
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup>&nbsp;&lt;= nums[i]&nbsp;&lt;= 10<sup>9</sup></code></li>
-	<li><code>nums</code>&nbsp;是一个非递减数组</li>
+	<li><code>nums</code> is a non-decreasing array.</li>
 	<li><code>-10<sup>9</sup>&nbsp;&lt;= target&nbsp;&lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
+### Solution 1: Binary Search
 
-我们可以进行两次二分查找，分别查找出左边界和右边界。
+We can perform binary search twice to find the left and right boundaries respectively.
 
-时间复杂度 $O(\log n)$，空间复杂度 $O(1)$。其中 $n$ 是数组 $nums$ 的长度。
+The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n$ is the length of the array $nums$.
 
-以下是二分查找的两个通用模板：
+Below are two general templates for binary search:
 
-模板 1：
+Template 1:
 
 ```java
 boolean check(int x) {
@@ -72,7 +60,7 @@ int search(int left, int right) {
 }
 ```
 
-模板 2：
+Template 2:
 
 ```java
 boolean check(int x) {
@@ -91,16 +79,16 @@ int search(int left, int right) {
 }
 ```
 
-做二分题目时，可以按照以下套路：
+When doing binary search problems, you can follow the following routine:
 
-1. 写出循环条件 $left < right$；
-1. 循环体内，不妨先写 $mid = \lfloor \frac{left + right}{2} \rfloor$；
-1. 根据具体题目，实现 $check()$ 函数（有时很简单的逻辑，可以不定义 $check$），想一下究竟要用 $right = mid$（模板 $1$） 还是 $left = mid$（模板 $2$）；
-       - 如果 $right = mid$，那么写出 else 语句 $left = mid + 1$，并且不需要更改 mid 的计算，即保持 $mid = \lfloor \frac{left + right}{2} \rfloor$；
-       - 如果 $left = mid$，那么写出 else 语句 $right = mid - 1$，并且在 $mid$ 计算时补充 +1，即 $mid = \lfloor \frac{left + right + 1}{2} \rfloor$；
-1. 循环结束时，$left$ 与 $right$ 相等。
+1. Write out the loop condition $left < right$;
+2. Inside the loop, you might as well write $mid = \lfloor \frac{left + right}{2} \rfloor$ first;
+3. According to the specific problem, implement the $check()$ function (sometimes the logic is very simple, you can not define $check$), think about whether to use $right = mid$ (Template $1$) or $left = mid$ (Template $2$);
+    - If $right = mid$, then write the else statement $left = mid + 1$, and there is no need to change the calculation of $mid$, that is, keep $mid = \lfloor \frac{left + right}{2} \rfloor$;
+    - If $left = mid$, then write the else statement $right = mid - 1$, and add +1 when calculating $mid$, that is, $mid = \lfloor \frac{left + right + 1}{2} \rfloor$;
+4. When the loop ends, $left$ equals $right$.
 
-注意，这两个模板的优点是始终保持答案位于二分区间内，二分结束条件对应的值恰好在答案所处的位置。 对于可能无解的情况，只要判断二分结束后的 $left$ 或者 $right$ 是否满足题意即可。
+Note that the advantage of these two templates is that they always keep the answer within the binary search interval, and the value corresponding to the end condition of the binary search is exactly at the position of the answer. For the case that may have no solution, just check whether the $left$ or $right$ after the binary search ends satisfies the problem.
 
 <!-- tabs:start -->
 

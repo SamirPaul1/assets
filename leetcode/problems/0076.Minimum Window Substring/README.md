@@ -1,75 +1,65 @@
-# [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring)
+# [76. Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)
 
-[English Version](/solution/0000-0099/0076.Minimum%20Window%20Substring/README_EN.md)
+[中文文档](/solution/0000-0099/0076.Minimum%20Window%20Substring/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two strings <code>s</code> and <code>t</code> of lengths <code>m</code> and <code>n</code> respectively, return <em>the <strong>minimum window</strong></em> <span data-keyword="substring-nonempty"><strong><em>substring</em></strong></span><em> of </em><code>s</code><em> such that every character in </em><code>t</code><em> (<strong>including duplicates</strong>) is included in the window</em>. If there is no such substring, return <em>the empty string </em><code>&quot;&quot;</code>.</p>
 
-<p>给你一个字符串 <code>s</code> 、一个字符串 <code>t</code> 。返回 <code>s</code> 中涵盖 <code>t</code> 所有字符的最小子串。如果 <code>s</code> 中不存在涵盖 <code>t</code> 所有字符的子串，则返回空字符串 <code>""</code> 。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>注意：</strong></p>
-
-<ul>
-	<li>对于 <code>t</code> 中重复字符，我们寻找的子字符串中该字符数量必须不少于 <code>t</code> 中该字符数量。</li>
-	<li>如果 <code>s</code> 中存在这样的子串，我们保证它是唯一的答案。</li>
-</ul>
+<p>The testcases will be generated such that the answer is <strong>unique</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "ADOBECODEBANC", t = "ABC"
-<strong>输出：</strong>"BANC"
-<strong>解释：</strong>最小覆盖子串 "BANC" 包含来自字符串 t 的 'A'、'B' 和 'C'。
+<strong>Input:</strong> s = &quot;ADOBECODEBANC&quot;, t = &quot;ABC&quot;
+<strong>Output:</strong> &quot;BANC&quot;
+<strong>Explanation:</strong> The minimum window substring &quot;BANC&quot; includes &#39;A&#39;, &#39;B&#39;, and &#39;C&#39; from string t.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "a", t = "a"
-<strong>输出：</strong>"a"
-<strong>解释：</strong>整个字符串 s 是最小覆盖子串。
+<strong>Input:</strong> s = &quot;a&quot;, t = &quot;a&quot;
+<strong>Output:</strong> &quot;a&quot;
+<strong>Explanation:</strong> The entire string s is the minimum window.
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> s = "a", t = "aa"
-<strong>输出:</strong> ""
-<strong>解释:</strong> t 中两个字符 'a' 均应包含在 s 的子串中，
-因此没有符合条件的子字符串，返回空字符串。</pre>
+<strong>Input:</strong> s = &quot;a&quot;, t = &quot;aa&quot;
+<strong>Output:</strong> &quot;&quot;
+<strong>Explanation:</strong> Both &#39;a&#39;s from t must be included in the window.
+Since the largest window of s only has one &#39;a&#39;, return empty string.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code><sup>m == s.length</sup></code></li>
-	<li><code><sup>n == t.length</sup></code></li>
+	<li><code>m == s.length</code></li>
+	<li><code>n == t.length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> 和 <code>t</code> 由英文字母组成</li>
+	<li><code>s</code> and <code>t</code> consist of uppercase and lowercase English letters.</li>
 </ul>
 
 <p>&nbsp;</p>
-<strong>进阶：</strong>你能设计一个在 <code>o(m+n)</code> 时间内解决此问题的算法吗？
+<p><strong>Follow up:</strong> Could you find an algorithm that runs in <code>O(m + n)</code> time?</p>
 
-## 解法
+## Solutions
 
-### 方法一：计数 + 双指针
+### Solution 1: Counting + Two Pointers
 
-我们用一个哈希表或数组 $need$ 统计字符串 $t$ 中每个字符出现的次数，用另一个哈希表或数组 $window$ 统计滑动窗口中每个字符出现的次数。另外，定义两个指针 $j$ 和 $i$ 分别指向窗口的左右边界，变量 $cnt$ 表示窗口中已经包含了 $t$ 中的多少个字符，变量 $k$ 和 $mi$ 分别表示最小覆盖子串的起始位置和长度。
+We use a hash table or array $need$ to count the number of occurrences of each character in string $t$, and another hash table or array $window$ to count the number of occurrences of each character in the sliding window. In addition, we define two pointers $j$ and $i$ to point to the left and right boundaries of the window, respectively. The variable $cnt$ represents how many characters in $t$ are already included in the window. The variables $k$ and $mi$ represent the starting position and length of the minimum covering substring, respectively.
 
-我们从左到右遍历字符串 $s$，对于当前遍历到的字符 $s[i]$：
+We traverse the string $s$ from left to right. For the currently traversed character $s[i]$:
 
-我们将其加入窗口中，即 $window[s[i]] = window[s[i]] + 1$，如果此时 $need[s[i]] \geq window[s[i]]$，则说明 $s[i]$ 是一个「必要的字符」，我们将 $cnt$ 加一。如果 $cnt$ 等于 $t$ 的长度，说明此时窗口中已经包含了 $t$ 中的所有字符，我们就可以尝试更新最小覆盖子串的起始位置和长度了。如果 $i - j + 1 \lt mi$，说明当前窗口表示的子串更短，我们就更新 $mi = i - j + 1$ 和 $k = j$。然后，我们尝试移动左边界 $j$，如果此时 $need[s[j]] \geq window[s[j]]$，则说明 $s[j]$ 是一个「必要的字符」，移动左边界时会把 $s[j]$ 这个字符从窗口中移除，因此我们需要将 $cnt$ 减一，然后更新 $window[s[j]] = window[s[j]] - 1$，并将 $j$ 右移一位。如果 $cnt$ 与 $t$ 的长度不相等，说明此时窗口中还没有包含 $t$ 中的所有字符，我们就不需要移动左边界了，直接将 $i$ 右移一位，继续遍历即可。
+We add it to the window, i.e., $window[s[i]] = window[s[i]] + 1$. If $need[s[i]] \geq window[s[i]]$ at this time, it means that $s[i]$ is a "necessary character", so we increment $cnt$ by one. If $cnt$ equals the length of $t$, it means that all characters in $t$ are already included in the window at this time, so we can try to update the starting position and length of the minimum covering substring. If $i - j + 1 \lt mi$, it means that the substring represented by the current window is shorter, so we update $mi = i - j + 1$ and $k = j$. Then, we try to move the left boundary $j$. If $need[s[j]] \geq window[s[j]]$ at this time, it means that $s[j]$ is a "necessary character". When moving the left boundary, the character $s[j]$ will be removed from the window, so we need to decrement $cnt$ by one, then update $window[s[j]] = window[s[j]] - 1$, and move $j$ one step to the right. If $cnt$ does not equal the length of $t$, it means that all characters in $t$ are not yet included in the window at this time, so we don't need to move the left boundary, just move $i$ one step to the right and continue to traverse.
 
-遍历结束，如果没有找到最小覆盖子串，返回空字符串，否则返回 $s[k:k+mi]$ 即可。
+After the traversal, if the minimum covering substring is not found, return an empty string, otherwise return $s[k:k+mi]$.
 
-时间复杂度 $O(m + n)$，空间复杂度 $O(C)$。其中 $m$ 和 $n$ 分别是字符串 $s$ 和 $t$ 的长度；而 $C$ 是字符集的大小，本题中 $C = 128$。
+The time complexity is $O(m + n)$, and the space complexity is $O(C)$. Here, $m$ and $n$ are the lengths of strings $s$ and $t$ respectively; and $C$ is the size of the character set, in this problem $C = 128$.
 
 <!-- tabs:start -->
 

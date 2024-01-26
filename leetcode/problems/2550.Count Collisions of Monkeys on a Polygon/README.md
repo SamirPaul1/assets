@@ -1,66 +1,61 @@
-# [2550. 猴子碰撞的方法数](https://leetcode.cn/problems/count-collisions-of-monkeys-on-a-polygon)
+# [2550. Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon)
 
-[English Version](/solution/2500-2599/2550.Count%20Collisions%20of%20Monkeys%20on%20a%20Polygon/README_EN.md)
+[中文文档](/solution/2500-2599/2550.Count%20Collisions%20of%20Monkeys%20on%20a%20Polygon/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>现在有一个正凸多边形，其上共有 <code>n</code> 个顶点。顶点按顺时针方向从 <code>0</code> 到 <code>n - 1</code> 依次编号。每个顶点上 <strong>正好有一只猴子</strong> 。下图中是一个 6 个顶点的凸多边形。</p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2550.Count%20Collisions%20of%20Monkeys%20on%20a%20Polygon/images/hexagon.jpg" style="width: 300px; height: 293px;" /></p>
-
-<p>每个猴子同时移动到相邻的顶点。顶点 <code>i</code> 的相邻顶点可以是：</p>
+<p>There is a regular convex polygon with <code>n</code> vertices. The vertices are labeled from <code>0</code> to <code>n - 1</code> in a clockwise direction, and each vertex has <strong>exactly one monkey</strong>. The following figure shows a convex polygon of <code>6</code> vertices.</p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2550.Count%20Collisions%20of%20Monkeys%20on%20a%20Polygon/images/hexagon.jpg" style="width: 300px; height: 293px;" />
+<p>Each monkey moves simultaneously to a neighboring vertex. A neighboring vertex for a vertex <code>i</code> can be:</p>
 
 <ul>
-	<li>顺时针方向的顶点 <code>(i + 1) % n</code> ，或</li>
-	<li>逆时针方向的顶点 <code>(i - 1 + n) % n</code> 。</li>
+	<li>the vertex <code>(i + 1) % n</code> in the clockwise direction, or</li>
+	<li>the vertex <code>(i - 1 + n) % n</code> in the counter-clockwise direction.</li>
 </ul>
 
-<p>如果移动后至少有两只猴子停留在同一个顶点上或者相交在一条边上，则会发生 <strong>碰撞</strong> 。</p>
+<p>A <strong>collision</strong> happens if at least two monkeys reside on the same vertex after the movement or intersect&nbsp;on an edge.</p>
 
-<p>返回猴子至少发生 <strong>一次碰撞 </strong>的移动方法数。由于答案可能非常大，请返回对 <code>10<sup>9</sup>+7</code> 取余后的结果。</p>
+<p>Return <em>the number of ways the monkeys can move so that at least <strong>one collision</strong></em> <em> happens</em>. Since the answer may be very large, return it modulo <code>10<sup>9 </sup>+ 7</code>.</p>
 
-<p><strong>注意</strong>，每只猴子只能移动一次。</p>
+<p><strong>Note</strong> that each monkey can only move once.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 3
-<strong>输出：</strong>6
-<strong>解释：</strong>共计 8 种移动方式。
-下面列出两种会发生碰撞的方式：
-- 猴子 1 顺时针移动；猴子 2 逆时针移动；猴子 3 顺时针移动。猴子 1 和猴子 2 碰撞。
-- 猴子 1 逆时针移动；猴子 2 逆时针移动；猴子 3 顺时针移动。猴子 1 和猴子 3 碰撞。
-可以证明，有 6 种让猴子碰撞的方法。
+<strong>Input:</strong> n = 3
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> There are 8 total possible movements.
+Two ways such that they collide at some point are:
+- Monkey 1 moves in a clockwise direction; monkey 2 moves in an anticlockwise direction; monkey 3 moves in a clockwise direction. Monkeys 1 and 2 collide.
+- Monkey 1 moves in an anticlockwise direction; monkey 2 moves in an anticlockwise direction; monkey 3 moves in a clockwise direction. Monkeys 1 and 3 collide.
+It can be shown 6 total movements result in a collision.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 4
-<strong>输出：</strong>14
-<strong>解释：</strong>可以证明，有 14 种让猴子碰撞的方法。</pre>
+<strong>Input:</strong> n = 4
+<strong>Output:</strong> 14
+<strong>Explanation:</strong> It can be shown that there are 14 ways for the monkeys to collide.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>3 &lt;= n &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数学（快速幂）
+### Solution 1: Mathematics (Fast Power)
 
-根据题目描述，每一只猴子都有两种移动方式，即顺时针或逆时针。因此，一共有 $2^n$ 种移动方式。不碰撞的移动方式只有两种，即所有猴子都顺时针移动或所有猴子都逆时针移动。因此，碰撞的移动方式有 $2^n - 2$ 种。
+According to the problem description, each monkey has two ways of moving, either clockwise or counterclockwise. Therefore, there are a total of $2^n$ ways to move. The non-collision ways of moving are only two, that is, all monkeys move clockwise or all monkeys move counterclockwise. Therefore, the number of collision ways of moving is $2^n - 2$.
 
-我们可以用快速幂求出 $2^n$ 的值，然后用 $2^n - 2$ 求出碰撞的移动方式数，最后对 $10^9 + 7$ 取余即可。
+We can use fast power to calculate the value of $2^n$, then use $2^n - 2$ to calculate the number of collision ways of moving, and finally take the remainder of $10^9 + 7$.
 
-时间复杂度 $O(\log n)$，其中 $n$ 为猴子的数量。空间复杂度 $O(1)$。
+The time complexity is $O(\log n)$, where $n$ is the number of monkeys. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

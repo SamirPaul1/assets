@@ -1,10 +1,8 @@
-# [3018. Maximum Number of Removal Queries That Can Be Processed I](https://leetcode.cn/problems/maximum-number-of-removal-queries-that-can-be-processed-i)
+# [3018. Maximum Number of Removal Queries That Can Be Processed I](https://leetcode.com/problems/maximum-number-of-removal-queries-that-can-be-processed-i)
 
-[English Version](/solution/3000-3099/3018.Maximum%20Number%20of%20Removal%20Queries%20That%20Can%20Be%20Processed%20I/README_EN.md)
+[中文文档](/solution/3000-3099/3018.Maximum%20Number%20of%20Removal%20Queries%20That%20Can%20Be%20Processed%20I/README.md)
 
-## 题目描述
-
-<!-- 这里写题目描述 -->
+## Description
 
 <p>You are given a <strong>0-indexed</strong> array <code>nums</code> and a <strong>0-indexed</strong> array <code>queries</code>.</p>
 
@@ -75,21 +73,21 @@ It can be shown that we can&#39;t process more than 2 queries.
 	<li><code>1 &lt;= nums[i], queries[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i][j]$ 表示区间 $[i, j]$ 的数还没有被删除时，我们能够处理的查询的最大数量。
+We define $f[i][j]$ as the maximum number of queries we can handle when the numbers in the interval $[i, j]$ have not been deleted yet.
 
-考虑 $f[i][j]$：
+Consider $f[i][j]$:
 
--   如果 $i \gt 0$，此时 $f[i][j]$ 的值可以由 $f[i - 1][j]$ 转移而来。如果 $nums[i - 1] \ge queries[f[i - 1][j]]$，那么我们可以选择删除 $nums[i - 1]$，因此我们有 $f[i][j] = f[i - 1][j] + (nums[i - 1] \ge queries[f[i - 1][j]])$。
--   如果 $j + 1 \lt n$，此时 $f[i][j]$ 的值可以由 $f[i][j + 1]$ 转移而来。如果 $nums[j + 1] \ge queries[f[i][j + 1]]$，那么我们可以选择删除 $nums[j + 1]$，因此我们有 $f[i][j] = f[i][j + 1] + (nums[j + 1] \ge queries[f[i][j + 1]])$。
--   如果 $f[i][j] = m$，那么我们就可以直接返回 $m$。
+-   If $i > 0$, the value of $f[i][j]$ can be transferred from $f[i - 1][j]$. If $nums[i - 1] \ge queries[f[i - 1][j]]$, we can choose to delete $nums[i - 1]$. Therefore, we have $f[i][j] = f[i - 1][j] + (nums[i - 1] \ge queries[f[i - 1][j]])$.
+-   If $j + 1 < n$, the value of $f[i][j]$ can be transferred from $f[i][j + 1]$. If $nums[j + 1] \ge queries[f[i][j + 1]]$, we can choose to delete $nums[j + 1]$. Therefore, we have $f[i][j] = f[i][j + 1] + (nums[j + 1] \ge queries[f[i][j + 1]])$.
+-   If $f[i][j] = m$, we can directly return $m$.
 
-最后的答案即为 $\max\limits_{0 \le i \lt n} f[i][i] + (nums[i] \ge queries[f[i][i]])$。
+The final answer is $\max\limits_{0 \le i < n} f[i][i] + (nums[i] \ge queries[f[i][i]])$.
 
-时间复杂度 $O(n^2)$，空间复杂度 $O(n^2)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

@@ -1,48 +1,38 @@
-# [215. 数组中的第 K 个最大元素](https://leetcode.cn/problems/kth-largest-element-in-an-array)
+# [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)
 
-[English Version](/solution/0200-0299/0215.Kth%20Largest%20Element%20in%20an%20Array/README_EN.md)
+[中文文档](/solution/0200-0299/0215.Kth%20Largest%20Element%20in%20an%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>largest element in the array</em>.</p>
 
-<p>给定整数数组 <code>nums</code> 和整数 <code>k</code>，请返回数组中第 <code><strong>k</strong></code> 个最大的元素。</p>
+<p>Note that it is the <code>k<sup>th</sup></code> largest element in the sorted order, not the <code>k<sup>th</sup></code> distinct element.</p>
 
-<p>请注意，你需要找的是数组排序后的第 <code>k</code> 个最大的元素，而不是第 <code>k</code> 个不同的元素。</p>
-
-<p>你必须设计并实现时间复杂度为 <code>O(n)</code> 的算法解决此问题。</p>
+<p>Can you solve it without sorting?</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> <code>[3,2,1,5,6,4],</code> k = 2
-<strong>输出:</strong> 5
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [3,2,1,5,6,4], k = 2
+<strong>Output:</strong> 5
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [3,2,3,1,2,4,5,5,6], k = 4
+<strong>Output:</strong> 4
 </pre>
-
-<p><strong>示例&nbsp;2:</strong></p>
-
-<pre>
-<strong>输入:</strong> <code>[3,2,3,1,2,4,5,5,6], </code>k = 4
-<strong>输出:</strong> 4</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示： </strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>4</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
+### Solution 1: Sorting
 
-我们可以将数组 $nums$ 升序排列，然后获取 $nums[n-k]$。
+We can sort the array $nums$ in ascending order, and then get $nums[n-k]$.
 
-时间复杂度 $O(n \times \log n)$，其中 $n$ 表示数组 $nums$ 的长度。
+The time complexity is $O(n \times \log n)$, where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 
@@ -228,13 +218,13 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：Partition
+### Solution 2: Partition
 
-我们注意到，并不是所有时候，都需要整个数组进入有序状态，只需要**局部有序**，或者说，从大到小排序，只要 $[0..k)$ 位置的元素有序，那么就能确定结果，此处使用**快速排序**。
+We notice that it is not always necessary for the entire array to be in an ordered state. We only need **local order**. That is to say, if the elements in the position $[0..k)$ are sorted in descending order, then we can determine the result. Here we use **quick sort**.
 
-快速排序有一特点，每一次循环结束时，能够确定的是 $partition$ 一定处于它该处于的索引位置。从而根据它得知，结果值是在左数组还是在右数组当中，然后对那一数组进行排序即可。
+Quick sort has a characteristic that at the end of each loop, it can be determined that the $partition$ is definitely at the index position it should be. Therefore, based on it, we know whether the result value is in the left array or in the right array, and then sort that array.
 
-时间复杂度 $O(n)$，其中 $n$ 表示数组 $nums$ 的长度。
+The time complexity is $O(n)$, where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

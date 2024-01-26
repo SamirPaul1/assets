@@ -1,53 +1,56 @@
-# [788. 旋转数字](https://leetcode.cn/problems/rotated-digits)
+# [788. Rotated Digits](https://leetcode.com/problems/rotated-digits)
 
-[English Version](/solution/0700-0799/0788.Rotated%20Digits/README_EN.md)
+[中文文档](/solution/0700-0799/0788.Rotated%20Digits/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An integer <code>x</code> is a <strong>good</strong> if after rotating each digit individually by 180 degrees, we get a valid number that is different from <code>x</code>. Each digit must be rotated - we cannot choose to leave it alone.</p>
 
-<p>我们称一个数 X 为好数, 如果它的每位数字逐个地被旋转 180 度后，我们仍可以得到一个有效的，且和 X 不同的数。要求每位数字都要被旋转。</p>
+<p>A number is valid if each digit remains a digit after rotation. For example:</p>
 
-<p>如果一个数的每位数字被旋转以后仍然还是一个数字，&nbsp;则这个数是有效的。0, 1, 和 8 被旋转后仍然是它们自己；2 和 5 可以互相旋转成对方（在这种情况下，它们以不同的方向旋转，换句话说，2 和 5 互为镜像）；6 和 9 同理，除了这些以外其他的数字旋转以后都不再是有效的数字。</p>
+<ul>
+	<li><code>0</code>, <code>1</code>, and <code>8</code> rotate to themselves,</li>
+	<li><code>2</code> and <code>5</code> rotate to each other (in this case they are rotated in a different direction, in other words, <code>2</code> or <code>5</code> gets mirrored),</li>
+	<li><code>6</code> and <code>9</code> rotate to each other, and</li>
+	<li>the rest of the numbers do not rotate to any other number and become invalid.</li>
+</ul>
 
-<p>现在我们有一个正整数&nbsp;<code>N</code>, 计算从&nbsp;<code>1</code> 到&nbsp;<code>N</code> 中有多少个数&nbsp;X 是好数？</p>
+<p>Given an integer <code>n</code>, return <em>the number of <strong>good</strong> integers in the range </em><code>[1, n]</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例：</strong></p>
+<pre>
+<strong>Input:</strong> n = 10
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> There are four good numbers in the range [1, 10] : 2, 5, 6, 9.
+Note that 1 and 10 are not good numbers, since they remain unchanged after rotating.
+</pre>
 
-<pre><strong>输入:</strong> 10
-<strong>输出:</strong> 4
-<strong>解释:</strong> 
-在[1, 10]中有四个好数： 2, 5, 6, 9。
-注意 1 和 10 不是好数, 因为他们在旋转之后不变。
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 1
+<strong>Output:</strong> 0
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>N&nbsp;的取值范围是&nbsp;<code>[1, 10000]</code>。</li>
+	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：直接枚举
-
-一种直观且有效的思路是，直接枚举 $[1,2,..n]$ 中的每个数，判断其是否为好数，若为好数，则答案加一。
-
-那么题目的重点转化为如何判断一个数字 $x$ 是否为好数。判断的逻辑如下：
-
-我们先用一个长度为 $10$ 的数组 $d$ 记录每个有效数字对应的旋转数字，在这道题中，有效数字有 $[0, 1, 8, 2, 5, 6, 9]$，分别对应旋转数字 $[0, 1, 8, 5, 2, 9, 6]$。如果不是有效数字，我们将对应的旋转数字设为 $-1$。
-
-然后遍历数字 $x$ 的每一位数字 $v$，如果 $v$ 不是有效数字，说明 $x$ 不是好数，直接返回 `false`。否则，我们将数字 $v$ 对应的旋转数字 $d[v]$ 加入到 $y$ 中。最后，判断 $x$ 和 $y$ 是否相等，若不相等，则说明 $x$ 是好数，返回 `true`。
-
-时间复杂度 $O(n\times \log n)$。
-
-相似题目：
-
--   [1056. 易混淆数](https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1056.Confusing%20Number/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -159,45 +162,7 @@ func rotatedDigits(n int) int {
 
 <!-- tabs:end -->
 
-### 方法二：数位 DP
-
-方法一的做法足以通过本题，但时间复杂度较高。如果题目的数据范围达到 $10^9$ 级别，则方法一的做法会超出时间限制。
-
-这道题实际上是求在给定区间 $[l,..r]$ 中，满足条件的数的个数。条件与数的大小无关，而只与数的组成有关，因此可以使用数位 DP 的思想求解。数位 DP 中，数的大小对复杂度的影响很小。
-
-对于区间 $[l,..r]$ 问题，我们一般会将其转化为 $[1,..r]$ 然后再减去 $[1,..l - 1]$ 的问题，即：
-
-$$
-ans = \sum_{i=1}^{r} ans_i -  \sum_{i=1}^{l-1} ans_i
-$$
-
-不过对于本题而言，我们只需要求出区间 $[1,..r]$ 的值即可。
-
-这里我们用记忆化搜索来实现数位 DP。从起点向下搜索，到最底层得到方案数，一层层向上返回答案并累加，最后从搜索起点得到最终的答案。
-
-基本步骤如下：
-
-1. 将数字 $n$ 转为 int 数组 $a$，其中 $a[1]$ 为最低位，而 $a[len]$ 为最高位；
-1. 根据题目信息，设计函数 $dfs()$，对于本题，我们定义 $dfs(pos, ok, limit)$，答案为 $dfs(len, 0, true)$。
-
-其中：
-
--   `pos` 表示数字的位数，从末位或者第一位开始，一般根据题目的数字构造性质来选择顺序。对于本题，我们选择从高位开始，因此，`pos` 的初始值为 `len`；
--   `ok` 表示当前数字是否满足题目要求（对于本题，如果数字出现 $[2, 5, 6, 9]$ 则满足）
--   `limit` 表示可填的数字的限制，如果无限制，那么可以选择 $[0,1,..9]$，否则，只能选择 $[0,..a[pos]]$。如果 `limit` 为 `true` 且已经取到了能取到的最大值，那么下一个 `limit` 同样为 `true`；如果 `limit` 为 `true` 但是还没有取到最大值，或者 `limit` 为 `false`，那么下一个 `limit` 为 `false`。
-
-关于函数的实现细节，可以参考下面的代码。
-
-时间复杂度 $O(\log n)$。
-
-相似题目：
-
--   [233. 数字 1 的个数](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0233.Number%20of%20Digit%20One/README.md)
--   [357. 统计各位数字都不同的数字个数](https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0357.Count%20Numbers%20with%20Unique%20Digits/README.md)
--   [600. 不含连续 1 的非负整数](https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0600.Non-negative%20Integers%20without%20Consecutive%20Ones/README.md)
--   [902. 最大为 N 的数字组合](https://github.com/doocs/leetcode/blob/main/solution/0900-0999/0902.Numbers%20At%20Most%20N%20Given%20Digit%20Set/README.md)
--   [1012. 至少有 1 位重复的数字](https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1012.Numbers%20With%20Repeated%20Digits/README.md)
--   [2376. 统计特殊整数](https://github.com/doocs/leetcode/blob/main/solution/2300-2399/2376.Count%20Special%20Integers/README.md)
+### Solution 2
 
 <!-- tabs:start -->
 

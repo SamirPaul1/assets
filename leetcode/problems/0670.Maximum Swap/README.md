@@ -1,46 +1,48 @@
-# [670. 最大交换](https://leetcode.cn/problems/maximum-swap)
+# [670. Maximum Swap](https://leetcode.com/problems/maximum-swap)
 
-[English Version](/solution/0600-0699/0670.Maximum%20Swap/README_EN.md)
+[中文文档](/solution/0600-0699/0670.Maximum%20Swap/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>num</code>. You can swap two digits at most once to get the maximum valued number.</p>
 
-<p>给定一个非负整数，你<strong>至多</strong>可以交换一次数字中的任意两位。返回你能得到的最大值。</p>
+<p>Return <em>the maximum valued number you can get</em>.</p>
 
-<p><strong>示例 1 :</strong></p>
-
-<pre>
-<strong>输入:</strong> 2736
-<strong>输出:</strong> 7236
-<strong>解释:</strong> 交换数字2和数字7。
-</pre>
-
-<p><strong>示例 2 :</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 9973
-<strong>输出:</strong> 9973
-<strong>解释:</strong> 不需要交换。
+<strong>Input:</strong> num = 2736
+<strong>Output:</strong> 7236
+<strong>Explanation:</strong> Swap the number 2 and the number 7.
 </pre>
 
-<p><strong>注意:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<ol>
-	<li>给定数字的范围是&nbsp;[0, 10<sup>8</sup>]</li>
-</ol>
+<pre>
+<strong>Input:</strong> num = 9973
+<strong>Output:</strong> 9973
+<strong>Explanation:</strong> No swap.
+</pre>
 
-## 解法
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-### 方法一：贪心
+<ul>
+	<li><code>0 &lt;= num &lt;= 10<sup>8</sup></code></li>
+</ul>
 
-我们先将数字转为字符串 $s$，然后从右往左遍历字符串 $s$，用数组或哈希表 $d$ 记录每个数字右侧的最大数字的位置（可以是数字本身的位置）。
+## Solutions
 
-接着从左到右遍历 $d$，如果 $s[i] \lt s[d[i]]$，则进行交换，并退出遍历的过程。
+### Solution 1: Greedy Algorithm
 
-最后将字符串 $s$ 转为数字，即为答案。
+First, we convert the number into a string $s$. Then, we traverse the string $s$ from right to left, using an array or hash table $d$ to record the position of the maximum number to the right of each number (it can be the position of the number itself).
 
-时间复杂度 $O(\log M)$，空间复杂度 $O(\log M)$。其中 $M$ 是数字 $num$ 的取值范围。
+Next, we traverse $d$ from left to right. If $s[i] < s[d[i]]$, we swap them and exit the traversal process.
+
+Finally, we convert the string $s$ back into a number, which is the answer.
+
+The time complexity is $O(\log M)$, and the space complexity is $O(\log M)$. Here, $M$ is the range of the number $num$.
 
 <!-- tabs:start -->
 

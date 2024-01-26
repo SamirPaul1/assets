@@ -1,12 +1,10 @@
-# [1783. 大满贯数量](https://leetcode.cn/problems/grand-slam-titles)
+# [1783. Grand Slam Titles](https://leetcode.com/problems/grand-slam-titles)
 
-[English Version](/solution/1700-1799/1783.Grand%20Slam%20Titles/README_EN.md)
+[中文文档](/solution/1700-1799/1783.Grand%20Slam%20Titles/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Players</code></p>
+<p>Table: <code>Players</code></p>
 
 <pre>
 +----------------+---------+
@@ -15,13 +13,13 @@
 | player_id      | int     |
 | player_name    | varchar |
 +----------------+---------+
-player_id 是这个表的主键（具有唯一值的列）
-这个表的每一行给出一个网球运动员的 ID 和 姓名
+player_id is the primary key (column with unique values) for this table.
+Each row in this table contains the name and the ID of a tennis player.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表：<code>Championships</code></p>
+<p>Table: <code>Championships</code></p>
 
 <pre>
 +---------------+---------+
@@ -33,25 +31,24 @@ player_id 是这个表的主键（具有唯一值的列）
 | US_open       | int     |
 | Au_open       | int     |
 +---------------+---------+
-year 是这个表的主键（具有唯一值的列）
-该表的每一行都包含在每场大满贯网球比赛中赢得比赛的球员的 ID
+year is the primary key (column with unique values) for this table.
+Each row of this table contains the IDs of the players who won one each tennis tournament of the grand slam.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，找出每一个球员赢得大满贯比赛的次数。结果不包含没有赢得比赛的球员的ID 。</p>
+<p>Write a solution to report the number of grand slam tournaments won by each player. Do not include the players who did not win any tournament.</p>
 
-<p>结果集 <strong>无顺序要求</strong> 。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果的格式，如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Players 表：
+<strong>Input:</strong> 
+Players table:
 +-----------+-------------+
 | player_id | player_name |
 +-----------+-------------+
@@ -59,7 +56,7 @@ Players 表：
 | 2         | Federer     |
 | 3         | Novak       |
 +-----------+-------------+
-Championships 表：
+Championships table:
 +------+-----------+---------+---------+---------+
 | year | Wimbledon | Fr_open | US_open | Au_open |
 +------+-----------+---------+---------+---------+
@@ -67,23 +64,24 @@ Championships 表：
 | 2019 | 1         | 1       | 2       | 2       |
 | 2020 | 2         | 1       | 2       | 2       |
 +------+-----------+---------+---------+---------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-----------+-------------+-------------------+
 | player_id | player_name | grand_slams_count |
 +-----------+-------------+-------------------+
 | 2         | Federer     | 5                 |
 | 1         | Nadal       | 7                 |
 +-----------+-------------+-------------------+
-<strong>解释：</strong>
-Player 1 (Nadal) 获得了 7 次大满贯：其中温网 2 次(2018, 2019), 法国公开赛 3 次 (2018, 2019, 2020), 美国公开赛 1 次 (2018)以及澳网公开赛 1 次 (2018) 。
-Player 2 (Federer) 获得了 5 次大满贯：其中温网 1 次 (2020), 美国公开赛 2 次 (2019, 2020) 以及澳网公开赛 2 次 (2019, 2020) 。
-Player 3 (Novak)  没有赢得，因此不包含在结果集中。</pre>
+<strong>Explanation:</strong> 
+Player 1 (Nadal) won 7 titles: Wimbledon (2018, 2019), Fr_open (2018, 2019, 2020), US_open (2018), and Au_open (2018).
+Player 2 (Federer) won 5 titles: Wimbledon (2020), US_open (2019, 2020), and Au_open (2019, 2020).
+Player 3 (Novak) did not win anything, we did not include them in the result table.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：合并 + 等值连接 + 分组
+### Solution 1: Union All + Equi-Join + Group By
 
-我们可以使用 `UNION ALL`，将所有赢得大满贯比赛的球员 ID 合并到一张表 `T` 中，然后使用等值连接 `JOIN`，将 `T` 表与 `Players` 表按照 `player_id` 进行连接，最后使用 `GROUP BY` 和 `COUNT` 统计每个球员赢得大满贯比赛的次数。
+We can use `UNION ALL` to merge all player IDs who won Grand Slam titles into a table `T`, then use an equi-join `JOIN` to join `T` table with `Players` table on `player_id`, and finally use `GROUP BY` and `COUNT` to count the number of Grand Slam titles won by each player.
 
 <!-- tabs:start -->
 
@@ -112,7 +110,7 @@ GROUP BY 1;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

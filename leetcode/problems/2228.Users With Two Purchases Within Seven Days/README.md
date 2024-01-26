@@ -1,12 +1,10 @@
-# [2228. 7 天内两次购买的用户](https://leetcode.cn/problems/users-with-two-purchases-within-seven-days)
+# [2228. Users With Two Purchases Within Seven Days](https://leetcode.com/problems/users-with-two-purchases-within-seven-days)
 
-[English Version](/solution/2200-2299/2228.Users%20With%20Two%20Purchases%20Within%20Seven%20Days/README_EN.md)
+[中文文档](/solution/2200-2299/2228.Users%20With%20Two%20Purchases%20Within%20Seven%20Days/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Purchases</code></p>
+<p>Table: <code>Purchases</code></p>
 
 <pre>
 +---------------+------+
@@ -16,25 +14,24 @@
 | user_id       | int  |
 | purchase_date | date |
 +---------------+------+
-purchase_id 包含唯一值。
-该表包含用户从某个零售商购买的日期的日志。
+purchase_id contains unique values.
+This table contains logs of the dates that users purchased from a certain retailer.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，获取&nbsp;<strong>最多&nbsp;</strong>间隔 <code>7</code> 天进行两次购买的用户的 id。</p>
+<p>Write a solution to report the IDs of the users that made any two purchases <strong>at most</strong> <code>7</code> days apart.</p>
 
-<p data-group="1-1">返回<em>按 <code>user_id</code>&nbsp;排序的结果表。</em></p>
+<p>Return the result table ordered by <code>user_id</code>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Purchases 表:
+<strong>Input:</strong> 
+Purchases table:
 +-------------+---------+---------------+
 | purchase_id | user_id | purchase_date |
 +-------------+---------+---------------+
@@ -45,21 +42,22 @@ Purchases 表:
 | 5           | 7       | 2022-06-19    |
 | 2           | 2       | 2022-06-08    |
 +-------------+---------+---------------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +---------+
 | user_id |
 +---------+
 | 2       |
 | 7       |
 +---------+
-<strong>解释:</strong> 
-用户 2 在 2022-03-13 和 2022-03-20 有两次购买。由于第二次购买是在第一次购买后的 7 天内，我们添加了他们的 ID。
-用户 5 只购买了 1 次。
-用户 7 在同一天有两次购买，所以我们添加了他们的 ID。</pre>
+<strong>Explanation:</strong> 
+User 2 had two purchases on 2022-03-13 and 2022-03-20. Since the second purchase is within 7 days of the first purchase, we add their ID.
+User 5 had only 1 purchase.
+User 7 had two purchases on the same day so we add their ID.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

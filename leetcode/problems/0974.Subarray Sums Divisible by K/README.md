@@ -1,59 +1,42 @@
-# [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k)
+# [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k)
 
-[English Version](/solution/0900-0999/0974.Subarray%20Sums%20Divisible%20by%20K/README_EN.md)
+[中文文档](/solution/0900-0999/0974.Subarray%20Sums%20Divisible%20by%20K/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the number of non-empty <strong>subarrays</strong> that have a sum divisible by </em><code>k</code>.</p>
 
-<p>给定一个整数数组 <code>nums</code>&nbsp;和一个整数 <code>k</code> ，返回其中元素之和可被 <code>k</code>&nbsp;整除的（连续、非空） <strong>子数组</strong> 的数目。</p>
-
-<p><strong>子数组</strong> 是数组的 <strong>连续</strong> 部分。</p>
+<p>A <strong>subarray</strong> is a <strong>contiguous</strong> part of an array.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [4,5,0,-2,-3,1], k = 5
-<strong>输出：</strong>7
-<strong>解释：
-</strong>有 7 个子数组满足其元素之和可被 k = 5 整除：
+<strong>Input:</strong> nums = [4,5,0,-2,-3,1], k = 5
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> There are 7 subarrays with a sum divisible by k = 5:
 [4, 5, 0, -2, -3, 1], [5], [5, 0], [5, 0, -2, -3], [0], [0, -2, -3], [-2, -3]
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [5], k = 9
-<strong>输出:</strong> 0
+<strong>Input:</strong> nums = [5], k = 9
+<strong>Output:</strong> 0
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
-	<li><code>-10<sup>4</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 	<li><code>2 &lt;= k &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 前缀和
-
-假设存在 $i \leq j$，使得 $nums[i,..j]$ 的和能被 $k$ 整除，如果我们令 $s_i$ 表示 $nums[0,..i]$ 的和，令 $s_j$ 表示 $nums[0,..j]$ 的和，那么 $s_j - s_i$ 能被 $k$ 整除，即 $(s_j - s_i) \bmod k = 0$，也即 $s_j \bmod k = s_i \bmod k$。因此，我们可以用哈希表统计前缀和模 $k$ 的值的个数，从而快速判断是否存在满足条件的子数组。
-
-我们用一个哈希表 $cnt$ 统计前缀和模 $k$ 的值的个数，即 $cnt[i]$ 表示前缀和模 $k$ 的值为 $i$ 的个数。初始时 $cnt[0]=1$。用变量 $s$ 表示前缀和，初始时 $s = 0$。
-
-接下来，从左到右遍历数组 $nums$，对于遍历到的每个元素 $x$，我们计算 $s = (s + x) \bmod k$，然后更新答案 $ans = ans + cnt[s]$，其中 $cnt[s]$ 表示前缀和模 $k$ 的值为 $s$ 的个数。最后我们将 $cnt[s]$ 的值加 $1$，继续遍历下一个元素。
-
-最终，我们返回答案 $ans$。
-
-> 注意，由于 $s$ 的值可能为负数，因此我们可以将 $s$ 模 $k$ 的结果加上 $k$，再对 $k$ 取模，以确保 $s$ 的值为非负数。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

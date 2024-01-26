@@ -1,70 +1,60 @@
-# [1570. 两个稀疏向量的点积](https://leetcode.cn/problems/dot-product-of-two-sparse-vectors)
+# [1570. Dot Product of Two Sparse Vectors](https://leetcode.com/problems/dot-product-of-two-sparse-vectors)
 
-[English Version](/solution/1500-1599/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors/README_EN.md)
+[中文文档](/solution/1500-1599/1570.Dot%20Product%20of%20Two%20Sparse%20Vectors/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two sparse vectors, compute their dot product.</p>
 
-<p>给定两个稀疏向量，计算它们的点积（数量积）。</p>
+<p>Implement class <code>SparseVector</code>:</p>
 
-<p>实现类 <code>SparseVector</code>：</p>
-
-<ul>
-	<li><code>SparseVector(nums)</code> 以向量 <code>nums</code> 初始化对象。</li>
-	<li><code>dotProduct(vec)</code> 计算此向量与 <code>vec</code> 的点积。</li>
+<ul data-indent="0" data-stringify-type="unordered-list">
+	<li><code>SparseVector(nums)</code>&nbsp;Initializes the object with the vector <code>nums</code></li>
+	<li><code>dotProduct(vec)</code>&nbsp;Compute the dot product between the instance of <em>SparseVector</em> and <code>vec</code></li>
 </ul>
 
-<p><strong>稀疏向量</strong> 是指绝大多数分量为 0 的向量。你需要 <strong>高效</strong> 地存储这个向量，并计算两个稀疏向量的点积。</p>
+<p>A <strong>sparse vector</strong> is a vector that has mostly zero values, you should store the sparse vector&nbsp;<strong>efficiently </strong>and compute the dot product between two <em>SparseVector</em>.</p>
 
-<p><strong>进阶：</strong>当其中只有一个向量是稀疏向量时，你该如何解决此问题？</p>
+<p><strong>Follow up:&nbsp;</strong>What if only one of the vectors is sparse?</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums1 = [1,0,0,2,3], nums2 = [0,3,0,4,0]
-<strong>输出：</strong>8
-<strong>解释：</strong>v1 = SparseVector(nums1) , v2 = SparseVector(nums2)
+<strong>Input:</strong> nums1 = [1,0,0,2,3], nums2 = [0,3,0,4,0]
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> v1 = SparseVector(nums1) , v2 = SparseVector(nums2)
 v1.dotProduct(v2) = 1*0 + 0*3 + 0*0 + 2*4 + 3*0 = 8
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums1 = [0,1,0,0,0], nums2 = [0,0,0,0,2]
-<strong>输出：</strong>0
-<strong>解释：</strong>v1 = SparseVector(nums1) , v2 = SparseVector(nums2)
+<strong>Input:</strong> nums1 = [0,1,0,0,0], nums2 = [0,0,0,0,2]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> v1 = SparseVector(nums1) , v2 = SparseVector(nums2)
 v1.dotProduct(v2) = 0*0 + 1*0 + 0*0 + 0*0 + 0*2 = 0
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums1 = [0,1,0,0,2,0,0], nums2 = [1,0,0,0,3,0,4]
-<strong>输出：</strong>6
+<strong>Input:</strong> nums1 = [0,1,0,0,2,0,0], nums2 = [1,0,0,0,3,0,4]
+<strong>Output:</strong> 6
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums1.length == nums2.length</code></li>
-	<li><code>1 <= n <= 10^5</code></li>
-	<li><code>0 <= nums1[i], nums2[i] <= 100</code></li>
+	<li><code>1 &lt;= n &lt;= 10^5</code></li>
+	<li><code>0 &lt;= nums1[i], nums2[i]&nbsp;&lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
-
-我们用哈希表 $d$ 来存储非零元素，其中键为下标，值为对应的值。我们遍历 $nums$，如果 $nums[i]$ 不为 $0$，我们就将 $(i, nums[i])$ 加入到哈希表 $d$ 中。
-
-在计算点积时，我们遍历非零元素较少的哈希表，并判断另一个哈希表中是否存在对应的键，如果存在就将对应的值相乘并累加到答案中。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组长度。
+### Solution 1
 
 <!-- tabs:start -->
 

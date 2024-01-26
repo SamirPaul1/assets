@@ -1,69 +1,65 @@
-# [1708. 长度为 K 的最大子数组](https://leetcode.cn/problems/largest-subarray-length-k)
+# [1708. Largest Subarray Length K](https://leetcode.com/problems/largest-subarray-length-k)
 
-[English Version](/solution/1700-1799/1708.Largest%20Subarray%20Length%20K/README_EN.md)
+[中文文档](/solution/1700-1799/1708.Largest%20Subarray%20Length%20K/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An array <code>A</code> is larger than some array <code>B</code> if for the first index <code>i</code> where <code>A[i] != B[i]</code>, <code>A[i] &gt; B[i]</code>.</p>
 
-<p>在数组&nbsp;<code>A</code>&nbsp;和数组 <code>B</code>&nbsp;中，对于第一个满足 <code>A[i] != B[i]</code>&nbsp;的索引&nbsp;<code>i</code>&nbsp;，当 <code>A[i] &gt; B[i]</code>&nbsp;时，数组 <code>A</code> 大于数组 <code>B</code>。</p>
-
-<p>例如，对于索引从 <code>0</code> 开始的数组：</p>
+<p>For example, consider <code>0</code>-indexing:</p>
 
 <ul>
-	<li><code>[1,3,2,4] &gt; [1,2,2,4]</code>&nbsp;，因为在索引&nbsp;<code>1</code>&nbsp;上，&nbsp;<code>3 &gt; 2</code>。</li>
-	<li><code>[1,4,4,4] &lt; [2,1,1,1]</code>&nbsp;，因为在索引 <code>0</code> 上，&nbsp;<code>1 &lt; 2</code>。</li>
+	<li><code>[1,3,2,4] &gt; [1,2,2,4]</code>, since at index <code>1</code>, <code>3 &gt; 2</code>.</li>
+	<li><code>[1,4,4,4] &lt; [2,1,1,1]</code>, since at index <code>0</code>, <code>1 &lt; 2</code>.</li>
 </ul>
 
-<p>一个数组的子数组是原数组上的一个连续子序列。</p>
+<p>A subarray is a contiguous subsequence of the array.</p>
 
-<p>给定一个包含<strong>不同</strong>整数的整数类型数组&nbsp;<code>nums</code>&nbsp;，返回&nbsp;<code>nums</code>&nbsp;中长度为 <code>k</code> 的最大子数组。</p>
+<p>Given an integer array <code>nums</code> of <strong>distinct</strong> integers, return the <strong>largest</strong> subarray of <code>nums</code> of length <code>k</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1:</b></p>
-
-<pre>
-<strong>输入:</strong> nums = [1,4,5,2,3], k = 3
-<strong>输出:</strong> [5,2,3]
-<strong>解释:</strong> 长度为 3 的子数组有： [1,4,5]、 [4,5,2] 和 [5,2,3]。
-在这些数组中， [5,2,3] 是最大的。</pre>
-
-<p><b>示例</b><strong> 2:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,4,5,2,3], k = 4
-<strong>输出:</strong> [4,5,2,3]
-<strong>解释:</strong> 长度为 4 的子数组有： [1,4,5,2] 和 [4,5,2,3]。
-在这些数组中， [4,5,2,3] 是最大的。</pre>
+<strong>Input:</strong> nums = [1,4,5,2,3], k = 3
+<strong>Output:</strong> [5,2,3]
+<strong>Explanation:</strong> The subarrays of size 3 are: [1,4,5], [4,5,2], and [5,2,3].
+Of these, [5,2,3] is the largest.</pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,4,5,2,3], k = 1
-<strong>输出:</strong> [5]
+<strong>Input:</strong> nums = [1,4,5,2,3], k = 4
+<strong>Output:</strong> [4,5,2,3]
+<strong>Explanation:</strong> The subarrays of size 4 are: [1,4,5,2], and [4,5,2,3].
+Of these, [4,5,2,3] is the largest.</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,4,5,2,3], k = 1
+<strong>Output:</strong> [5]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>nums</code>&nbsp;中的所有整数都是<strong>不同</strong>的。</li>
+	<li>All the integers of <code>nums</code> are <strong>unique</strong>.</li>
 </ul>
 
 <p>&nbsp;</p>
-<b>进阶：</b>如果允许&nbsp;<code>nums</code>&nbsp;中存在相同元素，你该如何解决该问题？
+<strong>Follow up:</strong> What if the integers in <code>nums</code> are not distinct?
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-数组中所有整数都不同，我们可以先在 $[0,..n-k]$ 范围内找到最大的元素的下标，然后从该下标开始取 $k$ 个元素即可。
+All integers in the array are distinct, so we can first find the index of the maximum element in the range $[0,..n-k]$, and then take $k$ elements starting from this index.
 
-时间复杂度 $O(n)$，其中 $n$ 为数组的长度。忽略答案的空间消耗，空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array. Ignoring the space consumption of the answer, the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

@@ -1,46 +1,41 @@
-# [1241. 每个帖子的评论数](https://leetcode.cn/problems/number-of-comments-per-post)
+# [1241. Number of Comments per Post](https://leetcode.com/problems/number-of-comments-per-post)
 
-[English Version](/solution/1200-1299/1241.Number%20of%20Comments%20per%20Post/README_EN.md)
+[中文文档](/solution/1200-1299/1241.Number%20of%20Comments%20per%20Post/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表&nbsp;<code>Submissions</code>&nbsp;：</p>
+<p>Table: <code>Submissions</code></p>
 
 <pre>
 +---------------+----------+
-| 列名          | 类型     |
+| Column Name   | Type     |
 +---------------+----------+
 | sub_id        | int      |
 | parent_id     | int      |
 +---------------+----------+
-上表可能会出现重复的行。
-每行可以是一个帖子或对该帖子的评论。
-如果这是一篇帖子，则 parent_id 为 null。
-如果这是一条评论，则 parent_id 对应帖子的 sub_id。
+This table may have duplicate rows.
+Each row can be a post or comment on the post.
+parent_id is null for posts.
+parent_id for comments is <code>sub_id</code> for another post in the table.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写一个解决方案以查找每个帖子的评论数。</p>
+<p>Write a solution to find the number of comments per post. The result table should contain <code>post_id</code> and its corresponding <code>number_of_comments</code>.</p>
 
-<p>结果表应包含帖子的&nbsp;<code>post_id</code> 和对应的评论数&nbsp;<code>number_of_comments</code> 。</p>
+<p>The <code>Submissions</code> table may contain duplicate comments. You should count the number of <strong>unique comments</strong> per post.</p>
 
-<p><code>Submissions</code> 可能包含重复的评论。你应该统计出每个帖子的 <strong>唯一评论</strong> 的数目。</p>
+<p>The <code>Submissions</code> table may contain duplicate posts. You should treat them as one post.</p>
 
-<p><code>Submissions</code> 可能包含重复的帖子。你应该将它们视为一个帖子。</p>
+<p>The result table should be <strong>ordered</strong> by <code>post_id</code> in <strong>ascending order</strong>.</p>
 
-<p>返回结果表应该按 <code>post_id</code> <strong>升序排序</strong>。</p>
-
-<p>结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Submissions table:
 +---------+------------+
 | sub_id  | parent_id  |
@@ -57,7 +52,7 @@ Submissions table:
 | 10      | 2          |
 | 6       | 7          |
 +---------+------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +---------+--------------------+
 | post_id | number_of_comments |
 +---------+--------------------+
@@ -65,15 +60,16 @@ Submissions table:
 | 2       | 2                  |
 | 12      | 0                  |
 +---------+--------------------+
-<strong>解释：</strong>
-表中 ID 为 1 的帖子有 ID 为 3、4 和 9 的三个评论。表中 ID 为 3 的评论重复出现了，所以我们只对它进行了一次计数。
-表中 ID 为 2 的帖子有 ID 为 5 和 10 的两个评论。
-表中 ID 为 12 的帖子没有评论。
-表中 ID 为 6 的评论是对 ID 为 7 的已删除帖子的评论，因此我们将其忽略。</pre>
+<strong>Explanation:</strong> 
+The post with id 1 has three comments in the table with id 3, 4, and 9. The comment with id 3 is repeated in the table, we counted it <strong>only once</strong>.
+The post with id 2 has two comments in the table with id 5 and 10.
+The post with id 12 has no comments in the table.
+The comment with id 6 is a comment on a deleted post with id 7 so we ignored it.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

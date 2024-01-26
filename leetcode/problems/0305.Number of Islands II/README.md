@@ -1,43 +1,40 @@
-# [305. 岛屿数量 II](https://leetcode.cn/problems/number-of-islands-ii)
+# [305. Number of Islands II](https://leetcode.com/problems/number-of-islands-ii)
 
-[English Version](/solution/0300-0399/0305.Number%20of%20Islands%20II/README_EN.md)
+[中文文档](/solution/0300-0399/0305.Number%20of%20Islands%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an empty 2D binary grid <code>grid</code> of size <code>m x n</code>. The grid represents a map where <code>0</code>&#39;s represent water and <code>1</code>&#39;s represent land. Initially, all the cells of <code>grid</code> are water cells (i.e., all the cells are <code>0</code>&#39;s).</p>
 
-<p>给你一个大小为 <code>m x n</code> 的二进制网格 <code>grid</code> 。网格表示一个地图，其中，<code>0</code> 表示水，<code>1</code> 表示陆地。最初，<code>grid</code> 中的所有单元格都是水单元格（即，所有单元格都是 <code>0</code>）。</p>
+<p>We may perform an add land operation which turns the water at position into a land. You are given an array <code>positions</code> where <code>positions[i] = [r<sub>i</sub>, c<sub>i</sub>]</code> is the position <code>(r<sub>i</sub>, c<sub>i</sub>)</code> at which we should operate the <code>i<sup>th</sup></code> operation.</p>
 
-<p>可以通过执行 <code>addLand</code> 操作，将某个位置的水转换成陆地。给你一个数组 <code>positions</code> ，其中 <code>positions[i] = [r<sub>i</sub>, c<sub>i</sub>]</code> 是要执行第 <code>i</code> 次操作的位置 <code>(r<sub>i</sub>, c<sub>i</sub>)</code> 。</p>
+<p>Return <em>an array of integers</em> <code>answer</code> <em>where</em> <code>answer[i]</code> <em>is the number of islands after turning the cell</em> <code>(r<sub>i</sub>, c<sub>i</sub>)</code> <em>into a land</em>.</p>
 
-<p>返回一个整数数组 <code>answer</code> ，其中 <code>answer[i]</code> 是将单元格 <code>(r<sub>i</sub>, c<sub>i</sub>)</code> 转换为陆地后，地图中岛屿的数量。</p>
+<p>An <strong>island</strong> is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p>
 
-<p><strong>岛屿</strong> 的定义是被「水」包围的「陆地」，通过水平方向或者垂直方向上相邻的陆地连接而成。你可以假设地图网格的四边均被无边无际的「水」所包围。</p>
-&nbsp;
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0305.Number%20of%20Islands%20II/images/tmp-grid.jpg" style="width: 500px; height: 294px;" />
 <pre>
-<strong>输入：</strong>m = 3, n = 3, positions = [[0,0],[0,1],[1,2],[2,1]]
-<strong>输出：</strong>[1,1,2,3]
-<strong>解释：</strong>
-起初，二维网格&nbsp;<code>grid</code>&nbsp;被全部注入「水」。（0 代表「水」，1 代表「陆地」）
-- 操作&nbsp;#1：<code>addLand(0, 0)</code> 将&nbsp;<code>grid[0][0]</code> 的水变为陆地。此时存在 1 个岛屿。
-- 操作&nbsp;#2：<code>addLand(0, 1)</code> 将&nbsp;<code>grid[0][1]</code> 的水变为陆地。此时存在 1 个岛屿。
-- 操作&nbsp;#3：<code>addLand(1, 2)</code> 将&nbsp;<code>grid[1][2]</code> 的水变为陆地。此时存在 2 个岛屿。
-- 操作&nbsp;#4：<code>addLand(2, 1)</code> 将&nbsp;<code>grid[2][1]</code> 的水变为陆地。此时存在 3 个岛屿。
+<strong>Input:</strong> m = 3, n = 3, positions = [[0,0],[0,1],[1,2],[2,1]]
+<strong>Output:</strong> [1,1,2,3]
+<strong>Explanation:</strong>
+Initially, the 2d grid is filled with water.
+- Operation #1: addLand(0, 0) turns the water at grid[0][0] into a land. We have 1 island.
+- Operation #2: addLand(0, 1) turns the water at grid[0][1] into a land. We still have 1 island.
+- Operation #3: addLand(1, 2) turns the water at grid[1][2] into a land. We have 2 islands.
+- Operation #4: addLand(2, 1) turns the water at grid[2][1] into a land. We have 3 islands.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>m = 1, n = 1, positions = [[0,0]]
-<strong>输出：</strong>[1]
+<strong>Input:</strong> m = 1, n = 1, positions = [[0,0]]
+<strong>Output:</strong> [1]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= m, n, positions.length &lt;= 10<sup>4</sup></code></li>
@@ -48,18 +45,17 @@
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you solve it in time complexity <code>O(k log(mn))</code>, where <code>k == positions.length</code>?</p>
 
-<p><strong>进阶：</strong>你可以设计一个时间复杂度 <code>O(k log(mn))</code> 的算法解决此问题吗？（其中 <code>k == positions.length</code>）</p>
+## Solutions
 
-## 解法
+### Solution 1: Union-Find
 
-### 方法一：并查集
+We use a two-dimensional array $grid$ to represent a map, where $0$ and $1$ represent water and land respectively. Initially, all cells in $grid$ are water cells (i.e., all cells are $0$), and we use a variable $cnt$ to record the number of islands. The connectivity between islands can be maintained by a union-find set $uf$.
 
-我们用一个二维数组 $grid$ 来表示一个地图，其中 $0$ 和 $1$ 分别表示水和陆地。初始时 $grid$ 中的所有单元格都是水单元格（即所有单元格都是 $0$），用一个变量 $cnt$ 来记录岛屿的数量。而岛屿之间的连通关系可以用一个并查集 $uf$ 来维护。
+Next, we traverse each position $(i, j)$ in the array $positions$. If $grid[i][j]$ is $1$, it means that this position is already land, and we directly add $cnt$ to the answer; otherwise, we change the value of $grid[i][j]$ to $1$, and increase the value of $cnt$ by $1$. Then, we traverse the four directions of up, down, left, and right of this position. If a certain direction is $1$, and this position does not belong to the same connected component as $(i, j)$, then we merge this position with $(i, j)$, and decrease the value of $cnt$ by $1$. After traversing the four directions of up, down, left, and right of this position, we add $cnt$ to the answer.
 
-接下来，我们遍历数组 $positions$ 中的每个位置 $(i, j)$，如果 $grid[i][j]$ 为 $1$，说明该位置已经是陆地，我们直接将 $cnt$ 添加到答案中；否则，我们将 $grid[i][j]$ 的值改为 $1$，并且将 $cnt$ 的值增加 $1$。然后，我们遍历该位置的上下左右四个方向，如果某个方向的位置为 $1$，并且该位置与 $(i, j)$ 不属于同一个连通分量，那么我们就将该位置与 $(i, j)$ 进行合并，同时将 $cnt$ 的值减少 $1$。遍历完该位置的上下左右四个方向之后，我们将 $cnt$ 添加到答案中。
-
-时间复杂度 $O(k \times \alpha(m \times n))$ 或 $O(k \times \log(m \times n))$，其中 $k$ 是 $positions$ 的长度，而 $\alpha$ 是阿克曼函数的反函数，本题中 $\alpha(m \times n)$ 可以认为是一个很小的常数。
+The time complexity is $O(k \times \alpha(m \times n))$ or $O(k \times \log(m \times n))$, where $k$ is the length of $positions$, and $\alpha$ is the inverse function of the Ackermann function. In this problem, $\alpha(m \times n)$ can be considered as a very small constant.
 
 <!-- tabs:start -->
 

@@ -1,52 +1,48 @@
-# [772. 基本计算器 III](https://leetcode.cn/problems/basic-calculator-iii)
+# [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii)
 
-[English Version](/solution/0700-0799/0772.Basic%20Calculator%20III/README_EN.md)
+[中文文档](/solution/0700-0799/0772.Basic%20Calculator%20III/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Implement a basic calculator to evaluate a simple expression string.</p>
 
-<p>实现一个基本的计算器来计算简单的表达式字符串。</p>
+<p>The expression string contains only non-negative integers, <code>&#39;+&#39;</code>, <code>&#39;-&#39;</code>, <code>&#39;*&#39;</code>, <code>&#39;/&#39;</code> operators, and open <code>&#39;(&#39;</code> and closing parentheses <code>&#39;)&#39;</code>. The integer division should <strong>truncate toward zero</strong>.</p>
 
-<p>表达式字符串只包含非负整数，算符 <code>+</code>、<code>-</code>、<code>*</code>、<code>/</code> ，左括号 <code>(</code> 和右括号 <code>)</code> 。整数除法需要 <strong>向下截断</strong> 。</p>
+<p>You may assume that the given expression is always valid. All intermediate results will be in the range of <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code>.</p>
 
-<p>你可以假定给定的表达式总是有效的。所有的中间结果的范围均满足 <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code> 。</p>
-
-<p><strong>注意：</strong>你不能使用任何将字符串作为表达式求值的内置函数，比如 <code>eval()</code> 。</p>
+<p><strong>Note:</strong> You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as <code>eval()</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "1+1"
-<strong>输出：</strong>2
+<strong>Input:</strong> s = &quot;1+1&quot;
+<strong>Output:</strong> 2
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "6-4/2"
-<strong>输出：</strong>4
+<strong>Input:</strong> s = &quot;6-4/2&quot;
+<strong>Output:</strong> 4
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "2*(5+5*2)/3+(6/2+8)"
-<strong>输出：</strong>21
+<strong>Input:</strong> s = &quot;2*(5+5*2)/3+(6/2+8)&quot;
+<strong>Output:</strong> 21
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s &lt;= 10<sup>4</sup></code></li>
-	<li><code>s</code> 由整数、<code>'+'</code>、<code>'-'</code>、<code>'*'</code>、<code>'/'</code>、<code>'('</code> 和 <code>')'</code> 组成</li>
-	<li><code>s</code> 是一个 <strong>有效的</strong> 表达式</li>
+	<li><code>s</code> consists of digits, <code>&#39;+&#39;</code>, <code>&#39;-&#39;</code>, <code>&#39;*&#39;</code>, <code>&#39;/&#39;</code>, <code>&#39;(&#39;</code>,&nbsp;and&nbsp;<code>&#39;)&#39;</code>.</li>
+	<li><code>s</code> is a <strong>valid</strong> expression.</li>
 </ul>
 
-## 解法
+## Solutions
 
 <!-- end -->

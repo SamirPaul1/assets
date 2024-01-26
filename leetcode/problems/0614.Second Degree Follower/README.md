@@ -1,12 +1,10 @@
-# [614. 二级关注者](https://leetcode.cn/problems/second-degree-follower)
+# [614. Second Degree Follower](https://leetcode.com/problems/second-degree-follower)
 
-[English Version](/solution/0600-0699/0614.Second%20Degree%20Follower/README_EN.md)
+[中文文档](/solution/0600-0699/0614.Second%20Degree%20Follower/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Follow</code></p>
+<p>Table: <code>Follow</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,32 +13,31 @@
 | followee    | varchar |
 | follower    | varchar |
 +-------------+---------+
-(followee, follower) 是该表的主键(具有唯一值的列的组合)。
-该表的每一行表示关注者关注了社交网络上的关注者。
-不会有用户关注他们自己。
+(followee, follower) is the primary key (combination of columns with unique values) for this table.
+Each row of this table indicates that the user follower follows the user followee on a social network.
+There will not be a user following themself.
 </pre>
 
 <p>&nbsp;</p>
 
-<p><strong>二级关注者</strong> 是指满足以下条件的用户:</p>
+<p>A <strong>second-degree follower</strong> is a user who:</p>
 
 <ul>
-	<li>关注至少一个用户，</li>
-	<li>被至少一个用户关注。</li>
+	<li>follows at least one user, and</li>
+	<li>is followed by at least one user.</li>
 </ul>
 
-<p>编写一个解决方案来报告 <strong>二级用户</strong> 及其关注者的数量。</p>
+<p>Write a solution&nbsp;to report the <strong>second-degree users</strong> and the number of their followers.</p>
 
-<p>返回按 <code>follower</code> <strong>字典序排序&nbsp;</strong>的结果表。</p>
+<p>Return the result table <strong>ordered</strong> by <code>follower</code> <strong>in alphabetical order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 Follow table:
 +----------+----------+
 | followee | follower |
@@ -50,21 +47,22 @@ Follow table:
 | Bob      | Donald   |
 | Donald   | Edward   |
 +----------+----------+
-<b>输出：</b>
+<strong>Output:</strong> 
 +----------+-----+
 | follower | num |
 +----------+-----+
 | Bob      | 2   |
 | Donald   | 1   |
 +----------+-----+
-<b>解释：</b>
-用户 Bob 有 2 个关注者。Bob 是二级关注者，因为他关注了 Alice，所以我们把他包括在结果表中。
-用户 Donald 有 1 个关注者。Donald 是二级关注者，因为他关注了 Bob，所以我们把他包括在结果表中。
-用户 Alice 有 1 个关注者。Alice 不是二级关注者，但是她不关注任何人，所以我们不把她包括在结果表中。</pre>
+<strong>Explanation:</strong> 
+User Bob has 2 followers. Bob is a second-degree follower because he follows Alice, so we include him in the result table.
+User Donald has 1 follower. Donald is a second-degree follower because he follows Bob, so we include him in the result table.
+User Alice has 1 follower. Alice is not a second-degree follower because she does not follow anyone, so we don not include her in the result table.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

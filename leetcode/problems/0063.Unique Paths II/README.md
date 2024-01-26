@@ -1,64 +1,60 @@
-# [63. 不同路径 II](https://leetcode.cn/problems/unique-paths-ii)
+# [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii)
 
-[English Version](/solution/0000-0099/0063.Unique%20Paths%20II/README_EN.md)
+[中文文档](/solution/0000-0099/0063.Unique%20Paths%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an <code>m x n</code> integer array <code>grid</code>. There is a robot initially located at the <b>top-left corner</b> (i.e., <code>grid[0][0]</code>). The robot tries to move to the <strong>bottom-right corner</strong> (i.e., <code>grid[m - 1][n - 1]</code>). The robot can only move either down or right at any point in time.</p>
 
-<p>一个机器人位于一个<meta charset="UTF-8" />&nbsp;<code>m x n</code>&nbsp;网格的左上角 （起始点在下图中标记为 “Start” ）。</p>
+<p>An obstacle and space are marked as <code>1</code> or <code>0</code> respectively in <code>grid</code>. A path that the robot takes cannot include <strong>any</strong> square that is an obstacle.</p>
 
-<p>机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为 “Finish”）。</p>
+<p>Return <em>the number of possible unique paths that the robot can take to reach the bottom-right corner</em>.</p>
 
-<p>现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？</p>
-
-<p>网格中的障碍物和空位置分别用 <code>1</code> 和 <code>0</code> 来表示。</p>
+<p>The testcases are generated so that the answer will be less than or equal to <code>2 * 10<sup>9</sup></code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0063.Unique%20Paths%20II/images/robot1.jpg" />
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0063.Unique%20Paths%20II/images/robot1.jpg" style="width: 242px; height: 242px;" />
 <pre>
-<strong>输入：</strong>obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
-<strong>输出：</strong>2
-<strong>解释：</strong>3x3 网格的正中间有一个障碍物。
-从左上角到右下角一共有 <code>2</code> 条不同的路径：
-1. 向右 -&gt; 向右 -&gt; 向下 -&gt; 向下
-2. 向下 -&gt; 向下 -&gt; 向右 -&gt; 向右
+<strong>Input:</strong> obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> There is one obstacle in the middle of the 3x3 grid above.
+There are two ways to reach the bottom-right corner:
+1. Right -&gt; Right -&gt; Down -&gt; Down
+2. Down -&gt; Down -&gt; Right -&gt; Right
 </pre>
 
-<p><strong>示例 2：</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0063.Unique%20Paths%20II/images/robot2.jpg" />
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0063.Unique%20Paths%20II/images/robot2.jpg" style="width: 162px; height: 162px;" />
 <pre>
-<strong>输入：</strong>obstacleGrid = [[0,1],[0,0]]
-<strong>输出：</strong>1
+<strong>Input:</strong> obstacleGrid = [[0,1],[0,0]]
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>m ==&nbsp;obstacleGrid.length</code></li>
-	<li><code>n ==&nbsp;obstacleGrid[i].length</code></li>
+	<li><code>m == obstacleGrid.length</code></li>
+	<li><code>n == obstacleGrid[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 100</code></li>
-	<li><code>obstacleGrid[i][j]</code> 为 <code>0</code> 或 <code>1</code></li>
+	<li><code>obstacleGrid[i][j]</code> is <code>0</code> or <code>1</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $dp[i][j]$ 表示到达网格 $(i,j)$ 的路径数。
+We define $dp[i][j]$ to represent the number of paths to reach the grid $(i,j)$.
 
-首先初始化 $dp$ 第一列和第一行的所有值，然后遍历其它行和列，有两种情况：
+First, initialize all values in the first column and first row of $dp$, then traverse other rows and columns, there are two cases:
 
--   若 $obstacleGrid[i][j] = 1$，说明路径数为 $0$，那么 $dp[i][j] = 0$；
--   若 ￥ obstacleGrid[i][j] = 0$，则 $dp[i][j] = dp[i - 1][j] + dp[i][j - 1]$。
+-   If $obstacleGrid[i][j] = 1$, it means the number of paths is $0$, so $dp[i][j] = 0$;
+-   If $obstacleGrid[i][j] = 0$, then $dp[i][j] = dp[i - 1][j] + dp[i][j - 1]$.
 
-最后返回 $dp[m - 1][n - 1]$ 即可。
+Finally, return $dp[m - 1][n - 1]$.
 
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别是网格的行数和列数。
+The time complexity is $O(m \times n)$, and the space complexity is $O(m \times n)$. Here, $m$ and $n$ are the number of rows and columns of the grid, respectively.
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [2837. 总旅行距离](https://leetcode.cn/problems/total-traveled-distance)
+# [2837. Total Traveled Distance](https://leetcode.com/problems/total-traveled-distance)
 
-[English Version](/solution/2800-2899/2837.Total%20Traveled%20Distance/README_EN.md)
+[中文文档](/solution/2800-2899/2837.Total%20Traveled%20Distance/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code><font face="monospace">Users</font></code></p>
+<p>Table: <code><font face="monospace">Users</font></code></p>
 
 <pre>
 +-------------+---------+
@@ -15,11 +13,11 @@
 | user_id     | int     |
 | name        | varchar |
 +-------------+---------+
-user_id 是此表中具有唯一值的列。 
-此表的每一行包含用户 id 和姓名。
+<code>user_id</code> is the column with unique values for this table.
+Each row of this table contains user id and name.
 </pre>
 
-<p>表：<code>Rides</code></p>
+<p>Table: <code>Rides</code></p>
 
 <pre>
 +--------------+------+
@@ -29,22 +27,21 @@ user_id 是此表中具有唯一值的列。
 | user_id      | int  | 
 | distance     | int  |
 +--------------+------+
-ride_id 是此表中具有唯一值的列。 
-此表中的每一行包含乘车 id、用户 id 和旅行距离。
+ride_id is the column of unique values for this table.
+Each row of this table contains ride id, user id, and traveled distance.
 </pre>
 
-<p>编写一个解决方案，计算每个用户的旅行距离&nbsp;<code>distance</code> 。如果有用户没有任何旅行记录，那么他们的 <code>distance</code>&nbsp;应被视为 <code>0</code> 。输出 <code>user_id</code>,&nbsp;<code>name</code>&nbsp;和总旅行距离&nbsp;<code>traveled distance</code> 。</p>
+<p>Write a solution to calculate the <code>distance</code> traveled by <strong>each user</strong>. If there is a user&nbsp;who hasn&#39;t completed any rides, then their <code>distance</code> should be considered&nbsp;as <code>0</code>. Output the <code>user_id</code>, <code>name</code> and total traveled <code>distance</code>.</p>
 
-<p>按 <strong>升序排序</strong> 的 <code>user_id</code> 返回结果表。</p>
+<p>Return<em> the result table ordered by </em><code>user_id</code><em> in <strong>ascending</strong> order.</em></p>
 
-<p>结果格式如下示例。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 Users table:
 +---------+---------+
 | user_id | name    |
@@ -67,7 +64,7 @@ Rides table:
 | 56      | 2       | 196      |
 | 10      | 14      | 25       |
 +---------+---------+----------+
-<b>输出：</b>
+<strong>Output:</strong> 
 +---------+---------+-------------------+
 | user_id | name    | traveled distance |
 +---------+---------+-------------------+
@@ -77,19 +74,19 @@ Rides table:
 | 14      | Ethan   | 186               |
 | 17      | Addison | 160               |
 +---------+---------+-------------------+
-<b>解释：</b>
--  User id 为 2 的用户完成了两次旅行，分别为 197 和 196，总旅行距离为 393。
--  User id 为 4 的用户完成了两次旅行，分别为 59 和 357，总旅行距离为 416。
--  User id 为 14 的用户完成了两次旅行，分别为 161 和 25，总旅行距离为 186。
--  User id 为 16 的用户只完成了一次旅行，距离为 160。
--  User id 为 10 的用户没有完成任何旅行，因此总旅行距离为 0。
-按升序排序的 <code>user_id</code> 返回结果表</pre>
+<strong>Explanation:</strong> 
+-  User id 2 completed two journeys of 197 and 196, resulting in a combined travel distance of 393.
+-  User id 4 completed two journeys of 59 and 357, resulting in a combined travel distance of 416.
+-  User id 14 completed two journeys of 161 and 25, resulting in a combined travel distance of 186.
+-  User id 16 completed only one journey of 160.
+-  User id 10 did not complete any journeys, thus the total travel distance remains at 0.
+Returning the table orderd by user_id in ascending order.</pre>
 
-## 解法
+## Solutions
 
-### 方法一：左连接 + 分组求和
+### Solution 1: Left Join + Group By Sum
 
-我们可以使用左连接将两张表连接起来，然后使用分组求和的方式计算每个用户的总距离。注意，如果用户没有完成任何骑行，那么他的距离应该被视为 $0$。
+We can use a left join to connect the two tables, and then use group by sum to calculate the total distance for each user. Note that if a user has not completed any rides, their distance should be considered as $0$.
 
 <!-- tabs:start -->
 

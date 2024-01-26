@@ -1,40 +1,44 @@
-# [1288. 删除被覆盖区间](https://leetcode.cn/problems/remove-covered-intervals)
+# [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals)
 
-[English Version](/solution/1200-1299/1288.Remove%20Covered%20Intervals/README_EN.md)
+[中文文档](/solution/1200-1299/1288.Remove%20Covered%20Intervals/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array <code>intervals</code> where <code>intervals[i] = [l<sub>i</sub>, r<sub>i</sub>]</code> represent the interval <code>[l<sub>i</sub>, r<sub>i</sub>)</code>, remove all intervals that are covered by another interval in the list.</p>
 
-<p>给你一个区间列表，请你删除列表中被其他区间所覆盖的区间。</p>
+<p>The interval <code>[a, b)</code> is covered by the interval <code>[c, d)</code> if and only if <code>c &lt;= a</code> and <code>b &lt;= d</code>.</p>
 
-<p>只有当&nbsp;<code>c &lt;= a</code>&nbsp;且&nbsp;<code>b &lt;= d</code>&nbsp;时，我们才认为区间&nbsp;<code>[a,b)</code> 被区间&nbsp;<code>[c,d)</code> 覆盖。</p>
-
-<p>在完成所有删除操作后，请你返回列表中剩余区间的数目。</p>
+<p>Return <em>the number of remaining intervals</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>intervals = [[1,4],[3,6],[2,8]]
-<strong>输出：</strong>2
-<strong>解释：</strong>区间 [3,6] 被区间 [2,8] 覆盖，所以它被删除了。
+<strong>Input:</strong> intervals = [[1,4],[3,6],[2,8]]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Interval [3,6] is covered by [2,8], therefore it is removed.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> intervals = [[1,4],[2,3]]
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong>​​​​​​</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= intervals.length &lt;= 1000</code></li>
-	<li><code>0 &lt;= intervals[i][0] &lt;&nbsp;intervals[i][1] &lt;= 10^5</code></li>
-	<li>对于所有的&nbsp;<code>i != j</code>：<code>intervals[i] != intervals[j]</code></li>
+	<li><code>intervals[i].length == 2</code></li>
+	<li><code>0 &lt;= l<sub>i</sub> &lt; r<sub>i</sub> &lt;= 10<sup>5</sup></code></li>
+	<li>All the given intervals are <strong>unique</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

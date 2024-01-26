@@ -1,57 +1,53 @@
-# [359. 日志速率限制器](https://leetcode.cn/problems/logger-rate-limiter)
+# [359. Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter)
 
-[English Version](/solution/0300-0399/0359.Logger%20Rate%20Limiter/README_EN.md)
+[中文文档](/solution/0300-0399/0359.Logger%20Rate%20Limiter/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a logger system that receives a stream of messages along with their timestamps. Each <strong>unique</strong> message should only be printed <strong>at most every 10 seconds</strong> (i.e. a message printed at timestamp <code>t</code> will prevent other identical messages from being printed until timestamp <code>t + 10</code>).</p>
 
-<p>请你设计一个日志系统，可以流式接收消息以及它的时间戳。每条 <strong>不重复</strong> 的消息最多只能每 10 秒打印一次。也就是说，如果在时间戳 <code>t</code> 打印某条消息，那么相同内容的消息直到时间戳变为 <code>t + 10</code> 之前都不会被打印。</p>
+<p>All messages will come in chronological order. Several messages may arrive at the same timestamp.</p>
 
-<p>所有消息都按时间顺序发送。多条消息可能到达同一时间戳。</p>
-
-<p>实现 <code>Logger</code> 类：</p>
+<p>Implement the <code>Logger</code> class:</p>
 
 <ul>
-	<li><code>Logger()</code> 初始化 <code>logger</code> 对象</li>
-	<li><code>bool shouldPrintMessage(int timestamp, string message)</code> 如果这条消息 <code>message</code> 在给定的时间戳 <code>timestamp</code> 应该被打印出来，则返回 <code>true</code> ，否则请返回 <code>false</code> 。</li>
+	<li><code>Logger()</code> Initializes the <code>logger</code> object.</li>
+	<li><code>bool shouldPrintMessage(int timestamp, string message)</code> Returns <code>true</code> if the <code>message</code> should be printed in the given <code>timestamp</code>, otherwise returns <code>false</code>.</li>
 </ul>
 
-<p> </p>
-
-<p><strong>示例：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-["Logger", "shouldPrintMessage", "shouldPrintMessage", "shouldPrintMessage", "shouldPrintMessage", "shouldPrintMessage", "shouldPrintMessage"]
-[[], [1, "foo"], [2, "bar"], [3, "foo"], [8, "bar"], [10, "foo"], [11, "foo"]]
-<strong>输出：</strong>
+<strong>Input</strong>
+[&quot;Logger&quot;, &quot;shouldPrintMessage&quot;, &quot;shouldPrintMessage&quot;, &quot;shouldPrintMessage&quot;, &quot;shouldPrintMessage&quot;, &quot;shouldPrintMessage&quot;, &quot;shouldPrintMessage&quot;]
+[[], [1, &quot;foo&quot;], [2, &quot;bar&quot;], [3, &quot;foo&quot;], [8, &quot;bar&quot;], [10, &quot;foo&quot;], [11, &quot;foo&quot;]]
+<strong>Output</strong>
 [null, true, true, false, false, false, true]
 
-<strong>解释：</strong>
+<strong>Explanation</strong>
 Logger logger = new Logger();
-logger.shouldPrintMessage(1, "foo");  // 返回 true ，下一次 "foo" 可以打印的时间戳是 1 + 10 = 11
-logger.shouldPrintMessage(2, "bar");  // 返回 true ，下一次 "bar" 可以打印的时间戳是 2 + 10 = 12
-logger.shouldPrintMessage(3, "foo");  // 3 < 11 ，返回 false
-logger.shouldPrintMessage(8, "bar");  // 8 < 12 ，返回 false
-logger.shouldPrintMessage(10, "foo"); // 10 < 11 ，返回 false
-logger.shouldPrintMessage(11, "foo"); // 11 >= 11 ，返回 true ，下一次 "foo" 可以打印的时间戳是 11 + 10 = 21
+logger.shouldPrintMessage(1, &quot;foo&quot;);  // return true, next allowed timestamp for &quot;foo&quot; is 1 + 10 = 11
+logger.shouldPrintMessage(2, &quot;bar&quot;);  // return true, next allowed timestamp for &quot;bar&quot; is 2 + 10 = 12
+logger.shouldPrintMessage(3, &quot;foo&quot;);  // 3 &lt; 11, return false
+logger.shouldPrintMessage(8, &quot;bar&quot;);  // 8 &lt; 12, return false
+logger.shouldPrintMessage(10, &quot;foo&quot;); // 10 &lt; 11, return false
+logger.shouldPrintMessage(11, &quot;foo&quot;); // 11 &gt;= 11, return true, next allowed timestamp for &quot;foo&quot; is 11 + 10 = 21
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 <= timestamp <= 10<sup>9</sup></code></li>
-	<li>每个 <code>timestamp</code> 都将按非递减顺序（时间顺序）传递</li>
-	<li><code>1 <= message.length <= 30</code></li>
-	<li>最多调用 <code>10<sup>4</sup></code> 次 <code>shouldPrintMessage</code> 方法</li>
+	<li><code>0 &lt;= timestamp &lt;= 10<sup>9</sup></code></li>
+	<li>Every <code>timestamp</code> will be passed in non-decreasing order (chronological order).</li>
+	<li><code>1 &lt;= message.length &lt;= 30</code></li>
+	<li>At most <code>10<sup>4</sup></code> calls will be made to <code>shouldPrintMessage</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

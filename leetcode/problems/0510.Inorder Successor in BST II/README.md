@@ -1,16 +1,14 @@
-# [510. 二叉搜索树中的中序后继 II](https://leetcode.cn/problems/inorder-successor-in-bst-ii)
+# [510. Inorder Successor in BST II](https://leetcode.com/problems/inorder-successor-in-bst-ii)
 
-[English Version](/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/README_EN.md)
+[中文文档](/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a <code>node</code> in a binary search tree, return <em>the in-order successor of that node in the BST</em>. If that node has no in-order successor, return <code>null</code>.</p>
 
-<p>给定一棵二叉搜索树和其中的一个节点 <code>node</code> ，找到该节点在树中的中序后继。如果节点没有中序后继，请返回 <code>null</code> 。</p>
+<p>The successor of a <code>node</code> is the node with the smallest key greater than <code>node.val</code>.</p>
 
-<p>一个节点 <code>node</code> 的中序后继是键值比 <code>node.val</code> 大所有的节点中键值最小的那个。</p>
-
-<p>你可以直接访问结点，但无法直接访问树。每个节点都会有其父节点的引用。节点 <code>Node</code> 定义如下：</p>
+<p>You will have direct access to the node but not to the root of the tree. Each node will have a reference to its parent node. Below is the definition for <code>Node</code>:</p>
 
 <pre>
 class Node {
@@ -18,72 +16,41 @@ class Node {
     public Node left;
     public Node right;
     public Node parent;
-}</pre>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/images/285_example_1.png" style="height: 117px; width: 122px;" /></p>
-
-<pre>
-<strong>输入：</strong>tree = [2,1,3], node = 1
-<strong>输出：</strong>2
-<strong>解析：</strong>1 的中序后继结点是 2 。注意节点和返回值都是 Node 类型的。
+}
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/images/285_example_2.png" style="height: 229px; width: 246px;" /></p>
-
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/images/285_example_1.png" style="width: 122px; height: 117px;" />
 <pre>
-<strong>输入：</strong>tree = [5,3,6,2,4,null,null,1], node = 6
-<strong>输出：</strong>null
-<strong>解析：</strong>该结点没有中序后继，因此返回<code> null 。</code>
+<strong>Input:</strong> tree = [2,1,3], node = 1
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 1&#39;s in-order successor node is 2. Note that both the node and the return value is of Node type.
 </pre>
 
-<p><strong>示例 3：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/images/285_example_34.png" style="height: 335px; width: 438px;" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/images/285_example_2.png" style="width: 246px; height: 229px;" />
 <pre>
-<strong>输入：</strong>tree = [15,6,18,3,7,17,20,2,4,null,13,null,null,null,null,null,null,null,null,9], node = 15
-<strong>输出：</strong>17
+<strong>Input:</strong> tree = [5,3,6,2,4,null,null,1], node = 6
+<strong>Output:</strong> null
+<strong>Explanation:</strong> There is no in-order successor of the current node, so the answer is null.
 </pre>
 
-<p><strong>示例 4：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0510.Inorder%20Successor%20in%20BST%20II/images/285_example_34.png" style="height: 335px; width: 438px;" /></p>
-
-<pre>
-<strong>输入：</strong>tree = [15,6,18,3,7,17,20,2,4,null,13,null,null,null,null,null,null,null,null,9], node = 13
-<strong>输出：</strong>15
-</pre>
-
-<p><strong>示例 5：</strong></p>
-
-<pre>
-<strong>输入：</strong>tree = [0], node = 0
-<strong>输出：</strong>null
-</pre>
-
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点的数目在范围 <code>[1, 10<sup>4</sup>]</code> 内。</li>
-	<li><code>-10<sup>5</sup> <= Node.val <= 10<sup>5</sup></code></li>
-	<li>树中各结点的值均保证唯一。</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
+	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
+	<li>All Nodes will have unique values.</li>
 </ul>
 
-<p> </p>
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you solve it without looking up any of the node&#39;s values?</p>
 
-<p><strong>进阶：</strong>你能否在不访问任何结点的值的情况下解决问题?</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

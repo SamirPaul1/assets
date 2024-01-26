@@ -1,77 +1,65 @@
-# [38. 外观数列](https://leetcode.cn/problems/count-and-say)
+# [38. Count and Say](https://leetcode.com/problems/count-and-say)
 
-[English Version](/solution/0000-0099/0038.Count%20and%20Say/README_EN.md)
+[中文文档](/solution/0000-0099/0038.Count%20and%20Say/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个正整数 <code>n</code> ，输出外观数列的第 <code>n</code> 项。</p>
-
-<p>「外观数列」是一个整数序列，从数字 1 开始，序列中的每一项都是对前一项的描述。</p>
-
-<p>你可以将其视作是由递归公式定义的数字字符串序列：</p>
+<p>The <strong>count-and-say</strong> sequence is a sequence of digit strings defined by the recursive formula:</p>
 
 <ul>
-	<li><code>countAndSay(1) = "1"</code></li>
-	<li><code>countAndSay(n)</code> 是对 <code>countAndSay(n-1)</code> 的描述，然后转换成另一个数字字符串。</li>
+	<li><code>countAndSay(1) = &quot;1&quot;</code></li>
+	<li><code>countAndSay(n)</code> is the way you would &quot;say&quot; the digit string from <code>countAndSay(n-1)</code>, which is then converted into a different digit string.</li>
 </ul>
 
-<p>前五项如下：</p>
+<p>To determine how you &quot;say&quot; a digit string, split it into the <strong>minimal</strong> number of substrings such that each substring contains exactly <strong>one</strong> unique digit. Then for each substring, say the number of digits, then say the digit. Finally, concatenate every said digit.</p>
 
-<pre>
-1.     1
-2.     11
-3.     21
-4.     1211
-5.     111221
-第一项是数字 1 
-描述前一项，这个数是 <code>1</code> 即 “ 一 个 1 ”，记作 <code>"11"
-</code>描述前一项，这个数是 <code>11</code> 即 “ 二 个 1 ” ，记作 <code>"21"
-</code>描述前一项，这个数是 <code>21</code> 即 “ 一 个 2 + 一 个 1 ” ，记作 "<code>1211"
-</code>描述前一项，这个数是 <code>1211</code> 即 “ 一 个 1 + 一 个 2 + 二 个 1 ” ，记作 "<code>111221"</code>
-</pre>
-
-<p>要 <strong>描述</strong> 一个数字字符串，首先要将字符串分割为 <strong>最小</strong> 数量的组，每个组都由连续的最多 <strong>相同字符</strong> 组成。然后对于每个组，先描述字符的数量，然后描述字符，形成一个描述组。要将描述转换为数字字符串，先将每组中的字符数量用数字替换，再将所有描述组连接起来。</p>
-
-<p>例如，数字字符串 <code>"3322251"</code> 的描述如下图：</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0038.Count%20and%20Say/images/1629874763-TGmKUh-image.png" style="width: 581px; height: 172px;" />
-<ul>
-</ul>
+<p>For example, the saying and conversion for digit string <code>&quot;3322251&quot;</code>:</p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0038.Count%20and%20Say/images/countandsay.jpg" style="width: 581px; height: 172px;" />
+<p>Given a positive integer <code>n</code>, return <em>the </em><code>n<sup>th</sup></code><em> term of the <strong>count-and-say</strong> sequence</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 1
-<strong>输出：</strong>"1"
-<strong>解释：</strong>这是一个基本样例。
+<strong>Input:</strong> n = 1
+<strong>Output:</strong> &quot;1&quot;
+<strong>Explanation:</strong> This is the base case.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 4
-<strong>输出：</strong>"1211"
-<strong>解释：</strong>
-countAndSay(1) = "1"
-countAndSay(2) = 读 "1" = 一 个 1 = "11"
-countAndSay(3) = 读 "11" = 二 个 1 = "21"
-countAndSay(4) = 读 "21" = 一 个 2 + 一 个 1 = "12" + "11" = "1211"
+<strong>Input:</strong> n = 4
+<strong>Output:</strong> &quot;1211&quot;
+<strong>Explanation:</strong>
+countAndSay(1) = &quot;1&quot;
+countAndSay(2) = say &quot;1&quot; = one 1 = &quot;11&quot;
+countAndSay(3) = say &quot;11&quot; = two 1&#39;s = &quot;21&quot;
+countAndSay(4) = say &quot;21&quot; = one 2 + one 1 = &quot;12&quot; + &quot;11&quot; = &quot;1211&quot;
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 30</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1: Simulation
+
+The task requires outputting the appearance sequence of the $n$-th item, where the $n$-th item is the description of the $n-1$-th item in the sequence. Therefore, we iterate $n-1$ times. In each iteration, we use fast and slow pointers, denoted as j and i respectively, to record the current character's position and the position of the next character that is not equal to the current character. We then update the sequence of the previous item to be $j-i$ occurrences of the current character.
+
+Time Complexity:
+
+1. The outer loop runs `n - 1` times, iterating to generate the "Count and Say" sequence up to the nth term.
+2. The inner while loop iterates through each character in the current string s and counts the consecutive occurrences of the same character.
+3. The inner while loop runs in $O(m)$ time, where m is the length of the current string s.
+
+Overall, the time complexity is $O(n \times m)$, where n is the input parameter representing the term to generate, and m is the maximum length of the string in the sequence.
+
+Space Complexity: $O(m)$.
 
 <!-- tabs:start -->
 

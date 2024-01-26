@@ -1,55 +1,52 @@
-# [128. 最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence)
+# [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)
 
-[English Version](/solution/0100-0199/0128.Longest%20Consecutive%20Sequence/README_EN.md)
+[中文文档](/solution/0100-0199/0128.Longest%20Consecutive%20Sequence/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an unsorted array of integers <code>nums</code>, return <em>the length of the longest consecutive elements sequence.</em></p>
 
-<p>给定一个未排序的整数数组 <code>nums</code> ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。</p>
+<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time.</p>
 
-<p>请你设计并实现时间复杂度为 <code>O(n)</code><em> </em>的算法解决此问题。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [100,4,200,1,3,2]
-<strong>输出：</strong>4
-<strong>解释：</strong>最长数字连续序列是 <code>[1, 2, 3, 4]。它的长度为 4。</code></pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [0,3,7,2,5,8,4,6,0,1]
-<strong>输出：</strong>9
+<strong>Input:</strong> nums = [100,4,200,1,3,2]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The longest consecutive elements sequence is <code>[1, 2, 3, 4]</code>. Therefore its length is 4.
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [0,3,7,2,5,8,4,6,0,1]
+<strong>Output:</strong> 9
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 <= nums.length <= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>9</sup> <= nums[i] <= 10<sup>9</sup></code></li>
+	<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
+### Solution 1: Sorting
 
-我们先将数组排序，然后用一个变量 $t$ 记录当前连续序列的长度，用一个变量 $ans$ 记录最长连续序列的长度。
+First, we sort the array, then use a variable $t$ to record the current length of the consecutive sequence, and a variable $ans$ to record the length of the longest consecutive sequence.
 
-接下来，我们从下标 $i=1$ 开始遍历数组，对于当前遍历到的元素 $nums[i]$：
+Next, we start traversing the array from index $i=1$. For the current element $nums[i]$:
 
--   如果 $nums[i]=nums[i-1]$，则说明当前元素重复，无需考虑；
--   如果 $nums[i]=nums[i-1]+1$，则说明当前元素可以接在上一个连续序列后面以形成更长的连续序列，我们更新 $t = t + 1$，然后更新答案 $ans = \max(ans, t)$；
--   否则，说明当前元素无法接在上一个连续序列后面，我们将 $t$ 重新置为 $1$。
+-   If $nums[i] = nums[i-1]$, it means the current element is repeated and does not need to be considered.
+-   If $nums[i] = nums[i-1] + 1$, it means the current element can be appended to the previous consecutive sequence to form a longer consecutive sequence. We update $t = t + 1$, and then update the answer $ans = \max(ans, t)$.
+-   Otherwise, it means the current element cannot be appended to the previous consecutive sequence, and we reset $t$ to $1$.
 
-最终，我们返回答案 $ans$ 即可。
+Finally, we return the answer $ans$.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(\log n)$。其中 $n$ 是数组的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log n)$. Here, $n$ is the length of the array.
 
 <!-- tabs:start -->
 
@@ -227,11 +224,11 @@ var longestConsecutive = function (nums) {
 
 <!-- tabs:end -->
 
-### 方法二：哈希表
+### Solution 2: Hash Table
 
-我们用哈希表存储数组中的所有元素，然后遍历数组中的每个元素 $x$，如果当前元素的前驱 $x-1$ 不在哈希表中，那么我们以当前元素为起点，不断尝试匹配 $x+1, x+2, x+3, \dots$，直到匹配不到为止，此时的匹配长度即为以 $x$ 为起点的最长连续序列长度，我们更新答案即可。
+We use a hash table to store all elements in the array, and then traverse each element $x$ in the array. If the predecessor $x-1$ of the current element is not in the hash table, then we start with the current element and continuously try to match $x+1, x+2, x+3, \dots$, until no match is found. The length of the match at this time is the longest consecutive sequence length starting with $x$, and we update the answer accordingly.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是数组的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array.
 
 <!-- tabs:start -->
 

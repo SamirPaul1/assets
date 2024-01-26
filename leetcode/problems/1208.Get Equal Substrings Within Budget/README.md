@@ -1,69 +1,64 @@
-# [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget)
+# [1208. Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget)
 
-[English Version](/solution/1200-1299/1208.Get%20Equal%20Substrings%20Within%20Budget/README_EN.md)
+[中文文档](/solution/1200-1299/1208.Get%20Equal%20Substrings%20Within%20Budget/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two strings <code>s</code> and <code>t</code> of the same length and an integer <code>maxCost</code>.</p>
 
-<p>给你两个长度相同的字符串，<code>s</code> 和 <code>t</code>。</p>
+<p>You want to change <code>s</code> to <code>t</code>. Changing the <code>i<sup>th</sup></code> character of <code>s</code> to <code>i<sup>th</sup></code> character of <code>t</code> costs <code>|s[i] - t[i]|</code> (i.e., the absolute difference between the ASCII values of the characters).</p>
 
-<p>将 <code>s</code> 中的第 <code>i</code> 个字符变到 <code>t</code> 中的第 <code>i</code> 个字符需要 <code>|s[i] - t[i]|</code> 的开销（开销可能为 0），也就是两个字符的 ASCII 码值的差的绝对值。</p>
+<p>Return <em>the maximum length of a substring of </em><code>s</code><em> that can be changed to be the same as the corresponding substring of </em><code>t</code><em> with a cost less than or equal to </em><code>maxCost</code>. If there is no substring from <code>s</code> that can be changed to its corresponding substring from <code>t</code>, return <code>0</code>.</p>
 
-<p>用于变更字符串的最大预算是 <code>maxCost</code>。在转化字符串时，总开销应当小于等于该预算，这也意味着字符串的转化可能是不完全的。</p>
-
-<p>如果你可以将 <code>s</code> 的子字符串转化为它在 <code>t</code> 中对应的子字符串，则返回可以转化的最大长度。</p>
-
-<p>如果 <code>s</code> 中没有子字符串可以转化成 <code>t</code> 中对应的子字符串，则返回 <code>0</code>。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "abcd", t = "bcdf", maxCost = 3
-<strong>输出：</strong>3
-<strong>解释：</strong>s<strong> </strong>中的<strong> </strong>"abc" 可以变为 "bcd"。开销为 3，所以最大长度为 3。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "abcd", t = "cdef", maxCost = 3
-<strong>输出：</strong>1
-<strong>解释：</strong>s 中的任一字符要想变成 t 中对应的字符，其开销都是 2。因此，最大长度为<code> 1。</code>
+<strong>Input:</strong> s = &quot;abcd&quot;, t = &quot;bcdf&quot;, maxCost = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> &quot;abc&quot; of s can change to &quot;bcd&quot;.
+That costs 3, so the maximum length is 3.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "abcd", t = "acde", maxCost = 0
-<strong>输出：</strong>1
-<strong>解释：</strong>a -> a, cost = 0，字符串未发生变化，所以最大长度为 1。
+<strong>Input:</strong> s = &quot;abcd&quot;, t = &quot;cdef&quot;, maxCost = 3
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Each character in s costs 2 to change to character in t,  so the maximum length is 1.
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 3:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> s = &quot;abcd&quot;, t = &quot;acde&quot;, maxCost = 0
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> You cannot make any change, so the maximum length is 1.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= s.length, t.length <= 10^5</code></li>
-	<li><code>0 <= maxCost <= 10^6</code></li>
-	<li><code>s</code> 和 <code>t</code> 都只含小写英文字母。</li>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>t.length == s.length</code></li>
+	<li><code>0 &lt;= maxCost &lt;= 10<sup>6</sup></code></li>
+	<li><code>s</code> and <code>t</code> consist of only lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀和 + 二分查找
+### Solution 1: Prefix Sum + Binary Search
 
-我们可以创建一个长度为 $n + 1$ 的数组 $f$，其中 $f[i]$ 表示字符串 $s$ 的前 $i$ 个字符与字符串 $t$ 的前 $i$ 个字符的 ASCII 码值的差的绝对值之和。这样，我们就可以通过 $f[j + 1] - f[i]$ 来计算字符串 $s$ 的第 $i$ 个字符到第 $j$ 个字符的 ASCII 码值的差的绝对值之和，其中 $0 \leq i \leq j < n$。
+We can create an array $f$ of length $n + 1$, where $f[i]$ represents the sum of the absolute differences of ASCII values between the first $i$ characters of string $s$ and the first $i$ characters of string $t$. Thus, we can calculate the sum of the absolute differences of ASCII values from the $i$-th character to the $j$-th character of string $s$ by $f[j + 1] - f[i]$, where $0 \leq i \leq j < n$.
 
-注意到长度具有单调性，即如果存在长度为 $x$ 的子串满足条件，那么长度为 $x - 1$ 的子串也一定满足条件。因此，我们可以使用二分查找的方法来求解最大长度。
+Note that the length has monotonicity, i.e., if there exists a substring of length $x$ that satisfies the condition, then a substring of length $x - 1$ must also satisfy the condition. Therefore, we can use binary search to find the maximum length.
 
-我们定义函数 $check(x)$，表示是否存在长度为 $x$ 的子串满足条件。在该函数中，我们只需要枚举所有长度为 $x$ 的子串，判断其是否满足条件即可。如果存在满足条件的子串，那么函数返回 `true`，否则返回 `false`。
+We define a function $check(x)$, which indicates whether there exists a substring of length $x$ that satisfies the condition. In this function, we only need to enumerate all substrings of length $x$ and check whether they satisfy the condition. If there exists a substring that satisfies the condition, the function returns `true`, otherwise it returns `false`.
 
-接下来，我们定义二分查找的左边界 $l$ 为 $0$，右边界 $r$ 为 $n$。在每一步中，我们令 $mid = \lfloor \frac{l + r + 1}{2} \rfloor$，如果函数 $check(mid)$ 的返回值为 `true`，那么我们将左边界更新为 $mid$，否则我们将右边界更新为 $mid - 1$。在二分查找结束后，我们得到的左边界即为答案。
+Next, we define the left boundary $l$ of binary search as $0$ and the right boundary $r$ as $n$. In each step, we let $mid = \lfloor \frac{l + r + 1}{2} \rfloor$. If the return value of $check(mid)$ is `true`, we update the left boundary to $mid$, otherwise we update the right boundary to $mid - 1$. After the binary search, the left boundary we get is the answer.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为字符串 $s$ 的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of string $s$.
 
 <!-- tabs:start -->
 
@@ -197,13 +192,13 @@ func abs(x int) int {
 
 <!-- tabs:end -->
 
-### 方法二：双指针
+### Solution 2: Two Pointers
 
-我们可以维护两个指针 $j$ 和 $i$，初始时 $i = j = 0$；维护一个变量 $sum$，表示下标区间 $[i,..j]$ 之间的 ASCII 码值的差的绝对值之和。在每一步中，我们将 $i$ 向右移动一位，然后更新 $sum = sum + |s[i] - t[i]|$。如果 $sum \gt maxCost$，那么我们就循环将指针 $j$ 向右移动，并且在移动过程中不断减少 $sum$ 的值，直到 $sum \leq maxCost$。然后我们更新答案，即 $ans = \max(ans, i - j + 1)$。
+We can maintain two pointers $j$ and $i$, initially $i = j = 0$; maintain a variable $sum$, representing the sum of the absolute differences of ASCII values in the index interval $[i,..j]$. In each step, we move $i$ to the right by one position, then update $sum = sum + |s[i] - t[i]|$. If $sum \gt maxCost$, then we move the pointer $j$ to the right in a loop, and continuously reduce the value of $sum$ during the moving process until $sum \leq maxCost$. Then we update the answer, i.e., $ans = \max(ans, i - j + 1)$.
 
-最后返回答案即可。
+Finally, return the answer.
 
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为字符串 $s$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is the length of string $s$.
 
 <!-- tabs:start -->
 

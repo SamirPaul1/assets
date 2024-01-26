@@ -1,43 +1,38 @@
-# [2686. 即时食物配送 III](https://leetcode.cn/problems/immediate-food-delivery-iii)
+# [2686. Immediate Food Delivery III](https://leetcode.com/problems/immediate-food-delivery-iii)
 
-[English Version](/solution/2600-2699/2686.Immediate%20Food%20Delivery%20III/README_EN.md)
+[中文文档](/solution/2600-2699/2686.Immediate%20Food%20Delivery%20III/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><code>Delivery</code>&nbsp;表：</p>
+<p>Table: <code>Delivery</code></p>
 
 <pre>
 +-----------------------------+---------+
-| 字段名                       | 类型   |
+| Column Name                 | Type    |
 +-----------------------------+---------+
 | delivery_id                 | int     |
 | customer_id                 | int     |
 | order_date                  | date    |
 | customer_pref_delivery_date | date    |
 +-----------------------------+---------+
-delivery_id 是该表的具有唯一值的列。
-每一行包含有关向顾客交付食物的信息，顾客在某个日期下订单，并指定了一个首选交付日期（在订单日期当天或之后）。
+delivery_id is the column with unique values of this table.
+Each row contains information about food delivery to a customer that makes an order at some date and specifies a preferred delivery date (on the order date or after it).
 </pre>
 
-<p>&nbsp;</p>
+<p>If the customer&#39;s preferred delivery date is the same as the order date, then the order is called <strong>immediate,</strong>&nbsp;otherwise, it is <strong>scheduled</strong>.</p>
 
-<p>如果顾客的首选交付日期与订单日期相同，则该订单称为 <strong>立即交付</strong>&nbsp;，否则称为 <strong>计划交付</strong>&nbsp;。</p>
+<p>Write a solution&nbsp;to find the percentage of immediate orders on each unique&nbsp;<code>order_date</code>, <strong>rounded to 2 decimal places</strong>.&nbsp;</p>
 
-<p>编写解决方案，找出每个唯一的 <code>order_date</code> 中立即交付订单的百分比。<strong>结果保留两位小数</strong>。</p>
+<p>Return <em>the result table ordered by</em> <code>order_date</code> <em>in <strong>ascending</strong> order.</em></p>
 
-<p>返回查询结果并按 <code>order_date</code> <strong>升序</strong> 排序。</p>
-
-<p>查询结果的格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1：</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
-Delivery 表:
+<strong>Input:</strong> 
+Delivery table:
 +-------------+-------------+------------+-----------------------------+
 | delivery_id | customer_id | order_date | customer_pref_delivery_date |
 +-------------+-------------+------------+-----------------------------+
@@ -52,7 +47,7 @@ Delivery 表:
 | 9           | 5           | 2019-08-04 | 2019-08-08                  |
 | 10          | 2           | 2019-08-04 | 2019-08-18                  |
 +-------------+-------------+------------+-----------------------------+
-<b>输出：</b>
+<strong>Output:</strong> 
 +------------+----------------------+
 | order_date | immediate_percentage |
 +------------+----------------------+
@@ -61,16 +56,17 @@ Delivery 表:
 | 2019-08-03 | 100.00               |
 | 2019-08-04 | 0.00                 |
 +------------+----------------------+
-<b>解释：</b>
-– 2019年8月1日共有3个订单，其中2个是即时订单，1个是预定订单。因此，该日期的即时订单百分比为66.67。
-– 2019年8月2日共有3个订单，其中2个是即时订单，1个是预定订单。因此，该日期的即时订单百分比为66.67。
-– 2019年8月3日共有2个订单，均为即时订单。因此，该日期的即时订单百分比为100.00。
-– 2019年8月4日共有2个订单，均为预定订单。因此，该日期的即时订单百分比为0.00。
-order_dste 按升序排序。</pre>
+<strong>Explanation:</strong> 
+- On 2019-08-01 there were three orders, out of those, two were immediate and one was scheduled. So, immediate percentage for that date was 66.67.
+- On 2019-08-02 there were three orders, out of those, two were immediate and one was scheduled. So, immediate percentage for that date was 66.67.
+- On 2019-08-03 there were two orders, both were immediate. So, the immediate percentage for that date was 100.00.
+- On 2019-08-04 there were two orders, both were scheduled. So, the immediate percentage for that date was 0.00.
+order_date is sorted in ascending order.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

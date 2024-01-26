@@ -1,61 +1,53 @@
-# [379. 电话目录管理系统](https://leetcode.cn/problems/design-phone-directory)
+# [379. Design Phone Directory](https://leetcode.com/problems/design-phone-directory)
 
-[English Version](/solution/0300-0399/0379.Design%20Phone%20Directory/README_EN.md)
+[中文文档](/solution/0300-0399/0379.Design%20Phone%20Directory/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a phone directory that initially has <code>maxNumbers</code> empty slots that can store numbers. The directory should store numbers, check if a certain slot is empty or not, and empty a given slot.</p>
 
-<p>设计一个电话目录管理系统，让它支持以下功能：</p>
+<p>Implement the <code>PhoneDirectory</code> class:</p>
 
-<ol>
-	<li><code>get</code>: 分配给用户一个未被使用的电话号码，获取失败请返回 -1</li>
-	<li><code>check</code>: 检查指定的电话号码是否被使用</li>
-	<li><code>release</code>: 释放掉一个电话号码，使其能够重新被分配</li>
-</ol>
+<ul>
+	<li><code>PhoneDirectory(int maxNumbers)</code> Initializes the phone directory with the number of available slots <code>maxNumbers</code>.</li>
+	<li><code>int get()</code> Provides a number that is not assigned to anyone. Returns <code>-1</code> if no number is available.</li>
+	<li><code>bool check(int number)</code> Returns <code>true</code> if the slot <code>number</code> is available and <code>false</code> otherwise.</li>
+	<li><code>void release(int number)</code> Recycles or releases the slot <code>number</code>.</li>
+</ul>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例：</strong></p>
+<pre>
+<strong>Input</strong>
+[&quot;PhoneDirectory&quot;, &quot;get&quot;, &quot;get&quot;, &quot;check&quot;, &quot;get&quot;, &quot;check&quot;, &quot;release&quot;, &quot;check&quot;]
+[[3], [], [], [2], [], [2], [2], [2]]
+<strong>Output</strong>
+[null, 0, 1, true, 2, false, null, true]
 
-<pre>// 初始化电话目录，包括 3 个电话号码：0，1 和 2。
-PhoneDirectory directory = new PhoneDirectory(3);
-
-// 可以返回任意未分配的号码，这里我们假设它返回 0。
-directory.get();
-
-// 假设，函数返回 1。
-directory.get();
-
-// 号码 2 未分配，所以返回为 true。
-directory.check(2);
-
-// 返回 2，分配后，只剩一个号码未被分配。
-directory.get();
-
-// 此时，号码 2 已经被分配，所以返回 false。
-directory.check(2);
-
-// 释放号码 2，将该号码变回未分配状态。
-directory.release(2);
-
-// 号码 2 现在是未分配状态，所以返回 true。
-directory.check(2);
+<strong>Explanation</strong>
+PhoneDirectory phoneDirectory = new PhoneDirectory(3);
+phoneDirectory.get();      // It can return any available phone number. Here we assume it returns 0.
+phoneDirectory.get();      // Assume it returns 1.
+phoneDirectory.check(2);   // The number 2 is available, so return true.
+phoneDirectory.get();      // It returns 2, the only number that is left.
+phoneDirectory.check(2);   // The number 2 is no longer available, so return false.
+phoneDirectory.release(2); // Release number 2 back to the pool.
+phoneDirectory.check(2);   // Number 2 is available again, return true.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;=&nbsp;maxNumbers &lt;= 10^4</code></li>
+	<li><code>1 &lt;= maxNumbers &lt;= 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= number &lt; maxNumbers</code></li>
-	<li>调用方法的总数处于区间 <code>[0 - 20000]</code> 之内</li>
+	<li>At most <code>2 * 10<sup>4</sup></code> calls will be made to <code>get</code>, <code>check</code>, and <code>release</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

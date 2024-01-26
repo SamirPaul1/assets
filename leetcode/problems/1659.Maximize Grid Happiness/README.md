@@ -1,100 +1,69 @@
-# [1659. 最大化网格幸福感](https://leetcode.cn/problems/maximize-grid-happiness)
+# [1659. Maximize Grid Happiness](https://leetcode.com/problems/maximize-grid-happiness)
 
-[English Version](/solution/1600-1699/1659.Maximize%20Grid%20Happiness/README_EN.md)
+[中文文档](/solution/1600-1699/1659.Maximize%20Grid%20Happiness/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given four integers, <code>m</code>, <code>n</code>, <code>introvertsCount</code>, and <code>extrovertsCount</code>. You have an <code>m x n</code> grid, and there are two types of people: introverts and extroverts. There are <code>introvertsCount</code> introverts and <code>extrovertsCount</code> extroverts.</p>
 
-<p>给你四个整数 <code>m</code>、<code>n</code>、<code>introvertsCount</code> 和 <code>extrovertsCount</code> 。有一个 <code>m x n</code> 网格，和两种类型的人：内向的人和外向的人。总共有 <code>introvertsCount</code> 个内向的人和 <code>extrovertsCount</code> 个外向的人。</p>
+<p>You should decide how many people you want to live in the grid and assign each of them one grid cell. Note that you <strong>do not</strong> have to have all the people living in the grid.</p>
 
-<p>请你决定网格中应当居住多少人，并为每个人分配一个网格单元。 注意，<strong>不必</strong> 让所有人都生活在网格中。</p>
-
-<p>每个人的 <strong>幸福感</strong> 计算如下：</p>
+<p>The <strong>happiness</strong> of each person is calculated as follows:</p>
 
 <ul>
-	<li>内向的人 <strong>开始</strong> 时有 <code>120</code> 个幸福感，但每存在一个邻居（内向的或外向的）他都会 <strong>失去</strong>  <code>30</code> 个幸福感。</li>
-	<li>外向的人 <strong>开始</strong> 时有 <code>40</code> 个幸福感，每存在一个邻居（内向的或外向的）他都会 <strong>得到</strong>  <code>20</code> 个幸福感。</li>
+	<li>Introverts <strong>start</strong> with <code>120</code> happiness and <strong>lose</strong> <code>30</code> happiness for each neighbor (introvert or extrovert).</li>
+	<li>Extroverts <strong>start</strong> with <code>40</code> happiness and <strong>gain</strong> <code>20</code> happiness for each neighbor (introvert or extrovert).</li>
 </ul>
 
-<p>邻居是指居住在一个人所在单元的上、下、左、右四个直接相邻的单元中的其他人。</p>
+<p>Neighbors live in the directly adjacent cells north, east, south, and west of a person&#39;s cell.</p>
 
-<p><strong>网格幸福感</strong> 是每个人幸福感的 <strong>总和</strong> 。 返回 <strong>最大可能的网格幸福感</strong> 。</p>
+<p>The <strong>grid happiness</strong> is the <strong>sum</strong> of each person&#39;s happiness. Return<em> the <strong>maximum possible grid happiness</strong>.</em></p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1659.Maximize%20Grid%20Happiness/images/grid_happiness.png" style="width: 261px; height: 121px;" />
 <pre>
-<strong>输入：</strong>m = 2, n = 3, introvertsCount = 1, extrovertsCount = 2
-<strong>输出：</strong>240
-<strong>解释：</strong>假设网格坐标 (row, column) 从 1 开始编号。
-将内向的人放置在单元 (1,1) ，将外向的人放置在单元 (1,3) 和 (2,3) 。
-- 位于 (1,1) 的内向的人的幸福感：120（初始幸福感）- (0 * 30)（0 位邻居）= 120
-- 位于 (1,3) 的外向的人的幸福感：40（初始幸福感）+ (1 * 20)（1 位邻居）= 60
-- 位于 (2,3) 的外向的人的幸福感：40（初始幸福感）+ (1 * 20)（1 位邻居）= 60
-网格幸福感为：120 + 60 + 60 = 240
-上图展示该示例对应网格中每个人的幸福感。内向的人在浅绿色单元中，而外向的人在浅紫色单元中。
+<strong>Input:</strong> m = 2, n = 3, introvertsCount = 1, extrovertsCount = 2
+<strong>Output:</strong> 240
+<strong>Explanation:</strong> Assume the grid is 1-indexed with coordinates (row, column).
+We can put the introvert in cell (1,1) and put the extroverts in cells (1,3) and (2,3).
+- Introvert at (1,1) happiness: 120 (starting happiness) - (0 * 30) (0 neighbors) = 120
+- Extrovert at (1,3) happiness: 40 (starting happiness) + (1 * 20) (1 neighbor) = 60
+- Extrovert at (2,3) happiness: 40 (starting happiness) + (1 * 20) (1 neighbor) = 60
+The grid happiness is 120 + 60 + 60 = 240.
+The above figure shows the grid in this example with each person&#39;s happiness. The introvert stays in the light green cell while the extroverts live on the light purple cells.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>m = 3, n = 1, introvertsCount = 2, extrovertsCount = 1
-<strong>输出：</strong>260
-<strong>解释：</strong>将内向的人放置在单元 (1,1) 和 (3,1) ，将外向的人放置在单元 (2,1) 。
-- 位于 (1,1) 的内向的人的幸福感：120（初始幸福感）- (1 * 30)（1 位邻居）= 90
-- 位于 (2,1) 的外向的人的幸福感：40（初始幸福感）+ (2 * 20)（2 位邻居）= 80
-- 位于 (3,1) 的内向的人的幸福感：120（初始幸福感）- (1 * 30)（1 位邻居）= 90
-网格幸福感为 90 + 80 + 90 = 260
+<strong>Input:</strong> m = 3, n = 1, introvertsCount = 2, extrovertsCount = 1
+<strong>Output:</strong> 260
+<strong>Explanation:</strong> Place the two introverts in (1,1) and (3,1) and the extrovert at (2,1).
+- Introvert at (1,1) happiness: 120 (starting happiness) - (1 * 30) (1 neighbor) = 90
+- Extrovert at (2,1) happiness: 40 (starting happiness) + (2 * 20) (2 neighbors) = 80
+- Introvert at (3,1) happiness: 120 (starting happiness) - (1 * 30) (1 neighbor) = 90
+The grid happiness is 90 + 80 + 90 = 260.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>m = 2, n = 2, introvertsCount = 4, extrovertsCount = 0
-<strong>输出：</strong>240
+<strong>Input:</strong> m = 2, n = 2, introvertsCount = 4, extrovertsCount = 0
+<strong>Output:</strong> 240
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= m, n <= 5</code></li>
-	<li><code>0 <= introvertsCount, extrovertsCount <= min(m * n, 6)</code></li>
+	<li><code>1 &lt;= m, n &lt;= 5</code></li>
+	<li><code>0 &lt;= introvertsCount, extrovertsCount &lt;= min(m * n, 6)</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：三进制状态压缩 + 记忆化搜索
-
-我们注意到，题目中 $1 \leq m, n \leq 5$，并且每个网格单元只有三种状态，即：不分配人员、分配内向的人、分配外向的人。因此，我们可以用 $0$, $1$, $2$ 表示这三种状态，网格中的每一行可以用一个长度为 $n$ 的三进制数表示。
-
-我们定义一个函数 $dfs(i, pre, ic, ec)$，表示当前从第 $i$ 行开始，且上一行的状态为 $pre$，内向的人还剩 $ic$ 个，外向的人还剩 $ec$ 个时，网格的最大幸福感。那么答案就是 $dfs(0, 0, introvertsCount, extrovertsCount)$。
-
-函数 $dfs(i, pre, ic, ec)$ 的计算过程如下：
-
-如果 $i = m$，表示已经处理完了所有的行，那么返回 $0$；
-
-如果 $ic = 0$ 且 $ec = 0$，表示所有的人都已经分配完了，那么返回 $0$；
-
-否则，枚举当前行的状态 $cur$，其中 $cur \in [0, 3^n)$，然后计算当前行的幸福感 $f[cur]$，以及与上一行的状态 $pre$ 之间对幸福感的贡献 $g[pre][cur]$，并递归计算 $dfs(i + 1, cur, ic - ix[cur], ec - ex[cur])$，最后返回 $f[cur] + g[pre][cur] + dfs(i + 1, cur, ic - ix[cur], ec - ex[cur])$ 的最大值，即：
-
-$$
-dfs(i, pre, ic, ec) = \max_{cur} \{f[cur] + g[pre][cur] + dfs(i + 1, cur, ic - ix[cur], ec - ex[cur])\}
-$$
-
-其中：
-
--   $ix[cur]$ 表示状态 $cur$ 中内向的人的个数；
--   $ex[cur]$ 表示状态 $cur$ 中外向的人的个数；
--   $f[cur]$ 表示状态 $cur$ 中的人的初始幸福感；
--   $g[pre][cur]$ 表示两个相邻状态行对幸福感的贡献。
-
-这些值都可以通过预处理得到。并且，我们可以使用记忆化搜索的方法，避免重复计算。
-
-时间复杂度 $O(3^{2n} \times (m \times ic \times ec + n))$，空间复杂度 $O(3^{2n} + 3^n \times m \times ic \times ec)$。其中 $ic$ 和 $ec$ 分别表示内向的人和外向的人的个数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -426,25 +395,7 @@ function getMaxGridHappiness(
 
 <!-- tabs:end -->
 
-### 方法二：轮廓线记忆化搜索
-
-我们可以考虑搜索每个网格单元，每次搜索一个位置 $(i, j)$，我们记 $pos = i \times n + j$。那么它左边以及上边的相邻网格会影响到它们之间的幸福感贡献。
-
-我们定义一个函数 $dfs(pos, pre, ic, ec)$，表示当前搜索到位置 $pos$，且此前的 $n$ 个网格单元的状态为 $pre$，内向的人还剩 $ic$ 个，外向的人还剩 $ec$ 个时，网格的最大幸福感。那么答案就是 $dfs(0, 0, introvertsCount, extrovertsCount)$。
-
-函数 $dfs(pos, pre, ic, ec)$ 的计算过程如下：
-
-如果 $pos = m \times n$，表示已经处理完了所有的网格单元，那么返回 $0$；
-
-如果 $ic = 0$ 且 $ec = 0$，表示所有的人都已经分配完了，那么返回 $0$；
-
-否则，我们根据 $pre$ 算出当前网格单元的上边相邻网格单元的状态 $up = \frac{pre}{3^{n-1}}$，以及左边相邻网格单元的状态 $left = pre \bmod 3$（注意，如果 $pos$ 在第 $0$ 列，那么 $left = 0$）。
-
-接下来，我们枚举当前网格单元的状态 $i$，其中 $i \in [0, 3)$。那么当前的 $n$ 个网格单元的状态为 $cur = pre \bmod 3^{n-1} \times 3 + i$，当前网格单元以及左边和上边的相邻网格单元的幸福感贡献为 $h[up][i]+h[left][i]$；而当前网格单元本身的幸福感取决于该位置是否分配人员，以及分配的人员是内向的还是外向的，如果是内向的，那么幸福感为 $120$，如果是外向的，那么幸福感为 $40$，否则幸福感为 $0$；然后，如果当前网格单元分配了人员，那么我们递归调用时需要更新 $ic$ 或 $ec$。累计这些幸福感，取最大值作为函数的返回值。
-
-与方法一类似，我们也可以使用记忆化搜索的方法，避免重复计算。
-
-时间复杂度 $O(3^{n+1} \times m \times n \times ic \times ec)$，空间复杂度 $O(3^n \times m \times n \times ic \times ec)$。其中 $ic$ 和 $ec$ 分别表示内向的人和外向的人的个数。
+### Solution 2
 
 <!-- tabs:start -->
 

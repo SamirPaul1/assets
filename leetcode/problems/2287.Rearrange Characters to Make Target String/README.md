@@ -1,64 +1,59 @@
-# [2287. 重排字符形成目标字符串](https://leetcode.cn/problems/rearrange-characters-to-make-target-string)
+# [2287. Rearrange Characters to Make Target String](https://leetcode.com/problems/rearrange-characters-to-make-target-string)
 
-[English Version](/solution/2200-2299/2287.Rearrange%20Characters%20to%20Make%20Target%20String/README_EN.md)
+[中文文档](/solution/2200-2299/2287.Rearrange%20Characters%20to%20Make%20Target%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two <strong>0-indexed</strong> strings <code>s</code> and <code>target</code>. You can take some letters from <code>s</code> and rearrange them to form new strings.</p>
 
-<p>给你两个下标从 <strong>0</strong> 开始的字符串 <code>s</code> 和 <code>target</code> 。你可以从 <code>s</code> 取出一些字符并将其重排，得到若干新的字符串。</p>
-
-<p>从 <code>s</code> 中取出字符并重新排列，返回可以形成 <code>target</code> 的 <strong>最大</strong> 副本数。</p>
+<p>Return<em> the <strong>maximum</strong> number of copies of </em><code>target</code><em> that can be formed by taking letters from </em><code>s</code><em> and rearranging them.</em></p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>s = "ilovecodingonleetcode", target = "code"
-<strong>输出：</strong>2
-<strong>解释：</strong>
-对于 "code" 的第 1 个副本，选取下标为 4 、5 、6 和 7 的字符。
-对于 "code" 的第 2 个副本，选取下标为 17 、18 、19 和 20 的字符。
-形成的字符串分别是 "ecod" 和 "code" ，都可以重排为 "code" 。
-可以形成最多 2 个 "code" 的副本，所以返回 2 。
+<pre>
+<strong>Input:</strong> s = &quot;ilovecodingonleetcode&quot;, target = &quot;code&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong>
+For the first copy of &quot;code&quot;, take the letters at indices 4, 5, 6, and 7.
+For the second copy of &quot;code&quot;, take the letters at indices 17, 18, 19, and 20.
+The strings that are formed are &quot;ecod&quot; and &quot;code&quot; which can both be rearranged into &quot;code&quot;.
+We can make at most two copies of &quot;code&quot;, so we return 2.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>s = "abcba", target = "abc"
-<strong>输出：</strong>1
-<strong>解释：</strong>
-选取下标为 0 、1 和 2 的字符，可以形成 "abc" 的 1 个副本。 
-可以形成最多 1 个 "abc" 的副本，所以返回 1 。
-注意，尽管下标 3 和 4 分别有额外的 'a' 和 'b' ，但不能重用下标 2 处的 'c' ，所以无法形成 "abc" 的第 2 个副本。
+<pre>
+<strong>Input:</strong> s = &quot;abcba&quot;, target = &quot;abc&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+We can make one copy of &quot;abc&quot; by taking the letters at indices 0, 1, and 2.
+We can make at most one copy of &quot;abc&quot;, so we return 1.
+Note that while there is an extra &#39;a&#39; and &#39;b&#39; at indices 3 and 4, we cannot reuse the letter &#39;c&#39; at index 2, so we cannot make a second copy of &quot;abc&quot;.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>s = "abbaccaddaeea", target = "aaaaa"
-<strong>输出：</strong>1
-<strong>解释：</strong>
-选取下标为 0 、3 、6 、9 和 12 的字符，可以形成 "aaaaa" 的 1 个副本。
-可以形成最多 1 个 "aaaaa" 的副本，所以返回 1 。
+<pre>
+<strong>Input:</strong> s = &quot;abbaccaddaeea&quot;, target = &quot;aaaaa&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+We can make one copy of &quot;aaaaa&quot; by taking the letters at indices 0, 3, 6, 9, and 12.
+We can make at most one copy of &quot;aaaaa&quot;, so we return 1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 100</code></li>
 	<li><code>1 &lt;= target.length &lt;= 10</code></li>
-	<li><code>s</code> 和 <code>target</code> 由小写英文字母组成</li>
+	<li><code>s</code> and <code>target</code> consist of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：计数
-
-我们统计字符串 `s` 和 `target` 中每个字符出现的次数，记为 `cnt1` 和 `cnt2`。对于 `target` 中的每个字符，我们计算 `cnt1` 中该字符出现的次数除以 `cnt2` 中该字符出现的次数，取最小值即可。
-
-时间复杂度 $O(n + m)$，空间复杂度 $O(C)$。其中 $n$ 和 $m$ 分别是字符串 `s` 和 `target` 的长度。而 $C$ 是字符集的大小，本题中 $C=26$。
+### Solution 1
 
 <!-- tabs:start -->
 

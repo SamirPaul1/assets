@@ -1,54 +1,48 @@
-# [2729. 判断一个数是否迷人](https://leetcode.cn/problems/check-if-the-number-is-fascinating)
+# [2729. Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating)
 
-[English Version](/solution/2700-2799/2729.Check%20if%20The%20Number%20is%20Fascinating/README_EN.md)
+[中文文档](/solution/2700-2799/2729.Check%20if%20The%20Number%20is%20Fascinating/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>n</code> that consists of exactly <code>3</code> digits.</p>
 
-<p>给你一个三位数整数 <code>n</code>&nbsp;。</p>
-
-<p>如果经过以下修改得到的数字 <strong>恰好</strong>&nbsp;包含数字 <code>1</code>&nbsp;到 <code>9</code>&nbsp;各一次且不包含任何 <code>0</code>&nbsp;，那么我们称数字 <code>n</code>&nbsp;是 <strong>迷人的</strong>&nbsp;：</p>
+<p>We call the number <code>n</code> <strong>fascinating</strong> if, after the following modification, the resulting number contains all the digits from <code>1</code> to <code>9</code> <strong>exactly</strong> once and does not contain any <code>0</code>&#39;s:</p>
 
 <ul>
-	<li>将&nbsp;<code>n</code>&nbsp;与数字&nbsp;<code>2 * n</code> 和&nbsp;<code>3 * n</code>&nbsp;<strong>连接</strong>&nbsp;。</li>
+	<li><strong>Concatenate</strong> <code>n</code> with the numbers <code>2 * n</code> and <code>3 * n</code>.</li>
 </ul>
 
-<p>如果 <code>n</code>&nbsp;是迷人的，返回&nbsp;<code>true</code>，否则返回&nbsp;<code>false</code>&nbsp;。</p>
+<p>Return <code>true</code><em> if </em><code>n</code><em> is fascinating, or </em><code>false</code><em> otherwise</em>.</p>
 
-<p><strong>连接</strong>&nbsp;两个数字表示把它们首尾相接连在一起。比方说&nbsp;<code>121</code> 和&nbsp;<code>371</code>&nbsp;连接得到&nbsp;<code>121371</code>&nbsp;。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>n = 192
-<b>输出：</b>true
-<b>解释：</b>我们将数字 n = 192 ，2 * n = 384 和 3 * n = 576 连接，得到 192384576 。这个数字包含 1 到 9 恰好各一次。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre><b>输入：</b>n = 100
-<b>输出：</b>false
-<b>解释：</b>我们将数字 n = 100 ，2 * n = 200 和 3 * n = 300 连接，得到 100200300 。这个数字不符合上述条件。
-</pre>
+<p><strong>Concatenating</strong> two numbers means joining them together. For example, the concatenation of <code>121</code> and <code>371</code> is <code>121371</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> n = 192
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We concatenate the numbers n = 192 and 2 * n = 384 and 3 * n = 576. The resulting number is 192384576. This number contains all the digits from 1 to 9 exactly once.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 100
+<strong>Output:</strong> false
+<strong>Explanation:</strong> We concatenate the numbers n = 100 and 2 * n = 200 and 3 * n = 300. The resulting number is 100200300. This number does not satisfy any of the conditions.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>100 &lt;= n &lt;= 999</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
-
-我们根据题目描述，将数字 $n$ 与 $2 \times n$ 和 $3 \times n$ 连接，得到字符串 $s$，然后判断 $s$ 是否包含数字 $1$ 到 $9$ 各一次且不包含任何 $0$ 即可。
-
-时间复杂度 $O(\log n)$，空间复杂度 $O(\log n)$。其中 $n$ 为题目给定的整数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -127,7 +121,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

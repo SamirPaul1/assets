@@ -1,60 +1,52 @@
-# [1197. 进击的骑士](https://leetcode.cn/problems/minimum-knight-moves)
+# [1197. Minimum Knight Moves](https://leetcode.com/problems/minimum-knight-moves)
 
-[English Version](/solution/1100-1199/1197.Minimum%20Knight%20Moves/README_EN.md)
+[中文文档](/solution/1100-1199/1197.Minimum%20Knight%20Moves/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>In an <strong>infinite</strong> chess board with coordinates from <code>-infinity</code> to <code>+infinity</code>, you have a <strong>knight</strong> at square <code>[0, 0]</code>.</p>
 
-<p>一个坐标可以从 <code>-infinity</code>&nbsp;延伸到&nbsp;<code>+infinity</code>&nbsp;的 <strong>无限大的</strong>&nbsp;棋盘上，你的 <strong>骑士&nbsp;</strong>驻扎在坐标为&nbsp;<code>[0, 0]</code>&nbsp;的方格里。</p>
-
-<p>骑士的走法和中国象棋中的马相似，走 “日” 字：即先向左（或右）走 1 格，再向上（或下）走 2 格；或先向左（或右）走 2 格，再向上（或下）走 1 格。</p>
-
-<p>每次移动，他都可以按图示八个方向之一前进。</p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1197.Minimum%20Knight%20Moves/images/knight.png" style="width: 250px; height: 250px;" /></p>
-
-<p>返回 <em>骑士前去征服坐标为&nbsp;<code>[x, y]</code>&nbsp;的部落所需的最小移动次数</em> 。本题确保答案是一定存在的。</p>
+<p>A knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.</p>
+<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1197.Minimum%20Knight%20Moves/images/knight.png" style="height: 250px; width: 250px;" />
+<p>Return <em>the minimum number of steps needed to move the knight to the square</em> <code>[x, y]</code>. It is guaranteed the answer exists.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>x = 2, y = 1
-<strong>输出：</strong>1
-<strong>解释：</strong>[0, 0] → [2, 1]
+<strong>Input:</strong> x = 2, y = 1
+<strong>Output:</strong> 1
+<strong>Explanation: </strong>[0, 0] &rarr; [2, 1]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>x = 5, y = 5
-<strong>输出：</strong>4
-<strong>解释：</strong>[0, 0] → [2, 1] → [4, 2] → [3, 4] → [5, 5]
+<strong>Input:</strong> x = 5, y = 5
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>[0, 0] &rarr; [2, 1] &rarr; [4, 2] &rarr; [3, 4] &rarr; [5, 5]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>-300 &lt;= x, y &lt;= 300</code></li>
 	<li><code>0 &lt;= |x| + |y| &lt;= 300</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
+### Solution 1: BFS
 
-BFS 最短路模型。本题搜索空间不大，可以直接使用朴素 BFS，以下题解中还提供了双向 BFS 的题解代码，仅供参考。
+This problem can be solved using the BFS shortest path model. The search space for this problem is not large, so we can directly use the naive BFS. The solution below also provides the code for bidirectional BFS for reference.
 
-双向 BFS 是 BFS 常见的一个优化方法，主要实现思路如下：
+Bidirectional BFS is a common optimization method for BFS. The main implementation ideas are as follows:
 
-1. 创建两个队列 q1, q2 分别用于“起点 -> 终点”、“终点 -> 起点”两个方向的搜索；
-2. 创建两个哈希表 m1, m2 分别记录访问过的节点以及对应的扩展次数（步数）；
-3. 每次搜索时，优先选择元素数量较少的队列进行搜索扩展，如果在扩展过程中，搜索到另一个方向已经访问过的节点，说明找到了最短路径；
-4. 只要其中一个队列为空，说明当前方向的搜索已经进行不下去了，说明起点到终点不连通，无需继续搜索。
+1. Create two queues, q1 and q2, for "start -> end" and "end -> start" search directions, respectively.
+2. Create two hash maps, m1 and m2, to record the visited nodes and their corresponding expansion times (steps).
+3. During each search, prioritize the queue with fewer elements for search expansion. If a node visited from the other direction is found during the expansion, it means the shortest path has been found.
+4. If one of the queues is empty, it means that the search in the current direction cannot continue, indicating that the start and end points are not connected, and there is no need to continue the search.
 
 <!-- tabs:start -->
 
@@ -249,7 +241,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

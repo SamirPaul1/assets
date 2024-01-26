@@ -1,34 +1,30 @@
-# [576. 出界的路径数](https://leetcode.cn/problems/out-of-boundary-paths)
+# [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths)
 
-[English Version](/solution/0500-0599/0576.Out%20of%20Boundary%20Paths/README_EN.md)
+[中文文档](/solution/0500-0599/0576.Out%20of%20Boundary%20Paths/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There is an <code>m x n</code> grid with a ball. The ball is initially at the position <code>[startRow, startColumn]</code>. You are allowed to move the ball to one of the four adjacent cells in the grid (possibly out of the grid crossing the grid boundary). You can apply <strong>at most</strong> <code>maxMove</code> moves to the ball.</p>
 
-<p>给你一个大小为 <code>m x n</code> 的网格和一个球。球的起始坐标为 <code>[startRow, startColumn]</code> 。你可以将球移到在四个方向上相邻的单元格内（可以穿过网格边界到达网格之外）。你 <strong>最多</strong> 可以移动 <code>maxMove</code> 次球。</p>
-
-<p>给你五个整数 <code>m</code>、<code>n</code>、<code>maxMove</code>、<code>startRow</code> 以及 <code>startColumn</code> ，找出并返回可以将球移出边界的路径数量。因为答案可能非常大，返回对 <code>10<sup>9</sup> + 7</code> <strong>取余</strong> 后的结果。</p>
+<p>Given the five integers <code>m</code>, <code>n</code>, <code>maxMove</code>, <code>startRow</code>, <code>startColumn</code>, return the number of paths to move the ball out of the grid boundary. Since the answer can be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0576.Out%20of%20Boundary%20Paths/images/out_of_boundary_paths_1.png" style="width: 500px; height: 296px;" />
 <pre>
-<strong>输入：</strong>m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0
-<strong>输出：</strong>6
+<strong>Input:</strong> m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0
+<strong>Output:</strong> 6
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0576.Out%20of%20Boundary%20Paths/images/out_of_boundary_paths_2.png" style="width: 500px; height: 293px;" />
 <pre>
-<strong>输入：</strong>m = 1, n = 3, maxMove = 3, startRow = 0, startColumn = 1
-<strong>输出：</strong>12
+<strong>Input:</strong> m = 1, n = 3, maxMove = 3, startRow = 0, startColumn = 1
+<strong>Output:</strong> 12
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= m, n &lt;= 50</code></li>
@@ -37,13 +33,9 @@
 	<li><code>0 &lt;= startColumn &lt; n</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：记忆化搜索
-
-定义 `dfs(i, j, k)` 表示当前位于坐标 $(i, j)$，且剩余移动次数为 $k$ 时，可以出界的路径数。记忆化搜索即可。
-
-时间复杂度 $O(m\times n\times k)$，空间复杂度 $O(m\times n\times k)$。其中 $m$, $n$, $k$ 分别表示网格的行数、列数、最大可移动次数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -184,7 +176,7 @@ func findPaths(m int, n int, maxMove int, startRow int, startColumn int) int {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,53 +1,41 @@
-# [217. 存在重复元素](https://leetcode.cn/problems/contains-duplicate)
+# [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate)
 
-[English Version](/solution/0200-0299/0217.Contains%20Duplicate/README_EN.md)
+[中文文档](/solution/0200-0299/0217.Contains%20Duplicate/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-给你一个整数数组 <code>nums</code> 。如果任一值在数组中出现 <strong>至少两次</strong> ，返回 <code>true</code> ；如果数组中每个元素互不相同，返回 <code>false</code> 。
+<p>Given an integer array <code>nums</code>, return <code>true</code> if any value appears <strong>at least twice</strong> in the array, and return <code>false</code> if every element is distinct.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3,1]
-<strong>输出：</strong>true</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3,4]
-<strong>输出：</strong>false</pre>
-
-<p><strong>示例&nbsp;3：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,1,1,3,3,4,3,2,4,2]
-<strong>输出：</strong>true</pre>
-
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3,1]
+<strong>Output:</strong> true
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3,4]
+<strong>Output:</strong> false
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> nums = [1,1,1,3,3,4,3,2,4,2]
+<strong>Output:</strong> true
+</pre>
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
+### Solution 1: Sorting
 
-我们先对数组 `nums` 进行排序。
+First, we sort the array `nums`.
 
-然后遍历数组，如果存在相邻两个元素相同，说明数组中存在重复元素，直接返回 `true`。
+Then, we traverse the array. If there are two adjacent elements that are the same, it means that there are duplicate elements in the array, and we directly return `true`.
 
-否则，遍历结束，返回 `false`。
+Otherwise, when the traversal ends, we return `false`.
 
-时间复杂度 $O(n \times \log n)$。其中 $n$ 是数组 `nums` 的长度。
+The time complexity is $O(n \times \log n)$, where $n$ is the length of the array `nums`.
 
 <!-- tabs:start -->
 
@@ -175,11 +163,11 @@ bool containsDuplicate(int* nums, int numsSize) {
 
 <!-- tabs:end -->
 
-### 方法二：哈希表
+### Solution 2: Hash Table
 
-遍历数组，将出现过的元素记录在哈希表 $s$ 中。若元素第二次出现时，说明数组中存在重复元素，直接返回 `true`。
+We traverse the array and record the elements that have appeared in the hash table $s$. If an element appears for the second time, it means that there are duplicate elements in the array, and we directly return `true`.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是数组 `nums` 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is the length of the array `nums`.
 
 <!-- tabs:start -->
 

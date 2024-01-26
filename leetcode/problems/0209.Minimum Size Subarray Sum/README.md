@@ -1,68 +1,57 @@
-# [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum)
+# [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)
 
-[English Version](/solution/0200-0299/0209.Minimum%20Size%20Subarray%20Sum/README_EN.md)
+[中文文档](/solution/0200-0299/0209.Minimum%20Size%20Subarray%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个含有&nbsp;<code>n</code><strong>&nbsp;</strong>个正整数的数组和一个正整数 <code>target</code><strong> 。</strong></p>
-
-<p>找出该数组中满足其总和大于等于<strong> </strong><code>target</code><strong> </strong>的长度最小的 <strong>连续子数组</strong>&nbsp;<code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> ，并返回其长度<strong>。</strong>如果不存在符合条件的子数组，返回 <code>0</code> 。</p>
+<p>Given an array of positive integers <code>nums</code> and a positive integer <code>target</code>, return <em>the <strong>minimal length</strong> of a </em><span data-keyword="subarray-nonempty"><em>subarray</em></span><em> whose sum is greater than or equal to</em> <code>target</code>. If there is no such subarray, return <code>0</code> instead.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>target = 7, nums = [2,3,1,2,4,3]
-<strong>输出：</strong>2
-<strong>解释：</strong>子数组&nbsp;<code>[4,3]</code>&nbsp;是该条件下的长度最小的子数组。
+<strong>Input:</strong> target = 7, nums = [2,3,1,2,4,3]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The subarray [4,3] has the minimal length under the problem constraint.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>target = 4, nums = [1,4,4]
-<strong>输出：</strong>1
+<strong>Input:</strong> target = 4, nums = [1,4,4]
+<strong>Output:</strong> 1
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>target = 11, nums = [1,1,1,1,1,1,1,1]
-<strong>输出：</strong>0
+<strong>Input:</strong> target = 11, nums = [1,1,1,1,1,1,1,1]
+<strong>Output:</strong> 0
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
 <p>&nbsp;</p>
+<strong>Follow up:</strong> If you have figured out the <code>O(n)</code> solution, try coding another solution of which the time complexity is <code>O(n log(n))</code>.
 
-<p><strong>进阶：</strong></p>
+## Solutions
 
-<ul>
-	<li>如果你已经实现<em> </em><code>O(n)</code> 时间复杂度的解法, 请尝试设计一个 <code>O(n log(n))</code> 时间复杂度的解法。</li>
-</ul>
+### Solution 1: Prefix Sum + Binary Search
 
-## 解法
+First, we preprocess the prefix sum array $s$ of the array $nums$, where $s[i]$ represents the sum of the first $i$ elements of the array $nums$. Since all elements in the array $nums$ are positive integers, the array $s$ is also monotonically increasing. Also, we initialize the answer $ans = n + 1$, where $n$ is the length of the array $nums$.
 
-### 方法一：前缀和 + 二分查找
+Next, we traverse the prefix sum array $s$. For each element $s[i]$, we can find the smallest index $j$ that satisfies $s[j] \geq s[i] + target$ by binary search. If $j \leq n$, it means that there exists a subarray that satisfies the condition, and we can update the answer, i.e., $ans = min(ans, j - i)$.
 
-我们先预处理出数组 $nums$ 的前缀和数组 $s$，其中 $s[i]$ 表示数组 $nums$ 前 $i$ 项元素之和。由于数组 $nums$ 中的元素都是正整数，因此数组 $s$ 也是单调递增的。另外，我们初始化答案 $ans = n + 1$，其中 $n$ 为数组 $nums$ 的长度。
+Finally, if $ans \leq n$, it means that there exists a subarray that satisfies the condition, return $ans$, otherwise return $0$.
 
-接下来，我们遍历前缀和数组 $s$，对于其中的每个元素 $s[i]$，我们可以通过二分查找的方法找到满足 $s[j] \geq s[i] + target$ 的最小下标 $j$，如果 $j \leq n$，则说明存在满足条件的子数组，我们可以更新答案，即 $ans = min(ans, j - i)$。
-
-最后，如果 $ans \leq n$，则说明存在满足条件的子数组，返回 $ans$，否则返回 $0$。
-
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 
@@ -229,15 +218,15 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：双指针
+### Solution 2: Two Pointers
 
-我们可以使用双指针 $j$ 和 $i$ 维护一个窗口，其中窗口中的所有元素之和小于 $target$。初始时 $j = 0$，答案 $ans = n + 1$，其中 $n$ 为数组 $nums$ 的长度。
+We can use two pointers $j$ and $i$ to maintain a window, where the sum of all elements in the window is less than $target$. Initially, $j = 0$, and the answer $ans = n + 1$, where $n$ is the length of the array $nums$.
 
-接下来，指针 $i$ 从 $0$ 开始向右移动，每次移动一步，我们将指针 $i$ 对应的元素加入窗口，同时更新窗口中元素之和。如果窗口中元素之和大于等于 $target$，说明当前子数组满足条件，我们可以更新答案，即 $ans = \min(ans, i - j + 1)$。然后我们不断地从窗口中移除元素 $nums[j]$，直到窗口中元素之和小于 $target$，然后重复上述过程。
+Next, the pointer $i$ starts to move to the right from $0$, moving one step each time. We add the element corresponding to the pointer $i$ to the window and update the sum of the elements in the window. If the sum of the elements in the window is greater than or equal to $target$, it means that the current subarray satisfies the condition, and we can update the answer, i.e., $ans = \min(ans, i - j + 1)$. Then we continuously remove the element $nums[j]$ from the window until the sum of the elements in the window is less than $target$, and then repeat the above process.
 
-最后，如果 $ans \leq n$，则说明存在满足条件的子数组，返回 $ans$，否则返回 $0$。
+Finally, if $ans \leq n$, it means that there exists a subarray that satisfies the condition, return $ans$, otherwise return $0$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

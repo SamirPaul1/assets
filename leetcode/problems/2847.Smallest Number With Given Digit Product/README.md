@@ -1,56 +1,52 @@
-# [2847. 给定数字乘积的最小数字](https://leetcode.cn/problems/smallest-number-with-given-digit-product)
+# [2847. Smallest Number With Given Digit Product](https://leetcode.com/problems/smallest-number-with-given-digit-product)
 
-[English Version](/solution/2800-2899/2847.Smallest%20Number%20With%20Given%20Digit%20Product/README_EN.md)
+[中文文档](/solution/2800-2899/2847.Smallest%20Number%20With%20Given%20Digit%20Product/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个 <strong>正</strong> 整数 <code>n</code>，返回一个字符串，表示 <strong>最小的正整数</strong>，使其各位数字的乘积等于 <code>n</code>&nbsp;，如果不存在这样的数字，则返回 <code>"-1"</code>&nbsp;。</p>
+<p>Given a <strong>positive</strong> integer <code>n</code>, return <em>a string representing the <strong>smallest positive</strong> integer such that the product of its digits is equal to</em> <code>n</code><em>, or </em><code>&quot;-1&quot;</code><em> if no such number exists</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1：</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 105
-<b>输出：</b>"357"
-<b>解释：</b>3 * 5 * 7 = 105。可以证明，357 是乘积等于 105 的最小数字。因此答案为 "105"。
+<strong>Input:</strong> n = 105
+<strong>Output:</strong> &quot;357&quot;
+<strong>Explanation:</strong> 3 * 5 * 7 = 105. It can be shown that 357 is the smallest number with a product of digits equal to 105. So the answer would be &quot;105&quot;.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>n = 7
-<b>输出：</b>"7"
-<b>解释：</b>由于 7 只有一位数字，其各位数字的乘积为 7。由于数字 1 到 6 的乘积分别为 1 到 6，所以答案为 "7"。可以证明 7 是乘积等于 7 的最小数字。
+<strong>Input:</strong> n = 7
+<strong>Output:</strong> &quot;7&quot;
+<strong>Explanation:</strong> Since 7 has only one digit, its product of digits would be 7. We will show that 7 is the smallest number with a product of digits equal to 7. Since the product of numbers 1 to 6 is 1 to 6 respectively, so &quot;7&quot; would be the answer.
 </pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>n = 44
-<b>输出：</b>"-1"
-<b>解释：</b>可以证明，没有数字的各位数字乘积等于 44。因此答案为 "-1"。
+<strong>Input:</strong> n = 44
+<strong>Output:</strong> &quot;-1&quot;
+<strong>Explanation:</strong> It can be shown that there is no number such that its product of digits is equal to 44. So the answer would be &quot;-1&quot;.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>18</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：质因数分解 + 贪心
+### Solution 1: Prime Factorization + Greedy
 
-我们考虑对数字 $n$ 进行质因数分解，如果 $n$ 的质因数中存在大于 $9$ 的质数，那么一定无法找到符合条件的数字，因为大于 $9$ 的质数无法通过 $1$ 到 $9$ 的数字相乘得到，例如 $11$ 无法通过 $1$ 到 $9$ 的数字相乘得到，因此我们只需要考虑 $n$ 的质因数中是否存在大于 $9$ 的质数即可，如果存在，直接返回 $-1$。
+We consider prime factorizing the number $n$. If there are prime factors greater than $9$ in $n$, then it is impossible to find a number that meets the conditions, because prime factors greater than $9$ cannot be obtained by multiplying numbers from $1$ to $9$. For example, $11$ cannot be obtained by multiplying numbers from $1$ to $9$. Therefore, we only need to consider whether there are prime factors greater than $9$ in $n$. If there are, return $-1$ directly.
 
-否则，如果质因数中包含 $7$ 和 $5$，那么数字 $n$ 首先可以拆分为若干个 $7$ 和 $5$，两个数字 $3$ 可以合成一个数字 $9$，三个数字 $2$ 可以合成一个数字 $8$，数字 $2$ 和数字 $3$ 可以合成一个数字 $6$，因此我们只需要将数字拆分为 $[2,..9]$ 的数字即可，我们可以使用贪心的方法，优先拆分出数字 $9$，然后拆分出数字 $8$，依次类推。
+Otherwise, if the prime factors include $7$ and $5$, then the number $n$ can first be decomposed into several $7$s and $5$s. Two $3$s can be combined into a $9$, three $2$s can be combined into an $8$, and a $2$ and a $3$ can be combined into a $6$. Therefore, we only need to decompose the number into numbers from $2$ to $9$. We can use a greedy method, preferentially decomposing into $9$, then decomposing into $8$, and so on.
 
-时间复杂度 $O(\log n)$，空间复杂度 $O(1)$。
+The time complexity is $O(\log n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

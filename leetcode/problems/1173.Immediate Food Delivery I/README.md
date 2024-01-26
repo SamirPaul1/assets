@@ -1,12 +1,10 @@
-# [1173. 即时食物配送 I](https://leetcode.cn/problems/immediate-food-delivery-i)
+# [1173. Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i)
 
-[English Version](/solution/1100-1199/1173.Immediate%20Food%20Delivery%20I/README_EN.md)
+[中文文档](/solution/1100-1199/1173.Immediate%20Food%20Delivery%20I/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>配送表: <code>Delivery</code></p>
+<p>Table: <code>Delivery</code></p>
 
 <pre>
 +-----------------------------+---------+
@@ -17,25 +15,24 @@
 | order_date                  | date    |
 | customer_pref_delivery_date | date    |
 +-----------------------------+---------+
-delivery_id 是表的主键(具有唯一值的列)。
-该表保存着顾客的食物配送信息，顾客在某个日期下了订单，并指定了一个期望的配送日期（和下单日期相同或者在那之后）。
+delivery_id is the primary key (column with unique values) of this table.
+The table holds information about food delivery to customers that make orders at some date and specify a preferred delivery date (on the same order date or after it).
 </pre>
 
 <p>&nbsp;</p>
 
-<p>如果顾客期望的配送日期和下单日期相同，则该订单称为 「即时订单」，否则称为「计划订单」。</p>
+<p>If the customer&#39;s preferred delivery date is the same as the order date, then the order is called <strong>immediate;</strong> otherwise, it is called <strong>scheduled</strong>.</p>
 
-<p>编写解决方案统计即时订单所占的百分比，&nbsp;<strong>保留两位小数。</strong></p>
+<p>Write a solution to find the percentage of immediate orders in the table, <strong>rounded to 2 decimal places</strong>.</p>
 
-<p>返回结果如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Delivery 表:
+<strong>Input:</strong> 
+Delivery table:
 +-------------+-------------+------------+-----------------------------+
 | delivery_id | customer_id | order_date | customer_pref_delivery_date |
 +-------------+-------------+------------+-----------------------------+
@@ -46,19 +43,20 @@ Delivery 表:
 | 5           | 4           | 2019-08-21 | 2019-08-22                  |
 | 6           | 2           | 2019-08-11 | 2019-08-13                  |
 +-------------+-------------+------------+-----------------------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +----------------------+
 | immediate_percentage |
 +----------------------+
 | 33.33                |
 +----------------------+
-<strong>解释：</strong>2 和 3 号订单为即时订单，其他的为计划订单。</pre>
+<strong>Explanation:</strong> The orders with delivery id 2 and 3 are immediate while the others are scheduled.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：求和
+### Solution 1: Sum
 
-我们可以用 `sum` 函数来统计即时订单的数量，然后除以总订单数即可。由于题目求的是百分比，所以需要乘以 100，最后我们用 `round` 函数保留两位小数。
+We can use the `sum` function to count the number of instant orders, and then divide it by the total number of orders. Since the problem requires a percentage, we need to multiply by 100. Finally, we can use the `round` function to keep two decimal places.
 
 <!-- tabs:start -->
 

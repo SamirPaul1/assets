@@ -1,45 +1,41 @@
-# [925. 长按键入](https://leetcode.cn/problems/long-pressed-name)
+# [925. Long Pressed Name](https://leetcode.com/problems/long-pressed-name)
 
-[English Version](/solution/0900-0999/0925.Long%20Pressed%20Name/README_EN.md)
+[中文文档](/solution/0900-0999/0925.Long%20Pressed%20Name/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Your friend is typing his <code>name</code> into a keyboard. Sometimes, when typing a character <code>c</code>, the key might get <em>long pressed</em>, and the character will be typed 1 or more times.</p>
 
-<p>你的朋友正在使用键盘输入他的名字&nbsp;<code>name</code>。偶尔，在键入字符&nbsp;<code>c</code>&nbsp;时，按键可能会被<em>长按</em>，而字符可能被输入 1 次或多次。</p>
-
-<p>你将会检查键盘输入的字符&nbsp;<code>typed</code>。如果它对应的可能是你的朋友的名字（其中一些字符可能被长按），那么就返回&nbsp;<code>True</code>。</p>
+<p>You examine the <code>typed</code> characters of the keyboard. Return <code>True</code> if it is possible that it was your friends name, with some characters (possibly none) being long pressed.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>name = "alex", typed = "aaleex"
-<strong>输出：</strong>true
-<strong>解释：</strong>'alex' 中的 'a' 和 'e' 被长按。
+<strong>Input:</strong> name = &quot;alex&quot;, typed = &quot;aaleex&quot;
+<strong>Output:</strong> true
+<strong>Explanation: </strong>&#39;a&#39; and &#39;e&#39; in &#39;alex&#39; were long pressed.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>name = "saeed", typed = "ssaaedd"
-<strong>输出：</strong>false
-<strong>解释：</strong>'e' 一定需要被键入两次，但在 typed 的输出中不是这样。
+<strong>Input:</strong> name = &quot;saeed&quot;, typed = &quot;ssaaedd&quot;
+<strong>Output:</strong> false
+<strong>Explanation: </strong>&#39;e&#39; must have been pressed twice, but it was not in the typed output.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= name.length, typed.length &lt;= 1000</code></li>
-	<li><code>name</code> 和&nbsp;<code>typed</code>&nbsp;的字符都是小写字母</li>
+	<li><code>name</code> and <code>typed</code> consist of only lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
+### Solution 1
 
 <!-- tabs:start -->
 

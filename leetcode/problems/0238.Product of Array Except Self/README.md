@@ -1,60 +1,48 @@
-# [238. 除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self)
+# [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)
 
-[English Version](/solution/0200-0299/0238.Product%20of%20Array%20Except%20Self/README_EN.md)
+[中文文档](/solution/0200-0299/0238.Product%20of%20Array%20Except%20Self/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code>, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is equal to the product of all the elements of</em> <code>nums</code> <em>except</em> <code>nums[i]</code>.</p>
 
-<p>给你一个整数数组&nbsp;<code>nums</code>，返回 <em>数组&nbsp;<code>answer</code>&nbsp;，其中&nbsp;<code>answer[i]</code>&nbsp;等于&nbsp;<code>nums</code>&nbsp;中除&nbsp;<code>nums[i]</code>&nbsp;之外其余各元素的乘积</em>&nbsp;。</p>
+<p>The product of any prefix or suffix of <code>nums</code> is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</p>
 
-<p>题目数据 <strong>保证</strong> 数组&nbsp;<code>nums</code>之中任意元素的全部前缀元素和后缀的乘积都在&nbsp; <strong>32 位</strong> 整数范围内。</p>
-
-<p>请&nbsp;<strong>不要使用除法，</strong>且在&nbsp;<code>O(<em>n</em>)</code> 时间复杂度内完成此题。</p>
+<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time and without using the division operation.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = <code>[1,2,3,4]</code>
-<strong>输出:</strong> <code>[24,12,8,6]</code>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3,4]
+<strong>Output:</strong> [24,12,8,6]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [-1,1,0,-3,3]
+<strong>Output:</strong> [0,0,9,0,0]
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = [-1,1,0,-3,3]
-<strong>输出:</strong> [0,0,9,0,0]
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-30 &lt;= nums[i] &lt;= 30</code></li>
-	<li><strong>保证</strong> 数组&nbsp;<code>nums</code>之中任意元素的全部前缀元素和后缀的乘积都在&nbsp; <strong>32 位</strong> 整数范围内</li>
+	<li>The product of any prefix or suffix of <code>nums</code> is <strong>guaranteed</strong> to fit in a <strong>32-bit</strong> integer.</li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong>&nbsp;Can you solve the problem in <code>O(1)</code>&nbsp;extra&nbsp;space complexity? (The output array <strong>does not</strong> count as extra space for space complexity analysis.)</p>
 
-<p><strong>进阶：</strong>你可以在 <code>O(1)</code>&nbsp;的额外空间复杂度内完成这个题目吗？（ 出于对空间复杂度分析的目的，输出数组&nbsp;<strong>不被视为&nbsp;</strong>额外空间。）</p>
+## Solutions
 
-## 解法
+### Solution 1: Two Passes
 
-### 方法一：两次遍历
+We define two variables $left$ and $right$, which represent the product of all elements to the left and right of the current element respectively. Initially, $left=1$, $right=1$. Define an answer array $ans$ of length $n$.
 
-我们定义两个变量 $left$ 和 $right$，分别表示当前元素左边所有元素的乘积和右边所有元素的乘积。初始时 $left=1$, $right=1$。定义一个长度为 $n$ 的答案数组 $ans$。
+We first traverse the array from left to right, for the $i$th element we update $ans[i]$ with $left$, then $left$ multiplied by $nums[i]$.
 
-我们先从左到右遍历数组，对于遍历到的第 $i$ 个元素，我们用 $left$ 更新 $ans[i]$，然后 $left$ 乘以 $nums[i]$。
+Then, we traverse the array from right to left, for the $i$th element, we update $ans[i]$ to $ans[i] \times right$, then $right$ multiplied by $nums[i]$.
 
-然后，我们从右到左遍历数组，对于遍历到的第 $i$ 个元素，我们更新 $ans[i]$ 为 $ans[i] \times right$，然后 $right$ 乘以 $nums[i]$。
+After the traversal, the array `ans` is the answer.
 
-遍历结束后，数组 `ans` 即为所求的答案。
-
-时间复杂度 $O(n)$，其中 $n$ 是数组 `nums` 的长度。忽略答案数组的空间消耗，空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array `nums`. Ignore the space consumption of the answer array, the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -223,7 +211,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,57 +1,48 @@
-# [914. 卡牌分组](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards)
+# [914. X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards)
 
-[English Version](/solution/0900-0999/0914.X%20of%20a%20Kind%20in%20a%20Deck%20of%20Cards/README_EN.md)
+[中文文档](/solution/0900-0999/0914.X%20of%20a%20Kind%20in%20a%20Deck%20of%20Cards/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>deck</code> where <code>deck[i]</code> represents the number written on the <code>i<sup>th</sup></code> card.</p>
 
-<p>给定一副牌，每张牌上都写着一个整数。</p>
-
-<p>此时，你需要选定一个数字 <code>X</code>，使我们可以将整副牌按下述规则分成 1 组或更多组：</p>
+<p>Partition the cards into <strong>one or more groups</strong> such that:</p>
 
 <ul>
-	<li>每组都有&nbsp;<code>X</code>&nbsp;张牌。</li>
-	<li>组内所有的牌上都写着相同的整数。</li>
+	<li>Each group has <strong>exactly</strong> <code>x</code> cards where <code>x &gt; 1</code>, and</li>
+	<li>All the cards in one group have the same integer written on them.</li>
 </ul>
 
-<p>仅当你可选的 <code>X &gt;= 2</code> 时返回&nbsp;<code>true</code>。</p>
+<p>Return <code>true</code><em> if such partition is possible, or </em><code>false</code><em> otherwise</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>deck = [1,2,3,4,4,3,2,1]
-<strong>输出：</strong>true
-<strong>解释：</strong>可行的分组是 [1,1]，[2,2]，[3,3]，[4,4]
-</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>deck = [1,1,1,2,2,2,3,3]
-<strong>输出：</strong>false
-<strong>解释：</strong>没有满足要求的分组。
+<strong>Input:</strong> deck = [1,2,3,4,4,3,2,1]
+<strong>Output:</strong> true
+<strong>Explanation</strong>: Possible partition [1,1],[2,2],[3,3],[4,4].
 </pre>
 
-<p><br />
-<strong>提示：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> deck = [1,1,1,2,2,2,3,3]
+<strong>Output:</strong> false
+<strong>Explanation</strong>: No possible partition.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= deck.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= deck[i] &lt; 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：最大公约数
-
-我们先用数组或哈希表 `cnt` 统计每个数字出现的次数，只有当 $X$ 是所有数字出现次数的约数时，即 $X$ 是所有 `cnt[i]` 的最大公约数的约数时，才能满足题意。
-
-因此，我们求出所有数字出现次数的最大公约数 $g$，然后判断其是否大于等于 $2$ 即可。
-
-时间复杂度 $O(n\log C)$，其中 $n$ 是数组 `deck` 的长度，而 $C$ 是数组 `deck` 中的最大值。
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,50 +1,49 @@
-# [1425. 带限制的子序列和](https://leetcode.cn/problems/constrained-subsequence-sum)
+# [1425. Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum)
 
-[English Version](/solution/1400-1499/1425.Constrained%20Subsequence%20Sum/README_EN.md)
+[中文文档](/solution/1400-1499/1425.Constrained%20Subsequence%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return the maximum sum of a <strong>non-empty</strong> subsequence of that array such that for every two <strong>consecutive</strong> integers in the subsequence, <code>nums[i]</code> and <code>nums[j]</code>, where <code>i &lt; j</code>, the condition <code>j - i &lt;= k</code> is satisfied.</p>
 
-<p>给你一个整数数组&nbsp;<code>nums</code>&nbsp;和一个整数&nbsp;<code>k</code>&nbsp;，请你返回 <strong>非空</strong>&nbsp;子序列元素和的最大值，子序列需要满足：子序列中每两个 <strong>相邻</strong>&nbsp;的整数&nbsp;<code>nums[i]</code>&nbsp;和&nbsp;<code>nums[j]</code>&nbsp;，它们在原数组中的下标&nbsp;<code>i</code>&nbsp;和&nbsp;<code>j</code>&nbsp;满足&nbsp;<code>i &lt; j</code>&nbsp;且 <code>j - i &lt;= k</code> 。</p>
-
-<p>数组的子序列定义为：将数组中的若干个数字删除（可以删除 0 个数字），剩下的数字按照原本的顺序排布。</p>
+<p>A <em>subsequence</em> of an array is obtained by deleting some number of elements (can be zero) from the array, leaving the remaining elements in their original order.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [10,2,-10,5,20], k = 2
-<strong>输出：</strong>37
-<strong>解释：</strong>子序列为 [10, 2, 5, 20] 。
+<pre>
+<strong>Input:</strong> nums = [10,2,-10,5,20], k = 2
+<strong>Output:</strong> 37
+<b>Explanation:</b> The subsequence is [10, 2, 5, 20].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [-1,-2,-3], k = 1
-<strong>输出：</strong>-1
-<strong>解释：</strong>子序列必须是非空的，所以我们选择最大的数字。
+<pre>
+<strong>Input:</strong> nums = [-1,-2,-3], k = 1
+<strong>Output:</strong> -1
+<b>Explanation:</b> The subsequence must be non-empty, so we choose the largest number.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>nums = [10,-2,-10,-5,20], k = 2
-<strong>输出：</strong>23
-<strong>解释：</strong>子序列为 [10, -2, -5, 20] 。
+<pre>
+<strong>Input:</strong> nums = [10,-2,-10,-5,20], k = 2
+<strong>Output:</strong> 23
+<b>Explanation:</b> The subsequence is [10, -2, -5, 20].
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10^5</code></li>
-	<li><code>-10^4&nbsp;&lt;= nums[i] &lt;= 10^4</code></li>
+	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划 + 单调队列
+### Solution 1
 
 <!-- tabs:start -->
 

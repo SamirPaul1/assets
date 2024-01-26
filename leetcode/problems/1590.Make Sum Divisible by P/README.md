@@ -1,56 +1,42 @@
-# [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p)
+# [1590. Make Sum Divisible by P](https://leetcode.com/problems/make-sum-divisible-by-p)
 
-[English Version](/solution/1500-1599/1590.Make%20Sum%20Divisible%20by%20P/README_EN.md)
+[中文文档](/solution/1500-1599/1590.Make%20Sum%20Divisible%20by%20P/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of positive integers <code>nums</code>, remove the <strong>smallest</strong> subarray (possibly <strong>empty</strong>) such that the <strong>sum</strong> of the remaining elements is divisible by <code>p</code>. It is <strong>not</strong> allowed to remove the whole array.</p>
 
-<p>给你一个正整数数组&nbsp;<code>nums</code>，请你移除 <strong>最短</strong>&nbsp;子数组（可以为 <strong>空</strong>），使得剩余元素的 <strong>和</strong>&nbsp;能被 <code>p</code>&nbsp;整除。 <strong>不允许</strong>&nbsp;将整个数组都移除。</p>
+<p>Return <em>the length of the smallest subarray that you need to remove, or </em><code>-1</code><em> if it&#39;s impossible</em>.</p>
 
-<p>请你返回你需要移除的最短子数组的长度，如果无法满足题目要求，返回 <code>-1</code>&nbsp;。</p>
-
-<p><strong>子数组</strong>&nbsp;定义为原数组中连续的一组元素。</p>
+<p>A <strong>subarray</strong> is defined as a contiguous block of elements in the array.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [3,1,4,2], p = 6
-<strong>输出：</strong>1
-<strong>解释：</strong>nums 中元素和为 10，不能被 p 整除。我们可以移除子数组 [4] ，剩余元素的和为 6 。
+<pre>
+<strong>Input:</strong> nums = [3,1,4,2], p = 6
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The sum of the elements in nums is 10, which is not divisible by 6. We can remove the subarray [4], and the sum of the remaining elements is 6, which is divisible by 6.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [6,3,5,2], p = 9
-<strong>输出：</strong>2
-<strong>解释：</strong>我们无法移除任何一个元素使得和被 9 整除，最优方案是移除子数组 [5,2] ，剩余元素为 [6,3]，和为 9 。
+<pre>
+<strong>Input:</strong> nums = [6,3,5,2], p = 9
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> We cannot remove a single element to get a sum divisible by 9. The best way is to remove the subarray [5,2], leaving us with [6,3] with sum 9.
 </pre>
 
-<p><strong>示例&nbsp;3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>nums = [1,2,3], p = 3
-<strong>输出：</strong>0
-<strong>解释：</strong>和恰好为 6 ，已经能被 3 整除了。所以我们不需要移除任何元素。
-</pre>
-
-<p><strong>示例&nbsp; 4：</strong></p>
-
-<pre><strong>输入：</strong>nums = [1,2,3], p = 7
-<strong>输出：</strong>-1
-<strong>解释：</strong>没有任何方案使得移除子数组后剩余元素的和被 7 整除。
-</pre>
-
-<p><strong>示例 5：</strong></p>
-
-<pre><strong>输入：</strong>nums = [1000000000,1000000000,1000000000], p = 3
-<strong>输出：</strong>0
+<pre>
+<strong>Input:</strong> nums = [1,2,3], p = 3
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Here the sum is 6. which is already divisible by 3. Thus we do not need to remove anything.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
@@ -58,21 +44,9 @@
 	<li><code>1 &lt;= p &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀和 + 哈希表
-
-我们可以先求出数组 $nums$ 所有元素之和模 $p$ 的值，记为 $k$。如果 $k$ 为 $0$，说明数组 $nums$ 所有元素之和就是 $p$ 的倍数，直接返回 $0$ 即可。
-
-如果 $k$ 不为 $0$，我们需要找到一个最短的子数组，使得删除该子数组后，剩余元素之和模 $p$ 的值为 $0$。
-
-我们可以遍历数组 $nums$，维护当前的前缀和模 $p$ 的值，记为 $cur$。用哈希表 $last$ 记录每个前缀和模 $p$ 的值最后一次出现的位置。
-
-如果当前存在一个以 $nums[i]$ 结尾的子数组，使得删除该子数组后，剩余元素之和模 $p$ 的值为 $0$。也就是说，我们需要找到此前的一个前缀和模 $p$ 的值为 $target$ 的位置 $j$，使得 $(target + k - cur) \bmod p = 0$。如果找到，我们就可以将 $j + 1$ 到 $i$ 这一段闭区间子数组 $nums[j+1,..i]$ 删除，使得剩余元素之和模 $p$ 的值为 $0$。
-
-因此，如果存在一个 $target = (cur - k + p) \bmod p$，那么我们可以更新答案为 $\min(ans, i - j)$。接下来，我们更新 $last[cur]$ 的值为 $i$。继续遍历数组 $nums$，直到遍历结束，即可得到答案。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

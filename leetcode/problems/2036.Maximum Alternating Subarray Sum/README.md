@@ -1,65 +1,65 @@
-# [2036. 最大交替子数组和](https://leetcode.cn/problems/maximum-alternating-subarray-sum)
+# [2036. Maximum Alternating Subarray Sum](https://leetcode.com/problems/maximum-alternating-subarray-sum)
 
-[English Version](/solution/2000-2099/2036.Maximum%20Alternating%20Subarray%20Sum/README_EN.md)
+[中文文档](/solution/2000-2099/2036.Maximum%20Alternating%20Subarray%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A <strong>subarray</strong> of a <strong>0-indexed</strong> integer array is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>
 
-<p><strong>子数组</strong>是以<strong>0</strong>下标开始的数组的连续非空子序列，从 <code>i</code> 到 <code>j</code>（<code>0 &lt;= i &lt;= j &lt; nums.length</code>）的 <strong>子数组交替和</strong> 被定义为 <code>nums[i] - nums[i+1] + nums[i+2] - ... +/- nums[j]</code> 。</p>
+<p>The <strong>alternating subarray sum</strong> of a subarray that ranges from index <code>i</code> to <code>j</code> (<strong>inclusive</strong>, <code>0 &lt;= i &lt;= j &lt; nums.length</code>) is <code>nums[i] - nums[i+1] + nums[i+2] - ... +/- nums[j]</code>.</p>
 
-<p>给定一个以<strong>0</strong>下标开始的整数数组<code>nums</code>，返回它所有可能的交替子数组和的最大值。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [3,-1,1,2]
-<strong>输出：</strong>5
-<strong>解释：</strong>
-子数组 [3,-1,1]有最大的交替子数组和3 - (-1) + 1 = 5.
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [2,2,2,2,2]
-<strong>输出：</strong>2
-<strong>解释：</strong>
-子数组 [2], [2,2,2]和 [2,2,2,2,2]有相同的最大交替子数组和为2
-[2]: 2.
-[2,2,2]: 2 - 2 + 2 = 2.
-[2,2,2,2,2]: 2 - 2 + 2 - 2 + 2 = 2.
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1]
-<strong>输出：</strong>1
-<strong>解释：</strong>
-仅有一个非空子数组，为 [1]，它的交替子数组和为 1
-</pre>
+<p>Given a <strong>0-indexed</strong> integer array <code>nums</code>, return <em>the <strong>maximum alternating subarray sum</strong> of any subarray of </em><code>nums</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><b>提示：</b></p>
+<pre>
+<strong>Input:</strong> nums = [3,-1,1,2]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong>
+The subarray [3,-1,1] has the largest alternating subarray sum.
+The alternating subarray sum is 3 - (-1) + 1 = 5.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [2,2,2,2,2]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong>
+The subarrays [2], [2,2,2], and [2,2,2,2,2] have the largest alternating subarray sum.
+The alternating subarray sum of [2] is 2.
+The alternating subarray sum of [2,2,2] is 2 - 2 + 2 = 2.
+The alternating subarray sum of [2,2,2,2,2] is 2 - 2 + 2 - 2 + 2 = 2.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+There is only one non-empty subarray, which is [1].
+The alternating subarray sum is 1.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f$ 表示以 $nums[i]$ 结尾的交替子数组的最大和，定义 $g$ 表示以 $-nums[i]$ 结尾的交替子数组的最大和，初始时 $f$ 和 $g$ 均为 $-\infty$。
+We define $f$ as the maximum sum of the alternating subarray ending with $nums[i]$, and define $g$ as the maximum sum of the alternating subarray ending with $-nums[i]$. Initially, both $f$ and $g$ are $-\infty$.
 
-接下来，我们遍历数组 $nums$，对于位置 $i$，我们需要维护 $f$ 和 $g$ 的值，即 $f = \max(g, 0) + nums[i]$，而 $g = f - nums[i]$。答案即为所有 $f$ 和 $g$ 中的最大值。
+Next, we traverse the array $nums$. For position $i$, we need to maintain the values of $f$ and $g$, i.e., $f = \max(g, 0) + nums[i]$, and $g = f - nums[i]$. The answer is the maximum value among all $f$ and $g$.
 
-时间复杂度 $O(n)$，其中 $n$ 是数组 $nums$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

@@ -1,48 +1,41 @@
-# [875. 爱吃香蕉的珂珂](https://leetcode.cn/problems/koko-eating-bananas)
+# [875. Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)
 
-[English Version](/solution/0800-0899/0875.Koko%20Eating%20Bananas/README_EN.md)
+[中文文档](/solution/0800-0899/0875.Koko%20Eating%20Bananas/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Koko loves to eat bananas. There are <code>n</code> piles of bananas, the <code>i<sup>th</sup></code> pile has <code>piles[i]</code> bananas. The guards have gone and will come back in <code>h</code> hours.</p>
 
-<p>珂珂喜欢吃香蕉。这里有 <code>n</code> 堆香蕉，第 <code>i</code> 堆中有&nbsp;<code>piles[i]</code>&nbsp;根香蕉。警卫已经离开了，将在 <code>h</code> 小时后回来。</p>
+<p>Koko can decide her bananas-per-hour eating speed of <code>k</code>. Each hour, she chooses some pile of bananas and eats <code>k</code> bananas from that pile. If the pile has less than <code>k</code> bananas, she eats all of them instead and will not eat any more bananas during this hour.</p>
 
-<p>珂珂可以决定她吃香蕉的速度 <code>k</code> （单位：根/小时）。每个小时，她将会选择一堆香蕉，从中吃掉 <code>k</code> 根。如果这堆香蕉少于 <code>k</code> 根，她将吃掉这堆的所有香蕉，然后这一小时内不会再吃更多的香蕉。&nbsp;&nbsp;</p>
+<p>Koko likes to eat slowly but still wants to finish eating all the bananas before the guards return.</p>
 
-<p>珂珂喜欢慢慢吃，但仍然想在警卫回来前吃掉所有的香蕉。</p>
-
-<p>返回她可以在 <code>h</code> 小时内吃掉所有香蕉的最小速度 <code>k</code>（<code>k</code> 为整数）。</p>
+<p>Return <em>the minimum integer</em> <code>k</code> <em>such that she can eat all the bananas within</em> <code>h</code> <em>hours</em>.</p>
 
 <p>&nbsp;</p>
-
-<ul>
-</ul>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>piles = [3,6,7,11], h = 8
-<strong>输出：</strong>4
+<strong>Input:</strong> piles = [3,6,7,11], h = 8
+<strong>Output:</strong> 4
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>piles = [30,11,23,4,20], h = 5
-<strong>输出：</strong>30
+<strong>Input:</strong> piles = [30,11,23,4,20], h = 5
+<strong>Output:</strong> 30
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>piles = [30,11,23,4,20], h = 6
-<strong>输出：</strong>23
+<strong>Input:</strong> piles = [30,11,23,4,20], h = 6
+<strong>Output:</strong> 23
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= piles.length &lt;= 10<sup>4</sup></code></li>
@@ -50,13 +43,9 @@
 	<li><code>1 &lt;= piles[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
-
-二分枚举速度值，找到能在 $h$ 小时内吃完所有香蕉的最小速度值。
-
-时间复杂度 $O(n\log m)$，空间复杂度 $O(1)$。其中 $n$ 是 `piles` 的长度，而 $m$ 是 `piles` 中的最大值。
+### Solution 1
 
 <!-- tabs:start -->
 

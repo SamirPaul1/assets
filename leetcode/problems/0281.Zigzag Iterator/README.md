@@ -1,40 +1,68 @@
-# [281. 锯齿迭代器](https://leetcode.cn/problems/zigzag-iterator)
+# [281. Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator)
 
-[English Version](/solution/0200-0299/0281.Zigzag%20Iterator/README_EN.md)
+[中文文档](/solution/0200-0299/0281.Zigzag%20Iterator/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two vectors of integers <code>v1</code> and <code>v2</code>, implement an iterator to return their elements alternately.</p>
 
-<p>给出两个一维的向量，请你实现一个迭代器，交替返回它们中间的元素。</p>
+<p>Implement the <code>ZigzagIterator</code> class:</p>
 
-<p><strong>示例:</strong></p>
+<ul>
+	<li><code>ZigzagIterator(List&lt;int&gt; v1, List&lt;int&gt; v2)</code> initializes the object with the two vectors <code>v1</code> and <code>v2</code>.</li>
+	<li><code>boolean hasNext()</code> returns <code>true</code> if the iterator still has elements, and <code>false</code> otherwise.</li>
+	<li><code>int next()</code> returns the current element of the iterator and moves the iterator to the next element.</li>
+</ul>
 
-<pre><strong>输入:</strong>
-v1 = [1,2]
-v2 = [3,4,5,6] 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<strong>输出:</strong> <code>[1,3,2,4,5,6]
-
-<strong>解析:</strong></code>&nbsp;通过连续调用 <em>next</em> 函数直到 <em>hasNext</em> 函数返回 <code>false，</code>
-&nbsp;    <em>next</em> 函数返回值的次序应依次为: <code>[1,3,2,4,5,6]。</code></pre>
-
-<p><strong>拓展：</strong>假如给你&nbsp;<code>k</code>&nbsp;个一维向量呢？你的代码在这种情况下的扩展性又会如何呢?</p>
-
-<p><strong>拓展声明：</strong><br>
-&nbsp;&ldquo;锯齿&rdquo; 顺序对于&nbsp;<code>k &gt; 2</code>&nbsp;的情况定义可能会有些歧义。所以，假如你觉得 &ldquo;锯齿&rdquo; 这个表述不妥，也可以认为这是一种&nbsp;&ldquo;循环&rdquo;。例如：</p>
-
-<pre><strong>输入:</strong>
-[1,2,3]
-[4,5,6,7]
-[8,9]
-
-<strong>输出: </strong><code>[1,4,8,2,5,9,3,6,7]</code>.
+<pre>
+<strong>Input:</strong> v1 = [1,2], v2 = [3,4,5,6]
+<strong>Output:</strong> [1,3,2,4,5,6]
+<strong>Explanation:</strong> By calling next repeatedly until hasNext returns false, the order of elements returned by next should be: [1,3,2,4,5,6].
 </pre>
 
-## 解法
+<p><strong class="example">Example 2:</strong></p>
 
-### 方法一
+<pre>
+<strong>Input:</strong> v1 = [1], v2 = []
+<strong>Output:</strong> [1]
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> v1 = [], v2 = [1]
+<strong>Output:</strong> [1]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>0 &lt;= v1.length, v2.length &lt;= 1000</code></li>
+	<li><code>1 &lt;= v1.length + v2.length &lt;= 2000</code></li>
+	<li><code>-2<sup>31</sup> &lt;= v1[i], v2[i] &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> What if you are given <code>k</code> vectors? How well can your code be extended to such cases?</p>
+
+<p><strong>Clarification for the follow-up question:</strong></p>
+
+<p>The &quot;Zigzag&quot; order is not clearly defined and is ambiguous for <code>k &gt; 2</code> cases. If &quot;Zigzag&quot; does not look right to you, replace &quot;Zigzag&quot; with &quot;Cyclic&quot;.</p>
+
+<p><strong>Follow-up Example:</strong></p>
+
+<pre>
+<strong>Input:</strong> v1 = [1,2,3], v2 = [4,5,6,7], v3 = [8,9]
+<strong>Output:</strong> [1,4,8,2,5,9,3,6,7]
+</pre>
+
+## Solutions
+
+### Solution 1
 
 <!-- tabs:start -->
 

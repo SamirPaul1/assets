@@ -1,58 +1,52 @@
-# [683. K 个关闭的灯泡](https://leetcode.cn/problems/k-empty-slots)
+# [683. K Empty Slots](https://leetcode.com/problems/k-empty-slots)
 
-[English Version](/solution/0600-0699/0683.K%20Empty%20Slots/README_EN.md)
+[中文文档](/solution/0600-0699/0683.K%20Empty%20Slots/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You have <code>n</code> bulbs in a row numbered from <code>1</code> to <code>n</code>. Initially, all the bulbs are turned off. We turn on <strong>exactly one</strong> bulb every day until all bulbs are on after <code>n</code> days.</p>
 
-<p><code>n</code>&nbsp;个灯泡排成一行，编号从 <code>1</code> 到<meta charset="UTF-8" />&nbsp;<code>n</code>&nbsp;。最初，所有灯泡都关闭。每天&nbsp;<strong>只打开一个</strong>&nbsp;灯泡，直到<meta charset="UTF-8" />&nbsp;<code>n</code>&nbsp;天后所有灯泡都打开。</p>
+<p>You are given an array <code>bulbs</code>&nbsp;of length <code>n</code>&nbsp;where <code>bulbs[i] = x</code> means that on the <code>(i+1)<sup>th</sup></code> day, we will turn on the bulb at position <code>x</code>&nbsp;where&nbsp;<code>i</code>&nbsp;is&nbsp;<strong>0-indexed</strong>&nbsp;and&nbsp;<code>x</code>&nbsp;is&nbsp;<strong>1-indexed.</strong></p>
 
-<p>给你一个长度为<meta charset="UTF-8" />&nbsp;<code>n</code>&nbsp;的灯泡数组 <code>blubs</code> ，其中 <code>bulbs[i] = x</code> 意味着在第 <code>(i+1)</code> 天，我们会把在位置 <code>x</code> 的灯泡打开，其中 <code>i</code> <strong>从 0 开始</strong>，<code>x</code> <strong>从 1 开始</strong>。</p>
-
-<p>给你一个整数<meta charset="UTF-8" />&nbsp;<code>k</code>&nbsp;，请返回<em>恰好有两个打开的灯泡，且它们中间 <strong>正好</strong> 有<meta charset="UTF-8" />&nbsp;<code>k</code>&nbsp;个&nbsp;<strong>全部关闭的</strong> 灯泡的 <strong>最小的天数</strong> </em>。<em>如果不存在这种情况，返回 <code>-1</code> 。</em></p>
+<p>Given an integer <code>k</code>, return&nbsp;<em>the <strong>minimum day number</strong> such that there exists two <strong>turned on</strong> bulbs that have <strong>exactly</strong>&nbsp;<code>k</code> bulbs between them that are <strong>all turned off</strong>. If there isn&#39;t such day, return <code>-1</code>.</em></p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1：</b></p>
-
-<pre>
-<b>输入：</b>
-bulbs = [1,3,2]，k = 1
-<b>输出：</b>2
-<b>解释：</b>
-第一天 bulbs[0] = 1，打开第一个灯泡 [1,0,0]
-第二天 bulbs[1] = 3，打开第三个灯泡 [1,0,1]
-第三天 bulbs[2] = 2，打开第二个灯泡 [1,1,1]
-返回2，因为在第二天，两个打开的灯泡之间恰好有一个关闭的灯泡。
-</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>bulbs = [1,2,3]，k = 1
-<strong>输出：</strong>-1
+<strong>Input:</strong> bulbs = [1,3,2], k = 1
+<strong>Output:</strong> 2
+<b>Explanation:</b>
+On the first day: bulbs[0] = 1, first bulb is turned on: [1,0,0]
+On the second day: bulbs[1] = 3, third bulb is turned on: [1,0,1]
+On the third day: bulbs[2] = 2, second bulb is turned on: [1,1,1]
+We return 2 because on the second day, there were two on bulbs with one off bulb between them.</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> bulbs = [1,2,3], k = 1
+<strong>Output:</strong> -1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == bulbs.length</code></li>
 	<li><code>1 &lt;= n &lt;= 2 * 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= bulbs[i] &lt;= n</code></li>
-	<li><code>bulbs</code> 是一个由从 <code>1</code> 到 <code>n</code> 的数字构成的排列</li>
+	<li><code>bulbs</code>&nbsp;is a permutation of numbers from&nbsp;<code>1</code>&nbsp;to&nbsp;<code>n</code>.</li>
 	<li><code>0 &lt;= k &lt;= 2 * 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：树状数组
+### Solution 1: Binary Indexed Tree
 
-我们可以使用树状数组来维护区间和，每一次打开灯泡，我们就在树状数组中更新对应位置的值，然后查询当前位置左边 $k$ 个灯泡是否都是关闭的，并且第 $k+1$ 个灯泡是否已经打开；或者查询当前位置右边 $k$ 个灯泡是否都是关闭的，并且第 $k+1$ 个灯泡是否已经打开。如果满足这两个条件之一，那么就说明当前位置是一个符合要求的位置，我们就可以返回当前的天数。
+We can use a Binary Indexed Tree to maintain the prefix sum of the bulbs. Every time we turn on a bulb, we update the corresponding position in the Binary Indexed Tree. Then we check if the $k$ bulbs to the left or right of the current bulb are all turned off and the $(k+1)$-th bulb is already turned on. If either of these conditions is met, we return the current day.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 是灯泡的数量。
+The time complexity is $O(n \times \log n)$ and the space complexity is $O(n)$, where $n$ is the number of bulbs.
 
 <!-- tabs:start -->
 

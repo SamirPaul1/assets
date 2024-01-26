@@ -1,24 +1,21 @@
-# [239. 滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum)
+# [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)
 
-[English Version](/solution/0200-0299/0239.Sliding%20Window%20Maximum/README_EN.md)
+[中文文档](/solution/0200-0299/0239.Sliding%20Window%20Maximum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array of integers&nbsp;<code>nums</code>, there is a sliding window of size <code>k</code> which is moving from the very left of the array to the very right. You can only see the <code>k</code> numbers in the window. Each time the sliding window moves right by one position.</p>
 
-<p>给你一个整数数组 <code>nums</code>，有一个大小为&nbsp;<code>k</code><em>&nbsp;</em>的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 <code>k</code>&nbsp;个数字。滑动窗口每次只向右移动一位。</p>
-
-<p>返回 <em>滑动窗口中的最大值 </em>。</p>
+<p>Return <em>the max sliding window</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [1,3,-1,-3,5,3,6,7], k = 3
-<b>输出：</b>[3,3,5,5,6,7]
-<b>解释：</b>
-滑动窗口的位置                最大值
+<strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3
+<strong>Output:</strong> [3,3,5,5,6,7]
+<strong>Explanation:</strong> 
+Window position                Max
 ---------------               -----
 [1  3  -1] -3  5  3  6  7       <strong>3</strong>
  1 [3  -1  -3] 5  3  6  7       <strong>3</strong>
@@ -28,32 +25,25 @@
  1  3  -1  -3  5 [3  6  7]      <strong>7</strong>
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [1], k = 1
-<b>输出：</b>[1]
+<strong>Input:</strong> nums = [1], k = 1
+<strong>Output:</strong> [1]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>-10<sup>4</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：优先队列（大根堆）
-
-我们可以使用优先队列（大根堆）来维护滑动窗口中的最大值。
-
-先将前 $k-1$ 个元素加入优先队列，接下来从第 $k$ 个元素开始，将新元素加入优先队列，同时判断堆顶元素是否滑出窗口，如果滑出窗口则将堆顶元素弹出。然后我们将堆顶元素加入结果数组。
-
-时间复杂度 $O(n \times \log k)$，空间复杂度 $O(k)$。其中 $n$ 为数组长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -235,22 +225,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：单调队列
-
-这道题也可以使用单调队列来解决。时间复杂度 $O(n)$，空间复杂度 $O(k)$。
-
-单调队列常见模型：找出滑动窗口中的最大值/最小值。模板：
-
-```python
-q = deque()
-for i in range(n):
-    # 判断队头是否滑出窗口
-    while q and checkout_out(q[0]):
-        q.popleft()
-    while q and check(q[-1]):
-        q.pop()
-    q.append(i)
-```
+### Solution 2
 
 <!-- tabs:start -->
 

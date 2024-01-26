@@ -1,54 +1,46 @@
-# [946. 验证栈序列](https://leetcode.cn/problems/validate-stack-sequences)
+# [946. Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences)
 
-[English Version](/solution/0900-0999/0946.Validate%20Stack%20Sequences/README_EN.md)
+[中文文档](/solution/0900-0999/0946.Validate%20Stack%20Sequences/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定&nbsp;<code>pushed</code>&nbsp;和&nbsp;<code>popped</code>&nbsp;两个序列，每个序列中的 <strong>值都不重复</strong>，只有当它们可能是在最初空栈上进行的推入 push 和弹出 pop 操作序列的结果时，返回 <code>true</code>；否则，返回 <code>false</code>&nbsp;。</p>
+<p>Given two integer arrays <code>pushed</code> and <code>popped</code> each with distinct values, return <code>true</code><em> if this could have been the result of a sequence of push and pop operations on an initially empty stack, or </em><code>false</code><em> otherwise.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
-<strong>输出：</strong>true
-<strong>解释：</strong>我们可以按以下顺序执行：
-push(1), push(2), push(3), push(4), pop() -&gt; 4,
-push(5), pop() -&gt; 5, pop() -&gt; 3, pop() -&gt; 2, pop() -&gt; 1
+<strong>Input:</strong> pushed = [1,2,3,4,5], popped = [4,5,3,2,1]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We might do the following sequence:
+push(1), push(2), push(3), push(4),
+pop() -&gt; 4,
+push(5),
+pop() -&gt; 5, pop() -&gt; 3, pop() -&gt; 2, pop() -&gt; 1
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
-<strong>输出：</strong>false
-<strong>解释：</strong>1 不能在 2 之前弹出。
+<strong>Input:</strong> pushed = [1,2,3,4,5], popped = [4,3,5,1,2]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> 1 cannot be popped before 2.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= pushed.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= pushed[i] &lt;= 1000</code></li>
-	<li><code>pushed</code> 的所有元素 <strong>互不相同</strong></li>
+	<li>All the elements of <code>pushed</code> are <strong>unique</strong>.</li>
 	<li><code>popped.length == pushed.length</code></li>
-	<li><code>popped</code> 是 <code>pushed</code> 的一个排列</li>
+	<li><code>popped</code> is a permutation of <code>pushed</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：栈模拟
-
-遍历 `pushed` 序列，将每个数 `v` 依次压入栈中，压入后检查这个数是不是 `popped` 序列中下一个要弹出的值，如果是就循环把栈顶元素弹出。
-
-遍历结束，如果 `popped` 序列已经到末尾，说明是一个合法的序列，否则不是。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是 `pushed` 序列的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

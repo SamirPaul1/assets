@@ -1,47 +1,39 @@
-# [159. 至多包含两个不同字符的最长子串](https://leetcode.cn/problems/longest-substring-with-at-most-two-distinct-characters)
+# [159. Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)
 
-[English Version](/solution/0100-0199/0159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters/README_EN.md)
+[中文文档](/solution/0100-0199/0159.Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-给你一个字符串 <code>s</code> ，请你找出&nbsp;<strong>至多&nbsp;</strong>包含 <strong>两个不同字符</strong> 的最长子串，并返回该子串的长度。
+<p>Given a string <code>s</code>, return <em>the length of the longest </em><span data-keyword="substring-nonempty"><em>substring</em></span><em> that contains at most <strong>two distinct characters</strong></em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "eceba"
-<strong>输出：</strong>3
-<strong>解释：</strong>满足题目要求的子串是 "ece" ，长度为 3 。
+<strong>Input:</strong> s = &quot;eceba&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The substring is &quot;ece&quot; which its length is 3.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "ccaabbb"
-<strong>输出：</strong>5
-<strong>解释：</strong>满足题目要求的子串是 "aabbb" ，长度为 5 。
+<strong>Input:</strong> s = &quot;ccaabbb&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> The substring is &quot;aabbb&quot; which its length is 5.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> 由英文字母组成</li>
+	<li><code>s</code> consists of English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 滑动窗口
-
-我们维护一个哈希表 `cnt` 记录当前滑动窗口中各个字符出现的次数，如果哈希表中的键值对个数超过 $2$，则说明当前滑动窗口中包含了超过 $2$ 个不同的字符，此时需要移动左指针 `j`，直到哈希表中的键值对个数不超过 $2$ 为止，然后更新窗口的最大长度。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为字符串 $s$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

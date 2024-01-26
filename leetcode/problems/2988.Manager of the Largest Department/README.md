@@ -1,12 +1,10 @@
-# [2988. 最大部门的经理](https://leetcode.cn/problems/manager-of-the-largest-department)
+# [2988. Manager of the Largest Department](https://leetcode.com/problems/manager-of-the-largest-department)
 
-[English Version](/solution/2900-2999/2988.Manager%20of%20the%20Largest%20Department/README_EN.md)
+[中文文档](/solution/2900-2999/2988.Manager%20of%20the%20Largest%20Department/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：&nbsp;<code>Employees</code></p>
+<p>Table: <code>Employees</code></p>
 
 <pre>
 +-------------+---------+
@@ -17,22 +15,21 @@
 | dep_id      | int     |
 | position    | varchar |
 +-------------+---------+
-emp_id 是这张表具有唯一值的列。
-这张表包括 emp_id, emp_name, dep_id,和 position。
+emp_id is column of unique values for this table.
+This table contains emp_id, emp_name, dep_id, and position.
 </pre>
 
-<p>查询 <strong>最大部门</strong> 的&nbsp;<strong>经理</strong>&nbsp;的&nbsp;<strong>名字</strong>。当拥有相同数量的员工时，可能会有多个最大部门。</p>
+<p>Write a solution to find the <strong>name</strong> of the <strong>manager</strong> from the <strong>largest department</strong>. There may be multiple largest departments when the number of employees in those departments is the same.</p>
 
-<p>返回&nbsp;<em>按照</em> <code>dep_id</code> <em><strong>升序</strong> 排列的结果表格。</em></p>
+<p>Return <em>the result table sorted by </em><code>dep_id</code><em> in <strong>ascending</strong> order</em><em>.</em></p>
 
-<p>结果表格的格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1:</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 Employees table:
 +--------+----------+--------+---------------+
 | emp_id | emp_name | dep_id | position      | 
@@ -49,24 +46,24 @@ Employees table:
 | 128    | Ian      | 101    | Administrator |
 | 81     | Ethan    | 107    | Administrator |
 +--------+----------+--------+---------------+
-<b>输出</b>
+<strong>Output</strong>
 +--------------+--------+
 | manager_name | dep_id | 
 +--------------+--------+
 | Joseph       | 100    | 
 | Isabella     | 101    | 
 +--------------+--------+
-<b>解释</b>
-- 部门 ID 为 100 和 101 的每个部门都有 4 名员工，而部门 107 有 3 名员工。由于部门 100 和 101 都拥有相同数量的员工，它们各自的经理将被包括在内。
-输出表格按 dep_id 升序排列。
+<strong>Explanation</strong>
+- Departments with IDs 100 and 101 each has a total of 4 employees, while department 107 has 3 employees. Since both departments 100 and 101 have an equal number of employees, their respective managers will be included.
+Output table is ordered by dep_id in ascending order.
 
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：分组 + 等值连接 + 子查询
+### Solution 1: Grouping + Equi-Join + Subquery
 
-我们可以先统计每个部门的员工数量，记为表 `T`，然后我们将 `T` 与 `Employees` 表进行连接，连接条件为 `T.dep_id = Employees.dep_id`，并且 `Employees.position = 'Manager'`，这样就可以得到每个部门的经理，最后我们再筛选出员工数量最多的部门即可。
+We can first count the number of employees in each department, denoted as table `T`. Then we join `T` with the `Employees` table, with the join condition being `T.dep_id = Employees.dep_id` and `Employees.position = 'Manager'`. This way, we can get the manager of each department. Finally, we filter out the department with the most employees.
 
 <!-- tabs:start -->
 

@@ -1,57 +1,85 @@
-# [271. 字符串的编码与解码](https://leetcode.cn/problems/encode-and-decode-strings)
+# [271. Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings)
 
-[English Version](/solution/0200-0299/0271.Encode%20and%20Decode%20Strings/README_EN.md)
+[中文文档](/solution/0200-0299/0271.Encode%20and%20Decode%20Strings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design an algorithm to encode <b>a list of strings</b> to <b>a string</b>. The encoded string is then sent over the network and is decoded back to the original list of strings.</p>
 
-<p>请你设计一个算法，可以将一个&nbsp;<strong>字符串列表&nbsp;</strong>编码成为一个&nbsp;<strong>字符串</strong>。这个编码后的字符串是可以通过网络进行高效传送的，并且可以在接收端被解码回原来的字符串列表。</p>
+<p>Machine 1 (sender) has the function:</p>
 
-<p>1 号机（发送方）有如下函数：</p>
-
-<pre>string encode(vector&lt;string&gt; strs) {
+<pre>
+string encode(vector&lt;string&gt; strs) {
   // ... your code
   return encoded_string;
 }</pre>
 
-<p>2 号机（接收方）有如下函数：</p>
+Machine 2 (receiver) has the function:
 
-<pre>vector&lt;string&gt; decode(string s) {
+<pre>
+vector&lt;string&gt; decode(string s) {
   //... your code
   return strs;
 }
 </pre>
 
-<p>1 号机（发送方）执行：</p>
+<p>So Machine 1 does:</p>
 
-<pre>string encoded_string = encode(strs);
+<pre>
+string encoded_string = encode(strs);
 </pre>
 
-<p>2 号机（接收方）执行：</p>
+<p>and Machine 2 does:</p>
 
-<pre>vector&lt;string&gt; strs2 = decode(encoded_string);
+<pre>
+vector&lt;string&gt; strs2 = decode(encoded_string);
 </pre>
 
-<p>此时，2 号机（接收方）的 <code>strs2</code>&nbsp;需要和 1 号机（发送方）的 <code>strs</code> 相同。</p>
+<p><code>strs2</code> in Machine 2 should be the same as <code>strs</code> in Machine 1.</p>
 
-<p>请你来实现这个&nbsp;<code>encode</code> 和&nbsp;<code>decode</code> 方法。</p>
+<p>Implement the <code>encode</code> and <code>decode</code> methods.</p>
 
-<p><strong>注意：</strong></p>
+<p>You are not allowed to&nbsp;solve the problem using any serialize methods (such as <code>eval</code>).</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> dummy_input = [&quot;Hello&quot;,&quot;World&quot;]
+<strong>Output:</strong> [&quot;Hello&quot;,&quot;World&quot;]
+<strong>Explanation:</strong>
+Machine 1:
+Codec encoder = new Codec();
+String msg = encoder.encode(strs);
+Machine 1 ---msg---&gt; Machine 2
+
+Machine 2:
+Codec decoder = new Codec();
+String[] strs = decoder.decode(msg);
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> dummy_input = [&quot;&quot;]
+<strong>Output:</strong> [&quot;&quot;]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>因为字符串可能会包含 256 个合法&nbsp;ascii 字符中的任何字符，所以您的算法必须要能够处理任何可能会出现的字符。</li>
-	<li>请勿使用 &ldquo;类成员&rdquo;、&ldquo;全局变量&rdquo; 或 &ldquo;静态变量&rdquo; 来存储这些状态，您的编码和解码算法应该是非状态依赖的。</li>
-	<li>请不要依赖任何方法库，例如 <code>eval</code>&nbsp;又或者是&nbsp;<code>serialize</code>&nbsp;之类的方法。本题的宗旨是需要您自己实现 &ldquo;编码&rdquo; 和 &ldquo;解码&rdquo; 算法。</li>
+	<li><code>1 &lt;= strs.length &lt;= 200</code></li>
+	<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
+	<li><code>strs[i]</code> contains any possible characters out of <code>256</code> valid ASCII characters.</li>
 </ul>
 
-## 解法
+<p>&nbsp;</p>
+<p><strong>Follow up: </strong>Could you write a generalized algorithm to work on any possible set of characters?</p>
 
-### 方法一：使用非 ASCII 码的分隔符
+## Solutions
 
-Python 中可以直接 `chr(257)` 作为字符串的分隔符，这样就可以实现字符串的编码和解码。
-
-时间复杂度 $O(n)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -171,13 +199,7 @@ func (codec *Codec) Decode(strs string) []string {
 
 <!-- tabs:end -->
 
-### 方法二：编码字符串长度
-
-编码时，将字符串的长度转成固定 $4$ 位的字符串，加上字符串本身，依次拼接到结果字符串。
-
-解码时，先取前四位字符串，得到长度，再通过长度截取后面的字符串。依次截取，最终得到字符串列表。
-
-时间复杂度 $O(n)$。
+### Solution 2
 
 <!-- tabs:start -->
 

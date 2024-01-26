@@ -1,64 +1,63 @@
-# [2007. 从双倍数组中还原原数组](https://leetcode.cn/problems/find-original-array-from-doubled-array)
+# [2007. Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array)
 
-[English Version](/solution/2000-2099/2007.Find%20Original%20Array%20From%20Doubled%20Array/README_EN.md)
+[中文文档](/solution/2000-2099/2007.Find%20Original%20Array%20From%20Doubled%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An integer array <code>original</code> is transformed into a <strong>doubled</strong> array <code>changed</code> by appending <strong>twice the value</strong> of every element in <code>original</code>, and then randomly <strong>shuffling</strong> the resulting array.</p>
 
-<p>一个整数数组&nbsp;<code>original</code>&nbsp;可以转变成一个 <strong>双倍</strong>&nbsp;数组&nbsp;<code>changed</code>&nbsp;，转变方式为将 <code>original</code>&nbsp;中每个元素 <strong>值乘以 2 </strong>加入数组中，然后将所有元素 <strong>随机打乱</strong>&nbsp;。</p>
-
-<p>给你一个数组&nbsp;<code>changed</code>&nbsp;，如果&nbsp;<code>change</code>&nbsp;是&nbsp;<strong>双倍</strong>&nbsp;数组，那么请你返回&nbsp;<code>original</code>数组，否则请返回空数组。<code>original</code>&nbsp;的元素可以以&nbsp;<strong>任意</strong>&nbsp;顺序返回。</p>
+<p>Given an array <code>changed</code>, return <code>original</code><em> if </em><code>changed</code><em> is a <strong>doubled</strong> array. If </em><code>changed</code><em> is not a <strong>doubled</strong> array, return an empty array. The elements in</em> <code>original</code> <em>may be returned in <strong>any</strong> order</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>changed = [1,3,4,2,6,8]
-<b>输出：</b>[1,3,4]
-<b>解释：</b>一个可能的 original 数组为 [1,3,4] :
-- 将 1 乘以 2 ，得到 1 * 2 = 2 。
-- 将 3 乘以 2 ，得到 3 * 2 = 6 。
-- 将 4 乘以 2 ，得到 4 * 2 = 8 。
-其他可能的原数组方案为 [4,3,1] 或者 [3,1,4] 。
+<pre>
+<strong>Input:</strong> changed = [1,3,4,2,6,8]
+<strong>Output:</strong> [1,3,4]
+<strong>Explanation:</strong> One possible original array could be [1,3,4]:
+- Twice the value of 1 is 1 * 2 = 2.
+- Twice the value of 3 is 3 * 2 = 6.
+- Twice the value of 4 is 4 * 2 = 8.
+Other original arrays could be [4,3,1] or [3,1,4].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>changed = [6,3,0,1]
-<b>输出：</b>[]
-<b>解释：</b>changed 不是一个双倍数组。
+<pre>
+<strong>Input:</strong> changed = [6,3,0,1]
+<strong>Output:</strong> []
+<strong>Explanation:</strong> changed is not a doubled array.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><b>输入：</b>changed = [1]
-<b>输出：</b>[]
-<b>解释：</b>changed 不是一个双倍数组。
+<pre>
+<strong>Input:</strong> changed = [1]
+<strong>Output:</strong> []
+<strong>Explanation:</strong> changed is not a doubled array.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= changed.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= changed[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序 + 计数 + 遍历
+### Solution 1: Sorting + Counting + Traversal
 
-我们先判断数组 `changed` 的长度 $n$ 是否为奇数，若是，则直接返回空数组。
+First, we check if the length $n$ of the array `changed` is odd. If it is, we directly return an empty array.
 
-然后对数组 `changed` 进行排序，并且用哈希表或数组 `cnt` 统计数组 `changed` 中每个元素出现的次数。
+Then, we sort the array `changed`, and use a hash table or array `cnt` to count the occurrence of each element in `changed`.
 
-接下来遍历数组 `changed`，对于数组 `changed` 中的每个元素 $x$，我们首先判断哈希表 `cnt` 中是否存在 $x$，若不存在，则直接跳过该元素。否则，我们判断 `cnt` 中是否存在 $x \times 2$，若不存在，则直接返回空数组。否则，我们将 $x$ 加入答案数组 `ans` 中，并且将 `cnt` 中 $x$ 和 $x \times 2$ 的出现次数分别减 $1$。
+Next, we traverse the array `changed`. For each element $x$ in `changed`, we first check if $x$ exists in the hash table `cnt`. If it does not exist, we directly skip this element. Otherwise, we check if $x \times 2$ exists in `cnt`. If it does not exist, we directly return an empty array. Otherwise, we add $x$ to the answer array `ans`, and decrease the occurrence counts of $x$ and $x \times 2$ in `cnt` by $1$ each.
 
-遍历结束后，我们判断答案数组 `ans` 的长度是否为 $\frac{n}{2}$，若是，则返回 `ans`，否则返回空数组。
+After the traversal, we check if the length of the answer array `ans` is $\frac{n}{2}$. If it is, we return `ans`, otherwise we return an empty array.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 `changed` 的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array `changed`.
 
 <!-- tabs:start -->
 

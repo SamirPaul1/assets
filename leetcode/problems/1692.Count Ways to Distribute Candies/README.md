@@ -1,40 +1,37 @@
-# [1692. 计算分配糖果的不同方式](https://leetcode.cn/problems/count-ways-to-distribute-candies)
+# [1692. Count Ways to Distribute Candies](https://leetcode.com/problems/count-ways-to-distribute-candies)
 
-[English Version](/solution/1600-1699/1692.Count%20Ways%20to%20Distribute%20Candies/README_EN.md)
+[中文文档](/solution/1600-1699/1692.Count%20Ways%20to%20Distribute%20Candies/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There are <code>n</code> <strong>unique</strong> candies (labeled <code>1</code> through <code>n</code>) and <code>k</code> bags. You are asked to distribute <strong>all</strong> the candies into the bags such that every bag has <strong>at least</strong> one candy.</p>
 
-<p>现有 <code>n</code> 颗 <strong>不同</strong> 糖果（分别标记为 <code>1</code> 到 <code>n</code> ）和 <code>k</code> 个相同的手袋。请把糖果分配到各个手袋中并保证每个手袋里至少有一颗糖果。</p>
+<p>There can be multiple ways to distribute the candies. Two ways are considered <strong>different</strong> if the candies in one bag in the first way are not all in the same bag in the second way. The order of the bags and the order of the candies within each bag do not matter.</p>
 
-<p>不考虑手袋和糖果的摆放顺序，会有多种不同的分配方式。如果某种分配方式中其中一个手袋里的糖果与另一种分配方式中所有手袋里的糖果都不相同，则认为这两种分配方式不同。</p>
+<p>For example, <code>(1), (2,3)</code> and <code>(2), (1,3)</code> are considered different because candies <code>2</code> and <code>3</code> in the bag <code>(2,3)</code> in the first way are not in the same bag in the second way (they are split between the bags <code>(<u>2</u>)</code> and <code>(1,<u>3</u>)</code>). However, <code>(1), (2,3)</code> and <code>(3,2), (1)</code> are considered the same because the candies in each bag are all in the same bags in both ways.</p>
 
-<p>例如，<code>(1), (2,3)</code>&nbsp;与<code>(2), (1,3)</code>的分配方式是不同的，因为第一种分配方式中手袋(2,3)里的糖果2和3，在第二种分配方式中被分配到了手袋<code>(2)</code>和<code>(1,3)</code>&nbsp;中。</p>
-
-<p>已知整数&nbsp;<code>n</code>&nbsp;和&nbsp;<code>k</code>, 请返回分配糖果的不同方式。返回的答案如果数值太大，请取<code>10<sup>9</sup> + 7</code>的模，并返回。</p>
+<p>Given two integers, <code>n</code> and <code>k</code>, return <em>the <strong>number</strong> of different ways to distribute the candies</em>. As the answer may be too large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例&nbsp;1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1692.Count%20Ways%20to%20Distribute%20Candies/images/candies-1.png" style="height: 248px; width: 600px;" /></p>
 
 <pre>
-<strong>输入：</strong>n = 3, k = 2
-<strong>输出：</strong>3
-<strong>解释：</strong>把糖果 3 分配到 2 个手袋中的一个，共有 3 种方式:
+<strong>Input:</strong> n = 3, k = 2
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> You can distribute 3 candies into 2 bags in 3 ways:
 (1), (2,3)
 (1,2), (3)
 (1,3), (2)
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 4, k = 2
-<strong>输出：</strong>7
-<strong>解释：</strong>把糖果 4 分配到 2 个手袋中的一个，共有 7 种方式:
+<strong>Input:</strong> n = 4, k = 2
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> You can distribute 4 candies into 2 bags in 7 ways:
 (1), (2,3,4)
 (1,2), (3,4)
 (1,3), (2,4)
@@ -44,37 +41,36 @@
 (1,3,4), (2)
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 20, k = 5
-<strong>输出：</strong>206085257
-<strong>解释：</strong>把 20 颗糖果分配到 5 个手袋种，共有 1881780996 种方式。1881780996 取 10<sup>9</sup> + 7的模，等于 206085257。
+<strong>Input:</strong> n = 20, k = 5
+<strong>Output:</strong> 206085257
+<strong>Explanation:</strong> You can distribute 20 candies into 5 bags in 1881780996 ways. 1881780996 modulo 10<sup>9</sup> + 7 = 206085257.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= k &lt;= n &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i][j]$ 表示将 $i$ 个糖果分配给 $j$ 个手袋的不同分配方式的数量。初始时 $f[0][0]=1$，答案为 $f[n][k]$。
+We define $f[i][j]$ as the number of different ways to distribute $i$ candies to $j$ bags. Initially, $f[0][0]=1$, and the answer is $f[n][k]$.
 
-我们考虑第 $i$ 个糖果如何分配，如果第 $i$ 个糖果分配给一个新的手袋，那么 $f[i][j]=f[i-1][j-1]$；如果第 $i$ 个糖果分配给一个已有的手袋，那么 $f[i][j]=f[i-1][j]\times j$。因此，状态转移方程为：
+We consider how to distribute the $i$-th candy. If the $i$-th candy is distributed to a new bag, then $f[i][j]=f[i-1][j-1]$. If the $i$-th candy is distributed to an existing bag, then $f[i][j]=f[i-1][j]\times j$. Therefore, the state transition equation is:
 
 $$
 f[i][j]=f[i-1][j-1]+f[i-1][j]\times j
 $$
 
-最终的答案为 $f[n][k]$。
+The final answer is $f[n][k]$.
 
-时间复杂度 $O(n \times k)$，空间复杂度 $O(n \times k)$。其中 $n$ 和 $k$ 分别为糖果的数量和手袋的数量。
+The time complexity is $O(n \times k)$, and the space complexity is $O(n \times k)$. Here, $n$ and $k$ are the number of candies and bags, respectively.
 
 <!-- tabs:start -->
 

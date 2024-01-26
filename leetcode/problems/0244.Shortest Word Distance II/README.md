@@ -1,56 +1,49 @@
-# [244. 最短单词距离 II](https://leetcode.cn/problems/shortest-word-distance-ii)
+# [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii)
 
-[English Version](/solution/0200-0299/0244.Shortest%20Word%20Distance%20II/README_EN.md)
+[中文文档](/solution/0200-0299/0244.Shortest%20Word%20Distance%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a data structure that will be initialized with a string array, and then it should answer queries of the shortest distance between two different strings from the array.</p>
 
-<p>请设计一个类，使该类的构造函数能够接收一个字符串数组。然后再实现一个方法，该方法能够分别接收两个单词<em>，</em>并返回列表中这两个单词之间的最短距离。</p>
-
-<p>实现&nbsp;<code>WordDistanc</code>&nbsp;类:</p>
+<p>Implement the <code>WordDistance</code> class:</p>
 
 <ul>
-	<li><code>WordDistance(String[] wordsDict)</code>&nbsp;用字符串数组 <code>wordsDict</code> 初始化对象。</li>
-	<li><code>int shortest(String word1, String word2)</code>&nbsp;返回数组 <code>worddict</code> 中 <code>word1</code> 和 <code>word2</code> 之间的最短距离。</li>
+	<li><code>WordDistance(String[] wordsDict)</code> initializes the object with the strings array <code>wordsDict</code>.</li>
+	<li><code>int shortest(String word1, String word2)</code> returns the shortest distance between <code>word1</code> and <code>word2</code> in the array <code>wordsDict</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-["WordDistance", "shortest", "shortest"]
-[[["practice", "makes", "perfect", "coding", "makes"]], ["coding", "practice"], ["makes", "coding"]]
-<strong>输出:</strong>
+<strong>Input</strong>
+[&quot;WordDistance&quot;, &quot;shortest&quot;, &quot;shortest&quot;]
+[[[&quot;practice&quot;, &quot;makes&quot;, &quot;perfect&quot;, &quot;coding&quot;, &quot;makes&quot;]], [&quot;coding&quot;, &quot;practice&quot;], [&quot;makes&quot;, &quot;coding&quot;]]
+<strong>Output</strong>
 [null, 3, 1]
 
-<b>解释：</b>
-WordDistance wordDistance = new WordDistance(["practice", "makes", "perfect", "coding", "makes"]);
-wordDistance.shortest("coding", "practice"); // 返回 3
-wordDistance.shortest("makes", "coding");    // 返回 1</pre>
+<strong>Explanation</strong>
+WordDistance wordDistance = new WordDistance([&quot;practice&quot;, &quot;makes&quot;, &quot;perfect&quot;, &quot;coding&quot;, &quot;makes&quot;]);
+wordDistance.shortest(&quot;coding&quot;, &quot;practice&quot;); // return 3
+wordDistance.shortest(&quot;makes&quot;, &quot;coding&quot;);    // return 1
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>注意:</strong><meta charset="UTF-8" /></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= wordsDict.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= wordsDict[i].length &lt;= 10</code></li>
-	<li><code>wordsDict[i]</code>&nbsp;由小写英文字母组成</li>
-	<li><code>word1</code>&nbsp;和&nbsp;<code>word2</code>&nbsp;在数组&nbsp;<code>wordsDict</code>&nbsp;中</li>
+	<li><code>wordsDict[i]</code> consists of lowercase English letters.</li>
+	<li><code>word1</code> and <code>word2</code> are in <code>wordsDict</code>.</li>
 	<li><code>word1 != word2</code></li>
-	<li>&nbsp;<code>shortest</code>&nbsp;操作次数不大于&nbsp;<code>5000</code>&nbsp;</li>
+	<li>At most <code>5000</code> calls will be made to <code>shortest</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 双指针
-
-我们用哈希表 $d$ 存储每个单词在数组中出现的所有下标，然后用双指针 $i$ 和 $j$ 分别指向两个单词在数组中出现的下标列表 $a$ 和 $b$，每次更新下标差值的最小值，然后移动下标较小的指针，直到其中一个指针遍历完下标列表。
-
-初始化的时间复杂度为 $O(n)$，其中 $n$ 为数组的长度。每次调用 `shortest` 方法的时间复杂度为 $O(m + n)$，其中 $m$ 为两个单词在数组中出现的下标列表的长度之和。
+### Solution 1
 
 <!-- tabs:start -->
 

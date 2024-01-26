@@ -1,74 +1,57 @@
-# [2147. 分隔长廊的方案数](https://leetcode.cn/problems/number-of-ways-to-divide-a-long-corridor)
+# [2147. Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor)
 
-[English Version](/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/README_EN.md)
+[中文文档](/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Along a long library corridor, there is a line of seats and decorative plants. You are given a <strong>0-indexed</strong> string <code>corridor</code> of length <code>n</code> consisting of letters <code>&#39;S&#39;</code> and <code>&#39;P&#39;</code> where each <code>&#39;S&#39;</code> represents a seat and each <code>&#39;P&#39;</code> represents a plant.</p>
 
-<p>在一个图书馆的长廊里，有一些座位和装饰植物排成一列。给你一个下标从 <strong>0</strong>&nbsp;开始，长度为 <code>n</code>&nbsp;的字符串&nbsp;<code>corridor</code>&nbsp;，它包含字母&nbsp;<code>'S'</code> 和&nbsp;<code>'P'</code>&nbsp;，其中每个&nbsp;<code>'S'</code>&nbsp;表示一个座位，每个&nbsp;<code>'P'</code>&nbsp;表示一株植物。</p>
+<p>One room divider has <strong>already</strong> been installed to the left of index <code>0</code>, and <strong>another</strong> to the right of index <code>n - 1</code>. Additional room dividers can be installed. For each position between indices <code>i - 1</code> and <code>i</code> (<code>1 &lt;= i &lt;= n - 1</code>), at most one divider can be installed.</p>
 
-<p>在下标 <code>0</code>&nbsp;的左边和下标 <code>n - 1</code>&nbsp;的右边 <strong>已经</strong>&nbsp;分别各放了一个屏风。你还需要额外放置一些屏风。每一个位置&nbsp;<code>i - 1</code> 和&nbsp;<code>i</code>&nbsp;之间（<code>1 &lt;= i &lt;= n - 1</code>），至多能放一个屏风。</p>
+<p>Divide the corridor into non-overlapping sections, where each section has <strong>exactly two seats</strong> with any number of plants. There may be multiple ways to perform the division. Two ways are <strong>different</strong> if there is a position with a room divider installed in the first way but not in the second way.</p>
 
-<p>请你将走廊用屏风划分为若干段，且每一段内都 <strong>恰好有两个座位</strong>&nbsp;，而每一段内植物的数目没有要求。可能有多种划分方案，如果两个方案中有任何一个屏风的位置不同，那么它们被视为 <strong>不同</strong> 方案。</p>
-
-<p>请你返回划分走廊的方案数。由于答案可能很大，请你返回它对&nbsp;<code>10<sup>9</sup> + 7</code>&nbsp;<strong>取余</strong>&nbsp;的结果。如果没有任何方案，请返回&nbsp;<code>0</code>&nbsp;。</p>
+<p>Return <em>the number of ways to divide the corridor</em>. Since the answer may be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>. If there is no way, return <code>0</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/images/1.png" style="width: 410px; height: 199px;"></p>
-
-<pre><b>输入：</b>corridor = "SSPPSPS"
-<b>输出：</b>3
-<b>解释：</b>总共有 3 种不同分隔走廊的方案。
-上图中黑色的竖线表示已经放置好的屏风。
-上图每种方案中，每一段都恰好有 <strong>两个</strong>&nbsp;座位。
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/images/1.png" style="width: 410px; height: 199px;" />
+<pre>
+<strong>Input:</strong> corridor = &quot;SSPPSPS&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> There are 3 different ways to divide the corridor.
+The black bars in the above image indicate the two room dividers already installed.
+Note that in each of the ways, <strong>each</strong> section has exactly <strong>two</strong> seats.
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/images/2.png" style="width: 357px; height: 68px;"></p>
-
-<pre><b>输入：</b>corridor = "PPSPSP"
-<b>输出：</b>1
-<b>解释：</b>只有 1 种分隔走廊的方案，就是不放置任何屏风。
-放置任何的屏风都会导致有一段无法恰好有 2 个座位。
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/images/2.png" style="width: 357px; height: 68px;" />
+<pre>
+<strong>Input:</strong> corridor = &quot;PPSPSP&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is only 1 way to divide the corridor, by not installing any additional dividers.
+Installing any would create some section that does not have exactly two seats.
 </pre>
 
-<p><strong>示例 3：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/images/3.png" style="width: 115px; height: 68px;"></p>
-
-<pre><b>输入：</b>corridor = "S"
-<b>输出：</b>0
-<b>解释：</b>没有任何方案，因为总是有一段无法恰好有 2 个座位。
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2147.Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/images/3.png" style="width: 115px; height: 68px;" />
+<pre>
+<strong>Input:</strong> corridor = &quot;S&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There is no way to divide the corridor because there will always be a section that does not have exactly two seats.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == corridor.length</code></li>
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>corridor[i]</code>&nbsp;要么是&nbsp;<code>'S'</code>&nbsp;，要么是&nbsp;<code>'P'</code> 。</li>
+	<li><code>corridor[i]</code> is either <code>&#39;S&#39;</code> or <code>&#39;P&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：记忆化搜索
-
-设计函数 `dfs(i, cnt)` 表示从下标 `i` 开始，且当前已经分配了 `cnt` 个座位的方案数。
-
-对于下标 `i` 处的字符，如果是 `S`，那么 `cnt` 加 `1`，如果此时 `cnt` 超过 `2`，那么直接返回 `0`。
-
-否则我们可以选择不放置屏风，此时的方案数为 `dfs(i + 1, cnt)`；如果此时 `cnt` 为 `2`，我们还可以选择放置屏风，此时的方案数为 `dfs(i + 1, 0)`。
-
-最终返回方案数，记忆化搜索即可。
-
-时间复杂度 $O(n\times 3)$，空间复杂度 $O(n\times 3)$。其中 $n$ 为字符串 `corridor` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

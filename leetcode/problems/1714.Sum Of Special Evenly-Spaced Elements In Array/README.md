@@ -1,38 +1,36 @@
-# [1714. 数组中特殊等间距元素的和](https://leetcode.cn/problems/sum-of-special-evenly-spaced-elements-in-array)
+# [1714. Sum Of Special Evenly-Spaced Elements In Array](https://leetcode.com/problems/sum-of-special-evenly-spaced-elements-in-array)
 
-[English Version](/solution/1700-1799/1714.Sum%20Of%20Special%20Evenly-Spaced%20Elements%20In%20Array/README_EN.md)
+[中文文档](/solution/1700-1799/1714.Sum%20Of%20Special%20Evenly-Spaced%20Elements%20In%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> consisting of <code>n</code> non-negative integers.</p>
 
-<p>给定一个<strong>索引从 0 开始</strong>的整数类型数组 <code>nums</code> ，包含 <code>n</code> 个非负整数。</p>
+<p>You are also given an array <code>queries</code>, where <code>queries[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>. The answer to the <code>i<sup>th</sup></code> query is the sum of all <code>nums[j]</code> where <code>x<sub>i</sub> &lt;= j &lt; n</code> and <code>(j - x<sub>i</sub>)</code> is divisible by <code>y<sub>i</sub></code>.</p>
 
-<p>另外给定一个（包含查询指令的）数组 <code>queries</code> ，其中 <code>queries[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>。 第 <code>i</code> 个查询指令的答案是 <code>nums[j]</code> 中满足该条件的所有元素的和： <code>x<sub>i</sub> &lt;= j &lt; n</code> 且 <code>(j - x<sub>i</sub>)</code> 能被 <code>y<sub>i</sub></code> 整除。</p>
+<p>Return <em>an array </em><code>answer</code><em> where </em><code>answer.length == queries.length</code><em> and </em><code>answer[i]</code><em> is the answer to the </em><code>i<sup>th</sup></code><em> query <b>modulo</b> </em><code>10<sup>9 </sup>+ 7</code>.</p>
 
-<p>返回一个数组<em> </em><code>answer</code>，其中<em>  </em><code>answer.length == queries.length</code> 且 <code>answer[i]</code> 是第 <code>i</code> 个查询指令的答案对 <code>10<sup>9 </sup>+ 7</code> 取模。</p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p> </p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre><strong>输入:</strong> nums = [0,1,2,3,4,5,6,7], queries = [[0,3],[5,1],[4,2]]
-<strong>输出:</strong> [9,18,10]
-<strong>解释:</strong> 每次查询的答案如下：
-1) 符合查询条件的索引 j 有 0、 3 和 6。 nums[0] + nums[3] + nums[6] = 9
-2) 符合查询条件的索引 j 有 5、 6 和 7。 nums[5] + nums[6] + nums[7] = 18
-3) 符合查询条件的索引 j 有 4 和 6。 nums[4] + nums[6] = 10
+<pre>
+<strong>Input:</strong> nums = [0,1,2,3,4,5,6,7], queries = [[0,3],[5,1],[4,2]]
+<strong>Output:</strong> [9,18,10]
+<strong>Explanation:</strong> The answers of the queries are as follows:
+1) The j indices that satisfy this query are 0, 3, and 6. nums[0] + nums[3] + nums[6] = 9
+2) The j indices that satisfy this query are 5, 6, and 7. nums[5] + nums[6] + nums[7] = 18
+3) The j indices that satisfy this query are 4 and 6. nums[4] + nums[6] = 10
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入:</strong> nums = [100,200,101,201,102,202,103,203], queries = [[0,7]]
-<strong>输出:</strong> [303]
+<pre>
+<strong>Input:</strong> nums = [100,200,101,201,102,202,103,203], queries = [[0,7]]
+<strong>Output:</strong> [303]
 </pre>
 
-<p> </p>
-
-<p><b>提示：</b></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
@@ -43,20 +41,20 @@
 	<li><code>1 &lt;= y<sub>i</sub> &lt;= 5 * 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：分块
+### Solution 1: Block Decomposition
 
-这道题是一道比较典型的分块题目，对于步长较大的查询，我们可以直接暴力求解；对于步长较小的查询，我们可以预处理出每个位置的后缀和，然后直接查询。
+This problem is a typical block decomposition problem. For queries with a large step size, we can directly brute force the solution; for queries with a small step size, we can preprocess the suffix sum of each position and then directly query.
 
-本题中，我们将步长较大的查询的步长限制为 $\sqrt{n}$，这样就可以保证每个查询的时间复杂度为 $O(\sqrt{n})$。
+In this problem, we limit the step size of the large step size query to $\sqrt{n}$, which can ensure that the time complexity of each query is $O(\sqrt{n})$.
 
-我们定义一个二维数组 $suf$，其中 $suf[i][j]$ be 表示从位置 $j$ 开始，步长为 $i$ 的后缀和。那么对于每个查询 $[x, y]$，我们可以分为两种情况：
+We define a two-dimensional array $suf$, where $suf[i][j]$ represents the suffix sum starting from position $j$ with a step size of $i$. Then for each query $[x, y]$, we can divide it into two cases:
 
--   如果 $y \le \sqrt{n}$，那么我们可以直接查询 $suf[y][x]$；
--   如果 $y \gt \sqrt{n}$，那么我们可以直接暴力求解。
+-   If $y \le \sqrt{n}$, then we can directly query $suf[y][x]$;
+-   If $y > \sqrt{n}$, then we can directly brute force the solution.
 
-时间复杂度 $O((n +  m) \times \sqrt{n})$，空间复杂度 $O(n \times \sqrt{n})$。其中 $n$ 是数组的长度，而 $m$ 是查询的个数。
+The time complexity is $O((n +  m) \times \sqrt{n})$, and the space complexity is $O(n \times \sqrt{n})$. Here, $n$ is the length of the array, and $m$ is the number of queries.
 
 <!-- tabs:start -->
 

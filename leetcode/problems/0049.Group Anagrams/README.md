@@ -1,55 +1,42 @@
-# [49. 字母异位词分组](https://leetcode.cn/problems/group-anagrams)
+# [49. Group Anagrams](https://leetcode.com/problems/group-anagrams)
 
-[English Version](/solution/0000-0099/0049.Group%20Anagrams/README_EN.md)
+[中文文档](/solution/0000-0099/0049.Group%20Anagrams/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of strings <code>strs</code>, group <strong>the anagrams</strong> together. You can return the answer in <strong>any order</strong>.</p>
 
-<p>给你一个字符串数组，请你将 <strong>字母异位词</strong> 组合在一起。可以按任意顺序返回结果列表。</p>
-
-<p><strong>字母异位词</strong> 是由重新排列源单词的所有字母得到的一个新单词。</p>
+<p>An <strong>Anagram</strong> is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> strs = <code>["eat", "tea", "tan", "ate", "nat", "bat"]</code>
-<strong>输出: </strong>[["bat"],["nat","tan"],["ate","eat","tea"]]</pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> strs = <code>[""]</code>
-<strong>输出: </strong>[[""]]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> strs = ["eat","tea","tan","ate","nat","bat"]
+<strong>Output:</strong> [["bat"],["nat","tan"],["ate","eat","tea"]]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> strs = [""]
+<strong>Output:</strong> [[""]]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> strs = ["a"]
+<strong>Output:</strong> [["a"]]
 </pre>
-
-<p><strong>示例 3:</strong></p>
-
-<pre>
-<strong>输入:</strong> strs = <code>["a"]</code>
-<strong>输出: </strong>[["a"]]</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= strs.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= strs[i].length &lt;= 100</code></li>
-	<li><code>strs[i]</code>&nbsp;仅包含小写字母</li>
+	<li><code>strs[i]</code> consists of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
+### Solution 1: Hash Table
 
-1. 遍历字符串，对每个字符串按照**字符字典序**排序，得到一个新的字符串。
-2. 以新字符串为 `key`，`[str]` 为 `value`，存入哈希表当中（`HashMap<String, List<String>>`）。
-3. 后续遍历得到相同 `key` 时，将其加入到对应的 `value` 当中即可。
+1. Traverse the string array, sort each string in **character dictionary order** to get a new string.
+2. Use the new string as `key` and `[str]` as `value`, and store them in the hash table (`HashMap<String, List<String>>`).
+3. When encountering the same `key` during subsequent traversal, add it to the corresponding `value`.
 
-以 `strs = ["eat", "tea", "tan", "ate", "nat", "bat"]` 为例，遍历结束时，哈希表的状况：
+Take `strs = ["eat", "tea", "tan", "ate", "nat", "bat"]` as an example. At the end of the traversal, the state of the hash table is:
 
 | key     | value                   |
 | ------- | ----------------------- |
@@ -57,9 +44,9 @@
 | `"ant"` | `["tan", "nat"] `       |
 | `"abt"` | `["bat"] `              |
 
-最后返回哈希表的 `value` 列表即可。
+Finally, return the `value` list of the hash table.
 
-时间复杂度 $O(n\times k\times \log k)$。其中 $n$ 和 $k$ 分别是字符串数组的长度和字符串的最大长度。
+The time complexity is $O(n\times k\times \log k)$, where $n$ and $k$ are the lengths of the string array and the maximum length of the string, respectively.
 
 <!-- tabs:start -->
 
@@ -217,11 +204,11 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：计数
+### Solution 2: Counting
 
-我们也可以将方法一中的排序部分改为计数，也就是说，将每个字符串 $s$ 中的字符以及出现的次数作为 `key`，将字符串 $s$ 作为 `value` 存入哈希表当中。
+We can also change the sorting part in Solution 1 to counting, that is, use the characters in each string $s$ and their occurrence times as `key`, and use the string $s$ as `value` to store in the hash table.
 
-时间复杂度 $O(n\times (k + C))$。其中 $n$ 和 $k$ 分别是字符串数组的长度和字符串的最大长度，而 $C$ 是字符集的大小，本题中 $C = 26$。
+The time complexity is $O(n\times (k + C))$, where $n$ and $k$ are the lengths of the string array and the maximum length of the string, respectively, and $C$ is the size of the character set. In this problem, $C = 26$.
 
 <!-- tabs:start -->
 

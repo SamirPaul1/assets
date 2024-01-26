@@ -1,70 +1,50 @@
-# [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
+# [1456. Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
 
-[English Version](/solution/1400-1499/1456.Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length/README_EN.md)
+[中文文档](/solution/1400-1499/1456.Maximum%20Number%20of%20Vowels%20in%20a%20Substring%20of%20Given%20Length/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code> and an integer <code>k</code>, return <em>the maximum number of vowel letters in any substring of </em><code>s</code><em> with length </em><code>k</code>.</p>
 
-<p>给你字符串 <code>s</code> 和整数 <code>k</code> 。</p>
-
-<p>请返回字符串 <code>s</code> 中长度为 <code>k</code> 的单个子字符串中可能包含的最大元音字母数。</p>
-
-<p>英文中的 <strong>元音字母 </strong>为（<code>a</code>, <code>e</code>, <code>i</code>, <code>o</code>, <code>u</code>）。</p>
+<p><strong>Vowel letters</strong> in English are <code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, and <code>&#39;u&#39;</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>s = &quot;abciiidef&quot;, k = 3
-<strong>输出：</strong>3
-<strong>解释：</strong>子字符串 &quot;iii&quot; 包含 3 个元音字母。
+<pre>
+<strong>Input:</strong> s = &quot;abciiidef&quot;, k = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The substring &quot;iii&quot; contains 3 vowel letters.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>s = &quot;aeiou&quot;, k = 2
-<strong>输出：</strong>2
-<strong>解释：</strong>任意长度为 2 的子字符串都包含 2 个元音字母。
+<pre>
+<strong>Input:</strong> s = &quot;aeiou&quot;, k = 2
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Any substring of length 2 contains 2 vowels.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>s = &quot;leetcode&quot;, k = 3
-<strong>输出：</strong>2
-<strong>解释：</strong>&quot;lee&quot;、&quot;eet&quot; 和 &quot;ode&quot; 都包含 2 个元音字母。
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输入：</strong>s = &quot;rhythms&quot;, k = 4
-<strong>输出：</strong>0
-<strong>解释：</strong>字符串 s 中不含任何元音字母。
-</pre>
-
-<p><strong>示例 5：</strong></p>
-
-<pre><strong>输入：</strong>s = &quot;tryhard&quot;, k = 4
-<strong>输出：</strong>1
+<pre>
+<strong>Input:</strong> s = &quot;leetcode&quot;, k = 3
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> &quot;lee&quot;, &quot;eet&quot; and &quot;ode&quot; contain 2 vowels.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= s.length &lt;= 10^5</code></li>
-	<li><code>s</code> 由小写英文字母组成</li>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>s</code> consists of lowercase English letters.</li>
 	<li><code>1 &lt;= k &lt;= s.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：滑动窗口
-
-找出所有窗口为 $k$ 中的元音字母数目，并记录最大值。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

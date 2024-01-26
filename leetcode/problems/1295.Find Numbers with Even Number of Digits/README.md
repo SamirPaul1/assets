@@ -1,52 +1,46 @@
-# [1295. 统计位数为偶数的数字](https://leetcode.cn/problems/find-numbers-with-even-number-of-digits)
+# [1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits)
 
-[English Version](/solution/1200-1299/1295.Find%20Numbers%20with%20Even%20Number%20of%20Digits/README_EN.md)
+[中文文档](/solution/1200-1299/1295.Find%20Numbers%20with%20Even%20Number%20of%20Digits/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个整数数组&nbsp;<code>nums</code>，请你返回其中位数为&nbsp;<strong>偶数</strong>&nbsp;的数字的个数。</p>
+<p>Given an array <code>nums</code> of integers, return how many of them contain an <strong>even number</strong> of digits.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [12,345,2,6,7896]
-<strong>输出：</strong>2
-<strong>解释：
-</strong>12 是 2 位数字（位数为偶数）&nbsp;
-345 是 3 位数字（位数为奇数）&nbsp;&nbsp;
-2 是 1 位数字（位数为奇数）&nbsp;
-6 是 1 位数字 位数为奇数）&nbsp;
-7896 是 4 位数字（位数为偶数）&nbsp;&nbsp;
-因此只有 12 和 7896 是位数为偶数的数字
+<pre>
+<strong>Input:</strong> nums = [12,345,2,6,7896]
+<strong>Output:</strong> 2
+<strong>Explanation: 
+</strong>12 contains 2 digits (even number of digits).&nbsp;
+345 contains 3 digits (odd number of digits).&nbsp;
+2 contains 1 digit (odd number of digits).&nbsp;
+6 contains 1 digit (odd number of digits).&nbsp;
+7896 contains 4 digits (even number of digits).&nbsp;
+Therefore only 12 and 7896 contain an even number of digits.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [555,901,482,1771]
-<strong>输出：</strong>1 
-<strong>解释： </strong>
-只有 1771 是位数为偶数的数字。
+<pre>
+<strong>Input:</strong> nums = [555,901,482,1771]
+<strong>Output:</strong> 1 
+<strong>Explanation: </strong>
+Only 1771 contains an even number of digits.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 500</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10^5</code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
-
-枚举数组 `nums` 中的每个元素，将其转换为字符串，判断字符串长度是否为偶数，是则答案加一。
-
-时间复杂度 $O(n \times \log_{10} m)$，空间复杂度 $O(\log_{10} m)$，其中 $n$ 和 $m$ 分别为数组 `nums` 的长度以及数组 `nums` 中的最大元素。
+### Solution 1
 
 <!-- tabs:start -->
 

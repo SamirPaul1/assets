@@ -1,12 +1,10 @@
-# [1127. 用户购买平台](https://leetcode.cn/problems/user-purchase-platform)
+# [1127. User Purchase Platform](https://leetcode.com/problems/user-purchase-platform)
 
-[English Version](/solution/1100-1199/1127.User%20Purchase%20Platform/README_EN.md)
+[中文文档](/solution/1100-1199/1127.User%20Purchase%20Platform/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>支出表: <code>Spending</code></p>
+<p>Table: <code>Spending</code></p>
 
 <pre>
 +-------------+---------+
@@ -17,25 +15,25 @@
 | platform    | enum    | 
 | amount      | int     |
 +-------------+---------+
-这张表记录了用户在一个在线购物网站的支出历史，该在线购物平台同时拥有桌面端（'desktop'）和手机端（'mobile'）的应用程序。
-(user_id, spend_date, platform) 是这张表的主键(具有唯一值的列的组合)。
-平台列 platform 是一种 ENUM ，类型为（'desktop', 'mobile'）。</pre>
+The table logs the history of the spending of users that make purchases from an online shopping website that has a desktop and a mobile application.
+(user_id, spend_date, platform) is the primary key (combination of columns with unique values) of this table.
+The platform column is an ENUM (category) type of (&#39;desktop&#39;, &#39;mobile&#39;).
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案找出每天&nbsp;<strong>仅&nbsp;</strong>使用手机端用户、<strong>仅&nbsp;</strong>使用桌面端用户和&nbsp;<strong>同时&nbsp;</strong>使用桌面端和手机端的用户人数和总支出金额。</p>
+<p>Write a solution to find the total number of users and the total amount spent using the mobile only, the desktop only, and both mobile and desktop together for each date.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果格式如下例所示：</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Spending</code> table:
+<strong>Input:</strong> 
+Spending table:
 +---------+------------+----------+--------+
 | user_id | spend_date | platform | amount |
 +---------+------------+----------+--------+
@@ -46,7 +44,7 @@ Spending</code> table:
 | 3       | 2019-07-01 | desktop  | 100    |
 | 3       | 2019-07-02 | desktop  | 100    |
 +---------+------------+----------+--------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+----------+--------------+-------------+
 | spend_date | platform | total_amount | total_users |
 +------------+----------+--------------+-------------+
@@ -57,13 +55,14 @@ Spending</code> table:
 | 2019-07-02 | mobile   | 100          | 1           |
 | 2019-07-02 | both     | 0            | 0           |
 +------------+----------+--------------+-------------+ 
-<strong>解释：</strong>
-在 2019-07-01, 用户1 <strong>同时 </strong>使用桌面端和手机端购买, 用户2 <strong>仅 </strong>使用了手机端购买，而用户3 <strong>仅 </strong>使用了桌面端购买。
-在 2019-07-02, 用户2 <strong>仅 </strong>使用了手机端购买, 用户3 <strong>仅 </strong>使用了桌面端购买，且没有用户 <strong>同时 </strong>使用桌面端和手机端购买。</pre>
+<strong>Explanation:</strong> 
+On 2019-07-01, user 1 purchased using <strong>both</strong> desktop and mobile, user 2 purchased using mobile <strong>only</strong> and user 3 purchased using desktop <strong>only</strong>.
+On 2019-07-02, user 2 purchased using mobile <strong>only</strong>, user 3 purchased using desktop <strong>only</strong> and no one purchased using <strong>both</strong> platforms.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

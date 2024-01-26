@@ -1,49 +1,43 @@
-# [424. 替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement)
+# [424. Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)
 
-[English Version](/solution/0400-0499/0424.Longest%20Repeating%20Character%20Replacement/README_EN.md)
+[中文文档](/solution/0400-0499/0424.Longest%20Repeating%20Character%20Replacement/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a string <code>s</code> and an integer <code>k</code>. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most <code>k</code> times.</p>
 
-<p>给你一个字符串 <code>s</code> 和一个整数 <code>k</code> 。你可以选择字符串中的任一字符，并将其更改为任何其他大写英文字符。该操作最多可执行 <code>k</code> 次。</p>
-
-<p>在执行上述操作后，返回 <em>包含相同字母的最长子字符串的长度。</em></p>
+<p>Return <em>the length of the longest substring containing the same letter you can get after performing the above operations</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "ABAB", k = 2
-<strong>输出：</strong>4
-<strong>解释：</strong>用两个'A'替换为两个'B',反之亦然。
-</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "AABABBA", k = 1
-<strong>输出：</strong>4
-<strong>解释：</strong>
-将中间的一个'A'替换为'B',字符串变为 "AABBBBA"。
-子串 "BBBB" 有最长重复字母, 答案为 4。
-可能存在其他的方法来得到同样的结果。
+<strong>Input:</strong> s = &quot;ABAB&quot;, k = 2
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> Replace the two &#39;A&#39;s with two &#39;B&#39;s or vice versa.
 </pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;AABABBA&quot;, k = 1
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> Replace the one &#39;A&#39; in the middle with &#39;B&#39; and form &quot;AABBBBA&quot;.
+The substring &quot;BBBB&quot; has the longest repeating letters, which is 4.
+There may exists other ways to achieve this answer too.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> 仅由大写英文字母组成</li>
+	<li><code>s</code> consists of only uppercase English letters.</li>
 	<li><code>0 &lt;= k &lt;= s.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

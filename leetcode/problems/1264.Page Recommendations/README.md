@@ -1,12 +1,10 @@
-# [1264. 页面推荐](https://leetcode.cn/problems/page-recommendations)
+# [1264. Page Recommendations](https://leetcode.com/problems/page-recommendations)
 
-[English Version](/solution/1200-1299/1264.Page%20Recommendations/README_EN.md)
+[中文文档](/solution/1200-1299/1264.Page%20Recommendations/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>朋友关系列表：&nbsp;<code>Friendship</code></p>
+<p>Table: <code>Friendship</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,13 +13,13 @@
 | user1_id      | int     |
 | user2_id      | int     |
 +---------------+---------+
-(user1_id, user2_id) 是这张表具有唯一值的列的组合。
-这张表的每一行代表着 user1_id 和 user2_id 之间存在着朋友关系。
+(user1_id, user2_id) is the primary key (combination of columns with unique values) for this table.
+Each row of this table indicates that there is a friendship relation between user1_id and user2_id.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>喜欢列表：&nbsp;<code>Likes</code></p>
+<p>Table: <code>Likes</code></p>
 
 <pre>
 +-------------+---------+
@@ -30,24 +28,23 @@
 | user_id     | int     |
 | page_id     | int     |
 +-------------+---------+
-(user_id, page_id) 是这张表具有唯一值的列的组合。
-这张表的每一行代表着 user_id 喜欢 page_id。
+(user_id, page_id) is the primary key (combination of columns with unique values) for this table.
+Each row of this table indicates that user_id likes page_id.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，向<code>user_id</code> = 1 的用户，推荐其朋友们喜欢的页面。不要推荐该用户已经喜欢的页面。</p>
+<p>Write a solution&nbsp;to recommend pages to the user with <code>user_id = 1</code> using the pages that your friends liked. It should not recommend pages you already liked.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果，其中不应当包含重复项。</p>
+<p>Return result table in <strong>any order</strong> without duplicates.</p>
 
-<p>返回结果的格式如下例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Friendship table:
 +----------+----------+
 | user1_id | user2_id |
@@ -60,7 +57,6 @@ Friendship table:
 | 2        | 5        |
 | 6        | 1        |
 +----------+----------+
- 
 Likes table:
 +---------+---------+
 | user_id | page_id |
@@ -75,8 +71,7 @@ Likes table:
 | 3       | 77      |
 | 6       | 88      |
 +---------+---------+
-
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------------+
 | recommended_page |
 +------------------+
@@ -86,17 +81,18 @@ Likes table:
 | 33               |
 | 77               |
 +------------------+
-<strong>解释：</strong>
-用户1 同 用户2, 3, 4, 6 是朋友关系。
-推荐页面为： 页面23 来自于 用户2, 页面24 来自于 用户3, 页面56 来自于 用户3 以及 页面33 来自于 用户6。
-页面77 同时被 用户2 和 用户3 推荐。
-页面88 没有被推荐，因为 用户1 已经喜欢了它。</pre>
+<strong>Explanation:</strong> 
+User one is friend with users 2, 3, 4 and 6.
+Suggested pages are 23 from user 2, 24 from user 3, 56 from user 3 and 33 from user 6.
+Page 77 is suggested from both user 2 and user 3.
+Page 88 is not suggested because user 1 already likes it.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：合并 + 等值连接 + 子查询
+### Solution 1: Union + Equi-Join + Subquery
 
-我们先查出所有与 `user_id = 1` 的用户是朋友的用户，记录在 `T` 表中，然后再查出所有在 `T` 表中的用户喜欢的页面，最后排除掉 `user_id = 1` 喜欢的页面即可。
+First, we query all users who are friends with `user_id = 1` and record them in the `T` table. Then, we query all pages that users in the `T` table like, and finally exclude the pages that `user_id = 1` likes.
 
 <!-- tabs:start -->
 
@@ -117,7 +113,7 @@ WHERE page_id NOT IN (SELECT page_id FROM Likes WHERE user_id = 1);
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

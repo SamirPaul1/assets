@@ -1,47 +1,33 @@
-# [541. 反转字符串 II](https://leetcode.cn/problems/reverse-string-ii)
+# [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii)
 
-[English Version](/solution/0500-0599/0541.Reverse%20String%20II/README_EN.md)
+[中文文档](/solution/0500-0599/0541.Reverse%20String%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code> and an integer <code>k</code>, reverse the first <code>k</code> characters for every <code>2k</code> characters counting from the start of the string.</p>
 
-<p>给定一个字符串 <code>s</code> 和一个整数 <code>k</code>，从字符串开头算起，每计数至 <code>2k</code> 个字符，就反转这 <code>2k</code> 字符中的前 <code>k</code> 个字符。</p>
-
-<ul>
-	<li>如果剩余字符少于 <code>k</code> 个，则将剩余字符全部反转。</li>
-	<li>如果剩余字符小于 <code>2k</code> 但大于或等于 <code>k</code> 个，则反转前 <code>k</code> 个字符，其余字符保持原样。</li>
-</ul>
+<p>If there are fewer than <code>k</code> characters left, reverse all of them. If there are less than <code>2k</code> but greater than or equal to <code>k</code> characters, then reverse the first <code>k</code> characters and leave the other as original.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "abcdefg", k = 2
-<strong>输出：</strong>"bacdfeg"
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "abcdefg", k = 2
+<strong>Output:</strong> "bacdfeg"
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "abcd", k = 2
+<strong>Output:</strong> "bacd"
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "abcd", k = 2
-<strong>输出：</strong>"bacd"
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>s</code> 仅由小写英文组成</li>
+	<li><code>s</code> consists of only lowercase English letters.</li>
 	<li><code>1 &lt;= k &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

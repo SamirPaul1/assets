@@ -1,65 +1,41 @@
-# [917. 仅仅反转字母](https://leetcode.cn/problems/reverse-only-letters)
+# [917. Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters)
 
-[English Version](/solution/0900-0999/0917.Reverse%20Only%20Letters/README_EN.md)
+[中文文档](/solution/0900-0999/0917.Reverse%20Only%20Letters/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个字符串 <code>s</code> ，根据下述规则反转字符串：</p>
+<p>Given a string <code>s</code>, reverse the string according to the following rules:</p>
 
 <ul>
-	<li>所有非英文字母保留在原有位置。</li>
-	<li>所有英文字母（小写或大写）位置反转。</li>
+	<li>All the characters that are not English letters remain in the same position.</li>
+	<li>All the English letters (lowercase or uppercase) should be reversed.</li>
 </ul>
 
-<p>返回反转后的 <code>s</code><em> 。</em></p>
+<p>Return <code>s</code><em> after reversing it</em>.</p>
 
 <p>&nbsp;</p>
-
-<ol>
-</ol>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "ab-cd"
-<strong>输出：</strong>"dc-ba"
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "ab-cd"
+<strong>Output:</strong> "dc-ba"
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "a-bC-dEf-ghIj"
+<strong>Output:</strong> "j-Ih-gfE-dCba"
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> s = "Test1ng-Leet=code-Q!"
+<strong>Output:</strong> "Qedo1ct-eeLg=ntse-T!"
 </pre>
-
-<ol>
-</ol>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "a-bC-dEf-ghIj"
-<strong>输出：</strong>"j-Ih-gfE-dCba"
-</pre>
-
-<ol>
-</ol>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "Test1ng-Leet=code-Q!"
-<strong>输出：</strong>"Qedo1ct-eeLg=ntse-T!"
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 100</code></li>
-	<li><code>s</code> 仅由 ASCII 值在范围 <code>[33, 122]</code> 的字符组成</li>
-	<li><code>s</code> 不含 <code>'\"'</code> 或 <code>'\\'</code></li>
+	<li><code>s</code> consists of characters with ASCII values in the range <code>[33, 122]</code>.</li>
+	<li><code>s</code> does not contain <code>&#39;\&quot;&#39;</code> or <code>&#39;\\&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,59 +1,52 @@
-# [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target)
+# [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)
 
-[English Version](/solution/0700-0799/0744.Find%20Smallest%20Letter%20Greater%20Than%20Target/README_EN.md)
+[中文文档](/solution/0700-0799/0744.Find%20Smallest%20Letter%20Greater%20Than%20Target/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array of characters <code>letters</code> that is sorted in <strong>non-decreasing order</strong>, and a character <code>target</code>. There are <strong>at least two different</strong> characters in <code>letters</code>.</p>
 
-<p>给你一个字符数组 <code>letters</code>，该数组按<strong>非递减顺序</strong>排序，以及一个字符 <code>target</code>。<code>letters</code>&nbsp;里<strong>至少有两个不同</strong>的字符。</p>
-
-<p>返回&nbsp;<code>letters</code>&nbsp;中大于 <code>target</code> 的最小的字符。如果不存在这样的字符，则返回&nbsp;<code>letters</code> 的第一个字符。</p>
+<p>Return <em>the smallest character in </em><code>letters</code><em> that is lexicographically greater than </em><code>target</code>. If such a character does not exist, return the first character in <code>letters</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入: </strong>letters = ["c", "f", "j"]，target = "a"
-<strong>输出:</strong> "c"
-<strong>解释：</strong>letters 中字典上比 'a' 大的最小字符是 'c'。</pre>
-
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> letters = ["c","f","j"], target = "c"
-<strong>输出:</strong> "f"
-<strong>解释：</strong>letters 中字典顺序上大于 'c' 的最小字符是 'f'。</pre>
+<strong>Input:</strong> letters = [&quot;c&quot;,&quot;f&quot;,&quot;j&quot;], target = &quot;a&quot;
+<strong>Output:</strong> &quot;c&quot;
+<strong>Explanation:</strong> The smallest character that is lexicographically greater than &#39;a&#39; in letters is &#39;c&#39;.
+</pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> letters = ["x","x","y","y"], target = "z"
-<strong>输出:</strong> "x"
-<strong>解释：</strong>letters 中没有一个字符在字典上大于 'z'，所以我们返回 letters[0]。</pre>
+<strong>Input:</strong> letters = [&quot;c&quot;,&quot;f&quot;,&quot;j&quot;], target = &quot;c&quot;
+<strong>Output:</strong> &quot;f&quot;
+<strong>Explanation:</strong> The smallest character that is lexicographically greater than &#39;c&#39; in letters is &#39;f&#39;.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> letters = [&quot;x&quot;,&quot;x&quot;,&quot;y&quot;,&quot;y&quot;], target = &quot;z&quot;
+<strong>Output:</strong> &quot;x&quot;
+<strong>Explanation:</strong> There are no characters in letters that is lexicographically greater than &#39;z&#39; so we return letters[0].
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= letters.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>letters[i]</code>&nbsp;是一个小写字母</li>
-	<li><code>letters</code> 按<strong>非递减顺序</strong>排序</li>
-	<li><code>letters</code> 最少包含两个不同的字母</li>
-	<li><code>target</code> 是一个小写字母</li>
+	<li><code>letters[i]</code> is a lowercase English letter.</li>
+	<li><code>letters</code> is sorted in <strong>non-decreasing</strong> order.</li>
+	<li><code>letters</code> contains at least two different characters.</li>
+	<li><code>target</code> is a lowercase English letter.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：遍历
-
-遍历 `letters`，返回第一个满足 `letters[i] > target` 条件的元素。若是遍历结束还未找到，则返回 `letters[0]`。
-
-> 至少存在两个不同的字母，所以不会返回 `target`。
-
-时间复杂度：$O(N)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -177,24 +170,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：二分
-
-利用 `letters` 有序的特点，可以使用二分来快速查找。
-
-在返回值方面相比传统二分不一样，需要对结果进行取余操作：`letters[l % n]`。
-
-为什么？如题描述，字母是重复出现的，当索引过界时，不是没有结果，而是需要返回前面的元素。
-
-一个容易理解的版本，使用减法：
-
-```c
-if (l < n) {
-    return letters[l];
-}
-return letters[l - n];
-```
-
-时间复杂度：$O(logN)$。
+### Solution 2
 
 <!-- tabs:start -->
 

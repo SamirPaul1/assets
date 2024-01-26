@@ -1,12 +1,10 @@
-# [1715. 苹果和橘子的个数](https://leetcode.cn/problems/count-apples-and-oranges)
+# [1715. Count Apples and Oranges](https://leetcode.com/problems/count-apples-and-oranges)
 
-[English Version](/solution/1700-1799/1715.Count%20Apples%20and%20Oranges/README_EN.md)
+[中文文档](/solution/1700-1799/1715.Count%20Apples%20and%20Oranges/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：&nbsp;<code>Boxes</code></p>
+<p>Table: <code>Boxes</code></p>
 
 <pre>
 +--------------+------+
@@ -17,13 +15,14 @@
 | apple_count  | int  |
 | orange_count | int  |
 +--------------+------+
-box_id 是该表的主键。
-chest_id 是 chests 表的外键。
-该表包含大箱子 (box) 中包含的苹果和橘子的个数。每个大箱子中可能包含一个小盒子 (chest) ，小盒子中也包含若干苹果和橘子。</pre>
+box_id is the column with unique values for this table.
+chest_id is a foreign key (reference column) of the chests table.
+This table contains information about the boxes and the number of oranges and apples they have. Each box may include a chest, which also can contain oranges and apples.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>表：&nbsp;<code>Chests</code></p>
+<p>Table: <code>Chests</code></p>
 
 <pre>
 +--------------+------+
@@ -33,24 +32,22 @@ chest_id 是 chests 表的外键。
 | apple_count  | int  |
 | orange_count | int  |
 +--------------+------+
-chest_id 是该表的主键。
-该表包含小盒子的信息，以及小盒子中包含的苹果和橘子的个数。</pre>
+chest_id is the column with unique values for this table.
+This table contains information about the chests and the corresponding number of oranges and apples they have.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写 SQL 语句，查询每个大箱子中苹果和橘子的个数。如果大箱子中包含小盒子，还应当包含小盒子中苹果和橘子的个数。</p>
+<p>Write a solution to count the number of apples and oranges in all the boxes. If a box contains a chest, you should also include the number of apples and oranges it has.</p>
 
-<p>以任意顺序返回结果表。</p>
-
-<p>查询结果的格式如下示例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1:</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Boxes 表：
+<strong>Input:</strong> 
+Boxes table:
 +--------+----------+-------------+--------------+
 | box_id | chest_id | apple_count | orange_count |
 +--------+----------+-------------+--------------+
@@ -62,7 +59,7 @@ Boxes 表：
 | 8      | 6        | 9           | 9            |
 | 3      | 14       | 16          | 7            |
 +--------+----------+-------------+--------------+
-Chests 表：
+Chests table:
 +----------+-------------+--------------+
 | chest_id | apple_count | orange_count |
 +----------+-------------+--------------+
@@ -72,26 +69,27 @@ Chests 表：
 | 3        | 19          | 4            |
 | 16       | 19          | 19           |
 +----------+-------------+--------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------------+--------------+
 | apple_count | orange_count |
 +-------------+--------------+
 | 151         | 123          |
 +-------------+--------------+
-<strong>解释：</strong>
-大箱子 2 中有 6 个苹果和 15 个橘子。
-大箱子 18 中有 4 + 20 (在小盒子中) = 24 个苹果和 15 + 10 (在小盒子中) = 25 个橘子。
-大箱子 19 中有 8 + 19 (在小盒子中) = 27 个苹果和 4 + 4 (在小盒子中) = 8 个橘子。
-大箱子 12 中有 19 + 8 (在小盒子中) = 27 个苹果和 20 + 8 (在小盒子中) = 28 个橘子。
-大箱子 20 中有 12 + 5 (在小盒子中) = 17 个苹果和 9 + 6 (在小盒子中) = 15 个橘子。
-大箱子 8 中有 9 + 5 (在小盒子中) = 14 个苹果和 9 + 6 (在小盒子中) = 15 个橘子。
-大箱子 3 中有 16 + 20 (在小盒子中) = 36 个苹果和 7 + 10 (在小盒子中) = 17 个橘子。
-苹果的总个数 = 6 + 24 + 27 + 27 + 17 + 14 + 36 = 151
-橘子的总个数 = 15 + 25 + 8 + 28 + 15 + 15 + 17 = 123</pre>
+<strong>Explanation:</strong> 
+box 2 has 6 apples and 15 oranges.
+box 18 has 4 + 20 (from the chest) = 24 apples and 15 + 10 (from the chest) = 25 oranges.
+box 19 has 8 + 19 (from the chest) = 27 apples and 4 + 4 (from the chest) = 8 oranges.
+box 12 has 19 + 8 (from the chest) = 27 apples and 20 + 8 (from the chest) = 28 oranges.
+box 20 has 12 + 5 (from the chest) = 17 apples and 9 + 6 (from the chest) = 15 oranges.
+box 8 has 9 + 5 (from the chest) = 14 apples and 9 + 6 (from the chest) = 15 oranges.
+box 3 has 16 + 20 (from the chest) = 36 apples and 7 + 10 (from the chest) = 17 oranges.
+Total number of apples = 6 + 24 + 27 + 27 + 17 + 14 + 36 = 151
+Total number of oranges = 15 + 25 + 8 + 28 + 15 + 15 + 17 = 123
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

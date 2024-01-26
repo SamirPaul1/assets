@@ -1,52 +1,38 @@
-# [774. 最小化去加油站的最大距离](https://leetcode.cn/problems/minimize-max-distance-to-gas-station)
+# [774. Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station)
 
-[English Version](/solution/0700-0799/0774.Minimize%20Max%20Distance%20to%20Gas%20Station/README_EN.md)
+[中文文档](/solution/0700-0799/0774.Minimize%20Max%20Distance%20to%20Gas%20Station/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>stations</code> that represents the positions of the gas stations on the <strong>x-axis</strong>. You are also given an integer <code>k</code>.</p>
 
-<p>整数数组 <code>stations</code> 表示 <strong>水平数轴</strong> 上各个加油站的位置。给你一个整数 <code>k</code> 。</p>
+<p>You should add <code>k</code> new gas stations. You can add the stations anywhere on the <strong>x-axis</strong>, and not necessarily on an integer position.</p>
 
-<p>请你在数轴上增设 <code>k</code> 个加油站，新增加油站可以位于 <strong>水平数轴</strong> 上的任意位置，而不必放在整数位置上。</p>
+<p>Let <code>penalty()</code> be the maximum distance between <strong>adjacent</strong> gas stations after adding the <code>k</code> new stations.</p>
 
-<p>设 <code>penalty()</code> 是：增设 <code>k</code> 个新加油站后，<strong>相邻</strong> 两个加油站间的最大距离。</p>
-请你返回 <code>penalty()</code><strong> </strong>可能的最小值。与实际答案误差在 <code>10<sup>-6</sup></code> 范围内的答案将被视作正确答案。
+<p>Return <em>the smallest possible value of</em> <code>penalty()</code>. Answers within <code>10<sup>-6</sup></code> of the actual answer will be accepted.</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>stations = [1,2,3,4,5,6,7,8,9,10], k = 9
-<strong>输出：</strong>0.50000
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> stations = [1,2,3,4,5,6,7,8,9,10], k = 9
+<strong>Output:</strong> 0.50000
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> stations = [23,24,36,39,46,56,57,65,84,98], k = 1
+<strong>Output:</strong> 14.00000
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>stations = [23,24,36,39,46,56,57,65,84,98], k = 1
-<strong>输出：</strong>14.00000
-</pre>
-
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>10 <= stations.length <= 2000</code></li>
-	<li><code>0 <= stations[i] <= 10<sup>8</sup></code></li>
-	<li><code>stations</code> 按 <strong>严格递增</strong> 顺序排列</li>
-	<li><code>1 <= k <= 10<sup>6</sup></code></li>
+	<li><code>10 &lt;= stations.length &lt;= 2000</code></li>
+	<li><code>0 &lt;= stations[i] &lt;= 10<sup>8</sup></code></li>
+	<li><code>stations</code> is sorted in a <strong>strictly increasing</strong> order.</li>
+	<li><code>1 &lt;= k &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找（浮点数二分）
-
-我们二分枚举相邻两个加油站间的距离，找到最小的距离，使得加油站的数量不超过 $k$。
-
-时间复杂度 $O(n\log M)$。其中 $n$ 为加油站的数量；而 $M$ 为答案的范围，即 $10^8$ 除以答案的精度 $10^{-6}$。
+### Solution 1
 
 <!-- tabs:start -->
 

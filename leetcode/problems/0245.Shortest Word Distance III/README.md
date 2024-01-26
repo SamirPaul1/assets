@@ -1,53 +1,34 @@
-# [245. 最短单词距离 III](https://leetcode.cn/problems/shortest-word-distance-iii)
+# [245. Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii)
 
-[English Version](/solution/0200-0299/0245.Shortest%20Word%20Distance%20III/README_EN.md)
+[中文文档](/solution/0200-0299/0245.Shortest%20Word%20Distance%20III/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of strings <code>wordsDict</code> and two strings that already exist in the array <code>word1</code> and <code>word2</code>, return <em>the shortest distance between the occurrence of these two words in the list</em>.</p>
 
-<p>给定一个字符串数组&nbsp;<code>wordsDict</code> 和两个字符串 <code>word1</code> 和 <code>word2</code> ，返回这两个单词在列表中出现的最短距离。</p>
-
-<p>注意：<code>word1</code> 和 <code>word2</code>&nbsp;是有可能相同的，并且它们将分别表示为列表中 <strong>两个独立的单词</strong> 。</p>
+<p><strong>Note</strong> that <code>word1</code> and <code>word2</code> may be the same. It is guaranteed that they represent <strong>two individual words</strong> in the list.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
-<strong>输出：</strong>1
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "coding"
+<strong>Output:</strong> 1
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "makes"
+<strong>Output:</strong> 3
 </pre>
-
-<p><strong class="example">示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>wordsDict = ["practice", "makes", "perfect", "coding", "makes"], word1 = "makes", word2 = "makes"
-<strong>输出：</strong>3
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= wordsDict.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= wordsDict[i].length &lt;= 10</code></li>
-	<li><code>wordsDict[i]</code> 由小写英文字母组成</li>
-	<li><code>word1</code> 和 <code>word2</code> 都在 <code>wordsDict</code> 中</li>
+	<li><code>wordsDict[i]</code> consists of lowercase English letters.</li>
+	<li><code>word1</code> and <code>word2</code> are in <code>wordsDict</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：分情况讨论
-
-先判断 `word1` 和 `word2` 是否相等：
-
-如果相等，遍历数组 `wordsDict`，找到两个 `word1` 的下标 $i$ 和 $j$，求 $i-j$ 的最小值。
-
-如果不相等，遍历数组 `wordsDict`，找到 `word1` 和 `word2` 的下标 $i$ 和 $j$，求 $i-j$ 的最小值。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组 `wordsDict` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,64 +1,56 @@
-# [2083. 求以相同字母开头和结尾的子串总数](https://leetcode.cn/problems/substrings-that-begin-and-end-with-the-same-letter)
+# [2083. Substrings That Begin and End With the Same Letter](https://leetcode.com/problems/substrings-that-begin-and-end-with-the-same-letter)
 
-[English Version](/solution/2000-2099/2083.Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter/README_EN.md)
+[中文文档](/solution/2000-2099/2083.Substrings%20That%20Begin%20and%20End%20With%20the%20Same%20Letter/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> string <code>s</code> consisting of only lowercase English letters. Return <em>the number of <strong>substrings</strong> in </em><code>s</code> <em>that begin and end with the <strong>same</strong> character.</em></p>
 
-<p>给你一个仅由小写英文字母组成的，&nbsp; 下标从 <code>0</code> 开始的字符串 <code>s</code> 。返回 <code>s</code> 中以相同字符开头和结尾的子字符串总数。</p>
-
-<p>子字符串是字符串中连续的非空字符序列。</p>
+<p>A <strong>substring</strong> is a contiguous non-empty sequence of characters within a string.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "abcba"
-<strong>输出：</strong>7
-<strong>解释：</strong>
-以相同字母开头和结尾的长度为 1 的子串是："a"、"b"、"c"、"b" 和 "a" 。
-以相同字母开头和结尾的长度为 3 的子串是："bcb" 。
-以相同字母开头和结尾的长度为 5 的子串是："abcba" 。
+<strong>Input:</strong> s = &quot;abcba&quot;
+<strong>Output:</strong> 7
+<strong>Explanation:</strong>
+The substrings of length 1 that start and end with the same letter are: &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;b&quot;, and &quot;a&quot;.
+The substring of length 3 that starts and ends with the same letter is: &quot;bcb&quot;.
+The substring of length 5 that starts and ends with the same letter is: &quot;abcba&quot;.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "abacad"
-<strong>输出：</strong>9
-<strong>解释：</strong>
-以相同字母开头和结尾的长度为 1 的子串是："a"、"b"、"a"、"c"、"a" 和 "d" 。
-以相同字母开头和结尾的长度为 3 的子串是："aba" 和 "aca" 。
-以相同字母开头和结尾的长度为 5 的子串是："abaca" 。
+<strong>Input:</strong> s = &quot;abacad&quot;
+<strong>Output:</strong> 9
+<strong>Explanation:</strong>
+The substrings of length 1 that start and end with the same letter are: &quot;a&quot;, &quot;b&quot;, &quot;a&quot;, &quot;c&quot;, &quot;a&quot;, and &quot;d&quot;.
+The substrings of length 3 that start and end with the same letter are: &quot;aba&quot; and &quot;aca&quot;.
+The substring of length 5 that starts and ends with the same letter is: &quot;abaca&quot;.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "a"
-<strong>输出：</strong>1
-<strong>解释：</strong>
-只有一个，以相同字母开头和结尾的长度为 1 的子串是："a"。
+<strong>Input:</strong> s = &quot;a&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+The substring of length 1 that starts and ends with the same letter is: &quot;a&quot;.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> 仅包含小写英文字母。</li>
+	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数组或哈希表
-
-我们可以用数组或哈希表统计字符串中每个字母出现的次数，然后遍历字符串，对于每个字母，其出现的次数即为以该字母开头和结尾的子串的个数，将所有字母的出现次数相加即为答案。
-
-时间复杂度 $O(n)$，空间复杂度 $O(C)$。其中 $n$ 为字符串的长度，而 $C$ 为字符集的大小。本题中 $C = 26$。
+### Solution 1
 
 <!-- tabs:start -->
 

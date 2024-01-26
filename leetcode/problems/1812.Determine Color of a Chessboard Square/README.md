@@ -1,63 +1,59 @@
-# [1812. 判断国际象棋棋盘中一个格子的颜色](https://leetcode.cn/problems/determine-color-of-a-chessboard-square)
+# [1812. Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square)
 
-[English Version](/solution/1800-1899/1812.Determine%20Color%20of%20a%20Chessboard%20Square/README_EN.md)
+[中文文档](/solution/1800-1899/1812.Determine%20Color%20of%20a%20Chessboard%20Square/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given <code>coordinates</code>, a string that represents the coordinates of a square of the chessboard. Below is a chessboard for your reference.</p>
 
-<p>给你一个坐标 <code>coordinates</code> ，它是一个字符串，表示国际象棋棋盘中一个格子的坐标。下图是国际象棋棋盘示意图。</p>
+<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1812.Determine%20Color%20of%20a%20Chessboard%20Square/images/screenshot-2021-02-20-at-22159-pm.png" style="width: 400px; height: 396px;" /></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1812.Determine%20Color%20of%20a%20Chessboard%20Square/images/chessboard.png" style="width: 400px; height: 396px;" /></p>
+<p>Return <code>true</code><em> if the square is white, and </em><code>false</code><em> if the square is black</em>.</p>
 
-<p>如果所给格子的颜色是白色，请你返回 <code>true</code>，如果是黑色，请返回 <code>false</code> 。</p>
+<p>The coordinate will always represent a valid chessboard square. The coordinate will always have the letter first, and the number second.</p>
 
-<p>给定坐标一定代表国际象棋棋盘上一个存在的格子。坐标第一个字符是字母，第二个字符是数字。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>coordinates = "a1"
-<b>输出：</b>false
-<b>解释：</b>如上图棋盘所示，"a1" 坐标的格子是黑色的，所以返回 false 。
+<strong>Input:</strong> coordinates = &quot;a1&quot;
+<strong>Output:</strong> false
+<strong>Explanation:</strong> From the chessboard above, the square with coordinates &quot;a1&quot; is black, so return false.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>coordinates = "h3"
-<b>输出：</b>true
-<b>解释：</b>如上图棋盘所示，"h3" 坐标的格子是白色的，所以返回 true 。
+<strong>Input:</strong> coordinates = &quot;h3&quot;
+<strong>Output:</strong> true
+<strong>Explanation:</strong> From the chessboard above, the square with coordinates &quot;h3&quot; is white, so return true.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>coordinates = "c7"
-<b>输出：</b>false
+<strong>Input:</strong> coordinates = &quot;c7&quot;
+<strong>Output:</strong> false
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>coordinates.length == 2</code></li>
-	<li><code>'a' <= coordinates[0] <= 'h'</code></li>
-	<li><code>'1' <= coordinates[1] <= '8'</code></li>
+	<li><code>&#39;a&#39; &lt;= coordinates[0] &lt;= &#39;h&#39;</code></li>
+	<li><code>&#39;1&#39; &lt;= coordinates[1] &lt;= &#39;8&#39;</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：找规律
+### Solution 1: Find the Pattern
 
-观察棋盘我们发现，颜色相同的两个格子 $(x_1, y_1)$ 和 $(x_2, y_2)$ 满足 $x_1 + y_1$ 和 $x_2 + y_2$ 均为奇数或偶数。
+By observing the chessboard, we find that two squares $(x_1, y_1)$ and $(x_2, y_2)$ with the same color satisfy that both $x_1 + y_1$ and $x_2 + y_2$ are either odd or even.
 
-因此，我们可以根据 `coordinates` 获取对应的坐标 $(x, y)$，如果 $x + y$ 为奇数，则格子为白色，返回 `true`，否则返回 `false`。
+Therefore, we can get the corresponding coordinates $(x, y)$ from `coordinates`. If $x + y$ is odd, then the square is white, return `true`, otherwise return `false`.
 
-时间复杂度 $O(1)$，空间复杂度 $O(1)$。
+The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

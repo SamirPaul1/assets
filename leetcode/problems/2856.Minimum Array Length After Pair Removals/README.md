@@ -1,80 +1,76 @@
-# [2856. 删除数对后的最小数组长度](https://leetcode.cn/problems/minimum-array-length-after-pair-removals)
+# [2856. Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals)
 
-[English Version](/solution/2800-2899/2856.Minimum%20Array%20Length%20After%20Pair%20Removals/README_EN.md)
+[中文文档](/solution/2800-2899/2856.Minimum%20Array%20Length%20After%20Pair%20Removals/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> <strong>sorted</strong> array of integers <code>nums</code>.</p>
 
-<p>给你一个下标从 <strong>0</strong> 开始的 <strong>非递减</strong> 整数数组&nbsp;<code>nums</code>&nbsp;。</p>
-
-<p>你可以执行以下操作任意次：</p>
+<p>You can perform the following operation any number of times:</p>
 
 <ul>
-	<li>选择 <strong>两个&nbsp;</strong>下标&nbsp;<code>i</code> 和&nbsp;<code>j</code>&nbsp;，满足&nbsp;<code>i &lt; j</code>&nbsp;且&nbsp;<code>nums[i] &lt; nums[j]</code>&nbsp;。</li>
-	<li>将 <code>nums</code>&nbsp;中下标在&nbsp;<code>i</code> 和&nbsp;<code>j</code>&nbsp;处的元素删除。剩余元素按照原来的顺序组成新的数组，下标也重新从 <strong>0</strong>&nbsp;开始编号。</li>
+	<li>Choose <strong>two</strong> indices, <code>i</code> and <code>j</code>, where <code>i &lt; j</code>, such that <code>nums[i] &lt; nums[j]</code>.</li>
+	<li>Then, remove the elements at indices <code>i</code> and <code>j</code> from <code>nums</code>. The remaining elements retain their original order, and the array is re-indexed.</li>
 </ul>
 
-<p>请你返回一个整数，表示执行以上操作任意次后（可以执行 <strong>0</strong> 次），<code>nums</code>&nbsp;数组的 <strong>最小</strong>&nbsp;数组长度。</p>
+<p>Return <em>an integer that denotes the <strong>minimum</strong> length of </em><code>nums</code><em> after performing the operation any number of times (<strong>including zero</strong>).</em></p>
 
-<p>请注意，<code>nums</code> 数组是按&nbsp;<strong>非降序&nbsp;</strong>排序的。</p>
-
-<p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,3,4,9]
-<strong>输出：</strong>0
-<strong>解释：</strong>一开始，nums = [1, 3, 4, 9] 。
-第一次操作，我们选择下标 0 和 1 ，满足 nums[0] &lt; nums[1] &lt;=&gt; 1 &lt; 3 。
-删除下标 0 和 1 处的元素，nums 变成 [4, 9] 。
-下一次操作，我们选择下标 0 和 1 ，满足 nums[0] &lt; nums[1] &lt;=&gt; 4 &lt; 9 。
-删除下标 0 和 1 处的元素，nums 变成空数组 [] 。
-所以，可以得到的最小数组长度为 0 。</pre>
-
-<p><strong class="example">示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [2,3,6,9]
-<strong>输出：</strong>0
-<strong>解释：</strong>一开始，nums = [2, 3, 6, 9] 。
-第一次操作，我们选择下标 0 和 2 ，满足 nums[0] &lt; nums[2] &lt;=&gt; 2 &lt; 6 。
-删除下标 0 和 2 处的元素，nums 变成 [3, 9] 。
-下一次操作，我们选择下标 0 和 1 ，满足 nums[0] &lt; nums[1] &lt;=&gt; 3 &lt; 9 。
-删除下标 0 和 1 处的元素，nums 变成空数组 [] 。
-所以，可以得到的最小数组长度为 0 。
-</pre>
-
-<p><strong class="example">示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,1,2]
-<strong>输出：</strong>1
-<strong>解释：</strong>一开始，nums = [1, 1, 2] 。
-第一次操作，我们选择下标 0 和 2 ，满足 nums[0] &lt; nums[2] &lt;=&gt; 1 &lt; 2 。
-删除下标 0 和 2 处的元素，nums 变成 [1] 。
-无法对数组再执行操作。
-所以，可以得到的最小数组长度为 1 。
-</pre>
+<p>Note that <code>nums</code> is sorted in <strong>non-decreasing</strong> order.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [1,3,4,9]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Initially, nums = [1, 3, 4, 9].
+In the first operation, we can choose index 0 and 1 because nums[0] &lt; nums[1] &lt;=&gt; 1 &lt; 3.
+Remove indices 0 and 1, and nums becomes [4, 9].
+For the next operation, we can choose index 0 and 1 because nums[0] &lt; nums[1] &lt;=&gt; 4 &lt; 9.
+Remove indices 0 and 1, and nums becomes an empty array [].
+Hence, the minimum length achievable is 0.</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [2,3,6,9]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Initially, nums = [2, 3, 6, 9]. 
+In the first operation, we can choose index 0 and 2 because nums[0] &lt; nums[2] &lt;=&gt; 2 &lt; 6. 
+Remove indices 0 and 2, and nums becomes [3, 9]. 
+For the next operation, we can choose index 0 and 1 because nums[0] &lt; nums[1] &lt;=&gt; 3 &lt; 9. 
+Remove indices 0 and 1, and nums becomes an empty array []. 
+Hence, the minimum length achievable is 0.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,1,2]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Initially, nums = [1, 1, 2].
+In an operation, we can choose index 0 and 2 because nums[0] &lt; nums[2] &lt;=&gt; 1 &lt; 2. 
+Remove indices 0 and 2, and nums becomes [1]. 
+It is no longer possible to perform an operation on the array. 
+Hence, the minimum achievable length is 1. 
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>nums</code>&nbsp;是 <strong>非递减</strong>&nbsp;数组。</li>
+	<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 优先队列（大根堆）
+### Solution 1: Greedy + Priority Queue (Max Heap)
 
-我们用一个哈希表 $cnt$ 统计数组 $nums$ 中每个元素的出现次数，然后将 $cnt$ 中的每个值加入一个优先队列（大根堆） $pq$ 中。每次从 $pq$ 中取出两个元素 $x$ 和 $y$，将它们的值减一，如果减一后的值仍大于 $0$，则将减一后的值重新加入 $pq$。每次从 $pq$ 中取出两个元素，表示将数组中的两个数对删除，因此数组的长度减少 $2$。当 $pq$ 的大小小于 $2$ 时，停止删除操作。
+We use a hash table $cnt$ to count the occurrence of each element in the array $nums$, then add each value in $cnt$ to a priority queue (max heap) $pq$. Each time we take out two elements $x$ and $y$ from $pq$, decrease their values by one. If the value after decrement is still greater than $0$, we add the decremented value back to $pq$. Each time we take out two elements from $pq$, it means we delete a pair of numbers from the array, so the length of the array decreases by $2$. When the size of $pq$ is less than $2$, we stop the deletion operation.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 是数组 $nums$ 的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

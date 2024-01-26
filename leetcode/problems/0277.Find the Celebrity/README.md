@@ -1,106 +1,50 @@
-# [277. 搜寻名人](https://leetcode.cn/problems/find-the-celebrity)
+# [277. Find the Celebrity](https://leetcode.com/problems/find-the-celebrity)
 
-[English Version](/solution/0200-0299/0277.Find%20the%20Celebrity/README_EN.md)
+[中文文档](/solution/0200-0299/0277.Find%20the%20Celebrity/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Suppose you are at a party with <code>n</code> people labeled from <code>0</code> to <code>n - 1</code> and among them, there may exist one celebrity. The definition of a celebrity is that all the other <code>n - 1</code> people know the celebrity, but the celebrity does not know any of them.</p>
 
-<p>假设你是一个专业的狗仔，参加了一个 <code>n</code> 人派对，其中每个人被从 <code>0</code> 到 <code>n - 1</code> 标号。在这个派对人群当中可能存在一位 “名人”。所谓 “名人” 的定义是：其他所有 <code>n - 1</code> 个人都认识他/她，而他/她并不认识其他任何人。</p>
+<p>Now you want to find out who the celebrity is or verify that there is not one. You are only allowed to ask questions like: &quot;Hi, A. Do you know B?&quot; to get information about whether A knows B. You need to find out the celebrity (or verify there is not one) by asking as few questions as possible (in the asymptotic sense).</p>
 
-<p>现在你想要确认这个 “名人” 是谁，或者确定这里没有 “名人”。而你唯一能做的就是问诸如 “A 你好呀，请问你认不认识 B呀？” 的问题，以确定 A 是否认识 B。你需要在（渐近意义上）尽可能少的问题内来确定这位 “名人” 是谁（或者确定这里没有 “名人”）。</p>
+<p>You are given a helper function <code>bool knows(a, b)</code> that tells you whether <code>a</code> knows <code>b</code>. Implement a function <code>int findCelebrity(n)</code>. There will be exactly one celebrity if they are at the party.</p>
 
-<p>在本题中，你可以使用辅助函数 <code>bool knows(a, b)</code> 获取到 A 是否认识 B。请你来实现一个函数 <code>int findCelebrity(n)</code>。</p>
+<p>Return <em>the celebrity&#39;s label if there is a celebrity at the party</em>. If there is no celebrity, return <code>-1</code>.</p>
 
-<p>派对最多只会有一个 “名人” 参加。若 “名人” 存在，请返回他/她的编号；若 “名人” 不存在，请返回 <code>-1</code>。</p>
-
-<p> </p>
-
-<p><strong>示例 1:</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0277.Find%20the%20Celebrity/images/277_example_1_bold.png" style="height: 181px; width: 186px;" /></p>
-
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0277.Find%20the%20Celebrity/images/g1.jpg" style="width: 224px; height: 145px;" />
 <pre>
-<strong>输入: </strong>graph = [
-  [1,1,0],
-  [0,1,0],
-  [1,1,1]
-]
-<strong>输出: </strong>1
-<strong>解释: </strong>有编号分别为 0、1 和 2 的三个人。graph[i][j] = 1 代表编号为 i 的人认识编号为 j 的人，而 graph[i][j] = 0 则代表编号为 i 的人不认识编号为 j 的人。“名人” 是编号 1 的人，因为 0 和 2 均认识他/她，但 1 不认识任何人。
+<strong>Input:</strong> graph = [[1,1,0],[0,1,0],[1,1,1]]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There are three persons labeled with 0, 1 and 2. graph[i][j] = 1 means person i knows person j, otherwise graph[i][j] = 0 means person i does not know person j. The celebrity is the person labeled as 1 because both 0 and 2 know him but 1 does not know anybody.
 </pre>
 
-<p><strong>示例 2:</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0277.Find%20the%20Celebrity/images/277_example_2.png" style="height: 192px; width: 193px;" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0277.Find%20the%20Celebrity/images/g2.jpg" style="width: 224px; height: 145px;" />
 <pre>
-<strong>输入: </strong>graph = [
-  [1,0,1],
-  [1,1,0],
-  [0,1,1]
-]
-<strong>输出: </strong>-1
-<strong>解释: </strong>没有 “名人”
+<strong>Input:</strong> graph = [[1,0,1],[1,1,0],[0,1,1]]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> There is no celebrity.
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>n == graph.length</code></li>
-	<li><code>n == graph[i].length</code></li>
-	<li><code>2 <= n <= 100</code></li>
-	<li><code>graph[i][j]</code> 是 <code>0</code> 或 <code>1</code>.</li>
+	<li><code>n == graph.length == graph[i].length</code></li>
+	<li><code>2 &lt;= n &lt;= 100</code></li>
+	<li><code>graph[i][j]</code> is <code>0</code> or <code>1</code>.</li>
 	<li><code>graph[i][i] == 1</code></li>
 </ul>
 
-<p> </p>
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> If the maximum number of allowed calls to the API <code>knows</code> is <code>3 * n</code>, could you find a solution without exceeding the maximum number of calls?</p>
 
-<p><strong>进阶：</strong>如果允许调用 API <code>knows</code> 的最大次数为 <code>3 * n</code> ，你可以设计一个不超过最大调用次数的解决方案吗？</p>
+## Solutions
 
-<ol>
-</ol>
-
-## 解法
-
-### 方法一：O(n) 遍历
-
-经过验证，若暴力遍历，调用 $O(n^2)$ 次 $knows$ 方法，会报 TLE 错误。因此，我们需要寻找更优的解法。
-
-要找出 $n$ 个人中的名人，题目给我们的关键信息是：1. 名人不认识其他所有人；2. 其他所有人都认识名人。
-
-那么，我们初始时假定名人 $ans=0$。然后在 $[1,n)$ 范围内遍历 $i$，若 $ans$ 认识 $i$，说明 $ans$ 不是我们要找的名人，此时我们可以直接将 $ans$ 更新为 $i$。
-
-为什么呢？我们来举个实际的例子。
-
-```bash
-ans = 0
-for i in [1,n) {
-	if (ans knows i) {
-		ans = i
-	}
-}
-
-ans = 0
-
-ans not knows 1
-ans not knows 2
-ans knows 3
-ans = 3
-
-ans not knows 4
-ans not knows 5
-ans not knows 6
-ans = 6
-```
-
-这里 $ans$ 认识 $3$，说明 $ans$ 不是名人（即 $0$ 不是名人），那么名人会是 $1$ 或者 $2$ 吗？不会！因为若 $1$ 或者 $2$ 是名人，那么 $0$ 应该认识 $1$ 或者 $2$ 才对，与前面的例子冲突。因此，我们可以直接将 $ans$ 更新为 $i$。
-
-我们找出 $ans$ 之后，接下来再遍历一遍，判断 $ans$ 是否满足名人的条件。若不满足，返回 $-1$。
-
-否则遍历结束，返回 $ans$。
+### Solution 1
 
 <!-- tabs:start -->
 

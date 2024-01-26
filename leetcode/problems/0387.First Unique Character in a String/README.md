@@ -1,56 +1,33 @@
-# [387. 字符串中的第一个唯一字符](https://leetcode.cn/problems/first-unique-character-in-a-string)
+# [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)
 
-[English Version](/solution/0300-0399/0387.First%20Unique%20Character%20in%20a%20String/README_EN.md)
+[中文文档](/solution/0300-0399/0387.First%20Unique%20Character%20in%20a%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个字符串&nbsp;<code>s</code>&nbsp;，找到 <em>它的第一个不重复的字符，并返回它的索引</em> 。如果不存在，则返回 <code>-1</code>&nbsp;。</p>
+<p>Given a string <code>s</code>, <em>find the first non-repeating character in it and return its index</em>. If it does not exist, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入:</strong> s = "leetcode"
-<strong>输出:</strong> 0
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "leetcode"
+<strong>Output:</strong> 0
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "loveleetcode"
+<strong>Output:</strong> 2
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> s = "aabb"
+<strong>Output:</strong> -1
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> s = "loveleetcode"
-<strong>输出:</strong> 2
-</pre>
-
-<p><strong>示例 3:</strong></p>
-
-<pre>
-<strong>输入:</strong> s = "aabb"
-<strong>输出:</strong> -1
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code>&nbsp;只包含小写字母</li>
+	<li><code>s</code> consists of only lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数组或哈希表
-
-我们可以用数组或哈希表 $cnt$ 记录字符串 $s$ 中每个字符出现的次数。
-
-然后我们再遍历字符串 $s$，当遍历到某个字符 $c$ 时，如果 $cnt[c]=1$，则说明 $c$ 是第一个不重复的字符，返回它的索引即可。
-
-如果遍历完字符串 $s$ 仍然没有找到不重复的字符，返回 $-1$。
-
-时间复杂度 $O(n)$，空间复杂度 $O(\Sigma)$，其中 $\Sigma$ 是字符集的大小。
+### Solution 1
 
 <!-- tabs:start -->
 

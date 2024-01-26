@@ -1,12 +1,10 @@
-# [1635. Hopper 公司查询 I](https://leetcode.cn/problems/hopper-company-queries-i)
+# [1635. Hopper Company Queries I](https://leetcode.com/problems/hopper-company-queries-i)
 
-[English Version](/solution/1600-1699/1635.Hopper%20Company%20Queries%20I/README_EN.md)
+[中文文档](/solution/1600-1699/1635.Hopper%20Company%20Queries%20I/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Drivers</code></p>
+<p>Table: <code>Drivers</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,13 +13,13 @@
 | driver_id   | int     |
 | join_date   | date    |
 +-------------+---------+
-driver_id 是该表的主键(具有唯一值的列)。
-该表的每一行均包含驾驶员的ID以及他们加入Hopper公司的日期。
+driver_id is the primary key (column with unique values) for this table.
+Each row of this table contains the driver&#39;s ID and the date they joined the Hopper company.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Rides</code></p>
+<p>Table: <code>Rides</code></p>
 
 <pre>
 +--------------+---------+
@@ -31,14 +29,14 @@ driver_id 是该表的主键(具有唯一值的列)。
 | user_id      | int     |
 | requested_at | date    |
 +--------------+---------+
-ride_id 是该表的主键(具有唯一值的列)。
-该表的每一行均包含行程ID(ride_id)，用户ID(user_id)以及该行程的日期(requested_at)。
-该表中可能有一些不被接受的乘车请求。
+ride_id is the primary key (column with unique values) for this table.
+Each row of this table contains the ID of a ride, the user&#39;s ID that requested it, and the day they requested it.
+There may be some ride requests in this table that were not accepted.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>AcceptedRides</code></p>
+<p>Table: <code>AcceptedRides</code></p>
 
 <pre>
 +---------------+---------+
@@ -49,31 +47,30 @@ ride_id 是该表的主键(具有唯一值的列)。
 | ride_distance | int     |
 | ride_duration | int     |
 +---------------+---------+
-ride_id 是该表的主键(具有唯一值的列)。
-该表的每一行都包含已接受的行程信息。
-表中的行程信息都在“<code>Rides</code>”表中存在。
+ride_id is the primary key (column with unique values) for this table.
+Each row of this table contains some information about an accepted ride.
+It is guaranteed that each accepted ride exists in the Rides table.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案以报告 <strong>2020</strong> 年每个月的以下统计信息：</p>
+<p>Write a solution to report the following statistics for each month of <strong>2020</strong>:</p>
 
 <ul>
-	<li>截至某月底，当前在Hopper公司工作的驾驶员数量（<code>active_drivers</code>）。</li>
-	<li>该月接受的乘车次数（<code>accepted_rides</code>）。</li>
+	<li>The number of drivers currently with the Hopper company by the end of the month (<code>active_drivers</code>).</li>
+	<li>The number of accepted rides in that month (<code>accepted_rides</code>).</li>
 </ul>
 
-<p>返回按<code>month</code> 升序排列的结果表，其中<code>month</code> 是月份的数字（一月是<code>1</code>，二月是<code>2</code>，依此类推）。</p>
+<p>Return the result table ordered by <code>month</code> in ascending order, where <code>month</code> is the month&#39;s number (January is <code>1</code>, February is <code>2</code>, etc.).</p>
 
-<p>返回结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-表 Drivers:
+<strong>Input:</strong> 
+Drivers table:
 +-----------+------------+
 | driver_id | join_date  |
 +-----------+------------+
@@ -85,7 +82,7 @@ ride_id 是该表的主键(具有唯一值的列)。
 | 1         | 2020-10-24 |
 | 6         | 2021-1-5   |
 +-----------+------------+
-表 Rides:
+Rides table:
 +---------+---------+--------------+
 | ride_id | user_id | requested_at |
 +---------+---------+--------------+
@@ -105,7 +102,7 @@ ride_id 是该表的主键(具有唯一值的列)。
 | 12      | 11      | 2021-1-19    |
 | 14      | 18      | 2021-1-27    |
 +---------+---------+--------------+
-表 AcceptedRides:
+AcceptedRides table:
 +---------+-----------+---------------+---------------+
 | ride_id | driver_id | ride_distance | ride_duration |
 +---------+-----------+---------------+---------------+
@@ -121,7 +118,7 @@ ride_id 是该表的主键(具有唯一值的列)。
 | 12      | 8         | 38            | 34            |
 | 14      | 1         | 90            | 74            |
 +---------+-----------+---------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------+----------------+----------------+
 | month | active_drivers | accepted_rides |
 +-------+----------------+----------------+
@@ -138,23 +135,24 @@ ride_id 是该表的主键(具有唯一值的列)。
 | 11    | 6              | 2              |
 | 12    | 6              | 1              |
 +-------+----------------+----------------+
-<strong>解释：</strong>
-截至1月底-&gt;两个活跃的驾驶员（10,8），没有被接受的行程。
-截至2月底-&gt;三个活跃的驾驶员（10,8,5），没有被接受的行程。
-截至3月底-&gt;四个活跃的驾驶员（10,8,5,7），一个被接受的行程（10）。
-截至4月底-&gt;四个活跃的驾驶员（10,8,5,7），没有被接受的行程。
-截至5月底-&gt;五个活跃的驾驶员（10,8,5,7,4），没有被接受的行程。
-截至6月底-&gt;五个活跃的驾驶员（10,8,5,7,4），一个被接受的行程（13）。
-截至7月底-&gt;五个活跃的驾驶员（10,8,5,7,4），一个被接受的行程（7）。
-截至8月底-&gt;五个活跃的驾驶员（10,8,5,7,4），一位接受的行程（17）。
-截至9月底-&gt;五个活跃的驾驶员（10,8,5,7,4），没有被接受的行程。
-截至10月底-&gt;六个活跃的驾驶员（10,8,5,7,4,1），没有被接受的行程。
-截至11月底-&gt;六个活跃的驾驶员（10,8,5,7,4,1），两个被接受的行程（20,5）。
-截至12月底-&gt;六个活跃的驾驶员（10,8,5,7,4,1），一个被接受的行程（2）。</pre>
+<strong>Explanation:</strong> 
+By the end of January --&gt; two active drivers (10, 8) and no accepted rides.
+By the end of February --&gt; three active drivers (10, 8, 5) and no accepted rides.
+By the end of March --&gt; four active drivers (10, 8, 5, 7) and one accepted ride (10).
+By the end of April --&gt; four active drivers (10, 8, 5, 7) and no accepted rides.
+By the end of May --&gt; five active drivers (10, 8, 5, 7, 4) and no accepted rides.
+By the end of June --&gt; five active drivers (10, 8, 5, 7, 4) and one accepted ride (13).
+By the end of July --&gt; five active drivers (10, 8, 5, 7, 4) and one accepted ride (7).
+By the end of August --&gt; five active drivers (10, 8, 5, 7, 4) and one accepted ride (17).
+By the end of September --&gt; five active drivers (10, 8, 5, 7, 4) and no accepted rides.
+By the end of October --&gt; six active drivers (10, 8, 5, 7, 4, 1) and no accepted rides.
+By the end of November --&gt; six active drivers (10, 8, 5, 7, 4, 1) and two accepted rides (20, 5).
+By the end of December --&gt; six active drivers (10, 8, 5, 7, 4, 1) and one accepted ride (2).
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [1194. 锦标赛优胜者](https://leetcode.cn/problems/tournament-winners)
+# [1194. Tournament Winners](https://leetcode.com/problems/tournament-winners)
 
-[English Version](/solution/1100-1199/1194.Tournament%20Winners/README_EN.md)
+[中文文档](/solution/1100-1199/1194.Tournament%20Winners/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><code>Players</code>&nbsp;玩家表</p>
+<p>Table: <code>Players</code></p>
 
 <pre>
 +-------------+-------+
@@ -15,11 +13,11 @@
 | player_id   | int   |
 | group_id    | int   |
 +-------------+-------+
-player_id 是此表的主键(具有唯一值的列)。
-此表的每一行表示每个玩家的组。
+player_id is the primary key (column with unique values) of this table.
+Each row of this table indicates the group of each player.
 </pre>
 
-<p><code>Matches</code>&nbsp;赛事表</p>
+<p>Table: <code>Matches</code></p>
 
 <pre>
 +---------------+---------+
@@ -31,29 +29,28 @@ player_id 是此表的主键(具有唯一值的列)。
 | first_score   | int     |
 | second_score  | int     |
 +---------------+---------+
-match_id 是此表的主键(具有唯一值的列)。
-每一行是一场比赛的记录，first_player 和 second_player 表示该场比赛的球员 ID。
-first_score 和 second_score 分别表示 first_player 和 second_player 的得分。
-你可以假设，在每一场比赛中，球员都属于同一组。
+match_id is the primary key (column with unique values) of this table.
+Each row is a record of a match, first_player and second_player contain the player_id of each match.
+first_score and second_score contain the number of points of the first_player and second_player respectively.
+You may assume that, in each match, players belong to the same group.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>每组的获胜者是在组内累积得分最高的选手。如果平局，<code>player_id</code> <strong>最小&nbsp;</strong>的选手获胜。</p>
+<p>The winner in each group is the player who scored the maximum total points within the group. In the case of a tie, the <strong>lowest</strong> <code>player_id</code> wins.</p>
 
-<p>编写解决方案来查找每组中的获胜者。</p>
+<p>Write a solution to find the winner in each group.</p>
 
-<p>返回的结果表单 <strong>没有顺序要求</strong>&nbsp;。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Players 表</code>:
+<strong>Input:</strong> 
+Players table:
 +-----------+------------+
 | player_id | group_id   |
 +-----------+------------+
@@ -67,7 +64,7 @@ Players 表</code>:
 | 20        | 3          |
 | 40        | 3          |
 +-----------+------------+
-<code>Matches 表</code>:
+Matches table:
 +------------+--------------+---------------+-------------+--------------+
 | match_id   | first_player | second_player | first_score | second_score |
 +------------+--------------+---------------+-------------+--------------+
@@ -77,18 +74,19 @@ Players 表</code>:
 | 4          | 40           | 20            | 5           | 2            |
 | 5          | 35           | 50            | 1           | 1            |
 +------------+--------------+---------------+-------------+--------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-----------+------------+
 | group_id  | player_id  |
 +-----------+------------+ 
 | 1         | 15         |
 | 2         | 35         |
 | 3         | 40         |
-+-----------+------------+</pre>
++-----------+------------+
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,66 +1,59 @@
-# [44. 通配符匹配](https://leetcode.cn/problems/wildcard-matching)
+# [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching)
 
-[English Version](/solution/0000-0099/0044.Wildcard%20Matching/README_EN.md)
+[中文文档](/solution/0000-0099/0044.Wildcard%20Matching/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<div class="title__3Vvk">给你一个输入字符串 (<code>s</code>) 和一个字符模式 (<code>p</code>) ，请你实现一个支持 <code>'?'</code> 和 <code>'*'</code> 匹配规则的通配符匹配：</div>
+<p>Given an input string (<code>s</code>) and a pattern (<code>p</code>), implement wildcard pattern matching with support for <code>&#39;?&#39;</code> and <code>&#39;*&#39;</code> where:</p>
 
 <ul>
-	<li class="title__3Vvk"><code>'?'</code> 可以匹配任何单个字符。</li>
-	<li class="title__3Vvk"><code>'*'</code> 可以匹配任意字符序列（包括空字符序列）。</li>
+	<li><code>&#39;?&#39;</code> Matches any single character.</li>
+	<li><code>&#39;*&#39;</code> Matches any sequence of characters (including the empty sequence).</li>
 </ul>
 
-<div class="original__bRMd">
-<div>
-<p>判定匹配成功的充要条件是：字符模式必须能够 <strong>完全匹配</strong> 输入字符串（而不是部分匹配）。</p>
-</div>
-</div>
-&nbsp;
+<p>The matching should cover the <strong>entire</strong> input string (not partial).</p>
 
-<p><strong class="example">示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "aa", p = "a"
-<strong>输出：</strong>false
-<strong>解释：</strong>"a" 无法匹配 "aa" 整个字符串。
+<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;a&quot;
+<strong>Output:</strong> false
+<strong>Explanation:</strong> &quot;a&quot; does not match the entire string &quot;aa&quot;.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "aa", p = "*"
-<strong>输出：</strong>true
-<strong>解释：</strong>'*' 可以匹配任意字符串。
+<strong>Input:</strong> s = &quot;aa&quot;, p = &quot;*&quot;
+<strong>Output:</strong> true
+<strong>Explanation:</strong>&nbsp;&#39;*&#39; matches any sequence.
 </pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "cb", p = "?a"
-<strong>输出：</strong>false
-<strong>解释：</strong>'?' 可以匹配 'c', 但第二个 'a' 无法匹配 'b'。
+<strong>Input:</strong> s = &quot;cb&quot;, p = &quot;?a&quot;
+<strong>Output:</strong> false
+<strong>Explanation:</strong>&nbsp;&#39;?&#39; matches &#39;c&#39;, but the second letter is &#39;a&#39;, which does not match &#39;b&#39;.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>0 &lt;= s.length, p.length &lt;= 2000</code></li>
-	<li><code>s</code> 仅由小写英文字母组成</li>
-	<li><code>p</code> 仅由小写英文字母、<code>'?'</code> 或 <code>'*'</code> 组成</li>
+	<li><code>s</code> contains only lowercase English letters.</li>
+	<li><code>p</code> contains only lowercase English letters, <code>&#39;?&#39;</code> or <code>&#39;*&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义状态 $dp[i][j]$ 表示 $s$ 的前 $i$ 个字符和 $p$ 的前 $j$ 个字符是否匹配。
+We define the state $dp[i][j]$ to represent whether the first $i$ characters of $s$ match the first $j$ characters of $p$.
 
-状态转移方程如下：
+The state transition equation is as follows:
 
 $$
 dp[i][j]=
@@ -71,7 +64,7 @@ dp[i-1][j-1] \lor dp[i-1][j] \lor dp[i][j-1] & \text{if } p[j-1]=\text{*} \\
 \end{cases}
 $$
 
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别为 $s$ 和 $p$ 的长度。
+The time complexity is $O(m \times n)$, and the space complexity is $O(m \times n)$. Here, $m$ and $n$ are the lengths of $s$ and $p$ respectively.
 
 <!-- tabs:start -->
 

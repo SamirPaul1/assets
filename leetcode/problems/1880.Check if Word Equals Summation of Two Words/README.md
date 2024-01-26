@@ -1,69 +1,69 @@
-# [1880. 检查某单词是否等于两单词之和](https://leetcode.cn/problems/check-if-word-equals-summation-of-two-words)
+# [1880. Check if Word Equals Summation of Two Words](https://leetcode.com/problems/check-if-word-equals-summation-of-two-words)
 
-[English Version](/solution/1800-1899/1880.Check%20if%20Word%20Equals%20Summation%20of%20Two%20Words/README_EN.md)
+[中文文档](/solution/1800-1899/1880.Check%20if%20Word%20Equals%20Summation%20of%20Two%20Words/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>The <strong>letter value</strong> of a letter is its position in the alphabet <strong>starting from 0</strong> (i.e. <code>&#39;a&#39; -&gt; 0</code>, <code>&#39;b&#39; -&gt; 1</code>, <code>&#39;c&#39; -&gt; 2</code>, etc.).</p>
 
-<p>字母的 <strong>字母值</strong> 取决于字母在字母表中的位置，<strong>从 0 开始</strong> 计数。即，<code>'a' -&gt; 0</code>、<code>'b' -&gt; 1</code>、<code>'c' -&gt; 2</code>，以此类推。</p>
-
-<p>对某个由小写字母组成的字符串 <code>s</code> 而言，其 <strong>数值</strong> 就等于将 <code>s</code> 中每个字母的 <strong>字母值</strong> 按顺序 <strong>连接</strong> 并 <strong>转换</strong> 成对应整数。</p>
+<p>The <strong>numerical value</strong> of some string of lowercase English letters <code>s</code> is the <strong>concatenation</strong> of the <strong>letter values</strong> of each letter in <code>s</code>, which is then <strong>converted</strong> into an integer.</p>
 
 <ul>
-	<li>例如，<code>s = "acb"</code> ，依次连接每个字母的字母值可以得到 <code>"021"</code> ，转换为整数得到 <code>21</code> 。</li>
+	<li>For example, if <code>s = &quot;acb&quot;</code>, we concatenate each letter&#39;s letter value, resulting in <code>&quot;021&quot;</code>. After converting it, we get <code>21</code>.</li>
 </ul>
 
-<p>给你三个字符串 <code>firstWord</code>、<code>secondWord</code> 和 <code>targetWord</code> ，每个字符串都由从 <code>'a'</code> 到 <code>'j'</code> （<strong>含 </strong><code>'a'</code> 和 <code>'j'</code><strong> </strong>）的小写英文字母组成。</p>
+<p>You are given three strings <code>firstWord</code>, <code>secondWord</code>, and <code>targetWord</code>, each consisting of lowercase English letters <code>&#39;a&#39;</code> through <code>&#39;j&#39;</code> <strong>inclusive</strong>.</p>
 
-<p>如果 <code>firstWord</code><em> </em>和<em> </em><code>secondWord</code> 的 <strong>数值之和</strong> 等于<em> </em><code>targetWord</code><em> </em>的数值，返回 <code>true</code> ；否则，返回<em> </em><code>false</code><em> </em>。</p>
+<p>Return <code>true</code> <em>if the <strong>summation</strong> of the <strong>numerical values</strong> of </em><code>firstWord</code><em> and </em><code>secondWord</code><em> equals the <strong>numerical value</strong> of </em><code>targetWord</code><em>, or </em><code>false</code><em> otherwise.</em></p>
 
-<p> </p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>firstWord = "acb", secondWord = "cba", targetWord = "cdb"
-<strong>输出：</strong>true
-<strong>解释：</strong>
-firstWord 的数值为 "acb" -&gt; "021" -&gt; 21
-secondWord 的数值为 "cba" -&gt; "210" -&gt; 210
-targetWord 的数值为 "cdb" -&gt; "231" -&gt; 231
-由于 21 + 210 == 231 ，返回 true
+<pre>
+<strong>Input:</strong> firstWord = &quot;acb&quot;, secondWord = &quot;cba&quot;, targetWord = &quot;cdb&quot;
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
+The numerical value of firstWord is &quot;acb&quot; -&gt; &quot;021&quot; -&gt; 21.
+The numerical value of secondWord is &quot;cba&quot; -&gt; &quot;210&quot; -&gt; 210.
+The numerical value of targetWord is &quot;cdb&quot; -&gt; &quot;231&quot; -&gt; 231.
+We return true because 21 + 210 == 231.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>firstWord = "aaa", secondWord = "a", targetWord = "aab"
-<strong>输出：</strong>false
-<strong>解释：</strong>
-firstWord 的数值为 "aaa" -&gt; "000" -&gt; 0
-secondWord 的数值为 "a" -&gt; "0" -&gt; 0
-targetWord 的数值为 "aab" -&gt; "001" -&gt; 1
-由于 0 + 0 != 1 ，返回 false</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre><strong>输入：</strong>firstWord = "aaa", secondWord = "a", targetWord = "aaaa"
-<strong>输出：</strong>true
-<strong>解释：</strong>
-firstWord 的数值为 "aaa" -&gt; "000" -&gt; 0
-secondWord 的数值为 "a" -&gt; "0" -&gt; 0
-targetWord 的数值为 "aaaa" -&gt; "0000" -&gt; 0
-由于 0 + 0 == 0 ，返回 true
+<pre>
+<strong>Input:</strong> firstWord = &quot;aaa&quot;, secondWord = &quot;a&quot;, targetWord = &quot;aab&quot;
+<strong>Output:</strong> false
+<strong>Explanation:</strong> 
+The numerical value of firstWord is &quot;aaa&quot; -&gt; &quot;000&quot; -&gt; 0.
+The numerical value of secondWord is &quot;a&quot; -&gt; &quot;0&quot; -&gt; 0.
+The numerical value of targetWord is &quot;aab&quot; -&gt; &quot;001&quot; -&gt; 1.
+We return false because 0 + 0 != 1.
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 3:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> firstWord = &quot;aaa&quot;, secondWord = &quot;a&quot;, targetWord = &quot;aaaa&quot;
+<strong>Output:</strong> true
+<strong>Explanation:</strong> 
+The numerical value of firstWord is &quot;aaa&quot; -&gt; &quot;000&quot; -&gt; 0.
+The numerical value of secondWord is &quot;a&quot; -&gt; &quot;0&quot; -&gt; 0.
+The numerical value of targetWord is &quot;aaaa&quot; -&gt; &quot;0000&quot; -&gt; 0.
+We return true because 0 + 0 == 0.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= firstWord.length, </code><code>secondWord.length, </code><code>targetWord.length &lt;= 8</code></li>
-	<li><code>firstWord</code>、<code>secondWord</code> 和 <code>targetWord</code> 仅由从 <code>'a'</code> 到 <code>'j'</code> （<strong>含 </strong><code>'a'</code> 和 <code>'j'</code><strong> </strong>）的小写英文字母组成<strong>。</strong></li>
+	<li><code>firstWord</code>, <code>secondWord</code>, and <code>targetWord</code> consist of lowercase English letters from <code>&#39;a&#39;</code> to <code>&#39;j&#39;</code> <strong>inclusive</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

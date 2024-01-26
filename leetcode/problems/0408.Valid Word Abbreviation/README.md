@@ -1,82 +1,80 @@
-# [408. 有效单词缩写](https://leetcode.cn/problems/valid-word-abbreviation)
+# [408. Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)
 
-[English Version](/solution/0400-0499/0408.Valid%20Word%20Abbreviation/README_EN.md)
+[中文文档](/solution/0400-0499/0408.Valid%20Word%20Abbreviation/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A string can be <strong>abbreviated</strong> by replacing any number of <strong>non-adjacent</strong>, <strong>non-empty</strong> substrings with their lengths. The lengths <strong>should not</strong> have leading zeros.</p>
 
-<p>字符串可以用 <strong>缩写</strong> 进行表示，<strong>缩写</strong> 的方法是将任意数量的 <strong>不相邻</strong> 的子字符串替换为相应子串的长度。例如，字符串 <code>"substitution"</code> 可以缩写为（不止这几种方法）：</p>
-
-<ul>
-	<li><code>"s10n"</code> (<code>"s <em><strong>ubstitutio</strong></em> n"</code>)</li>
-	<li><code>"sub4u4"</code> (<code>"sub <em><strong>stit</strong></em> u <em><strong>tion</strong></em>"</code>)</li>
-	<li><code>"12"</code> (<code>"<em><strong>substitution</strong></em>"</code>)</li>
-	<li><code>"su3i1u2on"</code> (<code>"su <em><strong>bst</strong></em> i <em><strong>t</strong></em> u <em><strong>ti</strong></em> on"</code>)</li>
-	<li><code>"substitution"</code> (没有替换子字符串)</li>
-</ul>
-
-<p>下列是不合法的缩写：</p>
+<p>For example, a string such as <code>&quot;substitution&quot;</code> could be abbreviated as (but not limited to):</p>
 
 <ul>
-	<li><code>"s55n"</code>&nbsp;(<code>"s&nbsp;<u>ubsti</u>&nbsp;<u>tutio</u>&nbsp;n"</code>，两处缩写相邻)</li>
-	<li><code>"s010n"</code>&nbsp;(缩写存在前导零)</li>
-	<li><code>"s0ubstitution"</code>&nbsp;(缩写是一个空字符串)</li>
+	<li><code>&quot;s10n&quot;</code> (<code>&quot;s <u>ubstitutio</u> n&quot;</code>)</li>
+	<li><code>&quot;sub4u4&quot;</code> (<code>&quot;sub <u>stit</u> u <u>tion</u>&quot;</code>)</li>
+	<li><code>&quot;12&quot;</code> (<code>&quot;<u>substitution</u>&quot;</code>)</li>
+	<li><code>&quot;su3i1u2on&quot;</code> (<code>&quot;su <u>bst</u> i <u>t</u> u <u>ti</u> on&quot;</code>)</li>
+	<li><code>&quot;substitution&quot;</code> (no substrings replaced)</li>
 </ul>
 
-<p>给你一个字符串单词 <code>word</code> 和一个缩写&nbsp;<code>abbr</code>&nbsp;，判断这个缩写是否可以是给定单词的缩写。</p>
+<p>The following are <strong>not valid</strong> abbreviations:</p>
 
-<p><strong>子字符串</strong>是字符串中连续的<strong>非空</strong>字符序列。</p>
+<ul>
+	<li><code>&quot;s55n&quot;</code> (<code>&quot;s <u>ubsti</u> <u>tutio</u> n&quot;</code>, the replaced substrings are adjacent)</li>
+	<li><code>&quot;s010n&quot;</code> (has leading zeros)</li>
+	<li><code>&quot;s0ubstitution&quot;</code> (replaces an empty substring)</li>
+</ul>
 
-<p>&nbsp;</p>
+<p>Given a string <code>word</code> and an abbreviation <code>abbr</code>, return <em>whether the string <strong>matches</strong> the given abbreviation</em>.</p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>word = "internationalization", abbr = "i12iz4n"
-<strong>输出：</strong>true
-<strong>解释：</strong>单词 "internationalization" 可以缩写为 "i12iz4n" ("i <em><strong>nternational</strong></em> iz <em><strong>atio</strong></em> n") 。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>word = "apple", abbr = "a2e"
-<strong>输出：</strong>false
-<strong>解释：</strong>单词 "apple" 无法缩写为 "a2e" 。
-</pre>
+<p>A <strong>substring</strong> is a contiguous <strong>non-empty</strong> sequence of characters within a string.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> word = &quot;internationalization&quot;, abbr = &quot;i12iz4n&quot;
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The word &quot;internationalization&quot; can be abbreviated as &quot;i12iz4n&quot; (&quot;i <u>nternational</u> iz <u>atio</u> n&quot;).
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> word = &quot;apple&quot;, abbr = &quot;a2e&quot;
+<strong>Output:</strong> false
+<strong>Explanation:</strong> The word &quot;apple&quot; cannot be abbreviated as &quot;a2e&quot;.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= word.length &lt;= 20</code></li>
-	<li><code>word</code> 仅由小写英文字母组成</li>
+	<li><code>word</code> consists of only lowercase English letters.</li>
 	<li><code>1 &lt;= abbr.length &lt;= 10</code></li>
-	<li><code>abbr</code> 由小写英文字母和数字组成</li>
-	<li><code>abbr</code> 中的所有数字均符合 32-bit 整数范围</li>
+	<li><code>abbr</code> consists of lowercase English letters and digits.</li>
+	<li>All the integers in <code>abbr</code> will fit in a 32-bit integer.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-我们可以直接模拟字符匹配替换。
+We can directly simulate character matching and replacement.
 
-假设字符串 $word$ 和字符串 $abbr$ 的长度分别为 $m$ 和 $n$，我们使用两个指针 $i$ 和 $j$ 分别指向字符串 $word$ 和字符串 $abbr$ 的初始位置，用一个整型变量 $x$ 记录当前匹配到的 $abbr$ 的数字。
+Assume the lengths of the string $word$ and the string $abbr$ are $m$ and $n$ respectively. We use two pointers $i$ and $j$ to point to the initial positions of the string $word$ and the string $abbr$ respectively, and use an integer variable $x$ to record the current matched number in $abbr$.
 
-循环匹配字符串 $word$ 和字符串 $abbr$ 的每个字符：
+Loop to match each character of the string $word$ and the string $abbr$:
 
-如果指针 $j$ 指向的字符 $abbr[j]$ 是数字，如果 $abbr[j]$ 是 `'0'`，并且 $x$ 为 $0$，说明 $abbr$ 中的数字含有前导零，因此不是合法的缩写，返回 `false`；否则将 $x$ 更新为 $x \times 10 + abbr[j] - '0'$。
+If the character $abbr[j]$ pointed by the pointer $j$ is a number, if $abbr[j]$ is `'0'` and $x$ is $0$, it means that the number in $abbr$ has leading zeros, so it is not a valid abbreviation, return `false`; otherwise, update $x$ to $x \times 10 + abbr[j] - '0'$.
 
-如果指针 $j$ 指向的字符 $abbr[j]$ 不是数字，那么我们此时将指针 $i$ 往前移动 $x$ 个位置，然后将 $x$ 重置为 $0$。如果此时 $i \geq m$ 或者 $word[i] \neq abbr[j]$，说明两个字符串无法匹配，返回 `false`；否则将指针 $i$ 往前移动 $1$ 个位置。
+If the character $abbr[j]$ pointed by the pointer $j$ is not a number, then we move the pointer $i$ forward by $x$ positions at this time, and then reset $x$ to $0$. If $i \geq m$ or $word[i] \neq abbr[j]$ at this time, it means that the two strings cannot match, return `false`; otherwise, move the pointer $i$ forward by $1$ position.
 
-然后我们将指针 $j$ 往前移动 $1$ 个位置，重复上述过程，直到 $i$ 超出字符串 $word$ 的长度或者 $j$ 超出字符串 $abbr$ 的长度。
+Then we move the pointer $j$ forward by $1$ position, repeat the above process, until $i$ exceeds the length of the string $word$ or $j$ exceeds the length of the string $abbr$.
 
-最后，如果 $i + x$ 等于 $m$ 且 $j$ 等于 $n$，说明字符串 $word$ 可以缩写成字符串 $abbr$，返回 `true`；否则返回 `false`。
+Finally, if $i + x$ equals $m$ and $j$ equals $n$, it means that the string $word$ can be abbreviated as the string $abbr$, return `true`; otherwise return `false`.
 
-时间复杂度 $O(m + n)$，其中 $m$ 和 $n$ 分别是字符串 $word$ 和字符串 $abbr$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of the string $word$ and the string $abbr$ respectively. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

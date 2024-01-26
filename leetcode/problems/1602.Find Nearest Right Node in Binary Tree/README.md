@@ -1,67 +1,41 @@
-# [1602. 找到二叉树中最近的右侧节点](https://leetcode.cn/problems/find-nearest-right-node-in-binary-tree)
+# [1602. Find Nearest Right Node in Binary Tree](https://leetcode.com/problems/find-nearest-right-node-in-binary-tree)
 
-[English Version](/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree and a node <code>u</code> in the tree, return <em>the <strong>nearest</strong> node on the <strong>same level</strong> that is to the <strong>right</strong> of</em> <code>u</code><em>, or return</em> <code>null</code> <em>if </em><code>u</code> <em>is the rightmost node in its level</em>.</p>
 
-<p>给定一棵二叉树的根节点 <code>root</code> 和树中的一个节点 <code>u</code> ，返回与 <code>u</code> <strong>所在层</strong>中<strong>距离最近</strong>的<strong>右侧</strong>节点，当 <code>u</code> 是所在层中最右侧的节点，返回 <code>null</code> 。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p3.png" style="width: 241px; height: 161px;" /></p>
-
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p3.png" style="width: 241px; height: 161px;" />
 <pre>
-<strong>输入：</strong>root = [1,2,3,null,4,5,6], u = 4
-<strong>输出：</strong>5
-<strong>解释：</strong>节点 4 所在层中，最近的右侧节点是节点 5。
+<strong>Input:</strong> root = [1,2,3,null,4,5,6], u = 4
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> The nearest node on the same level to the right of node 4 is node 5.
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p2.png" style="width: 101px; height: 161px;" /></strong></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p2.png" style="width: 101px; height: 161px;" />
 <pre>
-<strong>输入：</strong>root = [3,null,4,2], u = 2
-<strong>输出：</strong>null
-<strong>解释：</strong>2 的右侧没有节点。
+<strong>Input:</strong> root = [3,null,4,2], u = 2
+<strong>Output:</strong> null
+<strong>Explanation:</strong> There are no nodes to the right of 2.
 </pre>
 
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>root = [1], u = 1
-<strong>输出：</strong>null
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre>
-<strong>输入：</strong>root = [3,4,2,null,null,null,1], u = 4
-<strong>输出：</strong>2
-</pre>
-
-<p> </p>
-
-<p><strong>提示:</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点个数的范围是 <code>[1, 10<sup>5</sup>]</code> 。</li>
-	<li><code>1 <= Node.val <= 10<sup>5</sup></code></li>
-	<li>树中所有节点的值是<strong>唯一</strong>的。</li>
-	<li><code>u</code> 是以 <code>root</code> 为根的二叉树的一个节点。</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>5</sup>]</code>.</li>
+	<li><code>1 &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
+	<li>All values in the tree are <strong>distinct</strong>.</li>
+	<li><code>u</code> is a node in the binary tree rooted at <code>root</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
-
-BFS 层序遍历，找到 $u$ 所在层的右侧相邻节点。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是二叉树的节点个数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -224,11 +198,7 @@ var findNearestRightNode = function (root, u) {
 
 <!-- tabs:end -->
 
-### 方法二：DFS
-
-DFS 先序遍历二叉树，首次搜索到 $u$ 时，标记目前层数 $d$，下次遇到同一层的节点时，即为目标节点。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是二叉树的节点个数。
+### Solution 2
 
 <!-- tabs:start -->
 

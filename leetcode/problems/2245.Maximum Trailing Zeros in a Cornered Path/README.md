@@ -1,57 +1,50 @@
-# [2245. 转角路径的乘积中最多能有几个尾随零](https://leetcode.cn/problems/maximum-trailing-zeros-in-a-cornered-path)
+# [2245. Maximum Trailing Zeros in a Cornered Path](https://leetcode.com/problems/maximum-trailing-zeros-in-a-cornered-path)
 
-[English Version](/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/README_EN.md)
+[中文文档](/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a 2D integer array <code>grid</code> of size <code>m x n</code>, where each cell contains a positive integer.</p>
 
-<p>给你一个二维整数数组 <code>grid</code> ，大小为 <code>m x n</code>，其中每个单元格都含一个正整数。</p>
+<p>A <strong>cornered path</strong> is defined as a set of adjacent cells with <strong>at most</strong> one turn. More specifically, the path should exclusively move either <strong>horizontally</strong> or <strong>vertically</strong> up to the turn (if there is one), without returning to a previously visited cell. After the turn, the path will then move exclusively in the <strong>alternate</strong> direction: move vertically if it moved horizontally, and vice versa, also without returning to a previously visited cell.</p>
 
-<p><strong>转角路径</strong> 定义为：包含至多一个弯的一组相邻单元。具体而言，路径应该完全 <strong>向水平方向</strong> 或者 <strong>向竖直方向</strong> 移动过弯（如果存在弯），而不能访问之前访问过的单元格。在过弯之后，路径应当完全朝 <strong>另一个</strong> 方向行进：如果之前是向水平方向，那么就应该变为向竖直方向；反之亦然。当然，同样不能访问之前已经访问过的单元格。</p>
+<p>The <strong>product</strong> of a path is defined as the product of all the values in the path.</p>
 
-<p>一条路径的 <strong>乘积</strong> 定义为：路径上所有值的乘积。</p>
+<p>Return <em>the <strong>maximum</strong> number of <strong>trailing zeros</strong> in the product of a cornered path found in </em><code>grid</code>.</p>
 
-<p>请你从 <code>grid</code> 中找出一条乘积中尾随零数目最多的转角路径，并返回该路径中尾随零的数目。</p>
-
-<p>注意：</p>
+<p>Note:</p>
 
 <ul>
-	<li><strong>水平</strong> 移动是指向左或右移动。</li>
-	<li><strong>竖直 </strong>移动是指向上或下移动。</li>
+	<li><strong>Horizontal</strong> movement means moving in either the left or right direction.</li>
+	<li><strong>Vertical</strong> movement means moving in either the up or down direction.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex1new2.jpg" style="width: 577px; height: 190px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex1new2.jpg" style="width: 577px; height: 190px;" />
 <pre>
-<strong>输入：</strong>grid = [[23,17,15,3,20],[8,1,20,27,11],[9,4,6,2,21],[40,9,1,10,6],[22,7,4,5,3]]
-<strong>输出：</strong>3
-<strong>解释：</strong>左侧的图展示了一条有效的转角路径。
-其乘积为 15 * 20 * 6 * 1 * 10 = 18000 ，共计 3 个尾随零。
-可以证明在这条转角路径的乘积中尾随零数目最多。
+<strong>Input:</strong> grid = [[23,17,15,3,20],[8,1,20,27,11],[9,4,6,2,21],[40,9,1,10,6],[22,7,4,5,3]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The grid on the left shows a valid cornered path.
+It has a product of 15 * 20 * 6 * 1 * 10 = 18000 which has 3 trailing zeros.
+It can be shown that this is the maximum trailing zeros in the product of a cornered path.
 
-中间的图不是一条有效的转角路径，因为它有不止一个弯。
-右侧的图也不是一条有效的转角路径，因为它需要重复访问已经访问过的单元格。
+The grid in the middle is not a cornered path as it has more than one turn.
+The grid on the right is not a cornered path as it requires a return to a previously visited cell.
+
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex2.jpg" style="width: 150px; height: 157px;" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex2.jpg" style="width: 150px; height: 157px;" />
 <pre>
-<strong>输入：</strong>grid = [[4,3,2],[7,6,1],[8,8,8]]
-<strong>输出：</strong>0
-<strong>解释：</strong>网格如上图所示。
-不存在乘积含尾随零的转角路径。
+<strong>Input:</strong> grid = [[4,3,2],[7,6,1],[8,8,8]]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> The grid is shown in the figure above.
+There are no cornered paths in the grid that result in a product with a trailing zero.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == grid.length</code></li>
@@ -61,33 +54,9 @@
 	<li><code>1 &lt;= grid[i][j] &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀和 + 枚举拐点
-
-首先我们要明确，对于一个乘积，尾随零的个数取决于因子中 $2$ 和 $5$ 的个数的较小值。另外，每一条转角路径应该覆盖尽可能多的数，因此，它一定是从某个边界出发，到达某个拐点，再到达另一个边界。
-
-因此，我们可以创建四个二维数组 $r2$, $c2$, $r5$, $c5$ 来记录每一行和每一列中 $2$ 和 $5$ 的个数。其中：
-
--   `r2[i][j]` 表示第 $i$ 行中从第 $1$ 列到第 $j$ 列的 $2$ 的个数；
--   `c2[i][j]` 表示第 $j$ 列中从第 $1$ 行到第 $i$ 行的 $2$ 的个数；
--   `r5[i][j]` 表示第 $i$ 行中从第 $1$ 列到第 $j$ 列的 $5$ 的个数；
--   `c5[i][j]` 表示第 $j$ 列中从第 $1$ 行到第 $i$ 行的 $5$ 的个数。
-
-接下来，我们遍历二维数组 `grid`，对于每个数，我们计算它的 $2$ 和 $5$ 的个数，然后更新四个二维数组。
-
-然后，我们枚举拐点 $(i, j)$，对于每个拐点，我们计算四个值，其中：
-
--   `a` 表示从 $(i, 1)$ 右移到 $(i, j)$，再从 $(i, j)$ 拐头向上移动到 $(1, j)$ 的路径中 $2$ 的个数和 $5$ 的个数的较小值；
--   `b` 表示从 $(i, 1)$ 右移到 $(i, j)$，再从 $(i, j)$ 拐头向下移动到 $(m, j)$ 的路径中 $2$ 的个数和 $5$ 的个数的较小值；
--   `c` 表示从 $(i, n)$ 左移到 $(i, j)$，再从 $(i, j)$ 拐头向上移动到 $(1, j)$ 的路径中 $2$ 的个数和 $5$ 的个数的较小值；
--   `d` 表示从 $(i, n)$ 左移到 $(i, j)$，再从 $(i, j)$ 拐头向下移动到 $(m, j)$ 的路径中 $2$ 的个数和 $5$ 的个数的较小值。
-
-每一次枚举，我们取这四个值的最大值，然后更新答案。
-
-最后，我们返回答案即可。
-
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别是二维数组 `grid` 的行数和列数。
+### Solution 1
 
 <!-- tabs:start -->
 

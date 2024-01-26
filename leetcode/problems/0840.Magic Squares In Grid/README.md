@@ -1,42 +1,36 @@
-# [840. 矩阵中的幻方](https://leetcode.cn/problems/magic-squares-in-grid)
+# [840. Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid)
 
-[English Version](/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/README_EN.md)
+[中文文档](/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A <code>3 x 3</code> magic square is a <code>3 x 3</code> grid filled with distinct numbers <strong>from </strong><code>1</code><strong> to </strong><code>9</code> such that each row, column, and both diagonals all have the same sum.</p>
 
-<p><code>3 x 3</code> 的幻方是一个填充有&nbsp;<strong>从 <code>1</code> 到 <code>9</code>&nbsp;</strong> 的不同数字的 <code>3 x 3</code> 矩阵，其中每行，每列以及两条对角线上的各数之和都相等。</p>
-
-<p>给定一个由整数组成的<code>row x col</code>&nbsp;的 <code>grid</code>，其中有多少个&nbsp;<code>3 × 3</code> 的 “幻方” 子矩阵？（每个子矩阵都是连续的）。</p>
+<p>Given a <code>row x col</code>&nbsp;<code>grid</code>&nbsp;of integers, how many <code>3 x 3</code> &quot;magic square&quot; subgrids are there?&nbsp; (Each subgrid is contiguous).</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_main.jpg" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_main.jpg" style="width: 322px; height: 242px;" />
 <pre>
-<strong>输入: </strong>grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]
-<strong>输出: </strong>1
-<strong>解释: </strong>
-下面的子矩阵是一个 3 x 3 的幻方：
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_valid.jpg" />
-而这一个不是：
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_invalid.jpg" />
-总的来说，在本示例所给定的矩阵中只有一个 3 x 3 的幻方子矩阵。
+<strong>Input:</strong> grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
+<strong>Output:</strong> 1
+<strong>Explanation: </strong>
+The following subgrid is a 3 x 3 magic square:
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_valid.jpg" style="width: 242px; height: 242px;" />
+while this one is not:
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_invalid.jpg" style="width: 242px; height: 242px;" />
+In total, there is only one magic square inside the given grid.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> grid = [[8]]
-<strong>输出:</strong> 0
+<strong>Input:</strong> grid = [[8]]
+<strong>Output:</strong> 0
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>row == grid.length</code></li>
@@ -45,13 +39,9 @@
 	<li><code>0 &lt;= grid[i][j] &lt;= 15</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
-
-我们直接枚举每个 $3 \times 3$ 子矩阵的左上角坐标 $(i, j)$，然后判断该子矩阵是否满足“幻方矩阵”，若是，答案加一。枚举结束后，返回答案即可。
-
-时间复杂度 $O(m \times n)$，其中 $m$ 和 $n$ 分别是矩阵的行数和列数。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

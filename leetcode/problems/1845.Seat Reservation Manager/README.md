@@ -1,68 +1,65 @@
-# [1845. 座位预约管理系统](https://leetcode.cn/problems/seat-reservation-manager)
+# [1845. Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager)
 
-[English Version](/solution/1800-1899/1845.Seat%20Reservation%20Manager/README_EN.md)
+[中文文档](/solution/1800-1899/1845.Seat%20Reservation%20Manager/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a system that manages the reservation state of <code>n</code> seats that are numbered from <code>1</code> to <code>n</code>.</p>
 
-<p>请你设计一个管理 <code>n</code> 个座位预约的系统，座位编号从 <code>1</code> 到 <code>n</code> 。</p>
-
-<p>请你实现 <code>SeatManager</code> 类：</p>
+<p>Implement the <code>SeatManager</code> class:</p>
 
 <ul>
-	<li><code>SeatManager(int n)</code> 初始化一个 <code>SeatManager</code> 对象，它管理从 <code>1</code> 到 <code>n</code> 编号的 <code>n</code> 个座位。所有座位初始都是可预约的。</li>
-	<li><code>int reserve()</code> 返回可以预约座位的 <strong>最小编号</strong> ，此座位变为不可预约。</li>
-	<li><code>void unreserve(int seatNumber)</code> 将给定编号 <code>seatNumber</code> 对应的座位变成可以预约。</li>
+	<li><code>SeatManager(int n)</code> Initializes a <code>SeatManager</code> object that will manage <code>n</code> seats numbered from <code>1</code> to <code>n</code>. All seats are initially available.</li>
+	<li><code>int reserve()</code> Fetches the <strong>smallest-numbered</strong> unreserved seat, reserves it, and returns its number.</li>
+	<li><code>void unreserve(int seatNumber)</code> Unreserves the seat with the given <code>seatNumber</code>.</li>
 </ul>
 
-<p> </p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>
-["SeatManager", "reserve", "reserve", "unreserve", "reserve", "reserve", "reserve", "reserve", "unreserve"]
+<pre>
+<strong>Input</strong>
+[&quot;SeatManager&quot;, &quot;reserve&quot;, &quot;reserve&quot;, &quot;unreserve&quot;, &quot;reserve&quot;, &quot;reserve&quot;, &quot;reserve&quot;, &quot;reserve&quot;, &quot;unreserve&quot;]
 [[5], [], [], [2], [], [], [], [], [5]]
-<strong>输出：</strong>
+<strong>Output</strong>
 [null, 1, 2, null, 2, 3, 4, 5, null]
 
-<strong>解释：</strong>
-SeatManager seatManager = new SeatManager(5); // 初始化 SeatManager ，有 5 个座位。
-seatManager.reserve();    // 所有座位都可以预约，所以返回最小编号的座位，也就是 1 。
-seatManager.reserve();    // 可以预约的座位为 [2,3,4,5] ，返回最小编号的座位，也就是 2 。
-seatManager.unreserve(2); // 将座位 2 变为可以预约，现在可预约的座位为 [2,3,4,5] 。
-seatManager.reserve();    // 可以预约的座位为 [2,3,4,5] ，返回最小编号的座位，也就是 2 。
-seatManager.reserve();    // 可以预约的座位为 [3,4,5] ，返回最小编号的座位，也就是 3 。
-seatManager.reserve();    // 可以预约的座位为 [4,5] ，返回最小编号的座位，也就是 4 。
-seatManager.reserve();    // 唯一可以预约的是座位 5 ，所以返回 5 。
-seatManager.unreserve(5); // 将座位 5 变为可以预约，现在可预约的座位为 [5] 。
+<strong>Explanation</strong>
+SeatManager seatManager = new SeatManager(5); // Initializes a SeatManager with 5 seats.
+seatManager.reserve();    // All seats are available, so return the lowest numbered seat, which is 1.
+seatManager.reserve();    // The available seats are [2,3,4,5], so return the lowest of them, which is 2.
+seatManager.unreserve(2); // Unreserve seat 2, so now the available seats are [2,3,4,5].
+seatManager.reserve();    // The available seats are [2,3,4,5], so return the lowest of them, which is 2.
+seatManager.reserve();    // The available seats are [3,4,5], so return the lowest of them, which is 3.
+seatManager.reserve();    // The available seats are [4,5], so return the lowest of them, which is 4.
+seatManager.reserve();    // The only available seat is seat 5, so return 5.
+seatManager.unreserve(5); // Unreserve seat 5, so now the available seats are [5].
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= seatNumber &lt;= n</code></li>
-	<li>每一次对 <code>reserve</code> 的调用，题目保证至少存在一个可以预约的座位。</li>
-	<li>每一次对 <code>unreserve</code> 的调用，题目保证 <code>seatNumber</code> 在调用函数前都是被预约状态。</li>
-	<li>对 <code>reserve</code> 和 <code>unreserve</code> 的调用 <strong>总共</strong> 不超过 <code>10<sup>5</sup></code> 次。</li>
+	<li>For each call to <code>reserve</code>, it is guaranteed that there will be at least one unreserved seat.</li>
+	<li>For each call to <code>unreserve</code>, it is guaranteed that <code>seatNumber</code> will be reserved.</li>
+	<li>At most <code>10<sup>5</sup></code> calls <strong>in total</strong> will be made to <code>reserve</code> and <code>unreserve</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：优先队列（小根堆）
+### Solution 1: Priority Queue (Min Heap)
 
-我们可以使用优先队列（小根堆）来维护可预约座位的最小编号。
+We can use a priority queue (min heap) to maintain the smallest number of reservable seats.
 
-初始化时，将所有座位的编号放入优先队列中。
+Initially, put all seat numbers into the priority queue.
 
-当调用 `reserve` 方法时，从优先队列中取出最小编号的座位，即为可预约座位的最小编号。
+When the `reserve` method is called, take out the smallest number from the priority queue, which is the smallest number of reservable seats.
 
-当调用 `unreserve` 方法时，将座位编号放入优先队列中。
+When the `unreserve` method is called, put the seat number back into the priority queue.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为座位的数量。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Where $n$ is the number of seats.
 
 <!-- tabs:start -->
 

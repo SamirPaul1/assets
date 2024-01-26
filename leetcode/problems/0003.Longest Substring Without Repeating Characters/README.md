@@ -1,69 +1,65 @@
-# [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters)
+# [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters)
 
-[English Version](/solution/0000-0099/0003.Longest%20Substring%20Without%20Repeating%20Characters/README_EN.md)
+[中文文档](/solution/0000-0099/0003.Longest%20Substring%20Without%20Repeating%20Characters/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个字符串 <code>s</code> ，请你找出其中不含有重复字符的&nbsp;<strong>最长子串&nbsp;</strong>的长度。</p>
+<p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword="substring-nonempty"><strong>substring</strong></span> without repeating characters.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例&nbsp;1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入: </strong>s = "abcabcbb"
-<strong>输出: </strong>3 
-<strong>解释:</strong> 因为无重复字符的最长子串是 <code>"abc"</code>，所以其长度为 3。
+<strong>Input:</strong> s = &quot;abcabcbb&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The answer is &quot;abc&quot;, with the length of 3.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入: </strong>s = "bbbbb"
-<strong>输出: </strong>1
-<strong>解释: </strong>因为无重复字符的最长子串是 <code>"b"</code>，所以其长度为 1。
+<strong>Input:</strong> s = &quot;bbbbb&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The answer is &quot;b&quot;, with the length of 1.
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入: </strong>s = "pwwkew"
-<strong>输出: </strong>3
-<strong>解释: </strong>因为无重复字符的最长子串是&nbsp;<code>"wke"</code>，所以其长度为 3。
-&nbsp;    请注意，你的答案必须是 <strong>子串 </strong>的长度，<code>"pwke"</code>&nbsp;是一个<em>子序列，</em>不是子串。
+<strong>Input:</strong> s = &quot;pwwkew&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The answer is &quot;wke&quot;, with the length of 3.
+Notice that the answer must be a substring, &quot;pwke&quot; is a subsequence and not a substring.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>s</code>&nbsp;由英文字母、数字、符号和空格组成</li>
+	<li><code>s</code> consists of English letters, digits, symbols and spaces.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针 + 哈希表
+### Solution 1: Two pointers + Hash Table
 
-定义一个哈希表记录当前窗口内出现的字符，记 $i$ 和 $j$ 分别表示不重复子串的开始位置和结束位置，无重复字符子串的最大长度记为 `ans`。
+Define a hash table to record the characters in the current window. Let $i$ and $j$ represent the start and end positions of the non-repeating substring, respectively. The length of the longest non-repeating substring is recorded by `ans`.
 
-遍历字符串 `s` 的每个字符 $s[j]$，我们记为 $c$。若 $s[i..j-1]$ 窗口内存在 $c$，则 $i$ 循环向右移动，更新哈希表，直至 $s[i..j-1]$ 窗口不存在 `c`，循环结束。将 `c` 加入哈希表中，此时 $s[i..j]$ 窗口内不含重复元素，更新 `ans` 的最大值。
+For each character $s[j]$ in the string `s`, we call it $c$. If $c$ exists in the window $s[i..j-1]$, we move $i$ to the right until $s[i..j-1]$ does not contain `c`. Then we add `c` to the hash table. At this time, the window $s[i..j]$ does not contain repeated elements, and we update the maximum value of `ans`.
 
-最后返回 `ans` 即可。
+Finally, return `ans`.
 
-时间复杂度 $O(n)$，其中 $n$ 表示字符串 `s` 的长度。
+The time complexity is $O(n)$, where $n$ represents the length of the string `s`.
 
-双指针算法模板：
+Two pointers algorithm template:
 
 ```java
 for (int i = 0, j = 0; i < n; ++i) {
     while (j < i && check(j, i)) {
         ++j;
     }
-    // 具体问题的逻辑
+    // logic of specific problem
 }
 ```
 
@@ -282,7 +278,7 @@ proc lengthOfLongestSubstring(s: string): int =
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

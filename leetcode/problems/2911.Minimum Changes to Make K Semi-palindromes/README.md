@@ -1,63 +1,59 @@
-# [2911. 得到 K 个半回文串的最少修改次数](https://leetcode.cn/problems/minimum-changes-to-make-k-semi-palindromes)
+# [2911. Minimum Changes to Make K Semi-palindromes](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes)
 
-[English Version](/solution/2900-2999/2911.Minimum%20Changes%20to%20Make%20K%20Semi-palindromes/README_EN.md)
+[中文文档](/solution/2900-2999/2911.Minimum%20Changes%20to%20Make%20K%20Semi-palindromes/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code> and an integer <code>k</code>, partition <code>s</code> into <code>k</code> <strong>substrings</strong> such that the sum of the number of letter changes required to turn each <strong>substring</strong> into a <strong>semi-palindrome</strong> is minimized.</p>
 
-<p>给你一个字符串&nbsp;<code>s</code>&nbsp;和一个整数&nbsp;<code>k</code>&nbsp;，请你将&nbsp;<code>s</code> 分成&nbsp;<code>k</code>&nbsp;个<strong>&nbsp;子字符串</strong>&nbsp;，使得每个 <strong>子字符串</strong>&nbsp;变成&nbsp;<strong>半回文串</strong>&nbsp;需要修改的字符数目最少。</p>
+<p>Return <em>an integer denoting the <strong>minimum</strong> number of letter changes required.</em></p>
 
-<p>请你返回一个整数，表示需要修改的 <strong>最少</strong>&nbsp;字符数目。</p>
-
-<p><strong>注意：</strong></p>
+<p><strong>Notes</strong></p>
 
 <ul>
-	<li>如果一个字符串从左往右和从右往左读是一样的，那么它是一个 <strong>回文串</strong>&nbsp;。</li>
-	<li>如果长度为 <code>len</code>&nbsp;的字符串存在一个满足&nbsp;<code>1 &lt;= d &lt; len</code>&nbsp;的正整数&nbsp;<code>d</code>&nbsp;，<code>len % d == 0</code>&nbsp;成立且所有对 <code>d</code>&nbsp;做除法余数相同的下标对应的字符连起来得到的字符串都是 <strong>回文串</strong>&nbsp;，那么我们说这个字符串是 <strong>半回文串</strong>&nbsp;。比方说&nbsp;<code>"aa"</code>&nbsp;，<code>"aba"</code> ，<code>"adbgad"</code>&nbsp;和&nbsp;<code>"abab"</code>&nbsp;都是 <strong>半回文串</strong>&nbsp;，而&nbsp;<code>"a"</code>&nbsp;，<code>"ab"</code>&nbsp;和&nbsp;<code>"abca"</code>&nbsp;不是。</li>
-	<li><strong>子字符串</strong>&nbsp;指的是一个字符串中一段连续的字符序列。</li>
+	<li>A string is a <strong>palindrome</strong> if it can be read the same way from left to right and right to left.</li>
+	<li>A string with a length of <code>len</code> is considered a <strong>semi-palindrome</strong> if there exists a positive integer <code>d</code> such that <code>1 &lt;= d &lt; len</code> and <code>len % d == 0</code>, and if we take indices that have the same modulo by <code>d</code>, they form a <strong>palindrome</strong>. For example, <code>&quot;aa&quot;</code>, <code>&quot;aba&quot;</code>, <code>&quot;adbgad&quot;</code>, and, <code>&quot;abab&quot;</code> are <strong>semi-palindrome</strong> and <code>&quot;a&quot;</code>, <code>&quot;ab&quot;</code>, and, <code>&quot;abca&quot;</code> are not.</li>
+	<li>A <strong>substring</strong> is a contiguous sequence of characters within a string.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<b>输入：</b>s = "abcac", k = 2
-<b>输出：</b>1
-<b>解释：</b>我们可以将 s 分成子字符串 "ab" 和 "cac" 。子字符串 "cac" 已经是半回文串。如果我们将 "ab" 变成 "aa" ，它也会变成一个 d = 1 的半回文串。
-该方案是将 s 分成 2 个子字符串的前提下，得到 2 个半回文子字符串需要的最少修改次数。所以答案为 1 。</pre>
-
-<p><strong class="example">示例 2:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>s = "abcdef", k = 2
-<b>输出：</b>2
-<b>解释：</b>我们可以将 s 分成子字符串 "abc" 和 "def" 。子字符串 "abc" 和 "def" 都需要修改一个字符得到半回文串，所以我们总共需要 2 次字符修改使所有子字符串变成半回文串。
-该方案是将 s 分成 2 个子字符串的前提下，得到 2 个半回文子字符串需要的最少修改次数。所以答案为 2 。</pre>
+<strong>Input:</strong> s = &quot;abcac&quot;, k = 2
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> We can divide s into substrings &quot;ab&quot; and &quot;cac&quot;. The string &quot;cac&quot; is already a semi-palindrome. If we change &quot;ab&quot; to &quot;aa&quot;, it becomes a semi-palindrome with d = 1.
+It can be shown that there is no way to divide the string &quot;abcac&quot; into two semi-palindrome substrings. Therefore, the answer would be at least 1.</pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>s = "aabbaa", k = 3
-<b>输出：</b>0
-<b>解释：</b>我们可以将 s 分成子字符串 "aa" ，"bb" 和 "aa" 。
-字符串 "aa" 和 "bb" 都已经是半回文串了。所以答案为 0 。
+<strong>Input:</strong> s = &quot;abcdef&quot;, k = 2
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> We can divide it into substrings &quot;abc&quot; and &quot;def&quot;. Each of the substrings &quot;abc&quot; and &quot;def&quot; requires one change to become a semi-palindrome, so we need 2 changes in total to make all substrings semi-palindrome.
+It can be shown that we cannot divide the given string into two substrings in a way that it would require less than 2 changes.</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;aabbaa&quot;, k = 3
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> We can divide it into substrings &quot;aa&quot;, &quot;bb&quot; and &quot;aa&quot;.
+The strings &quot;aa&quot; and &quot;bb&quot; are already semi-palindromes. Thus, the answer is zero.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= s.length &lt;= 200</code></li>
 	<li><code>1 &lt;= k &lt;= s.length / 2</code></li>
-	<li><code>s</code>&nbsp;只包含小写英文字母。</li>
+	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -262,7 +258,7 @@ function minimumChanges(s: string, k: number): number {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

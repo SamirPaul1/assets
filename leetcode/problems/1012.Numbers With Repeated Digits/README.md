@@ -1,80 +1,45 @@
-# [1012. 至少有 1 位重复的数字](https://leetcode.cn/problems/numbers-with-repeated-digits)
+# [1012. Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits)
 
-[English Version](/solution/1000-1099/1012.Numbers%20With%20Repeated%20Digits/README_EN.md)
+[中文文档](/solution/1000-1099/1012.Numbers%20With%20Repeated%20Digits/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定正整数&nbsp;<code>n</code>，返回在<em>&nbsp;</em><code>[1, n]</code><em>&nbsp;</em>范围内具有 <strong>至少 1 位</strong> 重复数字的正整数的个数。</p>
+<p>Given an integer <code>n</code>, return <em>the number of positive integers in the range </em><code>[1, n]</code><em> that have <strong>at least one</strong> repeated digit</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 20
-<strong>输出：</strong>1
-<strong>解释：</strong>具有至少 1 位重复数字的正数（&lt;= 20）只有 11 。
+<strong>Input:</strong> n = 20
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The only positive number (&lt;= 20) with at least 1 repeated digit is 11.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 100
-<strong>输出：</strong>10
-<strong>解释：</strong>具有至少 1 位重复数字的正数（&lt;= 100）有 11，22，33，44，55，66，77，88，99 和 100 。
+<strong>Input:</strong> n = 100
+<strong>Output:</strong> 10
+<strong>Explanation:</strong> The positive numbers (&lt;= 100) with atleast 1 repeated digit are 11, 22, 33, 44, 55, 66, 77, 88, 99, and 100.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 1000
-<strong>输出：</strong>262
+<strong>Input:</strong> n = 1000
+<strong>Output:</strong> 262
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：状态压缩 + 数位 DP
-
-题目要求统计 $[1,..n]$ 中至少有一位重复的数字的个数，我们可以换一种思路，用一个函数 $f(n)$ 统计 $[1,..n]$ 中没有重复数字的个数，那么答案就是 $n - f(n)$。
-
-另外，我们可以用一个二进制数来记录数字中出现过的数字，比如数字中出现了 $1$, $2$, $4$，那么对应的二进制数就是 $\underline{1}0\underline{1}\underline{1}0$。
-
-接下来，我们用记忆化搜索来实现数位 DP。从起点向下搜索，到最底层得到方案数，一层层向上返回答案并累加，最后从搜索起点得到最终的答案。
-
-基本步骤如下：
-
-1. 将数字 $n$ 转为整型数组 $nums$，其中 $nums[0]$ 为最低位，而 $nums[i]$ 为最高位；
-1. 根据题目信息，设计函数 $dfs()$，对于本题，我们定义 $dfs(pos, mask, lead, limit)$，其中：
-
--   参数 $pos$ 表示当前搜索到的数字的位数，从末位或者第一位开始，一般根据题目的数字构造性质来选择顺序。对于本题，我们选择从高位开始，因此 $pos$ 的初始值为数字的高位下标；
--   参数 $mask$ 表示当前数字中出现过的数字；
--   参数 $lead$ 表示当前数字是否仅包含前导零；
--   参数 $limit$ 表示当前可填的数字的限制，如果无限制，那么可以选择 $i \in [0,1,..9]$，否则，只能选择 $i \in [0,..nums[pos]]$。如果 $limit$ 为 `true` 且已经取到了能取到的最大值，那么下一个 $limit$ 同样为 `true`；如果 $limit$ 为 `true` 但是还没有取到最大值，或者 $limit$ 为 `false`，那么下一个 $limit$ 为 `false`。
-
-答案为 $dfs(0, 0, true, true)$。
-
-关于函数的实现细节，可以参考下面的代码。
-
-时间复杂度 $O(m \times 2^m \times 10)$，空间复杂度 $O(m \times 2^m)$。其中 $m$ 为数字 $n$ 的位数。
-
-相似题目：
-
--   [233. 数字 1 的个数](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0233.Number%20of%20Digit%20One/README.md)
--   [357. 统计各位数字都不同的数字个数](https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0357.Count%20Numbers%20with%20Unique%20Digits/README.md)
--   [600. 不含连续 1 的非负整数](https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0600.Non-negative%20Integers%20without%20Consecutive%20Ones/README.md)
--   [788. 旋转数字](https://github.com/doocs/leetcode/blob/main/solution/0700-0799/0788.Rotated%20Digits/README.md)
--   [902. 最大为 N 的数字组合](https://github.com/doocs/leetcode/blob/main/solution/0900-0999/0902.Numbers%20At%20Most%20N%20Given%20Digit%20Set/README.md)
--   [2376. 统计特殊整数](https://github.com/doocs/leetcode/blob/main/solution/2300-2399/2376.Count%20Special%20Integers/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -283,7 +248,7 @@ function f(n: number): number {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

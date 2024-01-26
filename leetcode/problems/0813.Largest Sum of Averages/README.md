@@ -1,40 +1,36 @@
-# [813. 最大平均值和的分组](https://leetcode.cn/problems/largest-sum-of-averages)
+# [813. Largest Sum of Averages](https://leetcode.com/problems/largest-sum-of-averages)
 
-[English Version](/solution/0800-0899/0813.Largest%20Sum%20of%20Averages/README_EN.md)
+[中文文档](/solution/0800-0899/0813.Largest%20Sum%20of%20Averages/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> and an integer <code>k</code>. You can partition the array into <strong>at most</strong> <code>k</code> non-empty adjacent subarrays. The <strong>score</strong> of a partition is the sum of the averages of each subarray.</p>
 
-<p>给定数组&nbsp;<code>nums</code>&nbsp;和一个整数&nbsp;<code>k</code>&nbsp;。我们将给定的数组&nbsp;<code>nums</code>&nbsp;分成 <strong>最多</strong>&nbsp;<code>k</code>&nbsp;个非空子数组，且数组内部是连续的&nbsp;。&nbsp;<strong>分数</strong> 由每个子数组内的平均值的总和构成。</p>
+<p>Note that the partition must use every integer in <code>nums</code>, and that the score is not necessarily an integer.</p>
 
-<p>注意我们必须使用 <code>nums</code> 数组中的每一个数进行分组，并且分数不一定需要是整数。</p>
-
-<p>返回我们所能得到的最大 <strong>分数</strong> 是多少。答案误差在&nbsp;<code>10<sup>-6</sup></code>&nbsp;内被视为是正确的。</p>
+<p>Return <em>the maximum <strong>score</strong> you can achieve of all the possible partitions</em>. Answers within <code>10<sup>-6</sup></code> of the actual answer will be accepted.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [9,1,2,3,9], k = 3
-<strong>输出:</strong> 20.00000
-<strong>解释:</strong> 
-nums 的最优分组是[9], [1, 2, 3], [9]. 得到的分数是 9 + (1 + 2 + 3) / 3 + 9 = 20. 
-我们也可以把 nums 分成[9, 1], [2], [3, 9]. 
-这样的分组得到的分数为 5 + 2 + 6 = 13, 但不是最大值.
+<strong>Input:</strong> nums = [9,1,2,3,9], k = 3
+<strong>Output:</strong> 20.00000
+<strong>Explanation:</strong> 
+The best choice is to partition nums into [9], [1, 2, 3], [9]. The answer is 9 + (1 + 2 + 3) / 3 + 9 = 20.
+We could have also partitioned nums into [9, 1], [2], [3, 9], for example.
+That partition would lead to a score of 5 + 2 + 6 = 13, which is worse.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,2,3,4,5,6,7], k = 4
-<strong>输出:</strong> 20.50000
+<strong>Input:</strong> nums = [1,2,3,4,5,6,7], k = 4
+<strong>Output:</strong> 20.50000
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
@@ -42,23 +38,9 @@ nums 的最优分组是[9], [1, 2, 3], [9]. 得到的分数是 9 + (1 + 2 + 3) /
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀和 + 记忆化搜索
-
-我们可以先预处理得到前缀和数组 $s$，方便快速得到子数组的和。
-
-然后设计一个函数 $dfs(i, k)$，表示从数组下标 $i$ 开始，最多分成 $k$ 组的最大平均值和。答案为 $dfs(0, k)$。函数 $dfs(i, k)$ 的执行逻辑如下：
-
-当 $i=n$ 时，表示已经遍历到数组末尾，此时返回 $0$。
-
-当 $k=1$ 时，表示只剩下一组，此时返回从下标 $i$ 开始到数组末尾的平均值。
-
-否则，我们在 $[i, ..n-1]$ 的范围内枚举分组的结束位置 $j$，计算从下标 $i$ 到下标 $j$ 的平均值，以及从下标 $j+1$ 开始，最多分成 $k-1$ 组的最大平均值和。取其中的最大值作为答案。
-
-为了避免重复计算，我们可以用数组 $f$ 记忆化函数 $dfs(i, k)$ 的返回值。
-
-时间复杂度 $O(n^2 \times k)$，空间复杂度 $O(n \times k)$。其中 $n$ 表示数组 `nums` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

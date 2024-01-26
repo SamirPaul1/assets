@@ -1,12 +1,10 @@
-# [1294. 不同国家的天气类型](https://leetcode.cn/problems/weather-type-in-each-country)
+# [1294. Weather Type in Each Country](https://leetcode.com/problems/weather-type-in-each-country)
 
-[English Version](/solution/1200-1299/1294.Weather%20Type%20in%20Each%20Country/README_EN.md)
+[中文文档](/solution/1200-1299/1294.Weather%20Type%20in%20Each%20Country/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Countries</code></p>
+<p>Table: <code>Countries</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,48 +13,47 @@
 | country_id    | int     |
 | country_name  | varchar |
 +---------------+---------+
-country_id 是这张表的主键(具有唯一值的列)。
-该表的每行有 country_id 和 country_name 两列。
+country_id is the primary key (column with unique values) for this table.
+Each row of this table contains the ID and the name of one country.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表：<code>Weather</code></p>
+<p>Table: <code>Weather</code></p>
 
 <pre>
-+---------------+---------+
-| Column Name   | Type    |
-+---------------+---------+
-| country_id    | int     |
-| weather_state | varchar |
-| day           | date    |
-+---------------+---------+
-(country_id, day) 是该表的复合主键(具有唯一值的列)。
-该表的每一行记录了某个国家某一天的天气情况。
++---------------+------+
+| Column Name   | Type |
++---------------+------+
+| country_id    | int  |
+| weather_state | int  |
+| day           | date |
++---------------+------+
+(country_id, day) is the primary key (combination of columns with unique values) for this table.
+Each row of this table indicates the weather state in a country for one day.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案找到表中每个国家在 2019 年 11 月的天气类型。</p>
+<p>Write a solution to find the type of weather in each country for <strong>November 2019</strong>.</p>
 
-<p>天气类型的定义如下：</p>
+<p>The type of weather is:</p>
 
 <ul>
-	<li>当 <code>weather_state</code> 的平均值小于或等于 <code>15</code> 返回 <strong>Cold</strong>，</li>
-	<li>当 <code>weather_state</code> 的平均值大于或等于 <code>25</code> 返回 <strong>Hot</strong>，</li>
-	<li>否则返回&nbsp;<strong>Warm</strong>。</li>
+	<li><strong>Cold</strong> if the average <code>weather_state</code> is less than or equal <code>15</code>,</li>
+	<li><strong>Hot</strong> if the average <code>weather_state</code> is greater than or equal to <code>25</code>, and</li>
+	<li><strong>Warm</strong> otherwise.</li>
 </ul>
 
-<p>以 <strong>任意顺序</strong> 返回你的查询结果。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果格式如下所示：</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Countries table:
 +------------+--------------+
 | country_id | country_name |
@@ -90,28 +87,28 @@ Weather table:
 | 9          | 7             | 2019-10-23 |
 | 9          | 3             | 2019-12-23 |
 +------------+---------------+------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +--------------+--------------+
 | country_name | weather_type |
 +--------------+--------------+
 | USA          | Cold         |
-| Austraila    | Cold         |
+| Australia    | Cold         |
 | Peru         | Hot          |
-| China        | Warm         |
 | Morocco      | Hot          |
+| China        | Warm         |
 +--------------+--------------+
-<strong>解释：</strong>
-USA 11 月的平均 weather_state 为 (15) / 1 = 15 所以天气类型为 Cold。
-Australia 11 月的平均 weather_state 为 (-2 + 0 + 3) / 3 = 0.333 所以天气类型为 Cold。
-Peru 11 月的平均 weather_state 为 (25) / 1 = 25 所以天气类型为 Hot。
-China 11 月的平均 weather_state 为 (16 + 18 + 21) / 3 = 18.333 所以天气类型为 Warm。
-Morocco 11 月的平均 weather_state 为 (25 + 27 + 31) / 3 = 27.667 所以天气类型为 Hot。
-我们并不知道 Spain 在 11 月的 weather_state 情况所以无需将他包含在结果中。
+<strong>Explanation:</strong> 
+Average weather_state in USA in November is (15) / 1 = 15 so weather type is Cold.
+Average weather_state in Austraila in November is (-2 + 0 + 3) / 3 = 0.333 so weather type is Cold.
+Average weather_state in Peru in November is (25) / 1 = 25 so the weather type is Hot.
+Average weather_state in China in November is (16 + 18 + 21) / 3 = 18.333 so weather type is Warm.
+Average weather_state in Morocco in November is (25 + 27 + 31) / 3 = 27.667 so weather type is Hot.
+We know nothing about the average weather_state in Spain in November so we do not include it in the result table. 
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

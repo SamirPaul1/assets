@@ -1,80 +1,61 @@
-# [505. 迷宫 II](https://leetcode.cn/problems/the-maze-ii)
+# [505. The Maze II](https://leetcode.com/problems/the-maze-ii)
 
-[English Version](/solution/0500-0599/0505.The%20Maze%20II/README_EN.md)
+[中文文档](/solution/0500-0599/0505.The%20Maze%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There is a ball in a <code>maze</code> with empty spaces (represented as <code>0</code>) and walls (represented as <code>1</code>). The ball can go through the empty spaces by rolling <strong>up, down, left or right</strong>, but it won&#39;t stop rolling until hitting a wall. When the ball stops, it could choose the next direction.</p>
 
-<p><strong>迷宫</strong>中有一个球，它有空地 (表示为 <code>0</code>) 和墙 (表示为 <code>1</code>)。球可以<strong>向上</strong>、<strong>向下</strong>、<strong>向左</strong>或<strong>向右</strong>滚过空地，但直到撞上墙之前它都不会停止滚动。当球停止时，它才可以选择下一个滚动方向。</p>
+<p>Given the <code>m x n</code> <code>maze</code>, the ball&#39;s <code>start</code> position and the <code>destination</code>, where <code>start = [start<sub>row</sub>, start<sub>col</sub>]</code> and <code>destination = [destination<sub>row</sub>, destination<sub>col</sub>]</code>, return <em>the shortest <strong>distance</strong> for the ball to stop at the destination</em>. If the ball cannot stop at <code>destination</code>, return <code>-1</code>.</p>
 
-<p>给定 <code>m × n</code> 的<strong>迷宫</strong>(<code>maze</code>)，球的<strong>起始位置&nbsp;</strong>(<code>start = [start<sub>row</sub>, start<sub>col</sub>]</code>) 和<strong>目的地&nbsp;</strong>(<code>destination = [destination<sub>row</sub>, destination<sub>col</sub>]</code>)，返回球在<strong>目的地&nbsp;</strong>(<code>destination</code>) 停止的最短<strong>距离</strong>。如果球不能在<strong>目的地&nbsp;</strong>(<code>destination</code>) 停止，返回 <code>-1</code>。</p>
+<p>The <strong>distance</strong> is the number of <strong>empty spaces</strong> traveled by the ball from the start position (excluded) to the destination (included).</p>
 
-<p><strong>距离</strong>是指球从起始位置 ( 不包括 ) 到终点 ( 包括 ) 所经过的<strong>空地</strong>数。</p>
-
-<p>你可以假设<strong>迷宫的边界都是墙&nbsp;</strong>( 见例子 )。</p>
+<p>You may assume that <strong>the borders of the maze are all walls</strong> (see examples).</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0505.The%20Maze%20II/images/maze1-1-grid.jpg" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0505.The%20Maze%20II/images/maze1-1-grid.jpg" style="width: 573px; height: 573px;" />
 <pre>
-<strong>输入:</strong> maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [4,4]
-<strong>输出:</strong> 12
-<strong>解析:</strong> 一条最短路径 : left -&gt; down -&gt; left -&gt; down -&gt; right -&gt; down -&gt; right。
-             总距离为 1 + 1 + 3 + 1 + 2 + 2 + 2 = 12。
-
+<strong>Input:</strong> maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [4,4]
+<strong>Output:</strong> 12
+<strong>Explanation:</strong> One possible way is : left -&gt; down -&gt; left -&gt; down -&gt; right -&gt; down -&gt; right.
+The length of the path is 1 + 1 + 3 + 1 + 2 + 2 + 2 = 12.
 </pre>
 
-<p><strong>示例&nbsp;2:</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0505.The%20Maze%20II/images/maze1-2-grid.jpg" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0505.The%20Maze%20II/images/maze1-2-grid.jpg" style="width: 573px; height: 573px;" />
 <pre>
-<strong>输入:</strong> maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [3,2]
-<strong>输出:</strong> -1
-<strong>解析:</strong> 球不可能在目的地停下来。注意，你可以经过目的地，但不能在那里停下来。
+<strong>Input:</strong> maze = [[0,0,1,0,0],[0,0,0,0,0],[0,0,0,1,0],[1,1,0,1,1],[0,0,0,0,0]], start = [0,4], destination = [3,2]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> There is no way for the ball to stop at the destination. Notice that you can pass through the destination but you cannot stop there.
 </pre>
 
-<p><strong>示例&nbsp;3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> maze = [[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], start = [4,3], destination = [0,1]
-<strong>输出:</strong> -1
+<strong>Input:</strong> maze = [[0,0,0,0,0],[1,1,0,0,1],[0,0,0,0,0],[0,1,0,0,1],[0,1,0,0,0]], start = [4,3], destination = [0,1]
+<strong>Output:</strong> -1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>注意:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == maze.length</code></li>
 	<li><code>n == maze[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 100</code></li>
-	<li><code>maze[i][j]</code>&nbsp;是&nbsp;<code>0</code>&nbsp;或&nbsp;<code>1</code>.</li>
+	<li><code>maze[i][j]</code> is <code>0</code> or <code>1</code>.</li>
 	<li><code>start.length == 2</code></li>
 	<li><code>destination.length == 2</code></li>
-	<li><code>0 &lt;= start<sub>row</sub>, destination<sub>row</sub>&nbsp;&lt; m</code></li>
-	<li><code>0 &lt;= start<sub>col</sub>, destination<sub>col</sub>&nbsp;&lt; n</code></li>
-	<li>球和目的地都存在于一个空地中，它们最初不会处于相同的位置。</li>
-	<li>
-	<p data-group="1-1">迷宫<strong>至少包含两个空地</strong>。</p>
-	</li>
+	<li><code>0 &lt;= start<sub>row</sub>, destination<sub>row</sub> &lt; m</code></li>
+	<li><code>0 &lt;= start<sub>col</sub>, destination<sub>col</sub> &lt; n</code></li>
+	<li>Both the ball and the destination exist in an empty space, and they will not be in the same position initially.</li>
+	<li>The maze contains <strong>at least 2 empty spaces</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
-
-我们定义一个二维数组 $dist$，其中 $dist[i][j]$ 表示从起始位置到达 $(i,j)$ 的最短路径长度。初始时，$dist$ 中的所有元素都被初始化为一个很大的数，除了起始位置，因为起始位置到自身的距离是 $0$。
-
-然后，我们定义一个队列 $q$，将起始位置加入队列。随后不断进行以下操作：弹出队列中的首元素，将其四个方向上可以到达的位置加入队列中，并且在 $dist$ 中记录这些位置的距离，直到队列为空。
-
-最后，如果终点位置的距离仍然是一个很大的数，说明从起始位置无法到达终点位置，返回 $-1$，否则返回终点位置的距离。
-
-时间复杂度 $O(m \times n \times \max(m, n))$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别是迷宫的行数和列数。
+### Solution 1
 
 <!-- tabs:start -->
 

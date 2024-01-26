@@ -1,23 +1,21 @@
-# [2776. 转换回调函数为 Promise 函数](https://leetcode.cn/problems/convert-callback-based-function-to-promise-based-function)
+# [2776. Convert Callback Based Function to Promise Based Function](https://leetcode.com/problems/convert-callback-based-function-to-promise-based-function)
 
-[English Version](/solution/2700-2799/2776.Convert%20Callback%20Based%20Function%20to%20Promise%20Based%20Function/README_EN.md)
+[中文文档](/solution/2700-2799/2776.Convert%20Callback%20Based%20Function%20to%20Promise%20Based%20Function/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Write a function that accepts another function <code>fn</code> and converts the callback-based function&nbsp;into a promise-based function.&nbsp;</p>
 
-<p>编写一个函数，接受另一个函数 <code>fn</code> ，并将基于回调函数的函数转换为基于 Promise 的函数。</p>
+<p>The function <code>fn</code> takes a callback as its first argument, along with any additional arguments <code>args</code>&nbsp;passed as separate inputs.</p>
 
-<p><code>promisify</code> 函数接受一个函数 <code>fn</code> ，<code>fn</code> 将回调函数作为其第一个参数，并且还可以接受其他额外的参数。</p>
+<p>The&nbsp;<code>promisify</code>&nbsp;function returns a new function that should return a promise. The promise should resolve with the argument passed as the first parameter of the callback when the callback is invoked without error, and reject with the error when the callback is called with an error as the second argument.</p>
 
-<p><code>promisfy</code> 返回一个新函数，新函数会返回一个 Promise 对象。当回调函数被成功调用时，新函数返回的 Promise 对象应该使用原始函数的结果进行解析；当回调函数被调用出现错误时，返回的 Promise 对象应该被拒绝并携带错误信息。最终返回的基于 Promise 的函数应该接受额外的参数作为输入。</p>
-
-<p>以下是一个可以传递给 <code>promisify</code> 的函数示例：</p>
+<p>The following is an example of a function that could be passed into&nbsp;<code>promisify</code>.</p>
 
 <pre>
 function sum(callback, a, b) {
   if (a &lt; 0 || b &lt; 0) {
-&nbsp;   const err = Error('a and b must be positive');
+&nbsp;   const err = Error(&#39;a and b must be positive&#39;);
     callback(undefined, err);
 &nbsp; } else {
     callback(a + b);
@@ -25,12 +23,12 @@ function sum(callback, a, b) {
 }
 </pre>
 
-<p>这是基于 Promise 的等效代码：</p>
+<p>This is the equivalent code based on promises:</p>
 
 <pre>
 async function sum(a, b) {
   if (a &lt; 0 || b &lt; 0) {
-    throw Error('a and b must be positive');
+    throw Error(&#39;a and b must be positive&#39;);
 &nbsp; } else {
     return a + b;
 &nbsp; }
@@ -38,51 +36,49 @@ async function sum(a, b) {
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 fn = (callback, a, b, c) =&gt; {
-  return callback(a * b * c);
+    callback(a * b * c);
 }
 args = [1, 2, 3]
-<b>输出：</b>{"resolved": 6}
-<b>解释：</b>
+<strong>Output:</strong> {&quot;resolved&quot;: 6}
+<strong>Explanation:</strong> 
 const asyncFunc = promisify(fn);
 asyncFunc(1, 2, 3).then(console.log); // 6
 
-fn 以回调函数作为第一个参数和 args 作为其余参数进行调用。当使用 (1, 2, 3) 调用时，基于 Promise 的 fn 将解析为值 6。
+fn is called with a callback as the first argument and args as the rest. The promise based version of fn resolves a value of 6 when called with (1, 2, 3).
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 fn = (callback, a, b, c) =&gt; {
-&nbsp; callback(a * b * c, "Promise Rejected");
+    callback(a * b * c, &quot;Promise Rejected&quot;);
 }
 args = [4, 5, 6]
-<b>输出：</b>{"rejected": "Promise Rejected"}
-<b>解释：</b>
+<strong>Output:</strong> {&quot;rejected&quot;: &quot;Promise Rejected&quot;}
+<strong>Explanation:</strong> 
 const asyncFunc = promisify(fn);
-asyncFunc(4, 5, 6).catch(console.log); // "Promise Rejected"
+asyncFunc(4, 5, 6).catch(console.log); // &quot;Promise Rejected&quot;
 
-fn 以回调函数作为第一个参数和 args 作为其余参数进行调用。在回调函数的第二个参数中，接受一个错误消息，因此当调用 fn 时，Promise 被拒绝并携带回调函数中提供的错误消息。请注意，不管将什么作为回调函数的第一个参数传递都无关紧要。
+fn is called with a callback as the first argument and args as the rest. As the second argument, the callback accepts an error message, so when fn is called, the promise is rejected with a error message provided in the callback. Note that it did not matter what was passed as the first argument into the callback.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= args.length &lt;= 100</code></li>
 	<li><code>0 &lt;= args[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,45 +1,37 @@
-# [743. 网络延迟时间](https://leetcode.cn/problems/network-delay-time)
+# [743. Network Delay Time](https://leetcode.com/problems/network-delay-time)
 
-[English Version](/solution/0700-0799/0743.Network%20Delay%20Time/README_EN.md)
+[中文文档](/solution/0700-0799/0743.Network%20Delay%20Time/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a network of <code>n</code> nodes, labeled from <code>1</code> to <code>n</code>. You are also given <code>times</code>, a list of travel times as directed edges <code>times[i] = (u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>)</code>, where <code>u<sub>i</sub></code> is the source node, <code>v<sub>i</sub></code> is the target node, and <code>w<sub>i</sub></code> is the time it takes for a signal to travel from source to target.</p>
 
-<p>有 <code>n</code> 个网络节点，标记为&nbsp;<code>1</code>&nbsp;到 <code>n</code>。</p>
-
-<p>给你一个列表&nbsp;<code>times</code>，表示信号经过 <strong>有向</strong> 边的传递时间。&nbsp;<code>times[i] = (u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>)</code>，其中&nbsp;<code>u<sub>i</sub></code>&nbsp;是源节点，<code>v<sub>i</sub></code>&nbsp;是目标节点， <code>w<sub>i</sub></code>&nbsp;是一个信号从源节点传递到目标节点的时间。</p>
-
-<p>现在，从某个节点&nbsp;<code>K</code>&nbsp;发出一个信号。需要多久才能使所有节点都收到信号？如果不能使所有节点收到信号，返回&nbsp;<code>-1</code> 。</p>
+<p>We will send a signal from a given node <code>k</code>. Return <em>the <strong>minimum</strong> time it takes for all the</em> <code>n</code> <em>nodes to receive the signal</em>. If it is impossible for all the <code>n</code> nodes to receive the signal, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0743.Network%20Delay%20Time/images/931_example_1.png" style="height: 220px; width: 200px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0743.Network%20Delay%20Time/images/931_example_1.png" style="width: 217px; height: 239px;" />
 <pre>
-<strong>输入：</strong>times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2
-<strong>输出：</strong>2
+<strong>Input:</strong> times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2
+<strong>Output:</strong> 2
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>times = [[1,2,1]], n = 2, k = 1
-<strong>输出：</strong>1
+<strong>Input:</strong> times = [[1,2,1]], n = 2, k = 1
+<strong>Output:</strong> 1
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>times = [[1,2,1]], n = 2, k = 2
-<strong>输出：</strong>-1
+<strong>Input:</strong> times = [[1,2,1]], n = 2, k = 2
+<strong>Output:</strong> -1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= k &lt;= n &lt;= 100</code></li>
@@ -48,14 +40,12 @@
 	<li><code>1 &lt;= u<sub>i</sub>, v<sub>i</sub> &lt;= n</code></li>
 	<li><code>u<sub>i</sub> != v<sub>i</sub></code></li>
 	<li><code>0 &lt;= w<sub>i</sub> &lt;= 100</code></li>
-	<li>所有 <code>(u<sub>i</sub>, v<sub>i</sub>)</code> 对都 <strong>互不相同</strong>（即，不含重复边）</li>
+	<li>All the pairs <code>(u<sub>i</sub>, v<sub>i</sub>)</code> are <strong>unique</strong>. (i.e., no multiple edges.)</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：朴素 Dijkstra 算法
-
-时间复杂度 $O(n^2+m)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -186,9 +176,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 <!-- tabs:end -->
 
-### 方法二：堆优化 Dijkstra 算法
-
-时间复杂度 $O(m\log n)$。
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -339,9 +327,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 <!-- tabs:end -->
 
-### 方法三：Bellman Ford 算法
-
-时间复杂度 $O(nm)$。
+### Solution 3
 
 <!-- tabs:start -->
 
@@ -431,7 +417,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 <!-- tabs:end -->
 
-### 方法四
+### Solution 4
 
 <!-- tabs:start -->
 

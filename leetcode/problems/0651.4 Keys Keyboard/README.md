@@ -1,64 +1,49 @@
-# [651. 四个键的键盘](https://leetcode.cn/problems/4-keys-keyboard)
+# [651. 4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard)
 
-[English Version](/solution/0600-0699/0651.4%20Keys%20Keyboard/README_EN.md)
+[中文文档](/solution/0600-0699/0651.4%20Keys%20Keyboard/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>假设你有一个特殊的键盘包含下面的按键：</p>
+<p>Imagine you have a special keyboard with the following keys:</p>
 
 <ul>
-	<li><code>A</code>：在屏幕上打印一个 <code>'A'</code>。</li>
-	<li><code>Ctrl-A</code>：选中整个屏幕。</li>
-	<li><code>Ctrl-C</code>：复制选中区域到缓冲区。</li>
-	<li><code>Ctrl-V</code>：将缓冲区内容输出到上次输入的结束位置，并显示在屏幕上。</li>
+	<li>A: Print one <code>&#39;A&#39;</code> on the screen.</li>
+	<li>Ctrl-A: Select the whole screen.</li>
+	<li>Ctrl-C: Copy selection to buffer.</li>
+	<li>Ctrl-V: Print buffer on screen appending it after what has already been printed.</li>
 </ul>
 
-<p>现在，<em>你可以 <strong>最多</strong> 按键 <code>n</code>&nbsp;次（使用上述四种按键），返回屏幕上最多可以显示&nbsp;<code>'A'</code>&nbsp;的个数&nbsp;</em>。</p>
+<p>Given an integer n, return <em>the maximum number of </em><code>&#39;A&#39;</code><em> you can print on the screen with <strong>at most</strong> </em><code>n</code><em> presses on the keys</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> n = 3
-<strong>输出:</strong> 3
-<strong>解释:</strong> 
-我们最多可以在屏幕上显示三个'A'通过如下顺序按键：
+<strong>Input:</strong> n = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> We can at most get 3 A&#39;s on screen by pressing the following key sequence:
 A, A, A
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> n = 7
-<strong>输出:</strong> 9
-<strong>解释:</strong> 
-我们最多可以在屏幕上显示九个'A'通过如下顺序按键：
+<strong>Input:</strong> n = 7
+<strong>Output:</strong> 9
+<strong>Explanation:</strong> We can at most get 9 A&#39;s on screen by pressing following key sequence:
 A, A, A, Ctrl A, Ctrl C, Ctrl V, Ctrl V
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 50</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-定义 $dp[i]$ 表示前 $i$ 个按键可以显示的最大个数。
-
-我们可以发现，要显示最多的 `A`，要么一直按 `A`，要么以 `Ctrl-V` 结束。
-
--   一直按 `A` 的情况，满足 $dp[i] = i$。
--   以 `Ctrl-V` 结束的情况，我们枚举对应的 `Ctrl-A` 的位置 $j$，可以得到 $dp[i]=max(dp[i], dp[j-1] \times (i - j))$。
-
-时间复杂度 $O(n^2)$，空间复杂度 $O(n)$。
+### Solution 1
 
 <!-- tabs:start -->
 

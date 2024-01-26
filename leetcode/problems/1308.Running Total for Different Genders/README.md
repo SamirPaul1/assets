@@ -1,12 +1,10 @@
-# [1308. 不同性别每日分数总计](https://leetcode.cn/problems/running-total-for-different-genders)
+# [1308. Running Total for Different Genders](https://leetcode.com/problems/running-total-for-different-genders)
 
-[English Version](/solution/1300-1399/1308.Running%20Total%20for%20Different%20Genders/README_EN.md)
+[中文文档](/solution/1300-1399/1308.Running%20Total%20for%20Different%20Genders/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Scores</code></p>
+<p>Table: <code>Scores</code></p>
 
 <pre>
 +---------------+---------+
@@ -17,27 +15,26 @@
 | day           | date    |
 | score_points  | int     |
 +---------------+---------+
-(gender, day)是该表的主键(具有唯一值的列的组合)
-一场比赛是在女队和男队之间举行的
-该表的每一行表示一个名叫 (player_name) 性别为 (gender) 的参赛者在某一天获得了 (score_points) 的分数
-如果参赛者是女性，那么 gender 列为 'F'，如果参赛者是男性，那么 gender 列为 'M'
+(gender, day) is the primary key (combination of columns with unique values) for this table.
+A competition is held between the female team and the male team.
+Each row of this table indicates that a player_name and with gender has scored score_point in someday.
+Gender is &#39;F&#39; if the player is in the female team and &#39;M&#39; if the player is in the male team.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案统计每种性别在每一天的总分。</p>
+<p>Write a solution to find the total score for each gender on each day.</p>
 
-<p>返回按&nbsp;<code>gender</code>&nbsp;和&nbsp;<code>day</code>&nbsp;对查询结果 <strong>升序排序</strong>&nbsp;的结果。</p>
+<p>Return the result table ordered by <code>gender</code> and <code>day</code> in <strong>ascending order</strong>.</p>
 
-<p>查询结果格式的示例如下。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Scores表:
+<strong>Input:</strong> 
+Scores table:
 +-------------+--------+------------+--------------+
 | player_name | gender | day        | score_points |
 +-------------+--------+------------+--------------+
@@ -51,7 +48,7 @@ Scores表:
 | Priya       | F      | 2019-12-31 | 23           |
 | Priyanka    | F      | 2019-12-30 | 17           |
 +-------------+--------+------------+--------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +--------+------------+-------+
 | gender | day        | total |
 +--------+------------+-------+
@@ -65,23 +62,24 @@ Scores表:
 | M      | 2019-12-31 | 29    |
 | M      | 2020-01-07 | 36    |
 +--------+------------+-------+
-<strong>解释：</strong>
-女性队伍:
-第一天是 2019-12-30，Priyanka 获得 17 分，队伍的总分是 17 分
-第二天是 2019-12-31, Priya 获得 23 分，队伍的总分是 40 分
-第三天是 2020-01-01, Aron 获得 17 分，队伍的总分是 57 分
-第四天是 2020-01-07, Alice 获得 23 分，队伍的总分是 80 分
+<strong>Explanation:</strong> 
+For the female team:
+The first day is 2019-12-30, Priyanka scored 17 points and the total score for the team is 17.
+The second day is 2019-12-31, Priya scored 23 points and the total score for the team is 40.
+The third day is 2020-01-01, Aron scored 17 points and the total score for the team is 57.
+The fourth day is 2020-01-07, Alice scored 23 points and the total score for the team is 80.
 
-男性队伍：
-第一天是 2019-12-18, Jose 获得 2 分，队伍的总分是 2 分
-第二天是 2019-12-25, Khali 获得 11 分，队伍的总分是 13 分
-第三天是 2019-12-30, Slaman 获得 13 分，队伍的总分是 26 分
-第四天是 2019-12-31, Joe 获得 3 分，队伍的总分是 29 分
-第五天是 2020-01-07, Bajrang 获得 7 分，队伍的总分是 36 分</pre>
+For the male team:
+The first day is 2019-12-18, Jose scored 2 points and the total score for the team is 2.
+The second day is 2019-12-25, Khali scored 11 points and the total score for the team is 13.
+The third day is 2019-12-30, Slaman scored 13 points and the total score for the team is 26.
+The fourth day is 2019-12-31, Joe scored 3 points and the total score for the team is 29.
+The fifth day is 2020-01-07, Bajrang scored 7 points and the total score for the team is 36.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

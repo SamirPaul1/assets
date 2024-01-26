@@ -1,29 +1,26 @@
-# [494. 目标和](https://leetcode.cn/problems/target-sum)
+# [494. Target Sum](https://leetcode.com/problems/target-sum)
 
-[English Version](/solution/0400-0499/0494.Target%20Sum/README_EN.md)
+[中文文档](/solution/0400-0499/0494.Target%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> and an integer <code>target</code>.</p>
 
-<p>给你一个非负整数数组 <code>nums</code> 和一个整数 <code>target</code> 。</p>
-
-<p>向数组中的每个整数前添加&nbsp;<code>'+'</code> 或 <code>'-'</code> ，然后串联起所有整数，可以构造一个 <strong>表达式</strong> ：</p>
+<p>You want to build an <strong>expression</strong> out of nums by adding one of the symbols <code>&#39;+&#39;</code> and <code>&#39;-&#39;</code> before each integer in nums and then concatenate all the integers.</p>
 
 <ul>
-	<li>例如，<code>nums = [2, 1]</code> ，可以在 <code>2</code> 之前添加 <code>'+'</code> ，在 <code>1</code> 之前添加 <code>'-'</code> ，然后串联起来得到表达式 <code>"+2-1"</code> 。</li>
+	<li>For example, if <code>nums = [2, 1]</code>, you can add a <code>&#39;+&#39;</code> before <code>2</code> and a <code>&#39;-&#39;</code> before <code>1</code> and concatenate them to build the expression <code>&quot;+2-1&quot;</code>.</li>
 </ul>
 
-<p>返回可以通过上述方法构造的、运算结果等于 <code>target</code> 的不同 <strong>表达式</strong> 的数目。</p>
+<p>Return the number of different <strong>expressions</strong> that you can build, which evaluates to <code>target</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,1,1,1,1], target = 3
-<strong>输出：</strong>5
-<strong>解释：</strong>一共有 5 种方法让最终目标和为 3 。
+<strong>Input:</strong> nums = [1,1,1,1,1], target = 3
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> There are 5 ways to assign symbols to make the sum of nums be target 3.
 -1 + 1 + 1 + 1 + 1 = 3
 +1 - 1 + 1 + 1 + 1 = 3
 +1 + 1 - 1 + 1 + 1 = 3
@@ -31,16 +28,15 @@
 +1 + 1 + 1 + 1 - 1 = 3
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1], target = 1
-<strong>输出：</strong>1
+<strong>Input:</strong> nums = [1], target = 1
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 20</code></li>
@@ -49,15 +45,9 @@
 	<li><code>-1000 &lt;= target &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-题目可以转换为 `0-1` 背包问题。
-
-设整数数组总和为 `s`，添加 `-` 号的元素之和为 `x`，则添加 `+` 号的元素之和为 `s - x`，那么 `s - x - x = target`，`2x = s - target`。左式成立需要满足 `s - target` 一定大于等于 0，并且能够被 2 整除。在此前提下，我们可以将问题抽象为： 从数组中选出若干个数，使得选出的元素之和为 x。显然这是一个 `0-1` 背包问题。
-
-定义 `dp[i][j]` 表示从前 i 个数中选出若干个数，使得所选元素之和为 j 的所有方案数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -220,7 +210,7 @@ var findTargetSumWays = function (nums, target) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -334,7 +324,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

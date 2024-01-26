@@ -1,12 +1,10 @@
-# [1393. 股票的资本损益](https://leetcode.cn/problems/capital-gainloss)
+# [1393. Capital GainLoss](https://leetcode.com/problems/capital-gainloss)
 
-[English Version](/solution/1300-1399/1393.Capital%20GainLoss/README_EN.md)
+[中文文档](/solution/1300-1399/1393.Capital%20GainLoss/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><code>Stocks</code>&nbsp;表：</p>
+<p>Table: <code>Stocks</code></p>
 
 <pre>
 +---------------+---------+
@@ -17,29 +15,28 @@
 | operation_day | int     |
 | price         | int     |
 +---------------+---------+
-(stock_name, day) 是这张表的主键(具有唯一值的列的组合)
-operation 列使用的是一种枚举类型，包括：('Sell','Buy')
-此表的每一行代表了名为 stock_name 的某支股票在 operation_day 这一天的操作价格。
-此表可以保证，股票的每个“卖出”操作在前一天都有相应的“买入”操作。并且，股票的每个“买入”操作在即将到来的一天都有相应的“卖出”操作。
+(stock_name, operation_day) is the primary key (combination of columns with unique values) for this table.
+The operation column is an ENUM (category) of type (&#39;Sell&#39;, &#39;Buy&#39;)
+Each row of this table indicates that the stock which has stock_name had an operation on the day operation_day with the price.
+It is guaranteed that each &#39;Sell&#39; operation for a stock has a corresponding &#39;Buy&#39; operation in a previous day. It is also guaranteed that each &#39;Buy&#39; operation for a stock has a corresponding &#39;Sell&#39; operation in an upcoming day.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案报告每只股票的 <strong>资本损益</strong>。</p>
+<p>Write a solution to report the <strong>Capital gain/loss</strong> for each stock.</p>
 
-<p>股票的&nbsp;<strong>资本利得/损失&nbsp;</strong>是指一次或多次买卖该股票后的总收益或损失。</p>
+<p>The <strong>Capital gain/loss</strong> of a stock is the total gain or loss after buying and selling the stock one or many times.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Stocks</code> 表:
+<strong>Input:</strong> 
+Stocks table:
 +---------------+-----------+---------------+--------+
 | stock_name    | operation | operation_day | price  |
 +---------------+-----------+---------------+--------+
@@ -54,7 +51,7 @@ Stocks</code> 表:
 | Handbags      | Sell      | 29            | 7000   |
 | Corona Masks  | Sell      | 10            | 10000  |
 +---------------+-----------+---------------+--------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +---------------+-------------------+
 | stock_name    | capital_gain_loss |
 +---------------+-------------------+
@@ -62,17 +59,17 @@ Stocks</code> 表:
 | Leetcode      | 8000              |
 | Handbags      | -23000            |
 +---------------+-------------------+
-<strong>解释：</strong>
-Leetcode 股票在第一天以1000美元的价格买入，在第五天以9000美元的价格卖出。资本收益=9000-1000=8000美元。
-Handbags 股票在第17天以30000美元的价格买入，在第29天以7000美元的价格卖出。资本损失=7000-30000=-23000美元。
-Corona Masks 股票在第1天以10美元的价格买入，在第3天以1010美元的价格卖出。在第4天以1000美元的价格再次购买，在第5天以500美元的价格出售。最后，它在第6天以1000美元的价格被买走，在第10天以10000美元的价格被卖掉。资本损益是每次（’Buy'-&gt;'Sell'）操作资本收益或损失的和=（1010-10）+（500-1000）+（10000-1000）=1000-500+9000=9500美元。
+<strong>Explanation:</strong> 
+Leetcode stock was bought at day 1 for 1000$ and was sold at day 5 for 9000$. Capital gain = 9000 - 1000 = 8000$.
+Handbags stock was bought at day 17 for 30000$ and was sold at day 29 for 7000$. Capital loss = 7000 - 30000 = -23000$.
+Corona Masks stock was bought at day 1 for 10$ and was sold at day 3 for 1010$. It was bought again at day 4 for 1000$ and was sold at day 5 for 500$. At last, it was bought at day 6 for 1000$ and was sold at day 10 for 10000$. Capital gain/loss is the sum of capital gains/losses for each (&#39;Buy&#39; --&gt; &#39;Sell&#39;) operation = (1010 - 10) + (500 - 1000) + (10000 - 1000) = 1000 - 500 + 9000 = 9500$.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：GROUP BY + SUM(IF())
+### Solution 1: GROUP BY + SUM(IF())
 
-我们使用 `GROUP BY` 将同一支股票的买卖操作分组，然后使用 `SUM(IF())` 计算每支股票的资本损益。
+We use `GROUP BY` to group the buy and sell operations of the same stock, and then use `SUM(IF())` to calculate the capital gains and losses of each stock.
 
 <!-- tabs:start -->
 

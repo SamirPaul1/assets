@@ -1,48 +1,38 @@
-# [349. 两个数组的交集](https://leetcode.cn/problems/intersection-of-two-arrays)
+# [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
 
-[English Version](/solution/0300-0399/0349.Intersection%20of%20Two%20Arrays/README_EN.md)
+[中文文档](/solution/0300-0399/0349.Intersection%20of%20Two%20Arrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定两个数组&nbsp;<code>nums1</code>&nbsp;和&nbsp;<code>nums2</code> ，返回 <em>它们的交集</em>&nbsp;。输出结果中的每个元素一定是 <strong>唯一</strong> 的。我们可以 <strong>不考虑输出结果的顺序</strong> 。</p>
+<p>Given two integer arrays <code>nums1</code> and <code>nums2</code>, return <em>an array of their intersection</em>. Each element in the result must be <strong>unique</strong> and you may return the result in <strong>any order</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums1 = [1,2,2,1], nums2 = [2,2]
-<strong>输出：</strong>[2]
+<strong>Input:</strong> nums1 = [1,2,2,1], nums2 = [2,2]
+<strong>Output:</strong> [2]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums1 = [4,9,5], nums2 = [9,4,9,8,4]
-<strong>输出：</strong>[9,4]
-<strong>解释：</strong>[4,9] 也是可通过的
+<strong>Input:</strong> nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+<strong>Output:</strong> [9,4]
+<strong>Explanation:</strong> [4,9] is also accepted.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums1.length, nums2.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= nums1[i], nums2[i] &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表或数组
-
-我们先用哈希表或者一个长度为 $1001$ 的数组 $s$ 记录数组 $nums1$ 中出现的元素，然后遍历数组 $nums2$ 中每个元素，如果元素 $x$ 在 $s$ 中，那么将 $x$ 加入答案，并且从 $s$ 中移除 $x$。
-
-遍历结束后，返回答案数组即可。
-
-时间复杂度 $O(n+m)$，空间复杂度 $O(n)$。其中 $n$ 和 $m$ 分别是数组 $nums1$ 和 $nums2$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -172,7 +162,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

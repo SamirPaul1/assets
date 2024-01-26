@@ -1,12 +1,10 @@
-# [1495. 上月播放的儿童适宜电影](https://leetcode.cn/problems/friendly-movies-streamed-last-month)
+# [1495. Friendly Movies Streamed Last Month](https://leetcode.com/problems/friendly-movies-streamed-last-month)
 
-[English Version](/solution/1400-1499/1495.Friendly%20Movies%20Streamed%20Last%20Month/README_EN.md)
+[中文文档](/solution/1400-1499/1495.Friendly%20Movies%20Streamed%20Last%20Month/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>TVProgram</code></p>
+<p>Table: <code>TVProgram</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,13 +14,13 @@
 | content_id    | int     |
 | channel       | varchar |
 +---------------+---------+
-(program_date, content_id) 是该表的主键(具有唯一值的列的组合)。
-该表包含电视上的节目信息。
-content_id 是电视一些频道上的节目的 id。</pre>
+(program_date, content_id) is the primary key (combination of columns with unique values) for this table.
+This table contains information of the programs on the TV.
+content_id is the id of the program in some channel on the TV.</pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Content</code></p>
+<p>Table: <code>Content</code></p>
 
 <pre>
 +------------------+---------+
@@ -33,27 +31,26 @@ content_id 是电视一些频道上的节目的 id。</pre>
 | Kids_content     | enum    |
 | content_type     | varchar |
 +------------------+---------+
-content_id 是该表主键(具有唯一值的列)。
-Kids_content 是枚举类型, 取值为('Y', 'N'), 其中: 
-'Y' 表示儿童适宜内容, 而'N'表示儿童不宜内容。
-content_type&nbsp;表示内容的类型, 比如电影, 电视剧等。
+content_id is the primary key (column with unique values) for this table.
+Kids_content is an ENUM (category) of types (&#39;Y&#39;, &#39;N&#39;) where: 
+&#39;Y&#39; means is content for kids otherwise &#39;N&#39; is not content for kids.
+content_type is the category of the content as movies, series, etc.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，&nbsp;报告在 2020 年 6 月份播放的儿童适宜电影的去重电影名.</p>
+<p>Write a solution to report the distinct titles of the kid-friendly movies streamed in <strong>June 2020</strong>.</p>
 
-<p>返回的结果表单 <strong>没有顺序要求</strong> .</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果的格式如下例所示.</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-TVProgram</code> 表:
+<strong>Input:</strong> 
+TVProgram table:
 +--------------------+--------------+-------------+
 | program_date       | content_id   | channel     |
 +--------------------+--------------+-------------+
@@ -64,7 +61,7 @@ TVProgram</code> 表:
 | 2020-06-18 14:00   | 4            | Disney Ch   |
 | 2020-07-15 16:00   | 5            | Disney Ch   |
 +--------------------+--------------+-------------+
-<code>Content</code> 表:
+Content table:
 +------------+----------------+---------------+---------------+
 | content_id | title          | Kids_content  | content_type  |
 +------------+----------------+---------------+---------------+
@@ -74,24 +71,25 @@ TVProgram</code> 表:
 | 4          | Aladdin        | Y             | Movies        |
 | 5          | Cinderella     | Y             | Movies        |
 +------------+----------------+---------------+---------------+
-<code><strong>输出：</strong></code>
+<strong>Output:</strong> 
 +--------------+
 | title        |
 +--------------+
 | Aladdin      |
 +--------------+
-<code><strong>解释：</strong></code>
-"Leetcode Movie" 是儿童不宜的电影.
-"Alg. for Kids" 不是电影.
-"Database Sols" 不是电影
-"Aladin" 是电影, 儿童适宜, 并且在 2020 年 6 月份播放.
-"Cinderella" 不在 2020 年 6 月份播放.</pre>
+<strong>Explanation:</strong> 
+&quot;Leetcode Movie&quot; is not a content for kids.
+&quot;Alg. for Kids&quot; is not a movie.
+&quot;Database Sols&quot; is not a movie
+&quot;Alladin&quot; is a movie, content for kids and was streamed in June 2020.
+&quot;Cinderella&quot; was not streamed in June 2020.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：等值连接 + 条件筛选
+### Solution 1: Equi-Join + Conditional Filtering
 
-我们可以先通过等值连接将两张表按照 `content_id` 字段连接起来，然后再通过条件筛选出在 $2020$ 年 $6$ 月份播放的儿童适宜电影。
+We can first use an equi-join to join the two tables based on the `content_id` field, and then use conditional filtering to select the child-friendly movies that were played in June 2020.
 
 <!-- tabs:start -->
 

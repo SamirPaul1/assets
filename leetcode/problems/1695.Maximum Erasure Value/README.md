@@ -1,53 +1,49 @@
-# [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value)
+# [1695. Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value)
 
-[English Version](/solution/1600-1699/1695.Maximum%20Erasure%20Value/README_EN.md)
+[中文文档](/solution/1600-1699/1695.Maximum%20Erasure%20Value/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array of positive integers <code>nums</code> and want to erase a subarray containing&nbsp;<strong>unique elements</strong>. The <strong>score</strong> you get by erasing the subarray is equal to the <strong>sum</strong> of its elements.</p>
 
-<p>给你一个正整数数组 <code>nums</code> ，请你从中删除一个含有 <strong>若干不同元素</strong> 的子数组<strong>。</strong>删除子数组的 <strong>得分</strong> 就是子数组各元素之 <strong>和</strong> 。</p>
+<p>Return <em>the <strong>maximum score</strong> you can get by erasing <strong>exactly one</strong> subarray.</em></p>
 
-<p>返回 <strong>只删除一个</strong> 子数组可获得的 <strong>最大得分</strong><em> 。</em></p>
+<p>An array <code>b</code> is called to be a <span class="tex-font-style-it">subarray</span> of <code>a</code> if it forms a contiguous subsequence of <code>a</code>, that is, if it is equal to <code>a[l],a[l+1],...,a[r]</code> for some <code>(l,r)</code>.</p>
 
-<p>如果数组 <code>b</code> 是数组 <code>a</code> 的一个连续子序列，即如果它等于 <code>a[l],a[l+1],...,a[r]</code> ，那么它就是 <code>a</code> 的一个子数组。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [4,2,4,5,6]
-<strong>输出：</strong>17
-<strong>解释：</strong>最优子数组是 [2,4,5,6]
+<strong>Input:</strong> nums = [4,2,4,5,6]
+<strong>Output:</strong> 17
+<strong>Explanation:</strong> The optimal subarray here is [2,4,5,6].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [5,2,1,2,5,2,1,2,5]
-<strong>输出：</strong>8
-<strong>解释：</strong>最优子数组是 [5,2,1] 或 [1,2,5]
+<strong>Input:</strong> nums = [5,2,1,2,5,2,1,2,5]
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> The optimal subarray here is [5,2,1] or [1,2,5].
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= nums.length <= 10<sup>5</sup></code></li>
-	<li><code>1 <= nums[i] <= 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数组或哈希表 + 前缀和
+### Solution 1: Array or Hash Table + Prefix Sum
 
-我们用数组或哈希表 $d$ 记录每个数字最后一次出现的位置，用 $s$ 记录前缀和，用 $j$ 记录当前不重复子数组的左端点。
+We use an array or hash table $d$ to record the last occurrence of each number, use $s$ to record the prefix sum, and use $j$ to record the left endpoint of the current non-repeating subarray.
 
-遍历数组，对于每个数字 $v$，如果 $d[v]$ 存在，那么我们更新 $j$ 为 $max(j, d[v])$，这样就保证了当前不重复子数组不包含 $v$，然后更新答案为 $max(ans, s[i] - s[j])$，最后更新 $d[v]$ 为 $i$。
+We traverse the array, for each number $v$, if $d[v]$ exists, then we update $j$ to $max(j, d[v])$, which ensures that the current non-repeating subarray does not contain $v$. Then we update the answer to $max(ans, s[i] - s[j])$, and finally update $d[v]$ to $i$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

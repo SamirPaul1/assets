@@ -1,57 +1,53 @@
-# [1165. 单行键盘](https://leetcode.cn/problems/single-row-keyboard)
+# [1165. Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard)
 
-[English Version](/solution/1100-1199/1165.Single-Row%20Keyboard/README_EN.md)
+[中文文档](/solution/1100-1199/1165.Single-Row%20Keyboard/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There is a special keyboard with <strong>all keys in a single row</strong>.</p>
 
-<p>我们定制了一款特殊的键盘，所有的键都 <strong>排列在一行上</strong>&nbsp;。</p>
+<p>Given a string <code>keyboard</code> of length <code>26</code> indicating the layout of the keyboard (indexed from <code>0</code> to <code>25</code>). Initially, your finger is at index <code>0</code>. To type a character, you have to move your finger to the index of the desired character. The time taken to move your finger from index <code>i</code> to index <code>j</code> is <code>|i - j|</code>.</p>
 
-<p>给定一个长度为 <code>26</code> 的字符串&nbsp;<code>keyboard</code>&nbsp;，来表示键盘的布局(索引从 <code>0</code> 到 <code>25</code> )。一开始，你的手指在索引 <code>0</code> 处。要输入一个字符，你必须把你的手指移动到所需字符的索引处。手指从索引&nbsp;<code>i</code>&nbsp;移动到索引&nbsp;<code>j</code>&nbsp;所需要的时间是&nbsp;<code>|i - j|</code>。</p>
-
-<p>您需要输入一个字符串&nbsp;<code>word</code>&nbsp;。写一个函数来计算用一个手指输入需要多少时间。</p>
+<p>You want to type a string <code>word</code>. Write a function to calculate how much time it takes to type it with one finger.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>keyboard = "abcdefghijklmnopqrstuvwxyz", word = "cba"
-<strong>输出：</strong>4
-<strong>解释：</strong>从 0 号键移动到 2 号键来输出 'c'，又移动到 1 号键来输出 'b'，接着移动到 0 号键来输出 'a'。
-总用时 = 2 + 1 + 1 = 4. 
+<strong>Input:</strong> keyboard = &quot;abcdefghijklmnopqrstuvwxyz&quot;, word = &quot;cba&quot;
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>The index moves from 0 to 2 to write &#39;c&#39; then to 1 to write &#39;b&#39; then to 0 again to write &#39;a&#39;.
+Total time = 2 + 1 + 1 = 4. 
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>keyboard = "pqrstuvwxyzabcdefghijklmno", word = "leetcode"
-<strong>输出：</strong>73
+<strong>Input:</strong> keyboard = &quot;pqrstuvwxyzabcdefghijklmno&quot;, word = &quot;leetcode&quot;
+<strong>Output:</strong> 73
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>keyboard.length == 26</code></li>
-	<li><code>keyboard</code>&nbsp;按某种特定顺序排列，并包含每个小写英文字母一次。</li>
+	<li><code>keyboard</code> contains each English lowercase letter exactly once in some order.</li>
 	<li><code>1 &lt;= word.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>word[i]</code>&nbsp;为小写英文字母</li>
+	<li><code>word[i]</code> is an English lowercase letter.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表或数组
+### Solution 1: Hash Table or Array
 
-我们可以用哈希表或者一个长度为 $26$ 的数组 $pos$ 来存储每个字符在键盘上的位置，其中 $pos[c]$ 表示字符 $c$ 在键盘上的位置。
+We can use a hash table or an array $pos$ of length $26$ to store the position of each character on the keyboard, where $pos[c]$ represents the position of character $c$ on the keyboard.
 
-然后我们遍历字符串 $word$，用一个变量 $i$ 记录当前手指所在的位置，初始时 $i = 0$。每次计算当前字符 $c$ 在键盘上的位置 $j$，并将答案增加 $|i - j|$，然后将 $i$ 更新为 $j$。继续遍历下一个字符，直到遍历完整个字符串 $word$。
+Then we traverse the string $word$, using a variable $i$ to record the current position of the finger, initially $i = 0$. Each time, we calculate the position $j$ of the current character $c$ on the keyboard, and increase the answer by $|i - j|$, then update $i$ to $j$. Continue to traverse the next character until the entire string $word$ is traversed.
 
-遍历完字符串 $word$ 之后，即可得到答案。
+After traversing the string $word$, we can get the answer.
 
-时间复杂度 $O(n)$，空间复杂度 $O(C)$。其中 $n$ 为字符串 $word$ 的长度；而 $C$ 为字符集大小，本题中 $C = 26$。
+The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is the length of the string $word$, and $C$ is the size of the character set. In this problem, $C = 26$.
 
 <!-- tabs:start -->
 

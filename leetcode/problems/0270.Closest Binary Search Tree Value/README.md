@@ -1,48 +1,38 @@
-# [270. 最接近的二叉搜索树值](https://leetcode.cn/problems/closest-binary-search-tree-value)
+# [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value)
 
-[English Version](/solution/0200-0299/0270.Closest%20Binary%20Search%20Tree%20Value/README_EN.md)
+[中文文档](/solution/0200-0299/0270.Closest%20Binary%20Search%20Tree%20Value/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-给你二叉搜索树的根节点 <code>root</code> 和一个目标值 <code>target</code> ，请在该二叉搜索树中找到最接近目标值 <code>target</code> 的数值。如果有多个答案，返回最小的那个。
+<p>Given the <code>root</code> of a binary search tree and a <code>target</code> value, return <em>the value in the BST that is closest to the</em> <code>target</code>. If there are multiple answers, print the smallest.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0270.Closest%20Binary%20Search%20Tree%20Value/images/closest1-1-tree.jpg" style="width: 292px; height: 302px;" />
 <pre>
-<strong>输入：</strong>root = [4,2,5,1,3], target = 3.714286
-<strong>输出：</strong>4
+<strong>Input:</strong> root = [4,2,5,1,3], target = 3.714286
+<strong>Output:</strong> 4
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = [1], target = 4.428571
-<strong>输出：</strong>1
+<strong>Input:</strong> root = [1], target = 4.428571
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点的数目在范围 <code>[1, 10<sup>4</sup>]</code> 内</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>0 &lt;= Node.val &lt;= 10<sup>9</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：中序遍历
-
-我们用一个变量 $mi$ 维护最小的差值，用一个变量 $ans$ 维护答案。初始时 $mi=\infty$, $ans=root.val$。
-
-接下来，进行中序遍历，每次计算当前节点与目标值 $target$ 的差的绝对值 $t$。如果 $t \lt mi$，或者 $t = mi$ 且当前节点的值小于 $ans$，则更新 $mi$ 和 $ans$。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是二叉搜索树的节点数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -214,13 +204,7 @@ var closestValue = function (root, target) {
 
 <!-- tabs:end -->
 
-### 方法二：二分查找
-
-与方法一类似，我们用一个变量 $mi$ 维护最小的差值，用一个变量 $ans$ 维护答案。初始时 $mi=\infty$, $ans=root.val$。
-
-接下来，进行二分查找，每次计算当前节点与目标值 $target$ 的差的绝对值 $t$。如果 $t \lt mi$，或者 $t = mi$ 且当前节点的值小于 $ans$，则更新 $mi$ 和 $ans$。如果当前节点的值大于 $target$，则查找左子树，否则查找右子树。当我们遍历到叶子节点时，就可以结束二分查找了。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 是二叉搜索树的节点数。
+### Solution 2
 
 <!-- tabs:start -->
 

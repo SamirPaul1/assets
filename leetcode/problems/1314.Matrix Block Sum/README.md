@@ -1,49 +1,45 @@
-# [1314. 矩阵区域和](https://leetcode.cn/problems/matrix-block-sum)
+# [1314. Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum)
 
-[English Version](/solution/1300-1399/1314.Matrix%20Block%20Sum/README_EN.md)
+[中文文档](/solution/1300-1399/1314.Matrix%20Block%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个 <code>m x n</code> 的矩阵 <code>mat</code> 和一个整数 <code>k</code> ，请你返回一个矩阵 <code>answer</code> ，其中每个 <code>answer[i][j]</code> 是所有满足下述条件的元素 <code>mat[r][c]</code> 的和： </p>
+<p>Given a <code>m x n</code> matrix <code>mat</code> and an integer <code>k</code>, return <em>a matrix</em> <code>answer</code> <em>where each</em> <code>answer[i][j]</code> <em>is the sum of all elements</em> <code>mat[r][c]</code> <em>for</em>:</p>
 
 <ul>
-	<li><code>i - k <= r <= i + k, </code></li>
-	<li><code>j - k <= c <= j + k</code> 且</li>
-	<li><code>(r, c)</code> 在矩阵内。</li>
+	<li><code>i - k &lt;= r &lt;= i + k,</code></li>
+	<li><code>j - k &lt;= c &lt;= j + k</code>, and</li>
+	<li><code>(r, c)</code> is a valid position in the matrix.</li>
 </ul>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>mat = [[1,2,3],[4,5,6],[7,8,9]], k = 1
-<strong>输出：</strong>[[12,21,16],[27,45,33],[24,39,28]]
-</pre>
-
-<p><strong>示例 2：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>mat = [[1,2,3],[4,5,6],[7,8,9]], k = 2
-<strong>输出：</strong>[[45,45,45],[45,45,45],[45,45,45]]
+<strong>Input:</strong> mat = [[1,2,3],[4,5,6],[7,8,9]], k = 1
+<strong>Output:</strong> [[12,21,16],[27,45,33],[24,39,28]]
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> mat = [[1,2,3],[4,5,6],[7,8,9]], k = 2
+<strong>Output:</strong> [[45,45,45],[45,45,45],[45,45,45]]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>m == mat.length</code></li>
-	<li><code>n == mat[i].length</code></li>
-	<li><code>1 <= m, n, k <= 100</code></li>
-	<li><code>1 <= mat[i][j] <= 100</code></li>
+	<li><code>m ==&nbsp;mat.length</code></li>
+	<li><code>n ==&nbsp;mat[i].length</code></li>
+	<li><code>1 &lt;= m, n, k &lt;= 100</code></li>
+	<li><code>1 &lt;= mat[i][j] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

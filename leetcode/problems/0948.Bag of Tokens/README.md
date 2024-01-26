@@ -1,73 +1,63 @@
-# [948. 令牌放置](https://leetcode.cn/problems/bag-of-tokens)
+# [948. Bag of Tokens](https://leetcode.com/problems/bag-of-tokens)
 
-[English Version](/solution/0900-0999/0948.Bag%20of%20Tokens/README_EN.md)
+[中文文档](/solution/0900-0999/0948.Bag%20of%20Tokens/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You have an initial <strong>power</strong> of <code>power</code>, an initial <strong>score</strong> of <code>0</code>, and a bag of <code>tokens</code> where <code>tokens[i]</code> is the value of the <code>i<sup>th</sup></code> token (0-indexed).</p>
 
-<p>你的初始 <strong>能量</strong> 为 <code>power</code>，初始 <strong>分数</strong> 为&nbsp;<code>0</code>，只有一包令牌 <code>tokens</code> 。其中 <code>tokens[i]</code> 是第 <code>i</code> 个令牌的值（下标从 0 开始）。</p>
-
-<p>令牌可能的两种使用方法如下：</p>
+<p>Your goal is to maximize your total <strong>score</strong> by potentially playing each token in one of two ways:</p>
 
 <ul>
-	<li>如果你至少有&nbsp;<code>token[i]</code>&nbsp;点 <strong>能量</strong> ，可以将令牌 <code>i</code> 置为正面朝上，失去&nbsp;<code>token[i]</code>&nbsp;点 <strong>能量</strong> ，并得到&nbsp;<code>1</code>&nbsp;<strong>分</strong> 。</li>
-	<li>如果我们至少有&nbsp;<code>1</code>&nbsp;<strong>分 </strong>，可以将令牌 <code>i</code> 置为反面朝上，获得&nbsp;<code>token[i]</code> 点 <strong>能量</strong> ，并失去&nbsp;<code>1</code>&nbsp;<strong>分</strong> 。</li>
+	<li>If your current <strong>power</strong> is at least <code>tokens[i]</code>, you may play the <code>i<sup>th</sup></code> token face up, losing <code>tokens[i]</code> <strong>power</strong> and gaining <code>1</code> <strong>score</strong>.</li>
+	<li>If your current <strong>score</strong> is at least <code>1</code>, you may play the <code>i<sup>th</sup></code> token face down, gaining <code>tokens[i]</code> <strong>power</strong> and losing <code>1</code> <strong>score</strong>.</li>
 </ul>
 
-<p>每个令牌 <strong>最多</strong> 只能使用一次，使用 <strong>顺序不限</strong> ，<strong>不需</strong> 使用所有令牌。</p>
+<p>Each token may be played <strong>at most</strong> once and <strong>in any order</strong>. You do <strong>not</strong> have to play all the tokens.</p>
 
-<p>在使用任意数量的令牌后，返回我们可以得到的最大 <strong>分数</strong> 。</p>
-
-<p>&nbsp;</p>
-
-<ol>
-</ol>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>tokens = [100], power = 50
-<strong>输出：</strong>0
-<strong>解释：</strong>无法使用唯一的令牌，因为能量和分数都太少了。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>tokens = [100,200], power = 150
-<strong>输出：</strong>1
-<strong>解释：</strong>令牌 0 正面朝上，能量变为 50，分数变为 1 。
-不必使用令牌 1 ，因为你无法使用它来提高分数。</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>tokens = [100,200,300,400], power = 200
-<strong>输出：</strong>2
-<strong>解释：</strong>按下面顺序使用令牌可以得到 2 分：
-1. 令牌 0 正面朝上，能量变为 100 ，分数变为 1
-2. 令牌 3 正面朝下，能量变为 500 ，分数变为 0
-3. 令牌 1 正面朝上，能量变为 300 ，分数变为 1
-4. 令牌 2 正面朝上，能量变为 0 ，分数变为 2</pre>
+<p>Return <em>the largest possible <strong>score</strong> you can achieve after playing any number of tokens</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> tokens = [100], power = 50
+<strong>Output:</strong> 0
+<strong>Explanation</strong><strong>:</strong> Playing the only token in the bag is impossible because you either have too little power or too little score.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> tokens = [100,200], power = 150
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Play the 0<sup>th</sup> token (100) face up, your power becomes 50 and score becomes 1.
+There is no need to play the 1<sup>st</sup> token since you cannot play it face up to add to your score.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> tokens = [100,200,300,400], power = 200
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Play the tokens in this order to get a score of 2:
+1. Play the 0<sup>th</sup> token (100) face up, your power becomes 100 and score becomes 1.
+2. Play the 3<sup>rd</sup> token (400) face down, your power becomes 500 and score becomes 0.
+3. Play the 1<sup>st</sup> token (200) face up, your power becomes 300 and score becomes 1.
+4. Play the 2<sup>nd </sup>token (300) face up, your power becomes 0 and score becomes 2.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>0 &lt;= tokens.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= tokens[i],&nbsp;power &lt; 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 排序 + 双指针
-
-令牌的使用方法有两种，一种是消耗能量得到分数，一种是消耗分数得到能量。显然，我们应该消耗尽可能少的能量来得到尽可能多的分数。
-
-因此，我们可以将令牌按照消耗能量的多少进行排序，然后使用双指针，一个指针从左向右遍历，一个指针从右向左遍历，每次遍历都尽可能地消耗能量得到分数，然后更新最大分数。如果当前能量不足以消耗当前令牌，那么我们就尝试使用分数来消耗当前令牌，如果分数不足以消耗当前令牌，那么我们就停止遍历。
-
-时间复杂度 $O(n\log n)$，空间复杂度 $O(n)$。其中 $n$ 为令牌的数量。
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,77 +1,41 @@
-# [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums)
+# [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums)
 
-[English Version](/solution/0900-0999/0907.Sum%20of%20Subarray%20Minimums/README_EN.md)
+[中文文档](/solution/0900-0999/0907.Sum%20of%20Subarray%20Minimums/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of integers arr, find the sum of <code>min(b)</code>, where <code>b</code> ranges over every (contiguous) subarray of <code>arr</code>. Since the answer may be large, return the answer <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
-<p>给定一个整数数组 <code>arr</code>，找到 <code>min(b)</code> 的总和，其中 <code>b</code> 的范围为 <code>arr</code> 的每个（连续）子数组。</p>
-
-<p>由于答案可能很大，因此<strong> 返回答案模 <code>10^9 + 7</code></strong> 。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>arr = [3,1,2,4]
-<strong>输出：</strong>17
-<strong>解释：
-</strong>子数组为<strong> </strong>[3]，[1]，[2]，[4]，[3,1]，[1,2]，[2,4]，[3,1,2]，[1,2,4]，[3,1,2,4]。 
-最小值为 3，1，2，4，1，1，2，1，1，1，和为 17。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>arr = [11,81,94,43,3]
-<strong>输出：</strong>444
+<strong>Input:</strong> arr = [3,1,2,4]
+<strong>Output:</strong> 17
+<strong>Explanation:</strong> 
+Subarrays are [3], [1], [2], [4], [3,1], [1,2], [2,4], [3,1,2], [1,2,4], [3,1,2,4]. 
+Minimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.
+Sum is 17.
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> arr = [11,81,94,43,3]
+<strong>Output:</strong> 444
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= arr.length <= 3 * 10<sup>4</sup></code></li>
-	<li><code>1 <= arr[i] <= 3 * 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= arr.length &lt;= 3 * 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= arr[i] &lt;= 3 * 10<sup>4</sup></code></li>
 </ul>
 
-<p> </p>
+## Solutions
 
-## 解法
-
-### 方法一：单调栈
-
-题目要求的是每个子数组的最小值之和，实际上相当于，对于每个元素 $arr[i]$，求以 $arr[i]$ 为最小值的子数组的个数，然后乘以 $arr[i]$，最后求和。
-
-因此，题目的重点转换为：求以 $arr[i]$ 为最小值的子数组的个数。对于 $arr[i]$，我们找出其左边第一个小于 $arr[i]$ 的位置 $left[i]$，右侧第一个小于等于 $arr[i]$ 的位置 $right[i]$，则以 $arr[i]$ 为最小值的子数组的个数为 $(i - left[i]) \times (right[i] - i)$。
-
-注意，这里为什么要求右侧第一个小于等于 $arr[i]$ 的位置 $right[i]$，而不是小于 $arr[i]$ 的位置呢？这是因为，如果是右侧第一个小于 $arr[i]$ 的位置 $right[i]$，则会导致重复计算。
-
-我们可以举个例子来说明，对于以下数组：
-
-下标为 $3$ 的元素大小为 $2$，左侧第一个小于 $2$ 的元素下标为 $0$，如果我们求右侧第一个小于 $2$ 的元素下标，可以得到下标为 $7$。也即是说，子数组区间为 $(0, 7)$。注意，这里是开区间。
-
-```
-0 4 3 2 5 3 2 1
-*     ^       *
-```
-
-按照同样的方法，我们可以求出下标为 $6$ 的元素的子数组区间，可以发现，其子数组区间也为 $(0, 7)$，也即是说，下标为 $3$ 和下标为 $6$ 的元素的子数组区间是重复的。这样就造成了重复计算。
-
-```
-0 4 3 2 5 3 2 1
-*           ^ *
-```
-
-如果我们求的是右侧第一个小于等于其值的下标，就不会有重复问题，因为下标为 $3$ 的子数组区间变为 $(0, 6)$，下标为 $6$ 的子数组区间为 $(0, 7)$，两者不重复。
-
-回到这道题上，我们只需要遍历数组，对于每个元素 $arr[i]$，利用单调栈求出其左侧第一个小于 $arr[i]$ 的位置 $left[i]$，右侧第一个小于等于 $arr[i]$ 的位置 $right[i]$，则以 $arr[i]$ 为最小值的子数组的个数为 $(i - left[i]) \times (right[i] - i)$，然后乘以 $arr[i]$，最后求和即可。
-
-注意数据的溢出以及取模操作。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $arr$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -298,7 +262,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

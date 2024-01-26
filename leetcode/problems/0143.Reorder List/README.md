@@ -1,58 +1,49 @@
-# [143. 重排链表](https://leetcode.cn/problems/reorder-list)
+# [143. Reorder List](https://leetcode.com/problems/reorder-list)
 
-[English Version](/solution/0100-0199/0143.Reorder%20List/README_EN.md)
+[中文文档](/solution/0100-0199/0143.Reorder%20List/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个单链表 <code>L</code><em> </em>的头节点 <code>head</code> ，单链表 <code>L</code> 表示为：</p>
+<p>You are given the head of a singly linked-list. The list can be represented as:</p>
 
 <pre>
-L<sub>0</sub> → L<sub>1</sub> → … → L<sub>n - 1</sub> → L<sub>n</sub>
+L<sub>0</sub> &rarr; L<sub>1</sub> &rarr; &hellip; &rarr; L<sub>n - 1</sub> &rarr; L<sub>n</sub>
 </pre>
 
-<p>请将其重新排列后变为：</p>
+<p><em>Reorder the list to be on the following form:</em></p>
 
 <pre>
-L<sub>0</sub> → L<sub>n</sub> → L<sub>1</sub> → L<sub>n - 1</sub> → L<sub>2</sub> → L<sub>n - 2</sub> → …</pre>
+L<sub>0</sub> &rarr; L<sub>n</sub> &rarr; L<sub>1</sub> &rarr; L<sub>n - 1</sub> &rarr; L<sub>2</sub> &rarr; L<sub>n - 2</sub> &rarr; &hellip;
+</pre>
 
-<p>不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。</p>
+<p>You may not modify the values in the list&#39;s nodes. Only nodes themselves may be changed.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0143.Reorder%20List/images/1626420311-PkUiGI-image.png" style="width: 240px; " /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0143.Reorder%20List/images/reorder1linked-list.jpg" style="width: 422px; height: 222px;" />
 <pre>
-<strong>输入：</strong>head = [1,2,3,4]
-<strong>输出：</strong>[1,4,2,3]</pre>
+<strong>Input:</strong> head = [1,2,3,4]
+<strong>Output:</strong> [1,4,2,3]
+</pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0143.Reorder%20List/images/1626420320-YUiulT-image.png" style="width: 320px; " /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0143.Reorder%20List/images/reorder2-linked-list.jpg" style="width: 542px; height: 222px;" />
 <pre>
-<strong>输入：</strong>head = [1,2,3,4,5]
-<strong>输出：</strong>[1,5,2,4,3]</pre>
+<strong>Input:</strong> head = [1,2,3,4,5]
+<strong>Output:</strong> [1,5,2,4,3]
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>链表的长度范围为 <code>[1, 5 * 10<sup>4</sup>]</code></li>
-	<li><code>1 &lt;= node.val &lt;= 1000</code></li>
+	<li>The number of nodes in the list is in the range <code>[1, 5 * 10<sup>4</sup>]</code>.</li>
+	<li><code>1 &lt;= Node.val &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：快慢指针 + 反转链表 + 合并链表
-
-我们先用快慢指针找到链表的中点，然后将链表的后半部分反转，最后将左右两个链表合并。
-
-时间复杂度 $O(n)$，其中 $n$ 是链表的长度。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -397,7 +388,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

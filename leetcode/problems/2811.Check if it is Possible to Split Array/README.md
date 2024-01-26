@@ -1,62 +1,47 @@
-# [2811. 判断是否能拆分数组](https://leetcode.cn/problems/check-if-it-is-possible-to-split-array)
+# [2811. Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array)
 
-[English Version](/solution/2800-2899/2811.Check%20if%20it%20is%20Possible%20to%20Split%20Array/README_EN.md)
+[中文文档](/solution/2800-2899/2811.Check%20if%20it%20is%20Possible%20to%20Split%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array <code>nums</code> of length <code>n</code> and an integer <code>m</code>. You need to determine if it is possible to split the array into <code>n</code> <strong>non-empty</strong> arrays by performing a series of steps.</p>
 
-<p>给你一个长度为 <code>n</code> 的数组 <code>nums</code> 和一个整数 <code>m</code> 。请你判断能否执行一系列操作，将数组拆分成 <code>n</code> 个 <strong>非空 </strong>数组。</p>
-
-<p>在每一步操作中，你可以选择一个 <strong>长度至少为 2</strong> 的现有数组（之前步骤的结果） 并将其拆分成 <strong>2</strong> 个子数组，而得到的 <strong>每个</strong> 子数组，<strong>至少</strong> 需要满足以下条件之一：</p>
+<p>In each step, you can select an existing array (which may be the result of previous steps) with a length of <strong>at least two</strong> and split it into <strong>two </strong>subarrays, if, <strong>for each </strong>resulting subarray, <strong>at least</strong> one of the following holds:</p>
 
 <ul>
-	<li>子数组的长度为 1 ，或者</li>
-	<li>子数组元素之和 <strong>大于或等于</strong>&nbsp; <code>m</code> 。</li>
+	<li>The length of the subarray is one, or</li>
+	<li>The sum of elements of the subarray is <strong>greater than or equal</strong> to <code>m</code>.</li>
 </ul>
 
-<p>如果你可以将给定数组拆分成 <code>n</code> 个满足要求的数组，返回 <code>true</code><em> </em>；否则，返回 <code>false</code> 。</p>
+<p>Return <code>true</code><em> if you can split the given array into </em><code>n</code><em> arrays, otherwise return</em> <code>false</code>.</p>
 
-<p><strong>注意：</strong>子数组是数组中的一个连续非空元素序列。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [2, 2, 1], m = 4
-<strong>输出：</strong>true
-<strong>解释：</strong>
-第 1 步，将数组 nums 拆分成 [2, 2] 和 [1] 。
-第 2 步，将数组 [2, 2] 拆分成 [2] 和 [2] 。
-因此，答案为 true 。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [2, 1, 3], m = 5 
-<strong>输出：</strong>false
-<strong>解释：
-</strong>存在两种不同的拆分方法：
-第 1 种，将数组 nums 拆分成 [2, 1] 和 [3] 。
-第 2 种，将数组 nums 拆分成 [2] 和 [1, 3] 。
-然而，这两种方法都不满足题意。因此，答案为 false 。</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [2, 3, 3, 2, 3], m = 6
-<strong>输出：</strong>true
-<strong>解释：</strong>
-第 1 步，将数组 nums 拆分成 [2, 3, 3, 2] 和 [3] 。
-第 2 步，将数组 [2, 3, 3, 2] 拆分成 [2, 3, 3] 和 [2] 。
-第 3 步，将数组 [2, 3, 3] 拆分成 [2] 和 [3, 3] 。
-第 4 步，将数组 [3, 3] 拆分成 [3] 和 [3] 。
-因此，答案为 true 。 </pre>
+<p><strong>Note:</strong> A subarray is <em>a contiguous non-empty sequence of elements within an array</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [2, 2, 1], m = 4
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We can split the array into [2, 2] and [1] in the first step. Then, in the second step, we can split [2, 2] into [2] and [2]. As a result, the answer is true.</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [2, 1, 3], m = 5 
+<strong>Output:</strong> false
+<strong>Explanation: </strong>We can try splitting the array in two different ways: the first way is to have [2, 1] and [3], and the second way is to have [2] and [1, 3]. However, both of these ways are not valid. So, the answer is false.</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [2, 3, 3, 2, 3], m = 6
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We can split the array into [2, 3, 3, 2] and [3] in the first step. Then, in the second step, we can split [2, 3, 3, 2] into [2, 3, 3] and [2]. Then, in the third step, we can split [2, 3, 3] into [2] and [3, 3]. And in the last step we can split [3, 3] into [3] and [3]. As a result, the answer is true.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n == nums.length &lt;= 100</code></li>
@@ -64,27 +49,27 @@
 	<li><code>1 &lt;= m &lt;= 200</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：记忆化搜索
+### Solution 1: Memoization Search
 
-我们先预处理得到前缀和数组 $s$，其中 $s[i]$ 表示数组 $nums$ 的前 $i$ 个元素之和。
+First, we preprocess to get the prefix sum array $s$, where $s[i]$ represents the sum of the first $i$ elements of the array $nums$.
 
-接下来，我们设计一个函数 $dfs(i, j)$，表示对于数组 $nums$ 的下标范围 $[i, j]$，是否存在一种满足条件的拆分方法。如果存在，返回 `true`，否则返回 `false`。
+Next, we design a function $dfs(i, j)$, which represents whether there is a way to split the index range $[i, j]$ of the array $nums$ that meets the conditions. If it exists, return `true`, otherwise return `false`.
 
-函数 $dfs(i, j)$ 的计算过程如下：
+The calculation process of the function $dfs(i, j)$ is as follows:
 
-如果 $i = j$，那么只有一个元素，不需要拆分，返回 `true`；
+If $i = j$, then there is only one element, no need to split, return `true`;
 
-否则，我们枚举拆分点 $k$，其中 $k \in [i, j]$，如果满足以下条件，那么就可以拆分成 $nums[i,.. k]$ 和 $nums[k + 1,.. j]$ 两个子数组：
+Otherwise, we enumerate the split point $k$, where $k \in [i, j]$, if the following conditions are met, then it can be split into two subarrays $nums[i,.. k]$ and $nums[k + 1,.. j]$:
 
--   子数组 $nums[i,..k]$ 只有一个元素，或者子数组 $nums[i,..k]$ 的元素之和大于等于 $m$；
--   子数组 $nums[k + 1,..j]$ 只有一个元素，或者子数组 $nums[k + 1,..j]$ 的元素之和大于等于 $m$；
--   $dfs(i, k)$ 和 $dfs(k + 1, j)$ 都为 `true`。
+-   The subarray $nums[i,..k]$ has only one element, or the sum of the elements of the subarray $nums[i,..k]$ is greater than or equal to $m$;
+-   The subarray $nums[k + 1,..j]$ has only one element, or the sum of the elements of the subarray $nums[k + 1,..j]$ is greater than or equal to $m$;
+-   Both $dfs(i, k)$ and $dfs(k + 1, j)$ are `true`.
 
-为了避免重复计算，我们使用记忆化搜索的方法，用一个二维数组 $f$ 记录所有的 $dfs(i, j)$ 的返回值，其中 $f[i][j]$ 表示 $dfs(i, j)$ 的返回值。
+To avoid repeated calculations, we use the method of memoization search, and use a two-dimensional array $f$ to record all the return values of $dfs(i, j)$, where $f[i][j]$ represents the return value of $dfs(i, j)$.
 
-时间复杂度 $O(n^3)$，空间复杂度 $O(n^2)$。其中 $n$ 是数组 $nums$ 的长度。
+The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$, where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 
@@ -261,13 +246,13 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：脑筋急转弯
+### Solution 2: Quick Thinking
 
-不论如何操作，最终总会剩下一个 `length == 2` 的子数组，又因为元素数值不存在负数，所以随着分割操作的进行，子数组的长度和总和都会逐渐变小，其它 `length > 2` 子数组之和肯定要比该子数组之和更大，进而，我们只需要考虑，是否存在一个 `length == 2` 且总和大于等于 `m` 的子数组即可。
+No matter how you operate, there will always be a `length == 2` subarray left in the end. Since there are no negative numbers in the elements, as the split operation proceeds, the length and sum of the subarray will gradually decrease. The sum of other `length > 2` subarrays must be larger than the sum of this subarray. Therefore, we only need to consider whether there is a `length == 2` subarray with a sum greater than or equal to `m`.
 
-> 📢 注意，当 `nums.length <= 2` 时，无需进行操作。
+> 📢 Note that when `nums.length <= 2`, no operation is needed.
 
-时间复杂度 $O(n)$，其中 $n$ 是数组 $nums$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

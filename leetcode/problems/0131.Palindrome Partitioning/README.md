@@ -1,53 +1,30 @@
-# [131. 分割回文串](https://leetcode.cn/problems/palindrome-partitioning)
+# [131. Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)
 
-[English Version](/solution/0100-0199/0131.Palindrome%20Partitioning/README_EN.md)
+[中文文档](/solution/0100-0199/0131.Palindrome%20Partitioning/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code>, partition <code>s</code> such that every <span data-keyword="substring-nonempty">substring</span> of the partition is a <span data-keyword="palindrome-string"><strong>palindrome</strong></span>. Return <em>all possible palindrome partitioning of </em><code>s</code>.</p>
 
-<p>给你一个字符串 <code>s</code>，请你将<em> </em><code>s</code><em> </em>分割成一些子串，使每个子串都是 <strong>回文串</strong> 。返回 <code>s</code> 所有可能的分割方案。</p>
-
-<p><strong>回文串</strong> 是正着读和反着读都一样的字符串。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "aab"
-<strong>输出：</strong>[["a","a","b"],["aa","b"]]
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "aab"
+<strong>Output:</strong> [["a","a","b"],["aa","b"]]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "a"
+<strong>Output:</strong> [["a"]]
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "a"
-<strong>输出：</strong>[["a"]]
-</pre>
-
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= s.length <= 16</code></li>
-	<li><code>s</code> 仅由小写英文字母组成</li>
+	<li><code>1 &lt;= s.length &lt;= 16</code></li>
+	<li><code>s</code> contains only lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：预处理 + DFS(回溯)
-
-我们可以使用动态规划，预处理出字符串中的任意子串是否为回文串，即 $f[i][j]$ 表示子串 $s[i..j]$ 是否为回文串。
-
-接下来，我们设计一个函数 $dfs(i)$，表示从字符串的第 $i$ 个字符开始，分割成若干回文串，当前分割方案为 $t$。
-
-如果 $i=|s|$，说明已经分割完成，我们将 $t$ 放入答案数组中，然后返回。
-
-否则，我们可以从 $i$ 开始，从小到大依次枚举结束位置 $j$，如果 $s[i..j]$ 是回文串，那么就把 $s[i..j]$ 加入到 $t$ 中，然后继续递归 $dfs(j+1)$，回溯的时候要弹出 $s[i..j]$。
-
-时间复杂度 $O(n \times 2^n)$，空间复杂度 $O(n^2)$。其中 $n$ 是字符串的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

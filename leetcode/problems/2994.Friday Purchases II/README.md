@@ -1,12 +1,10 @@
-# [2994. 发生在周五的交易 II](https://leetcode.cn/problems/friday-purchases-ii)
+# [2994. Friday Purchases II](https://leetcode.com/problems/friday-purchases-ii)
 
-[English Version](/solution/2900-2999/2994.Friday%20Purchases%20II/README_EN.md)
+[中文文档](/solution/2900-2999/2994.Friday%20Purchases%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：&nbsp;<code>Purchases</code></p>
+<p>Table: <code>Purchases</code></p>
 
 <pre>
 +---------------+------+
@@ -16,24 +14,22 @@
 | purchase_date | date |
 | amount_spend  | int  |
 +---------------+------+
-<meta charset="UTF-8" />(user_id, purchase_date, amount_spend) 是该表的主键(具有唯一值的列)。
-purchase_date 的范围从 2023 年 11 月 1 日到 2023 年 11 月 30 日，并包括这两个日期。
-每一行包含 user id, purchase date，和 amount spend。</pre>
+(user_id, purchase_date, amount_spend) is the primary key (combination of columns with unique values) for this table.
+purchase_date will range from November 1, 2023, to November 30, 2023, inclusive of both dates.
+Each row contains user id, purchase date, and amount spend.
+</pre>
 
-<p>编写一个解决方案，计算用户在 <strong>2023 年 11</strong> 月的 <strong>每个星期五</strong> 的 <strong>总花费</strong>。如果在&nbsp;<strong>某个星期的星期五</strong> <strong>没有</strong> 购买记录，则将其视为花费金额为 <code>0</code>。</p>
+<p>Write a solution to calculate the <strong>total spending</strong> by users on <strong>each Friday</strong> of <strong>every week</strong> in <strong>November 2023</strong>. If there are <strong>no</strong> purchases on a particular <strong>Friday of a week</strong>, it will be considered as <code>0</code>.</p>
 
-<p><meta charset="UTF-8" /></p>
+<p>Return <em>the result table ordered by week of month</em><em> in <strong>ascending</strong></em><em><strong> </strong>order.</em></p>
 
-<p>按照每月的周次序&nbsp;<strong>升序</strong>&nbsp;排列结果表。</p>
-
-<p>结果格式如下示例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1：</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 Purchases table:
 +---------+---------------+--------------+
 | user_id | purchase_date | amount_spend |
@@ -47,7 +43,7 @@ Purchases table:
 | 10      | 2023-11-12    | 8266         |
 | 13      | 2023-11-24    | 12000        |
 +---------+---------------+--------------+
-<b>输出：</b> 
+<strong>Output:</strong> 
 +---------------+---------------+--------------+
 | week_of_month | purchase_date | total_amount |
 +---------------+---------------+--------------+
@@ -56,18 +52,18 @@ Purchases table:
 | 3             | 2023-11-17    | 0            |
 | 4             | 2023-11-24    | 21692        |
 +---------------+---------------+--------------+ 
-<b>解释：</b>
-- 在 2023 年 11 月的第一周的周五（即 2023-11-03），共发生了总计 $5,117 的交易。
-- 在 2023 年 11 月的第二周的周五（即 2023-11-10），当天没有交易，因此在输出表中该天的值为 0。
-- 类似地，在 2023 年 11 月的第三周的周五（即 2023-11-17），当天没有交易，因此在输出表中该天的值为 0。
-- 在 2023 年 11 月的第四周的周五（即 2023-11-24），当天发生了两笔交易，分别为 $12,000 和 $9,692，总计 $21,692。
-输出表按照 week_of_month 按升序排序。</pre>
+<strong>Explanation:</strong> 
+- During the first week of November 2023, transactions amounting to $5,117 occurred on Friday, 2023-11-03.
+- For the second week of November 2023, there were no transactions on Friday, 2023-11-10, resulting in a value of 0 in the output table for that day.
+- Similarly, during the third week of November 2023, there were no transactions on Friday, 2023-11-17, reflected as 0 in the output table for that specific day.
+- In the fourth week of November 2023, two transactions took place on Friday, 2023-11-24, amounting to $12,000 and $9,692 respectively, summing up to a total of $21,692.
+Output table is ordered by week_of_month in ascending order.</pre>
 
-## 解法
+## Solutions
 
-### 方法一：递归 + 左连接 + 日期函数
+### Solution 1: Recursion + Left Join + Date Functions
 
-我们可以使用递归生成一个包含 2023 年 11 月所有日期的表 `T`，然后使用左连接将 `T` 与 `Purchases` 表按照日期进行连接，最后按照题目要求进行分组求和即可。
+We can generate a table `T` that contains all dates in November 2023 using recursion, then use a left join to connect `T` and the `Purchases` table by date. Finally, group and sum according to the requirements of the problem.
 
 <!-- tabs:start -->
 

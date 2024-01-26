@@ -1,49 +1,45 @@
-# [54. 螺旋矩阵](https://leetcode.cn/problems/spiral-matrix)
+# [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)
 
-[English Version](/solution/0000-0099/0054.Spiral%20Matrix/README_EN.md)
+[中文文档](/solution/0000-0099/0054.Spiral%20Matrix/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an <code>m x n</code> <code>matrix</code>, return <em>all elements of the</em> <code>matrix</code> <em>in spiral order</em>.</p>
 
-<p>给你一个 <code>m</code> 行 <code>n</code> 列的矩阵 <code>matrix</code> ，请按照 <strong>顺时针螺旋顺序</strong> ，返回矩阵中的所有元素。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0054.Spiral%20Matrix/images/spiral1.jpg" style="width: 242px; height: 242px;" />
 <pre>
-<strong>输入：</strong>matrix = [[1,2,3],[4,5,6],[7,8,9]]
-<strong>输出：</strong>[1,2,3,6,9,8,7,4,5]
+<strong>Input:</strong> matrix = [[1,2,3],[4,5,6],[7,8,9]]
+<strong>Output:</strong> [1,2,3,6,9,8,7,4,5]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0054.Spiral%20Matrix/images/spiral.jpg" style="width: 322px; height: 242px;" />
 <pre>
-<strong>输入：</strong>matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-<strong>输出：</strong>[1,2,3,4,8,12,11,10,9,5,6,7]
+<strong>Input:</strong> matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+<strong>Output:</strong> [1,2,3,4,8,12,11,10,9,5,6,7]
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == matrix.length</code></li>
 	<li><code>n == matrix[i].length</code></li>
-	<li><code>1 <= m, n <= 10</code></li>
-	<li><code>-100 <= matrix[i][j] <= 100</code></li>
+	<li><code>1 &lt;= m, n &lt;= 10</code></li>
+	<li><code>-100 &lt;= matrix[i][j] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-我们用 $i$ 和 $j$ 分别表示当前访问到的元素的行和列，用 $k$ 表示当前的方向，用数组或哈希表 $vis$ 记录每个元素是否被访问过。每次我们访问到一个元素后，将其标记为已访问，然后按照当前的方向前进一步，如果前进一步后发现越界或者已经访问过，则改变方向继续前进，直到遍历完整个矩阵。
+We use $i$ and $j$ to represent the row and column of the current element, use $k$ to represent the current direction, and use an array or hash table $vis$ to record whether each element has been visited. Each time we visit an element, we mark it as visited, then move forward in the current direction. If we find that it is out of bounds or has been visited after moving forward, we change the direction and continue to move forward until the entire matrix is traversed.
 
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别是矩阵的行数和列数。
+The time complexity is $O(m \times n)$, and the space complexity is $O(m \times n)$. Here, $m$ and $n$ are the number of rows and columns of the matrix, respectively.
 
-对于访问过的元素，我们也可以将其值加上一个常数 $300$，这样就不需要额外的 $vis$ 数组或哈希表来记录是否访问过了，从而将空间复杂度降低到 $O(1)$。
+For visited elements, we can also add a constant $300$ to their values, so we don't need an extra $vis$ array or hash table to record whether they have been visited, thereby reducing the space complexity to $O(1)$.
 
 <!-- tabs:start -->
 
@@ -246,11 +242,11 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：逐层模拟
+### Solution 2: Layer-by-layer Simulation
 
-我们也可以从外往里一圈一圈遍历并存储矩阵元素。
+We can also traverse and store the matrix elements from the outside to the inside, layer by layer.
 
-时间复杂度 $O(m \times n)$，空间复杂度 $O(1)$。其中 $m$ 和 $n$ 分别是矩阵的行数和列数。
+The time complexity is $O(m \times n)$, and the space complexity is $O(1)$. Here, $m$ and $n$ are the number of rows and columns of the matrix, respectively.
 
 <!-- tabs:start -->
 
@@ -434,7 +430,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

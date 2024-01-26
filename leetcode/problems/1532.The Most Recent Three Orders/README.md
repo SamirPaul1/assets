@@ -1,12 +1,10 @@
-# [1532. 最近的三笔订单](https://leetcode.cn/problems/the-most-recent-three-orders)
+# [1532. The Most Recent Three Orders](https://leetcode.com/problems/the-most-recent-three-orders)
 
-[English Version](/solution/1500-1599/1532.The%20Most%20Recent%20Three%20Orders/README_EN.md)
+[中文文档](/solution/1500-1599/1532.The%20Most%20Recent%20Three%20Orders/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Customers</code></p>
+<p>Table: <code>Customers</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,13 +13,13 @@
 | customer_id   | int     |
 | name          | varchar |
 +---------------+---------+
-customer_id 是该表具有唯一值的列
-该表包含消费者的信息
+customer_id is the column with unique values for this table.
+This table contains information about customers.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表：<code>Orders</code></p>
+<p>Table: <code>Orders</code></p>
 
 <pre>
 +---------------+---------+
@@ -32,26 +30,25 @@ customer_id 是该表具有唯一值的列
 | customer_id   | int     |
 | cost          | int     |
 +---------------+---------+
-order_id 是该表具有唯一值的列
-该表包含 id 为 customer_id 的消费者的订单信息
-每一个消费者<strong> 每天一笔订单</strong>
+order_id is the column with unique values for this table.
+This table contains information about the orders made by customer_id.
+Each customer has <strong>one order per day</strong>.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>写一个解决方案，找到每个用户的最近三笔订单。如果用户的订单少于 3 笔，则返回他的全部订单。</p>
+<p>Write a solution to find the most recent three orders of each user. If a user ordered less than three orders, return all of their orders.</p>
 
-<p>返回的结果按照 <code>customer_name</code>&nbsp;<strong>升序&nbsp;</strong>排列。如果有相同的排名，则按照 <code>customer_id</code> <strong>升序&nbsp;</strong>排列。如果排名还有相同，则按照 <code>order_date</code> <strong>降序&nbsp;</strong>排列。</p>
+<p>Return the result table ordered by <code>customer_name</code> in <strong>ascending order</strong> and in case of a tie by the <code>customer_id</code> in <strong>ascending order</strong>. If there is still a tie, order them by <code>order_date</code> in <strong>descending order</strong>.</p>
 
-<p>结果格式如下例所示：</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-<code>Customers</code>
+<strong>Input:</strong> 
+Customers table:
 +-------------+-----------+
 | customer_id | name      |
 +-------------+-----------+
@@ -61,8 +58,7 @@ order_id 是该表具有唯一值的列
 | 4           | Marwan    |
 | 5           | Khaled    |
 +-------------+-----------+
-
-<code>Orders</code>
+Orders table:
 +----------+------------+-------------+------+
 | order_id | order_date | customer_id | cost |
 +----------+------------+-------------+------+
@@ -77,7 +73,7 @@ order_id 是该表具有唯一值的列
 | 9        | 2020-08-07 | 2           | 32   |
 | 10       | 2020-07-15 | 1           | 2    |
 +----------+------------+-------------+------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +---------------+-------------+----------+------------+
 | customer_name | customer_id | order_id | order_date |
 +---------------+-------------+----------+------------+
@@ -91,27 +87,22 @@ order_id 是该表具有唯一值的列
 | Winston       | 1           | 1        | 2020-07-31 |
 | Winston       | 1           | 10       | 2020-07-15 |
 +---------------+-------------+----------+------------+
-<strong>解释：</strong>
-Winston 有 4 笔订单, 排除了 "2020-06-10" 的订单, 因为它是最老的订单。
-Annabelle 只有 2 笔订单, 全部返回。
-Jonathan 恰好有 3 笔订单。
-Marwan 只有 1 笔订单。
-结果表我们按照 customer_name 升序排列，customer_id 升序排列，order_date 降序排列。
+<strong>Explanation:</strong> 
+Winston has 4 orders, we discard the order of &quot;2020-06-10&quot; because it is the oldest order.
+Annabelle has only 2 orders, we return them.
+Jonathan has exactly 3 orders.
+Marwan ordered only one time.
+We sort the result table by customer_name in ascending order, by customer_id in ascending order, and by order_date in descending order in case of a tie.
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you write a general solution for the most recent <code>n</code> orders?</p>
 
-<p><strong>进阶：</strong></p>
+## Solutions
 
-<ul>
-	<li>你能写出最近&nbsp;<code>n</code>&nbsp;笔订单的通用解决方案吗?</li>
-</ul>
+### Solution 1: Equi-Join + Window Function
 
-## 解法
-
-### 方法一：等值连接 + 窗口函数
-
-我们可以使用等值连接，将 `Customers` 表和 `Orders` 表按照 `customer_id` 进行连接，然后使用 `row_number()` 窗口函数来为每个消费者的订单按照 `order_date` 降序排列，并为每个消费者的订单添加一个序号，最后筛选出序号小于等于 $3$ 的订单即可。
+We can use an equi-join to join the `Customers` table and the `Orders` table based on `customer_id`, and then use the window function `row_number()` to sort the orders for each customer by `order_date` in descending order and assign a row number to each order. Finally, we can filter out the orders with a row number less than or equal to $3$.
 
 <!-- tabs:start -->
 

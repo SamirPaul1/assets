@@ -1,66 +1,64 @@
-# [2660. 保龄球游戏的获胜者](https://leetcode.cn/problems/determine-the-winner-of-a-bowling-game)
+# [2660. Determine the Winner of a Bowling Game](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game)
 
-[English Version](/solution/2600-2699/2660.Determine%20the%20Winner%20of%20a%20Bowling%20Game/README_EN.md)
+[中文文档](/solution/2600-2699/2660.Determine%20the%20Winner%20of%20a%20Bowling%20Game/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two <strong>0-indexed</strong> integer arrays <code><font face="monospace">player1</font></code> and <code>player2</code>, that represent the number of pins that player 1 and player 2 hit in a bowling game, respectively.</p>
 
-<p>给你两个下标从 <strong>0</strong> 开始的整数数组 <code>player1</code> 和 <code>player2</code> ，分别表示玩家 1 和玩家 2 击中的瓶数。</p>
+<p>The bowling game consists of <code>n</code> turns, and the number of pins in each turn is exactly <code>10</code>.</p>
 
-<p>保龄球比赛由 <code>n</code> 轮组成，每轮的瓶数恰好为 <code>10</code> 。</p>
-
-<p>假设玩家在第 <code>i</code> 轮中击中&nbsp;<code>x<sub>i</sub></code> 个瓶子。玩家第 <code>i</code> 轮的价值为：</p>
+<p>Assume a player hit <code>x<sub>i</sub></code> pins in the <code>i<sup>th</sup></code> turn. The value of the <code>i<sup>th</sup></code> turn for the player is:</p>
 
 <ul>
-	<li>如果玩家在该轮的前两轮的任何一轮中击中了 <code>10</code> 个瓶子，则为 <code>2x<sub>i</sub></code> 。</li>
-	<li>否则，为&nbsp;<code>x<sub>i</sub></code> 。</li>
+	<li><code>2x<sub>i</sub></code> if the player hit <code>10</code> pins in any of the previous two turns.</li>
+	<li>Otherwise, It is <code>x<sub>i</sub></code>.</li>
 </ul>
 
-<p>玩家的得分是其 <code>n</code> 轮价值的总和。</p>
+<p>The score of the player is the sum of the values of their <code>n</code> turns.</p>
 
-<p>返回</p>
+<p>Return</p>
 
 <ul>
-	<li>如果玩家 1 的得分高于玩家 2 的得分，则为 <code>1</code> ；</li>
-	<li>如果玩家 2 的得分高于玩家 1 的得分，则为 <code>2</code> ；</li>
-	<li>如果平局，则为 <code>0</code> 。</li>
+	<li><code>1</code> <em>if the score of player 1 is more than the score of player 2,</em></li>
+	<li><code>2</code> <em>if the score of player 2 is more than the score of player 1, and</em></li>
+	<li><code>0</code> <em>in case of a draw.</em></li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>player1 = [4,10,7,9], player2 = [6,5,2,3]
-<strong>输出：</strong>1
-<strong>解释：</strong>player1 的得分是 4 + 10 + 2*7 + 2*9 = 46 。
-player2 的得分是 6 + 5 + 2 + 3 = 16 。
-player1 的得分高于 player2 的得分，所以 play1 在比赛中获胜，答案为 1 。
+<strong>Input:</strong> player1 = [4,10,7,9], player2 = [6,5,2,3]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The score of player1 is 4 + 10 + 2*7 + 2*9 = 46.
+The score of player2 is 6 + 5 + 2 + 3 = 16.
+Score of player1 is more than the score of player2, so, player1 is the winner, and the answer is 1.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>player1 = [3,5,7,6], player2 = [8,10,10,2]
-<strong>输出：</strong>2
-<strong>解释：</strong>player1 的得分是 3 + 5 + 7 + 6 = 21 。
-player2 的得分是 8 + 10 + 2*10 + 2*2 = 42 。
-player2 的得分高于 player1 的得分，所以 play2 在比赛中获胜，答案为 2 。</pre>
+<strong>Input:</strong> player1 = [3,5,7,6], player2 = [8,10,10,2]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The score of player1 is 3 + 5 + 7 + 6 = 21.
+The score of player2 is 8 + 10 + 2*10 + 2*2 = 42.
+Score of player2 is more than the score of player1, so, player2 is the winner, and the answer is 2.
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>player1 = [2,3], player2 = [4,1]
-<strong>输出：</strong>0
-<strong>解释：</strong>player1 的得分是 2 + 3 = 5 。
-player2 的得分是 4 + 1 = 5 。
-player1 的得分等于 player2 的得分，所以这一场比赛平局，答案为 0 。
+<strong>Input:</strong> player1 = [2,3], player2 = [4,1]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> The score of player1 is 2 + 3 = 5
+The score of player2 is 4 + 1 = 5
+The score of player1 equals to the score of player2, so, there is a draw, and the answer is 0.
+
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == player1.length == player2.length</code></li>
@@ -68,13 +66,13 @@ player1 的得分等于 player2 的得分，所以这一场比赛平局，答案
 	<li><code>0 &lt;= player1[i], player2[i] &lt;= 10</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-我们可以用一个函数 $f(arr)$ 计算出两个玩家的得分，分别记为 $a$ 和 $b$，然后根据 $a$ 和 $b$ 的大小关系返回答案即可。
+We can define a function $f(arr)$ to calculate the scores of the two players, denoted as $a$ and $b$, respectively, and then return the answer based on the relationship between $a$ and $b$.
 
-时间复杂度 $O(n)$，其中 $n$ 是数组的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

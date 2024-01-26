@@ -1,70 +1,69 @@
-# [1404. 将二进制表示减到 1 的步骤数](https://leetcode.cn/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
+# [1404. Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one)
 
-[English Version](/solution/1400-1499/1404.Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary%20Representation%20to%20One/README_EN.md)
+[中文文档](/solution/1400-1499/1404.Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary%20Representation%20to%20One/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个以二进制形式表示的数字 <code>s</code> 。请你返回按下述规则将其减少到 1 所需要的步骤数：</p>
+<p>Given the binary representation of an integer as a string <code>s</code>, return <em>the number of steps to reduce it to </em><code>1</code><em> under the following rules</em>:</p>
 
 <ul>
 	<li>
-	<p>如果当前数字为偶数，则将其除以 2 。</p>
+	<p>If the current number is even, you have to divide it by <code>2</code>.</p>
 	</li>
 	<li>
-	<p>如果当前数字为奇数，则将其加上 1 。</p>
+	<p>If the current number is odd, you have to add <code>1</code> to it.</p>
 	</li>
 </ul>
 
-<p>题目保证你总是可以按上述规则将测试用例变为 1 。</p>
+<p>It is guaranteed that you can always reach one for all test cases.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>s = &quot;1101&quot;
-<strong>输出：</strong>6
-<strong>解释：</strong>&quot;1101&quot; 表示十进制数 13 。
-Step 1) 13 是奇数，加 1 得到 14&nbsp;
-Step 2) 14 是偶数，除 2 得到 7
-Step 3) 7  是奇数，加 1 得到 8
-Step 4) 8  是偶数，除 2 得到 4&nbsp; 
-Step 5) 4  是偶数，除 2 得到 2&nbsp;
-Step 6) 2  是偶数，除 2 得到 1&nbsp; 
+<pre>
+<strong>Input:</strong> s = &quot;1101&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> &quot;1101&quot; corressponds to number 13 in their decimal representation.
+Step 1) 13 is odd, add 1 and obtain 14.&nbsp;
+Step 2) 14 is even, divide by 2 and obtain 7.
+Step 3) 7 is odd, add 1 and obtain 8.
+Step 4) 8 is even, divide by 2 and obtain 4.&nbsp; 
+Step 5) 4 is even, divide by 2 and obtain 2.&nbsp;
+Step 6) 2 is even, divide by 2 and obtain 1.&nbsp; 
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>s = &quot;10&quot;
-<strong>输出：</strong>1
-<strong>解释：</strong>&quot;10&quot; 表示十进制数 2 。
-Step 1) 2 是偶数，除 2 得到 1 
+<pre>
+<strong>Input:</strong> s = &quot;10&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> &quot;10&quot; corressponds to number 2 in their decimal representation.
+Step 1) 2 is even, divide by 2 and obtain 1.&nbsp; 
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>s = &quot;1&quot;
-<strong>输出：</strong>0
+<pre>
+<strong>Input:</strong> s = &quot;1&quot;
+<strong>Output:</strong> 0
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length&nbsp;&lt;= 500</code></li>
-	<li><code>s</code> 由字符 <code>&#39;0&#39;</code> 或 <code>&#39;1&#39;</code> 组成。</li>
+	<li><code>s</code> consists of characters &#39;0&#39; or &#39;1&#39;</li>
 	<li><code>s[0] == &#39;1&#39;</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟操作
+### Solution 1: Simulation
 
-我们模拟操作 $1$ 和 $2$，同时用 carry 记录进位。
+We simulate operations $1$ and $2$, while using `carry` to record the carry-over.
 
-时间复杂度 $O(n)$，其中 $n$ 是字符串 $s$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the string $s$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

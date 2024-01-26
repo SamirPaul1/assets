@@ -1,61 +1,51 @@
-# [409. 最长回文串](https://leetcode.cn/problems/longest-palindrome)
+# [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome)
 
-[English Version](/solution/0400-0499/0409.Longest%20Palindrome/README_EN.md)
+[中文文档](/solution/0400-0499/0409.Longest%20Palindrome/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code> which consists of lowercase or uppercase letters, return <em>the length of the <strong>longest palindrome</strong></em>&nbsp;that can be built with those letters.</p>
 
-<p>给定一个包含大写字母和小写字母的字符串<meta charset="UTF-8" />&nbsp;<code>s</code>&nbsp;，返回&nbsp;<em>通过这些字母构造成的 <strong>最长的回文串</strong></em>&nbsp;。</p>
-
-<p>在构造过程中，请注意 <strong>区分大小写</strong> 。比如&nbsp;<code>"Aa"</code>&nbsp;不能当做一个回文字符串。</p>
+<p>Letters are <strong>case sensitive</strong>, for example,&nbsp;<code>&quot;Aa&quot;</code> is not considered a palindrome here.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1: </strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong>s = "abccccdd"
-<strong>输出:</strong>7
-<strong>解释:</strong>
-我们可以构造的最长的回文串是"dccaccd", 它的长度是 7。
+<strong>Input:</strong> s = &quot;abccccdd&quot;
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> One longest palindrome that can be built is &quot;dccaccd&quot;, whose length is 7.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong>s = "a"
-<strong>输出:</strong>1
+<strong>Input:</strong> s = &quot;a&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The longest palindrome that can be built is &quot;a&quot;, whose length is 1.
 </pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入:</strong>s = "aaaaaccc"
-<strong>输出:</strong>7</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 2000</code></li>
-	<li><code>s</code>&nbsp;只由小写 <strong>和/或</strong> 大写英文字母组成</li>
+	<li><code>s</code> consists of lowercase <strong>and/or</strong> uppercase English&nbsp;letters only.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：计数
+### Solution 1: Counting
 
-一个合法的回文字符串，最多存在一个出现奇数次数的字符，其余字符出现次数均为偶数。
+A valid palindrome string can have at most one character that appears an odd number of times, and the rest of the characters appear an even number of times.
 
-因此，我们可以先遍历字符串 $s$，统计每个字符出现的次数，记录在数组或哈希表 $cnt$ 中。
+Therefore, we can first traverse the string $s$, count the number of times each character appears, and record it in an array or hash table $cnt$.
 
-然后，我们遍历 $cnt$，对于每个字符 $c$，如果 $cnt[c]$ 为偶数，则直接将 $cnt[c]$ 累加到答案 $ans$ 中；如果 $cnt[c]$ 为奇数，则将 $cnt[c] - 1$ 累加到 $ans$ 中，如果 $ans$ 为偶数，则将 $ans$ 增加 $1$。
+Then, we traverse $cnt$, for each character $c$, if $cnt[c]$ is even, then directly add $cnt[c]$ to the answer $ans$; if $cnt[c]$ is odd, then add $cnt[c] - 1$ to $ans$, if $ans$ is even, then increase $ans$ by $1$.
 
-最后，我们返回 $ans$ 即可。
+Finally, we return $ans$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(C)$。其中 $n$ 为字符串 $s$ 的长度；而 $C$ 为字符集的大小，本题中 $C = 128$。
+The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is the length of the string $s$; and $C$ is the size of the character set, in this problem $C = 128$.
 
 <!-- tabs:start -->
 
@@ -166,7 +156,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

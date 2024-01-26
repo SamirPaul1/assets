@@ -1,49 +1,38 @@
-# [520. 检测大写字母](https://leetcode.cn/problems/detect-capital)
+# [520. Detect Capital](https://leetcode.com/problems/detect-capital)
 
-[English Version](/solution/0500-0599/0520.Detect%20Capital/README_EN.md)
+[中文文档](/solution/0500-0599/0520.Detect%20Capital/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>我们定义，在以下情况时，单词的大写用法是正确的：</p>
+<p>We define the usage of capitals in a word to be right when one of the following cases holds:</p>
 
 <ul>
-	<li>全部字母都是大写，比如 <code>"USA"</code> 。</li>
-	<li>单词中所有字母都不是大写，比如 <code>"leetcode"</code> 。</li>
-	<li>如果单词不只含有一个字母，只有首字母大写，&nbsp;比如&nbsp;<code>"Google"</code> 。</li>
+	<li>All letters in this word are capitals, like <code>&quot;USA&quot;</code>.</li>
+	<li>All letters in this word are not capitals, like <code>&quot;leetcode&quot;</code>.</li>
+	<li>Only the first letter in this word is capital, like <code>&quot;Google&quot;</code>.</li>
 </ul>
 
-<p>给你一个字符串 <code>word</code> 。如果大写用法正确，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
+<p>Given a string <code>word</code>, return <code>true</code> if the usage of capitals in it is right.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>word = "USA"
-<strong>输出：</strong>true
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> word = "USA"
+<strong>Output:</strong> true
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> word = "FlaG"
+<strong>Output:</strong> false
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>word = "FlaG"
-<strong>输出：</strong>false
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= word.length &lt;= 100</code></li>
-	<li><code>word</code> 由小写和大写英文字母组成</li>
+	<li><code>word</code> consists of lowercase and uppercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

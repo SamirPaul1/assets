@@ -1,55 +1,48 @@
-# [487. 最大连续 1 的个数 II](https://leetcode.cn/problems/max-consecutive-ones-ii)
+# [487. Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii)
 
-[English Version](/solution/0400-0499/0487.Max%20Consecutive%20Ones%20II/README_EN.md)
+[中文文档](/solution/0400-0499/0487.Max%20Consecutive%20Ones%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个二进制数组 <code>nums</code> ，如果最多可以翻转一个 <code>0</code> ，则返回数组中连续 <code>1</code> 的最大个数。</p>
+<p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>1</code><em>&#39;s in the array if you can flip at most one</em> <code>0</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,0,1,1,0]
-<strong>输出：</strong>4
-<strong>解释：</strong>翻转第一个 0 可以得到最长的连续 1。
-&nbsp;    当翻转以后，最大连续 1 的个数为 4。
+<strong>Input:</strong> nums = [1,0,1,1,0]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> 
+- If we flip the first zero, nums becomes [1,1,1,1,0] and we have 4 consecutive ones.
+- If we flip the second zero, nums becomes [1,0,1,1,1] and we have 3 consecutive ones.
+The max number of consecutive ones is 4.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [1,0,1,1,0,1]
-<b>输出：</b>4
+<strong>Input:</strong> nums = [1,0,1,1,0,1]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> 
+- If we flip the first zero, nums becomes [1,1,1,1,0,1] and we have 4 consecutive ones.
+- If we flip the second zero, nums becomes [1,0,1,1,1,1] and we have 4 consecutive ones.
+The max number of consecutive ones is 4.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>nums[i]</code>&nbsp;不是&nbsp;<code>0</code>&nbsp;就是&nbsp;<code>1</code>.</li>
+	<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> What if the input numbers come in one by one as an infinite stream? In other words, you can&#39;t store all numbers coming from the stream as it&#39;s too large to hold in memory. Could you solve it efficiently?</p>
 
-<p><strong>进阶：</strong>如果输入的数字是作为<strong> 无限流 </strong>逐个输入如何处理？换句话说，内存不能存储下所有从流中输入的数字。您可以有效地解决吗？</p>
+## Solutions
 
-## 解法
-
-### 方法一：预处理 + 枚举
-
-定义 `left`, `right` 数组表示以第 $i$ 个元素结尾（开头），往前（往后）累计的最大连续 $1$ 的个数。
-
-先遍历 `nums`，预处理出 `left` 和 `right`。
-
-然后枚举 `nums` 每个位置 $i$，统计以 $i$ 为分界点，左右两边最大连续 $1$ 的个数之和，取最大值即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为 `nums` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -182,25 +175,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 
 <!-- tabs:end -->
 
-### 方法二：滑动窗口
-
-找出最大的窗口，使得窗口内的 $0$ 的个数不超过 $1$ 个。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为 `nums` 的长度。
-
-相似题目：
-
--   [1004. 最大连续 1 的个数 III](https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1004.Max%20Consecutive%20Ones%20III/README.md)
-
-以下是滑动窗口的优化版本。
-
-维护一个单调变长的窗口。这种窗口经常出现在寻求“最大窗口”的问题中：因为求的是“最大”，所以我们没有必要缩短窗口，于是代码就少了缩短窗口的部分；从另一个角度讲，本题里的 K 是资源数，一旦透支，窗口就不能再增长了。
-
--   l 是窗口左端点，负责移动起始位置
--   r 是窗口右端点，负责扩展窗口
--   k 是资源数，每次要替换 0，k 减 1，同时 r 向右移动
--   `r++` 每次都会执行，`l++` 只有资源 `k < 0` 时才触发，因此 `r - l` 的值只会单调递增（或保持不变）
--   移动左端点时，如果当前元素是 0，说明可以释放一个资源，k 加 1
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -285,7 +260,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

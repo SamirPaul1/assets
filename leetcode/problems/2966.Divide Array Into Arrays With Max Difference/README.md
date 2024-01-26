@@ -1,61 +1,57 @@
-# [2966. 划分数组并满足最大差限制](https://leetcode.cn/problems/divide-array-into-arrays-with-max-difference)
+# [2966. Divide Array Into Arrays With Max Difference](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference)
 
-[English Version](/solution/2900-2999/2966.Divide%20Array%20Into%20Arrays%20With%20Max%20Difference/README_EN.md)
+[中文文档](/solution/2900-2999/2966.Divide%20Array%20Into%20Arrays%20With%20Max%20Difference/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> of size <code>n</code> and a positive integer <code>k</code>.</p>
 
-<p>给你一个长度为 <code>n</code> 的整数数组 <code>nums</code>，以及一个正整数 <code>k</code> 。</p>
-
-<p>将这个数组划分为一个或多个长度为 <code>3</code> 的子数组，并满足以下条件：</p>
+<p>Divide the array into one or more arrays of size <code>3</code> satisfying the following conditions:</p>
 
 <ul>
-	<li><code>nums</code> 中的 <strong>每个 </strong>元素都必须 <strong>恰好 </strong>存在于某个子数组中。</li>
-	<li>子数组中<strong> 任意 </strong>两个元素的差必须小于或等于 <code>k</code> 。</li>
+	<li><strong>Each</strong> element of <code>nums</code> should be in <strong>exactly</strong> one array.</li>
+	<li>The difference between <strong>any</strong> two elements in one array is less than or equal to <code>k</code>.</li>
 </ul>
 
-<p>返回一个<em> </em><strong>二维数组 </strong>，包含所有的子数组。如果不可能满足条件，就返回一个空数组。如果有多个答案，返回 <strong>任意一个</strong> 即可。</p>
+<p>Return <em>a </em><strong>2D</strong><em> array containing all the arrays. If it is impossible to satisfy the conditions, return an empty array. And if there are multiple answers, return <strong>any</strong> of them.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,3,4,8,7,9,3,5,1], k = 2
-<strong>输出：</strong>[[1,1,3],[3,4,5],[7,8,9]]
-<strong>解释：</strong>可以将数组划分为以下子数组：[1,1,3]，[3,4,5] 和 [7,8,9] 。
-每个子数组中任意两个元素的差都小于或等于 2 。
-注意，元素的顺序并不重要。
+<strong>Input:</strong> nums = [1,3,4,8,7,9,3,5,1], k = 2
+<strong>Output:</strong> [[1,1,3],[3,4,5],[7,8,9]]
+<strong>Explanation:</strong> We can divide the array into the following arrays: [1,1,3], [3,4,5] and [7,8,9].
+The difference between any two elements in each array is less than or equal to 2.
+Note that the order of elements is not important.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,3,3,2,7,3], k = 3
-<strong>输出：</strong>[]
-<strong>解释：</strong>无法划分数组满足所有条件。
+<strong>Input:</strong> nums = [1,3,3,2,7,3], k = 3
+<strong>Output:</strong> []
+<strong>Explanation:</strong> It is not possible to divide the array satisfying all the conditions.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
-	<li><code>n</code> 是 <code>3</code> 的倍数</li>
+	<li><code>n</code> is a multiple of <code>3</code>.</li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= k &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
+### Solution 1: Sorting
 
-我们先对数组进行排序，然后每次取出三个元素，如果这三个元素的最大值和最小值的差大于 $k$，则无法满足条件，返回空数组。否则，我们将这三个元素组成的数组加入答案数组中。
+First, we sort the array. Then, we take out three elements each time. If the difference between the maximum and minimum values of these three elements is greater than $k$, then the condition cannot be satisfied, and we return an empty array. Otherwise, we add the array composed of these three elements to the answer array.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 是数组的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array.
 
 <!-- tabs:start -->
 

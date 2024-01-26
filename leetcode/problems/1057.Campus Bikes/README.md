@@ -1,66 +1,54 @@
-# [1057. 校园自行车分配](https://leetcode.cn/problems/campus-bikes)
+# [1057. Campus Bikes](https://leetcode.com/problems/campus-bikes)
 
-[English Version](/solution/1000-1099/1057.Campus%20Bikes/README_EN.md)
+[中文文档](/solution/1000-1099/1057.Campus%20Bikes/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>On a campus represented on the X-Y plane, there are <code>n</code> workers and <code>m</code> bikes, with <code>n &lt;= m</code>.</p>
 
-<p>在 X-Y 平面上表示的校园中，有 <code>n</code> 名工人和 <code>m</code> 辆自行车，其中 <code>n &lt;= m</code>。</p>
+<p>You are given an array <code>workers</code> of length <code>n</code> where <code>workers[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> is the position of the <code>i<sup>th</sup></code> worker. You are also given an array <code>bikes</code> of length <code>m</code> where <code>bikes[j] = [x<sub>j</sub>, y<sub>j</sub>]</code> is the position of the <code>j<sup>th</sup></code> bike. All the given positions are <strong>unique</strong>.</p>
 
-<p>给定一个长度为 <code>n</code> 的数组&nbsp;<code>workers</code>&nbsp;，其中 <code>worker [i] = [xi, yi]</code>&nbsp;表示第 <code>i</code>&nbsp;个工人的位置。你也得到一个长度为 <code>m</code> 的自行车数组 <code>bikers</code> ，其中 <code>bikes[j] = [x<sub>j</sub>, y<sub>j</sub>]</code>&nbsp;是第 <code>j</code> 辆自行车的位置。所有给定的位置都是 <strong>唯一</strong> 的。</p>
+<p>Assign a bike to each worker. Among the available bikes and workers, we choose the <code>(worker<sub>i</sub>, bike<sub>j</sub>)</code> pair with the shortest <strong>Manhattan distance</strong> between each other and assign the bike to that worker.</p>
 
-<p>我们需要为每位工人分配一辆自行车。在所有可用的自行车和工人中，我们选取彼此之间 <strong>曼哈顿距离</strong> 最短的工人自行车对&nbsp;<code>(worker<sub>i</sub>, bike<sub>j</sub>)</code>&nbsp;，并将其中的自行车分配給工人。</p>
+<p>If there are multiple <code>(worker<sub>i</sub>, bike<sub>j</sub>)</code> pairs with the same shortest <strong>Manhattan distance</strong>, we choose the pair with <strong>the smallest worker index</strong>. If there are multiple ways to do that, we choose the pair with <strong>the smallest bike index</strong>. Repeat this process until there are no available workers.</p>
 
-<p>如果有多个&nbsp;<code>(worker<sub>i</sub>, bike<sub>j</sub>)</code> 对之间的 <strong>曼哈顿距离</strong> 相同，那么我们选择 <strong>工人索引最小</strong> 的那对。类似地，如果有多种不同的分配方法，则选择 <strong>自行车索引最小</strong> 的一对。不断重复这一过程，直到所有工人都分配到自行车为止。</p>
+<p>Return <em>an array </em><code>answer</code><em> of length </em><code>n</code><em>, where </em><code>answer[i]</code><em> is the index (<strong>0-indexed</strong>) of the bike that the </em><code>i<sup>th</sup></code><em> worker is assigned to</em>.</p>
 
-<p>返回长度为 <code>n</code> 的向量 <code>answer</code>，其中 <code>answer[i]</code>&nbsp;是第 <code>i</code>&nbsp;位工人分配到的自行车的索引（<strong>从 0 开始</strong>）。</p>
-
-<p>给定两点&nbsp;<code>p1</code>&nbsp;和&nbsp;<code>p2</code>&nbsp;之间的 <strong>曼哈顿距离</strong> 为&nbsp;<code>Manhattan(p1, p2) = |p1.x - p2.x| + |p1.y - p2.y|</code>。</p>
+<p>The <strong>Manhattan distance</strong> between two points <code>p1</code> and <code>p2</code> is <code>Manhattan(p1, p2) = |p1.x - p2.x| + |p1.y - p2.y|</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1057.Campus%20Bikes/images/1261_example_1_v2.png" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1057.Campus%20Bikes/images/1261_example_1_v2.png" style="width: 376px; height: 366px;" />
 <pre>
-<strong>输入：</strong>workers = [[0,0],[2,1]], bikes = [[1,2],[3,3]]
-<strong>输出：</strong>[1,0]
-<strong>解释：</strong>工人 1 分配到自行车 0，因为他们最接近且不存在冲突，工人 0 分配到自行车 1 。所以输出是 [1,0]。
+<strong>Input:</strong> workers = [[0,0],[2,1]], bikes = [[1,2],[3,3]]
+<strong>Output:</strong> [1,0]
+<strong>Explanation:</strong> Worker 1 grabs Bike 0 as they are closest (without ties), and Worker 0 is assigned Bike 1. So the output is [1, 0].
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1057.Campus%20Bikes/images/1261_example_2_v2.png" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1057.Campus%20Bikes/images/1261_example_2_v2.png" style="width: 376px; height: 366px;" />
 <pre>
-<strong>输入：</strong>workers = [[0,0],[1,1],[2,0]], bikes = [[1,0],[2,2],[2,1]]
-<strong>输出：</strong>[0,2,1]
-<strong>解释：</strong>工人 0 首先分配到自行车 0 。工人 1 和工人 2 与自行车 2 距离相同，因此工人 1 分配到自行车 2，工人 2 将分配到自行车 1 。因此输出为 [0,2,1]。
+<strong>Input:</strong> workers = [[0,0],[1,1],[2,0]], bikes = [[1,0],[2,2],[2,1]]
+<strong>Output:</strong> [0,2,1]
+<strong>Explanation:</strong> Worker 0 grabs Bike 0 at first. Worker 1 and Worker 2 share the same distance to Bike 2, thus Worker 1 is assigned to Bike 2, and Worker 2 will take Bike 1. So the output is [0,2,1].
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == workers.length</code></li>
 	<li><code>m == bikes.length</code></li>
 	<li><code>1 &lt;= n &lt;= m &lt;= 1000</code></li>
 	<li><code>workers[i].length == bikes[j].length == 2</code></li>
-	<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub>&nbsp;&lt; 1000</code></li>
-	<li><code>0 &lt;= x<sub>j</sub>, y<sub>j</sub>&nbsp;&lt; 1000</code></li>
-	<li>所有工人和自行车的位置都<strong>不相同</strong></li>
+	<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub> &lt; 1000</code></li>
+	<li><code>0 &lt;= x<sub>j</sub>, y<sub>j</sub> &lt; 1000</code></li>
+	<li>All worker and bike locations are <strong>unique</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
-
-先计算每个工人和每个自行车之间的曼哈顿距离，然后按照曼哈顿距离从小到大排序，遍历排序后的数组，如果当前工人和自行车都未被分配，则分配给当前工人和自行车。
-
-时间复杂度 $O(n\times m\times \log (n\times m))$。其中 $n$ 和 $m$ 分别为工人和自行车的数量。
+### Solution 1
 
 <!-- tabs:start -->
 

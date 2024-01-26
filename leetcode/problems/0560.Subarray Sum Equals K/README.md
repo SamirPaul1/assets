@@ -1,34 +1,23 @@
-# [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k)
+# [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)
 
-[English Version](/solution/0500-0599/0560.Subarray%20Sum%20Equals%20K/README_EN.md)
+[中文文档](/solution/0500-0599/0560.Subarray%20Sum%20Equals%20K/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of integers <code>nums</code> and an integer <code>k</code>, return <em>the total number of subarrays whose sum equals to</em> <code>k</code>.</p>
 
-<p>给你一个整数数组 <code>nums</code> 和一个整数&nbsp;<code>k</code> ，请你统计并返回 <em>该数组中和为&nbsp;<code>k</code><strong>&nbsp;</strong>的子数组的个数&nbsp;</em>。</p>
-
-<p>子数组是数组中元素的连续非空序列。</p>
+<p>A subarray is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,1,1], k = 2
-<strong>输出：</strong>2
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,1,1], k = 2
+<strong>Output:</strong> 2
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3], k = 3
+<strong>Output:</strong> 2
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3], k = 3
-<strong>输出：</strong>2
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 2 * 10<sup>4</sup></code></li>
@@ -36,9 +25,9 @@
 	<li><code>-10<sup>7</sup> &lt;= k &lt;= 10<sup>7</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -139,7 +128,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,70 +1,56 @@
-# [156. 上下翻转二叉树](https://leetcode.cn/problems/binary-tree-upside-down)
+# [156. Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)
 
-[English Version](/solution/0100-0199/0156.Binary%20Tree%20Upside%20Down/README_EN.md)
+[中文文档](/solution/0100-0199/0156.Binary%20Tree%20Upside%20Down/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, turn the tree upside down and return <em>the new root</em>.</p>
 
-<p>给你一个二叉树的根节点 <code>root</code> ，请你将此二叉树上下翻转，并返回新的根节点。</p>
-
-<p>你可以按下面的步骤翻转一棵二叉树：</p>
+<p>You can turn a binary tree upside down with the following steps:</p>
 
 <ol>
-	<li>原来的左子节点变成新的根节点</li>
-	<li>原来的根节点变成新的右子节点</li>
-	<li>原来的右子节点变成新的左子节点</li>
+	<li>The original left child becomes the new root.</li>
+	<li>The original root becomes the new right child.</li>
+	<li>The original right child becomes the new left child.</li>
 </ol>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0156.Binary%20Tree%20Upside%20Down/images/main.jpg" style="width: 600px; height: 95px;" />
-<p>上面的步骤逐层进行。题目数据保证每个右节点都有一个同级节点（即共享同一父节点的左节点）且不存在子节点。</p>
+<p>The mentioned steps are done level by level. It is <strong>guaranteed</strong> that every right node has a sibling (a left node with the same parent) and has no children.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0156.Binary%20Tree%20Upside%20Down/images/updown.jpg" style="width: 800px; height: 161px;" />
 <pre>
-<strong>输入：</strong>root = [1,2,3,4,5]
-<strong>输出：</strong>[4,5,2,null,null,3,1]
+<strong>Input:</strong> root = [1,2,3,4,5]
+<strong>Output:</strong> [4,5,2,null,null,3,1]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = []
-<strong>输出：</strong>[]
+<strong>Input:</strong> root = []
+<strong>Output:</strong> []
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = [1]
-<strong>输出：</strong>[1]
+<strong>Input:</strong> root = [1]
+<strong>Output:</strong> [1]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点数目在范围 <code>[0, 10]</code> 内</li>
+	<li>The number of nodes in the tree will be in the range <code>[0, 10]</code>.</li>
 	<li><code>1 &lt;= Node.val &lt;= 10</code></li>
-	<li>树中的每个右节点都有一个同级节点（即共享同一父节点的左节点）</li>
-	<li>树中的每个右节点都没有子节点</li>
+	<li>Every right node in the tree has a sibling (a left node that shares the same parent).</li>
+	<li>Every right node in the tree has no children.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：递归
-
-若根节点为空，或者根节点左子树为空，直接返回根节点。
-
-递归处理左子树，返回的根节点 newRoot，也就是二叉树上下翻转后的根节点。
-
-然后处理根节点 root，根节点变成左子节点的右子节点，而根节点的右子节点变成左子节点的左子节点。
-
-接着将根节点 root 的左右子节点置为空，最后返回 newRoot 即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为二叉树节点个数。
+### Solution 1
 
 <!-- tabs:start -->
 

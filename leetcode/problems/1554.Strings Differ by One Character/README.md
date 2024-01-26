@@ -1,57 +1,52 @@
-# [1554. 只有一个不同字符的字符串](https://leetcode.cn/problems/strings-differ-by-one-character)
+# [1554. Strings Differ by One Character](https://leetcode.com/problems/strings-differ-by-one-character)
 
-[English Version](/solution/1500-1599/1554.Strings%20Differ%20by%20One%20Character/README_EN.md)
+[中文文档](/solution/1500-1599/1554.Strings%20Differ%20by%20One%20Character/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a list of strings <code>dict</code> where all the strings are of the same length.</p>
 
-<p>给定一个字符串列表&nbsp;<code>dict</code> ，其中所有字符串的长度都相同。</p>
-
-<p>当存在两个字符串在相同索引处只有一个字符不同时，返回 <code>True</code> ，否则返回 <code>False</code> 。</p>
+<p>Return <code>true</code> if there are 2 strings that only differ by 1 character in the same index, otherwise return <code>false</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>dict = ["abcd","acbd", "aacd"]
-<strong>输出：</strong>true
-<strong>解释：</strong>字符串 "a<strong>b</strong>cd" 和 "a<strong>a</strong>cd" 只在索引 1 处有一个不同的字符。
+<strong>Input:</strong> dict = [&quot;abcd&quot;,&quot;acbd&quot;, &quot;aacd&quot;]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Strings &quot;a<strong>b</strong>cd&quot; and &quot;a<strong>a</strong>cd&quot; differ only by one character in the index 1.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>dict = ["ab","cd","yz"]
-<strong>输出：</strong>false
+<strong>Input:</strong> dict = [&quot;ab&quot;,&quot;cd&quot;,&quot;yz&quot;]
+<strong>Output:</strong> false
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>dict = ["abcd","cccc","abyd","abab"]
-<strong>输出：</strong>true
+<strong>Input:</strong> dict = [&quot;abcd&quot;,&quot;cccc&quot;,&quot;abyd&quot;,&quot;abab&quot;]
+<strong>Output:</strong> true
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>dict</code>&nbsp;中的字符数小于或等于&nbsp;<code>10^5</code>&nbsp;。</li>
+	<li>The number of characters in <code>dict &lt;= 10<sup>5</sup></code></li>
 	<li><code>dict[i].length == dict[j].length</code></li>
-	<li><code>dict[i]</code>&nbsp;是互不相同的。</li>
-	<li><code>dict[i]</code>&nbsp;只包含小写英文字母。</li>
+	<li><code>dict[i]</code> should be unique.</li>
+	<li><code>dict[i]</code> contains only lowercase English letters.</li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you solve this problem in <code>O(n * m)</code> where n is the length of <code>dict</code> and <code>m</code> is the length of each string.</p>
 
-<p><strong>进阶：</strong>你可以以 <code>O(n*m)</code> 的复杂度解决问题吗？其中 n 是列表 <code>dict</code> 的长度，<code>m</code> 是字符串的长度。</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,64 +1,58 @@
-# [2431. 最大限度地提高购买水果的口味](https://leetcode.cn/problems/maximize-total-tastiness-of-purchased-fruits)
+# [2431. Maximize Total Tastiness of Purchased Fruits](https://leetcode.com/problems/maximize-total-tastiness-of-purchased-fruits)
 
-[English Version](/solution/2400-2499/2431.Maximize%20Total%20Tastiness%20of%20Purchased%20Fruits/README_EN.md)
+[中文文档](/solution/2400-2499/2431.Maximize%20Total%20Tastiness%20of%20Purchased%20Fruits/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two non-negative integer arrays <code>price</code> and <code>tastiness</code>, both arrays have the same length <code>n</code>. You are also given two non-negative integers <code>maxAmount</code> and <code>maxCoupons</code>.</p>
 
-<p>你有两个非负整数数组 <code>price</code> 和 <code>tastiness</code>，两个数组的长度都是 <code>n</code>。同时给你两个非负整数 <code>maxAmount</code> 和 <code>maxCoupons</code>。</p>
-
-<p data-group="1-1">对于范围 <code>[0, n - 1]</code>&nbsp;中的每一个整数 <code>i</code>:</p>
+<p>For every integer <code>i</code> in range <code>[0, n - 1]</code>:</p>
 
 <ul>
-	<li>
-	<p data-group="1-1"><code>price[i]</code>&nbsp;描述了第 <code>i</code> 个水果的价格。</p>
-	</li>
-	<li><code>tastiness[i]</code> 描述了第 <code>i</code> 个水果的味道。</li>
+	<li><code>price[i]</code> describes the price of <code>i<sup>th</sup></code> fruit.</li>
+	<li><code>tastiness[i]</code> describes the tastiness of <code>i<sup>th</sup></code> fruit.</li>
 </ul>
 
-<p>你想购买一些水果，这样总的味道是最大的，总价不超过 <code>maxAmount</code>。</p>
+<p>You want to purchase some fruits such that total tastiness is maximized and the total price does not exceed <code>maxAmount</code>.</p>
 
-<p>此外，你还可以用优惠券以&nbsp;<strong>半价 </strong>购买水果 (向下取整到最接近的整数)。您最多可以使用 <code>maxCoupons</code>&nbsp;次该优惠券。</p>
+<p>Additionally, you can use a coupon to purchase fruit for <strong>half of its price</strong> (rounded down to the closest integer). You can use at most <code>maxCoupons</code> of such coupons.</p>
 
-<p>返回可购买的最大总口味。</p>
+<p>Return <em>the maximum total tastiness that can be purchased</em>.</p>
 
-<p><strong>注意:</strong></p>
+<p><strong>Note that:</strong></p>
 
 <ul>
-	<li>每个水果最多只能购买一次。</li>
-	<li>一个水果你最多只能用一次折价券。</li>
+	<li>You can purchase each fruit at most once.</li>
+	<li>You can use coupons on some fruit at most once.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> price = [10,20,20], tastiness = [5,8,8], maxAmount = 20, maxCoupons = 1
-<strong>输出:</strong> 13
-<strong>解释:</strong> 可以用以下方法来达到总口味:
-- 无优惠券买第一个水果，总价= 0 + 10，总口味= 0 + 5。
-- 用优惠券买第二个水果，总价= 10 + 10，总口味= 5 + 8。
-- 不购买第三个水果，总价= 20，总口味= 13。
-可以证明 13 是所能得到的最大总口味。
+<strong>Input:</strong> price = [10,20,20], tastiness = [5,8,8], maxAmount = 20, maxCoupons = 1
+<strong>Output:</strong> 13
+<strong>Explanation:</strong> It is possible to make total tastiness 13 in following way:
+- Buy first fruit without coupon, so that total price = 0 + 10 and total tastiness = 0 + 5.
+- Buy second fruit with coupon, so that total price = 10 + 10 and total tastiness = 5 + 8.
+- Do not buy third fruit, so that total price = 20 and total tastiness = 13.
+It can be proven that 13 is the maximum total tastiness that can be obtained.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> price = [10,15,7], tastiness = [5,8,20], maxAmount = 10, maxCoupons = 2
-<strong>输出:</strong> 28
-<strong>解释:</strong> 可以用以下方法使总口味达到 20:
-- 不买第一个水果，这样总价= 0，总口味= 0。
-- 用优惠券买第二个水果，总价= 0 + 7，总口味= 0 + 8。
-- 用优惠券买第三个水果，总价= 7 + 3，总口味= 8 + 20。
-可以证明，28 是所能得到的最大总口味。
+<strong>Input:</strong> price = [10,15,7], tastiness = [5,8,20], maxAmount = 10, maxCoupons = 2
+<strong>Output:</strong> 28
+<strong>Explanation:</strong> It is possible to make total tastiness 20 in following way:
+- Do not buy first fruit, so that total price = 0 and total tastiness = 0.
+- Buy second fruit with coupon, so that total price = 0 + 7 and total tastiness = 0 + 8.
+- Buy third fruit with coupon, so that total price = 7 + 3 and total tastiness = 8 + 20.
+It can be proven that 28 is the maximum total tastiness that can be obtained.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == price.length == tastiness.length</code></li>
@@ -67,21 +61,21 @@
 	<li><code>0 &lt;= maxCoupons &lt;= 5</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：记忆化搜索
+### Solution 1: Memoization Search
 
-我们设计函数 $dfs(i, j, k)$ 表示从第 $i$ 个水果开始，剩余 $j$ 元钱，剩余 $k$ 张优惠券时，最大的总美味度。
+We design a function $dfs(i, j, k)$ to represent the maximum total tastiness starting from the $i$th fruit, with $j$ money left, and $k$ coupons left.
 
-对于第 $i$ 个水果，可以选择购买或者不购买，如果购买，那么可以选择使用优惠券或者不使用优惠券。
+For the $i$th fruit, we can choose to buy or not to buy. If we choose to buy, we can decide whether to use a coupon or not.
 
-如果不购买，那么最大总美味度是 $dfs(i + 1, j, k)$；
+If we don't buy, the maximum total tastiness is $dfs(i + 1, j, k)$;
 
-如果购买，如果不使用优惠券（需要满足 $j\ge price[i]$），那么最大总美味度是 $dfs(i + 1, j - price[i], k) + tastiness[i]$；如果使用优惠券（需要满足 $k\gt 0$ 并且 $j\ge \lfloor \frac{price[i]}{2} \rfloor$），那么最大总美味度是 $dfs(i + 1, j - \lfloor \frac{price[i]}{2} \rfloor, k - 1) + tastiness[i]$。
+If we buy, and choose not to use a coupon (requires $j\ge price[i]$), the maximum total tastiness is $dfs(i + 1, j - price[i], k) + tastiness[i]$; if we use a coupon (requires $k\gt 0$ and $j\ge \lfloor \frac{price[i]}{2} \rfloor$), the maximum total tastiness is $dfs(i + 1, j - \lfloor \frac{price[i]}{2} \rfloor, k - 1) + tastiness[i]$.
 
-最终的答案是 $dfs(0, maxAmount, maxCoupons)$。
+The final answer is $dfs(0, maxAmount, maxCoupons)$.
 
-时间复杂度 $O(n \times maxAmount \times maxCoupons)$。其中 $n$ 是水果的数量。
+The time complexity is $O(n \times maxAmount \times maxCoupons)$, where $n$ is the number of fruits.
 
 <!-- tabs:start -->
 

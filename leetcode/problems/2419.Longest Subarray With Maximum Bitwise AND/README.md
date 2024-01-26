@@ -1,67 +1,63 @@
-# [2419. 按位与最大的最长子数组](https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and)
+# [2419. Longest Subarray With Maximum Bitwise AND](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and)
 
-[English Version](/solution/2400-2499/2419.Longest%20Subarray%20With%20Maximum%20Bitwise%20AND/README_EN.md)
+[中文文档](/solution/2400-2499/2419.Longest%20Subarray%20With%20Maximum%20Bitwise%20AND/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> of size <code>n</code>.</p>
 
-<p>给你一个长度为 <code>n</code> 的整数数组 <code>nums</code> 。</p>
-
-<p>考虑 <code>nums</code> 中进行 <strong>按位与（bitwise AND）</strong>运算得到的值 <strong>最大</strong> 的 <strong>非空</strong> 子数组。</p>
+<p>Consider a <strong>non-empty</strong> subarray from <code>nums</code> that has the <strong>maximum</strong> possible <strong>bitwise AND</strong>.</p>
 
 <ul>
-	<li>换句话说，令 <code>k</code> 是 <code>nums</code> <strong>任意</strong> 子数组执行按位与运算所能得到的最大值。那么，只需要考虑那些执行一次按位与运算后等于 <code>k</code> 的子数组。</li>
+	<li>In other words, let <code>k</code> be the maximum value of the bitwise AND of <strong>any</strong> subarray of <code>nums</code>. Then, only subarrays with a bitwise AND equal to <code>k</code> should be considered.</li>
 </ul>
 
-<p>返回满足要求的 <strong>最长</strong> 子数组的长度。</p>
+<p>Return <em>the length of the <strong>longest</strong> such subarray</em>.</p>
 
-<p>数组的按位与就是对数组中的所有数字进行按位与运算。</p>
+<p>The bitwise AND of an array is the bitwise AND of all the numbers in it.</p>
 
-<p><strong>子数组</strong> 是数组中的一个连续元素序列。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3,3,2,2]
-<strong>输出：</strong>2
-<strong>解释：</strong>
-子数组按位与运算的最大值是 3 。
-能得到此结果的最长子数组是 [3,3]，所以返回 2 。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3,4]
-<strong>输出：</strong>1
-<strong>解释：</strong>
-子数组按位与运算的最大值是 4 。 
-能得到此结果的最长子数组是 [4]，所以返回 1 。
-</pre>
+<p>A <strong>subarray</strong> is a contiguous sequence of elements within an array.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [1,2,3,3,2,2]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong>
+The maximum possible bitwise AND of a subarray is 3.
+The longest subarray with that value is [3,3], so we return 2.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+The maximum possible bitwise AND of a subarray is 4.
+The longest subarray with that value is [4], so we return 1.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：脑筋急转弯
+### Solution 1: Quick Thinking
 
-由于按位与的操作，不会使得数字变大，因此最大值就是数组中的最大值。
+Due to the bitwise AND operation, the number will not get larger, so the maximum value is the maximum value in the array.
 
-题目可以转换为求最大值在数组中最多连续出现的次数。
+The problem can be transformed into finding the maximum number of consecutive occurrences of the maximum value in the array.
 
-先遍历一遍数组，求出最大值，然后再遍历一遍数组，求出最大值连续出现的次数，最后返回这个次数即可。
+First, traverse the array once to find the maximum value, then traverse the array again to find the number of consecutive occurrences of the maximum value, and finally return this count.
 
-时间复杂度 $O(n)$。其中 $n$ 为数组的长度。
+The time complexity is $O(n)$, where $n$ is the length of the array.
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [2324. 产品销售分析 IV](https://leetcode.cn/problems/product-sales-analysis-iv)
+# [2324. Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv)
 
-[English Version](/solution/2300-2399/2324.Product%20Sales%20Analysis%20IV/README_EN.md)
+[中文文档](/solution/2300-2399/2324.Product%20Sales%20Analysis%20IV/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Sales</code></p>
+<p>Table: <code>Sales</code></p>
 
 <pre>
 +-------------+-------+
@@ -17,14 +15,14 @@
 | user_id     | int   |
 | quantity    | int   |
 +-------------+-------+
-sale_id 包含唯一值。
-product_id 是 product 表的外键。
-该表的每一行都显示了产品的 ID 和用户购买的数量。
+sale_id contains unique values.
+product_id is a foreign key (reference column) to <code>Product</code> table.
+Each row of this table shows the ID of the product and the quantity purchased by a user.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Product</code></p>
+<p>Table: <code>Product</code></p>
 
 <pre>
 +-------------+------+
@@ -33,25 +31,24 @@ product_id 是 product 表的外键。
 | product_id  | int  |
 | price       | int  |
 +-------------+------+
-product_id 包含唯一值。
-该表的每一行都表示每种产品的价格。
+product_id contains unique values.
+Each row of this table indicates the price of each product.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，为每个用户获取其消费最多的产品 id。如果同一用户在两个或多个产品上花费了最多的钱，请获取所有花费了最多的钱的产品。</p>
+<p>Write a solution that reports for each user the product id on which the user spent the most money. In case the same user spent the most money on two or more products, report all of them.</p>
 
-<p data-group="1-1">以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the resulting table in <strong>any order</strong>.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Sales 表:
+<strong>Input:</strong> 
+Sales table:
 +---------+------------+---------+----------+
 | sale_id | product_id | user_id | quantity |
 +---------+------------+---------+----------+
@@ -62,7 +59,7 @@ Sales 表:
 | 5       | 3          | 102     | 10       |
 | 6       | 1          | 102     | 6        |
 +---------+------------+---------+----------+
-Product 表:
+Product table:
 +------------+-------+
 | product_id | price |
 +------------+-------+
@@ -70,7 +67,7 @@ Product 表:
 | 2          | 25    |
 | 3          | 15    |
 +------------+-------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +---------+------------+
 | user_id | product_id |
 +---------+------------+
@@ -79,21 +76,21 @@ Product 表:
 | 102     | 2          |
 | 102     | 3          |
 +---------+------------+ 
-<strong>解释:</strong> 
-用户 101:
-    - 在产品 1 上花费 10 * 10 = 100。
-    - 在产品 3 上花费 7 * 15 = 105。
-用户101在产品3上花的钱最多。
-用户 102:
-    - 在产品 1 上花费 (9 + 7)* 10 = 150
-    - 在产品 2 上花费 6 * 25 = 150
-    - 在产品 3 上花费 10 * 15 = 150。
-用户 102 在产品 1、2、3 上花的钱最多。
+<strong>Explanation:</strong> 
+User 101:
+    - Spent 10 * 10 = 100 on product 1.
+    - Spent 7 * 15 = 105 on product 3.
+User 101 spent the most money on product 3.
+User 102:
+    - Spent (9 + 7) * 10 = 150 on product 1.
+    - Spent 6 * 25 = 150 on product 2.
+    - Spent 10 * 15 = 150 on product 3.
+User 102 spent the most money on products 1, 2, and 3.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

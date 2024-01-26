@@ -1,12 +1,10 @@
-# [178. 分数排名](https://leetcode.cn/problems/rank-scores)
+# [178. Rank Scores](https://leetcode.com/problems/rank-scores)
 
-[English Version](/solution/0100-0199/0178.Rank%20Scores/README_EN.md)
+[中文文档](/solution/0100-0199/0178.Rank%20Scores/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表:&nbsp;<code>Scores</code></p>
+<p>Table: <code>Scores</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,31 +13,30 @@
 | id          | int     |
 | score       | decimal |
 +-------------+---------+
-在 SQL 中，id 是该表的主键。
-该表的每一行都包含了一场比赛的分数。Score 是一个有两位小数点的浮点值。
+id is the primary key (column with unique values) for this table.
+Each row of this table contains the score of a game. Score is a floating point value with two decimal places.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>查询并对分数进行排序。排名按以下规则计算:</p>
+<p>Write a solution to find the rank of the scores. The ranking should be calculated according to the following rules:</p>
 
 <ul>
-	<li>分数应按从高到低排列。</li>
-	<li>如果两个分数相等，那么两个分数的排名应该相同。</li>
-	<li>在排名相同的分数后，排名数应该是下一个连续的整数。换句话说，排名之间不应该有空缺的数字。</li>
+	<li>The scores should be ranked from the highest to the lowest.</li>
+	<li>If there is a tie between two scores, both should have the same ranking.</li>
+	<li>After a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no holes between ranks.</li>
 </ul>
 
-<p>按&nbsp;<code>score</code>&nbsp;降序返回结果表。</p>
+<p>Return the result table ordered by <code>score</code> in descending order.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Scores 表:
+<strong>Input:</strong> 
+Scores table:
 +----+-------+
 | id | score |
 +----+-------+
@@ -50,7 +47,7 @@ Scores 表:
 | 5  | 4.00  |
 | 6  | 3.65  |
 +----+-------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +-------+------+
 | score | rank |
 +-------+------+
@@ -60,27 +57,12 @@ Scores 表:
 | 3.65  | 3    |
 | 3.65  | 3    |
 | 3.50  | 4    |
-+-------+------+</pre>
++-------+------+
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：使用窗口函数 `DENSE_RANK()`
-
-使用 `DENSE_RANK()` 函数，语法如下：
-
-```sql
-DENSE_RANK() OVER (
-    PARTITION BY <expression>[{,<expression>...}]
-    ORDER BY <expression> [ASC|DESC], [{,<expression>...}]
-)
-```
-
-在这个语法中：
-
--   首先，`PARTITION BY` 子句将 `FROM` 子句生成的结果集划分为分区。`DENSE_RANK()`函数应用于每个分区。
--   其次，`ORDER BY` 子句指定 `DENSE_RANK()` 函数操作的每个分区中的行顺序。
-
-与 `RANK()` 函数不同，`DENSE_RANK()` 函数始终返回连续的排名值。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -108,9 +90,7 @@ FROM Scores;
 
 <!-- tabs:end -->
 
-### 方法二：变量
-
-MySQL 8 开始才提供了 `ROW_NUMBER()`，`RANK()`，`DENSE_RANK()` 等[窗口函数](https://dev.mysql.com/doc/refman/8.0/en/window-function-descriptions.html)，在之前的版本，可以使用变量实现类似的功能。
+### Solution 2
 
 <!-- tabs:start -->
 

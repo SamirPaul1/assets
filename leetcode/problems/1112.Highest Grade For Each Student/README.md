@@ -1,12 +1,10 @@
-# [1112. 每位学生的最高成绩](https://leetcode.cn/problems/highest-grade-for-each-student)
+# [1112. Highest Grade For Each Student](https://leetcode.com/problems/highest-grade-for-each-student)
 
-[English Version](/solution/1100-1199/1112.Highest%20Grade%20For%20Each%20Student/README_EN.md)
+[中文文档](/solution/1100-1199/1112.Highest%20Grade%20For%20Each%20Student/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Enrollments</code></p>
+<p>Table: <code>Enrollments</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,24 +14,24 @@
 | course_id     | int     |
 | grade         | int     |
 +---------------+---------+
-(student_id, course_id) 是该表的主键（具有唯一值的列的组合）。
-grade 不会为 NULL。</pre>
+(student_id, course_id) is the primary key (combination of columns with unique values) of this table.
+grade is never NULL.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，找出每位学生获得的最高成绩和它所对应的科目，若科目成绩并列，取&nbsp;<code>course_id</code>&nbsp;最小的一门。查询结果需按&nbsp;<code>student_id</code>&nbsp;增序进行排序。</p>
+<p>Write a solution to find the highest grade with its corresponding course for each student. In case of a tie, you should find the course with the smallest <code>course_id</code>.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table ordered by <code>student_id</code> in <strong>ascending order</strong>.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Enrollments 表：
+<strong>Input:</strong> 
+Enrollments table:
 +------------+-------------------+
 | student_id | course_id | grade |
 +------------+-----------+-------+
@@ -45,20 +43,21 @@ Enrollments 表：
 | 3          | 2         | 75    |
 | 3          | 3         | 82    |
 +------------+-----------+-------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+-------------------+
 | student_id | course_id | grade |
 +------------+-----------+-------+
 | 1          | 2         | 99    |
 | 2          | 2         | 95    |
 | 3          | 3         | 82    |
-+------------+-----------+-------+</pre>
++------------+-----------+-------+
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：RANK() OVER() 窗口函数
+### Solution 1: RANK() OVER() Window Function
 
-我们可以使用 `RANK() OVER()` 窗口函数，按照每个学生的成绩降序排列，如果成绩相同，按照课程号升序排列，然后取每个学生排名为 $1$ 的记录。
+We can use the `RANK() OVER()` window function to sort the grades of each student in descending order. If the grades are the same, we sort them in ascending order by course number, and then select the record with a rank of $1$ for each student.
 
 <!-- tabs:start -->
 
@@ -82,9 +81,9 @@ ORDER BY student_id;
 
 <!-- tabs:end -->
 
-### 方法二：子查询
+### Solution 2: Subquery
 
-我们可以先查询每个学生的最高成绩，然后再查询每个学生的最高成绩对应的最小课程号。
+We can first query the highest grade of each student, and then query the minimum course number corresponding to the highest grade of each student.
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [1747. 应该被禁止的 Leetflex 账户](https://leetcode.cn/problems/leetflex-banned-accounts)
+# [1747. Leetflex Banned Accounts](https://leetcode.com/problems/leetflex-banned-accounts)
 
-[English Version](/solution/1700-1799/1747.Leetflex%20Banned%20Accounts/README_EN.md)
+[中文文档](/solution/1700-1799/1747.Leetflex%20Banned%20Accounts/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>LogInfo</code></p>
+<p>Table: <code>LogInfo</code></p>
 
 <pre>
 +-------------+----------+
@@ -17,25 +15,24 @@
 | login       | datetime |
 | logout      | datetime |
 +-------------+----------+
-该表可能包含重复项。
-该表包含有关Leetflex帐户的登录和注销日期的信息。 它还包含了该账户用于登录和注销的网络地址的信息。
-题目确保每一个注销时间都在登录时间之后。
+This table may contain duplicate rows.
+The table contains information about the login and logout dates of Leetflex accounts. It also contains the IP address from which the account was logged in and out.
+It is guaranteed that the logout time is after the login time.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，查找那些应该被禁止的Leetflex帐户编号 <code>account_id</code> 。 如果某个帐户在某一时刻从两个不同的网络地址登录了，则这个帐户应该被禁止。</p>
+<p>Write a solution&nbsp;to find the <code>account_id</code> of the accounts that should be banned from Leetflex. An account should be banned if it was logged in at some moment from two different IP addresses.</p>
 
-<p>可以以 <strong>任何顺序 </strong>返回结果。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>查询结果格式如下例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 LogInfo table:
 +------------+------------+---------------------+---------------------+
 | account_id | ip_address | login               | logout              |
@@ -49,28 +46,29 @@ LogInfo table:
 | 4          | 10         | 2021-02-01 16:00:00 | 2021-02-01 17:00:00 |
 | 4          | 11         | 2021-02-01 17:00:00 | 2021-02-01 17:59:59 |
 +------------+------------+---------------------+---------------------+
-<strong>输出：
-</strong>+------------+
+<strong>Output:</strong> 
++------------+
 | account_id |
 +------------+
 | 1          |
 | 4          |
 +------------+
-<strong>解释：</strong>
-Account ID 1 --&gt; 该账户从 "2021-02-01 09:00:00" 到 "2021-02-01 09:30:00" 在两个不同的网络地址(1 and 2)上激活了。它应该被禁止.
-Account ID 2 --&gt; 该账户在两个不同的网络地址 (6, 7) 激活了，但在不同的时间上.
-Account ID 3 --&gt; 该账户在两个不同的网络地址 (9, 13) 激活了，虽然是同一天，但时间上没有交集.
-Account ID 4 --&gt; 该账户从 "2021-02-01 17:00:00" 到 "2021-02-01 17:00:00" 在两个不同的网络地址 (10 and 11)上激活了。它应该被禁止.</pre>
+<strong>Explanation:</strong> 
+Account ID 1 --&gt; The account was active from &quot;2021-02-01 09:00:00&quot; to &quot;2021-02-01 09:30:00&quot; with two different IP addresses (1 and 2). It should be banned.
+Account ID 2 --&gt; The account was active from two different addresses (6, 7) but in <strong>two different times</strong>.
+Account ID 3 --&gt; The account was active from two different addresses (9, 13) on the same day but <strong>they do not intersect at any moment</strong>.
+Account ID 4 --&gt; The account was active from &quot;2021-02-01 17:00:00&quot; to &quot;2021-02-01 17:00:00&quot; with two different IP addresses (10 and 11). It should be banned.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：自连接
+### Solution 1: Self-Join
 
-我们可以通过自连接的方式，找出每个账户在同一天内，从不同的网络地址登录的情况。连接的条件是：
+We can use a self-join to find out the cases where each account logs in from different IP addresses on the same day. The conditions for joining are:
 
--   账户编号相同
--   网络地址不同
--   一次登录的时间在另一次“登录-退出”的时间范围内
+-   The account numbers are the same.
+-   The IP addresses are different.
+-   The login time of one record is within the login-logout time range of another record.
 
 <!-- tabs:start -->
 

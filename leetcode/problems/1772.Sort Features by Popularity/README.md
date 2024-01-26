@@ -1,59 +1,55 @@
-# [1772. 按受欢迎程度排列功能](https://leetcode.cn/problems/sort-features-by-popularity)
+# [1772. Sort Features by Popularity](https://leetcode.com/problems/sort-features-by-popularity)
 
-[English Version](/solution/1700-1799/1772.Sort%20Features%20by%20Popularity/README_EN.md)
+[中文文档](/solution/1700-1799/1772.Sort%20Features%20by%20Popularity/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a string array <code>features</code> where <code>features[i]</code> is a single word that represents the name of a feature of the latest product you are working on. You have made a survey where users have reported which features they like. You are given a string array <code>responses</code>, where each <code>responses[i]</code> is a string containing space-separated words.</p>
 
-<p>给定一个字符串数组 <code>features</code> ，其中 <code>features[i]</code> 是一个单词，描述你最近参与开发的项目中一个功能的名称。你调查了用户喜欢哪些功能。另给定一个字符串数组 <code>responses</code>，其中 <code>responses[i]</code> 是一个包含以空格分隔的一系列单词的字符串。</p>
+<p>The <strong>popularity</strong> of a feature is the number of <code>responses[i]</code> that contain the feature. You want to sort the features in non-increasing order by their popularity. If two features have the same popularity, order them by their original index in <code>features</code>. Notice that one response could contain the same feature multiple times; this feature is only counted once in its popularity.</p>
 
-<p>你想要按照受欢迎程度排列这些功能。 严格地说，令 <code>appearances(word)</code> 是满足 <code>responses[i]</code> 中包含单词 <code>word</code> 的 <code>i</code> 的个数，则当 <code>appearances(features[x]) > appearances(features[y])</code> 时，第 <code>x</code> 个功能比第 <code>y</code> 个功能更受欢迎。</p>
+<p>Return <em>the features in sorted order.</em></p>
 
-<p>返回一个数组 <code>sortedFeatures</code> ，包含按受欢迎程度排列的功能名称。当第 <code>x</code>  个功能和第 <code>y</code> 个功能的受欢迎程度相同且 <code>x < y</code> 时，你应当将第 <code>x</code> 个功能放在第 <code>y</code> 个功能之前。</p>
-
-<p> </p>
-
-<p><b>示例 1：</b></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入</strong><b>：</b>features = ["cooler","lock","touch"], responses = ["i like cooler cooler","lock touch cool","locker like touch"]
-<strong>输出</strong><b>：</b>["touch","cooler","lock"]
-<strong>解释</strong><b>：</b>appearances("cooler") = 1，appearances("lock") = 1，appearances("touch") = 2。由于 "cooler" 和 "lock" 都出现了 1 次，且 "cooler" 在原数组的前面，所以 "cooler" 也应该在结果数组的前面。
+<strong>Input:</strong> features = [&quot;cooler&quot;,&quot;lock&quot;,&quot;touch&quot;], responses = [&quot;i like cooler cooler&quot;,&quot;lock touch cool&quot;,&quot;locker like touch&quot;]
+<strong>Output:</strong> [&quot;touch&quot;,&quot;cooler&quot;,&quot;lock&quot;]
+<strong>Explanation:</strong> appearances(&quot;cooler&quot;) = 1, appearances(&quot;lock&quot;) = 1, appearances(&quot;touch&quot;) = 2. Since &quot;cooler&quot; and &quot;lock&quot; both had 1 appearance, &quot;cooler&quot; comes first because &quot;cooler&quot; came first in the features array.
 </pre>
 
-<p><b>示例 2：</b></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入</strong><b>：</b>features = ["a","aa","b","c"], responses = ["a","a aa","a a a a a","b a"]
-<strong>输出</strong><b>：</b>["a","aa","b","c"]
+<strong>Input:</strong> features = [&quot;a&quot;,&quot;aa&quot;,&quot;b&quot;,&quot;c&quot;], responses = [&quot;a&quot;,&quot;a aa&quot;,&quot;a a a a a&quot;,&quot;b a&quot;]
+<strong>Output:</strong> [&quot;a&quot;,&quot;aa&quot;,&quot;b&quot;,&quot;c&quot;]
 </pre>
 
-<p> </p>
-
-<p><b>提示：</b></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= features.length <= 10<sup>4</sup></code></li>
-	<li><code>1 <= features[i].length <= 10</code></li>
-	<li><code>features</code> 不包含重复项。</li>
-	<li><code>features[i]</code> 由小写字母构成。</li>
-	<li><code>1 <= responses.length <= 10<sup>2</sup></code></li>
-	<li><code>1 <= responses[i].length <= 10<sup>3</sup></code></li>
-	<li><code>responses[i]</code> 由小写字母和空格组成。</li>
-	<li><code>responses[i]</code> 不包含两个连续的空格。</li>
-	<li><code>responses[i]</code> 没有前置或后置空格。</li>
+	<li><code>1 &lt;= features.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= features[i].length &lt;= 10</code></li>
+	<li><code>features</code> contains no duplicates.</li>
+	<li><code>features[i]</code> consists of lowercase letters.</li>
+	<li><code>1 &lt;= responses.length &lt;= 10<sup>2</sup></code></li>
+	<li><code>1 &lt;= responses[i].length &lt;= 10<sup>3</sup></code></li>
+	<li><code>responses[i]</code> consists of lowercase letters and spaces.</li>
+	<li><code>responses[i]</code> contains no two consecutive spaces.</li>
+	<li><code>responses[i]</code> has no leading or trailing spaces.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 自定义排序
+### Solution 1: Hash Table + Custom Sorting
 
-我们遍历 `responses`，对于 `responses[i]` 中的每个单词，我们用一个哈希表 `vis` 暂存。接下来将 `vis` 中的单词记录到哈希表 `cnt` 中，记录每个单词出现的次数。
+We traverse `responses`, and for each word in `responses[i]`, we temporarily store it in a hash table `vis`. Next, we record the words in `vis` into the hash table `cnt`, recording the number of times each word appears.
 
-接下来，采用自定义排序，将 `features` 中的单词按照出现次数从大到小排序，如果出现次数相同，则按照出现的下标从小到大排序。
+Next, we use custom sorting to sort the words in `features` in descending order of occurrence. If the number of occurrences is the same, we sort them in ascending order of the index where they appear.
 
-时间复杂度 $O(n \times \log n)$，其中 $n$ 为 `features` 的长度。
+The time complexity is $O(n \times \log n)$, where $n$ is the length of `features`.
 
 <!-- tabs:start -->
 

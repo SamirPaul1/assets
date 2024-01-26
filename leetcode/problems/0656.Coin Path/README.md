@@ -1,61 +1,38 @@
-# [656. 金币路径](https://leetcode.cn/problems/coin-path)
+# [656. Coin Path](https://leetcode.com/problems/coin-path)
 
-[English Version](/solution/0600-0699/0656.Coin%20Path/README_EN.md)
+[中文文档](/solution/0600-0699/0656.Coin%20Path/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>coins</code> (<strong>1-indexed</strong>) of length <code>n</code> and an integer <code>maxJump</code>. You can jump to any index <code>i</code> of the array <code>coins</code> if <code>coins[i] != -1</code> and you have to pay <code>coins[i]</code> when you visit index <code>i</code>. In addition to that, if you are currently at index <code>i</code>, you can only jump to any index <code>i + k</code> where <code>i + k &lt;= n</code> and <code>k</code> is a value in the range <code>[1, maxJump]</code>.</p>
 
-<p>给定一个数组 <code>A</code>（下标从 <code>1</code> 开始）包含 N 个整数：A<sub>1</sub>，A<sub>2</sub>，&hellip;&hellip;，A<sub>N</sub>&nbsp;和一个整数 <code>B</code>。你可以从数组 <code>A</code> 中的任何一个位置（下标为 <code>i</code>）跳到下标&nbsp;<code>i+1</code>，<code>i+2</code>，&hellip;&hellip;，<code>i+B</code>&nbsp;的任意一个可以跳到的位置上。如果你在下标为 <code>i</code> 的位置上，你需要支付 A<sub>i</sub> 个金币。如果 A<sub>i</sub> 是 -1，意味着下标为 <code>i</code> 的位置是不可以跳到的。</p>
+<p>You are initially positioned at index <code>1</code> (<code>coins[1]</code> is not <code>-1</code>). You want to find the path that reaches index n with the minimum cost.</p>
 
-<p>现在，你希望花费最少的金币从数组 <code>A</code> 的 <code>1</code> 位置跳到&nbsp;<code>N</code> 位置，你需要输出花费最少的路径，依次输出所有经过的下标（从 1 到 N）。</p>
+<p>Return an integer array of the indices that you will visit in order so that you can reach index n with the minimum cost. If there are multiple paths with the same cost, return the <strong>lexicographically smallest</strong> such path. If it is not possible to reach index n, return an empty array.</p>
 
-<p>如果有多种花费最少的方案，输出字典顺序最小的路径。</p>
-
-<p>如果无法到达 N 位置，请返回一个空数组。</p>
+<p>A path <code>p1 = [Pa<sub>1</sub>, Pa<sub>2</sub>, ..., Pa<sub>x</sub>]</code> of length <code>x</code> is <strong>lexicographically smaller</strong> than <code>p2 = [Pb<sub>1</sub>, Pb<sub>2</sub>, ..., Pb<sub>x</sub>]</code> of length <code>y</code>, if and only if at the first <code>j</code> where <code>Pa<sub>j</sub></code> and <code>Pb<sub>j</sub></code> differ, <code>Pa<sub>j</sub> &lt; Pb<sub>j</sub></code>; when no such <code>j</code> exists, then <code>x &lt; y</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>样例 1 :</strong></p>
-
-<pre><strong>输入:</strong> [1,2,4,-1,2], 2
-<strong>输出:</strong> [1,3,5]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> coins = [1,2,4,-1,2], maxJump = 2
+<strong>Output:</strong> [1,3,5]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> coins = [1,2,4,-1,2], maxJump = 1
+<strong>Output:</strong> []
 </pre>
-
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>样例 2 :</strong></p>
+<ul>
+	<li><code>1 &lt;= coins.length &lt;= 1000</code></li>
+	<li><code>-1 &lt;= coins[i] &lt;= 100</code></li>
+	<li><code>coins[1] != -1</code></li>
+	<li><code>1 &lt;= maxJump &lt;= 100</code></li>
+</ul>
 
-<pre><strong>输入:</strong> [1,2,4,-1,2], 1
-<strong>输出:</strong> []
-</pre>
+## Solutions
 
-<p>&nbsp;</p>
-
-<p><strong>注释 :</strong></p>
-
-<ol>
-	<li>路径 Pa<sub>1</sub>，Pa<sub>2</sub>，&hellip;&hellip;，Pa<sub>n&nbsp;</sub>是字典序小于 Pb<sub>1</sub>，Pb<sub>2</sub>，&hellip;&hellip;，Pb<sub>m&nbsp;</sub>的，当且仅当第一个 Pa<sub>i</sub> 和 Pb<sub>i</sub> 不同的 <code>i</code> 满足 Pa<sub>i</sub> &lt; Pb<sub>i</sub>，如果不存在这样的 <code>i</code> 那么满足 <code>n</code> &lt; <code>m</code>。</li>
-	<li>A<sub>1</sub> &gt;= 0。&nbsp;A<sub>2</sub>, ..., A<sub>N</sub>&nbsp;（如果存在）&nbsp;的范围是 [-1, 100]。</li>
-	<li>A 数组的长度范围 [1, 1000].</li>
-	<li>B 的范围&nbsp;[1, 100].</li>
-</ol>
-
-<p>&nbsp;</p>
-
-## 解法
-
-### 方法一：动态规划（逆向）
-
-题目需要我们找到从下标 1 到下标 n 的最小花费路径，且字典序最小，我们可以使用动态规划求解。
-
-我们定义 $f[i]$ 表示从下标 $i$ 到下标 $n-1$ 的最小花费。如果 $coins[n - 1] = -1$，则不存在从下标 $n-1$ 到下标 $n-1$ 的路径，直接返回空数组即可。否则 $f[n - 1] = coins[n - 1]$。
-
-接下来，我们从下标 $n-2$ 开始，逆向遍历数组，对于下标 $i$，如果 $coins[i] = -1$，则 $f[i] = \infty$，否则 $f[i] = \min_{j = i + 1}^{min(n - 1, i + maxJump)} f[j] + coins[i]$。
-
-然后我们判断 $f[0]$ 是否为 $\infty$，如果是，则不存在一条满足条件的路径，返回空数组即可。否则，我们的总花费为 $s = f[0]$，我们从下标 0 开始，向后遍历数组，如果 $f[i] = s$，则说明从下标 $i$ 到下标 $n-1$ 的花费为 $s$，我们将 $s$ 减去 $coins[i]$，并将下标 $i+1$ 加入到结果数组中，直到遍历到下标 $n-1$，返回结果数组即可。
-
-时间复杂度 $O(n \times m)$，空间复杂度 $O(n)$。其中 $n$ 和 $m$ 分别为数组的长度和最大跳跃长度。
+### Solution 1
 
 <!-- tabs:start -->
 

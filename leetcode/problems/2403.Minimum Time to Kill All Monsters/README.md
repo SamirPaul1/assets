@@ -1,89 +1,81 @@
-# [2403. 杀死所有怪物的最短时间](https://leetcode.cn/problems/minimum-time-to-kill-all-monsters)
+# [2403. Minimum Time to Kill All Monsters](https://leetcode.com/problems/minimum-time-to-kill-all-monsters)
 
-[English Version](/solution/2400-2499/2403.Minimum%20Time%20to%20Kill%20All%20Monsters/README_EN.md)
+[中文文档](/solution/2400-2499/2403.Minimum%20Time%20to%20Kill%20All%20Monsters/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>power</code> where <code>power[i]</code> is the power of the <code>i<sup>th</sup></code> monster.</p>
 
-<p>你有一个整数数组 <code>power</code>，其中&nbsp; <code>power[i]</code> 是第 <code>i</code> 个怪物的力量。</p>
+<p>You start with <code>0</code> mana points, and each day you increase your mana points by <code>gain</code> where <code>gain</code> initially is equal to <code>1</code>.</p>
 
-<p>你从 <code>0</code> 点法力值开始，每天获取&nbsp;<code>gain</code> 点法力值，最初 <code>gain</code> 等于 <code>1</code>。</p>
-
-<p>每天，在获得 <code>gain</code>&nbsp;点法力值后，如果你的法力值大于或等于怪物的力量，你就可以打败怪物。当你打败怪物时:</p>
+<p>Each day, after gaining <code>gain</code> mana, you can defeat a monster if your mana points are greater than or equal to the power of that monster. When you defeat a monster:</p>
 
 <ul>
-	<li>
-	<p data-group="1-1">你的法力值会被重置为 <code>0</code>，并且</p>
-	</li>
-	<li>
-	<p data-group="1-1"><code>gain</code>&nbsp;的值增加 <code>1</code>。</p>
-	</li>
+	<li>your mana points will be reset to <code>0</code>, and</li>
+	<li>the value of <code>gain</code> increases by <code>1</code>.</li>
 </ul>
 
-<p>返回<em>打败所有怪物所需的&nbsp;<strong>最少&nbsp;</strong>天数。</em></p>
+<p>Return <em>the <strong>minimum</strong> number of days needed to defeat all the monsters.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> power = [3,1,4]
-<strong>输出:</strong> 4
-<strong>解释:</strong> 打败所有怪物的最佳方法是:
-- 第 1 天: 获得 1 点法力值，现在总共拥有 1 点法力值。用尽所有法力值击杀第 2 个怪物。
-- 第 2 天: 获得 2 点法力值，现在总共拥有 2 点法力值。
-- 第 3 天: 获得 2 点法力值，现在总共拥有 4 点法力值。用尽所有法力值击杀第 3 个怪物。
-- 第 4 天: 获得 3 点法力值，现在总共拥有 3 点法力值。 用尽所有法力值击杀第 1 个怪物。
-可以证明，4 天是最少需要的天数。
+<strong>Input:</strong> power = [3,1,4]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The optimal way to beat all the monsters is to:
+- Day 1: Gain 1 mana point to get a total of 1 mana point. Spend all mana points to kill the 2<sup>nd</sup> monster.
+- Day 2: Gain 2 mana points to get a total of 2 mana points.
+- Day 3: Gain 2 mana points to get a total of 4 mana points. Spend all mana points to kill the 3<sup>rd</sup> monster.
+- Day 4: Gain 3 mana points to get a total of 3 mana points. Spend all mana points to kill the 1<sup>st</sup> monster.
+It can be proven that 4 is the minimum number of days needed. 
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> power = [1,1,4]
-<strong>输出:</strong> 4
-<strong>解释:</strong> 打败所有怪物的最佳方法是:
-- 第 1 天: 获得 1 点法力值，现在总共拥有 1 点法力值。用尽所有法力值击杀第 1 个怪物。
-- 第 2 天: 获得 2 点法力值，现在总共拥有 2 点法力值。用尽所有法力值击杀第 2 个怪物。
-- 第 3 天: 获得 3 点法力值，现在总共拥有 3 点法力值。
-- 第 4 天: 获得 3 点法力值，现在总共拥有 6 点法力值。用尽所有法力值击杀第 3 个怪物。
-可以证明，4 天是最少需要的天数。
+<strong>Input:</strong> power = [1,1,4]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The optimal way to beat all the monsters is to:
+- Day 1: Gain 1 mana point to get a total of 1 mana point. Spend all mana points to kill the 1<sup>st</sup> monster.
+- Day 2: Gain 2 mana points to get a total of 2 mana points. Spend all mana points to kill the 2<sup>nd</sup> monster.
+- Day 3: Gain 3 mana points to get a total of 3 mana points.
+- Day 4: Gain 3 mana points to get a total of 6 mana points. Spend all mana points to kill the 3<sup>rd</sup> monster.
+It can be proven that 4 is the minimum number of days needed. 
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> power = [1,2,4,9]
-<strong>输出:</strong> 6
-<strong>解释:</strong> 打败所有怪物的最佳方法是:
-- 第 1 天: 获得 1 点法力值，现在总共拥有 1 点法力值。用尽所有法力值击杀第 1 个怪物
-- 第 2 天: 获得 2 点法力值，现在总共拥有 2 点法力值。用尽所有法力值击杀第 2 个怪物。
-- 第 3 天: 获得 3 点法力值，现在总共拥有 3 点法力值。
-- 第 4 天: 获得 3 点法力值，现在总共拥有 6 点法力值。
-- 第 5 天: 获得 3 点法力值，现在总共拥有 9 点法力值。用尽所有法力值击杀第 4 个怪物。
-- 第 6 天: 获得 4 点法力值，现在总共拥有 4 点法力值。用尽所有法力值击杀第 3 个怪物。
-可以证明，6 天是最少需要的天数。
+<strong>Input:</strong> power = [1,2,4,9]
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> The optimal way to beat all the monsters is to:
+- Day 1: Gain 1 mana point to get a total of 1 mana point. Spend all mana points to kill the 1st monster.
+- Day 2: Gain 2 mana points to get a total of 2 mana points. Spend all mana points to kill the 2nd monster.
+- Day 3: Gain 3 mana points to get a total of 3 mana points.
+- Day 4: Gain 3 mana points to get a total of 6 mana points.
+- Day 5: Gain 3 mana points to get a total of 9 mana points. Spend all mana points to kill the 4th monster.
+- Day 6: Gain 4 mana points to get a total of 4 mana points. Spend all mana points to kill the 3rd monster.
+It can be proven that 6 is the minimum number of days needed.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= power.length &lt;= 17</code></li>
 	<li><code>1 &lt;= power[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：状态压缩 + 记忆化搜索或动态规划
+### Solution 1: State Compression + Memorization Search or Dynamic Programming
 
-由于打怪才能增加每天法力的收益 $gain$，不同的打怪顺序对结果有影响，需要枚举。注意到题目的数据范围较小，考虑使用状态压缩动态规划求解。
+Since defeating monsters can increase the daily magic power gain $gain$, the order of defeating monsters affects the result, so we need to enumerate. Noting that the data range of the problem is small, we consider using state compression dynamic programming to solve it.
 
-我们定义状态 $mask$ 表示当前已经打怪的情况，其二进制中的 $1$ 表示已经被打倒的怪物，而 $0$ 表示未被打倒的怪物。
+We define a state $mask$ to represent the current situation of defeating monsters. In its binary representation, $1$ represents the monsters that have been defeated, and $0$ represents the monsters that have not been defeated.
 
-时间复杂度 $O(n \times 2^n)$，空间复杂度 $O(2^n)$。其中 $n$ 是怪物数量。
+The time complexity is $O(n \times 2^n)$, and the space complexity is $O(2^n)$. Here, $n$ is the number of monsters.
 
 <!-- tabs:start -->
 
@@ -239,7 +231,7 @@ function bitCount(x) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

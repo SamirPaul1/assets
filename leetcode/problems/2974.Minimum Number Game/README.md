@@ -1,43 +1,39 @@
-# [2974. 最小数字游戏](https://leetcode.cn/problems/minimum-number-game)
+# [2974. Minimum Number Game](https://leetcode.com/problems/minimum-number-game)
 
-[English Version](/solution/2900-2999/2974.Minimum%20Number%20Game/README_EN.md)
+[中文文档](/solution/2900-2999/2974.Minimum%20Number%20Game/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>你有一个下标从 <strong>0</strong> 开始、长度为 <strong>偶数</strong> 的整数数组 <code>nums</code> ，同时还有一个空数组 <code>arr</code> 。Alice 和 Bob 决定玩一个游戏，游戏中每一轮 Alice 和 Bob 都会各自执行一次操作。游戏规则如下：</p>
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of <strong>even</strong> length and there is also an empty array <code>arr</code>. Alice and Bob decided to play a game where in every round Alice and Bob will do one move. The rules of the game are as follows:</p>
 
 <ul>
-	<li>每一轮，Alice 先从 <code>nums</code> 中移除一个<strong> 最小</strong> 元素，然后 Bob 执行同样的操作。</li>
-	<li>接着，Bob 会将移除的元素添加到数组 <code>arr</code> 中，然后 Alice 也执行同样的操作。</li>
-	<li>游戏持续进行，直到 <code>nums</code> 变为空。</li>
+	<li>Every round, first Alice will remove the <strong>minimum</strong> element from <code>nums</code>, and then Bob does the same.</li>
+	<li>Now, first Bob will append the removed element in the array <code>arr</code>, and then Alice does the same.</li>
+	<li>The game continues until <code>nums</code> becomes empty.</li>
 </ul>
 
-<p>返回结果数组 <code>arr</code> 。</p>
+<p>Return <em>the resulting array </em><code>arr</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [5,4,2,3]
-<strong>输出：</strong>[3,2,5,4]
-<strong>解释：</strong>第一轮，Alice 先移除 2 ，然后 Bob 移除 3 。然后 Bob 先将 3 添加到 arr 中，接着 Alice 再将 2 添加到 arr 中。于是 arr = [3,2] 。
-第二轮开始时，nums = [5,4] 。Alice 先移除 4 ，然后 Bob 移除 5 。接着他们都将元素添加到 arr 中，arr 变为 [3,2,5,4] 。
+<strong>Input:</strong> nums = [5,4,2,3]
+<strong>Output:</strong> [3,2,5,4]
+<strong>Explanation:</strong> In round one, first Alice removes 2 and then Bob removes 3. Then in arr firstly Bob appends 3 and then Alice appends 2. So arr = [3,2].
+At the begining of round two, nums = [5,4]. Now, first Alice removes 4 and then Bob removes 5. Then both append in arr which becomes [3,2,5,4].
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [2,5]
-<strong>输出：</strong>[5,2]
-<strong>解释：</strong>第一轮，Alice 先移除 2 ，然后 Bob 移除 5 。然后 Bob 先将 5 添加到 arr 中，接着 Alice 再将 2 添加到 arr 中。于是 arr = [5,2] 。
+<strong>Input:</strong> nums = [2,5]
+<strong>Output:</strong> [5,2]
+<strong>Explanation:</strong> In round one, first Alice removes 2 and then Bob removes 5. Then in arr firstly Bob appends and then Alice appends. So arr = [5,2].
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
@@ -45,13 +41,13 @@
 	<li><code>nums.length % 2 == 0</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟 + 优先队列（小根堆）
+### Solution 1: Simulation + Priority Queue (Min Heap)
 
-我们可以将数组 $nums$ 中的元素依次放入一个小根堆中，每次从小根堆中取出两个元素 $a$ 和 $b$，然后依次将 $b$ 和 $a$ 放入答案数组中，直到小根堆为空。
+We can put the elements in the array $nums$ into a min heap one by one, and each time take out two elements $a$ and $b$ from the min heap, then put $b$ and $a$ into the answer array in turn, until the min heap is empty.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+Time complexity is $O(n \times \log n)$, and space complexity is $O(n)$. Where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 
@@ -180,11 +176,11 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：排序 + 交换
+### Solution 2: Sorting + Swapping
 
-我们可以将数组 $nums$ 排序，然后依次将相邻的两个元素交换位置，即可得到答案数组。
+We can sort the array $nums$, and then swap the positions of every two adjacent elements in sequence to get the answer array.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(\log n)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log n)$. Where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

@@ -1,59 +1,55 @@
-# [47. 全排列 II](https://leetcode.cn/problems/permutations-ii)
+# [47. Permutations II](https://leetcode.com/problems/permutations-ii)
 
-[English Version](/solution/0000-0099/0047.Permutations%20II/README_EN.md)
+[中文文档](/solution/0000-0099/0047.Permutations%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个可包含重复数字的序列 <code>nums</code> ，<em><strong>按任意顺序</strong></em> 返回所有不重复的全排列。</p>
+<p>Given a collection of numbers, <code>nums</code>,&nbsp;that might contain duplicates, return <em>all possible unique permutations <strong>in any order</strong>.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,1,2]
-<strong>输出：</strong>
+<strong>Input:</strong> nums = [1,1,2]
+<strong>Output:</strong>
 [[1,1,2],
  [1,2,1],
  [2,1,1]]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,2,3]
-<strong>输出：</strong>[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
+<strong>Input:</strong> nums = [1,2,3]
+<strong>Output:</strong> [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 8</code></li>
 	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序 + 回溯
+### Solution 1: Sorting + Backtracking
 
-我们可以先对数组进行排序，这样就可以将重复的数字放在一起，方便我们进行去重。
+We can first sort the array, which allows us to place duplicate numbers together, making it easier for us to remove duplicates.
 
-然后，我们设计一个函数 $dfs(i)$，表示当前需要填写第 $i$ 个位置的数。函数的具体实现如下：
+Next, we design a function $dfs(i)$, indicating that we need to fill in the number at the $i$th position. The specific implementation of the function is as follows:
 
--   如果 $i = n$，说明我们已经填写完毕，将当前排列加入答案数组中，然后返回。
--   否则，我们枚举第 $i$ 个位置的数 $nums[j]$，其中 $j$ 的范围是 $[0, n - 1]$。我们需要保证 $nums[j]$ 没有被使用过，并且与前面枚举的数不同，这样才能保证当前排列不重复。如果满足条件，我们就可以填写 $nums[j]$，并继续递归地填写下一个位置，即调用 $dfs(i + 1)$。在递归调用结束后，我们需要将 $nums[j]$ 标记为未使用，以便于进行后面的枚举。
+-   If $i = n$, it means we have finished filling in, add the current permutation to the answer array, and then return.
+-   Otherwise, we enumerate the number $nums[j]$ at the $i$th position, where the range of $j$ is $[0, n - 1]$. We need to ensure that $nums[j]$ has not been used and is different from the number enumerated before, so as to ensure that the current permutation is not repeated. If the conditions are met, we can fill in $nums[j]$, and continue to recursively fill in the next position, that is, call $dfs(i + 1)$. After the recursive call ends, we need to mark $nums[j]$ as unused for later enumeration.
 
-在主函数中，我们首先对数组进行排序，然后调用 $dfs(0)$，即从第 0 个位置开始填写，最终返回答案数组即可。
+In the main function, we first sort the array, then call $dfs(0)$, that is, start filling from the 0th position, and finally return the answer array.
 
-时间复杂度 $O(n \times n!)$，空间复杂度 $O(n)$。其中 $n$ 是数组的长度。需要进行 $n!$ 次枚举，每次枚举需要 $O(n)$ 的时间来判断是否重复。另外，我们需要一个标记数组来标记每个位置是否被使用过，因此空间复杂度为 $O(n)$。
+The time complexity is $O(n \times n!)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array. We need to enumerate $n!$ times, and each enumeration takes $O(n)$ time to judge whether it is repeated. In addition, we need a marker array to mark whether each position has been used, so the space complexity is $O(n)$.
 
-相似题目：
+Similar problems:
 
--   [46. 全排列](https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0046.Permutations/README.md)
+-   [46. Permutations](https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0046.Permutations/README_EN.md)
 
 <!-- tabs:start -->
 

@@ -1,70 +1,57 @@
-# [2340. 生成有效数组的最少交换次数](https://leetcode.cn/problems/minimum-adjacent-swaps-to-make-a-valid-array)
+# [2340. Minimum Adjacent Swaps to Make a Valid Array](https://leetcode.com/problems/minimum-adjacent-swaps-to-make-a-valid-array)
 
-[English Version](/solution/2300-2399/2340.Minimum%20Adjacent%20Swaps%20to%20Make%20a%20Valid%20Array/README_EN.md)
+[中文文档](/solution/2300-2399/2340.Minimum%20Adjacent%20Swaps%20to%20Make%20a%20Valid%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code>.</p>
 
-<p>给定一个<strong>&nbsp;下标从 0 开始</strong>&nbsp;的整数数组 <code>nums</code>。</p>
+<p><strong>Swaps</strong> of <strong>adjacent</strong> elements are able to be performed on <code>nums</code>.</p>
 
-<p><code>nums</code>&nbsp;上的&nbsp;<strong>相邻&nbsp;</strong>元素可以进行&nbsp;<strong>交换</strong>。</p>
-
-<p data-group="1-1">一个&nbsp;<strong>有效&nbsp;</strong>的数组必须满足以下条件:</p>
+<p>A <strong>valid</strong> array meets the following conditions:</p>
 
 <ul>
-	<li>最大的元素 (如果有多个，则为最大元素中的任何一个) 位于数组中最右边的位置。</li>
-	<li>最小的元素 (如果有多个，则为最小的任何一个元素) 位于数组的最左侧。</li>
+	<li>The largest element (any of the largest elements if there are multiple) is at the rightmost position in the array.</li>
+	<li>The smallest element (any of the smallest elements if there are multiple) is at the leftmost position in the array.</li>
 </ul>
 
-<p>返回<em>使 </em><code>nums</code><em> </em><em>成为有效数组所需的最少交换次数。</em></p>
+<p>Return <em>the <strong>minimum</strong> swaps required to make </em><code>nums</code><em> a valid array</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [3,4,5,5,3,1]
-<strong>输出:</strong> 6
-<strong>解释:</strong> 进行以下交换:
-- 交换 1:交换第 3 和第 4 个元素，然后 nums 是 [3,4,5,<u><strong>3</strong></u>,<u><strong>5</strong></u>,1].
-- 交换 2:交换第 4 和第 5 个元素，然后 nums 是 [3,4,5,3,<u><strong>1</strong></u>,<u><strong>5</strong></u>].
-- 交换 3:交换第 3 和第 4 个元素，然后 nums 是  [3,4,5,<u><strong>1</strong></u>,<u><strong>3</strong></u>,5].
-- 交换 4:交换第 2 和第 3 个元素，然后 nums 是  [3,4,<u><strong>1</strong></u>,<u><strong>5</strong></u>,3,5].
-- 交换 5:交换第 1 和第 2 个元素，然后 nums 是  [3,<u><strong>1</strong></u>,<u><strong>4</strong></u>,5,3,5].
-- 交换 6:交换第 0 和第 1 个元素，然后 nums 是  [<u><strong>1</strong></u>,<u><strong>3</strong></u>,4,5,3,5].
-可以证明，6 次交换是组成一个有效数组所需的最少交换次数。
+<strong>Input:</strong> nums = [3,4,5,5,3,1]
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> Perform the following swaps:
+- Swap 1: Swap the 3<sup>rd</sup> and 4<sup>th</sup> elements, nums is then [3,4,5,<u><strong>3</strong></u>,<u><strong>5</strong></u>,1].
+- Swap 2: Swap the 4<sup>th</sup> and 5<sup>th</sup> elements, nums is then [3,4,5,3,<u><strong>1</strong></u>,<u><strong>5</strong></u>].
+- Swap 3: Swap the 3<sup>rd</sup> and 4<sup>th</sup> elements, nums is then [3,4,5,<u><strong>1</strong></u>,<u><strong>3</strong></u>,5].
+- Swap 4: Swap the 2<sup>nd</sup> and 3<sup>rd</sup> elements, nums is then [3,4,<u><strong>1</strong></u>,<u><strong>5</strong></u>,3,5].
+- Swap 5: Swap the 1<sup>st</sup> and 2<sup>nd</sup> elements, nums is then [3,<u><strong>1</strong></u>,<u><strong>4</strong></u>,5,3,5].
+- Swap 6: Swap the 0<sup>th</sup> and 1<sup>st</sup> elements, nums is then [<u><strong>1</strong></u>,<u><strong>3</strong></u>,4,5,3,5].
+It can be shown that 6 swaps is the minimum swaps required to make a valid array.
 </pre>
 
-<strong class="example">示例 2:</strong>
+<strong class="example">Example 2:</strong>
 
 <pre>
-<strong>输入:</strong> nums = [9]
-<strong>输出:</strong> 0
-<strong>解释:</strong> 该数组已经有效，因此返回 0。</pre>
+<strong>Input:</strong> nums = [9]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> The array is already valid, so we return 0.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：维护最值下标 + 分类讨论
-
-我们可以用下标 $i$ 和 $j$ 分别记录数组 `nums` 第一个最小值和最后一个最大值的下标，遍历数组 `nums`，更新 $i$ 和 $j$ 的值。
-
-接下来，我们需要考虑交换的次数。
-
--   如果 $i = j$，说明数组 `nums` 已经是有效数组，不需要交换，返回 $0$；
--   如果 $i < j$，说明数组 `nums` 中最小值在最大值的左边，需要交换 $i + n - 1 - j$ 次，其中 $n$ 为数组 `nums` 的长度；
--   如果 $i > j$，说明数组 `nums` 中最小值在最大值的右边，需要交换 $i + n - 1 - j - 1$ 次。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组 `nums` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

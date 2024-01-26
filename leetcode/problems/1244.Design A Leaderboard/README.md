@@ -1,42 +1,30 @@
-# [1244. 力扣排行榜](https://leetcode.cn/problems/design-a-leaderboard)
+# [1244. Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard)
 
-[English Version](/solution/1200-1299/1244.Design%20A%20Leaderboard/README_EN.md)
+[中文文档](/solution/1200-1299/1244.Design%20A%20Leaderboard/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>新一轮的「力扣杯」编程大赛即将启动，为了动态显示参赛者的得分数据，需要设计一个排行榜 Leaderboard。</p>
-
-<p>请你帮忙来设计这个 <code>Leaderboard</code> 类，使得它有如下 3 个函数：</p>
+<p>Design a Leaderboard class, which has 3 functions:</p>
 
 <ol>
-	<li><code>addScore(playerId, score)</code>：
-
-    <ul>
-    	<li>假如参赛者已经在排行榜上，就给他的当前得分增加 <code>score</code> 点分值并更新排行。</li>
-    	<li>假如该参赛者不在排行榜上，就把他添加到榜单上，并且将分数设置为 <code>score</code>。</li>
-    </ul>
-    </li>
-    <li><code>top(K)</code>：返回前 <code>K</code> 名参赛者的 <strong>得分总和</strong>。</li>
-    <li><code>reset(playerId)</code>：将指定参赛者的成绩清零（换句话说，将其从排行榜中删除）。题目保证在调用此函数前，该参赛者已有成绩，并且在榜单上。</li>
-
+	<li><code>addScore(playerId, score)</code>: Update the leaderboard by adding <code>score</code> to the given player&#39;s score. If there is no player with such id in the leaderboard, add him to the leaderboard with the given <code>score</code>.</li>
+	<li><code>top(K)</code>: Return the score sum of the top <code>K</code> players.</li>
+	<li><code>reset(playerId)</code>: Reset the score of the player with the given id&nbsp;to 0 (in other words erase it from the leaderboard). It is guaranteed that the player was added to the leaderboard before calling this function.</li>
 </ol>
 
-<p>请注意，在初始状态下，排行榜是空的。</p>
+<p>Initially, the leaderboard is empty.</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入： </strong>
-["Leaderboard","addScore","addScore","addScore","addScore","addScore","top","reset","reset","addScore","top"]
+<b>Input: </b>
+[&quot;Leaderboard&quot;,&quot;addScore&quot;,&quot;addScore&quot;,&quot;addScore&quot;,&quot;addScore&quot;,&quot;addScore&quot;,&quot;top&quot;,&quot;reset&quot;,&quot;reset&quot;,&quot;addScore&quot;,&quot;top&quot;]
 [[],[1,73],[2,56],[3,39],[4,51],[5,4],[1],[1],[2],[2,51],[3]]
-<strong>输出：</strong>
+<b>Output: </b>
 [null,null,null,null,null,null,73,null,null,null,141]
 
-<strong>解释： </strong>
+<b>Explanation: </b>
 Leaderboard leaderboard = new Leaderboard ();
 leaderboard.addScore(1,73);   // leaderboard = [[1,73]];
 leaderboard.addScore(2,56);   // leaderboard = [[1,73],[2,56]];
@@ -50,30 +38,29 @@ leaderboard.addScore(2,51);   // leaderboard = [[2,51],[3,39],[4,51],[5,4]];
 leaderboard.top(3);           // returns 141 = 51 + 51 + 39;
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= playerId, K <= 10000</code></li>
-	<li>题目保证 <code>K</code> 小于或等于当前参赛者的数量</li>
-	<li><code>1 <= score <= 100</code></li>
-	<li>最多进行 <code>1000</code> 次函数调用</li>
+	<li><code>1 &lt;= playerId, K &lt;= 10000</code></li>
+	<li>It&#39;s guaranteed that <code>K</code> is less than or equal to the current number of players.</li>
+	<li><code>1 &lt;= score&nbsp;&lt;= 100</code></li>
+	<li>There will be at most <code>1000</code>&nbsp;function calls.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 有序列表
+### Solution 1: Hash Table + Ordered List
 
-我们用哈希表 $d$ 记录每个参赛者的分数，用有序列表 $rank$ 记录所有参赛者的分数。
+We use a hash table $d$ to record the scores of each player, and an ordered list $rank$ to record the scores of all players.
 
-当调用 `addScore` 函数时，我们先判断参赛者是否在哈希表 $d$ 中，如果不在，我们将其分数加入有序列表 $rank$ 中，否则我们先将其分数从有序列表 $rank$ 中删除，再将其分数加入有序列表 $rank$ 中，最后更新哈希表 $d$ 中的分数。时间复杂度 $O(\log n)$。
+When the `addScore` function is called, we first check if the player is in the hash table $d$. If not, we add their score to the ordered list $rank$. Otherwise, we first remove their score from the ordered list $rank$, then add their updated score to the ordered list $rank$, and finally update the score in the hash table $d$. The time complexity is $O(\log n)$.
 
-当调用 `top` 函数时，我们直接返回有序列表 $rank$ 中前 $K$ 个元素的和。时间复杂度 $O(K \times \log n)$。
+When the `top` function is called, we directly return the sum of the first $K$ elements in the ordered list $rank$. The time complexity is $O(K \times \log n)$.
 
-当调用 `reset` 函数时，我们先移除哈希表 $d$ 中的参赛者，再将其分数从有序列表 $rank$ 中移除。时间复杂度 $O(\log n)$。
+When the `reset` function is called, we first remove the player from the hash table $d$, then remove their score from the ordered list $rank$. The time complexity is $O(\log n)$.
 
-空间复杂度 $O(n)$。其中 $n$ 为参赛者的数量。
+The space complexity is $O(n)$, where $n$ is the number of players.
 
 <!-- tabs:start -->
 

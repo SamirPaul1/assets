@@ -1,66 +1,64 @@
-# [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray)
+# [2401. Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray)
 
-[English Version](/solution/2400-2499/2401.Longest%20Nice%20Subarray/README_EN.md)
+[中文文档](/solution/2400-2499/2401.Longest%20Nice%20Subarray/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array <code>nums</code> consisting of <strong>positive</strong> integers.</p>
 
-<p>给你一个由 <strong>正</strong> 整数组成的数组 <code>nums</code> 。</p>
+<p>We call a subarray of <code>nums</code> <strong>nice</strong> if the bitwise <strong>AND</strong> of every pair of elements that are in <strong>different</strong> positions in the subarray is equal to <code>0</code>.</p>
 
-<p>如果&nbsp;<code>nums</code> 的子数组中位于 <strong>不同</strong> 位置的每对元素按位 <strong>与（AND）</strong>运算的结果等于 <code>0</code> ，则称该子数组为 <strong>优雅</strong> 子数组。</p>
+<p>Return <em>the length of the <strong>longest</strong> nice subarray</em>.</p>
 
-<p>返回 <strong>最长</strong> 的优雅子数组的长度。</p>
+<p>A <strong>subarray</strong> is a <strong>contiguous</strong> part of an array.</p>
 
-<p><strong>子数组</strong> 是数组中的一个 <strong>连续</strong> 部分。</p>
-
-<p><strong>注意：</strong>长度为 <code>1</code> 的子数组始终视作优雅子数组。</p>
+<p><strong>Note</strong> that subarrays of length <code>1</code> are always considered nice.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [1,3,8,48,10]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The longest nice subarray is [3,8,48]. This subarray satisfies the conditions:
+- 3 AND 8 = 0.
+- 3 AND 48 = 0.
+- 8 AND 48 = 0.
+It can be proven that no longer nice subarray can be obtained, so we return 3.</pre>
 
-<pre><strong>输入：</strong>nums = [1,3,8,48,10]
-<strong>输出：</strong>3
-<strong>解释：</strong>最长的优雅子数组是 [3,8,48] 。子数组满足题目条件：
-- 3 AND 8 = 0
-- 3 AND 48 = 0
-- 8 AND 48 = 0
-可以证明不存在更长的优雅子数组，所以返回 3 。</pre>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>示例 2：</strong></p>
-
-<pre><strong>输入：</strong>nums = [3,1,5,11,13]
-<strong>输出：</strong>1
-<strong>解释：</strong>最长的优雅子数组长度为 1 ，任何长度为 1 的子数组都满足题目条件。
+<pre>
+<strong>Input:</strong> nums = [3,1,5,11,13]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The length of the longest nice subarray is 1. Any subarray of length 1 can be chosen.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
+### Solution 1: Two Pointers
 
-我们定义一个变量 $mask$，用于记录当前子数组中的元素按位或的结果，初始时 $mask = 0$。另外，使用双指针 $j$ 和 $i$ 分别指向当前子数组的左右端点，初始时 $i = j = 0$。
+We define a variable $mask$ to record the bitwise OR result of the elements in the current subarray, initially $mask = 0$. Also, we use two pointers $j$ and $i$ to point to the left and right endpoints of the current subarray, initially $i = j = 0$.
 
-接下来，我们从左到右遍历数组 $nums$，对于遍历到的每个元素 $x$：
+Next, we traverse the array $nums$ from left to right. For each element $x$ we encounter:
 
-我们将其与 $mask$ 按位与，如果结果不为 $0$，则说明 $x$ 和 $mask$ 中至少有一个元素的二进制表示中的某一位为 $1$，而另一个元素的二进制表示中的对应位为 $0$，这样的元素对不可能满足题目要求，因此我们需要将 $j$ 右移，直到 $x$ 和 $mask$ 按位与的结果为 $0$ 为止。
+We perform a bitwise AND operation between it and $mask$. If the result is not $0$, it means that $x$ and at least one element in $mask$ have a binary representation where a certain bit is $1$, and the corresponding bit in the other element's binary representation is $0$. Such pairs of elements cannot satisfy the problem's requirements, so we need to move $j$ to the right until the bitwise AND result of $x$ and $mask$ is $0$.
 
-此时，我们就找到了一个满足题目要求的子数组，其长度为 $i - j + 1$，我们将其与当前的最长优雅子数组的长度进行比较，如果大于当前的最长优雅子数组的长度，则更新最长优雅子数组的长度。
+At this point, we have found a subarray that satisfies the problem's requirements. Its length is $i - j + 1$. We compare it with the length of the current longest elegant subarray. If it is longer than the current longest elegant subarray, we update the length of the longest elegant subarray.
 
-然后我们将 $mask$ 和 $x$ 按位或，继续遍历下一个元素。
+Then we perform a bitwise OR operation between $mask$ and $x$, and continue to the next element.
 
-最终，我们得到的最长优雅子数组的长度即为答案。
+Finally, the length of the longest elegant subarray we obtain is the answer.
 
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

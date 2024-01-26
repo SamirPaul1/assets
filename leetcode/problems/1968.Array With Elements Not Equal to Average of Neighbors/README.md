@@ -1,51 +1,49 @@
-# [1968. 构造元素不等于两相邻元素平均值的数组](https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors)
+# [1968. Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors)
 
-[English Version](/solution/1900-1999/1968.Array%20With%20Elements%20Not%20Equal%20to%20Average%20of%20Neighbors/README_EN.md)
+[中文文档](/solution/1900-1999/1968.Array%20With%20Elements%20Not%20Equal%20to%20Average%20of%20Neighbors/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> array <code>nums</code> of <strong>distinct</strong> integers. You want to rearrange the elements in the array such that every element in the rearranged array is <strong>not</strong> equal to the <strong>average</strong> of its neighbors.</p>
 
-<p>给你一个 <strong>下标从 0 开始</strong> 的数组 <code>nums</code> ，数组由若干 <strong>互不相同的</strong> 整数组成。你打算重新排列数组中的元素以满足：重排后，数组中的每个元素都 <strong>不等于</strong> 其两侧相邻元素的 <strong>平均值</strong> 。</p>
+<p>More formally, the rearranged array should have the property such that for every <code>i</code> in the range <code>1 &lt;= i &lt; nums.length - 1</code>, <code>(nums[i-1] + nums[i+1]) / 2</code> is <strong>not</strong> equal to <code>nums[i]</code>.</p>
 
-<p>更公式化的说法是，重新排列的数组应当满足这一属性：对于范围&nbsp;<code>1 &lt;= i &lt; nums.length - 1</code> 中的每个 <code>i</code> ，<code>(nums[i-1] + nums[i+1]) / 2</code> <strong>不等于</strong> <code>nums[i]</code> 均成立 。</p>
-
-<p>返回满足题意的任一重排结果。</p>
+<p>Return <em><strong>any</strong> rearrangement of </em><code>nums</code><em> that meets the requirements</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [1,2,3,4,5]
-<strong>输出：</strong>[1,2,4,5,3]
-<strong>解释：</strong>
-i=1, nums[i] = 2, 两相邻元素平均值为 (1+4) / 2 = 2.5
-i=2, nums[i] = 4, 两相邻元素平均值为 (2+5) / 2 = 3.5
-i=3, nums[i] = 5, 两相邻元素平均值为 (4+3) / 2 = 3.5
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4,5]
+<strong>Output:</strong> [1,2,4,5,3]
+<strong>Explanation:</strong>
+When i=1, nums[i] = 2, and the average of its neighbors is (1+4) / 2 = 2.5.
+When i=2, nums[i] = 4, and the average of its neighbors is (2+5) / 2 = 3.5.
+When i=3, nums[i] = 5, and the average of its neighbors is (4+3) / 2 = 3.5.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [6,2,0,9,7]
-<strong>输出：</strong>[9,7,6,2,0]
-<strong>解释：</strong>
-i=1, nums[i] = 7, 两相邻元素平均值为 (9+6) / 2 = 7.5
-i=2, nums[i] = 6, 两相邻元素平均值为 (7+2) / 2 = 4.5
-i=3, nums[i] = 2, 两相邻元素平均值为 (6+0) / 2 = 3
+<pre>
+<strong>Input:</strong> nums = [6,2,0,9,7]
+<strong>Output:</strong> [9,7,6,2,0]
+<strong>Explanation:</strong>
+When i=1, nums[i] = 7, and the average of its neighbors is (9+6) / 2 = 7.5.
+When i=2, nums[i] = 6, and the average of its neighbors is (7+2) / 2 = 4.5.
+When i=3, nums[i] = 2, and the average of its neighbors is (6+0) / 2 = 3.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>3 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -116,7 +114,7 @@ func rearrangeArray(nums []int) []int {
 
 <!-- tabs:end -->
 
-### 方法二：随机打乱
+### Solution 2
 
 <!-- tabs:start -->
 

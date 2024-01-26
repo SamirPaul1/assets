@@ -1,57 +1,47 @@
-# [973. 最接近原点的 K 个点](https://leetcode.cn/problems/k-closest-points-to-origin)
+# [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)
 
-[English Version](/solution/0900-0999/0973.K%20Closest%20Points%20to%20Origin/README_EN.md)
+[中文文档](/solution/0900-0999/0973.K%20Closest%20Points%20to%20Origin/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of <code>points</code> where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> represents a point on the <strong>X-Y</strong> plane and an integer <code>k</code>, return the <code>k</code> closest points to the origin <code>(0, 0)</code>.</p>
 
-<p>给定一个数组 <code>points</code>&nbsp;，其中&nbsp;<code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>&nbsp;表示 <strong>X-Y</strong> 平面上的一个点，并且是一个整数 <code>k</code> ，返回离原点 <code>(0,0)</code> 最近的 <code>k</code> 个点。</p>
+<p>The distance between two points on the <strong>X-Y</strong> plane is the Euclidean distance (i.e., <code>&radic;(x<sub>1</sub> - x<sub>2</sub>)<sup>2</sup> + (y<sub>1</sub> - y<sub>2</sub>)<sup>2</sup></code>).</p>
 
-<p>这里，平面上两点之间的距离是&nbsp;<strong>欧几里德距离</strong>（&nbsp;<code>√(x<sub>1</sub>&nbsp;- x<sub>2</sub>)<sup>2</sup>&nbsp;+ (y<sub>1</sub>&nbsp;- y<sub>2</sub>)<sup>2</sup></code>&nbsp;）。</p>
-
-<p>你可以按 <strong>任何顺序</strong> 返回答案。除了点坐标的顺序之外，答案 <strong>确保</strong> 是 <strong>唯一</strong> 的。</p>
+<p>You may return the answer in <strong>any order</strong>. The answer is <strong>guaranteed</strong> to be <strong>unique</strong> (except for the order that it is in).</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0973.K%20Closest%20Points%20to%20Origin/images/closestplane1.jpg" style="height: 400px; width: 400px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0973.K%20Closest%20Points%20to%20Origin/images/closestplane1.jpg" style="width: 400px; height: 400px;" />
 <pre>
-<strong>输入：</strong>points = [[1,3],[-2,2]], k = 1
-<strong>输出：</strong>[[-2,2]]
-<strong>解释： </strong>
-(1, 3) 和原点之间的距离为 sqrt(10)，
-(-2, 2) 和原点之间的距离为 sqrt(8)，
-由于 sqrt(8) &lt; sqrt(10)，(-2, 2) 离原点更近。
-我们只需要距离原点最近的 K = 1 个点，所以答案就是 [[-2,2]]。
+<strong>Input:</strong> points = [[1,3],[-2,2]], k = 1
+<strong>Output:</strong> [[-2,2]]
+<strong>Explanation:</strong>
+The distance between (1, 3) and the origin is sqrt(10).
+The distance between (-2, 2) and the origin is sqrt(8).
+Since sqrt(8) &lt; sqrt(10), (-2, 2) is closer to the origin.
+We only want the closest k = 1 points from the origin, so the answer is just [[-2,2]].
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>points = [[3,3],[5,-1],[-2,4]], k = 2
-<strong>输出：</strong>[[3,3],[-2,4]]
-（答案 [[-2,4],[3,3]] 也会被接受。）
+<strong>Input:</strong> points = [[3,3],[5,-1],[-2,4]], k = 2
+<strong>Output:</strong> [[3,3],[-2,4]]
+<strong>Explanation:</strong> The answer [[-2,4],[3,3]] would also be accepted.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= k &lt;= points.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-10<sup>4</sup>&nbsp;&lt; x<sub>i</sub>, y<sub>i</sub>&nbsp;&lt; 10<sup>4</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：自定义排序
-
-我们将所有点按照与原点的距离从小到大排序，然后取前 $k$ 个点即可。
-
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(\log n)$。其中 $n$ 为数组 `points` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

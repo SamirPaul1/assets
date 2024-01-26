@@ -1,12 +1,10 @@
-# [1158. 市场分析 I](https://leetcode.cn/problems/market-analysis-i)
+# [1158. Market Analysis I](https://leetcode.com/problems/market-analysis-i)
 
-[English Version](/solution/1100-1199/1158.Market%20Analysis%20I/README_EN.md)
+[中文文档](/solution/1100-1199/1158.Market%20Analysis%20I/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：&nbsp;<code>Users</code></p>
+<p>Table: <code>Users</code></p>
 
 <pre>
 +----------------+---------+
@@ -16,13 +14,13 @@
 | join_date      | date    |
 | favorite_brand | varchar |
 +----------------+---------+
-user_id 是此表主键（具有唯一值的列）。
-表中描述了购物网站的用户信息，用户可以在此网站上进行商品买卖。
+user_id is the primary key (column with unique values) of this table.
+This table has the info of the users of an online shopping website where users can sell and buy items.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表：&nbsp;<code>Orders</code></p>
+<p>Table: <code>Orders</code></p>
 
 <pre>
 +---------------+---------+
@@ -34,14 +32,14 @@ user_id 是此表主键（具有唯一值的列）。
 | buyer_id      | int     |
 | seller_id     | int     |
 +---------------+---------+
-order_id 是此表主键（具有唯一值的列）。
-item_id 是 Items 表的外键（reference 列）。
-（buyer_id，seller_id）是 User 表的外键。
+order_id is the primary key (column with unique values) of this table.
+item_id is a foreign key (reference column) to the Items table.
+buyer_id and seller_id are foreign keys to the Users table.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表：<code>Items</code></p>
+<p>Table: <code>Items</code></p>
 
 <pre>
 +---------------+---------+
@@ -50,24 +48,23 @@ item_id 是 Items 表的外键（reference 列）。
 | item_id       | int     |
 | item_brand    | varchar |
 +---------------+---------+
-item_id 是此表的主键（具有唯一值的列）。
+item_id is the primary key (column with unique values) of this table.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案找出每个用户的注册日期和在 <strong><code>2019</code> </strong>年作为买家的订单总数。</p>
+<p>Write a solution&nbsp;to find for each user, the join date and the number of orders they made as a buyer in <code>2019</code>.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>查询结果格式如下。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Users 表:
+<strong>Input:</strong> 
+Users table:
 +---------+------------+----------------+
 | user_id | join_date  | favorite_brand |
 +---------+------------+----------------+
@@ -76,7 +73,7 @@ Users 表:
 | 3       | 2018-01-19 | LG             |
 | 4       | 2018-05-21 | HP             |
 +---------+------------+----------------+
-Orders 表:
+Orders table:
 +----------+------------+---------+----------+-----------+
 | order_id | order_date | item_id | buyer_id | seller_id |
 +----------+------------+---------+----------+-----------+
@@ -87,7 +84,7 @@ Orders 表:
 | 5        | 2018-08-04 | 1       | 3        | 4         |
 | 6        | 2019-08-05 | 2       | 2        | 4         |
 +----------+------------+---------+----------+-----------+
-Items 表:
+Items table:
 +---------+------------+
 | item_id | item_brand |
 +---------+------------+
@@ -96,7 +93,7 @@ Items 表:
 | 3       | LG         |
 | 4       | HP         |
 +---------+------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-----------+------------+----------------+
 | buyer_id  | join_date  | orders_in_2019 |
 +-----------+------------+----------------+
@@ -104,11 +101,12 @@ Items 表:
 | 2         | 2018-02-09 | 2              |
 | 3         | 2018-01-19 | 0              |
 | 4         | 2018-05-21 | 0              |
-+-----------+------------+----------------+</pre>
++-----------+------------+----------------+
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -126,7 +124,7 @@ GROUP BY user_id;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

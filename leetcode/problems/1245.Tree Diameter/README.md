@@ -1,73 +1,65 @@
-# [1245. 树的直径](https://leetcode.cn/problems/tree-diameter)
+# [1245. Tree Diameter](https://leetcode.com/problems/tree-diameter)
 
-[English Version](/solution/1200-1299/1245.Tree%20Diameter/README_EN.md)
+[中文文档](/solution/1200-1299/1245.Tree%20Diameter/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>The <strong>diameter</strong> of a tree is <strong>the number of edges</strong> in the longest path in that tree.</p>
 
-<p>给你这棵「无向树」，请你测算并返回它的「直径」：这棵树上最长简单路径的 <strong>边数</strong>。</p>
+<p>There is an undirected tree of <code>n</code> nodes labeled from <code>0</code> to <code>n - 1</code>. You are given a 2D array <code>edges</code> where <code>edges.length == n - 1</code> and <code>edges[i] = [a<sub>i</sub>, b<sub>i</sub>]</code> indicates that there is an undirected edge between nodes <code>a<sub>i</sub></code> and <code>b<sub>i</sub></code> in the tree.</p>
 
-<p>我们用一个由所有「边」组成的数组 <code>edges</code>&nbsp;来表示一棵无向树，其中&nbsp;<code>edges[i] = [u, v]</code>&nbsp;表示节点&nbsp;<code>u</code> 和 <code>v</code>&nbsp;之间的双向边。</p>
-
-<p>树上的节点都已经用&nbsp;<code>{0, 1, ..., edges.length}</code>&nbsp;中的数做了标记，每个节点上的标记都是独一无二的。</p>
+<p>Return <em>the <strong>diameter</strong> of the tree</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/1397_example_1.png" style="height: 233px; width: 226px;"></p>
-
-<pre><strong>输入：</strong>edges = [[0,1],[0,2]]
-<strong>输出：</strong>2
-<strong>解释：</strong>
-这棵树上最长的路径是 1 - 0 - 2，边数为 2。
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/tree1.jpg" style="width: 224px; height: 145px;" />
+<pre>
+<strong>Input:</strong> edges = [[0,1],[0,2]]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The longest path of the tree is the path 1 - 0 - 2.
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/1397_example_2.png" style="height: 316px; width: 350px;"></p>
-
-<pre><strong>输入：</strong>edges = [[0,1],[1,2],[2,3],[1,4],[4,5]]
-<strong>输出：</strong>4
-<strong>解释： </strong>
-这棵树上最长的路径是 3 - 2 - 1 - 4 - 5，边数为 4。
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/tree2.jpg" style="width: 224px; height: 225px;" />
+<pre>
+<strong>Input:</strong> edges = [[0,1],[1,2],[2,3],[1,4],[4,5]]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The longest path of the tree is the path 3 - 2 - 1 - 4 - 5.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 &lt;= edges.length &lt;&nbsp;10^4</code></li>
-	<li><code>edges[i][0] != edges[i][1]</code></li>
-	<li><code>0 &lt;= edges[i][j] &lt;= edges.length</code></li>
-	<li><code>edges</code>&nbsp;会形成一棵无向树</li>
+	<li><code>n == edges.length + 1</code></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
+	<li><code>0 &lt;= a<sub>i</sub>, b<sub>i</sub> &lt; n</code></li>
+	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：两次 DFS
+### Solution 1: Two DFS
 
-首先对任意一个结点做 DFS 求出最远的结点，然后以这个结点为根结点再做 DFS 到达另一个最远结点。第一次 DFS 到达的结点可以证明一定是这个图的直径的一端，第二次 DFS 就会达到另一端。下面来证明这个定理。
+First, perform DFS on any node to find the furthest node, then perform DFS again from this node to reach another furthest node. The node reached by the first DFS can be proven to be one end of the diameter of this graph, and the second DFS will reach the other end. Let's prove this theorem.
 
-定理：在一个连通无向无环图中，以任意结点出发所能到达的最远结点，一定是该图直径的端点之一。
+Theorem: In a connected undirected acyclic graph, the furthest node that can be reached from any node must be one end of the diameter of the graph.
 
-证明：假设这条直径是 δ(s, t)。分两种情况：
+Proof: Suppose this diameter is $\delta(s, t)$. There are two cases:
 
-1.  当出发结点 y 在 δ(s, t) 时，假设到达的最远结点 z 不是 s, t 中的任一个。这时将 δ(y, z) 与不与之重合的 δ(y, s) 拼接（也可以假设不与之重合的是直径的另一个方向），可以得到一条更长的直径，与前提矛盾。
-1.  当出发结点 y 不在 δ(s, t) 上时，分两种情况：
+1. When the starting node $y$ is on $\delta(s, t)$, suppose the furthest node $z$ reached is not any of $s, t$. At this time, connect $\delta(y, z)$ with $\delta(y, s)$ that does not overlap with it (you can also assume that the other direction of the diameter does not overlap), you can get a longer diameter, which contradicts the premise.
+1. When the starting node $y$ is not on $\delta(s, t)$, there are two cases:
 
-    -   当 y 到达的最远结点 z 横穿 δ(s, t) 时，记与之相交的结点为 x。此时有 δ(y, z) = δ(y, x) + δ(x, z)。而此时 δ(y, z) > δ(y, t)，故可得 δ(x, z) ＞ δ(x, t)。由 1 的结论可知该假设不成立。
-    -   当 y 到达的最远结点 z 与 δ(s, t) 不相交时，定义从 y 开始到 t 结束的简单路径上，第一个同时也存在于简单路径 δ(s, t) 上的结点为 x，最后一个存在于简单路径 δ(y, z) 上的结点为 x’。如下图。那么根据假设，有 δ(y, z) ≥ δ(y, t) => δ(x', z) ≥ δ(x', x) + δ(x, t)。既然这样，那么 δ(x, z) ≥ δ(x, t)，和 δ(s, t) 对应着直径这一前提不符，故 y 的最远结点 z 不可能在 s 到 t 这个直径对应的路外面。
+    - When the furthest node $z$ reached by $y$ crosses $\delta(s, t)$, mark the intersecting node as $x$. At this time, $\delta(y, z) = \delta(y, x) + \delta(x, z)$. And at this time $\delta(y, z) > \delta(y, t)$, so $\delta(x, z) > \delta(x, t)$. According to the conclusion of 1, this assumption is not established.
+    - When the furthest node $z$ reached by $y$ does not intersect with $\delta(s, t)$, define the first node on the simple path from $y$ to $t$ that also exists on the simple path $\delta(s, t)$ as $x$, and the last node on the simple path $\delta(y, z)$ as $x'$. As shown in the figure below. Then according to the assumption, $\delta(y, z) \geq \delta(y, t) \Rightarrow \delta(x', z) \geq \delta(x', x) + \delta(x, t)$. In this case, $\delta(x, z) \geq \delta(x, t)$, which does not match the premise that $\delta(s, t)$ corresponds to the diameter, so the furthest node $z$ of $y$ cannot be outside the path corresponding to the diameter from $s$ to $t$.
 
     <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/tree-diameter.svg">
 
-因此定理成立。
+Therefore, the theorem holds.
 
-相似题目：
+Similar problems:
 
--   [1522. N 叉树的直径](https://github.com/doocs/leetcode/blob/main/solution/1500-1599/1522.Diameter%20of%20N-Ary%20Tree/README.md)
+-   [1522. Diameter of N-Ary Tree](https://github.com/doocs/leetcode/blob/main/solution/1500-1599/1522.Diameter%20of%20N-Ary%20Tree/README.md)
 
 <!-- tabs:start -->
 

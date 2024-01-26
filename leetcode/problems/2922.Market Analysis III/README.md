@@ -1,12 +1,10 @@
-# [2922. 市场分析 III](https://leetcode.cn/problems/market-analysis-iii)
+# [2922. Market Analysis III](https://leetcode.com/problems/market-analysis-iii)
 
-[English Version](/solution/2900-2999/2922.Market%20Analysis%20III/README_EN.md)
+[中文文档](/solution/2900-2999/2922.Market%20Analysis%20III/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：&nbsp;<code>Users</code></p>
+<p>Table: <code>Users</code></p>
 
 <pre>
 +----------------+---------+
@@ -16,11 +14,11 @@
 | join_date      | date    |
 | favorite_brand | varchar |
 +----------------+---------+
-seller_id 是该表具有唯一值的列。
-该表包含卖家的 ID, 加入日期以及最喜欢的品牌。
+seller_id is column of unique values for this table.
+This table contains seller id, join date, and favorite brand of sellers.
 </pre>
 
-<p>表：&nbsp;<code>Items</code></p>
+<p>Table: <code>Items</code></p>
 
 <pre>
 +---------------+---------+
@@ -29,10 +27,10 @@ seller_id 是该表具有唯一值的列。
 | item_id       | int     |
 | item_brand    | varchar |
 +---------------+---------+
-item_id 是该表具有唯一值的列。
-该表包含商品 ID 和商品品牌。</pre>
+item_id is the column of unique values for this table.
+This table contains item id and item brand.</pre>
 
-<p>表：&nbsp;<code>Orders</code></p>
+<p>Table: <code>Orders</code></p>
 
 <pre>
 +---------------+---------+
@@ -43,23 +41,22 @@ item_id 是该表具有唯一值的列。
 | item_id       | int     |
 | seller_id     | int     |
 +---------------+---------+
-order_id 是该表具有唯一值的列。
-item_id 是指向 Items 表的外键。
-seller_id 是指向 Users 表的外键。
-该表包含订单 ID、下单日期、商品 ID 和卖家 ID。</pre>
+order_id is the column of unique values for this table.
+item_id is a foreign key to the Items table.
+seller_id is a foreign key to the Users table.
+This table contains order id, order date, item id and seller id.</pre>
 
-<p>编写一个解决方案，找到卖出非喜爱的品牌数量&nbsp;<strong>最多&nbsp;</strong>的一个卖家。如果有多个卖家销售了同样数量的商品，则返回包括所有卖出非喜爱品牌数量最多的卖家名单。&nbsp;</p>
+<p>Write a solution to find the <strong>top seller</strong> who has sold the highest number of<strong> unique</strong> items with a <strong>different</strong> brand than their favorite brand. If there are multiple sellers with the same highest count, return all of them.</p>
 
-<p>返回按&nbsp;<code>seller_id</code><em>&nbsp;<strong>升序排序</strong>&nbsp;的结果表。</em></p>
+<p>Return <em>the result table ordered by</em> <code>seller_id</code> <em>in <strong>ascending</strong> order.</em></p>
 
-<p>结果格式如下示例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1:</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 Users table:
 +-----------+------------+----------------+
 | seller_id | join_date  | favorite_brand |
@@ -87,24 +84,23 @@ Items table:
 | 3       | LG         |
 | 4       | HP         |
 +---------+------------+
-<b>输出：</b>
+<strong>Output:</strong> 
 +-----------+-----------+
 | seller_id | num_items |
 +-----------+-----------+
 | 2         | 1         |
 | 3         | 1         |
 +-----------+-----------+
-<b>解释：</b>
-- 卖家 ID 为 2 的用户销售了三件商品，但只有两件不是他最喜欢的商品。由于这两个商品品牌相同，所以我们只计数 1。 
-- 卖家 ID 为 3 的用户销售了两件商品，但只有一件不是他最喜欢的商品。我们将只把 不被标记为最喜欢 的商品列入计数中。
-因为卖家 ID 为 2 和 3 的卖家都有一件商品列入计数，所以他们都将显示在输出中。
-</pre>
+<strong>Explanation:</strong> 
+- The user with seller_id 2 has sold three items, but only two of them are not marked as a favorite. We will include a unique count of 1 because both of these items are identical.
+- The user with seller_id 3 has sold two items, but only one of them is not marked as a favorite. We will include just that non-favorite item in our count.
+Since seller_ids 2 and 3 have the same count of one item each, they both will be displayed in the output.</pre>
 
-## 解法
+## Solutions
 
-### 方法一：等值连接 + 分组 + 子查询
+### Solution 1: Equijoin + Grouping + Subquery
 
-我们可以使用等值连接，将 `Orders` 表和 `Users` 表按照 `seller_id` 进行连接，接着再按照 `item_id` 连接 `Items`，筛选出 `item_brand` 不等于 `favorite_brand` 的记录，然后按照 `seller_id` 进行分组，统计每个 `seller_id` 对应的 `item_id` 的个数，最后再使用子查询，找出 `item_id` 个数最多的 `seller_id`。
+We can use equijoin to connect the `Orders` table and the `Users` table according to `seller_id`, then connect `Items` according to `item_id`, and filter out the records where `item_brand` is not equal to `favorite_brand`. Then, group by `seller_id` and count the number of `item_id` corresponding to each `seller_id`. Finally, use a subquery to find the `seller_id` with the most `item_id`.
 
 <!-- tabs:start -->
 

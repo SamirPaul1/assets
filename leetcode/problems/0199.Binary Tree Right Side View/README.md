@@ -1,54 +1,44 @@
-# [199. 二叉树的右视图](https://leetcode.cn/problems/binary-tree-right-side-view)
+# [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
 
-[English Version](/solution/0100-0199/0199.Binary%20Tree%20Right%20Side%20View/README_EN.md)
+[中文文档](/solution/0100-0199/0199.Binary%20Tree%20Right%20Side%20View/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, imagine yourself standing on the <strong>right side</strong> of it, return <em>the values of the nodes you can see ordered from top to bottom</em>.</p>
 
-<p>给定一个二叉树的 <strong>根节点</strong> <code>root</code>，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。</p>
-
-<p> </p>
-
-<p><strong>示例 1:</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0199.Binary%20Tree%20Right%20Side%20View/images/tree.jpg" style="width: 270px; " /></p>
-
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0199.Binary%20Tree%20Right%20Side%20View/images/tree.jpg" style="width: 401px; height: 301px;" />
 <pre>
-<strong>输入:</strong> [1,2,3,null,5,null,4]
-<strong>输出:</strong> [1,3,4]
+<strong>Input:</strong> root = [1,2,3,null,5,null,4]
+<strong>Output:</strong> [1,3,4]
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> [1,null,3]
-<strong>输出:</strong> [1,3]
+<strong>Input:</strong> root = [1,null,3]
+<strong>Output:</strong> [1,3]
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> []
-<strong>输出:</strong> []
+<strong>Input:</strong> root = []
+<strong>Output:</strong> []
 </pre>
 
-<p> </p>
-
-<p><strong>提示:</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>二叉树的节点个数的范围是 <code>[0,100]</code></li>
-	<li><meta charset="UTF-8" /><code>-100 <= Node.val <= 100</code> </li>
+	<li>The number of nodes in the tree is in the range <code>[0, 100]</code>.</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
-
-使用 BFS 层序遍历二叉树，每层最后一个节点即为该层的右视图节点。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为二叉树节点个数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -272,11 +262,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：DFS
-
-使用 DFS 深度优先遍历二叉树，每次先遍历右子树，再遍历左子树，这样每层第一个遍历到的节点即为该层的右视图节点。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为二叉树节点个数。
+### Solution 2
 
 <!-- tabs:start -->
 

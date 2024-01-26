@@ -1,54 +1,50 @@
-# [2907. 价格递增的最大利润三元组 I](https://leetcode.cn/problems/maximum-profitable-triplets-with-increasing-prices-i)
+# [2907. Maximum Profitable Triplets With Increasing Prices I](https://leetcode.com/problems/maximum-profitable-triplets-with-increasing-prices-i)
 
-[English Version](/solution/2900-2999/2907.Maximum%20Profitable%20Triplets%20With%20Increasing%20Prices%20I/README_EN.md)
+[中文文档](/solution/2900-2999/2907.Maximum%20Profitable%20Triplets%20With%20Increasing%20Prices%20I/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <strong>0-indexed</strong> arrays <code>prices</code> and <code>profits</code> of length <code>n</code>. There are <code>n</code> items in an store where the <code>i<sup>th</sup></code> item has a price of <code>prices[i]</code> and a profit of <code>profits[i]</code>.</p>
 
-<p>给定两个长度为 <code>n</code> 的 <b>下标从 0 开始</b>&nbsp;的数组 <code>prices</code> 和 <code>profits</code>。商店里有 <code>n</code> 件商品，其中第 <code>i</code> 件商品的价格为 <code>prices[i]</code>，利润为 <code>profits[i]</code>。</p>
-
-<p>我们必须按照以下条件选择三件商品：</p>
+<p>We have to pick three items with the following condition:</p>
 
 <ul>
-	<li><code>prices[i] &lt; prices[j] &lt; prices[k]</code>，其中 <code>i &lt; j &lt; k</code>。</li>
+	<li><code>prices[i] &lt; prices[j] &lt; prices[k]</code> where <code>i &lt; j &lt; k</code>.</li>
 </ul>
 
-<p>如果我们选择满足上述条件的索引 <code>i</code>，<code>j</code> 和 <code>k</code> 的商品，那么利润就是 <code>profits[i] + profits[j] + profits[k]</code>。</p>
+<p>If we pick items with indices <code>i</code>, <code>j</code> and <code>k</code> satisfying the above condition, the profit would be <code>profits[i] + profits[j] + profits[k]</code>.</p>
 
-<p>返回我们能得到的最大利润，如果无法选择三件满足条件的商品，则返回 <code>-1</code>。</p>
+<p>Return<em> the <strong>maximum profit</strong> we can get, and </em><code>-1</code><em> if it&#39;s not possible to pick three items with the given condition.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<b>输入：</b> prices = [10,2,3,4], profits = [100,2,7,10]
-<b>输出：</b> 19
-<b>解释：</b> 我们不能选择索引为 i=0 的商品，因为不存在索引 j 和 k 满足条件。
-所以我们能选择的唯一三元组是索引为 1，2 和 3 的商品，这是一个有效的选择，因为 prices[1] &lt; prices[2] &lt; prices[3]。
-答案就是它们的利润之和，即 2 + 7 + 10 = 19。</pre>
-
-<p><b>示例 2:</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b> prices = [1,2,3,4,5], profits = [1,5,3,4,6]
-<b>输出：</b> 15
-<b>解释：</b> 我们可以选择任意三件商品，因为对于每个索引三元组 i，j 和 k 满足 i &lt; j &lt; k，条件都成立。
-因此我们能得到的最大利润就是三件最赚钱的商品，它们的索引分别是 1，3 和 4。
-答案就是它们的利润之和，即 5 + 4 + 6 = 15。</pre>
+<strong>Input:</strong> prices = [10,2,3,4], profits = [100,2,7,10]
+<strong>Output:</strong> 19
+<strong>Explanation:</strong> We can&#39;t pick the item with index i=0 since there are no indices j and k such that the condition holds.
+So the only triplet we can pick, are the items with indices 1, 2 and 3 and it&#39;s a valid pick since prices[1] &lt; prices[2] &lt; prices[3].
+The answer would be sum of their profits which is 2 + 7 + 10 = 19.</pre>
 
-<p><b>示例 3:</b></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b> prices = [4,3,2,1], profits = [33,20,19,87]
-<b>输出：</b> -1
-<b>解释：</b> 我们不能选择任何满足条件的索引三元组，所以我们返回 -1。
+<strong>Input:</strong> prices = [1,2,3,4,5], profits = [1,5,3,4,6]
+<strong>Output:</strong> 15
+<strong>Explanation:</strong> We can select any triplet of items since for each triplet of indices i, j and k such that i &lt; j &lt; k, the condition holds.
+Therefore the maximum profit we can get would be the 3 most profitable items which are indices 1, 3 and 4.
+The answer would be sum of their profits which is 5 + 4 + 6 = 15.</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> prices = [4,3,2,1], profits = [33,20,19,87]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> We can&#39;t select any triplet of indices such that the condition holds, so we return -1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>3 &lt;= prices.length == profits.length &lt;= 2000</code></li>
@@ -56,13 +52,13 @@
 	<li><code>1 &lt;= profits[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举中间元素
+### Solution 1: Enumerate the Middle Element
 
-我们可以枚举中间元素 $profits[j]$，然后再枚举左边元素 $profits[i]$ 和右边元素 $profits[k]$。对于每个 $profits[j]$，我们需要找到最大的 $profits[i]$ 和最大的 $profits[k]$，使得 $prices[i] < prices[j] < prices[k]$。我们记 $left$ 为 $profits[j]$ 左边的最大值，而 $right$ 为 $profits[j]$ 右边的最大值。如果存在，那么我们更新答案为 $ans = \max(ans, left + profits[j] + right)$。
+We can enumerate the middle element $profits[j]$, and then enumerate the left element $profits[i]$ and the right element $profits[k]$. For each $profits[j]$, we need to find the maximum $profits[i]$ and the maximum $profits[k]$ such that $prices[i] < prices[j] < prices[k]$. We define $left$ as the maximum value on the left of $profits[j]$, and $right$ as the maximum value on the right of $profits[j]$. If they exist, we update the answer as $ans = \max(ans, left + profits[j] + right)$.
 
-时间复杂度 $O(n^2)$，其中 $n$ 为数组长度。空间复杂度 $O(1)$。
+The time complexity is $O(n^2)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -219,13 +215,13 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：树状数组
+### Solution 2: Binary Indexed Tree
 
-我们可以用两个树状数组分别维护每个价格左边以及右边的最大利润，然后枚举中间的价格，通过树状数组查询左右两边的最大利润，最后取最大值即可。
+We can use two Binary Indexed Trees (BITs) to maintain the maximum profit on the left and right of each price, respectively. Then, we enumerate the middle price, query the maximum profit on both sides through the BIT, and finally take the maximum value.
 
-时间复杂度 $O(n \times \log M)$，空间复杂度 $O(M)$。其中 $n$ 是数组 $prices$ 的长度，而 $M$ 是数组 $prices$ 中的最大值，本题中 $M \le 10^6$。
+The time complexity is $O(n \times \log M)$, and the space complexity is $O(M)$. Here, $n$ is the length of the array $prices$, and $M$ is the maximum value in the array $prices$. In this problem, $M \le 10^6$.
 
-由于 $prices$ 的长度不超过 $2000$，而 $prices[i]$ 的取值达到 $10^6$，因此，我们可以对 $prices$ 进行离散化处理，这样可以将空间复杂度降低到 $O(n)$。
+Since the length of $prices$ does not exceed $2000$, and the value of $prices[i]$ reaches $10^6$, we can discretize $prices$, which can reduce the space complexity to $O(n)$.
 
 <!-- tabs:start -->
 
@@ -577,7 +573,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

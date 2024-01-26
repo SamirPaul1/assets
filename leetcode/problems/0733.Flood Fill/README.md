@@ -1,61 +1,50 @@
-# [733. 图像渲染](https://leetcode.cn/problems/flood-fill)
+# [733. Flood Fill](https://leetcode.com/problems/flood-fill)
 
-[English Version](/solution/0700-0799/0733.Flood%20Fill/README_EN.md)
+[中文文档](/solution/0700-0799/0733.Flood%20Fill/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An image is represented by an <code>m x n</code> integer grid <code>image</code> where <code>image[i][j]</code> represents the pixel value of the image.</p>
 
-<p>有一幅以&nbsp;<code>m x n</code>&nbsp;的二维整数数组表示的图画&nbsp;<code>image</code>&nbsp;，其中&nbsp;<code>image[i][j]</code>&nbsp;表示该图画的像素值大小。</p>
+<p>You are also given three integers <code>sr</code>, <code>sc</code>, and <code>color</code>. You should perform a <strong>flood fill</strong> on the image starting from the pixel <code>image[sr][sc]</code>.</p>
 
-<p>你也被给予三个整数 <code>sr</code> ,&nbsp; <code>sc</code> 和 <code>newColor</code> 。你应该从像素&nbsp;<code>image[sr][sc]</code>&nbsp;开始对图像进行 上色<strong>填充</strong> 。</p>
+<p>To perform a <strong>flood fill</strong>, consider the starting pixel, plus any pixels connected <strong>4-directionally</strong> to the starting pixel of the same color as the starting pixel, plus any pixels connected <strong>4-directionally</strong> to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels with <code>color</code>.</p>
 
-<p>为了完成<strong> 上色工作</strong> ，从初始像素开始，记录初始坐标的 <strong>上下左右四个方向上</strong> 像素值与初始坐标相同的相连像素点，接着再记录这四个方向上符合条件的像素点与他们对应 <strong>四个方向上</strong> 像素值与初始坐标相同的相连像素点，……，重复该过程。将所有有记录的像素点的颜色值改为&nbsp;<code>newColor</code>&nbsp;。</p>
-
-<p>最后返回 <em>经过上色渲染后的图像&nbsp;</em>。</p>
+<p>Return <em>the modified image after performing the flood fill</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0733.Flood%20Fill/images/flood1-grid.jpg" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0733.Flood%20Fill/images/flood1-grid.jpg" style="width: 613px; height: 253px;" />
 <pre>
-<strong>输入:</strong> image = [[1,1,1],[1,1,0],[1,0,1]]，sr = 1, sc = 1, newColor = 2
-<strong>输出:</strong> [[2,2,2],[2,2,0],[2,0,1]]
-<strong>解析:</strong> 在图像的正中间，(坐标(sr,sc)=(1,1)),在路径上所有符合条件的像素点的颜色都被更改成2。
-注意，右下角的像素没有更改为2，因为它不是在上下左右四个方向上与初始点相连的像素点。
+<strong>Input:</strong> image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2
+<strong>Output:</strong> [[2,2,2],[2,2,0],[2,0,1]]
+<strong>Explanation:</strong> From the center of the image with position (sr, sc) = (1, 1) (i.e., the red pixel), all pixels connected by a path of the same color as the starting pixel (i.e., the blue pixels) are colored with the new color.
+Note the bottom corner is not colored 2, because it is not 4-directionally connected to the starting pixel.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, newColor = 2
-<strong>输出:</strong> [[2,2,2],[2,2,2]]
+<strong>Input:</strong> image = [[0,0,0],[0,0,0]], sr = 0, sc = 0, color = 0
+<strong>Output:</strong> [[0,0,0],[0,0,0]]
+<strong>Explanation:</strong> The starting pixel is already colored 0, so no changes are made to the image.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == image.length</code></li>
 	<li><code>n == image[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 50</code></li>
-	<li><code>0 &lt;= image[i][j], newColor &lt; 2<sup>16</sup></code></li>
-	<li><code>0 &lt;= sr &lt;&nbsp;m</code></li>
-	<li><code>0 &lt;= sc &lt;&nbsp;n</code></li>
+	<li><code>0 &lt;= image[i][j], color &lt; 2<sup>16</sup></code></li>
+	<li><code>0 &lt;= sr &lt; m</code></li>
+	<li><code>0 &lt;= sc &lt; n</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：Flood fill 算法
-
-Flood fill 算法是从一个区域中提取若干个连通的点与其他相邻区域区分开（或分别染成不同颜色）的经典算法。因为其思路类似洪水从一个区域扩散到所有能到达的区域而得名。
-
-最简单的实现方法是采用 DFS 的递归方法，也可以采用 BFS 的迭代来实现。
-
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别为图像的行数和列数。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -209,7 +198,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

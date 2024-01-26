@@ -1,56 +1,52 @@
-# [2794. 从两个数组中创建对象](https://leetcode.cn/problems/create-object-from-two-arrays)
+# [2794. Create Object from Two Arrays](https://leetcode.com/problems/create-object-from-two-arrays)
 
-[English Version](/solution/2700-2799/2794.Create%20Object%20from%20Two%20Arrays/README_EN.md)
+[中文文档](/solution/2700-2799/2794.Create%20Object%20from%20Two%20Arrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two arrays <code>keysArr</code> and <code>valuesArr</code>, return a new object <code>obj</code>. Each key-value pair in&nbsp;<code>obj</code>&nbsp;should come from&nbsp;<code>keysArr[i]</code>&nbsp;and&nbsp;<code>valuesArr[i]</code>.</p>
 
-<p>给定两个数组 <code>keysArr </code>和 <code>valuesArr</code>，返回一个新的对象 <code>obj</code>。<code>obj</code> 中的每个键值对都来自 <code>keysArr[i]</code> 和 <code>valuesArr[i]</code>。</p>
+<p>If a duplicate key exists at a previous index, that key-value should be excluded. In other words, only the first key should be added to the object.</p>
 
-<p>如果前面的索引中存在重复的键，则应该跳过该键值对。换句话说，只有第一次出现的键会被添加到对象中。</p>
-
-<p>如果键不是字符串，则应通过调用 <code>String()</code> 方法将其转换为字符串。</p>
+<p>If the key is not a string, it should be converted into a string by calling <code>String()</code>&nbsp;on it.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>keysArr = ["a", "b", "c"], valuesArr = [1, 2, 3]
-<b>输出：</b>{"a": 1, "b": 2, "c": 3}
-<b>解释：</b>键 "a"、"b" 和 "c" 分别与值 1、2 和 3 配对。
+<strong>Input:</strong> keysArr = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], valuesArr = [1, 2, 3]
+<strong>Output:</strong> {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+<strong>Explanation:</strong> The keys &quot;a&quot;, &quot;b&quot;, and &quot;c&quot; are paired with the values 1, 2, and 3 respectively.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>keysArr = ["1", 1, false], valuesArr = [4, 5, 6]
-<b>输出：</b>{"1": 4, "false": 6}
-<b>解释：</b>首先，将 arr1 中的所有元素转换为字符串。我们可以看到有两个 "1" 的出现。使用第一次出现 "1" 的关联值：4。
+<strong>Input:</strong> keysArr = [&quot;1&quot;, 1, false], valuesArr = [4, 5, 6]
+<strong>Output:</strong> {&quot;1&quot;: 4, &quot;false&quot;: 6}
+<strong>Explanation:</strong> First, all the elements in keysArr are converted into strings. We can see there are two occurrences of &quot;1&quot;. The value associated with the first occurrence of &quot;1&quot; is used: 4.
 </pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>keysArr = [], valuesArr = []
-<b>输出：</b>{}
-<b>解释：</b>没有键，因此返回一个空对象。
+<strong>Input:</strong> keysArr = [], valuesArr = []
+<strong>Output:</strong> {}
+<strong>Explanation:</strong> There are no keys so an empty object is returned.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>keysArr</code> 和 <code>valuesArr</code> 都是有效的 JSON 数组</li>
+	<li><code>keysArr</code> and <code>valuesArr</code> are valid JSON arrays</li>
 	<li><code>2 &lt;= JSON.stringify(keysArr).length,&nbsp;JSON.stringify(valuesArr).length &lt;= 5 * 10<sup>5</sup></code></li>
 	<li><code>keysArr.length === valuesArr.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

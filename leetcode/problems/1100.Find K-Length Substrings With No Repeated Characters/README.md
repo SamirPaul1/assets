@@ -1,53 +1,50 @@
-# [1100. 长度为 K 的无重复字符子串](https://leetcode.cn/problems/find-k-length-substrings-with-no-repeated-characters)
+# [1100. Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters)
 
-[English Version](/solution/1100-1199/1100.Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters/README_EN.md)
+[中文文档](/solution/1100-1199/1100.Find%20K-Length%20Substrings%20With%20No%20Repeated%20Characters/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个字符串&nbsp;<code>S</code>，找出所有长度为&nbsp;<code>K</code>&nbsp;且不含重复字符的子串，请你返回全部满足要求的子串的&nbsp;<strong>数目</strong>。</p>
+<p>Given a string <code>s</code> and an integer <code>k</code>, return <em>the number of substrings in </em><code>s</code><em> of length </em><code>k</code><em> with no repeated characters</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>S = &quot;havefunonleetcode&quot;, K = 5
-<strong>输出：</strong>6
-<strong>解释：</strong>
-这里有 6 个满足题意的子串，分别是：&#39;havef&#39;,&#39;avefu&#39;,&#39;vefun&#39;,&#39;efuno&#39;,&#39;etcod&#39;,&#39;tcode&#39;。
+<pre>
+<strong>Input:</strong> s = &quot;havefunonleetcode&quot;, k = 5
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> There are 6 substrings they are: &#39;havef&#39;,&#39;avefu&#39;,&#39;vefun&#39;,&#39;efuno&#39;,&#39;etcod&#39;,&#39;tcode&#39;.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>S = &quot;home&quot;, K = 5
-<strong>输出：</strong>0
-<strong>解释：</strong>
-注意：K 可能会大于 S 的长度。在这种情况下，就无法找到任何长度为 K 的子串。</pre>
+<pre>
+<strong>Input:</strong> s = &quot;home&quot;, k = 5
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Notice k can be larger than the length of s. In this case, it is not possible to find any substring.
+</pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>提示：</strong></p>
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>s</code> consists of lowercase English letters.</li>
+	<li><code>1 &lt;= k &lt;= 10<sup>4</sup></code></li>
+</ul>
 
-<ol>
-	<li><code>1 &lt;= S.length &lt;= 10^4</code></li>
-	<li><code>S</code> 中的所有字符均为小写英文字母</li>
-	<li><code>1 &lt;= K &lt;= 10^4</code></li>
-</ol>
+## Solutions
 
-## 解法
+### Solution 1: Two Pointers + Counter
 
-### 方法一：双指针 + 计数器
+We observe that all characters are lowercase letters, so there are at most $26$ different characters. Therefore, if $k > 26$ or $k > n$, it is impossible to find any substring of length $k$ without repeated characters, and we can directly return $0$.
 
-我们观察发现，字符均为小写字母，也即最多有 $26$ 种不同的字符。因此，如果 $k \gt 26$ 或者 $k \gt n$，则无法找到任何长度为 $k$ 且不含重复字符的子串，直接返回 $0$ 即可。
+Next, we use two pointers $j$ and $i$ to maintain a sliding window, where $j$ is the left endpoint of the sliding window, $i$ is the right endpoint of the sliding window, and a counter $cnt$ is used to count the number of occurrences of each character in the sliding window.
 
-接下来，我们用双指针 $j$ 和 $i$ 维护一个滑动窗口，其中 $j$ 是滑动窗口的左端点，$i$ 是滑动窗口的右端点，用一个计数器 $cnt$ 统计滑动窗口中每个字符出现的次数。
+We traverse the string $s$, each time adding $s[i]$ to the sliding window, i.e., $cnt[s[i]]++$. If at this time $cnt[s[i]] > 1$ or $i - j + 1 > k$, then we loop to remove $s[j]$ from the sliding window, i.e., $cnt[s[j]]--$, and move $j$ to the right. If after moving $j$ to the right, the window size $i - j + 1$ is exactly equal to $k$, it means that the string in the sliding window is a substring that meets the requirements of the problem, and we increment the result by one.
 
-遍历字符串 $s$，每次将 $s[i]$ 加入滑动窗口，即 $cnt[s[i]]++$，如果此时 $cnt[s[i]] \gt 1$ 或者 $i - j + 1 \gt k$，则循环将 $s[j]$ 从滑动窗口中移除，即 $cnt[s[j]]--$，并将 $j$ 右移。如果 $j$ 右移结束后，窗口大小 $i - j + 1$ 恰好等于 $k$，则说明滑动窗口中的字符串是一个符合题意的子串，将结果加一。
+After the traversal ends, we can get the number of all substrings that meet the requirements of the problem.
 
-遍历结束后，即可得到所有符合题意的子串的个数。
-
-时间复杂度 $O(n)$，空间复杂度 $O(C)$。其中 $n$ 为字符串 $s$ 的长度；而 $C$ 为字符集的大小，本题中 $C = 26$。
+The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is the length of the string $s$, and $C$ is the size of the character set. In this problem, $C = 26$.
 
 <!-- tabs:start -->
 
@@ -181,7 +178,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

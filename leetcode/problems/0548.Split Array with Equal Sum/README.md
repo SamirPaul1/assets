@@ -1,28 +1,23 @@
-# [548. 将数组分割成和相等的子数组](https://leetcode.cn/problems/split-array-with-equal-sum)
+# [548. Split Array with Equal Sum](https://leetcode.com/problems/split-array-with-equal-sum)
 
-[English Version](/solution/0500-0599/0548.Split%20Array%20with%20Equal%20Sum/README_EN.md)
+[中文文档](/solution/0500-0599/0548.Split%20Array%20with%20Equal%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> of length <code>n</code>, return <code>true</code> if there is a triplet <code>(i, j, k)</code> which satisfies the following conditions:</p>
 
-<p>给定一个有 <code>n</code> 个整数的数组 <code>nums</code>&nbsp;，如果能找到满足以下条件的三元组&nbsp; <code>(i, j, k)</code>&nbsp; 则返回 <code>true</code> ：</p>
-
-<ol>
+<ul>
 	<li><code>0 &lt; i, i + 1 &lt; j, j + 1 &lt; k &lt; n - 1</code></li>
-	<li>子数组 <code>(0, i - 1)</code>&nbsp;， <code>(i + 1, j - 1)</code> ， <code>(j + 1, k - 1)</code> ， <code>(k + 1, n - 1)</code> 的和应该相等。</li>
-</ol>
-
-<p>这里我们定义子数组&nbsp;<code>(l, r)</code>&nbsp;表示原数组从索引为&nbsp;<code>l</code>&nbsp;的元素开始至索引为&nbsp;<code>r</code> 的元素。</p>
-
+	<li>The sum of subarrays <code>(0, i - 1)</code>, <code>(i + 1, j - 1)</code>, <code>(j + 1, k - 1)</code> and <code>(k + 1, n - 1)</code> is equal.</li>
+</ul>
+A subarray <code>(l, r)</code> represents a slice of the original array starting from the element indexed <code>l</code> to the element indexed <code>r</code>.
 <p>&nbsp;</p>
-
-<p><strong>示例 1:&nbsp;</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,2,1,2,1,2,1]
-<strong>输出:</strong> True
-<strong>解释:</strong>
+<strong>Input:</strong> nums = [1,2,1,2,1,2,1]
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
 i = 1, j = 3, k = 5. 
 sum(0, i - 1) = sum(0, 0) = 1
 sum(i + 1, j - 1) = sum(2, 2) = 1
@@ -30,36 +25,25 @@ sum(j + 1, k - 1) = sum(4, 4) = 1
 sum(k + 1, n - 1) = sum(6, 6) = 1
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,2,1,2,1,2,1,2]
-<strong>输出:</strong> false
+<strong>Input:</strong> nums = [1,2,1,2,1,2,1,2]
+<strong>Output:</strong> false
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n ==&nbsp;nums.length</code></li>
 	<li><code>1 &lt;= n &lt;= 2000</code></li>
-	<li><code>-10<sup>6</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
+	<li><code>-10<sup>6</sup> &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀和 + 哈希表
-
-先求出前缀和数组 s。
-
-然后遍历 j 所有可能的位置，对于每个 j，找出 i，使得前两个子数组的和相等。同时将和添加到哈希表中。
-
-接着对于每个 j，找出 k，使得后两个子数组的和相等，然后判断哈希表中是否存在该和，如果存在，则找到满足条件的三元组 `(i, j, k)`，返回 true。
-
-否则遍历结束返回 false。
-
-时间复杂度 $O(n^2)$。
+### Solution 1
 
 <!-- tabs:start -->
 

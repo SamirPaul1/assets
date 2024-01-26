@@ -1,53 +1,47 @@
-# [2233. K 次增加后的最大乘积](https://leetcode.cn/problems/maximum-product-after-k-increments)
+# [2233. Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments)
 
-[English Version](/solution/2200-2299/2233.Maximum%20Product%20After%20K%20Increments/README_EN.md)
+[中文文档](/solution/2200-2299/2233.Maximum%20Product%20After%20K%20Increments/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array of non-negative integers <code>nums</code> and an integer <code>k</code>. In one operation, you may choose <strong>any</strong> element from <code>nums</code> and <strong>increment</strong> it by <code>1</code>.</p>
 
-<p>给你一个非负整数数组&nbsp;<code>nums</code>&nbsp;和一个整数&nbsp;<code>k</code>&nbsp;。每次操作，你可以选择&nbsp;<code>nums</code>&nbsp;中 <strong>任一</strong>&nbsp;元素并将它 <strong>增加</strong>&nbsp;<code>1</code>&nbsp;。</p>
-
-<p>请你返回 <strong>至多</strong>&nbsp;<code>k</code>&nbsp;次操作后，能得到的<em>&nbsp;</em><code>nums</code>的&nbsp;<strong>最大乘积</strong>&nbsp;。由于答案可能很大，请你将答案对&nbsp;<code>10<sup>9</sup> + 7</code>&nbsp;取余后返回。</p>
+<p>Return<em> the <strong>maximum</strong> <strong>product</strong> of </em><code>nums</code><em> after <strong>at most</strong> </em><code>k</code><em> operations. </em>Since the answer may be very large, return it <b>modulo</b> <code>10<sup>9</sup> + 7</code>. Note that you should maximize the product before taking the modulo.&nbsp;</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>nums = [0,4], k = 5
-<b>输出：</b>20
-<b>解释：</b>将第一个数增加 5 次。
-得到 nums = [5, 4] ，乘积为 5 * 4 = 20 。
-可以证明 20 是能得到的最大乘积，所以我们返回 20 。
-存在其他增加 nums 的方法，也能得到最大乘积。
+<pre>
+<strong>Input:</strong> nums = [0,4], k = 5
+<strong>Output:</strong> 20
+<strong>Explanation:</strong> Increment the first number 5 times.
+Now nums = [5, 4], with a product of 5 * 4 = 20.
+It can be shown that 20 is maximum product possible, so we return 20.
+Note that there may be other ways to increment nums to have the maximum product.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>nums = [6,3,3,2], k = 2
-<b>输出：</b>216
-<b>解释：</b>将第二个数增加 1 次，将第四个数增加 1 次。
-得到 nums = [6, 4, 3, 3] ，乘积为 6 * 4 * 3 * 3 = 216 。
-可以证明 216 是能得到的最大乘积，所以我们返回 216 。
-存在其他增加 nums 的方法，也能得到最大乘积。
+<pre>
+<strong>Input:</strong> nums = [6,3,3,2], k = 2
+<strong>Output:</strong> 216
+<strong>Explanation:</strong> Increment the second number 1 time and increment the fourth number 1 time.
+Now nums = [6, 4, 3, 3], with a product of 6 * 4 * 3 * 3 = 216.
+It can be shown that 216 is maximum product possible, so we return 216.
+Note that there may be other ways to increment nums to have the maximum product.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length, k &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 优先队列（小根堆）
-
-每次操作，贪心地选择最小的元素进行加 $1$，共进行 $k$ 次操作。最后累乘所有元素得到结果。注意取模操作。
-
-时间复杂度 $O(n+klogn)$。其中，$n$ 表示 $nums$ 的长度。建堆的时间复杂度为 $O(n)$，每次弹出最小元素进行加 $1$，再放回堆中，时间复杂度为 $O(logn)$，共进行 $k$ 次操作。
+### Solution 1
 
 <!-- tabs:start -->
 

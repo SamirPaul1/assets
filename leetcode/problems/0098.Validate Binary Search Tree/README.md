@@ -1,56 +1,52 @@
-# [98. 验证二叉搜索树](https://leetcode.cn/problems/validate-binary-search-tree)
+# [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)
 
-[English Version](/solution/0000-0099/0098.Validate%20Binary%20Search%20Tree/README_EN.md)
+[中文文档](/solution/0000-0099/0098.Validate%20Binary%20Search%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, <em>determine if it is a valid binary search tree (BST)</em>.</p>
 
-<p>给你一个二叉树的根节点 <code>root</code> ，判断其是否是一个有效的二叉搜索树。</p>
-
-<p><strong>有效</strong> 二叉搜索树定义如下：</p>
+<p>A <strong>valid BST</strong> is defined as follows:</p>
 
 <ul>
-	<li>节点的左子树只包含<strong> 小于 </strong>当前节点的数。</li>
-	<li>节点的右子树只包含 <strong>大于</strong> 当前节点的数。</li>
-	<li>所有左子树和右子树自身必须也是二叉搜索树。</li>
+	<li>The left <span data-keyword="subtree">subtree</span> of a node contains only nodes with keys <strong>less than</strong> the node&#39;s key.</li>
+	<li>The right subtree of a node contains only nodes with keys <strong>greater than</strong> the node&#39;s key.</li>
+	<li>Both the left and right subtrees must also be binary search trees.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0098.Validate%20Binary%20Search%20Tree/images/tree1.jpg" style="width: 302px; height: 182px;" />
 <pre>
-<strong>输入：</strong>root = [2,1,3]
-<strong>输出：</strong>true
+<strong>Input:</strong> root = [2,1,3]
+<strong>Output:</strong> true
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0098.Validate%20Binary%20Search%20Tree/images/tree2.jpg" style="width: 422px; height: 292px;" />
 <pre>
-<strong>输入：</strong>root = [5,1,4,null,null,3,6]
-<strong>输出：</strong>false
-<strong>解释：</strong>根节点的值是 5 ，但是右子节点的值是 4 。
+<strong>Input:</strong> root = [5,1,4,null,null,3,6]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> The root node&#39;s value is 5 but its right child&#39;s value is 4.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点数目范围在<code>[1, 10<sup>4</sup>]</code> 内</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-2<sup>31</sup> &lt;= Node.val &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：递归
+### Solution 1: Recursion
 
-中序遍历，若是一个有效的二叉搜索树，那么遍历到的序列应该是单调递增的。所以只要比较判断遍历到的当前数是否大于上一个数即可。
+In-order traversal. If it is a valid binary search tree, then the sequence traversed should be monotonically increasing. So, we only need to compare and judge whether the current number traversed is greater than the previous number.
 
-或者考虑以 `root` 为根的子树，所有节点的值是否都在合法范围内，递归判断即可。
+Alternatively, consider the subtree with `root` as the root, whether all node values are within the valid range, and judge recursively.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是树中节点的数量。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is the number of nodes in the tree.
 
 <!-- tabs:start -->
 
@@ -273,7 +269,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

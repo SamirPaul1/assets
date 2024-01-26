@@ -1,43 +1,39 @@
-# [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays)
+# [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays)
 
-[English Version](/solution/1200-1299/1248.Count%20Number%20of%20Nice%20Subarrays/README_EN.md)
+[中文文档](/solution/1200-1299/1248.Count%20Number%20of%20Nice%20Subarrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of integers <code>nums</code> and an integer <code>k</code>. A continuous subarray is called <strong>nice</strong> if there are <code>k</code> odd numbers on it.</p>
 
-<p>给你一个整数数组&nbsp;<code>nums</code> 和一个整数 <code>k</code>。如果某个连续子数组中恰好有 <code>k</code> 个奇数数字，我们就认为这个子数组是「<strong>优美子数组</strong>」。</p>
-
-<p>请返回这个数组中 <strong>「优美子数组」</strong> 的数目。</p>
+<p>Return <em>the number of <strong>nice</strong> sub-arrays</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,1,2,1,1], k = 3
-<strong>输出：</strong>2
-<strong>解释：</strong>包含 3 个奇数的子数组是 [1,1,2,1] 和 [1,2,1,1] 。
+<strong>Input:</strong> nums = [1,1,2,1,1], k = 3
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [2,4,6], k = 1
-<strong>输出：</strong>0
-<strong>解释：</strong>数列中不包含任何奇数，所以不存在优美子数组。
+<strong>Input:</strong> nums = [2,4,6], k = 1
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There is no odd numbers in the array.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [2,2,2,1,2,2,1,2,2,2], k = 2
-<strong>输出：</strong>16
+<strong>Input:</strong> nums = [2,2,2,1,2,2,1,2,2,2], k = 2
+<strong>Output:</strong> 16
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 50000</code></li>
@@ -45,13 +41,13 @@
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀和 + 数组或哈希表
+### Solution 1: Prefix Sum + Array or Hash Table
 
-题目求子数组中恰好有 $k$ 个奇数的子数组个数，我们可以求出每个前缀数组中奇数的个数 $t$，记录在数组或哈希表 $cnt$ 中。对于每个前缀数组，我们只需要求出前缀数组中奇数个数为 $t-k$ 的前缀数组个数，即为以当前前缀数组结尾的子数组个数。
+The problem asks for the number of subarrays that contain exactly $k$ odd numbers. We can calculate the number of odd numbers $t$ in each prefix array and record it in an array or hash table $cnt$. For each prefix array, we only need to find the number of prefix arrays with $t-k$ odd numbers, which is the number of subarrays ending with the current prefix array.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

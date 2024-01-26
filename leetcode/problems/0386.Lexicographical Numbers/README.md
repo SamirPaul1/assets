@@ -1,42 +1,31 @@
-# [386. 字典序排数](https://leetcode.cn/problems/lexicographical-numbers)
+# [386. Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers)
 
-[English Version](/solution/0300-0399/0386.Lexicographical%20Numbers/README_EN.md)
+[中文文档](/solution/0300-0399/0386.Lexicographical%20Numbers/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer <code>n</code>, return all the numbers in the range <code>[1, n]</code> sorted in lexicographical order.</p>
 
-<p>给你一个整数 <code>n</code> ，按字典序返回范围 <code>[1, n]</code> 内所有整数。</p>
-
-<p>你必须设计一个时间复杂度为 <code>O(n)</code> 且使用 <code>O(1)</code> 额外空间的算法。</p>
+<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time and uses <code>O(1)</code> extra space.&nbsp;</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>n = 13
-<strong>输出：</strong>[1,10,11,12,13,2,3,4,5,6,7,8,9]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> n = 13
+<strong>Output:</strong> [1,10,11,12,13,2,3,4,5,6,7,8,9]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> n = 2
+<strong>Output:</strong> [1,2]
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>n = 2
-<strong>输出：</strong>[1,2]
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -162,7 +151,7 @@ var lexicalOrder = function (n) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

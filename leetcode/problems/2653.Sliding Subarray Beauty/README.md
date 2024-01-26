@@ -1,58 +1,57 @@
-# [2653. 滑动子数组的美丽值](https://leetcode.cn/problems/sliding-subarray-beauty)
+# [2653. Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty)
 
-[English Version](/solution/2600-2699/2653.Sliding%20Subarray%20Beauty/README_EN.md)
+[中文文档](/solution/2600-2699/2653.Sliding%20Subarray%20Beauty/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> containing <code>n</code> integers, find the <strong>beauty</strong> of each subarray of size <code>k</code>.</p>
 
-<p>给你一个长度为 <code>n</code>&nbsp;的整数数组&nbsp;<code>nums</code>&nbsp;，请你求出每个长度为&nbsp;<code>k</code>&nbsp;的子数组的 <b>美丽值</b>&nbsp;。</p>
+<p>The <strong>beauty</strong> of a subarray is the <code>x<sup>th</sup></code><strong> smallest integer </strong>in the subarray if it is <strong>negative</strong>, or <code>0</code> if there are fewer than <code>x</code> negative integers.</p>
 
-<p>一个子数组的 <strong>美丽值</strong>&nbsp;定义为：如果子数组中第 <code>x</code>&nbsp;<strong>小整数</strong>&nbsp;是 <strong>负数</strong>&nbsp;，那么美丽值为第 <code>x</code>&nbsp;小的数，否则美丽值为 <code>0</code>&nbsp;。</p>
-
-<p>请你返回一个包含<em>&nbsp;</em><code>n - k + 1</code>&nbsp;个整数的数组，<strong>依次</strong>&nbsp;表示数组中从第一个下标开始，每个长度为&nbsp;<code>k</code>&nbsp;的子数组的<strong>&nbsp;美丽值</strong>&nbsp;。</p>
+<p>Return <em>an integer array containing </em><code>n - k + 1</code> <em>integers, which denote the </em><strong>beauty</strong><em> of the subarrays <strong>in order</strong> from the first index in the array.</em></p>
 
 <ul>
 	<li>
-	<p>子数组指的是数组中一段连续 <strong>非空</strong>&nbsp;的元素序列。</p>
+	<p>A subarray is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>
 	</li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [1,-1,-3,-2,3], k = 3, x = 2
+<strong>Output:</strong> [-1,-2,-2]
+<strong>Explanation:</strong> There are 3 subarrays with size k = 3. 
+The first subarray is <code>[1, -1, -3]</code> and the 2<sup>nd</sup> smallest negative integer is -1.&nbsp;
+The second subarray is <code>[-1, -3, -2]</code> and the 2<sup>nd</sup> smallest negative integer is -2.&nbsp;
+The third subarray is <code>[-3, -2, 3]&nbsp;</code>and the 2<sup>nd</sup> smallest negative integer is -2.</pre>
 
-<pre><b>输入：</b>nums = [1,-1,-3,-2,3], k = 3, x = 2
-<b>输出：</b>[-1,-2,-2]
-<b>解释：</b>总共有 3 个 k = 3 的子数组。
-第一个子数组是 <code>[1, -1, -3]</code> ，第二小的数是负数 -1 。
-第二个子数组是 <code>[-1, -3, -2]</code> ，第二小的数是负数 -2 。
-第三个子数组是 <code>[-3, -2, 3]&nbsp;，第二小的数是负数 -2 。</code></pre>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>示例 2：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [-1,-2,-3,-4,-5], k = 2, x = 2
+<strong>Output:</strong> [-1,-2,-3,-4]
+<strong>Explanation:</strong> There are 4 subarrays with size k = 2.
+For <code>[-1, -2]</code>, the 2<sup>nd</sup> smallest negative integer is -1.
+For <code>[-2, -3]</code>, the 2<sup>nd</sup> smallest negative integer is -2.
+For <code>[-3, -4]</code>, the 2<sup>nd</sup> smallest negative integer is -3.
+For <code>[-4, -5]</code>, the 2<sup>nd</sup> smallest negative integer is -4.&nbsp;</pre>
 
-<pre><b>输入：</b>nums = [-1,-2,-3,-4,-5], k = 2, x = 2
-<b>输出：</b>[-1,-2,-3,-4]
-<b>解释：</b>总共有 4 个 k = 2 的子数组。
-<code>[-1, -2] 中第二小的数是负数 -1 。</code>
-<code>[-2, -3] 中第二小的数是负数 -2 。</code>
-<code>[-3, -4] 中第二小的数是负数 -3 。</code>
-<code>[-4, -5] 中第二小的数是负数 -4 。</code></pre>
+<p><strong class="example">Example 3:</strong></p>
 
-<p><strong>示例 3：</strong></p>
-
-<pre><b>输入：</b>nums = [-3,1,2,-3,0,-3], k = 2, x = 1
-<b>输出：</b>[-3,0,-3,-3,-3]
-<b>解释：</b>总共有 5 个 k = 2 的子数组。
-<code>[-3, 1] 中最小的数是负数 -3 。</code>
-<code>[1, 2] 中最小的数不是负数，所以美丽值为 0 。</code>
-<code>[2, -3] 中最小的数是负数 -3 。</code>
-<code>[-3, 0] 中最小的数是负数 -3 。</code>
-<code>[0, -3] 中最小的数是负数 -3 。</code></pre>
+<pre>
+<strong>Input:</strong> nums = [-3,1,2,-3,0,-3], k = 2, x = 1
+<strong>Output:</strong> [-3,0,-3,-3,-3]
+<strong>Explanation:</strong> There are 5 subarrays with size k = 2<strong>.</strong>
+For <code>[-3, 1]</code>, the 1<sup>st</sup> smallest negative integer is -3.
+For <code>[1, 2]</code>, there is no negative integer so the beauty is 0.
+For <code>[2, -3]</code>, the 1<sup>st</sup> smallest negative integer is -3.
+For <code>[-3, 0]</code>, the 1<sup>st</sup> smallest negative integer is -3.
+For <code>[0, -3]</code>, the 1<sup>st</sup> smallest negative integer is -3.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length&nbsp;</code></li>
@@ -62,15 +61,9 @@
 	<li><code>-50&nbsp;&lt;= nums[i] &lt;= 50&nbsp;</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：滑动窗口
-
-我们注意到，数组 $nums$ 中元素的范围为 $[-50,50]$，因此，我们可以用一个数组长度为 $101$ 的数组 $cnt$ 统计 $[-50,50]$ 中每个数出现的次数。由于负数的存在，我们可以将每个数加上 $50$，使得每个数都变成非负数，这样就可以用数组 $cnt$ 统计每个数出现的次数了。
-
-接下来，我们遍历数组 $nums$，维护一个长度为 $k$ 的滑动窗口，窗口中所有元素出现的次记数录在数组 $cnt$ 中，然后我们遍历数组 $cnt$，找到第 $x$ 小的负数，即为当前滑动窗口的美丽值。如果不存在第 $x$ 小的负数，那么美丽值为 $0$。
-
-时间复杂度 $O(n \times 50)$，空间复杂度 $O(100)$。其中 $n$ 为数组 $nums$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -209,7 +202,7 @@ function getSubarrayBeauty(nums: number[], k: number, x: number): number[] {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

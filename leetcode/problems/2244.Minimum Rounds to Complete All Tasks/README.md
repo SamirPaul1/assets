@@ -1,54 +1,46 @@
-# [2244. 完成所有任务需要的最少轮数](https://leetcode.cn/problems/minimum-rounds-to-complete-all-tasks)
+# [2244. Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks)
 
-[English Version](/solution/2200-2299/2244.Minimum%20Rounds%20to%20Complete%20All%20Tasks/README_EN.md)
+[中文文档](/solution/2200-2299/2244.Minimum%20Rounds%20to%20Complete%20All%20Tasks/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>tasks</code>, where <code>tasks[i]</code> represents the difficulty level of a task. In each round, you can complete either 2 or 3 tasks of the <strong>same difficulty level</strong>.</p>
 
-<p>给你一个下标从 <strong>0</strong> 开始的整数数组 <code>tasks</code> ，其中 <code>tasks[i]</code> 表示任务的难度级别。在每一轮中，你可以完成 2 个或者 3 个 <strong>相同难度级别</strong> 的任务。</p>
-
-<p>返回完成所有任务需要的 <strong>最少</strong> 轮数，如果无法完成所有任务，返回<em> </em><code>-1</code><em> </em>。</p>
+<p>Return <em>the <strong>minimum</strong> rounds required to complete all the tasks, or </em><code>-1</code><em> if it is not possible to complete all the tasks.</em></p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>tasks = [2,2,3,3,2,4,4,4,4,4]
-<strong>输出：</strong>4
-<strong>解释：</strong>要想完成所有任务，一个可能的计划是：
-- 第一轮，完成难度级别为 2 的 3 个任务。 
-- 第二轮，完成难度级别为 3 的 2 个任务。 
-- 第三轮，完成难度级别为 4 的 3 个任务。 
-- 第四轮，完成难度级别为 4 的 2 个任务。 
-可以证明，无法在少于 4 轮的情况下完成所有任务，所以答案为 4 。
+<pre>
+<strong>Input:</strong> tasks = [2,2,3,3,2,4,4,4,4,4]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> To complete all the tasks, a possible plan is:
+- In the first round, you complete 3 tasks of difficulty level 2. 
+- In the second round, you complete 2 tasks of difficulty level 3. 
+- In the third round, you complete 3 tasks of difficulty level 4. 
+- In the fourth round, you complete 2 tasks of difficulty level 4.  
+It can be shown that all the tasks cannot be completed in fewer than 4 rounds, so the answer is 4.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>tasks = [2,3,3]
-<strong>输出：</strong>-1
-<strong>解释：</strong>难度级别为 2 的任务只有 1 个，但每一轮执行中，只能选择完成 2 个或者 3 个相同难度级别的任务。因此，无法完成所有任务，答案为 -1 。
+<pre>
+<strong>Input:</strong> tasks = [2,3,3]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> There is only 1 task of difficulty level 2, but in each round, you can only complete either 2 or 3 tasks of the same difficulty level. Hence, you cannot complete all the tasks, and the answer is -1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= tasks.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= tasks[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
-
-我们用哈希表统计每个难度级别的任务数量，然后遍历哈希表，对于每个难度级别的任务数量，如果数量为 $1$，则无法完成所有任务，返回 $-1$；否则，计算完成该难度级别的任务需要的轮数，累加到答案中。
-
-最后返回答案即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 `tasks` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

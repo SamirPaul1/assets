@@ -1,72 +1,61 @@
-# [1800. 最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum)
+# [1800. Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum)
 
-[English Version](/solution/1800-1899/1800.Maximum%20Ascending%20Subarray%20Sum/README_EN.md)
+[中文文档](/solution/1800-1899/1800.Maximum%20Ascending%20Subarray%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of positive integers <code>nums</code>, return the <em>maximum possible sum of an <strong>ascending</strong> subarray in </em><code>nums</code>.</p>
 
-<p>给你一个正整数组成的数组 <code>nums</code> ，返回 <code>nums</code> 中一个 <strong>升序 </strong>子数组的最大可能元素和。</p>
+<p>A subarray is defined as a contiguous sequence of numbers in an array.</p>
 
-<p>子数组是数组中的一个连续数字序列。</p>
+<p>A subarray <code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> is <strong>ascending</strong> if for all <code>i</code> where <code>l &lt;= i &lt; r</code>, <code>nums<sub>i </sub> &lt; nums<sub>i+1</sub></code>. Note that a subarray of size <code>1</code> is <strong>ascending</strong>.</p>
 
-<p>已知子数组 <code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> ，若对所有 <code>i</code>（<code>l <= i < r</code>），<code>nums<sub>i </sub> < nums<sub>i+1</sub></code> 都成立，则称这一子数组为 <strong>升序</strong> 子数组。注意，大小为 <code>1</code> 的子数组也视作 <strong>升序</strong> 子数组。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [10,20,30,5,10,50]
-<strong>输出：</strong>65
-<strong>解释：</strong>[5,10,50] 是元素和最大的升序子数组，最大元素和为 65 。
+<strong>Input:</strong> nums = [10,20,30,5,10,50]
+<strong>Output:</strong> 65
+<strong>Explanation: </strong>[5,10,50] is the ascending subarray with the maximum sum of 65.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [10,20,30,40,50]
-<strong>输出：</strong>150
-<strong>解释：</strong>[10,20,30,40,50] 是元素和最大的升序子数组，最大元素和为 150 。 
+<strong>Input:</strong> nums = [10,20,30,40,50]
+<strong>Output:</strong> 150
+<strong>Explanation: </strong>[10,20,30,40,50] is the ascending subarray with the maximum sum of 150.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [12,17,15,13,10,11,12]
-<strong>输出：</strong>33
-<strong>解释：</strong>[10,11,12] 是元素和最大的升序子数组，最大元素和为 33 。 
+<strong>Input:</strong> nums = [12,17,15,13,10,11,12]
+<strong>Output:</strong> 33
+<strong>Explanation: </strong>[10,11,12] is the ascending subarray with the maximum sum of 33.
 </pre>
 
-<p><strong>示例 4：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [100,10,1]
-<strong>输出：</strong>100
-</pre>
-
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= nums.length <= 100</code></li>
-	<li><code>1 <= nums[i] <= 100</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：直接模拟
+### Solution 1: Direct Simulation
 
-我们用变量 $t$ 记录当前升序子数组的和，用变量 $ans$ 记录最大的升序子数组和。
+We use a variable $t$ to record the current sum of the ascending subarray, and a variable $ans$ to record the maximum sum of the ascending subarray.
 
-遍历数组 $nums$：
+Traverse the array $nums$:
 
-如果当前元素是数组的第一个元素，或者当前元素大于前一个元素，那么将当前元素加入到当前升序子数组的和，即 $t = t + nums[i]$，并且更新最大升序子数组和 $ans = \max(ans, t)$；否则，当前元素不满足升序子数组的条件，那么将当前升序子数组的和 $t$ 重置为当前元素，即 $t = nums[i]$。
+If the current element is the first element of the array, or the current element is greater than the previous one, then add the current element to the sum of the current ascending subarray, i.e., $t = t + nums[i]$, and update the maximum sum of the ascending subarray $ans = \max(ans, t)$. Otherwise, the current element does not satisfy the condition of the ascending subarray, so reset the sum $t$ of the current ascending subarray to the current element, i.e., $t = nums[i]$.
 
-遍历结束，返回最大升序子数组和 $ans$。
+After the traversal, return the maximum sum of the ascending subarray $ans$.
 
-时间复杂度 $O(n)$，其中 $n$ 为数组 $nums$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

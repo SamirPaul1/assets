@@ -1,77 +1,56 @@
-# [1644. 二叉树的最近公共祖先 II](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree-ii)
+# [1644. Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii)
 
-[English Version](/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/README_EN.md)
+[中文文档](/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, return <em>the lowest common ancestor (LCA) of two given nodes, </em><code>p</code><em> and </em><code>q</code>. If either node <code>p</code> or <code>q</code> <strong>does not exist</strong> in the tree, return <code>null</code>. All values of the nodes in the tree are <strong>unique</strong>.</p>
 
-<p>给定一棵二叉树的根节点 <code>root</code>，返回给定节点 <code>p</code> 和 <code>q</code> 的最近公共祖先（LCA）节点。如果 <code>p</code> 或 <code>q</code> 之一<strong> 不存在</strong> 于该二叉树中，返回 <code>null</code>。树中的每个节点值都是互不相同的。</p>
-
-<p>根据<a href="https://en.wikipedia.org/wiki/Lowest_common_ancestor" target="_blank">维基百科中对最近公共祖先节点的定义</a>：“两个节点 <code>p</code> 和 <code>q</code> 在二叉树 <code>T</code> 中的最近公共祖先节点是<strong> 后代节点 </strong>中既包括 <code>p</code>&nbsp;又包括&nbsp;<code>q</code>&nbsp;的最深节点（我们允许<strong> 一个节点为自身的一个后代节点 </strong>）”。一个节点 <code>x</code>&nbsp;的<strong> 后代节点 </strong>是节点&nbsp;<code>x</code> 到某一叶节点间的路径中的节点 <code>y</code>。</p>
+<p>According to the <strong><a href="https://en.wikipedia.org/wiki/Lowest_common_ancestor" target="_blank">definition of LCA on Wikipedia</a></strong>: &quot;The lowest common ancestor of two nodes <code>p</code> and <code>q</code> in a binary tree <code>T</code> is the lowest node that has both <code>p</code> and <code>q</code> as <strong>descendants</strong> (where we allow <b>a node to be a descendant of itself</b>)&quot;. A <strong>descendant</strong> of a node <code>x</code> is a node <code>y</code> that is on the path from node <code>x</code> to some leaf node.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/images/binarytree.png" />
 <pre>
-<b>输入：</b> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
-<b>输出：</b> 3
-<b>解释：</b> 节点 5 和 1 的共同祖先节点是 3。</pre>
+<strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The LCA of nodes 5 and 1 is 3.</pre>
 
-<p><strong>示例 2:</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/images/binarytree.png" /></p>
-
-<pre>
-<b>输入：</b> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
-<b>输出：</b> 5
-<b>解释：</b> 节点 5 和 4 的共同祖先节点是 5。根据共同祖先节点的定义，一个节点可以是自身的后代节点。</pre>
-
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/images/binarytree.png" /></p>
 
 <pre>
-<strong>输入：</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 10
-<b>输出：</b> null
-<b>解释：</b> 节点 10 不存在于树中，所以返回 null。
+<strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> The LCA of nodes 5 and 4 is 5. A node can be a descendant of itself according to the definition of LCA.</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1644.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree%20II/images/binarytree.png" /></p>
+
+<pre>
+<strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 10
+<strong>Output:</strong> null
+<strong>Explanation:</strong> Node 10 does not exist in the tree, so return null.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点个数的范围是&nbsp;<code>[1, 10<sup>4</sup>]</code></li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-10<sup>9</sup> &lt;= Node.val &lt;= 10<sup>9</sup></code></li>
-	<li>所有节点的值&nbsp;<code>Node.val</code> <strong>互不相同</strong></li>
+	<li>All <code>Node.val</code> are <strong>unique</strong>.</li>
 	<li><code>p != q</code></li>
 </ul>
 
 <p>&nbsp;</p>
+<strong>Follow up:</strong>&nbsp;Can you find the LCA traversing the tree, without checking nodes existence?
 
-<p><strong>进阶：</strong> 在不检查节点是否存在的情况下，你可以遍历树找出最近公共祖先节点吗？</p>
+## Solutions
 
-## 解法
-
-### 方法一：递归（后序遍历）
-
-我们设计一个函数 $dfs(root, p, q)$，该函数返回以 $root$ 为根节点的二叉树中是否包含节点 $p$ 或节点 $q$，如果包含，则返回 `true`，否则返回 `false`。
-
-函数 $dfs(root, p, q)$ 的递归过程如下：
-
-如果当前节点 $root$ 为空，则返回 `false`。
-
-否则，我们递归地遍历左子树和右子树，得到 $l$ 和 $r$，分别表示左子树和右子树中是否包含节点 $p$ 或节点 $q$。
-
-如果 $l$ 和 $r$ 都为 `true`，说明当前节点 $root$ 就是我们要找的最近公共祖先节点，将其赋值给变量 $ans$。
-
-如果 $l$ 或 $r$ 为 `true`，并且当前节点 $root$ 的值等于节点 $p$ 或节点 $q$ 的值，说明当前节点 $root$ 就是我们要找的最近公共祖先节点，将其赋值给变量 $ans$。
-
-最后，我们判断 $l$ 或 $r$ 是否为 `true`，或者当前节点 $root$ 的值是否等于节点 $p$ 或节点 $q$ 的值，如果是，则返回 `true`，否则返回 `false`。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是二叉树的节点个数。
+### Solution 1
 
 <!-- tabs:start -->
 

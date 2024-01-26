@@ -1,53 +1,49 @@
-# [1090. 受标签影响的最大值](https://leetcode.cn/problems/largest-values-from-labels)
+# [1090. Largest Values From Labels](https://leetcode.com/problems/largest-values-from-labels)
 
-[English Version](/solution/1000-1099/1090.Largest%20Values%20From%20Labels/README_EN.md)
+[中文文档](/solution/1000-1099/1090.Largest%20Values%20From%20Labels/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There is a set of <code>n</code> items. You are given two integer arrays <code>values</code> and <code>labels</code> where the value and the label of the <code>i<sup>th</sup></code> element are <code>values[i]</code> and <code>labels[i]</code> respectively. You are also given two integers <code>numWanted</code> and <code>useLimit</code>.</p>
 
-<p>我们有一个&nbsp;<code>n</code>&nbsp;项的集合。给出两个整数数组&nbsp;<code>values</code>&nbsp;和 <code>labels</code>&nbsp;，第 <code>i</code> 个元素的值和标签分别是&nbsp;<code>values[i]</code>&nbsp;和&nbsp;<code>labels[i]</code>。还会给出两个整数&nbsp;<code>numWanted</code>&nbsp;和 <code>useLimit</code> 。</p>
-
-<p>从 <code>n</code> 个元素中选择一个子集 <code>s</code> :</p>
+<p>Choose a subset <code>s</code> of the <code>n</code> elements such that:</p>
 
 <ul>
-	<li>子集 <code>s</code> 的大小&nbsp;<strong>小于或等于</strong> <code>numWanted</code> 。</li>
-	<li><code>s</code> 中 <strong>最多</strong> 有相同标签的 <code>useLimit</code> 项。</li>
+	<li>The size of the subset <code>s</code> is <strong>less than or equal to</strong> <code>numWanted</code>.</li>
+	<li>There are <strong>at most</strong> <code>useLimit</code> items with the same label in <code>s</code>.</li>
 </ul>
 
-<p>一个子集的&nbsp;<strong>分数&nbsp;</strong>是该子集的值之和。</p>
+<p>The <strong>score</strong> of a subset is the sum of the values in the subset.</p>
 
-<p>返回子集&nbsp;<code>s</code> 的最大 <strong>分数</strong> 。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>values = [5,4,3,2,1], labels = [1,1,2,2,3], numWanted = 3, useLimit = 1
-<strong>输出：</strong>9
-<strong>解释：</strong>选出的子集是第一项，第三项和第五项。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>values = [5,4,3,2,1], labels = [1,3,3,3,2], numWanted = 3, useLimit = 2
-<strong>输出：</strong>12
-<strong>解释：</strong>选出的子集是第一项，第二项和第三项。
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>values = [9,8,8,7,6], labels = [0,0,0,1,1], numWanted = 3, useLimit = 1
-<strong>输出：</strong>16
-<strong>解释：</strong>选出的子集是第一项和第四项。
-</pre>
+<p>Return <em>the maximum <strong>score</strong> of a subset </em><code>s</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> values = [5,4,3,2,1], labels = [1,1,2,2,3], numWanted = 3, useLimit = 1
+<strong>Output:</strong> 9
+<strong>Explanation:</strong> The subset chosen is the first, third, and fifth items.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> values = [5,4,3,2,1], labels = [1,3,3,3,2], numWanted = 3, useLimit = 2
+<strong>Output:</strong> 12
+<strong>Explanation:</strong> The subset chosen is the first, second, and third items.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> values = [9,8,8,7,6], labels = [0,0,0,1,1], numWanted = 3, useLimit = 1
+<strong>Output:</strong> 16
+<strong>Explanation:</strong> The subset chosen is the first and fourth items.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == values.length == labels.length</code></li>
@@ -56,17 +52,9 @@
 	<li><code>1 &lt;= numWanted, useLimit &lt;= n</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 排序 + 哈希表
-
-根据题目描述，我们需要从 $n$ 个元素的集合中选出一个子集，子集元素个数不超过 $numWanted$，且子集中最多有相同标签的 $useLimit$ 项，使得子集的值之和最大。因此，我们应该贪心地选择集合中值较大的元素，同时记录每个标签出现的次数，当某个标签出现的次数达到 $useLimit$ 时，我们就不能再选择该标签对应的元素了。
-
-具体地，我们先将集合中的元素按照值从大到小进行排序，然后从前向后遍历排序后的元素。在遍历的过程中，我们使用一个哈希表 $cnt$ 记录每个标签出现的次数，如果某个标签出现的次数达到了 $useLimit$，那么我们就跳过该元素，否则我们就将该元素的值加到最终的答案中，并将该标签出现的次数加 $1$。同时，我们用一个变量 $num$ 记录当前子集中的元素个数，当 $num$ 达到 $numWanted$ 时，我们就可以结束遍历了。
-
-遍历结束后，我们就得到了最大的分数。
-
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 是集合中的元素个数。
+### Solution 1
 
 <!-- tabs:start -->
 

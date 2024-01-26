@@ -1,12 +1,10 @@
-# [574. 当选者](https://leetcode.cn/problems/winning-candidate)
+# [574. Winning Candidate](https://leetcode.com/problems/winning-candidate)
 
-[English Version](/solution/0500-0599/0574.Winning%20Candidate/README_EN.md)
+[中文文档](/solution/0500-0599/0574.Winning%20Candidate/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Candidate</code></p>
+<p>Table: <code>Candidate</code></p>
 
 <pre>
 +-------------+----------+
@@ -15,12 +13,13 @@
 | id          | int      |
 | name        | varchar  |
 +-------------+----------+
-id 是该表中具有唯一值的列
-该表的每一行都包含关于候选对象的id和名称的信息。</pre>
+id is the column with unique values for this table.
+Each row of this table contains information about the id and the name of a candidate.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>表:&nbsp;<code>Vote</code></p>
+<p>Table: <code>Vote</code></p>
 
 <pre>
 +-------------+------+
@@ -29,24 +28,24 @@ id 是该表中具有唯一值的列
 | id          | int  |
 | candidateId | int  |
 +-------------+------+
-id 是自动递增的主键(具有唯一值的列)。
-candidateId是id来自Candidate表的外键(reference 列)。
-该表的每一行决定了在选举中获得第i张选票的候选人。</pre>
+id is an auto-increment primary key (column with unique values).
+candidateId is a foreign key (reference column) to id from the Candidate table.
+Each row of this table determines the candidate who got the i<sup>th</sup> vote in the elections.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案来报告获胜候选人的名字(即获得最多选票的候选人)。</p>
+<p>Write a solution to report the name of the winning candidate (i.e., the candidate who got the largest number of votes).</p>
 
-<p>生成的测试用例保证&nbsp;<strong>只有一个候选人赢得&nbsp;</strong>选举。</p>
+<p>The test cases are generated so that <strong>exactly one candidate wins</strong> the elections.</p>
 
-<p>返回结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
+<strong>Input:</strong> 
 Candidate table:
 +----+------+
 | id | name |
@@ -67,19 +66,20 @@ Vote table:
 | 4  | 2           |
 | 5  | 5           |
 +----+-------------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +------+
 | name |
 +------+
 | B    |
 +------+
-<strong>解释:</strong> 
-候选人B有2票。候选人C、D、E各有1票。
-获胜者是候选人B。</pre>
+<strong>Explanation:</strong> 
+Candidate B has 2 votes. Candidates C, D, and E have 1 vote each.
+The winner is candidate B.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -101,7 +101,7 @@ FROM
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

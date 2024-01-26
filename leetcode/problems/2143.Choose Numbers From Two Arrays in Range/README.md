@@ -1,67 +1,63 @@
-# [2143. 在两个数组的区间中选取数字](https://leetcode.cn/problems/choose-numbers-from-two-arrays-in-range)
+# [2143. Choose Numbers From Two Arrays in Range](https://leetcode.com/problems/choose-numbers-from-two-arrays-in-range)
 
-[English Version](/solution/2100-2199/2143.Choose%20Numbers%20From%20Two%20Arrays%20in%20Range/README_EN.md)
+[中文文档](/solution/2100-2199/2143.Choose%20Numbers%20From%20Two%20Arrays%20in%20Range/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two <strong>0-indexed</strong> integer arrays <code>nums1</code> and <code>nums2</code> of length <code>n</code>.</p>
 
-<p>给你两个 <strong>下标从 0 开始</strong>，长度为 <code>n</code> 的整数数组 <code>nums1</code> 和 <code>nums2</code>。</p>
-
-<p>如果一个区间 <code>[l, r]</code> （<strong>包含左右端点</strong>，<code>0 &lt;= l &lt;= r &lt; n</code>）满足下列条件，那么这个区间就是 <strong>平衡</strong> 的：</p>
+<p>A range <code>[l, r]</code> (<strong>inclusive</strong>) where <code>0 &lt;= l &lt;= r &lt; n</code> is <strong>balanced</strong> if:</p>
 
 <ul>
-	<li>对每个在区间 <code>[l, r]</code> 范围内的 <code>i</code>，你需要选取&nbsp;<code>nums1[i]</code> 或者&nbsp;<code>nums2[i]</code>；</li>
-	<li>从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等。（如果你没有从某个数组中选取任何数字，那么数字和被视为 <code>0</code>）。</li>
+	<li>For every <code>i</code> in the range <code>[l, r]</code>, you pick either <code>nums1[i]</code> or <code>nums2[i]</code>.</li>
+	<li>The sum of the numbers you pick from <code>nums1</code> equals to the sum of the numbers you pick from <code>nums2</code> (the sum is considered to be <code>0</code> if you pick no numbers from an array).</li>
 </ul>
 
-<p>如果两个 <strong>平衡</strong> 的区间 <code>[l<sub>1</sub>, r<sub>1</sub>]</code> 和 <code>[l<sub>2</sub>, r<sub>2</sub>]</code> 满足下列条件之一，那么它们就是 <strong>不同</strong> 的：</p>
+<p>Two <strong>balanced</strong> ranges from <code>[l<sub>1</sub>, r<sub>1</sub>]</code> and <code>[l<sub>2</sub>, r<sub>2</sub>]</code> are considered to be <strong>different</strong> if at least one of the following is true:</p>
 
 <ul>
 	<li><code>l<sub>1</sub> != l<sub>2</sub></code></li>
 	<li><code>r<sub>1</sub> != r<sub>2</sub></code></li>
-	<li>两个区间中的数字选取情况不同（也就是说，存在至少一个 <code>i</code>，使得在第一个区间中，<code>nums1[i]</code> 被选中, 而在第二个区间中，<code>nums2[i]</code> 被选中，或者相反的情况）。</li>
+	<li><code>nums1[i]</code> is picked in the first range, and <code>nums2[i]</code> is picked in the second range or <strong>vice versa</strong> for at least one <code>i</code>.</li>
 </ul>
 
-<p>请返回 <strong>不同</strong> 的平衡的区间数目。由于答案可能很大，请返回答案 <strong>模 </strong><code>10<sup>9</sup>+7</code> 的结果。</p>
+<p>Return <em>the number of <strong>different</strong> ranges that are balanced. </em>Since the answer may be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code><em>.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums1 = [1,2,5], nums2 = [2,6,3]
-<strong>输出:</strong> 3
-<strong>解释:</strong> 平衡的区间有:
-- [0, 1], 我们选取 nums2[0] 和 nums2[1]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 2 = 2.
-- [0, 2], 我们选取 nums1[0], nums2[1] 和 nums1[2]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 1 + 5 = 6。
-- [0, 2], 我们选取 nums1[0], nums1[1] 和 nums2[2]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 1 + 2 = 3。
-注意第二个区间和第三个区间是不同的。
-因为在第二个平衡的区间中，我们选取了 nums2[1]，但是在第三个平衡的区间中，我们选取了 nums1[1]。
+<strong>Input:</strong> nums1 = [1,2,5], nums2 = [2,6,3]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The balanced ranges are:
+- [0, 1] where we choose nums2[0], and nums1[1].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 2 = 2.
+- [0, 2] where we choose nums1[0], nums2[1], and nums1[2].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 1 + 5 = 6.
+- [0, 2] where we choose nums1[0], nums1[1], and nums2[2].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 1 + 2 = 3.
+Note that the second and third balanced ranges are different.
+In the second balanced range, we choose nums2[1] and in the third balanced range, we choose nums1[1].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums1 = [0,1], nums2 = [1,0]
-<strong>输出:</strong> 4
-<strong>解释:</strong> 平衡的区间有:
-- [0, 0], 我们选取 nums1[0]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 0 = 0。
-- [1, 1], 我们选取 nums2[1]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 0 = 0。
-- [0, 1], 我们选取 nums1[0] 和 nums2[1]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 0 = 0。
-- [0, 1], 我们选取 nums2[0] 和 nums1[1]。
-  从 <code>nums1</code> 中选取的数字和与从 <code>nums2</code> 中选取的数字和相等: 1 = 1。
+<strong>Input:</strong> nums1 = [0,1], nums2 = [1,0]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The balanced ranges are:
+- [0, 0] where we choose nums1[0].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 0 = 0.
+- [1, 1] where we choose nums2[1].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 0 = 0.
+- [0, 1] where we choose nums1[0] and nums2[1].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 0 = 0.
+- [0, 1] where we choose nums2[0] and nums1[1].
+  The sum of the numbers chosen from nums1 equals the sum of the numbers chosen from nums2: 1 = 1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums1.length == nums2.length</code></li>
@@ -69,17 +65,9 @@
 	<li><code>0 &lt;= nums1[i], nums2[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们定义 $f[i][j]$ 表示以第 $i$ 个元素结尾，且从 $nums1$ 中选取的数字和与从 $nums2$ 中选取的数字和之差为 $j$ 的平衡区间的个数。由于差值可能为负数，因此，我们统一将 $j$ 加上 $s_2 = \sum_{k=0}^{n-1}nums2[k]$，这样就可以保证 $j$ 为非负整数。
-
-考虑 $f[i][j]$，我们可以单独将第 $i$ 个元素视为一个区间，那么 $f[i][nums1[i] + s_2]$ 和 $f[i][-nums2[i] + s_2]$ 都会增加 $1$。此外，如果 $i \gt 0$，我们也可以将第 $i$ 个元素添加到前面的某个区间中，我们在 $[0, s_1 + s_2]$ 范围内枚举 $j$，如果 $j \geq a$，那么 $f[i][j]$ 会增加 $f[i - 1][j - a]$，如果 $j + b \leq s_1 + s_2$，那么 $f[i][j]$ 会增加 $f[i - 1][j + b]$。
-
-答案为 $\sum_{i=0}^{n-1}f[i][s_2]$。
-
-时间复杂度 $O(n \times M)$，空间复杂度 $O(n \times M)$。其中 $n$ 和 $M$ 分别为数组 $nums1$ 的长度以及数字和的最大值。
+### Solution 1
 
 <!-- tabs:start -->
 

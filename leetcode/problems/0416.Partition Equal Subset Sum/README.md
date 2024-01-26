@@ -1,58 +1,39 @@
-# [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum)
+# [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum)
 
-[English Version](/solution/0400-0499/0416.Partition%20Equal%20Subset%20Sum/README_EN.md)
+[中文文档](/solution/0400-0499/0416.Partition%20Equal%20Subset%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code>, return <code>true</code> <em>if you can partition the array into two subsets such that the sum of the elements in both subsets is equal or </em><code>false</code><em> otherwise</em>.</p>
 
-<p>给你一个 <strong>只包含正整数 </strong>的 <strong>非空 </strong>数组 <code>nums</code> 。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,5,11,5]
-<strong>输出：</strong>true
-<strong>解释：</strong>数组可以分割成 [1, 5, 5] 和 [11] 。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3,5]
-<strong>输出：</strong>false
-<strong>解释：</strong>数组不能分割成两个元素和相等的子集。
+<strong>Input:</strong> nums = [1,5,11,5]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The array can be partitioned as [1, 5, 5] and [11].
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [1,2,3,5]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> The array cannot be partitioned into equal sum subsets.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= nums.length <= 200</code></li>
-	<li><code>1 <= nums[i] <= 100</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 200</code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们先计算出数组的总和 $s$，如果总和是奇数，那么一定不能分割成两个和相等的子集，直接返回 $false$。如果总和是偶数，我们记目标子集的和为 $m = \frac{s}{2}$，那么问题就转化成了：是否存在一个子集，使得其元素的和为 $m$。
-
-我们定义 $f[i][j]$ 表示前 $i$ 个数中选取若干个数，使得其元素的和恰好为 $j$。初始时 $f[0][0] = true$，其余 $f[i][j] = false$。答案为 $f[n][m]$。
-
-考虑 $f[i][j]$，如果我们选取了第 $i$ 个数 $x$，那么 $f[i][j] = f[i - 1][j - x]$；如果我们没有选取第 $i$ 个数 $x$，那么 $f[i][j] = f[i - 1][j]$。因此状态转移方程为：
-
-$$
-f[i][j] = f[i - 1][j] \text{ or } f[i - 1][j - x] \text{ if } j \geq x
-$$
-
-最终答案为 $f[n][m]$。
-
-注意到 $f[i][j]$ 只与 $f[i - 1][\cdot]$ 有关，因此我们可以将二维数组压缩成一维数组。
-
-时间复杂度 $O(n \times m)$，空间复杂度 $O(m)$。其中 $n$ 是数组的长度，而 $m$ 是数组的总和的一半。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -232,7 +213,7 @@ var canPartition = function (nums) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

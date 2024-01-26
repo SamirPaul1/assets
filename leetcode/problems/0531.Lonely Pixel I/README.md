@@ -1,46 +1,42 @@
-# [531. 孤独像素 I](https://leetcode.cn/problems/lonely-pixel-i)
+# [531. Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i)
 
-[English Version](/solution/0500-0599/0531.Lonely%20Pixel%20I/README_EN.md)
+[中文文档](/solution/0500-0599/0531.Lonely%20Pixel%20I/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an <code>m x n</code> <code>picture</code> consisting of black <code>&#39;B&#39;</code> and white <code>&#39;W&#39;</code> pixels, return <em>the number of <b>black</b> lonely pixels</em>.</p>
 
-<p>给你一个大小为 <code>m x n</code> 的图像 <code>picture</code> ，图像由黑白像素组成，<code>'B'</code> 表示黑色像素，<code>'W'</code> 表示白色像素，请你统计并返回图像中 <strong>黑色</strong> 孤独像素的数量。</p>
-
-<p><strong>黑色孤独像素</strong> 的定义为：如果黑色像素 <code>'B'</code> 所在的同一行和同一列不存在其他黑色像素，那么这个黑色像素就是黑色孤独像素。</p>
+<p>A black lonely pixel is a character <code>&#39;B&#39;</code> that located at a specific position where the same row and same column don&#39;t have <strong>any other</strong> black pixels.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0531.Lonely%20Pixel%20I/images/pixel1.jpg" style="width: 242px; height: 242px;" />
 <pre>
-<strong>输入：</strong>picture = [["W","W","B"],["W","B","W"],["B","W","W"]]
-<strong>输出：</strong>3
-<strong>解释：</strong>全部三个 'B' 都是黑色的孤独像素
+<strong>Input:</strong> picture = [[&quot;W&quot;,&quot;W&quot;,&quot;B&quot;],[&quot;W&quot;,&quot;B&quot;,&quot;W&quot;],[&quot;B&quot;,&quot;W&quot;,&quot;W&quot;]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> All the three &#39;B&#39;s are black lonely pixels.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0531.Lonely%20Pixel%20I/images/pixel2.jpg" style="width: 242px; height: 242px;" />
 <pre>
-<strong>输入：</strong>picture = [["B","B","B"],["B","B","W"],["B","B","B"]]
-<strong>输出：</strong>0
+<strong>Input:</strong> picture = [[&quot;B&quot;,&quot;B&quot;,&quot;B&quot;],[&quot;B&quot;,&quot;B&quot;,&quot;W&quot;],[&quot;B&quot;,&quot;B&quot;,&quot;B&quot;]]
+<strong>Output:</strong> 0
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m ==&nbsp;picture.length</code></li>
 	<li><code>n ==&nbsp;picture[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 500</code></li>
-	<li><code>picture[i][j]</code> 为 <code>'W'</code> 或 <code>'B'</code></li>
+	<li><code>picture[i][j]</code> is <code>&#39;W&#39;</code> or <code>&#39;B&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

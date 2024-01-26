@@ -1,52 +1,49 @@
-# [725. 分隔链表](https://leetcode.cn/problems/split-linked-list-in-parts)
+# [725. Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts)
 
-[English Version](/solution/0700-0799/0725.Split%20Linked%20List%20in%20Parts/README_EN.md)
+[中文文档](/solution/0700-0799/0725.Split%20Linked%20List%20in%20Parts/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>head</code> of a singly linked list and an integer <code>k</code>, split the linked list into <code>k</code> consecutive linked list parts.</p>
 
-<p>给你一个头结点为 <code>head</code> 的单链表和一个整数 <code>k</code> ，请你设计一个算法将链表分隔为 <code>k</code> 个连续的部分。</p>
+<p>The length of each part should be as equal as possible: no two parts should have a size differing by more than one. This may lead to some parts being null.</p>
 
-<p>每部分的长度应该尽可能的相等：任意两部分的长度差距不能超过 1 。这可能会导致有些部分为 null 。</p>
+<p>The parts should be in the order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal to parts occurring later.</p>
 
-<p>这 <code>k</code> 个部分应该按照在链表中出现的顺序排列，并且排在前面的部分的长度应该大于或等于排在后面的长度。</p>
+<p>Return <em>an array of the </em><code>k</code><em> parts</em>.</p>
 
-<p>返回一个由上述 <code>k</code> 部分组成的数组。</p>
-&nbsp;
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0725.Split%20Linked%20List%20in%20Parts/images/split1-lc.jpg" style="width: 400px; height: 134px;" />
 <pre>
-<strong>输入：</strong>head = [1,2,3], k = 5
-<strong>输出：</strong>[[1],[2],[3],[],[]]
-<strong>解释：</strong>
-第一个元素 output[0] 为 output[0].val = 1 ，output[0].next = null 。
-最后一个元素 output[4] 为 null ，但它作为 ListNode 的字符串表示是 [] 。
+<strong>Input:</strong> head = [1,2,3], k = 5
+<strong>Output:</strong> [[1],[2],[3],[],[]]
+<strong>Explanation:</strong>
+The first element output[0] has output[0].val = 1, output[0].next = null.
+The last element output[4] is null, but its string representation as a ListNode is [].
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0725.Split%20Linked%20List%20in%20Parts/images/split2-lc.jpg" style="width: 600px; height: 60px;" />
 <pre>
-<strong>输入：</strong>head = [1,2,3,4,5,6,7,8,9,10], k = 3
-<strong>输出：</strong>[[1,2,3,4],[5,6,7],[8,9,10]]
-<strong>解释：</strong>
-输入被分成了几个连续的部分，并且每部分的长度相差不超过 1 。前面部分的长度大于等于后面部分的长度。
+<strong>Input:</strong> head = [1,2,3,4,5,6,7,8,9,10], k = 3
+<strong>Output:</strong> [[1,2,3,4],[5,6,7],[8,9,10]]
+<strong>Explanation:</strong>
+The input has been split into consecutive parts with size difference at most 1, and earlier parts are a larger size than the later parts.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>链表中节点的数目在范围 <code>[0, 1000]</code></li>
+	<li>The number of nodes in the list is in the range <code>[0, 1000]</code>.</li>
 	<li><code>0 &lt;= Node.val &lt;= 1000</code></li>
 	<li><code>1 &lt;= k &lt;= 50</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

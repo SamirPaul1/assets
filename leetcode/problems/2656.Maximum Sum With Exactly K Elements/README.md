@@ -1,52 +1,48 @@
-# [2656. K 个元素的最大和](https://leetcode.cn/problems/maximum-sum-with-exactly-k-elements)
+# [2656. Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements)
 
-[English Version](/solution/2600-2699/2656.Maximum%20Sum%20With%20Exactly%20K%20Elements/README_EN.md)
+[中文文档](/solution/2600-2699/2656.Maximum%20Sum%20With%20Exactly%20K%20Elements/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>nums</code> 和一个整数&nbsp;<code>k</code>&nbsp;。你需要执行以下操作<strong>&nbsp;恰好</strong> <code>k</code>&nbsp;次，最大化你的得分：</p>
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and an integer <code>k</code>. Your task is to perform the following operation <strong>exactly</strong> <code>k</code> times in order to maximize your score:</p>
 
 <ol>
-	<li>从 <code>nums</code>&nbsp;中选择一个元素&nbsp;<code>m</code>&nbsp;。</li>
-	<li>将选中的元素&nbsp;<code>m</code>&nbsp;从数组中删除。</li>
-	<li>将新元素&nbsp;<code>m + 1</code>&nbsp;添加到数组中。</li>
-	<li>你的得分增加&nbsp;<code>m</code>&nbsp;。</li>
+	<li>Select an element <code>m</code> from <code>nums</code>.</li>
+	<li>Remove the selected element <code>m</code> from the array.</li>
+	<li>Add a new element with a value of <code>m + 1</code> to the array.</li>
+	<li>Increase your score by <code>m</code>.</li>
 </ol>
 
-<p>请你返回执行以上操作恰好 <code>k</code>&nbsp;次后的最大得分。</p>
+<p>Return <em>the maximum score you can achieve after performing the operation exactly</em> <code>k</code> <em>times.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [1,2,3,4,5], k = 3
-<b>输出：</b>18
-<b>解释：</b>我们需要从 nums 中恰好选择 3 个元素并最大化得分。
-第一次选择 5 。和为 5 ，nums = [1,2,3,4,6] 。
-第二次选择 6 。和为 6 ，nums = [1,2,3,4,7] 。
-第三次选择 7 。和为 5 + 6 + 7 = 18 ，nums = [1,2,3,4,8] 。
-所以我们返回 18 。
-18 是可以得到的最大答案。
+<strong>Input:</strong> nums = [1,2,3,4,5], k = 3
+<strong>Output:</strong> 18
+<strong>Explanation:</strong> We need to choose exactly 3 elements from nums to maximize the sum.
+For the first iteration, we choose 5. Then sum is 5 and nums = [1,2,3,4,6]
+For the second iteration, we choose 6. Then sum is 5 + 6 and nums = [1,2,3,4,7]
+For the third iteration, we choose 7. Then sum is 5 + 6 + 7 = 18 and nums = [1,2,3,4,8]
+So, we will return 18.
+It can be proven, that 18 is the maximum answer that we can achieve.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [5,5,5], k = 2
-<b>输出：</b>11
-<b>解释：</b>我们需要从 nums 中恰好选择 2 个元素并最大化得分。
-第一次选择 5 。和为 5 ，nums = [5,5,6] 。
-第二次选择 6 。和为 6 ，nums = [5,5,7] 。
-所以我们返回 11 。
-11 是可以得到的最大答案。
+<strong>Input:</strong> nums = [5,5,5], k = 2
+<strong>Output:</strong> 11
+<strong>Explanation:</strong> We need to choose exactly 2 elements from nums to maximize the sum.
+For the first iteration, we choose 5. Then sum is 5 and nums = [5,5,6]
+For the second iteration, we choose 6. Then sum is 5 + 6 = 11 and nums = [5,5,7]
+So, we will return 11.
+It can be proven, that 11 is the maximum answer that we can achieve.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
@@ -54,13 +50,22 @@
 	<li><code>1 &lt;= k &lt;= 100</code></li>
 </ul>
 
-## 解法
+<p>&nbsp;</p>
+<style type="text/css">.spoilerbutton {display:block; border:dashed; padding: 0px 0px; margin:10px 0px; font-size:150%; font-weight: bold; color:#000000; background-color:cyan; outline:0; 
+}
+.spoiler {overflow:hidden;}
+.spoiler > div {-webkit-transition: all 0s ease;-moz-transition: margin 0s ease;-o-transition: all 0s ease;transition: margin 0s ease;}
+.spoilerbutton[value="Show Message"] + .spoiler > div {margin-top:-500%;}
+.spoilerbutton[value="Hide Message"] + .spoiler {padding:5px;}
+</style>
 
-### 方法一：贪心 + 数学
+## Solutions
 
-我们注意到，要使得最终的得分最大，我们应该尽可能地使得每次选择的元素最大。因此，我们第一次选择数组中的最大元素 $x$，第二次选择 $x+1$，第三次选择 $x+2$，以此类推，直到第 $k$ 次选择 $x+k-1$。这样的选择方式可以保证每次选择的元素都是当前数组中的最大值，因此最终的得分也是最大的。答案即为 $k$ 个 $x$ 的和加上 $0+1+2+\cdots+(k-1)$，即 $k \times x + (k - 1) \times k / 2$。
+### Solution 1: Greedy + Mathematics
 
-时间复杂度 $O(n)$，其中 $n$ 是数组的长度。空间复杂度 $O(1)$。
+We notice that to make the final score maximum, we should make each choice as large as possible. Therefore, we select the largest element $x$ in the array for the first time, $x+1$ for the second time, $x+2$ for the third time, and so on, until the $k$th time we select $x+k-1$. This way of selection ensures that the element selected each time is the largest in the current array, so the final score is also the largest. The answer is $k$ $x$ sum plus $0+1+2+\cdots+(k-1)$, that is, $k \times x + (k - 1) \times k / 2$.
+
+Time complexity is $O(n)$, where $n$ is the length of the array. Space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -125,7 +130,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,37 +1,35 @@
-# [229. 多数元素 II](https://leetcode.cn/problems/majority-element-ii)
+# [229. Majority Element II](https://leetcode.com/problems/majority-element-ii)
 
-[English Version](/solution/0200-0299/0229.Majority%20Element%20II/README_EN.md)
+[中文文档](/solution/0200-0299/0229.Majority%20Element%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个大小为&nbsp;<em>n&nbsp;</em>的整数数组，找出其中所有出现超过&nbsp;<code>⌊ n/3 ⌋</code>&nbsp;次的元素。</p>
+<p>Given an integer array of size <code>n</code>, find all elements that appear more than <code>&lfloor; n/3 &rfloor;</code> times.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例&nbsp;1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [3,2,3]
-<strong>输出：</strong>[3]</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1]
-<strong>输出：</strong>[1]
+<strong>Input:</strong> nums = [3,2,3]
+<strong>Output:</strong> [3]
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,2]
-<strong>输出：</strong>[1,2]</pre>
+<strong>Input:</strong> nums = [1]
+<strong>Output:</strong> [1]
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,2]
+<strong>Output:</strong> [1,2]
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 5 * 10<sup>4</sup></code></li>
@@ -39,12 +37,11 @@
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?</p>
 
-<p><strong>进阶：</strong>尝试设计时间复杂度为 O(n)、空间复杂度为 O(1)的算法解决此问题。</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

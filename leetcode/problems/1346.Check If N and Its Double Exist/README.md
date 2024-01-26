@@ -1,14 +1,10 @@
-# [1346. 检查整数及其两倍数是否存在](https://leetcode.cn/problems/check-if-n-and-its-double-exist)
+# [1346. Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist)
 
-[English Version](/solution/1300-1399/1346.Check%20If%20N%20and%20Its%20Double%20Exist/README_EN.md)
+[中文文档](/solution/1300-1399/1346.Check%20If%20N%20and%20Its%20Double%20Exist/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个整数数组&nbsp;<code>arr</code>，请你检查是否存在两个整数&nbsp;<code>N</code> 和 <code>M</code>，满足&nbsp;<code>N</code>&nbsp;是&nbsp;<code>M</code>&nbsp;的两倍（即，<code>N = 2 * M</code>）。</p>
-
-<p>更正式地，检查是否存在两个下标&nbsp;<code>i</code> 和 <code>j</code> 满足：</p>
+<p>Given an array <code>arr</code> of integers, check if there exist two indices <code>i</code> and <code>j</code> such that :</p>
 
 <ul>
 	<li><code>i != j</code></li>
@@ -17,47 +13,33 @@
 </ul>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>arr = [10,2,5,3]
-<strong>输出：</strong>true
-<strong>解释：</strong>N<code> = 10</code> 是 M<code> = 5 的两倍</code>，即 <code>10 = 2 * 5 。</code>
+<pre>
+<strong>Input:</strong> arr = [10,2,5,3]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>arr = [7,1,14,11]
-<strong>输出：</strong>true
-<strong>解释：</strong>N<code> = 14</code> 是 M<code> = 7 的两倍</code>，即 <code>14 = 2 * 7 </code>。
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre><strong>输入：</strong>arr = [3,1,7,11]
-<strong>输出：</strong>false
-<strong>解释：</strong>在该情况下不存在 N 和 M 满足 N = 2 * M 。
+<pre>
+<strong>Input:</strong> arr = [3,1,7,11]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> There is no i and j that satisfy the conditions.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= arr.length &lt;= 500</code></li>
-	<li><code>-10^3 &lt;= arr[i] &lt;= 10^3</code></li>
+	<li><code>-10<sup>3</sup> &lt;= arr[i] &lt;= 10<sup>3</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
-
-使用哈希表 `m` 记录 `arr` 每个元素 `v` 及其对应的下标 `i`。
-
-遍历 `arr` 每个元素 `v`，若能在哈希表中找到 `v * 2`，且下标值与当前 `v` 的下标值不相等，说明找到了满足条件的元素，返回 `true`。否则遍历结束返回 `false`。
-
-时间复杂度：$O(n)$。
-空间复杂度：$O(n)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -186,13 +168,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：排序 + 二分查找
-
-首先对 `arr` 排序。
-
-然后遍历 `arr` 每个元素 `v`，二分查找 `arr` 中是否存在 `v * 2` 元素，是则返回 `true`。
-
-注意，元素可能为 0，这种情况下，`v*2` 的值同样为 0，二分查找可能会找到同个位置的元素，与题意不符。因此，可以预先统计 `arr` 中元素 0 的个数，若超过 1 个，可提前返回 `true`。
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -358,7 +334,7 @@ var checkIfExist = function (arr) {
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

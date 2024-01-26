@@ -1,37 +1,34 @@
-# [312. 戳气球](https://leetcode.cn/problems/burst-balloons)
+# [312. Burst Balloons](https://leetcode.com/problems/burst-balloons)
 
-[English Version](/solution/0300-0399/0312.Burst%20Balloons/README_EN.md)
+[中文文档](/solution/0300-0399/0312.Burst%20Balloons/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given <code>n</code> balloons, indexed from <code>0</code> to <code>n - 1</code>. Each balloon is painted with a number on it represented by an array <code>nums</code>. You are asked to burst all the balloons.</p>
 
-<p>有 <code>n</code> 个气球，编号为<code>0</code> 到 <code>n - 1</code>，每个气球上都标有一个数字，这些数字存在数组&nbsp;<code>nums</code>&nbsp;中。</p>
+<p>If you burst the <code>i<sup>th</sup></code> balloon, you will get <code>nums[i - 1] * nums[i] * nums[i + 1]</code> coins. If <code>i - 1</code> or <code>i + 1</code> goes out of bounds of the array, then treat it as if there is a balloon with a <code>1</code> painted on it.</p>
 
-<p>现在要求你戳破所有的气球。戳破第 <code>i</code> 个气球，你可以获得&nbsp;<code>nums[i - 1] * nums[i] * nums[i + 1]</code> 枚硬币。&nbsp;这里的 <code>i - 1</code> 和 <code>i + 1</code> 代表和&nbsp;<code>i</code>&nbsp;相邻的两个气球的序号。如果 <code>i - 1</code>或 <code>i + 1</code> 超出了数组的边界，那么就当它是一个数字为 <code>1</code> 的气球。</p>
-
-<p>求所能获得硬币的最大数量。</p>
+<p>Return <em>the maximum coins you can collect by bursting the balloons wisely</em>.</p>
 
 <p>&nbsp;</p>
-<strong>示例 1：</strong>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [3,1,5,8]
-<strong>输出：</strong>167
-<strong>解释：</strong>
+<strong>Input:</strong> nums = [3,1,5,8]
+<strong>Output:</strong> 167
+<strong>Explanation:</strong>
 nums = [3,1,5,8] --&gt; [3,5,8] --&gt; [3,8] --&gt; [8] --&gt; []
 coins =  3*1*5    +   3*5*8   +  1*3*8  + 1*8*1 = 167</pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,5]
-<strong>输出：</strong>10
+<strong>Input:</strong> nums = [1,5]
+<strong>Output:</strong> 10
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
@@ -39,9 +36,9 @@ coins =  3*1*5    +   3*5*8   +  1*3*8  + 1*8*1 = 167</pre>
 	<li><code>0 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

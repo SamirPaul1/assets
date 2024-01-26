@@ -1,102 +1,96 @@
-# [1188. 设计有限阻塞队列](https://leetcode.cn/problems/design-bounded-blocking-queue)
+# [1188. Design Bounded Blocking Queue](https://leetcode.com/problems/design-bounded-blocking-queue)
 
-[English Version](/solution/1100-1199/1188.Design%20Bounded%20Blocking%20Queue/README_EN.md)
+[中文文档](/solution/1100-1199/1188.Design%20Bounded%20Blocking%20Queue/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>实现一个拥有如下方法的线程安全有限阻塞队列：</p>
+<p>Implement a thread-safe bounded blocking queue that has the following methods:</p>
 
 <ul>
-	<li><code>BoundedBlockingQueue(int capacity)</code>&nbsp;构造方法初始化队列，其中<code>capacity</code>代表队列长度上限。</li>
-	<li><code>void enqueue(int element)</code>&nbsp;在队首增加一个<code>element</code>. 如果队列满，调用线程被阻塞直到队列非满。</li>
-	<li><code>int dequeue()</code>&nbsp;返回队尾元素并从队列中将其删除. 如果队列为空，调用线程被阻塞直到队列非空。</li>
-	<li><code>int size()</code>&nbsp;返回当前队列元素个数。</li>
+	<li><code>BoundedBlockingQueue(int capacity)</code> The constructor initializes the queue with a maximum <code>capacity</code>.</li>
+	<li><code>void enqueue(int element)</code> Adds an <code>element</code> to the front of the queue. If the queue is full, the calling thread is blocked until the queue is no longer full.</li>
+	<li><code>int dequeue()</code> Returns the element at the rear of the queue and removes it. If the queue is empty, the calling thread is blocked until the queue is no longer empty.</li>
+	<li><code>int size()</code> Returns the number of elements currently in the queue.</li>
 </ul>
 
-<p>你的实现将会被多线程同时访问进行测试。每一个线程要么是一个只调用<code>enqueue</code>方法的生产者线程，要么是一个只调用<code>dequeue</code>方法的消费者线程。<code>size</code>方法将会在每一个测试用例之后进行调用。</p>
+<p>Your implementation will be tested using multiple threads at the same time. Each thread will either be a producer thread that only makes calls to the <code>enqueue</code> method or a consumer thread that only makes calls to the <code>dequeue</code> method. The <code>size</code> method will be called after every test case.</p>
 
-<p>请不要使用内置的有限阻塞队列实现，否则面试将不会通过。</p>
+<p>Please do not use built-in implementations of bounded blocking queue as this will not be accepted in an interview.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong>
+<strong>Input:</strong>
 1
 1
-["BoundedBlockingQueue","enqueue","dequeue","dequeue","enqueue","enqueue","enqueue","enqueue","dequeue"]
+[&quot;BoundedBlockingQueue&quot;,&quot;enqueue&quot;,&quot;dequeue&quot;,&quot;dequeue&quot;,&quot;enqueue&quot;,&quot;enqueue&quot;,&quot;enqueue&quot;,&quot;enqueue&quot;,&quot;dequeue&quot;]
 [[2],[1],[],[],[0],[2],[3],[4],[]]
 
-<strong>输出:</strong>
+<strong>Output:</strong>
 [1,0,2,2]
 
-<strong>解释:
-</strong>生产者线程数目 = 1
-消费者线程数目 = 1
+<strong>Explanation:</strong>
+Number of producer threads = 1
+Number of consumer threads = 1
 
-BoundedBlockingQueue queue = new BoundedBlockingQueue(2);   // 使用capacity = 2初始化队列。
+BoundedBlockingQueue queue = new BoundedBlockingQueue(2);   // initialize the queue with capacity = 2.
 
-queue.enqueue(1);   // 生产者线程将 1 插入队列。
-queue.dequeue();    // 消费者线程调用 dequeue 并返回 1 。
-queue.dequeue();    // 由于队列为空，消费者线程被阻塞。
-queue.enqueue(0);   // 生产者线程将 0 插入队列。消费者线程被解除阻塞同时将 0 弹出队列并返回。
-queue.enqueue(2);   // 生产者线程将 2 插入队列。
-queue.enqueue(3);   // 生产者线程将 3 插入队列。
-queue.enqueue(4);   // 生产者线程由于队列长度已达到上限 2 而被阻塞。
-queue.dequeue();    // 消费者线程将 2 从队列弹出并返回。生产者线程解除阻塞同时将4插入队列。
-queue.size();       // 队列中还有 2 个元素。size()方法在每组测试用例最后调用。
+queue.enqueue(1);   // The producer thread enqueues 1 to the queue.
+queue.dequeue();    // The consumer thread calls dequeue and returns 1 from the queue.
+queue.dequeue();    // Since the queue is empty, the consumer thread is blocked.
+queue.enqueue(0);   // The producer thread enqueues 0 to the queue. The consumer thread is unblocked and returns 0 from the queue.
+queue.enqueue(2);   // The producer thread enqueues 2 to the queue.
+queue.enqueue(3);   // The producer thread enqueues 3 to the queue.
+queue.enqueue(4);   // The producer thread is blocked because the queue&#39;s capacity (2) is reached.
+queue.dequeue();    // The consumer thread returns 2 from the queue. The producer thread is unblocked and enqueues 4 to the queue.
+queue.size();       // 2 elements remaining in the queue. size() is always called at the end of each test case.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong>
+3
+4
+[&quot;BoundedBlockingQueue&quot;,&quot;enqueue&quot;,&quot;enqueue&quot;,&quot;enqueue&quot;,&quot;dequeue&quot;,&quot;dequeue&quot;,&quot;dequeue&quot;,&quot;enqueue&quot;]
+[[3],[1],[0],[2],[],[],[],[3]]
+<strong>Output:</strong>
+[1,0,2,1]
+
+<strong>Explanation:</strong>
+Number of producer threads = 3
+Number of consumer threads = 4
+
+BoundedBlockingQueue queue = new BoundedBlockingQueue(3);   // initialize the queue with capacity = 3.
+
+queue.enqueue(1);   // Producer thread P1 enqueues 1 to the queue.
+queue.enqueue(0);   // Producer thread P2 enqueues 0 to the queue.
+queue.enqueue(2);   // Producer thread P3 enqueues 2 to the queue.
+queue.dequeue();    // Consumer thread C1 calls dequeue.
+queue.dequeue();    // Consumer thread C2 calls dequeue.
+queue.dequeue();    // Consumer thread C3 calls dequeue.
+queue.enqueue(3);   // One of the producer threads enqueues 3 to the queue.
+queue.size();       // 1 element remaining in the queue.
+
+Since the number of threads for producer/consumer is greater than 1, we do not know how the threads will be scheduled in the operating system, even though the input seems to imply the ordering. Therefore, any of the output [1,0,2] or [1,2,0] or [0,1,2] or [0,2,1] or [2,0,1] or [2,1,0] will be accepted.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong>
-3
-4
-["BoundedBlockingQueue","enqueue","enqueue","enqueue","dequeue","dequeue","dequeue","enqueue"]
-[[3],[1],[0],[2],[],[],[],[3]]
-
-<strong>输出:</strong>
-[1,0,2,1]
-
-<strong>解释:
-</strong>生产者线程数目 = 3
-消费者线程数目 = 4
-
-BoundedBlockingQueue queue = new BoundedBlockingQueue(3);   // 使用capacity = 3初始化队列。
-
-queue.enqueue(1);   // 生产者线程 P1 将 1 插入队列。
-queue.enqueue(0);   // 生产者线程 P2 将 0 插入队列。
-queue.enqueue(2);   // 生产者线程 P3 将2插入队列。
-queue.dequeue();    // 消费者线程 C1 调用 dequeue。
-queue.dequeue();    // 消费者线程 C2 调用 dequeue。
-queue.dequeue();    // 消费者线程 C3 调用 dequeue。
-queue.enqueue(3);   // 其中一个生产者线程将3插入队列。
-queue.size();       // 队列中还有 1 个元素。
-
-由于生产者/消费者线程的数目可能大于 1 ，我们并不知道线程如何被操作系统调度，即使输入看上去隐含了顺序。因此任意一种输出[1,0,2]或[1,2,0]或[0,1,2]或[0,2,1]或[2,0,1]或[2,1,0]都可被接受。</pre>
-
-<p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= Number of Prdoucers &lt;= 8</code></li>
 	<li><code>1 &lt;= Number of Consumers &lt;= 8</code></li>
 	<li><code>1 &lt;= size &lt;= 30</code></li>
 	<li><code>0 &lt;= element &lt;= 20</code></li>
-	<li>&nbsp;<code>enqueue</code>的调用次数&nbsp;<strong>大于等于</strong> &nbsp;<code>dequeue</code>&nbsp;的调用次数。</li>
-	<li>&nbsp;<code>enque</code>,&nbsp;<code>deque</code> 和&nbsp;<code>size</code>&nbsp;最多被调用&nbsp;<code>40</code>&nbsp;次</li>
+	<li>The number of calls to <code>enqueue</code> is <strong>greater than or equal to</strong> the number of calls to <code>dequeue</code>.</li>
+	<li>At most <code>40</code> calls will be made to <code>enque</code>, <code>deque</code>, and <code>size</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

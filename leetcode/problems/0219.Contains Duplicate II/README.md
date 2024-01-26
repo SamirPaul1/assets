@@ -1,38 +1,35 @@
-# [219. 存在重复元素 II](https://leetcode.cn/problems/contains-duplicate-ii)
+# [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii)
 
-[English Version](/solution/0200-0299/0219.Contains%20Duplicate%20II/README_EN.md)
+[中文文档](/solution/0200-0299/0219.Contains%20Duplicate%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个整数数组&nbsp;<code>nums</code> 和一个整数&nbsp;<code>k</code> ，判断数组中是否存在两个 <strong>不同的索引</strong><em>&nbsp;</em><code>i</code>&nbsp;和<em>&nbsp;</em><code>j</code> ，满足 <code>nums[i] == nums[j]</code> 且 <code>abs(i - j) &lt;= k</code> 。如果存在，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
+<p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <code>true</code> <em>if there are two <strong>distinct indices</strong> </em><code>i</code><em> and </em><code>j</code><em> in the array such that </em><code>nums[i] == nums[j]</code><em> and </em><code>abs(i - j) &lt;= k</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例&nbsp;1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,3,1], k<em> </em>= 3
-<strong>输出：</strong>true</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,0,1,1], k<em> </em>=<em> </em>1
-<strong>输出：</strong>true</pre>
+<strong>Input:</strong> nums = [1,2,3,1], k = 3
+<strong>Output:</strong> true
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,2,3,1,2,3], k<em> </em>=<em> </em>2
-<strong>输出：</strong>false</pre>
+<strong>Input:</strong> nums = [1,0,1,1], k = 1
+<strong>Output:</strong> true
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,2,3,1,2,3], k = 2
+<strong>Output:</strong> false
+</pre>
 
 <p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
@@ -40,17 +37,17 @@
 	<li><code>0 &lt;= k &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
+### Solution 1: Hash Table
 
-我们用哈希表 $d$ 存放最近遍历到的数以及对应的下标。
+We use a hash table $d$ to store the nearest index of the number it has visited.
 
-遍历数组 `nums`，对于当前遍历到的元素 $nums[i]$，如果在哈希表中存在，并且下标与当前元素的下标之差不超过 $k$，则返回 `true`，否则将当前元素加入哈希表中。
+We traverse the array `nums`. For the current element $nums[i]$, if it exists in the hash table, and the difference between its index and the current index is no larger than $k$, then return `true`. Otherwise, we add the current element into the hash table.
 
-遍历结束后，返回 `false`。
+After the traversal, return `false`.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 `nums` 的长度。
+The time complexity is $O(n)$ and the space complexity is $O(n)$. Here $n$ is the length of array `nums`.
 
 <!-- tabs:start -->
 

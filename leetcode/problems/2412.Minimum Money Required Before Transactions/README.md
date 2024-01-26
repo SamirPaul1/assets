@@ -1,43 +1,39 @@
-# [2412. 完成所有交易的初始最少钱数](https://leetcode.cn/problems/minimum-money-required-before-transactions)
+# [2412. Minimum Money Required Before Transactions](https://leetcode.com/problems/minimum-money-required-before-transactions)
 
-[English Version](/solution/2400-2499/2412.Minimum%20Money%20Required%20Before%20Transactions/README_EN.md)
+[中文文档](/solution/2400-2499/2412.Minimum%20Money%20Required%20Before%20Transactions/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> 2D integer array <code><font face="monospace">transactions</font></code>, where <code>transactions[i] = [cost<sub>i</sub>, cashback<sub>i</sub>]</code>.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的二维整数数组&nbsp;<code><font face="monospace">transactions</font></code>，其中<code>transactions[i] = [cost<sub>i</sub>, cashback<sub>i</sub>]</code>&nbsp;。</p>
+<p>The array describes transactions, where each transaction must be completed exactly once in <strong>some order</strong>. At any given moment, you have a certain amount of <code>money</code>. In order to complete transaction <code>i</code>, <code>money &gt;= cost<sub>i</sub></code> must hold true. After performing a transaction, <code>money</code> becomes <code>money - cost<sub>i</sub> + cashback<sub>i</sub></code>.</p>
 
-<p>数组描述了若干笔交易。其中每笔交易必须以 <strong>某种顺序</strong> 恰好完成一次。在任意一个时刻，你有一定数目的钱&nbsp;<code>money</code>&nbsp;，为了完成交易&nbsp;<code>i</code>&nbsp;，<code>money &gt;= cost<sub>i</sub></code>&nbsp;这个条件必须为真。执行交易后，你的钱数&nbsp;<code>money</code> 变成&nbsp;<code>money - cost<sub>i</sub> + cashback<sub>i</sub></code><sub>&nbsp;</sub>。</p>
-
-<p>请你返回 <strong>任意一种</strong> 交易顺序下，你都能完成所有交易的最少钱数<em>&nbsp;</em><code>money</code>&nbsp;是多少。</p>
+<p>Return<em> the minimum amount of </em><code>money</code><em> required before any transaction so that all of the transactions can be completed <strong>regardless of the order</strong> of the transactions.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>transactions = [[2,1],[5,0],[4,2]]
-<b>输出：</b>10
-<strong>解释：
-</strong>刚开始 money = 10 ，交易可以以任意顺序进行。
-可以证明如果 money &lt; 10 ，那么某些交易无法进行。
+<strong>Input:</strong> transactions = [[2,1],[5,0],[4,2]]
+<strong>Output:</strong> 10
+<strong>Explanation:
+</strong>Starting with money = 10, the transactions can be performed in any order.
+It can be shown that starting with money &lt; 10 will fail to complete all transactions in some order.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>transactions = [[3,0],[0,3]]
-<b>输出：</b>3
-<strong>解释：</strong>
-- 如果交易执行的顺序是 [[3,0],[0,3]] ，完成所有交易需要的最少钱数是 3 。
-- 如果交易执行的顺序是 [[0,3],[3,0]] ，完成所有交易需要的最少钱数是 0 。
-所以，刚开始钱数为 3 ，任意顺序下交易都可以全部完成。
+<strong>Input:</strong> transactions = [[3,0],[0,3]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+- If transactions are in the order [[3,0],[0,3]], the minimum money required to complete the transactions is 3.
+- If transactions are in the order [[0,3],[3,0]], the minimum money required to complete the transactions is 0.
+Thus, starting with money = 3, the transactions can be performed in any order.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= transactions.length &lt;= 10<sup>5</sup></code></li>
@@ -45,13 +41,13 @@
 	<li><code>0 &lt;= cost<sub>i</sub>, cashback<sub>i</sub> &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心
+### Solution 1: Greedy
 
-我们先累计所有负收益，记为 $s$。然后枚举每个交易作为最后一个交易，如果 `transactions[i].x > transactions[i].y`，说明当前的交易是亏钱的，而这个交易在此前我们累计负收益的时候，已经被计算，因此取 `s + transactions[i].y` 更新答案；否则，取 `s + transactions[i].x` 更新答案。
+First, we accumulate all the negative profits, denoted as $s$. Then we enumerate each transaction as the last transaction. If `transactions[i].x > transactions[i].y`, it means the current transaction is losing money, and this transaction has been calculated when we previously accumulated negative profits, so we update the answer with `s + transactions[i].y`; otherwise, we update the answer with `s + transactions[i].x`.
 
-时间复杂度 $O(n)$，其中 $n$ 为交易数。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the number of transactions. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

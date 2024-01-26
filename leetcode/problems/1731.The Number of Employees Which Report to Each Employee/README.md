@@ -1,14 +1,13 @@
-# [1731. 每位经理的下属员工数量](https://leetcode.cn/problems/the-number-of-employees-which-report-to-each-employee)
+# [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee)
 
-[English Version](/solution/1700-1799/1731.The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee/README_EN.md)
+[中文文档](/solution/1700-1799/1731.The%20Number%20of%20Employees%20Which%20Report%20to%20Each%20Employee/README.md)
 
-## 题目描述
-
-<!-- 这里写题目描述 -->
+## Description
 
 <p>Table: <code>Employees</code></p>
 
-<pre>+-------------+----------+
+<pre>
++-------------+----------+
 | Column Name | Type     |
 +-------------+----------+
 | employee_id | int      |
@@ -16,23 +15,26 @@
 | reports_to  | int      |
 | age         | int      |
 +-------------+----------+
-employee_id 是这个表的主键.
-该表包含员工以及需要听取他们汇报的上级经理的ID的信息。 有些员工不需要向任何人汇报（reports_to 为空）。
+employee_id is the column with unique values for this table.
+This table contains information about the employees and the id of the manager they report to. Some employees do not report to anyone (reports_to is null). 
 </pre>
 
-<p> </p>
+<p>&nbsp;</p>
 
-<p>对于此问题，我们将至少有一个其他员工需要向他汇报的员工，视为一个经理。</p>
+<p>For this problem, we will consider a <strong>manager</strong> an employee who has at least 1 other employee reporting to them.</p>
 
-<p>编写SQL查询需要听取汇报的所有经理的ID、名称、直接向该经理汇报的员工人数，以及这些员工的平均年龄，其中该平均年龄需要四舍五入到最接近的整数。</p>
+<p>Write a solution to report the ids and the names of all <strong>managers</strong>, the number of employees who report <strong>directly</strong> to them, and the average age of the reports rounded to the nearest integer.</p>
 
-<p>返回的结果集需要按照 <code>employee_id </code>进行排序。</p>
+<p>Return the result table ordered by <code>employee_id</code>.</p>
 
-<p>查询结果的格式如下：</p>
+<p>The&nbsp;result format is in the following example.</p>
 
-<p> </p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<pre>Employees table:
+<pre>
+<strong>Input:</strong> 
+Employees table:
 +-------------+---------+------------+-----+
 | employee_id | name    | reports_to | age |
 +-------------+---------+------------+-----+
@@ -41,21 +43,20 @@ employee_id 是这个表的主键.
 | 4           | Bob     | 9          | 36  |
 | 2           | Winston | null       | 37  |
 +-------------+---------+------------+-----+
-
-Result table:
+<strong>Output:</strong> 
 +-------------+-------+---------------+-------------+
 | employee_id | name  | reports_count | average_age |
 +-------------+-------+---------------+-------------+
 | 9           | Hercy | 2             | 39          |
 +-------------+-------+---------------+-------------+
-Hercy 有两个需要向他汇报的员工, 他们是 Alice and Bob. 他们的平均年龄是 (41+36)/2 = 38.5, 四舍五入的结果是 39.
+<strong>Explanation:</strong> Hercy has 2 people report directly to him, Alice and Bob. Their average age is (41+36)/2 = 38.5, which is 39 after rounding it to the nearest integer.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：自连接 + 分组统计
+### Solution 1: Self-Join + Grouping
 
-我们可以通过自连接的方式，将每个员工的上级经理信息连接到每个员工的信息上，然后再通过分组统计的方式，统计每个经理的下属员工数量和平均年龄。
+We can use self-join to connect the information of each employee's superior manager to the information of each employee, and then use grouping and aggregation to count the number of subordinates and the average age of each manager.
 
 <!-- tabs:start -->
 

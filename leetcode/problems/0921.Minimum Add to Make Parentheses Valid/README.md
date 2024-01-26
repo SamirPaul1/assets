@@ -1,66 +1,51 @@
-# [921. 使括号有效的最少添加](https://leetcode.cn/problems/minimum-add-to-make-parentheses-valid)
+# [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid)
 
-[English Version](/solution/0900-0999/0921.Minimum%20Add%20to%20Make%20Parentheses%20Valid/README_EN.md)
+[中文文档](/solution/0900-0999/0921.Minimum%20Add%20to%20Make%20Parentheses%20Valid/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>只有满足下面几点之一，括号字符串才是有效的：</p>
+<p>A parentheses string is valid if and only if:</p>
 
 <ul>
-	<li>它是一个空字符串，或者</li>
-	<li>它可以被写成&nbsp;<code>AB</code>&nbsp;（<code>A</code>&nbsp;与&nbsp;<code>B</code>&nbsp;连接）, 其中&nbsp;<code>A</code> 和&nbsp;<code>B</code>&nbsp;都是有效字符串，或者</li>
-	<li>它可以被写作&nbsp;<code>(A)</code>，其中&nbsp;<code>A</code>&nbsp;是有效字符串。</li>
+	<li>It is the empty string,</li>
+	<li>It can be written as <code>AB</code> (<code>A</code> concatenated with <code>B</code>), where <code>A</code> and <code>B</code> are valid strings, or</li>
+	<li>It can be written as <code>(A)</code>, where <code>A</code> is a valid string.</li>
 </ul>
 
-<p>给定一个括号字符串 <code>s</code> ，在每一次操作中，你都可以在字符串的任何位置插入一个括号</p>
+<p>You are given a parentheses string <code>s</code>. In one move, you can insert a parenthesis at any position of the string.</p>
 
 <ul>
-	<li>例如，如果 <code>s = "()))"</code> ，你可以插入一个开始括号为 <code>"(()))"</code> 或结束括号为 <code>"())))"</code> 。</li>
+	<li>For example, if <code>s = &quot;()))&quot;</code>, you can insert an opening parenthesis to be <code>&quot;(<strong>(</strong>)))&quot;</code> or a closing parenthesis to be <code>&quot;())<strong>)</strong>)&quot;</code>.</li>
 </ul>
 
-<p>返回 <em>为使结果字符串 <code>s</code> 有效而必须添加的最少括号数</em>。</p>
+<p>Return <em>the minimum number of moves required to make </em><code>s</code><em> valid</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "())"
-<strong>输出：</strong>1
+<strong>Input:</strong> s = &quot;())&quot;
+<strong>Output:</strong> 1
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "((("
-<strong>输出：</strong>3
+<strong>Input:</strong> s = &quot;(((&quot;
+<strong>Output:</strong> 3
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
-	<li><code>s</code> 只包含&nbsp;<code>'('</code> 和&nbsp;<code>')'</code>&nbsp;字符。</li>
+	<li><code>s[i]</code> is either <code>&#39;(&#39;</code> or <code>&#39;)&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 栈
-
-这个问题属于经典的括号匹配问题，可以使用“贪心 + 栈”来解决。
-
-遍历字符串 $s$ 的每个字符 $c$：
-
--   若 $c$ 为左括号，直接将 $c$ 入栈；
--   若 $c$ 为右括号，此时如果栈不为空，且栈顶元素为左括号，则将栈顶元素出栈，表示匹配成功；否则将 $c$ 入栈。
-
-遍历结束后，栈中剩余的元素个数即为需要添加的括号数。
-
-时间复杂度为 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为字符串 $s$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -124,20 +109,7 @@ func minAddToMakeValid(s string) int {
 
 <!-- tabs:end -->
 
-### 方法二：贪心 + 计数
-
-方法一借助了栈来实现括号匹配，也可以直接通过计数来实现。
-
-定义变量 `cnt` 表示当前待匹配的左括号个数，变量 `ans` 记录答案。初始时两个变量的值均为 $0$。
-
-同样遍历字符串 $s$ 的每个字符 $c$：
-
--   若 $c$ 为左括号，将 `cnt` 的值增加 $1$；
--   若 $c$ 为右括号，此时如果 $cnt \gt 0$，说明当前有左括号可以匹配，将 `cnt` 的值减 $1$；否则说明当前右括号无法匹配，将 `ans` 的值增加 $1$。
-
-遍历结束后，将 `cnt` 的值加到 `ans` 中，即为答案。
-
-时间复杂度为 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为字符串 $s$ 的长度。
+### Solution 2
 
 <!-- tabs:start -->
 

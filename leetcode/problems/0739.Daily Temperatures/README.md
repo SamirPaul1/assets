@@ -1,63 +1,33 @@
-# [739. 每日温度](https://leetcode.cn/problems/daily-temperatures)
+# [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures)
 
-[English Version](/solution/0700-0799/0739.Daily%20Temperatures/README_EN.md)
+[中文文档](/solution/0700-0799/0739.Daily%20Temperatures/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个整数数组&nbsp;<code>temperatures</code>&nbsp;，表示每天的温度，返回一个数组&nbsp;<code>answer</code>&nbsp;，其中&nbsp;<code>answer[i]</code>&nbsp;是指对于第 <code>i</code> 天，下一个更高温度出现在几天后。如果气温在这之后都不会升高，请在该位置用&nbsp;<code>0</code> 来代替。</p>
+<p>Given an array of integers <code>temperatures</code> represents the daily temperatures, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is the number of days you have to wait after the</em> <code>i<sup>th</sup></code> <em>day to get a warmer temperature</em>. If there is no future day for which this is possible, keep <code>answer[i] == 0</code> instead.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> <code>temperatures</code> = [73,74,75,71,69,72,76,73]
-<strong>输出:</strong>&nbsp;[1,1,4,2,1,1,0,0]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> temperatures = [73,74,75,71,69,72,76,73]
+<strong>Output:</strong> [1,1,4,2,1,1,0,0]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> temperatures = [30,40,50,60]
+<strong>Output:</strong> [1,1,1,0]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> temperatures = [30,60,90]
+<strong>Output:</strong> [1,1,0]
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> temperatures = [30,40,50,60]
-<strong>输出:</strong>&nbsp;[1,1,1,0]
-</pre>
-
-<p><strong>示例 3:</strong></p>
-
-<pre>
-<strong>输入:</strong> temperatures = [30,60,90]
-<strong>输出: </strong>[1,1,0]</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;=&nbsp;temperatures.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>30 &lt;=&nbsp;temperatures[i]&nbsp;&lt;= 100</code></li>
+	<li><code>30 &lt;=&nbsp;temperatures[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：单调栈
-
-单调栈常见模型：找出每个数左/右边**离它最近的**且**比它大/小的数**。模板：
-
-```python
-stk = []
-for i in range(n):
-    while stk and check(stk[-1], i):
-        stk.pop()
-    stk.append(i)
-```
-
-对于本题，我们需要找出每个数右边**离它最近的**且**比它大的数**，因此我们可以从右往左遍历数组，且需要维护一个从栈底到栈顶单调递减的栈。
-
-对于当前遍历到的数 `temperatures[i]`，如果栈顶元素 `temperatures[stk[-1]]` 小于等于 `temperatures[i]`，则弹出栈顶元素，直到栈为空或者栈顶元素大于 `temperatures[i]`。如果此时栈不为空，那么栈顶元素就是 `temperatures[i]` 右边离它最近的且比它大的数，更新 `ans[i] = stk[-1] - i`。接着，我们将 $i$ 入栈，继续遍历下一个数。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为 `temperatures` 数组的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -187,7 +157,7 @@ var dailyTemperatures = function (temperatures) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,74 +1,70 @@
-# [1199. 建造街区的最短时间](https://leetcode.cn/problems/minimum-time-to-build-blocks)
+# [1199. Minimum Time to Build Blocks](https://leetcode.com/problems/minimum-time-to-build-blocks)
 
-[English Version](/solution/1100-1199/1199.Minimum%20Time%20to%20Build%20Blocks/README_EN.md)
+[中文文档](/solution/1100-1199/1199.Minimum%20Time%20to%20Build%20Blocks/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a list of blocks, where <code>blocks[i] = t</code> means that the&nbsp;<code>i</code>-th block needs&nbsp;<code>t</code>&nbsp;units of time to be built. A block can only be built by exactly one worker.</p>
 
-<p>你是个城市规划工作者，手里负责管辖一系列的街区。在这个街区列表中&nbsp;<code>blocks[i] = t</code>&nbsp;意味着第 &nbsp;<code>i</code>&nbsp;个街区需要&nbsp;<code>t</code>&nbsp;个单位的时间来建造。</p>
+<p>A worker can either split into two workers (number of workers increases by one) or build a block then go home. Both decisions cost some time.</p>
 
-<p>由于一个街区只能由一个工人来完成建造。</p>
+<p>The time cost of spliting one worker into two workers is&nbsp;given as an integer <code>split</code>. Note that if two workers split at the same time, they split in parallel so the cost would be&nbsp;<code>split</code>.</p>
 
-<p>所以，一个工人要么需要再召唤一个工人（工人数增加 1）；要么建造完一个街区后回家。这两个决定都需要花费一定的时间。</p>
+<p>Output the minimum time needed to build all blocks.</p>
 
-<p>一个工人再召唤一个工人所花费的时间由整数&nbsp;<code>split</code>&nbsp;给出。</p>
-
-<p>注意：如果两个工人同时召唤别的工人，那么他们的行为是并行的，所以时间花费仍然是&nbsp;<code>split</code>。</p>
-
-<p>最开始的时候只有&nbsp;<strong>一个&nbsp;</strong>工人，请你最后输出建造完所有街区所需要的最少时间。</p>
+<p>Initially, there is only <strong>one</strong> worker.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>blocks = [1], split = 1
-<strong>输出：</strong>1
-<strong>解释：</strong>我们使用 1 个工人在 1 个时间单位内来建完 1 个街区。
+<pre>
+<strong>Input:</strong> blocks = [1], split = 1
+<strong>Output:</strong> 1
+<strong>Explanation: </strong>We use 1 worker to build 1 block in 1 time unit.
 </pre>
 
-<p><strong>示例&nbsp;2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>blocks = [1,2], split = 5
-<strong>输出：</strong>7
-<strong>解释：</strong>我们用 5 个时间单位将这个工人分裂为 2 个工人，然后指派每个工人分别去建造街区，从而时间花费为 5 + max(1, 2) = 7
+<pre>
+<strong>Input:</strong> blocks = [1,2], split = 5
+<strong>Output:</strong> 7
+<strong>Explanation: </strong>We split the worker into 2 workers in 5 time units then assign each of them to a block so the cost is 5 + max(1, 2) = 7.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>blocks = [1,2,3], split = 1
-<strong>输出：</strong>4
-<strong>解释：
-</strong>将 1 个工人分裂为 2 个工人，然后指派第一个工人去建造最后一个街区，并将第二个工人分裂为 2 个工人。
-然后，用这两个未分派的工人分别去建造前两个街区。
-时间花费为 1 + max(3, 1 + max(1, 2)) = 4
+<pre>
+<strong>Input:</strong> blocks = [1,2,3], split = 1
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>Split 1 worker into 2, then assign the first worker to the last block and split the second worker into 2.
+Then, use the two unassigned workers to build the first two blocks.
+The cost is 1 + max(3, 1 + max(1, 2)) = 4.
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>提示：</strong></p>
-
-<ol>
+<ul>
 	<li><code>1 &lt;= blocks.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= blocks[i] &lt;= 10^5</code></li>
 	<li><code>1 &lt;= split &lt;= 100</code></li>
-</ol>
+</ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 优先队列（小根堆）
+### Solution 1: Greedy + Priority Queue (Min Heap)
 
-先考虑只有一个街区的情况，此时不需要分裂工人，直接让他去建造街区，时间花费为 $block[0]$。
+First, consider the case where there is only one block. In this case, there is no need to split the worker, just let him build the block directly. The time cost is $block[0]$.
 
-如果有两个街区，此时需要把工人分裂为两个，然后让他们分别去建造街区，时间花费为 $split + \max(block[0], block[1])$。
+If there are two blocks, you need to split the worker into two, and then let them build the blocks separately. The time cost is $split + \max(block[0], block[1])$.
 
-如果有超过两个街区，此时每一步都需要考虑将几个工人进行分裂，正向思维不好处理。
+If there are more than two blocks, at each step you need to consider how many workers to split. This is not easy to handle with forward thinking.
 
-我们不妨采用逆向思维，不分裂工人，而是将街区进行合并。我们选取任意两个街区 $i$, $j$ 进行合并，建造一个新的街区的时间为 $split + \max(block[i], block[j])$。
+We might as well use reverse thinking, not splitting workers, but merging blocks. We select any two blocks $i$, $j$ for merging. The time to build a new block is $split + \max(block[i], block[j])$.
 
-为了让耗时长的街区尽可能少参与到合并中，我们可以每次贪心地选取耗时最小的两个街区进行合并。因此，我们可以维护一个小根堆，每次取出最小的两个街区进行合并，直到只剩下一个街区。最后剩下的这个街区的建造时间就是答案。
+In order to let the blocks with long time consumption participate in the merge as little as possible, we can greedily select the two blocks with the smallest time consumption for merging each time. Therefore, we can maintain a min heap, take out the two smallest blocks for merging each time, until there is only one block left. The build time of the last remaining block is the answer.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为街区的数量。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the number of blocks.
 
 <!-- tabs:start -->
 

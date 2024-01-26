@@ -1,12 +1,10 @@
-# [1613. 找到遗失的 ID](https://leetcode.cn/problems/find-the-missing-ids)
+# [1613. Find the Missing IDs](https://leetcode.com/problems/find-the-missing-ids)
 
-[English Version](/solution/1600-1699/1613.Find%20the%20Missing%20IDs/README_EN.md)
+[中文文档](/solution/1600-1699/1613.Find%20the%20Missing%20IDs/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Customers</code></p>
+<p>Table: <code>Customers</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,27 +13,26 @@
 | customer_id   | int     |
 | customer_name | varchar |
 +---------------+---------+
-customer_id 是该表主键.
-该表第一行包含了顾客的名字和 id.
+customer_id is the column with unique values for this table.
+Each row of this table contains the name and the id customer.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写一个解决方案,&nbsp;找到所有遗失的顾客 id。遗失的顾客 id 是指那些不在&nbsp;<code>Customers</code>&nbsp;表中,&nbsp;值却处于&nbsp;<code>1</code>&nbsp;和表中&nbsp;<strong>最大</strong>&nbsp;<code>customer_id</code>&nbsp;之间的 id.</p>
+<p>Write a solution to find the missing customer IDs. The missing IDs are ones that are not in the <code>Customers</code> table but are in the range between <code>1</code> and the <strong>maximum</strong> <code>customer_id</code> present in the table.</p>
 
-<p><strong>注意:&nbsp;</strong>最大的&nbsp;<code>customer_id</code>&nbsp;值不会超过&nbsp;<code>100</code>.</p>
+<p><strong>Notice</strong> that the maximum <code>customer_id</code> will not exceed <code>100</code>.</p>
 
-<p>返回结果按&nbsp;<code>ids</code> <strong>升序&nbsp;</strong>排列</p>
+<p>Return the result table ordered by <code>ids</code> in <strong>ascending order</strong>.</p>
 
-<p>查询结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Customers</code> 表:
+<strong>Input:</strong> 
+Customers table:
 +-------------+---------------+
 | customer_id | customer_name |
 +-------------+---------------+
@@ -43,21 +40,20 @@ Customers</code> 表:
 | 4           | Bob           |
 | 5           | Charlie       |
 +-------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-----+
-| <code>ids </code>|
+| ids |
 +-----+
 | 2   |
 | 3   |
 +-----+
-<strong>解释：</strong>
-表中最大的 customer_id 是 5, 所以在范围 [1,5] 内, ID2 和 3 从表中遗失.</pre>
+<strong>Explanation:</strong> 
+The maximum customer_id present in the table is 5, so in the range [1,5], IDs 2 and 3 are missing from the table.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：递归
-
-利用 `recursive` 关键字，递归生成 `[1, 100]` 的序列，然后排除已有的 `customer_id`，即可得到结果。
+### Solution 1
 
 <!-- tabs:start -->
 

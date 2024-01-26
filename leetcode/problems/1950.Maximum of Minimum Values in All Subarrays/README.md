@@ -1,65 +1,65 @@
-# [1950. 所有子数组最小值中的最大值](https://leetcode.cn/problems/maximum-of-minimum-values-in-all-subarrays)
+# [1950. Maximum of Minimum Values in All Subarrays](https://leetcode.com/problems/maximum-of-minimum-values-in-all-subarrays)
 
-[English Version](/solution/1900-1999/1950.Maximum%20of%20Minimum%20Values%20in%20All%20Subarrays/README_EN.md)
+[中文文档](/solution/1900-1999/1950.Maximum%20of%20Minimum%20Values%20in%20All%20Subarrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> of size <code>n</code>. You are asked to solve <code>n</code> queries for each integer <code>i</code> in the range <code>0 &lt;= i &lt; n</code>.</p>
 
-<p>给你一个长度为 <code>n</code> 的整数数组 <code>nums</code> ，你需要处理 <code>n</code> 个查询。</p>
-
-<p>对于第 <code>i</code> （<code>0 &lt;= i &lt;&nbsp;n</code>）个查询：</p>
+<p>To solve the <code>i<sup>th</sup></code> query:</p>
 
 <ol>
-	<li>你需要先找出 <code>nums</code> 的所有长度为 <code>i + 1</code> 的子数组中的<strong> 最小值</strong> 。</li>
-	<li>在这些最小值中找出<strong> 最大值</strong> 作为答案。</li>
+	<li>Find the <strong>minimum value</strong> in each possible subarray of size <code>i + 1</code> of the array <code>nums</code>.</li>
+	<li>Find the <strong>maximum</strong> of those minimum values. This maximum is the <strong>answer</strong> to the query.</li>
 </ol>
 
-<p>返回一个 <strong>下标从 0 开始</strong> 的长度为 <code>n</code> 的整数数组 <code>ans</code> ，<code>ans[i]</code> 代表第 <code>i</code> 个查询的答案。</p>
+<p>Return <em>a <strong>0-indexed</strong> integer array</em> <code>ans</code> <em>of size </em><code>n</code> <em>such that </em><code>ans[i]</code> <em>is the answer to the </em><code>i<sup>th</sup></code> <em>query</em>.</p>
+
+<p>A <strong>subarray</strong> is a contiguous sequence of elements in an array.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = [0,1,2,4]
-<strong>输出:</strong> [4,2,1,0]
-<strong>解释:</strong>
-i = 0:
-- 大小为 1 的子数组为 [0], [1], [2], [4]
-- 有最大的最小值的子数组是 [4], 它的最小值是 4
-i = 1:
-- 大小为 2 的子数组为 [0,1], [1,2], [2,4]
-- 有最大的最小值的子数组是 [2,4], 它的最小值是 2
-i = 2:
-- 大小为 3 的子数组为 [0,1,2], [1,2,4]
-- 有最大的最小值的子数组是 [1,2,4], 它的最小值是 1
-i = 3:
-- 大小为 4 的子数组为 [0,1,2,4]
-- 有最大的最小值的子数组是 [0,1,2,4], 它的最小值是 0</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入: </strong>nums = [10,20,50,10]
-<strong>输出: </strong>[50,20,10,10]
-<strong>解释:</strong>
-i = 0: 
-- 大小为 1 的子数组为 [10], [20], [50], [10]
-- 有最大的最小值的子数组是 [50], 它的最小值是 50
-i = 1: 
-- 大小为 2 的子数组为 [10,20], [20,50], [50,10]
-- 有最大的最小值的子数组是 [20,50], 它的最小值是 20
-i = 2: 
-- 大小为 3 的子数组为 [10,20,50], [20,50,10]
-- 有最大的最小值的子数组是 [10,20,50], 它的最小值是 10
-i = 3: 
-- 大小为 4 的子数组为 [10,20,50,10]
-- 有最大的最小值的子数组是 [10,20,50,10], 它的最小值是 10</pre>
+<strong>Input:</strong> nums = [0,1,2,4]
+<strong>Output:</strong> [4,2,1,0]
+<strong>Explanation:</strong>
+i=0:
+- The subarrays of size 1 are [0], [1], [2], [4]. The minimum values are 0, 1, 2, 4.
+- The maximum of the minimum values is 4.
+i=1:
+- The subarrays of size 2 are [0,1], [1,2], [2,4]. The minimum values are 0, 1, 2.
+- The maximum of the minimum values is 2.
+i=2:
+- The subarrays of size 3 are [0,1,2], [1,2,4]. The minimum values are 0, 1.
+- The maximum of the minimum values is 1.
+i=3:
+- There is one subarray of size 4, which is [0,1,2,4]. The minimum value is 0.
+- There is only one value, so the maximum is 0.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [10,20,50,10]
+<strong>Output:</strong> [50,20,10,10]
+<strong>Explanation:</strong>
+i=0:
+- The subarrays of size 1 are [10], [20], [50], [10]. The minimum values are 10, 20, 50, 10.
+- The maximum of the minimum values is 50.
+i=1:
+- The subarrays of size 2 are [10,20], [20,50], [50,10]. The minimum values are 10, 20, 10.
+- The maximum of the minimum values is 20.
+i=2:
+- The subarrays of size 3 are [10,20,50], [20,50,10]. The minimum values are 10, 10.
+- The maximum of the minimum values is 10.
+i=3:
+- There is one subarray of size 4, which is [10,20,50,10]. The minimum value is 10.
+- There is only one value, so the maximum is 10.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
@@ -67,19 +67,9 @@ i = 3:
 	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：单调栈
-
-我们可以先利用单调栈，求出每个位置的左边第一个比它小的位置 $left[i]$ 和右边第一个比它小的位置 $right[i]$，那么以 $nums[i]$ 为最小值的子数组的长度为 $m = right[i] - left[i] - 1$。
-
-然后我们遍历数组，对于每个位置 $i$，更新 $ans[m - 1] = max(ans[m - 1], nums[i])$。
-
-接着我们倒序遍历数组，更新 $ans[i] = max(ans[i], ans[i + 1])$。
-
-最后返回 $ans$ 即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组长度。
+### Solution 1
 
 <!-- tabs:start -->
 

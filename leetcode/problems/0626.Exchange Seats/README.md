@@ -1,12 +1,10 @@
-# [626. 换座位](https://leetcode.cn/problems/exchange-seats)
+# [626. Exchange Seats](https://leetcode.com/problems/exchange-seats)
 
-[English Version](/solution/0600-0699/0626.Exchange%20Seats/README_EN.md)
+[中文文档](/solution/0600-0699/0626.Exchange%20Seats/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表:&nbsp;<code>Seat</code></p>
+<p>Table: <code>Seat</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,26 +13,25 @@
 | id          | int     |
 | student     | varchar |
 +-------------+---------+
-<code>id</code> 是该表的主键（唯一值）列。
-该表的每一行都表示学生的姓名和 ID。
-id 是一个连续的增量。
+id is the primary key (unique value) column for this table.
+Each row of this table indicates the name and the ID of a student.
+id is a continuous increment.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案来交换每两个连续的学生的座位号。如果学生的数量是奇数，则最后一个学生的id不交换。</p>
+<p>Write a solution to swap the seat id of every two consecutive students. If the number of students is odd, the id of the last student is not swapped.</p>
 
-<p>按 <code>id</code> <strong>升序</strong> 返回结果表。</p>
+<p>Return the result table ordered by <code>id</code> <strong>in ascending order</strong>.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Seat 表:
+<strong>Input:</strong> 
+Seat table:
 +----+---------+
 | id | student |
 +----+---------+
@@ -44,7 +41,7 @@ Seat 表:
 | 4  | Green   |
 | 5  | Jeames  |
 +----+---------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +----+---------+
 | id | student |
 +----+---------+
@@ -54,12 +51,13 @@ Seat 表:
 | 4  | Emerson |
 | 5  | Jeames  |
 +----+---------+
-<strong>解释:
-</strong>请注意，如果学生人数为奇数，则不需要更换最后一名学生的座位。</pre>
+<strong>Explanation:</strong> 
+Note that if the number of students is odd, there is no need to change the last one&#39;s seat.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -74,7 +72,7 @@ ORDER BY 1;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -96,7 +94,7 @@ ORDER BY 1;
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 
@@ -110,7 +108,7 @@ FROM Seat;
 
 <!-- tabs:end -->
 
-### 方法四
+### Solution 4
 
 <!-- tabs:start -->
 

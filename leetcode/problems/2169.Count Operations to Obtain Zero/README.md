@@ -1,58 +1,54 @@
-# [2169. 得到 0 的操作数](https://leetcode.cn/problems/count-operations-to-obtain-zero)
+# [2169. Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero)
 
-[English Version](/solution/2100-2199/2169.Count%20Operations%20to%20Obtain%20Zero/README_EN.md)
+[中文文档](/solution/2100-2199/2169.Count%20Operations%20to%20Obtain%20Zero/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two <strong>non-negative</strong> integers <code>num1</code> and <code>num2</code>.</p>
 
-<p>给你两个 <strong>非负</strong> 整数 <code>num1</code> 和 <code>num2</code> 。</p>
-
-<p>每一步 <strong>操作</strong>&nbsp;中，如果 <code>num1 &gt;= num2</code> ，你必须用 <code>num1</code> 减 <code>num2</code> ；否则，你必须用 <code>num2</code> 减 <code>num1</code> 。</p>
+<p>In one <strong>operation</strong>, if <code>num1 &gt;= num2</code>, you must subtract <code>num2</code> from <code>num1</code>, otherwise subtract <code>num1</code> from <code>num2</code>.</p>
 
 <ul>
-	<li>例如，<code>num1 = 5</code> 且 <code>num2 = 4</code> ，应该用&nbsp;<code>num1</code> 减 <code>num2</code> ，因此，得到 <code>num1 = 1</code> 和 <code>num2 = 4</code> 。然而，如果 <code>num1 = 4</code>且 <code>num2 = 5</code> ，一步操作后，得到 <code>num1 = 4</code> 和 <code>num2 = 1</code> 。</li>
+	<li>For example, if <code>num1 = 5</code> and <code>num2 = 4</code>, subtract <code>num2</code> from <code>num1</code>, thus obtaining <code>num1 = 1</code> and <code>num2 = 4</code>. However, if <code>num1 = 4</code> and <code>num2 = 5</code>, after one operation, <code>num1 = 4</code> and <code>num2 = 1</code>.</li>
 </ul>
 
-<p>返回使 <code>num1 = 0</code> 或 <code>num2 = 0</code> 的 <strong>操作数</strong> 。</p>
+<p>Return <em>the <strong>number of operations</strong> required to make either</em> <code>num1 = 0</code> <em>or</em> <code>num2 = 0</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>num1 = 2, num2 = 3
-<strong>输出：</strong>3
-<strong>解释：</strong>
-- 操作 1 ：num1 = 2 ，num2 = 3 。由于 num1 &lt; num2 ，num2 减 num1 得到 num1 = 2 ，num2 = 3 - 2 = 1 。
-- 操作 2 ：num1 = 2 ，num2 = 1 。由于 num1 &gt; num2 ，num1 减 num2 。
-- 操作 3 ：num1 = 1 ，num2 = 1 。由于 num1 == num2 ，num1 减 num2 。
-此时 num1 = 0 ，num2 = 1 。由于 num1 == 0 ，不需要再执行任何操作。
-所以总操作数是 3 。
+<strong>Input:</strong> num1 = 2, num2 = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> 
+- Operation 1: num1 = 2, num2 = 3. Since num1 &lt; num2, we subtract num1 from num2 and get num1 = 2, num2 = 3 - 2 = 1.
+- Operation 2: num1 = 2, num2 = 1. Since num1 &gt; num2, we subtract num2 from num1.
+- Operation 3: num1 = 1, num2 = 1. Since num1 == num2, we subtract num2 from num1.
+Now num1 = 0 and num2 = 1. Since num1 == 0, we do not need to perform any further operations.
+So the total number of operations required is 3.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>num1 = 10, num2 = 10
-<strong>输出：</strong>1
-<strong>解释：</strong>
-- 操作 1 ：num1 = 10 ，num2 = 10 。由于 num1 == num2 ，num1 减 num2 得到 num1 = 10 - 10 = 0 。
-此时 num1 = 0 ，num2 = 10 。由于 num1 == 0 ，不需要再执行任何操作。
-所以总操作数是 1 。
+<strong>Input:</strong> num1 = 10, num2 = 10
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> 
+- Operation 1: num1 = 10, num2 = 10. Since num1 == num2, we subtract num2 from num1 and get num1 = 10 - 10 = 0.
+Now num1 = 0 and num2 = 10. Since num1 == 0, we are done.
+So the total number of operations required is 1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>0 &lt;= num1, num2 &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

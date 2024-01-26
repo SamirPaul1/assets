@@ -1,30 +1,44 @@
-# [431. 将 N 叉树编码为二叉树](https://leetcode.cn/problems/encode-n-ary-tree-to-binary-tree)
+# [431. Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)
 
-[English Version](/solution/0400-0499/0431.Encode%20N-ary%20Tree%20to%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/0400-0499/0431.Encode%20N-ary%20Tree%20to%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design an algorithm to encode an N-ary tree into a binary tree and decode the binary tree to get the original N-ary tree. An N-ary tree is a rooted tree in which each node has no more than N children. Similarly, a binary tree is a rooted tree in which each node has no more than 2 children. There is no restriction on how your encode/decode algorithm should work. You just need to ensure that an N-ary tree can be encoded to a binary tree and this binary tree can be decoded to the original N-nary tree structure.</p>
 
-<p>设计一个算法，可以将 N 叉树编码为二叉树，并能将该二叉树解码为原 N 叉树。一个 N 叉树是指每个节点都有不超过 N 个孩子节点的有根树。类似地，一个二叉树是指每个节点都有不超过 2 个孩子节点的有根树。你的编码 / 解码的算法的实现没有限制，你只需要保证一个 N 叉树可以编码为二叉树且该二叉树可以解码回原始 N 叉树即可。</p>
+<p><em>Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See following example).</em></p>
 
-<p>例如，你可以将下面的 <code>3-叉</code> 树以该种方式编码：</p>
+<p>For example, you may encode the following <code>3-ary</code> tree to a binary tree in this way:</p>
+
+<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0431.Encode%20N-ary%20Tree%20to%20Binary%20Tree/images/narytreebinarytreeexample.png" style="width: 100%; max-width: 640px" /></p>
+
+<pre>
+<strong>Input:</strong> root = [1,null,3,2,4,null,5,6]
+</pre>
+
+<p>Note that the above is just an example which <em>might or might not</em> work. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.</p>
 
 <p>&nbsp;</p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0431.Encode%20N-ary%20Tree%20to%20Binary%20Tree/images/narytreebinarytreeexample.png" style="width: 500px;"></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> root = [1,null,3,2,4,null,5,6]
+<strong>Output:</strong> [1,null,3,2,4,null,5,6]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+<strong>Output:</strong> [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> root = []
+<strong>Output:</strong> []
+</pre>
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p>注意，上面的方法仅仅是一个例子，可能可行也可能不可行。你没有必要遵循这种形式转化，你可以自己创造和实现不同的方法。</p>
+<ul>
+	<li>The number of nodes in the tree is in the range <code>[0, 10<sup>4</sup>]</code>.</li>
+	<li><code>0 &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
+	<li>The height of the n-ary tree is less than or equal to <code>1000</code></li>
+	<li>Do not use class member/global/static variables to store states. Your encode and decode algorithms should be stateless.</li>
+</ul>
 
-<p><strong>注意：</strong></p>
-
-<ol>
-	<li><code>N</code>&nbsp;的范围在 <code>[1, 1000]</code></li>
-	<li>不要使用类成员 / 全局变量 / 静态变量来存储状态。你的编码和解码算法应是无状态的。</li>
-</ol>
-
-## 解法
+## Solutions
 
 <!-- end -->

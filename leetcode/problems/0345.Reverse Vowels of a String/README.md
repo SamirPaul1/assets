@@ -1,48 +1,32 @@
-# [345. 反转字符串中的元音字母](https://leetcode.cn/problems/reverse-vowels-of-a-string)
+# [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)
 
-[English Version](/solution/0300-0399/0345.Reverse%20Vowels%20of%20a%20String/README_EN.md)
+[中文文档](/solution/0300-0399/0345.Reverse%20Vowels%20of%20a%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code>, reverse only all the vowels in the string and return it.</p>
 
-<p>给你一个字符串 <code>s</code> ，仅反转字符串中的所有元音字母，并返回结果字符串。</p>
-
-<p>元音字母包括 <code>'a'</code>、<code>'e'</code>、<code>'i'</code>、<code>'o'</code>、<code>'u'</code>，且可能以大小写两种形式出现不止一次。</p>
+<p>The vowels are <code>&#39;a&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;i&#39;</code>, <code>&#39;o&#39;</code>, and <code>&#39;u&#39;</code>, and they can appear in both lower and upper cases, more than once.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "hello"
-<strong>输出：</strong>"holle"
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "hello"
+<strong>Output:</strong> "holle"
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "leetcode"
+<strong>Output:</strong> "leotcede"
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "leetcode"
-<strong>输出：</strong>"leotcede"</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>
-	<li><code>s</code> 由 <strong>可打印的 ASCII</strong> 字符组成</li>
+	<li><code>s</code> consist of <strong>printable ASCII</strong> characters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
-
-我们可以用两个指针 $i$ 和 $j$，初始时分别指向字符串的首尾。
-
-每次循环判断 $i$ 指向的字符是否是元音字母，如果不是则向后移动 $i$；同理，判断 $j$ 指向的字符是否是元音字母，如果不是则向前移动 $j$。如果此时 $i \lt j$，那么 $i$ 和 $j$ 指向的字符都是元音字母，交换这两个字符。然后向后移动 $i$，向前移动 $j$。继续上述操作，直到 $i \ge j$。
-
-时间复杂度 $O(n)$，其中 $n$ 是字符串的长度。空间复杂度 $O(|\Sigma|)$，其中 $\Sigma$ 是字符集的大小。
+### Solution 1
 
 <!-- tabs:start -->
 

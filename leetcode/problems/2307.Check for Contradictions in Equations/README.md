@@ -1,71 +1,67 @@
-# [2307. 检查方程中的矛盾之处](https://leetcode.cn/problems/check-for-contradictions-in-equations)
+# [2307. Check for Contradictions in Equations](https://leetcode.com/problems/check-for-contradictions-in-equations)
 
-[English Version](/solution/2300-2399/2307.Check%20for%20Contradictions%20in%20Equations/README_EN.md)
+[中文文档](/solution/2300-2399/2307.Check%20for%20Contradictions%20in%20Equations/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a 2D array of strings <code>equations</code> and an array of real numbers <code>values</code>, where <code>equations[i] = [A<sub>i</sub>, B<sub>i</sub>]</code> and <code>values[i]</code> means that <code>A<sub>i</sub> / B<sub>i</sub> = values[i]</code>.</p>
 
-<p>给你一个由字符串二维数组&nbsp;<code>equations</code> 和实数数组&nbsp;&nbsp;<code>values</code>&nbsp;，其中 <code>equations[i] = [A<sub>i</sub>, B<sub>i</sub>]</code>，<code>values[i]</code> 表示 <code>A<sub>i</sub> / B<sub>i</sub> = values[i]</code>.。</p>
+<p>Determine if there exists a contradiction in the equations. Return <code>true</code><em> if there is a contradiction, or </em><code>false</code><em> otherwise</em>.</p>
 
-<p>确定方程中是否存在矛盾。<em>如果存在矛盾则返回 <code>true</code>，否则返回 <code>false</code></em>。</p>
-
-<p><b>注意</b>:</p>
+<p><strong>Note</strong>:</p>
 
 <ul>
-	<li>当检查两个数字是否相等时，检查它们的&nbsp;<strong>绝对差值&nbsp;</strong>是否小于 <code>10<sup>-5</sup></code>.</li>
-	<li>生成的测试用例没有针对精度的用例，即使用 <code>double</code> 就足以解决问题。</li>
+	<li>When checking if two numbers are equal, check that their <strong>absolute difference</strong> is less than <code>10<sup>-5</sup></code>.</li>
+	<li>The testcases are generated such that there are no cases targeting precision, i.e. using <code>double</code> is enough to solve the problem.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> equations = [["a","b"],["b","c"],["a","c"]], values = [3,0.5,1.5]
-<strong>输出:</strong> false
-<strong>解释:
-</strong>给定的方程为: a / b = 3, b / c = 0.5, a / c = 1.5
-方程中没有矛盾。满足所有方程的一个可能的分配是:
-a = 3, b = 1 和 c = 2.
+<strong>Input:</strong> equations = [[&quot;a&quot;,&quot;b&quot;],[&quot;b&quot;,&quot;c&quot;],[&quot;a&quot;,&quot;c&quot;]], values = [3,0.5,1.5]
+<strong>Output:</strong> false
+<strong>Explanation:
+</strong>The given equations are: a / b = 3, b / c = 0.5, a / c = 1.5
+There are no contradictions in the equations. One possible assignment to satisfy all equations is:
+a = 3, b = 1 and c = 2.
 </pre>
 
-<p><strong class="example">示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> equations = [["le","et"],["le","code"],["code","et"]], values = [2,5,0.5]
-<strong>输出:</strong> true
-<strong>解释:</strong>
-给定的方程为: le / et = 2, le / code = 5, code / et = 0.5
-根据前两个方程，我们得到 code / et = 0.4.
-因为第三个方程是 code / et = 0.5, 所以矛盾。
+<strong>Input:</strong> equations = [[&quot;le&quot;,&quot;et&quot;],[&quot;le&quot;,&quot;code&quot;],[&quot;code&quot;,&quot;et&quot;]], values = [2,5,0.5]
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
+The given equations are: le / et = 2, le / code = 5, code / et = 0.5
+Based on the first two equations, we get code / et = 0.4.
+Since the third equation is code / et = 0.5, we get a contradiction.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= equations.length &lt;= 100</code></li>
 	<li><code>equations[i].length == 2</code></li>
 	<li><code>1 &lt;= A<sub>i</sub>.length, B<sub>i</sub>.length &lt;= 5</code></li>
-	<li><code>A<sub>i</sub></code>, <code>B<sub>i</sub></code> 由小写英文字母组成。</li>
+	<li><code>A<sub>i</sub></code>, <code>B<sub>i</sub></code> consist of lowercase English letters.</li>
 	<li><code>equations.length == values.length</code></li>
 	<li><code>0.0 &lt; values[i] &lt;= 10.0</code></li>
-	<li><code>values[i]</code> 小数点后最多 2 位。</li>
+	<li><code>values[i]</code> has a maximum of 2 decimal places.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：带权并查集
+### Solution 1: Weighted Union-Find
 
-我们先将字符串转换成从 $0$ 开始的整数，然后遍历所有的等式，将等式中的两个字符串映射成对应的整数 $a$ 和 $b$，如果这两个整数不在同一个集合中，就将它们合并到同一个集合中，并且记录下两个整数的权值，即 $a$ 与 $b$ 的比值。如果这两个整数在同一个集合中，就判断它们的权值是否满足等式，如果不满足就返回 `true`。
+First, we convert the strings into integers starting from $0$. Then, we traverse all the equations, map the two strings in each equation to the corresponding integers $a$ and $b$. If these two integers are not in the same set, we merge them into the same set and record the weights of the two integers, which is the ratio of $a$ to $b$. If these two integers are in the same set, we check whether their weights satisfy the equation. If not, we return `true`.
 
-时间复杂度 $O(n \times \log n)$ 或 $O(n \times \alpha(n))$，空间复杂度 $O(n)$。其中 $n$ 是等式的数量。
+The time complexity is $O(n \times \log n)$ or $O(n \times \alpha(n))$, and the space complexity is $O(n)$. Here, $n$ is the number of equations.
 
-相似题目：
+Similar problems:
 
--   [399. 除法求值](https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0399.Evaluate%20Division/README.md)
+-   [399. Evaluate Division](https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0399.Evaluate%20Division/README_EN.md)
 
 <!-- tabs:start -->
 

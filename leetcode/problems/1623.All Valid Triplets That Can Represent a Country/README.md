@@ -1,12 +1,10 @@
-# [1623. 三人国家代表队](https://leetcode.cn/problems/all-valid-triplets-that-can-represent-a-country)
+# [1623. All Valid Triplets That Can Represent a Country](https://leetcode.com/problems/all-valid-triplets-that-can-represent-a-country)
 
-[English Version](/solution/1600-1699/1623.All%20Valid%20Triplets%20That%20Can%20Represent%20a%20Country/README_EN.md)
+[中文文档](/solution/1600-1699/1623.All%20Valid%20Triplets%20That%20Can%20Represent%20a%20Country/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>SchoolA</code></p>
+<p>Table: <code>SchoolA</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,14 +13,14 @@
 | student_id    | int     |
 | student_name  | varchar |
 +---------------+---------+
-student_id 是该表具有唯一值的列
-表中的每一行包含了学校 A 中每一个学生的名字和 ID
-所有 student_name 在表中都是独一无二的
+student_id is the column with unique values for this table.
+Each row of this table contains the name and the id of a student in school A.
+All student_name are distinct.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>SchoolB</code></p>
+<p>Table: <code>SchoolB</code></p>
 
 <pre>
 +---------------+---------+
@@ -31,14 +29,14 @@ student_id 是该表具有唯一值的列
 | student_id    | int     |
 | student_name  | varchar |
 +---------------+---------+
-student_id 是该表具有唯一值的列
-表中的每一行包含了学校 B 中每一个学生的名字和 ID
-所有 student_name 在表中都是独一无二的
+student_id is the column with unique values for this table.
+Each row of this table contains the name and the id of a student in school B.
+All student_name are distinct.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>SchoolC</code></p>
+<p>Table: <code>SchoolC</code></p>
 
 <pre>
 +---------------+---------+
@@ -47,50 +45,47 @@ student_id 是该表具有唯一值的列
 | student_id    | int     |
 | student_name  | varchar |
 +---------------+---------+
-student_id 是该表具有唯一值的列
-表中的每一行包含了学校 C 中每一个学生的名字和 ID
-所有 student_name 在表中都是独一无二的
+student_id is the column with unique values for this table.
+Each row of this table contains the name and the id of a student in school C.
+All student_name are distinct.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>有一个国家只有三所学校，这个国家的每一个学生只会注册&nbsp;<strong>一所学校</strong>。</p>
-
-<p>这个国家正在参加一个竞赛，他们希望从这三所学校中各选出一个学生来组建一支三人的代表队。例如：</p>
+<p>There is a country with three schools, where each student is enrolled in <strong>exactly one</strong> school. The country is joining a competition and wants to select one student from each school to represent the country such that:</p>
 
 <ul>
-	<li><code>member_A</code>&nbsp;是从 <code>SchoolA</code>&nbsp;中选出的</li>
-	<li><code>member_B</code>&nbsp;是从 <code>SchoolB</code>&nbsp;中选出的</li>
-	<li><code>member_C</code>&nbsp;是从 <code>SchoolC</code>&nbsp;中选出的</li>
-	<li>被选中的学生具有不同的名字和 ID（没有任何两个学生拥有相同的名字、没有任何两个学生拥有相同的 ID）</li>
+	<li><code>member_A</code> is selected from <code>SchoolA</code>,</li>
+	<li><code>member_B</code> is selected from <code>SchoolB</code>,</li>
+	<li><code>member_C</code> is selected from <code>SchoolC</code>, and</li>
+	<li>The selected students&#39; names and IDs are pairwise distinct (i.e. no two students share the same name, and no two students share the same ID).</li>
 </ul>
 
-<p>使用上述条件，编写一个解决方案来找到所有可能的三人国家代表队组合。</p>
+<p>Write a solution to find all the possible triplets representing the country under the given constraints.</p>
 
-<p>返回结果 <strong>无顺序要求</strong>。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下示例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-<code>SchoolA</code> table:
+<strong>Input:</strong> 
+SchoolA table:
 +------------+--------------+
 | student_id | student_name |
 +------------+--------------+
 | 1          | Alice        |
 | 2          | Bob          |
 +------------+--------------+
-<code>SchoolB</code> table:
+SchoolB table:
 +------------+--------------+
 | student_id | student_name |
 +------------+--------------+
 | 3          | Tom          |
 +------------+--------------+
-<code>SchoolC</code> table:
+SchoolC table:
 +------------+--------------+
 | student_id | student_name |
 +------------+--------------+
@@ -98,25 +93,26 @@ student_id 是该表具有唯一值的列
 | 2          | Jerry        |
 | 10         | Alice        |
 +------------+--------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +----------+----------+----------+
 | member_A | member_B | member_C |
 +----------+----------+----------+
 | Alice    | Tom      | Jerry    |
 | Bob      | Tom      | Alice    |
 +----------+----------+----------+
-<strong>解释：</strong>
-让我们看看有哪些可能的组合：
-- (Alice, Tom, Tom) --&gt; 不适用，因为member_B（Tom）和member_C（Tom）有相同的名字和ID
-- (Alice, Tom, Jerry) --&gt; 可能的组合
-- (Alice, Tom, Alice) --&gt; 不适用，因为member_A和member_C有相同的名字
-- (Bob, Tom, Tom) --&gt; 不适用，因为member_B和member_C有相同的名字和ID
-- (Bob, Tom, Jerry) --&gt; 不适用，因为member_A和member_C有相同的ID
-- (Bob, Tom, Alice) --&gt; 可能的组合.</pre>
+<strong>Explanation:</strong> 
+Let us see all the possible triplets.
+- (Alice, Tom, Tom) --&gt; Rejected because member_B and member_C have the same name and the same ID.
+- (Alice, Tom, Jerry) --&gt; Valid triplet.
+- (Alice, Tom, Alice) --&gt; Rejected because member_A and member_C have the same name.
+- (Bob, Tom, Tom) --&gt; Rejected because member_B and member_C have the same name and the same ID.
+- (Bob, Tom, Jerry) --&gt; Rejected because member_A and member_C have the same ID.
+- (Bob, Tom, Alice) --&gt; Valid triplet.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

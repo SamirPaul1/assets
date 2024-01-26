@@ -1,12 +1,10 @@
-# [1549. 每件商品的最新订单](https://leetcode.cn/problems/the-most-recent-orders-for-each-product)
+# [1549. The Most Recent Orders for Each Product](https://leetcode.com/problems/the-most-recent-orders-for-each-product)
 
-[English Version](/solution/1500-1599/1549.The%20Most%20Recent%20Orders%20for%20Each%20Product/README_EN.md)
+[中文文档](/solution/1500-1599/1549.The%20Most%20Recent%20Orders%20for%20Each%20Product/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Customers</code></p>
+<p>Table: <code>Customers</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,13 +13,13 @@
 | customer_id   | int     |
 | name          | varchar |
 +---------------+---------+
-customer_id 是该表主键.
-该表包含消费者的信息.
+customer_id is the column with unique values for this table.
+This table contains information about the customers.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Orders</code></p>
+<p>Table: <code>Orders</code></p>
 
 <pre>
 +---------------+---------+
@@ -32,13 +30,13 @@ customer_id 是该表主键.
 | customer_id   | int     |
 | product_id    | int     |
 +---------------+---------+
-order_id 是该表主键.
-该表包含消费者customer_id产生的订单.
-不会有商品被相同的用户在一天内下单<strong>超过一次</strong>.</pre>
+order_id is the column with unique values for this table.
+This table contains information about the orders made by customer_id.
+There will be no product ordered by the same user <strong>more than once</strong> in one day.</pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Products</code></p>
+<p>Table: <code>Products</code></p>
 
 <pre>
 +---------------+---------+
@@ -48,25 +46,24 @@ order_id 是该表主键.
 | product_name  | varchar |
 | price         | int     |
 +---------------+---------+
-product_id 是该表主键.
-该表包含所有商品的信息.
+product_id is the column with unique values for this table.
+This table contains information about the Products.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>写一个解决方案,&nbsp;找到每件商品的最新订单(可能有多个).</p>
+<p>Write a solution to find the most recent order(s) of each product.</p>
 
-<p>返回的结果以&nbsp;<code>product_name</code> <strong>升序排列</strong>,&nbsp;如果有排序相同,&nbsp;再以&nbsp;<code>product_id</code> <strong>升序</strong>排列.&nbsp;如果还有排序相同,&nbsp;再以&nbsp;<code>order_id</code> <strong>升序</strong>排列.</p>
+<p>Return the result table ordered by <code>product_name</code> in ascending order and in case of a tie by the <code>product_id</code> in <strong>ascending order</strong>. If there still a tie, order them by <code>order_id</code> in <strong>ascending order</strong>.</p>
 
-<p>查询结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong>
-<code>Customers表：</code>
+<strong>Input:</strong> 
+Customers table:
 +-------------+-----------+
 | customer_id | name      |
 +-------------+-----------+
@@ -76,7 +73,7 @@ product_id 是该表主键.
 | 4           | Marwan    |
 | 5           | Khaled    |
 +-------------+-----------+
-<code>Orders表：</code>
+Orders table:
 +----------+------------+-------------+------------+
 | order_id | order_date | customer_id | product_id |
 +----------+------------+-------------+------------+
@@ -91,7 +88,7 @@ product_id 是该表主键.
 | 9        | 2020-08-07 | 2           | 3          |
 | 10       | 2020-07-15 | 1           | 2          |
 +----------+------------+-------------+------------+
-<code>Products表：</code>
+Products table:
 +------------+--------------+-------+
 | product_id | product_name | price |
 +------------+--------------+-------+
@@ -100,7 +97,7 @@ product_id 是该表主键.
 | 3          | screen       | 600   |
 | 4          | hard disk    | 450   |
 +------------+--------------+-------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +--------------+------------+----------+------------+
 | product_name | product_id | order_id | order_date |
 +--------------+------------+----------+------------+
@@ -109,17 +106,18 @@ product_id 是该表主键.
 | mouse        | 2          | 8        | 2020-08-03 |
 | screen       | 3          | 3        | 2020-08-29 |
 +--------------+------------+----------+------------+
-<strong>解释：</strong>
-keyboard 的最新订单在2020-08-01, 在这天有两次下单.
-mouse 的最新订单在2020-08-03, 在这天只有一次下单.
-screen 的最新订单在2020-08-29, 在这天只有一次下单.
-hard disk 没有被下单, 我们不把它包含在结果表中.</pre>
+<strong>Explanation:</strong> 
+keyboard&#39;s most recent order is in 2020-08-01, it was ordered two times this day.
+mouse&#39;s most recent order is in 2020-08-03, it was ordered only once this day.
+screen&#39;s most recent order is in 2020-08-29, it was ordered only once this day.
+The hard disk was never ordered and we do not include it in the result table.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：等值连接 + 窗口函数
+### Solution 1: Equi-Join + Window Function
 
-我们可以使用等值连接，将 `Orders` 表和 `Products` 表按照 `product_id` 连接起来，然后使用窗口函数 `rank()`，对 `Orders` 表中的每个 `product_id` 进行分组，按照 `order_date` 降序排列，然后取出每个分组中排名第一的记录。
+We can use an equi-join to join the `Orders` table and the `Products` table based on `product_id`, and then use the window function `rank()`, which assigns a rank to each `product_id` in the `Orders` table based on its `order_date` in descending order. Finally, we can select the rows with a rank of $1$ for each `product_id`.
 
 <!-- tabs:start -->
 

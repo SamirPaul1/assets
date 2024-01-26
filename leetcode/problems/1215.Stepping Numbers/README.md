@@ -1,42 +1,48 @@
-# [1215. 步进数](https://leetcode.cn/problems/stepping-numbers)
+# [1215. Stepping Numbers](https://leetcode.com/problems/stepping-numbers)
 
-[English Version](/solution/1200-1299/1215.Stepping%20Numbers/README_EN.md)
+[中文文档](/solution/1200-1299/1215.Stepping%20Numbers/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A <strong>stepping number</strong> is an integer such that all of its adjacent digits have an absolute difference of exactly <code>1</code>.</p>
 
-<p>如果一个整数上的每一位数字与其相邻位上的数字的绝对差都是 <code>1</code>，那么这个数就是一个「步进数」。</p>
+<ul>
+	<li>For example, <code>321</code> is a <strong>stepping number</strong> while <code>421</code> is not.</li>
+</ul>
 
-<p>例如，<code>321</code>&nbsp;是一个步进数，而&nbsp;<code>421</code>&nbsp;不是。</p>
-
-<p>给你两个整数，<code>low</code>&nbsp;和&nbsp;<code>high</code>，请你找出在&nbsp;<code>[low, high]</code>&nbsp;范围内的所有步进数，并返回&nbsp;<strong>排序后</strong> 的结果。</p>
+<p>Given two integers <code>low</code> and <code>high</code>, return <em>a sorted list of all the <strong>stepping numbers</strong> in the inclusive range</em> <code>[low, high]</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例：</strong></p>
+<pre>
+<strong>Input:</strong> low = 0, high = 21
+<strong>Output:</strong> [0,1,2,3,4,5,6,7,8,9,10,12,21]
+</pre>
 
-<pre><strong>输入：</strong>low = 0, high = 21
-<strong>输出：</strong>[0,1,2,3,4,5,6,7,8,9,10,12,21]
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> low = 10, high = 15
+<strong>Output:</strong> [10,12]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>0 &lt;= low &lt;= high &lt;= 2 * 10^9</code></li>
+	<li><code>0 &lt;= low &lt;= high &lt;= 2 * 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
+### Solution 1: BFS
 
-首先，如果 $low$ 为 $0$，那么我们需要将 $0$ 加入答案中。
+First, if $low$ is $0$, we need to add $0$ to the answer.
 
-接下来，我们创建一个队列 $q$，并将 $1 \sim 9$ 加入队列中。然后我们不断从队列中取出元素，记当前元素为 $v$，如果 $v$ 大于 $high$，那么我们就停止搜索；如果 $v$ 在 $[low, high]$ 的范围内，那么我们将 $v$ 加入答案中。然后，我们需要将 $v$ 的最后一位数字记为 $x$，如果 $x \gt 0$，那么我们将 $v \times 10 + x - 1$ 加入队列中；如果 $x \lt 9$，那么我们将 $v \times 10 + x + 1$ 加入队列中。重复上述操作，直到队列为空。
+Next, we create a queue $q$ and add $1 \sim 9$ to the queue. Then, we repeatedly take out elements from the queue. Let the current element be $v$. If $v$ is greater than $high$, we stop searching. If $v$ is in the range $[low, high]$, we add $v$ to the answer. Then, we need to record the last digit of $v$ as $x$. If $x \gt 0$, we add $v \times 10 + x - 1$ to the queue. If $x \lt 9$, we add $v \times 10 + x + 1$ to the queue. Repeat the above steps until the queue is empty.
 
-时间复杂度 $O(10 \times 2^{\log M})$，空间复杂度 $O(2^{\log M})$，其中 $M$ 为 $high$ 的位数。
+The time complexity is $O(10 \times 2^{\log M})$, and the space complexity is $O(2^{\log M})$, where $M$ is the number of digits in $high$.
 
 <!-- tabs:start -->
 

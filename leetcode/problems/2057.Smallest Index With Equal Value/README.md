@@ -1,66 +1,58 @@
-# [2057. 值相等的最小索引](https://leetcode.cn/problems/smallest-index-with-equal-value)
+# [2057. Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value)
 
-[English Version](/solution/2000-2099/2057.Smallest%20Index%20With%20Equal%20Value/README_EN.md)
+[中文文档](/solution/2000-2099/2057.Smallest%20Index%20With%20Equal%20Value/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a <strong>0-indexed</strong> integer array <code>nums</code>, return <em>the <strong>smallest</strong> index </em><code>i</code><em> of </em><code>nums</code><em> such that </em><code>i mod 10 == nums[i]</code><em>, or </em><code>-1</code><em> if such index does not exist</em>.</p>
 
-<p>给你一个下标从 0 开始的整数数组 <code>nums</code> ，返回 <code>nums</code> 中满足<em> </em><code>i mod 10 == nums[i]</code><em> </em>的最小下标 <code>i</code> ；如果不存在这样的下标，返回<em> </em><code>-1</code><em> </em>。</p>
-
-<p><code>x mod y</code> 表示 <code>x</code> 除以 <code>y</code> 的 <strong>余数</strong> 。</p>
+<p><code>x mod y</code> denotes the <strong>remainder</strong> when <code>x</code> is divided by <code>y</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [0,1,2]
-<strong>输出：</strong>0
-<strong>解释：</strong>
+<pre>
+<strong>Input:</strong> nums = [0,1,2]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> 
 i=0: 0 mod 10 = 0 == nums[0].
 i=1: 1 mod 10 = 1 == nums[1].
 i=2: 2 mod 10 = 2 == nums[2].
-所有下标都满足 i mod 10 == nums[i] ，所以返回最小下标 0
+All indices have i mod 10 == nums[i], so we return the smallest index 0.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [4,3,2,1]
-<strong>输出：</strong>2
-<strong>解释：</strong>
+<pre>
+<strong>Input:</strong> nums = [4,3,2,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 
 i=0: 0 mod 10 = 0 != nums[0].
 i=1: 1 mod 10 = 1 != nums[1].
 i=2: 2 mod 10 = 2 == nums[2].
 i=3: 3 mod 10 = 3 != nums[3].
-2 唯一一个满足 i mod 10 == nums[i] 的下标
+2 is the only index which has i mod 10 == nums[i].
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>nums = [1,2,3,4,5,6,7,8,9,0]
-<strong>输出：</strong>-1
-<strong>解释：</strong>不存在满足 i mod 10 == nums[i] 的下标
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输入：</strong>nums = [2,1,3,5,2]
-<strong>输出：</strong>1
-<strong>解释：</strong>1 是唯一一个满足 i mod 10 == nums[i] 的下标
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4,5,6,7,8,9,0]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> No index satisfies i mod 10 == nums[i].
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 9</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

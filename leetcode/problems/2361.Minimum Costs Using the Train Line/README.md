@@ -1,61 +1,57 @@
-# [2361. 乘坐火车路线的最少费用](https://leetcode.cn/problems/minimum-costs-using-the-train-line)
+# [2361. Minimum Costs Using the Train Line](https://leetcode.com/problems/minimum-costs-using-the-train-line)
 
-[English Version](/solution/2300-2399/2361.Minimum%20Costs%20Using%20the%20Train%20Line/README_EN.md)
+[中文文档](/solution/2300-2399/2361.Minimum%20Costs%20Using%20the%20Train%20Line/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A train line going through a city has two routes, the regular route and the express route. Both routes go through the <strong>same</strong> <code>n + 1</code> stops labeled from <code>0</code> to <code>n</code>. Initially, you start on the regular route at stop <code>0</code>.</p>
 
-<p>城市中的火车有两条路线，分别是常规路线和特快路线。两条路线经过 <strong>相同 </strong>的 <code>n + 1</code> 个车站，车站编号从 <code>0</code> 到 <code>n</code>。初始时，你位于车站 <code>0</code> 的常规路线。</p>
+<p>You are given two <strong>1-indexed</strong> integer arrays <code>regular</code> and <code>express</code>, both of length <code>n</code>. <code>regular[i]</code> describes the cost it takes to go from stop <code>i - 1</code> to stop <code>i</code> using the regular route, and <code>express[i]</code> describes the cost it takes to go from stop <code>i - 1</code> to stop <code>i</code> using the express route.</p>
 
-<p>给你两个<strong> 下标从 1 开始 </strong>、长度均为 <code>n</code> 的两个整数数组 <code>regular</code> 和 <code>express</code> ，其中 <code>regular[i]</code> 表示乘坐常规路线从车站&nbsp;<code>i - 1</code> 到车站&nbsp;<code>i</code> 的费用，<code>express[i]</code> 表示乘坐特快路线从车站&nbsp;<code>i - 1</code> 到车站&nbsp;<code>i</code> 的费用。</p>
+<p>You are also given an integer <code>expressCost</code> which represents the cost to transfer from the regular route to the express route.</p>
 
-<p>另外给你一个整数 <code>expressCost</code>，表示从常规路线转换到特快路线的费用。</p>
-
-<p>注意：</p>
+<p>Note that:</p>
 
 <ul>
-	<li>从特快路线转换回常规路线没有费用。</li>
-	<li><strong>每次 </strong>从常规路线转换到特快路线，你都需要支付 <code>expressCost</code> 的费用。</li>
-	<li>留在特快路线上没有额外费用。</li>
+	<li>There is no cost to transfer from the express route back to the regular route.</li>
+	<li>You pay <code>expressCost</code> <strong>every</strong> time you transfer from the regular route to the express route.</li>
+	<li>There is no extra cost to stay on the express route.</li>
 </ul>
 
-<p>返回<strong> 下标从 1 开始</strong> 、长度为 <code>n</code> 的数组 <code>costs</code>，其中 <code>costs[i]</code> 是从车站 <code>0</code> 到车站 <code>i</code> 的最少费用。</p>
+<p>Return <em>a <strong>1-indexed</strong> array </em><code>costs</code><em> of length </em><code>n</code><em>, where </em><code>costs[i]</code><em> is the <strong>minimum</strong> cost to reach stop </em><code>i</code><em> from stop </em><code>0</code>.</p>
 
-<p>注意：每个车站都可以从任意一条路线 <strong>到达 </strong>。</p>
+<p>Note that a stop can be counted as <strong>reached</strong> from either route.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2361.Minimum%20Costs%20Using%20the%20Train%20Line/images/ex1drawio.png" style="width: 442px; height: 150px;" />
 <pre>
-<strong>输入：</strong>regular = [1,6,9,5], express = [5,2,3,10], expressCost = 8
-<strong>输出：</strong>[1,7,14,19]
-<strong>解释：</strong>上图展示了从车站 0 到车站 4 的最少费用方法。
-- 乘坐常规路线从车站 0 到车站 1，费用是 1。
-- 乘坐特快路线从车站 1 到车站 2，费用是 8 + 2 = 10。
-- 乘坐特快路线从车站 2 到车站 3，费用是 3。
-- 乘坐特快路线从车站 3 到车站 4，费用是 5。
-总费用是 1 + 10 + 3 + 5 + 19。
-注意到达其他车站的最少费用方法可以选择不同的路线。
+<strong>Input:</strong> regular = [1,6,9,5], express = [5,2,3,10], expressCost = 8
+<strong>Output:</strong> [1,7,14,19]
+<strong>Explanation:</strong> The diagram above shows how to reach stop 4 from stop 0 with minimum cost.
+- Take the regular route from stop 0 to stop 1, costing 1.
+- Take the express route from stop 1 to stop 2, costing 8 + 2 = 10.
+- Take the express route from stop 2 to stop 3, costing 3.
+- Take the regular route from stop 3 to stop 4, costing 5.
+The total cost is 1 + 10 + 3 + 5 = 19.
+Note that a different route could be taken to reach the other stops with minimum cost.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2361.Minimum%20Costs%20Using%20the%20Train%20Line/images/ex2drawio.png" style="width: 346px; height: 150px;" />
 <pre>
-<strong>输入：</strong>regular = [11,5,13], express = [7,10,6], expressCost = 3
-<strong>输出：</strong>[10,15,24]
-<strong>解释：</strong>上图展示了从车站 0 到车站 3 的最少费用方法。
-- 乘坐特快路线从车站 0 到车站 1，费用是 3 + 7 = 10。
-- 乘坐常规路线从车站 1 到车站 2，费用是 5。
-- 乘坐特快路线从车站 2 到车站 3，费用是 3 + 6 = 9。
-总费用是 10 + 5 + 9 = 24。
-注意转换回特快路线时需要再次支付 expressCost 的费用。
+<strong>Input:</strong> regular = [11,5,13], express = [7,10,6], expressCost = 3
+<strong>Output:</strong> [10,15,24]
+<strong>Explanation:</strong> The diagram above shows how to reach stop 3 from stop 0 with minimum cost.
+- Take the express route from stop 0 to stop 1, costing 3 + 7 = 10.
+- Take the regular route from stop 1 to stop 2, costing 5.
+- Take the express route from stop 2 to stop 3, costing 3 + 6 = 9.
+The total cost is 10 + 5 + 9 = 24.
+Note that the expressCost is paid again to transfer back to the express route.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == regular.length == express.length</code></li>
@@ -63,37 +59,9 @@
 	<li><code>1 &lt;= regular[i], express[i], expressCost &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们定义 $f[i]$ 表示从车站 $0$ 到车站 $i$ 且到达车站 $i$ 时乘坐常规路线的最少费用，定义 $g[i]$ 表示从车站 $0$ 到车站 $i$ 且到达车站 $i$ 时乘坐特快路线的最少费用。初始时 $f[0]=0, g[0]=\infty$。
-
-接下来，我们考虑 $f[i]$ 和 $g[i]$ 如何进行状态转移。
-
-如果我们到达车站 $i$ 乘坐的是常规路线，那么我们可以从车站 $i-1$ 乘坐常规路线或者从车站 $i-1$ 乘坐特快路线转换到常规路线。因此我们可以得到状态转移方程：
-
-$$
-f[i]=\min\{f[i-1]+a_i, g[i-1]+a_i\}
-$$
-
-其中 $a_i$ 表示从车站 $i-1$ 到车站 $i$ 乘坐常规路线的费用。
-
-如果我们到达车站 $i$ 乘坐的是特快路线，那么我们可以从车站 $i-1$ 乘坐常规路线转换到特快路线或者从车站 $i-1$ 乘坐特快路线。因此我们可以得到状态转移方程：
-
-$$
-g[i]=\min\{f[i-1]+expressCost+b_i, g[i-1]+b_i\}
-$$
-
-其中 $b_i$ 表示从车站 $i-1$ 到车站 $i$ 乘坐特快路线的费用。
-
-我们记答案数组为 $cost$，其中 $cost[i]$ 表示从车站 $0$ 到车站 $i$ 的最少费用。由于我们可以从任意一条路线到达车站 $i$，因此我们有 $cost[i]=\min\{f[i], g[i]\}$。
-
-最后返回 $cost$ 即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 表示车站的数量。
-
-我们注意到 $f[i]$ 和 $g[i]$ 的状态转移方程中，我们只需要用到 $f[i-1]$ 和 $g[i-1]$，因此我们可以使用两个变量 $f$ 和 $g$ 分别记录 $f[i-1]$ 和 $g[i-1]$ 的值，这样可以将空间复杂度优化到 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -191,7 +159,7 @@ function minimumCosts(regular: number[], express: number[], expressCost: number)
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,65 +1,62 @@
-# [2105. 给植物浇水 II](https://leetcode.cn/problems/watering-plants-ii)
+# [2105. Watering Plants II](https://leetcode.com/problems/watering-plants-ii)
 
-[English Version](/solution/2100-2199/2105.Watering%20Plants%20II/README_EN.md)
+[中文文档](/solution/2100-2199/2105.Watering%20Plants%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Alice and Bob want to water <code>n</code> plants in their garden. The plants are arranged in a row and are labeled from <code>0</code> to <code>n - 1</code> from left to right where the <code>i<sup>th</sup></code> plant is located at <code>x = i</code>.</p>
 
-<p>Alice 和 Bob 打算给花园里的 <code>n</code> 株植物浇水。植物排成一行，从左到右进行标记，编号从 <code>0</code> 到 <code>n - 1</code> 。其中，第 <code>i</code> 株植物的位置是 <code>x = i</code> 。</p>
-
-<p>每一株植物都需要浇特定量的水。Alice 和 Bob 每人有一个水罐，<strong>最初是满的 </strong>。他们按下面描述的方式完成浇水：</p>
+<p>Each plant needs a specific amount of water. Alice and Bob have a watering can each, <strong>initially full</strong>. They water the plants in the following way:</p>
 
 <ul>
-	<li>&nbsp;Alice 按 <strong>从左到右</strong> 的顺序给植物浇水，从植物 <code>0</code> 开始。Bob 按 <strong>从右到左</strong> 的顺序给植物浇水，从植物 <code>n - 1</code> 开始。他们 <strong>同时</strong> 给植物浇水。</li>
-	<li>如果没有足够的水 <strong>完全</strong> 浇灌下一株植物，他 / 她会立即重新灌满浇水罐。</li>
-	<li>不管植物需要多少水，浇水所耗费的时间都是一样的。</li>
-	<li><strong>不能</strong> 提前重新灌满水罐。</li>
-	<li>每株植物都可以由 Alice 或者 Bob 来浇水。</li>
-	<li>如果 Alice 和 Bob 到达同一株植物，那么当前水罐中水更多的人会给这株植物浇水。如果他俩水量相同，那么 Alice 会给这株植物浇水。</li>
+	<li>Alice waters the plants in order from <strong>left to right</strong>, starting from the <code>0<sup>th</sup></code> plant. Bob waters the plants in order from <strong>right to left</strong>, starting from the <code>(n - 1)<sup>th</sup></code> plant. They begin watering the plants <strong>simultaneously</strong>.</li>
+	<li>It takes the same amount of time to water each plant regardless of how much water it needs.</li>
+	<li>Alice/Bob <strong>must</strong> water the plant if they have enough in their can to <strong>fully</strong> water it. Otherwise, they <strong>first</strong> refill their can (instantaneously) then water the plant.</li>
+	<li>In case both Alice and Bob reach the same plant, the one with <strong>more</strong> water currently in his/her watering can should water this plant. If they have the same amount of water, then Alice should water this plant.</li>
 </ul>
 
-<p>给你一个下标从 <strong>0</strong> 开始的整数数组 <code>plants</code> ，数组由 <code>n</code> 个整数组成。其中，<code>plants[i]</code> 为第 <code>i</code> 株植物需要的水量。另有两个整数 <code>capacityA</code> 和&nbsp;<code>capacityB</code> 分别表示 Alice 和 Bob 水罐的容量。返回两人浇灌所有植物过程中重新灌满水罐的 <strong>次数</strong> 。</p>
+<p>Given a <strong>0-indexed</strong> integer array <code>plants</code> of <code>n</code> integers, where <code>plants[i]</code> is the amount of water the <code>i<sup>th</sup></code> plant needs, and two integers <code>capacityA</code> and <code>capacityB</code> representing the capacities of Alice&#39;s and Bob&#39;s watering cans respectively, return <em>the <strong>number of times</strong> they have to refill to water all the plants</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>plants = [2,2,3,3], capacityA = 5, capacityB = 5
-<strong>输出：</strong>1
-<strong>解释：</strong>
-- 最初，Alice 和 Bob 的水罐中各有 5 单元水。
-- Alice 给植物 0 浇水，Bob 给植物 3 浇水。
-- Alice 和 Bob 现在分别剩下 3 单元和 2 单元水。
-- Alice 有足够的水给植物 1 ，所以她直接浇水。Bob 的水不够给植物 2 ，所以他先重新装满水，再浇水。
-所以，两人浇灌所有植物过程中重新灌满水罐的次数 = 0 + 0 + 1 + 0 = 1 。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>plants = [2,2,3,3], capacityA = 3, capacityB = 4
-<strong>输出：</strong>2
-<strong>解释：</strong>
-- 最初，Alice 的水罐中有 3 单元水，Bob 的水罐中有 4 单元水。
-- Alice 给植物 0 浇水，Bob 给植物 3 浇水。
-- Alice 和 Bob 现在都只有 1 单元水，并分别需要给植物 1 和植物 2 浇水。
-- 由于他们的水量均不足以浇水，所以他们重新灌满水罐再进行浇水。
-所以，两人浇灌所有植物过程中重新灌满水罐的次数 = 0 + 1 + 1 + 0 = 2 。</pre>
+<strong>Input:</strong> plants = [2,2,3,3], capacityA = 5, capacityB = 5
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+- Initially, Alice and Bob have 5 units of water each in their watering cans.
+- Alice waters plant 0, Bob waters plant 3.
+- Alice and Bob now have 3 units and 2 units of water respectively.
+- Alice has enough water for plant 1, so she waters it. Bob does not have enough water for plant 2, so he refills his can then waters it.
+So, the total number of times they have to refill to water all the plants is 0 + 0 + 1 + 0 = 1.
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>plants = [5], capacityA = 10, capacityB = 8
-<strong>输出：</strong>0
-<strong>解释：</strong>
-- 只有一株植物
-- Alice 的水罐有 10 单元水，Bob 的水罐有 8 单元水。因此 Alice 的水罐中水更多，她会给这株植物浇水。
-所以，两人浇灌所有植物过程中重新灌满水罐的次数 = 0 。</pre>
+<strong>Input:</strong> plants = [2,2,3,3], capacityA = 3, capacityB = 4
+<strong>Output:</strong> 2
+<strong>Explanation:</strong>
+- Initially, Alice and Bob have 3 units and 4 units of water in their watering cans respectively.
+- Alice waters plant 0, Bob waters plant 3.
+- Alice and Bob now have 1 unit of water each, and need to water plants 1 and 2 respectively.
+- Since neither of them have enough water for their current plants, they refill their cans and then water the plants.
+So, the total number of times they have to refill to water all the plants is 0 + 1 + 1 + 0 = 2.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> plants = [5], capacityA = 10, capacityB = 8
+<strong>Output:</strong> 0
+<strong>Explanation:</strong>
+- There is only one plant.
+- Alice&#39;s watering can has 10 units of water, whereas Bob&#39;s can has 8 units. Since Alice has more water in her can, she waters this plant.
+So, the total number of times they have to refill is 0.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == plants.length</code></li>
@@ -68,9 +65,9 @@
 	<li><code>max(plants[i]) &lt;= capacityA, capacityB &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

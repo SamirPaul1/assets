@@ -1,12 +1,10 @@
-# [2199. 找到每篇文章的主题](https://leetcode.cn/problems/finding-the-topic-of-each-post)
+# [2199. Finding the Topic of Each Post](https://leetcode.com/problems/finding-the-topic-of-each-post)
 
-[English Version](/solution/2100-2199/2199.Finding%20the%20Topic%20of%20Each%20Post/README_EN.md)
+[中文文档](/solution/2100-2199/2199.Finding%20the%20Topic%20of%20Each%20Post/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Keywords</code></p>
+<p>Table: <code>Keywords</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,14 +13,14 @@
 | topic_id    | int     |
 | word        | varchar |
 +-------------+---------+
-(topic_id, word) 是该表的主键（具有唯一值的列的组合）。
-该表的每一行都包含一个主题的 id 和一个用于表达该主题的词。
-可以用多个词来表达同一个主题，也可以用一个词来表达多个主题。
+(topic_id, word) is the primary key (combination of columns with unique values) for this table.
+Each row of this table contains the id of a topic and a word that is used to express this topic.
+There may be more than one word to express the same topic and one word may be used to express multiple topics.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Posts</code></p>
+<p>Table: <code>Posts</code></p>
 
 <pre>
 +-------------+---------+
@@ -31,33 +29,32 @@
 | post_id     | int     |
 | content     | varchar |
 +-------------+---------+
-post_id 是该表的主键（具有唯一值的列）。
-该表的每一行都包含一个帖子的 ID 及其内容。
-内容仅由英文字母和空格组成。
+post_id is the primary key (column with unique values) for this table.
+Each row of this table contains the ID of a post and its content.
+Content will consist only of English letters and spaces.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>Leetcode 从其社交媒体网站上收集了一些帖子，并对每个帖子的主题感兴趣。每个主题可以由一个或多个关键字表示。如果某个主题的关键字存在于一个帖子的内容中 (不区分大小写)，那么这个帖子就有这个主题。</p>
+<p>Leetcode has collected some posts from its social media website and is interested in finding the topics of each post. Each topic can be expressed by one or more keywords. If a keyword of a certain topic exists in the content of a post (<strong>case insensitive</strong>) then the post has this topic.</p>
 
-<p>编写解决方案，根据以下规则查找每篇文章的主题:</p>
+<p>Write a solution to find the topics of each post according to the following rules:</p>
 
 <ul>
-	<li>如果帖子没有来自任何主题的关键词，那么它的主题应该是&nbsp;<code>"Ambiguous!"</code>。</li>
-	<li>如果该帖子至少有一个主题的关键字，其主题应该是其主题的 id 按升序排列并以逗号 '，' 分隔的字符串。字符串不应该包含重复的 id。</li>
+	<li>If the post does not have keywords from any topic, its topic should be <code>&quot;Ambiguous!&quot;</code>.</li>
+	<li>If the post has at least one keyword of any topic, its topic should be a string of the IDs of its topics sorted in ascending order and separated by commas <code>&#39;,&#39;</code>. The string should not contain duplicate IDs.</li>
 </ul>
 
-<p>以&nbsp;<strong>任意顺序&nbsp;</strong>返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Keywords 表:
+<strong>Input:</strong> 
+Keywords table:
 +----------+----------+
 | topic_id | word     |
 +----------+----------+
@@ -66,7 +63,7 @@ Keywords 表:
 | 3        | WAR      |
 | 2        | Vaccine  |
 +----------+----------+
-Posts 表:
+Posts table:
 +---------+------------------------------------------------------------------------+
 | post_id | content                                                                |
 +---------+------------------------------------------------------------------------+
@@ -75,7 +72,7 @@ Posts 表:
 | 3       | stop the war and play handball                                         |
 | 4       | warning I planted some flowers this morning and then got vaccinated    |
 +---------+------------------------------------------------------------------------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +---------+------------+
 | post_id | topic      |
 +---------+------------+
@@ -84,26 +81,28 @@ Posts 表:
 | 3       | 1,3        |
 | 4       | Ambiguous! |
 +---------+------------+
-<strong>解释:</strong> 
-1: "We call it soccer They call it football hahaha"
-"football" 表示主题 1。没有其他词能表示任何其他主题。
+<strong>Explanation:</strong> 
+1: &quot;We call it soccer They call it football hahaha&quot;
+&quot;football&quot; expresses topic 1. There is no other word that expresses any other topic.
 
-2: "Americans prefer basketball while Europeans love handball and football"
-"handball" 表示主题 1。"football" 表示主题 1。
-没有其他词能表示任何其他主题。
+2: &quot;Americans prefer basketball while Europeans love handball and football&quot;
+&quot;handball&quot; expresses topic 1. &quot;football&quot; expresses topic 1. 
+There is no other word that expresses any other topic.
 
-3: "stop the war and play handball"
-"war" 表示主题 3。 "handball" 表示主题 1。
-没有其他词能表示任何其他主题。
+3: &quot;stop the war and play handball&quot;
+&quot;war&quot; expresses topic 3. &quot;handball&quot; expresses topic 1.
+There is no other word that expresses any other topic.
 
-4: "warning I planted some flowers this morning and then got vaccinated"
-这个句子里没有一个词能表示任何主题。注意 “warning” 和 “war” 不同，尽管它们有一个共同的前缀。
-所以这篇文章 “Ambiguous!”
-请注意，可以使用一个词来表达多个主题。</pre>
+4: &quot;warning I planted some flowers this morning and then got vaccinated&quot;
+There is no word in this sentence that expresses any topic. Note that &quot;warning&quot; is different from &quot;war&quot; although they have a common prefix. 
+This post is ambiguous.
 
-## 解法
+Note that it is okay to have one word that expresses more than one topic.
+</pre>
 
-### 方法一
+## Solutions
+
+### Solution 1
 
 <!-- tabs:start -->
 

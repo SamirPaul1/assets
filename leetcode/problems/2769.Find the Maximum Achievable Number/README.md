@@ -1,57 +1,56 @@
-# [2769. 找出最大的可达成数字](https://leetcode.cn/problems/find-the-maximum-achievable-number)
+# [2769. Find the Maximum Achievable Number](https://leetcode.com/problems/find-the-maximum-achievable-number)
 
-[English Version](/solution/2700-2799/2769.Find%20the%20Maximum%20Achievable%20Number/README_EN.md)
+[中文文档](/solution/2700-2799/2769.Find%20the%20Maximum%20Achievable%20Number/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two integers, <code>num</code> and <code>t</code>.</p>
 
-<p>给你两个整数 <code>num</code> 和 <code>t</code> 。</p>
-
-<p>如果整数 <code>x</code> 可以在执行下述操作不超过 <code>t</code> 次的情况下变为与 <code>num</code> 相等，则称其为 <strong>可达成数字</strong> ：</p>
+<p>An integer <code>x</code> is called <b>achievable</b> if it can become equal to <code>num</code> after applying the following operation no more than <code>t</code> times:</p>
 
 <ul>
-	<li>每次操作将 <code>x</code> 的值增加或减少 <code>1</code> ，同时可以选择将 <code>num</code> 的值增加或减少 <code>1</code> 。</li>
+	<li>Increase or decrease <code>x</code> by <code>1</code>, and simultaneously increase or decrease <code>num</code> by <code>1</code>.</li>
 </ul>
 
-<p>返回所有可达成数字中的最大值。可以证明至少存在一个可达成数字。</p>
+<p>Return <em>the maximum possible achievable number</em>. It can be proven that there exists at least one achievable number.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
+<pre>
+<strong>Input:</strong> num = 4, t = 1
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> The maximum achievable number is x = 6; it can become equal to num after performing this operation:
+1- Decrease x by 1, and increase num by 1. Now, x = 5 and num = 5. 
+It can be proven that there is no achievable number larger than 6.
 
-<pre><strong>输入：</strong>num = 4, t = 1
-<strong>输出：</strong>6
-<strong>解释：</strong>最大可达成数字是 x = 6 ，执行下述操作可以使其等于 num ：
-- x 减少 1 ，同时 num 增加 1 。此时，x = 5 且 num = 5 。 
-可以证明不存在大于 6 的可达成数字。
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>num = 3, t = 2
-<strong>输出：</strong>7
-<strong>解释：</strong>最大的可达成数字是 x = 7 ，执行下述操作可以使其等于 num ：
-- x 减少 1 ，同时 num 增加 1 。此时，x = 6 且 num = 4 。 
-- x 减少 1 ，同时 num 增加 1 。此时，x = 5 且 num = 5 。 
-可以证明不存在大于 7 的可达成数字。
+<pre>
+<strong>Input:</strong> num = 3, t = 2
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> The maximum achievable number is x = 7; after performing these operations, x will equal num: 
+1- Decrease x by 1, and increase num by 1. Now, x = 6 and num = 4.
+2- Decrease x by 1, and increase num by 1. Now, x = 5 and num = 5.
+It can be proven that there is no achievable number larger than 7.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= num, t&nbsp;&lt;= 50</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数学
+### Solution 1: Mathematics
 
-我们注意到，每次操作可以将 $x$ 减少 $1$，同时将 $num$ 增加 $1$，这样 $x$ 和 $num$ 的差值就会减少 $2$，而最多可以操作 $t$ 次，所以最大可达成数字为 $num + t \times 2$。
+Notice that every time we can decrease $x$ by $1$ and increase $num$ by $1$, the difference between $x$ and $num$ will decrease by $2$, and we can do this operation at most $t$ times, so the maximum reachable number is $num + t \times 2$.
 
-时间复杂度 $O(1)$，空间复杂度 $O(1)$。
+The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

@@ -1,70 +1,67 @@
-# [568. 最大休假天数](https://leetcode.cn/problems/maximum-vacation-days)
+# [568. Maximum Vacation Days](https://leetcode.com/problems/maximum-vacation-days)
 
-[English Version](/solution/0500-0599/0568.Maximum%20Vacation%20Days/README_EN.md)
+[中文文档](/solution/0500-0599/0568.Maximum%20Vacation%20Days/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>LeetCode wants to give one of its best employees the option to travel among <code>n</code> cities to collect algorithm problems. But all work and no play makes Jack a dull boy, you could take vacations in some particular cities and weeks. Your job is to schedule the traveling to maximize the number of vacation days you could take, but there are certain rules and restrictions you need to follow.</p>
 
-<p>力扣想让一个最优秀的员工在 <strong>N</strong> 个城市间旅行来收集算法问题。 但只工作不玩耍，聪明的孩子也会变傻，所以您可以在某些特定的城市和星期休假。您的工作就是安排旅行使得最大化你可以休假的天数，但是您需要遵守一些规则和限制。</p>
-
-<p><strong>规则和限制：</strong></p>
+<p>Rules and restrictions:</p>
 
 <ol>
-	<li>您只能在 <strong>N</strong> 个城市之间旅行，用 <code>0</code> 到 <code>n-1</code> 的索引表示。一开始，您在索引为 <code>0</code> 的城市，并且那天是<strong>星期一</strong>。</li>
-	<li>这些城市通过航班相连。这些航班用&nbsp;<code>n x n</code>&nbsp;矩阵<strong> flights</strong>（不一定是对称的）表示，<strong>flights[i][j] </strong>代表城市 <code>i</code> 到城市 <code>j</code> 的航空状态。如果没有城市 <code>i</code> 到城市 <code>j</code> 的航班，<code>flights[i][j] = 0</code>&nbsp;；否则，<code>flights[i][j] = 1</code>&nbsp;。同时，对于所有的 <code>i</code> ，<code>flights[i][i] = 0</code>&nbsp;<strong>。</strong></li>
-	<li>您总共有 <code>k</code>&nbsp;周（<strong>每周7天</strong>）的时间旅行。您<strong>每天</strong>最多只能乘坐一次航班，并且只能在每周的<strong>星期一</strong>上午乘坐航班。由于飞行时间很短，我们不考虑飞行时间的影响。</li>
-	<li>对于每个城市，不同的星期您休假天数是不同的，给定一个 <strong>N*K</strong> 矩阵 <strong>days</strong> 代表这种限制，<strong>days[i][j] </strong>代表您在第j个星期在城市i能休假的最长天数。</li>
-	<li>如果您从 <code>A</code> 市飞往 <code>B</code> 市，并在当天休假，扣除的假期天数将计入 <code>B</code> 市当周的休假天数。</li>
-	<li>我们不考虑飞行时数对休假天数计算的影响。</li>
+	<li>You can only travel among <code>n</code> cities, represented by indexes from <code>0</code> to <code>n - 1</code>. Initially, you are in the city indexed <code>0</code> on <strong>Monday</strong>.</li>
+	<li>The cities are connected by flights. The flights are represented as an <code>n x n</code> matrix (not necessarily symmetrical), called <code>flights</code> representing the airline status from the city <code>i</code> to the city <code>j</code>. If there is no flight from the city <code>i</code> to the city <code>j</code>, <code>flights[i][j] == 0</code>; Otherwise, <code>flights[i][j] == 1</code>. Also, <code>flights[i][i] == 0</code> for all <code>i</code>.</li>
+	<li>You totally have <code>k</code> weeks (each week has <strong>seven days</strong>) to travel. You can only take flights at most once per day and can only take flights on each week&#39;s Monday morning. Since flight time is so short, we do not consider the impact of flight time.</li>
+	<li>For each city, you can only have restricted vacation days in different weeks, given an <code>n x k</code> matrix called <code>days</code> representing this relationship. For the value of <code>days[i][j]</code>, it represents the maximum days you could take a vacation in the city <code>i</code> in the week <code>j</code>.</li>
+	<li>You could stay in a city beyond the number of vacation days, but you should work on the extra days, which will not be counted as vacation days.</li>
+	<li>If you fly from city <code>A</code> to city <code>B</code> and take the vacation on that day, the deduction towards vacation days will count towards the vacation days of city <code>B</code> in that week.</li>
+	<li>We do not consider the impact of flight hours on the calculation of vacation days.</li>
 </ol>
 
-<p>给定 <code>flights</code> 矩阵和 <code>days</code> 矩阵，您需要输出 <code>k</code>&nbsp;周内可以休假的最长天数。</p>
+<p>Given the two matrices <code>flights</code> and <code>days</code>, return <em>the maximum vacation days you could take during </em><code>k</code><em> weeks</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong>flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[1,3,1],[6,0,3],[3,3,3]]
-<strong>输出:</strong> 12
-<strong>解释:</strong> 
-最好的策略之一：
-第一个星期 : 星期一从城市 0 飞到城市 1，玩 6 天，工作 1 天。 
-（虽然你是从城市 0 开始，但因为是星期一，我们也可以飞到其他城市。） 
-第二个星期 : 星期一从城市 1 飞到城市 2，玩 3 天，工作 4 天。
-第三个星期 : 呆在城市 2，玩 3 天，工作 4 天。
-Ans = 6 + 3 + 3 = 12. 
+<strong>Input:</strong> flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[1,3,1],[6,0,3],[3,3,3]]
+<strong>Output:</strong> 12
+<strong>Explanation:</strong>
+One of the best strategies is:
+1st week : fly from city 0 to city 1 on Monday, and play 6 days and work 1 day.
+(Although you start at city 0, we could also fly to and start at other cities since it is Monday.)
+2nd week : fly from city 1 to city 2 on Monday, and play 3 days and work 4 days.
+3rd week : stay at city 2, and play 3 days and work 4 days.
+Ans = 6 + 3 + 3 = 12.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong>flights = [[0,0,0],[0,0,0],[0,0,0]], days = [[1,1,1],[7,7,7],[7,7,7]]
-<strong>输出:</strong> 3
-<strong>解释:</strong> 
-由于没有航班可以让您飞到其他城市，你必须在城市 0 呆整整 3 个星期。 
-对于每一个星期，你只有一天时间玩，剩下六天都要工作。 
-所以最大休假天数为 3.
-Ans = 1 + 1 + 1 = 3. 
+<strong>Input:</strong> flights = [[0,0,0],[0,0,0],[0,0,0]], days = [[1,1,1],[7,7,7],[7,7,7]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+Since there are no flights that enable you to move to another city, you have to stay at city 0 for the whole 3 weeks. 
+For each week, you only have one day to play and six days to work.
+So the maximum number of vacation days is 3.
+Ans = 1 + 1 + 1 = 3.
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong>flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[7,0,0],[0,7,0],[0,0,7]]
-<strong>输出:</strong> 21
-<strong>解释:</strong>
-最好的策略之一是：
-第一个星期 : 呆在城市 0，玩 7 天。 
-第二个星期 : 星期一从城市 0 飞到城市 1，玩 7 天。
-第三个星期 : 星期一从城市 1 飞到城市 2，玩 7 天。
+<strong>Input:</strong> flights = [[0,1,1],[1,0,1],[1,1,0]], days = [[7,0,0],[0,7,0],[0,0,7]]
+<strong>Output:</strong> 21
+<strong>Explanation:</strong>
+One of the best strategies is:
+1st week : stay at city 0, and play 7 days.
+2nd week : fly from city 0 to city 1 on Monday, and play 7 days.
+3rd week : fly from city 1 to city 2 on Monday, and play 7 days.
 Ans = 7 + 7 + 7 = 21
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == flights.length</code></li>
@@ -72,21 +69,13 @@ Ans = 7 + 7 + 7 = 21
 	<li><code>n == days.length</code></li>
 	<li><code>k == days[i].length</code></li>
 	<li><code>1 &lt;= n, k &lt;= 100</code></li>
-	<li><code>flights[i][j]</code>&nbsp;不是&nbsp;<code>0</code>&nbsp;就是&nbsp;<code>1</code></li>
-	<li><code>0 &lt;= days[i] &lt;= 7</code></li>
+	<li><code>flights[i][j]</code> is either <code>0</code> or <code>1</code>.</li>
+	<li><code>0 &lt;= days[i][j] &lt;= 7</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们定义 $f[k][j]$ 表示前 $k$ 周，且最后一周在城市 $j$ 休假的最长天数。初始时 $f[0][0]=0$，其它 $f[0][j]=-\infty$。答案为 $\max_{j=0}^{n-1} f[K][j]$。
-
-接下来，我们考虑如何计算 $f[k][j]$。对于当前这一周，我们可以枚举上一周所在的城市 $i$，城市 $i$ 可以和城市 $j$ 相等，那么 $f[k][j] = f[k-1][i]$；也可以和城市 $j$ 不相等，如果不相等，我们需要判断是否可以从城市 $i$ 飞到城市 $j$，如果可以，那么 $f[k][j] = max(f[k][j], f[k-1][i])$。最后，我们还需要加上这一周在城市 $j$ 休假的天数 $days[j][k-1]$。
-
-最终的答案即为 $\max_{j=0}^{n-1} f[K][j]$。
-
-时间复杂度 $O(K \times n^2)$，空间复杂度 $O(K \times n)$。其中 $K$ 和 $n$ 分别为周数和城市数。
+### Solution 1
 
 <!-- tabs:start -->
 

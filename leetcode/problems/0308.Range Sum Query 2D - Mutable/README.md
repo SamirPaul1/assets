@@ -1,74 +1,61 @@
-# [308. 二维区域和检索 - 可变](https://leetcode.cn/problems/range-sum-query-2d-mutable)
+# [308. Range Sum Query 2D - Mutable](https://leetcode.com/problems/range-sum-query-2d-mutable)
 
-[English Version](/solution/0300-0399/0308.Range%20Sum%20Query%202D%20-%20Mutable/README_EN.md)
+[中文文档](/solution/0300-0399/0308.Range%20Sum%20Query%202D%20-%20Mutable/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个二维矩阵 <code>matrix</code> ，处理以下类型的多个查询:</p>
+<p>Given a 2D matrix <code>matrix</code>, handle multiple queries of the following types:</p>
 
 <ol>
-	<li><strong>更新</strong> <code>matrix</code> 中单元格的值。</li>
-	<li>计算由&nbsp;<strong>左上角</strong> <code>(row1, col1)</code> 和&nbsp;<strong>右下角</strong> <code>(row2, col2)</code> 定义的 <code>matrix</code>&nbsp;内矩阵元素的&nbsp;<strong>和</strong>。</li>
+	<li><strong>Update</strong> the value of a cell in <code>matrix</code>.</li>
+	<li>Calculate the <strong>sum</strong> of the elements of <code>matrix</code> inside the rectangle defined by its <strong>upper left corner</strong> <code>(row1, col1)</code> and <strong>lower right corner</strong> <code>(row2, col2)</code>.</li>
 </ol>
 
-<p>实现 <code>NumMatrix</code> 类：</p>
+<p>Implement the NumMatrix class:</p>
 
 <ul>
-	<li><code>NumMatrix(int[][] matrix)</code> 用整数矩阵&nbsp;<code>matrix</code> 初始化对象。</li>
-	<li><code>void update(int row, int col, int val)</code> <strong>更新</strong> <code>matrix[row][col]</code> 的值到 <code>val</code> 。</li>
-	<li><code>int sumRegion(int row1, int col1, int row2, int col2)</code> 返回矩阵&nbsp;<code>matrix</code> 中指定矩形区域元素的 <strong>和</strong> ，该区域由 <strong>左上角</strong> <code>(row1, col1)</code> 和 <strong>右下角</strong> <code>(row2, col2)</code> 界定。</li>
+	<li><code>NumMatrix(int[][] matrix)</code> Initializes the object with the integer matrix <code>matrix</code>.</li>
+	<li><code>void update(int row, int col, int val)</code> <strong>Updates</strong> the value of <code>matrix[row][col]</code> to be <code>val</code>.</li>
+	<li><code>int sumRegion(int row1, int col1, int row2, int col2)</code> Returns the <strong>sum</strong> of the elements of <code>matrix</code> inside the rectangle defined by its <strong>upper left corner</strong> <code>(row1, col1)</code> and <strong>lower right corner</strong> <code>(row2, col2)</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0308.Range%20Sum%20Query%202D%20-%20Mutable/images/summut-grid.jpg" style="height: 222px; width: 500px;" />
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0308.Range%20Sum%20Query%202D%20-%20Mutable/images/summut-grid.jpg" style="width: 500px; height: 222px;" />
 <pre>
-<strong>输入</strong>
-["NumMatrix", "sumRegion", "update", "sumRegion"]
+<strong>Input</strong>
+[&quot;NumMatrix&quot;, &quot;sumRegion&quot;, &quot;update&quot;, &quot;sumRegion&quot;]
 [[[[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]], [2, 1, 4, 3], [3, 2, 2], [2, 1, 4, 3]]
-<strong>输出</strong>
+<strong>Output</strong>
 [null, 8, null, 10]
 
-<strong>解释</strong>
+<strong>Explanation</strong>
 NumMatrix numMatrix = new NumMatrix([[3, 0, 1, 4, 2], [5, 6, 3, 2, 1], [1, 2, 0, 1, 5], [4, 1, 0, 1, 7], [1, 0, 3, 0, 5]]);
-numMatrix.sumRegion(2, 1, 4, 3); // 返回 8 (即, 左侧红色矩形的和)
-numMatrix.update(3, 2, 2); // 矩阵从左图变为右图
-numMatrix.sumRegion(2, 1, 4, 3); // 返回 10 (即，右侧红色矩形的和)
+numMatrix.sumRegion(2, 1, 4, 3); // return 8 (i.e. sum of the left red rectangle)
+numMatrix.update(3, 2, 2); // matrix changes from left image to right image
+numMatrix.sumRegion(2, 1, 4, 3); // return 10 (i.e. sum of the right red rectangle)
 
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == matrix.length</code></li>
 	<li><code>n == matrix[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 200</code></li>
-	<li><code>-10<sup>5</sup> &lt;= matrix[i][j] &lt;= 10<sup>5</sup></code></li>
+	<li><code>-1000 &lt;= matrix[i][j] &lt;= 1000</code></li>
 	<li><code>0 &lt;= row &lt; m</code></li>
 	<li><code>0 &lt;= col &lt; n</code></li>
-	<li><code>-10<sup>5</sup> &lt;= val &lt;= 10<sup>5</sup></code></li>
+	<li><code>-1000 &lt;= val &lt;= 1000</code></li>
 	<li><code>0 &lt;= row1 &lt;= row2 &lt; m</code></li>
 	<li><code>0 &lt;= col1 &lt;= col2 &lt; n</code></li>
-	<li>最多调用<code>10<sup>4</sup></code> 次&nbsp;<code>sumRegion</code> 和 <code>update</code> 方法</li>
+	<li>At most <code>5000</code> calls will be made to <code>sumRegion</code> and <code>update</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：树状数组
-
-树状数组，也称作“二叉索引树”（Binary Indexed Tree）或 Fenwick 树。 它可以高效地实现如下两个操作：
-
-1. **单点更新** `update(x, delta)`： 把序列 x 位置的数加上一个值 delta；
-1. **前缀和查询** `query(x)`：查询序列 `[1,...x]` 区间的区间和，即位置 x 的前缀和。
-
-这两个操作的时间复杂度均为 $O(\log n)$。
-
-对于本题，可以构建二维树状数组。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -337,14 +324,7 @@ func (this *NumMatrix) SumRegion(row1 int, col1 int, row2 int, col2 int) int {
 
 <!-- tabs:end -->
 
-### 方法二：线段树
-
-线段树将整个区间分割为多个不连续的子区间，子区间的数量不超过 `log(width)`。更新某个元素的值，只需要更新 `log(width)` 个区间，并且这些区间都包含在一个包含该元素的大区间内。
-
--   线段树的每个节点代表一个区间；
--   线段树具有唯一的根节点，代表的区间是整个统计范围，如 `[1, N]`；
--   线段树的每个叶子节点代表一个长度为 1 的元区间 `[x, x]`；
--   对于每个内部节点 `[l, r]`，它的左儿子是 `[l, mid]`，右儿子是 `[mid + 1, r]`, 其中 `mid = ⌊(l + r) / 2⌋` (即向下取整)。
+### Solution 2
 
 <!-- tabs:start -->
 

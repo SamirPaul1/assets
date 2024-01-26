@@ -1,58 +1,54 @@
-# [1794. 统计距离最小的子串对个数](https://leetcode.cn/problems/count-pairs-of-equal-substrings-with-minimum-difference)
+# [1794. Count Pairs of Equal Substrings With Minimum Difference](https://leetcode.com/problems/count-pairs-of-equal-substrings-with-minimum-difference)
 
-[English Version](/solution/1700-1799/1794.Count%20Pairs%20of%20Equal%20Substrings%20With%20Minimum%20Difference/README_EN.md)
+[中文文档](/solution/1700-1799/1794.Count%20Pairs%20of%20Equal%20Substrings%20With%20Minimum%20Difference/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>输入数据为两个字符串<code>firstString</code> 和 <code>secondString</code>，两个字符串下标均从0开始，且均只包含小写的英文字符，请计算满足下列要求的下标四元组<code>(i,j,a,b)</code>的个数：</p>
+<p>You are given two strings <code>firstString</code> and <code>secondString</code> that are <strong>0-indexed</strong> and consist only of lowercase English letters. Count the number of index quadruples <code>(i,j,a,b)</code> that satisfy the following conditions:</p>
 
 <ul>
-	<li><code>0 <= i <= j < firstString.length</code></li>
-	<li><code>0 <= a <= b < secondString.length</code></li>
-	<li><code>firstString</code>字符串中从<code>i</code>位置到<code>j</code>位置的子串(包括<code>j</code>位置的字符)和<code>secondString</code>字符串从<code>a</code>位置到<code>b</code>位置的子串(包括<code>b</code>位置字符)相等</li>
-	<li><code>j-a</code>的数值是所有符合前面三个条件的四元组中可能的最小值</li>
+	<li><code>0 &lt;= i &lt;= j &lt; firstString.length</code></li>
+	<li><code>0 &lt;= a &lt;= b &lt; secondString.length</code></li>
+	<li>The substring of <code>firstString</code> that starts at the <code>i<sup>th</sup></code> character and ends at the <code>j<sup>th</sup></code> character (inclusive) is <strong>equal</strong> to the substring of <code>secondString</code> that starts at the <code>a<sup>th</sup></code> character and ends at the <code>b<sup>th</sup></code> character (inclusive).</li>
+	<li><code>j - a</code> is the <strong>minimum</strong> possible value among all quadruples that satisfy the previous conditions.</li>
 </ul>
 
-<p>返回符合上述 4 个条件的四元组的 <strong>个数</strong> 。</p>
+<p>Return <em>the <strong>number</strong> of such quadruples</em>.</p>
 
-<p> </p>
-
-<p><strong>示例1：</strong></p>
-
-<pre>
-<strong>输入：</strong>firstString = "abcd", secondString = "bccda"
-<strong>输出：</strong>1
-<strong>解释：</strong>(0,0,4,4)是唯一符合条件的四元组且其<code>j-a</code>的数值是最小的.
-</pre>
-
-<p><strong>示例 2：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>firstString = "ab", secondString = "cd"
-<strong>输出：</strong>0
-<strong>解释：</strong>没有任何一个四元组能满足上述4个要求.
+<strong>Input:</strong> firstString = &quot;abcd&quot;, secondString = &quot;bccda&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The quadruple (0,0,4,4) is the only one that satisfies all the conditions and minimizes j - a.
 </pre>
 
-<p> </p>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> firstString = &quot;ab&quot;, secondString = &quot;cd&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There are no quadruples satisfying all the conditions.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= firstString.length, secondString.length <= 2 * 10<sup>5</sup></code></li>
-	<li>两个输入字符串均只包含小写英文字符.</li>
+	<li><code>1 &lt;= firstString.length, secondString.length &lt;= 2 * 10<sup>5</sup></code></li>
+	<li>Both strings consist only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 哈希表
+### Solution 1: Greedy + Hash Table
 
-题目实际上要我们找到一个最小的下标 $i$ 和一个最大的下标 $j$，使得 $firstString[i]$ 与 $secondString[j]$ 相等，且 $i - j$ 的值是所有满足条件的下标对中最小的。
+The problem actually asks us to find a smallest index $i$ and a largest index $j$ such that $firstString[i]$ equals $secondString[j]$, and the value of $i - j$ is the smallest among all index pairs that meet the conditions.
 
-因此，我们先用哈希表 $last$ 记录 $secondString$ 中每个字符最后一次出现的下标，然后遍历 $firstString$，对于每个字符 $c$，如果 $c$ 在 $secondString$ 中出现过，则计算 $i - last[c]$，如果 $i - last[c]$ 的值小于当前最小值，则更新最小值，同时更新答案为 1；如果 $i - last[c]$ 的值等于当前最小值，则答案加 1。
+Therefore, we first use a hash table $last$ to record the index of the last occurrence of each character in $secondString$. Then we traverse $firstString$. For each character $c$, if $c$ has appeared in $secondString$, we calculate $i - last[c]$. If the value of $i - last[c]$ is less than the current minimum value, we update the minimum value and set the answer to 1. If the value of $i - last[c]$ equals the current minimum value, we increment the answer by 1.
 
-时间复杂度 $O(m + n)$，空间复杂度 $O(C)$。其中 $m$ 和 $n$ 分别是 $firstString$ 和 $secondString$ 的长度，而 $C$ 是字符集的大小。本题中 $C = 26$。
+The time complexity is $O(m + n)$, and the space complexity is $O(C)$. Here, $m$ and $n$ are the lengths of $firstString$ and $secondString$ respectively, and $C$ is the size of the character set. In this problem, $C = 26$.
 
 <!-- tabs:start -->
 

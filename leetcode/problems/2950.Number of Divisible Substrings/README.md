@@ -1,24 +1,21 @@
-# [2950. 可整除子串的数量](https://leetcode.cn/problems/number-of-divisible-substrings)
+# [2950. Number of Divisible Substrings](https://leetcode.com/problems/number-of-divisible-substrings)
 
-[English Version](/solution/2900-2999/2950.Number%20of%20Divisible%20Substrings/README_EN.md)
+[中文文档](/solution/2900-2999/2950.Number%20of%20Divisible%20Substrings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>每个英文字母都被映射到一个数字，如下所示。</p>
+<p>Each character of the English alphabet has been mapped to a digit as shown below.</p>
 
 <p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2950.Number%20of%20Divisible%20Substrings/images/old_phone_digits.png" style="padding: 10px; width: 200px; height: 200px;" /></p>
 
-<p>如果字符串的字符的映射值的总和可以被字符串的长度整除，则该字符串是 <strong>可整除</strong> 的。</p>
+<p>A string is <strong>divisible</strong> if the sum of the mapped values of its characters is divisible by its length.</p>
 
-<p>给定一个字符串 <code>s</code>，请返回 <code>s</code> 的<em> <strong>可整除子串</strong> 的数量</em>。</p>
+<p>Given a string <code>s</code>, return <em>the number of <strong>divisible substrings</strong> of</em> <code>s</code>.</p>
 
-<p><strong>子串</strong> 是字符串内的一个连续的非空字符序列。</p>
+<p>A <strong>substring</strong> is a contiguous non-empty sequence of characters within a string.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <table border="1" cellspacing="3" style="border-collapse: separate; text-align: center;">
 	<tbody>
@@ -103,49 +100,48 @@
 </table>
 
 <pre>
-<b>输入：</b>word = "asdf"
-<b>输出：</b>6
-<b>解释：</b>上表包含了有关 word 中每个子串的详细信息，我们可以看到其中有 6 个是可整除的。
+<strong>Input:</strong> word = &quot;asdf&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> The table above contains the details about every substring of word, and we can see that 6 of them are divisible.
 </pre>
 
-<p><b>示例 2:</b></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>word = "bdh"
-<b>输出：</b>4
-<b>解释：</b>4 个可整除的子串是："b"，"d"，"h"，"bdh"。
-可以证明 word 中没有其他可整除的子串。
+<strong>Input:</strong> word = &quot;bdh&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The 4 divisible substrings are: &quot;b&quot;, &quot;d&quot;, &quot;h&quot;, &quot;bdh&quot;.
+It can be shown that there are no other substrings of word that are divisible.
 </pre>
 
-<p><b>示例 3:</b></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>word = "abcd"
-<b>输出：</b>6
-<b>解释：</b>6 个可整除的子串是："a"，"b"，"c"，"d"，"ab"，"cd"。
-可以证明 word 中没有其他可整除的子串。
+<strong>Input:</strong> word = &quot;abcd&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> The 6 divisible substrings are: &quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;, &quot;ab&quot;, &quot;cd&quot;.
+It can be shown that there are no other substrings of word that are divisible.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= word.length &lt;= 2000</code></li>
-	<li><code>word</code> 仅包含小写英文字母。</li>
+	<li><code>word</code> consists only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
+### Solution 1: Enumeration
 
-我们先用一个哈希表或数组 $mp$ 记录每个字母对应的数字。
+First, we use a hash table or array $mp$ to record the number corresponding to each letter.
 
-然后，我们枚举子串的起始位置 $i$，再枚举子串的结束位置 $j$，计算子串 $s[i..j]$ 的数字和 $s$，如果 $s$ 能被 $j-i+1$ 整除，那么就找到了一个可被整除的子串，将答案加一。
+Then, we enumerate the starting position $i$ of the substring, and then enumerate the ending position $j$ of the substring, calculate the numerical sum $s$ of the substring $s[i..j]$. If $s$ can be divided by $j-i+1$, then a divisible substring is found, and the answer is increased by one.
 
-枚举结束后，返回答案。
+After the enumeration is over, return the answer.
 
-时间复杂度 $O(n^2)$，空间复杂度 $O(C)$。其中 $n$ 是字符串 $word$ 的长度，而 $C$ 是字符集的大小，本题中 $C=26$。
+The time complexity is $O(n^2)$, and the space complexity is $O(C)$. Where $n$ is the length of the string $word$, and $C$ is the size of the character set, in this question $C=26$.
 
 <!-- tabs:start -->
 
@@ -294,15 +290,15 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：哈希表 + 前缀和 + 枚举
+### Solution 2: Hash Table + Prefix Sum + Enumeration
 
-与方法一类似，我们先用一个哈希表或数组 $mp$ 记录每个字母对应的数字。
+Similar to Solution 1, we first use a hash table or array $mp$ to record the number corresponding to each letter.
 
-如果一个整数子数组的数字之和能被它的长度整除，那么这个子数组的平均值一定是一个整数。而由于子数组中每个元素的数字都在 $[1, 9]$ 范围内，因此子数组的平均值只能是 $1, 2, \cdots, 9$ 中的一个。
+If the sum of the numbers in an integer subarray can be divided by its length, then the average value of this subarray must be an integer. And because the number of each element in the subarray is in the range of $[1, 9]$, the average value of the subarray can only be one of $1, 2, \cdots, 9$.
 
-我们可以枚举子数组的平均值 $i$，如果一个子数组的元素和能被 $i$ 整除，假设子数组为 $a_1, a_2, \cdots, a_k$，那么 $a_1 + a_2 + \cdots + a_k = i \times k$，即 $(a_1 - i) + (a_2 - i) + \cdots + (a_k - i) = 0$。如果我们把 $a_k - i$ 视为一个新的元素 $b_k$，那么原来的子数组就变成了 $b_1, b_2, \cdots, b_k$，其中 $b_1 + b_2 + \cdots + b_k = 0$。我们只需要求出新的数组中，有多少个子数组的元素和为 $0$ 即可，这可以用“哈希表”结合“前缀和”来实现。
+We can enumerate the average value $i$ of the subarray. If the sum of the elements in a subarray can be divided by $i$, suppose the subarray is $a_1, a_2, \cdots, a_k$, then $a_1 + a_2 + \cdots + a_k = i \times k$, that is, $(a_1 - i) + (a_2 - i) + \cdots + (a_k - i) = 0$. If we regard $a_k - i$ as a new element $b_k$, then the original subarray becomes $b_1, b_2, \cdots, b_k$, where $b_1 + b_2 + \cdots + b_k = 0$. We only need to find out how many subarrays in the new array have an element sum of $0$, which can be implemented with "hash table" combined with "prefix sum".
 
-时间复杂度 $O(10 \times n)$，空间复杂度 $O(n)$。其中 $n$ 是字符串 $word$ 的长度。
+The time complexity is $O(10 \times n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the string $word$.
 
 <!-- tabs:start -->
 

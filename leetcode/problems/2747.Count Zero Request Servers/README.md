@@ -1,65 +1,57 @@
-# [2747. 统计没有收到请求的服务器数目](https://leetcode.cn/problems/count-zero-request-servers)
+# [2747. Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers)
 
-[English Version](/solution/2700-2799/2747.Count%20Zero%20Request%20Servers/README_EN.md)
+[中文文档](/solution/2700-2799/2747.Count%20Zero%20Request%20Servers/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>n</code> denoting the total number of servers and a <strong>2D</strong> <strong>0-indexed </strong>integer array <code>logs</code>, where <code>logs[i] = [server_id, time]</code> denotes that the server with id <code>server_id</code> received a request at time <code>time</code>.</p>
 
-<p>给你一个整数&nbsp;<code>n</code>&nbsp;，表示服务器的总数目，再给你一个下标从 <strong>0</strong>&nbsp;开始的 <strong>二维</strong>&nbsp;整数数组&nbsp;<code>logs</code>&nbsp;，其中&nbsp;<code>logs[i] = [server_id, time]</code>&nbsp;表示 id 为&nbsp;<code>server_id</code>&nbsp;的服务器在&nbsp;<code>time</code>&nbsp;时收到了一个请求。</p>
+<p>You are also given an integer <code>x</code> and a <strong>0-indexed</strong> integer array <code>queries</code>.</p>
 
-<p>同时给你一个整数&nbsp;<code>x</code>&nbsp;和一个下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>queries</code>&nbsp; 。</p>
+<p>Return <em>a <strong>0-indexed</strong> integer array</em> <code>arr</code> <em>of length</em> <code>queries.length</code> <em>where</em> <code>arr[i]</code> <em>represents the number of servers that <strong>did not receive</strong> any requests during the time interval</em> <code>[queries[i] - x, queries[i]]</code>.</p>
 
-<p>请你返回一个长度等于&nbsp;<code>queries.length</code>&nbsp;的数组&nbsp;<code>arr</code>&nbsp;，其中&nbsp;<code>arr[i]</code>&nbsp;表示在时间区间&nbsp;<code>[queries[i] - x, queries[i]]</code>&nbsp;内没有收到请求的服务器数目。</p>
-
-<p>注意时间区间是个闭区间。</p>
+<p>Note that the time intervals are inclusive.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>n = 3, logs = [[1,3],[2,6],[1,5]], x = 5, queries = [10,11]
-<b>输出：</b>[1,2]
-<b>解释：</b>
-对于 queries[0]：id 为 1 和 2 的服务器在区间 [5, 10] 内收到了请求，所以只有服务器 3 没有收到请求。
-对于 queries[1]：id 为 2 的服务器在区间 [6,11] 内收到了请求，所以 id 为 1 和 3 的服务器在这个时间段内没有收到请求。
+<strong>Input:</strong> n = 3, logs = [[1,3],[2,6],[1,5]], x = 5, queries = [10,11]
+<strong>Output:</strong> [1,2]
+<strong>Explanation:</strong> 
+For queries[0]: The servers with ids 1 and 2 get requests in the duration of [5, 10]. Hence, only server 3 gets zero requests.
+For queries[1]: Only the server with id 2 gets a request in duration of [6,11]. Hence, the servers with ids 1 and 3 are the only servers that do not receive any requests during that time period.
+
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>n = 3, logs = [[2,4],[2,1],[1,2],[3,1]], x = 2, queries = [3,4]
-<b>输出：</b>[0,1]
-<b>解释：</b>
-对于 queries[0]：区间 [1, 3] 内所有服务器都收到了请求。
-对于 queries[1]：只有 id 为 3 的服务器在区间 [2,4] 内没有收到请求。
+<strong>Input:</strong> n = 3, logs = [[2,4],[2,1],[1,2],[3,1]], x = 2, queries = [3,4]
+<strong>Output:</strong> [0,1]
+<strong>Explanation:</strong> 
+For queries[0]: All servers get at least one request in the duration of [1, 3].
+For queries[1]: Only server with id 3 gets no request in the duration [2,4].
+
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= logs.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= queries.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>logs[i].length == 2</code></li>
+	<li><code><font face="monospace">logs[i].length == 2</font></code></li>
 	<li><code>1 &lt;= logs[i][0] &lt;= n</code></li>
 	<li><code>1 &lt;= logs[i][1] &lt;= 10<sup>6</sup></code></li>
 	<li><code>1 &lt;= x &lt;= 10<sup>5</sup></code></li>
 	<li><code>x &lt;&nbsp;queries[i]&nbsp;&lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：离线查询 + 排序 + 双指针
-
-我们可以将所有的查询按照时间从小到大排序，然后按照时间顺序依次处理每个查询。
-
-对于每个查询 $q = (r, i)$，其窗口左边界为 $l = r - x$，我们需要统计在窗口 $[l, r]$ 内有多少个服务器收到了请求。我们用双指针 $j$ 和 $k$ 分别维护窗口的左右边界，初始时 $j = k = 0$。每一次，如果 $k$ 指向的日志的时间小于等于 $r$，我们就将其加入到窗口中，然后将 $k$ 向右移动一位。如果 $j$ 指向的日志的时间小于 $l$，我们就将其从窗口中移除，然后将 $j$ 向右移动一位。在移动的过程中，我们需要统计窗口中有多少个不同的服务器，这可以使用哈希表来实现。移动结束后，当前时间区间中没有收到请求的服务器数目就是 $n$ 减去哈希表中不同的服务器数目。
-
-时间复杂度 $O(l \times \log l + m \times \log m + n)$，空间复杂度 $O(l + m)$。其中 $l$ 和 $n$ 分别是数组 $logs$ 的长度和服务器的数量，而 $m$ 是数组 $queries$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

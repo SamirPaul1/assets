@@ -1,15 +1,11 @@
-# [578. 查询回答率最高的问题](https://leetcode.cn/problems/get-highest-answer-rate-question)
+# [578. Get Highest Answer Rate Question](https://leetcode.com/problems/get-highest-answer-rate-question)
 
-[English Version](/solution/0500-0599/0578.Get%20Highest%20Answer%20Rate%20Question/README_EN.md)
+[中文文档](/solution/0500-0599/0578.Get%20Highest%20Answer%20Rate%20Question/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Table: <code>SurveyLog</code></p>
 
-<p><code>SurveyLog</code> 表：</p>
-
-<div class="original__bRMd">
-<div>
 <pre>
 +-------------+------+
 | Column Name | Type |
@@ -21,27 +17,26 @@
 | q_num       | int  |
 | timestamp   | int  |
 +-------------+------+
-这张表可能包含重复项。
-action 是一个 ENUM(category) 数据，可以是 "show"、"answer" 或者 "skip" 。
-这张表的每一行表示：ID = id 的用户对 question_id 的问题在 timestamp 时间进行了 action 操作。
-如果用户对应的操作是 "answer" ，answer_id 将会是对应答案的 id ，否则，值为 null 。
-q_num 是该问题在当前会话中的数字顺序。
+This table may contain duplicate rows.
+action is an ENUM (category) of the type: &quot;show&quot;, &quot;answer&quot;, or &quot;skip&quot;.
+Each row of this table indicates the user with ID = id has taken an action with the question question_id at time timestamp.
+If the action taken by the user is &quot;answer&quot;, answer_id will contain the id of that answer, otherwise, it will be null.
+q_num is the numeral order of the question in the current session.
 </pre>
 
 <p>&nbsp;</p>
 
-<p><strong>回答率</strong> 是指：同一问题编号中回答次数占显示次数的比率。</p>
+<p>The <strong>answer rate</strong> for a question is the number of times a user answered the question by the number of times a user showed the question.</p>
 
-<p>编写一个解决方案以报告 <strong>回答率</strong> 最高的问题。如果有多个问题具有相同的最大 <strong>回答率</strong> ，返回 <code>question_id</code> 最小的那个。</p>
+<p>Write a solution to report the question that has the highest <strong>answer rate</strong>. If multiple questions have the same maximum <strong>answer rate</strong>, report the question with the smallest <code>question_id</code>.</p>
 
-<p>查询结果如下例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 SurveyLog table:
 +----+--------+-------------+-----------+-------+-----------+
 | id | action | question_id | answer_id | q_num | timestamp |
@@ -51,22 +46,20 @@ SurveyLog table:
 | 5  | show   | 369         | null      | 2     | 125       |
 | 5  | skip   | 369         | null      | 2     | 126       |
 +----+--------+-------------+-----------+-------+-----------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+
 | survey_log |
 +------------+
 | 285        |
 +------------+
-<strong>解释：</strong>
-问题 285 显示 1 次、回答 1 次。回答率为 1.0 。
-问题 369 显示 1 次、回答 0 次。回答率为 0.0 。
-问题 285 回答率最高。</pre>
-</div>
-</div>
+<strong>Explanation:</strong> 
+Question 285 was showed 1 time and answered 1 time. The answer rate of question 285 is 1.0
+Question 369 was showed 1 time and was not answered. The answer rate of question 369 is 0.0
+Question 285 has the highest answer rate.</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -81,7 +74,7 @@ LIMIT 1;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

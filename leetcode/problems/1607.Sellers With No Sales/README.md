@@ -1,12 +1,10 @@
-# [1607. 没有卖出的卖家](https://leetcode.cn/problems/sellers-with-no-sales)
+# [1607. Sellers With No Sales](https://leetcode.com/problems/sellers-with-no-sales)
 
-[English Version](/solution/1600-1699/1607.Sellers%20With%20No%20Sales/README_EN.md)
+[中文文档](/solution/1600-1699/1607.Sellers%20With%20No%20Sales/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Customer</code></p>
+<p>Table: <code>Customer</code></p>
 
 <pre>
 +---------------+---------+
@@ -15,13 +13,13 @@
 | customer_id   | int     |
 | customer_name | varchar |
 +---------------+---------+
-customer_id 是该表具有唯一值的列。
-该表的每行包含网上商城的每一位顾客的信息。
+customer_id is the column with unique values for this table.
+Each row of this table contains the information of each customer in the WebStore.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Orders</code></p>
+<p>Table: <code>Orders</code></p>
 
 <pre>
 +---------------+---------+
@@ -33,14 +31,14 @@ customer_id 是该表具有唯一值的列。
 | customer_id   | int     |
 | seller_id     | int     |
 +---------------+---------+
-order_id 是该表具有唯一值的列。
-该表的每行包含网上商城的所有订单的信息.
-sale_date 是顾客 customer_id 和卖家 seller_id 之间交易的日期.
+order_id is the column with unique values for this table.
+Each row of this table contains all orders made in the webstore.
+sale_date is the date when the transaction was made between the customer (customer_id) and the seller (seller_id).
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Seller</code></p>
+<p>Table: <code>Seller</code></p>
 
 <pre>
 +---------------+---------+
@@ -49,25 +47,24 @@ sale_date 是顾客 customer_id 和卖家 seller_id 之间交易的日期.
 | seller_id     | int     |
 | seller_name   | varchar |
 +---------------+---------+
-seller_id 是该表主具有唯一值的列。
-该表的每行包含每一位卖家的信息.
+seller_id is the column with unique values for this table.
+Each row of this table contains the information of each seller.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>写一个解决方案,&nbsp;报告所有在&nbsp;<code>2020</code>&nbsp;年度没有任何卖出的卖家的名字。</p>
+<p>Write a solution to report the names of all sellers who did not make any sales in <code>2020</code>.</p>
 
-<p>返回结果按照&nbsp;<code>seller_name</code>&nbsp;<strong>升序排列。</strong></p>
+<p>Return the result table ordered by <code>seller_name</code> in <strong>ascending order</strong>.</p>
 
-<p>查询结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Customer</code> 表:
+<strong>Input:</strong> 
+Customer table:
 +--------------+---------------+
 | customer_id  | customer_name |
 +--------------+---------------+
@@ -75,7 +72,7 @@ Customer</code> 表:
 | 102          | Bob           |
 | 103          | Charlie       |
 +--------------+---------------+
-<code>Orders</code> 表:
+Orders table:
 +-------------+------------+--------------+-------------+-------------+
 | order_id    | sale_date  | order_cost   | customer_id | seller_id   |
 +-------------+------------+--------------+-------------+-------------+
@@ -85,7 +82,7 @@ Customer</code> 表:
 | 4           | 2020-09-13 | 1000         | 103         | 2           |
 | 5           | 2019-02-11 | 700          | 101         | 2           |
 +-------------+------------+--------------+-------------+-------------+
-<code>Seller</code> 表:
+Seller table:
 +-------------+-------------+
 | seller_id   | seller_name |
 +-------------+-------------+
@@ -93,22 +90,23 @@ Customer</code> 表:
 | 2           | Elizabeth   |
 | 3           | Frank       |
 +-------------+-------------+
-<code><strong>输出：</strong></code>
+<strong>Output:</strong> 
 +-------------+
-| <code>seller_name </code>|
+| seller_name |
 +-------------+
 | Frank       |
 +-------------+
-<code><strong>解释：</strong></code>
-Daniel 在 2020 年 3 月卖出 1 次。
-Elizabeth 在 2020 年卖出 2 次, 在 2019 年卖出 1 次。
-Frank 在 2019 年卖出 1 次, 在 2020 年没有卖出。</pre>
+<strong>Explanation:</strong> 
+Daniel made 1 sale in March 2020.
+Elizabeth made 2 sales in 2020 and 1 sale in 2019.
+Frank made 1 sale in 2019 but no sales in 2020.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：左连接 + 分组 + 筛选
+### Solution 1: LEFT JOIN + GROUP BY + FILTER
 
-我们可以使用左连接，将 `Seller` 表与 `Orders` 表按照字段 `seller_id` 连接，然后按照 `seller_id` 分组，统计每个卖家在 $2020$ 年的卖出次数，最后筛选出卖出次数为 $0$ 的卖家。
+We can use a left join to join the `Seller` table with the `Orders` table on the condition `seller_id`, and then group by `seller_id` to count the number of sales for each seller in the year $2020$. Finally, we can filter out the sellers with zero sales.
 
 <!-- tabs:start -->
 

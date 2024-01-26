@@ -1,55 +1,49 @@
-# [2750. 将数组划分成若干好子数组的方式](https://leetcode.cn/problems/ways-to-split-array-into-good-subarrays)
+# [2750. Ways to Split Array Into Good Subarrays](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays)
 
-[English Version](/solution/2700-2799/2750.Ways%20to%20Split%20Array%20Into%20Good%20Subarrays/README_EN.md)
+[中文文档](/solution/2700-2799/2750.Ways%20to%20Split%20Array%20Into%20Good%20Subarrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a binary array <code>nums</code>.</p>
 
-<p>给你一个二元数组 <code>nums</code> 。</p>
+<p>A subarray of an array is <strong>good</strong> if it contains <strong>exactly</strong> <strong>one</strong> element with the value <code>1</code>.</p>
 
-<p>如果数组中的某个子数组 <strong>恰好</strong> 只存在 <strong>一</strong> 个值为 <code>1</code> 的元素，则认为该子数组是一个 <strong>好子数组</strong> 。</p>
+<p>Return <em>an integer denoting the number of ways to split the array </em><code>nums</code><em> into <strong>good</strong> subarrays</em>. As the number may be too large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
-<p>请你统计将数组 <code>nums</code> 划分成若干 <strong>好子数组</strong> 的方法数，并以整数形式返回。由于数字可能很大，返回其对 <code>10<sup>9</sup> + 7</code> <strong>取余 </strong>之后的结果。</p>
-
-<p>子数组是数组中的一个连续 <strong>非空</strong> 元素序列。</p>
+<p>A subarray is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [0,1,0,0,1]
-<strong>输出：</strong>3
-<strong>解释：</strong>存在 3 种可以将 nums 划分成若干好子数组的方式：
+<pre>
+<strong>Input:</strong> nums = [0,1,0,0,1]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> There are 3 ways to split nums into good subarrays:
 - [0,1] [0,0,1]
 - [0,1,0] [0,1]
 - [0,1,0,0] [1]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [0,1,0]
-<strong>输出：</strong>1
-<strong>解释：</strong>存在 1 种可以将 nums 划分成若干好子数组的方式：
+<pre>
+<strong>Input:</strong> nums = [0,1,0]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is 1 way to split nums into good subarrays:
 - [0,1,0]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 1</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：乘法原理
-
-根据题目描述，我们可以在两个 $1$ 之间画一条分割线，假设两个 $1$ 之间的下标分别为 $j$ 和 $i$，那么可以画的不同分割线的数量为 $i - j$。我们找出所有满足条件的 $j$ 和 $i$，然后将所有的 $i - j$ 相乘即可。如果找不到两个 $1$ 之间的分割线，那么说明数组中不存在 $1$，此时答案为 $0$。
-
-时间复杂度 $O(n)$，其中 $n$ 为数组长度。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

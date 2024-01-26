@@ -1,42 +1,36 @@
-# [1289. 下降路径最小和 II](https://leetcode.cn/problems/minimum-falling-path-sum-ii)
+# [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii)
 
-[English Version](/solution/1200-1299/1289.Minimum%20Falling%20Path%20Sum%20II/README_EN.md)
+[中文文档](/solution/1200-1299/1289.Minimum%20Falling%20Path%20Sum%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an <code>n x n</code> integer matrix <code>grid</code>, return <em>the minimum sum of a <strong>falling path with non-zero shifts</strong></em>.</p>
 
-<p>给你一个&nbsp;<code>n x n</code> 整数矩阵&nbsp;<code>grid</code>&nbsp;，请你返回 <strong>非零偏移下降路径</strong> 数字和的最小值。</p>
-
-<p><strong>非零偏移下降路径</strong> 定义为：从&nbsp;<code>grid</code> 数组中的每一行选择一个数字，且按顺序选出来的数字中，相邻数字不在原数组的同一列。</p>
+<p>A <strong>falling path with non-zero shifts</strong> is a choice of exactly one element from each row of <code>grid</code> such that no two elements chosen in adjacent rows are in the same column.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1289.Minimum%20Falling%20Path%20Sum%20II/images/falling-grid.jpg" style="width: 244px; height: 245px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1289.Minimum%20Falling%20Path%20Sum%20II/images/falling-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
-<strong>输入：</strong>grid = [[1,2,3],[4,5,6],[7,8,9]]
-<strong>输出：</strong>13
-<strong>解释：</strong>
-所有非零偏移下降路径包括：
+<strong>Input:</strong> grid = [[1,2,3],[4,5,6],[7,8,9]]
+<strong>Output:</strong> 13
+<strong>Explanation:</strong> 
+The possible falling paths are:
 [1,5,9], [1,5,7], [1,6,7], [1,6,8],
 [2,4,8], [2,4,9], [2,6,7], [2,6,8],
 [3,4,8], [3,4,9], [3,5,7], [3,5,9]
-下降路径中数字和最小的是&nbsp;[1,5,7] ，所以答案是&nbsp;13 。
+The falling path with the smallest sum is&nbsp;[1,5,7], so the answer is&nbsp;13.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>grid = [[7]]
-<strong>输出：</strong>7
+<strong>Input:</strong> grid = [[7]]
+<strong>Output:</strong> 7
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == grid.length == grid[i].length</code></li>
@@ -44,23 +38,9 @@
 	<li><code>-99 &lt;= grid[i][j] &lt;= 99</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们定义 $f[i][j]$ 表示前 $i$ 行，且最后一个数字在第 $j$ 列的最小数字和。那么状态转移方程为：
-
-$$
-f[i][j] = \min_{k \neq j} f[i - 1][k] + grid[i - 1][j]
-$$
-
-其中 $k$ 表示第 $i - 1$ 行的数字在第 $k$ 列，第 $i$ 行第 $j$ 列的数字为 $grid[i - 1][j]$。
-
-最后答案为 $f[n]$ 中的最小值。
-
-时间复杂度 $O(n^3)$，空间复杂度 $O(n^2)$。其中 $n$ 为矩阵的行数。
-
-实际上，我们也可以维护三个变量 $f$, $g$ 和 $fp$，分别表示前 $i$ 行的最小数字和、第 $i$ 行的第二小数字和以及第 $i$ 行的最小数字在第 $fp$ 列。这样我们就可以将时间复杂度降低到 $O(n^2)$，空间复杂度降低到 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -155,7 +135,7 @@ func minFallingPathSum(grid [][]int) int {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

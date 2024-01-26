@@ -1,72 +1,69 @@
-# [2834. 找出美丽数组的最小和](https://leetcode.cn/problems/find-the-minimum-possible-sum-of-a-beautiful-array)
+# [2834. Find the Minimum Possible Sum of a Beautiful Array](https://leetcode.com/problems/find-the-minimum-possible-sum-of-a-beautiful-array)
 
-[English Version](/solution/2800-2899/2834.Find%20the%20Minimum%20Possible%20Sum%20of%20a%20Beautiful%20Array/README_EN.md)
+[中文文档](/solution/2800-2899/2834.Find%20the%20Minimum%20Possible%20Sum%20of%20a%20Beautiful%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given positive integers <code>n</code> and <code>target</code>.</p>
 
-<p>给你两个正整数：<code>n</code> 和 <code>target</code> 。</p>
-
-<p>如果数组 <code>nums</code> 满足下述条件，则称其为 <strong>美丽数组</strong> 。</p>
+<p>An array <code>nums</code> is <strong>beautiful</strong> if it meets the following conditions:</p>
 
 <ul>
 	<li><code>nums.length == n</code>.</li>
-	<li><code>nums</code> 由两两互不相同的正整数组成。</li>
-	<li>在范围 <code>[0, n-1]</code> 内，<strong>不存在 </strong>两个 <strong>不同</strong> 下标 <code>i</code> 和 <code>j</code> ，使得 <code>nums[i] + nums[j] == target</code> 。</li>
+	<li><code>nums</code> consists of pairwise <strong>distinct</strong> <strong>positive</strong> integers.</li>
+	<li>There doesn&#39;t exist two <strong>distinct</strong> indices, <code>i</code> and <code>j</code>, in the range <code>[0, n - 1]</code>, such that <code>nums[i] + nums[j] == target</code>.</li>
 </ul>
 
-<p>返回符合条件的美丽数组所可能具备的 <strong>最小</strong> 和，并对结果进行取模 <code>10<sup>9</sup>&nbsp;+ 7</code>。</p>
+<p>Return <em>the <strong>minimum</strong> possible sum that a beautiful array could have modulo </em><code>10<sup>9</sup> + 7</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>n = 2, target = 3
-<strong>输出：</strong>4
-<strong>解释：</strong>nums = [1,3] 是美丽数组。
-- nums 的长度为 n = 2 。
-- nums 由两两互不相同的正整数组成。
-- 不存在两个不同下标 i 和 j ，使得 nums[i] + nums[j] == 3 。
-可以证明 4 是符合条件的美丽数组所可能具备的最小和。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 3, target = 3
-<strong>输出：</strong>8
-<strong>解释：</strong>
-nums = [1,3,4] 是美丽数组。 
-- nums 的长度为 n = 3 。 
-- nums 由两两互不相同的正整数组成。 
-- 不存在两个不同下标 i 和 j ，使得 nums[i] + nums[j] == 3 。
-可以证明 8 是符合条件的美丽数组所可能具备的最小和。</pre>
+<strong>Input:</strong> n = 2, target = 3
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> We can see that nums = [1,3] is beautiful.
+- The array nums has length n = 2.
+- The array nums consists of pairwise distinct positive integers.
+- There doesn&#39;t exist two distinct indices, i and j, with nums[i] + nums[j] == 3.
+It can be proven that 4 is the minimum possible sum that a beautiful array could have.
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 1, target = 1
-<strong>输出：</strong>1
-<strong>解释：</strong>nums = [1] 是美丽数组。
+<strong>Input:</strong> n = 3, target = 3
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> We can see that nums = [1,3,4] is beautiful.
+- The array nums has length n = 3.
+- The array nums consists of pairwise distinct positive integers.
+- There doesn&#39;t exist two distinct indices, i and j, with nums[i] + nums[j] == 3.
+It can be proven that 8 is the minimum possible sum that a beautiful array could have.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 1, target = 1
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> We can see, that nums = [1] is beautiful.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 哈希表
+### Solution 1: Greedy + Hash Table
 
-我们从正整数 $i=1$ 开始，依次判断 $i$ 是否可以加入数组中，如果可以加入，则将 $i$ 加入数组中，累加到答案中，然后将 $target-i$ 置为已访问，表示 $target-i$ 不能加入数组中。循环直到数组长度为 $n$。
+We start from the positive integer $i=1$, and judge whether $i$ can be added to the array in turn. If it can be added, we add $i$ to the array, accumulate it to the answer, and then mark $target-i$ as visited, indicating that $target-i$ cannot be added to the array. The loop continues until the length of the array is $n$.
 
-时间复杂度 $O(n + target)$，空间复杂度 $O(n + target)$。其中 $n$ 为数组长度。
+The time complexity is $O(n + target)$, and the space complexity is $O(n + target)$. Here, $n$ is the length of the array.
 
 <!-- tabs:start -->
 

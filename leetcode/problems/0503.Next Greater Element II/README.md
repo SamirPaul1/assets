@@ -1,46 +1,42 @@
-# [503. 下一个更大元素 II](https://leetcode.cn/problems/next-greater-element-ii)
+# [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii)
 
-[English Version](/solution/0500-0599/0503.Next%20Greater%20Element%20II/README_EN.md)
+[中文文档](/solution/0500-0599/0503.Next%20Greater%20Element%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a circular integer array <code>nums</code> (i.e., the next element of <code>nums[nums.length - 1]</code> is <code>nums[0]</code>), return <em>the <strong>next greater number</strong> for every element in</em> <code>nums</code>.</p>
 
-<p>给定一个循环数组&nbsp;<code>nums</code>&nbsp;（&nbsp;<code>nums[nums.length - 1]</code>&nbsp;的下一个元素是&nbsp;<code>nums[0]</code>&nbsp;），返回&nbsp;<em><code>nums</code>&nbsp;中每个元素的 <strong>下一个更大元素</strong></em> 。</p>
-
-<p>数字 <code>x</code>&nbsp;的 <strong>下一个更大的元素</strong> 是按数组遍历顺序，这个数字之后的第一个比它更大的数，这意味着你应该循环地搜索它的下一个更大的数。如果不存在，则输出 <code>-1</code>&nbsp;。</p>
+<p>The <strong>next greater number</strong> of a number <code>x</code> is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn&#39;t exist, return <code>-1</code> for this number.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,2,1]
-<strong>输出:</strong> [2,-1,2]
-<strong>解释:</strong> 第一个 1 的下一个更大的数是 2；
-数字 2 找不到下一个更大的数； 
-第二个 1 的下一个最大的数需要循环搜索，结果也是 2。
+<strong>Input:</strong> nums = [1,2,1]
+<strong>Output:</strong> [2,-1,2]
+Explanation: The first 1&#39;s next greater number is 2; 
+The number 2 can&#39;t find next greater number. 
+The second 1&#39;s next greater number needs to search circularly, which is also 2.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [1,2,3,4,3]
-<strong>输出:</strong> [2,3,4,-1,4]
+<strong>Input:</strong> nums = [1,2,3,4,3]
+<strong>Output:</strong> [2,3,4,-1,4]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-10<sup>9</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：单调栈 + 循环数组
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -152,7 +148,7 @@ var nextGreaterElements = function (nums) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

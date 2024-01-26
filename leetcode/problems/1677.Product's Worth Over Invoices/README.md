@@ -1,12 +1,10 @@
-# [1677. 发票中的产品金额](https://leetcode.cn/problems/products-worth-over-invoices)
+# [1677. Product's Worth Over Invoices](https://leetcode.com/problems/products-worth-over-invoices)
 
-[English Version](/solution/1600-1699/1677.Product%27s%20Worth%20Over%20Invoices/README_EN.md)
+[中文文档](/solution/1600-1699/1677.Product%27s%20Worth%20Over%20Invoices/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><code>Product</code> 表：</p>
+<p>Table: <code>Product</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,11 +13,13 @@
 | product_id  | int     |
 | name        | varchar |
 +-------------+---------+
-product_id 是这张表的主键
-表中含有产品 id 、产品名称。产品名称都是小写的英文字母，产品名称都是唯一的
+product_id is the column with unique values for this table.
+This table contains the ID and the name of the product. The name consists of only lowercase English letters. No two products have the same name.
 </pre>
 
-<p><code>Invoice </code>表：</p>
+<p>&nbsp;</p>
+
+<p>Table: <code>Invoice</code></p>
 
 <pre>
 +-------------+------+
@@ -32,24 +32,28 @@ product_id 是这张表的主键
 | canceled    | int  |
 | refunded    | int  |
 +-------------+------+
-invoice_id 发票 id ，是这张表的主键
-product_id 产品 id
-rest 应缴款项
-paid 已支付金额
-canceled 已取消金额
-refunded 已退款金额
+invoice_id is the column with unique values for this table and the id of this invoice.
+product_id is the id of the product for this invoice.
+rest is the amount left to pay for this invoice.
+paid is the amount paid for this invoice.
+canceled is the amount canceled for this invoice.
+refunded is the amount refunded for this invoice.
 </pre>
 
-<p> </p>
+<p>&nbsp;</p>
 
-<p>要求写一个SQL查询，对于所有产品，返回每个产品的产品名称，以及全部发票累计的总应缴款项、总已支付金额、总已取消金额、总已退款金额。</p>
+<p>Write a solution that will, for all products, return each product name with the total amount due, paid, canceled, and refunded across all invoices.</p>
 
-<p>查询结果按 <code>product_name</code> 排序</p>
+<p>Return the result table ordered by <code>product_name</code>.</p>
 
-<p>示例：</p>
+<p>The&nbsp;result format is in the following example.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-Product 表：
+<strong>Input:</strong> 
+Product table:
 +------------+-------+
 | product_id | name  |
 +------------+-------+
@@ -67,26 +71,27 @@ Invoice table:
 | 3          | 1          | 0    | 1    | 1        | 1        |
 | 4          | 1          | 1    | 1    | 1        | 0        |
 +------------+------------+------+------+----------+----------+
-Result 表：
+<strong>Output:</strong> 
 +-------+------+------+----------+----------+
 | name  | rest | paid | canceled | refunded |
 +-------+------+------+----------+----------+
 | bacon | 3    | 3    | 3        | 3        |
 | ham   | 2    | 4    | 5        | 3        |
 +-------+------+------+----------+----------+
-- bacon 的总应缴款项为 1 + 1 + 0 + 1 = 3
-- bacon 的总已支付金额为 1 + 0 + 1 + 1 = 3
-- bacon 的总已取消金额为 0 + 1 + 1 + 1 = 3
-- bacon 的总已退款金额为 1 + 1 + 1 + 0 = 3
-- ham 的总应缴款项为 2 + 0 = 2
-- ham 的总已支付金额为 0 + 4 = 4
-- ham 的总已取消金额为 5 + 0 = 5
-- ham 的总已退款金额为 0 + 3 = 3
+<strong>Explanation:</strong> 
+- The amount of money left to pay for bacon is 1 + 1 + 0 + 1 = 3
+- The amount of money paid for bacon is 1 + 0 + 1 + 1 = 3
+- The amount of money canceled for bacon is 0 + 1 + 1 + 1 = 3
+- The amount of money refunded for bacon is 1 + 1 + 1 + 0 = 3
+- The amount of money left to pay for ham is 2 + 0 = 2
+- The amount of money paid for ham is 0 + 4 = 4
+- The amount of money canceled for ham is 5 + 0 = 5
+- The amount of money refunded for ham is 0 + 3 = 3
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

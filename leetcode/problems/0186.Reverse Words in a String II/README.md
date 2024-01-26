@@ -1,52 +1,37 @@
-# [186. 反转字符串中的单词 II](https://leetcode.cn/problems/reverse-words-in-a-string-ii)
+# [186. Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii)
 
-[English Version](/solution/0100-0199/0186.Reverse%20Words%20in%20a%20String%20II/README_EN.md)
+[中文文档](/solution/0100-0199/0186.Reverse%20Words%20in%20a%20String%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a character array <code>s</code>, reverse the order of the <strong>words</strong>.</p>
 
-<p>给你一个字符数组 <code>s</code> ，反转其中 <strong>单词</strong> 的顺序。</p>
+<p>A <strong>word</strong> is defined as a sequence of non-space characters. The <strong>words</strong> in <code>s</code> will be separated by a single space.</p>
 
-<p><strong>单词</strong> 的定义为：单词是一个由非空格字符组成的序列。<code>s</code> 中的单词将会由单个空格分隔。</p>
-
-<div class="original__bRMd">
-<div>
-<p>必须设计并实现 <strong>原地</strong> 解法来解决此问题，即不分配额外的空间。</p>
+<p>Your code must solve the problem&nbsp;<strong>in-place,</strong> i.e. without allocating extra space.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = ["t","h","e"," ","s","k","y"," ","i","s"," ","b","l","u","e"]
-<strong>输出：</strong>["b","l","u","e"," ","i","s"," ","s","k","y"," ","t","h","e"]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = ["t","h","e"," ","s","k","y"," ","i","s"," ","b","l","u","e"]
+<strong>Output:</strong> ["b","l","u","e"," ","i","s"," ","s","k","y"," ","t","h","e"]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = ["a"]
+<strong>Output:</strong> ["a"]
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = ["a"]
-<strong>输出：</strong>["a"]
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s[i]</code> 可以是一个英文字母（大写或小写）、数字、或是空格 <code>' '</code> 。</li>
-	<li><code>s</code> 中至少存在一个单词</li>
-	<li><code>s</code> 不含前导或尾随空格</li>
-	<li>题目数据保证：<code>s</code> 中的每个单词都由单个空格分隔</li>
+	<li><code>s[i]</code> is an English letter (uppercase or lowercase), digit, or space <code>&#39; &#39;</code>.</li>
+	<li>There is <strong>at least one</strong> word in <code>s</code>.</li>
+	<li><code>s</code> does not contain leading or trailing spaces.</li>
+	<li>All the words in <code>s</code> are guaranteed to be separated by a single space.</li>
 </ul>
-</div>
-</div>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

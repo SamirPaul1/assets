@@ -1,63 +1,62 @@
-# [2145. 统计隐藏数组数目](https://leetcode.cn/problems/count-the-hidden-sequences)
+# [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences)
 
-[English Version](/solution/2100-2199/2145.Count%20the%20Hidden%20Sequences/README_EN.md)
+[中文文档](/solution/2100-2199/2145.Count%20the%20Hidden%20Sequences/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> array of <code>n</code> integers <code>differences</code>, which describes the <strong>differences </strong>between each pair of <strong>consecutive </strong>integers of a <strong>hidden</strong> sequence of length <code>(n + 1)</code>. More formally, call the hidden sequence <code>hidden</code>, then we have that <code>differences[i] = hidden[i + 1] - hidden[i]</code>.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始且长度为 <code>n</code>&nbsp;的整数数组&nbsp;<code>differences</code>&nbsp;，它表示一个长度为&nbsp;<code>n + 1</code>&nbsp;的&nbsp;<strong>隐藏</strong>&nbsp;数组&nbsp;<strong>相邻</strong>&nbsp;元素之间的&nbsp;<strong>差值</strong>&nbsp;。更正式的表述为：我们将隐藏数组记作&nbsp;<code>hidden</code>&nbsp;，那么&nbsp;<code>differences[i] = hidden[i + 1] - hidden[i]</code>&nbsp;。</p>
-
-<p>同时给你两个整数&nbsp;<code>lower</code> 和&nbsp;<code>upper</code>&nbsp;，它们表示隐藏数组中所有数字的值都在 <strong>闭</strong>&nbsp;区间&nbsp;<code>[lower, upper]</code>&nbsp;之间。</p>
+<p>You are further given two integers <code>lower</code> and <code>upper</code> that describe the <strong>inclusive</strong> range of values <code>[lower, upper]</code> that the hidden sequence can contain.</p>
 
 <ul>
-	<li>比方说，<code>differences = [1, -3, 4]</code>&nbsp;，<code>lower = 1</code>&nbsp;，<code>upper = 6</code>&nbsp;，那么隐藏数组是一个长度为 <code>4</code>&nbsp;且所有值都在&nbsp;<code>1</code>&nbsp;和&nbsp;<code>6</code>&nbsp;（包含两者）之间的数组。
+	<li>For example, given <code>differences = [1, -3, 4]</code>, <code>lower = 1</code>, <code>upper = 6</code>, the hidden sequence is a sequence of length <code>4</code> whose elements are in between <code>1</code> and <code>6</code> (<strong>inclusive</strong>).
 
     <ul>
-    	<li><code>[3, 4, 1, 5]</code> 和&nbsp;<code>[4, 5, 2, 6]</code>&nbsp;都是符合要求的隐藏数组。</li>
-    	<li><code>[5, 6, 3, 7]</code>&nbsp;不符合要求，因为它包含大于 <code>6</code>&nbsp;的元素。</li>
-    	<li><code>[1, 2, 3, 4]</code>&nbsp;不符合要求，因为相邻元素的差值不符合给定数据。</li>
+    	<li><code>[3, 4, 1, 5]</code> and <code>[4, 5, 2, 6]</code> are possible hidden sequences.</li>
+    	<li><code>[5, 6, 3, 7]</code> is not possible since it contains an element greater than <code>6</code>.</li>
+    	<li><code>[1, 2, 3, 4]</code> is not possible since the differences are not correct.</li>
     </ul>
     </li>
 
 </ul>
 
-<p>请你返回 <strong>符合</strong>&nbsp;要求的隐藏数组的数目。如果没有符合要求的隐藏数组，请返回 <code>0</code>&nbsp;。</p>
+<p>Return <em>the number of <strong>possible</strong> hidden sequences there are.</em> If there are no possible sequences, return <code>0</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>differences = [1,-3,4], lower = 1, upper = 6
-<b>输出：</b>2
-<b>解释：</b>符合要求的隐藏数组为：
+<pre>
+<strong>Input:</strong> differences = [1,-3,4], lower = 1, upper = 6
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The possible hidden sequences are:
 - [3, 4, 1, 5]
 - [4, 5, 2, 6]
-所以返回 2 。
+Thus, we return 2.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>differences = [3,-4,5,1,-2], lower = -4, upper = 5
-<b>输出：</b>4
-<b>解释：</b>符合要求的隐藏数组为：
+<pre>
+<strong>Input:</strong> differences = [3,-4,5,1,-2], lower = -4, upper = 5
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The possible hidden sequences are:
 - [-3, 0, -4, 1, 2, 0]
 - [-2, 1, -3, 2, 3, 1]
 - [-1, 2, -2, 3, 4, 2]
 - [0, 3, -1, 4, 5, 3]
-所以返回 4 。
+Thus, we return 4.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><b>输入：</b>differences = [4,-7,2], lower = 3, upper = 6
-<b>输出：</b>0
-<b>解释：</b>没有符合要求的隐藏数组，所以返回 0 。
+<pre>
+<strong>Input:</strong> differences = [4,-7,2], lower = 3, upper = 6
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There are no possible hidden sequences. Thus, we return 0.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == differences.length</code></li>
@@ -66,9 +65,9 @@
 	<li><code>-10<sup>5</sup> &lt;= lower &lt;= upper &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

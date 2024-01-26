@@ -1,63 +1,58 @@
-# [2734. 执行子串操作后的字典序最小字符串](https://leetcode.cn/problems/lexicographically-smallest-string-after-substring-operation)
+# [2734. Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation)
 
-[English Version](/solution/2700-2799/2734.Lexicographically%20Smallest%20String%20After%20Substring%20Operation/README_EN.md)
+[中文文档](/solution/2700-2799/2734.Lexicographically%20Smallest%20String%20After%20Substring%20Operation/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个仅由小写英文字母组成的字符串 <code>s</code> 。在一步操作中，你可以完成以下行为：</p>
+<p>You are given a string <code>s</code> consisting of only lowercase English letters. In one operation, you can do the following:</p>
 
 <ul>
-	<li>选择&nbsp;<code>s</code> 的任一非空子字符串，可能是整个字符串，接着将字符串中的每一个字符替换为英文字母表中的前一个字符。例如，'b' 用 'a' 替换，'a' 用 'z' 替换。</li>
+	<li>Select any non-empty substring of <code>s</code>, possibly the entire string, then replace each one of its characters with the previous character of the English alphabet. For example, &#39;b&#39; is converted to &#39;a&#39;, and &#39;a&#39; is converted to &#39;z&#39;.</li>
 </ul>
 
-<p>返回执行上述操作 <strong>恰好一次</strong> 后可以获得的 <strong>字典序最小</strong> 的字符串。</p>
+<p>Return <em>the <strong>lexicographically smallest</strong> string you can obtain after performing the above operation <strong>exactly once</strong>.</em></p>
 
-<p><strong>子字符串</strong> 是字符串中的一个连续字符序列。</p>
-现有长度相同的两个字符串 <code>x</code> 和 字符串 <code>y</code> ，在满足&nbsp;<code>x[i] != y[i]</code> 的第一个位置 <code>i</code> 上，如果&nbsp; <code>x[i]</code> 在字母表中先于 <code>y[i]</code> 出现，则认为字符串 <code>x</code> 比字符串 <code>y</code> <strong>字典序更小</strong> 。
-
+<p>A <strong>substring</strong> is a contiguous sequence of characters in a string.</p>
+A string <code>x</code> is <strong>lexicographically smaller</strong> than a string <code>y</code> of the same length if <code>x[i]</code> comes before <code>y[i]</code> in alphabetic order for the first position <code>i</code> such that <code>x[i] != y[i]</code>.
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "cbabc"
-<strong>输出：</strong>"baabc"
-<strong>解释：</strong>我们选择从下标 0 开始、到下标 1 结束的子字符串执行操作。 
-可以证明最终得到的字符串是字典序最小的。
+<strong>Input:</strong> s = &quot;cbabc&quot;
+<strong>Output:</strong> &quot;baabc&quot;
+<strong>Explanation:</strong> We apply the operation on the substring starting at index 0, and ending at index 1 inclusive. 
+It can be proven that the resulting string is the lexicographically smallest. 
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "acbbc"
-<strong>输出：</strong>"abaab"
-<strong>解释：</strong>我们选择从下标 1 开始、到下标 4 结束的子字符串执行操作。
-可以证明最终得到的字符串是字典序最小的。
+<strong>Input:</strong> s = &quot;acbbc&quot;
+<strong>Output:</strong> &quot;abaab&quot;
+<strong>Explanation:</strong> We apply the operation on the substring starting at index 1, and ending at index 4 inclusive. 
+It can be proven that the resulting string is the lexicographically smallest. 
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "leetcode"
-<strong>输出：</strong>"kddsbncd"
-<strong>解释：</strong>我们选择整个字符串执行操作。
-可以证明最终得到的字符串是字典序最小的。
+<strong>Input:</strong> s = &quot;leetcode&quot;
+<strong>Output:</strong> &quot;kddsbncd&quot;
+<strong>Explanation:</strong> We apply the operation on the entire string. 
+It can be proven that the resulting string is the lexicographically smallest. 
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>5</sup></code></li>
-	<li><code>s</code> 仅由小写英文字母组成</li>
+	<li><code>s</code> consists of lowercase English letters</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

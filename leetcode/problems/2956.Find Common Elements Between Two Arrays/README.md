@@ -1,45 +1,41 @@
-# [2956. 找到两个数组中的公共元素](https://leetcode.cn/problems/find-common-elements-between-two-arrays)
+# [2956. Find Common Elements Between Two Arrays](https://leetcode.com/problems/find-common-elements-between-two-arrays)
 
-[English Version](/solution/2900-2999/2956.Find%20Common%20Elements%20Between%20Two%20Arrays/README_EN.md)
+[中文文档](/solution/2900-2999/2956.Find%20Common%20Elements%20Between%20Two%20Arrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two <strong>0-indexed</strong> integer arrays <code>nums1</code> and <code>nums2</code> of sizes <code>n</code> and <code>m</code>, respectively.</p>
 
-<p>给你两个下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>nums1</code>&nbsp;和&nbsp;<code>nums2</code>&nbsp;，它们分别含有 <code>n</code>&nbsp;和 <code>m</code>&nbsp;个元素。</p>
-
-<p>请你计算以下两个数值：</p>
+<p>Consider calculating the following values:</p>
 
 <ul>
-	<li>统计&nbsp;<code>0 &lt;= i &lt; n</code>&nbsp;中的下标&nbsp;<code>i</code>&nbsp;，满足&nbsp;<code>nums1[i]</code>&nbsp;在 <code>nums2</code>&nbsp;中 <strong>至少</strong>&nbsp;出现了一次。</li>
-	<li>统计&nbsp;<code>0 &lt;= i &lt; m</code>&nbsp;中的下标&nbsp;<code>i</code>&nbsp;，满足&nbsp;<code>nums2[i]</code>&nbsp;在 <code>nums1</code>&nbsp;中 <strong>至少</strong>&nbsp;出现了一次。</li>
+	<li>The number of indices <code>i</code> such that <code>0 &lt;= i &lt; n</code> and <code>nums1[i]</code> occurs <strong>at least</strong> once in <code>nums2</code>.</li>
+	<li>The number of indices <code>i</code> such that <code>0 &lt;= i &lt; m</code> and <code>nums2[i]</code> occurs <strong>at least</strong> once in <code>nums1</code>.</li>
 </ul>
 
-<p>请你返回一个长度为 <code>2</code>&nbsp;的整数数组<em>&nbsp;</em><code>answer</code>&nbsp;，<strong>按顺序</strong>&nbsp;分别为以上两个数值。</p>
+<p>Return <em>an integer array </em><code>answer</code><em> of size </em><code>2</code><em> containing the two values <strong>in the above order</strong></em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums1 = [4,3,2,3,1], nums2 = [2,2,5,2,3,6]
-<b>输出：</b>[3,4]
-<b>解释：</b>分别计算两个数值：
-- nums1 中下标为 1 ，2 和 3 的元素在 nums2 中至少出现了一次，所以第一个值为 3 。
-- nums2 中下标为 0 ，1 ，3 和 4 的元素在 nums1 中至少出现了一次，所以第二个值为 4 。
+<strong>Input:</strong> nums1 = [4,3,2,3,1], nums2 = [2,2,5,2,3,6]
+<strong>Output:</strong> [3,4]
+<strong>Explanation:</strong> We calculate the values as follows:
+- The elements at indices 1, 2, and 3 in nums1 occur at least once in nums2. So the first value is 3.
+- The elements at indices 0, 1, 3, and 4 in nums2 occur at least once in nums1. So the second value is 4.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums1 = [3,4,2,3], nums2 = [1,5]
-<b>输出：</b>[0,0]
-<b>解释：</b>两个数组中没有公共元素，所以两个值都为 0 。
+<strong>Input:</strong> nums1 = [3,4,2,3], nums2 = [1,5]
+<strong>Output:</strong> [0,0]
+<strong>Explanation:</strong> There are no common elements between the two arrays, so the two values will be 0.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums1.length</code></li>
@@ -48,19 +44,19 @@
 	<li><code>1 &lt;= nums1[i], nums2[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表或数组
+### Solution 1: Hash Table or Array
 
-我们可以用两个哈希表或数组 $s1$ 和 $s2$ 分别记录两个数组中出现的元素。
+We can use two hash tables or arrays $s1$ and $s2$ to record the elements that appear in the two arrays respectively.
 
-接下来，我们创建一个长度为 $2$ 的数组 $ans$，其中 $ans[0]$ 表示 $nums1$ 中出现在 $s2$ 中的元素个数，$ans[1]$ 表示 $nums2$ 中出现在 $s1$ 中的元素个数。
+Next, we create an array $ans$ of length $2$, where $ans[0]$ represents the number of elements in $nums1$ that appear in $s2$, and $ans[1]$ represents the number of elements in $nums2$ that appear in $s1$.
 
-然后，我们遍历数组 $nums1$ 中的每个元素 $x$，如果 $x$ 在 $s2$ 中出现过，则将 $ans[0]$ 加一。接着，我们遍历数组 $nums2$ 中的每个元素 $x$，如果 $x$ 在 $s1$ 中出现过，则将 $ans[1]$ 加一。
+Then, we traverse each element $x$ in the array $nums1$. If $x$ has appeared in $s2$, we increment $ans[0]$. After that, we traverse each element $x$ in the array $nums2$. If $x$ has appeared in $s1$, we increment $ans[1]$.
 
-最后，我们返回数组 $ans$ 即可。
+Finally, we return the array $ans$.
 
-时间复杂度 $O(n + m)$，空间复杂度 $O(n + m)$。其中 $n$ 和 $m$ 分别是数组 $nums1$ 和 $nums2$ 的长度。
+The time complexity is $O(n + m)$, and the space complexity is $O(n + m)$. Here, $n$ and $m$ are the lengths of the arrays $nums1$ and $nums2$ respectively.
 
 <!-- tabs:start -->
 

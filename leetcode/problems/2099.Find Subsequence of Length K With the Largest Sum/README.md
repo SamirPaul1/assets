@@ -1,46 +1,45 @@
-# [2099. 找到和最大的长度为 K 的子序列](https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum)
+# [2099. Find Subsequence of Length K With the Largest Sum](https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum)
 
-[English Version](/solution/2000-2099/2099.Find%20Subsequence%20of%20Length%20K%20With%20the%20Largest%20Sum/README_EN.md)
+[中文文档](/solution/2000-2099/2099.Find%20Subsequence%20of%20Length%20K%20With%20the%20Largest%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> and an integer <code>k</code>. You want to find a <strong>subsequence </strong>of <code>nums</code> of length <code>k</code> that has the <strong>largest</strong> sum.</p>
 
-<p>给你一个整数数组&nbsp;<code>nums</code>&nbsp;和一个整数&nbsp;<code>k</code>&nbsp;。你需要找到&nbsp;<code>nums</code>&nbsp;中长度为 <code>k</code>&nbsp;的 <strong>子序列</strong>&nbsp;，且这个子序列的&nbsp;<strong>和最大&nbsp;</strong>。</p>
+<p>Return<em> </em><em><strong>any</strong> such subsequence as an integer array of length </em><code>k</code>.</p>
 
-<p>请你返回 <strong>任意</strong> 一个长度为&nbsp;<code>k</code>&nbsp;的整数子序列。</p>
-
-<p><strong>子序列</strong>&nbsp;定义为从一个数组里删除一些元素后，不改变剩下元素的顺序得到的数组。</p>
+<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [2,1,3,3], k = 2
+<strong>Output:</strong> [3,3]
+<strong>Explanation:</strong>
+The subsequence has the largest sum of 3 + 3 = 6.</pre>
 
-<pre><b>输入：</b>nums = [2,1,3,3], k = 2
-<b>输出：</b>[3,3]
-<strong>解释：</strong>
-子序列有最大和：3 + 3 = 6 。</pre>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>示例 2：</strong></p>
-
-<pre><b>输入：</b>nums = [-1,-2,3,4], k = 3
-<b>输出：</b>[-1,3,4]
-<b>解释：</b>
-子序列有最大和：-1 + 3 + 4 = 6 。
+<pre>
+<strong>Input:</strong> nums = [-1,-2,3,4], k = 3
+<strong>Output:</strong> [-1,3,4]
+<strong>Explanation:</strong> 
+The subsequence has the largest sum of -1 + 3 + 4 = 6.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><b>输入：</b>nums = [3,4,3,3], k = 2
-<b>输出：</b>[3,4]
-<strong>解释：</strong>
-子序列有最大和：3 + 4 = 7 。
-另一个可行的子序列为 [4, 3] 。
+<pre>
+<strong>Input:</strong> nums = [3,4,3,3], k = 2
+<strong>Output:</strong> [3,4]
+<strong>Explanation:</strong>
+The subsequence has the largest sum of 3 + 4 = 7. 
+Another possible subsequence is [4, 3].
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 1000</code></li>
@@ -48,9 +47,9 @@
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

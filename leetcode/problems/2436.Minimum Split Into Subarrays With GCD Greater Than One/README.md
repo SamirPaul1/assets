@@ -1,72 +1,66 @@
-# [2436. 使子数组最大公约数大于一的最小分割数](https://leetcode.cn/problems/minimum-split-into-subarrays-with-gcd-greater-than-one)
+# [2436. Minimum Split Into Subarrays With GCD Greater Than One](https://leetcode.com/problems/minimum-split-into-subarrays-with-gcd-greater-than-one)
 
-[English Version](/solution/2400-2499/2436.Minimum%20Split%20Into%20Subarrays%20With%20GCD%20Greater%20Than%20One/README_EN.md)
+[中文文档](/solution/2400-2499/2436.Minimum%20Split%20Into%20Subarrays%20With%20GCD%20Greater%20Than%20One/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array <code>nums</code> consisting of positive integers.</p>
 
-<p>给定一个由正整数组成的数组 <code>nums</code>。</p>
-
-<p>将数组拆分为&nbsp;<strong>一个或多个&nbsp;</strong>互相不覆盖的子数组，如下所示:</p>
+<p>Split the array into <strong>one or more</strong> disjoint subarrays such that:</p>
 
 <ul>
-	<li>数组中的每个元素都&nbsp;<strong>只属于一个&nbsp;</strong>子数组，并且</li>
-	<li>每个子数组元素的 <strong>最大公约数</strong> 严格大于 <code>1</code>。</li>
+	<li>Each element of the array belongs to <strong>exactly one</strong> subarray, and</li>
+	<li>The <strong>GCD</strong> of the elements of each subarray is strictly greater than <code>1</code>.</li>
 </ul>
 
-<p>返回<em>拆分后可获得的子数组的最小数目。</em></p>
+<p>Return <em>the minimum number of subarrays that can be obtained after the split</em>.</p>
 
-<p><b>注意</b>:</p>
+<p><strong>Note</strong> that:</p>
 
 <ul>
-	<li>子数组的 <strong>最大公约数&nbsp;</strong>是能将子数组中所有元素整除的最大正整数。</li>
-	<li>
-	<p data-group="1-1"><strong>子数组&nbsp;</strong>是数组的连续部分。</p>
-	</li>
+	<li>The <strong>GCD</strong> of a subarray is the largest positive integer that evenly divides all the elements of the subarray.</li>
+	<li>A <strong>subarray</strong> is a contiguous part of the array.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [12,6,3,14,8]
-<strong>输出:</strong> 2
-<strong>解释:</strong> 我们可以把数组分成子数组:[12,6,3] 和 [14,8]。
-- 12、6、3 的最大公约数是 3，严格大于 1。
-- 14 和 8 的最大公约数是 2，严格来说大于 1。
-可以看出，如果不拆分数组将使最大公约数 = 1。
+<strong>Input:</strong> nums = [12,6,3,14,8]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> We can split the array into the subarrays: [12,6,3] and [14,8].
+- The GCD of 12, 6 and 3 is 3, which is strictly greater than 1.
+- The GCD of 14 and 8 is 2, which is strictly greater than 1.
+It can be shown that splitting the array into one subarray will make the GCD = 1.
 </pre>
 
-<p><strong>示例&nbsp;2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> nums = [4,12,6,14]
-<strong>输出:</strong> 1
-<strong>解释:</strong> 我们可以将数组拆分为一个子数组，即整个数组。
+<strong>Input:</strong> nums = [4,12,6,14]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> We can split the array into only one subarray, which is the whole array.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 2000</code></li>
 	<li><code>2 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 数学
+### Solution 1: Greedy + Mathematics
 
-对于数组中的每个元素，如果它与前面的元素的最大公约数为 $1$，那么它需要作为一个新的子数组的第一个元素。否则，它可以与前面的元素放在同一个子数组中。
+For each element in the array, if its greatest common divisor (gcd) with the previous element is $1$, then it needs to be the first element of a new subarray. Otherwise, it can be placed in the same subarray with the previous elements.
 
-因此，我们先初始化一个变量 $g$，表示当前子数组的最大公约数。初始时 $g=0$，答案变量 $ans=1$。
+Therefore, we first initialize a variable $g$, representing the gcd of the current subarray. Initially, $g=0$ and the answer variable $ans=1$.
 
-接下来，我们从前往后遍历数组，维护当前子数组的最大公约数 $g$。如果当前元素 $x$ 与 $g$ 的最大公约数为 $1$，那么我们需要将当前元素作为一个新的子数组的第一个元素，因此，答案加 $1$，并将 $g$ 更新为 $x$。否则，当前元素可以与前面的元素放在同一个子数组中。继续遍历数组，直到遍历结束。
+Next, we traverse the array from front to back, maintaining the gcd $g$ of the current subarray. If the gcd of the current element $x$ and $g$ is $1$, then we need to make the current element the first element of a new subarray. Therefore, the answer increases by $1$, and $g$ is updated to $x$. Otherwise, the current element can be placed in the same subarray with the previous elements. Continue to traverse the array until the traversal ends.
 
-时间复杂度 $O(n \times \log m)$，其中 $n$ 和 $m$ 分别是数组的长度和数组中元素的最大值。空间复杂度 $O(1)$。
+The time complexity is $O(n \times \log m)$, where $n$ and $m$ are the length of the array and the maximum value in the array, respectively. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

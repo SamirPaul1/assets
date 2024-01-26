@@ -1,70 +1,63 @@
-# [295. 数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream)
+# [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream)
 
-[English Version](/solution/0200-0299/0295.Find%20Median%20from%20Data%20Stream/README_EN.md)
+[中文文档](/solution/0200-0299/0295.Find%20Median%20from%20Data%20Stream/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><strong>中位数</strong>是有序整数列表中的中间值。如果列表的大小是偶数，则没有中间值，中位数是两个中间值的平均值。</p>
+<p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value, and the median is the mean of the two middle values.</p>
 
 <ul>
-	<li>例如 <code>arr = [2,3,4]</code>&nbsp;的中位数是 <code>3</code>&nbsp;。</li>
-	<li>例如&nbsp;<code>arr = [2,3]</code> 的中位数是 <code>(2 + 3) / 2 = 2.5</code> 。</li>
+	<li>For example, for <code>arr = [2,3,4]</code>, the median is <code>3</code>.</li>
+	<li>For example, for <code>arr = [2,3]</code>, the median is <code>(2 + 3) / 2 = 2.5</code>.</li>
 </ul>
 
-<p>实现 MedianFinder 类:</p>
+<p>Implement the MedianFinder class:</p>
 
 <ul>
-	<li>
-	<p><code>MedianFinder() </code>初始化 <code>MedianFinder</code>&nbsp;对象。</p>
-	</li>
-	<li>
-	<p><code>void addNum(int num)</code> 将数据流中的整数 <code>num</code> 添加到数据结构中。</p>
-	</li>
-	<li>
-	<p><code>double findMedian()</code> 返回到目前为止所有元素的中位数。与实际答案相差&nbsp;<code>10<sup>-5</sup></code>&nbsp;以内的答案将被接受。</p>
-	</li>
+	<li><code>MedianFinder()</code> initializes the <code>MedianFinder</code> object.</li>
+	<li><code>void addNum(int num)</code> adds the integer <code>num</code> from the data stream to the data structure.</li>
+	<li><code>double findMedian()</code> returns the median of all elements so far. Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.</li>
 </ul>
 
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入</strong>
-["MedianFinder", "addNum", "addNum", "findMedian", "addNum", "findMedian"]
+<strong>Input</strong>
+[&quot;MedianFinder&quot;, &quot;addNum&quot;, &quot;addNum&quot;, &quot;findMedian&quot;, &quot;addNum&quot;, &quot;findMedian&quot;]
 [[], [1], [2], [], [3], []]
-<strong>输出</strong>
+<strong>Output</strong>
 [null, null, null, 1.5, null, 2.0]
 
-<strong>解释</strong>
+<strong>Explanation</strong>
 MedianFinder medianFinder = new MedianFinder();
 medianFinder.addNum(1);    // arr = [1]
 medianFinder.addNum(2);    // arr = [1, 2]
-medianFinder.findMedian(); // 返回 1.5 ((1 + 2) / 2)
+medianFinder.findMedian(); // return 1.5 (i.e., (1 + 2) / 2)
 medianFinder.addNum(3);    // arr[1, 2, 3]
-medianFinder.findMedian(); // return 2.0</pre>
+medianFinder.findMedian(); // return 2.0
+</pre>
 
-<p><strong>提示:</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>-10<sup>5</sup>&nbsp;&lt;= num &lt;= 10<sup>5</sup></code></li>
-	<li>在调用 <code>findMedian</code>&nbsp;之前，数据结构中至少有一个元素</li>
-	<li>最多&nbsp;<code>5 * 10<sup>4</sup></code>&nbsp;次调用&nbsp;<code>addNum</code>&nbsp;和&nbsp;<code>findMedian</code></li>
+	<li><code>-10<sup>5</sup> &lt;= num &lt;= 10<sup>5</sup></code></li>
+	<li>There will be at least one element in the data structure before calling <code>findMedian</code>.</li>
+	<li>At most <code>5 * 10<sup>4</sup></code> calls will be made to <code>addNum</code> and <code>findMedian</code>.</li>
 </ul>
 
-## 解法
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong></p>
 
-### 方法一：优先队列（双堆）
+<ul>
+	<li>If all integer numbers from the stream are in the range <code>[0, 100]</code>, how would you optimize your solution?</li>
+	<li>If <code>99%</code> of all integer numbers from the stream are in the range <code>[0, 100]</code>, how would you optimize your solution?</li>
+</ul>
 
-创建大根堆、小根堆，其中：大根堆存放较小的一半元素，小根堆存放较大的一半元素。
+## Solutions
 
-添加元素时，先放入小根堆，然后将小根堆对顶元素弹出并放入大根堆（使得大根堆个数多 $1$）；若大小根堆元素个数差超过 $1$，则将大根堆元素弹出放入小根堆。
-
-取中位数时，若大根堆元素较多，取大根堆堆顶，否则取两堆顶元素和的平均值。
-
-**时间复杂度分析：**
-
-每次添加元素的时间复杂度为 $O(\log n)$，取中位数的时间复杂度为 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

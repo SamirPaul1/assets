@@ -1,58 +1,43 @@
-# [298. 二叉树最长连续序列](https://leetcode.cn/problems/binary-tree-longest-consecutive-sequence)
+# [298. Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence)
 
-[English Version](/solution/0200-0299/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/README_EN.md)
+[中文文档](/solution/0200-0299/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, return <em>the length of the longest <strong>consecutive sequence path</strong></em>.</p>
 
-<p>给你一棵指定的二叉树的根节点 <code>root</code> ，请你计算其中 <strong>最长连续序列路径</strong> 的长度。</p>
+<p>A <strong>consecutive sequence path</strong> is a path where the values <strong>increase by one</strong> along the path.</p>
 
-<p><strong>最长连续序列路径</strong> 是依次递增 1 的路径。该路径，可以是从某个初始节点到树中任意节点，通过「父 - 子」关系连接而产生的任意路径。且必须从父节点到子节点，反过来是不可以的。</p>
-&nbsp;
+<p>Note that the path can start <strong>at any node</strong> in the tree, and you cannot go from a node to its parent in the path.</p>
 
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/images/consec1-1-tree.jpg" style="width: 306px; height: 400px;" />
 <pre>
-<strong>输入：</strong>root = [1,null,3,2,4,null,null,null,5]
-<strong>输出：</strong>3
-<strong>解释：</strong>当中，最长连续序列是 <code>3-4-5 ，所以</code>返回结果为 <code>3 。</code>
+<strong>Input:</strong> root = [1,null,3,2,4,null,null,null,5]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Longest consecutive sequence path is 3-4-5, so return 3.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/images/consec1-2-tree.jpg" style="width: 249px; height: 400px;" />
 <pre>
-<strong>输入：</strong>root = [2,null,3,2,null,1]
-<strong>输出：</strong>2
-<strong>解释：</strong>当中，最长连续序列是 <code>2-3 。注意，不是</code> <code>3-2-1，所以</code>返回 <code>2 。</code>
+<strong>Input:</strong> root = [2,null,3,2,null,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Longest consecutive sequence path is 2-3, not 3-2-1, so return 2.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点的数目在范围 <code>[1, 3 * 10<sup>4</sup>]</code> 内</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 3 * 10<sup>4</sup>]</code>.</li>
 	<li><code>-3 * 10<sup>4</sup> &lt;= Node.val &lt;= 3 * 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
-
-我们设计一个函数 $dfs(root)$，表示以 $root$ 为连续序列的第一个节点的最长连续序列路径长度。
-
-函数 $dfs(root)$ 的执行过程如下：
-
-如果 $root$ 为空，那么返回 $0$。
-
-否则，我们递归计算 $root$ 的左右子节点，分别得到 $l$ 和 $r$，如果 $root$ 的左子节点和 $root$ 连续，那么 $l$ 的值加 $1$，否则置 $l$ 为 $1$；如果 $root$ 的右子节点和 $root$ 连续，那么 $r$ 的值加 $1$，否则置 $r$ 为 $1$。
-
-然后我们更新答案为 $ans = \max(ans, l, r)$，并返回 $\max(l, r)$。
-
-最后，我们调用 $dfs(root)$，返回答案 $ans$。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是二叉树的节点数。
+### Solution 1
 
 <!-- tabs:start -->
 

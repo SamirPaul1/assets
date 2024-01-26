@@ -1,52 +1,48 @@
-# [2796. 重复字符串](https://leetcode.cn/problems/repeat-string)
+# [2796. Repeat String](https://leetcode.com/problems/repeat-string)
 
-[English Version](/solution/2700-2799/2796.Repeat%20String/README_EN.md)
+[中文文档](/solution/2700-2799/2796.Repeat%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Write code that enhances all strings such that you can call the&nbsp;<code>string.replicate(x)</code>&nbsp;method on any string and it will return repeated string <code>x</code> times.</p>
 
-<p>编写代码实现字符串方法 <code>string.replicate(x)</code> ，它将返回重复的字符串 <code>x</code> 次。</p>
-
-<p>请尝试在不使用内置方法 <code>string.repeat</code> 的情况下实现它。</p>
+<p>Try to implement it without using the built-in method <code>string.repeat</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>str = "hello", times = 2
-<b>输出：</b>"hellohello"
-<b>解释：</b>"hello" 被重复了 2 次
+<strong>Input:</strong> str = &quot;hello&quot;, times = 2
+<strong>Output:</strong> &quot;hellohello&quot;
+<strong>Explanation:</strong> &quot;hello&quot; is repeated 2 times
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>str = "code", times = 3
-<b>输出：</b>codecodecode"
-<strong>Explanation:</strong> "code" 被重复了 3 次
+<strong>Input:</strong> str = &quot;code&quot;, times = 3
+<strong>Output:</strong> &quot;codecodecode&quot;
+<strong>Explanation:</strong> &quot;code&quot; is repeated 3 times
 </pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>str = "js", times = 1
-<b>输出：</b>"js"
-<b>解释：</b>"js" 被重复了 1 次
+<strong>Input:</strong> str = &quot;js&quot;, times = 1
+<strong>Output:</strong> &quot;js&quot;
+<strong>Explanation:</strong> &quot;js&quot; is repeated 1 time
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= str.length,&nbsp;times &lt;=&nbsp;10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

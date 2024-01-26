@@ -1,42 +1,40 @@
-# [2386. 找出数组的第 K 大和](https://leetcode.cn/problems/find-the-k-sum-of-an-array)
+# [2386. Find the K-Sum of an Array](https://leetcode.com/problems/find-the-k-sum-of-an-array)
 
-[English Version](/solution/2300-2399/2386.Find%20the%20K-Sum%20of%20an%20Array/README_EN.md)
+[中文文档](/solution/2300-2399/2386.Find%20the%20K-Sum%20of%20an%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> and a <strong>positive</strong> integer <code>k</code>. You can choose any <strong>subsequence</strong> of the array and sum all of its elements together.</p>
 
-<p>给你一个整数数组 <code>nums</code> 和一个 <strong>正</strong> 整数 <code>k</code> 。你可以选择数组的任一 <strong>子序列</strong> 并且对其全部元素求和。</p>
+<p>We define the <strong>K-Sum</strong> of the array as the <code>k<sup>th</sup></code> <strong>largest</strong> subsequence sum that can be obtained (<strong>not</strong> necessarily distinct).</p>
 
-<p>数组的 <strong>第 k 大和</strong> 定义为：可以获得的第 <code>k</code> 个 <strong>最大</strong> 子序列和（子序列和允许出现重复）</p>
+<p>Return <em>the K-Sum of the array</em>.</p>
 
-<p>返回数组的 <strong>第 k 大和</strong> 。</p>
+<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 
-<p>子序列是一个可以由其他数组删除某些或不删除元素排生而来的数组，且派生过程不改变剩余元素的顺序。</p>
-
-<p><strong>注意：</strong>空子序列的和视作 <code>0</code> 。</p>
+<p><strong>Note</strong> that the empty subsequence is considered to have a sum of <code>0</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [2,4,-2], k = 5
-<strong>输出：</strong>2
-<strong>解释：</strong>所有可能获得的子序列和列出如下，按递减顺序排列：
-- 6、4、4、2、<strong><em>2</em></strong>、0、0、-2
-数组的第 5 大和是 2 。
+<pre>
+<strong>Input:</strong> nums = [2,4,-2], k = 5
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> All the possible subsequence sums that we can obtain are the following sorted in decreasing order:
+- 6, 4, 4, 2, <u>2</u>, 0, 0, -2.
+The 5-Sum of the array is 2.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [1,-2,3,4,-10,12], k = 16
-<strong>输出：</strong>10
-<strong>解释：</strong>数组的第 16 大和是 10 。
+<pre>
+<strong>Input:</strong> nums = [1,-2,3,4,-10,12], k = 16
+<strong>Output:</strong> 10
+<strong>Explanation:</strong> The 16-Sum of the array is 10.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
@@ -45,21 +43,9 @@
 	<li><code>1 &lt;= k &lt;= min(2000, 2<sup>n</sup>)</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：优先队列（小根堆）
-
-首先，我们找到最大的子序和 $mx$，即所有正数之和。
-
-可以发现，其他子序列的和，都可以看成在这个最大子序列和之上，减去其他部分子序列之和得到。因此，我们可以将问题转换为求第 $k$ 小的子序列和。
-
-只需要将所有数的绝对值升序排列，之后建立小根堆，存储二元组 $(s, i)$，表示当前和为 $s$，且下一个待选择的数字的下标为 $i$ 的子序列。
-
-每次取出堆顶，并放入两种新情况：一是再选择下一位，二是选择下一位并且不选择本位。
-
-由于数组是从小到大排序，可以证明，这种方式能够不重不漏地按序遍历完所有的子序列和。
-
-时间复杂度 $O(n \times \log n + k \times \log k)$。其中 $n$ 是数组 `nums` 的长度，而 $k$ 是题目中给定的 $k$。
+### Solution 1
 
 <!-- tabs:start -->
 

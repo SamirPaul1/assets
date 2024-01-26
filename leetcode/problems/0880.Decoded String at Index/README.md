@@ -1,67 +1,65 @@
-# [880. 索引处的解码字符串](https://leetcode.cn/problems/decoded-string-at-index)
+# [880. Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index)
 
-[English Version](/solution/0800-0899/0880.Decoded%20String%20at%20Index/README_EN.md)
+[中文文档](/solution/0800-0899/0880.Decoded%20String%20at%20Index/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个编码字符串 <code>S</code>。请你找出<em> </em><strong>解码字符串</strong> 并将其写入磁带。解码时，从编码字符串中<strong> 每次读取一个字符 </strong>，并采取以下步骤：</p>
+<p>You are given an encoded string <code>s</code>. To decode the string to a tape, the encoded string is read one character at a time and the following steps are taken:</p>
 
 <ul>
-	<li>如果所读的字符是字母，则将该字母写在磁带上。</li>
-	<li>如果所读的字符是数字（例如 <code>d</code>），则整个当前磁带总共会被重复写&nbsp;<code>d-1</code> 次。</li>
+	<li>If the character read is a letter, that letter is written onto the tape.</li>
+	<li>If the character read is a digit <code>d</code>, the entire current tape is repeatedly written <code>d - 1</code> more times in total.</li>
 </ul>
 
-<p>现在，对于给定的编码字符串 <code>S</code> 和索引 <code>K</code>，查找并返回解码字符串中的第&nbsp;<code>K</code>&nbsp;个字母。</p>
+<p>Given an integer <code>k</code>, return <em>the </em><code>k<sup>th</sup></code><em> letter (<strong>1-indexed)</strong> in the decoded string</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>S = &quot;leet2code3&quot;, K = 10
-<strong>输出：</strong>&quot;o&quot;
-<strong>解释：</strong>
-解码后的字符串为 &quot;leetleetcodeleetleetcodeleetleetcode&quot;。
-字符串中的第 10 个字母是 &quot;o&quot;。
+<pre>
+<strong>Input:</strong> s = &quot;leet2code3&quot;, k = 10
+<strong>Output:</strong> &quot;o&quot;
+<strong>Explanation:</strong> The decoded string is &quot;leetleetcodeleetleetcodeleetleetcode&quot;.
+The 10<sup>th</sup> letter in the string is &quot;o&quot;.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>S = &quot;ha22&quot;, K = 5
-<strong>输出：</strong>&quot;h&quot;
-<strong>解释：</strong>
-解码后的字符串为 &quot;hahahaha&quot;。第 5 个字母是 &quot;h&quot;。
+<pre>
+<strong>Input:</strong> s = &quot;ha22&quot;, k = 5
+<strong>Output:</strong> &quot;h&quot;
+<strong>Explanation:</strong> The decoded string is &quot;hahahaha&quot;.
+The 5<sup>th</sup> letter is &quot;h&quot;.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>S = &quot;a2345678999999999999999&quot;, K = 1
-<strong>输出：</strong>&quot;a&quot;
-<strong>解释：</strong>
-解码后的字符串为 &quot;a&quot; 重复 8301530446056247680 次。第 1 个字母是 &quot;a&quot;。
+<pre>
+<strong>Input:</strong> s = &quot;a2345678999999999999999&quot;, k = 1
+<strong>Output:</strong> &quot;a&quot;
+<strong>Explanation:</strong> The decoded string is &quot;a&quot; repeated 8301530446056247680 times.
+The 1<sup>st</sup> letter is &quot;a&quot;.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>2 &lt;= S.length &lt;= 100</code></li>
-	<li><code>S</code>&nbsp;只包含小写字母与数字 <code>2</code> 到 <code>9</code> 。</li>
-	<li><code>S</code>&nbsp;以字母开头。</li>
-	<li><code>1 &lt;= K &lt;= 10^9</code></li>
-	<li>题目保证 <code>K</code> 小于或等于解码字符串的长度。</li>
-	<li>解码后的字符串保证少于&nbsp;<code>2^63</code>&nbsp;个字母。</li>
+	<li><code>2 &lt;= s.length &lt;= 100</code></li>
+	<li><code>s</code> consists of lowercase English letters and digits <code>2</code> through <code>9</code>.</li>
+	<li><code>s</code> starts with a letter.</li>
+	<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>
+	<li>It is guaranteed that <code>k</code> is less than or equal to the length of the decoded string.</li>
+	<li>The decoded string is guaranteed to have less than <code>2<sup>63</sup></code> letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：逆向思维
+### Solution 1: Reverse Thinking
 
-我们可以先计算出解码字符串的总长度 $m$，然后从后向前遍历字符串，每次更新 $k$ 为 $k \bmod m$，直到 $k$ 为 $0$ 且当前字符为字母，返回当前字符。否则，如果当前字符为数字，则将 $m$ 除以该数字。如果当前字符为字母，则将 $m$ 减 $1$。
+We can first calculate the total length $m$ of the decoded string, then traverse the string from back to front. Each time, we update $k$ to be $k \bmod m$, until $k$ is $0$ and the current character is a letter, then we return the current character. Otherwise, if the current character is a number, we divide $m$ by this number. If the current character is a letter, we subtract $1$ from $m$.
 
-时间复杂度 $O(n)$，其中 $n$ 为字符串的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the string. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

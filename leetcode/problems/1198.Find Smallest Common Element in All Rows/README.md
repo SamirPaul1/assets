@@ -1,52 +1,48 @@
-# [1198. 找出所有行中最小公共元素](https://leetcode.cn/problems/find-smallest-common-element-in-all-rows)
+# [1198. Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows)
 
-[English Version](/solution/1100-1199/1198.Find%20Smallest%20Common%20Element%20in%20All%20Rows/README_EN.md)
+[中文文档](/solution/1100-1199/1198.Find%20Smallest%20Common%20Element%20in%20All%20Rows/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an <code>m x n</code> matrix <code>mat</code> where every row is sorted in <strong>strictly</strong> <strong>increasing</strong> order, return <em>the <strong>smallest common element</strong> in all rows</em>.</p>
 
-<p>给你一个&nbsp;<code>m x n</code>&nbsp;的矩阵&nbsp;<code>mat</code>，其中每一行的元素均符合&nbsp;<strong>严格递增</strong> 。请返回 <em>所有行中的&nbsp;<strong>最小公共元素</strong>&nbsp;</em>。</p>
-
-<p>如果矩阵中没有这样的公共元素，就请返回&nbsp;<code>-1</code>。</p>
+<p>If there is no common element, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>mat = [[1,2,3,4,5],[2,4,5,8,10],[3,5,7,9,11],[1,3,5,7,9]]
-<strong>输出：</strong>5
+<strong>Input:</strong> mat = [[1,2,3,4,5],[2,4,5,8,10],[3,5,7,9,11],[1,3,5,7,9]]
+<strong>Output:</strong> 5
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>mat = [[1,2,3],[2,3,4],[2,3,5]]
-<strong>输出：</strong> 2
+<strong>Input:</strong> mat = [[1,2,3],[2,3,4],[2,3,5]]
+<strong>Output:</strong> 2
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == mat.length</code></li>
 	<li><code>n == mat[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 500</code></li>
 	<li><code>1 &lt;= mat[i][j] &lt;= 10<sup>4</sup></code></li>
-	<li><code>mat[i]</code>&nbsp;已按严格递增顺序排列。</li>
+	<li><code>mat[i]</code> is sorted in strictly increasing order.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：计数
+### Solution 1: Counting
 
-我们用一个长度为 $10001$ 的数组 $cnt$ 统计每个数出现的次数。顺序遍历矩阵中的每个数，将其出现次数加一。当某个数的出现次数等于矩阵的行数时，说明该数在每一行都出现过，即为最小公共元素，返回该数即可。
+We use an array $cnt$ of length $10001$ to count the frequency of each number. We sequentially traverse each number in the matrix and increment its frequency. When the frequency of a number equals the number of rows in the matrix, it means that this number appears in each row, and thus it is the smallest common element. We return this number.
 
-若遍历结束后没有找到最小公共元素，则返回 $-1$。
+If we do not find the smallest common element after the traversal, we return $-1$.
 
-时间复杂度 $O(m \times n)$，空间复杂度 $O(10^4)$。其中 $m$ 和 $n$ 分别是矩阵的行数和列数。
+The time complexity is $O(m \times n)$, and the space complexity is $O(10^4)$. Here, $m$ and $n$ are the number of rows and columns in the matrix, respectively.
 
 <!-- tabs:start -->
 

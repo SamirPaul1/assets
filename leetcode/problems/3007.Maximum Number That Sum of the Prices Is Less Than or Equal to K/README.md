@@ -1,62 +1,58 @@
-# [3007. 价值和小于等于 K 的最大数字](https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k)
+# [3007. Maximum Number That Sum of the Prices Is Less Than or Equal to K](https://leetcode.com/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k)
 
-[English Version](/solution/3000-3099/3007.Maximum%20Number%20That%20Sum%20of%20the%20Prices%20Is%20Less%20Than%20or%20Equal%20to%20K/README_EN.md)
+[中文文档](/solution/3000-3099/3007.Maximum%20Number%20That%20Sum%20of%20the%20Prices%20Is%20Less%20Than%20or%20Equal%20to%20K/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>k</code> and an integer <code>x</code>.</p>
 
-<p>给你一个整数&nbsp;<code>k</code>&nbsp;和一个整数&nbsp;<code>x</code>&nbsp;。</p>
+<p>Consider <code>s</code> is the <strong>1-indexed </strong>binary representation of an integer <code>num</code>. The <strong>price</strong> of a number <code>num</code> is the number of <code>i</code>&#39;s such that <code>i % x == 0</code> and <code><font face="monospace">s[i]</font></code> is a <strong>set bit</strong>.</p>
 
-<p>令 <code>s</code>&nbsp;为整数&nbsp;<code>num</code>&nbsp;的下标从 <strong>1</strong>&nbsp;开始的二进制表示。我们说一个整数&nbsp;<code>num</code>&nbsp;的 <strong>价值</strong>&nbsp;是满足&nbsp;<code>i % x == 0</code> 且&nbsp;<code><font face="monospace">s[i]</font></code>&nbsp;是 <strong>设置位</strong>&nbsp;的 <code>i</code>&nbsp;的数目。</p>
+<p>Return <em>the <b>greatest</b> integer </em><code>num</code><em> such that the sum of <strong>prices</strong> of all numbers from </em><code>1</code><em> to </em><code>num</code><em> is less than or equal to </em><code>k</code><em>.</em></p>
 
-<p>请你返回<strong>&nbsp;最大</strong>&nbsp;整数<em>&nbsp;</em><code>num</code>&nbsp;，满足从 <code>1</code>&nbsp;到 <code>num</code>&nbsp;的所有整数的 <strong>价值</strong>&nbsp;和小于等于 <code>k</code>&nbsp;。</p>
-
-<p><b>注意：</b></p>
+<p><strong>Note</strong>:</p>
 
 <ul>
-	<li>一个整数二进制表示下 <strong>设置位</strong>&nbsp;是值为 <code>1</code>&nbsp;的数位。</li>
-	<li>一个整数的二进制表示下标从右到左编号，比方说如果&nbsp;<code>s == 11100</code>&nbsp;，那么&nbsp;<code>s[4] == 1</code> 且&nbsp;<code>s[2] == 0</code>&nbsp;。</li>
+	<li>In the binary representation of a number <strong>set bit</strong> is a bit of value <code>1</code>.</li>
+	<li>The binary representation of a number will be indexed from right to left. For example, if <code>s == 11100</code>, <code>s[4] == 1</code> and <code>s[2] == 0</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<b>输入：</b>k = 9, x = 1
-<b>输出：</b>6
-<b>解释：</b>数字 1 ，2 ，3 ，4 ，5 和 6 二进制表示分别为 "1" ，"10" ，"11" ，"100" ，"101" 和 "110" 。
-由于 x 等于 1 ，每个数字的价值分别为所有设置位的数目。
-这些数字的所有设置位数目总数是 9 ，所以前 6 个数字的价值和为 9 。
-所以答案为 6 。</pre>
-
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>k = 7, x = 2
-<b>输出：</b>9
-<b>解释：</b>由于 x 等于 2 ，我们检查每个数字的偶数位。
-2 和 3 在二进制表示下的第二个数位为设置位，所以它们的价值和为 2 。
-6 和 7 在二进制表示下的第二个数位为设置位，所以它们的价值和为 2 。
-8 和 9 在二进制表示下的第四个数位为设置位但第二个数位不是设置位，所以它们的价值和为 2 。
-数字 1 ，4 和 5 在二进制下偶数位都不是设置位，所以它们的价值和为 0 。
-10 在二进制表示下的第二个数位和第四个数位都是设置位，所以它的价值为 2 。
-前 9 个数字的价值和为 6 。
-前 10 个数字的价值和为 8，超过了 k = 7 ，所以答案为 9 。</pre>
+<strong>Input:</strong> k = 9, x = 1
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> The numbers 1, 2, 3, 4, 5, and 6 can be written in binary representation as &quot;1&quot;, &quot;10&quot;, &quot;11&quot;, &quot;100&quot;, &quot;101&quot;, and &quot;110&quot; respectively.
+Since x is equal to 1, the price of each number is the number of its set bits.
+The number of set bits in these numbers is 9. So the sum of the prices of the first 6 numbers is 9.
+So the answer is 6.</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> k = 7, x = 2
+<strong>Output:</strong> 9
+<strong>Explanation:</strong> Since x is equal to 2, we should just check even<sup>th</sup> bits.
+The second bit of binary representation of numbers 2 and 3 is a set bit. So the sum of their prices is 2.
+The second bit of binary representation of numbers 6 and 7 is a set bit. So the sum of their prices is 2.
+The fourth bit of binary representation of numbers 8 and 9 is a set bit but their second bit is not. So the sum of their prices is 2.
+Numbers 1, 4, and 5 don&#39;t have set bits in their even<sup>th</sup> bits in their binary representation. So the sum of their prices is 0.
+The second and the fourth bit of the binary representation of the number 10 are a set bit. So its price is 2.
+The sum of the prices of the first 9 numbers is 6.
+Because the sum of the prices of the first 10 numbers is 8, the answer is 9.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= k &lt;= 10<sup>15</sup></code></li>
 	<li><code>1 &lt;= x &lt;= 8</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

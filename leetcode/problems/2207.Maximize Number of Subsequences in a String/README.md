@@ -1,55 +1,51 @@
-# [2207. 字符串中最多数目的子字符串](https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string)
+# [2207. Maximize Number of Subsequences in a String](https://leetcode.com/problems/maximize-number-of-subsequences-in-a-string)
 
-[English Version](/solution/2200-2299/2207.Maximize%20Number%20of%20Subsequences%20in%20a%20String/README_EN.md)
+[中文文档](/solution/2200-2299/2207.Maximize%20Number%20of%20Subsequences%20in%20a%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> string <code>text</code> and another <strong>0-indexed</strong> string <code>pattern</code> of length <code>2</code>, both of which consist of only lowercase English letters.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的字符串&nbsp;<code>text</code>&nbsp;和另一个下标从 <strong>0</strong>&nbsp;开始且长度为 <code>2</code>&nbsp;的字符串&nbsp;<code>pattern</code>&nbsp;，两者都只包含小写英文字母。</p>
+<p>You can add <strong>either</strong> <code>pattern[0]</code> <strong>or</strong> <code>pattern[1]</code> anywhere in <code>text</code> <strong>exactly once</strong>. Note that the character can be added even at the beginning or at the end of <code>text</code>.</p>
 
-<p>你可以在 <code>text</code>&nbsp;中任意位置插入 <strong>一个</strong> 字符，这个插入的字符必须是&nbsp;<code>pattern[0]</code>&nbsp;<b>或者</b>&nbsp;<code>pattern[1]</code>&nbsp;。注意，这个字符可以插入在 <code>text</code>&nbsp;开头或者结尾的位置。</p>
+<p>Return <em>the <strong>maximum</strong> number of times</em> <code>pattern</code> <em>can occur as a <strong>subsequence</strong> of the modified </em><code>text</code>.</p>
 
-<p>请你返回插入一个字符后，<code>text</code>&nbsp;中最多包含多少个等于 <code>pattern</code>&nbsp;的 <strong>子序列</strong>&nbsp;。</p>
-
-<p><strong>子序列</strong> 指的是将一个字符串删除若干个字符后（也可以不删除），剩余字符保持原本顺序得到的字符串。</p>
+<p>A <b>subsequence</b> is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>text = "abdcdbc", pattern = "ac"
-<b>输出：</b>4
-<strong>解释：</strong>
-如果我们在 text[1] 和 text[2] 之间添加 pattern[0] = 'a' ，那么我们得到 "ab<em><strong>a</strong></em>dcdbc" 。那么 "ac" 作为子序列出现 4 次。
-其他得到 4 个 "ac" 子序列的方案还有 "<em><strong>a</strong></em>abdcdbc" 和 "abd<em><strong>a</strong></em>cdbc" 。
-但是，"abdc<em><strong>a</strong></em>dbc" ，"abd<em><strong>c</strong></em>cdbc" 和 "abdcdbc<em><strong>c</strong></em>" 这些字符串虽然是可行的插入方案，但是只出现了 3 次 "ac" 子序列，所以不是最优解。
-可以证明插入一个字符后，无法得到超过 4 个 "ac" 子序列。
+<strong>Input:</strong> text = &quot;abdcdbc&quot;, pattern = &quot;ac&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong>
+If we add pattern[0] = &#39;a&#39; in between text[1] and text[2], we get &quot;ab<u><strong>a</strong></u>dcdbc&quot;. Now, the number of times &quot;ac&quot; occurs as a subsequence is 4.
+Some other strings which have 4 subsequences &quot;ac&quot; after adding a character to text are &quot;<u><strong>a</strong></u>abdcdbc&quot; and &quot;abd<u><strong>a</strong></u>cdbc&quot;.
+However, strings such as &quot;abdc<u><strong>a</strong></u>dbc&quot;, &quot;abd<u><strong>c</strong></u>cdbc&quot;, and &quot;abdcdbc<u><strong>c</strong></u>&quot;, although obtainable, have only 3 subsequences &quot;ac&quot; and are thus suboptimal.
+It can be shown that it is not possible to get more than 4 subsequences &quot;ac&quot; by adding only one character.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>text = "aabb", pattern = "ab"
-<b>输出：</b>6
-<strong>解释：</strong>
-可以得到 6 个 "ab" 子序列的部分方案为 "<em><strong>a</strong></em>aabb" ，"aa<em><strong>a</strong></em>bb" 和 "aab<em><strong>b</strong></em>b" 。
+<strong>Input:</strong> text = &quot;aabb&quot;, pattern = &quot;ab&quot;
+<strong>Output:</strong> 6
+<strong>Explanation:</strong>
+Some of the strings which can be obtained from text and have 6 subsequences &quot;ab&quot; are &quot;<u><strong>a</strong></u>aabb&quot;, &quot;aa<u><strong>a</strong></u>bb&quot;, and &quot;aab<u><strong>b</strong></u>b&quot;.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= text.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>pattern.length == 2</code></li>
-	<li><code>text</code> 和&nbsp;<code>pattern</code>&nbsp;都只包含小写英文字母。</li>
+	<li><code>text</code> and <code>pattern</code> consist only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,71 +1,62 @@
-# [1730. 获取食物的最短路径](https://leetcode.cn/problems/shortest-path-to-get-food)
+# [1730. Shortest Path to Get Food](https://leetcode.com/problems/shortest-path-to-get-food)
 
-[English Version](/solution/1700-1799/1730.Shortest%20Path%20to%20Get%20Food/README_EN.md)
+[中文文档](/solution/1700-1799/1730.Shortest%20Path%20to%20Get%20Food/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are starving and you want to eat food as quickly as possible. You want to find the shortest path to arrive at any food cell.</p>
 
-<p>你现在很饿，想要尽快找东西吃。你需要找到最短的路径到达一个食物所在的格子。</p>
-
-<p>给定一个&nbsp;<code>m x n</code>&nbsp;的字符矩阵&nbsp;<code>grid</code>&nbsp;，包含下列不同类型的格子：</p>
+<p>You are given an <code>m x n</code> character matrix, <code>grid</code>, of these different types of cells:</p>
 
 <ul>
-	<li><code>'*'</code>&nbsp;是你的位置。矩阵中<strong>有且只有一个&nbsp;</strong><code>'*'</code>&nbsp;格子。</li>
-	<li><code>'#'</code> 是食物。矩阵中可能存在<strong>多个</strong>食物。</li>
-	<li><code>'O'</code>&nbsp;是空地，你可以穿过这些格子。</li>
-	<li><code>'X'</code>&nbsp;是障碍，你不可以穿过这些格子。</li>
+	<li><code>&#39;*&#39;</code> is your location. There is <strong>exactly one </strong><code>&#39;*&#39;</code> cell.</li>
+	<li><code>&#39;#&#39;</code> is a food cell. There may be <strong>multiple</strong> food cells.</li>
+	<li><code>&#39;O&#39;</code> is free space, and you can travel through these cells.</li>
+	<li><code>&#39;X&#39;</code> is an obstacle, and you cannot travel through these cells.</li>
 </ul>
 
-<p>返回你到任意食物的最短路径的长度。如果不存在你到任意食物的路径，返回&nbsp;<code>-1</code>。</p>
+<p>You can travel to any adjacent cell north, east, south, or west of your current location if there is not an obstacle.</p>
+
+<p>Return <em>the <strong>length</strong> of the shortest path for you to reach <strong>any</strong> food cell</em>. If there is no path for you to reach food, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1:</b></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1730.Shortest%20Path%20to%20Get%20Food/images/img1.jpg" style="width: 300px; height: 201px;" />
 <pre>
-<b>输入：</b> grid = [["X","X","X","X","X","X"],["X","*","O","O","O","X"],["X","O","O","#","O","X"],["X","X","X","X","X","X"]]
-<b>输出：</b> 3
-<b>解释： </b>要拿到食物，你需要走 3 步。</pre>
-
-<p><strong>Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1730.Shortest%20Path%20to%20Get%20Food/images/img2.jpg" style="width: 300px; height: 241px;" />
-<pre>
-<b>输入：</b> grid = [["X","X","X","X","X"],["X","*","X","O","X"],["X","O","X","#","X"],["X","X","X","X","X"]]
-<b>输出：</b> -1
-<b>解释：</b> 你不可能拿到食物。
+<strong>Input:</strong> grid = [[&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;*&quot;,&quot;O&quot;,&quot;O&quot;,&quot;O&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;O&quot;,&quot;O&quot;,&quot;#&quot;,&quot;O&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> It takes 3 steps to reach the food.
 </pre>
 
-<p><strong>示例&nbsp;3:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1730.Shortest%20Path%20to%20Get%20Food/images/img2.jpg" style="width: 300px; height: 241px;" />
+<pre>
+<strong>Input:</strong> grid = [[&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;*&quot;,&quot;X&quot;,&quot;O&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;O&quot;,&quot;X&quot;,&quot;#&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;]]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> It is not possible to reach the food.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1730.Shortest%20Path%20to%20Get%20Food/images/img3.jpg" style="width: 300px; height: 188px;" />
 <pre>
-<strong>输入:</strong> grid = [["X","X","X","X","X","X","X","X"],["X","*","O","X","O","#","O","X"],["X","O","O","X","O","O","X","X"],["X","O","O","O","O","#","O","X"],["X","X","X","X","X","X","X","X"]]
-<strong>输出:</strong> 6
-<strong>解释:</strong> 这里有多个食物。拿到下边的食物仅需走 6 步。</pre>
+<strong>Input:</strong> grid = [[&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;*&quot;,&quot;O&quot;,&quot;X&quot;,&quot;O&quot;,&quot;#&quot;,&quot;O&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;O&quot;,&quot;O&quot;,&quot;X&quot;,&quot;O&quot;,&quot;O&quot;,&quot;X&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;O&quot;,&quot;O&quot;,&quot;O&quot;,&quot;O&quot;,&quot;#&quot;,&quot;O&quot;,&quot;X&quot;],[&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;,&quot;X&quot;]]
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> There can be multiple food cells. It only takes 6 steps to reach the bottom food.</pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == grid.length</code></li>
 	<li><code>n == grid[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 200</code></li>
-	<li><code>grid[row][col]</code>&nbsp;是&nbsp;<code>'*'</code>、&nbsp;<code>'X'</code>、&nbsp;<code>'O'</code>&nbsp;或&nbsp;<code>'#'</code>&nbsp;。</li>
-	<li><code>grid</code>&nbsp;中<strong>有且只有一个</strong>&nbsp;<code>'*'</code>&nbsp;。</li>
+	<li><code>grid[row][col]</code> is <code>&#39;*&#39;</code>, <code>&#39;X&#39;</code>, <code>&#39;O&#39;</code>, or <code>&#39;#&#39;</code>.</li>
+	<li>The <code>grid</code> contains <strong>exactly one</strong> <code>&#39;*&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
-
-根据题意，我们需要从 `*` 出发，找到最近的 `#`，返回最短路径长度。
-
-首先，我们遍历整个二维数组，找到 `*` 的位置，将其作为 BFS 的起点，放入队列中。
-
-然后，我们开始 BFS，遍历队列中的元素，每次遍历到一个元素，我们将其上下左右四个方向的元素加入队列中，直到遇到 `#`，返回当前层数。
-
-时间复杂度 $O(m \times n)$，空间复杂度 $O(1)$。其中 $m$ 和 $n$ 分别为二维数组的行数和列数。
+### Solution 1
 
 <!-- tabs:start -->
 

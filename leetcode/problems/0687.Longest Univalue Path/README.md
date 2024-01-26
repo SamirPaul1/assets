@@ -1,52 +1,42 @@
-# [687. 最长同值路径](https://leetcode.cn/problems/longest-univalue-path)
+# [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)
 
-[English Version](/solution/0600-0699/0687.Longest%20Univalue%20Path/README_EN.md)
+[中文文档](/solution/0600-0699/0687.Longest%20Univalue%20Path/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, return <em>the length of the longest path, where each node in the path has the same value</em>. This path may or may not pass through the root.</p>
 
-<p>给定一个二叉树的<meta charset="UTF-8" />&nbsp;<code>root</code>&nbsp;，返回&nbsp;<em>最长的路径的长度</em> ，这个路径中的&nbsp;<em>每个节点具有相同值</em>&nbsp;。 这条路径可以经过也可以不经过根节点。</p>
-
-<p><strong>两个节点之间的路径长度</strong>&nbsp;由它们之间的边数表示。</p>
+<p><strong>The length of the path</strong> between two nodes is represented by the number of edges between them.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex1.jpg" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex1.jpg" style="width: 450px; height: 238px;" />
 <pre>
-<strong>输入：</strong>root = [5,4,5,1,1,5]
-<strong>输出：</strong>2
+<strong>Input:</strong> root = [5,4,5,1,1,null,5]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The shown image shows that the longest path of the same value (i.e. 5).
 </pre>
 
-<p><strong>示例 2:</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex2.jpg" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex2.jpg" style="width: 450px; height: 238px;" />
 <pre>
-<strong>输入：</strong>root = [1,4,5,4,4,5]
-<strong>输出：</strong>2
+<strong>Input:</strong> root = [1,4,5,4,4,null,5]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The shown image shows that the longest path of the same value (i.e. 4).
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树的节点数的范围是<meta charset="UTF-8" />&nbsp;<code>[0, 10<sup>4</sup>]</code>&nbsp;</li>
+	<li>The number of nodes in the tree is in the range <code>[0, 10<sup>4</sup>]</code>.</li>
 	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
-	<li>树的深度将不超过 <code>1000</code>&nbsp;</li>
+	<li>The depth of the tree will not exceed <code>1000</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
-
-相似题目：
-
--   [543. 二叉树的直径](https://github.com/doocs/leetcode/blob/main/solution/0500-0599/0543.Diameter%20of%20Binary%20Tree/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

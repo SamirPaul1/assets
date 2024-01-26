@@ -1,12 +1,10 @@
-# [1142. 过去 30 天的用户活动 II](https://leetcode.cn/problems/user-activity-for-the-past-30-days-ii)
+# [1142. User Activity for the Past 30 Days II](https://leetcode.com/problems/user-activity-for-the-past-30-days-ii)
 
-[English Version](/solution/1100-1199/1142.User%20Activity%20for%20the%20Past%2030%20Days%20II/README_EN.md)
+[中文文档](/solution/1100-1199/1142.User%20Activity%20for%20the%20Past%2030%20Days%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><code>Activity</code> 表：</p>
+<p>Table: <code>Activity</code></p>
 
 <pre>
 +---------------+---------+
@@ -17,24 +15,24 @@
 | activity_date | date    |
 | activity_type | enum    |
 +---------------+---------+
-该表没有主键，它可能有重复的行。
-activity_type 列是 ENUM 类型，可以取（“ open_session”，“ end_session”，“ scroll_down”，“ send_message”）四种活动类型之一。
-该表显示了社交媒体网站的用户活动。
-请注意，每个会话只属于一个用户。</pre>
+This table may have duplicate rows.
+The activity_type column is an ENUM (category) of type (&#39;open_session&#39;, &#39;end_session&#39;, &#39;scroll_down&#39;, &#39;send_message&#39;).
+The table shows the user activities for a social media website. 
+Note that each session belongs to exactly one user.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，统计截至 <code>2019-07-27</code>（含）的 <code>30</code> 天内每个用户的平均会话数，<strong>四舍五入到小数点后两位</strong>。只统计那些会话期间用户至少进行一项活动的有效会话。</p>
+<p>Write a solution to find the average number of sessions per user for a period of <code>30</code> days ending <code>2019-07-27</code> inclusively, <strong>rounded to 2 decimal places</strong>. The sessions we want to count for a user are those with at least one activity in that time period.</p>
 
-<p>结果格式如下例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Activity 表：
+<strong>Input:</strong> 
+Activity table:
 +---------+------------+---------------+---------------+
 | user_id | session_id | activity_date | activity_type |
 +---------+------------+---------------+---------------+
@@ -53,18 +51,18 @@ Activity 表：
 | 4       | 3          | 2019-06-25    | open_session  |
 | 4       | 3          | 2019-06-25    | end_session   |
 +---------+------------+---------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +---------------------------+ 
 | average_sessions_per_user |
 +---------------------------+ 
 | 1.33                      |
 +---------------------------+
-<strong>解释：</strong>用户 1 和 2 每人在过去 30 天有 1 个会话，而用户 3 有 2 个会话。所以平均是 (1 + 1 + 2) / 3 = 1.33 。
+<strong>Explanation:</strong> User 1 and 2 each had 1 session in the past 30 days while user 3 had 2 sessions so the average is (1 + 1 + 2) / 3 = 1.33.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -84,7 +82,7 @@ FROM T;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

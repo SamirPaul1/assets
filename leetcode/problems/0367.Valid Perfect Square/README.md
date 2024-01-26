@@ -1,50 +1,42 @@
-# [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square)
+# [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square)
 
-[English Version](/solution/0300-0399/0367.Valid%20Perfect%20Square/README_EN.md)
+[中文文档](/solution/0300-0399/0367.Valid%20Perfect%20Square/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a positive integer num, return <code>true</code> <em>if</em> <code>num</code> <em>is a perfect square or</em> <code>false</code> <em>otherwise</em>.</p>
 
-<p>给你一个正整数 <code>num</code> 。如果 <code>num</code> 是一个完全平方数，则返回 <code>true</code> ，否则返回 <code>false</code> 。</p>
+<p>A <strong>perfect square</strong> is an integer that is the square of an integer. In other words, it is the product of some integer with itself.</p>
 
-<p><strong>完全平方数</strong> 是一个可以写成某个整数的平方的整数。换句话说，它可以写成某个整数和自身的乘积。</p>
-
-<p>不能使用任何内置的库函数，如&nbsp; <code>sqrt</code> 。</p>
+<p>You must not use any built-in library function, such as <code>sqrt</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>num = 16
-<strong>输出：</strong>true
-<strong>解释：</strong>返回 true ，因为 4 * 4 = 16 且 4 是一个整数。
+<strong>Input:</strong> num = 16
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We return true because 4 * 4 = 16 and 4 is an integer.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>num = 14
-<strong>输出：</strong>false
-<strong>解释：</strong>返回 false ，因为 3.742 * 3.742 = 14 但 3.742 不是一个整数。
+<strong>Input:</strong> num = 14
+<strong>Output:</strong> false
+<strong>Explanation:</strong> We return false because 3.742 * 3.742 = 14 and 3.742 is not an integer.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= num &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
-
-不断循环二分枚举数字，判断该数的平方与 `num` 的大小关系，进而缩短空间，继续循环直至 $left \lt right$ 不成立。循环结束判断 $left^2$ 与 `num` 是否相等。
-
-时间复杂度：$O(logN)$。
+### Solution 1: Binary search
 
 <!-- tabs:start -->
 
@@ -154,11 +146,20 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：转换为数学问题
+### Solution 2: Math trick
 
-由于 `n² = 1 + 3 + 5 + ... + (2n-1)`，对数字 `num` 不断减去 $i$ (`i = 1, 3, 5, ...`) 直至 `num` 不大于 0，如果最终 `num` 等于 0，说明是一个有效的完全平方数。
+This is a math problem：
 
-时间复杂度：$O(sqrt(N))$。
+```bash
+1 = 1
+4 = 1 + 3
+9 = 1 + 3 + 5
+16 = 1 + 3 + 5 + 7
+25 = 1 + 3 + 5 + 7 + 9
+36 = 1 + 3 + 5 + 7 + 9 + 11
+....
+so 1+3+...+(2n-1) = (2n-1 + 1)n/2 = n²
+```
 
 <!-- tabs:start -->
 

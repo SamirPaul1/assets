@@ -1,53 +1,43 @@
-# [1673. 找出最具竞争力的子序列](https://leetcode.cn/problems/find-the-most-competitive-subsequence)
+# [1673. Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence)
 
-[English Version](/solution/1600-1699/1673.Find%20the%20Most%20Competitive%20Subsequence/README_EN.md)
+[中文文档](/solution/1600-1699/1673.Find%20the%20Most%20Competitive%20Subsequence/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> and a positive integer <code>k</code>, return <em>the most<strong> competitive</strong> subsequence of </em><code>nums</code> <em>of size </em><code>k</code>.</p>
 
-<p>给你一个整数数组 <code>nums</code> 和一个正整数 <code>k</code> ，返回长度为 <code>k</code> 且最具 <strong>竞争力</strong> 的<em> </em><code>nums</code> 子序列。</p>
+<p>An array&#39;s subsequence is a resulting sequence obtained by erasing some (possibly zero) elements from the array.</p>
 
-<p>数组的子序列是从数组中删除一些元素（可能不删除元素）得到的序列。</p>
+<p>We define that a subsequence <code>a</code> is more <strong>competitive</strong> than a subsequence <code>b</code> (of the same length) if in the first position where <code>a</code> and <code>b</code> differ, subsequence <code>a</code> has a number <strong>less</strong> than the corresponding number in <code>b</code>. For example, <code>[1,3,4]</code> is more competitive than <code>[1,3,5]</code> because the first position they differ is at the final number, and <code>4</code> is less than <code>5</code>.</p>
 
-<p>在子序列 <code>a</code> 和子序列 <code>b</code> 第一个不相同的位置上，如果 <code>a</code> 中的数字小于 <code>b</code> 中对应的数字，那么我们称子序列 <code>a</code> 比子序列 <code>b</code>（相同长度下）更具 <strong>竞争力</strong> 。 例如，<code>[1,3,4]</code> 比 <code>[1,3,5]</code> 更具竞争力，在第一个不相同的位置，也就是最后一个位置上， <code>4</code> 小于 <code>5</code> 。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [3,5,2,6], k = 2
-<strong>输出：</strong>[2,6]
-<strong>解释：</strong>在所有可能的子序列集合 {[3,5], [3,2], [3,6], [5,2], [5,6], [2,6]} 中，[2,6] 最具竞争力。
+<strong>Input:</strong> nums = [3,5,2,6], k = 2
+<strong>Output:</strong> [2,6]
+<strong>Explanation:</strong> Among the set of every possible subsequence: {[3,5], [3,2], [3,6], [5,2], [5,6], [2,6]}, [2,6] is the most competitive.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [2,4,3,3,5,4,9,6], k = 4
-<strong>输出：</strong>[2,3,3,4]
+<strong>Input:</strong> nums = [2,4,3,3,5,4,9,6], k = 4
+<strong>Output:</strong> [2,3,3,4]
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= nums.length <= 10<sup>5</sup></code></li>
-	<li><code>0 <= nums[i] <= 10<sup>9</sup></code></li>
-	<li><code>1 <= k <= nums.length</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：栈
-
-我们从左到右遍历数组 `nums`，维护一个栈 `stk`，遍历过程中，如果当前元素 `nums[i]` 小于栈顶元素，且栈中元素个数加上 $n-i$ 大于 $k$，则将栈顶元素出栈，直到不满足上述条件为止。此时如果栈中元素个数小于 $k$，则将当前元素入栈。
-
-遍历结束后，栈中元素即为所求。
-
-时间复杂度 $O(n)$，空间复杂度 $O(k)$。其中 $n$ 为数组 `nums` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

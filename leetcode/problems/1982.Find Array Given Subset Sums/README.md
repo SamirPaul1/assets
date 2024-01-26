@@ -1,57 +1,53 @@
-# [1982. 从子集的和还原数组](https://leetcode.cn/problems/find-array-given-subset-sums)
+# [1982. Find Array Given Subset Sums](https://leetcode.com/problems/find-array-given-subset-sums)
 
-[English Version](/solution/1900-1999/1982.Find%20Array%20Given%20Subset%20Sums/README_EN.md)
+[中文文档](/solution/1900-1999/1982.Find%20Array%20Given%20Subset%20Sums/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>n</code> representing the length of an unknown array that you are trying to recover. You are also given an array <code>sums</code> containing the values of all <code>2<sup>n</sup></code> <strong>subset sums</strong> of the unknown array (in no particular order).</p>
 
-<p>存在一个未知数组需要你进行还原，给你一个整数 <code>n</code> 表示该数组的长度。另给你一个数组 <code>sums</code> ，由未知数组中全部 <code>2<sup>n</sup></code> 个 <strong>子集的和</strong> 组成（子集中的元素没有特定的顺序）。</p>
+<p>Return <em>the array </em><code>ans</code><em> of length </em><code>n</code><em> representing the unknown array. If <strong>multiple</strong> answers exist, return <strong>any</strong> of them</em>.</p>
 
-<p>返回一个长度为 <code>n</code> 的数组<em> </em><code>ans</code><em> </em>表示还原得到的未知数组。如果存在 <strong>多种</strong> 答案，只需返回其中 <strong>任意一个</strong> 。</p>
+<p>An array <code>sub</code> is a <strong>subset</strong> of an array <code>arr</code> if <code>sub</code> can be obtained from <code>arr</code> by deleting some (possibly zero or all) elements of <code>arr</code>. The sum of the elements in <code>sub</code> is one possible <strong>subset sum</strong> of <code>arr</code>. The sum of an empty array is considered to be <code>0</code>.</p>
 
-<p>如果可以由数组 <code>arr</code> 删除部分元素（也可能不删除或全删除）得到数组 <code>sub</code> ，那么数组 <code>sub</code> 就是数组 <code>arr</code> 的一个<strong> 子集</strong> 。<code>sub</code> 的元素之和就是 <code>arr</code> 的一个 <strong>子集的和</strong> 。一个空数组的元素之和为 <code>0</code> 。</p>
-
-<p><strong>注意：</strong>生成的测试用例将保证至少存在一个正确答案。</p>
+<p><strong>Note:</strong> Test cases are generated such that there will <strong>always</strong> be at least one correct answer.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 3, sums = [-3,-2,-1,0,0,1,2,3]
-<strong>输出：</strong>[1,2,-3]
-<strong>解释：</strong>[1,2,-3] 能够满足给出的子集的和：
-- []：和是 0
-- [1]：和是 1
-- [2]：和是 2
-- [1,2]：和是 3
-- [-3]：和是 -3
-- [1,-3]：和是 -2
-- [2,-3]：和是 -1
-- [1,2,-3]：和是 0
-注意，[1,2,-3] 的任何排列和 [-1,-2,3] 的任何排列都会被视作正确答案。
+<strong>Input:</strong> n = 3, sums = [-3,-2,-1,0,0,1,2,3]
+<strong>Output:</strong> [1,2,-3]
+<strong>Explanation: </strong>[1,2,-3] is able to achieve the given subset sums:
+- []: sum is 0
+- [1]: sum is 1
+- [2]: sum is 2
+- [1,2]: sum is 3
+- [-3]: sum is -3
+- [1,-3]: sum is -2
+- [2,-3]: sum is -1
+- [1,2,-3]: sum is 0
+Note that any permutation of [1,2,-3] and also any permutation of [-1,-2,3] will also be accepted.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 2, sums = [0,0,0,0]
-<strong>输出：</strong>[0,0]
-<strong>解释：</strong>唯一的正确答案是 [0,0] 。
+<strong>Input:</strong> n = 2, sums = [0,0,0,0]
+<strong>Output:</strong> [0,0]
+<strong>Explanation:</strong> The only correct answer is [0,0].
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 4, sums = [0,0,5,5,4,-1,4,9,9,-1,4,3,4,8,3,8]
-<strong>输出：</strong>[0,-1,4,5]
-<strong>解释：</strong>[0,-1,4,5] 能够满足给出的子集的和。
+<strong>Input:</strong> n = 4, sums = [0,0,5,5,4,-1,4,9,9,-1,4,3,4,8,3,8]
+<strong>Output:</strong> [0,-1,4,5]
+<strong>Explanation:</strong> [0,-1,4,5] is able to achieve the given subset sums.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 15</code></li>
@@ -59,9 +55,9 @@
 	<li><code>-10<sup>4</sup> &lt;= sums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -252,7 +248,7 @@ func recoverArray(n int, sums []int) []int {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

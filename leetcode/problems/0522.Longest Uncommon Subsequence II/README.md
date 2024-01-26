@@ -1,54 +1,39 @@
-# [522. 最长特殊序列 II](https://leetcode.cn/problems/longest-uncommon-subsequence-ii)
+# [522. Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii)
 
-[English Version](/solution/0500-0599/0522.Longest%20Uncommon%20Subsequence%20II/README_EN.md)
+[中文文档](/solution/0500-0599/0522.Longest%20Uncommon%20Subsequence%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of strings <code>strs</code>, return <em>the length of the <strong>longest uncommon subsequence</strong> between them</em>. If the longest uncommon subsequence does not exist, return <code>-1</code>.</p>
 
-<p>给定字符串列表&nbsp;<code>strs</code> ，返回其中 <strong>最长的特殊序列</strong>&nbsp;的长度。如果最长特殊序列不存在，返回 <code>-1</code> 。</p>
+<p>An <strong>uncommon subsequence</strong> between an array of strings is a string that is a <strong>subsequence of one string but not the others</strong>.</p>
 
-<p><strong>特殊序列</strong> 定义如下：该序列为某字符串 <strong>独有的子序列（即不能是其他字符串的子序列）</strong>。</p>
-
-<p>&nbsp;<code>s</code>&nbsp;的&nbsp;<strong>子序列</strong>可以通过删去字符串&nbsp;<code>s</code>&nbsp;中的某些字符实现。</p>
+<p>A <strong>subsequence</strong> of a string <code>s</code> is a string that can be obtained after deleting any number of characters from <code>s</code>.</p>
 
 <ul>
-	<li>例如，<code>"abc"</code>&nbsp;是 <code>"aebdc"</code>&nbsp;的子序列，因为您可以删除<code>"a<u>e</u>b<u>d</u>c"</code>中的下划线字符来得到 <code>"abc"</code>&nbsp;。<code>"aebdc"</code>的子序列还包括<code>"aebdc"</code>、 <code>"aeb"</code>&nbsp;和 <font color="#c7254e" face="Menlo, Monaco, Consolas, Courier New, monospace"><span style="font-size: 12.6px; background-color: rgb(249, 242, 244);">""</span></font>&nbsp;(空字符串)。</li>
+	<li>For example, <code>&quot;abc&quot;</code> is a subsequence of <code>&quot;aebdc&quot;</code> because you can delete the underlined characters in <code>&quot;a<u>e</u>b<u>d</u>c&quot;</code> to get <code>&quot;abc&quot;</code>. Other subsequences of <code>&quot;aebdc&quot;</code> include <code>&quot;aebdc&quot;</code>, <code>&quot;aeb&quot;</code>, and <code>&quot;&quot;</code> (empty string).</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入:</strong> strs = ["aba","cdc","eae"]
-<strong>输出:</strong> 3
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> strs = ["aba","cdc","eae"]
+<strong>Output:</strong> 3
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> strs = ["aaa","aaa","aa"]
+<strong>Output:</strong> -1
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> strs = ["aaa","aaa","aa"]
-<strong>输出:</strong> -1
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= strs.length &lt;= 50</code></li>
 	<li><code>1 &lt;= strs[i].length &lt;= 10</code></li>
-	<li><code>strs[i]</code>&nbsp;只包含小写英文字母</li>
+	<li><code>strs[i]</code> consists of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：判断子序列
-
-判断是否独有，只需要取字符串 $s$ 本身，与其他字符串比较即可。题目可以转化为：获取**非其他字符串子序列**的字符串的最大长度。若不存在，返回 -1。
-
-其中，$check(a,b)$ 用于判断字符串 $b$ 是否为字符串 $a$ 的子序列。
+### Solution 1
 
 <!-- tabs:start -->
 

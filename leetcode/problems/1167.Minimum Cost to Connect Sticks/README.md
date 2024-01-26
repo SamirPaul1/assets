@@ -1,68 +1,64 @@
-# [1167. 连接木棍的最低费用](https://leetcode.cn/problems/minimum-cost-to-connect-sticks)
+# [1167. Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks)
 
-[English Version](/solution/1100-1199/1167.Minimum%20Cost%20to%20Connect%20Sticks/README_EN.md)
+[中文文档](/solution/1100-1199/1167.Minimum%20Cost%20to%20Connect%20Sticks/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You have some number of sticks with positive integer lengths. These lengths are given as an array&nbsp;<code>sticks</code>, where&nbsp;<code>sticks[i]</code>&nbsp;is the length of the&nbsp;<code>i<sup>th</sup></code>&nbsp;stick.</p>
 
-<p>你有一些长度为正整数的木棍。这些长度以数组<meta charset="UTF-8" />&nbsp;<code>sticks</code>&nbsp;的形式给出，<meta charset="UTF-8" />&nbsp;<code>sticks[i]</code>&nbsp;是第 <code>i</code> 个木棍的长度。</p>
+<p>You can connect any two sticks of lengths <code>x</code> and <code>y</code> into one stick&nbsp;by paying a cost of <code>x + y</code>. You must connect&nbsp;all the sticks until there is only one stick remaining.</p>
 
-<p>你可以通过支付 <code>x + y</code> 的成本将任意两个长度为 <code>x</code> 和 <code>y</code> 的木棍连接成一个木棍。你必须连接所有的木棍，直到剩下一个木棍。</p>
-
-<p>返回以这种方式将所有给定的木棍连接成一个木棍的<em> 最小成本 </em>。</p>
+<p>Return&nbsp;<em>the minimum cost of connecting all the given sticks into one stick in this way</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>sticks = [2,4,3]
-<strong>输出：</strong>14
-<strong>解释：</strong>从 sticks = [2,4,3] 开始。
-1. 连接 2 和 3 ，费用为 2 + 3 = 5 。现在 sticks = [5,4]
-2. 连接 5 和 4 ，费用为 5 + 4 = 9 。现在 sticks = [9]
-所有木棍已经连成一根，总费用 5 + 9 = 14
+<strong>Input:</strong> sticks = [2,4,3]
+<strong>Output:</strong> 14
+<strong>Explanation:</strong>&nbsp;You start with sticks = [2,4,3].
+1. Combine sticks 2 and 3 for a cost of 2 + 3 = 5. Now you have sticks = [5,4].
+2. Combine sticks 5 and 4 for a cost of 5 + 4 = 9. Now you have sticks = [9].
+There is only one stick left, so you are done. The total cost is 5 + 9 = 14.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>sticks = [1,8,3,5]
-<strong>输出：</strong>30
-<strong>解释：</strong>从 sticks = [1,8,3,5] 开始。
-1. 连接 1 和 3 ，费用为 1 + 3 = 4 。现在 sticks = [4,8,5]
-2. 连接 4 和 5 ，费用为 4 + 5 = 9 。现在 sticks = [9,8]
-3. 连接 9 和 8 ，费用为 9 + 8 = 17 。现在 sticks = [17]
-所有木棍已经连成一根，总费用 4 + 9 + 17 = 30
+<strong>Input:</strong> sticks = [1,8,3,5]
+<strong>Output:</strong> 30
+<strong>Explanation:</strong> You start with sticks = [1,8,3,5].
+1. Combine sticks 1 and 3 for a cost of 1 + 3 = 4. Now you have sticks = [4,8,5].
+2. Combine sticks 4 and 5 for a cost of 4 + 5 = 9. Now you have sticks = [9,8].
+3. Combine sticks 9 and 8 for a cost of 9 + 8 = 17. Now you have sticks = [17].
+There is only one stick left, so you are done. The total cost is 4 + 9 + 17 = 30.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>sticks = [5]
-<strong>输出：</strong>0
-<strong>解释：</strong>只有一根木棍，不必再连接。总费用 0
+<strong>Input:</strong> sticks = [5]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There is only one stick, so you don&#39;t need to do anything. The total cost is 0.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= sticks.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>1 &lt;= sticks[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code><span>1 &lt;= sticks.length &lt;= 10<sup>4</sup></span></code></li>
+	<li><code><span>1 &lt;= sticks[i] &lt;= 10<sup>4</sup></span></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心 + 优先队列（小根堆）
+### Solution 1: Greedy + Priority Queue (Min Heap)
 
-我们可以使用贪心的思路，每次选择最短的两根棍子进行拼接，这样可以保证拼接的代价最小。
+We can use a greedy approach, each time choosing the shortest two sticks to connect, which ensures the minimum cost of connection.
 
-因此，我们可以使用优先队列（小根堆）来维护当前棍子的长度，每次从优先队列中取出两根棍子进行拼接，再将拼接后的棍子放回优先队列中，直到优先队列中只剩下一根棍子为止。
+Therefore, we can use a priority queue (min heap) to maintain the current stick lengths. Each time, we take out two sticks from the priority queue to connect, then put the connected stick back into the priority queue, until there is only one stick left in the priority queue.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 是数组 `sticks` 的长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array `sticks`.
 
 <!-- tabs:start -->
 

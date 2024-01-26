@@ -1,12 +1,10 @@
-# [613. 直线上的最近距离](https://leetcode.cn/problems/shortest-distance-in-a-line)
+# [613. Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line)
 
-[English Version](/solution/0600-0699/0613.Shortest%20Distance%20in%20a%20Line/README_EN.md)
+[中文文档](/solution/0600-0699/0613.Shortest%20Distance%20in%20a%20Line/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：&nbsp;<code>Point</code></p>
+<p>Table: <code>Point</code></p>
 
 <pre>
 +-------------+------+
@@ -14,23 +12,22 @@
 +-------------+------+
 | x           | int  |
 +-------------+------+
-在SQL中，x是该表的主键列。
-该表的每一行表示X轴上一个点的位置。
+In SQL, x is the primary key column for this table.
+Each row of this table indicates the position of a point on the X-axis.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>找到 <code>Point</code> 表中任意两点之间的最短距离。</p>
+<p>Find the shortest distance between any two points from the <code>Point</code> table.</p>
 
-<p>返回结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
-Point 表:
+<strong>Input:</strong> 
+Point table:
 +----+
 | x  |
 +----+
@@ -38,24 +35,23 @@ Point 表:
 | 0  |
 | 2  |
 +----+
-<b>输出：</b>
+<strong>Output:</strong> 
 +----------+
 | shortest |
 +----------+
 | 1        |
 +----------+
-<b>解释：</b>点 -1 和 0 之间的最短距离为 |(-1) - 0| = 1。
+<strong>Explanation:</strong> The shortest distance is between points -1 and 0 which is |(-1) - 0| = 1.
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> How could you optimize your solution if the <code>Point</code> table is ordered <strong>in ascending order</strong>?</p>
 
-<p><strong>进阶：</strong>如果 <code>Point</code> 表按 <strong>升序排列</strong>，如何优化你的解决方案？</p>
+## Solutions
 
-## 解法
+### Solution 1: Self-Join
 
-### 方法一：自连接
-
-我们可以使用自连接，将表中的每个点与其他更大的点进行连接，然后计算两点之间的距离，最后取最小值。
+We can use a self-join to join each point in the table with the larger points, and then calculate the distance between the two points. Finally, we can take the minimum distance.
 
 <!-- tabs:start -->
 
@@ -69,9 +65,9 @@ FROM
 
 <!-- tabs:end -->
 
-### 方法二：窗口函数
+### Solution 2: Window Function
 
-我们也可以使用窗口函数，将表中的点按照 $x$ 排序，然后计算相邻两点之间的距离，最后取最小值。
+We can use a window function to sort the points in the table by their $x$ values, and then calculate the distance between adjacent points. Finally, we can take the minimum distance.
 
 <!-- tabs:start -->
 

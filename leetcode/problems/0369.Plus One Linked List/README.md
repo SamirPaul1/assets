@@ -1,54 +1,33 @@
-# [369. 给单链表加一](https://leetcode.cn/problems/plus-one-linked-list)
+# [369. Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list)
 
-[English Version](/solution/0300-0399/0369.Plus%20One%20Linked%20List/README_EN.md)
+[中文文档](/solution/0300-0399/0369.Plus%20One%20Linked%20List/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a non-negative integer represented as a linked list of digits, <em>plus one to the integer</em>.</p>
 
-<p>给定一个用<strong>链表</strong>表示的非负整数， 然后将这个整数&nbsp;<em>再加上 1</em> 。</p>
-
-<p>这些数字的存储是这样的：最高位有效的数字位于链表的首位<meta charset="UTF-8" />&nbsp;<code>head</code>&nbsp;。</p>
+<p>The digits are stored such that the most significant digit is at the <code>head</code> of the list.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入: </strong>head = [1,2,3]
-<strong>输出: </strong>[1,2,4]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> head = [1,2,3]
+<strong>Output:</strong> [1,2,4]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> head = [0]
+<strong>Output:</strong> [1]
 </pre>
-
-<p><meta charset="UTF-8" /></p>
-
-<p><strong>示例</strong><strong>&nbsp;2:</strong></p>
-
-<pre>
-<strong>输入: </strong>head = [0]
-<strong>输出: </strong>[1]
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>链表中的节点数在<meta charset="UTF-8" />&nbsp;<code>[1, 100]</code>&nbsp;的范围内。</li>
+	<li>The number of nodes in the linked list is in the range <code>[1, 100]</code>.</li>
 	<li><code>0 &lt;= Node.val &lt;= 9</code></li>
-	<li>由链表表示的数字不包含前导零，除了零本身。</li>
+	<li>The number represented by the linked list does not contain leading zeros except for the zero itself.&nbsp;</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：链表遍历
-
-我们先设置一个虚拟头节点 `dummy`，初始值为 $0$，指向链表头节点 `head`。
-
-然后从链表头节点开始遍历，找出链表最后一个值不等于 $9$ 的节点 `target`，将 `target` 的值加 $1$。接着将 `target` 之后的所有节点值置为 $0$。
-
-需要注意的是，如果链表中所有节点值都为 $9$，那么遍历结束后，`target` 会指向空节点，这时我们需要将 `dummy` 的值加 $1$，然后返回 `dummy`，否则返回 `dummy` 的下一个节点。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为链表的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

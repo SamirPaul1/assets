@@ -1,76 +1,67 @@
-# [853. 车队](https://leetcode.cn/problems/car-fleet)
+# [853. Car Fleet](https://leetcode.com/problems/car-fleet)
 
-[English Version](/solution/0800-0899/0853.Car%20Fleet/README_EN.md)
+[中文文档](/solution/0800-0899/0853.Car%20Fleet/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There are <code>n</code> cars going to the same destination along a one-lane road. The destination is <code>target</code> miles away.</p>
 
-<p>在一条单行道上，有 <code>n</code> 辆车开往同一目的地。目的地是几英里以外的&nbsp;<code>target</code>&nbsp;。</p>
+<p>You are given two integer array <code>position</code> and <code>speed</code>, both of length <code>n</code>, where <code>position[i]</code> is the position of the <code>i<sup>th</sup></code> car and <code>speed[i]</code> is the speed of the <code>i<sup>th</sup></code> car (in miles per hour).</p>
 
-<p>给定两个整数数组&nbsp;<code>position</code>&nbsp;和&nbsp;<code>speed</code>&nbsp;，长度都是 <code>n</code> ，其中&nbsp;<code>position[i]</code>&nbsp;是第 <code>i</code> 辆车的位置，&nbsp;<code>speed[i]</code>&nbsp;是第 <code>i</code> 辆车的速度(单位是英里/小时)。</p>
+<p>A car can never pass another car ahead of it, but it can catch up to it&nbsp;and drive bumper to bumper <strong>at the same speed</strong>. The faster car will <strong>slow down</strong> to match the slower car&#39;s speed. The distance between these two cars is ignored (i.e., they are assumed to have the same position).</p>
 
-<p>一辆车永远不会超过前面的另一辆车，但它可以追上去，并与前车 <strong>以相同的速度</strong> 紧接着行驶。此时，我们会忽略这两辆车之间的距离，也就是说，它们被假定处于相同的位置。</p>
+<p>A <strong>car fleet</strong> is some non-empty set of cars driving at the same position and same speed. Note that a single car is also a car fleet.</p>
 
-<p><strong>车队</strong><em>&nbsp;</em>是一些由行驶在相同位置、具有相同速度的车组成的非空集合。注意，一辆车也可以是一个车队。</p>
+<p>If a car catches up to a car fleet right at the destination point, it will still be considered as one car fleet.</p>
 
-<p>即便一辆车在目的地才赶上了一个车队，它们仍然会被视作是同一个车队。</p>
-
-<p>返回到达目的地的 <strong>车队数量</strong> 。</p>
+<p>Return <em>the <strong>number of car fleets</strong> that will arrive at the destination</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>target = 12, position = [10,8,0,5,3], speed = [2,4,1,1,3]
-<strong>输出：</strong>3
-<strong>解释：</strong>
-从 10 和 8 开始的车会组成一个车队，它们在 12 处相遇。
-从 0 处开始的车无法追上其它车，所以它自己就是一个车队。
-从 5 和 3 开始的车会组成一个车队，它们在 6 处相遇。
-请注意，在到达目的地之前没有其它车会遇到这些车队，所以答案是 3。
+<strong>Input:</strong> target = 12, position = [10,8,0,5,3], speed = [2,4,1,1,3]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+The cars starting at 10 (speed 2) and 8 (speed 4) become a fleet, meeting each other at 12.
+The car starting at 0 does not catch up to any other car, so it is a fleet by itself.
+The cars starting at 5 (speed 1) and 3 (speed 3) become a fleet, meeting each other at 6. The fleet moves at speed 1 until it reaches target.
+Note that no other cars meet these fleets before the destination, so the answer is 3.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> target = 10, position = [3], speed = [3]
-<strong>输出:</strong> 1
-<strong>解释:</strong> 只有一辆车，因此只有一个车队。
+<strong>Input:</strong> target = 10, position = [3], speed = [3]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is only one car, hence there is only one fleet.
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> target = 100, position = [0,2,4], speed = [4,2,1]
-<strong>输出:</strong> 1
-<strong>解释:</strong>
-以0(速度4)和2(速度2)出发的车辆组成车队，在4点相遇。舰队以2的速度前进。
-然后，车队(速度2)和以4(速度1)出发的汽车组成一个车队，在6点相遇。舰队以1的速度前进，直到到达目标。</pre>
+<strong>Input:</strong> target = 100, position = [0,2,4], speed = [4,2,1]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+The cars starting at 0 (speed 4) and 2 (speed 2) become a fleet, meeting each other at 4. The fleet moves at speed 2.
+Then, the fleet (speed 2) and the car starting at 4 (speed 1) become one fleet, meeting each other at 6. The fleet moves at speed 1 until it reaches target.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == position.length == speed.length</code></li>
 	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt; target &lt;= 10<sup>6</sup></code></li>
 	<li><code>0 &lt;= position[i] &lt; target</code></li>
-	<li><code>position</code>&nbsp;中每个值都 <strong>不同</strong></li>
+	<li>All the values of <code>position</code> are <strong>unique</strong>.</li>
 	<li><code>0 &lt; speed[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
-
-我们将车辆按照位置降序排序，这样我们只需要比较相邻两辆车的到达时间即可。
-
-我们初始化一个变量 $pre$ 表示上一辆车到达终点的时间，如果当前车辆到达终点的时间大于 $pre$，说明当前车辆无法追上前面的车辆，因此需要另外开一个车队，否则当前车辆会与前面的车辆组成一个车队。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是车辆的数量。
+### Solution 1
 
 <!-- tabs:start -->
 

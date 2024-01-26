@@ -1,86 +1,71 @@
-# [1538. 找出隐藏数组中出现次数最多的元素](https://leetcode.cn/problems/guess-the-majority-in-a-hidden-array)
+# [1538. Guess the Majority in a Hidden Array](https://leetcode.com/problems/guess-the-majority-in-a-hidden-array)
 
-[English Version](/solution/1500-1599/1538.Guess%20the%20Majority%20in%20a%20Hidden%20Array/README_EN.md)
+[中文文档](/solution/1500-1599/1538.Guess%20the%20Majority%20in%20a%20Hidden%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个整数数组&nbsp;<code>nums</code>，且&nbsp;<code>nums</code>&nbsp;中的所有整数都为 <strong>0</strong> 或 <strong>1</strong>。你不能直接访问这个数组，你需要使用&nbsp;API <code>ArrayReader</code>&nbsp;，该 API 含有下列成员函数：</p>
+<p>We have an integer array <code>nums</code>, where all the integers in <code>nums</code> are <strong>0</strong> or <strong>1</strong>. You will not be given direct access to the array, instead, you will have an <strong>API</strong> <code>ArrayReader</code> which have the following functions:</p>
 
 <ul>
-	<li><code>int query(int a, int b, int c, int d)</code>：其中&nbsp;<code>0 &lt;= a &lt; b &lt; c &lt; d&nbsp;&lt;&nbsp;ArrayReader.length()</code>&nbsp;。此函数查询以这四个参数为下标的元素并返回：
+	<li><code>int query(int a, int b, int c, int d)</code>: where <code>0 &lt;= a &lt; b &lt; c &lt; d &lt; ArrayReader.length()</code>. The function returns the distribution of the value of the 4 elements and returns:
 
     <ul>
-    	<li><strong>4 </strong>: 当这四个元素相同（0 或 1）时。</li>
-    	<li><strong>2</strong>&nbsp;: 当其中三个元素的值等于 0 且一个元素等于 1 时，或当其中三个元素的值等于 1&nbsp;且一个元素等于 0&nbsp;时。</li>
-    	<li><strong>0&nbsp;</strong>: 当其中两个元素等于 0 且两个元素等于 1 时。</li>
+    	<li><strong>4 </strong>: if the values of the 4 elements are the same (0 or 1).</li>
+    	<li><strong>2</strong> : if three elements have a value equal to 0 and one element has value equal to 1 or vice versa.</li>
+    	<li><strong>0 </strong>: if two element have a value equal to 0 and two elements have a value equal to 1.</li>
     </ul>
     </li>
-    <li><code>int length()</code>：返回数组的长度。</li>
+    <li><code>int length()</code>: Returns the size of the array.</li>
 
 </ul>
 
-<p>你可以调用&nbsp;<code>query()</code>&nbsp;最多&nbsp;<strong>2 * n 次</strong>，其中 n 等于&nbsp;<code>ArrayReader.length()</code>。</p>
+<p>You are allowed to call <code>query()</code> <b>2 * n times</b> at most where n is equal to <code>ArrayReader.length()</code>.</p>
 
-<p>返回&nbsp;<code>nums</code>&nbsp;中出现次数最多的值的<strong>任意</strong>索引，若所有的值出现次数均相同，返回&nbsp;-1。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = [0,0,1,0,1,1,1,1]
-<strong>输出:</strong> 5
-<strong>解释:</strong> API 的调用情况如下：
-reader.length() // 返回 8，因为隐藏数组中有 8 个元素。
-reader.query(0,1,2,3) // 返回 2，查询元素 nums[0], nums[1], nums[2], nums[3] 间的比较。
-// 三个元素等于 0 且一个元素等于 1 或出现相反情况。
-reader.query(4,5,6,7) // 返回 4，因为 nums[4], nums[5], nums[6], nums[7] 有相同值。
-我们可以推断，最常出现的值在最后 4 个元素中。
-索引 2, 4, 6, 7 也是正确答案。
-</pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = [0,0,1,1,0]
-<strong>输出:</strong> 0
-</pre>
-
-<p><strong>示例 3:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = [1,0,1,0,1,0,1,0]
-<strong>输出:</strong> -1
-</pre>
+<p>Return <strong>any</strong> index of the most frequent value in <code>nums</code>, in case of tie, return -1.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示:</strong></p>
+<pre>
+<strong>Input:</strong> nums = [0,0,1,0,1,1,1,1]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> The following calls to the API
+reader.length() // returns 8 because there are 8 elements in the hidden array.
+reader.query(0,1,2,3) // returns 2 this is a query that compares the elements nums[0], nums[1], nums[2], nums[3]
+// Three elements have a value equal to 0 and one element has value equal to 1 or viceversa.
+reader.query(4,5,6,7) // returns 4 because nums[4], nums[5], nums[6], nums[7] have the same value.
+we can infer that the most frequent value is found in the last 4 elements.
+Index 2, 4, 6, 7 is also a correct answer.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [0,0,1,1,0]
+<strong>Output:</strong> 0
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,0,1,0,1,0,1,0]
+<strong>Output:</strong> -1
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>5 &lt;= nums.length&nbsp;&lt;= 10^5</code></li>
+	<li><code>5 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 1</code></li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> What is the minimum number of calls needed to find the majority element?</p>
 
-<p><strong>进阶：</strong>要找到出现次数最多的元素，需要至少调用&nbsp;<code>query()</code>&nbsp;多少次？</p>
+## Solutions
 
-## 解法
-
-### 方法一：脑筋急转弯
-
-我们先调用 `reader.query(0, 1, 2, 3)`，将得到的结果记为 $x$。
-
-接下来，我们从下标 $4$ 开始遍历，每次调用 `reader.query(0, 1, 2, i)`，如果结果与 $x$ 相同，我们就将 $a$ 的值加一，否则将 $b$ 的值加一，同时将 $k$ 的值更新为 $i$。
-
-然后，我们还需要判断下标 $0, 1, 2$ 与下标 $3$ 的元素是否相同，如果相同，我们将 $a$ 的值加一，否则将 $b$ 的值加一，同时将 $k$ 的值更新为对应的下标。
-
-最后，如果 $a=b$，说明数组中 $0$ 和 $1$ 的个数相同，我们返回 $-1$；否则，如果 $a \gt b$，返回 $3$，否则返回 $k$。
-
-时间复杂度 $O(n)$，其中 $n$ 是数组的长度。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

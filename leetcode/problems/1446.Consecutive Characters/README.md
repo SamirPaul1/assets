@@ -1,53 +1,41 @@
-# [1446. 连续字符](https://leetcode.cn/problems/consecutive-characters)
+# [1446. Consecutive Characters](https://leetcode.com/problems/consecutive-characters)
 
-[English Version](/solution/1400-1499/1446.Consecutive%20Characters/README_EN.md)
+[中文文档](/solution/1400-1499/1446.Consecutive%20Characters/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>The <strong>power</strong> of the string is the maximum length of a non-empty substring that contains only one unique character.</p>
 
-<p>给你一个字符串&nbsp;<code>s</code>&nbsp;，字符串的<strong>「能量」</strong>定义为：只包含一种字符的最长非空子字符串的长度。</p>
-
-<p>请你返回字符串 <code>s</code> 的 <strong>能量</strong>。</p>
+<p>Given a string <code>s</code>, return <em>the <strong>power</strong> of</em> <code>s</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "leetcode"
-<strong>输出：</strong>2
-<strong>解释：</strong>子字符串 "ee" 长度为 2 ，只包含字符 'e' 。
+<strong>Input:</strong> s = &quot;leetcode&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The substring &quot;ee&quot; is of length 2 with the character &#39;e&#39; only.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "abbcccddddeeeeedcba"
-<strong>输出：</strong>5
-<strong>解释：</strong>子字符串 "eeeee" 长度为 5 ，只包含字符 'e' 。
+<strong>Input:</strong> s = &quot;abbcccddddeeeeedcba&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> The substring &quot;eeeee&quot; is of length 5 with the character &#39;e&#39; only.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 500</code></li>
-	<li><code>s</code>&nbsp;只包含小写英文字母。</li>
+	<li><code>s</code> consists of only lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：遍历计数
-
-我们定义一个变量 $t$，表示当前连续字符的长度，初始时 $t=1$。
-
-接下来，我们从字符串 $s$ 的第二个字符开始遍历，如果当前字符与上一个字符相同，那么 $t = t + 1$，然后更新答案 $ans = \max(ans, t)$；否则，$t = 1$。
-
-最后返回答案 $ans$ 即可。
-
-时间复杂度 $O(n)$，其中 $n$ 是字符串 $s$ 的长度。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

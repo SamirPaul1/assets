@@ -1,12 +1,10 @@
-# [2238. 司机成为乘客的次数](https://leetcode.cn/problems/number-of-times-a-driver-was-a-passenger)
+# [2238. Number of Times a Driver Was a Passenger](https://leetcode.com/problems/number-of-times-a-driver-was-a-passenger)
 
-[English Version](/solution/2200-2299/2238.Number%20of%20Times%20a%20Driver%20Was%20a%20Passenger/README_EN.md)
+[中文文档](/solution/2200-2299/2238.Number%20of%20Times%20a%20Driver%20Was%20a%20Passenger/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Rides</code></p>
+<p>Table: <code>Rides</code></p>
 
 <pre>
 +--------------+------+
@@ -16,25 +14,25 @@
 | driver_id    | int  |
 | passenger_id | int  |
 +--------------+------+
-ride_id 是该表的主键（具有唯一值的列）。
-该表的每一行都包含驾驶员的 ID 和在 ride_id 中乘车的乘客的 ID。
-注意 driver_id != passenger_id。</pre>
+ride_id is the column with unique values for this table.
+Each row of this table contains the ID of the driver and the ID of the passenger that rode in ride_id.
+Note that driver_id != passenger_id.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，获取每个司机的 ID 和他们作为乘客的次数。</p>
+<p>Write a solution&nbsp;to report the ID of each driver and the number of times they were a passenger.</p>
 
-<p data-group="1-1">以&nbsp;<strong>任意顺序&nbsp;</strong>返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Rides 表:
+<strong>Input:</strong> 
+Rides table:
 +---------+-----------+--------------+
 | ride_id | driver_id | passenger_id |
 +---------+-----------+--------------+
@@ -45,21 +43,22 @@ Rides 表:
 | 5       | 11        | 7            |
 | 6       | 11        | 3            |
 +---------+-----------+--------------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +-----------+-----+
 | driver_id | cnt |
 +-----------+-----+
 | 7         | 2   |
 | 11        | 0   |
 +-----------+-----+
-<strong>解释:</strong> 
-在所有给定的行程中有两名司机: 7 和 11.
-ID = 7 的司机曾两次成为乘客。
-ID = 11 的司机从来不是乘客。</pre>
+<strong>Explanation:</strong> 
+There are two drivers in all the given rides: 7 and 11.
+The driver with ID = 7 was a passenger two times.
+The driver with ID = 11 was never a passenger.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

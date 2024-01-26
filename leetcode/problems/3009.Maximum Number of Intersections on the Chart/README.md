@@ -1,48 +1,44 @@
-# [3009. 折线图上的最大交点数量](https://leetcode.cn/problems/maximum-number-of-intersections-on-the-chart)
+# [3009. Maximum Number of Intersections on the Chart](https://leetcode.com/problems/maximum-number-of-intersections-on-the-chart)
 
-[English Version](/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/README_EN.md)
+[中文文档](/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There is a line chart consisting of <code>n</code> points connected by line segments. You are given a <strong>1-indexed</strong> integer array <code>y</code>. The <code>k<sup>th</sup></code> point has coordinates <code>(k, y[k])</code>. There are no horizontal lines; that is, no two consecutive points have the same y-coordinate.</p>
 
-<p>有一条由 <code>n</code> 个点连接而成的折线图。给定一个 <strong>下标从 1 开始&nbsp;</strong>的整数数组 <code>y</code>，第&nbsp;<code>k</code>&nbsp;个点的坐标是 <code>(k, y[k])</code>。图中没有水平线，即没有两个相邻的点有相同的 y 坐标。</p>
-
-<p>假设在图中任意画一条无限长的水平线。请返回这条水平线与折线相交的最多交点数。</p>
+<p>We can draw an infinitely long horizontal line. Return <em>the <strong>maximum</strong> number of points of intersection of the line with the chart</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-<strong><a href="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020549.jpeg"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020549.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; height: 217px; width: 600px;" /></a></strong>
+<p><strong class="example">Example 1:</strong></p>
+<strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020549.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; height: 217px; width: 600px;" /></strong>
 
 <pre>
-<b>输入：</b>y = [1,2,1,2,1,3,2]
-<b>输出：</b>5
-<b>解释：</b>如上图所示，水平线 y = 1.5 与折线相交了 5 次（用红叉表示）。水平线 y = 2 与折线相交了 4 次（用红叉表示）。可以证明没有其他水平线可以与折线有超过 5 个点相交。因此，答案是 5。
+<strong>Input:</strong> y = [1,2,1,2,1,3,2]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> As you can see in the image above, the line y = 1.5 has 5 intersections with the chart (in red crosses). You can also see the line y = 2 which intersects the chart in 4 points (in red crosses). It can be shown that there is no horizontal line intersecting the chart at more than 5 points. So the answer would be 5.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020557.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 400px; height: 404px;" /></strong>
 
 <pre>
-<b>输入：</b>y = [2,1,3,4,5]
-<b>输出：</b>2
-<b>解释：</b>如上图所示，水平线 y=1.5 与折线相交了 2 次（用红叉表示）。水平线 y=2 与折线相交了 2 次（用红叉表示）。可以证明没有其他水平线可以与折线有超过 2 个点相交。因此，答案是 2。
+<strong>Input:</strong> y = [2,1,3,4,5]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> As you can see in the image above, the line y = 1.5 has 2 intersections with the chart (in red crosses). You can also see the line y = 2 which intersects the chart in 2 points (in red crosses). It can be shown that there is no horizontal line intersecting the chart at more than 2 points. So the answer would be 2.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= y.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= y[i] &lt;= 10<sup>9</sup></code></li>
-	<li>对于范围&nbsp;<code>[1, n - 1]</code> 内的所有&nbsp;<code>i</code>，都有 <code>y[i] != y[i + 1]</code></li>
+	<li><code>y[i] != y[i + 1]</code> for <code>i</code> in range <code>[1, n - 1]</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

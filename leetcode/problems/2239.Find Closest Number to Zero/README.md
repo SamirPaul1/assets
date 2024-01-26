@@ -1,53 +1,44 @@
-# [2239. 找到最接近 0 的数字](https://leetcode.cn/problems/find-closest-number-to-zero)
+# [2239. Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero)
 
-[English Version](/solution/2200-2299/2239.Find%20Closest%20Number%20to%20Zero/README_EN.md)
+[中文文档](/solution/2200-2299/2239.Find%20Closest%20Number%20to%20Zero/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个长度为 <code>n</code>&nbsp;的整数数组&nbsp;<code>nums</code>&nbsp;，请你返回 <code>nums</code>&nbsp;中最 <strong>接近</strong>&nbsp;<code>0</code>&nbsp;的数字。如果有多个答案，请你返回它们中的 <strong>最大值</strong>&nbsp;。</p>
-
+<p>Given an integer array <code>nums</code> of size <code>n</code>, return <em>the number with the value <strong>closest</strong> to </em><code>0</code><em> in </em><code>nums</code>. If there are multiple answers, return <em>the number with the <strong>largest</strong> value</em>.</p>
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>nums = [-4,-2,1,4,8]
-<b>输出：</b>1
-<strong>解释：</strong>
--4 到 0 的距离为 |-4| = 4 。
--2 到 0 的距离为 |-2| = 2 。
-1 到 0 的距离为 |1| = 1 。
-4 到 0 的距离为 |4| = 4 。
-8 到 0 的距离为 |8| = 8 。
-所以，数组中距离 0 最近的数字为 1 。
+<pre>
+<strong>Input:</strong> nums = [-4,-2,1,4,8]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+The distance from -4 to 0 is |-4| = 4.
+The distance from -2 to 0 is |-2| = 2.
+The distance from 1 to 0 is |1| = 1.
+The distance from 4 to 0 is |4| = 4.
+The distance from 8 to 0 is |8| = 8.
+Thus, the closest number to 0 in the array is 1.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>nums = [2,-1,1]
-<b>输出：</b>1
-<b>解释：</b>1 和 -1 都是距离 0 最近的数字，所以返回较大值 1 。
+<pre>
+<strong>Input:</strong> nums = [2,-1,1]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> 1 and -1 are both the closest numbers to 0, so 1 being larger is returned.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 1000</code></li>
 	<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：一次遍历
-
-我们定义一个变量 $d$ 来记录当前最小的距离，初始时 $d=\infty$。然后我们遍历数组，对于每个元素 $x$，我们计算 $y=|x|$，如果 $y \lt d$ 或者 $y=d$ 且 $x \gt ans$，我们就更新答案 $ans=x$ 和 $d=y$。
-
-遍历结束后返回答案即可。
-
-时间复杂度 $O(n)$，其中 $n$ 是数组的长度。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

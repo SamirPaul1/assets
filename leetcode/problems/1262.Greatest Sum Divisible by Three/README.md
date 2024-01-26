@@ -1,69 +1,65 @@
-# [1262. 可被三整除的最大和](https://leetcode.cn/problems/greatest-sum-divisible-by-three)
+# [1262. Greatest Sum Divisible by Three](https://leetcode.com/problems/greatest-sum-divisible-by-three)
 
-[English Version](/solution/1200-1299/1262.Greatest%20Sum%20Divisible%20by%20Three/README_EN.md)
+[中文文档](/solution/1200-1299/1262.Greatest%20Sum%20Divisible%20by%20Three/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个整数数组&nbsp;<code>nums</code>，请你找出并返回能被三整除的元素最大和。</p>
-
-<ol>
-</ol>
+<p>Given an integer array <code>nums</code>, return <em>the <strong>maximum possible sum </strong>of elements of the array such that it is divisible by three</em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [3,6,5,1,8]
+<strong>Output:</strong> 18
+<strong>Explanation:</strong> Pick numbers 3, 6, 1 and 8 their sum is 18 (maximum sum divisible by 3).</pre>
 
-<pre><strong>输入：</strong>nums = [3,6,5,1,8]
-<strong>输出：</strong>18
-<strong>解释：</strong>选出数字 3, 6, 1 和 8，它们的和是 18（可被 3 整除的最大和）。</pre>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>示例 2：</strong></p>
-
-<pre><strong>输入：</strong>nums = [4]
-<strong>输出：</strong>0
-<strong>解释：</strong>4 不能被 3 整除，所以无法选出数字，返回 0。
+<pre>
+<strong>Input:</strong> nums = [4]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Since 4 is not divisible by 3, do not pick any number.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>nums = [1,2,3,4,4]
-<strong>输出：</strong>12
-<strong>解释：</strong>选出数字 1, 3, 4 以及 4，它们的和是 12（可被 3 整除的最大和）。
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4,4]
+<strong>Output:</strong> 12
+<strong>Explanation:</strong> Pick numbers 1, 3, 4 and 4 their sum is 12 (maximum sum divisible by 3).
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= nums.length &lt;= 4 * 10^4</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 10^4</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 4 * 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i][j]$ 表示前 $i$ 个数中选取若干个数，使得这若干个数的和模 $3$ 余 $j$ 的最大值。初始时 $f[0][0]=0$，其余为 $-\infty$。
+We define $f[i][j]$ as the maximum sum of several numbers selected from the first $i$ numbers, such that the sum modulo $3$ equals $j$. Initially, $f[0][0]=0$, and the rest are $-\infty$.
 
-对于 $f[i][j]$，我们可以考虑第 $i$ 个数 $x$ 的状态：
+For $f[i][j]$, we can consider the state of the $i$th number $x$:
 
--   如果我们不选 $x$，那么 $f[i][j]=f[i-1][j]$；
--   如果我们选 $x$，那么 $f[i][j]=f[i-1][(j-x \bmod 3 + 3)\bmod 3]+x$。
+-   If we do not select $x$, then $f[i][j]=f[i-1][j]$;
+-   If we select $x$, then $f[i][j]=f[i-1][(j-x \bmod 3 + 3)\bmod 3]+x$.
 
-因此我们可以得到状态转移方程：
+Therefore, we can get the state transition equation:
 
 $$
 f[i][j]=\max\{f[i-1][j],f[i-1][(j-x \bmod 3 + 3)\bmod 3]+x\}
 $$
 
-最终答案为 $f[n][0]$。
+The final answer is $f[n][0]$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is the length of the array $nums$.
 
-注意到 $f[i][j]$ 的值只与 $f[i-1][j]$ 和 $f[i-1][(j-x \bmod 3 + 3)\bmod 3]$ 有关，因此我们可以使用滚动数组优化空间复杂度，使空间复杂度降低为 $O(1)$。
+Note that the value of $f[i][j]$ is only related to $f[i-1][j]$ and $f[i-1][(j-x \bmod 3 + 3)\bmod 3]$, so we can use a rolling array to optimize the space complexity, reducing the space complexity to $O(1)$.
 
 <!-- tabs:start -->
 
@@ -153,7 +149,7 @@ function maxSumDivThree(nums: number[]): number {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

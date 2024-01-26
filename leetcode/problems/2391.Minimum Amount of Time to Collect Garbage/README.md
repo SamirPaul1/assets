@@ -1,81 +1,70 @@
-# [2391. 收集垃圾的最少总时间](https://leetcode.cn/problems/minimum-amount-of-time-to-collect-garbage)
+# [2391. Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage)
 
-[English Version](/solution/2300-2399/2391.Minimum%20Amount%20of%20Time%20to%20Collect%20Garbage/README_EN.md)
+[中文文档](/solution/2300-2399/2391.Minimum%20Amount%20of%20Time%20to%20Collect%20Garbage/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> array of strings <code>garbage</code> where <code>garbage[i]</code> represents the assortment of garbage at the <code>i<sup>th</sup></code> house. <code>garbage[i]</code> consists only of the characters <code>&#39;M&#39;</code>, <code>&#39;P&#39;</code> and <code>&#39;G&#39;</code> representing one unit of metal, paper and glass garbage respectively. Picking up <strong>one</strong> unit of any type of garbage takes <code>1</code> minute.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的字符串数组&nbsp;<code>garbage</code>&nbsp;，其中&nbsp;<code>garbage[i]</code>&nbsp;表示第 <code>i</code>&nbsp;个房子的垃圾集合。<code>garbage[i]</code>&nbsp;只包含字符&nbsp;<code>'M'</code>&nbsp;，<code>'P'</code> 和&nbsp;<code>'G'</code>&nbsp;，但可能包含多个相同字符，每个字符分别表示一单位的金属、纸和玻璃。垃圾车收拾 <strong>一</strong>&nbsp;单位的任何一种垃圾都需要花费&nbsp;<code>1</code>&nbsp;分钟。</p>
+<p>You are also given a <strong>0-indexed</strong> integer array <code>travel</code> where <code>travel[i]</code> is the number of minutes needed to go from house <code>i</code> to house <code>i + 1</code>.</p>
 
-<p>同时给你一个下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>travel</code>&nbsp;，其中&nbsp;<code>travel[i]</code>&nbsp;是垃圾车从房子 <code>i</code>&nbsp;行驶到房子 <code>i + 1</code>&nbsp;需要的分钟数。</p>
+<p>There are three garbage trucks in the city, each responsible for picking up one type of garbage. Each garbage truck starts at house <code>0</code> and must visit each house <strong>in order</strong>; however, they do <strong>not</strong> need to visit every house.</p>
 
-<p>城市里总共有三辆垃圾车，分别收拾三种垃圾。每辆垃圾车都从房子 <code>0</code>&nbsp;出发，<strong>按顺序</strong>&nbsp;到达每一栋房子。但它们 <strong>不是必须</strong>&nbsp;到达所有的房子。</p>
+<p>Only <strong>one</strong> garbage truck may be used at any given moment. While one truck is driving or picking up garbage, the other two trucks <strong>cannot</strong> do anything.</p>
 
-<p>任何时刻只有 <strong>一辆</strong>&nbsp;垃圾车处在使用状态。当一辆垃圾车在行驶或者收拾垃圾的时候，另外两辆车 <strong>不能</strong>&nbsp;做任何事情。</p>
-
-<p>请你返回收拾完所有垃圾需要花费的 <strong>最少</strong>&nbsp;总分钟数。</p>
+<p>Return<em> the <strong>minimum</strong> number of minutes needed to pick up all the garbage.</em></p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>garbage = ["G","P","GP","GG"], travel = [2,4,3]
-<b>输出：</b>21
-<strong>解释：</strong>
-收拾纸的垃圾车：
-1. 从房子 0 行驶到房子 1
-2. 收拾房子 1 的纸垃圾
-3. 从房子 1 行驶到房子 2
-4. 收拾房子 2 的纸垃圾
-收拾纸的垃圾车总共花费 8 分钟收拾完所有的纸垃圾。
-收拾玻璃的垃圾车：
-1. 收拾房子 0 的玻璃垃圾
-2. 从房子 0 行驶到房子 1
-3. 从房子 1 行驶到房子 2
-4. 收拾房子 2 的玻璃垃圾
-5. 从房子 2 行驶到房子 3
-6. 收拾房子 3 的玻璃垃圾
-收拾玻璃的垃圾车总共花费 13 分钟收拾完所有的玻璃垃圾。
-由于没有金属垃圾，收拾金属的垃圾车不需要花费任何时间。
-所以总共花费 8 + 13 = 21 分钟收拾完所有垃圾。
+<pre>
+<strong>Input:</strong> garbage = [&quot;G&quot;,&quot;P&quot;,&quot;GP&quot;,&quot;GG&quot;], travel = [2,4,3]
+<strong>Output:</strong> 21
+<strong>Explanation:</strong>
+The paper garbage truck:
+1. Travels from house 0 to house 1
+2. Collects the paper garbage at house 1
+3. Travels from house 1 to house 2
+4. Collects the paper garbage at house 2
+Altogether, it takes 8 minutes to pick up all the paper garbage.
+The glass garbage truck:
+1. Collects the glass garbage at house 0
+2. Travels from house 0 to house 1
+3. Travels from house 1 to house 2
+4. Collects the glass garbage at house 2
+5. Travels from house 2 to house 3
+6. Collects the glass garbage at house 3
+Altogether, it takes 13 minutes to pick up all the glass garbage.
+Since there is no metal garbage, we do not need to consider the metal garbage truck.
+Therefore, it takes a total of 8 + 13 = 21 minutes to collect all the garbage.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>garbage = ["MMM","PGM","GP"], travel = [3,10]
-<b>输出：</b>37
-<strong>解释：</strong>
-收拾金属的垃圾车花费 7 分钟收拾完所有的金属垃圾。
-收拾纸的垃圾车花费 15 分钟收拾完所有的纸垃圾。
-收拾玻璃的垃圾车花费 15 分钟收拾完所有的玻璃垃圾。
-总共花费 7 + 15 + 15 = 37 分钟收拾完所有的垃圾。
+<pre>
+<strong>Input:</strong> garbage = [&quot;MMM&quot;,&quot;PGM&quot;,&quot;GP&quot;], travel = [3,10]
+<strong>Output:</strong> 37
+<strong>Explanation:</strong>
+The metal garbage truck takes 7 minutes to pick up all the metal garbage.
+The paper garbage truck takes 15 minutes to pick up all the paper garbage.
+The glass garbage truck takes 15 minutes to pick up all the glass garbage.
+It takes a total of 7 + 15 + 15 = 37 minutes to collect all the garbage.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= garbage.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>garbage[i]</code> 只包含字母&nbsp;<code>'M'</code>&nbsp;，<code>'P'</code>&nbsp;和&nbsp;<code>'G'</code>&nbsp;。</li>
+	<li><code>garbage[i]</code> consists of only the letters <code>&#39;M&#39;</code>, <code>&#39;P&#39;</code>, and <code>&#39;G&#39;</code>.</li>
 	<li><code>1 &lt;= garbage[i].length &lt;= 10</code></li>
 	<li><code>travel.length == garbage.length - 1</code></li>
 	<li><code>1 &lt;= travel[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：计数统计
-
-由于题目中说明同一时刻只有一辆车处于使用状态，因此我们直接模拟每辆车的运行过程，累加时间。
-
-更进一步思考，我们发现，答案的总耗时其实可以分成两部分：
-
-1. 所有垃圾的数量，我们遍历 `garbage` 中的每一项 `v`，然后累加 `v.length` 就能得到；
-1. 根据每一种垃圾在 `garbage` 中最后一次出现的位置 `i`，我们累加 `travel[0..i)` 即可。这里可以先算出 `travel` 的前缀和。
-
-时间复杂度 $O(n)$，其中 $n$ 为垃圾的数量。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -243,7 +232,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

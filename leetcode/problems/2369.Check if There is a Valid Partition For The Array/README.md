@@ -1,58 +1,50 @@
-# [2369. 检查数组是否存在有效划分](https://leetcode.cn/problems/check-if-there-is-a-valid-partition-for-the-array)
+# [2369. Check if There is a Valid Partition For The Array](https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array)
 
-[English Version](/solution/2300-2399/2369.Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/README_EN.md)
+[中文文档](/solution/2300-2399/2369.Check%20if%20There%20is%20a%20Valid%20Partition%20For%20The%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code>. You have to partition the array into one or more <strong>contiguous</strong> subarrays.</p>
 
-<p>给你一个下标从 <strong>0</strong> 开始的整数数组 <code>nums</code> ，你必须将数组划分为一个或多个 <strong>连续</strong> 子数组。</p>
-
-<p>如果获得的这些子数组中每个都能满足下述条件<strong> 之一</strong> ，则可以称其为数组的一种 <strong>有效</strong> 划分：</p>
+<p>We call a partition of the array <strong>valid</strong> if each of the obtained subarrays satisfies <strong>one</strong> of the following conditions:</p>
 
 <ol>
-	<li>子数组 <strong>恰</strong> 由 <code>2</code> 个相等元素组成，例如，子数组 <code>[2,2]</code> 。</li>
-	<li>子数组 <strong>恰</strong> 由 <code>3</code> 个相等元素组成，例如，子数组 <code>[4,4,4]</code> 。</li>
-	<li>子数组 <strong>恰</strong> 由 <code>3</code> 个连续递增元素组成，并且相邻元素之间的差值为 <code>1</code> 。例如，子数组 <code>[3,4,5]</code> ，但是子数组 <code>[1,3,5]</code> 不符合要求。</li>
+	<li>The subarray consists of <strong>exactly</strong> <code>2,</code> equal elements. For example, the subarray <code>[2,2]</code> is good.</li>
+	<li>The subarray consists of <strong>exactly</strong> <code>3,</code> equal elements. For example, the subarray <code>[4,4,4]</code> is good.</li>
+	<li>The subarray consists of <strong>exactly</strong> <code>3</code> consecutive increasing elements, that is, the difference between adjacent elements is <code>1</code>. For example, the subarray <code>[3,4,5]</code> is good, but the subarray <code>[1,3,5]</code> is not.</li>
 </ol>
 
-<p>如果数组 <strong>至少</strong> 存在一种有效划分，返回 <code>true</code><em> </em>，否则，返回 <code>false</code> 。</p>
+<p>Return <code>true</code><em> if the array has <strong>at least</strong> one valid partition</em>. Otherwise, return <code>false</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [4,4,4,5,6]
-<strong>输出：</strong>true
-<strong>解释：</strong>数组可以划分成子数组 [4,4] 和 [4,5,6] 。
-这是一种有效划分，所以返回 true 。
+<strong>Input:</strong> nums = [4,4,4,5,6]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The array can be partitioned into the subarrays [4,4] and [4,5,6].
+This partition is valid, so we return true.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,1,1,2]
-<strong>输出：</strong>false
-<strong>解释：</strong>该数组不存在有效划分。
+<strong>Input:</strong> nums = [1,1,1,2]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> There is no valid partition for this array.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：记忆化搜索
-
-$dfs(i)$ 表示从数组从下标 $i$ 开始到结尾，是否至少存在一个有效的划分。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -212,24 +204,7 @@ function validPartition(nums: number[]): boolean {
 
 <!-- tabs:end -->
 
-### 方法二：动态规划
-
-设 $dp[i]$ 表示数组前 $i$ 个元素是否至少存在一个有效的划分。初始时 $dp[0]=true$, $dp[1]=false$。
-
-根据题意，当 $i \ge 2$ 时，有
-
-$$
-dp[i] = \text{OR}
-\begin{cases}
-dp[i-2]\ \text{AND}\ \textit{nums}[i-1] = \textit{nums}[i-2],&i>1\\
-dp[i-3]\ \text{AND}\ \textit{nums}[i-1] = \textit{nums}[i-2] = \textit{nums}[i-3],&i>2\\
-dp[i-3]\ \text{AND}\ \textit{nums}[i-1] = \textit{nums}[i-2]+1 = \textit{nums}[i-3]+2,&i>2
-\end{cases}
-$$
-
-答案为 $dp[n]$。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。
+### Solution 2
 
 <!-- tabs:start -->
 

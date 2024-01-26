@@ -1,54 +1,44 @@
-# [889. 根据前序和后序遍历构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal)
+# [889. Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal)
 
-[English Version](/solution/0800-0899/0889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/README_EN.md)
+[中文文档](/solution/0800-0899/0889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two integer arrays, <code>preorder</code> and <code>postorder</code> where <code>preorder</code> is the preorder traversal of a binary tree of <strong>distinct</strong> values and <code>postorder</code> is the postorder traversal of the same tree, reconstruct and return <em>the binary tree</em>.</p>
 
-<p>给定两个整数数组，<code>preorder</code>&nbsp;和 <code>postorder</code> ，其中 <code>preorder</code> 是一个具有 <strong>无重复</strong> 值的二叉树的前序遍历，<code>postorder</code> 是同一棵树的后序遍历，重构并返回二叉树。</p>
-
-<p>如果存在多个答案，您可以返回其中 <strong>任何</strong> 一个。</p>
+<p>If there exist multiple answers, you can <strong>return any</strong> of them.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/images/lc-prepost.jpg" style="height: 265px; width: 304px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/images/lc-prepost.jpg" style="width: 304px; height: 265px;" />
 <pre>
-<strong>输入：</strong>preorder = [1,2,4,5,3,6,7], postorder = [4,5,2,6,7,3,1]
-<strong>输出：</strong>[1,2,3,4,5,6,7]
+<strong>Input:</strong> preorder = [1,2,4,5,3,6,7], postorder = [4,5,2,6,7,3,1]
+<strong>Output:</strong> [1,2,3,4,5,6,7]
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> preorder = [1], postorder = [1]
-<strong>输出:</strong> [1]
+<strong>Input:</strong> preorder = [1], postorder = [1]
+<strong>Output:</strong> [1]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= preorder.length &lt;= 30</code></li>
 	<li><code>1 &lt;= preorder[i] &lt;= preorder.length</code></li>
-	<li><code>preorder</code>&nbsp;中所有值都 <strong>不同</strong></li>
+	<li>All the values of <code>preorder</code> are <strong>unique</strong>.</li>
 	<li><code>postorder.length == preorder.length</code></li>
 	<li><code>1 &lt;= postorder[i] &lt;= postorder.length</code></li>
-	<li><code>postorder</code>&nbsp;中所有值都 <strong>不同</strong></li>
-	<li>保证 <code>preorder</code>&nbsp;和 <code>postorder</code>&nbsp;是同一棵二叉树的前序遍历和后序遍历</li>
+	<li>All the values of <code>postorder</code> are <strong>unique</strong>.</li>
+	<li>It is guaranteed that <code>preorder</code> and <code>postorder</code> are the preorder traversal and postorder traversal of the same binary tree.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：递归
-
-1. 以 preorder 的第一个元素或 postorder 的最后一个元素为根节点的值。
-2. 以 preorder 的第二个元素作为左子树的根节点，在 postorder 中找到该元素的索引 i，然后基于索引 i 可以计算出左右子树的长度。
-3. 最后基于左右子树的长度，分别划分出前序和后序遍历序列中的左右子树，递归构造左右子树即可。
+### Solution 1
 
 <!-- tabs:start -->
 

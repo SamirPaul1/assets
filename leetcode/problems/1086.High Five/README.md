@@ -1,55 +1,47 @@
-# [1086. 前五科的均分](https://leetcode.cn/problems/high-five)
+# [1086. High Five](https://leetcode.com/problems/high-five)
 
-[English Version](/solution/1000-1099/1086.High%20Five/README_EN.md)
+[中文文档](/solution/1000-1099/1086.High%20Five/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a list of the scores of different students, <code>items</code>, where <code>items[i] = [ID<sub>i</sub>, score<sub>i</sub>]</code> represents one score from a student with <code>ID<sub>i</sub></code>, calculate each student&#39;s <strong>top five average</strong>.</p>
 
-<p>给你一个不同学生的分数列表 <code>items</code>，其中 <code>items[i] = [ID<sub>i</sub>, score<sub>i</sub>]</code> 表示 <code>ID<sub>i</sub></code> 的学生的一科分数，你需要计算每个学生 <strong>最高的五科 </strong>成绩的 <strong>平均分</strong>。</p>
+<p>Return <em>the answer as an array of pairs </em><code>result</code><em>, where </em><code>result[j] = [ID<sub>j</sub>, topFiveAverage<sub>j</sub>]</code><em> represents the student with </em><code>ID<sub>j</sub></code><em> and their <strong>top five average</strong>. Sort </em><code>result</code><em> by </em><code>ID<sub>j</sub></code><em> in <strong>increasing order</strong>.</em></p>
 
-<p>返回答案 <code>result</code> 以数对数组形式给出<em>，</em>其中<em> </em><code>result[j] = [ID<sub>j</sub>, topFiveAverage<sub>j</sub>]</code><em> </em>表示<em> </em><code>ID<sub>j</sub></code><em> </em>的学生和他 <strong>最高的五科 </strong>成绩的 <strong>平均分</strong><em>。</em><code>result</code><em> </em>需要按<em> </em><code>ID<sub>j</sub></code><em>  </em>递增的 <strong>顺序排列</strong> 。</p>
+<p>A student&#39;s <strong>top five average</strong> is calculated by taking the sum of their top five scores and dividing it by <code>5</code> using <strong>integer division</strong>.</p>
 
-<p>学生 <strong>最高的五科 </strong>成绩的 <strong>平均分 </strong>的计算方法是将最高的五科分数相加，然后用 <strong>整数除法</strong> 除以 5 。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>items = [[1,91],[1,92],[2,93],[2,97],[1,60],[2,77],[1,65],[1,87],[1,100],[2,100],[2,76]]
-<strong>输出：</strong>[[1,87],[2,88]]
-<strong>解释：</strong>
-ID = 1 的学生分数为 91、92、60、65、87 和 100 。前五科的平均分 (100 + 92 + 91 + 87 + 65) / 5 = 87
-ID = 2 的学生分数为 93、97、77、100 和 76 。前五科的平均分 (100 + 97 + 93 + 77 + 76) / 5 = 88.6，但是由于使用整数除法，结果转换为 88
+<strong>Input:</strong> items = [[1,91],[1,92],[2,93],[2,97],[1,60],[2,77],[1,65],[1,87],[1,100],[2,100],[2,76]]
+<strong>Output:</strong> [[1,87],[2,88]]
+<strong>Explanation: </strong>
+The student with ID = 1 got scores 91, 92, 60, 65, 87, and 100. Their top five average is (100 + 92 + 91 + 87 + 65) / 5 = 87.
+The student with ID = 2 got scores 93, 97, 77, 100, and 76. Their top five average is (100 + 97 + 93 + 77 + 76) / 5 = 88.6, but with integer division their average converts to 88.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>items = [[1,100],[7,100],[1,100],[7,100],[1,100],[7,100],[1,100],[7,100],[1,100],[7,100]]
-<strong>输出：</strong>[[1,100],[7,100]]
+<strong>Input:</strong> items = [[1,100],[7,100],[1,100],[7,100],[1,100],[7,100],[1,100],[7,100],[1,100],[7,100]]
+<strong>Output:</strong> [[1,100],[7,100]]
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= items.length <= 1000</code></li>
+	<li><code>1 &lt;= items.length &lt;= 1000</code></li>
 	<li><code>items[i].length == 2</code></li>
-	<li><code>1 <= ID<sub>i</sub> <= 1000</code></li>
-	<li><code>0 <= score<sub>i</sub> <= 100</code></li>
-	<li>对于每个 <code>ID<sub>i</sub></code>，<strong>至少</strong> 存在五个分数</li>
+	<li><code>1 &lt;= ID<sub>i</sub> &lt;= 1000</code></li>
+	<li><code>0 &lt;= score<sub>i</sub> &lt;= 100</code></li>
+	<li>For each <code>ID<sub>i</sub></code>, there will be <strong>at least</strong> five scores.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序
-
-我们先用一个哈希表或数组 $d$ 记录每个学生的分数列表，然后从小到大遍历学生的编号，对于每个学生，我们将他的分数列表排序，然后取最高的五个分数求平均值即可。
-
-时间复杂度 $O(n \log n)$，空间复杂度 $O(n)$。其中 $n$ 是学生的数量。
+### Solution 1
 
 <!-- tabs:start -->
 

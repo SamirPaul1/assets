@@ -1,95 +1,89 @@
-# [65. 有效数字](https://leetcode.cn/problems/valid-number)
+# [65. Valid Number](https://leetcode.com/problems/valid-number)
 
-[English Version](/solution/0000-0099/0065.Valid%20Number/README_EN.md)
+[中文文档](/solution/0000-0099/0065.Valid%20Number/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><strong>有效数字</strong>（按顺序）可以分成以下几个部分：</p>
+<p>A <strong>valid number</strong> can be split up into these components (in order):</p>
 
 <ol>
-	<li>一个 <strong>小数</strong> 或者 <strong>整数</strong></li>
-	<li>（可选）一个 <code>'e'</code> 或 <code>'E'</code> ，后面跟着一个 <strong>整数</strong></li>
+	<li>A <strong>decimal number</strong> or an <strong>integer</strong>.</li>
+	<li>(Optional) An <code>&#39;e&#39;</code> or <code>&#39;E&#39;</code>, followed by an <strong>integer</strong>.</li>
 </ol>
 
-<p><strong>小数</strong>（按顺序）可以分成以下几个部分：</p>
+<p>A <strong>decimal number</strong> can be split up into these components (in order):</p>
 
 <ol>
-	<li>（可选）一个符号字符（<code>'+'</code> 或 <code>'-'</code>）</li>
-	<li>下述格式之一：
+	<li>(Optional) A sign character (either <code>&#39;+&#39;</code> or <code>&#39;-&#39;</code>).</li>
+	<li>One of the following formats:
 	<ol>
-		<li>至少一位数字，后面跟着一个点 <code>'.'</code></li>
-		<li>至少一位数字，后面跟着一个点 <code>'.'</code> ，后面再跟着至少一位数字</li>
-		<li>一个点 <code>'.'</code> ，后面跟着至少一位数字</li>
+		<li>One or more digits, followed by a dot <code>&#39;.&#39;</code>.</li>
+		<li>One or more digits, followed by a dot <code>&#39;.&#39;</code>, followed by one or more digits.</li>
+		<li>A dot <code>&#39;.&#39;</code>, followed by one or more digits.</li>
 	</ol>
 	</li>
 </ol>
 
-<p><strong>整数</strong>（按顺序）可以分成以下几个部分：</p>
+<p>An <strong>integer</strong> can be split up into these components (in order):</p>
 
 <ol>
-	<li>（可选）一个符号字符（<code>'+'</code> 或 <code>'-'</code>）</li>
-	<li>至少一位数字</li>
+	<li>(Optional) A sign character (either <code>&#39;+&#39;</code> or <code>&#39;-&#39;</code>).</li>
+	<li>One or more digits.</li>
 </ol>
 
-<p>部分有效数字列举如下：<code>["2", "0089", "-0.1", "+3.14", "4.", "-.9", "2e10", "-90E3", "3e+7", "+6e-1", "53.5e93", "-123.456e789"]</code></p>
+<p>For example, all the following are valid numbers: <code>[&quot;2&quot;, &quot;0089&quot;, &quot;-0.1&quot;, &quot;+3.14&quot;, &quot;4.&quot;, &quot;-.9&quot;, &quot;2e10&quot;, &quot;-90E3&quot;, &quot;3e+7&quot;, &quot;+6e-1&quot;, &quot;53.5e93&quot;, &quot;-123.456e789&quot;]</code>, while the following are not valid numbers: <code>[&quot;abc&quot;, &quot;1a&quot;, &quot;1e&quot;, &quot;e3&quot;, &quot;99e2.5&quot;, &quot;--6&quot;, &quot;-+3&quot;, &quot;95a54e53&quot;]</code>.</p>
 
-<p>部分无效数字列举如下：<code>["abc", "1a", "1e", "e3", "99e2.5", "--6", "-+3", "95a54e53"]</code></p>
-
-<p>给你一个字符串 <code>s</code> ，如果 <code>s</code> 是一个 <strong>有效数字</strong> ，请返回 <code>true</code> 。</p>
+<p>Given a string <code>s</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>valid number</strong></em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "0"
-<strong>输出：</strong>true
+<strong>Input:</strong> s = &quot;0&quot;
+<strong>Output:</strong> true
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "e"
-<strong>输出：</strong>false
+<strong>Input:</strong> s = &quot;e&quot;
+<strong>Output:</strong> false
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "."
-<strong>输出：</strong>false
+<strong>Input:</strong> s = &quot;.&quot;
+<strong>Output:</strong> false
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 20</code></li>
-	<li><code>s</code> 仅含英文字母（大写和小写），数字（<code>0-9</code>），加号 <code>'+'</code> ，减号 <code>'-'</code> ，或者点 <code>'.'</code> 。</li>
+	<li><code>s</code> consists of only English letters (both uppercase and lowercase), digits (<code>0-9</code>), plus <code>&#39;+&#39;</code>, minus <code>&#39;-&#39;</code>, or dot <code>&#39;.&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：分情况讨论
+### Solution 1: Case Discussion
 
-首先，我们判断字符串是否以正负号开头，如果是，将指针 $i$ 向后移动一位。如果此时指针 $i$ 已经到达字符串末尾，说明字符串只有一个正负号，返回 `false`。
+First, we check if the string starts with a positive or negative sign. If it does, we move the pointer $i$ one step forward. If the pointer $i$ has reached the end of the string at this point, it means the string only contains a positive or negative sign, so we return `false`.
 
-如果当前指针 $i$ 指向的字符是小数点，并且小数点后面没有数字，或者小数点后是一个 `e` 或 `E`，返回 `false`。
+If the character pointed to by the current pointer $i$ is a decimal point, and there is no number after the decimal point, or if there is an `e` or `E` after the decimal point, we return `false`.
 
-接着，我们用两个变量 $dot$ 和 $e$ 分别记录小数点和 `e` 或 `E` 的个数。
+Next, we use two variables $dot$ and $e$ to record the number of decimal points and `e` or `E` respectively.
 
-用指针 $j$ 指向当前字符：
+We use pointer $j$ to point to the current character:
 
--   如果当前字符是小数点，并且此前出现过小数点或者 `e` 或 `E`，返回 `false`。否则，我们将 $dot$ 加一；
--   如果当前字符是 `e` 或 `E`，并且此前出现过 `e` 或 `E`，或者当前字符是开头或结尾，返回 `false`。否则，我们将 $e$ 加一；然后判断下一个字符是否是正负号，如果是，将指针 $j$ 向后移动一位。如果此时指针 $j$ 已经到达字符串末尾，返回 `false`；
--   如果当前字符不是数字，返回 `false`。
+-   If the current character is a decimal point, and a decimal point or `e` or `E` has appeared before, return `false`. Otherwise, we increment $dot$ by one;
+-   If the current character is `e` or `E`, and `e` or `E` has appeared before, or if the current character is at the beginning or end of the string, return `false`. Otherwise, we increment $e$ by one; then check if the next character is a positive or negative sign, if it is, move the pointer $j$ one step forward. If the pointer $j$ has reached the end of the string at this point, return `false`;
+-   If the current character is not a number, return `false`.
 
-遍历完字符串后，返回 `true`。
+After traversing the string, return `true`.
 
-时间复杂度 $O(n)$，其中 $n$ 为字符串长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is the length of the string.
 
 <!-- tabs:start -->
 

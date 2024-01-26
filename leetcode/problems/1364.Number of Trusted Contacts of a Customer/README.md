@@ -1,12 +1,10 @@
-# [1364. 顾客的可信联系人数量](https://leetcode.cn/problems/number-of-trusted-contacts-of-a-customer)
+# [1364. Number of Trusted Contacts of a Customer](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer)
 
-[English Version](/solution/1300-1399/1364.Number%20of%20Trusted%20Contacts%20of%20a%20Customer/README_EN.md)
+[中文文档](/solution/1300-1399/1364.Number%20of%20Trusted%20Contacts%20of%20a%20Customer/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>顾客表：<code>Customers</code></p>
+<p>Table: <code>Customers</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,13 +14,13 @@
 | customer_name | varchar |
 | email         | varchar |
 +---------------+---------+
-customer_id 是这张表具有唯一值的列。
-此表的每一行包含了某在线商店顾客的姓名和电子邮件。
+customer_id is the column of unique values for this table.
+Each row of this table contains the name and the email of a customer of an online shop.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>联系方式表：<code>Contacts</code></p>
+<p>Table: <code>Contacts</code></p>
 
 <pre>
 +---------------+---------+
@@ -32,14 +30,14 @@ customer_id 是这张表具有唯一值的列。
 | contact_name  | varchar |
 | contact_email | varchar |
 +---------------+---------+
-(user_id, contact_email) 是这张表的主键（具有唯一值的列的组合）。
-此表的每一行表示编号为 user_id 的顾客的某位联系人的姓名和电子邮件。
-此表包含每位顾客的联系人信息，但顾客的联系人不一定存在于顾客表中。
+(user_id, contact_email) is the primary key (combination of columns with unique values) for this table.
+Each row of this table contains the name and email of one contact of customer with user_id.
+This table contains information about people each customer trust. The contact may or may not exist in the Customers table.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>发票表：<code>Invoices</code></p>
+<p>Table: <code>Invoices</code></p>
 
 <pre>
 +--------------+---------+
@@ -49,32 +47,31 @@ customer_id 是这张表具有唯一值的列。
 | price        | int     |
 | user_id      | int     |
 +--------------+---------+
-invoice_id 是这张表具有唯一值的列。
-此表的每一行分别表示编号为 user_id 的顾客拥有有一张编号为 invoice_id、价格为 price 的发票。
+invoice_id is the column of unique values for this table.
+Each row of this table indicates that user_id has an invoice with invoice_id and a price.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>为每张发票 <code>invoice_id</code> 编写一个查询方案以查找以下内容：</p>
+<p>Write a solution to find the following for each <code>invoice_id</code>:</p>
 
 <ul>
-	<li><code>customer_name</code>：与发票相关的顾客名称。</li>
-	<li><code>price</code>：发票的价格。</li>
-	<li><code>contacts_cnt</code>：该顾客的联系人数量</li>
-	<li><code>trusted_contacts_cnt</code>：可信联系人的数量：既是该顾客的联系人又是商店顾客的联系人数量（即：可信联系人的电子邮件存在于 <meta charset="UTF-8" />&nbsp;<code>Customers</code>&nbsp;表中）。</li>
+	<li><code>customer_name</code>: The name of the customer the invoice is related to.</li>
+	<li><code>price</code>: The price of the invoice.</li>
+	<li><code>contacts_cnt</code>: The number of contacts related to the customer.</li>
+	<li><code>trusted_contacts_cnt</code>: The number of contacts related to the customer and at the same time they are customers to the shop. (i.e their email exists in the <code>Customers</code> table.)</li>
 </ul>
 
-<p>返回结果按照&nbsp;<code>invoice_id</code>&nbsp;<strong>排序</strong>。</p>
+<p>Return the result table <strong>ordered</strong> by <code>invoice_id</code>.</p>
 
-<p>结果的格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-<code>Customers</code> table:
+<strong>Input:</strong> 
+Customers table:
 +-------------+---------------+--------------------+
 | customer_id | customer_name | email              |
 +-------------+---------------+--------------------+
@@ -105,7 +102,7 @@ Invoices table:
 | 55         | 500   | 13      |
 | 44         | 60    | 6       |
 +------------+-------+---------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+---------------+-------+--------------+----------------------+
 | invoice_id | customer_name | price | contacts_cnt | trusted_contacts_cnt |
 +------------+---------------+-------+--------------+----------------------+
@@ -116,16 +113,16 @@ Invoices table:
 | 88         | Alice         | 200   | 3            | 2                    |
 | 99         | Bob           | 300   | 2            | 0                    |
 +------------+---------------+-------+--------------+----------------------+
-<strong>解释：</strong>
-Alice 有三位联系人，其中两位(Bob 和 John)是可信联系人。
-Bob 有两位联系人, 他们中的任何一位都不是可信联系人。
-Alex 只有一位联系人(Alice)，并是一位可信联系人。
-John 没有任何联系人。
+<strong>Explanation:</strong> 
+Alice has three contacts, two of them are trusted contacts (Bob and John).
+Bob has two contacts, none of them is a trusted contact.
+Alex has one contact and it is a trusted contact (Alice).
+John doesn&#39;t have any contacts.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

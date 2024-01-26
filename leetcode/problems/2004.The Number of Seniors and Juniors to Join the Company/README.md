@@ -1,12 +1,10 @@
-# [2004. 职员招聘人数](https://leetcode.cn/problems/the-number-of-seniors-and-juniors-to-join-the-company)
+# [2004. The Number of Seniors and Juniors to Join the Company](https://leetcode.com/problems/the-number-of-seniors-and-juniors-to-join-the-company)
 
-[English Version](/solution/2000-2099/2004.The%20Number%20of%20Seniors%20and%20Juniors%20to%20Join%20the%20Company/README_EN.md)
+[中文文档](/solution/2000-2099/2004.The%20Number%20of%20Seniors%20and%20Juniors%20to%20Join%20the%20Company/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Candidates</code></p>
+<p>Table: <code>Candidates</code></p>
 
 <pre>
 +-------------+------+
@@ -16,29 +14,31 @@
 | experience  | enum |
 | salary      | int  |
 +-------------+------+
-employee_id是此表的主键列。
-经验是包含一个值（“高级”、“初级”）的枚举类型。
-此表的每一行都显示候选人的id、月薪和经验。</pre>
+employee_id is the column with unique values for this table.
+experience is an ENUM (category) type of values (&#39;Senior&#39;, &#39;Junior&#39;).
+Each row of this table indicates the id of a candidate, their monthly salary, and their experience.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>一家公司想雇佣新员工。公司的工资预算是 <code>70000</code> 美元。公司的招聘标准是：</p>
+<p>A company wants to hire new employees. The budget of the company for the salaries is <code>$70000</code>. The company&#39;s criteria for hiring are:</p>
 
 <ol>
-	<li>雇佣最多的高级员工。</li>
-	<li>在雇佣最多的高级员工后，使用剩余预算雇佣最多的初级员工。</li>
+	<li>Hiring the largest number of seniors.</li>
+	<li>After hiring the maximum number of seniors, use the remaining budget to hire the largest number of juniors.</li>
 </ol>
 
-<p>编写一个SQL查询，查找根据上述标准雇佣的高级员工和初级员工的数量。<br />
-按 <strong>任意顺序</strong> 返回结果表。<br />
-查询结果格式如下例所示。</p>
+<p>Write a solution to find the number of seniors and juniors hired under the mentioned criteria.</p>
+
+<p>Return the result table in <strong>any order</strong>.</p>
+
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
+<strong>Input:</strong> 
 Candidates table:
 +-------------+------------+--------+
 | employee_id | experience | salary |
@@ -50,22 +50,22 @@ Candidates table:
 | 13          | Senior     | 50000  |
 | 4           | Junior     | 40000  |
 +-------------+------------+--------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +------------+---------------------+
 | experience | accepted_candidates |
 +------------+---------------------+
 | Senior     | 2                   |
 | Junior     | 2                   |
 +------------+---------------------+
-<strong>说明：
-我们可以雇佣2名ID为（2,11）的高级员工。由于预算是7万美元，他们的工资总额是4万美元，我们还有3万美元，但他们不足以雇佣ID为13的高级员工。
-我们可以雇佣2名ID为（1,9）的初级员工。由于剩下的预算是3万美元，他们的工资总额是2万美元，我们还有1万美元，但他们不足以雇佣ID为4的初级员工。
-</strong></pre>
+<strong>Explanation:</strong> 
+We can hire 2 seniors with IDs (2, 11). Since the budget is $70000 and the sum of their salaries is $40000, we still have $30000 but they are not enough to hire the senior candidate with ID 13.
+We can hire 2 juniors with IDs (1, 9). Since the remaining budget is $30000 and the sum of their salaries is $20000, we still have $10000 but they are not enough to hire the junior candidate with ID 4.
+</pre>
 
-<strong>示例 2：</strong>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
+<strong>Input:</strong> 
 Candidates table:
 +-------------+------------+--------+
 | employee_id | experience | salary |
@@ -77,24 +77,21 @@ Candidates table:
 | 13          | Senior     | 80000  |
 | 4           | Junior     | 40000  |
 +-------------+------------+--------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +------------+---------------------+
 | experience | accepted_candidates |
 +------------+---------------------+
 | Senior     | 0                   |
 | Junior     | 3                   |
 +------------+---------------------+
-<strong>解释：
-</strong>我们不能用目前的预算雇佣任何高级员工，因为我们需要至少80000美元来雇佣一名高级员工。
-我们可以用剩下的预算雇佣三名初级员工。</pre>
+<strong>Explanation:</strong> 
+We cannot hire any seniors with the current budget as we need at least $80000 to hire one senior.
+We can hire all three juniors with the remaining budget.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：窗口函数
-
-相似题目：
-
--   [2010. 职员招聘人数 II](https://github.com/doocs/leetcode/blob/main/solution/2000-2099/2010.The%20Number%20of%20Seniors%20and%20Juniors%20to%20Join%20the%20Company%20II/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

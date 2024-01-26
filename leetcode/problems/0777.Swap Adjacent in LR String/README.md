@@ -1,21 +1,18 @@
-# [777. 在 LR 字符串中交换相邻字符](https://leetcode.cn/problems/swap-adjacent-in-lr-string)
+# [777. Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string)
 
-[English Version](/solution/0700-0799/0777.Swap%20Adjacent%20in%20LR%20String/README_EN.md)
+[中文文档](/solution/0700-0799/0777.Swap%20Adjacent%20in%20LR%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>在一个由 <code>&#39;L&#39;</code> , <code>&#39;R&#39;</code> 和 <code>&#39;X&#39;</code> 三个字符组成的字符串（例如<code>&quot;RXXLRXRXL&quot;</code>）中进行移动操作。一次移动操作指用一个<code>&quot;LX&quot;</code>替换一个<code>&quot;XL&quot;</code>，或者用一个<code>&quot;XR&quot;</code>替换一个<code>&quot;RX&quot;</code>。现给定起始字符串<code>start</code>和结束字符串<code>end</code>，请编写代码，当且仅当存在一系列移动操作使得<code>start</code>可以转换成<code>end</code>时， 返回<code>True</code>。</p>
+<p>In a string composed of <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;X&#39;</code> characters, like <code>&quot;RXXLRXRXL&quot;</code>, a move consists of either replacing one occurrence of <code>&quot;XL&quot;</code> with <code>&quot;LX&quot;</code>, or replacing one occurrence of <code>&quot;RX&quot;</code> with <code>&quot;XR&quot;</code>. Given the starting string <code>start</code> and the ending string <code>end</code>, return <code>True</code> if and only if there exists a sequence of moves to transform one string to the other.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 :</strong></p>
-
-<pre><strong>输入:</strong> start = &quot;RXXLRXRXL&quot;, end = &quot;XRLXXRRLX&quot;
-<strong>输出:</strong> True
-<strong>解释:</strong>
-我们可以通过以下几步将start转换成end:
+<pre>
+<strong>Input:</strong> start = &quot;RXXLRXRXL&quot;, end = &quot;XRLXXRRLX&quot;
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We can transform start to end following these steps:
 RXXLRXRXL -&gt;
 XRXLRXRXL -&gt;
 XRLXRXRXL -&gt;
@@ -23,33 +20,25 @@ XRLXXRRXL -&gt;
 XRLXXRRLX
 </pre>
 
-<p>&nbsp;</p>
+<p><strong class="example">Example 2:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> start = &quot;X&quot;, end = &quot;L&quot;
+<strong>Output:</strong> false
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= len(start) = len(end) &lt;= 10000</code>。</li>
-	<li><code>start</code>和<code>end</code>中的字符串仅限于<code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>和<code>&#39;X&#39;</code>。</li>
+	<li><code>1 &lt;= start.length&nbsp;&lt;= 10<sup>4</sup></code></li>
+	<li><code>start.length == end.length</code></li>
+	<li>Both <code>start</code> and <code>end</code> will only consist of characters in <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and&nbsp;<code>&#39;X&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
-
-替换操作实际上是将 `L` 往左移动（`L` 左边为 `X` 时才能移动），`R` 往右移动（`R` 右边是 `X` 时才能移动），但 `L` 无法穿过 `R`。所以，如果去掉 `start` 和 `end` 中的所有 `X`，剩下的字符应该是相同的，否则返回 `false`。
-
-双指针遍历 `start` 和 `end`：
-
--   如果当前字符为 `L` 且 $i\lt j$，那么这个 `L` 无法向右移动，返回 `false`；
--   如果当前字符为 `R` 且 $i\gt j$，那么这个 `R` 无法向左移动，返回 `false`。
-
-如果双指针均遍历到末尾，返回 `true`。
-
-时间复杂度 $O(n)$，其中 $n$ 表示字符串 `start` 或 `end` 的长度。
-
-相似题目：
-
--   [2337. 移动片段得到字符串](https://github.com/doocs/leetcode/blob/main/solution/2300-2399/2337.Move%20Pieces%20to%20Obtain%20a%20String/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

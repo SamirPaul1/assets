@@ -1,66 +1,72 @@
-# [2576. 求出最多标记下标](https://leetcode.cn/problems/find-the-maximum-number-of-marked-indices)
+# [2576. Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices)
 
-[English Version](/solution/2500-2599/2576.Find%20the%20Maximum%20Number%20of%20Marked%20Indices/README_EN.md)
+[中文文档](/solution/2500-2599/2576.Find%20the%20Maximum%20Number%20of%20Marked%20Indices/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code>.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>nums</code>&nbsp;。</p>
-
-<p>一开始，所有下标都没有被标记。你可以执行以下操作任意次：</p>
+<p>Initially, all of the indices are unmarked. You are allowed to make this operation any number of times:</p>
 
 <ul>
-	<li>选择两个 <strong>互不相同且未标记</strong>&nbsp;的下标&nbsp;<code>i</code> 和&nbsp;<code>j</code>&nbsp;，满足&nbsp;<code>2 * nums[i] &lt;= nums[j]</code>&nbsp;，标记下标&nbsp;<code>i</code> 和&nbsp;<code>j</code>&nbsp;。</li>
+	<li>Pick two <strong>different unmarked</strong> indices <code>i</code> and <code>j</code> such that <code>2 * nums[i] &lt;= nums[j]</code>, then mark <code>i</code> and <code>j</code>.</li>
 </ul>
 
-<p>请你执行上述操作任意次，返回<em>&nbsp;</em><code>nums</code>&nbsp;中最多可以标记的下标数目。</p>
+<p>Return <em>the maximum possible number of marked indices in <code>nums</code> using the above operation any number of times</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [3,5,2,4]
-<b>输出：</b>2
-<strong>解释：</strong>第一次操作中，选择 i = 2 和 j = 1 ，操作可以执行的原因是 2 * nums[2] &lt;= nums[1] ，标记下标 2 和 1 。
-没有其他更多可执行的操作，所以答案为 2 。
+<strong>Input:</strong> nums = [3,5,2,4]
+<strong>Output:</strong> 2
+<strong>Explanation: </strong>In the first operation: pick i = 2 and j = 1, the operation is allowed because 2 * nums[2] &lt;= nums[1]. Then mark index 2 and 1.
+It can be shown that there&#39;s no other valid operation so the answer is 2.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [9,2,5,4]
-<b>输出：</b>4
-<strong>解释：</strong>第一次操作中，选择 i = 3 和 j = 0 ，操作可以执行的原因是 2 * nums[3] &lt;= nums[0] ，标记下标 3 和 0 。
-第二次操作中，选择 i = 1 和 j = 2 ，操作可以执行的原因是 2 * nums[1] &lt;= nums[2] ，标记下标 1 和 2 。
-没有其他更多可执行的操作，所以答案为 4 。
+<strong>Input:</strong> nums = [9,2,5,4]
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>In the first operation: pick i = 3 and j = 0, the operation is allowed because 2 * nums[3] &lt;= nums[0]. Then mark index 3 and 0.
+In the second operation: pick i = 1 and j = 2, the operation is allowed because 2 * nums[1] &lt;= nums[2]. Then mark index 1 and 2.
+Since there is no other operation, the answer is 4.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [7,6,8]
-<b>输出：</b>0
-<strong>解释：</strong>没有任何可以执行的操作，所以答案为 0 。
+<strong>Input:</strong> nums = [7,6,8]
+<strong>Output:</strong> 0
+<strong>Explanation: </strong>There is no valid operation to do, so the answer is 0.
+
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+<p>&nbsp;</p>
+<style type="text/css">.spoilerbutton {display:block; border:dashed; padding: 0px 0px; margin:10px 0px; font-size:150%; font-weight: bold; color:#000000; background-color:cyan; outline:0; 
+}
+.spoiler {overflow:hidden;}
+.spoiler > div {-webkit-transition: all 0s ease;-moz-transition: margin 0s ease;-o-transition: all 0s ease;transition: margin 0s ease;}
+.spoilerbutton[value="Show Message"] + .spoiler > div {margin-top:-500%;}
+.spoilerbutton[value="Hide Message"] + .spoiler {padding:5px;}
+</style>
 
-### 方法一：贪心 + 双指针
+## Solutions
 
-为了将下标尽可能多地标记，我们可以将数组 `nums` 排序，然后从左到右遍历数组，对于每个下标 $i$，我们在数组的右半部分找到第一个满足 $2 \times nums[i] \leq nums[j]$ 的下标 $j$，然后标记下标 $i$ 和 $j$。继续遍历下一个下标 $i$。当我们遍历完数组的右半部分时，说明标记已经完成，此时标记的下标数目即为答案。
+### Solution 1: Greedy + Two Pointers
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(\log n)$。其中 $n$ 为数组 `nums` 的长度。
+In order to mark as many indices as possible, we can sort the array `nums`, and then traverse the array from left to right. For each index $i$, we find the first index $j$ in the right half of the array that satisfies $2 \times nums[i] \leq nums[j]$, and then mark indices $i$ and $j$. Continue to traverse the next index $i$. When we have traversed the right half of the array, it means that the marking is complete, and the number of marked indices is the answer.
+
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log n)$. Where $n$ is the length of the array `nums`.
 
 <!-- tabs:start -->
 

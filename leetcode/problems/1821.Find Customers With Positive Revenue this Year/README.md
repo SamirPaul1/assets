@@ -1,12 +1,10 @@
-# [1821. 寻找今年具有正收入的客户](https://leetcode.cn/problems/find-customers-with-positive-revenue-this-year)
+# [1821. Find Customers With Positive Revenue this Year](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year)
 
-[English Version](/solution/1800-1899/1821.Find%20Customers%20With%20Positive%20Revenue%20this%20Year/README_EN.md)
+[中文文档](/solution/1800-1899/1821.Find%20Customers%20With%20Positive%20Revenue%20this%20Year/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Customers</code></p>
+<p>Table: <code>Customers</code></p>
 
 <pre>
 +--------------+------+
@@ -16,26 +14,25 @@
 | year         | int  |
 | revenue      | int  |
 +--------------+------+
-(customer_id, year) 是该表的主键（具有唯一值的列的组合）。
-这个表包含客户 ID 和不同年份的客户收入。
-注意，这个收入可能是负数。
+(customer_id, year) is the primary key (combination of columns with unique values) for this table.
+This table contains the customer ID and the revenue of customers in different years.
+Note that this revenue can be negative.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写一个解决方案来报告 2021 年具有 <strong>正收入</strong> 的客户。</p>
+<p>Write a solution to report the customers with <strong>postive revenue</strong> in the year 2021.</p>
 
-<p>可以以&nbsp;<strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下示例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>Input:</strong>
-Customers
+<strong>Input:</strong> 
+Customers table:
 +-------------+------+---------+
 | customer_id | year | revenue |
 +-------------+------+---------+
@@ -47,25 +44,26 @@ Customers
 | 3           | 2016 | 50      |
 | 4           | 2021 | 20      |
 +-------------+------+---------+
-
-<strong>Output:</strong>
+<strong>Output:</strong> 
 +-------------+
 | customer_id |
 +-------------+
 | 1           |
 | 4           |
 +-------------+
-客户 1 在 2021 年的收入等于 30 。
-客户 2 在 2021 年的收入等于 -50 。
-客户 3 在 2021 年没有收入。
-客户 4 在 2021 年的收入等于 20 。
-因此，只有客户 1 和 4 在 2021 年有正收入。</pre>
+<strong>Explanation:</strong> 
+Customer 1 has revenue equal to 30 in the year 2021.
+Customer 2 has revenue equal to -50 in the year 2021.
+Customer 3 has no revenue in the year 2021.
+Customer 4 has revenue equal to 20 in the year 2021.
+Thus only customers 1 and 4 have positive revenue in the year 2021.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：WHERE 子句
+### Solution 1: WHERE Clause
 
-我们可以直接使用 `WHERE` 子句来筛选出 `year` 为 `2021` 且 `revenue` 大于 $0$ 的客户。
+We can directly use the `WHERE` clause to filter out the customers whose `year` is `2021` and `revenue` is greater than $0$.
 
 <!-- tabs:start -->
 

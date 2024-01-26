@@ -1,81 +1,67 @@
-# [1564. 把箱子放进仓库里 I](https://leetcode.cn/problems/put-boxes-into-the-warehouse-i)
+# [1564. Put Boxes Into the Warehouse I](https://leetcode.com/problems/put-boxes-into-the-warehouse-i)
 
-[English Version](/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/README_EN.md)
+[中文文档](/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two arrays of positive integers, <code>boxes</code> and <code>warehouse</code>, representing the heights of some boxes of unit width and the heights of <code>n</code> rooms in a warehouse respectively. The warehouse&#39;s rooms are labelled from <code>0</code> to <code>n - 1</code> from left to right where <code>warehouse[i]</code> (0-indexed) is the height of the <code>i<sup>th</sup></code> room.</p>
 
-<p>给定两个正整数数组&nbsp;<code>boxes</code>&nbsp;和&nbsp;<code>warehouse</code>&nbsp;，分别包含单位宽度的箱子的高度，以及仓库中 <code>n</code> 个房间各自的高度。仓库的房间分别从&nbsp;<code>0</code>&nbsp;到&nbsp;<code>n - 1</code>&nbsp;自左向右编号，&nbsp;<code>warehouse[i]</code>&nbsp;（索引从 0 开始）是第&nbsp;<code>i</code>&nbsp;个房间的高度。</p>
-
-<p>箱子放进仓库时遵循下列规则：</p>
+<p>Boxes are put into the warehouse by the following rules:</p>
 
 <ul>
-	<li>箱子不可叠放。</li>
-	<li>你可以重新调整箱子的顺序。</li>
-	<li>箱子只能从左向右推进仓库中。</li>
-	<li>如果仓库中某房间的高度小于某箱子的高度，则这个箱子和之后的箱子都会停在这个房间的前面。</li>
+	<li>Boxes cannot be stacked.</li>
+	<li>You can rearrange the insertion order of the boxes.</li>
+	<li>Boxes can only be pushed into the warehouse from left to right only.</li>
+	<li>If the height of some room in the warehouse is less than the height of a box, then that box and all other boxes behind it will be stopped before that room.</li>
 </ul>
 
-<p>你最多可以在仓库中放进多少个箱子？</p>
+<p>Return <em>the maximum number of boxes you can put into the warehouse.</em></p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/11.png" style="width: 400px; height: 242px;" />
+<pre>
+<strong>Input:</strong> boxes = [4,3,4,1], warehouse = [5,3,3,4,1]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> 
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/12.png" style="width: 280px; height: 242px;" />
+We can first put the box of height 1 in room 4. Then we can put the box of height 3 in either of the 3 rooms 1, 2, or 3. Lastly, we can put one box of height 4 in room 0.
+There is no way we can fit all 4 boxes in the warehouse.
+</pre>
 
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/21.png" style="width: 400px; height: 202px;" />
+<pre>
+<strong>Input:</strong> boxes = [1,2,2,3,4], warehouse = [3,4,1,2]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> 
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/22.png" style="width: 280px; height: 202px;" />
+Notice that it&#39;s not possible to put the box of height 4 into the warehouse since it cannot pass the first room of height 3.
+Also, for the last two rooms, 2 and 3, only boxes of height 1 can fit.
+We can fit 3 boxes maximum as shown above. The yellow box can also be put in room 2 instead.
+Swapping the orange and green boxes is also valid, or swapping one of them with the red box.
+</pre>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/11.png" style="height: 242px; width: 400px;" /></strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>boxes = [4,3,4,1], warehouse = [5,3,3,4,1]
-<strong>输出：</strong>3
-<strong>解释：
-</strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/12.png" style="height: 242px; width: 280px;" />
-我们可以先把高度为 1 的箱子放入 4 号房间，然后再把高度为 3 的箱子放入 1 号、 2 号或 3 号房间，最后再把高度为 4 的箱子放入 0 号房间。
-我们不可能把所有 4 个箱子全部放进仓库里。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/21.png" style="height: 202px; width: 400px;" /></strong></p>
-
-<pre>
-<strong>输入：</strong>boxes = [1,2,2,3,4], warehouse = [3,4,1,2]
-<strong>输出：</strong>3
-<strong>解释：
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/22.png" style="height: 202px; width: 280px;" />
-</strong>我们注意到，不可能把高度为 4 的箱子放入仓库中，因为它不能通过高度为 3 的房间。
-而且，对于最后两个房间 2 号和 3 号来说，只有高度为 1 的箱子可以放进去。
-我们最多可以放进 3 个箱子，如上图所示。黄色的箱子也可以放入 2 号房间。
-交换橙色和绿色箱子的位置，或是将这两个箱子与红色箱子交换位置，也是可以的。</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>boxes = [1,2,3], warehouse = [1,2,3,4]
-<strong>输出：</strong>1
-<strong>解释：</strong>由于第一个房间的高度为 1，我们只能放进高度为 1 的箱子。
+<strong>Input:</strong> boxes = [1,2,3], warehouse = [1,2,3,4]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Since the first room in the warehouse is of height 1, we can only put boxes of height 1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == warehouse.length</code></li>
-	<li><code>1 &lt;= boxes.length, warehouse.length &lt;= 10^5</code></li>
-	<li><code>1 &lt;= boxes[i], warehouse[i] &lt;= 10^9</code></li>
+	<li><code>1 &lt;= boxes.length, warehouse.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= boxes[i], warehouse[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：预处理 + 排序 + 双指针
-
-我们可以先对仓库的房间进行预处理，得到一个数组 $left$，其中 $left[i]$ 表示下标 $i$ 可以放入的最大箱子高度。
-
-然后对箱子的高度进行排序，从小到大依次放入仓库中。我们使用两个指针 $i$ 和 $j$ 分别指向箱子的第一个位置以及仓库的最后一个位置，如果 $left[j] \lt boxes[i]$，说明当前仓库无法放入箱子 $i$，我们将指针 $j$ 循环向左移动，直到 $left[j] \ge boxes[i]$ 或者 $j \lt 0$。如果此时 $j \lt 0$，说明仓库已经没有空间可以放入箱子 $i$，我们可以直接退出循环。否则说明仓库可以放入箱子 $i$，我们将指针 $i$ 循环向右移动，指针 $j$ 循环向左移动。继续进行上述操作，直到指针 $i$ 超出箱子的范围。
-
-最后我们返回指针 $i$ 的值即可。
-
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为仓库的房间数。
+### Solution 1
 
 <!-- tabs:start -->
 

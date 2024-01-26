@@ -1,67 +1,39 @@
-# [836. 矩形重叠](https://leetcode.cn/problems/rectangle-overlap)
+# [836. Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap)
 
-[English Version](/solution/0800-0899/0836.Rectangle%20Overlap/README_EN.md)
+[中文文档](/solution/0800-0899/0836.Rectangle%20Overlap/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An axis-aligned rectangle is represented as a list <code>[x1, y1, x2, y2]</code>, where <code>(x1, y1)</code> is the coordinate of its bottom-left corner, and <code>(x2, y2)</code> is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis.</p>
 
-<p>矩形以列表 <code>[x1, y1, x2, y2]</code> 的形式表示，其中 <code>(x1, y1)</code> 为左下角的坐标，<code>(x2, y2)</code> 是右上角的坐标。矩形的上下边平行于 x 轴，左右边平行于 y 轴。</p>
+<p>Two rectangles overlap if the area of their intersection is <strong>positive</strong>. To be clear, two rectangles that only touch at the corner or edges do not overlap.</p>
 
-<p>如果相交的面积为 <strong>正</strong> ，则称两矩形重叠。需要明确的是，只在角或边接触的两个矩形不构成重叠。</p>
-
-<p>给出两个矩形 <code>rec1</code> 和 <code>rec2</code> 。如果它们重叠，返回 <code>true</code>；否则，返回 <code>false</code> 。</p>
+<p>Given two axis-aligned rectangles <code>rec1</code> and <code>rec2</code>, return <code>true</code><em> if they overlap, otherwise return </em><code>false</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>rec1 = [0,0,2,2], rec2 = [1,1,3,3]
-<strong>输出：</strong>true
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> rec1 = [0,0,2,2], rec2 = [1,1,3,3]
+<strong>Output:</strong> true
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> rec1 = [0,0,1,1], rec2 = [1,0,2,1]
+<strong>Output:</strong> false
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> rec1 = [0,0,1,1], rec2 = [2,2,3,3]
+<strong>Output:</strong> false
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>rec1 = [0,0,1,1], rec2 = [1,0,2,1]
-<strong>输出：</strong>false
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>rec1 = [0,0,1,1], rec2 = [2,2,3,3]
-<strong>输出：</strong>false
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>rect1.length == 4</code></li>
-	<li><code>rect2.length == 4</code></li>
+	<li><code>rec1.length == 4</code></li>
+	<li><code>rec2.length == 4</code></li>
 	<li><code>-10<sup>9</sup> &lt;= rec1[i], rec2[i] &lt;= 10<sup>9</sup></code></li>
-	<li><code>rec1</code> 和 <code>rec2</code> 表示一个面积不为零的有效矩形</li>
+	<li><code>rec1</code> and <code>rec2</code> represent a valid rectangle with a non-zero area.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：判断不重叠的情况
-
-我们记矩形 $rec1$ 的坐标点为 $(x_1, y_1, x_2, y_2)$，矩形 $rec2$ 的坐标点为 $(x_3, y_3, x_4, y_4)$。
-
-那么当满足以下任一条件时，矩形 $rec1$ 和 $rec2$ 不重叠：
-
--   满足 $y_3 \geq y_2$，即 $rec2$ 在 $rec1$ 的上方；
--   满足 $y_4 \leq y_1$，即 $rec2$ 在 $rec1$ 的下方；
--   满足 $x_3 \geq x_2$，即 $rec2$ 在 $rec1$ 的右方；
--   满足 $x_4 \leq x_1$，即 $rec2$ 在 $rec1$ 的左方。
-
-当以上条件都不满足时，矩形 $rec1$ 和 $rec2$ 重叠。
-
-时间复杂度 $O(1)$，空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

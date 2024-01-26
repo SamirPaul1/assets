@@ -1,12 +1,10 @@
-# [1421. 净现值查询](https://leetcode.cn/problems/npv-queries)
+# [1421. NPV Queries](https://leetcode.com/problems/npv-queries)
 
-[English Version](/solution/1400-1499/1421.NPV%20Queries/README_EN.md)
+[中文文档](/solution/1400-1499/1421.NPV%20Queries/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>NPV</code></p>
+<p>Table: <code>NPV</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,13 +14,13 @@
 | year          | int     |
 | npv           | int     |
 +---------------+---------+
-(id, year) 是该表主键(具有唯一值的列的组合).
-该表有每一笔存货的年份, id 和对应净现值的信息.
+(id, year) is the primary key (combination of columns with unique values) of this table.
+The table has information about the id and the year of each inventory and the corresponding net present value.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Queries</code></p>
+<p>Table: <code>Queries</code></p>
 
 <pre>
 +---------------+---------+
@@ -31,25 +29,24 @@
 | id            | int     |
 | year          | int     |
 +---------------+---------+
-(id, year) 是该表主键(具有唯一值的列的组合).
-该表有每一次查询所对应存货的 id 和年份的信息.
+(id, year) is the primary key (combination of columns with unique values) of this table.
+The table has information about the id and the year of each inventory query.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，找到 Queries&nbsp;表中每一次查询的净现值。</p>
+<p>Write a solution to find the <code>npv</code> of each query of the <code>Queries</code> table.</p>
 
-<p>结果表 <strong>没有顺序要求 </strong>。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>查询结果的格式如下所示:</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-NPV 表:
+<strong>Input:</strong> 
+NPV table:
 +------+--------+--------+
 | id   | year   | npv    |
 +------+--------+--------+
@@ -62,8 +59,7 @@ NPV 表:
 | 11   | 2020   | 99     |
 | 7    | 2019   | 0      |
 +------+--------+--------+
-
-Queries 表:
+Queries table:
 +------+--------+
 | id   | year   |
 +------+--------+
@@ -75,7 +71,7 @@ Queries 表:
 | 7    | 2020   |
 | 13   | 2019   |
 +------+--------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------+--------+--------+
 | id   | year   | npv    |
 +------+--------+--------+
@@ -87,14 +83,14 @@ Queries 表:
 | 7    | 2020   | 30     |
 | 13   | 2019   | 40     |
 +------+--------+--------+
-<strong>解释：</strong>
-(7, 2018)的净现值不在 NPV 表中, 我们把它看作是 0.
-所有其它查询的净现值都能在 NPV 表中找到.
+<strong>Explanation:</strong> 
+The npv value of (7, 2018) is not present in the NPV table, we consider it 0.
+The npv values of all other queries can be found in the NPV table.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

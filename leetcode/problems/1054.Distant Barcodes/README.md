@@ -1,48 +1,32 @@
-# [1054. 距离相等的条形码](https://leetcode.cn/problems/distant-barcodes)
+# [1054. Distant Barcodes](https://leetcode.com/problems/distant-barcodes)
 
-[English Version](/solution/1000-1099/1054.Distant%20Barcodes/README_EN.md)
+[中文文档](/solution/1000-1099/1054.Distant%20Barcodes/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>In a warehouse, there is a row of barcodes, where the <code>i<sup>th</sup></code> barcode is <code>barcodes[i]</code>.</p>
 
-<p>在一个仓库里，有一排条形码，其中第 <code>i</code> 个条形码为&nbsp;<code>barcodes[i]</code>。</p>
-
-<p>请你重新排列这些条形码，使其中任意两个相邻的条形码不能相等。 你可以返回任何满足该要求的答案，此题保证存在答案。</p>
+<p>Rearrange the barcodes so that no two adjacent barcodes are equal. You may return any answer, and it is guaranteed an answer exists.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>barcodes = [1,1,1,2,2,2]
-<strong>输出：</strong>[2,1,2,1,2,1]
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> barcodes = [1,1,1,2,2,2]
+<strong>Output:</strong> [2,1,2,1,2,1]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> barcodes = [1,1,1,1,2,2,3,3]
+<strong>Output:</strong> [1,3,1,3,1,2,1,2]
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>barcodes = [1,1,1,1,2,2,3,3]
-<strong>输出：</strong>[1,3,1,3,2,1,2,1]</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= barcodes.length &lt;= 10000</code></li>
 	<li><code>1 &lt;= barcodes[i] &lt;= 10000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：计数 + 排序
-
-我们先用哈希表或数组 $cnt$ 统计数组 $barcodes$ 中各个数出现的次数，然后将 $barcodes$ 中的数按照它们在 $cnt$ 中出现的次数从大到小排序，如果出现次数相同，那么就按照数的大小从小到大排序（确保相同的数相邻）。
-
-接下来，我们创建一个长度为 $n$ 的答案数组 $ans$，然后遍历排好序的 $barcodes$，将元素依次填入答案数组的 $0, 2, 4, \cdots$ 等偶数下标位置，然后将剩余元素依次填入答案数组的 $1, 3, 5, \cdots$ 等奇数下标位置即可。
-
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(M)$。其中 $n$ 和 $M$ 分别是数组 $barcodes$ 的长度以及数组 $barcodes$ 中的最大值。
+### Solution 1
 
 <!-- tabs:start -->
 

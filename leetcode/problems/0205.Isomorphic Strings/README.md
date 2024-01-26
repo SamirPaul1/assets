@@ -1,59 +1,44 @@
-# [205. 同构字符串](https://leetcode.cn/problems/isomorphic-strings)
+# [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings)
 
-[English Version](/solution/0200-0299/0205.Isomorphic%20Strings/README_EN.md)
+[中文文档](/solution/0200-0299/0205.Isomorphic%20Strings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two strings <code>s</code> and <code>t</code>, <em>determine if they are isomorphic</em>.</p>
 
-<p>给定两个字符串&nbsp;<code>s</code>&nbsp;和&nbsp;<code>t</code>&nbsp;，判断它们是否是同构的。</p>
+<p>Two strings <code>s</code> and <code>t</code> are isomorphic if the characters in <code>s</code> can be replaced to get <code>t</code>.</p>
 
-<p>如果&nbsp;<code>s</code>&nbsp;中的字符可以按某种映射关系替换得到&nbsp;<code>t</code>&nbsp;，那么这两个字符串是同构的。</p>
-
-<p>每个出现的字符都应当映射到另一个字符，同时不改变字符的顺序。不同字符不能映射到同一个字符上，相同字符只能映射到同一个字符上，字符可以映射到自己本身。</p>
+<p>All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入：</strong>s = <code>"egg"</code>, t = <code>"add"</code>
-<strong>输出：</strong>true
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "egg", t = "add"
+<strong>Output:</strong> true
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "foo", t = "bar"
+<strong>Output:</strong> false
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> s = "paper", t = "title"
+<strong>Output:</strong> true
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = <code>"foo"</code>, t = <code>"bar"</code>
-<strong>输出：</strong>false</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = <code>"paper"</code>, t = <code>"title"</code>
-<strong>输出：</strong>true</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<p><meta charset="UTF-8" /></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>t.length == s.length</code></li>
-	<li><code>s</code>&nbsp;和&nbsp;<code>t</code>&nbsp;由任意有效的 ASCII 字符组成</li>
+	<li><code>s</code> and <code>t</code> consist of any valid ascii character.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表或数组
+### Solution 1: Hash Table or Array
 
-我们可以用两个哈希表或数组 $d_1$ 和 $d_2$ 记录 $s$ 和 $t$ 中字符的映射关系。
+We can use two hash tables or arrays $d_1$ and $d_2$ to record the character mapping relationship between $s$ and $t$.
 
-遍历 $s$ 和 $t$，如果 $d_1$ 和 $d_2$ 中对应的字符映射关系不同，则返回 `false`，否则更新 $d_1$ 和 $d_2$ 中对应的字符映射关系。遍历结束，说明 $s$ 和 $t$ 是同构的，返回 `true`。
+Traverse $s$ and $t$, if the corresponding character mapping relationships in $d_1$ and $d_2$ are different, return `false`, otherwise update the corresponding character mapping relationships in $d_1$ and $d_2$. After the traversal is complete, it means that $s$ and $t$ are isomorphic, and return `true`.
 
-时间复杂度 $O(n)$，空间复杂度 $O(C)$。其中 $n$ 为字符串 $s$ 的长度；而 $C$ 为字符集大小，本题中 $C = 256$。
+The time complexity is $O(n)$ and the space complexity is $O(C)$. Where $n$ is the length of the string $s$; and $C$ is the size of the character set, which is $C = 256$ in this problem.
 
 <!-- tabs:start -->
 
@@ -188,7 +173,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

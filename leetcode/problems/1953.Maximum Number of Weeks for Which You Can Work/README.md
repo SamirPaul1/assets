@@ -1,61 +1,58 @@
-# [1953. 你可以工作的最大周数](https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work)
+# [1953. Maximum Number of Weeks for Which You Can Work](https://leetcode.com/problems/maximum-number-of-weeks-for-which-you-can-work)
 
-[English Version](/solution/1900-1999/1953.Maximum%20Number%20of%20Weeks%20for%20Which%20You%20Can%20Work/README_EN.md)
+[中文文档](/solution/1900-1999/1953.Maximum%20Number%20of%20Weeks%20for%20Which%20You%20Can%20Work/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There are <code>n</code> projects numbered from <code>0</code> to <code>n - 1</code>. You are given an integer array <code>milestones</code> where each <code>milestones[i]</code> denotes the number of milestones the <code>i<sup>th</sup></code> project has.</p>
 
-<p>给你&nbsp;<code>n</code> 个项目，编号从 <code>0</code> 到 <code>n - 1</code> 。同时给你一个整数数组 <code>milestones</code> ，其中每个 <code>milestones[i]</code> 表示第 <code>i</code> 个项目中的阶段任务数量。</p>
-
-<p>你可以按下面两个规则参与项目中的工作：</p>
+<p>You can work on the projects following these two rules:</p>
 
 <ul>
-	<li>每周，你将会完成 <strong>某一个</strong> 项目中的 <strong>恰好一个</strong>&nbsp;阶段任务。你每周都 <strong>必须</strong> 工作。</li>
-	<li>在 <strong>连续的</strong> 两周中，你 <strong>不能</strong> 参与并完成同一个项目中的两个阶段任务。</li>
+	<li>Every week, you will finish <strong>exactly one</strong> milestone of <strong>one</strong> project. You&nbsp;<strong>must</strong>&nbsp;work every week.</li>
+	<li>You <strong>cannot</strong> work on two milestones from the same project for two <strong>consecutive</strong> weeks.</li>
 </ul>
 
-<p>一旦所有项目中的全部阶段任务都完成，或者仅剩余一个阶段任务都会导致你违反上面的规则，那么你将&nbsp;<strong>停止工作</strong> 。注意，由于这些条件的限制，你可能无法完成所有阶段任务。</p>
+<p>Once all the milestones of all the projects are finished, or if the only milestones that you can work on will cause you to violate the above rules, you will <strong>stop working</strong>. Note that you may not be able to finish every project&#39;s milestones due to these constraints.</p>
 
-<p>返回在不违反上面规则的情况下你&nbsp;<strong>最多</strong>&nbsp;能工作多少周。</p>
+<p>Return <em>the <strong>maximum</strong> number of weeks you would be able to work on the projects without violating the rules mentioned above</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>milestones = [1,2,3]
-<strong>输出：</strong>6
-<strong>解释：</strong>一种可能的情形是：
-​​​​- 第 1 周，你参与并完成项目 0 中的一个阶段任务。
-- 第 2 周，你参与并完成项目 2 中的一个阶段任务。
-- 第 3 周，你参与并完成项目 1 中的一个阶段任务。
-- 第 4 周，你参与并完成项目 2 中的一个阶段任务。
-- 第 5 周，你参与并完成项目 1 中的一个阶段任务。
-- 第 6 周，你参与并完成项目 2 中的一个阶段任务。
-总周数是 6 。
+<strong>Input:</strong> milestones = [1,2,3]
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> One possible scenario is:
+​​​​- During the 1<sup>st</sup> week, you will work on a milestone of project 0.
+- During the 2<sup>nd</sup> week, you will work on a milestone of project 2.
+- During the 3<sup>rd</sup> week, you will work on a milestone of project 1.
+- During the 4<sup>th</sup> week, you will work on a milestone of project 2.
+- During the 5<sup>th</sup> week, you will work on a milestone of project 1.
+- During the 6<sup>th</sup> week, you will work on a milestone of project 2.
+The total number of weeks is 6.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>milestones = [5,2,1]
-<strong>输出：</strong>7
-<strong>解释：</strong>一种可能的情形是：
-- 第 1 周，你参与并完成项目 0 中的一个阶段任务。
-- 第 2 周，你参与并完成项目 1 中的一个阶段任务。
-- 第 3 周，你参与并完成项目 0 中的一个阶段任务。
-- 第 4 周，你参与并完成项目 1 中的一个阶段任务。
-- 第 5 周，你参与并完成项目 0 中的一个阶段任务。
-- 第 6 周，你参与并完成项目 2 中的一个阶段任务。
-- 第 7 周，你参与并完成项目 0 中的一个阶段任务。
-总周数是 7 。
-注意，你不能在第 8 周参与完成项目 0 中的最后一个阶段任务，因为这会违反规则。
-因此，项目 0 中会有一个阶段任务维持未完成状态。</pre>
+<strong>Input:</strong> milestones = [5,2,1]
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> One possible scenario is:
+- During the 1<sup>st</sup> week, you will work on a milestone of project 0.
+- During the 2<sup>nd</sup> week, you will work on a milestone of project 1.
+- During the 3<sup>rd</sup> week, you will work on a milestone of project 0.
+- During the 4<sup>th</sup> week, you will work on a milestone of project 1.
+- During the 5<sup>th</sup> week, you will work on a milestone of project 0.
+- During the 6<sup>th</sup> week, you will work on a milestone of project 2.
+- During the 7<sup>th</sup> week, you will work on a milestone of project 0.
+The total number of weeks is 7.
+Note that you cannot work on the last milestone of project 0 on 8<sup>th</sup> week because it would violate the rules.
+Thus, one milestone in project 0 will remain unfinished.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == milestones.length</code></li>
@@ -63,9 +60,9 @@
 	<li><code>1 &lt;= milestones[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,70 +1,66 @@
-# [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs)
+# [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)
 
-[English Version](/solution/0700-0799/0746.Min%20Cost%20Climbing%20Stairs/README_EN.md)
+[中文文档](/solution/0700-0799/0746.Min%20Cost%20Climbing%20Stairs/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>cost</code> where <code>cost[i]</code> is the cost of <code>i<sup>th</sup></code> step on a staircase. Once you pay the cost, you can either climb one or two steps.</p>
 
-<p>给你一个整数数组 <code>cost</code> ，其中 <code>cost[i]</code> 是从楼梯第 <code>i</code> 个台阶向上爬需要支付的费用。一旦你支付此费用，即可选择向上爬一个或者两个台阶。</p>
+<p>You can either start from the step with index <code>0</code>, or the step with index <code>1</code>.</p>
 
-<p>你可以选择从下标为 <code>0</code> 或下标为 <code>1</code> 的台阶开始爬楼梯。</p>
-
-<p>请你计算并返回达到楼梯顶部的最低花费。</p>
+<p>Return <em>the minimum cost to reach the top of the floor</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>cost = [10,<em><strong>15</strong></em>,20]
-<strong>输出：</strong>15
-<strong>解释：</strong>你将从下标为 1 的台阶开始。
-- 支付 15 ，向上爬两个台阶，到达楼梯顶部。
-总花费为 15 。
+<strong>Input:</strong> cost = [10,<u>15</u>,20]
+<strong>Output:</strong> 15
+<strong>Explanation:</strong> You will start at index 1.
+- Pay 15 and climb two steps to reach the top.
+The total cost is 15.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>cost = [<em><strong>1</strong></em>,100,<em><strong>1</strong></em>,1,<em><strong>1</strong></em>,100,<em><strong>1</strong></em>,<em><strong>1</strong></em>,100,<em><strong>1</strong></em>]
-<strong>输出：</strong>6
-<strong>解释：</strong>你将从下标为 0 的台阶开始。
-- 支付 1 ，向上爬两个台阶，到达下标为 2 的台阶。
-- 支付 1 ，向上爬两个台阶，到达下标为 4 的台阶。
-- 支付 1 ，向上爬两个台阶，到达下标为 6 的台阶。
-- 支付 1 ，向上爬一个台阶，到达下标为 7 的台阶。
-- 支付 1 ，向上爬两个台阶，到达下标为 9 的台阶。
-- 支付 1 ，向上爬一个台阶，到达楼梯顶部。
-总花费为 6 。
+<strong>Input:</strong> cost = [<u>1</u>,100,<u>1</u>,1,<u>1</u>,100,<u>1</u>,<u>1</u>,100,<u>1</u>]
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> You will start at index 0.
+- Pay 1 and climb two steps to reach index 2.
+- Pay 1 and climb two steps to reach index 4.
+- Pay 1 and climb two steps to reach index 6.
+- Pay 1 and climb one step to reach index 7.
+- Pay 1 and climb two steps to reach index 9.
+- Pay 1 and climb one step to reach the top.
+The total cost is 6.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= cost.length &lt;= 1000</code></li>
 	<li><code>0 &lt;= cost[i] &lt;= 999</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i]$ 表示到达第 $i$ 个阶梯所需要的最小花费，初始时 $f[0] = f[1] = 0$，答案即为 $f[n]$。
+We define $f[i]$ as the minimum cost required to reach the $i$th step, initially $f[0] = f[1] = 0$. The answer is $f[n]$.
 
-当 $i \ge 2$ 时，我们可以从第 $i - 1$ 个阶梯使用 $1$ 步直接到达第 $i$ 个阶梯，或者从第 $i - 2$ 个阶梯使用 $2$ 步到达第 $i$ 个阶梯，因此我们有状态转移方程：
+When $i \ge 2$, we can directly reach the $i$th step from the $(i - 1)$th step using $1$ step, or reach the $i$th step from the $(i - 2)$th step using $2$ steps. Therefore, we have the state transition equation:
 
 $$
 f[i] = \min(f[i - 1] + cost[i - 1], f[i - 2] + cost[i - 2])
 $$
 
-最终的答案即为 $f[n]$。
+The final answer is $f[n]$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是数组 `cost` 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the `cost` array.
 
-我们注意到，状态转移方程中的 $f[i]$ 只和 $f[i - 1]$ 与 $f[i - 2]$ 有关，因此我们可以使用两个变量 $f$ 和 $g$ 交替地记录 $f[i - 2]$ 和 $f[i - 1]$ 的值，这样空间复杂度可以优化到 $O(1)$。
+We notice that $f[i]$ in the state transition equation is only related to $f[i - 1]$ and $f[i - 2]$. Therefore, we can use two variables $f$ and $g$ to alternately record the values of $f[i - 2]$ and $f[i - 1]$, which optimizes the space complexity to $O(1)$.
 
 <!-- tabs:start -->
 
@@ -142,7 +138,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

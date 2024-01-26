@@ -1,61 +1,61 @@
-# [2134. 最少交换次数来组合所有的 1 II](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii)
+# [2134. Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii)
 
-[English Version](/solution/2100-2199/2134.Minimum%20Swaps%20to%20Group%20All%201%27s%20Together%20II/README_EN.md)
+[中文文档](/solution/2100-2199/2134.Minimum%20Swaps%20to%20Group%20All%201%27s%20Together%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A <strong>swap</strong> is defined as taking two <strong>distinct</strong> positions in an array and swapping the values in them.</p>
 
-<p><strong>交换</strong> 定义为选中一个数组中的两个 <strong>互不相同</strong> 的位置并交换二者的值。</p>
+<p>A <strong>circular</strong> array is defined as an array where we consider the <strong>first</strong> element and the <strong>last</strong> element to be <strong>adjacent</strong>.</p>
 
-<p><strong>环形</strong> 数组是一个数组，可以认为 <strong>第一个</strong> 元素和 <strong>最后一个</strong> 元素 <strong>相邻</strong> 。</p>
-
-<p>给你一个 <strong>二进制环形</strong> 数组 <code>nums</code> ，返回在 <strong>任意位置</strong> 将数组中的所有 <code>1</code> 聚集在一起需要的最少交换次数。</p>
+<p>Given a <strong>binary</strong> <strong>circular</strong> array <code>nums</code>, return <em>the minimum number of swaps required to group all </em><code>1</code><em>&#39;s present in the array together at <strong>any location</strong></em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [0,1,0,1,1,0,0]
-<strong>输出：</strong>1
-<strong>解释：</strong>这里列出一些能够将所有 1 聚集在一起的方案：
-[0,<strong><em>0</em></strong>,<em><strong>1</strong></em>,1,1,0,0] 交换 1 次。
-[0,1,<em><strong>1</strong></em>,1,<em><strong>0</strong></em>,0,0] 交换 1 次。
-[1,1,0,0,0,0,1] 交换 2 次（利用数组的环形特性）。
-无法在交换 0 次的情况下将数组中的所有 1 聚集在一起。
-因此，需要的最少交换次数为 1 。
+<pre>
+<strong>Input:</strong> nums = [0,1,0,1,1,0,0]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Here are a few of the ways to group all the 1&#39;s together:
+[0,<u>0</u>,<u>1</u>,1,1,0,0] using 1 swap.
+[0,1,<u>1</u>,1,<u>0</u>,0,0] using 1 swap.
+[1,1,0,0,0,0,1] using 2 swaps (using the circular property of the array).
+There is no way to group all 1&#39;s together with 0 swaps.
+Thus, the minimum number of swaps required is 1.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [0,1,1,1,0,0,1,1,0]
-<strong>输出：</strong>2
-<strong>解释：</strong>这里列出一些能够将所有 1 聚集在一起的方案：
-[1,1,1,0,0,0,0,1,1] 交换 2 次（利用数组的环形特性）。
-[1,1,1,1,1,0,0,0,0] 交换 2 次。
-无法在交换 0 次或 1 次的情况下将数组中的所有 1 聚集在一起。
-因此，需要的最少交换次数为 2 。
+<pre>
+<strong>Input:</strong> nums = [0,1,1,1,0,0,1,1,0]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Here are a few of the ways to group all the 1&#39;s together:
+[1,1,1,0,0,0,0,1,1] using 2 swaps (using the circular property of the array).
+[1,1,1,1,1,0,0,0,0] using 2 swaps.
+There is no way to group all 1&#39;s together with 0 or 1 swaps.
+Thus, the minimum number of swaps required is 2.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>nums = [1,1,0,0,1]
-<strong>输出：</strong>0
-<strong>解释：</strong>得益于数组的环形特性，所有的 1 已经聚集在一起。
-因此，需要的最少交换次数为 0 。</pre>
+<pre>
+<strong>Input:</strong> nums = [1,1,0,0,1]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> All the 1&#39;s are already grouped together due to the circular property of the array.
+Thus, the minimum number of swaps required is 0.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>nums[i]</code> 为 <code>0</code> 或者 <code>1</code></li>
+	<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

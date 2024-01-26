@@ -1,12 +1,10 @@
-# [1501. 可以放心投资的国家](https://leetcode.cn/problems/countries-you-can-safely-invest-in)
+# [1501. Countries You Can Safely Invest In](https://leetcode.com/problems/countries-you-can-safely-invest-in)
 
-[English Version](/solution/1500-1599/1501.Countries%20You%20Can%20Safely%20Invest%20In/README_EN.md)
+[中文文档](/solution/1500-1599/1501.Countries%20You%20Can%20Safely%20Invest%20In/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表&nbsp;<code>Person</code>:</p>
+<p>Table <code>Person</code>:</p>
 
 <pre>
 +----------------+---------+
@@ -16,14 +14,14 @@
 | name           | varchar |
 | phone_number   | varchar |
 +----------------+---------+
-id 是该表具有唯一值的列.
-该表每一行包含一个人的名字和电话号码.
-电话号码的格式是:'xxx-yyyyyyy', 其中 xxx 是国家码(3 个字符), yyyyyyy 是电话号码(7 个字符), x 和 y 都表示数字. 同时, 国家码和电话号码都可以包含前导 0.
+id is the column of unique values for this table.
+Each row of this table contains the name of a person and their phone number.
+Phone number will be in the form &#39;xxx-yyyyyyy&#39; where xxx is the country code (3 characters) and yyyyyyy is the phone number (7 characters) where x and y are digits. Both can contain leading zeros.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表&nbsp;<code>Country</code>:</p>
+<p>Table <code>Country</code>:</p>
 
 <pre>
 +----------------+---------+
@@ -32,13 +30,13 @@ id 是该表具有唯一值的列.
 | name           | varchar |
 | country_code   | varchar |
 +----------------+---------+
-country_code 是该表具有唯一值的列.
-该表每一行包含国家名和国家码. country_code 的格式是'xxx', x 是数字.
+country_code is the column of unique values for this table.
+Each row of this table contains the country name and its code. country_code will be in the form &#39;xxx&#39; where x is digits.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表&nbsp;<code>Calls</code>:</p>
+<p>Table <code>Calls</code>:</p>
 
 <pre>
 +-------------+------+
@@ -48,27 +46,26 @@ country_code 是该表具有唯一值的列.
 | callee_id   | int  |
 | duration    | int  |
 +-------------+------+
-该表无主键, 可能包含重复行.
-每一行包含呼叫方 id, 被呼叫方 id 和以分钟为单位的通话时长. caller_id != callee_id
+This table may contain duplicate rows.
+Each row of this table contains the caller id, callee id and the duration of the call in minutes. caller_id != callee_id
 </pre>
 
 <p>&nbsp;</p>
 
-<p>一家电信公司想要投资新的国家。该公司想要投资的国家是:&nbsp; 该国的平均通话时长要严格地大于全球平均通话时长。</p>
+<p>A telecommunications company wants to invest in new countries. The company intends to invest in the countries where the average call duration of the calls in this country is strictly greater than the global average call duration.</p>
 
-<p>写一个解决方案,&nbsp;&nbsp;找到所有该公司可以投资的国家。</p>
+<p>Write a solution to find the countries where this company can invest.</p>
 
-<p>返回的结果表 <strong>无顺序要求</strong>。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<span style="white-space: pre-wrap;"><strong>输入：</strong>
-Person 表：</span>
+<strong>Input:</strong> 
+Person table:
 +----+----------+--------------+
 | id | name     | phone_number |
 +----+----------+--------------+
@@ -79,7 +76,7 @@ Person 表：</span>
 | 7  | Meir     | 972-1234567  |
 | 9  | Rachel   | 972-0011100  |
 +----+----------+--------------+
-Country 表:
+Country table:
 +----------+--------------+
 | name     | country_code |
 +----------+--------------+
@@ -89,7 +86,7 @@ Country 表:
 | Germany  | 049          |
 | Ethiopia | 251          |
 +----------+--------------+
-Calls 表:
+Calls table:
 +-----------+-----------+----------+
 | caller_id | callee_id | duration |
 +-----------+-----------+----------+
@@ -104,25 +101,25 @@ Calls 表:
 | 9         | 7         | 1        |
 | 1         | 7         | 7        |
 +-----------+-----------+----------+
-<b>输出：</b>
+<strong>Output:</strong> 
 +----------+
 | country  |
 +----------+
 | Peru     |
 +----------+
-<b>解释：</b>
-国家 Peru 的平均通话时长是 (102 + 102 + 330 + 330 + 5 + 5) / 6 = 145.666667
-国家 Israel 的平均通话时长是 (33 + 4 + 13 + 13 + 3 + 1 + 1 + 7) / 8 = 9.37500
-国家 Morocco 的平均通话时长是 (33 + 4 + 59 + 59 + 3 + 7) / 6 = 27.5000 
-全球平均通话时长 = (2 * (33 + 4 + 59 + 102 + 330 + 5 + 13 + 3 + 1 + 7)) / 20 = 55.70000
-所以, Peru 是唯一的平均通话时长大于全球平均通话时长的国家, 也是唯一的推荐投资的国家.
+<strong>Explanation:</strong> 
+The average call duration for Peru is (102 + 102 + 330 + 330 + 5 + 5) / 6 = 145.666667
+The average call duration for Israel is (33 + 4 + 13 + 13 + 3 + 1 + 1 + 7) / 8 = 9.37500
+The average call duration for Morocco is (33 + 4 + 59 + 59 + 3 + 7) / 6 = 27.5000 
+Global call duration average = (2 * (33 + 4 + 59 + 102 + 330 + 5 + 13 + 3 + 1 + 7)) / 20 = 55.70000
+Since Peru is the only country where the average call duration is greater than the global average, it is the only recommended country.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：等值连接 + 分组 + 子查询
+### Solution 1: Equi-Join + Group By + Subquery
 
-我们可以使用等值连接，将 `Person` 表和 `Calls` 表连接起来，连接的条件是 `Person.id = Calls.caller_id` 或者 `Person.id = Calls.callee_id`，然后再将连接后的表和 `Country` 表连接起来，连接的条件是 `left(phone_number, 3) = country_code`，最后按照国家分组，计算每个国家的平均通话时长，然后再使用子查询，找出平均通话时长大于全球平均通话时长的国家。
+We can use an equi-join to join the `Person` table and the `Calls` table on the condition of `Person.id = Calls.caller_id` or `Person.id = Calls.callee_id`, and then join the result with the `Country` table on the condition of `left(phone_number, 3) = country_code`. After that, we can group by country and calculate the average call duration for each country. Finally, we can use a subquery to find the countries whose average call duration is greater than the global average call duration.
 
 <!-- tabs:start -->
 
@@ -143,7 +140,7 @@ WHERE duration > (SELECT AVG(duration) FROM Calls);
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

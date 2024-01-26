@@ -1,69 +1,52 @@
-# [1347. 制造字母异位词的最小步骤数](https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram)
+# [1347. Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)
 
-[English Version](/solution/1300-1399/1347.Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram/README_EN.md)
+[中文文档](/solution/1300-1399/1347.Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two strings of the same length <code>s</code> and <code>t</code>. In one step you can choose <strong>any character</strong> of <code>t</code> and replace it with <strong>another character</strong>.</p>
 
-<p>给你两个长度相等的字符串&nbsp;<code>s</code> 和 <code>t</code>。每一个步骤中，你可以选择将&nbsp;<code>t</code>&nbsp;中的 <strong>任一字符</strong> 替换为 <strong>另一个字符</strong>。</p>
+<p>Return <em>the minimum number of steps</em> to make <code>t</code> an anagram of <code>s</code>.</p>
 
-<p>返回使&nbsp;<code>t</code>&nbsp;成为&nbsp;<code>s</code>&nbsp;的字母异位词的最小步骤数。</p>
-
-<p><strong>字母异位词</strong> 指字母相同，但排列不同（也可能相同）的字符串。</p>
+<p>An <strong>Anagram</strong> of a string is a string that contains the same characters with a different (or the same) ordering.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输出：</strong>s = &quot;bab&quot;, t = &quot;aba&quot;
-<strong>输出：</strong>1
-<strong>提示：</strong>用 &#39;b&#39; 替换 t 中的第一个 &#39;a&#39;，t = &quot;bba&quot; 是 s 的一个字母异位词。
+<pre>
+<strong>Input:</strong> s = &quot;bab&quot;, t = &quot;aba&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Replace the first &#39;a&#39; in t with b, t = &quot;bba&quot; which is anagram of s.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输出：</strong>s = &quot;leetcode&quot;, t = &quot;practice&quot;
-<strong>输出：</strong>5
-<strong>提示：</strong>用合适的字符替换 t 中的 &#39;p&#39;, &#39;r&#39;, &#39;a&#39;, &#39;i&#39; 和 &#39;c&#39;，使 t 变成 s 的字母异位词。
+<pre>
+<strong>Input:</strong> s = &quot;leetcode&quot;, t = &quot;practice&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> Replace &#39;p&#39;, &#39;r&#39;, &#39;a&#39;, &#39;i&#39; and &#39;c&#39; from t with proper characters to make t anagram of s.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输出：</strong>s = &quot;anagram&quot;, t = &quot;mangaar&quot;
-<strong>输出：</strong>0
-<strong>提示：</strong>&quot;anagram&quot; 和 &quot;mangaar&quot; 本身就是一组字母异位词。 
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输出：</strong>s = &quot;xxyyzz&quot;, t = &quot;xxyyzz&quot;
-<strong>输出：</strong>0
-</pre>
-
-<p><strong>示例 5：</strong></p>
-
-<pre><strong>输出：</strong>s = &quot;friend&quot;, t = &quot;family&quot;
-<strong>输出：</strong>4
+<pre>
+<strong>Input:</strong> s = &quot;anagram&quot;, t = &quot;mangaar&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> &quot;anagram&quot; and &quot;mangaar&quot; are anagrams. 
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= s.length &lt;= 50000</code></li>
+	<li><code>1 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>s.length == t.length</code></li>
-	<li><code>s</code> 和 <code>t</code>&nbsp;只包含小写英文字母</li>
+	<li><code>s</code> and <code>t</code> consist of lowercase English letters only.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数组或哈希表
-
-我们可以使用数组或哈希表 `cnt` 统计字符串 $s$ 中每个字符出现的次数，然后遍历字符串 $t$，对于 $t$ 中的每个字符，如果 $cnt$ 中对应的字符出现的次数大于 $0$，则将 $cnt$ 中对应的字符出现的次数减 $1$，否则将答案加 $1$。
-
-时间复杂度 $O(n)$，空间复杂度 $O(C)$。其中 $n$ 为字符串 $s$ 的长度，而 $C$ 为字符集的大小。本题中 $C=26$。
+### Solution 1
 
 <!-- tabs:start -->
 

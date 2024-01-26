@@ -1,49 +1,47 @@
-# [1180. 统计只含单一字母的子串](https://leetcode.cn/problems/count-substrings-with-only-one-distinct-letter)
+# [1180. Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter)
 
-[English Version](/solution/1100-1199/1180.Count%20Substrings%20with%20Only%20One%20Distinct%20Letter/README_EN.md)
+[中文文档](/solution/1100-1199/1180.Count%20Substrings%20with%20Only%20One%20Distinct%20Letter/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code>, return <em>the number of substrings that have only <strong>one distinct</strong> letter</em>.</p>
 
-<p>给你一个字符串 <code>s</code>，返回 <em>只含 <strong>单一字母</strong> 的子串个数</em> 。</p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入： </strong>s = "aaaba"
-<strong>输出： </strong>8
-<strong>解释： </strong>只含单一字母的子串分别是 "aaa"， "aa"， "a"， "b"。
-"aaa" 出现 1 次。
-"aa" 出现 2 次。
-"a" 出现 4 次。
-"b" 出现 1 次。
-所以答案是 1 + 2 + 4 + 1 = 8。
+<strong>Input:</strong> s = &quot;aaaba&quot;
+<strong>Output:</strong> 8
+<strong>Explanation: </strong>The substrings with one distinct letter are &quot;aaa&quot;, &quot;aa&quot;, &quot;a&quot;, &quot;b&quot;.
+&quot;aaa&quot; occurs 1 time.
+&quot;aa&quot; occurs 2 times.
+&quot;a&quot; occurs 4 times.
+&quot;b&quot; occurs 1 time.
+So the answer is 1 + 2 + 4 + 1 = 8.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入： </strong>s = "aaaaaaaaaa"
-<strong>输出： </strong>55
+<strong>Input:</strong> s = &quot;aaaaaaaaaa&quot;
+<strong>Output:</strong> 55
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
-	<li><code>s[i]</code> 仅由小写英文字母组成</li>
+	<li><code>s[i]</code> consists of only lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
+### Solution 1: Two Pointers
 
-我们可以使用双指针，用指针 $i$ 指向当前子串的起始位置，指针 $j$ 向右移动到第一个与 $s[i]$ 不同的位置，那么 $[i,..j-1]$ 就是以 $s[i]$ 为唯一字母的子串，长度为 $j-i$，那么以 $s[i]$ 为唯一字母的子串的个数就是 $\frac{(j-i+1)(j-i)}{2}$，累加到答案中。然后令 $i=j$，继续遍历，直到 $i$ 超出字符串 $s$ 的范围。
+We can use two pointers, where pointer $i$ points to the start of the current substring, and pointer $j$ moves to the right to the first position that is different from $s[i]$. Then, $[i,..j-1]$ is a substring with $s[i]$ as the only character, and its length is $j-i$. Therefore, the number of substrings with $s[i]$ as the only character is $\frac{(j-i+1)(j-i)}{2}$, which is added to the answer. Then, we set $i=j$ and continue to traverse until $i$ exceeds the range of string $s$.
 
-时间复杂度 $O(n)$，其中 $n$ 是字符串 $s$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the string $s$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -130,7 +128,7 @@ function countLetters(s: string): number {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

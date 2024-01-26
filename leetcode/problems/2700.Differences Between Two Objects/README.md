@@ -1,137 +1,133 @@
-# [2700. 两个对象之间的差异](https://leetcode.cn/problems/differences-between-two-objects)
+# [2700. Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects)
 
-[English Version](/solution/2700-2799/2700.Differences%20Between%20Two%20Objects/README_EN.md)
+[中文文档](/solution/2700-2799/2700.Differences%20Between%20Two%20Objects/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Write a function that accepts two deeply nested objects or arrays&nbsp;<code>obj1</code> and&nbsp;<code>obj2</code>&nbsp;and returns a new&nbsp;object representing their differences.</p>
 
-<p>请你编写一个函数，它接收两个深度嵌套的对象或数组 <code>obj1</code> 和 <code>obj2</code> ，并返回一个新对象表示它们之间差异。</p>
+<p>The function should compare the properties of the two objects and identify any changes.&nbsp;The returned object should only contains keys where the value is different from&nbsp;<code>obj1</code> to&nbsp;<code>obj2</code>.</p>
 
-<p>该函数应该比较这两个对象的属性，并识别任何变化。返回的对象应仅包含从 <code>obj1</code> 到 <code>obj2</code> 的值不同的键。</p>
+<p>For each changed key, the value should be represented as an&nbsp;array <code>[obj1 value, obj2&nbsp;value]</code>. Keys that exist in one object but not in the other should not be included in the returned object. When comparing two arrays, the indices of the arrays are considered to be their keys.&nbsp;The end result should be a deeply nested object where each leaf value is a difference array.</p>
 
-<p>对于每个变化的键，值应表示为一个数组 <code>[obj1 value, obj2 value]</code> 。不存在于一个对象中但存在于另一个对象中的键不应包含在返回的对象中。在比较两个数组时，数组的索引被视为它们的键。最终结果应是一个深度嵌套的对象，其中每个叶子的值都是一个差异数组。</p>
-
-<p>你可以假设这两个对象都是 <code>JSON.parse</code> 的输出结果。</p>
+<p>You may assume that both objects are the output of <code>JSON.parse</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong>Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong> 
+<strong>Input:</strong> 
 obj1 = {}
 obj2 = {
-&nbsp; "a": 1, 
-  "b": 2
+&nbsp; &quot;a&quot;: 1, 
+  &quot;b&quot;: 2
 }
-<b>输出：</b>{}
-<b>解释：</b>obj1没有进行任何修改。obj2中出现了新的键 "a" 和 "b" ，但添加或删除的键应该被忽略。
+<strong>Output:</strong> {}
+<strong>Explanation:</strong> There were no modifications made to obj1. New keys &quot;a&quot; and &quot;b&quot; appear in obj2, but keys that are added or removed should be ignored.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong>Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 obj1 = {
-&nbsp; "a": 1,
-&nbsp; "v": 3,
-&nbsp; "x": [],
-&nbsp; "z": {
-&nbsp; &nbsp; "a": null
+&nbsp; &quot;a&quot;: 1,
+&nbsp; &quot;v&quot;: 3,
+&nbsp; &quot;x&quot;: [],
+&nbsp; &quot;z&quot;: {
+&nbsp; &nbsp; &quot;a&quot;: null
 &nbsp; }
 }
 obj2 = {
-&nbsp; "a": 2,
-&nbsp; "v": 4,
-&nbsp; "x": [],
-&nbsp; "z": {
-&nbsp; &nbsp; "a": 2
+&nbsp; &quot;a&quot;: 2,
+&nbsp; &quot;v&quot;: 4,
+&nbsp; &quot;x&quot;: [],
+&nbsp; &quot;z&quot;: {
+&nbsp; &nbsp; &quot;a&quot;: 2
 &nbsp; }
 }
-<b>输出：</b>
+<strong>Output:</strong> 
 {
-&nbsp; "a": [1, 2],
-  "v": [3, 4],
-&nbsp; "z": {
-&nbsp;   "a": [null, 2]
+&nbsp; &quot;a&quot;: [1, 2],
+  &quot;v&quot;: [3, 4],
+&nbsp; &quot;z&quot;: {
+&nbsp;   &quot;a&quot;: [null, 2]
 &nbsp; }
 }
-<b>解释：</b>键 "a"、"v" 和 "z" 都有变化。"a" 从 1 变为 2，"v" 从 3 变为 4 ，"z" 的子对象 "a" 从 null 变为 2。
+<strong>Explanation:</strong> The keys &quot;a&quot;, &quot;v&quot;, and &quot;z&quot; all had changes applied. &quot;a&quot; was changed from 1 to 2. &quot;v&quot; was changed from 3 to 4. &quot;z&quot; had a change applied to a child object. &quot;z.a&quot; was changed from null to 2.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong>Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 obj1 = {
-&nbsp; "a": 5, 
-&nbsp; "v": 6, 
-&nbsp; "z": [1, 2, 4, [2, 5, 7]]
+&nbsp; &quot;a&quot;: 5, 
+&nbsp; &quot;v&quot;: 6, 
+&nbsp; &quot;z&quot;: [1, 2, 4, [2, 5, 7]]
 }
 obj2 = {
-&nbsp; "a": 5, 
-&nbsp; "v": 7, 
-&nbsp; "z": [1, 2, 3, [1]]
+&nbsp; &quot;a&quot;: 5, 
+&nbsp; &quot;v&quot;: 7, 
+&nbsp; &quot;z&quot;: [1, 2, 3, [1]]
 }
-<b>输出：</b>
+<strong>Output:</strong> 
 {
-&nbsp; "v": [6, 7],
-&nbsp; "z": {
-&nbsp;   "2": [4, 3],
-&nbsp;   "3": {
-&nbsp;     "0": [2, 1]
+&nbsp; &quot;v&quot;: [6, 7],
+&nbsp; &quot;z&quot;: {
+&nbsp;   &quot;2&quot;: [4, 3],
+&nbsp;   &quot;3&quot;: {
+&nbsp;     &quot;0&quot;: [2, 1]
 &nbsp;   }
 &nbsp; }
 }
-<b>解释：</b>在 obj1 和 obj2 中，键 "v" 和 "z" 的值不同。"a" 被忽略，因为值没有变化。在键 "z" 中，有一个嵌套的数组。数组被视为对象，其中索引被视为键。数组发生了两处变化：z[2] 和 z[3][0]。z[0] 和 z[1] 没有变化，因此没有包含在结果中。z[3][1] 和 z[3][2] 被删除，因此也没有包含在结果中。
+<strong>Explanation:</strong> In obj1 and obj2, the keys &quot;v&quot; and &quot;z&quot; have different assigned values. &quot;a&quot; is ignored because the value is unchanged. In the key &quot;z&quot;, there is a nested array. Arrays are treated like objects where the indices are keys. There were two alterations to the the array: z[2] and z[3][0]. z[0] and z[1] were unchanged and thus not included. z[3][1] and z[3][2] were removed and thus not included.
 </pre>
 
-<p><strong>示例 4：</strong></p>
+<p><strong>Example 4:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 obj1 = {
-&nbsp; "a": {"b": 1}, 
+&nbsp; &quot;a&quot;: {&quot;b&quot;: 1}, 
 }
 obj2 = {
-&nbsp; "a": [5],
+&nbsp; &quot;a&quot;: [5],
 }
-<b>输出：</b>
+<strong>Output:</strong> 
 {
-  "a": [{"b": 1}, [5]]
+  &quot;a&quot;: [{&quot;b&quot;: 1}, [5]]
 }
-<b>解释：</b>键 "a" 在两个对象中都存在。但由于两个相关值具有不同的类型，所以它们被放置在差异数组中。</pre>
+<strong>Explanation:</strong> The key &quot;a&quot; exists in both objects. Since the two associated values have different types, they are placed in the difference array.</pre>
 
-<p><strong>示例 5：</strong></p>
+<p><strong>Example 5:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 obj1 = {
-&nbsp; "a": [1, 2, {}], 
-&nbsp; "b": false
+&nbsp; &quot;a&quot;: [1, 2, {}], 
+&nbsp; &quot;b&quot;: false
 }
 obj2 = { &nbsp; 
-&nbsp; "b": false,
-&nbsp; "a": [1, 2, {}]
+&nbsp; &quot;b&quot;: false,
+&nbsp; &quot;a&quot;: [1, 2, {}]
 }
-<b>输出：</b>
+<strong>Output:</strong> 
 {}
-<b>解释：</b>除了键的顺序不同之外，两个对象是相同的，因此返回一个空对象。</pre>
+<strong>Explanation:</strong> Apart from a different ordering of keys, the two objects are identical so an empty object is returned.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>obj1</code> 和 <code>obj2</code> 都是有效的 JSON 对象或数组</li>
+	<li><code>obj1</code> and <code>obj2</code> are valid JSON objects or arrays</li>
 	<li><code>2 &lt;= JSON.stringify(obj1).length &lt;= 10<sup>4</sup></code></li>
 	<li><code>2 &lt;= JSON.stringify(obj2).length &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

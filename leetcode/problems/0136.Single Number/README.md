@@ -1,64 +1,45 @@
-# [136. 只出现一次的数字](https://leetcode.cn/problems/single-number)
+# [136. Single Number](https://leetcode.com/problems/single-number)
 
-[English Version](/solution/0100-0199/0136.Single%20Number/README_EN.md)
+[中文文档](/solution/0100-0199/0136.Single%20Number/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a <strong>non-empty</strong>&nbsp;array of integers <code>nums</code>, every element appears <em>twice</em> except for one. Find that single one.</p>
 
-<p>给你一个 <strong>非空</strong> 整数数组 <code>nums</code> ，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。</p>
-
-<p>你必须设计并实现线性时间复杂度的算法来解决此问题，且该算法只使用常量额外空间。</p>
-
-<div class="original__bRMd">
-<div>
-<p>&nbsp;</p>
-
-<p><strong class="example">示例 1 ：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [2,2,1]
-<strong>输出：</strong>1
-</pre>
-
-<p><strong class="example">示例 2 ：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [4,1,2,1,2]
-<strong>输出：</strong>4
-</pre>
-
-<p><strong class="example">示例 3 ：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1]
-<strong>输出：</strong>1
-</pre>
+<p>You must&nbsp;implement a solution with a linear runtime complexity and use&nbsp;only constant&nbsp;extra space.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [2,2,1]
+<strong>Output:</strong> 1
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [4,1,2,1,2]
+<strong>Output:</strong> 4
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> nums = [1]
+<strong>Output:</strong> 1
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>-3 * 10<sup>4</sup> &lt;= nums[i] &lt;= 3 * 10<sup>4</sup></code></li>
-	<li>除了某个元素只出现一次以外，其余每个元素均出现两次。</li>
+	<li>Each element in the array appears twice except for one element which appears only once.</li>
 </ul>
-</div>
-</div>
 
-## 解法
+## Solutions
 
-### 方法一：位运算
+### Solution 1: Bitwise Operation
 
-异或运算的性质：
+The XOR operation has the following properties:
 
--   任何数和 $0$ 做异或运算，结果仍然是原来的数，即 $x \oplus 0 = x$；
--   任何数和其自身做异或运算，结果是 $0$，即 $x \oplus x = 0$；
+-   Any number XOR 0 is still the original number, i.e., $x \oplus 0 = x$;
+-   Any number XOR itself is 0, i.e., $x \oplus x = 0$;
 
-我们对该数组所有元素进行异或运算，结果就是那个只出现一次的数字。
+Performing XOR operation on all elements in the array will result in the number that only appears once.
 
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 是数组 $nums$ 的长度。
+The time complexity is $O(n)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -156,7 +137,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

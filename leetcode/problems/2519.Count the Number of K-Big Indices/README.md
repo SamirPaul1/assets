@@ -1,59 +1,56 @@
-# [2519. 统计 K-Big 索引的数量](https://leetcode.cn/problems/count-the-number-of-k-big-indices)
+# [2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)
 
-[English Version](/solution/2500-2599/2519.Count%20the%20Number%20of%20K-Big%20Indices/README_EN.md)
+[中文文档](/solution/2500-2599/2519.Count%20the%20Number%20of%20K-Big%20Indices/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and a positive integer <code>k</code>.</p>
 
-<p>给定一个 <strong>下标从0开始</strong> 的整数数组 <code>nums</code> 和一个正整数 <code>k</code> 。</p>
-
-<p>如果满足以下条件，我们称下标 <code>i</code> 为 <strong>k-big</strong> ：</p>
+<p>We call an index <code>i</code> <strong>k-big</strong> if the following conditions are satisfied:</p>
 
 <ul>
-	<li>存在至少 <code>k</code> 个不同的索引 <code>idx1</code> ，满足 <code>idx1 &lt; i</code> 且 <code>nums[idx1] &lt; nums[i]</code> 。</li>
-	<li>存在至少 <code>k</code> 个不同的索引 <code>idx2</code> ，满足 <code>idx2 &gt; i</code> 且 <code>nums[idx2] &lt; nums[i]</code> 。</li>
+	<li>There exist at least <code>k</code> different indices <code>idx1</code> such that <code>idx1 &lt; i</code> and <code>nums[idx1] &lt; nums[i]</code>.</li>
+	<li>There exist at least <code>k</code> different indices <code>idx2</code> such that <code>idx2 &gt; i</code> and <code>nums[idx2] &lt; nums[i]</code>.</li>
 </ul>
 
-<p>返回 k-big 索引的数量。</p>
+<p>Return <em>the number of k-big indices</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1 ：</strong></p>
-
-<pre>
-<b>输入：</b>nums = [2,3,6,5,2,3], k = 2
-<b>输出：</b>2
-<b>解释：</b>在nums中只有两个 2-big 的索引:
-- i = 2 --&gt; 有两个有效的 idx1: 0 和 1。有三个有效的 idx2: 2、3 和 4。
-- i = 3 --&gt; 有两个有效的 idx1: 0 和 1。有两个有效的 idx2: 3 和 4。</pre>
-
-<p><strong class="example">示例 2 ：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [1,1,1], k = 3
-<b>输出：</b>0
-<b>解释：</b>在 nums 中没有 3-big 的索引
+<strong>Input:</strong> nums = [2,3,6,5,2,3], k = 2
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> There are only two 2-big indices in nums:
+- i = 2 --&gt; There are two valid idx1: 0 and 1. There are three valid idx2: 2, 3, and 4.
+- i = 3 --&gt; There are two valid idx1: 0 and 1. There are two valid idx2: 3 and 4.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [1,1,1], k = 3
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There are no 3-big indices in nums.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i], k &lt;= nums.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：树状数组
+### Solution 1: Binary Indexed Tree
 
-我们维护两个树状数组，一个记录当前位置左边小于当前位置的数的个数，另一个记录当前位置右边小于当前位置的数的个数。
+We maintain two binary indexed trees, one records the number of elements smaller than the current position on the left, and the other records the number of elements smaller than the current position on the right.
 
-遍历数组，对于当前位置，如果左边小于当前位置的数的个数大于等于 $k$，且右边小于当前位置的数的个数大于等于 $k$，则当前位置是 $k-big$，答案加一。
+We traverse the array, and for the current position, if the number of elements smaller than the current position on the left is greater than or equal to $k$, and the number of elements smaller than the current position on the right is greater than or equal to $k$, then the current position is a `k-big`, and we increment the answer by one.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为数组长度。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$, where $n$ is the length of the array.
 
 <!-- tabs:start -->
 

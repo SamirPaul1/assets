@@ -1,64 +1,56 @@
-# [2782. 唯一类别的数量](https://leetcode.cn/problems/number-of-unique-categories)
+# [2782. Number of Unique Categories](https://leetcode.com/problems/number-of-unique-categories)
 
-[English Version](/solution/2700-2799/2782.Number%20of%20Unique%20Categories/README_EN.md)
+[中文文档](/solution/2700-2799/2782.Number%20of%20Unique%20Categories/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>n</code> and an object <code>categoryHandler</code> of class <code>CategoryHandler</code>.</p>
 
-<p>现给定一个整数 <code>n</code> 和一个 <code>CategoryHandler</code> 类的对象 <code>categoryHandler</code> 。</p>
+<p>There are <code>n&nbsp;</code>elements, numbered from <code>0</code> to <code>n - 1</code>. Each element has a category, and your task is to find the number of unique categories.</p>
 
-<p>有 <code>n&nbsp;</code> 个元素，编号从 <code>0</code> 到 <code>n - 1</code>。每个元素都有一个类别，你的任务是找出唯一类别的数量。</p>
-
-<p><code>CategoryHandler</code> 类包含以下方法，可能对你有帮助：</p>
+<p>The class <code>CategoryHandler</code> contains the following function, which may help you:</p>
 
 <ul>
-	<li><code>boolean haveSameCategory(integer a, integer b)</code>：如果 <code>a</code> 和 <code>b</code> 属于相同的类别，则返回 <code>true</code>，否则返回 <code>false</code>。同时，如果 <code>a</code> 或 <code>b</code> 不是有效的数字（即大于等于 <code>n</code> 或小于 <code>0</code>），它也会返回 <code>false</code>。</li>
+	<li><code>boolean haveSameCategory(integer a, integer b)</code>: Returns <code>true</code> if <code>a</code> and <code>b</code> are in the same category and <code>false</code> otherwise. Also, if either <code>a</code> or <code>b</code> is not a valid number (i.e. it&#39;s greater than or equal to <code>n</code>or less than <code>0</code>), it returns <code>false</code>.</li>
 </ul>
 
-<p>返回&nbsp;<em>唯一类别的数量</em>。</p>
+<p>Return <em>the number of unique categories.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>n = 6, categoryHandler = [1,1,2,2,3,3]
-<strong>输出：</strong>3
-<b>解释：</b>这个示例中有 6 个元素。前两个元素属于类别 1，接下来两个属于类别 2，最后两个元素属于类别 3。所以有 3 个唯一类别。
+<strong>Input:</strong> n = 6, categoryHandler = [1,1,2,2,3,3]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> There are 6 elements in this example. The first two elements belong to category 1, the second two belong to category 2, and the last two elements belong to category 3. So there are 3 unique categories.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>n = 5, categoryHandler = [1,2,3,4,5]
-<b>输出：</b>5
-<b>解释：</b>这个示例中有 5 个元素。每个元素属于一个唯一的类别。所以有 5 个唯一类别。
+<strong>Input:</strong> n = 5, categoryHandler = [1,2,3,4,5]
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> There are 5 elements in this example. Each element belongs to a unique category. So there are 5 unique categories.
 </pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>n = 3, categoryHandler = [1,1,1]
-<b>输出：</b>1
-<b>解释：</b>这个示例中有 3 个元素。它们全部属于同一个类别。所以只有 1 个唯一类别。
+<strong>Input:</strong> n = 3, categoryHandler = [1,1,1]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There are 3 elements in this example. All of them belong to one category. So there is only 1 unique category.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：并查集
-
-我们用并查集来维护相同类别的元素，接下来枚举所有的元素对，如果两个元素属于相同的类别，那么就将它们合并到同一个集合中。最后统计并查集中有多少个集合，就是答案。
-
-时间复杂度 $(n^2 \times \alpha(n))$，空间复杂度 $O(n)$。其中 $n$ 是元素的个数，而 $\alpha$ 是阿克曼函数的反函数。
+### Solution 1
 
 <!-- tabs:start -->
 

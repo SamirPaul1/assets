@@ -1,68 +1,64 @@
-# [2862. 完全子集的最大元素和](https://leetcode.cn/problems/maximum-element-sum-of-a-complete-subset-of-indices)
+# [2862. Maximum Element-Sum of a Complete Subset of Indices](https://leetcode.com/problems/maximum-element-sum-of-a-complete-subset-of-indices)
 
-[English Version](/solution/2800-2899/2862.Maximum%20Element-Sum%20of%20a%20Complete%20Subset%20of%20Indices/README_EN.md)
+[中文文档](/solution/2800-2899/2862.Maximum%20Element-Sum%20of%20a%20Complete%20Subset%20of%20Indices/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>1</strong><strong>-indexed</strong> array <code>nums</code> of <code>n</code> integers.</p>
 
-<p>给你一个下标从 <strong>1</strong> 开始、由 <code>n</code> 个整数组成的数组。</p>
+<p>A set of numbers is <strong>complete</strong> if the product of every pair of its elements is a perfect square.</p>
 
-<p>如果一组数字中每对元素的乘积都是一个完全平方数，则称这组数字是一个 <strong>完全集</strong> 。</p>
+<p>For a subset of the indices set <code>{1, 2, ..., n}</code> represented as <code>{i<sub>1</sub>, i<sub>2</sub>, ..., i<sub>k</sub>}</code>, we define its <strong>element-sum</strong> as: <code>nums[i<sub>1</sub>] + nums[i<sub>2</sub>] + ... + nums[i<sub>k</sub>]</code>.</p>
 
-<p>下标集 <code>{1, 2, ..., n}</code> 的子集可以表示为 <code>{i<sub>1</sub>, i<sub>2</sub>, ..., i<sub>k</sub>}</code>，我们定义对应该子集的 <strong>元素和</strong> 为 <code>nums[i<sub>1</sub>] + nums[i<sub>2</sub>] + ... + nums[i<sub>k</sub>]</code> 。</p>
+<p>Return <em>the <strong>maximum element-sum</strong> of a <strong>complete</strong> subset of the indices set</em> <code>{1, 2, ..., n}</code>.</p>
 
-<p>返回下标集&nbsp;<code>{1, 2, ..., n}</code> 的 <strong>完全子集</strong> 所能取到的 <strong>最大元素和</strong> 。</p>
-
-<p>完全平方数是指可以表示为一个整数和其自身相乘的数。</p>
+<p>A perfect square is a number that can be expressed as the product of an integer by itself.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [8,7,3,5,7,2,4,9]
-<strong>输出：</strong>16
-<strong>解释：</strong>除了由单个下标组成的子集之外，还有两个下标集的完全子集：{1,4} 和 {2,8} 。
-与下标 1 和 4 对应的元素和等于 nums[1] + nums[4] = 8 + 5 = 13 。
-与下标 2 和 8 对应的元素和等于 nums[2] + nums[8] = 7 + 9 = 16 。
-因此，下标集的完全子集可以取到的最大元素和为 16 。
+<strong>Input:</strong> nums = [8,7,3,5,7,2,4,9]
+<strong>Output:</strong> 16
+<strong>Explanation:</strong> Apart from the subsets consisting of a single index, there are two other complete subsets of indices: {1,4} and {2,8}.
+The sum of the elements corresponding to indices 1 and 4 is equal to nums[1] + nums[4] = 8 + 5 = 13.
+The sum of the elements corresponding to indices 2 and 8 is equal to nums[2] + nums[8] = 7 + 9 = 16.
+Hence, the maximum element-sum of a complete subset of indices is 16.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [5,10,3,10,1,13,7,9,4]
-<strong>输出：</strong>19
-<strong>解释：</strong>除了由单个下标组成的子集之外，还有四个下标集的完全子集：{1,4}、{1,9}、{2,8}、{4,9} 和 {1,4,9} 。 
-与下标 1 和 4 对应的元素和等于 nums[1] + nums[4] = 5 + 10 = 15 。 
-与下标 1 和 9 对应的元素和等于 nums[1] + nums[9] = 5 + 4 = 9 。 
-与下标 2 和 8 对应的元素和等于 nums[2] + nums[8] = 10 + 9 = 19 。
-与下标 4 和 9 对应的元素和等于 nums[4] + nums[9] = 10 + 4 = 14 。 
-与下标 1、4 和 9 对应的元素和等于 nums[1] + nums[4] + nums[9] = 5 + 10 + 4 = 19 。 
-因此，下标集的完全子集可以取到的最大元素和为 19 。
+<strong>Input:</strong> nums = [5,10,3,10,1,13,7,9,4]
+<strong>Output:</strong> 19
+<strong>Explanation:</strong> Apart from the subsets consisting of a single index, there are four other complete subsets of indices: {1,4}, {1,9}, {2,8}, {4,9}, and {1,4,9}.
+The sum of the elements corresponding to indices 1 and 4 is equal to nums[1] + nums[4] = 5 + 10 = 15.
+The sum of the elements corresponding to indices 1 and 9 is equal to nums[1] + nums[9] = 5 + 4 = 9.
+The sum of the elements corresponding to indices 2 and 8 is equal to nums[2] + nums[8] = 10 + 9 = 19.
+The sum of the elements corresponding to indices 4 and 9 is equal to nums[4] + nums[9] = 10 + 4 = 14.
+The sum of the elements corresponding to indices 1, 4, and 9 is equal to nums[1] + nums[4] + nums[9] = 5 + 10 + 4 = 19.
+Hence, the maximum element-sum of a complete subset of indices is 19.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n == nums.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
+### Solution 1: Enumeration
 
-我们注意到，如果一个数字可以表示成 $k \times j^2$ 的形式，那么所有该形式的数字的 $k$ 是相同的。
+We note that if a number can be expressed in the form of $k \times j^2$, then all numbers of this form have the same $k$.
 
-因此，我们可以在 $[1,..n]$ 范围内枚举 $k$，然后从 $1$ 开始枚举 $j$，每一次累加 $nums[k \times j^2 - 1]$ 的值到 $t$ 中，直到 $k \times j^2 > n$。此时更新答案为 $ans = \max(ans, t)$。
+Therefore, we can enumerate $k$ in the range $[1,..n]$, and then start enumerating $j$ from $1$, each time adding the value of $nums[k \times j^2 - 1]$ to $t$, until $k \times j^2 > n$. At this point, update the answer to $ans = \max(ans, t)$.
 
-最后返回答案 $ans$ 即可。
+Finally, return the answer $ans$.
 
-时间复杂度 $O(n)$，其中 $n$ 是数组的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -86,23 +82,6 @@ class Solution {
     public long maximumSum(List<Integer> nums) {
         long ans = 0;
         int n = nums.size();
-        for (int k = 1; k <= n; ++k) {
-            long t = 0;
-            for (int j = 1; k * j * j <= n; ++j) {
-                t += nums.get(k * j * j - 1);
-            }
-            ans = Math.max(ans, t);
-        }
-        return ans;
-    }
-}
-```
-
-```java
-class Solution {
-    public long maximumSum(List<Integer> nums) {
-        long ans = 0;
-        int n = nums.size();
         boolean[] used = new boolean[n + 1];
         int bound = (int) Math.floor(Math.sqrt(n));
         int[] squares = new int[bound + 1];
@@ -118,6 +97,23 @@ class Solution {
                 curr = i * squares[++idx];
             }
             ans = Math.max(ans, res);
+        }
+        return ans;
+    }
+}
+```
+
+```java
+class Solution {
+    public long maximumSum(List<Integer> nums) {
+        long ans = 0;
+        int n = nums.size();
+        for (int k = 1; k <= n; ++k) {
+            long t = 0;
+            for (int j = 1; k * j * j <= n; ++j) {
+                t += nums.get(k * j * j - 1);
+            }
+            ans = Math.max(ans, t);
         }
         return ans;
     }

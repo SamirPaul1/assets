@@ -1,12 +1,10 @@
-# [1843. 可疑银行账户](https://leetcode.cn/problems/suspicious-bank-accounts)
+# [1843. Suspicious Bank Accounts](https://leetcode.com/problems/suspicious-bank-accounts)
 
-[English Version](/solution/1800-1899/1843.Suspicious%20Bank%20Accounts/README_EN.md)
+[中文文档](/solution/1800-1899/1843.Suspicious%20Bank%20Accounts/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Accounts</code></p>
+<p>Table: <code>Accounts</code></p>
 
 <pre>
 +----------------+------+
@@ -15,13 +13,13 @@
 | account_id     | int  |
 | max_income     | int  |
 +----------------+------+
-account_id 是这张表具有唯一值的列。
-每行包含一个银行账户每月最大收入的信息。
+account_id is the column with unique values for this table.
+Each row contains information about the maximum monthly income for one bank account.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Transactions</code></p>
+<p>Table: <code>Transactions</code></p>
 
 <pre>
 +----------------+----------+
@@ -33,36 +31,35 @@ account_id 是这张表具有唯一值的列。
 | amount         | int      |
 | day            | datetime |
 +----------------+----------+
-transaction_id 是这张表具有唯一值的列。
-每行包含一条转账信息。
-type 是枚举类型（包含'Creditor','Debtor'），其中 'Creditor' 表示用户向其账户存入资金，'Debtor' 表示用户从其账户取出资金。
-amount 是交易过程中的存入/取出的金额。
+transaction_id is the column with unique values for this table.
+Each row contains information about one transaction.
+type is ENUM (category) type of (&#39;Creditor&#39;,&#39;Debtor&#39;) where &#39;Creditor&#39; means the user deposited money into their account and &#39;Debtor&#39; means the user withdrew money from their account.
+amount is the amount of money deposited/withdrawn during the transaction.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>如果一个账户在&nbsp;<strong>连续两个及以上&nbsp;</strong>月份的&nbsp;<strong>总收入&nbsp;</strong>超过最大收入（<code>max_income</code>），那么认为这个账户&nbsp;<strong>可疑</strong>。&nbsp; 账户当月&nbsp;<strong>总收入&nbsp;</strong>是当月存入资金总数（即 transactions 表中 type 字段的&nbsp;<code>'Creditor'</code>）。</p>
+<p>A bank account is <strong>suspicious</strong> if the <strong>total income</strong> exceeds the <code>max_income</code> for this account for <strong>two or more consecutive</strong> months. The <strong>total income</strong> of an account in some month is the sum of all its deposits in that month (i.e., transactions of the type <code>&#39;Creditor&#39;</code>).</p>
 
-<p>编写一个解决方案，报告所有的&nbsp;<strong>可疑&nbsp;</strong>账户。</p>
+<p>Write a solution to report the IDs of all <strong>suspicious</strong> bank accounts.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表</p>
+<p>Return the result table <strong>in any order</strong>.</p>
 
-<p>返回结果格式如下示例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Accounts 表:
+<strong>Input:</strong> 
+Accounts table:
 +------------+------------+
 | account_id | max_income |
 +------------+------------+
 | 3          | 21000      |
 | 4          | 10400      |
 +------------+------------+
-Transactions 表:
+Transactions table:
 +----------------+------------+----------+--------+---------------------+
 | transaction_id | account_id | type     | amount | day                 |
 +----------------+------------+----------+--------+---------------------+
@@ -77,27 +74,28 @@ Transactions 表:
 | 8              | 3          | Creditor | 64900  | 2021-07-26 15:09:56 |
 | 7              | 3          | Creditor | 90900  | 2021-06-14 11:23:07 |
 +----------------+------------+----------+--------+---------------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+
 | account_id |
 +------------+
 | 3          |
 +------------+
-<strong>解释：</strong>
-对于账户 3：
-- 在 2021年6月，用户收入为 107100 + 102100 + 90900 = 300100。
-- 在 2021年7月，用户收入为 64900。
-可见收入连续两月超过21000的最大收入，因此账户3列入结果表中。
+<strong>Explanation:</strong> 
+For account 3:
+- In 6-2021, the user had an income of 107100 + 102100 + 90900 = 300100.
+- In 7-2021, the user had an income of 64900.
+We can see that the income exceeded the max income of 21000 for two consecutive months, so we include 3 in the result table.
 
-对于账户 4：
-- 在 2021年5月，用户收入为 49300。
-- 在 2021年6月，用户收入为 10400。
-- 在 2021年7月，用户收入为 56300。
-可见收入在5月与7月超过了最大收入，但6月没有。因为账户没有没有连续两月超过最大收入，账户4不列入结果表中。</pre>
+For account 4:
+- In 5-2021, the user had an income of 49300.
+- In 6-2021, the user had an income of 10400.
+- In 7-2021, the user had an income of 56300.
+We can see that the income exceeded the max income in May and July, but not in June. Since the account did not exceed the max income for two consecutive months, we do not include it in the result table.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -127,7 +125,7 @@ ORDER BY s1.tx;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

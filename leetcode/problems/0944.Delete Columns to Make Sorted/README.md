@@ -1,75 +1,76 @@
-# [944. 删列造序](https://leetcode.cn/problems/delete-columns-to-make-sorted)
+# [944. Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted)
 
-[English Version](/solution/0900-0999/0944.Delete%20Columns%20to%20Make%20Sorted/README_EN.md)
+[中文文档](/solution/0900-0999/0944.Delete%20Columns%20to%20Make%20Sorted/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array of <code>n</code> strings <code>strs</code>, all of the same length.</p>
 
-<p>给你由 <code>n</code> 个小写字母字符串组成的数组 <code>strs</code>，其中每个字符串长度相等。</p>
+<p>The strings can be arranged such that there is one on each line, making a grid.</p>
 
-<p>这些字符串可以每个一行，排成一个网格。例如，<code>strs = ["abc", "bce", "cae"]</code> 可以排列为：</p>
+<ul>
+	<li>For example, <code>strs = [&quot;abc&quot;, &quot;bce&quot;, &quot;cae&quot;]</code> can be arranged as follows:</li>
+</ul>
 
 <pre>
 abc
 bce
-cae</pre>
+cae
+</pre>
 
-<p>你需要找出并删除 <strong>不是按字典序非严格递增排列的</strong> 列。在上面的例子（下标从 0 开始）中，列 0（<code>'a'</code>, <code>'b'</code>, <code>'c'</code>）和列 2（<code>'c'</code>, <code>'e'</code>, <code>'e'</code>）都是按字典序非严格递增排列的，而列 1（<code>'b'</code>, <code>'c'</code>, <code>'a'</code>）不是，所以要删除列 1 。</p>
+<p>You want to <strong>delete</strong> the columns that are <strong>not sorted lexicographically</strong>. In the above example (<strong>0-indexed</strong>), columns 0 (<code>&#39;a&#39;</code>, <code>&#39;b&#39;</code>, <code>&#39;c&#39;</code>) and 2 (<code>&#39;c&#39;</code>, <code>&#39;e&#39;</code>, <code>&#39;e&#39;</code>) are sorted, while column 1 (<code>&#39;b&#39;</code>, <code>&#39;c&#39;</code>, <code>&#39;a&#39;</code>) is not, so you would delete column 1.</p>
 
-<p>返回你需要删除的列数。</p>
+<p>Return <em>the number of columns that you will delete</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>strs = ["cba","daf","ghi"]
-<strong>输出：</strong>1
-<strong>解释：</strong>网格示意如下：
+<strong>Input:</strong> strs = [&quot;cba&quot;,&quot;daf&quot;,&quot;ghi&quot;]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The grid looks as follows:
   cba
   daf
   ghi
-列 0 和列 2 按升序排列，但列 1 不是，所以只需要删除列 1 。
+Columns 0 and 2 are sorted, but column 1 is not, so you only need to delete 1 column.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>strs = ["a","b"]
-<strong>输出：</strong>0
-<strong>解释：</strong>网格示意如下：
+<strong>Input:</strong> strs = [&quot;a&quot;,&quot;b&quot;]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> The grid looks as follows:
   a
   b
-只有列 0 这一列，且已经按升序排列，所以不用删除任何列。
+Column 0 is the only column and is sorted, so you will not delete any columns.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>strs = ["zyx","wvu","tsr"]
-<strong>输出：</strong>3
-<strong>解释：</strong>网格示意如下：
+<strong>Input:</strong> strs = [&quot;zyx&quot;,&quot;wvu&quot;,&quot;tsr&quot;]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The grid looks as follows:
   zyx
   wvu
   tsr
-所有 3 列都是非升序排列的，所以都要删除。
+All 3 columns are not sorted, so you will delete all 3.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == strs.length</code></li>
 	<li><code>1 &lt;= n &lt;= 100</code></li>
 	<li><code>1 &lt;= strs[i].length &lt;= 1000</code></li>
-	<li><code>strs[i]</code> 由小写英文字母组成</li>
+	<li><code>strs[i]</code> consists of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

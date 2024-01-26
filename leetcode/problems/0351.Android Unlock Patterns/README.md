@@ -1,91 +1,61 @@
-# [351. 安卓系统手势解锁](https://leetcode.cn/problems/android-unlock-patterns)
+# [351. Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns)
 
-[English Version](/solution/0300-0399/0351.Android%20Unlock%20Patterns/README_EN.md)
+[中文文档](/solution/0300-0399/0351.Android%20Unlock%20Patterns/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>我们都知道安卓有个手势解锁的界面，是一个&nbsp;<code>3 x 3</code><strong> </strong>的点所绘制出来的网格。用户可以设置一个 “解锁模式” ，通过连接特定序列中的点，形成一系列彼此连接的线段，每个线段的端点都是序列中两个连续的点。如果满足以下两个条件，则 <code>k</code> 点序列是有效的解锁模式：</p>
+<p>Android devices have a special lock screen with a <code>3 x 3</code> grid of dots. Users can set an &quot;unlock pattern&quot; by connecting the dots in a specific sequence, forming a series of joined line segments where each segment&#39;s endpoints are two consecutive dots in the sequence. A sequence of <code>k</code> dots is a <strong>valid</strong> unlock pattern if both of the following are true:</p>
 
 <ul>
-	<li>解锁模式中的所有点 <strong>互不相同</strong> 。</li>
-	<li>假如模式中两个连续点的线段需要经过其他点的 <strong>中心</strong> ，那么要经过的点 <strong>必须提前出现</strong> 在序列中（已经经过），不能跨过任何还未被经过的点。
+	<li>All the dots in the sequence are <strong>distinct</strong>.</li>
+	<li>If the line segment connecting two consecutive dots in the sequence passes through the <strong>center</strong> of any other dot, the other dot <strong>must have previously appeared</strong> in the sequence. No jumps through the center non-selected dots are allowed.
 	<ul>
-		<li>例如，点 <code>5</code> 或 <code>6</code>&nbsp;没有提前出现的情况下连接点 <code>2</code>&nbsp;和 <code>9</code>&nbsp;是有效的，因为从点 <code>2</code> 到点 <code>9</code> 的线没有穿过点 <code>5</code> 或 <code>6</code> 的中心。</li>
-		<li>然而，点 <code>2</code> 没有提前出现的情况下连接点 <code>1</code> 和&nbsp;<code>3</code>&nbsp;是无效的，因为从圆点 <code>1</code> 到圆点 <code>3</code> 的直线穿过圆点 <code>2</code> 的中心。</li>
+		<li>For example, connecting dots <code>2</code> and <code>9</code> without dots <code>5</code> or <code>6</code> appearing beforehand is valid because the line from dot <code>2</code> to dot <code>9</code> does not pass through the center of either dot <code>5</code> or <code>6</code>.</li>
+		<li>However, connecting dots <code>1</code> and <code>3</code> without dot <code>2</code> appearing beforehand is invalid because the line from dot <code>1</code> to dot <code>3</code> passes through the center of dot <code>2</code>.</li>
 	</ul>
 	</li>
 </ul>
 
-<p>以下是一些有效和无效解锁模式的示例：</p>
+<p>Here are some example valid and invalid unlock patterns:</p>
 
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0351.Android%20Unlock%20Patterns/images/android-unlock.png" /></p>
+<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0351.Android%20Unlock%20Patterns/images/android-unlock.png" style="width: 418px; height: 128px;" /></p>
 
 <ul>
-	<li><strong>无效手势：</strong><code>[4,1,3,6]</code> ，连接点 1 和点&nbsp;3 时经过了未被连接过的&nbsp;2 号点。</li>
-	<li><strong>无效手势：</strong><code>[4,1,9,2]</code> ，连接点 1 和点 9 时经过了未被连接过的 5&nbsp;号点。</li>
-	<li><strong>有效手势：</strong><code>[2,4,1,3,6]</code> ，连接点 1 和点&nbsp;3 是有效的，因为虽然它经过了点&nbsp;2 ，但是点 2 在该手势中之前已经被连过了。</li>
-	<li><strong>有效手势：</strong><code>[6,5,4,1,9,2]</code> ，连接点 1 和点&nbsp;9 是有效的，因为虽然它经过了按键 5 ，但是点&nbsp;5 在该手势中之前已经被连过了。</li>
+	<li>The 1st pattern <code>[4,1,3,6]</code> is invalid because the line connecting dots <code>1</code> and <code>3</code> pass through dot <code>2</code>, but dot <code>2</code> did not previously appear in the sequence.</li>
+	<li>The 2nd pattern <code>[4,1,9,2]</code> is invalid because the line connecting dots <code>1</code> and <code>9</code> pass through dot <code>5</code>, but dot <code>5</code> did not previously appear in the sequence.</li>
+	<li>The 3rd pattern <code>[2,4,1,3,6]</code> is valid because it follows the conditions. The line connecting dots <code>1</code> and <code>3</code> meets the condition because dot <code>2</code> previously appeared in the sequence.</li>
+	<li>The 4th pattern <code>[6,5,4,1,9,2]</code> is valid because it follows the conditions. The line connecting dots <code>1</code> and <code>9</code> meets the condition because dot <code>5</code> previously appeared in the sequence.</li>
 </ul>
 
-<p>给你两个整数，分别为 ​​<code>m</code> 和 <code>n</code> ，那么请返回有多少种 <strong>不同且有效的解锁模式 </strong>，是 <strong>至少</strong> 需要经过 <code>m</code> 个点，但是 <strong>不超过</strong> <code>n</code> 个点的。</p>
+<p>Given two integers <code>m</code> and <code>n</code>, return <em>the <strong>number of unique and valid unlock patterns</strong> of the Android grid lock screen that consist of <strong>at least</strong> </em><code>m</code><em> keys and <strong>at most</strong> </em><code>n</code><em> keys.</em></p>
 
-<p>两个解锁模式 <strong>不同</strong> 需满足：经过的点不同或者经过点的顺序不同。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>m = 1, n = 1
-<strong>输出：</strong>9
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>m = 1, n = 2
-<strong>输出：</strong>65
-</pre>
+<p>Two unlock patterns are considered <strong>unique</strong> if there is a dot in one sequence that is not in the other, or the order of the dots is different.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> m = 1, n = 1
+<strong>Output:</strong> 9
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> m = 1, n = 2
+<strong>Output:</strong> 65
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= m, n &lt;= 9</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
-
-我们定义一个二维数组 $cross$，其中 $cross[i][j]$ 表示数字 $i$ 和数字 $j$ 之间是否有中间数字，如果有则 $cross[i][j]$ 的值为中间数字，否则为 $0$。
-
-我们还需要一个一维数组 $vis$，用来记录数字是否被使用过。
-
-由于数字 $1$, $3$, $7$, $9$ 是对称的，因此我们只需要计算数字 $1$ 的情况，然后乘以 $4$ 即可。
-
-由于数字 $2$, $4$, $6$, $8$ 也是对称的，因此我们只需要计算数字 $2$ 的情况，然后乘以 $4$ 即可。
-
-最后我们再计算数字 $5$ 的情况。
-
-我们设计一个函数 $dfs(i, cnt)$，表示当前位于数字 $i$，且已经选了 $cnt$ 个数字的情况下，有多少种解锁模式。
-
-函数 $dfs(i, cnt)$ 的执行过程如下：
-
-如果 $cnt \gt n$，说明当前选中的数字个数超过了 $n$，直接返回 $0$。
-
-否则，我们将数字 $i$ 标记为已使用，然后初始化答案 $ans$ 为 $0$。如果 $cnt \ge m$，说明当前选中的数字个数不少于 $m$，那么答案 $ans$ 就需要加 $1$。
-
-接下来，我们枚举下一个数字 $j$，如果数字 $j$ 没有被使用过，且数字 $i$ 和数字 $j$ 之间没有中间数字，或者数字 $i$ 和数字 $j$ 之间的中间数字已经被使用过，那么我们就可以从数字 $j$ 出发，继续搜索，此时答案 $ans$ 需要加上 $dfs(j, cnt + 1)$ 的返回值。
-
-最后，我们将数字 $i$ 标记为未使用，然后返回答案 $ans$。
-
-最终的答案即为 $dfs(1, 1) \times 4 + dfs(2, 1) \times 4 + dfs(5, 1)$。
-
-时间复杂度 $O(n!)$，空间复杂度 $O(n)$。其中 $n$ 是手势的最大长度。
+### Solution 1
 
 <!-- tabs:start -->
 

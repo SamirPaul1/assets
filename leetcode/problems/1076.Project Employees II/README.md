@@ -1,12 +1,10 @@
-# [1076. 项目员工 II](https://leetcode.cn/problems/project-employees-ii)
+# [1076. Project Employees II](https://leetcode.com/problems/project-employees-ii)
 
-[English Version](/solution/1000-1099/1076.Project%20Employees%20II/README_EN.md)
+[中文文档](/solution/1000-1099/1076.Project%20Employees%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Project</code></p>
+<p>Table: <code>Project</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,12 +13,14 @@
 | project_id  | int     |
 | employee_id | int     |
 +-------------+---------+
-(project_id, employee_id) 是该表的主键(具有唯一值的列的组合)。
-employee_id 是该表的外键(reference 列)。
-该表的每一行都表明 employee_id 的雇员正在处理 Project 表中 project_id 的项目。
+(project_id, employee_id) is the primary key (combination of columns with unique values) of this table.
+employee_id is a foreign key (reference column) to <code>Employee</code> table.
+Each row of this table indicates that the employee with employee_id is working on the project with project_id.
 </pre>
 
-<p>表：<code>Employee</code></p>
+<p>&nbsp;</p>
+
+<p>Table: <code>Employee</code></p>
 
 <pre>
 +------------------+---------+
@@ -30,23 +30,23 @@ employee_id 是该表的外键(reference 列)。
 | name             | varchar |
 | experience_years | int     |
 +------------------+---------+
-employee_id 是该表的主键(具有唯一值的列)。
-该表的每一行都包含一名雇员的信息。</pre>
+employee_id is the primary key (column with unique values) of this table.
+Each row of this table contains information about one employee.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>编写一个解决方案来报告所有拥有最多员工的 <strong>项目</strong>。</p>
+<p>Write a solution to report all the <strong>projects</strong> that have the most employees.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Project table:
 +-------------+-------------+
 | project_id  | employee_id |
@@ -66,18 +66,18 @@ Employee table:
 | 3           | John   | 1                |
 | 4           | Doe    | 2                |
 +-------------+--------+------------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------------+
 | project_id  |
 +-------------+
 | 1           |
 +-------------+
-<strong>解释：</strong>
-第一个项目有3名员工，第二个项目有2名员工。</pre>
+<strong>Explanation:</strong> The first project has 3 employees while the second one has 2.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -96,7 +96,7 @@ HAVING
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

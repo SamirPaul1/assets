@@ -1,12 +1,10 @@
-# [1435. 制作会话柱状图](https://leetcode.cn/problems/create-a-session-bar-chart)
+# [1435. Create a Session Bar Chart](https://leetcode.com/problems/create-a-session-bar-chart)
 
-[English Version](/solution/1400-1499/1435.Create%20a%20Session%20Bar%20Chart/README_EN.md)
+[中文文档](/solution/1400-1499/1435.Create%20a%20Session%20Bar%20Chart/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Sessions</code></p>
+<p>Table: <code>Sessions</code></p>
 
 <pre>
 +---------------------+---------+
@@ -15,27 +13,26 @@
 | session_id          | int     |
 | duration            | int     |
 +---------------------+---------+
-session_id 是该表主键
-duration 是用户访问应用的时间, 以秒为单位
+session_id is the column of unique values for this table.
+duration is the time in seconds that a user has visited the application.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>你想知道用户在你的 app 上的访问时长情况。因此你决定统计访问时长区间分别为 <code>"[0-5&gt;"</code>，<code>"[5-10&gt;"</code>，<code>"[10-15&gt;"</code>&nbsp;和&nbsp;<code>"15&nbsp;minutes&nbsp;or more"</code>&nbsp;的会话数量，并以此绘制柱状图。</p>
+<p>You want to know how long a user visits your application. You decided to create bins of <code>&quot;[0-5&gt;&quot;</code>, <code>&quot;[5-10&gt;&quot;</code>, &quot;[10-15&gt;&quot;, and <code>&quot;15 minutes or more&quot;</code> and count the number of sessions on it.</p>
 
-<p>写一个解决方案来报告 <code>(bin, total)</code> 。</p>
+<p>Write a solution to report the <code>(bin, total)</code>.</p>
 
-<p>返回结果 <strong>无顺序要求</strong> 。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Sessions 表：
+<strong>Input:</strong> 
+Sessions table:
 +-------------+---------------+
 | session_id  | duration      |
 +-------------+---------------+
@@ -45,7 +42,7 @@ Sessions 表：
 | 4           | 580           |
 | 5           | 1000          |
 +-------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +--------------+--------------+
 | bin          | total        |
 +--------------+--------------+
@@ -54,16 +51,16 @@ Sessions 表：
 | [10-15&gt;      | 0            |
 | 15 or more   | 1            |
 +--------------+--------------+
-<strong>解释：</strong>
-对于 session_id 1，2 和 3 ，它们的访问时间大于等于 0 分钟且小于 5 分钟。
-对于 session_id 4，它的访问时间大于等于 5 分钟且小于 10 分钟。
-没有会话的访问时间大于等于 10 分钟且小于 15 分钟。
-对于 session_id 5, 它的访问时间大于等于 15 分钟。
+<strong>Explanation:</strong> 
+For session_id 1, 2, and 3 have a duration greater or equal than 0 minutes and less than 5 minutes.
+For session_id 4 has a duration greater or equal than 5 minutes and less than 10 minutes.
+There is no session with a duration greater than or equal to 10 minutes and less than 15 minutes.
+For session_id 5 has a duration greater than or equal to 15 minutes.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

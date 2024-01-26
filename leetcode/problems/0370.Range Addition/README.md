@@ -1,47 +1,43 @@
-# [370. 区间加法](https://leetcode.cn/problems/range-addition)
+# [370. Range Addition](https://leetcode.com/problems/range-addition)
 
-[English Version](/solution/0300-0399/0370.Range%20Addition/README_EN.md)
+[中文文档](/solution/0300-0399/0370.Range%20Addition/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer <code>length</code> and an array <code>updates</code> where <code>updates[i] = [startIdx<sub>i</sub>, endIdx<sub>i</sub>, inc<sub>i</sub>]</code>.</p>
 
-<p>假设你有一个长度为&nbsp;<em><strong>n</strong></em>&nbsp;的数组，初始情况下所有的数字均为&nbsp;<strong>0</strong>，你将会被给出&nbsp;<em><strong>k</strong></em>​​​​​​<em>​</em> 个更新的操作。</p>
+<p>You have an array <code>arr</code> of length <code>length</code> with all zeros, and you have some operation to apply on <code>arr</code>. In the <code>i<sup>th</sup></code> operation, you should increment all the elements <code>arr[startIdx<sub>i</sub>], arr[startIdx<sub>i</sub> + 1], ..., arr[endIdx<sub>i</sub>]</code> by <code>inc<sub>i</sub></code>.</p>
 
-<p>其中，每个操作会被表示为一个三元组：<strong>[startIndex, endIndex, inc]</strong>，你需要将子数组&nbsp;<strong>A[startIndex ... endIndex]</strong>（包括 startIndex 和 endIndex）增加&nbsp;<strong>inc</strong>。</p>
+<p>Return <code>arr</code> <em>after applying all the</em> <code>updates</code>.</p>
 
-<p>请你返回&nbsp;<strong><em>k</em></strong>&nbsp;次操作后的数组。</p>
-
-<p><strong>示例:</strong></p>
-
-<pre><strong>输入: </strong>length = 5, updates = [[1,3,2],[2,4,3],[0,2,-2]]
-<strong>输出: </strong>[-2,0,3,5,3]
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0370.Range%20Addition/images/rangeadd-grid.jpg" style="width: 413px; height: 573px;" />
+<pre>
+<strong>Input:</strong> length = 5, updates = [[1,3,2],[2,4,3],[0,2,-2]]
+<strong>Output:</strong> [-2,0,3,5,3]
 </pre>
 
-<p><strong>解释:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre>初始状态:
-[0,0,0,0,0]
-
-进行了操作 [1,3,2] 后的状态:
-[0,2,2,2,0]
-
-进行了操作 [2,4,3] 后的状态:
-[0,2,5,5,3]
-
-进行了操作 [0,2,-2] 后的状态:
-[-2,0,3,5,3]
+<pre>
+<strong>Input:</strong> length = 10, updates = [[2,4,6],[5,6,8],[1,9,-4]]
+<strong>Output:</strong> [0,-4,2,2,2,4,4,-4,-4,-4]
 </pre>
 
-## 解法
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-### 方法一：差分数组
+<ul>
+	<li><code>1 &lt;= length &lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= updates.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>0 &lt;= startIdx<sub>i</sub> &lt;= endIdx<sub>i</sub> &lt; length</code></li>
+	<li><code>-1000 &lt;= inc<sub>i</sub> &lt;= 1000</code></li>
+</ul>
 
-差分数组模板题。
+## Solutions
 
-我们定义 $d$ 为差分数组。给区间 $[l,..r]$ 中的每一个数加上 $c$，那么有 $d[l] += c$，并且 $d[r+1] -= c$。最后我们对差分数组求前缀和，即可得到原数组。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -131,16 +127,7 @@ var getModifiedArray = function (length, updates) {
 
 <!-- tabs:end -->
 
-### 方法二：树状数组 + 差分思想
-
-时间复杂度 $O(n\times \log n)$。
-
-树状数组，也称作“二叉索引树”（Binary Indexed Tree）或 Fenwick 树。 它可以高效地实现如下两个操作：
-
-1. **单点更新** `update(x, delta)`： 把序列 $x$ 位置的数加上一个值 $delta$；
-1. **前缀和查询** `query(x)`：查询序列 $[1,...x]$ 区间的区间和，即位置 $x$ 的前缀和。
-
-这两个操作的时间复杂度均为 $O(\log n)$。
+### Solution 2
 
 <!-- tabs:start -->
 

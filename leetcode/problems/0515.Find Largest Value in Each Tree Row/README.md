@@ -1,47 +1,37 @@
-# [515. 在每个树行中找最大值](https://leetcode.cn/problems/find-largest-value-in-each-tree-row)
+# [515. Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row)
 
-[English Version](/solution/0500-0599/0515.Find%20Largest%20Value%20in%20Each%20Tree%20Row/README_EN.md)
+[中文文档](/solution/0500-0599/0515.Find%20Largest%20Value%20in%20Each%20Tree%20Row/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一棵二叉树的根节点&nbsp;<code>root</code> ，请找出该二叉树中每一层的最大值。</p>
+<p>Given the <code>root</code> of a binary tree, return <em>an array of the largest value in each row</em> of the tree <strong>(0-indexed)</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0515.Find%20Largest%20Value%20in%20Each%20Tree%20Row/images/largest_e1.jpg" style="height: 172px; width: 300px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0515.Find%20Largest%20Value%20in%20Each%20Tree%20Row/images/largest_e1.jpg" style="width: 300px; height: 172px;" />
 <pre>
-<strong>输入: </strong>root = [1,3,2,5,3,null,9]
-<strong>输出: </strong>[1,3,9]
+<strong>Input:</strong> root = [1,3,2,5,3,null,9]
+<strong>Output:</strong> [1,3,9]
 </pre>
 
-<p><strong>示例2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入: </strong>root = [1,2,3]
-<strong>输出: </strong>[1,3]
+<strong>Input:</strong> root = [1,2,3]
+<strong>Output:</strong> [1,3]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>二叉树的节点个数的范围是 <code>[0,10<sup>4</sup>]</code></li>
-	<li><meta charset="UTF-8" /><code>-2<sup>31</sup>&nbsp;&lt;= Node.val &lt;= 2<sup>31</sup>&nbsp;- 1</code></li>
+	<li>The number of nodes in the tree will be in the range <code>[0, 10<sup>4</sup>]</code>.</li>
+	<li><code>-2<sup>31</sup> &lt;= Node.val &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
 
-<p>&nbsp;</p>
+## Solutions
 
-## 解法
-
-### 方法一：BFS
-
-BFS 找每一层最大的节点值。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -269,9 +259,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：DFS
-
-DFS 先序遍历，找每个深度最大的节点值。
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,55 +1,54 @@
-# [615. 平均工资：部门与公司比较](https://leetcode.cn/problems/average-salary-departments-vs-company)
+# [615. Average Salary Departments VS Company](https://leetcode.com/problems/average-salary-departments-vs-company)
 
-[English Version](/solution/0600-0699/0615.Average%20Salary%20Departments%20VS%20Company/README_EN.md)
+[中文文档](/solution/0600-0699/0615.Average%20Salary%20Departments%20VS%20Company/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Salary</code></p>
+<p>Table: <code>Salary</code></p>
 
 <pre>
 +-------------+------+
-| 列名        | 类型 |
+| Column Name | Type |
 +-------------+------+
 | id          | int  |
 | employee_id | int  |
 | amount      | int  |
 | pay_date    | date |
 +-------------+------+
-在 SQL 中，id 是该表的主键列。
-该表的每一行表示一个员工一个月的薪资。
-employee_id 是来自 Employee 表的外键（reference 列）。</pre>
+In SQL, id is the primary key column for this table.
+Each row of this table indicates the salary of an employee in one month.
+employee_id is a foreign key (reference column) from the Employee table.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>表：&nbsp;<code>Employee</code></p>
+<p>Table: <code>Employee</code></p>
 
 <pre>
 +---------------+------+
-| 列名          | 类型 |
+| Column Name   | Type |
 +---------------+------+
 | employee_id   | int  |
 | department_id | int  |
 +---------------+------+
-在 SQL 中，employee_id 是该表的主键列。
-该表的每一行表示一个员工所属的部门。</pre>
+In SQL, employee_id is the primary key column for this table.
+Each row of this table indicates the department of an employee.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>找出各个部门员工的平均薪资与公司平均薪资之间的比较结果（<strong>更高 / 更低 / 相同</strong>）。</p>
+<p>Find the comparison result <strong>(higher/lower/same)</strong> of the average salary of employees in a department to the company&#39;s average salary.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
-Salary 表:
+<strong>Input:</strong> 
+Salary table:
 +----+-------------+--------+------------+
 | id | employee_id | amount | pay_date   |
 +----+-------------+--------+------------+
@@ -60,7 +59,7 @@ Salary 表:
 | 5  | 2           | 6000   | 2017/02/28 |
 | 6  | 3           | 8000   | 2017/02/28 |
 +----+-------------+--------+------------+
-Employee 表:
+Employee table:
 +-------------+---------------+
 | employee_id | department_id |
 +-------------+---------------+
@@ -68,7 +67,7 @@ Employee 表:
 | 2           | 2             |
 | 3           | 2             |
 +-------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-----------+---------------+------------+
 | pay_month | department_id | comparison |
 +-----------+---------------+------------+
@@ -77,16 +76,17 @@ Employee 表:
 | 2017-02   | 2             | same       |
 | 2017-03   | 2             | lower      |
 +-----------+---------------+------------+
-<strong>解释：
-</strong>在三月，公司的平均工资是 (9000+6000+10000)/3 = 8333.33...
-部门 '1' 的平均薪资是 9000，因为该部门只有一个员工，其员工号为 '1'。因为 9000 &gt; 8333.33，所以比较结果为 'higher'
-部门 '2' 的平均薪资是（6000 + 10000）/ 2 = 8000，该平均薪资是员工号 '2' 和 '3' 的薪资的平均值。因为 8000 &lt; 8333.33，比较结果为 'lower'。
+<strong>Explanation:</strong> 
+In March, the company&#39;s average salary is (9000+6000+10000)/3 = 8333.33...
+The average salary for department &#39;1&#39; is 9000, which is the salary of employee_id &#39;1&#39; since there is only one employee in this department. So the comparison result is &#39;higher&#39; since 9000 &gt; 8333.33 obviously.
+The average salary of department &#39;2&#39; is (6000 + 10000)/2 = 8000, which is the average of employee_id &#39;2&#39; and &#39;3&#39;. So the comparison result is &#39;lower&#39; since 8000 &lt; 8333.33.
 
-根据同样的公式，对于二月份的平均薪资比较，结果为 'same'，因为部门 '1' 和 '2' 都与公司的平均薪资相同，即为 7000。</pre>
+With he same formula for the average salary comparison in February, the result is &#39;same&#39; since both the department &#39;1&#39; and &#39;2&#39; have the same average salary with the company, which is 7000.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -116,7 +116,7 @@ FROM t;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

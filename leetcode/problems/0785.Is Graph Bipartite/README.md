@@ -1,59 +1,53 @@
-# [785. 判断二分图](https://leetcode.cn/problems/is-graph-bipartite)
+# [785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite)
 
-[English Version](/solution/0700-0799/0785.Is%20Graph%20Bipartite/README_EN.md)
+[中文文档](/solution/0700-0799/0785.Is%20Graph%20Bipartite/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-存在一个 <strong>无向图</strong> ，图中有 <code>n</code> 个节点。其中每个节点都有一个介于 <code>0</code> 到 <code>n - 1</code> 之间的唯一编号。给你一个二维数组 <code>graph</code> ，其中 <code>graph[u]</code> 是一个节点数组，由节点 <code>u</code> 的邻接节点组成。形式上，对于  <code>graph[u]</code> 中的每个 <code>v</code> ，都存在一条位于节点 <code>u</code> 和节点 <code>v</code> 之间的无向边。该无向图同时具有以下属性：
+<p>There is an <strong>undirected</strong> graph with <code>n</code> nodes, where each node is numbered between <code>0</code> and <code>n - 1</code>. You are given a 2D array <code>graph</code>, where <code>graph[u]</code> is an array of nodes that node <code>u</code> is adjacent to. More formally, for each <code>v</code> in <code>graph[u]</code>, there is an undirected edge between node <code>u</code> and node <code>v</code>. The graph has the following properties:</p>
 
 <ul>
-	<li>不存在自环（<code>graph[u]</code> 不包含 <code>u</code>）。</li>
-	<li>不存在平行边（<code>graph[u]</code> 不包含重复值）。</li>
-	<li>如果 <code>v</code> 在 <code>graph[u]</code> 内，那么 <code>u</code> 也应该在 <code>graph[v]</code> 内（该图是无向图）</li>
-	<li>这个图可能不是连通图，也就是说两个节点 <code>u</code> 和 <code>v</code> 之间可能不存在一条连通彼此的路径。</li>
+	<li>There are no self-edges (<code>graph[u]</code> does not contain <code>u</code>).</li>
+	<li>There are no parallel edges (<code>graph[u]</code> does not contain duplicate values).</li>
+	<li>If <code>v</code> is in <code>graph[u]</code>, then <code>u</code> is in <code>graph[v]</code> (the graph is undirected).</li>
+	<li>The graph may not be connected, meaning there may be two nodes <code>u</code> and <code>v</code> such that there is no path between them.</li>
 </ul>
 
-<p><strong>二分图</strong> 定义：如果能将一个图的节点集合分割成两个独立的子集 <code>A</code> 和 <code>B</code> ，并使图中的每一条边的两个节点一个来自 <code>A</code> 集合，一个来自 <code>B</code> 集合，就将这个图称为 <strong>二分图</strong> 。</p>
+<p>A graph is <strong>bipartite</strong> if the nodes can be partitioned into two independent sets <code>A</code> and <code>B</code> such that <strong>every</strong> edge in the graph connects a node in set <code>A</code> and a node in set <code>B</code>.</p>
 
-<p>如果图是二分图，返回 <code>true</code><em> </em>；否则，返回 <code>false</code> 。</p>
+<p>Return <code>true</code><em> if and only if it is <strong>bipartite</strong></em>.</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0785.Is%20Graph%20Bipartite/images/bi2.jpg" style="width: 222px; height: 222px;" />
 <pre>
-<strong>输入：</strong>graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
-<strong>输出：</strong>false
-<strong>解释：</strong><code>不能将节点分割成两个独立的子集，</code>以使每条边都连通一个子集中的一个节点与另一个子集中的一个节点。</pre>
+<strong>Input:</strong> graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other.</pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0785.Is%20Graph%20Bipartite/images/bi1.jpg" style="width: 222px; height: 222px;" />
 <pre>
-<strong>输入：</strong>graph = [[1,3],[0,2],[1,3],[0,2]]
-<strong>输出：</strong>true
-<strong>解释：</strong><code>可以将节点分成两组: {0, 2} 和 {1, 3} 。</code></pre>
+<strong>Input:</strong> graph = [[1,3],[0,2],[1,3],[0,2]]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We can partition the nodes into two sets: {0, 2} and {1, 3}.</pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>graph.length == n</code></li>
-	<li><code>1 <= n <= 100</code></li>
-	<li><code>0 <= graph[u].length < n</code></li>
-	<li><code>0 <= graph[u][i] <= n - 1</code></li>
-	<li><code>graph[u]</code> 不会包含 <code>u</code></li>
-	<li><code>graph[u]</code> 的所有值 <strong>互不相同</strong></li>
-	<li>如果 <code>graph[u]</code> 包含 <code>v</code>，那么 <code>graph[v]</code> 也会包含 <code>u</code></li>
+	<li><code>1 &lt;= n &lt;= 100</code></li>
+	<li><code>0 &lt;= graph[u].length &lt; n</code></li>
+	<li><code>0 &lt;= graph[u][i] &lt;= n - 1</code></li>
+	<li><code>graph[u]</code>&nbsp;does not contain&nbsp;<code>u</code>.</li>
+	<li>All the values of <code>graph[u]</code> are <strong>unique</strong>.</li>
+	<li>If <code>graph[u]</code> contains <code>v</code>, then <code>graph[v]</code> contains <code>u</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：染色法判定二分图
-
-遍历所有节点进行染色，比如初始为白色，DFS 对节点相邻的点染上另外一种颜色。如果要染色某节点时，要染的目标颜色和该节点的已经染过的颜色不同，则说明不能构成二分图。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -233,72 +227,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：并查集
-
-对于本题，如果是二分图，那么图中每个顶点的所有邻接点都应该属于同一集合，且不与顶点处于同一集合，因此我们可以使用并查集。遍历图中每个顶点，如果发现存在当前顶点与对应的邻接点处于同一个集合，说明不是二分图。否则将当前节点的邻接点相互进行合并。以下是并查集模板。
-
-模板 1——朴素并查集：
-
-```python
-# 初始化，p存储每个点的父节点
-p = list(range(n))
-
-
-# 返回x的祖宗节点
-def find(x):
-    if p[x] != x:
-        # 路径压缩
-        p[x] = find(p[x])
-    return p[x]
-
-
-# 合并a和b所在的两个集合
-p[find(a)] = find(b)
-```
-
-模板 2——维护 size 的并查集：
-
-```python
-# 初始化，p存储每个点的父节点，size只有当节点是祖宗节点时才有意义，表示祖宗节点所在集合中，点的数量
-p = list(range(n))
-size = [1] * n
-
-
-# 返回x的祖宗节点
-def find(x):
-    if p[x] != x:
-        # 路径压缩
-        p[x] = find(p[x])
-    return p[x]
-
-
-# 合并a和b所在的两个集合
-if find(a) != find(b):
-    size[find(b)] += size[find(a)]
-    p[find(a)] = find(b)
-```
-
-模板 3——维护到祖宗节点距离的并查集：
-
-```python
-# 初始化，p存储每个点的父节点，d[x]存储x到p[x]的距离
-p = list(range(n))
-d = [0] * n
-
-
-# 返回x的祖宗节点
-def find(x):
-    if p[x] != x:
-        t = find(p[x])
-        d[x] += d[p[x]]
-        p[x] = t
-    return p[x]
-
-
-# 合并a和b所在的两个集合
-p[find(a)] = find(b)
-d[find(a)] = distance
-```
+### Solution 2
 
 <!-- tabs:start -->
 

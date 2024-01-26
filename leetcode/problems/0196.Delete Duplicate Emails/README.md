@@ -1,12 +1,10 @@
-# [196. 删除重复的电子邮箱](https://leetcode.cn/problems/delete-duplicate-emails)
+# [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails)
 
-[English Version](/solution/0100-0199/0196.Delete%20Duplicate%20Emails/README_EN.md)
+[中文文档](/solution/0100-0199/0196.Delete%20Duplicate%20Emails/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表:&nbsp;<code>Person</code></p>
+<p>Table: <code>Person</code></p>
 
 <pre>
 +-------------+---------+
@@ -15,29 +13,28 @@
 | id          | int     |
 | email       | varchar |
 +-------------+---------+
-id 是该表的主键列(具有唯一值的列)。
-该表的每一行包含一封电子邮件。电子邮件将不包含大写字母。
+id is the primary key (column with unique values) for this table.
+Each row of this table contains an email. The emails will not contain uppercase letters.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案<strong> 删除</strong> 所有重复的电子邮件，只保留一个具有最小 <code>id</code> 的唯一电子邮件。</p>
+<p>Write a solution to<strong> delete</strong> all duplicate emails, keeping only one unique email with the smallest <code>id</code>.</p>
 
-<p>（对于 SQL 用户，请注意你应该编写一个 <code>DELETE</code> 语句而不是 <code>SELECT</code> 语句。）</p>
+<p>For SQL users, please note that you are supposed to write a <code>DELETE</code> statement and not a <code>SELECT</code> one.</p>
 
-<p>（对于 Pandas 用户，请注意你应该直接修改 <code>Person</code> 表。）</p>
+<p>For Pandas users, please note that you are supposed to modify <code>Person</code> in place.</p>
 
-<p>运行脚本后，显示的答案是 <code>Person</code> 表。驱动程序将首先编译并运行您的代码片段，然后再显示 <code>Person</code> 表。<code>Person</code> 表的最终顺序 <strong>无关紧要</strong> 。</p>
+<p>After running your script, the answer shown is the <code>Person</code> table. The driver will first compile and run your piece of code and then show the <code>Person</code> table. The final order of the <code>Person</code> table <strong>does not matter</strong>.</p>
 
-<p>返回结果格式如下示例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Person 表:
+<strong>Input:</strong> 
+Person table:
 +----+------------------+
 | id | email            |
 +----+------------------+
@@ -45,18 +42,19 @@ Person 表:
 | 2  | bob@example.com  |
 | 3  | john@example.com |
 +----+------------------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +----+------------------+
 | id | email            |
 +----+------------------+
 | 1  | john@example.com |
 | 2  | bob@example.com  |
 +----+------------------+
-<strong>解释:</strong> john@example.com重复两次。我们保留最小的Id = 1。</pre>
+<strong>Explanation:</strong> john@example.com is repeated two times. We keep the row with the smallest Id = 1.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -80,7 +78,7 @@ WHERE id NOT IN (SELECT MIN(id) FROM (SELECT * FROM Person) AS p GROUP BY email)
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -106,7 +104,7 @@ WHERE
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

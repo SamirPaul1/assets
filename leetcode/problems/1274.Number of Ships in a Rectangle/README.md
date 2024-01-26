@@ -1,61 +1,53 @@
-# [1274. 矩形内船只的数目](https://leetcode.cn/problems/number-of-ships-in-a-rectangle)
+# [1274. Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle)
 
-[English Version](/solution/1200-1299/1274.Number%20of%20Ships%20in%20a%20Rectangle/README_EN.md)
+[中文文档](/solution/1200-1299/1274.Number%20of%20Ships%20in%20a%20Rectangle/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p><em>(This problem is an <strong>interactive problem</strong>.)</em></p>
 
-<p><em>(此题是 <strong>交互式问题&nbsp;</strong>)</em></p>
+<p>Each ship is located at an integer point on the sea represented by a cartesian plane, and each integer point may contain at most 1 ship.</p>
 
-<p>在用笛卡尔坐标系表示的二维海平面上，有一些船。每一艘船都在一个整数点上，且每一个整数点最多只有 1 艘船。</p>
+<p>You have a function <code>Sea.hasShips(topRight, bottomLeft)</code> which takes two points as arguments and returns <code>true</code> If there is at least one ship in the rectangle represented by the two points, including on the boundary.</p>
 
-<p>有一个函数&nbsp;<code>Sea.hasShips(topRight, bottomLeft)</code>&nbsp;，输入参数为右上角和左下角两个点的坐标，当且仅当这两个点所表示的矩形区域（包含边界）内至少有一艘船时，这个函数才返回&nbsp;<code>true</code>&nbsp;，否则返回&nbsp;<code>false</code> 。</p>
+<p>Given two points: the top right and bottom left corners of a rectangle, return the number of ships present in that rectangle. It is guaranteed that there are <strong>at most 10 ships</strong> in that rectangle.</p>
 
-<p>给你矩形的右上角&nbsp;<code>topRight</code> 和左下角&nbsp;<code>bottomLeft</code> 的坐标，请你返回此矩形内船只的数目。题目保证矩形内&nbsp;<strong>至多只有 10 艘船</strong>。</p>
-
-<p>调用函数&nbsp;<code>hasShips</code>&nbsp;<strong>超过400次&nbsp;</strong>的提交将被判为&nbsp;<em>错误答案（Wrong Answer）</em>&nbsp;。同时，任何尝试绕过评测系统的行为都将被取消比赛资格。</p>
+<p>Submissions making <strong>more than 400 calls</strong> to <code>hasShips</code> will be judged <em>Wrong Answer</em>. Also, any solutions that attempt to circumvent the judge will result in disqualification.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1274.Number%20of%20Ships%20in%20a%20Rectangle/images/1445_example_1.png" style="height: 500px; width: 496px;" /></p>
-
+<p><strong class="example">Example :</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1274.Number%20of%20Ships%20in%20a%20Rectangle/images/1445_example_1.png" style="width: 496px; height: 500px;" />
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 ships = [[1,1],[2,2],[3,3],[5,5]], topRight = [4,4], bottomLeft = [0,0]
-<strong>输出：</strong>3
-<strong>解释：</strong>在 [0,0] 到 [4,4] 的范围内总共有 3 艘船。
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> From [0,0] to [4,4] we can count 3 ships within the range.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>ans = [[1,1],[2,2],[3,3]], topRight = [1000,1000], bottomLeft = [0,0]
-<strong>输出：</strong>3
+<strong>Input:</strong> ans = [[1,1],[2,2],[3,3]], topRight = [1000,1000], bottomLeft = [0,0]
+<strong>Output:</strong> 3
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>ships</code>&nbsp;数组只用于评测系统内部初始化。你必须“蒙着眼睛”解决这个问题。你无法得知&nbsp;<code>ships</code>&nbsp;的信息，所以只能通过调用&nbsp;<code>hasShips</code>&nbsp;接口来求解。</li>
-	<li><code>0 &lt;=&nbsp;bottomLeft[0]&nbsp;&lt;= topRight[0]&nbsp;&lt;= 1000</code></li>
-	<li><code>0 &lt;=&nbsp;bottomLeft[1]&nbsp;&lt;= topRight[1]&nbsp;&lt;= 1000</code></li>
+	<li>On the input <code>ships</code> is only given to initialize the map internally. You must solve this problem &quot;blindfolded&quot;. In other words, you must find the answer using the given <code>hasShips</code> API, without knowing the <code>ships</code> position.</li>
+	<li><code>0 &lt;= bottomLeft[0] &lt;= topRight[0] &lt;= 1000</code></li>
+	<li><code>0 &lt;= bottomLeft[1] &lt;= topRight[1] &lt;= 1000</code></li>
 	<li><code>topRight != bottomLeft</code></li>
 </ul>
 
-<p>&nbsp;</p>
+## Solutions
 
-## 解法
+### Solution 1: Recursion + Divide and Conquer
 
-### 方法一：递归 + 分治
+Since there are at most $10$ ships in the rectangle, we can divide the rectangle into four sub-rectangles, calculate the number of ships in each sub-rectangle, and then add the number of ships in the four sub-rectangles. If there are no ships in a sub-rectangle, then there is no need to continue dividing.
 
-由于矩形内最多只有 $10$ 艘船，所以我们可以将矩形划分为四个子矩形，分别求出每个子矩形内船只的数目，然后将四个子矩形内船只的数目相加即可。如果一个子矩形内没有船只，那么就不需要再继续划分了。
-
-时间复杂度 $O(C \times \log \max(m, n))$，空间复杂度 $O(\log \max(m, n))$。其中 $C$ 为船只的数目，而 $m$ 和 $n$ 分别为矩形的长和宽。
+The time complexity is $O(C \times \log \max(m, n))$, and the space complexity is $O(\log \max(m, n))$. Where $C$ is the number of ships, and $m$ and $n$ are the length and width of the rectangle, respectively.
 
 <!-- tabs:start -->
 

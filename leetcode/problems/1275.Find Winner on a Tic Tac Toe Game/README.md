@@ -1,99 +1,71 @@
-# [1275. 找出井字棋的获胜者](https://leetcode.cn/problems/find-winner-on-a-tic-tac-toe-game)
+# [1275. Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)
 
-[English Version](/solution/1200-1299/1275.Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game/README_EN.md)
+[中文文档](/solution/1200-1299/1275.Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><em>A</em> 和&nbsp;<em>B</em>&nbsp;在一个&nbsp;<em>3</em>&nbsp;x&nbsp;<em>3</em>&nbsp;的网格上玩井字棋。</p>
-
-<p>井字棋游戏的规则如下：</p>
+<p><strong>Tic-tac-toe</strong> is played by two players <code>A</code> and <code>B</code> on a <code>3 x 3</code> grid. The rules of Tic-Tac-Toe are:</p>
 
 <ul>
-	<li>玩家轮流将棋子放在空方格 (" ") 上。</li>
-	<li>第一个玩家 A 总是用&nbsp;"X" 作为棋子，而第二个玩家 B 总是用 "O" 作为棋子。</li>
-	<li>"X" 和 "O" 只能放在空方格中，而不能放在已经被占用的方格上。</li>
-	<li>只要有 3 个相同的（非空）棋子排成一条直线（行、列、对角线）时，游戏结束。</li>
-	<li>如果所有方块都放满棋子（不为空），游戏也会结束。</li>
-	<li>游戏结束后，棋子无法再进行任何移动。</li>
+	<li>Players take turns placing characters into empty squares <code>&#39; &#39;</code>.</li>
+	<li>The first player <code>A</code> always places <code>&#39;X&#39;</code> characters, while the second player <code>B</code> always places <code>&#39;O&#39;</code> characters.</li>
+	<li><code>&#39;X&#39;</code> and <code>&#39;O&#39;</code> characters are always placed into empty squares, never on filled ones.</li>
+	<li>The game ends when there are <strong>three</strong> of the same (non-empty) character filling any row, column, or diagonal.</li>
+	<li>The game also ends if all squares are non-empty.</li>
+	<li>No more moves can be played if the game is over.</li>
 </ul>
 
-<p>给你一个数组 <code>moves</code>，其中每个元素是大小为 <code>2</code> 的另一个数组（元素分别对应网格的行和列），它按照 <em>A</em> 和 <em>B</em> 的行动顺序（先 <em>A</em> 后 <em>B</em>）记录了两人各自的棋子位置。</p>
+<p>Given a 2D integer array <code>moves</code> where <code>moves[i] = [row<sub>i</sub>, col<sub>i</sub>]</code> indicates that the <code>i<sup>th</sup></code> move will be played on <code>grid[row<sub>i</sub>][col<sub>i</sub>]</code>. return <em>the winner of the game if it exists</em> (<code>A</code> or <code>B</code>). In case the game ends in a draw return <code>&quot;Draw&quot;</code>. If there are still movements to play return <code>&quot;Pending&quot;</code>.</p>
 
-<p>如果游戏存在获胜者（<em>A</em> 或 <em>B</em>），就返回该游戏的获胜者；如果游戏以平局结束，则返回 "Draw"；如果仍会有行动（游戏未结束），则返回 "Pending"。</p>
-
-<p>你可以假设&nbsp;<code>moves</code>&nbsp;都 <strong>有效</strong>（遵循井字棋规则），网格最初是空的，<em>A</em> 将先行动。</p>
+<p>You can assume that <code>moves</code> is valid (i.e., it follows the rules of <strong>Tic-Tac-Toe</strong>), the grid is initially empty, and <code>A</code> will play first.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1275.Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game/images/xo1-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
-<strong>输入：</strong>moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
-<strong>输出：</strong>"A"
-<strong>解释：</strong>"A" 获胜，他总是先走。
-"X  "    "X  "    "X  "    "X  "    "<strong>X</strong>  "
-"   " -&gt; "   " -&gt; " X " -&gt; " X " -&gt; " <strong>X</strong> "
-"   "    "O  "    "O  "    "OO "    "OO<strong>X</strong>"
+<strong>Input:</strong> moves = [[0,0],[2,0],[1,1],[2,1],[2,2]]
+<strong>Output:</strong> &quot;A&quot;
+<strong>Explanation:</strong> A wins, they always play first.
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1275.Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game/images/xo2-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
-<strong>输入：</strong>moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
-<strong>输出：</strong>"B"
-<strong>解释：</strong>"B" 获胜。
-"X  "    "X  "    "XX "    "XXO"    "XXO"    "XX<strong>O</strong>"
-"   " -&gt; " O " -&gt; " O " -&gt; " O " -&gt; "XO " -&gt; "X<strong>O</strong> " 
-"   "    "   "    "   "    "   "    "   "    "<strong>O</strong>  "
+<strong>Input:</strong> moves = [[0,0],[1,1],[0,1],[0,2],[1,0],[2,0]]
+<strong>Output:</strong> &quot;B&quot;
+<strong>Explanation:</strong> B wins.
 </pre>
 
-<p><strong>示例 3：</strong></p>
-
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1275.Find%20Winner%20on%20a%20Tic%20Tac%20Toe%20Game/images/xo3-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
-<strong>输入：</strong>moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
-<strong>输出：</strong>"Draw"
-<strong>解释：</strong>由于没有办法再行动，游戏以平局结束。
-"XXO"
-"OOX"
-"XOX"
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre>
-<strong>输入：</strong>moves = [[0,0],[1,1]]
-<strong>输出：</strong>"Pending"
-<strong>解释：</strong>游戏还没有结束。
-"X  "
-" O "
-"   "
+<strong>Input:</strong> moves = [[0,0],[1,1],[2,0],[1,0],[1,2],[2,1],[0,1],[0,2],[2,2]]
+<strong>Output:</strong> &quot;Draw&quot;
+<strong>Explanation:</strong> The game ends in a draw since there are no moves to make.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= moves.length &lt;= 9</code></li>
 	<li><code>moves[i].length == 2</code></li>
-	<li><code>0 &lt;= moves[i][j] &lt;= 2</code></li>
-	<li><code>moves</code>&nbsp;里没有重复的元素。</li>
-	<li><code>moves</code> 遵循井字棋的规则。</li>
+	<li><code>0 &lt;= row<sub>i</sub>, col<sub>i</sub> &lt;= 2</code></li>
+	<li>There are no repeated elements on <code>moves</code>.</li>
+	<li><code>moves</code> follow the rules of tic tac toe.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：判断最后一个落棋的人能否获胜
+### Solution 1: Determine if the last player to move can win
 
-由于 `moves` 都有效，也即是说，不存在某个人获胜后，其他人仍然落棋的情况。因此，只需判断最后一个落棋的人能否获胜即可。
+Since all `moves` are valid, that is, there is no situation where a person continues to play after someone has won. Therefore, we only need to determine whether the last player to move can win.
 
-我们用一个长度为 $8$ 的数组 `cnt` 记录行、列以及对角线的落棋次数。其中 $cnt[0, 1, 2]$ 分别表示第 $0, 1, 2$ 行的落棋次数，而 $cnt[3, 4, 5]$ 分别表示第 $0, 1, 2$ 列的落棋次数，另外 $cnt[6]$ 和 $cnt[7]$ 分别表示两条对角线的落棋次数。落棋过程中，如果某个人在某一行、列或对角线上落棋次数达到 $3$ 次，则该人获胜。
+We use an array `cnt` of length $8$ to record the number of moves in rows, columns, and diagonals. Where $cnt[0, 1, 2]$ represent the number of moves in the $0, 1, 2$ rows respectively, and $cnt[3, 4, 5]$ represent the number of moves in the $0, 1, 2$ columns respectively. Additionally, $cnt[6]$ and $cnt[7]$ represent the number of moves on the two diagonals respectively. During the game, if a player makes $3$ moves in a row, column, or diagonal, that player wins.
 
-如果最后一个落棋的人没有获胜，那么我们判断棋盘是否已满，如果已满，则平局；否则，游戏尚未结束。
+If the last player to move does not win, then we determine whether the board is full. If it is full, it is a draw; otherwise, the game is not over yet.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为 `moves` 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is the length of `moves`.
 
 <!-- tabs:start -->
 

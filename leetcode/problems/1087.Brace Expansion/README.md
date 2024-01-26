@@ -1,53 +1,42 @@
-# [1087. 花括号展开](https://leetcode.cn/problems/brace-expansion)
+# [1087. Brace Expansion](https://leetcode.com/problems/brace-expansion)
 
-[English Version](/solution/1000-1099/1087.Brace%20Expansion/README_EN.md)
+[中文文档](/solution/1000-1099/1087.Brace%20Expansion/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个表示单词列表的字符串&nbsp;<code>s</code>&nbsp;。单词中的每个字母都有一个或多个选项。</p>
+<p>You are given a string <code>s</code> representing a list of words. Each letter in the word has one or more options.</p>
 
 <ul>
-	<li>如果有一个选项，则字母按原样表示。</li>
-	<li>如果有多个选项，则用大括号分隔选项。例如,<meta charset="UTF-8" />&nbsp;&nbsp;<code>"{a,b,c}"</code>&nbsp; 表示选项<meta charset="UTF-8" />&nbsp;&nbsp;<code>["a", "b", "c"]</code>&nbsp; 。</li>
+	<li>If there is one option, the letter is represented as is.</li>
+	<li>If there is more than one option, then curly braces delimit the options. For example, <code>&quot;{a,b,c}&quot;</code> represents options <code>[&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]</code>.</li>
 </ul>
 
-<p>例如，如果<meta charset="UTF-8" />&nbsp;&nbsp;<code>s = "a{b,c}"</code>&nbsp; ，第一个字符总是 <code>'a'</code> ，但第二个字符可以是 <code>'b'</code> 或 <code>'c'</code> 。原来的列表是<meta charset="UTF-8" />&nbsp;<code>["ab", "ac"]</code>&nbsp;。</p>
+<p>For example, if <code>s = &quot;a{b,c}&quot;</code>, the first character is always <code>&#39;a&#39;</code>, but the second character can be <code>&#39;b&#39;</code> or <code>&#39;c&#39;</code>. The original list is <code>[&quot;ab&quot;, &quot;ac&quot;]</code>.</p>
 
-<p>请你 <strong>按字典顺序</strong> ，返回所有以这种方式形成的单词。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "{a,b}c{d,e}f"
-<strong>输出：</strong>["acdf","acef","bcdf","bcef"]
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "abcd"
-<strong>输出：</strong>["abcd"]
-</pre>
+<p>Return all words that can be formed in this manner, <strong>sorted</strong> in lexicographical order.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "{a,b}c{d,e}f"
+<strong>Output:</strong> ["acdf","acef","bcdf","bcef"]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "abcd"
+<strong>Output:</strong> ["abcd"]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= S.length &lt;= 50</code></li>
-	<li><meta charset="UTF-8" /><code>s</code>&nbsp;由括号 <code>'{}'</code>&nbsp;, <code>','</code> 和小写英文字母组成。</li>
-	<li><meta charset="UTF-8" /><code>s</code>&nbsp;保证是一个有效的输入。</li>
-	<li>没有嵌套的大括号。</li>
-	<li>在一对连续的左括号和右括号内的所有字符都是不同的。</li>
+	<li><code>1 &lt;= s.length &lt;= 50</code></li>
+	<li><code>s</code> consists of curly brackets <code>&#39;{}&#39;</code>, commas&nbsp;<code>&#39;,&#39;</code>, and lowercase English letters.</li>
+	<li><code>s</code> is guaranteed to be a valid input.</li>
+	<li>There are no nested curly brackets.</li>
+	<li>All characters inside a pair of consecutive opening and ending curly brackets are different.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

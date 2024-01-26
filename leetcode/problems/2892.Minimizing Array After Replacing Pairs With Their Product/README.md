@@ -1,42 +1,40 @@
-# [2892. 将相邻元素相乘后得到最小化数组](https://leetcode.cn/problems/minimizing-array-after-replacing-pairs-with-their-product)
+# [2892. Minimizing Array After Replacing Pairs With Their Product](https://leetcode.com/problems/minimizing-array-after-replacing-pairs-with-their-product)
 
-[English Version](/solution/2800-2899/2892.Minimizing%20Array%20After%20Replacing%20Pairs%20With%20Their%20Product/README_EN.md)
+[中文文档](/solution/2800-2899/2892.Minimizing%20Array%20After%20Replacing%20Pairs%20With%20Their%20Product/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个整数数组&nbsp;<code>nums</code>&nbsp;和一个整数&nbsp;<code>k</code>，你可以对数组执行以下操作任意次数：</p>
+<p>Given an integer array <code>nums</code> and an integer <code>k</code>, you can perform the following operation on the array any number of times:</p>
 
 <ul>
-	<li>选择数组中的两个 <b>相邻</b>&nbsp;元素，例如&nbsp;<code>x</code>&nbsp;和&nbsp;<code>y</code>，使得&nbsp;<code>x * y &lt;= k</code>&nbsp;，并用一个值为&nbsp;<code>x * y</code>&nbsp;的 <b>单个元素</b>&nbsp;替换它们（例如，在一次操作中，数组&nbsp;<code>[1, 2, 2, 3]</code>，其中&nbsp;<code>k = 5</code> 可以变为&nbsp;<code>[1, 4, 3]</code>&nbsp;或&nbsp;<code>[2, 2, 3]</code>，但不能变为&nbsp;<code>[1, 2, 6]</code>）。</li>
+	<li>Select two <strong>adjacent</strong> elements of the array like <code>x</code> and <code>y</code>, such that <code>x * y &lt;= k</code>, and replace both of them with a <strong>single element</strong> with value <code>x * y</code> (e.g. in one operation the array <code>[1, 2, 2, 3]</code> with <code>k = 5</code> can become <code>[1, 4, 3]</code> or <code>[2, 2, 3]</code>, but can&#39;t become <code>[1, 2, 6]</code>).</li>
 </ul>
 
-<p>返回 <em>经过任意次数的操作后，&nbsp;</em><code>nums</code><em>&nbsp;的 <strong>最小</strong> 可能长度。</em></p>
+<p>Return <em>the <strong>minimum</strong> possible length of </em><code>nums</code><em> after any number of operations</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [2,3,3,7,3,5], k = 20
-<strong>输出：</strong>3
-<strong>解释：</strong>我们执行以下操作：
+<strong>Input:</strong> nums = [2,3,3,7,3,5], k = 20
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> We perform these operations:
 1. [<u>2,3</u>,3,7,3,5] -&gt; [<u>6</u>,3,7,3,5]
 2. [<u>6,3</u>,7,3,5] -&gt; [<u>18</u>,7,3,5]
 3. [18,7,<u>3,5</u>] -&gt; [18,7,<u>15</u>]
-可以证明，在执行给定操作后，最小可能长度为3.</pre>
+It can be shown that 3 is the minimum length possible to achieve with the given operation.
+</pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [3,3,3,3], k = 6
-<strong>输出：</strong>4
-<strong>解释：</strong>由于每两个相邻元素的乘积都大于 6，所以无法执行任何操作。因此，答案为 4。</pre>
+<strong>Input:</strong> nums = [3,3,3,3], k = 6
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> We can&#39;t perform any operations since the product of every two adjacent elements is greater than 6.
+Hence, the answer is 4.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>约束条件：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
@@ -44,21 +42,21 @@
 	<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心
+### Solution 1: Greedy
 
-我们用一个变量 $ans$ 记录当前数组的长度，用一个变量 $y$ 记录当前数组的乘积，初始时 $ans = 1$, $y = nums[0]$。
+We use a variable $ans$ to record the current length of the array, and a variable $y$ to record the current product of the array. Initially, $ans = 1$ and $y = nums[0]$.
 
-我们从数组的第二个元素开始遍历，设当前元素为 $x$：
+We start traversing from the second element of the array. Let the current element be $x$:
 
--   如果 $x = 0$，那么整个数组的乘积为 $0 \le k$，因此答案数组的最小长度为 $1$，直接返回即可。
--   如果 $x \times y \le k$，那么我们可以将 $x$ 与 $y$ 合并，即 $y = x \times y$。
--   如果 $x \times y \gt k$，那么我们无法将 $x$ 与 $y$ 合并，因此我们需要将 $x$ 单独作为一个元素，即 $ans = ans + 1$，并且 $y = x$。
+-   If $x = 0$, then the product of the entire array is $0 \le k$, so the minimum length of the answer array is $1$, and we can return directly.
+-   If $x \times y \le k$, then we can merge $x$ and $y$, that is, $y = x \times y$.
+-   If $x \times y \gt k$, then we cannot merge $x$ and $y$, so we need to treat $x$ as a separate element, that is, $ans = ans + 1$, and $y = x$.
 
-最终答案即为 $ans$。
+The final answer is $ans$.
 
-时间复杂度 $O(n)$，其中 $n$ 为数组的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where n is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

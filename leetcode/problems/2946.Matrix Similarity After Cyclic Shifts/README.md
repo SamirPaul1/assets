@@ -1,50 +1,46 @@
-# [2946. 循环移位后的矩阵相似检查](https://leetcode.cn/problems/matrix-similarity-after-cyclic-shifts)
+# [2946. Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts)
 
-[English Version](/solution/2900-2999/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/README_EN.md)
+[中文文档](/solution/2900-2999/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> <code>m x n</code> integer matrix <code>mat</code> and an integer <code>k</code>. You have to cyclically <strong>right</strong> shift <strong>odd</strong> indexed rows <code>k</code> times and cyclically <strong>left</strong> shift <strong>even</strong> indexed rows <code>k</code> times.</p>
 
-<p>给你一个<strong>下标从 0 开始</strong>且大小为 <code>m x n</code> 的整数矩阵 <code>mat</code> 和一个整数 <code>k</code> 。请你将矩阵中的<strong> 奇数</strong> 行循环 <strong>右</strong> 移 <code>k</code> 次，<strong>偶数</strong> 行循环 <strong>左</strong> 移 <code>k</code> 次。</p>
-
-<p>如果初始矩阵和最终矩阵完全相同，则返回 <code>true</code> ，否则返回 <code>false</code> 。</p>
+<p>Return <code>true</code> <em>if the initial and final matrix are exactly the same and </em><code>false</code> <em>otherwise.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>mat = [[1,2,1,2],[5,5,5,5],[6,3,6,3]], k = 2
-<strong>输出：</strong>true
-<strong>解释：</strong>
+<strong>Input:</strong> mat = [[1,2,1,2],[5,5,5,5],[6,3,6,3]], k = 2
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/images/similarmatrix.png" style="width: 500px; height: 117px;" />
 
-初始矩阵如图一所示。
-图二表示对奇数行右移一次且对偶数行左移一次后的矩阵状态。
-图三是经过两次循环移位后的最终矩阵状态，与初始矩阵相同。
-因此，返回 true 。
+Initially, the matrix looks like the first figure. 
+Second figure represents the state of the matrix after one right and left cyclic shifts to even and odd indexed rows.
+Third figure is the final state of the matrix after two cyclic shifts which is similar to the initial matrix.
+Therefore, return true.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>mat = [[2,2],[2,2]], k = 3
-<strong>输出：</strong>true
-<strong>解释：</strong>由于矩阵中的所有值都相等，即使进行循环移位，矩阵仍然保持不变。因此，返回 true 。
+<strong>Input:</strong> mat = [[2,2],[2,2]], k = 3
+<strong>Output:</strong> true
+<strong>Explanation:</strong> As all the values are equal in the matrix, even after performing cyclic shifts the matrix will remain the same. Therefeore, we return true.
 </pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>mat = [[1,2]], k = 1
-<strong>输出：</strong>false
-<strong>解释：</strong>循环移位一次后，mat = [[2,1]]，与初始矩阵不相等。因此，返回 false 。
+<strong>Input:</strong> mat = [[1,2]], k = 1
+<strong>Output:</strong> false
+<strong>Explanation:</strong> After one cyclic shift, mat = [[2,1]] which is not equal to the initial matrix. Therefore we return false.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= mat.length &lt;= 25</code></li>
@@ -53,9 +49,9 @@
 	<li><code>1 &lt;= k &lt;= 50</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

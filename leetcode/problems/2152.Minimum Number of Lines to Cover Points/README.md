@@ -1,65 +1,48 @@
-# [2152. 穿过所有点的所需最少直线数量](https://leetcode.cn/problems/minimum-number-of-lines-to-cover-points)
+# [2152. Minimum Number of Lines to Cover Points](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points)
 
-[English Version](/solution/2100-2199/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/README_EN.md)
+[中文文档](/solution/2100-2199/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array <code>points</code> where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> represents a point on an <strong>X-Y </strong>plane.</p>
 
-<p>给定一个 <code>points</code>&nbsp;数组，<code>points[i] = [xi, yi]</code>&nbsp;表示直角坐标系 <strong>X-Y</strong> 的一个点。</p>
+<p><strong>Straight lines</strong> are going to be added to the <strong>X-Y</strong> plane, such that every point is covered by at <strong>least </strong>one line.</p>
 
-<p>现在考虑向 X-Y 坐标系中添加 <strong>直线</strong>，使得每个点 <strong>至少</strong> 在一条直线上。</p>
-
-<p>返回能够穿过所有点的所需&nbsp;<strong>最少直线&nbsp;</strong>数量。</p>
+<p>Return <em>the <strong>minimum </strong>number of <strong>straight lines</strong> needed to cover all the points</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/images/image-20220123200023-1.png" style="width: 350px; height: 402px;" />
 <pre>
-<strong>输入:</strong> points = [[0,1],[2,3],[4,5],[4,3]]
-<strong>输出:</strong> 2
-<strong>解释:</strong> 所需最少直线数量为 2 ，一种可能的答案是添加:
-- 一条穿过点 (0, 1) 和 点(4, 5) 的直线
-- 另一条穿过点 (2, 3) 和点 (4, 3) 的直线
+<strong>Input:</strong> points = [[0,1],[2,3],[4,5],[4,3]]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The minimum number of straight lines needed is two. One possible solution is to add:
+- One line connecting the point at (0, 1) to the point at (4, 5).
+- Another line connecting the point at (2, 3) to the point at (4, 3).
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/images/image-20220123200057-3.png" style="width: 350px; height: 480px;" />
 <pre>
-<strong>输入:</strong> points = [[0,2],[-2,-2],[1,4]]
-<strong>输出:</strong> 1
-<strong>解释:</strong> 所需最少直线数量为 1 ，唯一的答案是:
-- 一条穿过点 (-2, -2) 和点 (1, 4) 的直线
+<strong>Input:</strong> points = [[0,2],[-2,-2],[1,4]]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The minimum number of straight lines needed is one. The only solution is to add:
+- One line connecting the point at (-2, -2) to the point at (1, 4).
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= points.length &lt;= 10</code></li>
 	<li><code>points[i].length == 2</code></li>
 	<li><code>-100 &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 100</code></li>
-	<li><code>points</code>&nbsp;中元素都是唯一的</li>
+	<li>All the <code>points</code> are <strong>unique</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：状态压缩 + 记忆化搜索
-
-我们可以用一个整数 `state` 来表示当前已经添加的直线，其中 `state` 的第 $i$ 位表示第 $i$ 条直线是否已经添加。如果 `state` 的第 $i$ 位为 $1$，则表示第 $i$ 条直线已经添加，否则表示第 $i$ 条直线还未添加。
-
-接下来，我们设计一个函数 $dfs(state)$，表示当前已经添加的直线为 `state` 时，至少需要添加多少条直线才能使得每个点至少在一条直线上。那么答案就是 $dfs(0)$。
-
-函数 $dfs(state)$ 的计算过程如下：
-
--   如果 `state` 的所有位都为 $1$，则说明所有直线都已经添加，返回 $0$。
--   否则，我们枚举当前还未添加的点 $i$，接下来枚举 $j$，我们将 $i$ 和 $j$ 的点连成一条直线，此时的状态为 $nxt = state | 1 << i | 1 << j$，其中 $1 << i$ 表示将第 $i$ 位设置为 $1$，$1 << j$ 表示将第 $j$ 位设置为 $1$。接下来，我们枚举所有 $k$，如果 $i$、$j$ 和 $k$ 三个点共线，则将 $k$ 的状态设置为 $1$，即 $nxt = nxt | 1 << k$。此时，我们可以将 $i$ 和 $j$ 以及 $k$ 这三个点连成一条直线，此时的状态为 $nxt$，此时至少需要添加 $dfs(nxt)$ 条直线，我们取所有情况的最小值，即为 $dfs(state)$ 的值。
-
-为了避免重复计算，我们可以使用记忆化搜索。
-
-时间复杂度 $O(2^n \times n^3)$，空间复杂度 $O(2^n)$。其中 $n$ 为点的数量。
+### Solution 1
 
 <!-- tabs:start -->
 

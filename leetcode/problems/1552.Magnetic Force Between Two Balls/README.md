@@ -1,54 +1,46 @@
-# [1552. 两球之间的磁力](https://leetcode.cn/problems/magnetic-force-between-two-balls)
+# [1552. Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls)
 
-[English Version](/solution/1500-1599/1552.Magnetic%20Force%20Between%20Two%20Balls/README_EN.md)
+[中文文档](/solution/1500-1599/1552.Magnetic%20Force%20Between%20Two%20Balls/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. Rick has <code>n</code> empty baskets, the <code>i<sup>th</sup></code> basket is at <code>position[i]</code>, Morty has <code>m</code> balls and needs to distribute the balls into the baskets such that the <strong>minimum magnetic force</strong> between any two balls is <strong>maximum</strong>.</p>
 
-<p>在代号为 C-137 的地球上，Rick 发现如果他将两个球放在他新发明的篮子里，它们之间会形成特殊形式的磁力。Rick 有&nbsp;<code>n</code>&nbsp;个空的篮子，第&nbsp;<code>i</code>&nbsp;个篮子的位置在&nbsp;<code>position[i]</code>&nbsp;，Morty&nbsp;想把&nbsp;<code>m</code>&nbsp;个球放到这些篮子里，使得任意两球间&nbsp;<strong>最小磁力</strong>&nbsp;最大。</p>
+<p>Rick stated that magnetic force between two different balls at positions <code>x</code> and <code>y</code> is <code>|x - y|</code>.</p>
 
-<p>已知两个球如果分别位于&nbsp;<code>x</code>&nbsp;和&nbsp;<code>y</code>&nbsp;，那么它们之间的磁力为&nbsp;<code>|x - y|</code>&nbsp;。</p>
-
-<p>给你一个整数数组&nbsp;<code>position</code>&nbsp;和一个整数&nbsp;<code>m</code>&nbsp;，请你返回最大化的最小磁力。</p>
+<p>Given the integer array <code>position</code> and the integer <code>m</code>. Return <em>the required force</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1552.Magnetic%20Force%20Between%20Two%20Balls/images/q3v1.jpg" style="height: 195px; width: 562px;"></p>
-
-<pre><strong>输入：</strong>position = [1,2,3,4,7], m = 3
-<strong>输出：</strong>3
-<strong>解释：</strong>将 3 个球分别放入位于 1，4 和 7 的三个篮子，两球间的磁力分别为 [3, 3, 6]。最小磁力为 3 。我们没办法让最小磁力大于 3 。
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1552.Magnetic%20Force%20Between%20Two%20Balls/images/q3v1.jpg" style="width: 562px; height: 195px;" />
+<pre>
+<strong>Input:</strong> position = [1,2,3,4,7], m = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Distributing the 3 balls into baskets 1, 4 and 7 will make the magnetic force between ball pairs [3, 3, 6]. The minimum magnetic force is 3. We cannot achieve a larger minimum magnetic force than 3.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>position = [5,4,3,2,1,1000000000], m = 2
-<strong>输出：</strong>999999999
-<strong>解释：</strong>我们使用位于 1 和 1000000000 的篮子时最小磁力最大。
+<pre>
+<strong>Input:</strong> position = [5,4,3,2,1,1000000000], m = 2
+<strong>Output:</strong> 999999999
+<strong>Explanation:</strong> We can use baskets 1 and 1000000000.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == position.length</code></li>
-	<li><code>2 &lt;= n &lt;= 10^5</code></li>
-	<li><code>1 &lt;= position[i] &lt;= 10^9</code></li>
-	<li>所有&nbsp;<code>position</code>&nbsp;中的整数 <strong>互不相同</strong>&nbsp;。</li>
+	<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= position[i] &lt;= 10<sup>9</sup></code></li>
+	<li>All integers in <code>position</code> are <strong>distinct</strong>.</li>
 	<li><code>2 &lt;= m &lt;= position.length</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
-
-先对 position 进行排序。
-
-然后二分枚举磁力值（相邻两球的最小间距），统计当前最小磁力值下能放下多少个小球，记为 cnt。若 `cnt >= m`，说明此磁力值符合条件。继续二分查找，最终找到符合条件的最大磁力值。
+### Solution 1
 
 <!-- tabs:start -->
 

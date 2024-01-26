@@ -1,59 +1,47 @@
-# [1893. 检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered)
+# [1893. Check if All the Integers in a Range Are Covered](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered)
 
-[English Version](/solution/1800-1899/1893.Check%20if%20All%20the%20Integers%20in%20a%20Range%20Are%20Covered/README_EN.md)
+[中文文档](/solution/1800-1899/1893.Check%20if%20All%20the%20Integers%20in%20a%20Range%20Are%20Covered/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a 2D integer array <code>ranges</code> and two integers <code>left</code> and <code>right</code>. Each <code>ranges[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> represents an <strong>inclusive</strong> interval between <code>start<sub>i</sub></code> and <code>end<sub>i</sub></code>.</p>
 
-<p>给你一个二维整数数组 <code>ranges</code> 和两个整数 <code>left</code> 和 <code>right</code> 。每个 <code>ranges[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> 表示一个从 <code>start<sub>i</sub></code> 到 <code>end<sub>i</sub></code> 的 <strong>闭区间</strong> 。</p>
+<p>Return <code>true</code> <em>if each integer in the inclusive range</em> <code>[left, right]</code> <em>is covered by <strong>at least one</strong> interval in</em> <code>ranges</code>. Return <code>false</code> <em>otherwise</em>.</p>
 
-<p>如果闭区间 <code>[left, right]</code> 内每个整数都被 <code>ranges</code> 中 <strong>至少一个</strong> 区间覆盖，那么请你返回 <code>true</code> ，否则返回 <code>false</code> 。</p>
+<p>An integer <code>x</code> is covered by an interval <code>ranges[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> if <code>start<sub>i</sub> &lt;= x &lt;= end<sub>i</sub></code>.</p>
 
-<p>已知区间 <code>ranges[i] = [start<sub>i</sub>, end<sub>i</sub>]</code> ，如果整数 <code>x</code> 满足 <code>start<sub>i</sub> <= x <= end<sub>i</sub></code> ，那么我们称整数<code>x</code> 被覆盖了。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>ranges = [[1,2],[3,4],[5,6]], left = 2, right = 5
-<b>输出：</b>true
-<b>解释：</b>2 到 5 的每个整数都被覆盖了：
-- 2 被第一个区间覆盖。
-- 3 和 4 被第二个区间覆盖。
-- 5 被第三个区间覆盖。
+<strong>Input:</strong> ranges = [[1,2],[3,4],[5,6]], left = 2, right = 5
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Every integer between 2 and 5 is covered:
+- 2 is covered by the first range.
+- 3 and 4 are covered by the second range.
+- 5 is covered by the third range.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>ranges = [[1,10],[10,20]], left = 21, right = 21
-<b>输出：</b>false
-<b>解释：</b>21 没有被任何一个区间覆盖。
+<strong>Input:</strong> ranges = [[1,10],[10,20]], left = 21, right = 21
+<strong>Output:</strong> false
+<strong>Explanation:</strong> 21 is not covered by any range.
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= ranges.length <= 50</code></li>
-	<li><code>1 <= start<sub>i</sub> <= end<sub>i</sub> <= 50</code></li>
-	<li><code>1 <= left <= right <= 50</code></li>
+	<li><code>1 &lt;= ranges.length &lt;= 50</code></li>
+	<li><code>1 &lt;= start<sub>i</sub> &lt;= end<sub>i</sub> &lt;= 50</code></li>
+	<li><code>1 &lt;= left &lt;= right &lt;= 50</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：差分数组
-
-我们可以使用差分数组的思想，对于每个区间 $[l, r]$，我们将 $diff[l]$ 加 $1$，将 $diff[r + 1]$ 减 $1$。
-
-最后遍历差分数组，累加每个位置的值，记为 $cur$，如果 $left \le i \le right$ 且 $cur = 0$，则说明 $i$ 没有被任何区间覆盖，返回 `false`。
-
-否则遍历结束后，返回 `true`。
-
-时间复杂度 $O(n + M)$，空间复杂度 $O(M)$。其中 $n$ 和 $M$ 分别为区间的数量和区间的范围。
+### Solution 1
 
 <!-- tabs:start -->
 

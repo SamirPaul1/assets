@@ -1,45 +1,41 @@
-# [2619. 数组原型对象的最后一个元素](https://leetcode.cn/problems/array-prototype-last)
+# [2619. Array Prototype Last](https://leetcode.com/problems/array-prototype-last)
 
-[English Version](/solution/2600-2699/2619.Array%20Prototype%20Last/README_EN.md)
+[中文文档](/solution/2600-2699/2619.Array%20Prototype%20Last/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Write code that enhances all arrays such that you can call the&nbsp;<code>array.last()</code>&nbsp;method on any array and it will return the last element. If there are no elements in the array, it should return&nbsp;<code>-1</code>.</p>
 
-<p>请你编写一段代码实现一个数组方法，使任何数组都可以调用 <code>array.last()</code> 方法，这个方法将返回数组最后一个元素。如果数组中没有元素，则返回&nbsp;<code>-1</code>&nbsp;。</p>
-
-<p>你可以假设数组是 <code>JSON.parse</code> 的输出结果。</p>
+<p>You may assume the array is the output of&nbsp;<code>JSON.parse</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1 ：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [null, {}, 3]
-<b>输出：</b>3
-<b>解释</b>：调用 nums.last() 后返回最后一个元素： 3。
+<strong>Input:</strong> nums = [null, {}, 3]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Calling nums.last() should return the last element: 3.
 </pre>
 
-<p><strong>示例 2 ：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums = []
-<b>输出：</b>-1
-<strong>解释：</strong>因为此数组没有元素，所以应该返回 -1。
+<strong>Input:</strong> nums = []
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> Because there are no elements, return -1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><b>提示：</b></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>arr</code> 是一个有效的 JSON 数组</li>
+	<li><code>arr</code> is a valid JSON array</li>
 	<li><code>0 &lt;= arr.length &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

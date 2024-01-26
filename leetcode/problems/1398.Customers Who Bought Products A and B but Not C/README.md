@@ -1,12 +1,10 @@
-# [1398. 购买了产品 A 和产品 B 却没有购买产品 C 的顾客](https://leetcode.cn/problems/customers-who-bought-products-a-and-b-but-not-c)
+# [1398. Customers Who Bought Products A and B but Not C](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c)
 
-[English Version](/solution/1300-1399/1398.Customers%20Who%20Bought%20Products%20A%20and%20B%20but%20Not%20C/README_EN.md)
+[中文文档](/solution/1300-1399/1398.Customers%20Who%20Bought%20Products%20A%20and%20B%20but%20Not%20C/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>&nbsp;<code>Customers</code>&nbsp;表：</p>
+<p>Table: <code>Customers</code></p>
 
 <pre>
 +---------------------+---------+
@@ -15,12 +13,12 @@
 | customer_id         | int     |
 | customer_name       | varchar |
 +---------------------+---------+
-customer_id 是这张表中具有唯一值的列。
-customer_name 是顾客的名称。</pre>
+customer_id is the column with unique values for this table.
+customer_name is the name of the customer.</pre>
 
 <p>&nbsp;</p>
 
-<p><code>Orders</code>&nbsp;表：</p>
+<p>Table: <code>Orders</code></p>
 
 <pre>
 +---------------+---------+
@@ -30,24 +28,23 @@ customer_name 是顾客的名称。</pre>
 | customer_id   | int     |
 | product_name  | varchar |
 +---------------+---------+
-order_id 是这张表中具有唯一值的列。
-customer_id 是购买了名为 "product_name" 产品顾客的id。
+order_id is the column with unique values for this table.
+customer_id is the id of the customer who bought the product &quot;product_name&quot;.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>请你编写解决方案，报告购买了产品 <strong>"A"</strong>，<strong>"B"</strong> 但没有购买产品 <strong>"C"</strong> 的客户的 customer_id 和 customer_name，因为我们想推荐他们购买这样的产品。</p>
+<p>Write a solution&nbsp;to report the customer_id and customer_name of customers who bought products <strong>&quot;A&quot;</strong>, <strong>&quot;B&quot;</strong> but did not buy the product <strong>&quot;C&quot;</strong> since we want to recommend them to purchase this product.</p>
 
-<p>返回按 <code>customer_id</code> <strong>排序</strong> 的结果表。</p>
+<p>Return the result table <strong>ordered</strong> by <code>customer_id</code>.</p>
 
-<p>返回结果格式如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Customers table:
 +-------------+---------------+
 | customer_id | customer_name |
@@ -57,7 +54,6 @@ Customers table:
 | 3           | Elizabeth     |
 | 4           | Jhon          |
 +-------------+---------------+
-
 Orders table:
 +------------+--------------+---------------+
 | order_id   | customer_id  | product_name  |
@@ -72,20 +68,20 @@ Orders table:
 | 80         |     3        |     D         |
 | 90         |     4        |     C         |
 +------------+--------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------------+---------------+
 | customer_id | customer_name |
 +-------------+---------------+
 | 3           | Elizabeth     |
 +-------------+---------------+
-<strong>解释：</strong>
-只有 customer_id 为 3 的顾客购买了产品 A 和产品 B ，却没有购买产品 C 。</pre>
+<strong>Explanation:</strong> Only the customer_id with id 3 bought the product A and B but not the product C.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一：LEFT JOIN + GROUP BY + HAVING
+### Solution 1: LEFT JOIN + GROUP BY + HAVING
 
-我们可以用 `LEFT JOIN` 将 `Customers` 表和 `Orders` 表连接起来，然后按照 `customer_id` 进行分组，最后筛选出购买了产品 A 和产品 B 却没有购买产品 C 的顾客。
+We can use `LEFT JOIN` to join the `Customers` table and the `Orders` table, then group them by `customer_id`, and finally filter out the customers who have purchased products A and B but not product C.
 
 <!-- tabs:start -->
 

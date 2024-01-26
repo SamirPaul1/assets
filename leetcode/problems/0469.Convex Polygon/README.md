@@ -1,57 +1,43 @@
-# [469. 凸多边形](https://leetcode.cn/problems/convex-polygon)
+# [469. Convex Polygon](https://leetcode.com/problems/convex-polygon)
 
-[English Version](/solution/0400-0499/0469.Convex%20Polygon/README_EN.md)
+[中文文档](/solution/0400-0499/0469.Convex%20Polygon/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an array of points on the <strong>X-Y</strong> plane <code>points</code> where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>. The points form a polygon when joined sequentially.</p>
 
-<p>给定 <strong>X-Y</strong> 平面上的一组点&nbsp;<code>points</code>&nbsp;，其中&nbsp;<code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> 。这些点按顺序连成一个多边形。</p>
+<p>Return <code>true</code> if this polygon is <a href="http://en.wikipedia.org/wiki/Convex_polygon" target="_blank">convex</a> and <code>false</code> otherwise.</p>
 
-<p>如果该多边形为&nbsp;<strong>凸</strong>&nbsp;多边形<a href="https://baike.baidu.com/item/凸多边形/">（凸多边形的定义）</a>则返回 <code>true</code> ，否则返回&nbsp;<code>false</code>&nbsp;。</p>
-
-<p>你可以假设由给定点构成的多边形总是一个 简单的多边形<a href="https://baike.baidu.com/item/%E7%AE%80%E5%8D%95%E5%A4%9A%E8%BE%B9%E5%BD%A2">（简单多边形的定义）</a>。换句话说，我们要保证每个顶点处恰好是两条边的汇合点，并且这些边&nbsp;<strong>互不相交&nbsp;</strong>。</p>
+<p>You may assume the polygon formed by given points is always a <a href="http://en.wikipedia.org/wiki/Simple_polygon" target="_blank">simple polygon</a>. In other words, we ensure that exactly two edges intersect at each vertex and that edges otherwise don&#39;t intersect each other.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0469.Convex%20Polygon/images/covpoly1-plane.jpg" style="height: 294px; width: 300px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0469.Convex%20Polygon/images/covpoly1-plane.jpg" style="width: 300px; height: 294px;" />
 <pre>
-<strong>输入:</strong> points = [[0,0],[0,5],[5,5],[5,0]]
-<strong>输出:</strong> true</pre>
+<strong>Input:</strong> points = [[0,0],[0,5],[5,5],[5,0]]
+<strong>Output:</strong> true
+</pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0469.Convex%20Polygon/images/covpoly2-plane.jpg" style="height: 303px; width: 300px;" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0469.Convex%20Polygon/images/covpoly2-plane.jpg" style="width: 300px; height: 303px;" />
 <pre>
-<strong>输入:</strong> points = [[0,0],[0,10],[10,10],[10,0],[5,5]]
-<strong>输出:</strong> false</pre>
+<strong>Input:</strong> points = [[0,0],[0,10],[10,10],[10,0],[5,5]]
+<strong>Output:</strong> false
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>3 &lt;= points.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>points[i].length == 2</code></li>
-	<li><code>-10<sup>4</sup>&nbsp;&lt;= x<sub>i</sub>, y<sub>i</sub>&nbsp;&lt;= 10<sup>4</sup></code></li>
-	<li>所有点都 <strong>不同</strong></li>
+	<li><code>-10<sup>4</sup> &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 10<sup>4</sup></code></li>
+	<li>All the given points are <strong>unique</strong>.</li>
 </ul>
 
-<p>&nbsp;</p>
+## Solutions
 
-## 解法
-
-### 方法一：数学（向量叉积）
-
-假设当前连续的三个顶点分别为 $p_1, p_2, p_3$，我们可以计算向量 $\overrightarrow{p_1p_2}$ 和 $\overrightarrow{p_1p_3}$ 的叉积，记为 $cur$。如果 $cur$ 的方向与之前的 $pre$ 方向不一致，说明多边形不是凸多边形。否则，我们更新 $pre = cur$，继续遍历下一个顶点。
-
-遍历结束，如果没有发现不一致的情况，说明多边形是凸多边形。
-
-时间复杂度 $O(n)$，其中 $n$ 是顶点的数量。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 

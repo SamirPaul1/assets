@@ -1,52 +1,40 @@
-# [343. 整数拆分](https://leetcode.cn/problems/integer-break)
+# [343. Integer Break](https://leetcode.com/problems/integer-break)
 
-[English Version](/solution/0300-0399/0343.Integer%20Break/README_EN.md)
+[中文文档](/solution/0300-0399/0343.Integer%20Break/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer <code>n</code>, break it into the sum of <code>k</code> <strong>positive integers</strong>, where <code>k &gt;= 2</code>, and maximize the product of those integers.</p>
 
-<p>给定一个正整数&nbsp;<code>n</code>&nbsp;，将其拆分为 <code>k</code> 个 <strong>正整数</strong> 的和（&nbsp;<code>k &gt;= 2</code>&nbsp;），并使这些整数的乘积最大化。</p>
-
-<p>返回 <em>你可以获得的最大乘积</em>&nbsp;。</p>
+<p>Return <em>the maximum product you can get</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入: </strong>n = 2
-<strong>输出: </strong>1
-<strong>解释: </strong>2 = 1 + 1, 1 × 1 = 1。</pre>
-
-<p><strong>示例&nbsp;2:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入: </strong>n = 10
-<strong>输出: </strong>36
-<strong>解释: </strong>10 = 3 + 3 + 4, 3 ×&nbsp;3 ×&nbsp;4 = 36。</pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> 2 = 1 + 1, 1 &times; 1 = 1.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> n = 10
+<strong>Output:</strong> 36
+<strong>Explanation:</strong> 10 = 3 + 3 + 4, 3 &times; 3 &times; 4 = 36.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= n &lt;= 58</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
-
-我们定义 $dp[i]$ 表示正整数 $n$ 能获得的最大乘积，初始化 $dp[1] = 1$。答案即为 $dp[n]$。
-
-状态转移方程为：
-
-$$
-dp[i] = max(dp[i], dp[i - j] \times j, (i - j) \times j) \quad (j \in [0, i))
-$$
-
-时间复杂度 $O(n^2)$，空间复杂度 $O(n)$。其中 $n$ 为正整数 $n$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -140,11 +128,7 @@ int integerBreak(int n) {
 
 <!-- tabs:end -->
 
-### 方法二：数学
-
-当 $n \lt 4$ 时，$n$ 不能拆分成至少两个正整数的和，因此 $n - 1$ 是最大乘积。当 $n \ge 4$ 时，我们尽可能多地拆分 $3$，当剩下的最后一段为 $4$ 时，我们将其拆分为 $2 + 2$，这样乘积最大。
-
-时间复杂度 $O(1)$，空间复杂度 $O(1)$。
+### Solution 2
 
 <!-- tabs:start -->
 

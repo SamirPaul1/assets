@@ -1,62 +1,54 @@
-# [1628. 设计带解析函数的表达式树](https://leetcode.cn/problems/design-an-expression-tree-with-evaluate-function)
+# [1628. Design an Expression Tree With Evaluate Function](https://leetcode.com/problems/design-an-expression-tree-with-evaluate-function)
 
-[English Version](/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/README_EN.md)
+[中文文档](/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>postfix</code> tokens of an arithmetic expression, build and return <em>the binary expression tree that represents this expression.</em></p>
 
-<p>给定一个算术表达式的后缀表示法的标记（token）&nbsp;<code>postfix</code>&nbsp;，构造并返回该表达式对应的二叉表达式树。</p>
+<p><b>Postfix</b> notation is a notation for writing arithmetic expressions in which the operands (numbers) appear before their operators. For example, the postfix tokens of the expression <code>4*(5-(7+2))</code> are represented in the array <code>postfix = [&quot;4&quot;,&quot;5&quot;,&quot;7&quot;,&quot;2&quot;,&quot;+&quot;,&quot;-&quot;,&quot;*&quot;]</code>.</p>
 
-<p><b>后缀</b>表示法是一种将操作数写在运算符之前的表示法。例如，表达式&nbsp;<code>4*(5-(2+7))</code>&nbsp;的后缀表示法表示为数组&nbsp;<code>postfix = ["4","5","7","2","+","-","*"]</code>&nbsp;。</p>
+<p>The class <code>Node</code> is an interface you should use to implement the binary expression tree. The returned tree will be tested using the <code>evaluate</code> function, which is supposed to evaluate the tree&#39;s value. You should not remove the <code>Node</code> class; however, you can modify it as you wish, and you can define other classes to implement it if needed.</p>
 
-<p>抽象类&nbsp;<code>Node</code>&nbsp;需要用于实现二叉表达式树。我们将通过&nbsp;<code>evaluate</code>&nbsp;函数来测试返回的树是否能够解析树中的值。你不可以移除 <code>Node</code> 类，但你可以按需修改此类，也可以定义其他类来实现它。</p>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Binary_expression_tree" target="_blank">binary expression tree</a></strong> is a kind of binary tree used to represent arithmetic expressions. Each node of a binary expression tree has either zero or two children. Leaf nodes (nodes with 0 children) correspond to operands (numbers), and internal nodes (nodes with two children) correspond to the operators <code>&#39;+&#39;</code> (addition), <code>&#39;-&#39;</code> (subtraction), <code>&#39;*&#39;</code> (multiplication), and <code>&#39;/&#39;</code> (division).</p>
 
-<p><a href="https://en.wikipedia.org/wiki/Binary_expression_tree"><strong>二叉表达式树</strong></a>是一种表达算术表达式的二叉树。二叉表达式树中的每一个节点都有零个或两个子节点。&nbsp;叶节点（有 0 个子节点的节点）表示操作数，非叶节点（有 2 个子节点的节点）表示运算符：&nbsp;<code>'+'</code>&nbsp;（加）、&nbsp;<code>'-'</code> （减）、&nbsp;<code>'*'</code> （乘）和&nbsp;<code>'/'</code> （除）。</p>
+<p>It&#39;s guaranteed that no subtree will yield a value that exceeds <code>10<sup>9</sup></code> in absolute value, and all the operations are valid (i.e., no division by zero).</p>
 
-<p>我们保证任何子树对应值的绝对值不超过&nbsp;<code>10<sup>9</sup></code>&nbsp;，且所有操作都是有效的（即没有除以零的操作）</p>
-
-<p><b>进阶：</b>&nbsp;你可以将表达式树设计得更模块化吗？例如，你的设计能够不修改现有的&nbsp;<code>evaluate</code>&nbsp;的实现就能支持更多的操作符吗？</p>
+<p><strong>Follow up:</strong> Could you design the expression tree such that it is more modular? For example, is your design able to support additional operators without making changes to your existing <code>evaluate</code> implementation?</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram.png" style="width: 242px; height: 241px;" /></strong></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram.png" style="width: 242px; height: 241px;" />
 <pre>
-<b>输入：</b> s = ["3","4","+","2","*","7","/"]
-<b>输出：</b> 2
-<b>解释：</b> 此表达式可解析为上述二叉树，其对应表达式为 (<code>(3+4)*2)/7) = 14/7 = 2.</code>
+<strong>Input:</strong> s = [&quot;3&quot;,&quot;4&quot;,&quot;+&quot;,&quot;2&quot;,&quot;*&quot;,&quot;7&quot;,&quot;/&quot;]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> this expression evaluates to the above binary tree with expression (<code>(3+4)*2)/7) = 14/7 = 2.</code>
 </pre>
 
-<p><strong>示例 2:</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram2.png" style="width: 222px; height: 232px;" /></strong></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram2.png" style="width: 222px; height: 232px;" />
 <pre>
-<strong>输入:</strong> s = ["4","5","7","2","+","-","*"]
-<strong>输出:</strong> -16
-<strong>解释:</strong> 此表达式可解析为上述二叉树，其对应表达式为 4*(5-<code>(2+7)) = 4*(-4) = -16.</code>
+<strong>Input:</strong> s = [&quot;4&quot;,&quot;5&quot;,&quot;2&quot;,&quot;7&quot;,&quot;+&quot;,&quot;-&quot;,&quot;*&quot;]
+<strong>Output:</strong> -16
+<strong>Explanation:</strong> this expression evaluates to the above binary tree with expression 4*(5-<code>(2+7)) = 4*(-4) = -16.</code>
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt; 100</code></li>
-	<li><code>s.length</code>&nbsp;是奇数。</li>
-	<li><code>s</code>&nbsp;包含数字和字符&nbsp;<code>'+'</code>&nbsp;、&nbsp;<code>'-'</code>&nbsp;、&nbsp;<code>'*'</code>&nbsp;以及&nbsp;<code>'/'</code>&nbsp;。</li>
-	<li>如果&nbsp;<code>s[i]</code>&nbsp;是数，则对应的整数不超过&nbsp;<code>10<sup>5</sup></code>&nbsp;。</li>
-	<li><code>s</code>&nbsp;保证是一个有效的表达式。</li>
-	<li>结果值和所有过程值的绝对值均不超过&nbsp;<code>10<sup>9</sup></code>&nbsp;。</li>
-	<li>保证表达式不包含除以零的操作。</li>
+	<li><code>s.length</code> is odd.</li>
+	<li><code>s</code> consists of numbers and the characters <code>&#39;+&#39;</code>, <code>&#39;-&#39;</code>, <code>&#39;*&#39;</code>, and <code>&#39;/&#39;</code>.</li>
+	<li>If <code>s[i]</code> is a number, its integer representation is no more than <code>10<sup>5</sup></code>.</li>
+	<li>It is guaranteed that <code>s</code> is a valid expression.</li>
+	<li>The absolute value of the result and intermediate values will not exceed <code>10<sup>9</sup></code>.</li>
+	<li>It is guaranteed that no expression will include division by zero.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

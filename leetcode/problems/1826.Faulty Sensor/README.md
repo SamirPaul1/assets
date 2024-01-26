@@ -1,54 +1,49 @@
-# [1826. 有缺陷的传感器](https://leetcode.cn/problems/faulty-sensor)
+# [1826. Faulty Sensor](https://leetcode.com/problems/faulty-sensor)
 
-[English Version](/solution/1800-1899/1826.Faulty%20Sensor/README_EN.md)
+[中文文档](/solution/1800-1899/1826.Faulty%20Sensor/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An experiment is being conducted in a lab. To ensure accuracy, there are<strong> two </strong>sensors collecting data simultaneously. You are given two arrays <code>sensor1</code> and <code>sensor2</code>, where <code>sensor1[i]</code> and <code>sensor2[i]</code> are the <code>i<sup>th</sup></code> data points collected by the two sensors.</p>
 
-<p>实验室里正在进行一项实验。为了确保数据的准确性，同时使用 <strong>两个</strong> 传感器来采集数据。您将获得2个数组 <code>sensor1</code> and <code>sensor2</code>，其中 <code>sensor1[i]</code>&nbsp;和&nbsp;<code>sensor2[i]</code>&nbsp;分别是两个传感器对<span style="">第 <code>i</code> 个</span>数据点采集到的数据。</p>
-
-<p>但是，这种类型的传感器有可能存在缺陷，它会导致 <strong>某一个</strong> 数据点采集的数据（掉落值）被丢弃。</p>
-
-<p>数据被丢弃后，所有在其右侧的数据点采集的数据，都会被向左移动一个位置，最后一个数据点采集的数据会被一些随机值替换。可以保证此随机值不等于掉落值。</p>
+<p>However, this type of sensor has a chance of being defective, which causes <strong>exactly one</strong> data point to be dropped. After the data is dropped, all the data points to the <strong>right</strong> of the dropped data are <strong>shifted</strong> one place to the left, and the last data point is replaced with some <strong>random value</strong>. It is guaranteed that this random value will <strong>not</strong> be equal to the dropped value.</p>
 
 <ul>
-	<li>举个例子, 如果正确的数据是&nbsp;<code>[1,2,<em><strong>3</strong></em>,4,5]</code>&nbsp;，&nbsp;此时 <code>3</code> 被丢弃了, 传感器会返回&nbsp;<code>[1,2,4,5,<em><strong>7</strong></em>]</code> (最后的位置可以是任何值, 不仅仅是&nbsp;<code>7</code>).</li>
+	<li>For example, if the correct data is <code>[1,2,<u><strong>3</strong></u>,4,5]</code> and <code>3</code> is dropped, the sensor could return <code>[1,2,4,5,<u><strong>7</strong></u>]</code> (the last position can be <strong>any</strong> value, not just <code>7</code>).</li>
 </ul>
 
-<p>可以确定的是，<strong>最多有一个</strong> 传感器有缺陷。请返回这个有缺陷的传感器的编号 （<code>1</code> 或 <code>2</code>）。如果任一传感器 <strong>没有缺陷</strong> ，或者 <strong>无法</strong> 确定有缺陷的传感器，则返回 <code>-1</code> 。</p>
+<p>We know that there is a defect in <strong>at most one</strong> of the sensors. Return <em>the sensor number (</em><code>1</code><em> or </em><code>2</code><em>) with the defect. If there is <strong>no defect</strong> in either sensor or if it is<strong> impossible</strong> to determine the defective sensor, return </em><code>-1</code><em>.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>sensor1 = [2,3,4,5], sensor2 = [2,1,3,4]
-<strong>输出：</strong>1
-<strong>解释：</strong>传感器 2 返回了所有正确的数据.
-传感器2对第二个数据点采集的数据，被传感器1丢弃了，传感器1返回的最后一个数据被替换为 5 。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>sensor1 = [2,2,2,2,2], sensor2 = [2,2,2,2,5]
-<strong>输出：</strong>-1
-<strong>解释：</strong>无法判定哪个传感器是有缺陷的。
-假设任一传感器丢弃的数据是最后一位，那么，另一个传感器就能给出与之对应的输出。
+<strong>Input:</strong> sensor1 = [2,3,4,5], sensor2 = [2,1,3,4]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Sensor 2 has the correct values.
+The second data point from sensor 2 is dropped, and the last value of sensor 1 is replaced by a 5.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>sensor1 = [2,3,2,2,3,2], sensor2 = [2,3,2,3,2,7]
-<strong>输出：</strong>2
-<strong>解释：</strong>传感器 1 返回了所有正确的数据.
-传感器 1 对第四个数据点的采集数据，被传感器2丢失了, 传感器 2 返回的最后一个数据被替换为 7 。
+<strong>Input:</strong> sensor1 = [2,2,2,2,2], sensor2 = [2,2,2,2,5]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> It is impossible to determine which sensor has a defect.
+Dropping the last value for either sensor could produce the output for the other sensor.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> sensor1 = [2,3,2,2,3,2], sensor2 = [2,3,2,3,2,7]
+<strong>Output:</strong> 2
+<strong>Explanation: </strong>Sensor 1 has the correct values.
+The fourth data point from sensor 1 is dropped, and the last value of sensor 1 is replaced by a 7.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>sensor1.length == sensor2.length</code></li>
@@ -56,15 +51,15 @@
 	<li><code>1 &lt;= sensor1[i], sensor2[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：遍历
+### Solution 1: Traversal
 
-遍历两个数组，找到第一个不相等的位置 $i$。如果 $i \lt n - 1$，循环比较 $sensor1[i + 1]$ 和 $sensor2[i]$，如果不相等，说明传感器 $1$ 有缺陷，返回 $1$；否则比较 $sensor1[i]$ 和 $sensor2[i + 1]$，如果不相等，说明传感器 $2$ 有缺陷，返回 $2$。
+Traverse both arrays, find the first unequal position $i$. If $i \lt n - 1$, loop to compare $sensor1[i + 1]$ and $sensor2[i]$, if they are not equal, it indicates that sensor $1$ is defective, return $1$; otherwise compare $sensor1[i]$ and $sensor2[i + 1]$, if they are not equal, it indicates that sensor $2$ is defective, return $2$.
 
-遍历结束，说明无法确定有缺陷的传感器，返回 $-1$。
+If the traversal ends, it means that the defective sensor cannot be determined, return $-1$.
 
-时间复杂度 $O(n)$，其中 $n$ 为数组长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

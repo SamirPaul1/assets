@@ -1,69 +1,63 @@
-# [1261. 在受污染的二叉树中查找元素](https://leetcode.cn/problems/find-elements-in-a-contaminated-binary-tree)
+# [1261. Find Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree)
 
-[English Version](/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给出一个满足下述规则的二叉树：</p>
+<p>Given a binary tree with the following rules:</p>
 
 <ol>
 	<li><code>root.val == 0</code></li>
-	<li>如果 <code>treeNode.val == x</code> 且&nbsp;<code>treeNode.left != null</code>，那么&nbsp;<code>treeNode.left.val == 2 * x + 1</code></li>
-	<li>如果 <code>treeNode.val == x</code> 且 <code>treeNode.right != null</code>，那么&nbsp;<code>treeNode.right.val == 2 * x + 2</code></li>
+	<li>If <code>treeNode.val == x</code> and <code>treeNode.left != null</code>, then <code>treeNode.left.val == 2 * x + 1</code></li>
+	<li>If <code>treeNode.val == x</code> and <code>treeNode.right != null</code>, then <code>treeNode.right.val == 2 * x + 2</code></li>
 </ol>
 
-<p>现在这个二叉树受到「污染」，所有的&nbsp;<code>treeNode.val</code>&nbsp;都变成了&nbsp;<code>-1</code>。</p>
+<p>Now the binary tree is contaminated, which means all <code>treeNode.val</code> have been changed to <code>-1</code>.</p>
 
-<p>请你先还原二叉树，然后实现&nbsp;<code>FindElements</code>&nbsp;类：</p>
+<p>Implement the <code>FindElements</code> class:</p>
 
 <ul>
-	<li><code>FindElements(TreeNode* root)</code>&nbsp;用受污染的二叉树初始化对象，你需要先把它还原。</li>
-	<li><code>bool find(int target)</code>&nbsp;判断目标值&nbsp;<code>target</code>&nbsp;是否存在于还原后的二叉树中并返回结果。</li>
+	<li><code>FindElements(TreeNode* root)</code> Initializes the object with a contaminated binary tree and recovers it.</li>
+	<li><code>bool find(int target)</code> Returns <code>true</code> if the <code>target</code> value exists in the recovered binary tree.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1.jpg" style="height: 119px; width: 320px;"></strong></p>
-
-<pre><strong>输入：</strong>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1.jpg" style="width: 320px; height: 119px;" />
+<pre>
+<strong>Input</strong>
 [&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;]
 [[[-1,null,-1]],[1],[2]]
-<strong>输出：</strong>
+<strong>Output</strong>
 [null,false,true]
-<strong>解释：</strong>
+<strong>Explanation</strong>
 FindElements findElements = new FindElements([-1,null,-1]); 
 findElements.find(1); // return False 
 findElements.find(2); // return True </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4.jpg" style="height: 198px; width: 400px;"></strong></p>
-
-<pre><strong>输入：</strong>
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4.jpg" style="width: 400px; height: 198px;" />
+<pre>
+<strong>Input</strong>
 [&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;]
 [[[-1,-1,-1,-1,-1]],[1],[3],[5]]
-<strong>输出：</strong>
+<strong>Output</strong>
 [null,true,true,false]
-<strong>解释：</strong>
+<strong>Explanation</strong>
 FindElements findElements = new FindElements([-1,-1,-1,-1,-1]);
 findElements.find(1); // return True
 findElements.find(3); // return True
 findElements.find(5); // return False</pre>
 
-<p><strong>示例 3：</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1-1.jpg" style="height: 274px; width: 306px;"></strong></p>
-
-<pre><strong>输入：</strong>
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1-1.jpg" style="width: 306px; height: 274px;" />
+<pre>
+<strong>Input</strong>
 [&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;]
 [[[-1,null,-1,-1,null,-1]],[2],[3],[4],[5]]
-<strong>输出：</strong>
+<strong>Output</strong>
 [null,true,false,false,true]
-<strong>解释：</strong>
+<strong>Explanation</strong>
 FindElements findElements = new FindElements([-1,null,-1,-1,null,-1]);
 findElements.find(2); // return True
 findElements.find(3); // return False
@@ -72,24 +66,23 @@ findElements.find(5); // return True
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>TreeNode.val == -1</code></li>
-	<li>二叉树的高度不超过&nbsp;<code>20</code></li>
-	<li>节点的总数在&nbsp;<code>[1,&nbsp;10^4]</code>&nbsp;之间</li>
-	<li>调用&nbsp;<code>find()</code>&nbsp;的总次数在&nbsp;<code>[1,&nbsp;10^4]</code>&nbsp;之间</li>
-	<li><code>0 &lt;= target &lt;= 10^6</code></li>
+	<li>The height of the binary tree is less than or equal to <code>20</code></li>
+	<li>The total number of nodes is between <code>[1, 10<sup>4</sup>]</code></li>
+	<li>Total calls of <code>find()</code> is between <code>[1, 10<sup>4</sup>]</code></li>
+	<li><code>0 &lt;= target &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS + 哈希表
+### Solution 1: DFS + Hash Table
 
-我们先通过 DFS 遍历二叉树，将节点值恢复为原来的值，然后再通过哈希表存储所有节点值，这样在查找时就可以直接判断目标值是否存在于哈希表中。
+First, we traverse the binary tree using DFS to restore the node values to their original values. Then, we store all node values in a hash table, so we can directly check whether the target value exists in the hash table when searching.
 
-时间复杂度方面，初始化时需要遍历二叉树，时间复杂度为 $O(n)$，查找时只需要判断哈希表中是否存在目标值，时间复杂度为 $O(1)$。空间复杂度 $O(n)$。其中 $n$ 为二叉树节点个数。
+In terms of time complexity, we need to traverse the binary tree during initialization, so the time complexity is $O(n)$. When searching, we only need to check whether the target value exists in the hash table, so the time complexity is $O(1)$. The space complexity is $O(n)$, where $n$ is the number of nodes in the binary tree.
 
 <!-- tabs:start -->
 

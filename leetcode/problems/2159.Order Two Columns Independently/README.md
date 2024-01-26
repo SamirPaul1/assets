@@ -1,12 +1,10 @@
-# [2159. 分别排序两列](https://leetcode.cn/problems/order-two-columns-independently)
+# [2159. Order Two Columns Independently](https://leetcode.com/problems/order-two-columns-independently)
 
-[English Version](/solution/2100-2199/2159.Order%20Two%20Columns%20Independently/README_EN.md)
+[中文文档](/solution/2100-2199/2159.Order%20Two%20Columns%20Independently/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Data</code></p>
+<p>Table: <code>Data</code></p>
 
 <pre>
 +-------------+------+
@@ -15,27 +13,26 @@
 | first_col   | int  |
 | second_col  | int  |
 +-------------+------+
-该表可能包含重复数据。
+This table may contain duplicate rows.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，使：</p>
+<p>Write a solution to independently:</p>
 
 <ul>
-	<li><code>first_col</code> 按照<strong> 升序 </strong>排列。</li>
-	<li><code>second_col</code> 按照 <strong>降序 </strong>排列。</li>
+	<li>order <code>first_col</code> in <strong>ascending order</strong>.</li>
+	<li>order <code>second_col</code> in <strong>descending order</strong>.</li>
 </ul>
 
-<p>返回的结果格式如下。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Data 表：
+<strong>Input:</strong> 
+Data table:
 +-----------+------------+
 | first_col | second_col |
 +-----------+------------+
@@ -44,7 +41,7 @@ Data 表：
 | 3         | 1          |
 | 1         | 4          |
 +-----------+------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-----------+------------+
 | first_col | second_col |
 +-----------+------------+
@@ -55,9 +52,9 @@ Data 表：
 +-----------+------------+
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

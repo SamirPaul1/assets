@@ -1,12 +1,10 @@
-# [1270. 向公司 CEO 汇报工作的所有人](https://leetcode.cn/problems/all-people-report-to-the-given-manager)
+# [1270. All People Report to the Given Manager](https://leetcode.com/problems/all-people-report-to-the-given-manager)
 
-[English Version](/solution/1200-1299/1270.All%20People%20Report%20to%20the%20Given%20Manager/README_EN.md)
+[中文文档](/solution/1200-1299/1270.All%20People%20Report%20to%20the%20Given%20Manager/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>员工表：<code>Employees</code></p>
+<p>Table: <code>Employees</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,28 +14,27 @@
 | employee_name | varchar |
 | manager_id    | int     |
 +---------------+---------+
-employee_id 是这个表具有唯一值的列。
-这个表中每一行中，employee_id 表示职工的 ID，employee_name 表示职工的名字，manager_id 表示该职工汇报工作的直线经理。
-这个公司 CEO 是 employee_id = 1 的人。
+employee_id is the column of unique values for this table.
+Each row of this table indicates that the employee with ID employee_id and name employee_name reports his work to his/her direct manager with manager_id
+The head of the company is the employee with employee_id = 1.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，找出所有直接或间接向公司 CEO 汇报工作的职工的 <code>employee_id</code> 。</p>
+<p>Write a solution to find <code>employee_id</code> of all employees that directly or indirectly report their work to the head of the company.</p>
 
-<p>由于公司规模较小，经理之间的间接关系 <strong>不超过 3 个经理</strong> 。</p>
+<p>The indirect relation between managers <strong>will not exceed three managers</strong> as the company is small.</p>
 
-<p>可以以 <strong>任何顺序</strong> 返回无重复项的结果。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果示例如下。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-<code>Employees </code>table:
+<strong>Input:</strong> 
+Employees table:
 +-------------+---------------+------------+
 | employee_id | employee_name | manager_id |
 +-------------+---------------+------------+
@@ -50,7 +47,7 @@ employee_id 是这个表具有唯一值的列。
 | 9           | Angela        | 8          |
 | 77          | Robert        | 1          |
 +-------------+---------------+------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------------+
 | employee_id |
 +-------------+
@@ -59,21 +56,21 @@ employee_id 是这个表具有唯一值的列。
 | 4           |
 | 7           |
 +-------------+
-<strong>解释：</strong>
-公司 CEO 的 employee_id 是 1.
-employee_id 是 2 和 77 的职员直接汇报给公司 CEO。
-employee_id 是 4 的职员间接汇报给公司 CEO 4 --&gt; 2 --&gt; 1 。
-employee_id 是 7 的职员间接汇报给公司 CEO 7 --&gt; 4 --&gt; 2 --&gt; 1 。
-employee_id 是 3, 8 ，9 的职员不会直接或间接的汇报给公司 CEO。 
+<strong>Explanation:</strong> 
+The head of the company is the employee with employee_id 1.
+The employees with employee_id 2 and 77 report their work directly to the head of the company.
+The employee with employee_id 4 reports their work indirectly to the head of the company 4 --&gt; 2 --&gt; 1. 
+The employee with employee_id 7 reports their work indirectly to the head of the company 7 --&gt; 4 --&gt; 2 --&gt; 1.
+The employees with employee_id 3, 8, and 9 do not report their work to the head of the company directly or indirectly. 
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：两次连接
+### Solution 1: Two Joins
 
-我们可以通过两次连接来找到所有直接或间接向公司 CEO 汇报工作的职工的 `employee_id`。
+We can use two joins to find all employees who report directly or indirectly to the company CEO.
 
-具体地，我们首先通过一次连接，找到每个 `manager_id` 对应的上级经理的 `manager_id`，然后再通过一次连接，找到更上一级经理的 `manager_id`，最后，如果更上一级的 `manager_id` 为 $1$，且员工的 `employee_id` 不为 $1$，则说明该员工直接或间接向公司 CEO 汇报工作。
+Specifically, we first use a join to find the `manager_id` of the superior manager for each `manager_id`, and then use another join to find the `manager_id` of the higher-level manager. Finally, if the `manager_id` of the higher-level manager is $1$ and the `employee_id` of the employee is not $1$, it means that the employee reports directly or indirectly to the company CEO.
 
 <!-- tabs:start -->
 

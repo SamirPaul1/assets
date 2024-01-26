@@ -1,12 +1,10 @@
-# [1468. 计算税后工资](https://leetcode.cn/problems/calculate-salaries)
+# [1468. Calculate Salaries](https://leetcode.com/problems/calculate-salaries)
 
-[English Version](/solution/1400-1499/1468.Calculate%20Salaries/README_EN.md)
+[中文文档](/solution/1400-1499/1468.Calculate%20Salaries/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><code>Salaries</code> 表：</p>
+<p>Table <code>Salaries</code>:</p>
 
 <pre>
 +---------------+---------+
@@ -17,33 +15,32 @@
 | employee_name | varchar |
 | salary        | int     |
 +---------------+---------+
-在 SQL 中，(company_id, employee_id) 是这个表的主键
-这个表包括员工的company id, id, name 和 salary 
+In SQL,(company_id, employee_id) is the primary key for this table.
+This table contains the company id, the id, the name, and the salary for an employee.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>查找出每个员工的税后工资</p>
+<p>Find the salaries of the employees after applying taxes. Round the salary to <strong>the nearest integer</strong>.</p>
 
-<p>每个公司的税率计算依照以下规则</p>
+<p>The tax rate is calculated for each company based on the following criteria:</p>
 
 <ul>
-	<li>如果这个公司员工最高工资不到 <code>$1000</code> ，税率为 <code>0%</code></li>
-	<li>如果这个公司员工最高工资在 <code>[1000, 10000]</code> 之间，税率为 <code>24%</code></li>
-	<li>如果这个公司员工最高工资大于 <code>$10000</code> ，税率为 <code>49%</code></li>
+	<li><code>0%</code> If the max salary of any employee in the company is less than <code>$1000</code>.</li>
+	<li><code>24%</code> If the max salary of any employee in the company is in the range <code>[1000, 10000]</code> inclusive.</li>
+	<li><code>49%</code> If the max salary of any employee in the company is greater than <code>$10000</code>.</li>
 </ul>
 
-<p>按 <strong>任意顺序</strong> 返回结果。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果的格式如下例所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Salaries 表：
+<strong>Input:</strong> 
+Salaries table:
 +------------+-------------+---------------+--------+
 | company_id | employee_id | employee_name | salary |
 +------------+-------------+---------------+--------+
@@ -58,7 +55,7 @@ Salaries 表：
 | 3          | 13          | Nyancat       | 3300   |
 | 3          | 15          | Morninngcat   | 7777   |
 +------------+-------------+---------------+--------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+-------------+---------------+--------+
 | company_id | employee_id | employee_name | salary |
 +------------+-------------+---------------+--------+
@@ -73,16 +70,17 @@ Salaries 表：
 | 3          | 13          | Nyancat       | 2508   |
 | 3          | 15          | Morninngcat   | 5911   |
 +------------+-------------+---------------+--------+
-<strong>解释：</strong>
-对于公司 1，最高薪资为 21300。公司 1 的员工税率为 49%。
-对于公司 2，最高薪资为 700。公司 2 的员工税率为 0%。
-对于公司 3，最高薪资为 7777。公司 3 的员工税率为 24%。
-薪资扣除税后的金额计算公式为：薪资 - (税率百分比 / 100) * 薪资
-例如，Morninngcat（员工号 3，薪资为 7777）扣除税后的薪资为：7777 - 7777 * (24 / 100) = 7777 - 1866.48 = 5910.52，四舍五入为 5911。</pre>
+<strong>Explanation:</strong> 
+For company 1, Max salary is 21300. Employees in company 1 have taxes = 49%
+For company 2, Max salary is 700. Employees in company 2 have taxes = 0%
+For company 3, Max salary is 7777. Employees in company 3 have taxes = 24%
+The salary after taxes = salary - (taxes percentage / 100) * salary
+For example, Salary for Morninngcat (3, 15) after taxes = 7777 - 7777 * (24 / 100) = 7777 - 1866.48 = 5910.52, which is rounded to 5911.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

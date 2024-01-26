@@ -1,44 +1,40 @@
-# [2503. 矩阵查询可获得的最大分数](https://leetcode.cn/problems/maximum-number-of-points-from-grid-queries)
+# [2503. Maximum Number of Points From Grid Queries](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries)
 
-[English Version](/solution/2500-2599/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/README_EN.md)
+[中文文档](/solution/2500-2599/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an <code>m x n</code> integer matrix <code>grid</code> and an array <code>queries</code> of size <code>k</code>.</p>
 
-<p>给你一个大小为 <code>m x n</code> 的整数矩阵 <code>grid</code> 和一个大小为 <code>k</code> 的数组 <code>queries</code> 。</p>
-
-<p>找出一个大小为 <code>k</code> 的数组 <code>answer</code> ，且满足对于每个整数 <code>queries[i]</code> ，你从矩阵 <strong>左上角</strong> 单元格开始，重复以下过程：</p>
+<p>Find an array <code>answer</code> of size <code>k</code> such that for each integer <code>queries[i]</code> you start in the <strong>top left</strong> cell of the matrix and repeat the following process:</p>
 
 <ul>
-	<li>如果 <code>queries[i]</code> <strong>严格</strong> 大于你当前所处位置单元格，如果该单元格是第一次访问，则获得 1 分，并且你可以移动到所有 <code>4</code> 个方向（上、下、左、右）上任一 <strong>相邻</strong> 单元格。</li>
-	<li>否则，你不能获得任何分，并且结束这一过程。</li>
+	<li>If <code>queries[i]</code> is <strong>strictly</strong> greater than the value of the current cell that you are in, then you get one point if it is your first time visiting this cell, and you can move to any <strong>adjacent</strong> cell in all <code>4</code> directions: up, down, left, and right.</li>
+	<li>Otherwise, you do not get any points, and you end this process.</li>
 </ul>
 
-<p>在过程结束后，<code>answer[i]</code> 是你可以获得的最大分数。注意，对于每个查询，你可以访问同一个单元格 <strong>多次</strong> 。</p>
+<p>After the process, <code>answer[i]</code> is the <strong>maximum</strong> number of points you can get. <strong>Note</strong> that for each query you are allowed to visit the same cell <strong>multiple</strong> times.</p>
 
-<p>返回结果数组 <code>answer</code> 。</p>
+<p>Return <em>the resulting array</em> <code>answer</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/images/yetgriddrawio.png" style="width: 571px; height: 151px;" />
 <pre>
-<strong>输入：</strong>grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
-<strong>输出：</strong>[5,8,1]
-<strong>解释：</strong>上图展示了每个查询中访问并获得分数的单元格。</pre>
+<strong>Input:</strong> grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
+<strong>Output:</strong> [5,8,1]
+<strong>Explanation:</strong> The diagrams above show which cells we visit to get points for each query.</pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/images/yetgriddrawio-2.png" />
 <pre>
-<strong>输入：</strong>grid = [[5,2,1],[1,1,2]], queries = [3]
-<strong>输出：</strong>[0]
-<strong>解释：</strong>无法获得分数，因为左上角单元格的值大于等于 3 。
+<strong>Input:</strong> grid = [[5,2,1],[1,1,2]], queries = [3]
+<strong>Output:</strong> [0]
+<strong>Explanation:</strong> We can not get any points because the value of the top left cell is already greater than or equal to 3.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == grid.length</code></li>
@@ -50,19 +46,9 @@
 	<li><code>1 &lt;= grid[i][j], queries[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：离线查询 + BFS + 优先队列（小根堆）
-
-根据题目描述我们知道，每个查询相互独立，查询的顺序不影响结果，并且题目要我们每次从左上角开始，统计所有可以访问的、且值小于当前查询值的单元格的个数。
-
-因此，我们可以先对 `queries` 数组进行排序，然后从小到大依次处理每个查询。
-
-我们用优先队列（小根堆）维护当前访问到的最小单元格的值，用数组或哈希表 `vis` 记录当前单元格是否已经访问过。初始时，将左上角单元格的数据 $(grid[0][0], 0, 0)$ 作为三元组加入优先队列，并将 `vis[0][0]` 置为 `True`。
-
-对于每个查询 `queries[i]`，我们判断当前优先队列的最小值是否小于 `queries[i]`，如果是，则将当前最小值弹出，累加计数器 `cnt`，并将当前单元格的上下左右四个单元格加入优先队列，注意要判断是否已经访问过。重复上述操作，直到当前优先队列的最小值大于等于 `queries[i]`，此时 `cnt` 即为当前查询的答案。
-
-时间复杂度 $O(k \times \log k + m \times n \log(m \times n))$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别为网格的行数和列数，而 $k$ 为查询的个数。我们需要对 `queries` 数组进行排序，时间复杂度为 $O(k \times \log k)$。矩阵中的每个单元格最多只会被访问一次，每一次入队和出队的时间复杂度为 $O(\log(m \times n))$。因此，总时间复杂度为 $O(k \times \log k + m \times n \log(m \times n))$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -216,7 +202,7 @@ func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; 
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [1809. 没有广告的剧集](https://leetcode.cn/problems/ad-free-sessions)
+# [1809. Ad-Free Sessions](https://leetcode.com/problems/ad-free-sessions)
 
-[English Version](/solution/1800-1899/1809.Ad-Free%20Sessions/README_EN.md)
+[中文文档](/solution/1800-1899/1809.Ad-Free%20Sessions/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Playback</code></p>
+<p>Table: <code>Playback</code></p>
 
 <pre>
 +-------------+------+
@@ -17,14 +15,14 @@
 | start_time  | int  |
 | end_time    | int  |
 +-------------+------+
-session_id 是该表中具有唯一值的列。
-customer_id 是观看该剧集的客户的 id。
-剧集播放时间包含start_time（开始时间） 及 end_time（结束时间）
-可以保证的是，start_time（开始时间）&lt;= end_time（结束时间），一个观众观看的两个剧集的时间不会出现重叠。</pre>
+session_id is the column with unique values for this table.
+customer_id is the ID of the customer watching this session.
+The session runs during the <strong>inclusive</strong> interval between start_time and end_time.
+It is guaranteed that start_time &lt;= end_time and that two sessions for the same customer do not intersect.</pre>
 
 <p>&nbsp;</p>
 
-<p>表：<code>Ads</code></p>
+<p>Table: <code>Ads</code></p>
 
 <pre>
 +-------------+------+
@@ -34,25 +32,24 @@ customer_id 是观看该剧集的客户的 id。
 | customer_id | int  |
 | timestamp   | int  |
 +-------------+------+
-ad_id 是该表中具有唯一值的列。
-customer_id 为 观看广告的用户 id
-timestamp 表示广告出现的时间点
+ad_id is the column with unique values for this table.
+customer_id is the ID of the customer viewing this ad.
+timestamp is the moment of time at which the ad was shown.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案找出所有没有广告出现过的剧集。</p>
+<p>Write a solution to report all the sessions that did not get shown any ads.</p>
 
-<p>返回结果 <strong>无顺序要求</strong> 。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>返回结果格式如下例所示：</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Playback table:
 +------------+-------------+------------+----------+
 | session_id | customer_id | start_time | end_time |
@@ -71,7 +68,7 @@ Ads table:
 | 2     | 2           | 17        |
 | 3     | 2           | 20        |
 +-------+-------------+-----------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+
 | session_id |
 +------------+
@@ -79,15 +76,16 @@ Ads table:
 | 3          |
 | 5          |
 +------------+
-<strong>解释：</strong>
-广告1出现在了剧集1的时间段，被观众1看到了。
-广告2出现在了剧集4的时间段，被观众2看到了。
-广告3出现在了剧集4的时间段，被观众2看到了。
-我们可以得出结论，剧集1 、4 内，起码有1处广告。 剧集2 、3 、5 没有广告。</pre>
+<strong>Explanation:</strong> 
+The ad with ID 1 was shown to user 1 at time 5 while they were in session 1.
+The ad with ID 2 was shown to user 2 at time 17 while they were in session 4.
+The ad with ID 3 was shown to user 2 at time 20 while they were in session 4.
+We can see that sessions 1 and 4 had at least one ad. Sessions 2, 3, and 5 did not have any ads, so we return them.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

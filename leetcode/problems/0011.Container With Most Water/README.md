@@ -1,40 +1,35 @@
-# [11. 盛最多水的容器](https://leetcode.cn/problems/container-with-most-water)
+# [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water)
 
-[English Version](/solution/0000-0099/0011.Container%20With%20Most%20Water/README_EN.md)
+[中文文档](/solution/0000-0099/0011.Container%20With%20Most%20Water/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>height</code> of length <code>n</code>. There are <code>n</code> vertical lines drawn such that the two endpoints of the <code>i<sup>th</sup></code> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.</p>
 
-<p>给定一个长度为 <code>n</code> 的整数数组&nbsp;<code>height</code>&nbsp;。有&nbsp;<code>n</code>&nbsp;条垂线，第 <code>i</code> 条线的两个端点是&nbsp;<code>(i, 0)</code>&nbsp;和&nbsp;<code>(i, height[i])</code>&nbsp;。</p>
+<p>Find two lines that together with the x-axis form a container, such that the container contains the most water.</p>
 
-<p>找出其中的两条线，使得它们与&nbsp;<code>x</code>&nbsp;轴共同构成的容器可以容纳最多的水。</p>
+<p>Return <em>the maximum amount of water a container can store</em>.</p>
 
-<p>返回容器可以储存的最大水量。</p>
-
-<p><strong>说明：</strong>你不能倾斜容器。</p>
+<p><strong>Notice</strong> that you may not slant the container.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0011.Container%20With%20Most%20Water/images/question_11.jpg" style="width: 600px; height: 287px;" />
+<pre>
+<strong>Input:</strong> height = [1,8,6,2,5,4,8,3,7]
+<strong>Output:</strong> 49
+<strong>Explanation:</strong> The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+</pre>
 
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0011.Container%20With%20Most%20Water/images/question_11.jpg" /></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>[1,8,6,2,5,4,8,3,7]
-<strong>输出：</strong>49 
-<strong>解释：</strong>图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为&nbsp;49。</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>height = [1,1]
-<strong>输出：</strong>1
+<strong>Input:</strong> height = [1,1]
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == height.length</code></li>
@@ -42,17 +37,17 @@
 	<li><code>0 &lt;= height[i] &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
+### Solution 1: Two Pointers
 
-一开始，我们考虑相距最远的两个柱子所能容纳水的容量。水的宽度是两根柱子之间的距离，而水的高度取决于两根柱子之间较短的那个。
+Initially, we consider the capacity of the water that the two farthest pillars can hold. The width of the water is the distance between the two pillars, and the height of the water depends on the shorter one between the two pillars.
 
-当前柱子是最两侧的柱子，水的宽度最大，其他的组合，水的宽度都比这个小。不妨假设左侧柱子的高度小于等于右侧柱子的高度，那么水的高度就是左侧柱子的高度。如果我们移动右侧柱子，那么水的宽度就减小了，而水的高度却不会增加，因此水的容量一定减少。所以我们移动左侧柱子，更新最大容量。
+The current pillars are the pillars on the farthest sides, so the width of the water is the largest. For other combinations, the width of the water is smaller. Suppose the height of the left pillar is less than or equal to the height of the right pillar, then the height of the water is the height of the left pillar. If we move the right pillar, the width of the water will decrease, but the height of the water will not increase, so the capacity of the water will definitely decrease. Therefore, we move the left pillar and update the maximum capacity.
 
-循环此过程，直到两个柱子相遇。
+Repeat this process until the two pillars meet.
 
-时间复杂度 $O(n)$，其中 $n$ 是数组 `height` 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array `height`. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

@@ -1,55 +1,50 @@
-# [2521. 数组乘积中的不同质因数数目](https://leetcode.cn/problems/distinct-prime-factors-of-product-of-array)
+# [2521. Distinct Prime Factors of Product of Array](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array)
 
-[English Version](/solution/2500-2599/2521.Distinct%20Prime%20Factors%20of%20Product%20of%20Array/README_EN.md)
+[中文文档](/solution/2500-2599/2521.Distinct%20Prime%20Factors%20of%20Product%20of%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of positive integers <code>nums</code>, return <em>the number of <strong>distinct prime factors</strong> in the product of the elements of</em> <code>nums</code>.</p>
 
-<p>给你一个正整数数组 <code>nums</code> ，对 <code>nums</code> 所有元素求积之后，找出并返回乘积中 <strong>不同质因数</strong> 的数目。</p>
-
-<p><strong>注意：</strong></p>
+<p><strong>Note</strong> that:</p>
 
 <ul>
-	<li><strong>质数</strong> 是指大于 <code>1</code> 且仅能被 <code>1</code> 及自身整除的数字。</li>
-	<li>如果 <code>val2 / val1</code> 是一个整数，则整数 <code>val1</code> 是另一个整数 <code>val2</code> 的一个因数。</li>
+	<li>A number greater than <code>1</code> is called <strong>prime</strong> if it is divisible by only <code>1</code> and itself.</li>
+	<li>An integer <code>val1</code> is a factor of another integer <code>val2</code> if <code>val2 / val1</code> is an integer.</li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [2,4,3,7,10,6]
-<strong>输出：</strong>4
-<strong>解释：</strong>
-nums 中所有元素的乘积是：2 * 4 * 3 * 7 * 10 * 6 = 10080 = 2<sup>5</sup> * 3<sup>2</sup> * 5 * 7 。
-共有 4 个不同的质因数，所以返回 4 。
+<pre>
+<strong>Input:</strong> nums = [2,4,3,7,10,6]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong>
+The product of all the elements in nums is: 2 * 4 * 3 * 7 * 10 * 6 = 10080 = 2<sup>5</sup> * 3<sup>2</sup> * 5 * 7.
+There are 4 distinct prime factors so we return 4.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [2,4,8,16]
-<strong>输出：</strong>1
-<strong>解释：</strong>
-nums 中所有元素的乘积是：2 * 4 * 8 * 16 = 1024 = 2<sup>10</sup> 。
-共有 1 个不同的质因数，所以返回 1 。</pre>
+<pre>
+<strong>Input:</strong> nums = [2,4,8,16]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong>
+The product of all the elements in nums is: 2 * 4 * 8 * 16 = 1024 = 2<sup>10</sup>.
+There is 1 distinct prime factor so we return 1.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>2 &lt;= nums[i] &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 质因数分解
-
-对于数组中的每个元素，先对其进行质因数分解，然后将分解出的质因数加入哈希表中。最后返回哈希表的大小即可。
-
-时间复杂度 $O(n\sqrt{m})$，其中 $n$ 和 $m$ 分别是数组的长度和数组中元素的最大值。
+### Solution 1
 
 <!-- tabs:start -->
 

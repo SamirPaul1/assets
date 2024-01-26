@@ -1,66 +1,63 @@
-# [2533. 好二进制字符串的数量](https://leetcode.cn/problems/number-of-good-binary-strings)
+# [2533. Number of Good Binary Strings](https://leetcode.com/problems/number-of-good-binary-strings)
 
-[English Version](/solution/2500-2599/2533.Number%20of%20Good%20Binary%20Strings/README_EN.md)
+[中文文档](/solution/2500-2599/2533.Number%20of%20Good%20Binary%20Strings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given four integers <code>minLength</code>, <code>maxLength</code>, <code>oneGroup</code> and <code>zeroGroup</code>.</p>
 
-<p><span style="">给你四个整数 </span><code>minLenght</code>、<code>maxLength</code>、<code>oneGroup</code><span style=""> 和 </span><code>zeroGroup</code><span style=""> 。</span></p>
-
-<p><strong>好 </strong>二进制字符串满足下述条件：</p>
+<p>A binary string is <strong>good</strong> if it satisfies the following conditions:</p>
 
 <ul>
-	<li>字符串的长度在 <code>[minLength, maxLength]</code> 之间。</li>
-	<li>每块连续 <code>1</code> 的个数是 <code>oneGroup</code> 的整数倍
+	<li>The length of the string is in the range <code>[minLength, maxLength]</code>.</li>
+	<li>The size of each block of consecutive <code>1</code>&#39;s is a multiple of <code>oneGroup</code>.
 	<ul>
-		<li>例如在二进制字符串 <code>00<em><strong>11</strong></em>0<em><strong>1111</strong></em>00</code> 中，每块连续 <code>1</code> 的个数分别是<code>[2,4]</code> 。</li>
+		<li>For example in a binary string <code>00<u>11</u>0<u>1111</u>00</code> sizes of each block of consecutive ones are <code>[2,4]</code>.</li>
 	</ul>
 	</li>
-	<li>每块连续 <code>0</code> 的个数是 <code>zeroGroup</code> 的整数倍
+	<li>The size of each block of consecutive <code>0</code>&#39;s is a multiple of <code>zeroGroup</code>.
 	<ul>
-		<li>例如在二进制字符串 <code><em><strong>00</strong></em>11<em><strong>0</strong></em>1111<em><strong>00</strong></em></code> 中，每块连续 <code>0</code> 的个数分别是 <code>[2,1,2]</code> 。</li>
+		<li>For example, in a binary string <code><u>00</u>11<u>0</u>1111<u>00</u></code> sizes of each block of consecutive zeros are <code>[2,1,2]</code>.</li>
 	</ul>
 	</li>
 </ul>
 
-<p>请返回 <strong>好</strong> 二进制字符串的个数。答案可能很大<strong>，</strong>请返回对 <code>10<sup>9</sup> + 7</code> <strong>取余</strong> 后的结果。</p>
+<p>Return <em>the number of <strong>good</strong> binary strings</em>. Since the answer may be too large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
-<p><strong>注意：</strong><code>0</code> 可以被认为是所有数字的倍数。</p>
+<p><strong>Note</strong> that <code>0</code> is considered a multiple of all the numbers.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>minLength = 2, maxLength = 3, oneGroup = 1, zeroGroup = 2
-<strong>输出：</strong>5
-<strong>解释：</strong>在本示例中有 5 个好二进制字符串: "00", "11", "001", "100", 和 "111" 。
-可以证明只有 5 个好二进制字符串满足所有的条件。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>minLength = 4, maxLength = 4, oneGroup = 4, zeroGroup = 3
-<strong>输出：</strong>1
-<strong>解释：</strong>在本示例中有 1 个好二进制字符串: "1111" 。
-可以证明只有 1 个好字符串满足所有的条件。
+<strong>Input:</strong> minLength = 2, maxLength = 3, oneGroup = 1, zeroGroup = 2
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> There are 5 good binary strings in this example: &quot;00&quot;, &quot;11&quot;, &quot;001&quot;, &quot;100&quot;, and &quot;111&quot;.
+It can be proven that there are only 5 good strings satisfying all conditions.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> minLength = 4, maxLength = 4, oneGroup = 4, zeroGroup = 3
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is only 1 good binary string in this example: &quot;1111&quot;.
+It can be proven that there is only 1 good string satisfying all conditions.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= minLength &lt;= maxLength &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= oneGroup, zeroGroup &lt;= maxLength</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i]$ 表示长度为 $i$ 的字符串中满足条件的个数。状态转移方程为：
+We define $f[i]$ as the number of strings of length $i$ that meet the condition. The state transition equation is:
 
 $$
 f[i] = \begin{cases}
@@ -69,9 +66,9 @@ f[i - oneGroup] + f[i - zeroGroup] & i \geq 1
 \end{cases}
 $$
 
-最终答案为 $f[minLength] + f[minLength + 1] + \cdots + f[maxLength]$。
+The final answer is $f[minLength] + f[minLength + 1] + \cdots + f[maxLength]$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n=maxLength$。
+The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n=maxLength$.
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [1543. 产品名称格式修复](https://leetcode.cn/problems/fix-product-name-format)
+# [1543. Fix Product Name Format](https://leetcode.com/problems/fix-product-name-format)
 
-[English Version](/solution/1500-1599/1543.Fix%20Product%20Name%20Format/README_EN.md)
+[中文文档](/solution/1500-1599/1543.Fix%20Product%20Name%20Format/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Sales</code></p>
+<p>Table: <code>Sales</code></p>
 
 <pre>
 +--------------+---------+
@@ -16,33 +14,32 @@
 | product_name | varchar |
 | sale_date    | date    |
 +--------------+---------+
-sale_id 是该表具有唯一值的列
-该表的每一行包含了产品的名称及其销售日期
+sale_id is the column with unique values for this table.
+Each row of this table contains the product name and the date it was sold.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>因为在 2000 年该表是手工填写的，<code>product_name</code>&nbsp;可能包含前后空格，而且包含大小写。</p>
+<p>Since table Sales was filled manually in the year <code>2000</code>, <code>product_name</code> may contain leading and/or trailing white spaces, also they are case-insensitive.</p>
 
-<p>编写一个解决方案报告每个月的销售情况：</p>
+<p>Write a solution to report</p>
 
 <ul>
-	<li><code>product_name</code>&nbsp;是小写字母且不包含前后空格</li>
-	<li><code>sale_date</code>&nbsp;格式为&nbsp;<code>('YYYY-MM')</code>&nbsp;</li>
-	<li><code>total</code>&nbsp;是产品在本月销售的次数</li>
+	<li><code>product_name</code> in lowercase without leading or trailing white spaces.</li>
+	<li><code>sale_date</code> in the format <code>(&#39;YYYY-MM&#39;)</code>.</li>
+	<li><code>total</code> the number of times the product was sold in this month.</li>
 </ul>
 
-<p>返回结果以&nbsp;<code>product_name</code>&nbsp;<strong>升序</strong> 排列，如果有排名相同，再以&nbsp;<code>sale_date</code> <strong>升序 </strong>排列。</p>
+<p>Return the result table ordered by <code>product_name</code> in <strong>ascending order</strong>. In case of a tie, order it by <code>sale_date</code> in <strong>ascending order</strong>.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Sales</code> 表：
+<strong>Input:</strong> 
+Sales table:
 +---------+--------------+------------+
 | sale_id | product_name | sale_date  |
 +---------+--------------+------------+
@@ -53,7 +50,7 @@ Sales</code> 表：
 | 5       | LCKeyChain   | 2000-02-28 |
 | 6       | Matryoshka   | 2000-03-31 |
 +---------+--------------+------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +--------------+-----------+-------+
 | product_name | sale_date | total |
 +--------------+-----------+-------+
@@ -62,14 +59,15 @@ Sales</code> 表：
 | lcphone      | 2000-02   | 1     |
 | matryoshka   | 2000-03   | 1     |
 +--------------+-----------+-------+
-<strong>解释：</strong>
-一月份售出 2 部 LcPhones。请注意，产品名称不区分大小写，且可能包含空格。 
-二月份售出 2 个 LCKeychains 和 1 部 LCPhone。 
-三月份售出 1 个 Matryoshka。</pre>
+<strong>Explanation:</strong> 
+In January, 2 LcPhones were sold. Please note that the product names are not case sensitive and may contain spaces.
+In February, 2 LCKeychains and 1 LCPhone were sold.
+In March, one matryoshka was sold.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

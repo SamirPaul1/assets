@@ -1,60 +1,50 @@
-# [425. 单词方块](https://leetcode.cn/problems/word-squares)
+# [425. Word Squares](https://leetcode.com/problems/word-squares)
 
-[English Version](/solution/0400-0499/0425.Word%20Squares/README_EN.md)
+[中文文档](/solution/0400-0499/0425.Word%20Squares/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of <strong>unique</strong> strings <code>words</code>, return <em>all the </em><strong><a href="https://en.wikipedia.org/wiki/Word_square" target="_blank">word squares</a></strong><em> you can build from </em><code>words</code>. The same word from <code>words</code> can be used <strong>multiple times</strong>. You can return the answer in <strong>any order</strong>.</p>
 
-<p>给定一个单词集合&nbsp;<code>words</code> <strong>（没有重复）</strong>，找出并返回其中所有的 <a href="https://en.wikipedia.org/wiki/Word_square">单词方块</a><strong>&nbsp;</strong>。&nbsp;<code>words</code>&nbsp;中的同一个单词可以被 <strong>多次</strong> 使用。你可以按 <strong>任意顺序</strong> 返回答案。</p>
-
-<p>一个单词序列形成了一个有效的 <strong>单词方块</strong> 的意思是指从第 <code>k</code> 行和第 <code>k</code> 列 &nbsp;<code>0 &lt;= k &lt; max(numRows, numColumns)</code> 来看都是相同的字符串。</p>
+<p>A sequence of strings forms a valid <strong>word square</strong> if the <code>k<sup>th</sup></code> row and column read the same string, where <code>0 &lt;= k &lt; max(numRows, numColumns)</code>.</p>
 
 <ul>
-	<li>例如，单词序列&nbsp;<code>["ball","area","lead","lady"]</code>&nbsp;形成了一个单词方块，因为每个单词从水平方向看和从竖直方向看都是相同的。</li>
+	<li>For example, the word sequence <code>[&quot;ball&quot;,&quot;area&quot;,&quot;lead&quot;,&quot;lady&quot;]</code> forms a word square because each word reads the same both horizontally and vertically.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>words = ["area","lead","wall","lady","ball"]
-<strong>输出:</strong> [["ball","area","lead","lady"],
-["wall","area","lead","lady"]]
-<strong>解释：</strong>
-输出包含两个单词方块，输出的顺序不重要，只需要保证每个单词方块内的单词顺序正确即可。 
+<strong>Input:</strong> words = [&quot;area&quot;,&quot;lead&quot;,&quot;wall&quot;,&quot;lady&quot;,&quot;ball&quot;]
+<strong>Output:</strong> [[&quot;ball&quot;,&quot;area&quot;,&quot;lead&quot;,&quot;lady&quot;],[&quot;wall&quot;,&quot;area&quot;,&quot;lead&quot;,&quot;lady&quot;]]
+<strong>Explanation:</strong>
+The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>words = ["abat","baba","atan","atal"]
-<strong>输出：</strong>[["baba","abat","baba","atal"],
-["baba","abat","baba","atan"]]
-<strong>解释：</strong>
-输出包含两个单词方块，输出的顺序不重要，只需要保证每个单词方块内的单词顺序正确即可。 
+<strong>Input:</strong> words = [&quot;abat&quot;,&quot;baba&quot;,&quot;atan&quot;,&quot;atal&quot;]
+<strong>Output:</strong> [[&quot;baba&quot;,&quot;abat&quot;,&quot;baba&quot;,&quot;atal&quot;],[&quot;baba&quot;,&quot;abat&quot;,&quot;baba&quot;,&quot;atan&quot;]]
+<strong>Explanation:</strong>
+The output consists of two word squares. The order of output does not matter (just the order of words in each word square matters).
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= words.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= words[i].length &lt;= 4</code></li>
-	<li><code>words[i]</code>&nbsp;长度相同</li>
-	<li><code>words[i]</code>&nbsp;只由小写英文字母组成</li>
-	<li><code>words[i]</code>&nbsp;都 <strong>各不相同</strong></li>
+	<li>All <code>words[i]</code> have the same length.</li>
+	<li><code>words[i]</code> consists of only lowercase English letters.</li>
+	<li>All <code>words[i]</code> are <strong>unique</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀树 + DFS
-
-根据已添加单词确定下一个单词的前缀，继续进行搜索。
-
-比如已经添加了两个单词 $ball$ 和 $area$，要添加下一个单词，我们首先要获取下一个单词的前缀，第一个字母是第一个单词的第三个位置 $l$，第二个字母是第二个单词的第三个位置 $e$，这样就构成了前缀 $le$。然后找出所有前缀为 $le$ 的单词，作为下一个单词。
+### Solution 1
 
 <!-- tabs:start -->
 

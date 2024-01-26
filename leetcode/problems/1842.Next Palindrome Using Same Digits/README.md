@@ -1,59 +1,55 @@
-# [1842. 下个由相同数字构成的回文串](https://leetcode.cn/problems/next-palindrome-using-same-digits)
+# [1842. Next Palindrome Using Same Digits](https://leetcode.com/problems/next-palindrome-using-same-digits)
 
-[English Version](/solution/1800-1899/1842.Next%20Palindrome%20Using%20Same%20Digits/README_EN.md)
+[中文文档](/solution/1800-1899/1842.Next%20Palindrome%20Using%20Same%20Digits/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a numeric string <code>num</code>, representing a very large <strong>palindrome</strong>.</p>
 
-<p>给你一个很长的数字回文串 <code>num</code> ，返回 <strong>大于</strong> <code>num</code>、<strong>由相同数字重新组合而成的最小</strong> 回文串。</p>
+<p>Return<em> the <strong>smallest palindrome larger than </strong></em><code>num</code><em> that can be created by rearranging its digits. If no such palindrome exists, return an empty string </em><code>&quot;&quot;</code>.</p>
 
-<p>如果不存在这样的回文串，则返回空串 <code>""</code>。</p>
+<p>A <strong>palindrome</strong> is a number that reads the same backward as forward.</p>
 
-<p><strong>回文串</strong> 是正读和反读都一样的字符串。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>num = "1221"
-<b>输出：</b>"2112"
-<b>解释：</b>下个比<b> </b>"1221" 大的回文串是 "2112"。
+<strong>Input:</strong> num = &quot;1221&quot;
+<strong>Output:</strong> &quot;2112&quot;
+<strong>Explanation:</strong>&nbsp;The next palindrome larger than &quot;1221&quot; is &quot;2112&quot;.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>num = "32123"
-<b>输出：</b>""
-<b>解释：</b>不存在通过重组 "32123" 的数字可得、比 "32123" 还大的回文串。
+<strong>Input:</strong> num = &quot;32123&quot;
+<strong>Output:</strong> &quot;&quot;
+<strong>Explanation:</strong>&nbsp;No palindromes larger than &quot;32123&quot; can be made by rearranging the digits.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>num = "45544554"
-<b>输出：</b>"54455445"
-<b>解释：</b>下个比 "45544554" 还要大的回文串是 "54455445"。
+<strong>Input:</strong> num = &quot;45544554&quot;
+<strong>Output:</strong> &quot;54455445&quot;
+<strong>Explanation:</strong> The next palindrome larger than &quot;45544554&quot; is &quot;54455445&quot;.
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= num.length <= 10<sup>5</sup></code></li>
-	<li><code>num</code> 是回文串。</li>
+	<li><code>1 &lt;= num.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>num</code> is a <strong>palindrome</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：求前一半的下一个排列
+### Solution 1: Find the Next Permutation of the First Half
 
-根据题目描述，我们只需要求出前一半的下一个排列，然后遍历前一半，对称赋值后半部分即可。
+According to the problem description, we only need to find the next permutation of the first half of the string, then traverse the first half and symmetrically assign values to the second half.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为字符串长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is the length of the string.
 
 <!-- tabs:start -->
 

@@ -1,72 +1,48 @@
-# [1450. 在既定时间做作业的学生人数](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time)
+# [1450. Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time)
 
-[English Version](/solution/1400-1499/1450.Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time/README_EN.md)
+[中文文档](/solution/1400-1499/1450.Number%20of%20Students%20Doing%20Homework%20at%20a%20Given%20Time/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two integer arrays <code>startTime</code> and <code>endTime</code> and given an integer <code>queryTime</code>.</p>
 
-<p>给你两个整数数组 <code>startTime</code>（开始时间）和 <code>endTime</code>（结束时间），并指定一个整数 <code>queryTime</code> 作为查询时间。</p>
+<p>The <code>ith</code> student started doing their homework at the time <code>startTime[i]</code> and finished it at time <code>endTime[i]</code>.</p>
 
-<p>已知，第 <code>i</code> 名学生在 <code>startTime[i]</code> 时开始写作业并于 <code>endTime[i]</code> 时完成作业。</p>
-
-<p>请返回在查询时间 <code>queryTime</code> 时正在做作业的学生人数。形式上，返回能够使 <code>queryTime</code> 处于区间 <code>[startTime[i], endTime[i]]</code>（含）的学生人数。</p>
+<p>Return <em>the number of students</em> doing their homework at time <code>queryTime</code>. More formally, return the number of students where <code>queryTime</code> lays in the interval <code>[startTime[i], endTime[i]]</code> inclusive.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>startTime = [1,2,3], endTime = [3,2,7], queryTime = 4
-<strong>输出：</strong>1
-<strong>解释：</strong>一共有 3 名学生。
-第一名学生在时间 1 开始写作业，并于时间 3 完成作业，在时间 4 没有处于做作业的状态。
-第二名学生在时间 2 开始写作业，并于时间 2 完成作业，在时间 4 没有处于做作业的状态。
-第三名学生在时间 3 开始写作业，预计于时间 7 完成作业，这是是唯一一名在时间 4 时正在做作业的学生。
+<pre>
+<strong>Input:</strong> startTime = [1,2,3], endTime = [3,2,7], queryTime = 4
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> We have 3 students where:
+The first student started doing homework at time 1 and finished at time 3 and wasn&#39;t doing anything at time 4.
+The second student started doing homework at time 2 and finished at time 2 and also wasn&#39;t doing anything at time 4.
+The third student started doing homework at time 3 and finished at time 7 and was the only student doing homework at time 4.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>startTime = [4], endTime = [4], queryTime = 4
-<strong>输出：</strong>1
-<strong>解释：</strong>在查询时间只有一名学生在做作业。
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre><strong>输入：</strong>startTime = [4], endTime = [4], queryTime = 5
-<strong>输出：</strong>0
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输入：</strong>startTime = [1,1,1,1], endTime = [1,3,2,4], queryTime = 7
-<strong>输出：</strong>0
-</pre>
-
-<p><strong>示例 5：</strong></p>
-
-<pre><strong>输入：</strong>startTime = [9,8,7,6,5,4,3,2,1], endTime = [10,10,10,10,10,10,10,10,10], queryTime = 5
-<strong>输出：</strong>5
+<pre>
+<strong>Input:</strong> startTime = [4], endTime = [4], queryTime = 4
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The only student was doing their homework at the queryTime.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>startTime.length == endTime.length</code></li>
 	<li><code>1 &lt;= startTime.length &lt;= 100</code></li>
 	<li><code>1 &lt;= startTime[i] &lt;= endTime[i] &lt;= 1000</code></li>
-	<li><code>1 &lt;=&nbsp;queryTime &lt;= 1000</code></li>
+	<li><code>1 &lt;= queryTime &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：遍历计数
-
-同时遍历 $startTime$ 和 $endTime$，统计正在做作业的学生人数。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 是 $startTime$ 和 $endTime$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -159,29 +135,7 @@ int busyStudent(int* startTime, int startTimeSize, int* endTime, int endTimeSize
 
 <!-- tabs:end -->
 
-### 方法二：差分数组
-
-差分数组可以 $O(1)$ 时间处理区间加减操作。例如，对区间 $[l, r]$ 中的每个数加上 $c$。
-
-假设数组 $a$ 的所有元素分别为 $a[1], a[2], ... a[n]$，则差分数组 $b$ 的元素 $b[i]=a[i]-a[i-1]$。
-
-$$
-\begin{cases}
-b[1]=a[1]\\
-b[2]=a[2]-a[1]\\
-b[3]=a[3]-a[2]\\
-...\\
-b[i]=a[i]-a[i-1]\\
-\end{cases}
-$$
-
-那么 $a[i]=b[1]+b[2]+...+b[i]$，原数组 $a$ 是差分数组 $b$ 的前缀和。
-
-在这道题中，我们定义差分数组 $c$，然后遍历两个数组中对应位置的两个数 $a$, $b$，则 $c[a]+=1$, $c[b+1]-=1$。
-
-遍历结束后，对差分数组 $c$ 进行求前缀和操作，即可得到 $queryTime$ 时刻正在做作业的学生人数。
-
-时间复杂度 $O(n+queryTime)$，空间复杂度 $O(1010)$。
+### Solution 2
 
 <!-- tabs:start -->
 

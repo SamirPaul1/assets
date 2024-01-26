@@ -1,40 +1,36 @@
-# [2389. 和有限的最长子序列](https://leetcode.cn/problems/longest-subsequence-with-limited-sum)
+# [2389. Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum)
 
-[English Version](/solution/2300-2399/2389.Longest%20Subsequence%20With%20Limited%20Sum/README_EN.md)
+[中文文档](/solution/2300-2399/2389.Longest%20Subsequence%20With%20Limited%20Sum/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code> of length <code>n</code>, and an integer array <code>queries</code> of length <code>m</code>.</p>
 
-<p>给你一个长度为 <code>n</code>&nbsp;的整数数组 <code>nums</code> ，和一个长度为 <code>m</code> 的整数数组 <code>queries</code> 。</p>
+<p>Return <em>an array </em><code>answer</code><em> of length </em><code>m</code><em> where </em><code>answer[i]</code><em> is the <strong>maximum</strong> size of a <strong>subsequence</strong> that you can take from </em><code>nums</code><em> such that the <strong>sum</strong> of its elements is less than or equal to </em><code>queries[i]</code>.</p>
 
-<p>返回一个长度为 <code>m</code> 的数组<em> </em><code>answer</code><em> </em>，其中<em> </em><code>answer[i]</code><em> </em>是 <code>nums</code> 中<span style=""> </span>元素之和小于等于 <code>queries[i]</code> 的 <strong>子序列</strong> 的 <strong>最大</strong> 长度<span style="">&nbsp;</span><span style=""> </span>。</p>
-
-<p><strong>子序列</strong> 是由一个数组删除某些元素（也可以不删除）但不改变剩余元素顺序得到的一个数组。</p>
+<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [4,5,2,1], queries = [3,10,21]
-<strong>输出：</strong>[2,3,4]
-<strong>解释：</strong>queries 对应的 answer 如下：
-- 子序列 [2,1] 的和小于或等于 3 。可以证明满足题目要求的子序列的最大长度是 2 ，所以 answer[0] = 2 。
-- 子序列 [4,5,1] 的和小于或等于 10 。可以证明满足题目要求的子序列的最大长度是 3 ，所以 answer[1] = 3 。
-- 子序列 [4,5,2,1] 的和小于或等于 21 。可以证明满足题目要求的子序列的最大长度是 4 ，所以 answer[2] = 4 。
+<strong>Input:</strong> nums = [4,5,2,1], queries = [3,10,21]
+<strong>Output:</strong> [2,3,4]
+<strong>Explanation:</strong> We answer the queries as follows:
+- The subsequence [2,1] has a sum less than or equal to 3. It can be proven that 2 is the maximum size of such a subsequence, so answer[0] = 2.
+- The subsequence [4,5,1] has a sum less than or equal to 10. It can be proven that 3 is the maximum size of such a subsequence, so answer[1] = 3.
+- The subsequence [4,5,2,1] has a sum less than or equal to 21. It can be proven that 4 is the maximum size of such a subsequence, so answer[2] = 4.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [2,3,4,5], queries = [1]
-<strong>输出：</strong>[0]
-<strong>解释：</strong>空子序列是唯一一个满足元素和小于或等于 1 的子序列，所以 answer[0] = 0 。</pre>
+<strong>Input:</strong> nums = [2,3,4,5], queries = [1]
+<strong>Output:</strong> [0]
+<strong>Explanation:</strong> The empty subsequence is the only subsequence that has a sum less than or equal to 1, so answer[0] = 0.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
@@ -43,15 +39,9 @@
 	<li><code>1 &lt;= nums[i], queries[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序 + 前缀和 + 二分查找
-
-根据题目描述，对于每个 $queries[i]$，我们需要找到一个子序列，使得该子序列的元素和不超过 $queries[i]$，且该子序列的长度最大化。显然，我们应该选择尽可能小的元素，这样才能使得子序列的长度最大化。
-
-因此，我们可以先将数组 $nums$ 进行升序排序，然后对于每个 $queries[i]$，我们可以使用二分查找，找到最小的下标 $j$，使得 $nums[0] + nums[1] + \cdots + nums[j] \gt queries[i]$。此时 $nums[0] + nums[1] + \cdots + nums[j - 1]$ 就是满足条件的子序列的元素和，且该子序列的长度为 $j$。因此，我们可以将 $j$ 加入答案数组中。
-
-时间复杂度 $O((n + m) \times \log n)$，空间复杂度 $O(n)$ 或 $O(\log n)$。其中 $n$ 和 $m$ 分别是数组 $nums$ 和 $queries$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -199,19 +189,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：排序 + 离线查询 + 双指针
-
-与方法一类似，我们可以先对数组 $nums$ 进行升序排列。
-
-接下来，我们定义一个长度与 $queries$ 相同的下标数组 $idx$，其中 $idx[i]=i$，然后我们对数组 $idx$ 按照 $queries$ 中的元素值进行升序排序。这样，我们就可以按照 $queries$ 中的元素值从小到大的顺序进行处理。
-
-我们使用一个变量 $s$ 记录当前已经选择的元素的和，使用一个变量 $j$ 记录当前已经选择的元素的个数。初始时 $s = j = 0$。
-
-我们遍历下标数组 $idx$，对于其中的每个下标 $i$，我们循环地将数组 $nums$ 中的元素加入到当前的子序列中，直到 $s + nums[j] \gt queries[i]$，此时 $j$ 即为满足条件的子序列的长度，我们将 $ans[i]$ 的值设为 $j$，然后继续处理下一个下标。
-
-遍历完下标数组 $idx$ 后，我们即可得到答案数组 $ans$，其中 $ans[i]$ 即为满足 $queries[i]$ 的子序列的长度。
-
-时间复杂度 $O(n \times \log n + m)$，空间复杂度 $O(m)$。其中 $n$ 和 $m$ 分别是数组 $nums$ 和 $queries$ 的长度。
+### Solution 2
 
 <!-- tabs:start -->
 

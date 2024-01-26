@@ -1,79 +1,75 @@
-# [1265. 逆序打印不可变链表](https://leetcode.cn/problems/print-immutable-linked-list-in-reverse)
+# [1265. Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse)
 
-[English Version](/solution/1200-1299/1265.Print%20Immutable%20Linked%20List%20in%20Reverse/README_EN.md)
+[中文文档](/solution/1200-1299/1265.Print%20Immutable%20Linked%20List%20in%20Reverse/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给您一个不可变的链表，使用下列接口逆序打印每个节点的值：</p>
+<p>You are given an immutable linked list, print out all values of each node in reverse with the help of the following&nbsp;interface:</p>
 
 <ul>
-	<li><code>ImmutableListNode</code>: 描述不可变链表的接口，链表的头节点已给出。</li>
+	<li><code>ImmutableListNode</code>:&nbsp;An interface of immutable linked list, you are given the head of the list.</li>
 </ul>
 
-<p>您需要使用以下函数来访问此链表（您&nbsp;<strong>不能&nbsp;</strong>直接访问&nbsp;<code>ImmutableListNode</code>）：</p>
+<p>You need to use the following functions to access the linked list (you <strong>can&#39;t</strong> access the <code>ImmutableListNode</code> directly):</p>
 
 <ul>
-	<li><code>ImmutableListNode.printValue()</code>：打印当前节点的值。</li>
-	<li><code>ImmutableListNode.getNext()</code>：返回下一个节点。</li>
+	<li><code>ImmutableListNode.printValue()</code>: Print value of the current node.</li>
+	<li><code>ImmutableListNode.getNext()</code>: Return the next node.</li>
 </ul>
 
-<p>输入只用来内部初始化链表。您不可以通过修改链表解决问题。也就是说，您只能通过上述 API 来操作链表。</p>
+<p>The input is only given to initialize the linked list internally.&nbsp;You must solve this problem without modifying the linked list. In other words, you must operate&nbsp;the linked list using only the mentioned&nbsp;APIs.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>head = [1,2,3,4]
-<strong>输出：</strong>[4,3,2,1]
+<strong>Input:</strong> head = [1,2,3,4]
+<strong>Output:</strong> [4,3,2,1]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>head = [0,-4,-1,3,-5]
-<strong>输出：</strong>[-5,3,-1,-4,0]
+<strong>Input:</strong> head = [0,-4,-1,3,-5]
+<strong>Output:</strong> [-5,3,-1,-4,0]
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>head = [-2,0,6,4,4,-6]
-<strong>输出：</strong>[-6,4,4,6,0,-2]
+<strong>Input:</strong> head = [-2,0,6,4,4,-6]
+<strong>Output:</strong> [-6,4,4,6,0,-2]
 </pre>
 
 <ul>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>链表的长度在&nbsp;<code>[1, 1000]</code>&nbsp;之间。</li>
-	<li>每个节点的值在&nbsp;<code>[-1000, 1000]</code>&nbsp;之间。</li>
+	<li>The length of the linked list&nbsp;is between <code>[1, 1000]</code>.</li>
+	<li>The value of each&nbsp;node in the linked list&nbsp;is between <code>[-1000, 1000]</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
 
-<p><strong>进阶：</strong></p>
+<p><strong>Follow up:</strong></p>
 
-<p>您是否可以：</p>
+<p>Could you solve this problem in:</p>
 
 <ul>
-	<li>使用常数级空间复杂度解决问题？</li>
-	<li>使用线性级时间复杂度和低于线性级空间复杂度解决问题？</li>
+	<li>Constant space complexity?</li>
+	<li>Linear time complexity and less than linear space complexity?</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：递归
+### Solution 1: Recursion
 
-我们可以使用递归来实现链表的逆序打印。在函数中，我们判断当前节点是否为空，如果不为空，则获取下一个节点，然后递归调用函数本身，最后打印当前节点的值。
+We can use recursion to implement reverse printing of a linked list. In the function, we check whether the current node is null. If it is not null, we get the next node, then recursively call the function itself, and finally print the value of the current node.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是链表的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is the length of the linked list.
 
 <!-- tabs:start -->
 

@@ -1,68 +1,66 @@
-# [734. 句子相似性](https://leetcode.cn/problems/sentence-similarity)
+# [734. Sentence Similarity](https://leetcode.com/problems/sentence-similarity)
 
-[English Version](/solution/0700-0799/0734.Sentence%20Similarity/README_EN.md)
+[中文文档](/solution/0700-0799/0734.Sentence%20Similarity/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>We can represent a sentence as an array of words, for example, the sentence <code>&quot;I am happy with leetcode&quot;</code> can be represented as <code>arr = [&quot;I&quot;,&quot;am&quot;,happy&quot;,&quot;with&quot;,&quot;leetcode&quot;]</code>.</p>
 
-<p>我们可以将一个句子表示为一个单词数组，例如，句子 <code>"I am happy with leetcode"</code> 可以表示为 <code>arr = ["I","am",happy","with","leetcode"]</code></p>
+<p>Given two sentences <code>sentence1</code> and <code>sentence2</code> each represented as a string array and given an array of string pairs <code>similarPairs</code> where <code>similarPairs[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> indicates that the two words <code>x<sub>i</sub></code> and <code>y<sub>i</sub></code> are similar.</p>
 
-<p>给定两个句子 <code>sentence1</code> 和 <code>sentence2</code> 分别表示为一个字符串数组，并给定一个字符串对 <code>similarPairs</code> ，其中&nbsp;<code>similarPairs[i] = [x<sub>i</sub>, y<sub>i</sub>]</code>&nbsp;表示两个单词&nbsp;<code>x<sub>i</sub></code>&nbsp;and&nbsp;<code>y<sub>i</sub></code>&nbsp;是相似的。</p>
+<p>Return <em><code>true</code> if <code>sentence1</code> and <code>sentence2</code> are similar, or <code>false</code> if they are not similar</em>.</p>
 
-<p>如果 <code>sentence1</code> 和 <code>sentence2</code> 相似则返回 <code>true</code> ，如果不相似则返回 <code>false</code> 。</p>
-
-<p>两个句子是相似的，如果:</p>
+<p>Two sentences are similar if:</p>
 
 <ul>
-	<li>它们具有 <strong>相同的长度</strong> (即相同的字数)</li>
-	<li><code>sentence1[i]</code>&nbsp;和&nbsp;<code>sentence2[i]</code>&nbsp;是相似的</li>
+	<li>They have <strong>the same length</strong> (i.e., the same number of words)</li>
+	<li><code>sentence1[i]</code> and <code>sentence2[i]</code> are similar.</li>
 </ul>
 
-<p>请注意，一个词总是与它自己相似，也请注意，相似关系是不可传递的。例如，如果单词 <code>a</code> 和 <code>b</code> 是相似的，单词&nbsp;<code>b</code> 和 <code>c</code> 也是相似的，那么 <code>a</code> 和 <code>c</code>&nbsp; <strong>不一定相似</strong> 。</p>
+<p>Notice that a word is always similar to itself, also notice that the similarity relation is not transitive. For example, if the words <code>a</code> and <code>b</code> are similar, and the words <code>b</code> and <code>c</code> are similar, <code>a</code> and <code>c</code> are <strong>not necessarily similar</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> sentence1 = ["great","acting","skills"], sentence2 = ["fine","drama","talent"], similarPairs = [["great","fine"],["drama","acting"],["skills","talent"]]
-<strong>输出:</strong> true
-<strong>解释:</strong> 这两个句子长度相同，每个单词都相似。
+<strong>Input:</strong> sentence1 = [&quot;great&quot;,&quot;acting&quot;,&quot;skills&quot;], sentence2 = [&quot;fine&quot;,&quot;drama&quot;,&quot;talent&quot;], similarPairs = [[&quot;great&quot;,&quot;fine&quot;],[&quot;drama&quot;,&quot;acting&quot;],[&quot;skills&quot;,&quot;talent&quot;]]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> The two sentences have the same length and each word i of sentence1 is also similar to the corresponding word in sentence2.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> sentence1 = ["great"], sentence2 = ["great"], similarPairs = []
-<strong>输出:</strong> true
-<strong>解释:</strong> 一个单词和它本身相似。</pre>
+<strong>Input:</strong> sentence1 = [&quot;great&quot;], sentence2 = [&quot;great&quot;], similarPairs = []
+<strong>Output:</strong> true
+<strong>Explanation:</strong> A word is similar to itself.
+</pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> sentence1 = ["great"], sentence2 = ["doubleplus","good"], similarPairs = [["great","doubleplus"]]
-<strong>输出:</strong> false
-<strong>解释: </strong>因为它们长度不同，所以返回false。
+<strong>Input:</strong> sentence1 = [&quot;great&quot;], sentence2 = [&quot;doubleplus&quot;,&quot;good&quot;], similarPairs = [[&quot;great&quot;,&quot;doubleplus&quot;]]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> As they don&#39;t have the same length, we return false.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= sentence1.length, sentence2.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= sentence1[i].length, sentence2[i].length &lt;= 20</code></li>
-	<li><code>sentence1[i]</code>&nbsp;和&nbsp;<code>sentence2[i]</code>&nbsp;只包含大小写英文字母</li>
-	<li><code>0 &lt;= similarPairs.length &lt;= 2000</code></li>
+	<li><code>sentence1[i]</code> and <code>sentence2[i]</code> consist of English letters.</li>
+	<li><code>0 &lt;= similarPairs.length &lt;= 1000</code></li>
 	<li><code>similarPairs[i].length == 2</code></li>
 	<li><code>1 &lt;= x<sub>i</sub>.length, y<sub>i</sub>.length &lt;= 20</code></li>
-	<li>所有对&nbsp;<code>(xi, yi)</code>&nbsp;都是 <strong>不同</strong> 的</li>
+	<li><code>x<sub>i</sub></code> and <code>y<sub>i</sub></code> consist of lower-case and upper-case English letters.</li>
+	<li>All the pairs <code>(x<sub>i</sub>,<sub> </sub>y<sub>i</sub>)</code> are <strong>distinct</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,64 +1,60 @@
-# [1427. 字符串的左右移](https://leetcode.cn/problems/perform-string-shifts)
+# [1427. Perform String Shifts](https://leetcode.com/problems/perform-string-shifts)
 
-[English Version](/solution/1400-1499/1427.Perform%20String%20Shifts/README_EN.md)
+[中文文档](/solution/1400-1499/1427.Perform%20String%20Shifts/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个包含小写英文字母的字符串&nbsp;<code>s</code>&nbsp;以及一个矩阵&nbsp;<code>shift</code>，其中&nbsp;<code>shift[i] = [direction, amount]</code>：</p>
+<p>You are given a string <code>s</code> containing lowercase English letters, and a matrix <code>shift</code>, where <code>shift[i] = [direction<sub>i</sub>, amount<sub>i</sub>]</code>:</p>
 
 <ul>
-	<li><code>direction</code>&nbsp;可以为&nbsp;<code>0</code>&nbsp;（表示左移）或&nbsp;<code>1</code>&nbsp;（表示右移）。</li>
-	<li><code>amount</code>&nbsp;表示&nbsp;<code>s</code>&nbsp;左右移的位数。</li>
-	<li>左移 1 位表示移除&nbsp;<code>s</code>&nbsp;的第一个字符，并将该字符插入到 <code>s</code> 的结尾。</li>
-	<li>类似地，右移 1 位表示移除&nbsp;<code>s</code>&nbsp;的最后一个字符，并将该字符插入到 <code>s</code> 的开头。</li>
+	<li><code>direction<sub>i</sub></code> can be <code>0</code> (for left shift) or <code>1</code> (for right shift).</li>
+	<li><code>amount<sub>i</sub></code> is the amount by which string <code>s</code> is to be shifted.</li>
+	<li>A left shift by 1 means remove the first character of <code>s</code> and append it to the end.</li>
+	<li>Similarly, a right shift by 1 means remove the last character of <code>s</code> and add it to the beginning.</li>
 </ul>
 
-<p>对这个字符串进行所有操作后，返回最终结果。</p>
+<p>Return the final string after all operations.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = &quot;abc&quot;, shift = [[0,1],[1,2]]
-<strong>输出：</strong>&quot;cab&quot;
-<strong>解释：</strong>
-[0,1] 表示左移 1 位。 &quot;abc&quot; -&gt; &quot;bca&quot;
-[1,2] 表示右移 2 位。 &quot;bca&quot; -&gt; &quot;cab&quot;</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = &quot;abcdefg&quot;, shift = [[1,1],[1,1],[0,2],[1,3]]
-<strong>输出：</strong>&quot;efgabcd&quot;
-<strong>解释：</strong> 
-[1,1] 表示右移 1 位。 &quot;abcdefg&quot; -&gt; &quot;gabcdef&quot;
-[1,1] 表示右移 1 位。 &quot;gabcdef&quot; -&gt; &quot;fgabcde&quot;
-[0,2] 表示左移 2 位。 &quot;fgabcde&quot; -&gt; &quot;abcdefg&quot;
-[1,3] 表示右移 3 位。 &quot;abcdefg&quot; -&gt; &quot;efgabcd&quot;</pre>
+<strong>Input:</strong> s = &quot;abc&quot;, shift = [[0,1],[1,2]]
+<strong>Output:</strong> &quot;cab&quot;
+<strong>Explanation:</strong>&nbsp;
+[0,1] means shift to left by 1. &quot;abc&quot; -&gt; &quot;bca&quot;
+[1,2] means shift to right by 2. &quot;bca&quot; -&gt; &quot;cab&quot;</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;abcdefg&quot;, shift = [[1,1],[1,1],[0,2],[1,3]]
+<strong>Output:</strong> &quot;efgabcd&quot;
+<strong>Explanation:</strong>&nbsp; 
+[1,1] means shift to right by 1. &quot;abcdefg&quot; -&gt; &quot;gabcdef&quot;
+[1,1] means shift to right by 1. &quot;gabcdef&quot; -&gt; &quot;fgabcde&quot;
+[0,2] means shift to left by 2. &quot;fgabcde&quot; -&gt; &quot;abcdefg&quot;
+[1,3] means shift to right by 3. &quot;abcdefg&quot; -&gt; &quot;efgabcd&quot;</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 100</code></li>
-	<li><code>s</code>&nbsp;只包含小写英文字母</li>
+	<li><code>s</code> only contains lower case English letters.</li>
 	<li><code>1 &lt;= shift.length &lt;= 100</code></li>
 	<li><code>shift[i].length == 2</code></li>
-	<li><code>0 &lt;= shift[i][0] &lt;= 1</code></li>
-	<li><code>0 &lt;= shift[i][1] &lt;= 100</code></li>
+	<li><code>direction<sub>i</sub></code><sub> </sub>is either <code>0</code> or <code>1</code>.</li>
+	<li><code>0 &lt;= amount<sub>i</sub> &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-我们不妨记字符串 $s$ 的长度为 $n$。接下来遍历数组 $shift$，累加得到最终的偏移量 $x$，然后将 $x$ 对 $n$ 取模，最终结果就是将 $s$ 的前 $n - x$ 个字符移动到末尾。
+We can denote the length of the string $s$ as $n$. Next, we traverse the array $shift$, accumulate to get the final offset $x$, then take $x$ modulo $n$, the final result is to move the first $n - x$ characters of $s$ to the end.
 
-时间复杂度 $O(n + m)$，其中 $n$ 和 $m$ 分别是字符串 $s$ 的长度和数组 $shift$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n + m)$, where $n$ and $m$ are the lengths of the string $s$ and the array $shift$ respectively. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

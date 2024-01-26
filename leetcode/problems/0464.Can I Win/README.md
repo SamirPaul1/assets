@@ -1,60 +1,56 @@
-# [464. 我能赢吗](https://leetcode.cn/problems/can-i-win)
+# [464. Can I Win](https://leetcode.com/problems/can-i-win)
 
-[English Version](/solution/0400-0499/0464.Can%20I%20Win/README_EN.md)
+[中文文档](/solution/0400-0499/0464.Can%20I%20Win/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>In the &quot;100 game&quot; two players take turns adding, to a running total, any integer from <code>1</code> to <code>10</code>. The player who first causes the running total to <strong>reach or exceed</strong> 100 wins.</p>
 
-<p>在 "100 game" 这个游戏中，两名玩家轮流选择从 <code>1</code> 到 <code>10</code> 的任意整数，累计整数和，先使得累计整数和 <strong>达到或超过</strong>&nbsp; 100 的玩家，即为胜者。</p>
+<p>What if we change the game so that players <strong>cannot</strong> re-use integers?</p>
 
-<p>如果我们将游戏规则改为 “玩家 <strong>不能</strong> 重复使用整数” 呢？</p>
+<p>For example, two players might take turns drawing from a common pool of numbers from 1 to 15 without replacement until they reach a total &gt;= 100.</p>
 
-<p>例如，两个玩家可以轮流从公共整数池中抽取从 1 到 15 的整数（不放回），直到累计整数和 &gt;= 100。</p>
-
-<p>给定两个整数&nbsp;<code>maxChoosableInteger</code>&nbsp;（整数池中可选择的最大数）和&nbsp;<code>desiredTotal</code>（累计和），若先出手的玩家能稳赢则返回 <code>true</code>&nbsp;，否则返回 <code>false</code> 。假设两位玩家游戏时都表现 <strong>最佳</strong> 。</p>
+<p>Given two integers <code>maxChoosableInteger</code> and <code>desiredTotal</code>, return <code>true</code> if the first player to move can force a win, otherwise, return <code>false</code>. Assume both players play <strong>optimally</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>maxChoosableInteger = 10, desiredTotal = 11
-<strong>输出：</strong>false
-<strong>解释：
-</strong>无论第一个玩家选择哪个整数，他都会失败。
-第一个玩家可以选择从 1 到 10 的整数。
-如果第一个玩家选择 1，那么第二个玩家只能选择从 2 到 10 的整数。
-第二个玩家可以通过选择整数 10（那么累积和为 11 &gt;= desiredTotal），从而取得胜利.
-同样地，第一个玩家选择任意其他整数，第二个玩家都会赢。
+<strong>Input:</strong> maxChoosableInteger = 10, desiredTotal = 11
+<strong>Output:</strong> false
+<strong>Explanation:</strong>
+No matter which integer the first player choose, the first player will lose.
+The first player can choose an integer from 1 up to 10.
+If the first player choose 1, the second player can only choose integers from 2 up to 10.
+The second player will win by choosing 10 and get a total = 11, which is &gt;= desiredTotal.
+Same with other integers chosen by the first player, the second player will always win.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>maxChoosableInteger = 10, desiredTotal = 0
-<b>输出：</b>true
+<strong>Input:</strong> maxChoosableInteger = 10, desiredTotal = 0
+<strong>Output:</strong> true
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>maxChoosableInteger = 10, desiredTotal = 1
-<strong>输出：</strong>true
+<strong>Input:</strong> maxChoosableInteger = 10, desiredTotal = 1
+<strong>Output:</strong> true
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= maxChoosableInteger &lt;= 20</code></li>
 	<li><code>0 &lt;= desiredTotal &lt;= 300</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：状态压缩 + 记忆化搜索
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,45 +1,41 @@
-# [2702. 使数字变为非正数的最小操作次数](https://leetcode.cn/problems/minimum-operations-to-make-numbers-non-positive)
+# [2702. Minimum Operations to Make Numbers Non-positive](https://leetcode.com/problems/minimum-operations-to-make-numbers-non-positive)
 
-[English Version](/solution/2700-2799/2702.Minimum%20Operations%20to%20Make%20Numbers%20Non-positive/README_EN.md)
+[中文文档](/solution/2700-2799/2702.Minimum%20Operations%20to%20Make%20Numbers%20Non-positive/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个 <strong>下标从0开始</strong> 的整数数组 <code>nums</code>，以及两个整数 <code>x</code> 和 <code>y</code>。在每一次操作中，你需要选择一个满足条件 <code>0 &lt;= i &lt; nums.length</code> 的下标 <code>i</code>&nbsp;，并执行以下操作：</p>
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and two integers <code>x</code> and <code>y</code>. In one operation, you must choose an index <code>i</code> such that <code>0 &lt;= i &lt; nums.length</code> and perform the following:</p>
 
 <ul>
-	<li>将 <code>nums[i]</code> 减去 <code>x</code>。</li>
-	<li>将除了下标为 <code>i</code> 的位置外，其他位置的值都减去 <code>y</code>。</li>
+	<li>Decrement <code>nums[i]</code> by <code>x</code>.</li>
+	<li>Decrement values by <code>y</code> at all indices except the <code>i<sup>th</sup></code> one.</li>
 </ul>
 
-<p>返回使得 <code>nums</code> 中的所有整数都 <strong>小于等于零&nbsp;</strong>所需的最小操作次数。</p>
+<p>Return <em>the minimum number of operations to make all the integers in </em><code>nums</code> <em><strong>less than or equal to zero.</strong></em></p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1：</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [3,4,1,7,6], x = 4, y = 2
-<b>输出：</b>3
-<b>解释：</b>你需要进行三次操作。其中一种最优操作序列如下：
-操作 1: 选择 i = 3。 然后, nums = [1,2,-1,3,4]. 
-操作 2: 选择 i = 3。 然后, nums = [-1,0,-3,-1,2].
-操作 3: 选择 i = 4。 然后, nums = [-3,-2,-5,-3,-2].
-现在，<code>nums</code> 中的所有数字都是非正数。因此，返回 3。
+<strong>Input:</strong> nums = [3,4,1,7,6], x = 4, y = 2
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> You will need three operations. One of the optimal sequence of operations is:
+Operation 1: Choose i = 3. Then, nums = [1,2,-1,3,4]. 
+Operation 2: Choose i = 3. Then, nums = [-1,0,-3,-1,2].
+Operation 3: Choose i = 4. Then, nums = [-3,-2,-5,-3,-2].
+Now, all the numbers in nums are non-positive. Therefore, we return 3.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [1,2,1], x = 2, y = 1
-<b>输出：</b>1
-<b>解释：</b>我们可以在 <code>i = 1</code> 处执行一次操作，得到 <code>nums = [0,0,0]</code>。所有正数都被移除，因此返回 1。
+<strong>Input:</strong> nums = [1,2,1], x = 2, y = 1
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> We can perform the operation once on i = 1. Then, nums becomes [0,0,0]. All the positive numbers are removed, and therefore, we return 1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
@@ -47,19 +43,13 @@
 	<li><code>1 &lt;= y &lt; x &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
+### Solution 1: Binary Search
 
-我们注意到，如果一个操作次数 $t$ 能够使得所有的数都小于等于 $0$，那么对于任意 $t' > t$，操作次数 $t'$ 也能够使得所有的数都小于等于 $0$。因此我们可以使用二分查找的方法找到最小的操作次数。
+We notice that if an operation count $t$ can make all numbers less than or equal to $0$, then for any $t' > t$, the operation count $t'$ can also make all numbers less than or equal to $0$. Therefore, we can use binary search to find the minimum operation count.
 
-我们定义二分查找的左边界 $l=0$，右边界 $r=\max(nums)$。每一次二分查找，我们找到中间值 $mid=\lfloor\frac{l+r}{2}\rfloor$，然后判断是否存在一种操作方法使得操作次数不超过 $mid$，使得所有的数都小于等于 $0$。如果存在，那么我们就更新右边界 $r = mid$，否则我们就更新左边界 $l = mid + 1$。最终当 $l=r$ 时，我们就找到了最小的操作次数，返回 $l$ 即可。
-
-问题的关键在于如何判断是否存在一种操作方法使得操作次数不超过 $t$，使得所有的数都小于等于 $0$。我们可以使用贪心的方法来判断是否存在这样的操作方法。
-
-我们遍历数组中的每一个数 $v$，如果 $v \leq t \times y$，那么我们不需要进行任何操作。否则，我们需要的操作次数为 $\lceil\frac{v - t \times y}{x - y}\rceil$。我们将所有的操作次数相加，如果小于等于 $t$，那么就说明存在一种操作方法使得操作次数不超过 $t$，使得所有的数都小于等于 $0$。
-
-时间复杂度 $O(n \times \log M)$，其中 $n$ 和 $M$ 分别是数组的长度和数组中的最大值。空间复杂度 $O(1)$。
+We define the left boundary of the binary search as $l=0$, and the right boundary as $r=\max(nums)$. Each time we perform a binary search, we find the middle value $mid=\lfloor\frac{l+r}{2}\rfloor$, and then determine whether there exists an operation method that does not exceed $mid$ and makes all numbers less than or equal to $0$. If it exists, we update the right boundary $r = mid$, otherwise, we update the left boundary
 
 <!-- tabs:start -->
 

@@ -1,83 +1,34 @@
-# [540. 有序数组中的单一元素](https://leetcode.cn/problems/single-element-in-a-sorted-array)
+# [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)
 
-[English Version](/solution/0500-0599/0540.Single%20Element%20in%20a%20Sorted%20Array/README_EN.md)
+[中文文档](/solution/0500-0599/0540.Single%20Element%20in%20a%20Sorted%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly once.</p>
 
-<p>给你一个仅由整数组成的有序数组，其中每个元素都会出现两次，唯有一个数只会出现一次。</p>
+<p>Return <em>the single element that appears only once</em>.</p>
 
-<p>请你找出并返回只出现一次的那个数。</p>
-
-<p>你设计的解决方案必须满足 <code>O(log n)</code> 时间复杂度和 <code>O(1)</code> 空间复杂度。</p>
+<p>Your solution must run in <code>O(log n)</code> time and <code>O(1)</code> space.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = [1,1,2,3,3,4,4,8,8]
-<strong>输出:</strong> 2
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,1,2,3,3,4,4,8,8]
+<strong>Output:</strong> 2
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [3,3,7,7,10,11,11]
+<strong>Output:</strong> 10
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums =  [3,3,7,7,10,11,11]
-<strong>输出:</strong> 10
-</pre>
-
 <p>&nbsp;</p>
-
-<p><meta charset="UTF-8" /></p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>0 &lt;= nums[i]&nbsp;&lt;= 10<sup>5</sup></code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
-
-给与的数组是有序的，由此可以使用二分查找，那条件该如何判断呢。
-
-先观察一下线性遍历是如何确定目标的：
-
-```c
-for (int i = 0; i < n - 1; i += 2) {
-    if (nums[i] != nums[i + 1]) {
-        return nums[i];
-    }
-}
-return nums[n - 1];
-```
-
-偶数下标：当 `nums[i] != nums[i + 1] && i % 2 == 0` 成立，结果便是 `nums[i]`。
-奇数下标：当 `nums[i] != nums[i - 1] && i % 2 == 1` 成立，结果便是 `nums[i - 1]`。
-
-于是二分模板就有了：
-
-```txt
-l = 0
-r = n - 1
-while l < r
-    m = l + (r - l) / 2
-    if m % 2 == 0
-        if nums[m] == nums[m + 1]
-            l = m + 1
-        else
-            r = m
-    else
-        if nums[m] == nums[m - 1]
-            l = m + 1
-        else
-            r = m
-return nums[l]
-```
+### Solution 1
 
 <!-- tabs:start -->
 

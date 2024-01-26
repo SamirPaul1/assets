@@ -1,56 +1,41 @@
-# [1118. 一月有多少天](https://leetcode.cn/problems/number-of-days-in-a-month)
+# [1118. Number of Days in a Month](https://leetcode.com/problems/number-of-days-in-a-month)
 
-[English Version](/solution/1100-1199/1118.Number%20of%20Days%20in%20a%20Month/README_EN.md)
+[中文文档](/solution/1100-1199/1118.Number%20of%20Days%20in%20a%20Month/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>指定年份&nbsp;<code>year</code> 和月份&nbsp;<code>month</code>，返回 <em>该月天数&nbsp;</em>。</p>
+<p>Given a year <code>year</code> and a month <code>month</code>, return <em>the number of days of that month</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>year = 1992, month = 7
-<strong>输出：</strong>31
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> year = 1992, month = 7
+<strong>Output:</strong> 31
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> year = 2000, month = 2
+<strong>Output:</strong> 29
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> year = 1900, month = 2
+<strong>Output:</strong> 28
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>year = 2000, month = 2
-<strong>输出：</strong>29
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>year = 1900, month = 2
-<strong>输出：</strong>28
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1583 &lt;= year &lt;= 2100</code></li>
 	<li><code>1 &lt;= month &lt;= 12</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：判断闰年
+### Solution 1: Determine Leap Year
 
-我们可以先判断给定的年份是否为闰年，如果年份能被 $4$ 整除但不能被 $100$ 整除，或者能被 $400$ 整除，那么这一年就是闰年。
+We can first determine whether the given year is a leap year. If the year can be divided by $4$ but not by $100$, or can be divided by $400$, then this year is a leap year.
 
-闰年的二月有 $29$ 天，平年的二月有 $28$ 天。
+February has $29$ days in a leap year and $28$ days in a common year.
 
-我们可以用一个数组 $days$ 存储当前年份每个月的天数，其中 $days[0]=0$，$days[i]$ 表示当前年份第 $i$ 个月的天数。那么答案就是 $days[month]$。
+We can use an array $days$ to store the number of days in each month of the current year, where $days[0]=0$, $days[i]$ represents the number of days in the $i$th month of the current year. Then the answer is $days[month]$.
 
-时间复杂度 $O(1)$，空间复杂度 $O(1)$。
+The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

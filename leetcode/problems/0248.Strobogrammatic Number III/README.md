@@ -1,67 +1,34 @@
-# [248. 中心对称数 III](https://leetcode.cn/problems/strobogrammatic-number-iii)
+# [248. Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii)
 
-[English Version](/solution/0200-0299/0248.Strobogrammatic%20Number%20III/README_EN.md)
+[中文文档](/solution/0200-0299/0248.Strobogrammatic%20Number%20III/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two strings low and high that represent two integers <code>low</code> and <code>high</code> where <code>low &lt;= high</code>, return <em>the number of <strong>strobogrammatic numbers</strong> in the range</em> <code>[low, high]</code>.</p>
 
-<p>给定两个字符串 low 和 high 表示两个整数 <code>low</code>&nbsp;和 <code>high</code> ，其中&nbsp;<code>low &lt;= high</code>&nbsp;，返回 范围 <code>[low, high]</code>&nbsp;内的 <strong>「中心对称数」</strong>总数&nbsp;&nbsp;。</p>
-
-<p><strong>中心对称数&nbsp;</strong>是一个数字在旋转了&nbsp;<code>180</code> 度之后看起来依旧相同的数字（或者上下颠倒地看）。</p>
+<p>A <strong>strobogrammatic number</strong> is a number that looks the same when rotated <code>180</code> degrees (looked at upside down).</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> low = "50", high = "100"
-<strong>输出:</strong> 3 
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> low = "50", high = "100"
+<strong>Output:</strong> 3
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> low = "0", high = "0"
+<strong>Output:</strong> 1
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> low = "0", high = "0"
-<strong>输出:</strong> 1
-</pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong><meta charset="UTF-8" /></p>
-
-<p><meta charset="UTF-8" /></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= low.length, high.length &lt;= 15</code></li>
-	<li><code>low</code>&nbsp;和&nbsp;<code>high</code>&nbsp;只包含数字</li>
+	<li><code>low</code> and <code>high</code> consist of only digits.</li>
 	<li><code>low &lt;= high</code></li>
-	<li><code>low</code>&nbsp;and&nbsp;<code>high</code>&nbsp;不包含任何前导零，除了零本身。</li>
+	<li><code>low</code> and <code>high</code> do not contain any leading zeros except for zero itself.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：递归
-
-若长度为 $1$，则中心对称数只有 $0, 1, 8$；若长度为 $2$，则中心对称数只有 $11, 69, 88, 96$。
-
-我们设计递归函数 $dfs(u)$，其返回长度为 $u$ 的中心对称数。
-
-若 $u$ 为 $0$，返回包含一个空串的列表，即 `[""]`；若 $u$ 为 $1$，返回列表 `["0", "1", "8"]`。
-
-若 $u$ 大于 $1$，我们对长度为 $u - 2$ 的所有中心对称数进行遍历，对于每个中心对称数 $v$，在其左右两侧分别添加 $1, 8, 6, 9$，即可得到长度为 $u$ 的中心对称数。
-
-注意，如果 $u\neq n$，我们还可以在中心对称数的左右两侧分别添加 $0$。
-
-设 $low$ 和 $high$ 的长度分别为 $a$ 和 $b$。
-
-接下来，我们在 $[a,..b]$ 范围内遍历所有长度，对于每个长度 $n$，我们获取所有中心对称数 $dfs(n)$，然后判断是否在 $[low, high]$ 范围内，若在，答案加一。
-
-时间复杂度为 $O(2^{n+2}\times \log n)$。
-
-相似题目：
-
--   [247. 中心对称数 II](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0247.Strobogrammatic%20Number%20II/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,73 +1,47 @@
-# [1062. 最长重复子串](https://leetcode.cn/problems/longest-repeating-substring)
+# [1062. Longest Repeating Substring](https://leetcode.com/problems/longest-repeating-substring)
 
-[English Version](/solution/1000-1099/1062.Longest%20Repeating%20Substring/README_EN.md)
+[中文文档](/solution/1000-1099/1062.Longest%20Repeating%20Substring/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定字符串&nbsp;<code>S</code>，找出最长重复子串的长度。如果不存在重复子串就返回 <code>0</code>。</p>
+<p>Given a string <code>s</code>, return <em>the length of the longest repeating substrings</em>. If no repeating substring exists, return <code>0</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>&quot;abcd&quot;
-<strong>输出：</strong>0
-<strong>解释：</strong>没有重复子串。
+<pre>
+<strong>Input:</strong> s = &quot;abcd&quot;
+<strong>Output:</strong> 0
+<strong>Explanation: </strong>There is no repeating substring.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>&quot;abbaba&quot;
-<strong>输出：</strong>2
-<strong>解释：</strong>最长的重复子串为 &quot;ab&quot; 和 &quot;ba&quot;，每个出现 2 次。
+<pre>
+<strong>Input:</strong> s = &quot;abbaba&quot;
+<strong>Output:</strong> 2
+<strong>Explanation: </strong>The longest repeating substrings are &quot;ab&quot; and &quot;ba&quot;, each of which occurs twice.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>输入：</strong>&quot;aabcaabdaab&quot;
-<strong>输出：</strong>3
-<strong>解释：</strong>最长的重复子串为 &quot;aab&quot;，出现 3 次。
+<pre>
+<strong>Input:</strong> s = &quot;aabcaabdaab&quot;
+<strong>Output:</strong> 3
+<strong>Explanation: </strong>The longest repeating substring is &quot;aab&quot;, which occurs <code>3</code> times.
 </pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输入：</strong>&quot;aaaaa&quot;
-<strong>输出：</strong>4
-<strong>解释：</strong>最长的重复子串为 &quot;aaaa&quot;，出现 2 次。</pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>提示：</strong></p>
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 2000</code></li>
+	<li><code>s</code> consists of lowercase English letters.</li>
+</ul>
 
-<ol>
-	<li>字符串&nbsp;<code>S</code>&nbsp;仅包含从&nbsp;<code>&#39;a&#39;</code> 到&nbsp;<code>&#39;z&#39;</code>&nbsp;的小写英文字母。</li>
-	<li><code>1 &lt;= S.length &lt;= 1500</code></li>
-</ol>
+## Solutions
 
-## 解法
-
-### 方法一：动态规划
-
-定义 $dp[i][j]$ 表示以 $s[i]$ 和 $s[j]$ 结尾的最长重复子串的长度。状态转移方程为：
-
-$$
-dp[i][j]=
-\begin{cases}
-dp[i-1][j-1]+1, & i>0 \cap s[i]=s[j] \\
-1, & i=0 \cap s[i]=s[j] \\
-0, &  s[i] \neq s[j]
-\end{cases}
-$$
-
-时间复杂度 $O(n^2)$，空间复杂度 $O(n^2)$。
-
-其中 $n$ 为字符串 $s$ 的长度。
-
-相似题目：
-
--   [1044. 最长重复子串](https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1044.Longest%20Duplicate%20Substring/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

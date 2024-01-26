@@ -1,52 +1,29 @@
-# [625. 最小因式分解](https://leetcode.cn/problems/minimum-factorization)
+# [625. Minimum Factorization](https://leetcode.com/problems/minimum-factorization)
 
-[English Version](/solution/0600-0699/0625.Minimum%20Factorization/README_EN.md)
+[中文文档](/solution/0600-0699/0625.Minimum%20Factorization/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个正整数 <code>a</code>，找出最小的正整数 <code>b</code> 使得 <code>b</code> 的所有数位相乘恰好等于 <code>a</code>。</p>
-
-<p>如果不存在这样的结果或者结果不是 32 位有符号整数，返回 0。</p>
+<p>Given a positive integer num, return <em>the smallest positive integer </em><code>x</code><em> whose multiplication of each digit equals </em><code>num</code>. If there is no answer or the answer is not fit in <strong>32-bit</strong> signed integer, return <code>0</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>样例 1</strong></p>
-
-<p>输入：</p>
-
-<pre>48 
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> num = 48
+<strong>Output:</strong> 68
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> num = 15
+<strong>Output:</strong> 35
 </pre>
-
-<p>输出：</p>
-
-<pre>68</pre>
-
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>样例 2</strong></p>
+<ul>
+	<li><code>1 &lt;= num &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
 
-<p>输入：</p>
+## Solutions
 
-<pre>15
-</pre>
-
-<p>输出：</p>
-
-<pre>35</pre>
-
-<p>&nbsp;</p>
-
-## 解法
-
-### 方法一：贪心 + 因式分解
-
-我们先判断 $num$ 是否小于 $2$，如果是，直接返回 $num$。然后从 $9$ 开始，尽可能多地将数字分解为 $9$，然后分解为 $8$，以此类推，直到分解为 $2$。如果最后剩下的数字不是 $1$，或者结果超过了 $2^{31} - 1$，则返回 $0$。否则，我们返回结果。
-
-> 注意，分解后的数字，应该依次填充到结果的个位、十位、百位、千位……上，因此我们需要维护一个变量 $mul$，表示当前的位数。
-
-时间复杂度 $O(\log n)$，空间复杂度 $O(1)$。其中 $n$ 为 $num$ 的值。
+### Solution 1
 
 <!-- tabs:start -->
 

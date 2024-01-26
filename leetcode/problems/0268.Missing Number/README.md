@@ -1,73 +1,61 @@
-# [268. 丢失的数字](https://leetcode.cn/problems/missing-number)
+# [268. Missing Number](https://leetcode.com/problems/missing-number)
 
-[English Version](/solution/0200-0299/0268.Missing%20Number/README_EN.md)
+[中文文档](/solution/0200-0299/0268.Missing%20Number/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个包含 <code>[0, n]</code>&nbsp;中&nbsp;<code>n</code>&nbsp;个数的数组 <code>nums</code> ，找出 <code>[0, n]</code> 这个范围内没有出现在数组中的那个数。</p>
-
-<ul>
-</ul>
+<p>Given an array <code>nums</code> containing <code>n</code> distinct numbers in the range <code>[0, n]</code>, return <em>the only number in the range that is missing from the array.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [3,0,1]
-<strong>输出：</strong>2
-<b>解释：</b>n = 3，因为有 3 个数字，所以所有的数字都在范围 [0,3] 内。2 是丢失的数字，因为它没有出现在 nums 中。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [0,1]
-<strong>输出：</strong>2
-<b>解释：</b>n = 2，因为有 2 个数字，所以所有的数字都在范围 [0,2] 内。2 是丢失的数字，因为它没有出现在 nums 中。</pre>
+<strong>Input:</strong> nums = [3,0,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.
+</pre>
 
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [9,6,4,2,3,5,7,0,1]
-<strong>输出：</strong>8
-<b>解释：</b>n = 9，因为有 9 个数字，所以所有的数字都在范围 [0,9] 内。8 是丢失的数字，因为它没有出现在 nums 中。</pre>
-
-<p><strong>示例 4：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [0]
-<strong>输出：</strong>1
-<b>解释：</b>n = 1，因为有 1 个数字，所以所有的数字都在范围 [0,1] 内。1 是丢失的数字，因为它没有出现在 nums 中。</pre>
+<strong>Input:</strong> nums = [0,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not appear in nums.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [9,6,4,2,3,5,7,0,1]
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
 	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= nums[i] &lt;= n</code></li>
-	<li><code>nums</code> 中的所有数字都 <strong>独一无二</strong></li>
+	<li>All the numbers of <code>nums</code> are <strong>unique</strong>.</li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you implement a solution using only <code>O(1)</code> extra space complexity and <code>O(n)</code> runtime complexity?</p>
 
-<p><strong>进阶：</strong>你能否实现线性时间复杂度、仅使用额外常数空间的算法解决此问题?</p>
+## Solutions
 
-## 解法
+### Solution 1: Bitwise Operation
 
-### 方法一：位运算
+The XOR operation has the following properties:
 
-异或运算的性质：
+-   Any number XOR 0 is still the original number, i.e., $x \oplus 0 = x$;
+-   Any number XOR itself is 0, i.e., $x \oplus x = 0$;
 
--   任何数和 $0$ 做异或运算，结果仍然是原来的数，即 $x \oplus 0 = x$；
--   任何数和其自身做异或运算，结果是 $0$，即 $x \oplus x = 0$；
+Therefore, we can traverse the array, perform XOR operation between each element and the numbers $[0,..n]$, and the final result will be the missing number.
 
-因此，我们可以遍历数组，将数字 $[0,..n]$ 与数组中的元素进行异或运算，最后的结果就是缺失的数字。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组长度。
+The time complexity is $O(n)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
@@ -173,11 +161,11 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二：数学
+### Solution 2: Mathematics
 
-我们也可以用数学求解。求出 $[0,..n]$ 的和，减去数组中所有数的和，就得到了缺失的数字。
+We can also solve this problem using mathematics. By calculating the sum of $[0,..n]$, subtracting the sum of all numbers in the array, we can obtain the missing number.
 
-时间复杂度 $O(n)$，其中 $n$ 为数组长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

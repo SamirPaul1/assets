@@ -1,55 +1,42 @@
-# [996. 正方形数组的数目](https://leetcode.cn/problems/number-of-squareful-arrays)
+# [996. Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays)
 
-[English Version](/solution/0900-0999/0996.Number%20of%20Squareful%20Arrays/README_EN.md)
+[中文文档](/solution/0900-0999/0996.Number%20of%20Squareful%20Arrays/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>An array is <strong>squareful</strong> if the sum of every pair of adjacent elements is a <strong>perfect square</strong>.</p>
 
-<p>给定一个非负整数数组&nbsp;<code>A</code>，如果该数组每对相邻元素之和是一个完全平方数，则称这一数组为<em>正方形</em>数组。</p>
+<p>Given an integer array nums, return <em>the number of permutations of </em><code>nums</code><em> that are <strong>squareful</strong></em>.</p>
 
-<p>返回 A 的正方形排列的数目。两个排列 <code>A1</code> 和 <code>A2</code> 不同的充要条件是存在某个索引 <code>i</code>，使得 A1[i] != A2[i]。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>[1,17,8]
-<strong>输出：</strong>2
-<strong>解释：</strong>
-[1,8,17] 和 [17,8,1] 都是有效的排列。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre><strong>输入：</strong>[2,2,2]
-<strong>输出：</strong>1
-</pre>
+<p>Two permutations <code>perm1</code> and <code>perm2</code> are different if there is some index <code>i</code> such that <code>perm1[i] != perm2[i]</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> nums = [1,17,8]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> [1,8,17] and [17,8,1] are the valid permutations.
+</pre>
 
-<ol>
-	<li><code>1 &lt;= A.length &lt;= 12</code></li>
-	<li><code>0 &lt;= A[i] &lt;= 1e9</code></li>
-</ol>
+<p><strong class="example">Example 2:</strong></p>
 
-## 解法
+<pre>
+<strong>Input:</strong> nums = [2,2,2]
+<strong>Output:</strong> 1
+</pre>
 
-### 方法一：二进制状态压缩 + 动态规划
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-注意到，数组 $nums$ 的长度 $n$ 不超过 $12$，因此我们可以用一个二进制数表示当前所选的数字的状态，若第 $i$ 位为 $1$，则表示当前选择了第 $i$ 个数字，否则表示当前没有选择第 $i$ 个数字。
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 12</code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+</ul>
 
-我们定义 $f[i][j]$ 表示当前所选的数字的状态为 $i$，且最后一个数字为 $nums[j]$ 的方案数。那么答案就是 $\sum_{j=0}^{n-1} f[2^n-1][j]$。由于最后求解的是排列数，因此还需要除以每个数字出现的次数的阶乘。
+## Solutions
 
-接下来，我们考虑如何进行状态转移。
-
-假设当前所选的数字的状态为 $i$，最后一个数字为 $nums[j]$，那么我们可以枚举 $i$ 的每一位为 $1$ 的数字作为倒数第二个数，不妨设为 $nums[k]$，那么我们只需要判断 $nums[j]+nums[k]$ 是否为完全平方数即可，若是，方案数 $f[i][j]$ 就可以加上 $f[i \oplus 2^j][k]$，其中 $i \oplus 2^j$ 表示将 $i$ 的第 $j$ 位取反，即表示将 $nums[j]$ 从当前所选的数字中去除。
-
-最后，我们还需要除以每个数字出现的次数的阶乘，因为我们在枚举 $i$ 的每一位为 $1$ 的数字时，可能会重复计算某些排列，因此需要除以每个数字出现的次数的阶乘。
-
-时间复杂度 $O(2^n \times n^2)，空间复杂度 O(2^n \times n)$。其中 $n$ 为数组 $nums$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

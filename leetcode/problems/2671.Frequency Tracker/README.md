@@ -1,85 +1,84 @@
-# [2671. 频率跟踪器](https://leetcode.cn/problems/frequency-tracker)
+# [2671. Frequency Tracker](https://leetcode.com/problems/frequency-tracker)
 
-[English Version](/solution/2600-2699/2671.Frequency%20Tracker/README_EN.md)
+[中文文档](/solution/2600-2699/2671.Frequency%20Tracker/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a data structure that keeps track of the values in it and answers some queries regarding their frequencies.</p>
 
-<p>请你设计并实现一个能够对其中的值进行跟踪的数据结构，并支持对频率相关查询进行应答。</p>
-
-<p>实现 <code>FrequencyTracker</code> 类：</p>
+<p>Implement the <code>FrequencyTracker</code> class.</p>
 
 <ul>
-	<li><code>FrequencyTracker()</code>：使用一个空数组初始化 <code>FrequencyTracker</code> 对象。</li>
-	<li><code>void add(int number)</code>：添加一个 <code>number</code> 到数据结构中。</li>
-	<li><code>void deleteOne(int number)</code>：从数据结构中删除一个 <code>number</code> 。数据结构 <strong>可能不包含</strong> <code>number</code> ，在这种情况下不删除任何内容。</li>
-	<li><code>bool hasFrequency(int frequency)</code>: 如果数据结构中存在出现 <code>frequency</code> 次的数字，则返回 <code>true</code>，否则返回 <code>false</code>。</li>
+	<li><code>FrequencyTracker()</code>: Initializes the <code>FrequencyTracker</code> object with an empty array initially.</li>
+	<li><code>void add(int number)</code>: Adds <code>number</code> to the data structure.</li>
+	<li><code>void deleteOne(int number)</code>: Deletes <strong>one</strong> occurrence of <code>number</code> from the data structure. The data structure <strong>may not contain</strong> <code>number</code>, and in this case nothing is deleted.</li>
+	<li><code>bool hasFrequency(int frequency)</code>: Returns <code>true</code> if there is a number in the data structure that occurs <code>frequency</code> number of times, otherwise, it returns <code>false</code>.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入</strong>
-["FrequencyTracker", "add", "add", "hasFrequency"]
+<strong>Input</strong>
+[&quot;FrequencyTracker&quot;, &quot;add&quot;, &quot;add&quot;, &quot;hasFrequency&quot;]
 [[], [3], [3], [2]]
-<strong>输出</strong>
+<strong>Output</strong>
 [null, null, null, true]
 
-<strong>解释</strong>
+<strong>Explanation</strong>
 FrequencyTracker frequencyTracker = new FrequencyTracker();
-frequencyTracker.add(3); // 数据结构现在包含 [3]
-frequencyTracker.add(3); // 数据结构现在包含 [3, 3]
-frequencyTracker.hasFrequency(2); // 返回 true ，因为 3 出现 2 次
+frequencyTracker.add(3); // The data structure now contains [3]
+frequencyTracker.add(3); // The data structure now contains [3, 3]
+frequencyTracker.hasFrequency(2); // Returns true, because 3 occurs twice
+
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入</strong>
-["FrequencyTracker", "add", "deleteOne", "hasFrequency"]
+<strong>Input</strong>
+[&quot;FrequencyTracker&quot;, &quot;add&quot;, &quot;deleteOne&quot;, &quot;hasFrequency&quot;]
 [[], [1], [1], [1]]
-<strong>输出</strong>
+<strong>Output</strong>
 [null, null, null, false]
 
-<strong>解释</strong>
+<strong>Explanation</strong>
 FrequencyTracker frequencyTracker = new FrequencyTracker();
-frequencyTracker.add(1); // 数据结构现在包含 [1]
-frequencyTracker.deleteOne(1); // 数据结构现在为空 []
-frequencyTracker.hasFrequency(1); // 返回 false ，因为数据结构为空
+frequencyTracker.add(1); // The data structure now contains [1]
+frequencyTracker.deleteOne(1); // The data structure becomes empty []
+frequencyTracker.hasFrequency(1); // Returns false, because the data structure is empty
+
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入</strong>
-["FrequencyTracker", "hasFrequency", "add", "hasFrequency"]
+<strong>Input</strong>
+[&quot;FrequencyTracker&quot;, &quot;hasFrequency&quot;, &quot;add&quot;, &quot;hasFrequency&quot;]
 [[], [2], [3], [1]]
-<strong>输出</strong>
+<strong>Output</strong>
 [null, false, null, true]
 
-<strong>解释</strong>
+<strong>Explanation</strong>
 FrequencyTracker frequencyTracker = new FrequencyTracker();
-frequencyTracker.hasFrequency(2); // 返回 false ，因为数据结构为空
-frequencyTracker.add(3); // 数据结构现在包含 [3]
-frequencyTracker.hasFrequency(1); // 返回 true ，因为 3 出现 1 次
+frequencyTracker.hasFrequency(2); // Returns false, because the data structure is empty
+frequencyTracker.add(3); // The data structure now contains [3]
+frequencyTracker.hasFrequency(1); // Returns true, because 3 occurs once
+
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= number &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= frequency &lt;= 10<sup>5</sup></code></li>
-	<li>最多调用 <code>add</code>、<code>deleteOne</code> 和 <code>hasFrequency</code> <strong>共计</strong> <code>2 *&nbsp;10<sup>5</sup></code> 次</li>
+	<li>At most, <code>2 *&nbsp;10<sup>5</sup></code>&nbsp;calls will be made to <code>add</code>, <code>deleteOne</code>, and <code>hasFrequency</code>&nbsp;in <strong>total</strong>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

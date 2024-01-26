@@ -1,60 +1,42 @@
-# [1019. 链表中的下一个更大节点](https://leetcode.cn/problems/next-greater-node-in-linked-list)
+# [1019. Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)
 
-[English Version](/solution/1000-1099/1019.Next%20Greater%20Node%20In%20Linked%20List/README_EN.md)
+[中文文档](/solution/1000-1099/1019.Next%20Greater%20Node%20In%20Linked%20List/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given the <code>head</code> of a linked list with <code>n</code> nodes.</p>
 
-<p>给定一个长度为&nbsp;<code>n</code>&nbsp;的链表&nbsp;<code>head</code></p>
+<p>For each node in the list, find the value of the <strong>next greater node</strong>. That is, for each node, find the value of the first node that is next to it and has a <strong>strictly larger</strong> value than it.</p>
 
-<p>对于列表中的每个节点，查找下一个 <strong>更大节点</strong> 的值。也就是说，对于每个节点，找到它旁边的第一个节点的值，这个节点的值 <strong>严格大于</strong> 它的值。</p>
-
-<p>返回一个整数数组 <code>answer</code> ，其中 <code>answer[i]</code> 是第 <code>i</code> 个节点( <strong>从1开始</strong> )的下一个更大的节点的值。如果第 <code>i</code> 个节点没有下一个更大的节点，设置&nbsp;<code>answer[i] = 0</code>&nbsp;。</p>
+<p>Return an integer array <code>answer</code> where <code>answer[i]</code> is the value of the next greater node of the <code>i<sup>th</sup></code> node (<strong>1-indexed</strong>). If the <code>i<sup>th</sup></code> node does not have a next greater node, set <code>answer[i] = 0</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1019.Next%20Greater%20Node%20In%20Linked%20List/images/linkedlistnext1.jpg" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1019.Next%20Greater%20Node%20In%20Linked%20List/images/linkedlistnext1.jpg" style="width: 304px; height: 133px;" />
 <pre>
-<strong>输入：</strong>head = [2,1,5]
-<strong>输出：</strong>[5,5,0]
+<strong>Input:</strong> head = [2,1,5]
+<strong>Output:</strong> [5,5,0]
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1019.Next%20Greater%20Node%20In%20Linked%20List/images/linkedlistnext2.jpg" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1019.Next%20Greater%20Node%20In%20Linked%20List/images/linkedlistnext2.jpg" style="width: 500px; height: 113px;" />
 <pre>
-<strong>输入：</strong>head = [2,7,4,3,5]
-<strong>输出：</strong>[7,0,5,5,0]
+<strong>Input:</strong> head = [2,7,4,3,5]
+<strong>Output:</strong> [7,0,5,5,0]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>链表中节点数为&nbsp;<code>n</code></li>
+	<li>The number of nodes in the list is <code>n</code>.</li>
 	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= Node.val &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：单调栈
-
-题目要求找到链表中每个节点的下一个更大的节点，即找到链表中每个节点的右边第一个比它大的节点。我们先遍历链表，将链表中的值存入数组 $nums$ 中。那么对于数组 $nums$ 中的每个元素，我们只需要找到它右边第一个比它大的元素即可。求下一个更大的元素的问题可以使用单调栈来解决。
-
-我们从后往前遍历数组 $nums$，维护一个从栈底到栈顶单调递减的栈 $stk$，遍历过程中，如果栈顶元素小于等于当前元素，则循环将栈顶元素出栈，直到栈顶元素大于当前元素或者栈为空。
-
-如果此时栈为空，则说明当前元素没有下一个更大的元素，否则当前元素的下一个更大的元素就是栈顶元素，更新答案数组 $ans$。然后将当前元素入栈，继续遍历。
-
-遍历结束后，返回答案数组 $ans$ 即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为链表的长度。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -294,7 +276,7 @@ var nextLargerNodes = function (head) {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

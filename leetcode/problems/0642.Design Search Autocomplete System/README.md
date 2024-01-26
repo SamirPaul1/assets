@@ -1,58 +1,54 @@
-# [642. 设计搜索自动补全系统](https://leetcode.cn/problems/design-search-autocomplete-system)
+# [642. Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system)
 
-[English Version](/solution/0600-0699/0642.Design%20Search%20Autocomplete%20System/README_EN.md)
+[中文文档](/solution/0600-0699/0642.Design%20Search%20Autocomplete%20System/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a search autocomplete system for a search engine. Users may input a sentence (at least one word and end with a special character <code>&#39;#&#39;</code>).</p>
 
-<p>为搜索引擎设计一个搜索自动补全系统。用户会输入一条语句（最少包含一个字母，以特殊字符 <code>'#'</code> 结尾）。</p>
+<p>You are given a string array <code>sentences</code> and an integer array <code>times</code> both of length <code>n</code> where <code>sentences[i]</code> is a previously typed sentence and <code>times[i]</code> is the corresponding number of times the sentence was typed. For each input character except <code>&#39;#&#39;</code>, return the top <code>3</code> historical hot sentences that have the same prefix as the part of the sentence already typed.</p>
 
-<p>给定一个字符串数组&nbsp;<code>sentences</code>&nbsp;和一个整数数组&nbsp;<code>times</code>&nbsp;，长度都为&nbsp;<code>n</code>&nbsp;，其中&nbsp;<code>sentences[i]</code>&nbsp;是之前输入的句子，&nbsp;<code>times[i]</code>&nbsp;是该句子输入的相应次数。对于除 <code>‘#’</code>&nbsp;以外的每个输入字符，返回前 <code>3</code> 个历史热门句子，这些句子的前缀与已经输入的句子的部分相同。</p>
-
-<p>下面是详细规则：</p>
+<p>Here are the specific rules:</p>
 
 <ul>
-	<li>一条句子的热度定义为历史上用户输入这个句子的总次数。</li>
-	<li>返回前 <code>3</code> 的句子需要按照热度从高到低排序（第一个是最热门的）。如果有多条热度相同的句子，请按照 ASCII 码的顺序输出（ASCII 码越小排名越前）。</li>
-	<li>如果满足条件的句子个数少于 <code>3</code>&nbsp;，将它们全部输出。</li>
-	<li>如果输入了特殊字符，意味着句子结束了，请返回一个空集合。</li>
+	<li>The hot degree for a sentence is defined as the number of times a user typed the exactly same sentence before.</li>
+	<li>The returned top <code>3</code> hot sentences should be sorted by hot degree (The first is the hottest one). If several sentences have the same hot degree, use ASCII-code order (smaller one appears first).</li>
+	<li>If less than <code>3</code> hot sentences exist, return as many as you can.</li>
+	<li>When the input is a special character, it means the sentence ends, and in this case, you need to return an empty list.</li>
 </ul>
 
-<p>实现&nbsp;<code>AutocompleteSystem</code>&nbsp;类：</p>
+<p>Implement the <code>AutocompleteSystem</code> class:</p>
 
 <ul>
-	<li><code>AutocompleteSystem(String[] sentences, int[] times):</code>&nbsp;使用数组<code>sentences</code>&nbsp;和&nbsp;<code>times</code>&nbsp;对对象进行初始化。</li>
-	<li><code>List&lt;String&gt; input(char c)</code>&nbsp;表示用户输入了字符&nbsp;<code>c</code>&nbsp;。
+	<li><code>AutocompleteSystem(String[] sentences, int[] times)</code> Initializes the object with the <code>sentences</code> and <code>times</code> arrays.</li>
+	<li><code>List&lt;String&gt; input(char c)</code> This indicates that the user typed the character <code>c</code>.
 	<ul>
-		<li>如果&nbsp;<code>c == '#'</code>&nbsp;，则返回空数组&nbsp;<code>[]</code> ，并将输入的语句存储在系统中。</li>
-		<li>返回前 <code>3</code> 个历史热门句子，这些句子的前缀与已经输入的句子的部分相同。如果少于 <code>3</code> 个匹配项，则全部返回。</li>
+		<li>Returns an empty array <code>[]</code> if <code>c == &#39;#&#39;</code> and stores the inputted sentence in the system.</li>
+		<li>Returns the top <code>3</code> historical hot sentences that have the same prefix as the part of the sentence already typed. If there are fewer than <code>3</code> matches, return them all.</li>
 	</ul>
 	</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入</strong>
-["AutocompleteSystem", "input", "input", "input", "input"]
-[[["i love you", "island", "iroman", "i love leetcode"], [5, 3, 2, 2]], ["i"], [" "], ["a"], ["#"]]
-<b>输出</b>
-[null, ["i love you", "island", "i love leetcode"], ["i love you", "i love leetcode"], [], []]
+<strong>Input</strong>
+[&quot;AutocompleteSystem&quot;, &quot;input&quot;, &quot;input&quot;, &quot;input&quot;, &quot;input&quot;]
+[[[&quot;i love you&quot;, &quot;island&quot;, &quot;iroman&quot;, &quot;i love leetcode&quot;], [5, 3, 2, 2]], [&quot;i&quot;], [&quot; &quot;], [&quot;a&quot;], [&quot;#&quot;]]
+<strong>Output</strong>
+[null, [&quot;i love you&quot;, &quot;island&quot;, &quot;i love leetcode&quot;], [&quot;i love you&quot;, &quot;i love leetcode&quot;], [], []]
 
-<strong>解释</strong>
-AutocompleteSystem obj = new AutocompleteSystem(["i love you", "island", "iroman", "i love leetcode"], [5, 3, 2, 2]);
-obj.input("i"); // return ["i love you", "island", "i love leetcode"]. There are four sentences that have prefix "i". Among them, "ironman" and "i love leetcode" have same hot degree. Since ' ' has ASCII code 32 and 'r' has ASCII code 114, "i love leetcode" should be in front of "ironman". Also we only need to output top 3 hot sentences, so "ironman" will be ignored.
-obj.input(" "); // return ["i love you", "i love leetcode"]. There are only two sentences that have prefix "i ".
-obj.input("a"); // return []. There are no sentences that have prefix "i a".
-obj.input("#"); // return []. The user finished the input, the sentence "i a" should be saved as a historical sentence in system. And the following input will be counted as a new search.
+<strong>Explanation</strong>
+AutocompleteSystem obj = new AutocompleteSystem([&quot;i love you&quot;, &quot;island&quot;, &quot;iroman&quot;, &quot;i love leetcode&quot;], [5, 3, 2, 2]);
+obj.input(&quot;i&quot;); // return [&quot;i love you&quot;, &quot;island&quot;, &quot;i love leetcode&quot;]. There are four sentences that have prefix &quot;i&quot;. Among them, &quot;ironman&quot; and &quot;i love leetcode&quot; have same hot degree. Since &#39; &#39; has ASCII code 32 and &#39;r&#39; has ASCII code 114, &quot;i love leetcode&quot; should be in front of &quot;ironman&quot;. Also we only need to output top 3 hot sentences, so &quot;ironman&quot; will be ignored.
+obj.input(&quot; &quot;); // return [&quot;i love you&quot;, &quot;i love leetcode&quot;]. There are only two sentences that have prefix &quot;i &quot;.
+obj.input(&quot;a&quot;); // return []. There are no sentences that have prefix &quot;i a&quot;.
+obj.input(&quot;#&quot;); // return []. The user finished the input, the sentence &quot;i a&quot; should be saved as a historical sentence in system. And the following input will be counted as a new search.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == sentences.length</code></li>
@@ -60,16 +56,16 @@ obj.input("#"); // return []. The user finished the input, the sentence "i a" sh
 	<li><code>1 &lt;= n &lt;= 100</code></li>
 	<li><code>1 &lt;= sentences[i].length &lt;= 100</code></li>
 	<li><code>1 &lt;= times[i] &lt;= 50</code></li>
-	<li><code>c</code>&nbsp;是小写英文字母，&nbsp;<code>'#'</code>, 或空格&nbsp;<code>' '</code></li>
-	<li>每个被测试的句子将是一个以字符 <code>'#'</code>&nbsp;结尾的字符 <code>c</code> 序列。</li>
-	<li>每个被测试的句子的长度范围为 <code>[1,200]</code>&nbsp;</li>
-	<li>每个输入句子中的单词用单个空格隔开。</li>
-	<li><code>input</code>&nbsp;最多被调用 <code>5000</code> 次</li>
+	<li><code>c</code> is a lowercase English letter, a hash <code>&#39;#&#39;</code>, or space <code>&#39; &#39;</code>.</li>
+	<li>Each tested sentence will be a sequence of characters <code>c</code> that end with the character <code>&#39;#&#39;</code>.</li>
+	<li>Each tested sentence will have a length in the range <code>[1, 200]</code>.</li>
+	<li>The words in each input sentence are separated by single spaces.</li>
+	<li>At most <code>5000</code> calls will be made to <code>input</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀树 + 排序/优先队列
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,65 +1,54 @@
-# [2110. 股票平滑下跌阶段的数目](https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock)
+# [2110. Number of Smooth Descent Periods of a Stock](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock)
 
-[English Version](/solution/2100-2199/2110.Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/README_EN.md)
+[中文文档](/solution/2100-2199/2110.Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>prices</code> representing the daily price history of a stock, where <code>prices[i]</code> is the stock price on the <code>i<sup>th</sup></code> day.</p>
 
-<p>给你一个整数数组&nbsp;<code>prices</code>&nbsp;，表示一支股票的历史每日股价，其中&nbsp;<code>prices[i]</code>&nbsp;是这支股票第&nbsp;<code>i</code>&nbsp;天的价格。</p>
+<p>A <strong>smooth descent period</strong> of a stock consists of <strong>one or more contiguous</strong> days such that the price on each day is <strong>lower</strong> than the price on the <strong>preceding day</strong> by <strong>exactly</strong> <code>1</code>. The first day of the period is exempted from this rule.</p>
 
-<p>一个 <strong>平滑下降的阶段</strong>&nbsp;定义为：对于&nbsp;<strong>连续一天或者多天</strong>&nbsp;，每日股价都比 <strong>前一日股价恰好少 </strong><code>1</code>&nbsp;，这个阶段第一天的股价没有限制。</p>
-
-<p>请你返回 <strong>平滑下降阶段</strong>&nbsp;的数目。</p>
+<p>Return <em>the number of <strong>smooth descent periods</strong></em>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>prices = [3,2,1,4]
-<b>输出：</b>7
-<b>解释：</b>总共有 7 个平滑下降阶段：
-[3], [2], [1], [4], [3,2], [2,1] 和 [3,2,1]
-注意，仅一天按照定义也是平滑下降阶段。
+<pre>
+<strong>Input:</strong> prices = [3,2,1,4]
+<strong>Output:</strong> 7
+<strong>Explanation:</strong> There are 7 smooth descent periods:
+[3], [2], [1], [4], [3,2], [2,1], and [3,2,1]
+Note that a period with one day is a smooth descent period by the definition.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>prices = [8,6,7,7]
-<b>输出：</b>4
-<b>解释：</b>总共有 4 个连续平滑下降阶段：[8], [6], [7] 和 [7]
-由于 8 - 6 ≠ 1 ，所以 [8,6] 不是平滑下降阶段。
+<pre>
+<strong>Input:</strong> prices = [8,6,7,7]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> There are 4 smooth descent periods: [8], [6], [7], and [7]
+Note that [8,6] is not a smooth descent period as 8 - 6 &ne; 1.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><b>输入：</b>prices = [1]
-<b>输出：</b>1
-<b>解释：</b>总共有 1 个平滑下降阶段：[1]
+<pre>
+<strong>Input:</strong> prices = [1]
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> There is 1 smooth descent period: [1]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= prices.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= prices[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
-
-我们定义一个答案变量 `ans`，初始值为 $0$。
-
-接下来，我们使用双指针 $i$ 和 $j$，分别指向当前平滑下降阶段的第一天和最后一天的下一天。初始时 $i = 0$, $j = 0$。
-
-从左到右遍历数组 `prices`，对于每个位置 $i$，我们将 $j$ 向右移动，直到 $j$ 到达数组末尾或者 $prices[j - 1] - prices[j] \neq 1$ 为止。此时，$cnt = j - i$ 即为当前平滑下降阶段的长度，我们累加 $\frac{(1 + cnt) \times cnt}{2}$ 到答案变量 `ans` 中。接下来将 $i$ 更新为 $j$，继续遍历。
-
-遍历结束后，返回答案变量 `ans` 即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组 `prices` 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

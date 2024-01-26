@@ -1,45 +1,43 @@
-# [1065. 字符串的索引对](https://leetcode.cn/problems/index-pairs-of-a-string)
+# [1065. Index Pairs of a String](https://leetcode.com/problems/index-pairs-of-a-string)
 
-[English Version](/solution/1000-1099/1065.Index%20Pairs%20of%20a%20String/README_EN.md)
+[中文文档](/solution/1000-1099/1065.Index%20Pairs%20of%20a%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>text</code> and an array of strings <code>words</code>, return <em>an array of all index pairs </em><code>[i, j]</code><em> so that the substring </em><code>text[i...j]</code><em> is in <code>words</code></em>.</p>
 
-<p>给出&nbsp;<strong>字符串 </strong><code>text</code> 和&nbsp;<strong>字符串列表</strong> <code>words</code>, 返回所有的索引对 <code>[i, j]</code> 使得在索引对范围内的子字符串 <code>text[i]...text[j]</code>（包括&nbsp;<code>i</code>&nbsp;和&nbsp;<code>j</code>）属于字符串列表 <code>words</code>。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre><strong>输入: </strong>text = &quot;thestoryofleetcodeandme&quot;, words = [&quot;story&quot;,&quot;fleet&quot;,&quot;leetcode&quot;]
-<strong>输出: </strong>[[3,7],[9,13],[10,17]]
-</pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre><strong>输入: </strong>text = &quot;ababa&quot;, words = [&quot;aba&quot;,&quot;ab&quot;]
-<strong>输出: </strong>[[0,1],[0,2],[2,3],[2,4]]
-<strong>解释: 
-</strong>注意，返回的配对可以有交叉，比如，&quot;aba&quot; 既在 [0,2] 中也在 [2,4] 中
-</pre>
+<p>Return the pairs <code>[i, j]</code> in sorted order (i.e., sort them by their first coordinate, and in case of ties sort them by their second coordinate).</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示:</strong></p>
+<pre>
+<strong>Input:</strong> text = &quot;thestoryofleetcodeandme&quot;, words = [&quot;story&quot;,&quot;fleet&quot;,&quot;leetcode&quot;]
+<strong>Output:</strong> [[3,7],[9,13],[10,17]]
+</pre>
 
-<ol>
-	<li>所有字符串都只包含小写字母。</li>
-	<li>保证 <code>words</code> 中的字符串无重复。</li>
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> text = &quot;ababa&quot;, words = [&quot;aba&quot;,&quot;ab&quot;]
+<strong>Output:</strong> [[0,1],[0,2],[2,3],[2,4]]
+<strong>Explanation:</strong> Notice that matches can overlap, see &quot;aba&quot; is found in [0,2] and [2,4].
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
 	<li><code>1 &lt;= text.length &lt;= 100</code></li>
 	<li><code>1 &lt;= words.length &lt;= 20</code></li>
 	<li><code>1 &lt;= words[i].length &lt;= 50</code></li>
-	<li>按序返回索引对 <code>[i,j]</code>（即，按照索引对的第一个索引进行排序，当第一个索引对相同时按照第二个索引对排序）。</li>
-</ol>
+	<li><code>text</code> and <code>words[i]</code> consist of lowercase English letters.</li>
+	<li>All the strings of <code>words</code> are <strong>unique</strong>.</li>
+</ul>
 
-## 解法
+## Solutions
 
-### 方法一：暴力枚举
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -187,12 +185,7 @@ func indexPairs(text string, words []string) [][]int {
 
 <!-- tabs:end -->
 
-### 方法二：前缀树
-
-相似题目：
-
--   [616. 给字符串添加加粗标签](https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0616.Add%20Bold%20Tag%20in%20String/README.md)
--   [758. 字符串中的加粗单词](https://github.com/doocs/leetcode/blob/main/solution/0700-0799/0758.Bold%20Words%20in%20String/README.md)
+### Solution 2
 
 <!-- tabs:start -->
 

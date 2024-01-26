@@ -1,64 +1,65 @@
-# [545. 二叉树的边界](https://leetcode.cn/problems/boundary-of-binary-tree)
+# [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree)
 
-[English Version](/solution/0500-0599/0545.Boundary%20of%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/0500-0599/0545.Boundary%20of%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>The <strong>boundary</strong> of a binary tree is the concatenation of the <strong>root</strong>, the <strong>left boundary</strong>, the <strong>leaves</strong> ordered from left-to-right, and the <strong>reverse order</strong> of the <strong>right boundary</strong>.</p>
 
-<p>二叉树的 <strong>边界</strong> 是由 <strong>根节点 </strong>、<strong>左边界</strong> 、按从左到右顺序的<strong> 叶节点</strong> 和 <strong>逆序的右边界</strong> ，按顺序依次连接组成。</p>
-
-<p><strong>左边界 </strong>是满足下述定义的节点集合：</p>
+<p>The <strong>left boundary</strong> is the set of nodes defined by the following:</p>
 
 <ul>
-	<li>根节点的左子节点在左边界中。如果根节点不含左子节点，那么左边界就为 <strong>空</strong> 。</li>
-	<li>如果一个节点在左边界中，并且该节点有左子节点，那么它的左子节点也在左边界中。</li>
-	<li>如果一个节点在左边界中，并且该节点 <strong>不含</strong> 左子节点，那么它的右子节点就在左边界中。</li>
-	<li>最左侧的叶节点 <strong>不在</strong> 左边界中。</li>
+	<li>The root node&#39;s left child is in the left boundary. If the root does not have a left child, then the left boundary is <strong>empty</strong>.</li>
+	<li>If a node in the left boundary and has a left child, then the left child is in the left boundary.</li>
+	<li>If a node is in the left boundary, has <strong>no</strong> left child, but has a right child, then the right child is in the left boundary.</li>
+	<li>The leftmost leaf is <strong>not</strong> in the left boundary.</li>
 </ul>
 
-<p><strong>右边界</strong> 定义方式与 <strong>左边界</strong> 相同，只是将左替换成右。即，右边界是根节点右子树的右侧部分；叶节点 <strong>不是</strong> 右边界的组成部分；如果根节点不含右子节点，那么右边界为 <strong>空</strong> 。</p>
+<p>The <strong>right boundary</strong> is similar to the <strong>left boundary</strong>, except it is the right side of the root&#39;s right subtree. Again, the leaf is <strong>not</strong> part of the <strong>right boundary</strong>, and the <strong>right boundary</strong> is empty if the root does not have a right child.</p>
 
-<p><strong>叶节点</strong> 是没有任何子节点的节点。对于此问题，根节点 <strong>不是</strong> 叶节点。</p>
+<p>The <strong>leaves</strong> are nodes that do not have any children. For this problem, the root is <strong>not</strong> a leaf.</p>
 
-<p>给你一棵二叉树的根节点 <code>root</code> ，按顺序返回组成二叉树 <strong>边界</strong> 的这些值。</p>
+<p>Given the <code>root</code> of a binary tree, return <em>the values of its <strong>boundary</strong></em>.</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0545.Boundary%20of%20Binary%20Tree/images/boundary1.jpg" style="width: 299px; height: 290px;" />
 <pre>
-<strong>输入：</strong>root = [1,null,2,3,4]
-<strong>输出：</strong>[1,3,4,2]
-<b>解释：</b>
-- 左边界为空，因为二叉树不含左子节点。
-- 右边界是 [2] 。从根节点的右子节点开始的路径为 2 -> 4 ，但 4 是叶节点，所以右边界只有 2 。
-- 叶节点从左到右是 [3,4] 。
-按题目要求依序连接得到结果 [1] + [] + [3,4] + [2] = [1,3,4,2] 。</pre>
+<strong>Input:</strong> root = [1,null,2,3,4]
+<strong>Output:</strong> [1,3,4,2]
+<b>Explanation:</b>
+- The left boundary is empty because the root does not have a left child.
+- The right boundary follows the path starting from the root&#39;s right child 2 -&gt; 4.
+  4 is a leaf, so the right boundary is [2].
+- The leaves from left to right are [3,4].
+Concatenating everything results in [1] + [] + [3,4] + [2] = [1,3,4,2].
+</pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0545.Boundary%20of%20Binary%20Tree/images/boundary2.jpg" style="width: 599px; height: 411px;" />
 <pre>
-<strong>输入：</strong>root = [1,2,3,4,5,6,null,null,null,7,8,9,10]
-<strong>输出：</strong>[1,2,4,7,8,9,10,6,3]
-<b>解释：</b>
-- 左边界为 [2] 。从根节点的左子节点开始的路径为 2 -> 4 ，但 4 是叶节点，所以左边界只有 2 。
-- 右边界是 [3,6] ，逆序为 [6,3] 。从根节点的右子节点开始的路径为 3 -> 6 -> 10 ，但 10 是叶节点。
-- 叶节点从左到右是 [4,7,8,9,10]
-按题目要求依序连接得到结果 [1] + [2] + [4,7,8,9,10] + [6,3] = [1,2,4,7,8,9,10,6,3] 。</pre>
+<strong>Input:</strong> root = [1,2,3,4,5,6,null,null,null,7,8,9,10]
+<strong>Output:</strong> [1,2,4,7,8,9,10,6,3]
+<b>Explanation:</b>
+- The left boundary follows the path starting from the root&#39;s left child 2 -&gt; 4.
+  4 is a leaf, so the left boundary is [2].
+- The right boundary follows the path starting from the root&#39;s right child 3 -&gt; 6 -&gt; 10.
+  10 is a leaf, so the right boundary is [3,6], and in reverse order is [6,3].
+- The leaves from left to right are [4,7,8,9,10].
+Concatenating everything results in [1] + [2] + [4,7,8,9,10] + [6,3] = [1,2,4,7,8,9,10,6,3].
+</pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点的数目在范围 <code>[1, 10<sup>4</sup>]</code> 内</li>
-	<li><code>-1000 <= Node.val <= 1000</code></li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
+	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

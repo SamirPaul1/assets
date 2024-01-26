@@ -1,61 +1,45 @@
-# [366. 寻找二叉树的叶子节点](https://leetcode.cn/problems/find-leaves-of-binary-tree)
+# [366. Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree)
 
-[English Version](/solution/0300-0399/0366.Find%20Leaves%20of%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/0300-0399/0366.Find%20Leaves%20of%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, collect a tree&#39;s nodes as if you were doing this:</p>
 
-<p>给你一棵二叉树，请按以下要求的顺序收集它的全部节点：</p>
-
-<ol>
-	<li>依次从左到右，每次收集并删除所有的叶子节点</li>
-	<li>重复如上过程直到整棵树为空</li>
-</ol>
+<ul>
+	<li>Collect all the leaf nodes.</li>
+	<li>Remove all the leaf&nbsp;nodes.</li>
+	<li>Repeat until the tree is empty.</li>
+</ul>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0366.Find%20Leaves%20of%20Binary%20Tree/images/remleaves-tree.jpg" style="width: 500px; height: 215px;" />
+<pre>
+<strong>Input:</strong> root = [1,2,3,4,5]
+<strong>Output:</strong> [[4,5,3],[2],[1]]
+Explanation:
+[[3,5,4],[2],[1]] and [[3,4,5],[2],[1]] are also considered correct answers since per each level it does not matter the order on which elements are returned.
+</pre>
 
-<p><strong>示例:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入: </strong>[1,2,3,4,5]
-&nbsp; 
-&nbsp;         1
-         / \
-        2   3
-       / \     
-      4   5    
-
-<strong>输出: </strong>[[4,5,3],[2],[1]]
+<pre>
+<strong>Input:</strong> root = [1]
+<strong>Output:</strong> [[1]]
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>解释:</strong></p>
+<ul>
+	<li>The number of nodes in the tree is in the range <code>[1, 100]</code>.</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
+</ul>
 
-<p>1. 删除叶子节点&nbsp;<code>[4,5,3]</code> ，得到如下树结构：</p>
+## Solutions
 
-<pre>          1
-         / 
-        2          
-</pre>
-
-<p>&nbsp;</p>
-
-<p>2. 现在删去叶子节点&nbsp;<code>[2]</code>&nbsp;，得到如下树结构：</p>
-
-<pre>          1          
-</pre>
-
-<p>&nbsp;</p>
-
-<p>3. 现在删去叶子节点&nbsp;<code>[1]</code>&nbsp;，得到空树：</p>
-
-<pre>          []         
-</pre>
-
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

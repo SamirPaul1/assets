@@ -1,53 +1,48 @@
-# [536. 从字符串生成二叉树](https://leetcode.cn/problems/construct-binary-tree-from-string)
+# [536. Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string)
 
-[English Version](/solution/0500-0599/0536.Construct%20Binary%20Tree%20from%20String/README_EN.md)
+[中文文档](/solution/0500-0599/0536.Construct%20Binary%20Tree%20from%20String/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You need to construct a binary tree from a string consisting of parenthesis and integers.</p>
 
-<p>你需要用一个包括括号和整数的字符串构建一棵二叉树。</p>
+<p>The whole input represents a binary tree. It contains an integer followed by zero, one or two pairs of parenthesis. The integer represents the root&#39;s value and a pair of parenthesis contains a child binary tree with the same structure.</p>
 
-<p>输入的字符串代表一棵二叉树。它包括整数和随后的 0 、1 或 2 对括号。整数代表根的值，一对括号内表示同样结构的子树。</p>
-
-<p>若存在子结点，则从<strong>左子结点</strong>开始构建。</p>
+<p>You always start to construct the <b>left</b> child node of the parent first if it exists.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0536.Construct%20Binary%20Tree%20from%20String/images/butree.jpg" style="height: 322px; width: 382px;" />
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0536.Construct%20Binary%20Tree%20from%20String/images/butree.jpg" style="width: 382px; height: 322px;" />
 <pre>
-<strong>输入：</strong> s = "4(2(3)(1))(6(5))"
-<strong>输出：</strong> [4,2,6,3,1,5]
+<strong>Input:</strong> s = &quot;4(2(3)(1))(6(5))&quot;
+<strong>Output:</strong> [4,2,6,3,1,5]
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong> s = "4(2(3)(1))(6(5)(7))"
-<strong>输出：</strong> [4,2,6,3,1,5,7]
+<strong>Input:</strong> s = &quot;4(2(3)(1))(6(5)(7))&quot;
+<strong>Output:</strong> [4,2,6,3,1,5,7]
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong> s = "-4(2(3)(1))(6(5)(7))"
-<strong>输出： </strong>[-4,2,6,3,1,5,7]
+<strong>Input:</strong> s = &quot;-4(2(3)(1))(6(5)(7))&quot;
+<strong>Output:</strong> [-4,2,6,3,1,5,7]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>0 &lt;= s.length &lt;= 3 * 10<sup>4</sup></code></li>
-	<li>输入字符串中只包含&nbsp;<code>'('</code>, <code>')'</code>, <code>'-'</code>&nbsp;和&nbsp;<code>'0'</code> ~ <code>'9'</code>&nbsp;</li>
-	<li>空树由&nbsp;<code>""</code>&nbsp;而非<code>"()"</code>表示。</li>
+	<li><code>s</code> consists of digits, <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, and <code>&#39;-&#39;</code> only.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

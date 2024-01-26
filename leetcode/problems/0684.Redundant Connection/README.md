@@ -1,54 +1,46 @@
-# [684. 冗余连接](https://leetcode.cn/problems/redundant-connection)
+# [684. Redundant Connection](https://leetcode.com/problems/redundant-connection)
 
-[English Version](/solution/0600-0699/0684.Redundant%20Connection/README_EN.md)
+[中文文档](/solution/0600-0699/0684.Redundant%20Connection/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>In this problem, a tree is an <strong>undirected graph</strong> that is connected and has no cycles.</p>
 
-<p>树可以看成是一个连通且 <strong>无环&nbsp;</strong>的&nbsp;<strong>无向&nbsp;</strong>图。</p>
+<p>You are given a graph that started as a tree with <code>n</code> nodes labeled from <code>1</code> to <code>n</code>, with one additional edge added. The added edge has two <strong>different</strong> vertices chosen from <code>1</code> to <code>n</code>, and was not an edge that already existed. The graph is represented as an array <code>edges</code> of length <code>n</code> where <code>edges[i] = [a<sub>i</sub>, b<sub>i</sub>]</code> indicates that there is an edge between nodes <code>a<sub>i</sub></code> and <code>b<sub>i</sub></code> in the graph.</p>
 
-<p>给定往一棵&nbsp;<code>n</code> 个节点 (节点值&nbsp;<code>1～n</code>) 的树中添加一条边后的图。添加的边的两个顶点包含在 <code>1</code> 到 <code>n</code>&nbsp;中间，且这条附加的边不属于树中已存在的边。图的信息记录于长度为 <code>n</code> 的二维数组 <code>edges</code>&nbsp;，<code>edges[i] = [a<sub>i</sub>, b<sub>i</sub>]</code>&nbsp;表示图中在 <code>ai</code> 和 <code>bi</code> 之间存在一条边。</p>
-
-<p>请找出一条可以删去的边，删除后可使得剩余部分是一个有着 <code>n</code> 个节点的树。如果有多个答案，则返回数组&nbsp;<code>edges</code>&nbsp;中最后出现的那个。</p>
+<p>Return <em>an edge that can be removed so that the resulting graph is a tree of </em><code>n</code><em> nodes</em>. If there are multiple answers, return the answer that occurs last in the input.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0684.Redundant%20Connection/images/1626676174-hOEVUL-image.png" style="width: 152px; " /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0684.Redundant%20Connection/images/reduntant1-1-graph.jpg" style="width: 222px; height: 222px;" />
 <pre>
-<strong>输入:</strong> edges = [[1,2], [1,3], [2,3]]
-<strong>输出:</strong> [2,3]
+<strong>Input:</strong> edges = [[1,2],[1,3],[2,3]]
+<strong>Output:</strong> [2,3]
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0684.Redundant%20Connection/images/1626676179-kGxcmu-image.png" style="width: 250px; " /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0684.Redundant%20Connection/images/reduntant1-2-graph.jpg" style="width: 382px; height: 222px;" />
 <pre>
-<strong>输入:</strong> edges = [[1,2], [2,3], [3,4], [1,4], [1,5]]
-<strong>输出:</strong> [1,4]
+<strong>Input:</strong> edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
+<strong>Output:</strong> [1,4]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == edges.length</code></li>
 	<li><code>3 &lt;= n &lt;= 1000</code></li>
 	<li><code>edges[i].length == 2</code></li>
-	<li><code>1 &lt;= ai&nbsp;&lt; bi&nbsp;&lt;= edges.length</code></li>
-	<li><code>ai != bi</code></li>
-	<li><code>edges</code> 中无重复元素</li>
-	<li>给定的图是连通的&nbsp;</li>
+	<li><code>1 &lt;= a<sub>i</sub> &lt; b<sub>i</sub> &lt;= edges.length</code></li>
+	<li><code>a<sub>i</sub> != b<sub>i</sub></code></li>
+	<li>There are no repeated edges.</li>
+	<li>The given graph is connected.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

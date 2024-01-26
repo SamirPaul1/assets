@@ -1,45 +1,41 @@
-# [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence)
+# [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence)
 
-[English Version](/solution/0500-0599/0516.Longest%20Palindromic%20Subsequence/README_EN.md)
+[中文文档](/solution/0500-0599/0516.Longest%20Palindromic%20Subsequence/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code>, find <em>the longest palindromic <strong>subsequence</strong>&#39;s length in</em> <code>s</code>.</p>
 
-<p>给你一个字符串 <code>s</code> ，找出其中最长的回文子序列，并返回该序列的长度。</p>
+<p>A <strong>subsequence</strong> is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.</p>
 
-<p>子序列定义为：不改变剩余字符顺序的情况下，删除某些字符或者不删除任何字符形成的一个序列。</p>
-
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "bbbab"
-<strong>输出：</strong>4
-<strong>解释：</strong>一个可能的最长回文子序列为 "bbbb" 。
+<strong>Input:</strong> s = &quot;bbbab&quot;
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> One possible longest palindromic subsequence is &quot;bbbb&quot;.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s = "cbbd"
-<strong>输出：</strong>2
-<strong>解释：</strong>一个可能的最长回文子序列为 "bb" 。
+<strong>Input:</strong> s = &quot;cbbd&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> One possible longest palindromic subsequence is &quot;bb&quot;.
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= s.length <= 1000</code></li>
-	<li><code>s</code> 仅由小写英文字母组成</li>
+	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
+	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

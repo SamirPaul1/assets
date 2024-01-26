@@ -1,85 +1,43 @@
-# [1092. 最短公共超序列](https://leetcode.cn/problems/shortest-common-supersequence)
+# [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence)
 
-[English Version](/solution/1000-1099/1092.Shortest%20Common%20Supersequence/README_EN.md)
+[中文文档](/solution/1000-1099/1092.Shortest%20Common%20Supersequence/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given two strings <code>str1</code> and <code>str2</code>, return <em>the shortest string that has both </em><code>str1</code><em> and </em><code>str2</code><em> as <strong>subsequences</strong></em>. If there are multiple valid strings, return <strong>any</strong> of them.</p>
 
-<p>给你两个字符串&nbsp;<code>str1</code> 和&nbsp;<code>str2</code>，返回同时以&nbsp;<code>str1</code>&nbsp;和&nbsp;<code>str2</code>&nbsp;作为 <strong>子序列</strong> 的最短字符串。如果答案不止一个，则可以返回满足条件的 <strong>任意一个</strong> 答案。</p>
-
-<p>如果从字符串 <code>t</code> 中删除一些字符（也可能不删除），可以得到字符串 <code>s</code> ，那么 <code>s</code> 就是 t 的一个子序列。</p>
+<p>A string <code>s</code> is a <strong>subsequence</strong> of string <code>t</code> if deleting some number of characters from <code>t</code> (possibly <code>0</code>) results in the string <code>s</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>str1 = "abac", str2 = "cab"
-<strong>输出：</strong>"cabac"
-<strong>解释：</strong>
-str1 = "abac" 是 "cabac" 的一个子串，因为我们可以删去 "cabac" 的第一个 "c"得到 "abac"。 
-str2 = "cab" 是 "cabac" 的一个子串，因为我们可以删去 "cabac" 末尾的 "ac" 得到 "cab"。
-最终我们给出的答案是满足上述属性的最短字符串。
+<strong>Input:</strong> str1 = &quot;abac&quot;, str2 = &quot;cab&quot;
+<strong>Output:</strong> &quot;cabac&quot;
+<strong>Explanation:</strong> 
+str1 = &quot;abac&quot; is a subsequence of &quot;cabac&quot; because we can delete the first &quot;c&quot;.
+str2 = &quot;cab&quot; is a subsequence of &quot;cabac&quot; because we can delete the last &quot;ac&quot;.
+The answer provided is the shortest such string that satisfies these properties.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>str1 = "aaaaaaaa", str2 = "aaaaaaaa"
-<strong>输出：</strong>"aaaaaaaa"
+<strong>Input:</strong> str1 = &quot;aaaaaaaa&quot;, str2 = &quot;aaaaaaaa&quot;
+<strong>Output:</strong> &quot;aaaaaaaa&quot;
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= str1.length, str2.length &lt;= 1000</code></li>
-	<li><code>str1</code> 和&nbsp;<code>str2</code>&nbsp;都由小写英文字母组成。</li>
+	<li><code>str1</code> and <code>str2</code> consist of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划 + 构造
-
-我们先用动态规划求出两个字符串的最长公共子序列，然后根据最长公共子序列构造出最短公共超序列。
-
-定义 $f[i][j]$ 表示字符串 $str1$ 的前 $i$ 个字符和字符串 $str2$ 的前 $j$ 个字符的最长公共子序列的长度。状态转移方程如下：
-
-$$
-f[i][j] =
-\begin{cases}
-0 & i = 0 \text{ or } j = 0 \\
-f[i - 1][j - 1] + 1 & str1[i - 1] = str2[j - 1] \\
-\max(f[i - 1][j], f[i][j - 1]) & str1[i - 1] \neq str2[j - 1]
-\end{cases}
-$$
-
-接下来我们基于 $f[i][j]$ 构造出最短公共超序列。
-
-```bash
-str1:       a   b   a   c
-
-str2:   c   a   b
-
-ans:    c   a   b   a   c
-```
-
-不妨对照着上面的示例字符串，来看看如何构造出最短公共超序列。
-
-我们用双指针 $i$ 和 $j$ 分别指向字符串 $str1$ 和 $str2$ 的末尾，然后从后往前遍历，每次比较 $str1[i]$ 和 $str2[j]$ 的值：
-
--   如果 $str1[i] = str2[j]$，则将 $str1[i]$ 或 $str2[j]$ 中的任意一个字符加入到最答案序列的末尾，然后 $i$ 和 $j$ 同时减 $1$；
--   如果 $str1[i] \neq str2[j]$，则将 $f[i][j]$ 与 $f[i - 1][j]$ 和 $f[i][j - 1]$ 中的最大值进行比较：
-    -   如果 $f[i][j] = f[i - 1][j]$，则将 $str1[i]$ 加入到答案序列的末尾，然后 $i$ 减 $1$；
-    -   如果 $f[i][j] = f[i][j - 1]$，则将 $str2[j]$ 加入到答案序列的末尾，然后 $j$ 减 $1$。
-
-重复上述操作，直到 $i = 0$ 或 $j = 0$，然后将剩余的字符串加入到答案序列的末尾即可。
-
-最后我们将答案序列反转，即可得到最终的答案。
-
-时间复杂度 $O(m\times n)$，空间复杂度 $O(m\times n)$。其中 $m$ 和 $n$ 分别是字符串 $str1$ 和 $str2$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

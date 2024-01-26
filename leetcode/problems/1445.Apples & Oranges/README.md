@@ -1,12 +1,10 @@
-# [1445. 苹果和桔子](https://leetcode.cn/problems/apples-oranges)
+# [1445. Apples & Oranges](https://leetcode.com/problems/apples-oranges)
 
-[English Version](/solution/1400-1499/1445.Apples%20%26%20Oranges/README_EN.md)
+[中文文档](/solution/1400-1499/1445.Apples%20%26%20Oranges/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Sales</code></p>
+<p>Table: <code>Sales</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,25 +14,24 @@
 | fruit         | enum    | 
 | sold_num      | int     | 
 +---------------+---------+
-(sale_date, fruit) 是该表主键(具有唯一值的列的组合)。
-该表包含了每一天中"苹果" 和 "桔子"的销售情况。
+(sale_date, fruit) is the primary key (combination of columns with unique values) of this table.
+This table contains the sales of &quot;apples&quot; and &quot;oranges&quot; sold each day.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案报告每一天&nbsp;<strong>苹果</strong>&nbsp;和&nbsp;<strong>桔子</strong>&nbsp;销售的数目的差异.</p>
+<p>Write a solution to report the difference between the number of <strong>apples</strong> and <strong>oranges</strong> sold each day.</p>
 
-<p>返回的结果表,&nbsp;按照格式为&nbsp;('YYYY-MM-DD') 的 <code>sale_date</code> 排序.</p>
+<p>Return the result table <strong>ordered</strong> by <code>sale_date</code>.</p>
 
-<p>返回结果表如下例所示:</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Sales</code> 表:
+<strong>Input:</strong> 
+Sales table:
 +------------+------------+-------------+
 | sale_date  | fruit      | sold_num    |
 +------------+------------+-------------+
@@ -47,7 +44,7 @@ Sales</code> 表:
 | 2020-05-04 | apples     | 15          |
 | 2020-05-04 | oranges    | 16          |
 +------------+------------+-------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+--------------+
 | sale_date  | diff         |
 +------------+--------------+
@@ -56,18 +53,18 @@ Sales</code> 表:
 | 2020-05-03 | 20           |
 | 2020-05-04 | -1           |
 +------------+--------------+
-<strong>解释：</strong>
-在 2020-05-01, 卖了 10 个苹果 和 8 个桔子 (差异为 10 - 8 = 2).
-在 2020-05-02, 卖了 15 个苹果 和 15 个桔子 (差异为 15 - 15 = 0).
-在 2020-05-03, 卖了 20 个苹果 和 0 个桔子 (差异为 20 - 0 = 20).
-在 2020-05-04, 卖了 15 个苹果 和 16 个桔子 (差异为 15 - 16 = -1).
+<strong>Explanation:</strong> 
+Day 2020-05-01, 10 apples and 8 oranges were sold (Difference  10 - 8 = 2).
+Day 2020-05-02, 15 apples and 15 oranges were sold (Difference 15 - 15 = 0).
+Day 2020-05-03, 20 apples and 0 oranges were sold (Difference 20 - 0 = 20).
+Day 2020-05-04, 15 apples and 16 oranges were sold (Difference 15 - 16 = -1).
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：分组求和
+### Solution 1: Group By + Sum
 
-我们可以将数据按照日期分组，然后用 `sum` 函数求出每天苹果和桔子的销售差异。如果是苹果，我们就用正数表示，如果是桔子，我们就用负数表示。最后我们按照日期排序即可。
+We can group the data by date, and then use the `sum` function to calculate the difference in sales between apples and oranges for each day. If it is an apple, we represent it with a positive number, and if it is an orange, we represent it with a negative number. Finally, we sort the data by date.
 
 <!-- tabs:start -->
 

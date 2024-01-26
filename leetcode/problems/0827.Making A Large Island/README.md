@@ -1,98 +1,52 @@
-# [827. 最大人工岛](https://leetcode.cn/problems/making-a-large-island)
+# [827. Making A Large Island](https://leetcode.com/problems/making-a-large-island)
 
-[English Version](/solution/0800-0899/0827.Making%20A%20Large%20Island/README_EN.md)
+[中文文档](/solution/0800-0899/0827.Making%20A%20Large%20Island/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an <code>n x n</code> binary matrix <code>grid</code>. You are allowed to change <strong>at most one</strong> <code>0</code> to be <code>1</code>.</p>
 
-<p>给你一个大小为 <code>n x n</code> 二进制矩阵 <code>grid</code> 。<strong>最多</strong> 只能将一格 <code>0</code> 变成 <code>1</code> 。</p>
+<p>Return <em>the size of the largest <strong>island</strong> in</em> <code>grid</code> <em>after applying this operation</em>.</p>
 
-<p>返回执行此操作后，<code>grid</code> 中最大的岛屿面积是多少？</p>
+<p>An <strong>island</strong> is a 4-directionally connected group of <code>1</code>s.</p>
 
-<p><strong>岛屿</strong> 由一组上、下、左、右四个方向相连的 <code>1</code> 形成。</p>
-
-<p> </p>
-
-<p><strong>示例 1:</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入: </strong>grid = [[1, 0], [0, 1]]
-<strong>输出:</strong> 3
-<strong>解释:</strong> 将一格0变成1，最终连通两个小岛得到面积为 3 的岛屿。
+<strong>Input:</strong> grid = [[1,0],[0,1]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Change one 0 to 1 and connect two 1s, then we get an island with area = 3.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入: </strong>grid =<strong> </strong>[[1, 1], [1, 0]]
-<strong>输出:</strong> 4
-<strong>解释:</strong> 将一格0变成1，岛屿的面积扩大为 4。</pre>
+<strong>Input:</strong> grid = [[1,1],[1,0]]
+<strong>Output:</strong> 4
+<strong>Explanation: </strong>Change the 0 to 1 and make the island bigger, only one island with area = 4.</pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入: </strong>grid = [[1, 1], [1, 1]]
-<strong>输出:</strong> 4
-<strong>解释:</strong> 没有0可以让我们变成1，面积依然为 4。</pre>
+<strong>Input:</strong> grid = [[1,1],[1,1]]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> Can&#39;t change any 0 to 1, only one island with area = 4.
+</pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == grid.length</code></li>
 	<li><code>n == grid[i].length</code></li>
-	<li><code>1 <= n <= 500</code></li>
-	<li><code>grid[i][j]</code> 为 <code>0</code> 或 <code>1</code></li>
+	<li><code>1 &lt;= n &lt;= 500</code></li>
+	<li><code>grid[i][j]</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：并查集
-
-并查集是一种树形的数据结构，顾名思义，它用于处理一些不交集的**合并**及**查询**问题。 它支持两种操作：
-
-1. 查找（Find）：确定某个元素处于哪个子集，单次操作时间复杂度 $O(\alpha(n))$
-1. 合并（Union）：将两个子集合并成一个集合，单次操作时间复杂度 $O(\alpha(n))$
-
-其中 $\alpha$ 为阿克曼函数的反函数，其增长极其缓慢，也就是说其单次操作的平均运行时间可以认为是一个很小的常数。
-
-以下是并查集的常用模板，需要熟练掌握。其中：
-
--   `n` 表示节点数
--   `p` 存储每个点的父节点，初始时每个点的父节点都是自己
--   `size` 只有当节点是祖宗节点时才有意义，表示祖宗节点所在集合中，点的数量
--   `find(x)` 函数用于查找 $x$ 所在集合的祖宗节点
--   `union(a, b)` 函数用于合并 $a$ 和 $b$ 所在的集合
-
-```python
-p = list(range(n))
-size = [1] * n
-
-
-def find(x):
-    if p[x] != x:
-        # 路径压缩
-        p[x] = find(p[x])
-    return p[x]
-
-
-def union(a, b):
-    pa, pb = find(a), find(b)
-    if pa == pb:
-        return
-    p[pa] = pb
-    size[pb] += size[pa]
-```
-
-在这道题中，相邻的 $1$ 组成一个岛屿，因此，我们需要将相邻的 $1$ 归到同一个集合中。这可以视为一个合并操作，不难想到用并查集来实现。
-
-第一次遍历 `grid`，通过并查集的 `union` 操作合并所有相邻的 $1$，并且统计每个岛屿的面积，记录在 $size$ 数组中。
-
-再次遍历 `grid`，对于每个 $0$，我们统计相邻的四个点中 $1$ 所在的岛屿（通过并查集的 `find` 操作找到所在岛屿），累加去重后的岛屿面积，更新最大值。
-
-时间复杂度 $O(n^2\times \alpha(n))$。其中 $n$ 为矩阵 `grid` 的边长。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -465,15 +419,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：DFS
-
-我们也可以通过 DFS，找到每个岛屿。
-
-同一个岛屿中的所有点都属于同一个集合，我们可以用不同的 `root` 值标识不同的岛屿，用 $p$ 记录每个 $grid[i][j]$ 对应的 `root` 值，用 $cnt$ 记录每个岛屿的面积。
-
-遍历 `grid`，对于每个 $0$，我们统计相邻的四个点中 $1$ 所在的岛屿（与方法一不同的是，我们这里直接取 $p[i][j]$ 作为 `root`），累加去重后的岛屿面积，更新最大值。
-
-时间复杂度 $O(n^2)$。其中 $n$ 为矩阵 `grid` 的边长。
+### Solution 2
 
 <!-- tabs:start -->
 

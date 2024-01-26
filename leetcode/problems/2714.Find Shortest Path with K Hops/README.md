@@ -1,78 +1,74 @@
-# [2714. 找到最短路径的 K 次跨越](https://leetcode.cn/problems/find-shortest-path-with-k-hops)
+# [2714. Find Shortest Path with K Hops](https://leetcode.com/problems/find-shortest-path-with-k-hops)
 
-[English Version](/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/README_EN.md)
+[中文文档](/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a positive integer <code>n</code> which is the number of nodes of a <strong>0-indexed undirected weighted connected</strong> graph and a <strong>0-indexed</strong> <strong>2D array</strong> <code>edges</code> where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>, w<sub>i</sub>]</code> indicates that there is an edge between nodes <code>u<sub>i</sub></code> and <code>v<sub>i</sub></code> with weight <code>w<sub>i</sub></code>.</p>
 
-<p>现给定一个正整数 n ，它表示一个<strong>&nbsp;索引从 0 开始的无向带权连接图</strong> 的节点数，以及一个&nbsp;<strong>索引从 0 开始的二维数组&nbsp;</strong><code>edges</code> ，其中 <code>edges[i] = [ui, vi, wi]</code> 表示节点 <code>ui</code> 和 <code>vi</code> 之间存在权重为 <code>wi</code> 的边。</p>
+<p>You are also given two&nbsp;nodes <code>s</code> and <code>d</code>, and a positive integer <code>k</code>, your task is to find the <strong>shortest</strong> path from <code>s</code> to <code>d</code>, but you can hop over <strong>at most</strong> <code>k</code> edges. In other words,&nbsp;make the weight of <strong>at most</strong> <code>k</code> edges <code>0</code> and then find the <strong>shortest</strong> path from <code>s</code> to <code>d</code>.</p>
 
-<p>还给定两个节点 <code>s</code> 和 <code>d</code> ，以及一个正整数 <code>k</code> ，你的任务是找到从 s 到 d 的 <strong>最短 </strong>路径，但你可以 <strong>最多</strong> 跨越 <code>k</code> 条边。换句话说，将 <strong>最多</strong> <code>k</code> 条边的权重设为 <code>0</code>，然后找到从 <code>s</code> 到 <code>d</code> 的 <strong>最短</strong> 路径。</p>
-
-<p>返回满足给定条件的从 <code>s</code> 到 <code>d</code> 的 <strong>最短</strong> 路径的长度。</p>
+<p>Return <em>the length of the <strong>shortest</strong> path from </em><code>s</code><em> to </em><code>d</code><em> with the given condition</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>n = 4, edges = [[0,1,4],[0,2,2],[2,3,6]], s = 1, d = 3, k = 2
-<b>输出：</b>2
-<b>解释：</b>在这个例子中，只有一条从节点1（绿色节点）到节点3（红色节点）的路径，即（1-&gt;0-&gt;2-&gt;3），其长度为4 + 2 + 6 = 12。现在我们可以将两条边的权重设为 0，即将蓝色边的权重设为 0，那么路径的长度就变为 0 + 2 + 0 = 2。可以证明 2 是我们在给定条件下能够达到的最小路径长度。
+<strong>Input:</strong> n = 4, edges = [[0,1,4],[0,2,2],[2,3,6]], s = 1, d = 3, k = 2
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> In this example there is only one path from node 1 (the green node) to node 3 (the red node), which is (1-&gt;0-&gt;2-&gt;3) and the length of it is 4 + 2 + 6 = 12. Now we can make weight of two edges 0, we make weight of the blue edges 0, then we have 0 + 2 + 0 = 2. It can be shown that 2 is the minimum length of a path we can achieve with the given condition.
 </pre>
 
 <p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/1.jpg" style="width: 170px; height: 171px;" /></p>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>n = 7, edges = [[3,1,9],[3,2,4],[4,0,9],[0,5,6],[3,6,2],[6,0,4],[1,2,4]], s = 4, d = 1, k = 2
-<b>输出：</b>6
-<b>解释：</b>在这个例子中，有两条从节点4（绿色节点）到节点1（红色节点）的路径，分别是（4-&gt;0-&gt;6-&gt;3-&gt;2-&gt;1）和（4-&gt;0-&gt;6-&gt;3-&gt;1）。第一条路径的长度为 9 + 4 + 2 + 4 + 4 = 23，第二条路径的长度为 9 + 4 + 2 + 9 = 24。现在，如果我们将蓝色边的权重设为 0，那么最短路径的长度就变为 0 + 4 + 2 + 0 = 6。可以证明 6 是我们在给定条件下能够达到的最小路径长度。
+<strong>Input:</strong> n = 7, edges = [[3,1,9],[3,2,4],[4,0,9],[0,5,6],[3,6,2],[6,0,4],[1,2,4]], s = 4, d = 1, k = 2
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> In this example there are 2 paths from node 4 (the green node) to node 1 (the red node), which are (4-&gt;0-&gt;6-&gt;3-&gt;2-&gt;1) and (4-&gt;0-&gt;6-&gt;3-&gt;1). The first one has the length 9 + 4 + 2 + 4 + 4 = 23, and the second one has the length 9 + 4 + 2 + 9 = 24. Now if we make weight of the blue edges 0, we get the shortest path with the length 0 + 4 + 2 + 0 = 6. It can be shown that 6 is the minimum length of a path we can achieve with the given condition.
 </pre>
 
 <p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/2.jpg" style="width: 400px; height: 171px;" /></p>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<b>输入：</b>n = 5, edges = [[0,4,2],[0,1,3],[0,2,1],[2,1,4],[1,3,4],[3,4,7]], s = 2, d = 3, k = 1
-<b>输出：</b>3
-<b>解释：</b>在这个例子中，从节点2（绿色节点）到节点3（红色节点）有4条路径，分别是（2-&gt;1-&gt;3）、（2-&gt;0-&gt;1-&gt;3）、（2-&gt;1-&gt;0-&gt;4-&gt;3）和（2-&gt;0-&gt;4-&gt;3）。前两条路径的长度为4 + 4 = 1 + 3 + 4 = 8，第三条路径的长度为4 + 3 + 2 + 7 = 16，最后一条路径的长度为1 + 2 + 7 = 10。现在，如果我们将蓝色边的权重设为 0，那么最短路径的长度就为1 + 2 + 0 = 3。可以证明在给定条件下，3 是我们能够达到的最小路径长度。
+<strong>Input:</strong> n = 5, edges = [[0,4,2],[0,1,3],[0,2,1],[2,1,4],[1,3,4],[3,4,7]], s = 2, d = 3, k = 1
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> In this example there are 4 paths from node 2 (the green node) to node 3 (the red node), which are (2-&gt;1-&gt;3), (2-&gt;0-&gt;1-&gt;3), (2-&gt;1-&gt;0-&gt;4-&gt;3) and (2-&gt;0-&gt;4-&gt;3). The first two have the length 4 + 4 = 1 + 3 + 4 = 8, the third one has the length 4 + 3 + 2 + 7 = 16 and the last one has the length 1 + 2 + 7 = 10. Now if we make weight of the blue edge 0, we get the shortest path with the length 1 + 2 + 0 = 3. It can be shown that 3 is the minimum length of a path we can achieve with the given condition.
 </pre>
 
 <p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/3.jpg" style="width: 300px; height: 296px;" /></p>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= n &lt;= 500</code></li>
-	<li><code>n - 1 &lt;= edges.length &lt;= n * (n - 1) / 2</code></li>
+	<li><code>n - 1 &lt;= edges.length &lt;= min(10<sup>4</sup>, n * (n - 1) / 2)</code></li>
 	<li><code>edges[i].length = 3</code></li>
 	<li><code>0 &lt;= edges[i][0], edges[i][1] &lt;= n - 1</code></li>
 	<li><code>1 &lt;= edges[i][2] &lt;=&nbsp;10<sup>6</sup></code></li>
 	<li><code>0 &lt;= s, d, k&nbsp;&lt;= n - 1</code></li>
 	<li><code>s != d</code></li>
-	<li>输入的生成确保图是 <strong>连通</strong> 的，并且没有 <strong>重复的边</strong> 或 <strong>自环</strong>。</li>
+	<li>The input is generated such that the graph is <strong>connected</strong> and has <strong>no</strong>&nbsp;<strong>repeated edges</strong>&nbsp;or&nbsp;<strong>self-loops</strong></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：Dijkstra 算法
+### Solution 1: Dijkstra Algorithm
 
-我们先根据给定的边构造出图 $g$，其中 $g[u]$ 表示节点 $u$ 的所有邻居节点以及对应的边权重。
+First, we construct a graph $g$ based on the given edges, where $g[u]$ represents all neighboring nodes of node $u$ and their corresponding edge weights.
 
-然后我们使用 Dijkstra 算法求出从节点 $s$ 到节点 $d$ 的最短路径，但是在这里我们需要对 Dijkstra 算法进行一些修改：
+Then, we use Dijkstra's algorithm to find the shortest path from node $s$ to node $d$. However, we need to make some modifications to Dijkstra's algorithm:
 
--   我们需要记录每个节点 $u$ 到节点 $d$ 的最短路径长度，但是由于我们可以最多跨越 $k$ 条边，所以我们需要记录每个节点 $u$ 到节点 $d$ 的最短路径长度，以及跨越的边数 $t$，即 $dist[u][t]$ 表示从节点 $u$ 到节点 $d$ 的最短路径长度，且跨越的边数为 $t$。
--   我们需要使用优先队列来维护当前的最短路径，但是由于我们需要记录跨越的边数，所以我们需要使用三元组 $(dis, u, t)$ 来表示当前的最短路径，其中 $dis$ 表示当前的最短路径长度，而 $u$ 和 $t$ 分别表示当前的节点和跨越的边数。
+-   We need to record the shortest path length from each node $u$ to node $d$, but since we can cross at most $k$ edges, we need to record the shortest path length from each node $u$ to node $d$ and the number of edges crossed $t$, i.e., $dist[u][t]$ represents the shortest path length from node $u$ to node $d$ and the number of edges crossed is $t$.
+-   We need to use a priority queue to maintain the current shortest path, but since we need to record the number of edges crossed, we need to use a triple $(dis, u, t)$ to represent the current shortest path, where $dis$ represents the current shortest path length, and $u$ and $t$ represent the current node and the number of edges crossed, respectively.
 
-最后我们只需要返回 $dist[d][0..k]$ 中的最小值即可。
+Finally, we only need to return the minimum value in $dist[d][0..k]$.
 
-时间复杂度 $O(n^2 \times \log n)$，空间复杂度 $O(n \times k)$。其中 $n$ 表示节点数，而 $k$ 表示最多跨越的边数。
+The time complexity is $O(n^2 \times \log n)$, and the space complexity is $O(n \times k)$, where $n$ represents the number of nodes and $k$ represents the maximum number of edges crossed.
 
 <!-- tabs:start -->
 

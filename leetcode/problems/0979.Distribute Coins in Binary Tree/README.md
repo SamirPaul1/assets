@@ -1,57 +1,45 @@
-# [979. 在二叉树中分配硬币](https://leetcode.cn/problems/distribute-coins-in-binary-tree)
+# [979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree)
 
-[English Version](/solution/0900-0999/0979.Distribute%20Coins%20in%20Binary%20Tree/README_EN.md)
+[中文文档](/solution/0900-0999/0979.Distribute%20Coins%20in%20Binary%20Tree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given the <code>root</code> of a binary tree with <code>n</code> nodes where each <code>node</code> in the tree has <code>node.val</code> coins. There are <code>n</code> coins in total throughout the whole tree.</p>
 
-<p>给你一个有 <code>n</code> 个结点的二叉树的根结点 <code>root</code> ，其中树中每个结点 <code>node</code> 都对应有 <code>node.val</code> 枚硬币。整棵树上一共有 <code>n</code> 枚硬币。</p>
+<p>In one move, we may choose two adjacent nodes and move one coin from one node to another. A move may be from parent to child, or from child to parent.</p>
 
-<p>在一次移动中，我们可以选择两个相邻的结点，然后将一枚硬币从其中一个结点移动到另一个结点。移动可以是从父结点到子结点，或者从子结点移动到父结点。</p>
-
-<p>返回使每个结点上 <strong>只有</strong> 一枚硬币所需的 <strong>最少</strong> 移动次数。</p>
+<p>Return <em>the <strong>minimum</strong> number of moves required to make every node have <strong>exactly</strong> one coin</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0979.Distribute%20Coins%20in%20Binary%20Tree/images/tree1.png" style="width: 250px; height: 236px;" />
 <pre>
-<strong>输入：</strong>root = [3,0,0]
-<strong>输出：</strong>2
-<strong>解释：</strong>一枚硬币从根结点移动到左子结点，一枚硬币从根结点移动到右子结点。
+<strong>Input:</strong> root = [3,0,0]
+<strong>Output:</strong> 2
+<strong>Explanation: </strong>From the root of the tree, we move one coin to its left child, and one coin to its right child.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0979.Distribute%20Coins%20in%20Binary%20Tree/images/tree2.png" style="width: 250px; height: 236px;" />
 <pre>
-<strong>输入：</strong>root = [0,3,0]
-<strong>输出：</strong>3
-<strong>解释：</strong>将两枚硬币从根结点的左子结点移动到根结点（两次移动）。然后，将一枚硬币从根结点移动到右子结点。
+<strong>Input:</strong> root = [0,3,0]
+<strong>Output:</strong> 3
+<strong>Explanation: </strong>From the left child of the root, we move two coins to the root [taking two moves]. Then, we move one coin from the root of the tree to the right child.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点的数目为 <code>n</code></li>
+	<li>The number of nodes in the tree is <code>n</code>.</li>
 	<li><code>1 &lt;= n &lt;= 100</code></li>
 	<li><code>0 &lt;= Node.val &lt;= n</code></li>
-	<li>所有 <code>Node.val</code> 的值之和是 <code>n</code></li>
+	<li>The sum of all <code>Node.val</code> is <code>n</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
-
-我们定义一个函数 $dfs(node)$，表示以 $node$ 为根节点的子树中，金币的超载量，即金币的数量减去节点数。如果 $dfs(node)$ 为正数，表示该子树中金币的数量多于节点数，需要将多余的金币移出该子树；如果 $dfs(node)$ 为负数，表示该子树中金币的数量少于节点数，需要将不足的金币移入该子树。
-
-在函数 $dfs(node)$ 中，我们首先遍历左右子树，获得左右子树的金币超载量 $left$ 和 $right$。那么当前移动的次数需要加上 $|left| + |right|$，即将左右子树中的金币移动到当前节点。然后，我们返回整个子树的金币超载量，即 $left + right + node.val - 1$。
-
-最后返回移动的次数即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(h)$。其中 $n$ 和 $h$ 分别是二叉树的节点数和高度。
+### Solution 1
 
 <!-- tabs:start -->
 

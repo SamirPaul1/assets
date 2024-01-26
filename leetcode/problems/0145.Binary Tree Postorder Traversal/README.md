@@ -1,52 +1,47 @@
-# [145. 二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal)
+# [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)
 
-[English Version](/solution/0100-0199/0145.Binary%20Tree%20Postorder%20Traversal/README_EN.md)
+[中文文档](/solution/0100-0199/0145.Binary%20Tree%20Postorder%20Traversal/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一棵二叉树的根节点 <code>root</code> ，返回其节点值的 <strong>后序遍历 </strong>。</p>
+<p>Given the <code>root</code> of a&nbsp;binary tree, return <em>the postorder traversal of its nodes&#39; values</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0145.Binary%20Tree%20Postorder%20Traversal/images/pre1.jpg" style="width: 127px; height: 200px;" />
 <pre>
-<strong>输入：</strong>root = [1,null,2,3]
-<strong>输出：</strong>[3,2,1]
+<strong>Input:</strong> root = [1,null,2,3]
+<strong>Output:</strong> [3,2,1]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = []
-<strong>输出：</strong>[]
+<strong>Input:</strong> root = []
+<strong>Output:</strong> []
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>root = [1]
-<strong>输出：</strong>[1]
+<strong>Input:</strong> root = [1]
+<strong>Output:</strong> [1]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点的数目在范围 <code>[0, 100]</code> 内</li>
+	<li>The number of the nodes in the tree is in the range <code>[0, 100]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
 
 <p>&nbsp;</p>
+<strong>Follow up:</strong> Recursive solution is trivial, could you do it iteratively?
 
-<p><strong>进阶：</strong>递归算法很简单，你可以通过迭代算法完成吗？</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -264,7 +259,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 
@@ -402,7 +397,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法三
+### Solution 3
 
 <!-- tabs:start -->
 

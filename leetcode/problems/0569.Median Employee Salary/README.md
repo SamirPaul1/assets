@@ -1,12 +1,10 @@
-# [569. 员工薪水中位数](https://leetcode.cn/problems/median-employee-salary)
+# [569. Median Employee Salary](https://leetcode.com/problems/median-employee-salary)
 
-[English Version](/solution/0500-0599/0569.Median%20Employee%20Salary/README_EN.md)
+[中文文档](/solution/0500-0599/0569.Median%20Employee%20Salary/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表:&nbsp;<code>Employee</code></p>
+<p>Table: <code>Employee</code></p>
 
 <pre>
 +--------------+---------+
@@ -16,25 +14,24 @@
 | company      | varchar |
 | salary       | int     |
 +--------------+---------+
-id 是该表的主键列(具有唯一值的列)。
-该表的每一行表示公司和一名员工的工资。
+id is the primary key (column with unique values) for this table.
+Each row of this table indicates the company and the salary of one employee.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，找出每个公司的工资中位数。</p>
+<p>Write a solution to find the rows that contain the median salary of each company. While calculating the median, when you sort the salaries of the company, break the ties by <code>id</code>.</p>
 
-<p>以 <strong>任意顺序</strong> 返回结果表。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>查询结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> 
-Employee 表:
+<strong>Input:</strong> 
+Employee table:
 +----+---------+--------+
 | id | company | salary |
 +----+---------+--------+
@@ -56,7 +53,7 @@ Employee 表:
 | 16 | C       | 2652   |
 | 17 | C       | 65     |
 +----+---------+--------+
-<strong>输出:</strong> 
+<strong>Output:</strong> 
 +----+---------+--------+
 | id | company | salary |
 +----+---------+--------+
@@ -66,15 +63,47 @@ Employee 表:
 | 9  | B       | 1154   |
 | 14 | C       | 2645   |
 +----+---------+--------+
+<strong>Explanation:</strong> 
+For company A, the rows sorted are as follows:
++----+---------+--------+
+| id | company | salary |
++----+---------+--------+
+| 3  | A       | 15     |
+| 2  | A       | 341    |
+| 5  | A       | 451    | &lt;-- median
+| 6  | A       | 513    | &lt;-- median
+| 1  | A       | 2341   |
+| 4  | A       | 15314  |
++----+---------+--------+
+For company B, the rows sorted are as follows:
++----+---------+--------+
+| id | company | salary |
++----+---------+--------+
+| 8  | B       | 13     |
+| 7  | B       | 15     |
+| 12 | B       | 234    | &lt;-- median
+| 11 | B       | 1221   | &lt;-- median
+| 9  | B       | 1154   |
+| 10 | B       | 1345   |
++----+---------+--------+
+For company C, the rows sorted are as follows:
++----+---------+--------+
+| id | company | salary |
++----+---------+--------+
+| 17 | C       | 65     |
+| 13 | C       | 2345   |
+| 14 | C       | 2645   | &lt;-- median
+| 15 | C       | 2645   | 
+| 16 | C       | 2652   |
++----+---------+--------+
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you solve it without using any built-in or window functions?</p>
 
-<p><strong>进阶:&nbsp;</strong>你能在不使用任何内置函数或窗口函数的情况下解决它吗?</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

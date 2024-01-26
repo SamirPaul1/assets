@@ -1,46 +1,44 @@
-# [760. 找出变位映射](https://leetcode.cn/problems/find-anagram-mappings)
+# [760. Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings)
 
-[English Version](/solution/0700-0799/0760.Find%20Anagram%20Mappings/README_EN.md)
+[中文文档](/solution/0700-0799/0760.Find%20Anagram%20Mappings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two integer arrays <code>nums1</code> and <code>nums2</code> where <code>nums2</code> is <strong>an anagram</strong> of <code>nums1</code>. Both arrays may contain duplicates.</p>
 
-<p>给定两个列表 <code>A</code>and <code>B</code>，并且 <code>B</code> 是 <code>A</code> 的变位（即&nbsp;<code>B</code> 是由&nbsp;<code>A</code> 中的元素随机排列后组成的新列表）。</p>
+<p>Return <em>an index mapping array </em><code>mapping</code><em> from </em><code>nums1</code><em> to </em><code>nums2</code><em> where </em><code>mapping[i] = j</code><em> means the </em><code>i<sup>th</sup></code><em> element in </em><code>nums1</code><em> appears in </em><code>nums2</code><em> at index </em><code>j</code>. If there are multiple answers, return <strong>any of them</strong>.</p>
 
-<p>我们希望找出一个从 <code>A</code> 到 <code>B</code>&nbsp;的索引映射 <code>P</code> 。一个映射 <code>P[i] = j</code>&nbsp;指的是列表&nbsp;<code>A</code> 中的第 <code>i</code> 个元素出现于列表&nbsp;<code>B</code> 中的第 <code>j</code> 个元素上。</p>
+<p>An array <code>a</code> is <strong>an anagram</strong> of an array <code>b</code> means <code>b</code> is made by randomizing the order of the elements in <code>a</code>.</p>
 
-<p>列表 <code>A</code> 和 <code>B</code> 可能出现重复元素。如果有多于一种答案，输出任意一种。</p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p>例如，给定</p>
+<pre>
+<strong>Input:</strong> nums1 = [12,28,46,32,50], nums2 = [50,12,32,46,28]
+<strong>Output:</strong> [1,4,3,2,0]
+<strong>Explanation:</strong> As mapping[0] = 1 because the 0<sup>th</sup> element of nums1 appears at nums2[1], and mapping[1] = 4 because the 1<sup>st</sup> element of nums1 appears at nums2[4], and so on.
+</pre>
 
-<pre>A = [12, 28, 46, 32, 50]
-B = [50, 12, 32, 46, 28]
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums1 = [84,46], nums2 = [84,46]
+<strong>Output:</strong> [0,1]
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p>需要返回</p>
+<ul>
+	<li><code>1 &lt;= nums1.length &lt;= 100</code></li>
+	<li><code>nums2.length == nums1.length</code></li>
+	<li><code>0 &lt;= nums1[i], nums2[i] &lt;= 10<sup>5</sup></code></li>
+	<li><code>nums2</code> is an anagram of <code>nums1</code>.</li>
+</ul>
 
-<pre>[1, 4, 3, 2, 0]
-</pre>
+## Solutions
 
-<p><code>P[0] = 1</code>&nbsp;，因为 <code>A</code> 中的第 <code>0</code> 个元素出现于 <code>B[1]</code>，而且 <code>P[1] = 4</code> 因为 <code>A</code> 中第 <code>1</code> 个元素出现于 <code>B[4]</code>，以此类推。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>注：</strong></p>
-
-<ol>
-	<li><code>A, B</code>&nbsp;有相同的长度，范围为&nbsp;<code>[1, 100]</code>。</li>
-	<li><code>A[i], B[i]</code> 都是范围在&nbsp;<code>[0, 10^5]</code> 的整数。</li>
-</ol>
-
-<p>&nbsp;</p>
-
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

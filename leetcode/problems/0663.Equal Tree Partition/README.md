@@ -1,42 +1,38 @@
-# [663. 均匀树划分](https://leetcode.cn/problems/equal-tree-partition)
+# [663. Equal Tree Partition](https://leetcode.com/problems/equal-tree-partition)
 
-[English Version](/solution/0600-0699/0663.Equal%20Tree%20Partition/README_EN.md)
+[中文文档](/solution/0600-0699/0663.Equal%20Tree%20Partition/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一棵二叉树的根节点 <code>root</code>，如果你可以通过去掉原始树上的一条边将树分成两棵节点值之和相等的子树，则返回 <code>true</code>。</p>
+<p>Given the <code>root</code> of a binary tree, return <code>true</code><em> if you can partition the tree into two trees with equal sums of values after removing exactly one edge on the original tree</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0663.Equal%20Tree%20Partition/images/split1-tree.jpg" style="width: 500px; height: 204px;" />
 <pre>
-<strong>输入：</strong>root = [5,10,10,null,null,2,3]
-<strong>输出：</strong>true
+<strong>Input:</strong> root = [5,10,10,null,null,2,3]
+<strong>Output:</strong> true
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0663.Equal%20Tree%20Partition/images/split2-tree.jpg" style="width: 277px; height: 302px;" />
 <pre>
-<strong>输入：</strong>root = [1,2,10,null,null,2,20]
-<strong>输出：</strong>false
-<strong>解释：</strong>在树上移除一条边无法将树分成两棵节点值之和相等的子树。
+<strong>Input:</strong> root = [1,2,10,null,null,2,20]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> You cannot split the tree into two trees with equal sums after removing exactly one edge on the tree.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中节点数目在 <code>[1, 10<sup>4</sup>]</code> 范围内。</li>
+	<li>The number of nodes in the tree is in the range <code>[1, 10<sup>4</sup>]</code>.</li>
 	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

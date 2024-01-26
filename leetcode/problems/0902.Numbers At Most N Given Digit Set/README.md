@@ -1,98 +1,58 @@
-# [902. 最大为 N 的数字组合](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set)
+# [902. Numbers At Most N Given Digit Set](https://leetcode.com/problems/numbers-at-most-n-given-digit-set)
 
-[English Version](/solution/0900-0999/0902.Numbers%20At%20Most%20N%20Given%20Digit%20Set/README_EN.md)
+[中文文档](/solution/0900-0999/0902.Numbers%20At%20Most%20N%20Given%20Digit%20Set/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of <code>digits</code> which is sorted in <strong>non-decreasing</strong> order. You can write numbers using each <code>digits[i]</code> as many times as we want. For example, if <code>digits = [&#39;1&#39;,&#39;3&#39;,&#39;5&#39;]</code>, we may write numbers such as <code>&#39;13&#39;</code>, <code>&#39;551&#39;</code>, and <code>&#39;1351315&#39;</code>.</p>
 
-<p>给定一个按&nbsp;<strong>非递减顺序</strong>&nbsp;排列的数字数组<meta charset="UTF-8" />&nbsp;<code>digits</code>&nbsp;。你可以用任意次数&nbsp;<code>digits[i]</code>&nbsp;来写的数字。例如，如果<meta charset="UTF-8" />&nbsp;<code>digits = ['1','3','5']</code>，我们可以写数字，如<meta charset="UTF-8" />&nbsp;<code>'13'</code>,&nbsp;<code>'551'</code>, 和&nbsp;<code>'1351315'</code>。</p>
-
-<p>返回 <em>可以生成的小于或等于给定整数 <code>n</code> 的正整数的个数</em>&nbsp;。</p>
+<p>Return <em>the number of positive integers that can be generated </em>that are less than or equal to a given integer <code>n</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>digits = ["1","3","5","7"], n = 100
-<strong>输出：</strong>20
-<strong>解释：</strong>
-可写出的 20 个数字是：
+<strong>Input:</strong> digits = [&quot;1&quot;,&quot;3&quot;,&quot;5&quot;,&quot;7&quot;], n = 100
+<strong>Output:</strong> 20
+<strong>Explanation: </strong>
+The 20 numbers that can be written are:
 1, 3, 5, 7, 11, 13, 15, 17, 31, 33, 35, 37, 51, 53, 55, 57, 71, 73, 75, 77.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>digits = ["1","4","9"], n = 1000000000
-<strong>输出：</strong>29523
-<strong>解释：</strong>
-我们可以写 3 个一位数字，9 个两位数字，27 个三位数字，
-81 个四位数字，243 个五位数字，729 个六位数字，
-2187 个七位数字，6561 个八位数字和 19683 个九位数字。
-总共，可以使用D中的数字写出 29523 个整数。</pre>
+<strong>Input:</strong> digits = [&quot;1&quot;,&quot;4&quot;,&quot;9&quot;], n = 1000000000
+<strong>Output:</strong> 29523
+<strong>Explanation: </strong>
+We can write 3 one digit numbers, 9 two digit numbers, 27 three digit numbers,
+81 four digit numbers, 243 five digit numbers, 729 six digit numbers,
+2187 seven digit numbers, 6561 eight digit numbers, and 19683 nine digit numbers.
+In total, this is 29523 integers that can be written using the digits array.
+</pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>digits = ["7"], n = 8
-<strong>输出：</strong>1
+<strong>Input:</strong> digits = [&quot;7&quot;], n = 8
+<strong>Output:</strong> 1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-<meta charset="UTF-8" />
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= digits.length &lt;= 9</code></li>
 	<li><code>digits[i].length == 1</code></li>
-	<li><code>digits[i]</code>&nbsp;是从&nbsp;<code>'1'</code>&nbsp;到&nbsp;<code>'9'</code> 的数</li>
-	<li><code>digits</code>&nbsp;中的所有值都 <strong>不同</strong>&nbsp;</li>
-	<li><code>digits</code>&nbsp;按&nbsp;<strong>非递减顺序</strong>&nbsp;排列</li>
+	<li><code>digits[i]</code> is a digit from&nbsp;<code>&#39;1&#39;</code>&nbsp;to <code>&#39;9&#39;</code>.</li>
+	<li>All the values in&nbsp;<code>digits</code> are <strong>unique</strong>.</li>
+	<li><code>digits</code> is sorted in&nbsp;<strong>non-decreasing</strong> order.</li>
 	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：数位 DP
-
-这道题实际上是求在给定区间 $[l,..r]$ 中，由 `digits` 中的数字生成的正整数的个数。个数与数的位数以及每一位上的数字有关。我们可以用数位 DP 的思路来解决这道题。数位 DP 中，数的大小对复杂度的影响很小。
-
-对于区间 $[l,..r]$ 问题，我们一般会将其转化为 $[1,..r]$ 然后再减去 $[1,..l - 1]$ 的问题，即：
-
-$$
-ans = \sum_{i=1}^{r} ans_i -  \sum_{i=1}^{l-1} ans_i
-$$
-
-不过对于本题而言，我们只需要求出区间 $[1,..r]$ 的值即可。
-
-这里我们用记忆化搜索来实现数位 DP。从起点向下搜索，到最底层得到方案数，一层层向上返回答案并累加，最后从搜索起点得到最终的答案。
-
-基本步骤如下：
-
-1. 将数字 $n$ 转为 int 数组 $a$，其中 $a[1]$ 为最低位，而 $a[len]$ 为最高位；
-1. 根据题目信息，设计函数 $dfs()$，对于本题，我们定义 $dfs(pos, lead, limit)$，答案为 $dfs(len, 1, true)$。
-
-其中：
-
--   `pos` 表示数字的位数，从末位或者第一位开始，一般根据题目的数字构造性质来选择顺序。对于本题，我们选择从高位开始，因此，`pos` 的初始值为 `len`；
--   `lead` 表示当前数字中是否包含前导零，如果包含，则为 `1`，否则为 `0`；初始化为 `1`；
--   `limit` 表示可填的数字的限制，如果无限制，那么可以选择 $[0,1,..9]$，否则，只能选择 $[0,..a[pos]]$。如果 `limit` 为 `true` 且已经取到了能取到的最大值，那么下一个 `limit` 同样为 `true`；如果 `limit` 为 `true` 但是还没有取到最大值，或者 `limit` 为 `false`，那么下一个 `limit` 为 `false`。
-
-关于函数的实现细节，可以参考下面的代码。
-
-时间复杂度 $O(\log n)$。
-
-相似题目：
-
--   [233. 数字 1 的个数](https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0233.Number%20of%20Digit%20One/README.md)
--   [357. 统计各位数字都不同的数字个数](https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0357.Count%20Numbers%20with%20Unique%20Digits/README.md)
--   [600. 不含连续 1 的非负整数](https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0600.Non-negative%20Integers%20without%20Consecutive%20Ones/README.md)
--   [788. 旋转数字](https://github.com/doocs/leetcode/blob/main/solution/0700-0799/0788.Rotated%20Digits/README.md)
--   [1012. 至少有 1 位重复的数字](https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1012.Numbers%20With%20Repeated%20Digits/README.md)
--   [2376. 统计特殊整数](https://github.com/doocs/leetcode/blob/main/solution/2300-2399/2376.Count%20Special%20Integers/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

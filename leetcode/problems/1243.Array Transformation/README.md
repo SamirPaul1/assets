@@ -1,60 +1,58 @@
-# [1243. 数组变换](https://leetcode.cn/problems/array-transformation)
+# [1243. Array Transformation](https://leetcode.com/problems/array-transformation)
 
-[English Version](/solution/1200-1299/1243.Array%20Transformation/README_EN.md)
+[中文文档](/solution/1200-1299/1243.Array%20Transformation/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an initial array <code>arr</code>, every day you produce a new array using the array of the previous day.</p>
 
-<p>首先，给你一个初始数组 <code>arr</code>。然后，每天你都要根据前一天的数组生成一个新的数组。</p>
-
-<p>第&nbsp;<code>i</code>&nbsp;天所生成的数组，是由你对第&nbsp;<code>i-1</code>&nbsp;天的数组进行如下操作所得的：</p>
+<p>On the <code>i</code>-th day, you do the following operations on the array of day&nbsp;<code>i-1</code>&nbsp;to produce the array of day <code>i</code>:</p>
 
 <ol>
-	<li>假如一个元素小于它的左右邻居，那么该元素自增 <code>1</code>。</li>
-	<li>假如一个元素大于它的左右邻居，那么该元素自减 <code>1</code>。</li>
-	<li>首、尾元素 <strong>永不</strong>&nbsp;改变。</li>
+	<li>If an element is smaller than both its left neighbor and its right neighbor, then this element is incremented.</li>
+	<li>If an element is bigger than both its left neighbor and its right neighbor, then this element is decremented.</li>
+	<li>The first&nbsp;and last elements never change.</li>
 </ol>
 
-<p>过些时日，你会发现数组将会不再发生变化，请返回最终所得到的数组。</p>
+<p>After some days, the array does not change. Return that final array.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>[6,2,3,4]
-<strong>输出：</strong>[6,3,3,4]
-<strong>解释：</strong>
-第一天，数组从 [6,2,3,4] 变为 [6,3,3,4]。
-无法再对该数组进行更多操作。
+<pre>
+<strong>Input:</strong> arr = [6,2,3,4]
+<strong>Output:</strong> [6,3,3,4]
+<strong>Explanation: </strong>
+On the first day, the array is changed from [6,2,3,4] to [6,3,3,4].
+No more operations can be done to this array.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>[1,6,3,4,3,5]
-<strong>输出：</strong>[1,4,4,4,4,5]
-<strong>解释：</strong>
-第一天，数组从 [1,6,3,4,3,5] 变为 [1,5,4,3,4,5]。
-第二天，数组从 [1,5,4,3,4,5] 变为 [1,4,4,4,4,5]。
-无法再对该数组进行更多操作。
+<pre>
+<strong>Input:</strong> arr = [1,6,3,4,3,5]
+<strong>Output:</strong> [1,4,4,4,4,5]
+<strong>Explanation: </strong>
+On the first day, the array is changed from [1,6,3,4,3,5] to [1,5,4,3,4,5].
+On the second day, the array is changed from [1,5,4,3,4,5] to [1,4,4,4,4,5].
+No more operations can be done to this array.
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>提示：</strong></p>
-
-<ol>
-	<li><code>1 &lt;= arr.length &lt;= 100</code></li>
+<ul>
+	<li><code>3 &lt;= arr.length &lt;= 100</code></li>
 	<li><code>1 &lt;= arr[i] &lt;= 100</code></li>
-</ol>
+</ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-每次模拟一天，对于每个元素，如果它大于左右邻居，则自减 1，否则自增 1。如果数组在某一天不再发生变化，则返回该数组。
+Simulate each day. For each element, if it is greater than its left and right neighbors, it decreases by 1, otherwise, it increases by 1. If the array no longer changes on a certain day, return that array.
 
-时间复杂度 $O(n \times m)$，空间复杂度 $O(n)$。其中 $n$ 和 $m$ 分别为数组长度和数组元素的最大值。
+The time complexity is $O(n \times m)$, and the space complexity is $O(n)$. Where $n$ is the length of the array, and $m$ is the maximum value in the array.
 
 <!-- tabs:start -->
 

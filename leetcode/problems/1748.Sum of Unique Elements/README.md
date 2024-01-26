@@ -1,56 +1,49 @@
-# [1748. 唯一元素的和](https://leetcode.cn/problems/sum-of-unique-elements)
+# [1748. Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements)
 
-[English Version](/solution/1700-1799/1748.Sum%20of%20Unique%20Elements/README_EN.md)
+[中文文档](/solution/1700-1799/1748.Sum%20of%20Unique%20Elements/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an integer array <code>nums</code>. The unique elements of an array are the elements that appear <strong>exactly once</strong> in the array.</p>
 
-<p>给你一个整数数组 <code>nums</code> 。数组中唯一元素是那些只出现 <strong>恰好一次</strong> 的元素。</p>
+<p>Return <em>the <strong>sum</strong> of all the unique elements of </em><code>nums</code>.</p>
 
-<p>请你返回 <code>nums</code> 中唯一元素的 <strong>和</strong> 。</p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre><b>输入：</b>nums = [1,2,3,2]
-<b>输出：</b>4
-<b>解释：</b>唯一元素为 [1,3] ，和为 4 。
+<pre>
+<strong>Input:</strong> nums = [1,2,3,2]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The unique elements are [1,3], and the sum is 4.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><b>输入：</b>nums = [1,1,1,1,1]
-<b>输出：</b>0
-<b>解释：</b>没有唯一元素，和为 0 。
+<pre>
+<strong>Input:</strong> nums = [1,1,1,1,1]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> There are no unique elements, and the sum is 0.
 </pre>
 
-<p><strong>示例 3 ：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
-<pre><b>输入：</b>nums = [1,2,3,4,5]
-<b>输出：</b>15
-<b>解释：</b>唯一元素为 [1,2,3,4,5] ，和为 15 。
+<pre>
+<strong>Input:</strong> nums = [1,2,3,4,5]
+<strong>Output:</strong> 15
+<strong>Explanation:</strong> The unique elements are [1,2,3,4,5], and the sum is 15.
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：计数
-
-我们可以用数组或哈希表 `cnt` 统计数组 `nums` 中每个数字出现的次数，然后遍历 `cnt`，对于出现次数为 1 的数字，将其加入答案。
-
-遍历结束后，返回答案即可。
-
-时间复杂度 $O(n)$，空间复杂度 $O(M)$。其中 $n$ 和 $m$ 分别是数组 `nums` 的长度和 `nums` 中的最大值。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -171,7 +164,7 @@ class Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

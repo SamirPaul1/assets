@@ -1,74 +1,70 @@
-# [2910. 合法分组的最少组数](https://leetcode.cn/problems/minimum-number-of-groups-to-create-a-valid-assignment)
+# [2910. Minimum Number of Groups to Create a Valid Assignment](https://leetcode.com/problems/minimum-number-of-groups-to-create-a-valid-assignment)
 
-[English Version](/solution/2900-2999/2910.Minimum%20Number%20of%20Groups%20to%20Create%20a%20Valid%20Assignment/README_EN.md)
+[中文文档](/solution/2900-2999/2910.Minimum%20Number%20of%20Groups%20to%20Create%20a%20Valid%20Assignment/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code>.</p>
 
-<p>给你一个长度为 <code>n</code>&nbsp;下标从 <strong>0</strong>&nbsp;开始的整数数组&nbsp;<code>nums</code>&nbsp;。</p>
+<p>We want to group the indices so for each index <code>i</code> in the range <code>[0, n - 1]</code>, it is assigned to <strong>exactly one</strong> group.</p>
 
-<p>我们想将下标进行分组，使得&nbsp;<code>[0, n - 1]</code>&nbsp;内所有下标&nbsp;<code>i</code>&nbsp;都 <strong>恰好</strong> 被分到其中一组。</p>
-
-<p>如果以下条件成立，我们说这个分组方案是合法的：</p>
+<p>A group<strong> </strong>assignment is <strong>valid</strong> if the following conditions hold:</p>
 
 <ul>
-	<li>对于每个组&nbsp;<code>g</code>&nbsp;，同一组内所有下标在&nbsp;<code>nums</code>&nbsp;中对应的数值都相等。</li>
-	<li>对于任意两个组&nbsp;<code>g<sub>1</sub></code> 和&nbsp;<code>g<sub>2</sub></code>&nbsp;，两个组中&nbsp;<strong>下标数量</strong> 的&nbsp;<strong>差值不超过&nbsp;</strong><code>1</code>&nbsp;。</li>
+	<li>For every group <code>g</code>, all indices <code>i</code> assigned to group <code>g</code> have the same value in <code>nums</code>.</li>
+	<li>For any two groups <code>g<sub>1</sub></code> and <code>g<sub>2</sub></code>, the <strong>difference</strong> between the <strong>number of indices</strong> assigned to <code>g<sub>1</sub></code> and <code>g<sub>2</sub></code> should <strong>not exceed</strong> <code>1</code>.</li>
 </ul>
 
-<p>请你返回一个整数，表示得到一个合法分组方案的 <strong>最少</strong>&nbsp;组数。</p>
+<p>Return <em>an integer denoting </em><em>the <strong>minimum</strong> number of groups needed to create a valid group assignment.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<b>输入：</b>nums = [3,2,3,2,3]
-<b>输出：</b>2
-<b>解释：</b>一个得到 2 个分组的方案如下，中括号内的数字都是下标：
-组 1 -&gt; [0,2,4]
-组 2 -&gt; [1,3]
-所有下标都只属于一个组。
-组 1 中，nums[0] == nums[2] == nums[4] ，所有下标对应的数值都相等。
-组 2 中，nums[1] == nums[3] ，所有下标对应的数值都相等。
-组 1 中下标数目为 3 ，组 2 中下标数目为 2 。
-两者之差不超过 1 。
-无法得到一个小于 2 组的答案，因为如果只有 1 组，组内所有下标对应的数值都要相等。
-所以答案为 2 。</pre>
-
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>nums = [10,10,10,3,1,1]
-<b>输出：</b>4
-<b>解释：</b>一个得到 2 个分组的方案如下，中括号内的数字都是下标：
-组 1 -&gt; [0]
-组 2 -&gt; [1,2]
-组 3 -&gt; [3]
-组 4 -&gt; [4,5]
-分组方案满足题目要求的两个条件。
-无法得到一个小于 4 组的答案。
-所以答案为 4 。</pre>
+<strong>Input:</strong> nums = [3,2,3,2,3]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> One way the indices can be assigned to 2 groups is as follows, where the values in square brackets are indices:
+group 1 -&gt; [0,2,4]
+group 2 -&gt; [1,3]
+All indices are assigned to one group.
+In group 1, nums[0] == nums[2] == nums[4], so all indices have the same value.
+In group 2, nums[1] == nums[3], so all indices have the same value.
+The number of indices assigned to group 1 is 3, and the number of indices assigned to group 2 is 2.
+Their difference doesn&#39;t exceed 1.
+It is not possible to use fewer than 2 groups because, in order to use just 1 group, all indices assigned to that group must have the same value.
+Hence, the answer is 2.</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> nums = [10,10,10,3,1,1]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> One way the indices can be assigned to 4 groups is as follows, where the values in square brackets are indices:
+group 1 -&gt; [0]
+group 2 -&gt; [1,2]
+group 3 -&gt; [3]
+group 4 -&gt; [4,5]
+The group assignment above satisfies both conditions.
+It can be shown that it is not possible to create a valid assignment using fewer than 4 groups.
+Hence, the answer is 4.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 枚举
+### Solution 1: Hash Table + Enumeration
 
-我们用一个哈希表 $cnt$ 统计数组 $nums$ 中每个数字出现的次数，我们记数字次数的最小值为 $k$，那么我们可以在 $[k,..1]$ 的范围内枚举分组的大小。由于每个组的大小差值不超过 $1$，那么分组大小为 $k$ 或 $k+1$。
+We use a hash table $cnt$ to count the number of occurrences of each number in the array $nums$. Let $k$ be the minimum value of the number of occurrences, and then we can enumerate the size of the groups in the range $[k,..1]$. Since the difference in size between each group is not more than $1$, the group size can be either $k$ or $k+1$.
 
-对于当前枚举到的分组大小 $k$，我们遍历哈希表中的每个次数 $v$，如果 $\lfloor \frac{v}{k} \rfloor < v \bmod k$，那么说明无法将这个次数 $v$ 分成 $k$ 个或 $k+1$ 个数值相同的组，因此我们可以直接跳过这个分组大小 $k$。否则，说明可以分组，我们只需要尽可能分出最多的分组大小 $k+1$，即可保证得到最小的分组数，因此我们可以将 $v$ 个数分成 $\lceil \frac{v}{k+1} \rceil$ 组，累加到当前枚举的答案中。由于我们是按照 $k$ 从大到小枚举的，因此只要找到了一个合法的分组方案，那么一定是最优的。
+For the current group size $k$ being enumerated, we traverse each occurrence $v$ in the hash table. If $\lfloor \frac{v}{k} \rfloor < v \bmod k$, it means that we cannot divide the occurrence $v$ into $k$ or $k+1$ groups with the same value, so we can skip this group size $k$ directly. Otherwise, it means that we can form groups, and we only need to form as many groups of size $k+1$ as possible to ensure the minimum number of groups. Therefore, we can divide $v$ numbers into $\lceil \frac{v}{k+1} \rceil$ groups and add them to the current enumerated answer. Since we enumerate $k$ from large to small, as long as we find a valid grouping scheme, it must be optimal.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 $nums$ 的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 

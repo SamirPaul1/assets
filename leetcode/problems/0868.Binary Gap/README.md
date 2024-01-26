@@ -1,60 +1,53 @@
-# [868. 二进制间距](https://leetcode.cn/problems/binary-gap)
+# [868. Binary Gap](https://leetcode.com/problems/binary-gap)
 
-[English Version](/solution/0800-0899/0868.Binary%20Gap/README_EN.md)
+[中文文档](/solution/0800-0899/0868.Binary%20Gap/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a positive integer <code>n</code>, find and return <em>the <strong>longest distance</strong> between any two <strong>adjacent</strong> </em><code>1</code><em>&#39;s in the binary representation of </em><code>n</code><em>. If there are no two adjacent </em><code>1</code><em>&#39;s, return </em><code>0</code><em>.</em></p>
 
-<p>给定一个正整数 <code>n</code>，找到并返回 <code>n</code> 的二进制表示中两个 <strong>相邻</strong> 1 之间的<strong> 最长距离 </strong>。如果不存在两个相邻的 1，返回 <code>0</code> 。</p>
-
-<p>如果只有 <code>0</code> 将两个 <code>1</code> 分隔开（可能不存在 <code>0</code> ），则认为这两个 1 彼此 <strong>相邻</strong> 。两个 <code>1</code> 之间的距离是它们的二进制表示中位置的绝对差。例如，<code>"1001"</code> 中的两个 <code>1</code> 的距离为 3 。</p>
+<p>Two <code>1</code>&#39;s are <strong>adjacent</strong> if there are only <code>0</code>&#39;s separating them (possibly no <code>0</code>&#39;s). The <b>distance</b> between two <code>1</code>&#39;s is the absolute difference between their bit positions. For example, the two <code>1</code>&#39;s in <code>&quot;1001&quot;</code> have a distance of 3.</p>
 
 <p>&nbsp;</p>
-
-<ul>
-</ul>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 22
-<strong>输出：</strong>2
-<strong>解释：</strong>22 的二进制是 "10110" 。
-在 22 的二进制表示中，有三个 1，组成两对相邻的 1 。
-第一对相邻的 1 中，两个 1 之间的距离为 2 。
-第二对相邻的 1 中，两个 1 之间的距离为 1 。
-答案取两个距离之中最大的，也就是 2 。
+<strong>Input:</strong> n = 22
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 22 in binary is &quot;10110&quot;.
+The first adjacent pair of 1&#39;s is &quot;<u>1</u>0<u>1</u>10&quot; with a distance of 2.
+The second adjacent pair of 1&#39;s is &quot;10<u>11</u>0&quot; with a distance of 1.
+The answer is the largest of these two distances, which is 2.
+Note that &quot;<u>1</u>01<u>1</u>0&quot; is not a valid pair since there is a 1 separating the two 1&#39;s underlined.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 8
-<strong>输出：</strong>0
-<strong>解释：</strong>8 的二进制是 "1000" 。
-在 8 的二进制表示中没有相邻的两个 1，所以返回 0 。
+<strong>Input:</strong> n = 8
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> 8 in binary is &quot;1000&quot;.
+There are not any adjacent pairs of 1&#39;s in the binary representation of 8, so we return 0.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>n = 5
-<strong>输出：</strong>2
-<strong>解释：</strong>5 的二进制是 "101" 。
+<strong>Input:</strong> n = 5
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> 5 in binary is &quot;101&quot;.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

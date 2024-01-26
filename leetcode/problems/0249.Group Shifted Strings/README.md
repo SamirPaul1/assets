@@ -1,34 +1,43 @@
-# [249. 移位字符串分组](https://leetcode.cn/problems/group-shifted-strings)
+# [249. Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings)
 
-[English Version](/solution/0200-0299/0249.Group%20Shifted%20Strings/README_EN.md)
+[中文文档](/solution/0200-0299/0249.Group%20Shifted%20Strings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>We can shift a string by shifting each of its letters to its successive letter.</p>
 
-<p>给定一个字符串，对该字符串可以进行 &ldquo;移位&rdquo; 的操作，也就是将字符串中每个字母都变为其在字母表中后续的字母，比如：<code>&quot;abc&quot; -&gt; &quot;bcd&quot;</code>。这样，我们可以持续进行 &ldquo;移位&rdquo; 操作，从而生成如下移位序列：</p>
+<ul>
+	<li>For example, <code>&quot;abc&quot;</code> can be shifted to be <code>&quot;bcd&quot;</code>.</li>
+</ul>
 
-<pre>&quot;abc&quot; -&gt; &quot;bcd&quot; -&gt; ... -&gt; &quot;xyz&quot;</pre>
+<p>We can keep shifting the string to form a sequence.</p>
 
-<p>给定一个包含仅小写字母字符串的列表，将该列表中所有满足&nbsp;&ldquo;移位&rdquo; 操作规律的组合进行分组并返回。</p>
+<ul>
+	<li>For example, we can keep shifting <code>&quot;abc&quot;</code> to form the sequence: <code>&quot;abc&quot; -&gt; &quot;bcd&quot; -&gt; ... -&gt; &quot;xyz&quot;</code>.</li>
+</ul>
+
+<p>Given an array of strings <code>strings</code>, group all <code>strings[i]</code> that belong to the same shifting sequence. You may return the answer in <strong>any order</strong>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> strings = ["abc","bcd","acef","xyz","az","ba","a","z"]
+<strong>Output:</strong> [["acef"],["a","z"],["abc","bcd","xyz"],["az","ba"]]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> strings = ["a"]
+<strong>Output:</strong> [["a"]]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>示例：</strong></p>
+<ul>
+	<li><code>1 &lt;= strings.length &lt;= 200</code></li>
+	<li><code>1 &lt;= strings[i].length &lt;= 50</code></li>
+	<li><code>strings[i]</code> consists of lowercase English letters.</li>
+</ul>
 
-<pre><strong>输入：</strong><code>[&quot;abc&quot;, &quot;bcd&quot;, &quot;acef&quot;, &quot;xyz&quot;, &quot;az&quot;, &quot;ba&quot;, &quot;a&quot;, &quot;z&quot;]</code>
-<strong>输出：</strong>
-[
-  [&quot;abc&quot;,&quot;bcd&quot;,&quot;xyz&quot;],
-  [&quot;az&quot;,&quot;ba&quot;],
-  [&quot;acef&quot;],
-  [&quot;a&quot;,&quot;z&quot;]
-]
-<strong>解释：</strong>可以认为字母表首尾相接，所以 &#39;z&#39; 的后续为 &#39;a&#39;，所以 [&quot;az&quot;,&quot;ba&quot;] 也满足 &ldquo;移位&rdquo; 操作规律。</pre>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

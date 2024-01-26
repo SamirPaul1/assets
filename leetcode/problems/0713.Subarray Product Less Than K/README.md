@@ -1,33 +1,31 @@
-# [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k)
+# [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k)
 
-[English Version](/solution/0700-0799/0713.Subarray%20Product%20Less%20Than%20K/README_EN.md)
+[中文文档](/solution/0700-0799/0713.Subarray%20Product%20Less%20Than%20K/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-给你一个整数数组 <code>nums</code> 和一个整数 <code>k</code> ，请你返回子数组内所有元素的乘积严格小于<em> </em><code>k</code> 的连续子数组的数目。
+<p>Given an array of integers <code>nums</code> and an integer <code>k</code>, return <em>the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than </em><code>k</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [10,5,2,6], k = 100
-<strong>输出：</strong>8
-<strong>解释：</strong>8 个乘积小于 100 的子数组分别为：[10]、[5]、[2],、[6]、[10,5]、[5,2]、[2,6]、[5,2,6]。
-需要注意的是 [10,5,2] 并不是乘积小于 100 的子数组。
+<strong>Input:</strong> nums = [10,5,2,6], k = 100
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> The 8 subarrays that have product less than 100 are:
+[10], [5], [2], [6], [10, 5], [5, 2], [2, 6], [5, 2, 6]
+Note that [10, 5, 2] is not included as the product of 100 is not strictly less than k.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,2,3], k = 0
-<strong>输出：</strong>0</pre>
+<strong>Input:</strong> nums = [1,2,3], k = 0
+<strong>Output:</strong> 0
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:&nbsp;</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
@@ -35,28 +33,9 @@
 	<li><code>0 &lt;= k &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
-
-我们可以用双指针维护一个滑动窗口，窗口内所有元素的乘积小于 $k$。
-
-初始时，左右指针都指向下标 0，然后不断地右移右指针，将元素加入窗口，此时判断窗口内所有元素的乘积是否大于等于 $k$，如果大于等于 $k$，则不断地左移左指针，将元素移出窗口，直到窗口内所有元素的乘积小于 $k$。然后我们记录此时的窗口大小，即为以右指针为右端点的满足条件的子数组个数，将其加入答案。
-
-当右指针移动到数组末尾时，即可得到答案。
-
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为数组的长度。
-
-以下是双指针的常用算法模板：
-
-```java
-for (int i = 0, j = 0; i < n; ++i) {
-    while (j < i && check(j, i)) {
-        ++j;
-    }
-    // 具体问题的逻辑
-}
-```
+### Solution 1
 
 <!-- tabs:start -->
 

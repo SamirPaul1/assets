@@ -1,76 +1,55 @@
-# [2128. 通过翻转行或列来去除所有的 1](https://leetcode.cn/problems/remove-all-ones-with-row-and-column-flips)
+# [2128. Remove All Ones With Row and Column Flips](https://leetcode.com/problems/remove-all-ones-with-row-and-column-flips)
 
-[English Version](/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/README_EN.md)
+[中文文档](/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given an <code>m x n</code> binary matrix <code>grid</code>.</p>
 
-<p>给你一个大小为&nbsp;<code>m x n</code> 的二进制矩阵&nbsp;<code>grid</code>。</p>
+<p>In one operation, you can choose <strong>any</strong> row or column and flip each value in that row or column (i.e., changing all <code>0</code>&#39;s to <code>1</code>&#39;s, and all <code>1</code>&#39;s to <code>0</code>&#39;s).</p>
 
-<p>每次操作，你可以选择 <strong>任意</strong> 一行 或者 一列，然后将其中的所有值翻转（<code>0</code> 变成 <code>1</code>， <code>1</code>变成 <code>0</code>）。</p>
-
-<p>如果经过 <strong>任意次</strong> 操作，你能将矩阵中所有的 <code>1</code> 去除，那么返回 <code>true</code>；否则返回 <code>false</code>。</p>
+<p>Return <code>true</code><em> if it is possible to remove all </em><code>1</code><em>&#39;s from </em><code>grid</code> using <strong>any</strong> number of operations or <code>false</code> otherwise.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103191300-1.png" style="width: 756px; height: 225px;">
-<pre><strong>输入:</strong> grid = [[0,1,0],[1,0,1],[0,1,0]]
-<strong>输出:</strong> true
-<strong>解释:</strong> 一种去除所有 1 的可行方法是:
-- 翻转矩阵的中间的行
-- 翻转矩阵的中间的列
+<p><strong class="example">Example 1:</strong></p>
+<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103191300-1.png" style="width: 756px; height: 225px;" />
+<pre>
+<strong>Input:</strong> grid = [[0,1,0],[1,0,1],[0,1,0]]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> One possible way to remove all 1&#39;s from grid is to:
+- Flip the middle row
+- Flip the middle column
 </pre>
 
-<p><strong>示例 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181204-7.png" style="width: 237px; height: 225px;">
-<pre><strong>输入:</strong> grid = [[1,1,0],[0,0,0],[0,0,0]]
-<strong>输出:</strong> false
-<strong>解释:</strong> 不可能去除矩阵中所有的 1。
+<p><strong class="example">Example 2:</strong></p>
+<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181204-7.png" style="width: 237px; height: 225px;" />
+<pre>
+<strong>Input:</strong> grid = [[1,1,0],[0,0,0],[0,0,0]]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> It is impossible to remove all 1&#39;s from grid.
 </pre>
 
-<p><strong>示例 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181224-8.png" style="width: 114px; height: 100px;">
-<pre><strong>输入:</strong> grid = [[0]]
-<strong>输出:</strong> true
-<strong>解释:</strong> 矩阵中不存在 1，已经符合要求。
+<p><strong class="example">Example 3:</strong></p>
+<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181224-8.png" style="width: 114px; height: 100px;" />
+<pre>
+<strong>Input:</strong> grid = [[0]]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> There are no 1&#39;s in grid.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == grid.length</code></li>
 	<li><code>n == grid[i].length</code></li>
 	<li><code>1 &lt;= m, n &lt;= 300</code></li>
-	<li><code>grid[i][j]</code> 是&nbsp;<code>0</code>&nbsp;或者&nbsp;<code>1</code>.</li>
+	<li><code>grid[i][j]</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
-
-我们观察发现，如果矩阵中的两行满足以下条件之一，则它们可以通过翻转某些列的方式得到相等的行：
-
-1. 两行的对应位置元素相等，即如果其中一行元素为 $1,0,0,1$，则另一行元素也为 $1,0,0,1$；
-1. 两行的对应位置元素相反，即如果其中一行元素为 $1,0,0,1$，则另一行元素为 $0,1,1,0$。
-
-我们称满足以上条件之一的两行元素为“等价行”，那么题目所求的答案即为矩阵中最多包含等价行的行数。
-
-因此，我们可以遍历矩阵的每一行，将每一行转换成第一个元素为 $0$ 的“等价行”。具体做法如下：
-
--   如果当前行的第一个元素为 $0$，那么当前行的元素保持不变；
--   如果当前行的第一个元素为 $1$，那么我们将当前行的每个元素进行翻转，即 $0$ 变成 $1$, $1$ 变成 $0$。也就是说，我们将以 $1$ 开头的行翻转成以 $0$ 开头的“等价行”。
-
-这样一来，我们只需要用一个哈希表来统计转换后的每一行，如果最后哈希表只有一个元素，那么说明我们可以通过翻转行或列，将矩阵中所有的 $1$ 去除。
-
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m)$。其中 $m$ 和 $n$ 分别是矩阵的行数和列数。
-
-相似题目：
-
--   [1072. 按列翻转得到最大值等行数](https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1072.Flip%20Columns%20For%20Maximum%20Number%20of%20Equal%20Rows/README.md)
+### Solution 1
 
 <!-- tabs:start -->
 

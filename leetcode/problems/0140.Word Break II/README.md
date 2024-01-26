@@ -1,56 +1,51 @@
-# [140. 单词拆分 II](https://leetcode.cn/problems/word-break-ii)
+# [140. Word Break II](https://leetcode.com/problems/word-break-ii)
 
-[English Version](/solution/0100-0199/0140.Word%20Break%20II/README_EN.md)
+[中文文档](/solution/0100-0199/0140.Word%20Break%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>
 
-<p>给定一个字符串 <code>s</code> 和一个字符串字典<meta charset="UTF-8" />&nbsp;<code>wordDict</code>&nbsp;，在字符串<meta charset="UTF-8" />&nbsp;<code>s</code>&nbsp;中增加空格来构建一个句子，使得句子中所有的单词都在词典中。<strong>以任意顺序</strong> 返回所有这些可能的句子。</p>
-
-<p><strong>注意：</strong>词典中的同一个单词可能在分段中被重复使用多次。</p>
+<p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong>s = "<code>catsanddog</code>", wordDict = <code>["cat","cats","and","sand","dog"]</code>
-<strong>输出:</strong><code>["cats and dog","cat sand dog"]</code>
+<strong>Input:</strong> s = &quot;catsanddog&quot;, wordDict = [&quot;cat&quot;,&quot;cats&quot;,&quot;and&quot;,&quot;sand&quot;,&quot;dog&quot;]
+<strong>Output:</strong> [&quot;cats and dog&quot;,&quot;cat sand dog&quot;]
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong>s = "pineapplepenapple", wordDict = ["apple","pen","applepen","pine","pineapple"]
-<strong>输出:</strong>["pine apple pen apple","pineapple pen apple","pine applepen apple"]
-<strong>解释:</strong> 注意你可以重复使用字典中的单词。
+<strong>Input:</strong> s = &quot;pineapplepenapple&quot;, wordDict = [&quot;apple&quot;,&quot;pen&quot;,&quot;applepen&quot;,&quot;pine&quot;,&quot;pineapple&quot;]
+<strong>Output:</strong> [&quot;pine apple pen apple&quot;,&quot;pineapple pen apple&quot;,&quot;pine applepen apple&quot;]
+<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.
 </pre>
 
-<p><strong class="example">示例&nbsp;3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong>s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
-<strong>输出:</strong>[]
+<strong>Input:</strong> s = &quot;catsandog&quot;, wordDict = [&quot;cats&quot;,&quot;dog&quot;,&quot;sand&quot;,&quot;and&quot;,&quot;cat&quot;]
+<strong>Output:</strong> []
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<p><meta charset="UTF-8" /></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 20</code></li>
 	<li><code>1 &lt;= wordDict.length &lt;= 1000</code></li>
 	<li><code>1 &lt;= wordDict[i].length &lt;= 10</code></li>
-	<li><code>s</code>&nbsp;和&nbsp;<code>wordDict[i]</code>&nbsp;仅有小写英文字母组成</li>
-	<li><code>wordDict</code>&nbsp;中所有字符串都 <strong>不同</strong></li>
+	<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>
+	<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>
+	<li>Input is generated in a way that the length of the answer doesn&#39;t exceed&nbsp;10<sup>5</sup>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀树 + DFS
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [579. 查询员工的累计薪水](https://leetcode.cn/problems/find-cumulative-salary-of-an-employee)
+# [579. Find Cumulative Salary of an Employee](https://leetcode.com/problems/find-cumulative-salary-of-an-employee)
 
-[English Version](/solution/0500-0599/0579.Find%20Cumulative%20Salary%20of%20an%20Employee/README_EN.md)
+[中文文档](/solution/0500-0599/0579.Find%20Cumulative%20Salary%20of%20an%20Employee/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表：<code>Employee</code></p>
+<p>Table: <code>Employee</code></p>
 
 <pre>
 +-------------+------+
@@ -16,32 +14,31 @@
 | month       | int  |
 | salary      | int  |
 +-------------+------+
-(id, month) 是该表的主键(具有唯一值的列的组合)。
-表中的每一行表示 2020 年期间员工一个月的工资。
+(id, month) is the primary key (combination of columns with unique values) for this table.
+Each row in the table indicates the salary of an employee in one month during the year 2020.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写一个解决方案，在一个统一的表中计算出每个员工的 <strong>累计工资汇总</strong> 。</p>
+<p>Write a solution&nbsp;to calculate the <strong>cumulative salary summary</strong> for every employee in a single unified table.</p>
 
-<p>员工的 <strong>累计工资汇总</strong> 可以计算如下:</p>
+<p>The <strong>cumulative salary summary</strong> for an employee can be calculated as follows:</p>
 
 <ul>
-	<li>对于该员工工作的每个月，将 <strong>该月</strong> 和 <strong>前两个月</strong> 的工资 <strong>加</strong> 起来。这是他们当月的 <strong>3 个月总工资</strong><strong>和</strong> 。如果员工在前几个月没有为公司工作，那么他们在前几个月的有效工资为 <code>0</code> 。</li>
-	<li><strong>不要</strong> 在摘要中包括员工 <strong>最近一个月</strong> 的 3 个月总工资和。</li>
-	<li><strong>不要</strong> 包括雇员 <strong>没有工作</strong> 的任何一个月的 3 个月总工资和。</li>
+	<li>For each month that the employee worked, <strong>sum</strong> up the salaries in <strong>that month</strong> and the <strong>previous two months</strong>. This is their <strong>3-month sum</strong> for that month. If an employee did not work for the company in previous months, their effective salary for those months is <code>0</code>.</li>
+	<li>Do <strong>not</strong> include the 3-month sum for the <strong>most recent month</strong> that the employee worked for in the summary.</li>
+	<li>Do <strong>not</strong> include the 3-month sum for any month the employee <strong>did not work</strong>.</li>
 </ul>
 
-<p>返回按 <code>id</code> <strong>升序排序&nbsp;</strong>的结果表。如果 <code>id</code> 相等，请按 <code>month</code> <strong>降序排序</strong>。</p>
+<p>Return the result table ordered by <code>id</code> in <strong>ascending order</strong>. In case of a tie, order it by <code>month</code> in <strong>descending order</strong>.</p>
 
-<p>结果格式如下所示。</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b>
+<strong>Input:</strong> 
 Employee table:
 +----+-------+--------+
 | id | month | salary |
@@ -58,7 +55,7 @@ Employee table:
 | 1  | 7     | 90     |
 | 1  | 8     | 90     |
 +----+-------+--------+
-<b>输出：</b>
+<strong>Output:</strong> 
 +----+-------+--------+
 | id | month | Salary |
 +----+-------+--------+
@@ -71,14 +68,14 @@ Employee table:
 | 3  | 3     | 100    |
 | 3  | 2     | 40     |
 +----+-------+--------+
-<b>解释：</b>
-员工 “1” 有 5 条工资记录，不包括最近一个月的 “8”:
-- 第 '7' 个月为 90。
-- 第 '4' 个月为 60。
-- 第 '3' 个月是 40。
-- 第 '2' 个月为 30。
-- 第 '1' 个月为 20。
-因此，该员工的累计工资汇总为:
+<strong>Explanation:</strong> 
+Employee &#39;1&#39; has five salary records excluding their most recent month &#39;8&#39;:
+- 90 for month &#39;7&#39;.
+- 60 for month &#39;4&#39;.
+- 40 for month &#39;3&#39;.
+- 30 for month &#39;2&#39;.
+- 20 for month &#39;1&#39;.
+So the cumulative salary summary for this employee is:
 +----+-------+--------+
 | id | month | salary |
 +----+-------+--------+
@@ -88,29 +85,30 @@ Employee table:
 | 1  | 2     | 50     |  (30 + 20 + 0)
 | 1  | 1     | 20     |  (20 + 0 + 0)
 +----+-------+--------+
-请注意，'7' 月的 3 个月的总和是 90，因为他们没有在 '6' 月或 '5' 月工作。
+Note that the 3-month sum for month &#39;7&#39; is 90 because they did not work during month &#39;6&#39; or month &#39;5&#39;.
 
-员工 '2' 只有一个工资记录('1' 月)，不包括最近的 '2' 月。
+Employee &#39;2&#39; only has one salary record (month &#39;1&#39;) excluding their most recent month &#39;2&#39;.
 +----+-------+--------+
 | id | month | salary |
 +----+-------+--------+
 | 2  | 1     | 20     |  (20 + 0 + 0)
 +----+-------+--------+
 
-员工 '3' 有两个工资记录，不包括最近一个月的 '4' 月:
-- 第 '3' 个月为 60 。
-- 第 '2' 个月是 40。
-因此，该员工的累计工资汇总为:
+Employee &#39;3&#39; has two salary records excluding their most recent month &#39;4&#39;:
+- 60 for month &#39;3&#39;.
+- 40 for month &#39;2&#39;.
+So the cumulative salary summary for this employee is:
 +----+-------+--------+
 | id | month | salary |
 +----+-------+--------+
 | 3  | 3     | 100    |  (60 + 40 + 0)
 | 3  | 2     | 40     |  (40 + 0 + 0)
-+----+-------+--------+</pre>
++----+-------+--------+
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -138,7 +136,7 @@ ORDER BY id, month DESC;
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,53 +1,41 @@
-# [283. 移动零](https://leetcode.cn/problems/move-zeroes)
+# [283. Move Zeroes](https://leetcode.com/problems/move-zeroes)
 
-[English Version](/solution/0200-0299/0283.Move%20Zeroes/README_EN.md)
+[中文文档](/solution/0200-0299/0283.Move%20Zeroes/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code>, move all <code>0</code>&#39;s to the end of it while maintaining the relative order of the non-zero elements.</p>
 
-<p>给定一个数组 <code>nums</code>，编写一个函数将所有 <code>0</code> 移动到数组的末尾，同时保持非零元素的相对顺序。</p>
-
-<p><strong>请注意</strong>&nbsp;，必须在不复制数组的情况下原地对数组进行操作。</p>
+<p><strong>Note</strong> that you must do this in-place without making a copy of the array.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = <code>[0,1,0,3,12]</code>
-<strong>输出:</strong> <code>[1,3,12,0,0]</code>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [0,1,0,3,12]
+<strong>Output:</strong> [1,3,12,0,0]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [0]
+<strong>Output:</strong> [0]
 </pre>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入:</strong> nums = <code>[0]</code>
-<strong>输出:</strong> <code>[0]</code></pre>
-
 <p>&nbsp;</p>
-
-<p><strong>提示</strong>:</p>
-<meta charset="UTF-8" />
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-2<sup>31</sup>&nbsp;&lt;= nums[i] &lt;= 2<sup>31</sup>&nbsp;- 1</code></li>
+	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
 </ul>
 
 <p>&nbsp;</p>
+<strong>Follow up:</strong> Could you minimize the total number of operations done?
 
-<p><b>进阶：</b>你能尽量减少完成的操作次数吗？</p>
+## Solutions
 
-## 解法
+### Solution 1: Two Pointers
 
-### 方法一：双指针
+We use two pointers $i$ and $j$, where pointer $i$ points to the end of the sequence that has been processed, and pointer $j$ points to the head of the sequence to be processed. Initially, $i=-1$.
 
-我们使用两个指针 $i$ 和 $j$，其中指针 $i$ 指向当前已经处理好的序列的尾部，而指针 $j$ 指向待处理序列的头部。初始时 $i=-1$。
+Next, we traverse $j \in [0,n)$, if $nums[j] \neq 0$, then we swap the next number pointed by pointer $i$ with $nums[j]$, and move $i$ forward. Continue to traverse until $j$ reaches the end of the array, all non-zero elements of the array are moved to the front of the array in the original order, and all zero elements are moved to the end of the array.
 
-接下来，我们遍历 $j \in [0,n)$，如果 $nums[j] \neq 0$，那么我们就将指针 $i$ 指向的下一个数与 $nums[j]$ 交换，同时将 $i$ 后移。继续遍历，直至 $j$ 到达数组的尾部，该数组的所有非零元素就按照原有顺序被移动到数组的头部，而所有零元素都被移动到了数组的尾部。
-
-时间复杂度 $O(n)$，其中 $n$ 是数组 $nums$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

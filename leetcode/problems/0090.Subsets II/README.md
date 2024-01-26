@@ -1,59 +1,44 @@
-# [90. 子集 II](https://leetcode.cn/problems/subsets-ii)
+# [90. Subsets II](https://leetcode.com/problems/subsets-ii)
 
-[English Version](/solution/0000-0099/0090.Subsets%20II/README_EN.md)
+[中文文档](/solution/0000-0099/0090.Subsets%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>nums</code> that may contain duplicates, return <em>all possible</em> <span data-keyword="subset"><em>subsets</em></span><em> (the power set)</em>.</p>
 
-<p>给你一个整数数组 <code>nums</code> ，其中可能包含重复元素，请你返回该数组所有可能的子集（幂集）。</p>
+<p>The solution set <strong>must not</strong> contain duplicate subsets. Return the solution in <strong>any order</strong>.</p>
 
-<p>解集 <strong>不能</strong> 包含重复的子集。返回的解集中，子集可以按 <strong>任意顺序</strong> 排列。</p>
-
-<div class="original__bRMd">
-<div>
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [1,2,2]
-<strong>输出：</strong>[[],[1],[1,2],[1,2,2],[2],[2,2]]
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,2]
+<strong>Output:</strong> [[],[1],[1,2],[1,2,2],[2],[2,2]]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [0]
+<strong>Output:</strong> [[],[0]]
 </pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>nums = [0]
-<strong>输出：</strong>[[],[0]]
-</pre>
-
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= nums.length <= 10</code></li>
-	<li><code>-10 <= nums[i] <= 10</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
+	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
 </ul>
-</div>
-</div>
 
-## 解法
+## Solutions
 
-### 方法一：排序 + DFS
+### Solution 1: Sorting + DFS
 
-我们可以先对数组 $nums$ 进行排序，方便去重。
+We can first sort the array $nums$ to facilitate deduplication.
 
-然后，我们设计一个函数 $dfs(i)$，表示当前从第 $i$ 个元素开始搜索子集。函数 $dfs(i)$ 的执行逻辑如下：
+Then, we design a function $dfs(i)$, which represents searching for subsets starting from the $i$-th element. The execution logic of the function $dfs(i)$ is as follows:
 
-如果 $i \geq n$，说明已经搜索完所有元素，将当前子集加入答案数组中，递归结束。
+If $i \geq n$, it means that all elements have been searched, and the current subset is added to the answer array, and the recursion ends.
 
-如果 $i < n$，将第 $i$ 个元素加入子集，执行 $dfs(i + 1)$，然后将第 $i$ 个元素从子集中移除。接下来，我们判断第 $i$ 个元素是否和下一个元素相同，如果相同，则循环跳过该元素，直到找到第一个和第 $i$ 个元素不同的元素，执行 $dfs(i + 1)$。
+If $i < n$, add the $i$-th element to the subset, execute $dfs(i + 1)$, and then remove the $i$-th element from the subset. Next, we judge whether the $i$-th element is the same as the next element. If it is the same, we loop to skip this element until we find the first element that is different from the $i$-th element, and execute $dfs(i + 1)$.
 
-最后，我们只需要调用 $dfs(0)$，返回答案数组即可。
+Finally, we only need to call $dfs(0)$ and return the answer array.
 
-时间复杂度 $O(n \times 2^n)$，空间复杂度 $O(n)$。其中 $n$ 是数组的长度。
+The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array.
 
 <!-- tabs:start -->
 
@@ -213,15 +198,15 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二：排序 + 二进制枚举
+### Solution 2: Sorting + Binary Enumeration
 
-与方法一类似，我们先对数组 $nums$ 进行排序，方便去重。
+Similar to Solution 1, we first sort the array $nums$ to facilitate deduplication.
 
-接下来，我们在 $[0, 2^n)$ 的范围内枚举一个二进制数 $mask$，其中 $mask$ 的二进制表示是一个 $n$ 位的位串，如果 $mask$ 的第 $i$ 位为 $1$，表示选择 $nums[i]$，为 $0$ 表示不选择 $nums[i]$。注意，如果 $mask$ 的 $i - 1$ 位为 $0$，且 $nums[i] = nums[i - 1]$，则说明在当前枚举到的方案中，第 $i$ 个元素和第 $i - 1$ 个元素相同，为了避免重复，我们跳过这种情况。否则，我们将 $mask$ 对应的子集加入答案数组中。
+Next, we enumerate a binary number $mask$ in the range of $[0, 2^n)$, where the binary representation of $mask$ is an $n$-bit bit string. If the $i$-th bit of $mask$ is $1$, it means to select $nums[i]$, and $0$ means not to select $nums[i]$. Note that if the $i - 1$ bit of $mask$ is $0$, and $nums[i] = nums[i - 1]$, it means that in the current enumerated scheme, the $i$-th element and the $i - 1$-th element are the same. To avoid repetition, we skip this situation. Otherwise, we add the subset corresponding to $mask$ to the answer array.
 
-枚举结束后，我们返回答案数组即可。
+After the enumeration ends, we return the answer array.
 
-时间复杂度 $O(n \times 2^n)$，空间复杂度 $O(n)$。其中 $n$ 是数组的长度。
+The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the array.
 
 <!-- tabs:start -->
 

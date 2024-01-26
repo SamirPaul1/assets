@@ -1,52 +1,48 @@
-# [364. 嵌套列表加权和 II](https://leetcode.cn/problems/nested-list-weight-sum-ii)
+# [364. Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii)
 
-[English Version](/solution/0300-0399/0364.Nested%20List%20Weight%20Sum%20II/README_EN.md)
+[中文文档](/solution/0300-0399/0364.Nested%20List%20Weight%20Sum%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a nested list of integers <code>nestedList</code>. Each element is either an integer or a list whose elements may also be integers or other lists.</p>
 
-<p>给你一个整数嵌套列表&nbsp;<code>nestedList</code> ，每一个元素要么是一个整数，要么是一个列表（这个列表中的每个元素也同样是整数或列表）。</p>
+<p>The <strong>depth</strong> of an integer is the number of lists that it is inside of. For example, the nested list <code>[1,[2,2],[[3],2],1]</code> has each integer&#39;s value set to its <strong>depth</strong>. Let <code>maxDepth</code> be the <strong>maximum depth</strong> of any integer.</p>
 
-<p>整数的 <strong>深度</strong> 取决于它位于多少个列表内部。例如，嵌套列表 <code>[1,[2,2],[[3],2],1]</code> 的每个整数的值都等于它的 <strong>深度</strong> 。令 <code>maxDepth</code> 是任意整数的 <strong>最大深度</strong> 。</p>
+<p>The <strong>weight</strong> of an integer is <code>maxDepth - (the depth of the integer) + 1</code>.</p>
 
-<p>整数的 <strong>权重</strong> 为 <code>maxDepth - (整数的深度) + 1</code> 。</p>
-
-<p>将 <code>nestedList</code> 列表中每个整数先乘权重再求和，返回该加权和。</p>
+<p>Return <em>the sum of each integer in </em><code>nestedList</code><em> multiplied by its <strong>weight</strong></em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0364.Nested%20List%20Weight%20Sum%20II/images/nestedlistweightsumiiex1.png" style="width: 426px; height: 181px;" />
 <pre>
-<strong>输入：</strong>nestedList = [[1,1],2,[1,1]]
-<strong>输出：</strong>8
-<strong>解释：</strong>4<strong> </strong>个 1 在深度为 1 的位置， 一个 2 在深度为 2 的位置。
+<strong>Input:</strong> nestedList = [[1,1],2,[1,1]]
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> Four 1&#39;s with a weight of 1, one 2 with a weight of 2.
 1*1 + 1*1 + 2*2 + 1*1 + 1*1 = 8
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0364.Nested%20List%20Weight%20Sum%20II/images/nestedlistweightsumiiex2.png" style="width: 349px; height: 192px;" />
 <pre>
-<strong>输入：</strong>nestedList = [1,[4,[6]]]
-<strong>输出：</strong>17
-<strong>解释：</strong>一个 1 在深度为 3 的位置， 一个 4 在深度为 2 的位置，一个 6 在深度为 1 的位置。 
+<strong>Input:</strong> nestedList = [1,[4,[6]]]
+<strong>Output:</strong> 17
+<strong>Explanation:</strong> One 1 at depth 3, one 4 at depth 2, and one 6 at depth 1.
 1*3 + 4*2 + 6*1 = 17
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nestedList.length &lt;= 50</code></li>
-	<li>嵌套列表中整数的值在范围 <code>[-100, 100]</code></li>
-	<li>任意整数的最大 <strong>深度</strong> 小于等于 <code>50</code></li>
+	<li>The values of the integers in the nested list is in the range <code>[-100, 100]</code>.</li>
+	<li>The maximum <strong>depth</strong> of any integer is less than or equal to <code>50</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

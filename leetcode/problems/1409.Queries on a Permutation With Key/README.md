@@ -1,52 +1,48 @@
-# [1409. 查询带键的排列](https://leetcode.cn/problems/queries-on-a-permutation-with-key)
+# [1409. Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key)
 
-[English Version](/solution/1400-1499/1409.Queries%20on%20a%20Permutation%20With%20Key/README_EN.md)
+[中文文档](/solution/1400-1499/1409.Queries%20on%20a%20Permutation%20With%20Key/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个正整数数组&nbsp;<code>queries</code> ，其取值范围在&nbsp;<code>1</code> 到 <code>m</code> 之间。 请你根据以下规则按顺序处理所有&nbsp;<code>queries[i]</code>（从 <code>i=0</code> 到 <code>i=queries.length-1</code>）：</p>
+<p>Given the array <code>queries</code> of positive integers between <code>1</code> and <code>m</code>, you have to process all <code>queries[i]</code> (from <code>i=0</code> to <code>i=queries.length-1</code>) according to the following rules:</p>
 
 <ul>
-	<li>首先，你有一个排列&nbsp;<code>P=[1,2,3,...,m]</code>。</li>
-	<li>对于当前的 <code>i</code> ，找到&nbsp;<code>queries[i]</code> 在排列 <code>P</code> 中的位置（<b>从 0 开始索引</b>），然后将它移到排列&nbsp;<code>P</code> 的开头（即下标为 0 处）。注意， <code>queries[i]</code>&nbsp;的查询结果是 <code>queries[i]</code> 在 <code>P</code> 中移动前的位置。</li>
+	<li>In the beginning, you have the permutation <code>P=[1,2,3,...,m]</code>.</li>
+	<li>For the current <code>i</code>, find the position of <code>queries[i]</code> in the permutation <code>P</code> (<strong>indexing from 0</strong>) and then move this at the beginning of the permutation <code>P</code>. Notice that the position of <code>queries[i]</code> in <code>P</code> is the result for <code>queries[i]</code>.</li>
 </ul>
 
-<p>返回一个数组，包含从给定 &nbsp;<code>queries</code>&nbsp;中查询到的结果。</p>
+<p>Return an array containing the result for the given <code>queries</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>queries = [3,1,2,1], m = 5
-<strong>输出：</strong>[2,1,2,1] 
-<strong>解释：处理</strong> queries 的过程如下：
-对于 i=0: queries[i]=3, P=[1,2,3,4,5], 3 在 P 中的位置是 <strong>2</strong>，然后我们把 3 移动到 P 的开头，得到 P=[3,1,2,4,5] 。
-对于 i=1: queries[i]=1, P=[3,1,2,4,5], 1 在 P 中的位置是 <strong>1</strong>，然后我们把 1 移动到 P 的开头，得到 P=[1,3,2,4,5] 。 
-对于 i=2: queries[i]=2, P=[1,3,2,4,5], 2 在 P 中的位置是 <strong>2</strong>，然后我们把 2 移动到 P 的开头，得到 P=[2,1,3,4,5] 。
-对于 i=3: queries[i]=1, P=[2,1,3,4,5], 1 在 P 中的位置是 <strong>1</strong>，然后我们把 1 移动到 P 的开头，得到 P=[1,2,3,4,5] 。 
-因此，包含结果的数组为 [2,1,2,1] 。  
+<strong>Input:</strong> queries = [3,1,2,1], m = 5
+<strong>Output:</strong> [2,1,2,1] 
+<strong>Explanation:</strong> The queries are processed as follow: 
+For i=0: queries[i]=3, P=[1,2,3,4,5], position of 3 in P is <strong>2</strong>, then we move 3 to the beginning of P resulting in P=[3,1,2,4,5]. 
+For i=1: queries[i]=1, P=[3,1,2,4,5], position of 1 in P is <strong>1</strong>, then we move 1 to the beginning of P resulting in P=[1,3,2,4,5]. 
+For i=2: queries[i]=2, P=[1,3,2,4,5], position of 2 in P is <strong>2</strong>, then we move 2 to the beginning of P resulting in P=[2,1,3,4,5]. 
+For i=3: queries[i]=1, P=[2,1,3,4,5], position of 1 in P is <strong>1</strong>, then we move 1 to the beginning of P resulting in P=[1,2,3,4,5]. 
+Therefore, the array containing the result is [2,1,2,1].  
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>queries = [4,1,2,2], m = 4
-<strong>输出：</strong>[3,1,2,0]
+<strong>Input:</strong> queries = [4,1,2,2], m = 4
+<strong>Output:</strong> [3,1,2,0]
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>queries = [7,5,5,8,3], m = 8
-<strong>输出：</strong>[6,5,0,7,5]
+<strong>Input:</strong> queries = [7,5,5,8,3], m = 8
+<strong>Output:</strong> [6,5,0,7,5]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= m &lt;= 10^3</code></li>
@@ -54,26 +50,9 @@
 	<li><code>1 &lt;= queries[i] &lt;= m</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
-
-题目数据规模不大，可以直接模拟。
-
-**方法一：树状数组**
-
-树状数组，也称作“二叉索引树”（Binary Indexed Tree）或 Fenwick 树。 它可以高效地实现如下两个操作：
-
-1. **单点更新** `update(x, delta)`： 把序列 x 位置的数加上一个值 delta；
-1. **前缀和查询** `query(x)`：查询序列 `[1,...x]` 区间的区间和，即位置 x 的前缀和。
-
-这两个操作的时间复杂度均为 $O(\log n)$。
-
-树状数组最基本的功能就是求比某点 x 小的点的个数（这里的比较是抽象的概念，可以是数的大小、坐标的大小、质量的大小等等）。
-
-比如给定数组 `a[5] = {2, 5, 3, 4, 1}`，求 `b[i] = 位置 i 左边小于等于 a[i] 的数的个数`。对于此例，`b[5] = {0, 1, 1, 2, 0}`。
-
-解决方案是直接遍历数组，每个位置先求出 `query(a[i])`，然后再修改树状数组 `update(a[i], 1)` 即可。当数的范围比较大时，需要进行离散化，即先进行去重并排序，然后对每个数字进行编号。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -159,7 +138,7 @@ func processQueries(queries []int, m int) []int {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

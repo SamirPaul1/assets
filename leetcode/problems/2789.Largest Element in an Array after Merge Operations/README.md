@@ -1,56 +1,54 @@
-# [2789. 合并后数组中的最大元素](https://leetcode.cn/problems/largest-element-in-an-array-after-merge-operations)
+# [2789. Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations)
 
-[English Version](/solution/2700-2799/2789.Largest%20Element%20in%20an%20Array%20after%20Merge%20Operations/README_EN.md)
+[中文文档](/solution/2700-2799/2789.Largest%20Element%20in%20an%20Array%20after%20Merge%20Operations/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> array <code>nums</code> consisting of positive integers.</p>
 
-<p>给你一个下标从 <strong>0</strong> 开始、由正整数组成的数组 <code>nums</code> 。</p>
-
-<p>你可以在数组上执行下述操作 <strong>任意</strong> 次：</p>
+<p>You can do the following operation on the array <strong>any</strong> number of times:</p>
 
 <ul>
-	<li>选中一个同时满足&nbsp;<code>0 &lt;= i &lt; nums.length - 1</code> 和 <code>nums[i] &lt;= nums[i + 1]</code> 的整数 <code>i</code> 。将元素 <code>nums[i + 1]</code> 替换为 <code>nums[i] + nums[i + 1]</code> ，并从数组中删除元素 <code>nums[i]</code> 。</li>
+	<li>Choose an integer <code>i</code> such that <code>0 &lt;= i &lt; nums.length - 1</code> and <code>nums[i] &lt;= nums[i + 1]</code>. Replace the element <code>nums[i + 1]</code> with <code>nums[i] + nums[i + 1]</code> and delete the element <code>nums[i]</code> from the array.</li>
 </ul>
 
-<p>返回你可以从最终数组中获得的 <strong>最大</strong> 元素的值。</p>
+<p>Return <em>the value of the <b>largest</b> element that you can possibly obtain in the final array.</em></p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>nums = [2,3,7,9,3]
-<strong>输出：</strong>21
-<strong>解释：</strong>我们可以在数组上执行下述操作：
-- 选中 i = 0 ，得到数组 nums = [<strong><em>5</em></strong>,7,9,3] 。
-- 选中 i = 1 ，得到数组 nums = [5,<em><strong>16</strong></em>,3] 。
-- 选中 i = 0 ，得到数组 nums = [<em><strong>21</strong></em>,3] 。
-最终数组中的最大元素是 21 。可以证明我们无法获得更大的元素。
+<pre>
+<strong>Input:</strong> nums = [2,3,7,9,3]
+<strong>Output:</strong> 21
+<strong>Explanation:</strong> We can apply the following operations on the array:
+- Choose i = 0. The resulting array will be nums = [<u>5</u>,7,9,3].
+- Choose i = 1. The resulting array will be nums = [5,<u>16</u>,3].
+- Choose i = 0. The resulting array will be nums = [<u>21</u>,3].
+The largest element in the final array is 21. It can be shown that we cannot obtain a larger element.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [5,3,3]
-<strong>输出：</strong>11
-<strong>解释：</strong>我们可以在数组上执行下述操作：
-- 选中 i = 1 ，得到数组 nums = [5,<em><strong>6</strong></em>] 。
-- 选中 i = 0 ，得到数组 nums = [<em><strong>11</strong></em>] 。
-最终数组中只有一个元素，即 11 。
+<pre>
+<strong>Input:</strong> nums = [5,3,3]
+<strong>Output:</strong> 11
+<strong>Explanation:</strong> We can do the following operations on the array:
+- Choose i = 1. The resulting array will be nums = [5,<u>6</u>].
+- Choose i = 0. The resulting array will be nums = [<u>11</u>].
+There is only one element in the final array, which is 11.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

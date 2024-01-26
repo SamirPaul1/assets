@@ -1,12 +1,10 @@
-# [1459. 矩形面积](https://leetcode.cn/problems/rectangles-area)
+# [1459. Rectangles Area](https://leetcode.com/problems/rectangles-area)
 
-[English Version](/solution/1400-1499/1459.Rectangles%20Area/README_EN.md)
+[中文文档](/solution/1400-1499/1459.Rectangles%20Area/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Points</code></p>
+<p>Table: <code>Points</code></p>
 
 <pre>
 +---------------+---------+
@@ -16,33 +14,30 @@
 | x_value       | int     |
 | y_value       | int     |
 +---------------+---------+
-id 是该表中具有唯一值的列。
-每个点都用二维坐标 (x_value, y_value) 表示。</pre>
+id is the column with unique values for this table.
+Each point is represented as a 2D coordinate (x_value, y_value).</pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案，报告由表中任意两点可以形成的所有<strong> 边与坐标轴平行 </strong>且 <strong>面积不为零</strong> 的矩形。</p>
+<p>Write a solution to report all possible <strong>axis-aligned</strong> rectangles with a <strong>non-zero area</strong> that can be formed by any two points from the <code>Points</code> table.</p>
 
-<p>结果表中的每一行包含三列 <code>(p1, p2, area)</code>&nbsp;如下:</p>
+<p>Each row in the result should contain three columns <code>(p1, p2, area)</code> where:</p>
 
 <ul>
-	<li><code>p1</code>&nbsp;和&nbsp;<code>p2</code>&nbsp;是矩形两个对角的 <code>id</code></li>
-	<li>矩形的面积由列&nbsp;<code>area</code><strong>&nbsp;</strong>表示</li>
+	<li><code>p1</code> and <code>p2</code> are the <code>id</code>&#39;s of the two points that determine the opposite corners of a rectangle.</li>
+	<li><code>area</code> is the area of the rectangle and must be <strong>non-zero</strong>.</li>
 </ul>
 
-<p>返回结果表请按照面积&nbsp;<code>area</code> 大小 <strong>降序排列</strong>；如果面积相同的话, 则按照&nbsp;<code>p1</code>&nbsp;<strong>升序排序</strong>；若仍相同，则按 <code>p2</code> <strong>升序排列</strong>。</p>
+<p>Return the result table <strong>ordered</strong> by <code>area</code> <strong>in descending order</strong>. If there is a tie, order them by <code>p1</code> <strong>in ascending order</strong>. If there is still a tie, order them by <code>p2</code> <strong>in ascending order</strong>.</p>
 
-<p>返回结果格式如下例所示：</p>
+<p>The&nbsp;result format is in the following table.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1459.Rectangles%20Area/images/rect.png" style="width: 200px; height: 330px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1459.Rectangles%20Area/images/rect.png" style="width: 303px; height: 500px;" />
 <pre>
-<strong>输入：</strong>
-Points 表:
+<strong>Input:</strong> 
+Points table:
 +----------+-------------+-------------+
 | id       | x_value     | y_value     |
 +----------+-------------+-------------+
@@ -50,22 +45,22 @@ Points 表:
 | 2        | 4           | 8           |
 | 3        | 2           | 10          |
 +----------+-------------+-------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +----------+-------------+-------------+
 | p1       | p2          | area        |
 +----------+-------------+-------------+
 | 2        | 3           | 4           |
 | 1        | 2           | 2           |
 +----------+-------------+-------------+
-<strong>解释：</strong>
-p1 = 2 且 p2 = 3 时, 面积等于 |4-2| * |8-10| = 4
-p1 = 1 且 p2 = 2 时, 面积等于 ||2-4| * |7-8| = 2 
-p1 = 1 且 p2 = 3 时, 是不可能为矩形的, 面积等于 0
+<strong>Explanation:</strong> 
+The rectangle formed by p1 = 2 and p2 = 3 has an area equal to |4-2| * |8-10| = 4.
+The rectangle formed by p1 = 1 and p2 = 2 has an area equal to |2-4| * |7-8| = 2.
+Note that the rectangle formed by p1 = 1 and p2 = 3 is invalid because the area is 0.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

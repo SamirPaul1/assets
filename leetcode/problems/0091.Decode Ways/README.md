@@ -1,79 +1,76 @@
-# [91. 解码方法](https://leetcode.cn/problems/decode-ways)
+# [91. Decode Ways](https://leetcode.com/problems/decode-ways)
 
-[English Version](/solution/0000-0099/0091.Decode%20Ways/README_EN.md)
+[中文文档](/solution/0000-0099/0091.Decode%20Ways/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>一条包含字母&nbsp;<code>A-Z</code> 的消息通过以下映射进行了 <strong>编码</strong> ：</p>
+<p>A message containing letters from <code>A-Z</code> can be <strong>encoded</strong> into numbers using the following mapping:</p>
 
 <pre>
-'A' -&gt; "1"
-'B' -&gt; "2"
+&#39;A&#39; -&gt; &quot;1&quot;
+&#39;B&#39; -&gt; &quot;2&quot;
 ...
-'Z' -&gt; "26"</pre>
+&#39;Z&#39; -&gt; &quot;26&quot;
+</pre>
 
-<p>要 <strong>解码</strong> 已编码的消息，所有数字必须基于上述映射的方法，反向映射回字母（可能有多种方法）。例如，<code>"11106"</code> 可以映射为：</p>
+<p>To <strong>decode</strong> an encoded message, all the digits must be grouped then mapped back into letters using the reverse of the mapping above (there may be multiple ways). For example, <code>&quot;11106&quot;</code> can be mapped into:</p>
 
 <ul>
-	<li><code>"AAJF"</code> ，将消息分组为 <code>(1 1 10 6)</code></li>
-	<li><code>"KJF"</code> ，将消息分组为 <code>(11 10 6)</code></li>
+	<li><code>&quot;AAJF&quot;</code> with the grouping <code>(1 1 10 6)</code></li>
+	<li><code>&quot;KJF&quot;</code> with the grouping <code>(11 10 6)</code></li>
 </ul>
 
-<p>注意，消息不能分组为&nbsp; <code>(1 11 06)</code> ，因为 <code>"06"</code> 不能映射为 <code>"F"</code> ，这是由于 <code>"6"</code> 和 <code>"06"</code> 在映射中并不等价。</p>
+<p>Note that the grouping <code>(1 11 06)</code> is invalid because <code>&quot;06&quot;</code> cannot be mapped into <code>&#39;F&#39;</code> since <code>&quot;6&quot;</code> is different from <code>&quot;06&quot;</code>.</p>
 
-<p>给你一个只含数字的 <strong>非空 </strong>字符串 <code>s</code> ，请计算并返回 <strong>解码</strong> 方法的 <strong>总数</strong> 。</p>
+<p>Given a string <code>s</code> containing only digits, return <em>the <strong>number</strong> of ways to <strong>decode</strong> it</em>.</p>
 
-<p>题目数据保证答案肯定是一个 <strong>32 位</strong> 的整数。</p>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "12"
-<strong>输出：</strong>2
-<strong>解释：</strong>它可以解码为 "AB"（1 2）或者 "L"（12）。
-</pre>
-
-<p><strong>示例 2：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "226"
-<strong>输出：</strong>3
-<strong>解释：</strong>它可以解码为 "BZ" (2 26), "VF" (22 6), 或者 "BBF" (2 2 6) 。
-</pre>
-
-<p><strong>示例 3：</strong></p>
-
-<pre>
-<strong>输入：</strong>s = "06"
-<strong>输出：</strong>0
-<strong>解释：</strong>"06" 无法映射到 "F" ，因为存在前导零（"6" 和 "06" 并不等价）。
-</pre>
+<p>The test cases are generated so that the answer fits in a <strong>32-bit</strong> integer.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>提示：</strong></p>
+<pre>
+<strong>Input:</strong> s = &quot;12&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> &quot;12&quot; could be decoded as &quot;AB&quot; (1 2) or &quot;L&quot; (12).
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;226&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> &quot;226&quot; could be decoded as &quot;BZ&quot; (2 26), &quot;VF&quot; (22 6), or &quot;BBF&quot; (2 2 6).
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> s = &quot;06&quot;
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> &quot;06&quot; cannot be mapped to &quot;F&quot; because of the leading zero (&quot;6&quot; is different from &quot;06&quot;).
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 100</code></li>
-	<li><code>s</code> 只包含数字，并且可能包含前导零。</li>
+	<li><code>s</code> contains only digits and may contain leading zero(s).</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：动态规划
+### Solution 1: Dynamic Programming
 
-我们定义 $f[i]$ 表示字符串的前 $i$ 个字符的解码方法数，初始时 $f[0]=1$，其余 $f[i]=0$。
+We define $f[i]$ to represent the number of decoding methods for the first $i$ characters of the string. Initially, $f[0]=1$, and the rest $f[i]=0$.
 
-考虑 $f[i]$ 如何进行状态转移。
+Consider how $f[i]$ transitions.
 
--   如果第 $i$ 个字符（即 $s[i-1]$）单独形成编码，那么它对应一种解码方式，即 $f[i]=f[i-1]$。前提是 $s[i-1] \neq 0$。
--   如果第 $i-1$ 个字符和第 $i$ 个字符组成的字符串在 $[1,26]$ 范围内，那么它们可以作为一个整体，对应一种解码方式，即 $f[i] = f[i] + f[i-2]$。前提是 $s[i-2] \neq 0$，且 $s[i-2]s[i-1]$ 在 $[1,26]$ 范围内。
+-   If the $i$th character (i.e., $s[i-1]$) forms a code on its own, it corresponds to one decoding method, i.e., $f[i]=f[i-1]$. The premise is $s[i-1] \neq 0$.
+-   If the string formed by the $i-1$th character and the $i$th character is within the range $[1,26]$, then they can be treated as a whole, corresponding to one decoding method, i.e., $f[i] = f[i] + f[i-2]$. The premise is $s[i-2] \neq 0$, and $s[i-2]s[i-1]$ is within the range $[1,26]$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是字符串的长度。
+The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is the length of the string.
 
 <!-- tabs:start -->
 
@@ -185,7 +182,7 @@ public class Solution {
 
 <!-- tabs:end -->
 
-我们注意到，状态 $f[i]$ 仅与状态 $f[i-1]$ 和状态 $f[i-2]$ 有关，而与其他状态无关，因此我们可以使用两个变量代替这两个状态，使得原来的空间复杂度 $O(n)$ 降低至 $O(1)$。
+We notice that the state $f[i]$ is only related to the states $f[i-1]$ and $f[i-2]$, and is irrelevant to other states. Therefore, we can use two variables to replace these two states, reducing the original space complexity from $O(n)$ to $O(1)$.
 
 <!-- tabs:start -->
 

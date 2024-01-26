@@ -1,67 +1,59 @@
-# [1247. 交换字符使得字符串相同](https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal)
+# [1247. Minimum Swaps to Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal)
 
-[English Version](/solution/1200-1299/1247.Minimum%20Swaps%20to%20Make%20Strings%20Equal/README_EN.md)
+[中文文档](/solution/1200-1299/1247.Minimum%20Swaps%20to%20Make%20Strings%20Equal/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given two strings <code>s1</code> and <code>s2</code> of equal length consisting of letters <code>&quot;x&quot;</code> and <code>&quot;y&quot;</code> <strong>only</strong>. Your task is to make these two strings equal to each other. You can swap any two characters that belong to <strong>different</strong> strings, which means: swap <code>s1[i]</code> and <code>s2[j]</code>.</p>
 
-<p>有两个长度相同的字符串&nbsp;<code>s1</code> 和&nbsp;<code>s2</code>，且它们其中&nbsp;<strong>只含有</strong>&nbsp;字符&nbsp;<code>"x"</code> 和&nbsp;<code>"y"</code>，你需要通过「交换字符」的方式使这两个字符串相同。</p>
-
-<p>每次「交换字符」的时候，你都可以在两个字符串中各选一个字符进行交换。</p>
-
-<p>交换只能发生在两个不同的字符串之间，绝对不能发生在同一个字符串内部。也就是说，我们可以交换&nbsp;<code>s1[i]</code> 和&nbsp;<code>s2[j]</code>，但不能交换&nbsp;<code>s1[i]</code> 和&nbsp;<code>s1[j]</code>。</p>
-
-<p>最后，请你返回使 <code>s1</code> 和 <code>s2</code> 相同的最小交换次数，如果没有方法能够使得这两个字符串相同，则返回&nbsp;<code>-1</code> 。</p>
+<p>Return the minimum number of swaps required to make <code>s1</code> and <code>s2</code> equal, or return <code>-1</code> if it is impossible to do so.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
-
-<pre>
-<strong>输入：</strong>s1 = "xx", s2 = "yy"
-<strong>输出：</strong>1
-<strong>解释：
-</strong>交换 s1[0] 和 s2[1]，得到 s1 = "yx"，s2 = "yx"。</pre>
-
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>s1 = "xy", s2 = "yx"
-<strong>输出：</strong>2
-<strong>解释：
-</strong>交换 s1[0] 和 s2[0]，得到 s1 = "yy"，s2 = "xx" 。
-交换 s1[0] 和 s2[1]，得到 s1 = "xy"，s2 = "xy" 。
-注意，你不能交换 s1[0] 和 s1[1] 使得 s1 变成 "yx"，因为我们只能交换属于两个不同字符串的字符。</pre>
+<strong>Input:</strong> s1 = &quot;xx&quot;, s2 = &quot;yy&quot;
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> Swap s1[0] and s2[1], s1 = &quot;yx&quot;, s2 = &quot;yx&quot;.
+</pre>
 
-<p><strong class="example">示例 3：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>s1 = "xx", s2 = "xy"
-<strong>输出：</strong>-1
+<strong>Input:</strong> s1 = &quot;xy&quot;, s2 = &quot;yx&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Swap s1[0] and s2[0], s1 = &quot;yy&quot;, s2 = &quot;xx&quot;.
+Swap s1[0] and s2[1], s1 = &quot;xy&quot;, s2 = &quot;xy&quot;.
+Note that you cannot swap s1[0] and s1[1] to make s1 equal to &quot;yx&quot;, cause we can only swap chars in different strings.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> s1 = &quot;xx&quot;, s2 = &quot;xy&quot;
+<strong>Output:</strong> -1
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s1.length, s2.length &lt;= 1000</code></li>
 	<li><code>s1.length == s2.length</code></li>
-	<li><code>s1, s2</code>&nbsp;只包含&nbsp;<code>'x'</code>&nbsp;或&nbsp;<code>'y'</code>。</li>
+	<li><code>s1, s2</code> only contain <code>&#39;x&#39;</code> or <code>&#39;y&#39;</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：贪心
+### Solution 1: Greedy
 
-根据题目描述，两个字符串 $s1$ 和 $s2$ 都只包含字符 $x$ 和 $y$，且长度相同，因此可以将 $s1$ 和 $s2$ 中的字符一一对应起来，即 $s1[i]$ 和 $s2[i]$。
+According to the problem description, both strings $s1$ and $s2$ only contain characters $x$ and $y$, and have the same length. Therefore, we can pair the characters in $s1$ and $s2$, i.e., $s1[i]$ and $s2[i]$.
 
-如果 $s1[i] = s2[i]$，则不需要交换，直接跳过即可。如果 $s1[i] \neq s2[i]$，则需要交换，我们统计 $s1[i]$ 和 $s2[i]$ 的组合情况，即 $s1[i] = x$ 且 $s2[i] = y$ 的情况，记为 $xy$，对于 $s1[i] = y$ 且 $s2[i] = x$ 的情况，记为 $yx$。
+If $s1[i] = s2[i]$, no swap is needed, and we can skip it. If $s1[i] \neq s2[i]$, a swap is needed. We count the combination of $s1[i]$ and $s2[i]$, i.e., the situation where $s1[i] = x$ and $s2[i] = y$, denoted as $xy$, and the situation where $s1[i] = y$ and $s2[i] = x$, denoted as $yx$.
 
-如果 $xy + yx$ 为奇数，则无法完成交换，返回 $-1$。如果 $xy + yx$ 为偶数，则需要交换的次数为 $\left \lfloor \frac{x}{2} \right \rfloor$ + $\left \lfloor \frac{y}{2} \right \rfloor$ + $xy \bmod{2}$ + $yx \bmod{2}$。
+If $xy + yx$ is odd, the swap cannot be completed, and we return $-1$. If $xy + yx$ is even, the number of swaps needed is $\left \lfloor \frac{x}{2} \right \rfloor$ + $\left \lfloor \frac{y}{2} \right \rfloor$ + $xy \bmod{2}$ + $yx \bmod{2}$.
 
-时间复杂度 $O(n)$，其中 $n$ 为字符串 $s1$ 和 $s2$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the strings $s1$ and $s2$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

@@ -1,62 +1,58 @@
-# [2899. 上一个遍历的整数](https://leetcode.cn/problems/last-visited-integers)
+# [2899. Last Visited Integers](https://leetcode.com/problems/last-visited-integers)
 
-[English Version](/solution/2800-2899/2899.Last%20Visited%20Integers/README_EN.md)
+[中文文档](/solution/2800-2899/2899.Last%20Visited%20Integers/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a <strong>0-indexed</strong> array of strings <code>words</code> where <code>words[i]</code> is either a positive integer represented as a string or the string <code>&quot;prev&quot;</code>.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的字符串数组&nbsp;<code>words</code>&nbsp;，其中&nbsp;<code>words[i]</code>&nbsp;要么是一个字符串形式的正整数，要么是字符串&nbsp;<code>"prev"</code>&nbsp;。</p>
-
-<p>我们从数组的开头开始遍历，对于 <code>words</code>&nbsp;中的每个&nbsp;<code>"prev"</code>&nbsp;字符串，找到 <code>words</code>&nbsp;中的 <strong>上一个遍历的整数</strong>&nbsp;，定义如下：</p>
+<p>Start iterating from the beginning of the array; for every <code>&quot;prev&quot;</code> string seen in <code>words</code>, find the <strong>last visited integer</strong> in <code>words</code> which is defined as follows:</p>
 
 <ul>
-	<li><code>k</code>&nbsp;表示到当前位置为止的连续&nbsp;<code>"prev"</code>&nbsp;字符串数目（包含当前字符串），令下标从&nbsp;<strong>0</strong>&nbsp;开始的&nbsp;<strong>整数</strong> 数组&nbsp;<code>nums</code>&nbsp;表示目前为止遍历过的所有整数，同时用&nbsp;<code>nums_reverse</code>&nbsp;表示&nbsp;<code>nums</code>&nbsp;反转得到的数组，那么当前 <code>"prev"</code>&nbsp;对应的 <strong>上一个遍历的整数</strong>&nbsp;是&nbsp;<code>nums_reverse</code>&nbsp;数组中下标为 <code>(k - 1)</code>&nbsp;的整数。</li>
-	<li>如果&nbsp;<code>k</code>&nbsp;比目前为止遍历过的整数数目 <strong>更多</strong>&nbsp;，那么上一个遍历的整数为&nbsp;<code>-1</code>&nbsp;。</li>
+	<li>Let <code>k</code> be the number of consecutive <code>&quot;prev&quot;</code> strings seen so far (containing the current string). Let <code>nums</code> be the <strong>0-indexed </strong>array of <strong>integers</strong> seen so far and <code>nums_reverse</code> be the reverse of <code>nums</code>, then the integer at <code>(k - 1)<sup>th</sup></code> index of <code>nums_reverse</code> will be the <strong>last visited integer</strong> for this <code>&quot;prev&quot;</code>.</li>
+	<li>If <code>k</code> is <strong>greater</strong> than the total visited integers, then the last visited integer will be <code>-1</code>.</li>
 </ul>
 
-<p>请你返回一个整数数组，包含所有上一个遍历的整数。</p>
+<p>Return <em>an integer array containing the last visited integers.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<b>输入：</b><code>words</code> = ["1","2","prev","prev","prev"]
-<b>输出：</b>[2,1,-1]
-<b>解释：</b>
-对于下标为 2 处的 "prev" ，上一个遍历的整数是 2 ，因为连续 "prev" 数目为 1 ，同时在数组 reverse_nums 中，第一个元素是 2 。
-对于下标为 3 处的 "prev" ，上一个遍历的整数是 1 ，因为连续 "prev" 数目为 2 ，同时在数组 reverse_nums 中，第二个元素是 1 。
-对于下标为 4 处的 "prev" ，上一个遍历的整数是 -1 ，因为连续 "prev" 数目为 3 ，但总共只遍历过 2 个整数。
+<strong>Input:</strong> words = [&quot;1&quot;,&quot;2&quot;,&quot;prev&quot;,&quot;prev&quot;,&quot;prev&quot;]
+<strong>Output:</strong> [2,1,-1]
+<strong>Explanation:</strong> 
+For &quot;prev&quot; at index = 2, last visited integer will be 2 as here the number of consecutive &quot;prev&quot; strings is 1, and in the array reverse_nums, 2 will be the first element.
+For &quot;prev&quot; at index = 3, last visited integer will be 1 as there are a total of two consecutive &quot;prev&quot; strings including this &quot;prev&quot; which are visited, and 1 is the second last visited integer.
+For &quot;prev&quot; at index = 4, last visited integer will be -1 as there are a total of three consecutive &quot;prev&quot; strings including this &quot;prev&quot; which are visited, but the total number of integers visited is two.
 </pre>
 
-<p><strong class="example">示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b><code>words</code> = ["1","prev","2","prev","prev"]
-<b>输出：</b>[1,2,1]
-<strong>解释：</strong>
-对于下标为 1 处的 "prev" ，上一个遍历的整数是 1 。
-对于下标为 3 处的 "prev" ，上一个遍历的整数是 2 。
-对于下标为 4 处的 "prev" ，上一个遍历的整数是 1 ，因为连续 "prev"<strong>&nbsp;</strong>数目为 2 ，同时在数组 reverse_nums 中，第二个元素是 1 。
+<strong>Input:</strong> words = [&quot;1&quot;,&quot;prev&quot;,&quot;2&quot;,&quot;prev&quot;,&quot;prev&quot;]
+<strong>Output:</strong> [1,2,1]
+<strong>Explanation:</strong>
+For &quot;prev&quot; at index = 1, last visited integer will be 1.
+For &quot;prev&quot; at index = 3, last visited integer will be 2.
+For &quot;prev&quot; at index = 4, last visited integer will be 1 as there are a total of two consecutive &quot;prev&quot; strings including this &quot;prev&quot; which are visited, and 1 is the second last visited integer.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= words.length &lt;= 100</code></li>
-	<li><code>words[i] == "prev"</code>&nbsp;或&nbsp;<code>1 &lt;= int(words[i]) &lt;= 100</code></li>
+	<li><code>words[i] == &quot;prev&quot;</code> or <code>1 &lt;= int(words[i]) &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：模拟
+### Solution 1: Simulation
 
-我们直接根据题意模拟即可。在实现上，我们使用一个数组 $nums$ 来存储遍历过的整数，使用一个整数 $k$ 来记录当前连续的 $prev$ 字符串数目。如果当前字符串是 $prev$，那么我们就从 $nums$ 中取出第 $|nums| - k$ 个整数，如果不存在，那么就返回 $-1$。
+We can directly simulate according to the problem statement. In the implementation, we use an array $nums$ to store the traversed integers, and an integer $k$ to record the current number of consecutive $prev$ strings. If the current string is $prev$, we take out the $|nums| - k-th$ integer from $nums$. If it does not exist, we return $-1$.
 
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 是数组 $words$ 的长度。
+The time complexity is $O(n)$, where $n$ is the length of the array $words$. The space complexity is $O(n)$.
 
 <!-- tabs:start -->
 

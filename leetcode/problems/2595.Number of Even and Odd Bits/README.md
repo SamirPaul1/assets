@@ -1,54 +1,52 @@
-# [2595. 奇偶位数](https://leetcode.cn/problems/number-of-even-and-odd-bits)
+# [2595. Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits)
 
-[English Version](/solution/2500-2599/2595.Number%20of%20Even%20and%20Odd%20Bits/README_EN.md)
+[中文文档](/solution/2500-2599/2595.Number%20of%20Even%20and%20Odd%20Bits/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>positive</strong> integer <code>n</code>.</p>
 
-<p>给你一个 <strong>正</strong> 整数 <code>n</code> 。</p>
+<p>Let <code>even</code> denote the number of even indices in the binary representation of <code>n</code> (<strong>0-indexed</strong>) with value <code>1</code>.</p>
 
-<p>用 <code>even</code> 表示在 <code>n</code> 的二进制形式（下标从 <strong>0</strong> 开始）中值为 <code>1</code> 的偶数下标的个数。</p>
+<p>Let <code>odd</code> denote the number of odd indices in the binary representation of <code>n</code> (<strong>0-indexed</strong>) with value <code>1</code>.</p>
 
-<p>用 <code>odd</code> 表示在 <code>n</code> 的二进制形式（下标从 <strong>0</strong> 开始）中值为 <code>1</code> 的奇数下标的个数。</p>
-
-<p>返回整数数组<em> </em><code>answer</code><em> </em>，其中<em> </em><code>answer = [even, odd]</code> 。</p>
+<p>Return <em>an integer array </em><code>answer</code><em> where </em><code>answer = [even, odd]</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>n = 17
-<strong>输出：</strong>[2,0]
-<strong>解释：</strong>17 的二进制形式是 10001 。 
-下标 0 和 下标 4 对应的值为 1 。 
-共有 2 个偶数下标，0 个奇数下标。
+<pre>
+<strong>Input:</strong> n = 17
+<strong>Output:</strong> [2,0]
+<strong>Explanation:</strong> The binary representation of 17 is 10001. 
+It contains 1 on the 0<sup>th</sup> and 4<sup>th</sup> indices. 
+There are 2 even and 0 odd indices.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>n = 2
-<strong>输出：</strong>[0,1]
-<strong>解释：</strong>2 的二进制形式是 10 。 
-下标 1 对应的值为 1 。 
-共有 0 个偶数下标，1 个奇数下标。
+<pre>
+<strong>Input:</strong> n = 2
+<strong>Output:</strong> [0,1]
+<strong>Explanation:</strong> The binary representation of 2 is 10.
+It contains 1 on the 1<sup>st</sup> index. 
+There are 0 even and 1 odd indices.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= n &lt;= 1000</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
+### Solution 1: Enumerate
 
-我们根据题意，枚举 $n$ 的二进制表示中从低位到高位的每一位，如果该位为 $1$，则根据该位的下标是奇数还是偶数，将对应的计数器加 $1$ 即可。
+According to the problem description, enumerate the binary representation of $n$ from the low bit to the high bit. If the bit is $1$, add $1$ to the corresponding counter according to whether the index of the bit is odd or even.
 
-时间复杂度 $O(\log n)$，空间复杂度 $O(1)$。其中 $n$ 为给定的整数。
+The time complexity is $O(\log n)$ and the space complexity is $O(1)$. Where $n$ is the given integer.
 
 <!-- tabs:start -->
 
@@ -129,7 +127,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,54 +1,52 @@
-# [691. 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word)
+# [691. Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word)
 
-[English Version](/solution/0600-0699/0691.Stickers%20to%20Spell%20Word/README_EN.md)
+[中文文档](/solution/0600-0699/0691.Stickers%20to%20Spell%20Word/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>We are given <code>n</code> different types of <code>stickers</code>. Each sticker has a lowercase English word on it.</p>
 
-<p>我们有 <code>n</code> 种不同的贴纸。每个贴纸上都有一个小写的英文单词。</p>
+<p>You would like to spell out the given string <code>target</code> by cutting individual letters from your collection of stickers and rearranging them. You can use each sticker more than once if you want, and you have infinite quantities of each sticker.</p>
 
-<p>您想要拼写出给定的字符串 <code>target</code>&nbsp;，方法是从收集的贴纸中切割单个字母并重新排列它们。如果你愿意，你可以多次使用每个贴纸，每个贴纸的数量是无限的。</p>
+<p>Return <em>the minimum number of stickers that you need to spell out </em><code>target</code>. If the task is impossible, return <code>-1</code>.</p>
 
-<p>返回你需要拼出 <code>target</code>&nbsp;的最小贴纸数量。如果任务不可能，则返回 <code>-1</code> 。</p>
-
-<p><strong>注意：</strong>在所有的测试用例中，所有的单词都是从 <code>1000</code> 个最常见的美国英语单词中随机选择的，并且 <code>target</code>&nbsp;被选择为两个随机单词的连接。</p>
+<p><strong>Note:</strong> In all test cases, all words were chosen randomly from the <code>1000</code> most common US English words, and <code>target</code> was chosen as a concatenation of two random words.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong> stickers = ["with","example","science"], target = "thehat"
-<b>输出：</b>3
-<strong>解释：
-</strong>我们可以使用 2 个 "with" 贴纸，和 1 个 "example" 贴纸。
-把贴纸上的字母剪下来并重新排列后，就可以形成目标 “thehat“ 了。
-此外，这是形成目标字符串所需的最小贴纸数量。
+<strong>Input:</strong> stickers = [&quot;with&quot;,&quot;example&quot;,&quot;science&quot;], target = &quot;thehat&quot;
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+We can use 2 &quot;with&quot; stickers, and 1 &quot;example&quot; sticker.
+After cutting and rearrange the letters of those stickers, we can form the target &quot;thehat&quot;.
+Also, this is the minimum number of stickers necessary to form the target string.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<b>输入：</b>stickers = ["notice","possible"], target = "basicbasic"
-<b>输出：</b>-1
-<strong>解释：</strong>我们不能通过剪切给定贴纸的字母来形成目标“basicbasic”。</pre>
+<strong>Input:</strong> stickers = [&quot;notice&quot;,&quot;possible&quot;], target = &quot;basicbasic&quot;
+<strong>Output:</strong> -1
+Explanation:
+We cannot form the target &quot;basicbasic&quot; from cutting letters from the given stickers.
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == stickers.length</code></li>
 	<li><code>1 &lt;= n &lt;= 50</code></li>
 	<li><code>1 &lt;= stickers[i].length &lt;= 10</code></li>
 	<li><code>1 &lt;= target.length &lt;= 15</code></li>
-	<li><code>stickers[i]</code>&nbsp;和&nbsp;<code>target</code>&nbsp;由小写英文单词组成</li>
+	<li><code>stickers[i]</code> and <code>target</code> consist of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS + 状态压缩
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,79 +1,61 @@
-# [1056. 易混淆数](https://leetcode.cn/problems/confusing-number)
+# [1056. Confusing Number](https://leetcode.com/problems/confusing-number)
 
-[English Version](/solution/1000-1099/1056.Confusing%20Number/README_EN.md)
+[中文文档](/solution/1000-1099/1056.Confusing%20Number/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>A <strong>confusing number</strong> is a number that when rotated <code>180</code> degrees becomes a different number with <strong>each digit valid</strong>.</p>
 
-<p>给定一个数字 <code>N</code>，当它满足以下条件的时候返回 <code>true</code>：</p>
+<p>We can rotate digits of a number by <code>180</code> degrees to form new digits.</p>
 
-<p>原数字旋转 180° 以后可以得到新的数字。</p>
+<ul>
+	<li>When <code>0</code>, <code>1</code>, <code>6</code>, <code>8</code>, and <code>9</code> are rotated <code>180</code> degrees, they become <code>0</code>, <code>1</code>, <code>9</code>, <code>8</code>, and <code>6</code> respectively.</li>
+	<li>When <code>2</code>, <code>3</code>, <code>4</code>, <code>5</code>, and <code>7</code> are rotated <code>180</code> degrees, they become <strong>invalid</strong>.</li>
+</ul>
 
-<p>如 0, 1, 6, 8, 9 旋转 180° 以后，得到了新的数字 0, 1, 9, 8, 6 。</p>
+<p>Note that after rotating a number, we can ignore leading zeros.</p>
 
-<p>2, 3, 4, 5, 7 旋转 180° 后，得到的<strong>不是</strong>数字。</p>
+<ul>
+	<li>For example, after rotating <code>8000</code>, we have <code>0008</code> which is considered as just <code>8</code>.</li>
+</ul>
 
-<p>易混淆数&nbsp;(confusing number) 在旋转180°以后，可以得到和原来<strong>不同</strong>的数，且新数字的每一位都是有效的。</p>
+<p>Given an integer <code>n</code>, return <code>true</code><em> if it is a <strong>confusing number</strong>, or </em><code>false</code><em> otherwise</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_1.png" style="height: 90px; width: 180px;" /></p>
-
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_1.png" style="width: 281px; height: 121px;" />
 <pre>
-<strong>输入：</strong>6
-<strong>输出：</strong>true
-<strong>解释： 
-</strong>把 6 旋转 180° 以后得到 9，9 是有效数字且 9!=6 。
+<strong>Input:</strong> n = 6
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We get 9 after rotating 6, 9 is a valid number, and 9 != 6.
 </pre>
 
-<p><strong>示例 2：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_2.png" style="height: 90px; width: 180px;" /></p>
-
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_2.png" style="width: 312px; height: 121px;" />
 <pre>
-<strong>输入：</strong>89
-<strong>输出：</strong>true
-<strong>解释: 
-</strong>把 89 旋转 180° 以后得到 68，<span style="text-wrap: wrap;">68</span> 是有效数字且 89!=68 。
+<strong>Input:</strong> n = 89
+<strong>Output:</strong> true
+<strong>Explanation:</strong> We get 68 after rotating 89, 68 is a valid number and 68 != 89.
 </pre>
 
-<p><strong>示例 3：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_3.png" style="height: 121px; width: 301px;" /></p>
-
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_3.png" style="width: 301px; height: 121px;" />
 <pre>
-<strong>输入：</strong>11
-<strong>输出：</strong>false
-<strong>解释：
-</strong>把 11 旋转 180° 以后得到 11，11 是有效数字但是值保持不变，所以 11 不是易混淆数字。 
-</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1056.Confusing%20Number/images/1268_4.png" style="height: 90px; width: 180px;" /></p>
-
-<pre>
-<strong>输入：</strong>25
-<strong>输出：</strong>false
-<strong>解释：</strong>
-把 25 旋转 180° 以后得到的不是数字。
+<strong>Input:</strong> n = 11
+<strong>Output:</strong> false
+<strong>Explanation:</strong> We get 11 after rotating 11, 11 is a valid number but the value remains the same, thus 11 is not a confusing number
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>提示：</strong></p>
+<ul>
+	<li><code>0 &lt;= n &lt;= 10<sup>9</sup></code></li>
+</ul>
 
-<ol>
-	<li><code>0 &lt;= N &lt;= 10^9</code></li>
-	<li>可以忽略掉旋转后得到的前导零，例如，如果我们旋转后得到 <code>0008</code> 那么该数字就是 <code>8</code> 。</li>
-</ol>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,12 +1,10 @@
-# [1555. 银行账户概要](https://leetcode.cn/problems/bank-account-summary)
+# [1555. Bank Account Summary](https://leetcode.com/problems/bank-account-summary)
 
-[English Version](/solution/1500-1599/1555.Bank%20Account%20Summary/README_EN.md)
+[中文文档](/solution/1500-1599/1555.Bank%20Account%20Summary/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>用户表：&nbsp;<code>Users</code></p>
+<p>Table: <code>Users</code></p>
 
 <pre>
 +--------------+---------+
@@ -16,12 +14,13 @@
 | user_name    | varchar |
 | credit       | int     |
 +--------------+---------+
-user_id 是这个表的主键（具有唯一值的列）。
-表中的每一列包含每一个用户当前的额度信息。</pre>
+user_id is the primary key (column with unique values) for this table.
+Each row of this table contains the current credit information for each user.
+</pre>
 
 <p>&nbsp;</p>
 
-<p>交易表：<code>Transactions</code></p>
+<p>Table: <code>Transactions</code></p>
 
 <pre>
 +---------------+---------+
@@ -33,35 +32,34 @@ user_id 是这个表的主键（具有唯一值的列）。
 | amount        | int     |
 | transacted_on | date    |
 +---------------+---------+
-trans_id 是这个表的主键（具有唯一值的列）。
-表中的每一列包含银行的交易信息。
-ID 为 paid_by 的用户给 ID 为 paid_to 的用户转账。
+trans_id is the primary key (column with unique values) for this table.
+Each row of this table contains information about the transaction in the bank.
+User with id (paid_by) transfer money to user with id (paid_to).
 </pre>
 
 <p>&nbsp;</p>
 
-<p>力扣银行 (LCB) 帮助程序员们完成虚拟支付。我们的银行在表&nbsp;<em>Transaction</em>&nbsp;中记录每条交易信息，我们要查询每个用户的当前余额，并检查他们是否已透支（当前额度小于 0）。</p>
+<p>Leetcode Bank (LCB) helps its coders in making virtual payments. Our bank records all transactions in the table <em>Transaction</em>, we want to find out the current balance of all users and check whether they have breached their credit limit (If their current credit is less than <code>0</code>).</p>
 
-<p>编写解决方案报告：</p>
+<p>Write a solution&nbsp;to report.</p>
 
 <ul>
-	<li><code>user_id</code>&nbsp;用户 ID</li>
-	<li><code>user_name</code>&nbsp;用户名</li>
-	<li><code>credit</code>&nbsp;完成交易后的余额</li>
-	<li><code>credit_limit_breached</code>&nbsp;检查是否透支 （"Yes" 或&nbsp;"No"）</li>
+	<li><code>user_id</code>,</li>
+	<li><code>user_name</code>,</li>
+	<li><code>credit</code>, current balance after performing transactions, and</li>
+	<li><code>credit_limit_breached</code>, check credit_limit (<code>&quot;Yes&quot;</code> or <code>&quot;No&quot;</code>)</li>
 </ul>
 
-<p>以<strong>任意</strong>顺序返回结果表。</p>
+<p>Return the result table in <strong>any</strong> order.</p>
 
-<p>结果格式见如下所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<code><strong>输入：</strong>
-Users</code> 表：
+<strong>Input:</strong> 
+Users table:
 +------------+--------------+-------------+
 | user_id    | user_name    | credit      |
 +------------+--------------+-------------+
@@ -70,8 +68,7 @@ Users</code> 表：
 | 3          | Winston      | 10000       |
 | 4          | Luis         | 800         | 
 +------------+--------------+-------------+
-
-<code>Transactions</code> 表：
+Transactions table:
 +------------+------------+------------+----------+---------------+
 | trans_id   | paid_by    | paid_to    | amount   | transacted_on |
 +------------+------------+------------+----------+---------------+
@@ -79,24 +76,25 @@ Users</code> 表：
 | 2          | 3          | 2          | 500      | 2020-08-02    |
 | 3          | 2          | 1          | 200      | 2020-08-03    |
 +------------+------------+------------+----------+---------------+
-
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +------------+------------+------------+-----------------------+
-| <code>user_id </code>   | <code>user_name</code>  | <code>credit </code>    | <code>credit_limit_breached</code> |
+| user_id    | user_name  | credit     | credit_limit_breached |
 +------------+------------+------------+-----------------------+
 | 1          | Moustafa   | -100       | Yes                   | 
 | 2          | Jonathan   | 500        | No                    |
 | 3          | Winston    | 9900       | No                    |
 | 4          | Luis       | 800        | No                    |
 +------------+------------+------------+-----------------------+
-Moustafa 在 "2020-08-01" 支付了 $400 并在 "2020-08-03" 收到了 $200 ，当前额度 (100 -400 +200) = -$100
-Jonathan 在 "2020-08-02" 收到了 $500 并在 "2020-08-08" 支付了 $200 ，当前额度 (200 +500 -200) = $500
-Winston 在 "2020-08-01" 收到了 $400 并在 "2020-08-03" 支付了 $500 ，当前额度 (10000 +400 -500) = $9900
-Luis 未收到任何转账信息，额度 = $800</pre>
+<strong>Explanation:</strong> 
+Moustafa paid $400 on &quot;2020-08-01&quot; and received $200 on &quot;2020-08-03&quot;, credit (100 -400 +200) = -$100
+Jonathan received $500 on &quot;2020-08-02&quot; and paid $200 on &quot;2020-08-08&quot;, credit (200 +500 -200) = $500
+Winston received $400 on &quot;2020-08-01&quot; and paid $500 on &quot;2020-08-03&quot;, credit (10000 +400 -500) = $9990
+Luis did not received any transfer, credit = $800
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

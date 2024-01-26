@@ -1,57 +1,53 @@
-# [1908. Nim 游戏 II](https://leetcode.cn/problems/game-of-nim)
+# [1908. Game of Nim](https://leetcode.com/problems/game-of-nim)
 
-[English Version](/solution/1900-1999/1908.Game%20of%20Nim/README_EN.md)
+[中文文档](/solution/1900-1999/1908.Game%20of%20Nim/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Alice and Bob take turns playing a game with <strong>Alice starting first</strong>.</p>
 
-<p>Alice 和&nbsp;Bob 交替进行一个游戏，<strong>由 Alice 先手</strong>。</p>
+<p>In this game, there are <code>n</code> piles of stones. On each player&#39;s turn, the player should remove any <strong>positive</strong> number of stones from a non-empty pile <strong>of his or her choice</strong>. The first player who cannot make a move loses, and the other player wins.</p>
 
-<p>在游戏中，共有&nbsp;<code>n</code>&nbsp;堆石头。在每个玩家的回合中，玩家需要 <strong>选择</strong> 任一非空石头堆，从中移除任意 <strong>非零</strong> 数量的石头。如果不能移除任意的石头，就输掉游戏，同时另一人获胜。</p>
+<p>Given an integer array <code>piles</code>, where <code>piles[i]</code> is the number of stones in the <code>i<sup>th</sup></code> pile, return <code>true</code><em> if Alice wins, or </em><code>false</code><em> if Bob wins</em>.</p>
 
-<p>给定一个整数数组&nbsp;<code>piles</code> ，<code>piles[i]</code> 为 第&nbsp;<code>i</code>&nbsp;堆石头的数量，如果 Alice 能获胜返回&nbsp;<code>true</code><em>&nbsp;</em>，反之返回&nbsp;<code>false</code><em>&nbsp;。</em></p>
-
-<p>Alice 和 Bob 都会采取<strong> 最优策略 </strong>。</p>
+<p>Both Alice and Bob play <strong>optimally</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>piles = [1]
-<strong>输出：</strong>true
-<strong>解释：</strong>只有一种可能的情况：
-- 第一回合，Alice 移除了第 1 堆中 1 块石头。piles = [0]。
-- 第二回合，Bob 没有任何石头可以移除。Alice 获胜。
+<strong>Input:</strong> piles = [1]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> There is only one possible scenario:
+- On the first turn, Alice removes one stone from the first pile. piles = [0].
+- On the second turn, there are no stones left for Bob to remove. Alice wins.
 </pre>
 
-<p><strong>示例&nbsp;2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>piles = [1,1]
-<strong>输出：</strong>false
-<strong>解释：</strong>可以证明，Bob一定能获胜。一种可能的情况：
-- 第一回合，Alice 移除了第 1 堆中 1 块石头。 piles = [0,1]。
-- 第二回合，Bob 移除了第 2 堆中 1 块石头。 piles = [0,0]。
-- 第三回合，Alice 没有任何石头可以移除。Bob 获胜。
+<strong>Input:</strong> piles = [1,1]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> It can be proven that Bob will always win. One possible scenario is:
+- On the first turn, Alice removes one stone from the first pile. piles = [0,1].
+- On the second turn, Bob removes one stone from the second pile. piles = [0,0].
+- On the third turn, there are no stones left for Alice to remove. Bob wins.
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>piles = [1,2,3]
-<strong>输出：</strong>false
-<strong>解释：</strong>可以证明，Bob一定能获胜。一种可能的情况：
-- 第一回合，Alice 移除了第 3 堆中 3 块石头。 piles = [1,2,0]。
-- 第二回合，Bob 移除了第 2 堆中 1 块石头。 piles = [1,1,0]。
-- 第三回合，Alice 移除了第 1 堆中 1 块石头。piles = [0,1,0]。
-- 第四回合，Bob 移除了第 2 堆中 1 块石头。 piles = [0,0,0]。
-- 第三回合，Alice 没有任何石头可以移除。Bob 获胜。</pre>
+<strong>Input:</strong> piles = [1,2,3]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> It can be proven that Bob will always win. One possible scenario is:
+- On the first turn, Alice removes three stones from the third pile. piles = [1,2,0].
+- On the second turn, Bob removes one stone from the second pile. piles = [1,1,0].
+- On the third turn, Alice removes one stone from the first pile. piles = [0,1,0].
+- On the fourth turn, Bob removes one stone from the second pile. piles = [0,0,0].
+- On the fifth turn, there are no stones left for Alice to remove. Bob wins.</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == piles.length</code></li>
@@ -60,24 +56,11 @@
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow-up:</strong> Could you find a linear time solution? Although the linear time solution may be beyond the scope of an interview, it could be interesting to know.</p>
 
-<p><strong>进阶：</strong>你能想出一个&nbsp;<strong>线性时间&nbsp;</strong>的解决方案吗？虽然这一答案可能超出了面试所需的范围，但了解它可能会很有趣。</p>
+## Solutions
 
-## 解法
-
-### 方法一：记忆化搜索
-
-我们发现，一共最多有 $7$ 堆石头，每堆石头最多有 $7$ 个，那么一共有 $7^7$ 种状态，因此我们可以用一个八进制数来表示当前的状态。
-
-接下来，我们用记忆化搜索的方法来解决这个问题。定义一个函数 $dfs(piles)$，表示当前的状态为 $piles$ 时，当前玩家是否能获胜。
-
-函数 $dfs(piles)$ 的执行过程如下：
-
--   如果 $piles$ 所表示的状态已经被计算过，直接返回结果；
--   否则，我们枚举每一堆石头，尝试移除 $1,2,3,...,x$ 个石头，如果移除后的状态 $piles'$ 不能获胜，那么当前玩家就能获胜，返回结果。
--   如果所有的移除方案都不能获胜，那么当前玩家不能获胜，返回结果。
-
-时间复杂度 $(7^7 \times 7^2)$，空间复杂度 $O(7^7)$。
+### Solution 1
 
 <!-- tabs:start -->
 

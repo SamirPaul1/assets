@@ -1,57 +1,51 @@
-# [1567. 乘积为正数的最长子数组长度](https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product)
+# [1567. Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product)
 
-[English Version](/solution/1500-1599/1567.Maximum%20Length%20of%20Subarray%20With%20Positive%20Product/README_EN.md)
+[中文文档](/solution/1500-1599/1567.Maximum%20Length%20of%20Subarray%20With%20Positive%20Product/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of integers <code>nums</code>, find the maximum length of a subarray where the product of all its elements is positive.</p>
 
-<p>给你一个整数数组 <code>nums</code>&nbsp;，请你求出乘积为正数的最长子数组的长度。</p>
+<p>A subarray of an array is a consecutive sequence of zero or more values taken out of that array.</p>
 
-<p>一个数组的子数组是由原数组中零个或者更多个连续数字组成的数组。</p>
-
-<p>请你返回乘积为正数的最长子数组长度。</p>
+<p>Return <em>the maximum length of a subarray with positive product</em>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例&nbsp; 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [1,-2,-3,4]
-<strong>输出：</strong>4
-<strong>解释：</strong>数组本身乘积就是正数，值为 24 。
+<strong>Input:</strong> nums = [1,-2,-3,4]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The array nums already has a positive product of 24.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [0,1,-2,-3,-4]
-<strong>输出：</strong>3
-<strong>解释：</strong>最长乘积为正数的子数组为 [1,-2,-3] ，乘积为 6 。
-注意，我们不能把 0 也包括到子数组中，因为这样乘积为 0 ，不是正数。</pre>
+<strong>Input:</strong> nums = [0,1,-2,-3,-4]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> The longest subarray with positive product is [1,-2,-3] which has a product of 6.
+Notice that we cannot include 0 in the subarray since that&#39;ll make the product 0 which is not positive.</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>nums = [-1,-2,-3,0,1]
-<strong>输出：</strong>2
-<strong>解释：</strong>乘积为正数的最长子数组是 [-1,-2] 或者 [-2,-3] 。
+<strong>Input:</strong> nums = [-1,-2,-3,0,1]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The longest subarray with positive product is [-1,-2] or [-2,-3].
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= nums.length &lt;= 10^5</code></li>
-	<li><code>-10^9 &lt;= nums[i]&nbsp;&lt;= 10^9</code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-<p>&nbsp;</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

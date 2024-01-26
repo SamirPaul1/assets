@@ -1,84 +1,81 @@
-# [1166. 设计文件系统](https://leetcode.cn/problems/design-file-system)
+# [1166. Design File System](https://leetcode.com/problems/design-file-system)
 
-[English Version](/solution/1100-1199/1166.Design%20File%20System/README_EN.md)
+[中文文档](/solution/1100-1199/1166.Design%20File%20System/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are asked to design a file system&nbsp;that allows you to create new paths and associate them with different values.</p>
 
-<p>你需要设计一个文件系统，你可以创建新的路径并将它们与不同的值关联。</p>
+<p>The format of a path is&nbsp;one or more concatenated strings of the form:&nbsp;<code>/</code> followed by one or more lowercase English letters. For example, &quot;<code>/leetcode&quot;</code>&nbsp;and &quot;<code>/leetcode/problems&quot;</code>&nbsp;are valid paths while an empty&nbsp;string <code>&quot;&quot;</code> and <code>&quot;/&quot;</code>&nbsp;are not.</p>
 
-<p>路径的格式是一个或多个连接在一起的字符串，形式为：&nbsp;<code>/</code> ，后面跟着一个或多个小写英文字母。例如， <code>" /leetcode"</code> 和 <code>"/leetcode/problems"</code> 是有效路径，而空字符串 <code>""</code> 和 <code>"/"</code> 不是。</p>
-
-<p>实现 <code>FileSystem</code> 类:</p>
+<p>Implement the&nbsp;<code>FileSystem</code> class:</p>
 
 <ul>
-	<li><meta charset="UTF-8" /><code>bool createPath(string path, int value)</code>&nbsp;创建一个新的&nbsp;<code>path</code> ，并在可能的情况下关联一个 <code>value</code> ，然后返回 <code>true</code> 。如果路径<strong>已经存在</strong>或其父路径<strong>不存在</strong>，则返回&nbsp;<code>false</code>&nbsp;。</li>
-	<li>&nbsp;<code>int get(string path)</code> 返回与 <code>path</code> 关联的值，如果路径不存在则返回 <code>-1</code> 。</li>
+	<li><code>bool createPath(string path, int value)</code>&nbsp;Creates a new <code>path</code> and associates a <code>value</code> to it if possible and returns <code>true</code>.&nbsp;Returns <code>false</code>&nbsp;if the path <strong>already exists</strong> or its parent path <strong>doesn&#39;t exist</strong>.</li>
+	<li><code>int get(string path)</code>&nbsp;Returns the value associated with <code>path</code> or returns&nbsp;<code>-1</code>&nbsp;if the path doesn&#39;t exist.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong> 
-["FileSystem","create","get"]
-[[],["/a",1],["/a"]]
-<strong>输出：</strong> 
+<strong>Input:</strong> 
+[&quot;FileSystem&quot;,&quot;createPath&quot;,&quot;get&quot;]
+[[],[&quot;/a&quot;,1],[&quot;/a&quot;]]
+<strong>Output:</strong> 
 [null,true,1]
-<strong>解释：</strong> 
+<strong>Explanation:</strong> 
 FileSystem fileSystem = new FileSystem();
 
-fileSystem.create("/a", 1); // 返回 true
-fileSystem.get("/a"); // 返回 1
+fileSystem.createPath(&quot;/a&quot;, 1); // return true
+fileSystem.get(&quot;/a&quot;); // return 1
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong> 
-["FileSystem","createPath","createPath","get","createPath","get"]
-[[],["/leet",1],["/leet/code",2],["/leet/code"],["/c/d",1],["/c"]]
-<strong>输出：</strong> 
+<strong>Input:</strong> 
+[&quot;FileSystem&quot;,&quot;createPath&quot;,&quot;createPath&quot;,&quot;get&quot;,&quot;createPath&quot;,&quot;get&quot;]
+[[],[&quot;/leet&quot;,1],[&quot;/leet/code&quot;,2],[&quot;/leet/code&quot;],[&quot;/c/d&quot;,1],[&quot;/c&quot;]]
+<strong>Output:</strong> 
 [null,true,true,2,false,-1]
-<strong>解释：</strong>
+<strong>Explanation:</strong> 
 FileSystem fileSystem = new FileSystem();
 
-fileSystem.createPath("/leet", 1); // 返回 true
-fileSystem.createPath("/leet/code", 2); // 返回 true
-fileSystem.get("/leet/code"); // 返回 2
-fileSystem.createPath("/c/d", 1); // 返回 false 因为父路径 "/c" 不存在。
-fileSystem.get("/c"); // 返回 -1 因为该路径不存在。
+fileSystem.createPath(&quot;/leet&quot;, 1); // return true
+fileSystem.createPath(&quot;/leet/code&quot;, 2); // return true
+fileSystem.get(&quot;/leet/code&quot;); // return 2
+fileSystem.createPath(&quot;/c/d&quot;, 1); // return false because the parent path &quot;/c&quot; doesn&#39;t exist.
+fileSystem.get(&quot;/c&quot;); // return -1 because this path doesn&#39;t exist.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>对两个函数的调用次数加起来小于等于&nbsp;<meta charset="UTF-8" /><code>10<sup>4</sup></code>&nbsp;</li>
 	<li><code>2 &lt;= path.length &lt;= 100</code></li>
-	<li><code>1 &lt;= value &lt;= 10<sup>9</sup></code>&nbsp;</li>
+	<li><code>1 &lt;= value &lt;= 10<sup>9</sup></code></li>
+	<li>Each <code>path</code> is <strong>valid</strong> and consists of lowercase English letters and <code>&#39;/&#39;</code>.</li>
+	<li>At most <code>10<sup>4</sup></code> calls <strong>in total</strong> will be made to <code>createPath</code> and <code>get</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀树
+### Solution 1: Trie
 
-我们可以使用前缀树来存储路径，每个节点存储一个值，表示该节点对应的路径的值。
+We can use a trie to store the paths, where each node stores a value, representing the value of the path corresponding to the node.
 
-定义前缀树的节点结构如下：
+The structure of the trie node is defined as follows:
 
--   `children`：子节点，使用哈希表存储，键为子节点的路径，值为子节点的引用；
--   `v`：当前节点对应的路径的值。
+-   `children`: Child nodes, stored in a hash table, where the key is the path of the child node, and the value is the reference to the child node.
+-   `v`: The value of the path corresponding to the current node.
 
-定义前缀树的方法如下：
+The methods of the trie are defined as follows:
 
--   `insert(w, v)`：插入路径 $w$，并将其对应的值设为 $v$。如果路径 $w$ 已经存在或其父路径不存在，则返回 `false`，否则返回 `true`。时间复杂度为 $O(|w|)$，其中 $|w|$ 为路径 $w$ 的长度；
--   `search(w)`：返回路径 $w$ 对应的值。如果路径 $w$ 不存在，则返回 $-1$。时间复杂度为 $O(|w|)$。
+-   `insert(w, v)`: Insert the path $w$ and set its corresponding value to $v$. If the path $w$ already exists or its parent path does not exist, return `false`, otherwise return `true`. The time complexity is $O(|w|)$, where $|w|$ is the length of the path $w$.
+-   `search(w)`: Return the value corresponding to the path $w$. If the path $w$ does not exist, return $-1$. The time complexity is $O(|w|)$.
 
-总时间复杂度 $O(\sum_{w \in W}|w|)$，总空间复杂度 $O(\sum_{w \in W}|w|)$，其中 $W$ 为所有插入的路径的集合。
+The total time complexity is $O(\sum_{w \in W}|w|)$, and the total space complexity is $O(\sum_{w \in W}|w|)$, where $W$ is the set of all inserted paths.
 
 <!-- tabs:start -->
 

@@ -1,38 +1,41 @@
-# [906. 超级回文数](https://leetcode.cn/problems/super-palindromes)
+# [906. Super Palindromes](https://leetcode.com/problems/super-palindromes)
 
-[English Version](/solution/0900-0999/0906.Super%20Palindromes/README_EN.md)
+[中文文档](/solution/0900-0999/0906.Super%20Palindromes/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Let&#39;s say a positive integer is a <strong>super-palindrome</strong> if it is a palindrome, and it is also the square of a palindrome.</p>
 
-<p>如果一个正整数自身是回文数，而且它也是一个回文数的平方，那么我们称这个数为超级回文数。</p>
-
-<p>现在，给定两个正整数&nbsp;<code>L</code> 和&nbsp;<code>R</code> （以字符串形式表示），返回包含在范围 <code>[L, R]</code> 中的超级回文数的数目。</p>
+<p>Given two positive integers <code>left</code> and <code>right</code> represented as strings, return <em>the number of <strong>super-palindromes</strong> integers in the inclusive range</em> <code>[left, right]</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例：</strong></p>
+<pre>
+<strong>Input:</strong> left = &quot;4&quot;, right = &quot;1000&quot;
+<strong>Output:</strong> 4
+<strong>Explanation</strong>: 4, 9, 121, and 484 are superpalindromes.
+Note that 676 is not a superpalindrome: 26 * 26 = 676, but 26 is not a palindrome.
+</pre>
 
-<pre><strong>输入：</strong>L = &quot;4&quot;, R = &quot;1000&quot;
-<strong>输出：</strong>4
-<strong>解释：
-</strong>4，9，121，以及 484 是超级回文数。
-注意 676 不是一个超级回文数： 26 * 26 = 676，但是 26 不是回文数。</pre>
+<p><strong class="example">Example 2:</strong></p>
 
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<ol>
-	<li><code>1 &lt;= len(L) &lt;= 18</code></li>
-	<li><code>1 &lt;= len(R) &lt;= 18</code></li>
-	<li><code>L</code> 和&nbsp;<code>R</code>&nbsp;是表示&nbsp;<code>[1, 10^18)</code>&nbsp;范围的整数的字符串。</li>
-	<li><code>int(L) &lt;= int(R)</code></li>
-</ol>
+<pre>
+<strong>Input:</strong> left = &quot;1&quot;, right = &quot;2&quot;
+<strong>Output:</strong> 1
+</pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## 解法
+<ul>
+	<li><code>1 &lt;= left.length, right.length &lt;= 18</code></li>
+	<li><code>left</code> and <code>right</code> consist of only digits.</li>
+	<li><code>left</code> and <code>right</code> cannot have leading zeros.</li>
+	<li><code>left</code> and <code>right</code> represent integers in the range <code>[1, 10<sup>18</sup> - 1]</code>.</li>
+	<li><code>left</code> is less than or equal to <code>right</code>.</li>
+</ul>
+
+## Solutions
 
 <!-- end -->

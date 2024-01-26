@@ -1,62 +1,55 @@
-# [989. 数组形式的整数加法](https://leetcode.cn/problems/add-to-array-form-of-integer)
+# [989. Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer)
 
-[English Version](/solution/0900-0999/0989.Add%20to%20Array-Form%20of%20Integer/README_EN.md)
+[中文文档](/solution/0900-0999/0989.Add%20to%20Array-Form%20of%20Integer/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>整数的 <strong>数组形式</strong> &nbsp;<code>num</code>&nbsp;是按照从左到右的顺序表示其数字的数组。</p>
+<p>The <strong>array-form</strong> of an integer <code>num</code> is an array representing its digits in left to right order.</p>
 
 <ul>
-	<li>例如，对于 <code>num = 1321</code> ，数组形式是 <code>[1,3,2,1]</code> 。</li>
+	<li>For example, for <code>num = 1321</code>, the array form is <code>[1,3,2,1]</code>.</li>
 </ul>
 
-<p>给定 <code>num</code> ，整数的 <strong>数组形式</strong> ，和整数 <code>k</code> ，返回 <em>整数 <code>num + k</code> 的 <strong>数组形式</strong></em> 。</p>
+<p>Given <code>num</code>, the <strong>array-form</strong> of an integer, and an integer <code>k</code>, return <em>the <strong>array-form</strong> of the integer</em> <code>num + k</code>.</p>
 
 <p>&nbsp;</p>
-
-<ol>
-</ol>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>num = [1,2,0,0], k = 34
-<strong>输出：</strong>[1,2,3,4]
-<strong>解释：</strong>1200 + 34 = 1234
+<strong>Input:</strong> num = [1,2,0,0], k = 34
+<strong>Output:</strong> [1,2,3,4]
+<strong>Explanation:</strong> 1200 + 34 = 1234
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>num = [2,7,4], k = 181
-<strong>输出：</strong>[4,5,5]
-<strong>解释：</strong>274 + 181 = 455
+<strong>Input:</strong> num = [2,7,4], k = 181
+<strong>Output:</strong> [4,5,5]
+<strong>Explanation:</strong> 274 + 181 = 455
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>num = [2,1,5], k = 806
-<strong>输出：</strong>[1,0,2,1]
-<strong>解释：</strong>215 + 806 = 1021
+<strong>Input:</strong> num = [2,1,5], k = 806
+<strong>Output:</strong> [1,0,2,1]
+<strong>Explanation:</strong> 215 + 806 = 1021
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= num.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= num[i] &lt;= 9</code></li>
-	<li><code>num</code>&nbsp;不包含任何前导零，除了零本身</li>
+	<li><code>num</code> does not contain any leading zeros except for the zero itself.</li>
 	<li><code>1 &lt;= k &lt;= 10<sup>4</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -168,7 +161,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

@@ -1,169 +1,155 @@
-# [1645. Hopper 公司查询 II](https://leetcode.cn/problems/hopper-company-queries-ii)
+# [1645. Hopper Company Queries II](https://leetcode.com/problems/hopper-company-queries-ii)
 
-[English Version](/solution/1600-1699/1645.Hopper%20Company%20Queries%20II/README_EN.md)
+[中文文档](/solution/1600-1699/1645.Hopper%20Company%20Queries%20II/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Drivers</code></p>
+<p>Table: <code>Drivers</code></p>
 
 <pre>
 +-------------+---------+
-| Column Name | Type &nbsp; &nbsp;|
+| Column Name | Type    |
 +-------------+---------+
-| driver_id &nbsp; | int &nbsp; &nbsp; |
-| join_date &nbsp; | date &nbsp; &nbsp;|
+| driver_id   | int     |
+| join_date   | date    |
 +-------------+---------+
-driver_id 是该表具有唯一值的列。
-该表的每一行均包含驾驶员的ID以及他们加入 Hopper 公司的日期。
+driver_id is the column with unique values for this table.
+Each row of this table contains the driver&#39;s ID and the date they joined the Hopper company.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>表: <code>Rides</code></p>
+<p>Table: <code>Rides</code></p>
 
 <pre>
 +--------------+---------+
-| Column Name &nbsp;| Type &nbsp; &nbsp;|
+| Column Name  | Type    |
 +--------------+---------+
-| ride_id &nbsp; &nbsp; &nbsp;| int &nbsp; &nbsp; |
-| user_id &nbsp; &nbsp; &nbsp;| int &nbsp; &nbsp; |
-| requested_at | date &nbsp; &nbsp;|
+| ride_id      | int     |
+| user_id      | int     |
+| requested_at | date    |
 +--------------+---------+
-ride_id 是该表具有唯一值的列。
-该表的每一行均包含行程 ID(ride_id)，用户 ID(user_id) 以及该行程的日期 (requested_at)。
-该表中可能有一些不被接受的乘车请求。</pre>
-
-<p>&nbsp;</p>
-
-<p>表: <code>AcceptedRides</code></p>
-
-<pre>
-+---------------+---------+
-| Column Name &nbsp; | Type &nbsp; &nbsp;|
-+---------------+---------+
-| ride_id &nbsp; &nbsp; &nbsp; | int &nbsp; &nbsp; |
-| driver_id &nbsp; &nbsp; | int &nbsp; &nbsp; |
-| ride_distance | int &nbsp; &nbsp; |
-| ride_duration | int &nbsp; &nbsp; |
-+---------------+---------+
-ride_id 是该表具有唯一值的列。
-该表的每一行都包含已接受的行程信息。
-表中的行程信息都在 "Rides" 表中存在。
+ride_id is the column with unique values for this table.
+Each row of this table contains the ID of a ride, the user&#39;s ID that requested it, and the day they requested it.
+There may be some ride requests in this table that were not accepted.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案以报告 <strong>2020</strong> 年每个月的工作驱动因素&nbsp;<strong>百分比</strong>（<code>working_percentage</code>），其中：</p>
+<p>Table: <code>AcceptedRides</code></p>
+
+<pre>
++---------------+---------+
+| Column Name   | Type    |
++---------------+---------+
+| ride_id       | int     |
+| driver_id     | int     |
+| ride_distance | int     |
+| ride_duration | int     |
++---------------+---------+
+ride_id is the column with unique values for this table.
+Each row of this table contains some information about an accepted ride.
+It is guaranteed that each accepted ride exists in the Rides table.
+</pre>
+
+<p>&nbsp;</p>
+
+<p>Write a solution to report the <strong>percentage</strong> of working drivers (<code>working_percentage</code>) for each month of <strong>2020</strong> where:</p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1645.Hopper%20Company%20Queries%20II/images/codecogseqn.png" style="width: 800px; height: 36px;" />
-<p>&nbsp;</p>
+<p><strong>Note</strong> that if the number of available drivers during a month is zero, we consider the <code>working_percentage</code> to be <code>0</code>.</p>
 
-<p><strong>注意：</strong>如果一个月内可用驾驶员的数量为零，我们认为&nbsp;<code>working_percentage</code>&nbsp;为&nbsp;<code>0</code><strong>。</strong></p>
+<p>Return the result table ordered by <code>month</code> in <strong>ascending</strong> order, where <code>month</code> is the month&#39;s number (January is <code>1</code>, February is <code>2</code>, etc.). Round <code>working_percentage</code> to the nearest <strong>2 decimal places</strong>.</p>
 
-<p>返回按&nbsp;<code>month</code>&nbsp;<strong>升序&nbsp;</strong>排列的结果表，其中&nbsp;<code>month</code>&nbsp;是月份的编号（一月是&nbsp;<code>1</code>，二月是&nbsp;<code>2</code>，等等）。将&nbsp;<code>working_percentage</code>&nbsp;四舍五入至&nbsp;<strong>小数点后两位</strong>。</p>
-
-<p>结果格式如下例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-表 Drivers:
+<strong>Input:</strong> 
+Drivers table:
 +-----------+------------+
-| driver_id | join_date &nbsp;|
+| driver_id | join_date  |
 +-----------+------------+
-| 10 &nbsp; &nbsp; &nbsp; &nbsp;| 2019-12-10 |
-| 8 &nbsp; &nbsp; &nbsp; &nbsp; | 2020-1-13 &nbsp;|
-| 5 &nbsp; &nbsp; &nbsp; &nbsp; | 2020-2-16 &nbsp;|
-| 7 &nbsp; &nbsp; &nbsp; &nbsp; | 2020-3-8 &nbsp; |
-| 4 &nbsp; &nbsp; &nbsp; &nbsp; | 2020-5-17 &nbsp;|
-| 1 &nbsp; &nbsp; &nbsp; &nbsp; | 2020-10-24 |
-| 6 &nbsp; &nbsp; &nbsp; &nbsp; | 2021-1-5 &nbsp; |
+| 10        | 2019-12-10 |
+| 8         | 2020-1-13  |
+| 5         | 2020-2-16  |
+| 7         | 2020-3-8   |
+| 4         | 2020-5-17  |
+| 1         | 2020-10-24 |
+| 6         | 2021-1-5   |
 +-----------+------------+
-
-表 Rides:
+Rides table:
 +---------+---------+--------------+
 | ride_id | user_id | requested_at |
 +---------+---------+--------------+
-| 6 &nbsp; &nbsp; &nbsp; | 75 &nbsp; &nbsp; &nbsp;| 2019-12-9 &nbsp; &nbsp;|
-| 1 &nbsp; &nbsp; &nbsp; | 54 &nbsp; &nbsp; &nbsp;| 2020-2-9 &nbsp; &nbsp; |
-| 10 &nbsp; &nbsp; &nbsp;| 63 &nbsp; &nbsp; &nbsp;| 2020-3-4 &nbsp; &nbsp; |
-| 19 &nbsp; &nbsp; &nbsp;| 39 &nbsp; &nbsp; &nbsp;| 2020-4-6 &nbsp; &nbsp; |
-| 3 &nbsp; &nbsp; &nbsp; | 41 &nbsp; &nbsp; &nbsp;| 2020-6-3 &nbsp; &nbsp; |
-| 13 &nbsp; &nbsp; &nbsp;| 52 &nbsp; &nbsp; &nbsp;| 2020-6-22 &nbsp; &nbsp;|
-| 7 &nbsp; &nbsp; &nbsp; | 69 &nbsp; &nbsp; &nbsp;| 2020-7-16 &nbsp; &nbsp;|
-| 17 &nbsp; &nbsp; &nbsp;| 70 &nbsp; &nbsp; &nbsp;| 2020-8-25 &nbsp; &nbsp;|
-| 20 &nbsp; &nbsp; &nbsp;| 81 &nbsp; &nbsp; &nbsp;| 2020-11-2 &nbsp; &nbsp;|
-| 5 &nbsp; &nbsp; &nbsp; | 57 &nbsp; &nbsp; &nbsp;| 2020-11-9 &nbsp; &nbsp;|
-| 2 &nbsp; &nbsp; &nbsp; | 42 &nbsp; &nbsp; &nbsp;| 2020-12-9 &nbsp; &nbsp;|
-| 11 &nbsp; &nbsp; &nbsp;| 68 &nbsp; &nbsp; &nbsp;| 2021-1-11 &nbsp; &nbsp;|
-| 15 &nbsp; &nbsp; &nbsp;| 32 &nbsp; &nbsp; &nbsp;| 2021-1-17 &nbsp; &nbsp;|
-| 12 &nbsp; &nbsp; &nbsp;| 11 &nbsp; &nbsp; &nbsp;| 2021-1-19 &nbsp; &nbsp;|
-| 14 &nbsp; &nbsp; &nbsp;| 18 &nbsp; &nbsp; &nbsp;| 2021-1-27 &nbsp; &nbsp;|
+| 6       | 75      | 2019-12-9    |
+| 1       | 54      | 2020-2-9     |
+| 10      | 63      | 2020-3-4     |
+| 19      | 39      | 2020-4-6     |
+| 3       | 41      | 2020-6-3     |
+| 13      | 52      | 2020-6-22    |
+| 7       | 69      | 2020-7-16    |
+| 17      | 70      | 2020-8-25    |
+| 20      | 81      | 2020-11-2    |
+| 5       | 57      | 2020-11-9    |
+| 2       | 42      | 2020-12-9    |
+| 11      | 68      | 2021-1-11    |
+| 15      | 32      | 2021-1-17    |
+| 12      | 11      | 2021-1-19    |
+| 14      | 18      | 2021-1-27    |
 +---------+---------+--------------+
-
-表 AcceptedRides:
+AcceptedRides table:
 +---------+-----------+---------------+---------------+
 | ride_id | driver_id | ride_distance | ride_duration |
 +---------+-----------+---------------+---------------+
-| 10 &nbsp; &nbsp; &nbsp;| 10 &nbsp; &nbsp; &nbsp; &nbsp;| 63 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 38 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 13 &nbsp; &nbsp; &nbsp;| 10 &nbsp; &nbsp; &nbsp; &nbsp;| 73 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 96 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 7 &nbsp; &nbsp; &nbsp; | 8 &nbsp; &nbsp; &nbsp; &nbsp; | 100 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 28 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 17 &nbsp; &nbsp; &nbsp;| 7 &nbsp; &nbsp; &nbsp; &nbsp; | 119 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 68 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 20 &nbsp; &nbsp; &nbsp;| 1 &nbsp; &nbsp; &nbsp; &nbsp; | 121 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 92 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 5 &nbsp; &nbsp; &nbsp; | 7 &nbsp; &nbsp; &nbsp; &nbsp; | 42 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 101 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 2 &nbsp; &nbsp; &nbsp; | 4 &nbsp; &nbsp; &nbsp; &nbsp; | 6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 38 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 11 &nbsp; &nbsp; &nbsp;| 8 &nbsp; &nbsp; &nbsp; &nbsp; | 37 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 43 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 15 &nbsp; &nbsp; &nbsp;| 8 &nbsp; &nbsp; &nbsp; &nbsp; | 108 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 82 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 12 &nbsp; &nbsp; &nbsp;| 8 &nbsp; &nbsp; &nbsp; &nbsp; | 38 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 34 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 14 &nbsp; &nbsp; &nbsp;| 1 &nbsp; &nbsp; &nbsp; &nbsp; | 90 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| 74 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+| 10      | 10        | 63            | 38            |
+| 13      | 10        | 73            | 96            |
+| 7       | 8         | 100           | 28            |
+| 17      | 7         | 119           | 68            |
+| 20      | 1         | 121           | 92            |
+| 5       | 7         | 42            | 101           |
+| 2       | 4         | 6             | 38            |
+| 11      | 8         | 37            | 43            |
+| 15      | 8         | 108           | 82            |
+| 12      | 8         | 38            | 34            |
+| 14      | 1         | 90            | 74            |
 +---------+-----------+---------------+---------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------+--------------------+
 | month | working_percentage |
 +-------+--------------------+
-| 1 &nbsp; &nbsp; | 0.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 2 &nbsp; &nbsp; | 0.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 3 &nbsp; &nbsp; | 25.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 4 &nbsp; &nbsp; | 0.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 5 &nbsp; &nbsp; | 0.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 6 &nbsp; &nbsp; | 20.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 7 &nbsp; &nbsp; | 20.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 8 &nbsp; &nbsp; | 20.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 9 &nbsp; &nbsp; | 0.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 10 &nbsp; &nbsp;| 0.00 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| 11 &nbsp; &nbsp;| 33.33 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
-| 12 &nbsp; &nbsp;| 16.67 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|
+| 1     | 0.00               |
+| 2     | 0.00               |
+| 3     | 25.00              |
+| 4     | 0.00               |
+| 5     | 0.00               |
+| 6     | 20.00              |
+| 7     | 20.00              |
+| 8     | 20.00              |
+| 9     | 0.00               |
+| 10    | 0.00               |
+| 11    | 33.33              |
+| 12    | 16.67              |
 +-------+--------------------+
-<strong>解释：</strong>
-截至 1 月底 --&gt; 2 个活跃的驾驶员 (10, 8)，无被接受的行程。百分比是0%。
-截至 2 月底 --&gt; 3 个活跃的驾驶员 (10, 8, 5)，无被接受的行程。百分比是0%。
-截至 3 月底 --&gt; 4 个活跃的驾驶员 (10, 8, 5, 7)，1 个被接受的行程 (10)。百分比是 (1 / 4) * 100 = 25%。
-截至 4 月底 --&gt; 4 个活跃的驾驶员 (10, 8, 5, 7)，无被接受的行程。百分比是 0%。
-截至 5 月底 --&gt; 5 个活跃的驾驶员 (10, 8, 5, 7, 4)，无被接受的行程。百分比是 0%。
-截至 6 月底 --&gt; 5 个活跃的驾驶员 (10, 8, 5, 7, 4)，1 个被接受的行程 (10)。 百分比是 (1 / 5) * 100 = 20%。
-截至 7 月底 --&gt; 5 个活跃的驾驶员 (10, 8, 5, 7, 4)，1 个被接受的行程 (8)。百分比是 (1 / 5) * 100 = 20%。
-截至 8 月底 --&gt; 5 个活跃的驾驶员 (10, 8, 5, 7, 4)，1 个被接受的行程 (7)。百分比是 (1 / 5) * 100 = 20%。
-截至 9 月底 --&gt; 5 个活跃的驾驶员 (10, 8, 5, 7, 4)，无被接受的行程。百分比是 0%。
-截至 10 月底 --&gt; 6 个活跃的驾驶员 (10, 8, 5, 7, 4, 1) 无被接受的行程。百分比是 0%。
-截至 11 月底 --&gt; 6 个活跃的驾驶员 (10, 8, 5, 7, 4, 1)，2 个被接受的行程 (1, 7)。百分比是 (2 / 6) * 100 = 33.33%。
-截至 12 月底 --&gt; 6 个活跃的驾驶员 (10, 8, 5, 7, 4, 1)，1 个被接受的行程 (4)。百分比是 (1 / 6) * 100 = 16.67%。
+<strong>Explanation:</strong> 
+By the end of January --&gt; two active drivers (10, 8) and no accepted rides. The percentage is 0%.
+By the end of February --&gt; three active drivers (10, 8, 5) and no accepted rides. The percentage is 0%.
+By the end of March --&gt; four active drivers (10, 8, 5, 7) and one accepted ride by driver (10). The percentage is (1 / 4) * 100 = 25%.
+By the end of April --&gt; four active drivers (10, 8, 5, 7) and no accepted rides. The percentage is 0%.
+By the end of May --&gt; five active drivers (10, 8, 5, 7, 4) and no accepted rides. The percentage is 0%.
+By the end of June --&gt; five active drivers (10, 8, 5, 7, 4) and one accepted ride by driver (10). The percentage is (1 / 5) * 100 = 20%.
+By the end of July --&gt; five active drivers (10, 8, 5, 7, 4) and one accepted ride by driver (8). The percentage is (1 / 5) * 100 = 20%.
+By the end of August --&gt; five active drivers (10, 8, 5, 7, 4) and one accepted ride by driver (7). The percentage is (1 / 5) * 100 = 20%.
+By the end of September --&gt; five active drivers (10, 8, 5, 7, 4) and no accepted rides. The percentage is 0%.
+By the end of October --&gt; six active drivers (10, 8, 5, 7, 4, 1) and no accepted rides. The percentage is 0%.
+By the end of November --&gt; six active drivers (10, 8, 5, 7, 4, 1) and two accepted rides by <strong>two different</strong> drivers (1, 7). The percentage is (2 / 6) * 100 = 33.33%.
+By the end of December --&gt; six active drivers (10, 8, 5, 7, 4, 1) and one accepted ride by driver (4). The percentage is (1 / 6) * 100 = 16.67%.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一：递归 + 左连接 + 分组
-
-我们可以使用递归的方法生成 $1 \sim 12$ 月的数据，记录在 `Month` 表中。
-
-接下来，我们用 `Month` 表与 `Drivers` 表进行左连接，连接的条件是 `year(d.join_date) < 2020 or (year(d.join_date) = 2020 and month(d.join_date) <= month)`，这样就可以得到每个月的活跃司机数。
-
-然后，我们再用 `Rides` 表与 `AcceptedRides` 表进行内连接，连接的条件是 `ride_id` 相等，并且我们只查出 `year(requested_at) = 2020` 的数据，这样就可以得到 $2020$ 年被接受的所有行程。
-
-最后，我们将上面两个表进行左连接，连接的条件是 `month` 相等、`driver_id` 相等，并且 `join_date` 小于等于 `requested_at`，这样就可以得到每个月被接受的行程数，按月份进行分组，就可以得到每个月的活跃司机数和被接受的行程数，从而计算出每个月的接单率。
+### Solution 1
 
 <!-- tabs:start -->
 

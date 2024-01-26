@@ -1,74 +1,67 @@
-# [1352. 最后 K 个数的乘积](https://leetcode.cn/problems/product-of-the-last-k-numbers)
+# [1352. Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers)
 
-[English Version](/solution/1300-1399/1352.Product%20of%20the%20Last%20K%20Numbers/README_EN.md)
+[中文文档](/solution/1300-1399/1352.Product%20of%20the%20Last%20K%20Numbers/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design an algorithm that accepts a stream of integers and retrieves the product of the last <code>k</code> integers of the stream.</p>
 
-<p>请你实现一个「数字乘积类」<code>ProductOfNumbers</code>，要求支持下述两种方法：</p>
-
-<p>1.<code>&nbsp;add(int num)</code></p>
+<p>Implement the <code>ProductOfNumbers</code> class:</p>
 
 <ul>
-	<li>将数字&nbsp;<code>num</code>&nbsp;添加到当前数字列表的最后面。</li>
+	<li><code>ProductOfNumbers()</code> Initializes the object with an empty stream.</li>
+	<li><code>void add(int num)</code> Appends the integer <code>num</code> to the stream.</li>
+	<li><code>int getProduct(int k)</code> Returns the product of the last <code>k</code> numbers in the current list. You can assume that always the current list has at least <code>k</code> numbers.</li>
 </ul>
 
-<p>2.<code> getProduct(int k)</code></p>
-
-<ul>
-	<li>返回当前数字列表中，最后&nbsp;<code>k</code>&nbsp;个数字的乘积。</li>
-	<li>你可以假设当前列表中始终 <strong>至少</strong> 包含 <code>k</code> 个数字。</li>
-</ul>
-
-<p>题目数据保证：任何时候，任一连续数字序列的乘积都在 32-bit 整数范围内，不会溢出。</p>
+<p>The test cases are generated so that, at any time, the product of any contiguous sequence of numbers will fit into a single 32-bit integer without overflowing.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example:</strong></p>
 
-<p><strong>示例：</strong></p>
-
-<pre><strong>输入：</strong>
+<pre>
+<strong>Input</strong>
 [&quot;ProductOfNumbers&quot;,&quot;add&quot;,&quot;add&quot;,&quot;add&quot;,&quot;add&quot;,&quot;add&quot;,&quot;getProduct&quot;,&quot;getProduct&quot;,&quot;getProduct&quot;,&quot;add&quot;,&quot;getProduct&quot;]
 [[],[3],[0],[2],[5],[4],[2],[3],[4],[8],[2]]
 
-<strong>输出：</strong>
+<strong>Output</strong>
 [null,null,null,null,null,null,20,40,0,null,32]
 
-<strong>解释：</strong>
+<strong>Explanation</strong>
 ProductOfNumbers productOfNumbers = new ProductOfNumbers();
 productOfNumbers.add(3);        // [3]
 productOfNumbers.add(0);        // [3,0]
 productOfNumbers.add(2);        // [3,0,2]
 productOfNumbers.add(5);        // [3,0,2,5]
 productOfNumbers.add(4);        // [3,0,2,5,4]
-productOfNumbers.getProduct(2); // 返回 20 。最后 2 个数字的乘积是 5 * 4 = 20
-productOfNumbers.getProduct(3); // 返回 40 。最后 3 个数字的乘积是 2 * 5 * 4 = 40
-productOfNumbers.getProduct(4); // 返回  0 。最后 4 个数字的乘积是 0 * 2 * 5 * 4 = 0
+productOfNumbers.getProduct(2); // return 20. The product of the last 2 numbers is 5 * 4 = 20
+productOfNumbers.getProduct(3); // return 40. The product of the last 3 numbers is 2 * 5 * 4 = 40
+productOfNumbers.getProduct(4); // return 0. The product of the last 4 numbers is 0 * 2 * 5 * 4 = 0
 productOfNumbers.add(8);        // [3,0,2,5,4,8]
-productOfNumbers.getProduct(2); // 返回 32 。最后 2 个数字的乘积是 4 * 8 = 32 
+productOfNumbers.getProduct(2); // return 32. The product of the last 2 numbers is 4 * 8 = 32 
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>add</code> 和 <code>getProduct</code>&nbsp;两种操作加起来总共不会超过&nbsp;<code>40000</code>&nbsp;次。</li>
-	<li><code>0 &lt;= num&nbsp;&lt;=&nbsp;100</code></li>
-	<li><code>1 &lt;= k &lt;= 40000</code></li>
+	<li><code>0 &lt;= num &lt;= 100</code></li>
+	<li><code>1 &lt;= k &lt;= 4 * 10<sup>4</sup></code></li>
+	<li>At most <code>4 * 10<sup>4</sup></code> calls will be made to <code>add</code> and <code>getProduct</code>.</li>
+	<li>The product of the stream at any point in time will fit in a <strong>32-bit</strong> integer.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：前缀积
+### Solution 1: Prefix Product
 
-我们初始化一个数组 $s$，其中 $s[i]$ 表示前 $i$ 个数字的乘积。
+We initialize an array $s$, where $s[i]$ represents the product of the first $i$ numbers.
 
-当调用 `add(num)` 时，我们判断 `num` 是否为 $0$，若是，则将 $s$ 置为 `[1]`，否则将 $s$ 的最后一个元素乘以 `num`，并将结果添加到 $s$ 的末尾。
+When calling `add(num)`, we judge whether `num` is $0$. If it is, we set $s$ to `[1]`. Otherwise, we multiply the last element of $s$ by `num` and add the result to the end of $s$.
 
-当调用 `getProduct(k)` 时，此时判断 $s$ 的长度是否小于等于 $k$，若是，则返回 $0$，否则返回 $s$ 的最后一个元素除以 $s$ 的倒数第 $k + 1$ 个元素。即 $s[-1] / s[-k - 1]$。
+When calling `getProduct(k)`, we now judge whether the length of $s$ is less than or equal to $k$. If it is, we return $0$. Otherwise, we return the last element of $s$ divided by the $k + 1$th element from the end of $s$. That is, $s[-1] / s[-k - 1]$.
 
-时间复杂度 $O(1)$，空间复杂度 $O(n)$。其中 $n$ 为调用 `add` 的次数。
+The time complexity is $O(1)$, and the space complexity is $O(n)$. Where $n$ is the number of times `add` is called.
 
 <!-- tabs:start -->
 

@@ -1,44 +1,42 @@
-# [2684. 矩阵中移动的最大次数](https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid)
+# [2684. Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid)
 
-[English Version](/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/README_EN.md)
+[中文文档](/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> <code>m x n</code> matrix <code>grid</code> consisting of <strong>positive</strong> integers.</p>
 
-<p>给你一个下标从 <strong>0</strong> 开始、大小为 <code>m x n</code> 的矩阵 <code>grid</code> ，矩阵由若干 <strong>正</strong> 整数组成。</p>
-
-<p>你可以从矩阵第一列中的 <strong>任一</strong> 单元格出发，按以下方式遍历&nbsp;<code>grid</code> ：</p>
+<p>You can start at <strong>any</strong> cell in the first column of the matrix, and traverse the grid in the following way:</p>
 
 <ul>
-	<li>从单元格 <code>(row, col)</code> 可以移动到&nbsp;<code>(row - 1, col + 1)</code>、<code>(row, col + 1)</code> 和 <code>(row + 1, col + 1)</code> 三个单元格中任一满足值 <strong>严格</strong> 大于当前单元格的单元格。</li>
+	<li>From a cell <code>(row, col)</code>, you can move to any of the cells: <code>(row - 1, col + 1)</code>, <code>(row, col + 1)</code> and <code>(row + 1, col + 1)</code> such that the value of the cell you move to, should be <strong>strictly</strong> bigger than the value of the current cell.</li>
 </ul>
 
-<p>返回你在矩阵中能够 <strong>移动</strong> 的 <strong>最大</strong> 次数。</p>
+<p>Return <em>the <strong>maximum</strong> number of <strong>moves</strong> that you can perform.</em></p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgriddrawio-10.png" style="width: 201px; height: 201px;">
-<pre><strong>输入：</strong>grid = [[2,4,3,5],[5,4,9,3],[3,4,2,11],[10,9,13,15]]
-<strong>输出：</strong>3
-<strong>解释：</strong>可以从单元格 (0, 0) 开始并且按下面的路径移动：
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgriddrawio-10.png" style="width: 201px; height: 201px;" />
+<pre>
+<strong>Input:</strong> grid = [[2,4,3,5],[5,4,9,3],[3,4,2,11],[10,9,13,15]]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> We can start at the cell (0, 0) and make the following moves:
 - (0, 0) -&gt; (0, 1).
 - (0, 1) -&gt; (1, 2).
 - (1, 2) -&gt; (2, 3).
-可以证明这是能够移动的最大次数。</pre>
+It can be shown that it is the maximum number of moves that can be made.</pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgrid4drawio.png">
-<strong>输入：</strong>grid = [[3,2,4],[2,1,9],[1,1,7]]
-<strong>输出：</strong>0
-<strong>解释：</strong>从第一列的任一单元格开始都无法移动。
+<pre>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgrid4drawio.png" />
+<strong>Input:</strong> grid = [[3,2,4],[2,1,9],[1,1,7]]
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Starting from any cell in the first column we cannot perform any moves.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>m == grid.length</code></li>
@@ -48,17 +46,9 @@
 	<li><code>1 &lt;= grid[i][j] &lt;= 10<sup>6</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：BFS
-
-我们定义一个队列 $q$，初始时将第一列的所有单元格 $(i, 0)$ 加入队列，同时定义一个二维数组 $dist$，其中 $dist[i][j]$ 表示到达单元格 $(i, j)$ 的最大移动次数。初始时，$dist[i][j] = 0$。
-
-接下来，我们开始进行广度优先搜索。每次取出队首的单元格 $(i, j)$，并考虑其可以到达的下一层的单元格 $(x, y)$。如果 $x$ 和 $y$ 满足 $0 \leq x < m, 0 \leq y < n$，且 $grid[x][y] \gt grid[i][j]$，并且 $dist[x][y] \lt dist[i][j] + 1$，那么我们就可以从单元格 $(i, j)$ 移动到单元格 $(x, y)$，此时我们将 $dist[x][y]$ 更新为 $dist[i][j] + 1$，并将单元格 $(x, y)$ 加入队列 $q$ 中，然后更新答案 $ans = \max(ans, dist[x][y])$。
-
-当队列为空时，我们就找到了矩阵中移动的最大次数，返回 $ans$ 即可。
-
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别是矩阵的行数和列数。
+### Solution 1
 
 <!-- tabs:start -->
 

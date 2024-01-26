@@ -1,44 +1,48 @@
-# [923. 三数之和的多种可能](https://leetcode.cn/problems/3sum-with-multiplicity)
+# [923. 3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity)
 
-[English Version](/solution/0900-0999/0923.3Sum%20With%20Multiplicity/README_EN.md)
+[中文文档](/solution/0900-0999/0923.3Sum%20With%20Multiplicity/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an integer array <code>arr</code>, and an integer <code>target</code>, return the number of tuples <code>i, j, k</code> such that <code>i &lt; j &lt; k</code> and <code>arr[i] + arr[j] + arr[k] == target</code>.</p>
 
-<p>给定一个整数数组<meta charset="UTF-8" />&nbsp;<code>arr</code>&nbsp;，以及一个整数&nbsp;<code>target</code>&nbsp;作为目标值，返回满足 <code>i &lt; j &lt; k</code> 且<meta charset="UTF-8" />&nbsp;<code>arr[i] + arr[j] + arr[k] == target</code>&nbsp;的元组&nbsp;<code>i, j, k</code>&nbsp;的数量。</p>
-
-<p>由于结果会非常大，请返回 <code>10<sup>9</sup>&nbsp;+ 7</code>&nbsp;的模。</p>
+<p>As the answer can be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>arr = [1,1,2,2,3,3,4,4,5,5], target = 8
-<strong>输出：</strong>20
-<strong>解释：</strong>
-按值枚举(arr[i], arr[j], arr[k])：
-(1, 2, 5) 出现 8 次；
-(1, 3, 4) 出现 8 次；
-(2, 2, 4) 出现 2 次；
-(2, 3, 3) 出现 2 次。
+<strong>Input:</strong> arr = [1,1,2,2,3,3,4,4,5,5], target = 8
+<strong>Output:</strong> 20
+<strong>Explanation: </strong>
+Enumerating by the values (arr[i], arr[j], arr[k]):
+(1, 2, 5) occurs 8 times;
+(1, 3, 4) occurs 8 times;
+(2, 2, 4) occurs 2 times;
+(2, 3, 3) occurs 2 times.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>arr = [1,1,2,2,2,2], target = 5
-<strong>输出：</strong>12
-<strong>解释：</strong>
-arr[i] = 1, arr[j] = arr[k] = 2 出现 12 次：
-我们从 [1,1] 中选择一个 1，有 2 种情况，
-从 [2,2,2,2] 中选出两个 2，有 6 种情况。
+<strong>Input:</strong> arr = [1,1,2,2,2,2], target = 5
+<strong>Output:</strong> 12
+<strong>Explanation: </strong>
+arr[i] = 1, arr[j] = arr[k] = 2 occurs 12 times:
+We choose one 1 from [1,1] in 2 ways,
+and two 2s from [2,2,2,2] in 6 ways.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> arr = [2,1,3], target = 6
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> (1, 2, 3) occured one time in the array so we return 1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>3 &lt;= arr.length &lt;= 3000</code></li>
@@ -46,17 +50,9 @@ arr[i] = 1, arr[j] = arr[k] = 2 出现 12 次：
 	<li><code>0 &lt;= target &lt;= 300</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举
-
-我们先用一个长度为 $101$ 的数组 `cnt` 记录数组 `arr` 中每个元素出现的次数。
-
-然后枚举数组 `arr` 中的元素作为三元组的第二个元素 $b$，先让 `cnt` 减去其中一个 $b$。接着从数组 `arr` 的开头开始枚举第一个元素 $a$，那么第三个元素 $c$ 为 $target - a - b$。如果 $c$ 的值在数组 `cnt` 的范围内，那么答案加上 $cnt[c]$。
-
-注意答案的取模操作。
-
-时间复杂度 $O(n^2)$，空间复杂度 $O(C)$。其中 $n$ 为数组 `arr` 的长度，而 $C$ 为数组 `cnt` 的长度。本题中 $C = 101$。
+### Solution 1
 
 <!-- tabs:start -->
 

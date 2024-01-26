@@ -1,12 +1,10 @@
-# [2082. 富有客户的数量](https://leetcode.cn/problems/the-number-of-rich-customers)
+# [2082. The Number of Rich Customers](https://leetcode.com/problems/the-number-of-rich-customers)
 
-[English Version](/solution/2000-2099/2082.The%20Number%20of%20Rich%20Customers/README_EN.md)
+[中文文档](/solution/2000-2099/2082.The%20Number%20of%20Rich%20Customers/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表： <code>Store</code></p>
+<p>Table: <code>Store</code></p>
 
 <pre>
 +-------------+------+
@@ -16,23 +14,22 @@
 | customer_id | int  |
 | amount      | int  |
 +-------------+------+
-bill_id 是这个表的主键(具有唯一值的列)。
-每一行包含一个订单的金额及相关客户的信息。
+bill_id is the primary key (column with unique values) for this table.
+Each row contains information about the amount of one bill and the customer associated with it.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>编写解决方案找出&nbsp;<strong>至少有一个&nbsp;</strong>订单的金额&nbsp;<strong>严格大于</strong> <code>500</code> 的客户的数量。</p>
+<p>Write a solution to report the number of customers who had <strong>at least one</strong> bill with an amount <strong>strictly greater</strong> than <code>500</code>.</p>
 
-<p>返回结果格式如下示例所示：</p>
+<p>The result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-Store 表:
+<strong>Input:</strong> 
+Store table:
 +---------+-------------+--------+
 | bill_id | customer_id | amount |
 +---------+-------------+--------+
@@ -42,21 +39,21 @@ Store 表:
 | 11      | 3           | 657    |
 | 13      | 3           | 257    |
 +---------+-------------+--------+
-<strong>输出：</strong> 
+<strong>Output:</strong> 
 +------------+
 | rich_count |
 +------------+
 | 2          |
 +------------+
-<strong>解释：</strong>
-客户 1 有 2 个订单金额严格大于 500。
-客户 2 没有任何订单金额严格大于 500。
-客户 3 有 1 个订单金额严格大于 500。
+<strong>Explanation:</strong> 
+Customer 1 has two bills with amounts strictly greater than 500.
+Customer 2 does not have any bills with an amount strictly greater than 500.
+Customer 3 has one bill with an amount strictly greater than 500.
 </pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

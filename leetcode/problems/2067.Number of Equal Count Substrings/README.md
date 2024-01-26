@@ -1,71 +1,61 @@
-# [2067. 等计数子串的数量](https://leetcode.cn/problems/number-of-equal-count-substrings)
+# [2067. Number of Equal Count Substrings](https://leetcode.com/problems/number-of-equal-count-substrings)
 
-[English Version](/solution/2000-2099/2067.Number%20of%20Equal%20Count%20Substrings/README_EN.md)
+[中文文档](/solution/2000-2099/2067.Number%20of%20Equal%20Count%20Substrings/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a <strong>0-indexed</strong> string <code>s</code> consisting of only lowercase English letters, and an integer <code>count</code>. A <strong>substring</strong> of <code>s</code> is said to be an <strong>equal count substring</strong> if, for each <strong>unique</strong> letter in the substring, it appears exactly <code>count</code> times in the substring.</p>
 
-<p>给你一个下标从 <strong>0</strong>&nbsp;开始的字符串 <code>s</code>，只包含小写英文字母和一个整数 <code>count</code>。如果&nbsp;<code>s</code>&nbsp;的&nbsp;<strong>子串 </strong>中的每种字母在子串中恰好出现 <code>count</code> 次，这个子串就被称为&nbsp;<strong>等计数子串</strong>。</p>
+<p>Return <em>the number of <strong>equal count substrings</strong> in </em><code>s</code>.</p>
 
-<p>返回<em> <code>s</code> 中&nbsp;<strong>等计数子串&nbsp;</strong>的个数。</em></p>
-
-<p><strong>子串&nbsp;</strong>是字符串中连续的非空字符序列。</p>
+<p>A <strong>substring</strong> is a contiguous non-empty sequence of characters within a string.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入:</strong> s = "aaabcbbcc", count = 3
-<strong>输出:</strong> 3
-<strong>解释:</strong>
-从下标 0 开始到下标 2 结束的子串是 "aaa"。
-字母 “a” 在子串中恰好出现了 3 次。
-从下标 3 开始到下标 8 结束的子串是 "bcbbcc"。
-字母 “b” 和 “c” 在子串中恰好出现了 3 次。
-从下标 0 开始到下标 8 结束的子串是 "aaabcbbcc"。
-字母 “a”、“b” 和 “c” 在子串中恰好出现了 3 次。
+<strong>Input:</strong> s = &quot;aaabcbbcc&quot;, count = 3
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+The substring that starts at index 0 and ends at index 2 is &quot;aaa&quot;.
+The letter &#39;a&#39; in the substring appears exactly 3 times.
+The substring that starts at index 3 and ends at index 8 is &quot;bcbbcc&quot;.
+The letters &#39;b&#39; and &#39;c&#39; in the substring appear exactly 3 times.
+The substring that starts at index 0 and ends at index 8 is &quot;aaabcbbcc&quot;.
+The letters &#39;a&#39;, &#39;b&#39;, and &#39;c&#39; in the substring appear exactly 3 times.
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> s = "abcd", count = 2
-<strong>输出:</strong> 0
-<strong>解释:</strong>
-每种字母在 s 中出现的次数小于 count。
-因此，s 中没有子串是等计数子串，返回 0。
+<strong>Input:</strong> s = &quot;abcd&quot;, count = 2
+<strong>Output:</strong> 0
+<strong>Explanation:</strong>
+The number of times each letter appears in s is less than count.
+Therefore, no substrings in s are equal count substrings, so return 0.
 </pre>
 
-<p><strong>示例 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入:</strong> s = "a", count = 5
-<strong>输出:</strong> 0
-<strong>解释:</strong>
-每种字母在 s 中出现的次数小于 count。
-因此，s 中没有子串是等计数子串，返回 0。</pre>
+<strong>Input:</strong> s = &quot;a&quot;, count = 5
+<strong>Output:</strong> 0
+<strong>Explanation:</strong>
+The number of times each letter appears in s is less than count.
+Therefore, no substrings in s are equal count substrings, so return 0</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 3 * 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= count &lt;= 3 * 10<sup>4</sup></code></li>
-	<li><code>s</code> 只由小写英文字母组成。</li>
+	<li><code>s</code> consists only of lowercase English letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：枚举 + 滑动窗口
-
-我们可以在 $[1..26]$ 范围内枚举子串的字母种类数 $x$，那么子串长度就是 $count \times x$。
-
-接下来，我们将当前子串长度作为窗口的大小，统计窗口大小中有多少种字母的个数为 $count$，记录在 $y$ 中。如果此时 $x = y$，说明当前窗口中的字母个数都为 $count$，那么就可以将答案加一。
-
-时间复杂度 $O(n \times C)$，空间复杂度 $O(C)$。其中 $n$ 为字符串 $s$ 的长度，而 $C$ 为字母的种类数，本题中 $C = 26$。
+### Solution 1
 
 <!-- tabs:start -->
 

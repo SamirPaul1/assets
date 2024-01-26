@@ -1,125 +1,68 @@
-# [1870. 准时到达的列车最小时速](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time)
+# [1870. Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time)
 
-[English Version](/solution/1800-1899/1870.Minimum%20Speed%20to%20Arrive%20on%20Time/README_EN.md)
+[中文文档](/solution/1800-1899/1870.Minimum%20Speed%20to%20Arrive%20on%20Time/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given a floating-point number <code>hour</code>, representing the amount of time you have to reach the office. To commute to the office, you must take <code>n</code> trains in sequential order. You are also given an integer array <code>dist</code> of length <code>n</code>, where <code>dist[i]</code> describes the distance (in kilometers) of the <code>i<sup>th</sup></code> train ride.</p>
 
-<p>给你一个浮点数 <code>hour</code> ，表示你到达办公室可用的总通勤时间。要到达办公室，你必须按给定次序乘坐 <code>n</code> 趟列车。另给你一个长度为 <code>n</code> 的整数数组 <code>dist</code> ，其中 <code>dist[i]</code> 表示第 <code>i</code> 趟列车的行驶距离（单位是千米）。</p>
-
-<p>每趟列车均只能在整点发车，所以你可能需要在两趟列车之间等待一段时间。</p>
+<p>Each train can only depart at an integer hour, so you may need to wait in between each train ride.</p>
 
 <ul>
-	<li>例如，第 <code>1</code> 趟列车需要 <code>1.5</code> 小时，那你必须再等待 <code>0.5</code> 小时，搭乘在第 2 小时发车的第 <code>2</code> 趟列车。</li>
+	<li>For example, if the <code>1<sup>st</sup></code> train ride takes <code>1.5</code> hours, you must wait for an additional <code>0.5</code> hours before you can depart on the <code>2<sup>nd</sup></code> train ride at the 2 hour mark.</li>
 </ul>
 
-<p>返回能满足你准时到达办公室所要求全部列车的<strong> 最小正整数 </strong>时速（单位：千米每小时），如果无法准时到达，则返回 <code>-1</code> 。</p>
+<p>Return <em>the <strong>minimum positive integer</strong> speed <strong>(in kilometers per hour)</strong> that all the trains must travel at for you to reach the office on time, or </em><code>-1</code><em> if it is impossible to be on time</em>.</p>
 
-<p>生成的测试用例保证答案不超过 <code>10<sup>7</sup></code> ，且 <code>hour</code> 的 <strong>小数点后最多存在两位数字</strong> 。</p>
+<p>Tests are generated such that the answer will not exceed <code>10<sup>7</sup></code> and <code>hour</code> will have <strong>at most two digits after the decimal point</strong>.</p>
 
-<p> </p>
-
-<p><strong>示例 1：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>dist = [1,3,2], hour = 6
-<strong>输出：</strong>1
-<strong>解释：</strong>速度为 1 时：
-- 第 1 趟列车运行需要 1/1 = 1 小时。
-- 由于是在整数时间到达，可以立即换乘在第 1 小时发车的列车。第 2 趟列车运行需要 3/1 = 3 小时。
-- 由于是在整数时间到达，可以立即换乘在第 4 小时发车的列车。第 3 趟列车运行需要 2/1 = 2 小时。
-- 你将会恰好在第 6 小时到达。
+<strong>Input:</strong> dist = [1,3,2], hour = 6
+<strong>Output:</strong> 1
+<strong>Explanation: </strong>At speed 1:
+- The first train ride takes 1/1 = 1 hour.
+- Since we are already at an integer hour, we depart immediately at the 1 hour mark. The second train takes 3/1 = 3 hours.
+- Since we are already at an integer hour, we depart immediately at the 4 hour mark. The third train takes 2/1 = 2 hours.
+- You will arrive at exactly the 6 hour mark.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入：</strong>dist = [1,3,2], hour = 2.7
-<strong>输出：</strong>3
-<strong>解释：</strong>速度为 3 时：
-- 第 1 趟列车运行需要 1/3 = 0.33333 小时。
-- 由于不是在整数时间到达，故需要等待至第 1 小时才能搭乘列车。第 2 趟列车运行需要 3/3 = 1 小时。
-- 由于是在整数时间到达，可以立即换乘在第 2 小时发车的列车。第 3 趟列车运行需要 2/3 = 0.66667 小时。
-- 你将会在第 2.66667 小时到达。</pre>
+<strong>Input:</strong> dist = [1,3,2], hour = 2.7
+<strong>Output:</strong> 3
+<strong>Explanation: </strong>At speed 3:
+- The first train ride takes 1/3 = 0.33333 hours.
+- Since we are not at an integer hour, we wait until the 1 hour mark to depart. The second train ride takes 3/3 = 1 hour.
+- Since we are already at an integer hour, we depart immediately at the 2 hour mark. The third train takes 2/3 = 0.66667 hours.
+- You will arrive at the 2.66667 hour mark.
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入：</strong>dist = [1,3,2], hour = 1.9
-<strong>输出：</strong>-1
-<strong>解释：</strong>不可能准时到达，因为第 3 趟列车最早是在第 2 小时发车。</pre>
+<strong>Input:</strong> dist = [1,3,2], hour = 1.9
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> It is impossible because the earliest the third train can depart is at the 2 hour mark.
+</pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == dist.length</code></li>
-	<li><code>1 <= n <= 10<sup>5</sup></code></li>
-	<li><code>1 <= dist[i] <= 10<sup>5</sup></code></li>
-	<li><code>1 <= hour <= 10<sup>9</sup></code></li>
-	<li><code>hours</code> 中，小数点后最多存在两位数字</li>
+	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= dist[i] &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= hour &lt;= 10<sup>9</sup></code></li>
+	<li>There will be at most two digits after the decimal point in <code>hour</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：二分查找
-
-二分枚举速度值，找到满足条件的最小速度。
-
-时间复杂度 $O(n\times \log m)$，其中 $n$ 和 $m$ 分别为数组 `dist` 和最大速度值。
-
-以下是二分查找的两个通用模板：
-
-模板 1：
-
-```java
-boolean check(int x) {
-}
-
-int search(int left, int right) {
-    while (left < right) {
-        int mid = (left + right) >> 1;
-        if (check(mid)) {
-            right = mid;
-        } else {
-            left = mid + 1;
-        }
-    }
-    return left;
-}
-```
-
-模板 2：
-
-```java
-boolean check(int x) {
-}
-
-int search(int left, int right) {
-    while (left < right) {
-        int mid = (left + right + 1) >> 1;
-        if (check(mid)) {
-            left = mid;
-        } else {
-            right = mid - 1;
-        }
-    }
-    return left;
-}
-```
-
-做二分题目时，可以按照以下套路：
-
-1. 写出循环条件 $left < right$；
-1. 循环体内，不妨先写 $mid = \lfloor \frac{left + right}{2} \rfloor$；
-1. 根据具体题目，实现 $check()$ 函数（有时很简单的逻辑，可以不定义 $check$），想一下究竟要用 $right = mid$（模板 $1$） 还是 $left = mid$（模板 $2$）；
-       - 如果 $right = mid$，那么写出 else 语句 $left = mid + 1$，并且不需要更改 mid 的计算，即保持 $mid = \lfloor \frac{left + right}{2} \rfloor$；
-       - 如果 $left = mid$，那么写出 else 语句 $right = mid - 1$，并且在 $mid$ 计算时补充 +1，即 $mid = \lfloor \frac{left + right + 1}{2} \rfloor$；
-1. 循环结束时，$left$ 与 $right$ 相等。
-
-注意，这两个模板的优点是始终保持答案位于二分区间内，二分结束条件对应的值恰好在答案所处的位置。 对于可能无解的情况，只要判断二分结束后的 $left$ 或者 $right$ 是否满足题意即可。
+### Solution 1
 
 <!-- tabs:start -->
 

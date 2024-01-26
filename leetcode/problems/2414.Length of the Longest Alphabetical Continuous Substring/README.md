@@ -1,52 +1,50 @@
-# [2414. 最长的字母序连续子字符串的长度](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
+# [2414. Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring)
 
-[English Version](/solution/2400-2499/2414.Length%20of%20the%20Longest%20Alphabetical%20Continuous%20Substring/README_EN.md)
+[中文文档](/solution/2400-2499/2414.Length%20of%20the%20Longest%20Alphabetical%20Continuous%20Substring/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><strong>字母序连续字符串</strong> 是由字母表中连续字母组成的字符串。换句话说，字符串 <code>"abcdefghijklmnopqrstuvwxyz"</code> 的任意子字符串都是 <strong>字母序连续字符串</strong> 。</p>
+<p>An <strong>alphabetical continuous string</strong> is a string consisting of consecutive letters in the alphabet. In other words, it is any substring of the string <code>&quot;abcdefghijklmnopqrstuvwxyz&quot;</code>.</p>
 
 <ul>
-	<li>例如，<code>"abc"</code> 是一个字母序连续字符串，而 <code>"acb"</code> 和 <code>"za"</code> 不是。</li>
+	<li>For example, <code>&quot;abc&quot;</code> is an alphabetical continuous string, while <code>&quot;acb&quot;</code> and <code>&quot;za&quot;</code> are not.</li>
 </ul>
 
-<p>给你一个仅由小写英文字母组成的字符串 <code>s</code> ，返回其 <strong>最长</strong> 的 字母序连续子字符串 的长度。</p>
+<p>Given a string <code>s</code> consisting of lowercase letters only, return the <em>length of the <strong>longest</strong> alphabetical continuous substring.</em></p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>s = "abacaba"
-<strong>输出：</strong>2
-<strong>解释：</strong>共有 4 个不同的字母序连续子字符串 "a"、"b"、"c" 和 "ab" 。
-"ab" 是最长的字母序连续子字符串。
+<pre>
+<strong>Input:</strong> s = &quot;abacaba&quot;
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> There are 4 distinct continuous substrings: &quot;a&quot;, &quot;b&quot;, &quot;c&quot; and &quot;ab&quot;.
+&quot;ab&quot; is the longest continuous substring.
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>s = "abcde"
-<strong>输出：</strong>5
-<strong>解释：</strong>"abcde" 是最长的字母序连续子字符串。
+<pre>
+<strong>Input:</strong> s = &quot;abcde&quot;
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> &quot;abcde&quot; is the longest continuous substring.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>
-	<li><code>s</code> 由小写英文字母组成</li>
+	<li><code>s</code> consists of only English lowercase letters.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双指针
+### Solution 1: Two Pointers
 
-我们用双指针 $i$ 和 $j$ 分别指向当前连续子字符串的起始位置和结束位置。遍历字符串 $s$，如果当前字符 $s[j]$ 比 $s[j-1]$ 大，则 $j$ 向右移动一位，否则更新 $i$ 为 $j$，并更新最长连续子字符串的长度。
+We use two pointers $i$ and $j$ to point to the start and end of the current consecutive substring respectively. Traverse the string $s$, if the current character $s[j]$ is greater than $s[j-1]$, then move $j$ one step to the right, otherwise update $i$ to $j$, and update the length of the longest consecutive substring.
 
-时间复杂度 $O(n)$，其中 $n$ 为字符串 $s$ 的长度。空间复杂度 $O(1)$。
+The time complexity is $O(n)$, where $n$ is the length of the string $s$. The space complexity is $O(1)$.
 
 <!-- tabs:start -->
 

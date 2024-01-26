@@ -1,61 +1,57 @@
-# [2349. 设计数字容器系统](https://leetcode.cn/problems/design-a-number-container-system)
+# [2349. Design a Number Container System](https://leetcode.com/problems/design-a-number-container-system)
 
-[English Version](/solution/2300-2399/2349.Design%20a%20Number%20Container%20System/README_EN.md)
+[中文文档](/solution/2300-2399/2349.Design%20a%20Number%20Container%20System/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>设计一个数字容器系统，可以实现以下功能：</p>
+<p>Design a number container system that can do the following:</p>
 
 <ul>
-	<li>在系统中给定下标处&nbsp;<strong>插入</strong>&nbsp;或者 <strong>替换</strong>&nbsp;一个数字。</li>
-	<li><strong>返回</strong>&nbsp;系统中给定数字的最小下标。</li>
+	<li><strong>Insert </strong>or <strong>Replace</strong> a number at the given index in the system.</li>
+	<li><strong>Return </strong>the smallest index for the given number in the system.</li>
 </ul>
 
-<p>请你实现一个&nbsp;<code>NumberContainers</code>&nbsp;类：</p>
+<p>Implement the <code>NumberContainers</code> class:</p>
 
 <ul>
-	<li><code>NumberContainers()</code>&nbsp;初始化数字容器系统。</li>
-	<li><code>void change(int index, int number)</code> 在下标&nbsp;<code>index</code>&nbsp;处填入&nbsp;<code>number</code>&nbsp;。如果该下标&nbsp;<code>index</code>&nbsp;处已经有数字了，那么用 <code>number</code>&nbsp;替换该数字。</li>
-	<li><code>int find(int number)</code>&nbsp;返回给定数字&nbsp;<code>number</code>&nbsp;在系统中的最小下标。如果系统中没有&nbsp;<code>number</code>&nbsp;，那么返回&nbsp;<code>-1</code>&nbsp;。</li>
+	<li><code>NumberContainers()</code> Initializes the number container system.</li>
+	<li><code>void change(int index, int number)</code> Fills the container at <code>index</code> with the <code>number</code>. If there is already a number at that <code>index</code>, replace it.</li>
+	<li><code>int find(int number)</code> Returns the smallest index for the given <code>number</code>, or <code>-1</code> if there is no index that is filled by <code>number</code> in the system.</li>
 </ul>
 
 <p>&nbsp;</p>
-
-<p><strong>示例：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-["NumberContainers", "find", "change", "change", "change", "change", "find", "change", "find"]
+<strong>Input</strong>
+[&quot;NumberContainers&quot;, &quot;find&quot;, &quot;change&quot;, &quot;change&quot;, &quot;change&quot;, &quot;change&quot;, &quot;find&quot;, &quot;change&quot;, &quot;find&quot;]
 [[], [10], [2, 10], [1, 10], [3, 10], [5, 10], [10], [1, 20], [10]]
-<strong>输出：</strong>
+<strong>Output</strong>
 [null, -1, null, null, null, null, 1, null, 2]
 
-<strong>解释：</strong>
+<strong>Explanation</strong>
 NumberContainers nc = new NumberContainers();
-nc.find(10); // 没有数字 10 ，所以返回 -1 。
-nc.change(2, 10); // 容器中下标为 2 处填入数字 10 。
-nc.change(1, 10); // 容器中下标为 1 处填入数字 10 。
-nc.change(3, 10); // 容器中下标为 3 处填入数字 10 。
-nc.change(5, 10); // 容器中下标为 5 处填入数字 10 。
-nc.find(10); // 数字 10 所在的下标为 1 ，2 ，3 和 5 。因为最小下标为 1 ，所以返回 1 。
-nc.change(1, 20); // 容器中下标为 1 处填入数字 20 。注意，下标 1 处之前为 10 ，现在被替换为 20 。
-nc.find(10); // 数字 10 所在下标为 2 ，3 和 5 。最小下标为 2 ，所以返回 2 。
+nc.find(10); // There is no index that is filled with number 10. Therefore, we return -1.
+nc.change(2, 10); // Your container at index 2 will be filled with number 10.
+nc.change(1, 10); // Your container at index 1 will be filled with number 10.
+nc.change(3, 10); // Your container at index 3 will be filled with number 10.
+nc.change(5, 10); // Your container at index 5 will be filled with number 10.
+nc.find(10); // Number 10 is at the indices 1, 2, 3, and 5. Since the smallest index that is filled with 10 is 1, we return 1.
+nc.change(1, 20); // Your container at index 1 will be filled with number 20. Note that index 1 was filled with 10 and then replaced with 20. 
+nc.find(10); // Number 10 is at the indices 2, 3, and 5. The smallest index that is filled with 10 is 2. Therefore, we return 2.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>1 &lt;= index, number &lt;= 10<sup>9</sup></code></li>
-	<li>调用&nbsp;<code>change</code> 和&nbsp;<code>find</code>&nbsp;的&nbsp;<strong>总次数</strong>&nbsp;不超过&nbsp;<code>10<sup>5</sup></code> 次。</li>
+	<li>At most <code>10<sup>5</sup></code> calls will be made <strong>in total</strong> to <code>change</code> and <code>find</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,54 +1,50 @@
-# [314. 二叉树的垂直遍历](https://leetcode.cn/problems/binary-tree-vertical-order-traversal)
+# [314. Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal)
 
-[English Version](/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/README_EN.md)
+[中文文档](/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the <code>root</code> of a binary tree, return <em><strong>the vertical order traversal</strong> of its nodes&#39; values</em>. (i.e., from top to bottom, column by column).</p>
 
-<p>给你一个二叉树的根结点，返回其结点按 <strong>垂直方向</strong>（从上到下，逐列）遍历的结果。</p>
-
-<p>如果两个结点在同一行和列，那么顺序则为&nbsp;<strong>从左到右</strong>。</p>
+<p>If two nodes are in the same row and column, the order should be from <strong>left to right</strong>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree1.jpg" style="width: 282px; height: 301px;" />
 <pre>
-<strong>输入：</strong>root = [3,9,20,null,null,15,7]
-<strong>输出：</strong>[[9],[3,15],[20],[7]]
+<strong>Input:</strong> root = [3,9,20,null,null,15,7]
+<strong>Output:</strong> [[9],[3,15],[20],[7]]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree2-1.jpg" style="width: 462px; height: 222px;" />
 <pre>
-<strong>输入：</strong>root = [3,9,8,4,0,1,7]
-<strong>输出：</strong>[[4],[9],[3,0,1],[8],[7]]
+<strong>Input:</strong> root = [3,9,8,4,0,1,7]
+<strong>Output:</strong> [[4],[9],[3,0,1],[8],[7]]
 </pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree2.jpg" style="width: 462px; height: 302px;" />
 <pre>
-<strong>输入：</strong>root = [3,9,8,4,0,1,7,null,null,null,2,5]
-<strong>输出：</strong>[[4],[9,5],[3,0,1],[8,2],[7]]
+<strong>Input:</strong> root = [3,9,8,4,0,1,7,null,null,null,2,5]
+<strong>Output:</strong> [[4],[9,5],[3,0,1],[8,2],[7]]
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树中结点的数目在范围 <code>[0, 100]</code> 内</li>
+	<li>The number of nodes in the tree is in the range <code>[0, 100]</code>.</li>
 	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：DFS
+### Solution 1: DFS
 
-DFS 遍历二叉树，记录每个节点的值、深度，以及横向的偏移量。然后对所有节点按照横向偏移量从小到大排序，再按照深度从小到大排序，最后按照横向偏移量分组。
+DFS traverses the binary tree, recording the value, depth, and horizontal offset of each node. Then sort all nodes by horizontal offset from small to large, then by depth from small to large, and finally group by horizontal offset.
 
-时间复杂度 $O(n\log \log n)$，空间复杂度 $O(n)$。其中 $n$ 为二叉树的节点个数。
+The time complexity is $O(n\log \log n)$, and the space complexity is $O(n)$. Where $n$ is the number of nodes in the binary tree.
 
 <!-- tabs:start -->
 
@@ -206,11 +202,11 @@ func verticalOrder(root *TreeNode) [][]int {
 
 <!-- tabs:end -->
 
-### 方法二：BFS
+### Solution 2: BFS
 
-本题较好的做法应该是 BFS，从上往下逐层进行遍历。
+A better approach to this problem should be BFS, traversing from top to bottom level by level.
 
-时间复杂度 $O(n\log n)$，空间复杂度 $O(n)$。其中 $n$ 是二叉树的结点数。
+The time complexity is $O(n\log n)$, and the space complexity is $O(n)$. Where $n$ is the number of nodes in the binary tree.
 
 <!-- tabs:start -->
 

@@ -1,60 +1,51 @@
-# [333. 最大 BST 子树](https://leetcode.cn/problems/largest-bst-subtree)
+# [333. Largest BST Subtree](https://leetcode.com/problems/largest-bst-subtree)
 
-[English Version](/solution/0300-0399/0333.Largest%20BST%20Subtree/README_EN.md)
+[中文文档](/solution/0300-0399/0333.Largest%20BST%20Subtree/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given the root of a binary tree, find the largest <span data-keyword="subtree">subtree</span>, which is also a Binary Search Tree (BST), where the largest means subtree has the largest number of nodes.</p>
 
-<p>给定一个二叉树，找到其中最大的二叉搜索树（BST）子树，并返回该子树的大小。其中，最大指的是子树节点数最多的。</p>
-
-<p><strong>二叉搜索树（BST）</strong>中的所有节点都具备以下属性：</p>
+<p>A <strong>Binary Search Tree (BST)</strong> is a tree in which all the nodes follow the below-mentioned properties:</p>
 
 <ul>
-	<li>
-	<p>左子树的值小于其父（根）节点的值。</p>
-	</li>
-	<li>
-	<p>右子树的值大于其父（根）节点的值。</p>
-	</li>
+	<li>The left subtree values are less than the value of their parent (root) node&#39;s value.</li>
+	<li>The right subtree values are greater than the value of their parent (root) node&#39;s value.</li>
 </ul>
 
-<p><strong>注意：</strong>子树必须包含其所有后代。</p>
+<p><strong>Note:</strong> A subtree must include all of its descendants.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1：</strong></p>
-
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0333.Largest%20BST%20Subtree/images/tmp.jpg" /></strong></p>
-
-<pre>
-<strong>输入：</strong>root = [10,5,15,1,8,null,7]
-<strong>输出：</strong>3
-<strong>解释：</strong>本例中最大的 BST 子树是高亮显示的子树。返回值是子树的大小，即 3 。</pre>
-
-<p><strong>示例 2：</strong></p>
+<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0333.Largest%20BST%20Subtree/images/tmp.jpg" style="width: 571px; height: 302px;" /></strong></p>
 
 <pre>
-<strong>输入：</strong>root = [4,2,7,2,3,5,null,2,null,null,null,null,null,1]
-<strong>输出：</strong>2
+<strong>Input:</strong> root = [10,5,15,1,8,null,7]
+<strong>Output:</strong> 3
+<strong>Explanation: </strong>The Largest BST Subtree in this case is the highlighted one. The return value is the subtree&#39;s size, which is 3.</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> root = [4,2,7,2,3,5,null,2,null,null,null,null,null,1]
+<strong>Output:</strong> 2
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>树上节点数目的范围是 <code>[0, 10<sup>4</sup>]</code></li>
+	<li>The number of nodes in the tree is in the range <code>[0, 10<sup>4</sup>]</code>.</li>
 	<li><code>-10<sup>4</sup> &lt;= Node.val &lt;= 10<sup>4</sup></code></li>
 </ul>
 
 <p>&nbsp;</p>
+<p><strong>Follow up:</strong> Can you figure out ways to solve it with <code>O(n)</code> time complexity?</p>
 
-<p><strong>进阶:</strong>&nbsp; 你能想出 O(n) 时间复杂度的解法吗？</p>
+## Solutions
 
-## 解法
-
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

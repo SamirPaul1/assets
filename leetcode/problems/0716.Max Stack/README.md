@@ -1,79 +1,59 @@
-# [716. 最大栈](https://leetcode.cn/problems/max-stack)
+# [716. Max Stack](https://leetcode.com/problems/max-stack)
 
-[English Version](/solution/0700-0799/0716.Max%20Stack/README_EN.md)
+[中文文档](/solution/0700-0799/0716.Max%20Stack/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Design a max stack data structure that supports the stack operations and supports finding the stack&#39;s maximum element.</p>
 
-<p>设计一个最大栈数据结构，既支持栈操作，又支持查找栈中最大元素。</p>
-
-<p>实现 <code>MaxStack</code> 类：</p>
+<p>Implement the <code>MaxStack</code> class:</p>
 
 <ul>
-	<li><code>MaxStack()</code> 初始化栈对象</li>
-	<li><code>void push(int x)</code> 将元素 x 压入栈中。</li>
-	<li><code>int pop()</code> 移除栈顶元素并返回这个元素。</li>
-	<li><code>int top()</code> 返回栈顶元素，无需移除。</li>
-	<li><code>int peekMax()</code> 检索并返回栈中最大元素，无需移除。</li>
-	<li><code>int popMax()</code> 检索并返回栈中最大元素，并将其移除。如果有多个最大元素，只要移除 <strong>最靠近栈顶</strong> 的那个。</li>
+	<li><code>MaxStack()</code> Initializes the stack object.</li>
+	<li><code>void push(int x)</code> Pushes element <code>x</code> onto the stack.</li>
+	<li><code>int pop()</code> Removes the element on top of the stack and returns it.</li>
+	<li><code>int top()</code> Gets the element on the top of the stack without removing it.</li>
+	<li><code>int peekMax()</code> Retrieves the maximum element in the stack without removing it.</li>
+	<li><code>int popMax()</code> Retrieves the maximum element in the stack and removes it. If there is more than one maximum element, only remove the <strong>top-most</strong> one.</li>
 </ul>
 
-<p> </p>
+<p>You must come up with a solution that supports <code>O(1)</code> for each <code>top</code> call and <code>O(logn)</code> for each other call.</p>
 
-<p><strong>示例：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入</strong>
-["MaxStack", "push", "push", "push", "top", "popMax", "top", "peekMax", "pop", "top"]
+<strong>Input</strong>
+[&quot;MaxStack&quot;, &quot;push&quot;, &quot;push&quot;, &quot;push&quot;, &quot;top&quot;, &quot;popMax&quot;, &quot;top&quot;, &quot;peekMax&quot;, &quot;pop&quot;, &quot;top&quot;]
 [[], [5], [1], [5], [], [], [], [], [], []]
-<strong>输出</strong>
+<strong>Output</strong>
 [null, null, null, null, 5, 5, 1, 5, 1, 5]
 
-<strong>解释</strong>
+<strong>Explanation</strong>
 MaxStack stk = new MaxStack();
-stk.push(5);   // [<strong>5</strong>] - 5 既是栈顶元素，也是最大元素
-stk.push(1);   // [<strong>5</strong>, <strong>1</strong>] - 栈顶元素是 1，最大元素是 5
-stk.push(5);   // [5, 1, <strong>5</strong>] - 5 既是栈顶元素，也是最大元素
-stk.top();     // 返回 5，[5, 1, <strong>5</strong>] - 栈没有改变
-stk.popMax();  // 返回 5，[<strong>5</strong>, <strong>1</strong>] - 栈发生改变，栈顶元素不再是最大元素
-stk.top();     // 返回 1，[<strong>5</strong>, <strong>1</strong>] - 栈没有改变
-stk.peekMax(); // 返回 5，[<strong>5</strong>, <strong>1</strong>] - 栈没有改变
-stk.pop();     // 返回 1，[<strong>5</strong>] - 此操作后，5 既是栈顶元素，也是最大元素
-stk.top();     // 返回 5，[<strong>5</strong>] - 栈没有改变
+stk.push(5);   // [<strong><u>5</u></strong>] the top of the stack and the maximum number is 5.
+stk.push(1);   // [<u>5</u>, <strong>1</strong>] the top of the stack is 1, but the maximum is 5.
+stk.push(5);   // [5, 1, <strong><u>5</u></strong>] the top of the stack is 5, which is also the maximum, because it is the top most one.
+stk.top();     // return 5, [5, 1, <strong><u>5</u></strong>] the stack did not change.
+stk.popMax();  // return 5, [<u>5</u>, <strong>1</strong>] the stack is changed now, and the top is different from the max.
+stk.top();     // return 1, [<u>5</u>, <strong>1</strong>] the stack did not change.
+stk.peekMax(); // return 5, [<u>5</u>, <strong>1</strong>] the stack did not change.
+stk.pop();     // return 1, [<strong><u>5</u></strong>] the top of the stack and the max element is now 5.
+stk.top();     // return 5, [<strong><u>5</u></strong>] the stack did not change.
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>-10<sup>7</sup> <= x <= 10<sup>7</sup></code></li>
-	<li>最多调用 <code>10<sup>4</sup></code> 次 <code>push</code>、<code>pop</code>、<code>top</code>、<code>peekMax</code> 和 <code>popMax</code></li>
-	<li>调用 <code>pop</code>、<code>top</code>、<code>peekMax</code> 或 <code>popMax</code> 时，栈中 <strong>至少存在一个元素</strong></li>
-</ul>
-
-<p> </p>
-
-<p><b>进阶：</b> </p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>试着设计解决方案：调用 <code>top</code> 方法的时间复杂度为 <code>O(1)</code> ，调用其他方法的时间复杂度为 <code>O(logn)</code> 。 </li>
+	<li><code>-10<sup>7</sup> &lt;= x &lt;= 10<sup>7</sup></code></li>
+	<li>At most <code>10<sup>5</sup></code>&nbsp;calls will be made to <code>push</code>, <code>pop</code>, <code>top</code>, <code>peekMax</code>, and <code>popMax</code>.</li>
+	<li>There will be <strong>at least one element</strong> in the stack when <code>pop</code>, <code>top</code>, <code>peekMax</code>, or <code>popMax</code> is called.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：双向链表 + 有序集合
-
-使用双向链表存储栈中的元素，使用有序集合存储栈中的元素，有序集合中的元素按照从小到大的顺序存储，每个元素都对应着双向链表中的一个节点。
-
--   调用 `push(x)` 方法时，将元素 `x` 插入到双向链表的末尾，同时将元素 `x` 对应的节点插入到有序集合中。时间复杂度 $O(\log n)$。
--   调用 `pop()` 方法时，将双向链表的末尾节点删除，同时将有序集合中的对应节点删除。时间复杂度 $O(\log n)$。
--   调用 `top()` 方法时，返回双向链表的末尾节点的值。时间复杂度 $O(1)$。
--   调用 `peekMax()` 方法时，返回有序集合中的最后一个元素对应的节点的值。时间复杂度 $O(\log n)$。
--   调用 `popMax()` 方法时，将有序集合中的最后一个元素删除，同时将对应的节点从双向链表中删除。时间复杂度 $O(\log n)$。
-
-空间复杂度 $O(n)$。其中 $n$ 为栈中的元素个数。
+### Solution 1
 
 <!-- tabs:start -->
 

@@ -1,10 +1,8 @@
-# [2838. Maximum Coins Heroes Can Collect](https://leetcode.cn/problems/maximum-coins-heroes-can-collect)
+# [2838. Maximum Coins Heroes Can Collect](https://leetcode.com/problems/maximum-coins-heroes-can-collect)
 
-[English Version](/solution/2800-2899/2838.Maximum%20Coins%20Heroes%20Can%20Collect/README_EN.md)
+[中文文档](/solution/2800-2899/2838.Maximum%20Coins%20Heroes%20Can%20Collect/README.md)
 
-## 题目描述
-
-<!-- 这里写题目描述 -->
+## Description
 
 <p>There is a battle and <code>n</code> heroes are trying to defeat <code>m</code> monsters. You are given two <strong>1-indexed</strong> arrays of <strong>positive</strong> integers <code><font face="monospace">heroes</font></code> and <code><font face="monospace">monsters</font></code> of length <code>n</code> and <code>m</code>, respectively. <code><font face="monospace">heroes</font>[i]</code> is the power of <code>i<sup>th</sup></code> hero, and <code><font face="monospace">monsters</font>[i]</code> is the power of <code>i<sup>th</sup></code> monster.</p>
 
@@ -59,15 +57,15 @@ So the answer would be [5,16,10].</pre>
 	<li><code>1 &lt;= heroes[i], monsters[i], coins[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序 + 前缀和 + 二分查找
+### Solution 1: Sorting + Prefix Sum + Binary Search
 
-我们可以将怪物和金币按照怪物的战斗力从小到大排序，然后使用前缀和计算每个英雄打败前 $i$ 个怪物可以获得的金币总数。
+We can sort the monsters and coins in ascending order of the monsters' combat power, and then use prefix sum to calculate the total number of coins each hero can get by defeating the first $i$ monsters.
 
-接下来，对于每个英雄，我们可以使用二分查找找到他可以打败的最大的怪物，然后使用前缀和计算他可以获得的金币总数即可。
+Next, for each hero, we can use binary search to find the strongest monster he can defeat, and then use prefix sum to calculate the total number of coins he can get.
 
-时间复杂度 $O((m + n) \times \log n)$，空间复杂度 $O(m)$。其中 $m$ 和 $n$ 分别是怪物和英雄的数量。
+The time complexity is $O((m + n) \times \log n)$, and the space complexity is $O(m)$. Here, $m$ and $n$ are the number of monsters and heroes, respectively.
 
 <!-- tabs:start -->
 

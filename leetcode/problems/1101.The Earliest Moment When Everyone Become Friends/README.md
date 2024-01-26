@@ -1,64 +1,61 @@
-# [1101. 彼此熟识的最早时间](https://leetcode.cn/problems/the-earliest-moment-when-everyone-become-friends)
+# [1101. The Earliest Moment When Everyone Become Friends](https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends)
 
-[English Version](/solution/1100-1199/1101.The%20Earliest%20Moment%20When%20Everyone%20Become%20Friends/README_EN.md)
+[中文文档](/solution/1100-1199/1101.The%20Earliest%20Moment%20When%20Everyone%20Become%20Friends/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>There are n people in a social group labeled from <code>0</code> to <code>n - 1</code>. You are given an array <code>logs</code> where <code>logs[i] = [timestamp<sub>i</sub>, x<sub>i</sub>, y<sub>i</sub>]</code> indicates that <code>x<sub>i</sub></code> and <code>y<sub>i</sub></code> will be friends at the time <code>timestamp<sub>i</sub></code>.</p>
 
-<p>在一个社交圈子当中，有&nbsp;<code>n</code>&nbsp;个人。每个人都有一个从&nbsp;<code>0</code> 到&nbsp;<code>n - 1</code>&nbsp;的唯一编号。我们有一份日志列表&nbsp;<code>logs</code>，其中&nbsp;<code>logs[i] = [timestamp<sub>i</sub>, x<sub>i</sub>, y<sub>i</sub>]</code>&nbsp;表示 <code>x<sub>i</sub></code>&nbsp;和&nbsp;<code>y<sub>i</sub></code>&nbsp;将在同一时间&nbsp;<code>timestamp<sub>i</sub></code><sub>&nbsp;</sub>成为朋友。</p>
+<p>Friendship is <strong>symmetric</strong>. That means if <code>a</code> is friends with <code>b</code>, then <code>b</code> is friends with <code>a</code>. Also, person <code>a</code> is acquainted with a person <code>b</code> if <code>a</code> is friends with <code>b</code>, or <code>a</code> is a friend of someone acquainted with <code>b</code>.</p>
 
-<p>友谊是 <strong>相互</strong> 的。也就是说，如果 <code>a</code> 和 <code>b</code> 是朋友，那么&nbsp;<code>b</code>&nbsp;和 <code>a</code> 也是朋友。同样，如果 <code>a</code> 和 <code>b</code> 是朋友，或者&nbsp;<code>a</code> 是 <code>b</code> 朋友的朋友 ，那么 <code>a</code> 和 <code>b</code> 是熟识友。</p>
-
-<p>返回圈子里所有人之间都熟识的最早时间。如果找不到最早时间，就返回 <code>-1</code> 。</p>
+<p>Return <em>the earliest time for which every person became acquainted with every other person</em>. If there is no such earliest time, return <code>-1</code>.</p>
 
 <p>&nbsp;</p>
-
-<p><strong class="example">示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>logs = [[20190101,0,1],[20190104,3,4],[20190107,2,3],[20190211,1,5],[20190224,2,4],[20190301,0,3],[20190312,1,2],[20190322,4,5]], N = 6
-<strong>输出：</strong>20190301
-<strong>解释：</strong>
-第一次结交发生在 timestamp = 20190101，0 和 1 成为好友，社交朋友圈如下 [0,1], [2], [3], [4], [5]。
-第二次结交发生在 timestamp = 20190104，3 和 4 成为好友，社交朋友圈如下 [0,1], [2], [3,4], [5].
-第三次结交发生在 timestamp = 20190107，2 和 3 成为好友，社交朋友圈如下 [0,1], [2,3,4], [5].
-第四次结交发生在 timestamp = 20190211，1 和 5 成为好友，社交朋友圈如下 [0,1,5], [2,3,4].
-第五次结交发生在 timestamp = 20190224，2 和 4 已经是好友了。
-第六次结交发生在 timestamp = 20190301，0 和 3 成为好友，大家都互相熟识了。
+<strong>Input:</strong> logs = [[20190101,0,1],[20190104,3,4],[20190107,2,3],[20190211,1,5],[20190224,2,4],[20190301,0,3],[20190312,1,2],[20190322,4,5]], n = 6
+<strong>Output:</strong> 20190301
+<strong>Explanation:</strong> 
+The first event occurs at timestamp = 20190101, and after 0 and 1 become friends, we have the following friendship groups [0,1], [2], [3], [4], [5].
+The second event occurs at timestamp = 20190104, and after 3 and 4 become friends, we have the following friendship groups [0,1], [2], [3,4], [5].
+The third event occurs at timestamp = 20190107, and after 2 and 3 become friends, we have the following friendship groups [0,1], [2,3,4], [5].
+The fourth event occurs at timestamp = 20190211, and after 1 and 5 become friends, we have the following friendship groups [0,1,5], [2,3,4].
+The fifth event occurs at timestamp = 20190224, and as 2 and 4 are already friends, nothing happens.
+The sixth event occurs at timestamp = 20190301, and after 0 and 3 become friends, we all become friends.
 </pre>
 
-<p><strong class="example">示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入:</strong> logs = [[0,2,0],[1,0,1],[3,0,3],[4,1,2],[7,3,1]], n = 4
-<strong>输出:</strong> 3
+<strong>Input:</strong> logs = [[0,2,0],[1,0,1],[3,0,3],[4,1,2],[7,3,1]], n = 4
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> At timestamp = 3, all the persons (i.e., 0, 1, 2, and 3) become friends.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= n &lt;= 100</code></li>
 	<li><code>1 &lt;= logs.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>logs[i].length == 3</code></li>
-	<li><code>0 &lt;= timestamp<sub>i</sub>&nbsp;&lt;= 10<sup>9</sup></code></li>
-	<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub>&nbsp;&lt;= n - 1</code></li>
-	<li><code>x<sub>i</sub>&nbsp;!= y<sub>i</sub></code></li>
-	<li><code>timestamp<sub>i</sub></code>&nbsp;中的所有时间戳&nbsp;<strong>均</strong><strong>不同</strong></li>
-	<li>所有的对 <code>(xi, yi)</code> 在输入中最多出现一次</li>
+	<li><code>0 &lt;= timestamp<sub>i</sub> &lt;= 10<sup>9</sup></code></li>
+	<li><code>0 &lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= n - 1</code></li>
+	<li><code>x<sub>i</sub> != y<sub>i</sub></code></li>
+	<li>All the values <code>timestamp<sub>i</sub></code> are <strong>unique</strong>.</li>
+	<li>All the pairs <code>(x<sub>i</sub>, y<sub>i</sub>)</code> occur at most one time in the input.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：排序 + 并查集
+### Solution 1: Sorting + Union-Find
 
-我们将所有的日志按照时间戳从小到大排序，然后遍历排序后的日志，利用并查集判断当前日志中的两个人是否已经是朋友，如果不是朋友，则将两个人合并成一个朋友圈，直到所有人都在一个朋友圈中，返回当前日志的时间戳。
+We sort all the logs in ascending order by timestamp, then traverse the sorted logs. Using a union-find set, we check whether the two people in the current log are already friends. If they are not friends, we merge them into one friend circle, until everyone is in one friend circle, then return the timestamp of the current log.
 
-如果遍历完所有日志，还没有所有人都在一个朋友圈中，则返回 $-1$。
+If we have traversed all the logs and not everyone is in one friend circle, then return $-1$.
 
-时间复杂度 $O(n \times \log n)$，空间复杂度 $O(n)$。其中 $n$ 为日志的数量。
+The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$. Here, $n$ is the number of logs.
 
 <!-- tabs:start -->
 
@@ -255,7 +252,7 @@ impl Solution {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

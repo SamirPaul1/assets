@@ -1,55 +1,43 @@
-# [727. 最小窗口子序列](https://leetcode.cn/problems/minimum-window-subsequence)
+# [727. Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence)
 
-[English Version](/solution/0700-0799/0727.Minimum%20Window%20Subsequence/README_EN.md)
+[中文文档](/solution/0700-0799/0727.Minimum%20Window%20Subsequence/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given strings <code>s1</code> and <code>s2</code>, return <em>the minimum contiguous&nbsp;substring part of </em><code>s1</code><em>, so that </em><code>s2</code><em> is a subsequence of the part</em>.</p>
 
-<p>给定字符串 <code>S</code> and <code>T</code>，找出 <code>S</code> 中最短的（连续）<strong>子串</strong> <code>W</code> ，使得 <code>T</code> 是 <code>W</code> 的 <strong>子序列</strong> 。</p>
-
-<p>如果 <code>S</code> 中没有窗口可以包含 <code>T</code> 中的所有字符，返回空字符串 <code>&quot;&quot;</code>。如果有不止一个最短长度的窗口，返回开始位置最靠左的那个。</p>
-
-<p><strong>示例 1：</strong></p>
-
-<pre><strong>输入：</strong>
-S = &quot;abcdebdde&quot;, T = &quot;bde&quot;
-<strong>输出：</strong>&quot;bcde&quot;
-<strong>解释：</strong>
-&quot;bcde&quot; 是答案，因为它在相同长度的字符串 &quot;bdde&quot; 出现之前。
-&quot;deb&quot; 不是一个更短的答案，因为在窗口中必须按顺序出现 T 中的元素。</pre>
+<p>If there is no such window in <code>s1</code> that covers all characters in <code>s2</code>, return the empty string <code>&quot;&quot;</code>. If there are multiple such minimum-length windows, return the one with the <strong>left-most starting index</strong>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>注：</strong></p>
+<pre>
+<strong>Input:</strong> s1 = &quot;abcdebdde&quot;, s2 = &quot;bde&quot;
+<strong>Output:</strong> &quot;bcde&quot;
+<strong>Explanation:</strong> 
+&quot;bcde&quot; is the answer because it occurs before &quot;bdde&quot; which has the same length.
+&quot;deb&quot; is not a smaller window because the elements of s2 in the window must occur in order.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> s1 = &quot;jmeqksfrsdcmsiwvaovztaqenprpvnbstl&quot;, s2 = &quot;u&quot;
+<strong>Output:</strong> &quot;&quot;
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li>所有输入的字符串都只包含小写字母。All the strings in the input will only contain lowercase letters.</li>
-	<li><code>S</code>&nbsp;长度的范围为&nbsp;<code>[1, 20000]</code>。</li>
-	<li><code>T</code>&nbsp;长度的范围为&nbsp;<code>[1, 100]</code>。</li>
+	<li><code>1 &lt;= s1.length &lt;= 2 * 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= s2.length &lt;= 100</code></li>
+	<li><code>s1</code> and <code>s2</code> consist of lowercase English letters.</li>
 </ul>
 
-<p>&nbsp;</p>
+## Solutions
 
-## 解法
-
-### 方法一：动态规划
-
-我们定义 $f[i][j]$ 表示字符串 $s1$ 的前 $i$ 个字符包含字符串 $s2$ 的前 $j$ 个字符时的最短子串的起始位置，如果不存在则为 $0$。
-
-我们可以得到状态转移方程：
-
-$$
-f[i][j] = \begin{cases}
-i, & j = 1 \text{ and } s1[i-1] = s2[j] \\
-f[i - 1][j - 1], & j > 1 \text{ and } s1[i-1] = s2[j-1] \\
-f[i - 1][j], & s1[i-1] \ne s2[j-1]
-\end{cases}
-$$
-
-接下来我们只需要遍历 $s1$，如果 $f[i][n] \gt 0$，则更新最短子串的起始位置和长度。最后返回最短子串即可。
-
-时间复杂度 $O(m \times n)$，空间复杂度 $O(m \times n)$。其中 $m$ 和 $n$ 分别为字符串 $s1$ 和 $s2$ 的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

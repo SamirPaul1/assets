@@ -1,48 +1,47 @@
-# [246. 中心对称数](https://leetcode.cn/problems/strobogrammatic-number)
+# [246. Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number)
 
-[English Version](/solution/0200-0299/0246.Strobogrammatic%20Number/README_EN.md)
+[中文文档](/solution/0200-0299/0246.Strobogrammatic%20Number/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a string <code>num</code> which represents an integer, return <code>true</code> <em>if</em> <code>num</code> <em>is a <strong>strobogrammatic number</strong></em>.</p>
 
-<p>中心对称数是指一个数字在旋转了&nbsp;180 度之后看起来依旧相同的数字（或者上下颠倒地看）。</p>
-
-<p>请写一个函数来判断该数字是否是中心对称数，其输入将会以一个字符串的形式来表达数字。</p>
+<p>A <strong>strobogrammatic number</strong> is a number that looks the same when rotated <code>180</code> degrees (looked at upside down).</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1:</strong></p>
-
-<pre><strong>输入:</strong> num = &quot;69&quot;
-<strong>输出:</strong> true
+<pre>
+<strong>Input:</strong> num = &quot;69&quot;
+<strong>Output:</strong> true
 </pre>
 
-<p><strong>示例 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入:</strong> num = &quot;88&quot;
-<strong>输出:</strong> true</pre>
-
-<p><strong>示例 3:</strong></p>
-
-<pre><strong>输入:</strong> num = &quot;962&quot;
-<strong>输出:</strong> false</pre>
-
-<p><strong>示例 4：</strong></p>
-
-<pre><strong>输入：</strong>num = &quot;1&quot;
-<strong>输出：</strong>true
+<pre>
+<strong>Input:</strong> num = &quot;88&quot;
+<strong>Output:</strong> true
 </pre>
 
-## 解法
+<p><strong class="example">Example 3:</strong></p>
 
-### 方法一：双指针模拟
+<pre>
+<strong>Input:</strong> num = &quot;962&quot;
+<strong>Output:</strong> false
+</pre>
 
-我们定义一个数组 $d$，其中 $d[i]$ 表示数字 $i$ 旋转 180° 之后的数字。如果 $d[i]$ 为 $-1$，表示数字 $i$ 不能旋转 180° 得到一个数字。
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-定义两个指针 $i$ 和 $j$，分别指向字符串的左右两端，然后不断向中间移动指针，判断 $d[num[i]]$ 和 $num[j]$ 是否相等，如果不相等，说明该字符串不是中心对称数，直接返回 $false$ 即可。如果 $i \gt j$，说明遍历完了字符串，返回 $true$。
+<ul>
+	<li><code>1 &lt;= num.length &lt;= 50</code></li>
+	<li><code>num</code> consists of only digits.</li>
+	<li><code>num</code> does not contain any leading zeros except for zero itself.</li>
+</ul>
 
-时间复杂度 $O(n)$，空间复杂度 $O(1)$。其中 $n$ 为字符串的长度。
+## Solutions
+
+### Solution 1
 
 <!-- tabs:start -->
 

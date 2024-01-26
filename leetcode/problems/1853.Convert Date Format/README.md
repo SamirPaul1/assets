@@ -1,12 +1,10 @@
-# [1853. 转换日期格式](https://leetcode.cn/problems/convert-date-format)
+# [1853. Convert Date Format](https://leetcode.com/problems/convert-date-format)
 
-[English Version](/solution/1800-1899/1853.Convert%20Date%20Format/README_EN.md)
+[中文文档](/solution/1800-1899/1853.Convert%20Date%20Format/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>表: <code>Days</code></p>
+<p>Table: <code>Days</code></p>
 
 <pre>
 +-------------+------+
@@ -14,23 +12,22 @@
 +-------------+------+
 | day         | date |
 +-------------+------+
-day 是这个表的主键。
+day is the column with unique values for this table.
 </pre>
 
 <p>&nbsp;</p>
 
-<p>给定一个<code>Days</code>表，请你编写SQL查询语句，将<code>Days</code>表中的每一个日期转化为<code>"day_name, month_name day, year"</code>格式的字符串。</p>
+<p>Write a solution&nbsp;to convert each date in <code>Days</code> into a string formatted as <code>&quot;day_name, month_name day, year&quot;</code>.</p>
 
-<p>返回的结果表 <strong>不计顺序</strong> 。</p>
+<p>Return the result table in <strong>any order</strong>.</p>
 
-<p>查询结果格式如下例所示。</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
+<strong>Input:</strong> 
 Days table:
 +------------+
 | day        |
@@ -39,7 +36,7 @@ Days table:
 | 2021-08-09 |
 | 2020-06-26 |
 +------------+
-<strong>输出：</strong>
+<strong>Output:</strong> 
 +-------------------------+
 | day                     |
 +-------------------------+
@@ -47,11 +44,12 @@ Days table:
 | Monday, August 9, 2021  |
 | Friday, June 26, 2020   |
 +-------------------------+
-<strong>解释：</strong>请注意，输出对大小写敏感。</pre>
+<strong>Explanation:</strong> Please note that the output is case-sensitive.
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

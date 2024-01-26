@@ -1,40 +1,37 @@
-# [259. 较小的三数之和](https://leetcode.cn/problems/3sum-smaller)
+# [259. 3Sum Smaller](https://leetcode.com/problems/3sum-smaller)
 
-[English Version](/solution/0200-0299/0259.3Sum%20Smaller/README_EN.md)
+[中文文档](/solution/0200-0299/0259.3Sum%20Smaller/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给定一个长度为 <code>n</code> 的整数数组和一个目标值 <code>target</code>&nbsp;，寻找能够使条件&nbsp;<code>nums[i] + nums[j] + nums[k] &lt; target</code>&nbsp;成立的三元组&nbsp; <code>i, j, k</code>&nbsp;个数（<code>0 &lt;= i &lt; j &lt; k &lt; n</code>）。</p>
-
+<p>Given an array of <code>n</code> integers <code>nums</code> and an integer&nbsp;<code>target</code>, find the number of index triplets <code>i</code>, <code>j</code>, <code>k</code> with <code>0 &lt;= i &lt; j &lt; k &lt; n</code> that satisfy the condition <code>nums[i] + nums[j] + nums[k] &lt; target</code>.</p>
 <p>&nbsp;</p>
-
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入: </strong><em>nums</em> = <code>[-2,0,1,3]</code>, <em>target</em> = 2
-<strong>输出: </strong>2 
-<strong>解释: </strong>因为一共有两个三元组满足累加和小于 2:
-&nbsp;    [-2,0,1]
-     [-2,0,3]
+<strong>Input:</strong> nums = [-2,0,1,3], target = 2
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> Because there are two triplets which sums are less than 2:
+[-2,0,1]
+[-2,0,3]
 </pre>
 
-<p><strong>示例 2：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<strong>输入: </strong><em>nums</em> = <code>[]</code>, <em>target</em> = 0
-<strong>输出: </strong>0 </pre>
+<strong>Input:</strong> nums = [], target = 0
+<strong>Output:</strong> 0
+</pre>
 
-<p><strong>示例 3：</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre>
-<strong>输入: </strong><em>nums</em> = <code>[0]</code>, <em>target</em> = 0
-<strong>输出: </strong>0 </pre>
+<strong>Input:</strong> nums = [0], target = 0
+<strong>Output:</strong> 0
+</pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>n == nums.length</code></li>
@@ -43,9 +40,9 @@
 	<li><code>-100 &lt;= target &lt;= 100</code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

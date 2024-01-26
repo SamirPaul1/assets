@@ -1,40 +1,38 @@
-# [2688. 查找活跃用户](https://leetcode.cn/problems/find-active-users)
+# [2688. Find Active Users](https://leetcode.com/problems/find-active-users)
 
-[English Version](/solution/2600-2699/2688.Find%20Active%20Users/README_EN.md)
+[中文文档](/solution/2600-2699/2688.Find%20Active%20Users/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p><font face="monospace"><code>Users</code> 表：</font></p>
+<p>Table:<font face="monospace">&nbsp;<code>Users</code></font></p>
 
 <pre>
 +-------------+----------+ 
-| 字段名       | 类型      | 
+| Column Name | Type     | 
 +-------------+----------+ 
 | user_id     | int      | 
 | item        | varchar  |
 | created_at  | datetime |
 | amount      | int      |
 +-------------+----------+
-在这个表可能包含重复的记录。
-每一行包括 user_id、购买的商品、购买日期和购买金额。</pre>
+This table may contain duplicate records. 
+Each row includes the user ID, the purchased item, the date of purchase, and the purchase amount.
+</pre>
 
-<p>编写一个解决方案，找出活跃用户。活跃用户是指在其任何一次购买之后的 <strong>七天内</strong>&nbsp;进行了第二次购买的用户。</p>
+<p>Write a solution to identify active users. An active user is a user that has made a second purchase <strong>within 7&nbsp;days&nbsp;</strong>of any other of their purchases.</p>
 
-<p>例如，如果结束日期是 2023年5月31日，那么在 2023年5月31日 和 2023年6月7日之间（包括这两天）的任何日期都被视为"在7天内"。</p>
+<p>For example, if the ending date is May 31, 2023.&nbsp;So any date between May 31, 2023, and June 7, 2023 (inclusive) would be considered &quot;within 7 days&quot; of May 31, 2023.</p>
 
-<p>返回 <strong>任意顺序</strong> 的 <code>user_id</code> 列表，表示活跃用户列表。</p>
+<p>Return&nbsp;a list of&nbsp;<code>user_id</code>&nbsp;which denotes the list of active users&nbsp;in <strong>any order</strong>.</p>
 
-<p>结果的格式如下示例：</p>
+<p>The&nbsp;result format is in the following example.</p>
 
 <p>&nbsp;</p>
-
-<p><b>示例 1：</b></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：
-</strong>Users 表:
+<strong>Input:
+</strong>Users table:
 +---------+-------------------+------------+--------+ 
 | user_id | item              | created_at | amount |  
 +---------+-------------------+------------+--------+
@@ -45,21 +43,22 @@
 | 4       | Smart Cat Feeder  | 2021-09-02 | 693545 |
 | 4       | Smart Bed         | 2021-09-13 | 170249 |
 +---------+-------------------+------------+--------+ 
-<b>输出：</b>
+<strong>Output:</strong>
 +---------+
 | user_id | 
 +---------+
 | 6       | 
 +---------+
-<b>解释：</b>
-– user_id 为 5 的用户只有一笔交易，因此他不是活跃用户。
-– user_id 为 6 的用户有两笔交易，第一笔交易是在2021年9月10日，第二笔交易是在2021年9月14日。第一笔和第二笔交易之间的时间间隔小于等于7天。因此，他是一个活跃用户。
-– user_id 为 8 的用户只有一笔交易，因此他不是活跃用户。
-– user_id 为 4 的用户有两笔交易，第一笔交易是在2021年9月2日，第二笔交易是在2021年9月13日。第一笔和第二笔交易之间的时间间隔大于7天。因此，他不是活跃用户。</pre>
+<strong>Explanation:</strong> 
+- User with user_id 5 has only one transaction, so he is not an active user.
+- User with user_id 6 has two transaction his first transaction was on 2021-09-10 and second transation was on 2021-09-14. The distance between the first and second transactions date is &lt;= 7 days. So he is an active user. 
+- User with user_id 8 has only one transaction, so he is not an active user.  
+- User with user_id 4 has two transaction his first transaction was on 2021-09-02 and second transation was on 2021-09-13. The distance between the first and second transactions date is &gt; 7 days. So he is not an active user. 
+</pre>
 
-## 解法
+## Solutions
 
-### 方法一
+### Solution 1
 
 <!-- tabs:start -->
 

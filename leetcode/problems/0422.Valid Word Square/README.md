@@ -1,103 +1,62 @@
-# [422. 有效的单词方块](https://leetcode.cn/problems/valid-word-square)
+# [422. Valid Word Square](https://leetcode.com/problems/valid-word-square)
 
-[English Version](/solution/0400-0499/0422.Valid%20Word%20Square/README_EN.md)
+[中文文档](/solution/0400-0499/0422.Valid%20Word%20Square/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given an array of strings <code>words</code>, return <code>true</code> <em>if it forms a valid <strong>word square</strong></em>.</p>
 
-<p>给你一个单词序列，判断其是否形成了一个有效的单词方块。</p>
-
-<p>有效的单词方块是指此由单词序列组成的文字方块的&nbsp;第 k 行 和&nbsp;第 k 列 (0 &le; <em>k</em> &lt; max(行数, 列数)) 所显示的字符串完全相同。</p>
-
-<p><strong>注意：</strong></p>
-
-<ol>
-	<li>给定的单词数大于等于 1 且不超过 500。</li>
-	<li>单词长度大于等于 1 且不超过 500。</li>
-	<li>每个单词只包含小写英文字母&nbsp;<code>a-z</code>。</li>
-</ol>
+<p>A sequence of strings forms a valid <strong>word square</strong> if the <code>k<sup>th</sup></code> row and column read the same string, where <code>0 &lt;= k &lt; max(numRows, numColumns)</code>.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0422.Valid%20Word%20Square/images/validsq1-grid.jpg" style="width: 333px; height: 333px;" />
+<pre>
+<strong>Input:</strong> words = [&quot;abcd&quot;,&quot;bnrt&quot;,&quot;crmy&quot;,&quot;dtye&quot;]
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
+The 1<sup>st</sup> row and 1<sup>st</sup> column both read &quot;abcd&quot;.
+The 2<sup>nd</sup> row and 2<sup>nd</sup> column both read &quot;bnrt&quot;.
+The 3<sup>rd</sup> row and 3<sup>rd</sup> column both read &quot;crmy&quot;.
+The 4<sup>th</sup> row and 4<sup>th</sup> column both read &quot;dtye&quot;.
+Therefore, it is a valid word square.
+</pre>
 
-<p><strong>示例 1：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0422.Valid%20Word%20Square/images/validsq2-grid.jpg" style="width: 333px; height: 333px;" />
+<pre>
+<strong>Input:</strong> words = [&quot;abcd&quot;,&quot;bnrt&quot;,&quot;crm&quot;,&quot;dt&quot;]
+<strong>Output:</strong> true
+<strong>Explanation:</strong>
+The 1<sup>st</sup> row and 1<sup>st</sup> column both read &quot;abcd&quot;.
+The 2<sup>nd</sup> row and 2<sup>nd</sup> column both read &quot;bnrt&quot;.
+The 3<sup>rd</sup> row and 3<sup>rd</sup> column both read &quot;crm&quot;.
+The 4<sup>th</sup> row and 4<sup>th</sup> column both read &quot;dt&quot;.
+Therefore, it is a valid word square.
+</pre>
 
-<pre><strong>输入：</strong>
-[
-  &quot;abcd&quot;,
-  &quot;bnrt&quot;,
-  &quot;crmy&quot;,
-  &quot;dtye&quot;
-]
-
-<strong>输出：</strong>
-true
-
-<strong>解释：</strong>
-第 1 行和第 1 列都是 &quot;abcd&quot;。
-第 2 行和第 2 列都是 &quot;bnrt&quot;。
-第 3 行和第 3 列都是 &quot;crmy&quot;。
-第 4 行和第 4 列都是 &quot;dtye&quot;。
-
-因此，这是一个有效的单词方块。
+<p><strong class="example">Example 3:</strong></p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0422.Valid%20Word%20Square/images/validsq3-grid.jpg" style="width: 333px; height: 333px;" />
+<pre>
+<strong>Input:</strong> words = [&quot;ball&quot;,&quot;area&quot;,&quot;read&quot;,&quot;lady&quot;]
+<strong>Output:</strong> false
+<strong>Explanation:</strong>
+The 3<sup>rd</sup> row reads &quot;read&quot; while the 3<sup>rd</sup> column reads &quot;lead&quot;.
+Therefore, it is NOT a valid word square.
 </pre>
 
 <p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-<p><strong>示例 2：</strong></p>
+<ul>
+	<li><code>1 &lt;= words.length &lt;= 500</code></li>
+	<li><code>1 &lt;= words[i].length &lt;= 500</code></li>
+	<li><code>words[i]</code> consists of only lowercase English letters.</li>
+</ul>
 
-<pre><strong>输入：</strong>
-[
-  &quot;abcd&quot;,
-  &quot;bnrt&quot;,
-  &quot;crm&quot;,
-  &quot;dt&quot;
-]
+## Solutions
 
-<strong>输出：</strong>
-true
-
-<strong>解释：</strong>
-第 1 行和第 1 列都是 &quot;abcd&quot;。
-第 2 行和第 2 列都是 &quot;bnrt&quot;。
-第 3 行和第 3 列都是 &quot;crm&quot;。
-第 4 行和第 4 列都是 &quot;dt&quot;。
-
-因此，这是一个有效的单词方块。
-</pre>
-
-<p>&nbsp;</p>
-
-<p><strong>示例 3：</strong></p>
-
-<pre><strong>输入：</strong>
-[
-  &quot;ball&quot;,
-  &quot;area&quot;,
-  &quot;read&quot;,
-  &quot;lady&quot;
-]
-
-<strong>输出：</strong>
-false
-
-<strong>解释：</strong>
-第 3 行是 &quot;read&quot; ，然而第 3 列是 &quot;lead&quot;。
-
-因此，这 <strong>不是</strong> 一个有效的单词方块。
-</pre>
-
-<p>&nbsp;</p>
-
-## 解法
-
-### 方法一：遍历检查
-
-我们观察发现，只要不满足 $words[i][j] = words[j][i]$，就可以直接返回 `false`。
-
-因此，我们只需要遍历每一行，然后检查每一行是否满足 $words[i][j] = words[j][i]$ 即可。注意，如果下标越界，也直接返回 `false`。
-
-时间复杂度 $O(n^2)$，其中 $n$ 是 $words$ 的长度。空间复杂度 $O(1)$。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -183,7 +142,7 @@ function validWordSquare(words: string[]): boolean {
 
 <!-- tabs:end -->
 
-### 方法二
+### Solution 2
 
 <!-- tabs:start -->
 

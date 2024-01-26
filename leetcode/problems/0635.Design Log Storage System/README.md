@@ -1,67 +1,60 @@
-# [635. 设计日志存储系统](https://leetcode.cn/problems/design-log-storage-system)
+# [635. Design Log Storage System](https://leetcode.com/problems/design-log-storage-system)
 
-[English Version](/solution/0600-0699/0635.Design%20Log%20Storage%20System/README_EN.md)
+[中文文档](/solution/0600-0699/0635.Design%20Log%20Storage%20System/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>You are given several logs, where each log contains a unique ID and timestamp. Timestamp is a string that has the following format: <code>Year:Month:Day:Hour:Minute:Second</code>, for example, <code>2017:01:01:23:59:59</code>. All domains are zero-padded decimal numbers.</p>
 
-<p>你将获得多条日志，每条日志都有唯一的 <code>id</code> 和 <code>timestamp</code> ，<code>timestamp</code> 是形如 <code>Year:Month:Day:Hour:Minute:Second</code> 的字符串，<code>2017:01:01:23:59:59</code> ，所有值域都是零填充的十进制数。</p>
-
-<p>实现 <code>LogSystem</code> 类：</p>
+<p>Implement the <code>LogSystem</code> class:</p>
 
 <ul>
-	<li><code>LogSystem()</code> 初始化 <code>LogSystem</code><b> </b>对象</li>
-	<li><code>void put(int id, string timestamp)</code> 给定日志的 <code>id</code> 和 <code>timestamp</code> ，将这个日志存入你的存储系统中。</li>
-	<li><code>int[] retrieve(string start, string end, string granularity)</code> 返回在给定时间区间 <code>[start, end]</code> （包含两端）内的所有日志的 <code>id</code> 。<code>start</code> 、<code>end</code> 和 <code>timestamp</code> 的格式相同，<code>granularity</code> 表示考虑的时间粒度（例如，精确到 <code>Day</code>、<code>Minute</code> 等）。例如 <code>start = "2017:01:01:23:59:59"</code>、<code>end = "2017:01:02:23:59:59"</code> 且 <code>granularity = "Day"</code> 意味着需要查找从 <strong>Jan. 1st 2017</strong> 到 <strong>Jan. 2nd 2017 </strong>范围内的日志，可以忽略日志的 <code>Hour</code>、<code>Minute</code> 和 <code>Second</code> 。</li>
+	<li><code>LogSystem()</code> Initializes the <code>LogSystem</code><b> </b>object.</li>
+	<li><code>void put(int id, string timestamp)</code> Stores the given log <code>(id, timestamp)</code> in your storage system.</li>
+	<li><code>int[] retrieve(string start, string end, string granularity)</code> Returns the IDs of the logs whose timestamps are within the range from <code>start</code> to <code>end</code> inclusive. <code>start</code> and <code>end</code> all have the same format as <code>timestamp</code>, and <code>granularity</code> means how precise the range should be (i.e. to the exact <code>Day</code>, <code>Minute</code>, etc.). For example, <code>start = &quot;2017:01:01:23:59:59&quot;</code>, <code>end = &quot;2017:01:02:23:59:59&quot;</code>, and <code>granularity = &quot;Day&quot;</code> means that we need to find the logs within the inclusive range from <strong>Jan. 1st 2017</strong> to <strong>Jan. 2nd 2017</strong>, and the <code>Hour</code>, <code>Minute</code>, and <code>Second</code> for each log entry can be ignored.</li>
 </ul>
- 
 
-<p><strong>示例：</strong></p>
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre>
-<strong>输入：</strong>
-["LogSystem", "put", "put", "put", "retrieve", "retrieve"]
-[[], [1, "2017:01:01:23:59:59"], [2, "2017:01:01:22:59:59"], [3, "2016:01:01:00:00:00"], ["2016:01:01:01:01:01", "2017:01:01:23:00:00", "Year"], ["2016:01:01:01:01:01", "2017:01:01:23:00:00", "Hour"]]
-<strong>输出：</strong>
+<strong>Input</strong>
+[&quot;LogSystem&quot;, &quot;put&quot;, &quot;put&quot;, &quot;put&quot;, &quot;retrieve&quot;, &quot;retrieve&quot;]
+[[], [1, &quot;2017:01:01:23:59:59&quot;], [2, &quot;2017:01:01:22:59:59&quot;], [3, &quot;2016:01:01:00:00:00&quot;], [&quot;2016:01:01:01:01:01&quot;, &quot;2017:01:01:23:00:00&quot;, &quot;Year&quot;], [&quot;2016:01:01:01:01:01&quot;, &quot;2017:01:01:23:00:00&quot;, &quot;Hour&quot;]]
+<strong>Output</strong>
 [null, null, null, null, [3, 2, 1], [2, 1]]
 
-<strong>解释：</strong>
+<strong>Explanation</strong>
 LogSystem logSystem = new LogSystem();
-logSystem.put(1, "2017:01:01:23:59:59");
-logSystem.put(2, "2017:01:01:22:59:59");
-logSystem.put(3, "2016:01:01:00:00:00");
+logSystem.put(1, &quot;2017:01:01:23:59:59&quot;);
+logSystem.put(2, &quot;2017:01:01:22:59:59&quot;);
+logSystem.put(3, &quot;2016:01:01:00:00:00&quot;);
 
-// 返回 [3,2,1]，返回从 2016 年到 2017 年所有的日志。
-logSystem.retrieve("2016:01:01:01:01:01", "2017:01:01:23:00:00", "Year");
+// return [3,2,1], because you need to return all logs between 2016 and 2017.
+logSystem.retrieve(&quot;2016:01:01:01:01:01&quot;, &quot;2017:01:01:23:00:00&quot;, &quot;Year&quot;);
 
-// 返回 [2,1]，返回从 Jan. 1, 2016 01:XX:XX 到 Jan. 1, 2017 23:XX:XX 之间的所有日志
-// 不返回日志 3 因为记录时间 Jan. 1, 2016 00:00:00 超过范围的起始时间
-logSystem.retrieve("2016:01:01:01:01:01", "2017:01:01:23:00:00", "Hour");
+// return [2,1], because you need to return all logs between Jan. 1, 2016 01:XX:XX and Jan. 1, 2017 23:XX:XX.
+// Log 3 is not returned because Jan. 1, 2016 00:00:00 comes before the start of the range.
+logSystem.retrieve(&quot;2016:01:01:01:01:01&quot;, &quot;2017:01:01:23:00:00&quot;, &quot;Hour&quot;);
 </pre>
 
-<p> </p>
-
-<p><strong>提示：</strong></p>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 <= id <= 500</code></li>
-	<li><code>2000 <= Year <= 2017</code></li>
-	<li><code>1 <= Month <= 12</code></li>
-	<li><code>1 <= Day <= 31</code></li>
-	<li><code>0 <= Hour <= 23</code></li>
-	<li><code>0 <= Minute, Second <= 59</code></li>
-	<li><code>granularity</code> 是这些值 <code>["Year", "Month", "Day", "Hour", "Minute", "Second"]</code> 之一</li>
-	<li>最多调用 <code>500</code> 次 <code>put</code> 和 <code>retrieve</code></li>
+	<li><code>1 &lt;= id &lt;= 500</code></li>
+	<li><code>2000 &lt;= Year &lt;= 2017</code></li>
+	<li><code>1 &lt;= Month &lt;= 12</code></li>
+	<li><code>1 &lt;= Day &lt;= 31</code></li>
+	<li><code>0 &lt;= Hour &lt;= 23</code></li>
+	<li><code>0 &lt;= Minute, Second &lt;= 59</code></li>
+	<li><code>granularity</code> is one of the values <code>[&quot;Year&quot;, &quot;Month&quot;, &quot;Day&quot;, &quot;Hour&quot;, &quot;Minute&quot;, &quot;Second&quot;]</code>.</li>
+	<li>At most <code>500</code> calls will be made to <code>put</code> and <code>retrieve</code>.</li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：字符串比较
-
-将日志的 `id` 和 `timestamp` 作为元组存入数组中，然后在 `retrieve()` 方法中，根据 `granularity` 截取 `start` 和 `end` 的相应部分，然后遍历数组，将符合条件的 `id` 加入结果数组中。
-
-时间复杂度方面，`put()` 方法的时间复杂度为 $O(1)$，`retrieve()` 方法的时间复杂度为 $O(n)$，其中 $n$ 为数组的长度。
+### Solution 1
 
 <!-- tabs:start -->
 

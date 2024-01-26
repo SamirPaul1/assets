@@ -1,58 +1,52 @@
-# [2501. 数组中最长的方波](https://leetcode.cn/problems/longest-square-streak-in-an-array)
+# [2501. Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array)
 
-[English Version](/solution/2500-2599/2501.Longest%20Square%20Streak%20in%20an%20Array/README_EN.md)
+[中文文档](/solution/2500-2599/2501.Longest%20Square%20Streak%20in%20an%20Array/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
-
-<p>给你一个整数数组 <code>nums</code> 。如果 <code>nums</code> 的子序列满足下述条件，则认为该子序列是一个 <strong>方波</strong> ：</p>
+<p>You are given an integer array <code>nums</code>. A subsequence of <code>nums</code> is called a <strong>square streak</strong> if:</p>
 
 <ul>
-	<li>子序列的长度至少为 <code>2</code> ，并且</li>
-	<li>将子序列从小到大排序 <strong>之后</strong> ，除第一个元素外，每个元素都是前一个元素的 <strong>平方</strong> 。</li>
+	<li>The length of the subsequence is at least <code>2</code>, and</li>
+	<li><strong>after</strong> sorting the subsequence, each element (except the first element) is the <strong>square</strong> of the previous number.</li>
 </ul>
 
-<p>返回<em> </em><code>nums</code><em> </em>中 <strong>最长方波</strong> 的长度，如果不存在 <strong>方波</strong><em> </em>则返回<em> </em><code>-1</code> 。</p>
+<p>Return<em> the length of the <strong>longest square streak</strong> in </em><code>nums</code><em>, or return </em><code>-1</code><em> if there is no <strong>square streak</strong>.</em></p>
 
-<p><strong>子序列</strong> 也是一个数组，可以由另一个数组删除一些或不删除元素且不改变剩余元素的顺序得到。</p>
+<p>A <strong>subsequence</strong> is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.</p>
 
 <p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-<p><strong>示例 1 ：</strong></p>
-
-<pre><strong>输入：</strong>nums = [4,3,6,16,8,2]
-<strong>输出：</strong>3
-<strong>解释：</strong>选出子序列 [4,16,2] 。排序后，得到 [2,4,16] 。
+<pre>
+<strong>Input:</strong> nums = [4,3,6,16,8,2]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> Choose the subsequence [4,16,2]. After sorting it, it becomes [2,4,16].
 - 4 = 2 * 2.
 - 16 = 4 * 4.
-因此，[4,16,2] 是一个方波.
-可以证明长度为 4 的子序列都不是方波。
+Therefore, [4,16,2] is a square streak.
+It can be shown that every subsequence of length 4 is not a square streak.
 </pre>
 
-<p><strong>示例 2 ：</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>输入：</strong>nums = [2,3,5,6,7]
-<strong>输出：</strong>-1
-<strong>解释：</strong>nums 不存在方波，所以返回 -1 。
+<pre>
+<strong>Input:</strong> nums = [2,3,5,6,7]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong> There is no square streak in nums so return -1.
 </pre>
 
 <p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Constraints:</strong></p>
 
 <ul>
 	<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>2 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
 
-## 解法
+## Solutions
 
-### 方法一：哈希表 + 枚举
-
-我们先用哈希表记录数组中的所有元素，然后枚举数组中的每个元素作为子序列的第一个元素，将该元素不断平方，并判断平方后的结果是否在哈希表中，如果在，则将平方后的结果作为下一个元素，继续判断，直到平方后的结果不在哈希表中，此时判断子序列的长度是否大于 $1$，如果是，则更新答案。
-
-时间复杂度 $O(n \times \log \log M)$，空间复杂度 $O(n)$。其中 $n$ 为数组 `nums` 的长度，而 $M$ 为数组 `nums` 中的最大元素。
+### Solution 1
 
 <!-- tabs:start -->
 
@@ -137,18 +131,7 @@ func longestSquareStreak(nums []int) int {
 
 <!-- tabs:end -->
 
-### 方法二：记忆化搜索
-
-与方法一类似，我们先用哈希表记录数组中的所有元素。然后设计一个函数 $dfs(x)$，表示以 $x$ 为第一个元素的方波的长度。那么答案就是 $max(dfs(x))$，其中 $x$ 为数组 `nums` 中的元素。
-
-函数 $dfs(x)$ 的计算过程如下：
-
--   如果 $x$ 不在哈希表中，则返回 $0$。
--   否则，返回 $1 + dfs(x^2)$。
-
-过程中我们可以使用记忆化搜索，即使用哈希表记录函数 $dfs(x)$ 的值，避免重复计算。
-
-时间复杂度 $O(n)$，空间复杂度 $O(n)$。其中 $n$ 为数组 `nums` 的长度。
+### Solution 2
 
 <!-- tabs:start -->
 

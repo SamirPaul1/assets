@@ -1,99 +1,101 @@
-# [157. 用 Read4 读取 N 个字符](https://leetcode.cn/problems/read-n-characters-given-read4)
+# [157. Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4)
 
-[English Version](/solution/0100-0199/0157.Read%20N%20Characters%20Given%20Read4/README_EN.md)
+[中文文档](/solution/0100-0199/0157.Read%20N%20Characters%20Given%20Read4/README.md)
 
-## 题目描述
+## Description
 
-<!-- 这里写题目描述 -->
+<p>Given a <code>file</code> and assume that you can only read the file using a given method <code>read4</code>, implement a method to read <code>n</code> characters.</p>
 
-<p>给你一个文件，并且该文件只能通过给定的&nbsp;<code>read4</code>&nbsp;方法来读取，请实现一个方法使其能够读取 n 个字符。</p>
+<p><strong>Method read4: </strong></p>
 
-<p><strong>read4 方法：</strong></p>
+<p>The API <code>read4</code> reads <strong>four consecutive characters</strong> from <code>file</code>, then writes those characters into the buffer array <code>buf4</code>.</p>
 
-<p>API&nbsp;<code>read4</code>&nbsp;可以从文件中读取 4 个连续的字符，并且将它们写入缓存数组&nbsp;<code>buf</code>&nbsp;中。</p>
+<p>The return value is the number of actual characters read.</p>
 
-<p>返回值为实际读取的字符个数。</p>
+<p>Note that <code>read4()</code> has its own file pointer, much like <code>FILE *fp</code> in C.</p>
 
-<p>注意&nbsp;<code>read4()</code> 自身拥有文件指针，很类似于 C 语言中的 <code>FILE *fp</code> 。</p>
+<p><strong>Definition of read4:</strong></p>
 
-<p><strong>read4 的定义：</strong></p>
+<pre>
+    Parameter:  char[] buf4
+    Returns:    int
 
-<pre>参数类型: char[] buf4
-返回类型: int
-
-注意: buf4[] 是目标缓存区不是源缓存区，read4 的返回结果将会复制到 buf4[] 当中。
+buf4[] is a destination, not a source. The results from read4 will be copied to buf4[].
 </pre>
 
-<p>下列是一些使用 <code>read4</code> 的例子：</p>
-
-<p><img style="width: 600px;"></p>
-
-<pre><code>File file(&quot;abcde&quot;); // 文件名为 &quot;abcde&quot;， 初始文件指针 (fp) 指向 &#39;a&#39; 
-char[] buf4 = new char[4]; // 创建一个缓存区使其能容纳足够的字符
-read4(buf4); // read4 返回 4。现在 buf4 = &quot;abcd&quot;，fp 指向 &#39;e&#39;
-read4(buf4); // read4 返回 1。现在 buf4 = &quot;e&quot;，fp 指向文件末尾
-read4(buf4); // read4 返回 0。现在 buf = &quot;&quot;，fp 指向文件末尾</code></pre>
-
-<p><strong>read 方法：</strong></p>
-
-<p>通过使用 <code>read4</code> 方法，实现&nbsp;<code>read</code> 方法。该方法可以从文件中读取 n 个字符并将其存储到缓存数组&nbsp;<code>buf</code> 中。您&nbsp;<strong>不能&nbsp;</strong>直接操作文件。</p>
-
-<p>返回值为实际读取的字符。</p>
-
-<p><strong>read&nbsp;的定义：</strong></p>
-
-<pre>参数类型:   char[] buf, int n
-返回类型:   int
-
-注意: buf[] 是目标缓存区不是源缓存区，你需要将结果写入 buf[] 中。
+<p>Below is a high-level example of how <code>read4</code> works:</p>
+<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0157.Read%20N%20Characters%20Given%20Read4/images/157_example.png" style="width: 600px; height: 403px;" />
+<pre>
+File file(&quot;abcde<code>&quot;); // File is &quot;</code>abcde<code>&quot;, initially file pointer (fp) points to &#39;a&#39;
+char[] buf4 = new char[4]; // Create buffer with enough space to store characters
+read4(buf4); // read4 returns 4. Now buf4 = &quot;abcd&quot;, fp points to &#39;e&#39;
+read4(buf4); // read4 returns 1. Now buf4 = &quot;e&quot;, fp points to end of file
+read4(buf4); // read4 returns 0. Now buf4 = &quot;&quot;, fp points to end of file</code>
 </pre>
 
 <p>&nbsp;</p>
 
-<p><strong>示例 1：</strong></p>
+<p><strong>Method read:</strong></p>
 
-<pre><strong>输入： </strong>file = &quot;abc&quot;, n = 4
-<strong>输出： </strong>3
-<strong>解释：</strong> 当执行你的 read 方法后，buf 需要包含 &quot;abc&quot;。 文件一共 3 个字符，因此返回 3。 注意 &quot;abc&quot; 是文件的内容，不是 buf 的内容，buf 是你需要写入结果的目标缓存区。 </pre>
+<p>By using the <code>read4</code> method, implement the method read that reads <code>n</code> characters from <code>file</code> and store it in the buffer array <code>buf</code>. Consider that you cannot manipulate <code>file</code> directly.</p>
 
-<p><strong>示例 2：</strong></p>
+<p>The return value is the number of actual characters read.</p>
 
-<pre><strong>输入： </strong>file = &quot;abcde&quot;, n = 5
-<strong>输出： </strong>5
-<strong>解释： </strong>当执行你的 read 方法后，buf 需要包含 &quot;abcde&quot;。文件共 5 个字符，因此返回 5。
+<p><strong>Definition of read: </strong></p>
+
+<pre>
+    Parameters:	char[] buf, int n
+    Returns:	int
+
+buf[] is a destination, not a source. You will need to write the results to buf[].
 </pre>
 
-<p><strong>示例 3:</strong></p>
-
-<pre><strong>输入： </strong>file = &quot;abcdABCD1234&quot;, n = 12
-<strong>输出： </strong>12
-<strong>解释： </strong>当执行你的 read 方法后，buf 需要包含 &quot;abcdABCD1234&quot;。文件一共 12 个字符，因此返回 12。
-</pre>
-
-<p><strong>示例 4:</strong></p>
-
-<pre><strong>输入： </strong>file = &quot;leetcode&quot;, n = 5
-<strong>输出： </strong>5
-<strong>解释：</strong> 当执行你的 read 方法后，buf 需要包含 &quot;leetc&quot;。文件中一共 5 个字符，因此返回 5。
-</pre>
-
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
+<p><strong>Note:</strong></p>
 
 <ul>
-	<li>你 <strong>不能</strong> 直接操作该文件，文件只能通过 <code>read4</code> 获取而 <strong>不能</strong> 通过 <code>read</code>。</li>
-	<li><code>read</code>&nbsp; 函数只在每个测试用例调用一次。</li>
-	<li>你可以假定目标缓存数组&nbsp;<code>buf</code> 保证有足够的空间存下 n 个字符。&nbsp;</li>
+	<li>Consider that you cannot manipulate the file directly. The file is only accessible for <code>read4</code> but not for <code>read</code>.</li>
+	<li>The <code>read</code> function will only be called once for each test case.</li>
+	<li>You may assume the destination buffer array, <code>buf</code>, is guaranteed to have enough space for storing <code>n</code> characters.</li>
 </ul>
 
-## 解法
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-### 方法一：模拟
+<pre>
+<strong>Input:</strong> file = &quot;abc&quot;, n = 4
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> After calling your read method, buf should contain &quot;abc&quot;. We read a total of 3 characters from the file, so return 3.
+Note that &quot;abc&quot; is the file&#39;s content, not buf. buf is the destination buffer that you will have to write the results to.
+</pre>
 
-直接模拟读取文件的过程，每次读取 4 个字符，然后将读取的字符存入缓存数组中，直到读取的字符数目达到 n 或者文件读取完毕。
+<p><strong class="example">Example 2:</strong></p>
 
-时间复杂度 $O(n)$。其中 $n$ 为要读取的字符数目。
+<pre>
+<strong>Input:</strong> file = &quot;abcde&quot;, n = 5
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> After calling your read method, buf should contain &quot;abcde&quot;. We read a total of 5 characters from the file, so return 5.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> file = &quot;abcdABCD1234&quot;, n = 12
+<strong>Output:</strong> 12
+<strong>Explanation:</strong> After calling your read method, buf should contain &quot;abcdABCD1234&quot;. We read a total of 12 characters from the file, so return 12.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= file.length &lt;= 500</code></li>
+	<li><code>file</code> consist of English letters and digits.</li>
+	<li><code>1 &lt;= n &lt;= 1000</code></li>
+</ul>
+
+## Solutions
+
+### Solution 1
 
 <!-- tabs:start -->
 

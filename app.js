@@ -3,7 +3,7 @@ shownotes();// whwn the page get refreshed it will show the saved notes
 //if user add notes then add it to local storage
 
 let addbtn = document.getElementById('addBtn');
-
+ 
 addbtn.addEventListener("click", function (e) {
 
     let addtxt = document.getElementById('addText');

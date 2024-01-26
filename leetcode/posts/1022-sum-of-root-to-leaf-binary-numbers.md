@@ -1,13 +1,13 @@
 ---
-title: 1022 Sum Of Root To Leaf Binary Numbers
-summary: 1022 Sum Of Root To Leaf Binary Numbers LeetCode Solution Explained
+title: 1022 Sum of Root To Leaf Binary Numbers
+summary: 1022 Sum of Root To Leaf Binary Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1022 Sum Of Root To Leaf Binary Numbers LeetCode Solution Explained in all languages", "1022 Sum Of Root To Leaf Binary Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1022 Sum of Root To Leaf Binary Numbers LeetCode Solution Explained in all languages", "1022 Sum of Root To Leaf Binary Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1022 Sum Of Root To Leaf Binary Numbers - Solution Explained/problem-solving.webp
-    alt: 1022 Sum Of Root To Leaf Binary Numbers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1022 Sum of Root To Leaf Binary Numbers - Solution Explained/problem-solving.webp
+    alt: 1022 Sum of Root To Leaf Binary Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---

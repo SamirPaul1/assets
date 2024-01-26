@@ -1,13 +1,13 @@
 ---
-title: 1365 How Many Numbers Are Smaller Than The Current Number
-summary: 1365 How Many Numbers Are Smaller Than The Current Number LeetCode Solution Explained
+title: 1365 How Many Numbers Are Smaller Than the Current Number
+summary: 1365 How Many Numbers Are Smaller Than the Current Number LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1365 How Many Numbers Are Smaller Than The Current Number LeetCode Solution Explained in all languages", "1365 How Many Numbers Are Smaller Than The Current Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1365 How Many Numbers Are Smaller Than the Current Number LeetCode Solution Explained in all languages", "1365 How Many Numbers Are Smaller Than the Current Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1365 How Many Numbers Are Smaller Than The Current Number - Solution Explained/problem-solving.webp
-    alt: 1365 How Many Numbers Are Smaller Than The Current Number
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1365 How Many Numbers Are Smaller Than the Current Number - Solution Explained/problem-solving.webp
+    alt: 1365 How Many Numbers Are Smaller Than the Current Number
     hiddenInList: true
     hiddenInSingle: false
 ---

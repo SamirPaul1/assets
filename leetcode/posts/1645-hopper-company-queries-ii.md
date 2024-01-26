@@ -1,13 +1,13 @@
 ---
-title: 1645 Hopper Company Queries Ii
-summary: 1645 Hopper Company Queries Ii LeetCode Solution Explained
+title: 1645 Hopper Company Queries II
+summary: 1645 Hopper Company Queries II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1645 Hopper Company Queries Ii LeetCode Solution Explained in all languages", "1645 Hopper Company Queries Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1645 Hopper Company Queries II LeetCode Solution Explained in all languages", "1645 Hopper Company Queries II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1645 Hopper Company Queries Ii - Solution Explained/problem-solving.webp
-    alt: 1645 Hopper Company Queries Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1645 Hopper Company Queries II - Solution Explained/problem-solving.webp
+    alt: 1645 Hopper Company Queries II
     hiddenInList: true
     hiddenInSingle: false
 ---

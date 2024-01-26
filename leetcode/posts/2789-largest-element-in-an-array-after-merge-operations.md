@@ -1,13 +1,13 @@
 ---
-title: 2789 Largest Element In An Array After Merge Operations
-summary: 2789 Largest Element In An Array After Merge Operations LeetCode Solution Explained
+title: 2789 Largest Element in an Array after Merge Operations
+summary: 2789 Largest Element in an Array after Merge Operations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2789 Largest Element In An Array After Merge Operations LeetCode Solution Explained in all languages", "2789 Largest Element In An Array After Merge Operations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2789 Largest Element in an Array after Merge Operations LeetCode Solution Explained in all languages", "2789 Largest Element in an Array after Merge Operations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2789 Largest Element In An Array After Merge Operations - Solution Explained/problem-solving.webp
-    alt: 2789 Largest Element In An Array After Merge Operations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2789 Largest Element in an Array after Merge Operations - Solution Explained/problem-solving.webp
+    alt: 2789 Largest Element in an Array after Merge Operations
     hiddenInList: true
     hiddenInSingle: false
 ---

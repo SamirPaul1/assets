@@ -1,13 +1,13 @@
 ---
-title: 2749 Minimum Operations To Make The Integer Zero
-summary: 2749 Minimum Operations To Make The Integer Zero LeetCode Solution Explained
+title: 2749 Minimum Operations to Make the Integer Zero
+summary: 2749 Minimum Operations to Make the Integer Zero LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2749 Minimum Operations To Make The Integer Zero LeetCode Solution Explained in all languages", "2749 Minimum Operations To Make The Integer Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2749 Minimum Operations to Make the Integer Zero LeetCode Solution Explained in all languages", "2749 Minimum Operations to Make the Integer Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2749 Minimum Operations To Make The Integer Zero - Solution Explained/problem-solving.webp
-    alt: 2749 Minimum Operations To Make The Integer Zero
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2749 Minimum Operations to Make the Integer Zero - Solution Explained/problem-solving.webp
+    alt: 2749 Minimum Operations to Make the Integer Zero
     hiddenInList: true
     hiddenInSingle: false
 ---

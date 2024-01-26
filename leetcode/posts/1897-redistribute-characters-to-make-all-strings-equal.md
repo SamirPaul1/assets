@@ -1,13 +1,13 @@
 ---
-title: 1897 Redistribute Characters To Make All Strings Equal
-summary: 1897 Redistribute Characters To Make All Strings Equal LeetCode Solution Explained
+title: 1897 Redistribute Characters to Make All Strings Equal
+summary: 1897 Redistribute Characters to Make All Strings Equal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1897 Redistribute Characters To Make All Strings Equal LeetCode Solution Explained in all languages", "1897 Redistribute Characters To Make All Strings Equal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1897 Redistribute Characters to Make All Strings Equal LeetCode Solution Explained in all languages", "1897 Redistribute Characters to Make All Strings Equal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1897 Redistribute Characters To Make All Strings Equal - Solution Explained/problem-solving.webp
-    alt: 1897 Redistribute Characters To Make All Strings Equal
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1897 Redistribute Characters to Make All Strings Equal - Solution Explained/problem-solving.webp
+    alt: 1897 Redistribute Characters to Make All Strings Equal
     hiddenInList: true
     hiddenInSingle: false
 ---

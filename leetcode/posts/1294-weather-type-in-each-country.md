@@ -1,13 +1,13 @@
 ---
-title: 1294 Weather Type In Each Country
-summary: 1294 Weather Type In Each Country LeetCode Solution Explained
+title: 1294 Weather Type in Each Country
+summary: 1294 Weather Type in Each Country LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1294 Weather Type In Each Country LeetCode Solution Explained in all languages", "1294 Weather Type In Each Country", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1294 Weather Type in Each Country LeetCode Solution Explained in all languages", "1294 Weather Type in Each Country", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1294 Weather Type In Each Country - Solution Explained/problem-solving.webp
-    alt: 1294 Weather Type In Each Country
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1294 Weather Type in Each Country - Solution Explained/problem-solving.webp
+    alt: 1294 Weather Type in Each Country
     hiddenInList: true
     hiddenInSingle: false
 ---

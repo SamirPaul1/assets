@@ -1,13 +1,13 @@
 ---
-title: 0841 Keys And Rooms
-summary: 0841 Keys And Rooms LeetCode Solution Explained
+title: 0841 Keys and Rooms
+summary: 0841 Keys and Rooms LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0841 Keys And Rooms LeetCode Solution Explained in all languages", "0841 Keys And Rooms", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0841 Keys and Rooms LeetCode Solution Explained in all languages", "0841 Keys and Rooms", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0841 Keys And Rooms - Solution Explained/problem-solving.webp
-    alt: 0841 Keys And Rooms
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0841 Keys and Rooms - Solution Explained/problem-solving.webp
+    alt: 0841 Keys and Rooms
     hiddenInList: true
     hiddenInSingle: false
 ---

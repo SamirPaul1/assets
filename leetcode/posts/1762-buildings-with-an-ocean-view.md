@@ -1,13 +1,13 @@
 ---
-title: 1762 Buildings With An Ocean View
-summary: 1762 Buildings With An Ocean View LeetCode Solution Explained
+title: 1762 Buildings With an Ocean View
+summary: 1762 Buildings With an Ocean View LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1762 Buildings With An Ocean View LeetCode Solution Explained in all languages", "1762 Buildings With An Ocean View", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1762 Buildings With an Ocean View LeetCode Solution Explained in all languages", "1762 Buildings With an Ocean View", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1762 Buildings With An Ocean View - Solution Explained/problem-solving.webp
-    alt: 1762 Buildings With An Ocean View
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1762 Buildings With an Ocean View - Solution Explained/problem-solving.webp
+    alt: 1762 Buildings With an Ocean View
     hiddenInList: true
     hiddenInSingle: false
 ---

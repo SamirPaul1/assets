@@ -1,13 +1,13 @@
 ---
-title: 1769 Minimum Number Of Operations To Move All Balls To Each Box
-summary: 1769 Minimum Number Of Operations To Move All Balls To Each Box LeetCode Solution Explained
+title: 1769 Minimum Number of Operations to Move All Balls to Each Box
+summary: 1769 Minimum Number of Operations to Move All Balls to Each Box LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1769 Minimum Number Of Operations To Move All Balls To Each Box LeetCode Solution Explained in all languages", "1769 Minimum Number Of Operations To Move All Balls To Each Box", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1769 Minimum Number of Operations to Move All Balls to Each Box LeetCode Solution Explained in all languages", "1769 Minimum Number of Operations to Move All Balls to Each Box", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1769 Minimum Number Of Operations To Move All Balls To Each Box - Solution Explained/problem-solving.webp
-    alt: 1769 Minimum Number Of Operations To Move All Balls To Each Box
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1769 Minimum Number of Operations to Move All Balls to Each Box - Solution Explained/problem-solving.webp
+    alt: 1769 Minimum Number of Operations to Move All Balls to Each Box
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0287 Find The Duplicate Number
-summary: 0287 Find The Duplicate Number LeetCode Solution Explained
+title: 0287 Find the Duplicate Number
+summary: 0287 Find the Duplicate Number LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0287 Find The Duplicate Number LeetCode Solution Explained in all languages", "0287 Find The Duplicate Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0287 Find the Duplicate Number LeetCode Solution Explained in all languages", "0287 Find the Duplicate Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0287 Find The Duplicate Number - Solution Explained/problem-solving.webp
-    alt: 0287 Find The Duplicate Number
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0287 Find the Duplicate Number - Solution Explained/problem-solving.webp
+    alt: 0287 Find the Duplicate Number
     hiddenInList: true
     hiddenInSingle: false
 ---

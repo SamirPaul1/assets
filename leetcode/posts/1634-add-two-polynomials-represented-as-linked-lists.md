@@ -1,13 +1,13 @@
 ---
-title: 1634 Add Two Polynomials Represented As Linked Lists
-summary: 1634 Add Two Polynomials Represented As Linked Lists LeetCode Solution Explained
+title: 1634 Add Two Polynomials Represented as Linked Lists
+summary: 1634 Add Two Polynomials Represented as Linked Lists LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1634 Add Two Polynomials Represented As Linked Lists LeetCode Solution Explained in all languages", "1634 Add Two Polynomials Represented As Linked Lists", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1634 Add Two Polynomials Represented as Linked Lists LeetCode Solution Explained in all languages", "1634 Add Two Polynomials Represented as Linked Lists", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1634 Add Two Polynomials Represented As Linked Lists - Solution Explained/problem-solving.webp
-    alt: 1634 Add Two Polynomials Represented As Linked Lists
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1634 Add Two Polynomials Represented as Linked Lists - Solution Explained/problem-solving.webp
+    alt: 1634 Add Two Polynomials Represented as Linked Lists
     hiddenInList: true
     hiddenInSingle: false
 ---

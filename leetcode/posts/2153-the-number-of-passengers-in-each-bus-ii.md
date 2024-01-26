@@ -1,13 +1,13 @@
 ---
-title: 2153 The Number Of Passengers In Each Bus Ii
-summary: 2153 The Number Of Passengers In Each Bus Ii LeetCode Solution Explained
+title: 2153 The Number of Passengers in Each Bus II
+summary: 2153 The Number of Passengers in Each Bus II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2153 The Number Of Passengers In Each Bus Ii LeetCode Solution Explained in all languages", "2153 The Number Of Passengers In Each Bus Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2153 The Number of Passengers in Each Bus II LeetCode Solution Explained in all languages", "2153 The Number of Passengers in Each Bus II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2153 The Number Of Passengers In Each Bus Ii - Solution Explained/problem-solving.webp
-    alt: 2153 The Number Of Passengers In Each Bus Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2153 The Number of Passengers in Each Bus II - Solution Explained/problem-solving.webp
+    alt: 2153 The Number of Passengers in Each Bus II
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2618 Check If Object Instance Of Class
-summary: 2618 Check If Object Instance Of Class LeetCode Solution Explained
+title: 2618 Check if Object Instance of Class
+summary: 2618 Check if Object Instance of Class LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2618 Check If Object Instance Of Class LeetCode Solution Explained in all languages", "2618 Check If Object Instance Of Class", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2618 Check if Object Instance of Class LeetCode Solution Explained in all languages", "2618 Check if Object Instance of Class", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2618 Check If Object Instance Of Class - Solution Explained/problem-solving.webp
-    alt: 2618 Check If Object Instance Of Class
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2618 Check if Object Instance of Class - Solution Explained/problem-solving.webp
+    alt: 2618 Check if Object Instance of Class
     hiddenInList: true
     hiddenInSingle: false
 ---

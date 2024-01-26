@@ -1,13 +1,13 @@
 ---
-title: 1665 Minimum Initial Energy To Finish Tasks
-summary: 1665 Minimum Initial Energy To Finish Tasks LeetCode Solution Explained
+title: 1665 Minimum Initial Energy to Finish Tasks
+summary: 1665 Minimum Initial Energy to Finish Tasks LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1665 Minimum Initial Energy To Finish Tasks LeetCode Solution Explained in all languages", "1665 Minimum Initial Energy To Finish Tasks", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1665 Minimum Initial Energy to Finish Tasks LeetCode Solution Explained in all languages", "1665 Minimum Initial Energy to Finish Tasks", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1665 Minimum Initial Energy To Finish Tasks - Solution Explained/problem-solving.webp
-    alt: 1665 Minimum Initial Energy To Finish Tasks
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1665 Minimum Initial Energy to Finish Tasks - Solution Explained/problem-solving.webp
+    alt: 1665 Minimum Initial Energy to Finish Tasks
     hiddenInList: true
     hiddenInSingle: false
 ---

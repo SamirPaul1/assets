@@ -1,13 +1,13 @@
 ---
-title: 1815 Maximum Number Of Groups Getting Fresh Donuts
-summary: 1815 Maximum Number Of Groups Getting Fresh Donuts LeetCode Solution Explained
+title: 1815 Maximum Number of Groups Getting Fresh Donuts
+summary: 1815 Maximum Number of Groups Getting Fresh Donuts LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1815 Maximum Number Of Groups Getting Fresh Donuts LeetCode Solution Explained in all languages", "1815 Maximum Number Of Groups Getting Fresh Donuts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1815 Maximum Number of Groups Getting Fresh Donuts LeetCode Solution Explained in all languages", "1815 Maximum Number of Groups Getting Fresh Donuts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1815 Maximum Number Of Groups Getting Fresh Donuts - Solution Explained/problem-solving.webp
-    alt: 1815 Maximum Number Of Groups Getting Fresh Donuts
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1815 Maximum Number of Groups Getting Fresh Donuts - Solution Explained/problem-solving.webp
+    alt: 1815 Maximum Number of Groups Getting Fresh Donuts
     hiddenInList: true
     hiddenInSingle: false
 ---

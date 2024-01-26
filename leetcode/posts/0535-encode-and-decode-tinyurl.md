@@ -1,13 +1,13 @@
 ---
-title: 0535 Encode And Decode Tinyurl
-summary: 0535 Encode And Decode Tinyurl LeetCode Solution Explained
+title: 0535 Encode and Decode TinyURL
+summary: 0535 Encode and Decode TinyURL LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0535 Encode And Decode Tinyurl LeetCode Solution Explained in all languages", "0535 Encode And Decode Tinyurl", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0535 Encode and Decode TinyURL LeetCode Solution Explained in all languages", "0535 Encode and Decode TinyURL", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0535 Encode And Decode Tinyurl - Solution Explained/problem-solving.webp
-    alt: 0535 Encode And Decode Tinyurl
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0535 Encode and Decode TinyURL - Solution Explained/problem-solving.webp
+    alt: 0535 Encode and Decode TinyURL
     hiddenInList: true
     hiddenInSingle: false
 ---

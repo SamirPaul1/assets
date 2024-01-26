@@ -1,13 +1,13 @@
 ---
-title: 1442 Count Triplets That Can Form Two Arrays Of Equal Xor
-summary: 1442 Count Triplets That Can Form Two Arrays Of Equal Xor LeetCode Solution Explained
+title: 1442 Count Triplets That Can Form Two Arrays of Equal XOR
+summary: 1442 Count Triplets That Can Form Two Arrays of Equal XOR LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1442 Count Triplets That Can Form Two Arrays Of Equal Xor LeetCode Solution Explained in all languages", "1442 Count Triplets That Can Form Two Arrays Of Equal Xor", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1442 Count Triplets That Can Form Two Arrays of Equal XOR LeetCode Solution Explained in all languages", "1442 Count Triplets That Can Form Two Arrays of Equal XOR", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1442 Count Triplets That Can Form Two Arrays Of Equal Xor - Solution Explained/problem-solving.webp
-    alt: 1442 Count Triplets That Can Form Two Arrays Of Equal Xor
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1442 Count Triplets That Can Form Two Arrays of Equal XOR - Solution Explained/problem-solving.webp
+    alt: 1442 Count Triplets That Can Form Two Arrays of Equal XOR
     hiddenInList: true
     hiddenInSingle: false
 ---

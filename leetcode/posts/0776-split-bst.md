@@ -1,13 +1,13 @@
 ---
-title: 0776 Split Bst
-summary: 0776 Split Bst LeetCode Solution Explained
+title: 0776 Split BST
+summary: 0776 Split BST LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0776 Split Bst LeetCode Solution Explained in all languages", "0776 Split Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0776 Split BST LeetCode Solution Explained in all languages", "0776 Split BST", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0776 Split Bst - Solution Explained/problem-solving.webp
-    alt: 0776 Split Bst
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0776 Split BST - Solution Explained/problem-solving.webp
+    alt: 0776 Split BST
     hiddenInList: true
     hiddenInSingle: false
 ---

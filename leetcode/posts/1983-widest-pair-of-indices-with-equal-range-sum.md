@@ -1,13 +1,13 @@
 ---
-title: 1983 Widest Pair Of Indices With Equal Range Sum
-summary: 1983 Widest Pair Of Indices With Equal Range Sum LeetCode Solution Explained
+title: 1983 Widest Pair of Indices With Equal Range Sum
+summary: 1983 Widest Pair of Indices With Equal Range Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1983 Widest Pair Of Indices With Equal Range Sum LeetCode Solution Explained in all languages", "1983 Widest Pair Of Indices With Equal Range Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1983 Widest Pair of Indices With Equal Range Sum LeetCode Solution Explained in all languages", "1983 Widest Pair of Indices With Equal Range Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1983 Widest Pair Of Indices With Equal Range Sum - Solution Explained/problem-solving.webp
-    alt: 1983 Widest Pair Of Indices With Equal Range Sum
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1983 Widest Pair of Indices With Equal Range Sum - Solution Explained/problem-solving.webp
+    alt: 1983 Widest Pair of Indices With Equal Range Sum
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2346 Compute The Rank As A Percentage
-summary: 2346 Compute The Rank As A Percentage LeetCode Solution Explained
+title: 2346 Compute the Rank as a Percentage
+summary: 2346 Compute the Rank as a Percentage LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2346 Compute The Rank As A Percentage LeetCode Solution Explained in all languages", "2346 Compute The Rank As A Percentage", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2346 Compute the Rank as a Percentage LeetCode Solution Explained in all languages", "2346 Compute the Rank as a Percentage", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2346 Compute The Rank As A Percentage - Solution Explained/problem-solving.webp
-    alt: 2346 Compute The Rank As A Percentage
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2346 Compute the Rank as a Percentage - Solution Explained/problem-solving.webp
+    alt: 2346 Compute the Rank as a Percentage
     hiddenInList: true
     hiddenInSingle: false
 ---

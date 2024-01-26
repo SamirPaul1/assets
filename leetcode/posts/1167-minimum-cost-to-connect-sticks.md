@@ -1,13 +1,13 @@
 ---
-title: 1167 Minimum Cost To Connect Sticks
-summary: 1167 Minimum Cost To Connect Sticks LeetCode Solution Explained
+title: 1167 Minimum Cost to Connect Sticks
+summary: 1167 Minimum Cost to Connect Sticks LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1167 Minimum Cost To Connect Sticks LeetCode Solution Explained in all languages", "1167 Minimum Cost To Connect Sticks", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1167 Minimum Cost to Connect Sticks LeetCode Solution Explained in all languages", "1167 Minimum Cost to Connect Sticks", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1167 Minimum Cost To Connect Sticks - Solution Explained/problem-solving.webp
-    alt: 1167 Minimum Cost To Connect Sticks
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1167 Minimum Cost to Connect Sticks - Solution Explained/problem-solving.webp
+    alt: 1167 Minimum Cost to Connect Sticks
     hiddenInList: true
     hiddenInSingle: false
 ---

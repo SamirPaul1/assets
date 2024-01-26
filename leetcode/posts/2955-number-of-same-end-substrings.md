@@ -1,13 +1,13 @@
 ---
-title: 2955 Number Of Same End Substrings
-summary: 2955 Number Of Same End Substrings LeetCode Solution Explained
+title: 2955 Number of Same End Substrings
+summary: 2955 Number of Same End Substrings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2955 Number Of Same End Substrings LeetCode Solution Explained in all languages", "2955 Number Of Same End Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2955 Number of Same End Substrings LeetCode Solution Explained in all languages", "2955 Number of Same End Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2955 Number Of Same End Substrings - Solution Explained/problem-solving.webp
-    alt: 2955 Number Of Same End Substrings
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2955 Number of Same End Substrings - Solution Explained/problem-solving.webp
+    alt: 2955 Number of Same End Substrings
     hiddenInList: true
     hiddenInSingle: false
 ---

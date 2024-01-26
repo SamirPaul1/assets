@@ -1,13 +1,13 @@
 ---
-title: 0612 Shortest Distance In A Plane
-summary: 0612 Shortest Distance In A Plane LeetCode Solution Explained
+title: 0612 Shortest Distance in a Plane
+summary: 0612 Shortest Distance in a Plane LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0612 Shortest Distance In A Plane LeetCode Solution Explained in all languages", "0612 Shortest Distance In A Plane", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0612 Shortest Distance in a Plane LeetCode Solution Explained in all languages", "0612 Shortest Distance in a Plane", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0612 Shortest Distance In A Plane - Solution Explained/problem-solving.webp
-    alt: 0612 Shortest Distance In A Plane
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0612 Shortest Distance in a Plane - Solution Explained/problem-solving.webp
+    alt: 0612 Shortest Distance in a Plane
     hiddenInList: true
     hiddenInSingle: false
 ---

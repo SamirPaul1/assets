@@ -1,13 +1,13 @@
 ---
-title: 0024 Swap Nodes In Pairs
-summary: 0024 Swap Nodes In Pairs LeetCode Solution Explained
+title: 0024 Swap Nodes in Pairs
+summary: 0024 Swap Nodes in Pairs LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0024 Swap Nodes In Pairs LeetCode Solution Explained in all languages", "0024 Swap Nodes In Pairs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0024 Swap Nodes in Pairs LeetCode Solution Explained in all languages", "0024 Swap Nodes in Pairs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0024 Swap Nodes In Pairs - Solution Explained/problem-solving.webp
-    alt: 0024 Swap Nodes In Pairs
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0024 Swap Nodes in Pairs - Solution Explained/problem-solving.webp
+    alt: 0024 Swap Nodes in Pairs
     hiddenInList: true
     hiddenInSingle: false
 ---

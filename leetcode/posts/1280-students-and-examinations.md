@@ -1,13 +1,13 @@
 ---
-title: 1280 Students And Examinations
-summary: 1280 Students And Examinations LeetCode Solution Explained
+title: 1280 Students and Examinations
+summary: 1280 Students and Examinations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1280 Students And Examinations LeetCode Solution Explained in all languages", "1280 Students And Examinations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1280 Students and Examinations LeetCode Solution Explained in all languages", "1280 Students and Examinations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1280 Students And Examinations - Solution Explained/problem-solving.webp
-    alt: 1280 Students And Examinations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1280 Students and Examinations - Solution Explained/problem-solving.webp
+    alt: 1280 Students and Examinations
     hiddenInList: true
     hiddenInSingle: false
 ---

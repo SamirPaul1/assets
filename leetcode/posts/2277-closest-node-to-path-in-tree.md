@@ -1,13 +1,13 @@
 ---
-title: 2277 Closest Node To Path In Tree
-summary: 2277 Closest Node To Path In Tree LeetCode Solution Explained
+title: 2277 Closest Node to Path in Tree
+summary: 2277 Closest Node to Path in Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2277 Closest Node To Path In Tree LeetCode Solution Explained in all languages", "2277 Closest Node To Path In Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2277 Closest Node to Path in Tree LeetCode Solution Explained in all languages", "2277 Closest Node to Path in Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2277 Closest Node To Path In Tree - Solution Explained/problem-solving.webp
-    alt: 2277 Closest Node To Path In Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2277 Closest Node to Path in Tree - Solution Explained/problem-solving.webp
+    alt: 2277 Closest Node to Path in Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

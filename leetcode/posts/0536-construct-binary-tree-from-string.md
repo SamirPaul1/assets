@@ -1,13 +1,13 @@
 ---
-title: 0536 Construct Binary Tree From String
-summary: 0536 Construct Binary Tree From String LeetCode Solution Explained
+title: 0536 Construct Binary Tree from String
+summary: 0536 Construct Binary Tree from String LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0536 Construct Binary Tree From String LeetCode Solution Explained in all languages", "0536 Construct Binary Tree From String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0536 Construct Binary Tree from String LeetCode Solution Explained in all languages", "0536 Construct Binary Tree from String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0536 Construct Binary Tree From String - Solution Explained/problem-solving.webp
-    alt: 0536 Construct Binary Tree From String
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0536 Construct Binary Tree from String - Solution Explained/problem-solving.webp
+    alt: 0536 Construct Binary Tree from String
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0845 Longest Mountain In Array
-summary: 0845 Longest Mountain In Array LeetCode Solution Explained
+title: 0845 Longest Mountain in Array
+summary: 0845 Longest Mountain in Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0845 Longest Mountain In Array LeetCode Solution Explained in all languages", "0845 Longest Mountain In Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0845 Longest Mountain in Array LeetCode Solution Explained in all languages", "0845 Longest Mountain in Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0845 Longest Mountain In Array - Solution Explained/problem-solving.webp
-    alt: 0845 Longest Mountain In Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0845 Longest Mountain in Array - Solution Explained/problem-solving.webp
+    alt: 0845 Longest Mountain in Array
     hiddenInList: true
     hiddenInSingle: false
 ---

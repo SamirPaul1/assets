@@ -1,13 +1,13 @@
 ---
-title: 1203 Sort Items By Groups Respecting Dependencies
-summary: 1203 Sort Items By Groups Respecting Dependencies LeetCode Solution Explained
+title: 1203 Sort Items by Groups Respecting Dependencies
+summary: 1203 Sort Items by Groups Respecting Dependencies LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1203 Sort Items By Groups Respecting Dependencies LeetCode Solution Explained in all languages", "1203 Sort Items By Groups Respecting Dependencies", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1203 Sort Items by Groups Respecting Dependencies LeetCode Solution Explained in all languages", "1203 Sort Items by Groups Respecting Dependencies", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1203 Sort Items By Groups Respecting Dependencies - Solution Explained/problem-solving.webp
-    alt: 1203 Sort Items By Groups Respecting Dependencies
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1203 Sort Items by Groups Respecting Dependencies - Solution Explained/problem-solving.webp
+    alt: 1203 Sort Items by Groups Respecting Dependencies
     hiddenInList: true
     hiddenInSingle: false
 ---

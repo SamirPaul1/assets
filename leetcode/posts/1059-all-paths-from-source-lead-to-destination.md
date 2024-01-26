@@ -1,13 +1,13 @@
 ---
-title: 1059 All Paths From Source Lead To Destination
-summary: 1059 All Paths From Source Lead To Destination LeetCode Solution Explained
+title: 1059 All Paths from Source Lead to Destination
+summary: 1059 All Paths from Source Lead to Destination LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1059 All Paths From Source Lead To Destination LeetCode Solution Explained in all languages", "1059 All Paths From Source Lead To Destination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1059 All Paths from Source Lead to Destination LeetCode Solution Explained in all languages", "1059 All Paths from Source Lead to Destination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1059 All Paths From Source Lead To Destination - Solution Explained/problem-solving.webp
-    alt: 1059 All Paths From Source Lead To Destination
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1059 All Paths from Source Lead to Destination - Solution Explained/problem-solving.webp
+    alt: 1059 All Paths from Source Lead to Destination
     hiddenInList: true
     hiddenInSingle: false
 ---

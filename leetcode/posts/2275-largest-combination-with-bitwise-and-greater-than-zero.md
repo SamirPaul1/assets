@@ -1,13 +1,13 @@
 ---
-title: 2275 Largest Combination With Bitwise And Greater Than Zero
-summary: 2275 Largest Combination With Bitwise And Greater Than Zero LeetCode Solution Explained
+title: 2275 Largest Combination With Bitwise AND Greater Than Zero
+summary: 2275 Largest Combination With Bitwise AND Greater Than Zero LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2275 Largest Combination With Bitwise And Greater Than Zero LeetCode Solution Explained in all languages", "2275 Largest Combination With Bitwise And Greater Than Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2275 Largest Combination With Bitwise AND Greater Than Zero LeetCode Solution Explained in all languages", "2275 Largest Combination With Bitwise AND Greater Than Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2275 Largest Combination With Bitwise And Greater Than Zero - Solution Explained/problem-solving.webp
-    alt: 2275 Largest Combination With Bitwise And Greater Than Zero
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2275 Largest Combination With Bitwise AND Greater Than Zero - Solution Explained/problem-solving.webp
+    alt: 2275 Largest Combination With Bitwise AND Greater Than Zero
     hiddenInList: true
     hiddenInSingle: false
 ---

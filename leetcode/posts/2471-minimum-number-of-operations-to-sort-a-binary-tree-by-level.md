@@ -1,13 +1,13 @@
 ---
-title: 2471 Minimum Number Of Operations To Sort A Binary Tree By Level
-summary: 2471 Minimum Number Of Operations To Sort A Binary Tree By Level LeetCode Solution Explained
+title: 2471 Minimum Number of Operations to Sort a Binary Tree by Level
+summary: 2471 Minimum Number of Operations to Sort a Binary Tree by Level LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2471 Minimum Number Of Operations To Sort A Binary Tree By Level LeetCode Solution Explained in all languages", "2471 Minimum Number Of Operations To Sort A Binary Tree By Level", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2471 Minimum Number of Operations to Sort a Binary Tree by Level LeetCode Solution Explained in all languages", "2471 Minimum Number of Operations to Sort a Binary Tree by Level", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2471 Minimum Number Of Operations To Sort A Binary Tree By Level - Solution Explained/problem-solving.webp
-    alt: 2471 Minimum Number Of Operations To Sort A Binary Tree By Level
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2471 Minimum Number of Operations to Sort a Binary Tree by Level - Solution Explained/problem-solving.webp
+    alt: 2471 Minimum Number of Operations to Sort a Binary Tree by Level
     hiddenInList: true
     hiddenInSingle: false
 ---

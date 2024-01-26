@@ -1,13 +1,13 @@
 ---
-title: 1010 Pairs Of Songs With Total Durations Divisible By 60
-summary: 1010 Pairs Of Songs With Total Durations Divisible By 60 LeetCode Solution Explained
+title: 1010 Pairs of Songs With Total Durations Divisible by 60
+summary: 1010 Pairs of Songs With Total Durations Divisible by 60 LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1010 Pairs Of Songs With Total Durations Divisible By 60 LeetCode Solution Explained in all languages", "1010 Pairs Of Songs With Total Durations Divisible By 60", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1010 Pairs of Songs With Total Durations Divisible by 60 LeetCode Solution Explained in all languages", "1010 Pairs of Songs With Total Durations Divisible by 60", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1010 Pairs Of Songs With Total Durations Divisible By 60 - Solution Explained/problem-solving.webp
-    alt: 1010 Pairs Of Songs With Total Durations Divisible By 60
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1010 Pairs of Songs With Total Durations Divisible by 60 - Solution Explained/problem-solving.webp
+    alt: 1010 Pairs of Songs With Total Durations Divisible by 60
     hiddenInList: true
     hiddenInSingle: false
 ---

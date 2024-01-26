@@ -1,13 +1,13 @@
 ---
-title: 1595 Minimum Cost To Connect Two Groups Of Points
-summary: 1595 Minimum Cost To Connect Two Groups Of Points LeetCode Solution Explained
+title: 1595 Minimum Cost to Connect Two Groups of Points
+summary: 1595 Minimum Cost to Connect Two Groups of Points LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1595 Minimum Cost To Connect Two Groups Of Points LeetCode Solution Explained in all languages", "1595 Minimum Cost To Connect Two Groups Of Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1595 Minimum Cost to Connect Two Groups of Points LeetCode Solution Explained in all languages", "1595 Minimum Cost to Connect Two Groups of Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1595 Minimum Cost To Connect Two Groups Of Points - Solution Explained/problem-solving.webp
-    alt: 1595 Minimum Cost To Connect Two Groups Of Points
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1595 Minimum Cost to Connect Two Groups of Points - Solution Explained/problem-solving.webp
+    alt: 1595 Minimum Cost to Connect Two Groups of Points
     hiddenInList: true
     hiddenInSingle: false
 ---

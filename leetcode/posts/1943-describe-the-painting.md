@@ -1,13 +1,13 @@
 ---
-title: 1943 Describe The Painting
-summary: 1943 Describe The Painting LeetCode Solution Explained
+title: 1943 Describe the Painting
+summary: 1943 Describe the Painting LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1943 Describe The Painting LeetCode Solution Explained in all languages", "1943 Describe The Painting", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1943 Describe the Painting LeetCode Solution Explained in all languages", "1943 Describe the Painting", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1943 Describe The Painting - Solution Explained/problem-solving.webp
-    alt: 1943 Describe The Painting
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1943 Describe the Painting - Solution Explained/problem-solving.webp
+    alt: 1943 Describe the Painting
     hiddenInList: true
     hiddenInSingle: false
 ---

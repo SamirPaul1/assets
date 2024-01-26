@@ -1,13 +1,13 @@
 ---
-title: 2267 Check If There Is A Valid Parentheses String Path
-summary: 2267 Check If There Is A Valid Parentheses String Path LeetCode Solution Explained
+title: 2267 Check if There Is a Valid Parentheses String Path
+summary: 2267 Check if There Is a Valid Parentheses String Path LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2267 Check If There Is A Valid Parentheses String Path LeetCode Solution Explained in all languages", "2267 Check If There Is A Valid Parentheses String Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2267 Check if There Is a Valid Parentheses String Path LeetCode Solution Explained in all languages", "2267 Check if There Is a Valid Parentheses String Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2267 Check If There Is A Valid Parentheses String Path - Solution Explained/problem-solving.webp
-    alt: 2267 Check If There Is A Valid Parentheses String Path
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2267 Check if There Is a Valid Parentheses String Path - Solution Explained/problem-solving.webp
+    alt: 2267 Check if There Is a Valid Parentheses String Path
     hiddenInList: true
     hiddenInSingle: false
 ---

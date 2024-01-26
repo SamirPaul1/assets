@@ -1,13 +1,13 @@
 ---
-title: 2330 Valid Palindrome Iv
-summary: 2330 Valid Palindrome Iv LeetCode Solution Explained
+title: 2330 Valid Palindrome IV
+summary: 2330 Valid Palindrome IV LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2330 Valid Palindrome Iv LeetCode Solution Explained in all languages", "2330 Valid Palindrome Iv", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2330 Valid Palindrome IV LeetCode Solution Explained in all languages", "2330 Valid Palindrome IV", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2330 Valid Palindrome Iv - Solution Explained/problem-solving.webp
-    alt: 2330 Valid Palindrome Iv
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2330 Valid Palindrome IV - Solution Explained/problem-solving.webp
+    alt: 2330 Valid Palindrome IV
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1190 Reverse Substrings Between Each Pair Of Parentheses
-summary: 1190 Reverse Substrings Between Each Pair Of Parentheses LeetCode Solution Explained
+title: 1190 Reverse Substrings Between Each Pair of Parentheses
+summary: 1190 Reverse Substrings Between Each Pair of Parentheses LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1190 Reverse Substrings Between Each Pair Of Parentheses LeetCode Solution Explained in all languages", "1190 Reverse Substrings Between Each Pair Of Parentheses", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1190 Reverse Substrings Between Each Pair of Parentheses LeetCode Solution Explained in all languages", "1190 Reverse Substrings Between Each Pair of Parentheses", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1190 Reverse Substrings Between Each Pair Of Parentheses - Solution Explained/problem-solving.webp
-    alt: 1190 Reverse Substrings Between Each Pair Of Parentheses
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1190 Reverse Substrings Between Each Pair of Parentheses - Solution Explained/problem-solving.webp
+    alt: 1190 Reverse Substrings Between Each Pair of Parentheses
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1115 Print Foobar Alternately
-summary: 1115 Print Foobar Alternately LeetCode Solution Explained
+title: 1115 Print FooBar Alternately
+summary: 1115 Print FooBar Alternately LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1115 Print Foobar Alternately LeetCode Solution Explained in all languages", "1115 Print Foobar Alternately", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1115 Print FooBar Alternately LeetCode Solution Explained in all languages", "1115 Print FooBar Alternately", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1115 Print Foobar Alternately - Solution Explained/problem-solving.webp
-    alt: 1115 Print Foobar Alternately
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1115 Print FooBar Alternately - Solution Explained/problem-solving.webp
+    alt: 1115 Print FooBar Alternately
     hiddenInList: true
     hiddenInSingle: false
 ---

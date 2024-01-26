@@ -1,13 +1,13 @@
 ---
-title: 0548 Split Array With Equal Sum
-summary: 0548 Split Array With Equal Sum LeetCode Solution Explained
+title: 0548 Split Array with Equal Sum
+summary: 0548 Split Array with Equal Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0548 Split Array With Equal Sum LeetCode Solution Explained in all languages", "0548 Split Array With Equal Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0548 Split Array with Equal Sum LeetCode Solution Explained in all languages", "0548 Split Array with Equal Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0548 Split Array With Equal Sum - Solution Explained/problem-solving.webp
-    alt: 0548 Split Array With Equal Sum
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0548 Split Array with Equal Sum - Solution Explained/problem-solving.webp
+    alt: 0548 Split Array with Equal Sum
     hiddenInList: true
     hiddenInSingle: false
 ---

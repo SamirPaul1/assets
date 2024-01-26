@@ -1,13 +1,13 @@
 ---
-title: 2369 Check If There Is A Valid Partition For The Array
-summary: 2369 Check If There Is A Valid Partition For The Array LeetCode Solution Explained
+title: 2369 Check if There is a Valid Partition For The Array
+summary: 2369 Check if There is a Valid Partition For The Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2369 Check If There Is A Valid Partition For The Array LeetCode Solution Explained in all languages", "2369 Check If There Is A Valid Partition For The Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2369 Check if There is a Valid Partition For The Array LeetCode Solution Explained in all languages", "2369 Check if There is a Valid Partition For The Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2369 Check If There Is A Valid Partition For The Array - Solution Explained/problem-solving.webp
-    alt: 2369 Check If There Is A Valid Partition For The Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2369 Check if There is a Valid Partition For The Array - Solution Explained/problem-solving.webp
+    alt: 2369 Check if There is a Valid Partition For The Array
     hiddenInList: true
     hiddenInSingle: false
 ---

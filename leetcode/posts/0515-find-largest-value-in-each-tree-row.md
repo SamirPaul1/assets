@@ -1,13 +1,13 @@
 ---
-title: 0515 Find Largest Value In Each Tree Row
-summary: 0515 Find Largest Value In Each Tree Row LeetCode Solution Explained
+title: 0515 Find Largest Value in Each Tree Row
+summary: 0515 Find Largest Value in Each Tree Row LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0515 Find Largest Value In Each Tree Row LeetCode Solution Explained in all languages", "0515 Find Largest Value In Each Tree Row", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0515 Find Largest Value in Each Tree Row LeetCode Solution Explained in all languages", "0515 Find Largest Value in Each Tree Row", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0515 Find Largest Value In Each Tree Row - Solution Explained/problem-solving.webp
-    alt: 0515 Find Largest Value In Each Tree Row
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0515 Find Largest Value in Each Tree Row - Solution Explained/problem-solving.webp
+    alt: 0515 Find Largest Value in Each Tree Row
     hiddenInList: true
     hiddenInSingle: false
 ---

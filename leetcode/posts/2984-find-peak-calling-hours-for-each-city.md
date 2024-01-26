@@ -1,13 +1,13 @@
 ---
-title: 2984 Find Peak Calling Hours For Each City
-summary: 2984 Find Peak Calling Hours For Each City LeetCode Solution Explained
+title: 2984 Find Peak Calling Hours for Each City
+summary: 2984 Find Peak Calling Hours for Each City LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2984 Find Peak Calling Hours For Each City LeetCode Solution Explained in all languages", "2984 Find Peak Calling Hours For Each City", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2984 Find Peak Calling Hours for Each City LeetCode Solution Explained in all languages", "2984 Find Peak Calling Hours for Each City", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2984 Find Peak Calling Hours For Each City - Solution Explained/problem-solving.webp
-    alt: 2984 Find Peak Calling Hours For Each City
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2984 Find Peak Calling Hours for Each City - Solution Explained/problem-solving.webp
+    alt: 2984 Find Peak Calling Hours for Each City
     hiddenInList: true
     hiddenInSingle: false
 ---

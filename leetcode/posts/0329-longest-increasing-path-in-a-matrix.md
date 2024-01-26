@@ -1,13 +1,13 @@
 ---
-title: 0329 Longest Increasing Path In A Matrix
-summary: 0329 Longest Increasing Path In A Matrix LeetCode Solution Explained
+title: 0329 Longest Increasing Path in a Matrix
+summary: 0329 Longest Increasing Path in a Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0329 Longest Increasing Path In A Matrix LeetCode Solution Explained in all languages", "0329 Longest Increasing Path In A Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0329 Longest Increasing Path in a Matrix LeetCode Solution Explained in all languages", "0329 Longest Increasing Path in a Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0329 Longest Increasing Path In A Matrix - Solution Explained/problem-solving.webp
-    alt: 0329 Longest Increasing Path In A Matrix
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0329 Longest Increasing Path in a Matrix - Solution Explained/problem-solving.webp
+    alt: 0329 Longest Increasing Path in a Matrix
     hiddenInList: true
     hiddenInSingle: false
 ---

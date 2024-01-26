@@ -1,13 +1,13 @@
 ---
-title: 1688 Count Of Matches In Tournament
-summary: 1688 Count Of Matches In Tournament LeetCode Solution Explained
+title: 1688 Count of Matches in Tournament
+summary: 1688 Count of Matches in Tournament LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1688 Count Of Matches In Tournament LeetCode Solution Explained in all languages", "1688 Count Of Matches In Tournament", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1688 Count of Matches in Tournament LeetCode Solution Explained in all languages", "1688 Count of Matches in Tournament", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1688 Count Of Matches In Tournament - Solution Explained/problem-solving.webp
-    alt: 1688 Count Of Matches In Tournament
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1688 Count of Matches in Tournament - Solution Explained/problem-solving.webp
+    alt: 1688 Count of Matches in Tournament
     hiddenInList: true
     hiddenInSingle: false
 ---

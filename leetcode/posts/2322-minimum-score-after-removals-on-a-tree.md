@@ -1,13 +1,13 @@
 ---
-title: 2322 Minimum Score After Removals On A Tree
-summary: 2322 Minimum Score After Removals On A Tree LeetCode Solution Explained
+title: 2322 Minimum Score After Removals on a Tree
+summary: 2322 Minimum Score After Removals on a Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2322 Minimum Score After Removals On A Tree LeetCode Solution Explained in all languages", "2322 Minimum Score After Removals On A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2322 Minimum Score After Removals on a Tree LeetCode Solution Explained in all languages", "2322 Minimum Score After Removals on a Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2322 Minimum Score After Removals On A Tree - Solution Explained/problem-solving.webp
-    alt: 2322 Minimum Score After Removals On A Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2322 Minimum Score After Removals on a Tree - Solution Explained/problem-solving.webp
+    alt: 2322 Minimum Score After Removals on a Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

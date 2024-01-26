@@ -1,13 +1,13 @@
 ---
-title: 2251 Number Of Flowers In Full Bloom
-summary: 2251 Number Of Flowers In Full Bloom LeetCode Solution Explained
+title: 2251 Number of Flowers in Full Bloom
+summary: 2251 Number of Flowers in Full Bloom LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2251 Number Of Flowers In Full Bloom LeetCode Solution Explained in all languages", "2251 Number Of Flowers In Full Bloom", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2251 Number of Flowers in Full Bloom LeetCode Solution Explained in all languages", "2251 Number of Flowers in Full Bloom", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2251 Number Of Flowers In Full Bloom - Solution Explained/problem-solving.webp
-    alt: 2251 Number Of Flowers In Full Bloom
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2251 Number of Flowers in Full Bloom - Solution Explained/problem-solving.webp
+    alt: 2251 Number of Flowers in Full Bloom
     hiddenInList: true
     hiddenInSingle: false
 ---

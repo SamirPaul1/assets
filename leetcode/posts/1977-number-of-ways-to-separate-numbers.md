@@ -1,13 +1,13 @@
 ---
-title: 1977 Number Of Ways To Separate Numbers
-summary: 1977 Number Of Ways To Separate Numbers LeetCode Solution Explained
+title: 1977 Number of Ways to Separate Numbers
+summary: 1977 Number of Ways to Separate Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1977 Number Of Ways To Separate Numbers LeetCode Solution Explained in all languages", "1977 Number Of Ways To Separate Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1977 Number of Ways to Separate Numbers LeetCode Solution Explained in all languages", "1977 Number of Ways to Separate Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1977 Number Of Ways To Separate Numbers - Solution Explained/problem-solving.webp
-    alt: 1977 Number Of Ways To Separate Numbers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1977 Number of Ways to Separate Numbers - Solution Explained/problem-solving.webp
+    alt: 1977 Number of Ways to Separate Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---

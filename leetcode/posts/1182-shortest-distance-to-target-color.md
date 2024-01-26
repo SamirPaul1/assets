@@ -1,13 +1,13 @@
 ---
-title: 1182 Shortest Distance To Target Color
-summary: 1182 Shortest Distance To Target Color LeetCode Solution Explained
+title: 1182 Shortest Distance to Target Color
+summary: 1182 Shortest Distance to Target Color LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1182 Shortest Distance To Target Color LeetCode Solution Explained in all languages", "1182 Shortest Distance To Target Color", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1182 Shortest Distance to Target Color LeetCode Solution Explained in all languages", "1182 Shortest Distance to Target Color", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1182 Shortest Distance To Target Color - Solution Explained/problem-solving.webp
-    alt: 1182 Shortest Distance To Target Color
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1182 Shortest Distance to Target Color - Solution Explained/problem-solving.webp
+    alt: 1182 Shortest Distance to Target Color
     hiddenInList: true
     hiddenInSingle: false
 ---

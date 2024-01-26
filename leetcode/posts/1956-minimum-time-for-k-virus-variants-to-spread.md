@@ -1,13 +1,13 @@
 ---
-title: 1956 Minimum Time For K Virus Variants To Spread
-summary: 1956 Minimum Time For K Virus Variants To Spread LeetCode Solution Explained
+title: 1956 Minimum Time For K Virus Variants to Spread
+summary: 1956 Minimum Time For K Virus Variants to Spread LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1956 Minimum Time For K Virus Variants To Spread LeetCode Solution Explained in all languages", "1956 Minimum Time For K Virus Variants To Spread", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1956 Minimum Time For K Virus Variants to Spread LeetCode Solution Explained in all languages", "1956 Minimum Time For K Virus Variants to Spread", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1956 Minimum Time For K Virus Variants To Spread - Solution Explained/problem-solving.webp
-    alt: 1956 Minimum Time For K Virus Variants To Spread
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1956 Minimum Time For K Virus Variants to Spread - Solution Explained/problem-solving.webp
+    alt: 1956 Minimum Time For K Virus Variants to Spread
     hiddenInList: true
     hiddenInSingle: false
 ---

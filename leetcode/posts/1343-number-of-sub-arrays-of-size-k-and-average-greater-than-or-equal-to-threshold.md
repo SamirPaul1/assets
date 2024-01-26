@@ -1,13 +1,13 @@
 ---
-title: 1343 Number Of Sub Arrays Of Size K And Average Greater Than Or Equal To Threshold
-summary: 1343 Number Of Sub Arrays Of Size K And Average Greater Than Or Equal To Threshold LeetCode Solution Explained
+title: 1343 Number of Sub arrays of Size K and Average Greater than or Equal to Threshold
+summary: 1343 Number of Sub arrays of Size K and Average Greater than or Equal to Threshold LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1343 Number Of Sub Arrays Of Size K And Average Greater Than Or Equal To Threshold LeetCode Solution Explained in all languages", "1343 Number Of Sub Arrays Of Size K And Average Greater Than Or Equal To Threshold", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1343 Number of Sub arrays of Size K and Average Greater than or Equal to Threshold LeetCode Solution Explained in all languages", "1343 Number of Sub arrays of Size K and Average Greater than or Equal to Threshold", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1343 Number Of Sub Arrays Of Size K And Average Greater Than Or Equal To Threshold - Solution Explained/problem-solving.webp
-    alt: 1343 Number Of Sub Arrays Of Size K And Average Greater Than Or Equal To Threshold
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1343 Number of Sub arrays of Size K and Average Greater than or Equal to Threshold - Solution Explained/problem-solving.webp
+    alt: 1343 Number of Sub arrays of Size K and Average Greater than or Equal to Threshold
     hiddenInList: true
     hiddenInSingle: false
 ---

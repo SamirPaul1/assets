@@ -1,13 +1,13 @@
 ---
-title: 1414 Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K
-summary: 1414 Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K LeetCode Solution Explained
+title: 1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
+summary: 1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1414 Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K LeetCode Solution Explained in all languages", "1414 Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K LeetCode Solution Explained in all languages", "1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1414 Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K - Solution Explained/problem-solving.webp
-    alt: 1414 Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K - Solution Explained/problem-solving.webp
+    alt: 1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
     hiddenInList: true
     hiddenInSingle: false
 ---

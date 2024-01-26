@@ -1,13 +1,13 @@
 ---
-title: 2573 Find The String With Lcp
-summary: 2573 Find The String With Lcp LeetCode Solution Explained
+title: 2573 Find the String with LCP
+summary: 2573 Find the String with LCP LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2573 Find The String With Lcp LeetCode Solution Explained in all languages", "2573 Find The String With Lcp", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2573 Find the String with LCP LeetCode Solution Explained in all languages", "2573 Find the String with LCP", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2573 Find The String With Lcp - Solution Explained/problem-solving.webp
-    alt: 2573 Find The String With Lcp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2573 Find the String with LCP - Solution Explained/problem-solving.webp
+    alt: 2573 Find the String with LCP
     hiddenInList: true
     hiddenInSingle: false
 ---

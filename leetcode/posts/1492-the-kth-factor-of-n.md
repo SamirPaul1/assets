@@ -1,13 +1,13 @@
 ---
-title: 1492 The Kth Factor Of N
-summary: 1492 The Kth Factor Of N LeetCode Solution Explained
+title: 1492 The kth Factor of n
+summary: 1492 The kth Factor of n LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1492 The Kth Factor Of N LeetCode Solution Explained in all languages", "1492 The Kth Factor Of N", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1492 The kth Factor of n LeetCode Solution Explained in all languages", "1492 The kth Factor of n", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1492 The Kth Factor Of N - Solution Explained/problem-solving.webp
-    alt: 1492 The Kth Factor Of N
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1492 The kth Factor of n - Solution Explained/problem-solving.webp
+    alt: 1492 The kth Factor of n
     hiddenInList: true
     hiddenInSingle: false
 ---

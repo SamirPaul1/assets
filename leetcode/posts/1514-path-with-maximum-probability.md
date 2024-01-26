@@ -1,13 +1,13 @@
 ---
-title: 1514 Path With Maximum Probability
-summary: 1514 Path With Maximum Probability LeetCode Solution Explained
+title: 1514 Path with Maximum Probability
+summary: 1514 Path with Maximum Probability LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1514 Path With Maximum Probability LeetCode Solution Explained in all languages", "1514 Path With Maximum Probability", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1514 Path with Maximum Probability LeetCode Solution Explained in all languages", "1514 Path with Maximum Probability", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1514 Path With Maximum Probability - Solution Explained/problem-solving.webp
-    alt: 1514 Path With Maximum Probability
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1514 Path with Maximum Probability - Solution Explained/problem-solving.webp
+    alt: 1514 Path with Maximum Probability
     hiddenInList: true
     hiddenInSingle: false
 ---

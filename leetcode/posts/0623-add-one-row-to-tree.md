@@ -1,13 +1,13 @@
 ---
-title: 0623 Add One Row To Tree
-summary: 0623 Add One Row To Tree LeetCode Solution Explained
+title: 0623 Add One Row to Tree
+summary: 0623 Add One Row to Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0623 Add One Row To Tree LeetCode Solution Explained in all languages", "0623 Add One Row To Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0623 Add One Row to Tree LeetCode Solution Explained in all languages", "0623 Add One Row to Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0623 Add One Row To Tree - Solution Explained/problem-solving.webp
-    alt: 0623 Add One Row To Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0623 Add One Row to Tree - Solution Explained/problem-solving.webp
+    alt: 0623 Add One Row to Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

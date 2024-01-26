@@ -1,13 +1,13 @@
 ---
-title: 1611 Minimum One Bit Operations To Make Integers Zero
-summary: 1611 Minimum One Bit Operations To Make Integers Zero LeetCode Solution Explained
+title: 1611 Minimum One Bit Operations to Make Integers Zero
+summary: 1611 Minimum One Bit Operations to Make Integers Zero LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1611 Minimum One Bit Operations To Make Integers Zero LeetCode Solution Explained in all languages", "1611 Minimum One Bit Operations To Make Integers Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1611 Minimum One Bit Operations to Make Integers Zero LeetCode Solution Explained in all languages", "1611 Minimum One Bit Operations to Make Integers Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1611 Minimum One Bit Operations To Make Integers Zero - Solution Explained/problem-solving.webp
-    alt: 1611 Minimum One Bit Operations To Make Integers Zero
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1611 Minimum One Bit Operations to Make Integers Zero - Solution Explained/problem-solving.webp
+    alt: 1611 Minimum One Bit Operations to Make Integers Zero
     hiddenInList: true
     hiddenInSingle: false
 ---

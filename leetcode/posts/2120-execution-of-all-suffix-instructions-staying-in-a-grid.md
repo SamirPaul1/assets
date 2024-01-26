@@ -1,13 +1,13 @@
 ---
-title: 2120 Execution Of All Suffix Instructions Staying In A Grid
-summary: 2120 Execution Of All Suffix Instructions Staying In A Grid LeetCode Solution Explained
+title: 2120 Execution of All Suffix Instructions Staying in a Grid
+summary: 2120 Execution of All Suffix Instructions Staying in a Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2120 Execution Of All Suffix Instructions Staying In A Grid LeetCode Solution Explained in all languages", "2120 Execution Of All Suffix Instructions Staying In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2120 Execution of All Suffix Instructions Staying in a Grid LeetCode Solution Explained in all languages", "2120 Execution of All Suffix Instructions Staying in a Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2120 Execution Of All Suffix Instructions Staying In A Grid - Solution Explained/problem-solving.webp
-    alt: 2120 Execution Of All Suffix Instructions Staying In A Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2120 Execution of All Suffix Instructions Staying in a Grid - Solution Explained/problem-solving.webp
+    alt: 2120 Execution of All Suffix Instructions Staying in a Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

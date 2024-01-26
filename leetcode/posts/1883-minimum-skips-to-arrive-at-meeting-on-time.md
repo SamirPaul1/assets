@@ -1,13 +1,13 @@
 ---
-title: 1883 Minimum Skips To Arrive At Meeting On Time
-summary: 1883 Minimum Skips To Arrive At Meeting On Time LeetCode Solution Explained
+title: 1883 Minimum Skips to Arrive at Meeting On Time
+summary: 1883 Minimum Skips to Arrive at Meeting On Time LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1883 Minimum Skips To Arrive At Meeting On Time LeetCode Solution Explained in all languages", "1883 Minimum Skips To Arrive At Meeting On Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1883 Minimum Skips to Arrive at Meeting On Time LeetCode Solution Explained in all languages", "1883 Minimum Skips to Arrive at Meeting On Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1883 Minimum Skips To Arrive At Meeting On Time - Solution Explained/problem-solving.webp
-    alt: 1883 Minimum Skips To Arrive At Meeting On Time
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1883 Minimum Skips to Arrive at Meeting On Time - Solution Explained/problem-solving.webp
+    alt: 1883 Minimum Skips to Arrive at Meeting On Time
     hiddenInList: true
     hiddenInSingle: false
 ---

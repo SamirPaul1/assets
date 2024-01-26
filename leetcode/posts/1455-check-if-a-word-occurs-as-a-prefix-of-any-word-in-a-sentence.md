@@ -1,13 +1,13 @@
 ---
-title: 1455 Check If A Word Occurs As A Prefix Of Any Word In A Sentence
-summary: 1455 Check If A Word Occurs As A Prefix Of Any Word In A Sentence LeetCode Solution Explained
+title: 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence
+summary: 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1455 Check If A Word Occurs As A Prefix Of Any Word In A Sentence LeetCode Solution Explained in all languages", "1455 Check If A Word Occurs As A Prefix Of Any Word In A Sentence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence LeetCode Solution Explained in all languages", "1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1455 Check If A Word Occurs As A Prefix Of Any Word In A Sentence - Solution Explained/problem-solving.webp
-    alt: 1455 Check If A Word Occurs As A Prefix Of Any Word In A Sentence
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence - Solution Explained/problem-solving.webp
+    alt: 1455 Check If a Word Occurs As a Prefix of Any Word in a Sentence
     hiddenInList: true
     hiddenInSingle: false
 ---

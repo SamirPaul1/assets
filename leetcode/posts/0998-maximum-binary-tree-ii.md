@@ -1,13 +1,13 @@
 ---
-title: 0998 Maximum Binary Tree Ii
-summary: 0998 Maximum Binary Tree Ii LeetCode Solution Explained
+title: 0998 Maximum Binary Tree II
+summary: 0998 Maximum Binary Tree II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0998 Maximum Binary Tree Ii LeetCode Solution Explained in all languages", "0998 Maximum Binary Tree Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0998 Maximum Binary Tree II LeetCode Solution Explained in all languages", "0998 Maximum Binary Tree II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0998 Maximum Binary Tree Ii - Solution Explained/problem-solving.webp
-    alt: 0998 Maximum Binary Tree Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0998 Maximum Binary Tree II - Solution Explained/problem-solving.webp
+    alt: 0998 Maximum Binary Tree II
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2897 Apply Operations On Array To Maximize Sum Of Squares
-summary: 2897 Apply Operations On Array To Maximize Sum Of Squares LeetCode Solution Explained
+title: 2897 Apply Operations on Array to Maximize Sum of Squares
+summary: 2897 Apply Operations on Array to Maximize Sum of Squares LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2897 Apply Operations On Array To Maximize Sum Of Squares LeetCode Solution Explained in all languages", "2897 Apply Operations On Array To Maximize Sum Of Squares", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2897 Apply Operations on Array to Maximize Sum of Squares LeetCode Solution Explained in all languages", "2897 Apply Operations on Array to Maximize Sum of Squares", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2897 Apply Operations On Array To Maximize Sum Of Squares - Solution Explained/problem-solving.webp
-    alt: 2897 Apply Operations On Array To Maximize Sum Of Squares
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2897 Apply Operations on Array to Maximize Sum of Squares - Solution Explained/problem-solving.webp
+    alt: 2897 Apply Operations on Array to Maximize Sum of Squares
     hiddenInList: true
     hiddenInSingle: false
 ---

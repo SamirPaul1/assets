@@ -1,13 +1,13 @@
 ---
-title: 2879 Display The First Three Rows
-summary: 2879 Display The First Three Rows LeetCode Solution Explained
+title: 2879 Display the First Three Rows
+summary: 2879 Display the First Three Rows LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2879 Display The First Three Rows LeetCode Solution Explained in all languages", "2879 Display The First Three Rows", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2879 Display the First Three Rows LeetCode Solution Explained in all languages", "2879 Display the First Three Rows", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2879 Display The First Three Rows - Solution Explained/problem-solving.webp
-    alt: 2879 Display The First Three Rows
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2879 Display the First Three Rows - Solution Explained/problem-solving.webp
+    alt: 2879 Display the First Three Rows
     hiddenInList: true
     hiddenInSingle: false
 ---

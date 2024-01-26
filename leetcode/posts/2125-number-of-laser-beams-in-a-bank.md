@@ -1,13 +1,13 @@
 ---
-title: 2125 Number Of Laser Beams In A Bank
-summary: 2125 Number Of Laser Beams In A Bank LeetCode Solution Explained
+title: 2125 Number of Laser Beams in a Bank
+summary: 2125 Number of Laser Beams in a Bank LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2125 Number Of Laser Beams In A Bank LeetCode Solution Explained in all languages", "2125 Number Of Laser Beams In A Bank", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2125 Number of Laser Beams in a Bank LeetCode Solution Explained in all languages", "2125 Number of Laser Beams in a Bank", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2125 Number Of Laser Beams In A Bank - Solution Explained/problem-solving.webp
-    alt: 2125 Number Of Laser Beams In A Bank
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2125 Number of Laser Beams in a Bank - Solution Explained/problem-solving.webp
+    alt: 2125 Number of Laser Beams in a Bank
     hiddenInList: true
     hiddenInSingle: false
 ---

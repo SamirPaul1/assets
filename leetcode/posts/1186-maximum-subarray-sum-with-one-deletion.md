@@ -1,13 +1,13 @@
 ---
-title: 1186 Maximum Subarray Sum With One Deletion
-summary: 1186 Maximum Subarray Sum With One Deletion LeetCode Solution Explained
+title: 1186 Maximum Subarray Sum with One Deletion
+summary: 1186 Maximum Subarray Sum with One Deletion LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1186 Maximum Subarray Sum With One Deletion LeetCode Solution Explained in all languages", "1186 Maximum Subarray Sum With One Deletion", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1186 Maximum Subarray Sum with One Deletion LeetCode Solution Explained in all languages", "1186 Maximum Subarray Sum with One Deletion", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1186 Maximum Subarray Sum With One Deletion - Solution Explained/problem-solving.webp
-    alt: 1186 Maximum Subarray Sum With One Deletion
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1186 Maximum Subarray Sum with One Deletion - Solution Explained/problem-solving.webp
+    alt: 1186 Maximum Subarray Sum with One Deletion
     hiddenInList: true
     hiddenInSingle: false
 ---

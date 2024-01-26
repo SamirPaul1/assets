@@ -1,13 +1,13 @@
 ---
-title: 1234 Replace The Substring For Balanced String
-summary: 1234 Replace The Substring For Balanced String LeetCode Solution Explained
+title: 1234 Replace the Substring for Balanced String
+summary: 1234 Replace the Substring for Balanced String LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1234 Replace The Substring For Balanced String LeetCode Solution Explained in all languages", "1234 Replace The Substring For Balanced String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1234 Replace the Substring for Balanced String LeetCode Solution Explained in all languages", "1234 Replace the Substring for Balanced String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1234 Replace The Substring For Balanced String - Solution Explained/problem-solving.webp
-    alt: 1234 Replace The Substring For Balanced String
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1234 Replace the Substring for Balanced String - Solution Explained/problem-solving.webp
+    alt: 1234 Replace the Substring for Balanced String
     hiddenInList: true
     hiddenInSingle: false
 ---

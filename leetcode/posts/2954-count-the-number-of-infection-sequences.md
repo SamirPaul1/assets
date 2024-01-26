@@ -1,13 +1,13 @@
 ---
-title: 2954 Count The Number Of Infection Sequences
-summary: 2954 Count The Number Of Infection Sequences LeetCode Solution Explained
+title: 2954 Count the Number of Infection Sequences
+summary: 2954 Count the Number of Infection Sequences LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2954 Count The Number Of Infection Sequences LeetCode Solution Explained in all languages", "2954 Count The Number Of Infection Sequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2954 Count the Number of Infection Sequences LeetCode Solution Explained in all languages", "2954 Count the Number of Infection Sequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2954 Count The Number Of Infection Sequences - Solution Explained/problem-solving.webp
-    alt: 2954 Count The Number Of Infection Sequences
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2954 Count the Number of Infection Sequences - Solution Explained/problem-solving.webp
+    alt: 2954 Count the Number of Infection Sequences
     hiddenInList: true
     hiddenInSingle: false
 ---

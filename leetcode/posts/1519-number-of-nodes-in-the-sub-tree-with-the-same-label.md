@@ -1,13 +1,13 @@
 ---
-title: 1519 Number Of Nodes In The Sub Tree With The Same Label
-summary: 1519 Number Of Nodes In The Sub Tree With The Same Label LeetCode Solution Explained
+title: 1519 Number of Nodes in the Sub Tree With the Same Label
+summary: 1519 Number of Nodes in the Sub Tree With the Same Label LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1519 Number Of Nodes In The Sub Tree With The Same Label LeetCode Solution Explained in all languages", "1519 Number Of Nodes In The Sub Tree With The Same Label", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1519 Number of Nodes in the Sub Tree With the Same Label LeetCode Solution Explained in all languages", "1519 Number of Nodes in the Sub Tree With the Same Label", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1519 Number Of Nodes In The Sub Tree With The Same Label - Solution Explained/problem-solving.webp
-    alt: 1519 Number Of Nodes In The Sub Tree With The Same Label
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1519 Number of Nodes in the Sub Tree With the Same Label - Solution Explained/problem-solving.webp
+    alt: 1519 Number of Nodes in the Sub Tree With the Same Label
     hiddenInList: true
     hiddenInSingle: false
 ---

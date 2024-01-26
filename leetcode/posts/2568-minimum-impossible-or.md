@@ -1,13 +1,13 @@
 ---
-title: 2568 Minimum Impossible Or
-summary: 2568 Minimum Impossible Or LeetCode Solution Explained
+title: 2568 Minimum Impossible OR
+summary: 2568 Minimum Impossible OR LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2568 Minimum Impossible Or LeetCode Solution Explained in all languages", "2568 Minimum Impossible Or", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2568 Minimum Impossible OR LeetCode Solution Explained in all languages", "2568 Minimum Impossible OR", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2568 Minimum Impossible Or - Solution Explained/problem-solving.webp
-    alt: 2568 Minimum Impossible Or
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2568 Minimum Impossible OR - Solution Explained/problem-solving.webp
+    alt: 2568 Minimum Impossible OR
     hiddenInList: true
     hiddenInSingle: false
 ---

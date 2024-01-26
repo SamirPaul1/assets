@@ -1,13 +1,13 @@
 ---
-title: 1523 Count Odd Numbers In An Interval Range
-summary: 1523 Count Odd Numbers In An Interval Range LeetCode Solution Explained
+title: 1523 Count Odd Numbers in an Interval Range
+summary: 1523 Count Odd Numbers in an Interval Range LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1523 Count Odd Numbers In An Interval Range LeetCode Solution Explained in all languages", "1523 Count Odd Numbers In An Interval Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1523 Count Odd Numbers in an Interval Range LeetCode Solution Explained in all languages", "1523 Count Odd Numbers in an Interval Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1523 Count Odd Numbers In An Interval Range - Solution Explained/problem-solving.webp
-    alt: 1523 Count Odd Numbers In An Interval Range
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1523 Count Odd Numbers in an Interval Range - Solution Explained/problem-solving.webp
+    alt: 1523 Count Odd Numbers in an Interval Range
     hiddenInList: true
     hiddenInSingle: false
 ---

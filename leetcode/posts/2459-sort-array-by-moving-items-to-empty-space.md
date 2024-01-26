@@ -1,13 +1,13 @@
 ---
-title: 2459 Sort Array By Moving Items To Empty Space
-summary: 2459 Sort Array By Moving Items To Empty Space LeetCode Solution Explained
+title: 2459 Sort Array by Moving Items to Empty Space
+summary: 2459 Sort Array by Moving Items to Empty Space LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2459 Sort Array By Moving Items To Empty Space LeetCode Solution Explained in all languages", "2459 Sort Array By Moving Items To Empty Space", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2459 Sort Array by Moving Items to Empty Space LeetCode Solution Explained in all languages", "2459 Sort Array by Moving Items to Empty Space", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2459 Sort Array By Moving Items To Empty Space - Solution Explained/problem-solving.webp
-    alt: 2459 Sort Array By Moving Items To Empty Space
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2459 Sort Array by Moving Items to Empty Space - Solution Explained/problem-solving.webp
+    alt: 2459 Sort Array by Moving Items to Empty Space
     hiddenInList: true
     hiddenInSingle: false
 ---

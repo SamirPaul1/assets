@@ -1,13 +1,13 @@
 ---
-title: 2997 Minimum Number Of Operations To Make Array Xor Equal To K
-summary: 2997 Minimum Number Of Operations To Make Array Xor Equal To K LeetCode Solution Explained
+title: 2997 Minimum Number of Operations to Make Array XOR Equal to K
+summary: 2997 Minimum Number of Operations to Make Array XOR Equal to K LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2997 Minimum Number Of Operations To Make Array Xor Equal To K LeetCode Solution Explained in all languages", "2997 Minimum Number Of Operations To Make Array Xor Equal To K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2997 Minimum Number of Operations to Make Array XOR Equal to K LeetCode Solution Explained in all languages", "2997 Minimum Number of Operations to Make Array XOR Equal to K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2997 Minimum Number Of Operations To Make Array Xor Equal To K - Solution Explained/problem-solving.webp
-    alt: 2997 Minimum Number Of Operations To Make Array Xor Equal To K
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2997 Minimum Number of Operations to Make Array XOR Equal to K - Solution Explained/problem-solving.webp
+    alt: 2997 Minimum Number of Operations to Make Array XOR Equal to K
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0778 Swim In Rising Water
-summary: 0778 Swim In Rising Water LeetCode Solution Explained
+title: 0778 Swim in Rising Water
+summary: 0778 Swim in Rising Water LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0778 Swim In Rising Water LeetCode Solution Explained in all languages", "0778 Swim In Rising Water", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0778 Swim in Rising Water LeetCode Solution Explained in all languages", "0778 Swim in Rising Water", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0778 Swim In Rising Water - Solution Explained/problem-solving.webp
-    alt: 0778 Swim In Rising Water
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0778 Swim in Rising Water - Solution Explained/problem-solving.webp
+    alt: 0778 Swim in Rising Water
     hiddenInList: true
     hiddenInSingle: false
 ---

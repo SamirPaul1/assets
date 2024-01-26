@@ -1,13 +1,13 @@
 ---
-title: 1352 Product Of The Last K Numbers
-summary: 1352 Product Of The Last K Numbers LeetCode Solution Explained
+title: 1352 Product of the Last K Numbers
+summary: 1352 Product of the Last K Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1352 Product Of The Last K Numbers LeetCode Solution Explained in all languages", "1352 Product Of The Last K Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1352 Product of the Last K Numbers LeetCode Solution Explained in all languages", "1352 Product of the Last K Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1352 Product Of The Last K Numbers - Solution Explained/problem-solving.webp
-    alt: 1352 Product Of The Last K Numbers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1352 Product of the Last K Numbers - Solution Explained/problem-solving.webp
+    alt: 1352 Product of the Last K Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---

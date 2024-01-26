@@ -1,13 +1,13 @@
 ---
-title: 1183 Maximum Number Of Ones
-summary: 1183 Maximum Number Of Ones LeetCode Solution Explained
+title: 1183 Maximum Number of Ones
+summary: 1183 Maximum Number of Ones LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1183 Maximum Number Of Ones LeetCode Solution Explained in all languages", "1183 Maximum Number Of Ones", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1183 Maximum Number of Ones LeetCode Solution Explained in all languages", "1183 Maximum Number of Ones", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1183 Maximum Number Of Ones - Solution Explained/problem-solving.webp
-    alt: 1183 Maximum Number Of Ones
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1183 Maximum Number of Ones - Solution Explained/problem-solving.webp
+    alt: 1183 Maximum Number of Ones
     hiddenInList: true
     hiddenInSingle: false
 ---

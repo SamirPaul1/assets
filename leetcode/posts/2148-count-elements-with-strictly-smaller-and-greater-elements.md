@@ -1,13 +1,13 @@
 ---
-title: 2148 Count Elements With Strictly Smaller And Greater Elements
-summary: 2148 Count Elements With Strictly Smaller And Greater Elements LeetCode Solution Explained
+title: 2148 Count Elements With Strictly Smaller and Greater Elements
+summary: 2148 Count Elements With Strictly Smaller and Greater Elements LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2148 Count Elements With Strictly Smaller And Greater Elements LeetCode Solution Explained in all languages", "2148 Count Elements With Strictly Smaller And Greater Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2148 Count Elements With Strictly Smaller and Greater Elements LeetCode Solution Explained in all languages", "2148 Count Elements With Strictly Smaller and Greater Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2148 Count Elements With Strictly Smaller And Greater Elements - Solution Explained/problem-solving.webp
-    alt: 2148 Count Elements With Strictly Smaller And Greater Elements
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2148 Count Elements With Strictly Smaller and Greater Elements - Solution Explained/problem-solving.webp
+    alt: 2148 Count Elements With Strictly Smaller and Greater Elements
     hiddenInList: true
     hiddenInSingle: false
 ---

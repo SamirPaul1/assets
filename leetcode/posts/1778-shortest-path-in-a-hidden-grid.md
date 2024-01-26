@@ -1,13 +1,13 @@
 ---
-title: 1778 Shortest Path In A Hidden Grid
-summary: 1778 Shortest Path In A Hidden Grid LeetCode Solution Explained
+title: 1778 Shortest Path in a Hidden Grid
+summary: 1778 Shortest Path in a Hidden Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1778 Shortest Path In A Hidden Grid LeetCode Solution Explained in all languages", "1778 Shortest Path In A Hidden Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1778 Shortest Path in a Hidden Grid LeetCode Solution Explained in all languages", "1778 Shortest Path in a Hidden Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1778 Shortest Path In A Hidden Grid - Solution Explained/problem-solving.webp
-    alt: 1778 Shortest Path In A Hidden Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1778 Shortest Path in a Hidden Grid - Solution Explained/problem-solving.webp
+    alt: 1778 Shortest Path in a Hidden Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

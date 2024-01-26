@@ -1,13 +1,13 @@
 ---
-title: 2781 Length Of The Longest Valid Substring
-summary: 2781 Length Of The Longest Valid Substring LeetCode Solution Explained
+title: 2781 Length of the Longest Valid Substring
+summary: 2781 Length of the Longest Valid Substring LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2781 Length Of The Longest Valid Substring LeetCode Solution Explained in all languages", "2781 Length Of The Longest Valid Substring", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2781 Length of the Longest Valid Substring LeetCode Solution Explained in all languages", "2781 Length of the Longest Valid Substring", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2781 Length Of The Longest Valid Substring - Solution Explained/problem-solving.webp
-    alt: 2781 Length Of The Longest Valid Substring
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2781 Length of the Longest Valid Substring - Solution Explained/problem-solving.webp
+    alt: 2781 Length of the Longest Valid Substring
     hiddenInList: true
     hiddenInSingle: false
 ---

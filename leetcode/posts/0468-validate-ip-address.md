@@ -1,13 +1,13 @@
 ---
-title: 0468 Validate Ip Address
-summary: 0468 Validate Ip Address LeetCode Solution Explained
+title: 0468 Validate IP Address
+summary: 0468 Validate IP Address LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0468 Validate Ip Address LeetCode Solution Explained in all languages", "0468 Validate Ip Address", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0468 Validate IP Address LeetCode Solution Explained in all languages", "0468 Validate IP Address", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0468 Validate Ip Address - Solution Explained/problem-solving.webp
-    alt: 0468 Validate Ip Address
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0468 Validate IP Address - Solution Explained/problem-solving.webp
+    alt: 0468 Validate IP Address
     hiddenInList: true
     hiddenInSingle: false
 ---

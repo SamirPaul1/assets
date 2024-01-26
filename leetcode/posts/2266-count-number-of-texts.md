@@ -1,13 +1,13 @@
 ---
-title: 2266 Count Number Of Texts
-summary: 2266 Count Number Of Texts LeetCode Solution Explained
+title: 2266 Count Number of Texts
+summary: 2266 Count Number of Texts LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2266 Count Number Of Texts LeetCode Solution Explained in all languages", "2266 Count Number Of Texts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2266 Count Number of Texts LeetCode Solution Explained in all languages", "2266 Count Number of Texts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2266 Count Number Of Texts - Solution Explained/problem-solving.webp
-    alt: 2266 Count Number Of Texts
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2266 Count Number of Texts - Solution Explained/problem-solving.webp
+    alt: 2266 Count Number of Texts
     hiddenInList: true
     hiddenInSingle: false
 ---

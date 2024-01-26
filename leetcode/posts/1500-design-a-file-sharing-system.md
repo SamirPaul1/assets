@@ -1,13 +1,13 @@
 ---
-title: 1500 Design A File Sharing System
-summary: 1500 Design A File Sharing System LeetCode Solution Explained
+title: 1500 Design a File Sharing System
+summary: 1500 Design a File Sharing System LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1500 Design A File Sharing System LeetCode Solution Explained in all languages", "1500 Design A File Sharing System", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1500 Design a File Sharing System LeetCode Solution Explained in all languages", "1500 Design a File Sharing System", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1500 Design A File Sharing System - Solution Explained/problem-solving.webp
-    alt: 1500 Design A File Sharing System
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1500 Design a File Sharing System - Solution Explained/problem-solving.webp
+    alt: 1500 Design a File Sharing System
     hiddenInList: true
     hiddenInSingle: false
 ---

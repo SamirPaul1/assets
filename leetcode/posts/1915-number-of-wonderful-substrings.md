@@ -1,13 +1,13 @@
 ---
-title: 1915 Number Of Wonderful Substrings
-summary: 1915 Number Of Wonderful Substrings LeetCode Solution Explained
+title: 1915 Number of Wonderful Substrings
+summary: 1915 Number of Wonderful Substrings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1915 Number Of Wonderful Substrings LeetCode Solution Explained in all languages", "1915 Number Of Wonderful Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1915 Number of Wonderful Substrings LeetCode Solution Explained in all languages", "1915 Number of Wonderful Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1915 Number Of Wonderful Substrings - Solution Explained/problem-solving.webp
-    alt: 1915 Number Of Wonderful Substrings
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1915 Number of Wonderful Substrings - Solution Explained/problem-solving.webp
+    alt: 1915 Number of Wonderful Substrings
     hiddenInList: true
     hiddenInSingle: false
 ---

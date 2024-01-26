@@ -1,13 +1,13 @@
 ---
-title: 2685 Count The Number Of Complete Components
-summary: 2685 Count The Number Of Complete Components LeetCode Solution Explained
+title: 2685 Count the Number of Complete Components
+summary: 2685 Count the Number of Complete Components LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2685 Count The Number Of Complete Components LeetCode Solution Explained in all languages", "2685 Count The Number Of Complete Components", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2685 Count the Number of Complete Components LeetCode Solution Explained in all languages", "2685 Count the Number of Complete Components", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2685 Count The Number Of Complete Components - Solution Explained/problem-solving.webp
-    alt: 2685 Count The Number Of Complete Components
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2685 Count the Number of Complete Components - Solution Explained/problem-solving.webp
+    alt: 2685 Count the Number of Complete Components
     hiddenInList: true
     hiddenInSingle: false
 ---

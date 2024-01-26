@@ -1,13 +1,13 @@
 ---
-title: 0856 Score Of Parentheses
-summary: 0856 Score Of Parentheses LeetCode Solution Explained
+title: 0856 Score of Parentheses
+summary: 0856 Score of Parentheses LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0856 Score Of Parentheses LeetCode Solution Explained in all languages", "0856 Score Of Parentheses", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0856 Score of Parentheses LeetCode Solution Explained in all languages", "0856 Score of Parentheses", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0856 Score Of Parentheses - Solution Explained/problem-solving.webp
-    alt: 0856 Score Of Parentheses
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0856 Score of Parentheses - Solution Explained/problem-solving.webp
+    alt: 0856 Score of Parentheses
     hiddenInList: true
     hiddenInSingle: false
 ---

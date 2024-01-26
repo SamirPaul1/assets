@@ -1,13 +1,13 @@
 ---
-title: 1868 Product Of Two Run Length Encoded Arrays
-summary: 1868 Product Of Two Run Length Encoded Arrays LeetCode Solution Explained
+title: 1868 Product of Two Run Length Encoded Arrays
+summary: 1868 Product of Two Run Length Encoded Arrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1868 Product Of Two Run Length Encoded Arrays LeetCode Solution Explained in all languages", "1868 Product Of Two Run Length Encoded Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1868 Product of Two Run Length Encoded Arrays LeetCode Solution Explained in all languages", "1868 Product of Two Run Length Encoded Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1868 Product Of Two Run Length Encoded Arrays - Solution Explained/problem-solving.webp
-    alt: 1868 Product Of Two Run Length Encoded Arrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1868 Product of Two Run Length Encoded Arrays - Solution Explained/problem-solving.webp
+    alt: 1868 Product of Two Run Length Encoded Arrays
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1944 Number Of Visible People In A Queue
-summary: 1944 Number Of Visible People In A Queue LeetCode Solution Explained
+title: 1944 Number of Visible People in a Queue
+summary: 1944 Number of Visible People in a Queue LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1944 Number Of Visible People In A Queue LeetCode Solution Explained in all languages", "1944 Number Of Visible People In A Queue", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1944 Number of Visible People in a Queue LeetCode Solution Explained in all languages", "1944 Number of Visible People in a Queue", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1944 Number Of Visible People In A Queue - Solution Explained/problem-solving.webp
-    alt: 1944 Number Of Visible People In A Queue
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1944 Number of Visible People in a Queue - Solution Explained/problem-solving.webp
+    alt: 1944 Number of Visible People in a Queue
     hiddenInList: true
     hiddenInSingle: false
 ---

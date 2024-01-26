@@ -1,13 +1,13 @@
 ---
-title: 0579 Find Cumulative Salary Of An Employee
-summary: 0579 Find Cumulative Salary Of An Employee LeetCode Solution Explained
+title: 0579 Find Cumulative Salary of an Employee
+summary: 0579 Find Cumulative Salary of an Employee LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0579 Find Cumulative Salary Of An Employee LeetCode Solution Explained in all languages", "0579 Find Cumulative Salary Of An Employee", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0579 Find Cumulative Salary of an Employee LeetCode Solution Explained in all languages", "0579 Find Cumulative Salary of an Employee", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0579 Find Cumulative Salary Of An Employee - Solution Explained/problem-solving.webp
-    alt: 0579 Find Cumulative Salary Of An Employee
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0579 Find Cumulative Salary of an Employee - Solution Explained/problem-solving.webp
+    alt: 0579 Find Cumulative Salary of an Employee
     hiddenInList: true
     hiddenInSingle: false
 ---

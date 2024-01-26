@@ -1,13 +1,13 @@
 ---
-title: 0576 Out Of Boundary Paths
-summary: 0576 Out Of Boundary Paths LeetCode Solution Explained
+title: 0576 Out of Boundary Paths
+summary: 0576 Out of Boundary Paths LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0576 Out Of Boundary Paths LeetCode Solution Explained in all languages", "0576 Out Of Boundary Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0576 Out of Boundary Paths LeetCode Solution Explained in all languages", "0576 Out of Boundary Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0576 Out Of Boundary Paths - Solution Explained/problem-solving.webp
-    alt: 0576 Out Of Boundary Paths
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0576 Out of Boundary Paths - Solution Explained/problem-solving.webp
+    alt: 0576 Out of Boundary Paths
     hiddenInList: true
     hiddenInSingle: false
 ---

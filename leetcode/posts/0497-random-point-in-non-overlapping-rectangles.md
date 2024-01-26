@@ -1,13 +1,13 @@
 ---
-title: 0497 Random Point In Non Overlapping Rectangles
-summary: 0497 Random Point In Non Overlapping Rectangles LeetCode Solution Explained
+title: 0497 Random Point in Non overlapping Rectangles
+summary: 0497 Random Point in Non overlapping Rectangles LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0497 Random Point In Non Overlapping Rectangles LeetCode Solution Explained in all languages", "0497 Random Point In Non Overlapping Rectangles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0497 Random Point in Non overlapping Rectangles LeetCode Solution Explained in all languages", "0497 Random Point in Non overlapping Rectangles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0497 Random Point In Non Overlapping Rectangles - Solution Explained/problem-solving.webp
-    alt: 0497 Random Point In Non Overlapping Rectangles
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0497 Random Point in Non overlapping Rectangles - Solution Explained/problem-solving.webp
+    alt: 0497 Random Point in Non overlapping Rectangles
     hiddenInList: true
     hiddenInSingle: false
 ---

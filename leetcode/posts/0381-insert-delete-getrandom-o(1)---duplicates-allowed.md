@@ -1,13 +1,13 @@
 ---
-title: 0381 Insert Delete Getrandom O(1)   Duplicates Allowed
-summary: 0381 Insert Delete Getrandom O(1)   Duplicates Allowed LeetCode Solution Explained
+title: 0381 Insert Delete GetRandom O(1)   Duplicates allowed
+summary: 0381 Insert Delete GetRandom O(1)   Duplicates allowed LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0381 Insert Delete Getrandom O(1)   Duplicates Allowed LeetCode Solution Explained in all languages", "0381 Insert Delete Getrandom O(1)   Duplicates Allowed", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0381 Insert Delete GetRandom O(1)   Duplicates allowed LeetCode Solution Explained in all languages", "0381 Insert Delete GetRandom O(1)   Duplicates allowed", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0381 Insert Delete Getrandom O(1)   Duplicates Allowed - Solution Explained/problem-solving.webp
-    alt: 0381 Insert Delete Getrandom O(1)   Duplicates Allowed
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0381 Insert Delete GetRandom O(1)   Duplicates allowed - Solution Explained/problem-solving.webp
+    alt: 0381 Insert Delete GetRandom O(1)   Duplicates allowed
     hiddenInList: true
     hiddenInSingle: false
 ---

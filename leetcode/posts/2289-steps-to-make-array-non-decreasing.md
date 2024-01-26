@@ -1,13 +1,13 @@
 ---
-title: 2289 Steps To Make Array Non Decreasing
-summary: 2289 Steps To Make Array Non Decreasing LeetCode Solution Explained
+title: 2289 Steps to Make Array Non decreasing
+summary: 2289 Steps to Make Array Non decreasing LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2289 Steps To Make Array Non Decreasing LeetCode Solution Explained in all languages", "2289 Steps To Make Array Non Decreasing", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2289 Steps to Make Array Non decreasing LeetCode Solution Explained in all languages", "2289 Steps to Make Array Non decreasing", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2289 Steps To Make Array Non Decreasing - Solution Explained/problem-solving.webp
-    alt: 2289 Steps To Make Array Non Decreasing
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2289 Steps to Make Array Non decreasing - Solution Explained/problem-solving.webp
+    alt: 2289 Steps to Make Array Non decreasing
     hiddenInList: true
     hiddenInSingle: false
 ---

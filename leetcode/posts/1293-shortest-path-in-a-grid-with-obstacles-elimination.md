@@ -1,13 +1,13 @@
 ---
-title: 1293 Shortest Path In A Grid With Obstacles Elimination
-summary: 1293 Shortest Path In A Grid With Obstacles Elimination LeetCode Solution Explained
+title: 1293 Shortest Path in a Grid with Obstacles Elimination
+summary: 1293 Shortest Path in a Grid with Obstacles Elimination LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1293 Shortest Path In A Grid With Obstacles Elimination LeetCode Solution Explained in all languages", "1293 Shortest Path In A Grid With Obstacles Elimination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1293 Shortest Path in a Grid with Obstacles Elimination LeetCode Solution Explained in all languages", "1293 Shortest Path in a Grid with Obstacles Elimination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1293 Shortest Path In A Grid With Obstacles Elimination - Solution Explained/problem-solving.webp
-    alt: 1293 Shortest Path In A Grid With Obstacles Elimination
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1293 Shortest Path in a Grid with Obstacles Elimination - Solution Explained/problem-solving.webp
+    alt: 1293 Shortest Path in a Grid with Obstacles Elimination
     hiddenInList: true
     hiddenInSingle: false
 ---

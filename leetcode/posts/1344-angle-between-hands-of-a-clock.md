@@ -1,13 +1,13 @@
 ---
-title: 1344 Angle Between Hands Of A Clock
-summary: 1344 Angle Between Hands Of A Clock LeetCode Solution Explained
+title: 1344 Angle Between Hands of a Clock
+summary: 1344 Angle Between Hands of a Clock LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1344 Angle Between Hands Of A Clock LeetCode Solution Explained in all languages", "1344 Angle Between Hands Of A Clock", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1344 Angle Between Hands of a Clock LeetCode Solution Explained in all languages", "1344 Angle Between Hands of a Clock", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1344 Angle Between Hands Of A Clock - Solution Explained/problem-solving.webp
-    alt: 1344 Angle Between Hands Of A Clock
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1344 Angle Between Hands of a Clock - Solution Explained/problem-solving.webp
+    alt: 1344 Angle Between Hands of a Clock
     hiddenInList: true
     hiddenInSingle: false
 ---

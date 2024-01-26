@@ -1,13 +1,13 @@
 ---
-title: 2198 Number Of Single Divisor Triplets
-summary: 2198 Number Of Single Divisor Triplets LeetCode Solution Explained
+title: 2198 Number of Single Divisor Triplets
+summary: 2198 Number of Single Divisor Triplets LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2198 Number Of Single Divisor Triplets LeetCode Solution Explained in all languages", "2198 Number Of Single Divisor Triplets", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2198 Number of Single Divisor Triplets LeetCode Solution Explained in all languages", "2198 Number of Single Divisor Triplets", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2198 Number Of Single Divisor Triplets - Solution Explained/problem-solving.webp
-    alt: 2198 Number Of Single Divisor Triplets
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2198 Number of Single Divisor Triplets - Solution Explained/problem-solving.webp
+    alt: 2198 Number of Single Divisor Triplets
     hiddenInList: true
     hiddenInSingle: false
 ---

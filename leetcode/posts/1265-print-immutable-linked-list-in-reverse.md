@@ -1,13 +1,13 @@
 ---
-title: 1265 Print Immutable Linked List In Reverse
-summary: 1265 Print Immutable Linked List In Reverse LeetCode Solution Explained
+title: 1265 Print Immutable Linked List in Reverse
+summary: 1265 Print Immutable Linked List in Reverse LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1265 Print Immutable Linked List In Reverse LeetCode Solution Explained in all languages", "1265 Print Immutable Linked List In Reverse", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1265 Print Immutable Linked List in Reverse LeetCode Solution Explained in all languages", "1265 Print Immutable Linked List in Reverse", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1265 Print Immutable Linked List In Reverse - Solution Explained/problem-solving.webp
-    alt: 1265 Print Immutable Linked List In Reverse
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1265 Print Immutable Linked List in Reverse - Solution Explained/problem-solving.webp
+    alt: 1265 Print Immutable Linked List in Reverse
     hiddenInList: true
     hiddenInSingle: false
 ---

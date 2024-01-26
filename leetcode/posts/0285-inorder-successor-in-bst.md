@@ -1,13 +1,13 @@
 ---
-title: 0285 Inorder Successor In Bst
-summary: 0285 Inorder Successor In Bst LeetCode Solution Explained
+title: 0285 Inorder Successor in BST
+summary: 0285 Inorder Successor in BST LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0285 Inorder Successor In Bst LeetCode Solution Explained in all languages", "0285 Inorder Successor In Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0285 Inorder Successor in BST LeetCode Solution Explained in all languages", "0285 Inorder Successor in BST", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0285 Inorder Successor In Bst - Solution Explained/problem-solving.webp
-    alt: 0285 Inorder Successor In Bst
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0285 Inorder Successor in BST - Solution Explained/problem-solving.webp
+    alt: 0285 Inorder Successor in BST
     hiddenInList: true
     hiddenInSingle: false
 ---

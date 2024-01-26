@@ -1,13 +1,13 @@
 ---
-title: 1834 Single Threaded Cpu
-summary: 1834 Single Threaded Cpu LeetCode Solution Explained
+title: 1834 Single Threaded CPU
+summary: 1834 Single Threaded CPU LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1834 Single Threaded Cpu LeetCode Solution Explained in all languages", "1834 Single Threaded Cpu", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1834 Single Threaded CPU LeetCode Solution Explained in all languages", "1834 Single Threaded CPU", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1834 Single Threaded Cpu - Solution Explained/problem-solving.webp
-    alt: 1834 Single Threaded Cpu
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1834 Single Threaded CPU - Solution Explained/problem-solving.webp
+    alt: 1834 Single Threaded CPU
     hiddenInList: true
     hiddenInSingle: false
 ---

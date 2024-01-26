@@ -1,13 +1,13 @@
 ---
-title: 2473 Minimum Cost To Buy Apples
-summary: 2473 Minimum Cost To Buy Apples LeetCode Solution Explained
+title: 2473 Minimum Cost to Buy Apples
+summary: 2473 Minimum Cost to Buy Apples LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2473 Minimum Cost To Buy Apples LeetCode Solution Explained in all languages", "2473 Minimum Cost To Buy Apples", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2473 Minimum Cost to Buy Apples LeetCode Solution Explained in all languages", "2473 Minimum Cost to Buy Apples", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2473 Minimum Cost To Buy Apples - Solution Explained/problem-solving.webp
-    alt: 2473 Minimum Cost To Buy Apples
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2473 Minimum Cost to Buy Apples - Solution Explained/problem-solving.webp
+    alt: 2473 Minimum Cost to Buy Apples
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0880 Decoded String At Index
-summary: 0880 Decoded String At Index LeetCode Solution Explained
+title: 0880 Decoded String at Index
+summary: 0880 Decoded String at Index LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0880 Decoded String At Index LeetCode Solution Explained in all languages", "0880 Decoded String At Index", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0880 Decoded String at Index LeetCode Solution Explained in all languages", "0880 Decoded String at Index", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0880 Decoded String At Index - Solution Explained/problem-solving.webp
-    alt: 0880 Decoded String At Index
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0880 Decoded String at Index - Solution Explained/problem-solving.webp
+    alt: 0880 Decoded String at Index
     hiddenInList: true
     hiddenInSingle: false
 ---

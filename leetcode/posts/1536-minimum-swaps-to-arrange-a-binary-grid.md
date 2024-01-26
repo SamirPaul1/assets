@@ -1,13 +1,13 @@
 ---
-title: 1536 Minimum Swaps To Arrange A Binary Grid
-summary: 1536 Minimum Swaps To Arrange A Binary Grid LeetCode Solution Explained
+title: 1536 Minimum Swaps to Arrange a Binary Grid
+summary: 1536 Minimum Swaps to Arrange a Binary Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1536 Minimum Swaps To Arrange A Binary Grid LeetCode Solution Explained in all languages", "1536 Minimum Swaps To Arrange A Binary Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1536 Minimum Swaps to Arrange a Binary Grid LeetCode Solution Explained in all languages", "1536 Minimum Swaps to Arrange a Binary Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1536 Minimum Swaps To Arrange A Binary Grid - Solution Explained/problem-solving.webp
-    alt: 1536 Minimum Swaps To Arrange A Binary Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1536 Minimum Swaps to Arrange a Binary Grid - Solution Explained/problem-solving.webp
+    alt: 1536 Minimum Swaps to Arrange a Binary Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

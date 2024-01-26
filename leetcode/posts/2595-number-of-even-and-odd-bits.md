@@ -1,13 +1,13 @@
 ---
-title: 2595 Number Of Even And Odd Bits
-summary: 2595 Number Of Even And Odd Bits LeetCode Solution Explained
+title: 2595 Number of Even and Odd Bits
+summary: 2595 Number of Even and Odd Bits LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2595 Number Of Even And Odd Bits LeetCode Solution Explained in all languages", "2595 Number Of Even And Odd Bits", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2595 Number of Even and Odd Bits LeetCode Solution Explained in all languages", "2595 Number of Even and Odd Bits", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2595 Number Of Even And Odd Bits - Solution Explained/problem-solving.webp
-    alt: 2595 Number Of Even And Odd Bits
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2595 Number of Even and Odd Bits - Solution Explained/problem-solving.webp
+    alt: 2595 Number of Even and Odd Bits
     hiddenInList: true
     hiddenInSingle: false
 ---

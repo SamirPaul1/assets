@@ -1,13 +1,13 @@
 ---
-title: 1639 Number Of Ways To Form A Target String Given A Dictionary
-summary: 1639 Number Of Ways To Form A Target String Given A Dictionary LeetCode Solution Explained
+title: 1639 Number of Ways to Form a Target String Given a Dictionary
+summary: 1639 Number of Ways to Form a Target String Given a Dictionary LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1639 Number Of Ways To Form A Target String Given A Dictionary LeetCode Solution Explained in all languages", "1639 Number Of Ways To Form A Target String Given A Dictionary", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1639 Number of Ways to Form a Target String Given a Dictionary LeetCode Solution Explained in all languages", "1639 Number of Ways to Form a Target String Given a Dictionary", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1639 Number Of Ways To Form A Target String Given A Dictionary - Solution Explained/problem-solving.webp
-    alt: 1639 Number Of Ways To Form A Target String Given A Dictionary
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1639 Number of Ways to Form a Target String Given a Dictionary - Solution Explained/problem-solving.webp
+    alt: 1639 Number of Ways to Form a Target String Given a Dictionary
     hiddenInList: true
     hiddenInSingle: false
 ---

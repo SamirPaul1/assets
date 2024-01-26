@@ -1,13 +1,13 @@
 ---
-title: 2828 Check If A String Is An Acronym Of Words
-summary: 2828 Check If A String Is An Acronym Of Words LeetCode Solution Explained
+title: 2828 Check if a String Is an Acronym of Words
+summary: 2828 Check if a String Is an Acronym of Words LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2828 Check If A String Is An Acronym Of Words LeetCode Solution Explained in all languages", "2828 Check If A String Is An Acronym Of Words", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2828 Check if a String Is an Acronym of Words LeetCode Solution Explained in all languages", "2828 Check if a String Is an Acronym of Words", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2828 Check If A String Is An Acronym Of Words - Solution Explained/problem-solving.webp
-    alt: 2828 Check If A String Is An Acronym Of Words
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2828 Check if a String Is an Acronym of Words - Solution Explained/problem-solving.webp
+    alt: 2828 Check if a String Is an Acronym of Words
     hiddenInList: true
     hiddenInSingle: false
 ---

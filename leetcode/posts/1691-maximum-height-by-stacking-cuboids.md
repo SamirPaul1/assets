@@ -1,13 +1,13 @@
 ---
-title: 1691 Maximum Height By Stacking Cuboids
-summary: 1691 Maximum Height By Stacking Cuboids LeetCode Solution Explained
+title: 1691 Maximum Height by Stacking Cuboids
+summary: 1691 Maximum Height by Stacking Cuboids LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1691 Maximum Height By Stacking Cuboids LeetCode Solution Explained in all languages", "1691 Maximum Height By Stacking Cuboids", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1691 Maximum Height by Stacking Cuboids LeetCode Solution Explained in all languages", "1691 Maximum Height by Stacking Cuboids", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1691 Maximum Height By Stacking Cuboids - Solution Explained/problem-solving.webp
-    alt: 1691 Maximum Height By Stacking Cuboids
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1691 Maximum Height by Stacking Cuboids - Solution Explained/problem-solving.webp
+    alt: 1691 Maximum Height by Stacking Cuboids
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1829 Maximum Xor For Each Query
-summary: 1829 Maximum Xor For Each Query LeetCode Solution Explained
+title: 1829 Maximum XOR for Each Query
+summary: 1829 Maximum XOR for Each Query LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1829 Maximum Xor For Each Query LeetCode Solution Explained in all languages", "1829 Maximum Xor For Each Query", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1829 Maximum XOR for Each Query LeetCode Solution Explained in all languages", "1829 Maximum XOR for Each Query", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1829 Maximum Xor For Each Query - Solution Explained/problem-solving.webp
-    alt: 1829 Maximum Xor For Each Query
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1829 Maximum XOR for Each Query - Solution Explained/problem-solving.webp
+    alt: 1829 Maximum XOR for Each Query
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1380 Lucky Numbers In A Matrix
-summary: 1380 Lucky Numbers In A Matrix LeetCode Solution Explained
+title: 1380 Lucky Numbers in a Matrix
+summary: 1380 Lucky Numbers in a Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1380 Lucky Numbers In A Matrix LeetCode Solution Explained in all languages", "1380 Lucky Numbers In A Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1380 Lucky Numbers in a Matrix LeetCode Solution Explained in all languages", "1380 Lucky Numbers in a Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1380 Lucky Numbers In A Matrix - Solution Explained/problem-solving.webp
-    alt: 1380 Lucky Numbers In A Matrix
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1380 Lucky Numbers in a Matrix - Solution Explained/problem-solving.webp
+    alt: 1380 Lucky Numbers in a Matrix
     hiddenInList: true
     hiddenInSingle: false
 ---

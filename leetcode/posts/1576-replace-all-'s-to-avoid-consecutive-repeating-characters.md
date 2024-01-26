@@ -1,13 +1,13 @@
 ---
-title: 1576 Replace All 'S To Avoid Consecutive Repeating Characters
-summary: 1576 Replace All 'S To Avoid Consecutive Repeating Characters LeetCode Solution Explained
+title: 1576 Replace All 's to Avoid Consecutive Repeating Characters
+summary: 1576 Replace All 's to Avoid Consecutive Repeating Characters LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1576 Replace All 'S To Avoid Consecutive Repeating Characters LeetCode Solution Explained in all languages", "1576 Replace All 'S To Avoid Consecutive Repeating Characters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1576 Replace All 's to Avoid Consecutive Repeating Characters LeetCode Solution Explained in all languages", "1576 Replace All 's to Avoid Consecutive Repeating Characters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1576 Replace All 'S To Avoid Consecutive Repeating Characters - Solution Explained/problem-solving.webp
-    alt: 1576 Replace All 'S To Avoid Consecutive Repeating Characters
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1576 Replace All 's to Avoid Consecutive Repeating Characters - Solution Explained/problem-solving.webp
+    alt: 1576 Replace All 's to Avoid Consecutive Repeating Characters
     hiddenInList: true
     hiddenInSingle: false
 ---

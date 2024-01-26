@@ -1,13 +1,13 @@
 ---
-title: 0688 Knight Probability In Chessboard
-summary: 0688 Knight Probability In Chessboard LeetCode Solution Explained
+title: 0688 Knight Probability in Chessboard
+summary: 0688 Knight Probability in Chessboard LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0688 Knight Probability In Chessboard LeetCode Solution Explained in all languages", "0688 Knight Probability In Chessboard", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0688 Knight Probability in Chessboard LeetCode Solution Explained in all languages", "0688 Knight Probability in Chessboard", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0688 Knight Probability In Chessboard - Solution Explained/problem-solving.webp
-    alt: 0688 Knight Probability In Chessboard
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0688 Knight Probability in Chessboard - Solution Explained/problem-solving.webp
+    alt: 0688 Knight Probability in Chessboard
     hiddenInList: true
     hiddenInSingle: false
 ---

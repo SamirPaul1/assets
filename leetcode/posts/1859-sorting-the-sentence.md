@@ -1,13 +1,13 @@
 ---
-title: 1859 Sorting The Sentence
-summary: 1859 Sorting The Sentence LeetCode Solution Explained
+title: 1859 Sorting the Sentence
+summary: 1859 Sorting the Sentence LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1859 Sorting The Sentence LeetCode Solution Explained in all languages", "1859 Sorting The Sentence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1859 Sorting the Sentence LeetCode Solution Explained in all languages", "1859 Sorting the Sentence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1859 Sorting The Sentence - Solution Explained/problem-solving.webp
-    alt: 1859 Sorting The Sentence
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1859 Sorting the Sentence - Solution Explained/problem-solving.webp
+    alt: 1859 Sorting the Sentence
     hiddenInList: true
     hiddenInSingle: false
 ---

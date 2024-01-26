@@ -1,13 +1,13 @@
 ---
-title: 0890 Find And Replace Pattern
-summary: 0890 Find And Replace Pattern LeetCode Solution Explained
+title: 0890 Find and Replace Pattern
+summary: 0890 Find and Replace Pattern LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0890 Find And Replace Pattern LeetCode Solution Explained in all languages", "0890 Find And Replace Pattern", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0890 Find and Replace Pattern LeetCode Solution Explained in all languages", "0890 Find and Replace Pattern", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0890 Find And Replace Pattern - Solution Explained/problem-solving.webp
-    alt: 0890 Find And Replace Pattern
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0890 Find and Replace Pattern - Solution Explained/problem-solving.webp
+    alt: 0890 Find and Replace Pattern
     hiddenInList: true
     hiddenInSingle: false
 ---

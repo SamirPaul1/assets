@@ -1,13 +1,13 @@
 ---
-title: 2611 Mice And Cheese
-summary: 2611 Mice And Cheese LeetCode Solution Explained
+title: 2611 Mice and Cheese
+summary: 2611 Mice and Cheese LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2611 Mice And Cheese LeetCode Solution Explained in all languages", "2611 Mice And Cheese", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2611 Mice and Cheese LeetCode Solution Explained in all languages", "2611 Mice and Cheese", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2611 Mice And Cheese - Solution Explained/problem-solving.webp
-    alt: 2611 Mice And Cheese
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2611 Mice and Cheese - Solution Explained/problem-solving.webp
+    alt: 2611 Mice and Cheese
     hiddenInList: true
     hiddenInSingle: false
 ---

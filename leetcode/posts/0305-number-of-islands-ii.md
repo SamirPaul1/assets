@@ -1,13 +1,13 @@
 ---
-title: 0305 Number Of Islands Ii
-summary: 0305 Number Of Islands Ii LeetCode Solution Explained
+title: 0305 Number of Islands II
+summary: 0305 Number of Islands II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0305 Number Of Islands Ii LeetCode Solution Explained in all languages", "0305 Number Of Islands Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0305 Number of Islands II LeetCode Solution Explained in all languages", "0305 Number of Islands II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0305 Number Of Islands Ii - Solution Explained/problem-solving.webp
-    alt: 0305 Number Of Islands Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0305 Number of Islands II - Solution Explained/problem-solving.webp
+    alt: 0305 Number of Islands II
     hiddenInList: true
     hiddenInSingle: false
 ---

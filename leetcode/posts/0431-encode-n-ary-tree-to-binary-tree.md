@@ -1,13 +1,13 @@
 ---
-title: 0431 Encode N Ary Tree To Binary Tree
-summary: 0431 Encode N Ary Tree To Binary Tree LeetCode Solution Explained
+title: 0431 Encode N ary Tree to Binary Tree
+summary: 0431 Encode N ary Tree to Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0431 Encode N Ary Tree To Binary Tree LeetCode Solution Explained in all languages", "0431 Encode N Ary Tree To Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0431 Encode N ary Tree to Binary Tree LeetCode Solution Explained in all languages", "0431 Encode N ary Tree to Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0431 Encode N Ary Tree To Binary Tree - Solution Explained/problem-solving.webp
-    alt: 0431 Encode N Ary Tree To Binary Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0431 Encode N ary Tree to Binary Tree - Solution Explained/problem-solving.webp
+    alt: 0431 Encode N ary Tree to Binary Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

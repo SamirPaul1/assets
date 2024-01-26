@@ -1,13 +1,13 @@
 ---
-title: 1796 Second Largest Digit In A String
-summary: 1796 Second Largest Digit In A String LeetCode Solution Explained
+title: 1796 Second Largest Digit in a String
+summary: 1796 Second Largest Digit in a String LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1796 Second Largest Digit In A String LeetCode Solution Explained in all languages", "1796 Second Largest Digit In A String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1796 Second Largest Digit in a String LeetCode Solution Explained in all languages", "1796 Second Largest Digit in a String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1796 Second Largest Digit In A String - Solution Explained/problem-solving.webp
-    alt: 1796 Second Largest Digit In A String
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1796 Second Largest Digit in a String - Solution Explained/problem-solving.webp
+    alt: 1796 Second Largest Digit in a String
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1274 Number Of Ships In A Rectangle
-summary: 1274 Number Of Ships In A Rectangle LeetCode Solution Explained
+title: 1274 Number of Ships in a Rectangle
+summary: 1274 Number of Ships in a Rectangle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1274 Number Of Ships In A Rectangle LeetCode Solution Explained in all languages", "1274 Number Of Ships In A Rectangle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1274 Number of Ships in a Rectangle LeetCode Solution Explained in all languages", "1274 Number of Ships in a Rectangle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1274 Number Of Ships In A Rectangle - Solution Explained/problem-solving.webp
-    alt: 1274 Number Of Ships In A Rectangle
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1274 Number of Ships in a Rectangle - Solution Explained/problem-solving.webp
+    alt: 1274 Number of Ships in a Rectangle
     hiddenInList: true
     hiddenInSingle: false
 ---

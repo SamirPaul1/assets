@@ -1,13 +1,13 @@
 ---
-title: 2421 Number Of Good Paths
-summary: 2421 Number Of Good Paths LeetCode Solution Explained
+title: 2421 Number of Good Paths
+summary: 2421 Number of Good Paths LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2421 Number Of Good Paths LeetCode Solution Explained in all languages", "2421 Number Of Good Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2421 Number of Good Paths LeetCode Solution Explained in all languages", "2421 Number of Good Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2421 Number Of Good Paths - Solution Explained/problem-solving.webp
-    alt: 2421 Number Of Good Paths
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2421 Number of Good Paths - Solution Explained/problem-solving.webp
+    alt: 2421 Number of Good Paths
     hiddenInList: true
     hiddenInSingle: false
 ---

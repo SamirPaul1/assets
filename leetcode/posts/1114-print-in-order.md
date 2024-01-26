@@ -1,13 +1,13 @@
 ---
-title: 1114 Print In Order
-summary: 1114 Print In Order LeetCode Solution Explained
+title: 1114 Print in Order
+summary: 1114 Print in Order LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1114 Print In Order LeetCode Solution Explained in all languages", "1114 Print In Order", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1114 Print in Order LeetCode Solution Explained in all languages", "1114 Print in Order", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1114 Print In Order - Solution Explained/problem-solving.webp
-    alt: 1114 Print In Order
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1114 Print in Order - Solution Explained/problem-solving.webp
+    alt: 1114 Print in Order
     hiddenInList: true
     hiddenInSingle: false
 ---

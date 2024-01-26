@@ -1,13 +1,13 @@
 ---
-title: 1881 Maximum Value After Insertion
-summary: 1881 Maximum Value After Insertion LeetCode Solution Explained
+title: 1881 Maximum Value after Insertion
+summary: 1881 Maximum Value after Insertion LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1881 Maximum Value After Insertion LeetCode Solution Explained in all languages", "1881 Maximum Value After Insertion", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1881 Maximum Value after Insertion LeetCode Solution Explained in all languages", "1881 Maximum Value after Insertion", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1881 Maximum Value After Insertion - Solution Explained/problem-solving.webp
-    alt: 1881 Maximum Value After Insertion
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1881 Maximum Value after Insertion - Solution Explained/problem-solving.webp
+    alt: 1881 Maximum Value after Insertion
     hiddenInList: true
     hiddenInSingle: false
 ---

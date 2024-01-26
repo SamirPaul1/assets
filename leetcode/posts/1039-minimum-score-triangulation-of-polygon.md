@@ -1,13 +1,13 @@
 ---
-title: 1039 Minimum Score Triangulation Of Polygon
-summary: 1039 Minimum Score Triangulation Of Polygon LeetCode Solution Explained
+title: 1039 Minimum Score Triangulation of Polygon
+summary: 1039 Minimum Score Triangulation of Polygon LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1039 Minimum Score Triangulation Of Polygon LeetCode Solution Explained in all languages", "1039 Minimum Score Triangulation Of Polygon", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1039 Minimum Score Triangulation of Polygon LeetCode Solution Explained in all languages", "1039 Minimum Score Triangulation of Polygon", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1039 Minimum Score Triangulation Of Polygon - Solution Explained/problem-solving.webp
-    alt: 1039 Minimum Score Triangulation Of Polygon
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1039 Minimum Score Triangulation of Polygon - Solution Explained/problem-solving.webp
+    alt: 1039 Minimum Score Triangulation of Polygon
     hiddenInList: true
     hiddenInSingle: false
 ---

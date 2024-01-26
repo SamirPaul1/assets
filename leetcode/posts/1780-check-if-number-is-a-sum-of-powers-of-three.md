@@ -1,13 +1,13 @@
 ---
-title: 1780 Check If Number Is A Sum Of Powers Of Three
-summary: 1780 Check If Number Is A Sum Of Powers Of Three LeetCode Solution Explained
+title: 1780 Check if Number is a Sum of Powers of Three
+summary: 1780 Check if Number is a Sum of Powers of Three LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1780 Check If Number Is A Sum Of Powers Of Three LeetCode Solution Explained in all languages", "1780 Check If Number Is A Sum Of Powers Of Three", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1780 Check if Number is a Sum of Powers of Three LeetCode Solution Explained in all languages", "1780 Check if Number is a Sum of Powers of Three", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1780 Check If Number Is A Sum Of Powers Of Three - Solution Explained/problem-solving.webp
-    alt: 1780 Check If Number Is A Sum Of Powers Of Three
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1780 Check if Number is a Sum of Powers of Three - Solution Explained/problem-solving.webp
+    alt: 1780 Check if Number is a Sum of Powers of Three
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0364 Nested List Weight Sum Ii
-summary: 0364 Nested List Weight Sum Ii LeetCode Solution Explained
+title: 0364 Nested List Weight Sum II
+summary: 0364 Nested List Weight Sum II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0364 Nested List Weight Sum Ii LeetCode Solution Explained in all languages", "0364 Nested List Weight Sum Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0364 Nested List Weight Sum II LeetCode Solution Explained in all languages", "0364 Nested List Weight Sum II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0364 Nested List Weight Sum Ii - Solution Explained/problem-solving.webp
-    alt: 0364 Nested List Weight Sum Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0364 Nested List Weight Sum II - Solution Explained/problem-solving.webp
+    alt: 0364 Nested List Weight Sum II
     hiddenInList: true
     hiddenInSingle: false
 ---

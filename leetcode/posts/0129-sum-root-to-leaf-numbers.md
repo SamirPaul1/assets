@@ -1,13 +1,13 @@
 ---
-title: 0129 Sum Root To Leaf Numbers
-summary: 0129 Sum Root To Leaf Numbers LeetCode Solution Explained
+title: 0129 Sum Root to Leaf Numbers
+summary: 0129 Sum Root to Leaf Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0129 Sum Root To Leaf Numbers LeetCode Solution Explained in all languages", "0129 Sum Root To Leaf Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0129 Sum Root to Leaf Numbers LeetCode Solution Explained in all languages", "0129 Sum Root to Leaf Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0129 Sum Root To Leaf Numbers - Solution Explained/problem-solving.webp
-    alt: 0129 Sum Root To Leaf Numbers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0129 Sum Root to Leaf Numbers - Solution Explained/problem-solving.webp
+    alt: 0129 Sum Root to Leaf Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---

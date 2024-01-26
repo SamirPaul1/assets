@@ -1,13 +1,13 @@
 ---
-title: 2110 Number Of Smooth Descent Periods Of A Stock
-summary: 2110 Number Of Smooth Descent Periods Of A Stock LeetCode Solution Explained
+title: 2110 Number of Smooth Descent Periods of a Stock
+summary: 2110 Number of Smooth Descent Periods of a Stock LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2110 Number Of Smooth Descent Periods Of A Stock LeetCode Solution Explained in all languages", "2110 Number Of Smooth Descent Periods Of A Stock", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2110 Number of Smooth Descent Periods of a Stock LeetCode Solution Explained in all languages", "2110 Number of Smooth Descent Periods of a Stock", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2110 Number Of Smooth Descent Periods Of A Stock - Solution Explained/problem-solving.webp
-    alt: 2110 Number Of Smooth Descent Periods Of A Stock
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2110 Number of Smooth Descent Periods of a Stock - Solution Explained/problem-solving.webp
+    alt: 2110 Number of Smooth Descent Periods of a Stock
     hiddenInList: true
     hiddenInSingle: false
 ---

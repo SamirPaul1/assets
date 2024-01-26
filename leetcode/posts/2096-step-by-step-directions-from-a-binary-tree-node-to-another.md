@@ -1,13 +1,13 @@
 ---
-title: 2096 Step By Step Directions From A Binary Tree Node To Another
-summary: 2096 Step By Step Directions From A Binary Tree Node To Another LeetCode Solution Explained
+title: 2096 Step By Step Directions From a Binary Tree Node to Another
+summary: 2096 Step By Step Directions From a Binary Tree Node to Another LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2096 Step By Step Directions From A Binary Tree Node To Another LeetCode Solution Explained in all languages", "2096 Step By Step Directions From A Binary Tree Node To Another", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2096 Step By Step Directions From a Binary Tree Node to Another LeetCode Solution Explained in all languages", "2096 Step By Step Directions From a Binary Tree Node to Another", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2096 Step By Step Directions From A Binary Tree Node To Another - Solution Explained/problem-solving.webp
-    alt: 2096 Step By Step Directions From A Binary Tree Node To Another
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2096 Step By Step Directions From a Binary Tree Node to Another - Solution Explained/problem-solving.webp
+    alt: 2096 Step By Step Directions From a Binary Tree Node to Another
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1876 Substrings Of Size Three With Distinct Characters
-summary: 1876 Substrings Of Size Three With Distinct Characters LeetCode Solution Explained
+title: 1876 Substrings of Size Three with Distinct Characters
+summary: 1876 Substrings of Size Three with Distinct Characters LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1876 Substrings Of Size Three With Distinct Characters LeetCode Solution Explained in all languages", "1876 Substrings Of Size Three With Distinct Characters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1876 Substrings of Size Three with Distinct Characters LeetCode Solution Explained in all languages", "1876 Substrings of Size Three with Distinct Characters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1876 Substrings Of Size Three With Distinct Characters - Solution Explained/problem-solving.webp
-    alt: 1876 Substrings Of Size Three With Distinct Characters
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1876 Substrings of Size Three with Distinct Characters - Solution Explained/problem-solving.webp
+    alt: 1876 Substrings of Size Three with Distinct Characters
     hiddenInList: true
     hiddenInSingle: false
 ---

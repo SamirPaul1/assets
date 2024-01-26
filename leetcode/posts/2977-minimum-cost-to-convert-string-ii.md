@@ -1,13 +1,13 @@
 ---
-title: 2977 Minimum Cost To Convert String Ii
-summary: 2977 Minimum Cost To Convert String Ii LeetCode Solution Explained
+title: 2977 Minimum Cost to Convert String II
+summary: 2977 Minimum Cost to Convert String II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2977 Minimum Cost To Convert String Ii LeetCode Solution Explained in all languages", "2977 Minimum Cost To Convert String Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2977 Minimum Cost to Convert String II LeetCode Solution Explained in all languages", "2977 Minimum Cost to Convert String II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2977 Minimum Cost To Convert String Ii - Solution Explained/problem-solving.webp
-    alt: 2977 Minimum Cost To Convert String Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2977 Minimum Cost to Convert String II - Solution Explained/problem-solving.webp
+    alt: 2977 Minimum Cost to Convert String II
     hiddenInList: true
     hiddenInSingle: false
 ---

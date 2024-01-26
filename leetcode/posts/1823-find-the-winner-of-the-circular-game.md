@@ -1,13 +1,13 @@
 ---
-title: 1823 Find The Winner Of The Circular Game
-summary: 1823 Find The Winner Of The Circular Game LeetCode Solution Explained
+title: 1823 Find the Winner of the Circular Game
+summary: 1823 Find the Winner of the Circular Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1823 Find The Winner Of The Circular Game LeetCode Solution Explained in all languages", "1823 Find The Winner Of The Circular Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1823 Find the Winner of the Circular Game LeetCode Solution Explained in all languages", "1823 Find the Winner of the Circular Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1823 Find The Winner Of The Circular Game - Solution Explained/problem-solving.webp
-    alt: 1823 Find The Winner Of The Circular Game
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1823 Find the Winner of the Circular Game - Solution Explained/problem-solving.webp
+    alt: 1823 Find the Winner of the Circular Game
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2470 Number Of Subarrays With Lcm Equal To K
-summary: 2470 Number Of Subarrays With Lcm Equal To K LeetCode Solution Explained
+title: 2470 Number of Subarrays With LCM Equal to K
+summary: 2470 Number of Subarrays With LCM Equal to K LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2470 Number Of Subarrays With Lcm Equal To K LeetCode Solution Explained in all languages", "2470 Number Of Subarrays With Lcm Equal To K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2470 Number of Subarrays With LCM Equal to K LeetCode Solution Explained in all languages", "2470 Number of Subarrays With LCM Equal to K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2470 Number Of Subarrays With Lcm Equal To K - Solution Explained/problem-solving.webp
-    alt: 2470 Number Of Subarrays With Lcm Equal To K
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2470 Number of Subarrays With LCM Equal to K - Solution Explained/problem-solving.webp
+    alt: 2470 Number of Subarrays With LCM Equal to K
     hiddenInList: true
     hiddenInSingle: false
 ---

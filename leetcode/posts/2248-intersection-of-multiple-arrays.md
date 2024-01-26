@@ -1,13 +1,13 @@
 ---
-title: 2248 Intersection Of Multiple Arrays
-summary: 2248 Intersection Of Multiple Arrays LeetCode Solution Explained
+title: 2248 Intersection of Multiple Arrays
+summary: 2248 Intersection of Multiple Arrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2248 Intersection Of Multiple Arrays LeetCode Solution Explained in all languages", "2248 Intersection Of Multiple Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2248 Intersection of Multiple Arrays LeetCode Solution Explained in all languages", "2248 Intersection of Multiple Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2248 Intersection Of Multiple Arrays - Solution Explained/problem-solving.webp
-    alt: 2248 Intersection Of Multiple Arrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2248 Intersection of Multiple Arrays - Solution Explained/problem-solving.webp
+    alt: 2248 Intersection of Multiple Arrays
     hiddenInList: true
     hiddenInSingle: false
 ---

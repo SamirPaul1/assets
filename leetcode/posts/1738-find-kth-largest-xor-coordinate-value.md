@@ -1,13 +1,13 @@
 ---
-title: 1738 Find Kth Largest Xor Coordinate Value
-summary: 1738 Find Kth Largest Xor Coordinate Value LeetCode Solution Explained
+title: 1738 Find Kth Largest XOR Coordinate Value
+summary: 1738 Find Kth Largest XOR Coordinate Value LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1738 Find Kth Largest Xor Coordinate Value LeetCode Solution Explained in all languages", "1738 Find Kth Largest Xor Coordinate Value", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1738 Find Kth Largest XOR Coordinate Value LeetCode Solution Explained in all languages", "1738 Find Kth Largest XOR Coordinate Value", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1738 Find Kth Largest Xor Coordinate Value - Solution Explained/problem-solving.webp
-    alt: 1738 Find Kth Largest Xor Coordinate Value
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1738 Find Kth Largest XOR Coordinate Value - Solution Explained/problem-solving.webp
+    alt: 1738 Find Kth Largest XOR Coordinate Value
     hiddenInList: true
     hiddenInSingle: false
 ---

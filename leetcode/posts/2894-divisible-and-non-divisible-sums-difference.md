@@ -1,13 +1,13 @@
 ---
-title: 2894 Divisible And Non Divisible Sums Difference
-summary: 2894 Divisible And Non Divisible Sums Difference LeetCode Solution Explained
+title: 2894 Divisible and Non divisible Sums Difference
+summary: 2894 Divisible and Non divisible Sums Difference LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2894 Divisible And Non Divisible Sums Difference LeetCode Solution Explained in all languages", "2894 Divisible And Non Divisible Sums Difference", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2894 Divisible and Non divisible Sums Difference LeetCode Solution Explained in all languages", "2894 Divisible and Non divisible Sums Difference", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2894 Divisible And Non Divisible Sums Difference - Solution Explained/problem-solving.webp
-    alt: 2894 Divisible And Non Divisible Sums Difference
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2894 Divisible and Non divisible Sums Difference - Solution Explained/problem-solving.webp
+    alt: 2894 Divisible and Non divisible Sums Difference
     hiddenInList: true
     hiddenInSingle: false
 ---

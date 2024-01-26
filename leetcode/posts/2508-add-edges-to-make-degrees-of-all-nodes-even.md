@@ -1,13 +1,13 @@
 ---
-title: 2508 Add Edges To Make Degrees Of All Nodes Even
-summary: 2508 Add Edges To Make Degrees Of All Nodes Even LeetCode Solution Explained
+title: 2508 Add Edges to Make Degrees of All Nodes Even
+summary: 2508 Add Edges to Make Degrees of All Nodes Even LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2508 Add Edges To Make Degrees Of All Nodes Even LeetCode Solution Explained in all languages", "2508 Add Edges To Make Degrees Of All Nodes Even", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2508 Add Edges to Make Degrees of All Nodes Even LeetCode Solution Explained in all languages", "2508 Add Edges to Make Degrees of All Nodes Even", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2508 Add Edges To Make Degrees Of All Nodes Even - Solution Explained/problem-solving.webp
-    alt: 2508 Add Edges To Make Degrees Of All Nodes Even
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2508 Add Edges to Make Degrees of All Nodes Even - Solution Explained/problem-solving.webp
+    alt: 2508 Add Edges to Make Degrees of All Nodes Even
     hiddenInList: true
     hiddenInSingle: false
 ---

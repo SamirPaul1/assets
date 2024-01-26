@@ -1,13 +1,13 @@
 ---
-title: 2003 Smallest Missing Genetic Value In Each Subtree
-summary: 2003 Smallest Missing Genetic Value In Each Subtree LeetCode Solution Explained
+title: 2003 Smallest Missing Genetic Value in Each Subtree
+summary: 2003 Smallest Missing Genetic Value in Each Subtree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2003 Smallest Missing Genetic Value In Each Subtree LeetCode Solution Explained in all languages", "2003 Smallest Missing Genetic Value In Each Subtree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2003 Smallest Missing Genetic Value in Each Subtree LeetCode Solution Explained in all languages", "2003 Smallest Missing Genetic Value in Each Subtree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2003 Smallest Missing Genetic Value In Each Subtree - Solution Explained/problem-solving.webp
-    alt: 2003 Smallest Missing Genetic Value In Each Subtree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2003 Smallest Missing Genetic Value in Each Subtree - Solution Explained/problem-solving.webp
+    alt: 2003 Smallest Missing Genetic Value in Each Subtree
     hiddenInList: true
     hiddenInSingle: false
 ---

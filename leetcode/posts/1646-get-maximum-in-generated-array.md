@@ -1,13 +1,13 @@
 ---
-title: 1646 Get Maximum In Generated Array
-summary: 1646 Get Maximum In Generated Array LeetCode Solution Explained
+title: 1646 Get Maximum in Generated Array
+summary: 1646 Get Maximum in Generated Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1646 Get Maximum In Generated Array LeetCode Solution Explained in all languages", "1646 Get Maximum In Generated Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1646 Get Maximum in Generated Array LeetCode Solution Explained in all languages", "1646 Get Maximum in Generated Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1646 Get Maximum In Generated Array - Solution Explained/problem-solving.webp
-    alt: 1646 Get Maximum In Generated Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1646 Get Maximum in Generated Array - Solution Explained/problem-solving.webp
+    alt: 1646 Get Maximum in Generated Array
     hiddenInList: true
     hiddenInSingle: false
 ---

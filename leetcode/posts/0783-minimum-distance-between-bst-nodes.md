@@ -1,13 +1,13 @@
 ---
-title: 0783 Minimum Distance Between Bst Nodes
-summary: 0783 Minimum Distance Between Bst Nodes LeetCode Solution Explained
+title: 0783 Minimum Distance Between BST Nodes
+summary: 0783 Minimum Distance Between BST Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0783 Minimum Distance Between Bst Nodes LeetCode Solution Explained in all languages", "0783 Minimum Distance Between Bst Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0783 Minimum Distance Between BST Nodes LeetCode Solution Explained in all languages", "0783 Minimum Distance Between BST Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0783 Minimum Distance Between Bst Nodes - Solution Explained/problem-solving.webp
-    alt: 0783 Minimum Distance Between Bst Nodes
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0783 Minimum Distance Between BST Nodes - Solution Explained/problem-solving.webp
+    alt: 0783 Minimum Distance Between BST Nodes
     hiddenInList: true
     hiddenInSingle: false
 ---

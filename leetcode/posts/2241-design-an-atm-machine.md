@@ -1,13 +1,13 @@
 ---
-title: 2241 Design An Atm Machine
-summary: 2241 Design An Atm Machine LeetCode Solution Explained
+title: 2241 Design an ATM Machine
+summary: 2241 Design an ATM Machine LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2241 Design An Atm Machine LeetCode Solution Explained in all languages", "2241 Design An Atm Machine", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2241 Design an ATM Machine LeetCode Solution Explained in all languages", "2241 Design an ATM Machine", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2241 Design An Atm Machine - Solution Explained/problem-solving.webp
-    alt: 2241 Design An Atm Machine
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2241 Design an ATM Machine - Solution Explained/problem-solving.webp
+    alt: 2241 Design an ATM Machine
     hiddenInList: true
     hiddenInSingle: false
 ---

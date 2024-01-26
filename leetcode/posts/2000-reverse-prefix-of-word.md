@@ -1,13 +1,13 @@
 ---
-title: 2000 Reverse Prefix Of Word
-summary: 2000 Reverse Prefix Of Word LeetCode Solution Explained
+title: 2000 Reverse Prefix of Word
+summary: 2000 Reverse Prefix of Word LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2000 Reverse Prefix Of Word LeetCode Solution Explained in all languages", "2000 Reverse Prefix Of Word", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2000 Reverse Prefix of Word LeetCode Solution Explained in all languages", "2000 Reverse Prefix of Word", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2000 Reverse Prefix Of Word - Solution Explained/problem-solving.webp
-    alt: 2000 Reverse Prefix Of Word
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2000 Reverse Prefix of Word - Solution Explained/problem-solving.webp
+    alt: 2000 Reverse Prefix of Word
     hiddenInList: true
     hiddenInSingle: false
 ---

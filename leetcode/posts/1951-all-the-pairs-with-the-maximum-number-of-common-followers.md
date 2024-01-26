@@ -1,13 +1,13 @@
 ---
-title: 1951 All The Pairs With The Maximum Number Of Common Followers
-summary: 1951 All The Pairs With The Maximum Number Of Common Followers LeetCode Solution Explained
+title: 1951 All the Pairs With the Maximum Number of Common Followers
+summary: 1951 All the Pairs With the Maximum Number of Common Followers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1951 All The Pairs With The Maximum Number Of Common Followers LeetCode Solution Explained in all languages", "1951 All The Pairs With The Maximum Number Of Common Followers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1951 All the Pairs With the Maximum Number of Common Followers LeetCode Solution Explained in all languages", "1951 All the Pairs With the Maximum Number of Common Followers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1951 All The Pairs With The Maximum Number Of Common Followers - Solution Explained/problem-solving.webp
-    alt: 1951 All The Pairs With The Maximum Number Of Common Followers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1951 All the Pairs With the Maximum Number of Common Followers - Solution Explained/problem-solving.webp
+    alt: 1951 All the Pairs With the Maximum Number of Common Followers
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2312 Selling Pieces Of Wood
-summary: 2312 Selling Pieces Of Wood LeetCode Solution Explained
+title: 2312 Selling Pieces of Wood
+summary: 2312 Selling Pieces of Wood LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2312 Selling Pieces Of Wood LeetCode Solution Explained in all languages", "2312 Selling Pieces Of Wood", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2312 Selling Pieces of Wood LeetCode Solution Explained in all languages", "2312 Selling Pieces of Wood", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2312 Selling Pieces Of Wood - Solution Explained/problem-solving.webp
-    alt: 2312 Selling Pieces Of Wood
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2312 Selling Pieces of Wood - Solution Explained/problem-solving.webp
+    alt: 2312 Selling Pieces of Wood
     hiddenInList: true
     hiddenInSingle: false
 ---

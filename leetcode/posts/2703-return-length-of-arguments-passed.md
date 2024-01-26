@@ -1,13 +1,13 @@
 ---
-title: 2703 Return Length Of Arguments Passed
-summary: 2703 Return Length Of Arguments Passed LeetCode Solution Explained
+title: 2703 Return Length of Arguments Passed
+summary: 2703 Return Length of Arguments Passed LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2703 Return Length Of Arguments Passed LeetCode Solution Explained in all languages", "2703 Return Length Of Arguments Passed", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2703 Return Length of Arguments Passed LeetCode Solution Explained in all languages", "2703 Return Length of Arguments Passed", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2703 Return Length Of Arguments Passed - Solution Explained/problem-solving.webp
-    alt: 2703 Return Length Of Arguments Passed
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2703 Return Length of Arguments Passed - Solution Explained/problem-solving.webp
+    alt: 2703 Return Length of Arguments Passed
     hiddenInList: true
     hiddenInSingle: false
 ---

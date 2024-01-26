@@ -1,13 +1,13 @@
 ---
-title: 1760 Minimum Limit Of Balls In A Bag
-summary: 1760 Minimum Limit Of Balls In A Bag LeetCode Solution Explained
+title: 1760 Minimum Limit of Balls in a Bag
+summary: 1760 Minimum Limit of Balls in a Bag LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1760 Minimum Limit Of Balls In A Bag LeetCode Solution Explained in all languages", "1760 Minimum Limit Of Balls In A Bag", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1760 Minimum Limit of Balls in a Bag LeetCode Solution Explained in all languages", "1760 Minimum Limit of Balls in a Bag", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1760 Minimum Limit Of Balls In A Bag - Solution Explained/problem-solving.webp
-    alt: 1760 Minimum Limit Of Balls In A Bag
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1760 Minimum Limit of Balls in a Bag - Solution Explained/problem-solving.webp
+    alt: 1760 Minimum Limit of Balls in a Bag
     hiddenInList: true
     hiddenInSingle: false
 ---

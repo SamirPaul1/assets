@@ -1,13 +1,13 @@
 ---
-title: 2711 Difference Of Number Of Distinct Values On Diagonals
-summary: 2711 Difference Of Number Of Distinct Values On Diagonals LeetCode Solution Explained
+title: 2711 Difference of Number of Distinct Values on Diagonals
+summary: 2711 Difference of Number of Distinct Values on Diagonals LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2711 Difference Of Number Of Distinct Values On Diagonals LeetCode Solution Explained in all languages", "2711 Difference Of Number Of Distinct Values On Diagonals", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2711 Difference of Number of Distinct Values on Diagonals LeetCode Solution Explained in all languages", "2711 Difference of Number of Distinct Values on Diagonals", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2711 Difference Of Number Of Distinct Values On Diagonals - Solution Explained/problem-solving.webp
-    alt: 2711 Difference Of Number Of Distinct Values On Diagonals
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2711 Difference of Number of Distinct Values on Diagonals - Solution Explained/problem-solving.webp
+    alt: 2711 Difference of Number of Distinct Values on Diagonals
     hiddenInList: true
     hiddenInSingle: false
 ---

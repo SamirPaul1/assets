@@ -1,13 +1,13 @@
 ---
-title: 1398 Customers Who Bought Products A And B But Not C
-summary: 1398 Customers Who Bought Products A And B But Not C LeetCode Solution Explained
+title: 1398 Customers Who Bought Products A and B but Not C
+summary: 1398 Customers Who Bought Products A and B but Not C LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1398 Customers Who Bought Products A And B But Not C LeetCode Solution Explained in all languages", "1398 Customers Who Bought Products A And B But Not C", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1398 Customers Who Bought Products A and B but Not C LeetCode Solution Explained in all languages", "1398 Customers Who Bought Products A and B but Not C", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1398 Customers Who Bought Products A And B But Not C - Solution Explained/problem-solving.webp
-    alt: 1398 Customers Who Bought Products A And B But Not C
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1398 Customers Who Bought Products A and B but Not C - Solution Explained/problem-solving.webp
+    alt: 1398 Customers Who Bought Products A and B but Not C
     hiddenInList: true
     hiddenInSingle: false
 ---

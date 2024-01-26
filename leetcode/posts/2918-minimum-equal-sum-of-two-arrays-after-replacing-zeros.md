@@ -1,13 +1,13 @@
 ---
-title: 2918 Minimum Equal Sum Of Two Arrays After Replacing Zeros
-summary: 2918 Minimum Equal Sum Of Two Arrays After Replacing Zeros LeetCode Solution Explained
+title: 2918 Minimum Equal Sum of Two Arrays After Replacing Zeros
+summary: 2918 Minimum Equal Sum of Two Arrays After Replacing Zeros LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2918 Minimum Equal Sum Of Two Arrays After Replacing Zeros LeetCode Solution Explained in all languages", "2918 Minimum Equal Sum Of Two Arrays After Replacing Zeros", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2918 Minimum Equal Sum of Two Arrays After Replacing Zeros LeetCode Solution Explained in all languages", "2918 Minimum Equal Sum of Two Arrays After Replacing Zeros", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2918 Minimum Equal Sum Of Two Arrays After Replacing Zeros - Solution Explained/problem-solving.webp
-    alt: 2918 Minimum Equal Sum Of Two Arrays After Replacing Zeros
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2918 Minimum Equal Sum of Two Arrays After Replacing Zeros - Solution Explained/problem-solving.webp
+    alt: 2918 Minimum Equal Sum of Two Arrays After Replacing Zeros
     hiddenInList: true
     hiddenInSingle: false
 ---

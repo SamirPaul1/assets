@@ -1,13 +1,13 @@
 ---
-title: 1731 The Number Of Employees Which Report To Each Employee
-summary: 1731 The Number Of Employees Which Report To Each Employee LeetCode Solution Explained
+title: 1731 The Number of Employees Which Report to Each Employee
+summary: 1731 The Number of Employees Which Report to Each Employee LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1731 The Number Of Employees Which Report To Each Employee LeetCode Solution Explained in all languages", "1731 The Number Of Employees Which Report To Each Employee", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1731 The Number of Employees Which Report to Each Employee LeetCode Solution Explained in all languages", "1731 The Number of Employees Which Report to Each Employee", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1731 The Number Of Employees Which Report To Each Employee - Solution Explained/problem-solving.webp
-    alt: 1731 The Number Of Employees Which Report To Each Employee
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1731 The Number of Employees Which Report to Each Employee - Solution Explained/problem-solving.webp
+    alt: 1731 The Number of Employees Which Report to Each Employee
     hiddenInList: true
     hiddenInSingle: false
 ---

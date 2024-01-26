@@ -1,13 +1,13 @@
 ---
-title: 0710 Random Pick With Blacklist
-summary: 0710 Random Pick With Blacklist LeetCode Solution Explained
+title: 0710 Random Pick with Blacklist
+summary: 0710 Random Pick with Blacklist LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0710 Random Pick With Blacklist LeetCode Solution Explained in all languages", "0710 Random Pick With Blacklist", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0710 Random Pick with Blacklist LeetCode Solution Explained in all languages", "0710 Random Pick with Blacklist", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0710 Random Pick With Blacklist - Solution Explained/problem-solving.webp
-    alt: 0710 Random Pick With Blacklist
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0710 Random Pick with Blacklist - Solution Explained/problem-solving.webp
+    alt: 0710 Random Pick with Blacklist
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1777 Product'S Price For Each Store
-summary: 1777 Product'S Price For Each Store LeetCode Solution Explained
+title: 1777 Product's Price for Each Store
+summary: 1777 Product's Price for Each Store LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1777 Product'S Price For Each Store LeetCode Solution Explained in all languages", "1777 Product'S Price For Each Store", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1777 Product's Price for Each Store LeetCode Solution Explained in all languages", "1777 Product's Price for Each Store", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1777 Product'S Price For Each Store - Solution Explained/problem-solving.webp
-    alt: 1777 Product'S Price For Each Store
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1777 Product's Price for Each Store - Solution Explained/problem-solving.webp
+    alt: 1777 Product's Price for Each Store
     hiddenInList: true
     hiddenInSingle: false
 ---

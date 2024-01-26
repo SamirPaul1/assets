@@ -1,13 +1,13 @@
 ---
-title: 0933 Number Of Recent Calls
-summary: 0933 Number Of Recent Calls LeetCode Solution Explained
+title: 0933 Number of Recent Calls
+summary: 0933 Number of Recent Calls LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0933 Number Of Recent Calls LeetCode Solution Explained in all languages", "0933 Number Of Recent Calls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0933 Number of Recent Calls LeetCode Solution Explained in all languages", "0933 Number of Recent Calls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0933 Number Of Recent Calls - Solution Explained/problem-solving.webp
-    alt: 0933 Number Of Recent Calls
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0933 Number of Recent Calls - Solution Explained/problem-solving.webp
+    alt: 0933 Number of Recent Calls
     hiddenInList: true
     hiddenInSingle: false
 ---

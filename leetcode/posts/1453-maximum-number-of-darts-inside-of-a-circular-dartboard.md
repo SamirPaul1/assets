@@ -1,13 +1,13 @@
 ---
-title: 1453 Maximum Number Of Darts Inside Of A Circular Dartboard
-summary: 1453 Maximum Number Of Darts Inside Of A Circular Dartboard LeetCode Solution Explained
+title: 1453 Maximum Number of Darts Inside of a Circular Dartboard
+summary: 1453 Maximum Number of Darts Inside of a Circular Dartboard LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1453 Maximum Number Of Darts Inside Of A Circular Dartboard LeetCode Solution Explained in all languages", "1453 Maximum Number Of Darts Inside Of A Circular Dartboard", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1453 Maximum Number of Darts Inside of a Circular Dartboard LeetCode Solution Explained in all languages", "1453 Maximum Number of Darts Inside of a Circular Dartboard", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1453 Maximum Number Of Darts Inside Of A Circular Dartboard - Solution Explained/problem-solving.webp
-    alt: 1453 Maximum Number Of Darts Inside Of A Circular Dartboard
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1453 Maximum Number of Darts Inside of a Circular Dartboard - Solution Explained/problem-solving.webp
+    alt: 1453 Maximum Number of Darts Inside of a Circular Dartboard
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1612 Check If Two Expression Trees Are Equivalent
-summary: 1612 Check If Two Expression Trees Are Equivalent LeetCode Solution Explained
+title: 1612 Check If Two Expression Trees are Equivalent
+summary: 1612 Check If Two Expression Trees are Equivalent LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1612 Check If Two Expression Trees Are Equivalent LeetCode Solution Explained in all languages", "1612 Check If Two Expression Trees Are Equivalent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1612 Check If Two Expression Trees are Equivalent LeetCode Solution Explained in all languages", "1612 Check If Two Expression Trees are Equivalent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1612 Check If Two Expression Trees Are Equivalent - Solution Explained/problem-solving.webp
-    alt: 1612 Check If Two Expression Trees Are Equivalent
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1612 Check If Two Expression Trees are Equivalent - Solution Explained/problem-solving.webp
+    alt: 1612 Check If Two Expression Trees are Equivalent
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2340 Minimum Adjacent Swaps To Make A Valid Array
-summary: 2340 Minimum Adjacent Swaps To Make A Valid Array LeetCode Solution Explained
+title: 2340 Minimum Adjacent Swaps to Make a Valid Array
+summary: 2340 Minimum Adjacent Swaps to Make a Valid Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2340 Minimum Adjacent Swaps To Make A Valid Array LeetCode Solution Explained in all languages", "2340 Minimum Adjacent Swaps To Make A Valid Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2340 Minimum Adjacent Swaps to Make a Valid Array LeetCode Solution Explained in all languages", "2340 Minimum Adjacent Swaps to Make a Valid Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2340 Minimum Adjacent Swaps To Make A Valid Array - Solution Explained/problem-solving.webp
-    alt: 2340 Minimum Adjacent Swaps To Make A Valid Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2340 Minimum Adjacent Swaps to Make a Valid Array - Solution Explained/problem-solving.webp
+    alt: 2340 Minimum Adjacent Swaps to Make a Valid Array
     hiddenInList: true
     hiddenInSingle: false
 ---

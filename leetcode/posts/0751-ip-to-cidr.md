@@ -1,13 +1,13 @@
 ---
-title: 0751 Ip To Cidr
-summary: 0751 Ip To Cidr LeetCode Solution Explained
+title: 0751 IP to CIDR
+summary: 0751 IP to CIDR LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0751 Ip To Cidr LeetCode Solution Explained in all languages", "0751 Ip To Cidr", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0751 IP to CIDR LeetCode Solution Explained in all languages", "0751 IP to CIDR", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0751 Ip To Cidr - Solution Explained/problem-solving.webp
-    alt: 0751 Ip To Cidr
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0751 IP to CIDR - Solution Explained/problem-solving.webp
+    alt: 0751 IP to CIDR
     hiddenInList: true
     hiddenInSingle: false
 ---

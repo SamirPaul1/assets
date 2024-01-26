@@ -1,13 +1,13 @@
 ---
-title: 1311 Get Watched Videos By Your Friends
-summary: 1311 Get Watched Videos By Your Friends LeetCode Solution Explained
+title: 1311 Get Watched Videos by Your Friends
+summary: 1311 Get Watched Videos by Your Friends LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1311 Get Watched Videos By Your Friends LeetCode Solution Explained in all languages", "1311 Get Watched Videos By Your Friends", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1311 Get Watched Videos by Your Friends LeetCode Solution Explained in all languages", "1311 Get Watched Videos by Your Friends", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1311 Get Watched Videos By Your Friends - Solution Explained/problem-solving.webp
-    alt: 1311 Get Watched Videos By Your Friends
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1311 Get Watched Videos by Your Friends - Solution Explained/problem-solving.webp
+    alt: 1311 Get Watched Videos by Your Friends
     hiddenInList: true
     hiddenInSingle: false
 ---

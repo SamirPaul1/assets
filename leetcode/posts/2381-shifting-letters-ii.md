@@ -1,13 +1,13 @@
 ---
-title: 2381 Shifting Letters Ii
-summary: 2381 Shifting Letters Ii LeetCode Solution Explained
+title: 2381 Shifting Letters II
+summary: 2381 Shifting Letters II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2381 Shifting Letters Ii LeetCode Solution Explained in all languages", "2381 Shifting Letters Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2381 Shifting Letters II LeetCode Solution Explained in all languages", "2381 Shifting Letters II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2381 Shifting Letters Ii - Solution Explained/problem-solving.webp
-    alt: 2381 Shifting Letters Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2381 Shifting Letters II - Solution Explained/problem-solving.webp
+    alt: 2381 Shifting Letters II
     hiddenInList: true
     hiddenInSingle: false
 ---

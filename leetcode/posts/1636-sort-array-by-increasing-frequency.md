@@ -1,13 +1,13 @@
 ---
-title: 1636 Sort Array By Increasing Frequency
-summary: 1636 Sort Array By Increasing Frequency LeetCode Solution Explained
+title: 1636 Sort Array by Increasing Frequency
+summary: 1636 Sort Array by Increasing Frequency LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1636 Sort Array By Increasing Frequency LeetCode Solution Explained in all languages", "1636 Sort Array By Increasing Frequency", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1636 Sort Array by Increasing Frequency LeetCode Solution Explained in all languages", "1636 Sort Array by Increasing Frequency", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1636 Sort Array By Increasing Frequency - Solution Explained/problem-solving.webp
-    alt: 1636 Sort Array By Increasing Frequency
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1636 Sort Array by Increasing Frequency - Solution Explained/problem-solving.webp
+    alt: 1636 Sort Array by Increasing Frequency
     hiddenInList: true
     hiddenInSingle: false
 ---

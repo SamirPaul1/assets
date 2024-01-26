@@ -1,13 +1,13 @@
 ---
-title: 2529 Maximum Count Of Positive Integer And Negative Integer
-summary: 2529 Maximum Count Of Positive Integer And Negative Integer LeetCode Solution Explained
+title: 2529 Maximum Count of Positive Integer and Negative Integer
+summary: 2529 Maximum Count of Positive Integer and Negative Integer LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2529 Maximum Count Of Positive Integer And Negative Integer LeetCode Solution Explained in all languages", "2529 Maximum Count Of Positive Integer And Negative Integer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2529 Maximum Count of Positive Integer and Negative Integer LeetCode Solution Explained in all languages", "2529 Maximum Count of Positive Integer and Negative Integer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2529 Maximum Count Of Positive Integer And Negative Integer - Solution Explained/problem-solving.webp
-    alt: 2529 Maximum Count Of Positive Integer And Negative Integer
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2529 Maximum Count of Positive Integer and Negative Integer - Solution Explained/problem-solving.webp
+    alt: 2529 Maximum Count of Positive Integer and Negative Integer
     hiddenInList: true
     hiddenInSingle: false
 ---

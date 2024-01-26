@@ -1,13 +1,13 @@
 ---
-title: 2189 Number Of Ways To Build House Of Cards
-summary: 2189 Number Of Ways To Build House Of Cards LeetCode Solution Explained
+title: 2189 Number of Ways to Build House of Cards
+summary: 2189 Number of Ways to Build House of Cards LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2189 Number Of Ways To Build House Of Cards LeetCode Solution Explained in all languages", "2189 Number Of Ways To Build House Of Cards", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2189 Number of Ways to Build House of Cards LeetCode Solution Explained in all languages", "2189 Number of Ways to Build House of Cards", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2189 Number Of Ways To Build House Of Cards - Solution Explained/problem-solving.webp
-    alt: 2189 Number Of Ways To Build House Of Cards
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2189 Number of Ways to Build House of Cards - Solution Explained/problem-solving.webp
+    alt: 2189 Number of Ways to Build House of Cards
     hiddenInList: true
     hiddenInSingle: false
 ---

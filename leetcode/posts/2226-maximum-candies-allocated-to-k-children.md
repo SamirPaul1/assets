@@ -1,13 +1,13 @@
 ---
-title: 2226 Maximum Candies Allocated To K Children
-summary: 2226 Maximum Candies Allocated To K Children LeetCode Solution Explained
+title: 2226 Maximum Candies Allocated to K Children
+summary: 2226 Maximum Candies Allocated to K Children LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2226 Maximum Candies Allocated To K Children LeetCode Solution Explained in all languages", "2226 Maximum Candies Allocated To K Children", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2226 Maximum Candies Allocated to K Children LeetCode Solution Explained in all languages", "2226 Maximum Candies Allocated to K Children", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2226 Maximum Candies Allocated To K Children - Solution Explained/problem-solving.webp
-    alt: 2226 Maximum Candies Allocated To K Children
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2226 Maximum Candies Allocated to K Children - Solution Explained/problem-solving.webp
+    alt: 2226 Maximum Candies Allocated to K Children
     hiddenInList: true
     hiddenInSingle: false
 ---

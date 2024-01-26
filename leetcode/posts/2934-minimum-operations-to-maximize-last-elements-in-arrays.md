@@ -1,13 +1,13 @@
 ---
-title: 2934 Minimum Operations To Maximize Last Elements In Arrays
-summary: 2934 Minimum Operations To Maximize Last Elements In Arrays LeetCode Solution Explained
+title: 2934 Minimum Operations to Maximize Last Elements in Arrays
+summary: 2934 Minimum Operations to Maximize Last Elements in Arrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2934 Minimum Operations To Maximize Last Elements In Arrays LeetCode Solution Explained in all languages", "2934 Minimum Operations To Maximize Last Elements In Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2934 Minimum Operations to Maximize Last Elements in Arrays LeetCode Solution Explained in all languages", "2934 Minimum Operations to Maximize Last Elements in Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2934 Minimum Operations To Maximize Last Elements In Arrays - Solution Explained/problem-solving.webp
-    alt: 2934 Minimum Operations To Maximize Last Elements In Arrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2934 Minimum Operations to Maximize Last Elements in Arrays - Solution Explained/problem-solving.webp
+    alt: 2934 Minimum Operations to Maximize Last Elements in Arrays
     hiddenInList: true
     hiddenInSingle: false
 ---

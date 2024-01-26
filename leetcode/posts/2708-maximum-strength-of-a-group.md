@@ -1,13 +1,13 @@
 ---
-title: 2708 Maximum Strength Of A Group
-summary: 2708 Maximum Strength Of A Group LeetCode Solution Explained
+title: 2708 Maximum Strength of a Group
+summary: 2708 Maximum Strength of a Group LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2708 Maximum Strength Of A Group LeetCode Solution Explained in all languages", "2708 Maximum Strength Of A Group", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2708 Maximum Strength of a Group LeetCode Solution Explained in all languages", "2708 Maximum Strength of a Group", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2708 Maximum Strength Of A Group - Solution Explained/problem-solving.webp
-    alt: 2708 Maximum Strength Of A Group
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2708 Maximum Strength of a Group - Solution Explained/problem-solving.webp
+    alt: 2708 Maximum Strength of a Group
     hiddenInList: true
     hiddenInSingle: false
 ---

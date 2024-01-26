@@ -1,13 +1,13 @@
 ---
-title: 2015 Average Height Of Buildings In Each Segment
-summary: 2015 Average Height Of Buildings In Each Segment LeetCode Solution Explained
+title: 2015 Average Height of Buildings in Each Segment
+summary: 2015 Average Height of Buildings in Each Segment LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2015 Average Height Of Buildings In Each Segment LeetCode Solution Explained in all languages", "2015 Average Height Of Buildings In Each Segment", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2015 Average Height of Buildings in Each Segment LeetCode Solution Explained in all languages", "2015 Average Height of Buildings in Each Segment", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2015 Average Height Of Buildings In Each Segment - Solution Explained/problem-solving.webp
-    alt: 2015 Average Height Of Buildings In Each Segment
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2015 Average Height of Buildings in Each Segment - Solution Explained/problem-solving.webp
+    alt: 2015 Average Height of Buildings in Each Segment
     hiddenInList: true
     hiddenInSingle: false
 ---

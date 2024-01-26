@@ -1,13 +1,13 @@
 ---
-title: 2526 Find Consecutive Integers From A Data Stream
-summary: 2526 Find Consecutive Integers From A Data Stream LeetCode Solution Explained
+title: 2526 Find Consecutive Integers from a Data Stream
+summary: 2526 Find Consecutive Integers from a Data Stream LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2526 Find Consecutive Integers From A Data Stream LeetCode Solution Explained in all languages", "2526 Find Consecutive Integers From A Data Stream", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2526 Find Consecutive Integers from a Data Stream LeetCode Solution Explained in all languages", "2526 Find Consecutive Integers from a Data Stream", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2526 Find Consecutive Integers From A Data Stream - Solution Explained/problem-solving.webp
-    alt: 2526 Find Consecutive Integers From A Data Stream
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2526 Find Consecutive Integers from a Data Stream - Solution Explained/problem-solving.webp
+    alt: 2526 Find Consecutive Integers from a Data Stream
     hiddenInList: true
     hiddenInSingle: false
 ---

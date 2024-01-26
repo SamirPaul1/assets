@@ -1,13 +1,13 @@
 ---
-title: 0630 Course Schedule Iii
-summary: 0630 Course Schedule Iii LeetCode Solution Explained
+title: 0630 Course Schedule III
+summary: 0630 Course Schedule III LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0630 Course Schedule Iii LeetCode Solution Explained in all languages", "0630 Course Schedule Iii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0630 Course Schedule III LeetCode Solution Explained in all languages", "0630 Course Schedule III", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0630 Course Schedule Iii - Solution Explained/problem-solving.webp
-    alt: 0630 Course Schedule Iii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0630 Course Schedule III - Solution Explained/problem-solving.webp
+    alt: 0630 Course Schedule III
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 3009 Maximum Number Of Intersections On The Chart
-summary: 3009 Maximum Number Of Intersections On The Chart LeetCode Solution Explained
+title: 3009 Maximum Number of Intersections on the Chart
+summary: 3009 Maximum Number of Intersections on the Chart LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["3009 Maximum Number Of Intersections On The Chart LeetCode Solution Explained in all languages", "3009 Maximum Number Of Intersections On The Chart", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["3009 Maximum Number of Intersections on the Chart LeetCode Solution Explained in all languages", "3009 Maximum Number of Intersections on the Chart", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3009 Maximum Number Of Intersections On The Chart - Solution Explained/problem-solving.webp
-    alt: 3009 Maximum Number Of Intersections On The Chart
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3009 Maximum Number of Intersections on the Chart - Solution Explained/problem-solving.webp
+    alt: 3009 Maximum Number of Intersections on the Chart
     hiddenInList: true
     hiddenInSingle: false
 ---

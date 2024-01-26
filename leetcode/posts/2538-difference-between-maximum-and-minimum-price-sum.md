@@ -1,13 +1,13 @@
 ---
-title: 2538 Difference Between Maximum And Minimum Price Sum
-summary: 2538 Difference Between Maximum And Minimum Price Sum LeetCode Solution Explained
+title: 2538 Difference Between Maximum and Minimum Price Sum
+summary: 2538 Difference Between Maximum and Minimum Price Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2538 Difference Between Maximum And Minimum Price Sum LeetCode Solution Explained in all languages", "2538 Difference Between Maximum And Minimum Price Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2538 Difference Between Maximum and Minimum Price Sum LeetCode Solution Explained in all languages", "2538 Difference Between Maximum and Minimum Price Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2538 Difference Between Maximum And Minimum Price Sum - Solution Explained/problem-solving.webp
-    alt: 2538 Difference Between Maximum And Minimum Price Sum
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2538 Difference Between Maximum and Minimum Price Sum - Solution Explained/problem-solving.webp
+    alt: 2538 Difference Between Maximum and Minimum Price Sum
     hiddenInList: true
     hiddenInSingle: false
 ---

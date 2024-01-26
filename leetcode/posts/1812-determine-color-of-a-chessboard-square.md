@@ -1,13 +1,13 @@
 ---
-title: 1812 Determine Color Of A Chessboard Square
-summary: 1812 Determine Color Of A Chessboard Square LeetCode Solution Explained
+title: 1812 Determine Color of a Chessboard Square
+summary: 1812 Determine Color of a Chessboard Square LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1812 Determine Color Of A Chessboard Square LeetCode Solution Explained in all languages", "1812 Determine Color Of A Chessboard Square", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1812 Determine Color of a Chessboard Square LeetCode Solution Explained in all languages", "1812 Determine Color of a Chessboard Square", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1812 Determine Color Of A Chessboard Square - Solution Explained/problem-solving.webp
-    alt: 1812 Determine Color Of A Chessboard Square
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1812 Determine Color of a Chessboard Square - Solution Explained/problem-solving.webp
+    alt: 1812 Determine Color of a Chessboard Square
     hiddenInList: true
     hiddenInSingle: false
 ---

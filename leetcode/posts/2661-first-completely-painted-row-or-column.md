@@ -1,13 +1,13 @@
 ---
-title: 2661 First Completely Painted Row Or Column
-summary: 2661 First Completely Painted Row Or Column LeetCode Solution Explained
+title: 2661 First Completely Painted Row or Column
+summary: 2661 First Completely Painted Row or Column LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2661 First Completely Painted Row Or Column LeetCode Solution Explained in all languages", "2661 First Completely Painted Row Or Column", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2661 First Completely Painted Row or Column LeetCode Solution Explained in all languages", "2661 First Completely Painted Row or Column", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2661 First Completely Painted Row Or Column - Solution Explained/problem-solving.webp
-    alt: 2661 First Completely Painted Row Or Column
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2661 First Completely Painted Row or Column - Solution Explained/problem-solving.webp
+    alt: 2661 First Completely Painted Row or Column
     hiddenInList: true
     hiddenInSingle: false
 ---

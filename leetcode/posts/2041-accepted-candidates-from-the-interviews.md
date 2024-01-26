@@ -1,13 +1,13 @@
 ---
-title: 2041 Accepted Candidates From The Interviews
-summary: 2041 Accepted Candidates From The Interviews LeetCode Solution Explained
+title: 2041 Accepted Candidates From the Interviews
+summary: 2041 Accepted Candidates From the Interviews LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2041 Accepted Candidates From The Interviews LeetCode Solution Explained in all languages", "2041 Accepted Candidates From The Interviews", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2041 Accepted Candidates From the Interviews LeetCode Solution Explained in all languages", "2041 Accepted Candidates From the Interviews", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2041 Accepted Candidates From The Interviews - Solution Explained/problem-solving.webp
-    alt: 2041 Accepted Candidates From The Interviews
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2041 Accepted Candidates From the Interviews - Solution Explained/problem-solving.webp
+    alt: 2041 Accepted Candidates From the Interviews
     hiddenInList: true
     hiddenInSingle: false
 ---

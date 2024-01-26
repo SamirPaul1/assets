@@ -1,13 +1,13 @@
 ---
-title: 2738 Count Occurrences In Text
-summary: 2738 Count Occurrences In Text LeetCode Solution Explained
+title: 2738 Count Occurrences in Text
+summary: 2738 Count Occurrences in Text LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2738 Count Occurrences In Text LeetCode Solution Explained in all languages", "2738 Count Occurrences In Text", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2738 Count Occurrences in Text LeetCode Solution Explained in all languages", "2738 Count Occurrences in Text", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2738 Count Occurrences In Text - Solution Explained/problem-solving.webp
-    alt: 2738 Count Occurrences In Text
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2738 Count Occurrences in Text - Solution Explained/problem-solving.webp
+    alt: 2738 Count Occurrences in Text
     hiddenInList: true
     hiddenInSingle: false
 ---

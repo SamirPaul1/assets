@@ -1,13 +1,13 @@
 ---
-title: 1618 Maximum Font To Fit A Sentence In A Screen
-summary: 1618 Maximum Font To Fit A Sentence In A Screen LeetCode Solution Explained
+title: 1618 Maximum Font to Fit a Sentence in a Screen
+summary: 1618 Maximum Font to Fit a Sentence in a Screen LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1618 Maximum Font To Fit A Sentence In A Screen LeetCode Solution Explained in all languages", "1618 Maximum Font To Fit A Sentence In A Screen", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1618 Maximum Font to Fit a Sentence in a Screen LeetCode Solution Explained in all languages", "1618 Maximum Font to Fit a Sentence in a Screen", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1618 Maximum Font To Fit A Sentence In A Screen - Solution Explained/problem-solving.webp
-    alt: 1618 Maximum Font To Fit A Sentence In A Screen
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1618 Maximum Font to Fit a Sentence in a Screen - Solution Explained/problem-solving.webp
+    alt: 1618 Maximum Font to Fit a Sentence in a Screen
     hiddenInList: true
     hiddenInSingle: false
 ---

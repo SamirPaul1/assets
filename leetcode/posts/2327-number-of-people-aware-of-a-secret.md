@@ -1,13 +1,13 @@
 ---
-title: 2327 Number Of People Aware Of A Secret
-summary: 2327 Number Of People Aware Of A Secret LeetCode Solution Explained
+title: 2327 Number of People Aware of a Secret
+summary: 2327 Number of People Aware of a Secret LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2327 Number Of People Aware Of A Secret LeetCode Solution Explained in all languages", "2327 Number Of People Aware Of A Secret", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2327 Number of People Aware of a Secret LeetCode Solution Explained in all languages", "2327 Number of People Aware of a Secret", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2327 Number Of People Aware Of A Secret - Solution Explained/problem-solving.webp
-    alt: 2327 Number Of People Aware Of A Secret
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2327 Number of People Aware of a Secret - Solution Explained/problem-solving.webp
+    alt: 2327 Number of People Aware of a Secret
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2426 Number Of Pairs Satisfying Inequality
-summary: 2426 Number Of Pairs Satisfying Inequality LeetCode Solution Explained
+title: 2426 Number of Pairs Satisfying Inequality
+summary: 2426 Number of Pairs Satisfying Inequality LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2426 Number Of Pairs Satisfying Inequality LeetCode Solution Explained in all languages", "2426 Number Of Pairs Satisfying Inequality", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2426 Number of Pairs Satisfying Inequality LeetCode Solution Explained in all languages", "2426 Number of Pairs Satisfying Inequality", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2426 Number Of Pairs Satisfying Inequality - Solution Explained/problem-solving.webp
-    alt: 2426 Number Of Pairs Satisfying Inequality
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2426 Number of Pairs Satisfying Inequality - Solution Explained/problem-solving.webp
+    alt: 2426 Number of Pairs Satisfying Inequality
     hiddenInList: true
     hiddenInSingle: false
 ---

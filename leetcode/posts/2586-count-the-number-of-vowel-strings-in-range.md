@@ -1,13 +1,13 @@
 ---
-title: 2586 Count The Number Of Vowel Strings In Range
-summary: 2586 Count The Number Of Vowel Strings In Range LeetCode Solution Explained
+title: 2586 Count the Number of Vowel Strings in Range
+summary: 2586 Count the Number of Vowel Strings in Range LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2586 Count The Number Of Vowel Strings In Range LeetCode Solution Explained in all languages", "2586 Count The Number Of Vowel Strings In Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2586 Count the Number of Vowel Strings in Range LeetCode Solution Explained in all languages", "2586 Count the Number of Vowel Strings in Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2586 Count The Number Of Vowel Strings In Range - Solution Explained/problem-solving.webp
-    alt: 2586 Count The Number Of Vowel Strings In Range
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2586 Count the Number of Vowel Strings in Range - Solution Explained/problem-solving.webp
+    alt: 2586 Count the Number of Vowel Strings in Range
     hiddenInList: true
     hiddenInSingle: false
 ---

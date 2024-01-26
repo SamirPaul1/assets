@@ -1,13 +1,13 @@
 ---
-title: 0680 Valid Palindrome Ii
-summary: 0680 Valid Palindrome Ii LeetCode Solution Explained
+title: 0680 Valid Palindrome II
+summary: 0680 Valid Palindrome II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0680 Valid Palindrome Ii LeetCode Solution Explained in all languages", "0680 Valid Palindrome Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0680 Valid Palindrome II LeetCode Solution Explained in all languages", "0680 Valid Palindrome II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0680 Valid Palindrome Ii - Solution Explained/problem-solving.webp
-    alt: 0680 Valid Palindrome Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0680 Valid Palindrome II - Solution Explained/problem-solving.webp
+    alt: 0680 Valid Palindrome II
     hiddenInList: true
     hiddenInSingle: false
 ---

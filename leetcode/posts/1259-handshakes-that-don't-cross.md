@@ -1,13 +1,13 @@
 ---
-title: 1259 Handshakes That Don'T Cross
-summary: 1259 Handshakes That Don'T Cross LeetCode Solution Explained
+title: 1259 Handshakes That Don't Cross
+summary: 1259 Handshakes That Don't Cross LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1259 Handshakes That Don'T Cross LeetCode Solution Explained in all languages", "1259 Handshakes That Don'T Cross", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1259 Handshakes That Don't Cross LeetCode Solution Explained in all languages", "1259 Handshakes That Don't Cross", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1259 Handshakes That Don'T Cross - Solution Explained/problem-solving.webp
-    alt: 1259 Handshakes That Don'T Cross
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1259 Handshakes That Don't Cross - Solution Explained/problem-solving.webp
+    alt: 1259 Handshakes That Don't Cross
     hiddenInList: true
     hiddenInSingle: false
 ---

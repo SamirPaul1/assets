@@ -1,13 +1,13 @@
 ---
-title: 2527 Find Xor Beauty Of Array
-summary: 2527 Find Xor Beauty Of Array LeetCode Solution Explained
+title: 2527 Find Xor Beauty of Array
+summary: 2527 Find Xor Beauty of Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2527 Find Xor Beauty Of Array LeetCode Solution Explained in all languages", "2527 Find Xor Beauty Of Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2527 Find Xor Beauty of Array LeetCode Solution Explained in all languages", "2527 Find Xor Beauty of Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2527 Find Xor Beauty Of Array - Solution Explained/problem-solving.webp
-    alt: 2527 Find Xor Beauty Of Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2527 Find Xor Beauty of Array - Solution Explained/problem-solving.webp
+    alt: 2527 Find Xor Beauty of Array
     hiddenInList: true
     hiddenInSingle: false
 ---

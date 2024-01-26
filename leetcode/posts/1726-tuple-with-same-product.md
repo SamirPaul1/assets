@@ -1,13 +1,13 @@
 ---
-title: 1726 Tuple With Same Product
-summary: 1726 Tuple With Same Product LeetCode Solution Explained
+title: 1726 Tuple with Same Product
+summary: 1726 Tuple with Same Product LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1726 Tuple With Same Product LeetCode Solution Explained in all languages", "1726 Tuple With Same Product", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1726 Tuple with Same Product LeetCode Solution Explained in all languages", "1726 Tuple with Same Product", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1726 Tuple With Same Product - Solution Explained/problem-solving.webp
-    alt: 1726 Tuple With Same Product
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1726 Tuple with Same Product - Solution Explained/problem-solving.webp
+    alt: 1726 Tuple with Same Product
     hiddenInList: true
     hiddenInSingle: false
 ---

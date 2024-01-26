@@ -1,13 +1,13 @@
 ---
-title: 1779 Find Nearest Point That Has The Same X Or Y Coordinate
-summary: 1779 Find Nearest Point That Has The Same X Or Y Coordinate LeetCode Solution Explained
+title: 1779 Find Nearest Point That Has the Same X or Y Coordinate
+summary: 1779 Find Nearest Point That Has the Same X or Y Coordinate LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1779 Find Nearest Point That Has The Same X Or Y Coordinate LeetCode Solution Explained in all languages", "1779 Find Nearest Point That Has The Same X Or Y Coordinate", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1779 Find Nearest Point That Has the Same X or Y Coordinate LeetCode Solution Explained in all languages", "1779 Find Nearest Point That Has the Same X or Y Coordinate", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1779 Find Nearest Point That Has The Same X Or Y Coordinate - Solution Explained/problem-solving.webp
-    alt: 1779 Find Nearest Point That Has The Same X Or Y Coordinate
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1779 Find Nearest Point That Has the Same X or Y Coordinate - Solution Explained/problem-solving.webp
+    alt: 1779 Find Nearest Point That Has the Same X or Y Coordinate
     hiddenInList: true
     hiddenInSingle: false
 ---

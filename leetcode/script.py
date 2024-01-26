@@ -10,7 +10,7 @@ def replace_dash_with_space(string):
 def remove_dots_with_hyphens(text):
   return text.translate(str.maketrans(string.punctuation, string.punctuation.replace(".", "-")))
 
-def remove_spaces(sentence):
+def remove_spaces_with_hyphens(sentence):
   pattern = r"\s+"
   new_sentence = re.sub(pattern, "-", sentence)
   return new_sentence
@@ -21,9 +21,9 @@ dst_dir = "./posts"
 
 for folder_name in os.listdir(src_dir):
   if os.path.isdir(f"{src_dir}/{folder_name}"):  
-    md_file_name = remove_dots_with_hyphens(remove_spaces(folder_name)).lower()
+    md_file_name = remove_dots_with_hyphens(remove_spaces_with_hyphens(folder_name)).lower()
     md_file = open(f"{dst_dir}/{md_file_name}.md", "w")
-    title_name = replace_dash_with_space(md_file_name).title()
+    title_name = replace_dash_with_space(remove_dots_with_hyphens(remove_spaces_with_hyphens(folder_name)))
     md_file.write("---\n")
     md_file.write(f"title: {title_name}\n")
     md_file.write(f"summary: {title_name} LeetCode Solution Explained\n")

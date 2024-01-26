@@ -1,13 +1,13 @@
 ---
-title: 0429 N Ary Tree Level Order Traversal
-summary: 0429 N Ary Tree Level Order Traversal LeetCode Solution Explained
+title: 0429 N ary Tree Level Order Traversal
+summary: 0429 N ary Tree Level Order Traversal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0429 N Ary Tree Level Order Traversal LeetCode Solution Explained in all languages", "0429 N Ary Tree Level Order Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0429 N ary Tree Level Order Traversal LeetCode Solution Explained in all languages", "0429 N ary Tree Level Order Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0429 N Ary Tree Level Order Traversal - Solution Explained/problem-solving.webp
-    alt: 0429 N Ary Tree Level Order Traversal
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0429 N ary Tree Level Order Traversal - Solution Explained/problem-solving.webp
+    alt: 0429 N ary Tree Level Order Traversal
     hiddenInList: true
     hiddenInSingle: false
 ---

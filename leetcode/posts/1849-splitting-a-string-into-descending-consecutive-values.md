@@ -1,13 +1,13 @@
 ---
-title: 1849 Splitting A String Into Descending Consecutive Values
-summary: 1849 Splitting A String Into Descending Consecutive Values LeetCode Solution Explained
+title: 1849 Splitting a String Into Descending Consecutive Values
+summary: 1849 Splitting a String Into Descending Consecutive Values LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1849 Splitting A String Into Descending Consecutive Values LeetCode Solution Explained in all languages", "1849 Splitting A String Into Descending Consecutive Values", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1849 Splitting a String Into Descending Consecutive Values LeetCode Solution Explained in all languages", "1849 Splitting a String Into Descending Consecutive Values", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1849 Splitting A String Into Descending Consecutive Values - Solution Explained/problem-solving.webp
-    alt: 1849 Splitting A String Into Descending Consecutive Values
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1849 Splitting a String Into Descending Consecutive Values - Solution Explained/problem-solving.webp
+    alt: 1849 Splitting a String Into Descending Consecutive Values
     hiddenInList: true
     hiddenInSingle: false
 ---

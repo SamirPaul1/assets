@@ -1,13 +1,13 @@
 ---
-title: 0333 Largest Bst Subtree
-summary: 0333 Largest Bst Subtree LeetCode Solution Explained
+title: 0333 Largest BST Subtree
+summary: 0333 Largest BST Subtree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0333 Largest Bst Subtree LeetCode Solution Explained in all languages", "0333 Largest Bst Subtree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0333 Largest BST Subtree LeetCode Solution Explained in all languages", "0333 Largest BST Subtree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0333 Largest Bst Subtree - Solution Explained/problem-solving.webp
-    alt: 0333 Largest Bst Subtree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0333 Largest BST Subtree - Solution Explained/problem-solving.webp
+    alt: 0333 Largest BST Subtree
     hiddenInList: true
     hiddenInSingle: false
 ---

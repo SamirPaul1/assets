@@ -1,13 +1,13 @@
 ---
-title: 0900 Rle Iterator
-summary: 0900 Rle Iterator LeetCode Solution Explained
+title: 0900 RLE Iterator
+summary: 0900 RLE Iterator LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0900 Rle Iterator LeetCode Solution Explained in all languages", "0900 Rle Iterator", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0900 RLE Iterator LeetCode Solution Explained in all languages", "0900 RLE Iterator", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0900 Rle Iterator - Solution Explained/problem-solving.webp
-    alt: 0900 Rle Iterator
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0900 RLE Iterator - Solution Explained/problem-solving.webp
+    alt: 0900 RLE Iterator
     hiddenInList: true
     hiddenInSingle: false
 ---

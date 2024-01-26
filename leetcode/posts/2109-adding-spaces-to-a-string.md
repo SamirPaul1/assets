@@ -1,13 +1,13 @@
 ---
-title: 2109 Adding Spaces To A String
-summary: 2109 Adding Spaces To A String LeetCode Solution Explained
+title: 2109 Adding Spaces to a String
+summary: 2109 Adding Spaces to a String LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2109 Adding Spaces To A String LeetCode Solution Explained in all languages", "2109 Adding Spaces To A String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2109 Adding Spaces to a String LeetCode Solution Explained in all languages", "2109 Adding Spaces to a String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2109 Adding Spaces To A String - Solution Explained/problem-solving.webp
-    alt: 2109 Adding Spaces To A String
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2109 Adding Spaces to a String - Solution Explained/problem-solving.webp
+    alt: 2109 Adding Spaces to a String
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2969 Minimum Number Of Coins For Fruits Ii
-summary: 2969 Minimum Number Of Coins For Fruits Ii LeetCode Solution Explained
+title: 2969 Minimum Number of Coins for Fruits II
+summary: 2969 Minimum Number of Coins for Fruits II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2969 Minimum Number Of Coins For Fruits Ii LeetCode Solution Explained in all languages", "2969 Minimum Number Of Coins For Fruits Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2969 Minimum Number of Coins for Fruits II LeetCode Solution Explained in all languages", "2969 Minimum Number of Coins for Fruits II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2969 Minimum Number Of Coins For Fruits Ii - Solution Explained/problem-solving.webp
-    alt: 2969 Minimum Number Of Coins For Fruits Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2969 Minimum Number of Coins for Fruits II - Solution Explained/problem-solving.webp
+    alt: 2969 Minimum Number of Coins for Fruits II
     hiddenInList: true
     hiddenInSingle: false
 ---

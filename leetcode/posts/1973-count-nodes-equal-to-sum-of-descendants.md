@@ -1,13 +1,13 @@
 ---
-title: 1973 Count Nodes Equal To Sum Of Descendants
-summary: 1973 Count Nodes Equal To Sum Of Descendants LeetCode Solution Explained
+title: 1973 Count Nodes Equal to Sum of Descendants
+summary: 1973 Count Nodes Equal to Sum of Descendants LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1973 Count Nodes Equal To Sum Of Descendants LeetCode Solution Explained in all languages", "1973 Count Nodes Equal To Sum Of Descendants", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1973 Count Nodes Equal to Sum of Descendants LeetCode Solution Explained in all languages", "1973 Count Nodes Equal to Sum of Descendants", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1973 Count Nodes Equal To Sum Of Descendants - Solution Explained/problem-solving.webp
-    alt: 1973 Count Nodes Equal To Sum Of Descendants
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1973 Count Nodes Equal to Sum of Descendants - Solution Explained/problem-solving.webp
+    alt: 1973 Count Nodes Equal to Sum of Descendants
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1339 Maximum Product Of Splitted Binary Tree
-summary: 1339 Maximum Product Of Splitted Binary Tree LeetCode Solution Explained
+title: 1339 Maximum Product of Splitted Binary Tree
+summary: 1339 Maximum Product of Splitted Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1339 Maximum Product Of Splitted Binary Tree LeetCode Solution Explained in all languages", "1339 Maximum Product Of Splitted Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1339 Maximum Product of Splitted Binary Tree LeetCode Solution Explained in all languages", "1339 Maximum Product of Splitted Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1339 Maximum Product Of Splitted Binary Tree - Solution Explained/problem-solving.webp
-    alt: 1339 Maximum Product Of Splitted Binary Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1339 Maximum Product of Splitted Binary Tree - Solution Explained/problem-solving.webp
+    alt: 1339 Maximum Product of Splitted Binary Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

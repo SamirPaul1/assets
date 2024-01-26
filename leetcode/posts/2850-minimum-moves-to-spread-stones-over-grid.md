@@ -1,13 +1,13 @@
 ---
-title: 2850 Minimum Moves To Spread Stones Over Grid
-summary: 2850 Minimum Moves To Spread Stones Over Grid LeetCode Solution Explained
+title: 2850 Minimum Moves to Spread Stones Over Grid
+summary: 2850 Minimum Moves to Spread Stones Over Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2850 Minimum Moves To Spread Stones Over Grid LeetCode Solution Explained in all languages", "2850 Minimum Moves To Spread Stones Over Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2850 Minimum Moves to Spread Stones Over Grid LeetCode Solution Explained in all languages", "2850 Minimum Moves to Spread Stones Over Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2850 Minimum Moves To Spread Stones Over Grid - Solution Explained/problem-solving.webp
-    alt: 2850 Minimum Moves To Spread Stones Over Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2850 Minimum Moves to Spread Stones Over Grid - Solution Explained/problem-solving.webp
+    alt: 2850 Minimum Moves to Spread Stones Over Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

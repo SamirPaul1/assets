@@ -1,13 +1,13 @@
 ---
-title: 2556 Disconnect Path In A Binary Matrix By At Most One Flip
-summary: 2556 Disconnect Path In A Binary Matrix By At Most One Flip LeetCode Solution Explained
+title: 2556 Disconnect Path in a Binary Matrix by at Most One Flip
+summary: 2556 Disconnect Path in a Binary Matrix by at Most One Flip LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2556 Disconnect Path In A Binary Matrix By At Most One Flip LeetCode Solution Explained in all languages", "2556 Disconnect Path In A Binary Matrix By At Most One Flip", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2556 Disconnect Path in a Binary Matrix by at Most One Flip LeetCode Solution Explained in all languages", "2556 Disconnect Path in a Binary Matrix by at Most One Flip", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2556 Disconnect Path In A Binary Matrix By At Most One Flip - Solution Explained/problem-solving.webp
-    alt: 2556 Disconnect Path In A Binary Matrix By At Most One Flip
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2556 Disconnect Path in a Binary Matrix by at Most One Flip - Solution Explained/problem-solving.webp
+    alt: 2556 Disconnect Path in a Binary Matrix by at Most One Flip
     hiddenInList: true
     hiddenInSingle: false
 ---

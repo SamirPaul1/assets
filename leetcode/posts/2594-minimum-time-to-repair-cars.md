@@ -1,13 +1,13 @@
 ---
-title: 2594 Minimum Time To Repair Cars
-summary: 2594 Minimum Time To Repair Cars LeetCode Solution Explained
+title: 2594 Minimum Time to Repair Cars
+summary: 2594 Minimum Time to Repair Cars LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2594 Minimum Time To Repair Cars LeetCode Solution Explained in all languages", "2594 Minimum Time To Repair Cars", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2594 Minimum Time to Repair Cars LeetCode Solution Explained in all languages", "2594 Minimum Time to Repair Cars", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2594 Minimum Time To Repair Cars - Solution Explained/problem-solving.webp
-    alt: 2594 Minimum Time To Repair Cars
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2594 Minimum Time to Repair Cars - Solution Explained/problem-solving.webp
+    alt: 2594 Minimum Time to Repair Cars
     hiddenInList: true
     hiddenInSingle: false
 ---

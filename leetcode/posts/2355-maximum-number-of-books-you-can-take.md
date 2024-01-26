@@ -1,13 +1,13 @@
 ---
-title: 2355 Maximum Number Of Books You Can Take
-summary: 2355 Maximum Number Of Books You Can Take LeetCode Solution Explained
+title: 2355 Maximum Number of Books You Can Take
+summary: 2355 Maximum Number of Books You Can Take LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2355 Maximum Number Of Books You Can Take LeetCode Solution Explained in all languages", "2355 Maximum Number Of Books You Can Take", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2355 Maximum Number of Books You Can Take LeetCode Solution Explained in all languages", "2355 Maximum Number of Books You Can Take", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2355 Maximum Number Of Books You Can Take - Solution Explained/problem-solving.webp
-    alt: 2355 Maximum Number Of Books You Can Take
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2355 Maximum Number of Books You Can Take - Solution Explained/problem-solving.webp
+    alt: 2355 Maximum Number of Books You Can Take
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0883 Projection Area Of 3D Shapes
-summary: 0883 Projection Area Of 3D Shapes LeetCode Solution Explained
+title: 0883 Projection Area of 3D Shapes
+summary: 0883 Projection Area of 3D Shapes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0883 Projection Area Of 3D Shapes LeetCode Solution Explained in all languages", "0883 Projection Area Of 3D Shapes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0883 Projection Area of 3D Shapes LeetCode Solution Explained in all languages", "0883 Projection Area of 3D Shapes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0883 Projection Area Of 3D Shapes - Solution Explained/problem-solving.webp
-    alt: 0883 Projection Area Of 3D Shapes
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0883 Projection Area of 3D Shapes - Solution Explained/problem-solving.webp
+    alt: 0883 Projection Area of 3D Shapes
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1381 Design A Stack With Increment Operation
-summary: 1381 Design A Stack With Increment Operation LeetCode Solution Explained
+title: 1381 Design a Stack With Increment Operation
+summary: 1381 Design a Stack With Increment Operation LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1381 Design A Stack With Increment Operation LeetCode Solution Explained in all languages", "1381 Design A Stack With Increment Operation", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1381 Design a Stack With Increment Operation LeetCode Solution Explained in all languages", "1381 Design a Stack With Increment Operation", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1381 Design A Stack With Increment Operation - Solution Explained/problem-solving.webp
-    alt: 1381 Design A Stack With Increment Operation
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1381 Design a Stack With Increment Operation - Solution Explained/problem-solving.webp
+    alt: 1381 Design a Stack With Increment Operation
     hiddenInList: true
     hiddenInSingle: false
 ---

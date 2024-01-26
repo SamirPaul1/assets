@@ -1,13 +1,13 @@
 ---
-title: 2452 Words Within Two Edits Of Dictionary
-summary: 2452 Words Within Two Edits Of Dictionary LeetCode Solution Explained
+title: 2452 Words Within Two Edits of Dictionary
+summary: 2452 Words Within Two Edits of Dictionary LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2452 Words Within Two Edits Of Dictionary LeetCode Solution Explained in all languages", "2452 Words Within Two Edits Of Dictionary", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2452 Words Within Two Edits of Dictionary LeetCode Solution Explained in all languages", "2452 Words Within Two Edits of Dictionary", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2452 Words Within Two Edits Of Dictionary - Solution Explained/problem-solving.webp
-    alt: 2452 Words Within Two Edits Of Dictionary
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2452 Words Within Two Edits of Dictionary - Solution Explained/problem-solving.webp
+    alt: 2452 Words Within Two Edits of Dictionary
     hiddenInList: true
     hiddenInSingle: false
 ---

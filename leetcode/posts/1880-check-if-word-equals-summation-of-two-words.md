@@ -1,13 +1,13 @@
 ---
-title: 1880 Check If Word Equals Summation Of Two Words
-summary: 1880 Check If Word Equals Summation Of Two Words LeetCode Solution Explained
+title: 1880 Check if Word Equals Summation of Two Words
+summary: 1880 Check if Word Equals Summation of Two Words LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1880 Check If Word Equals Summation Of Two Words LeetCode Solution Explained in all languages", "1880 Check If Word Equals Summation Of Two Words", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1880 Check if Word Equals Summation of Two Words LeetCode Solution Explained in all languages", "1880 Check if Word Equals Summation of Two Words", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1880 Check If Word Equals Summation Of Two Words - Solution Explained/problem-solving.webp
-    alt: 1880 Check If Word Equals Summation Of Two Words
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1880 Check if Word Equals Summation of Two Words - Solution Explained/problem-solving.webp
+    alt: 1880 Check if Word Equals Summation of Two Words
     hiddenInList: true
     hiddenInSingle: false
 ---

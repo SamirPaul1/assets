@@ -1,13 +1,13 @@
 ---
-title: 2285 Maximum Total Importance Of Roads
-summary: 2285 Maximum Total Importance Of Roads LeetCode Solution Explained
+title: 2285 Maximum Total Importance of Roads
+summary: 2285 Maximum Total Importance of Roads LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2285 Maximum Total Importance Of Roads LeetCode Solution Explained in all languages", "2285 Maximum Total Importance Of Roads", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2285 Maximum Total Importance of Roads LeetCode Solution Explained in all languages", "2285 Maximum Total Importance of Roads", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2285 Maximum Total Importance Of Roads - Solution Explained/problem-solving.webp
-    alt: 2285 Maximum Total Importance Of Roads
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2285 Maximum Total Importance of Roads - Solution Explained/problem-solving.webp
+    alt: 2285 Maximum Total Importance of Roads
     hiddenInList: true
     hiddenInSingle: false
 ---

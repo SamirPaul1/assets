@@ -1,13 +1,13 @@
 ---
-title: 2787 Ways To Express An Integer As Sum Of Powers
-summary: 2787 Ways To Express An Integer As Sum Of Powers LeetCode Solution Explained
+title: 2787 Ways to Express an Integer as Sum of Powers
+summary: 2787 Ways to Express an Integer as Sum of Powers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2787 Ways To Express An Integer As Sum Of Powers LeetCode Solution Explained in all languages", "2787 Ways To Express An Integer As Sum Of Powers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2787 Ways to Express an Integer as Sum of Powers LeetCode Solution Explained in all languages", "2787 Ways to Express an Integer as Sum of Powers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2787 Ways To Express An Integer As Sum Of Powers - Solution Explained/problem-solving.webp
-    alt: 2787 Ways To Express An Integer As Sum Of Powers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2787 Ways to Express an Integer as Sum of Powers - Solution Explained/problem-solving.webp
+    alt: 2787 Ways to Express an Integer as Sum of Powers
     hiddenInList: true
     hiddenInSingle: false
 ---

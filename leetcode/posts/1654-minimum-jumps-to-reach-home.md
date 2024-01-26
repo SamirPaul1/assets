@@ -1,13 +1,13 @@
 ---
-title: 1654 Minimum Jumps To Reach Home
-summary: 1654 Minimum Jumps To Reach Home LeetCode Solution Explained
+title: 1654 Minimum Jumps to Reach Home
+summary: 1654 Minimum Jumps to Reach Home LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1654 Minimum Jumps To Reach Home LeetCode Solution Explained in all languages", "1654 Minimum Jumps To Reach Home", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1654 Minimum Jumps to Reach Home LeetCode Solution Explained in all languages", "1654 Minimum Jumps to Reach Home", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1654 Minimum Jumps To Reach Home - Solution Explained/problem-solving.webp
-    alt: 1654 Minimum Jumps To Reach Home
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1654 Minimum Jumps to Reach Home - Solution Explained/problem-solving.webp
+    alt: 1654 Minimum Jumps to Reach Home
     hiddenInList: true
     hiddenInSingle: false
 ---

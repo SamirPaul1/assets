@@ -1,13 +1,13 @@
 ---
-title: 1040 Moving Stones Until Consecutive Ii
-summary: 1040 Moving Stones Until Consecutive Ii LeetCode Solution Explained
+title: 1040 Moving Stones Until Consecutive II
+summary: 1040 Moving Stones Until Consecutive II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1040 Moving Stones Until Consecutive Ii LeetCode Solution Explained in all languages", "1040 Moving Stones Until Consecutive Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1040 Moving Stones Until Consecutive II LeetCode Solution Explained in all languages", "1040 Moving Stones Until Consecutive II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1040 Moving Stones Until Consecutive Ii - Solution Explained/problem-solving.webp
-    alt: 1040 Moving Stones Until Consecutive Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1040 Moving Stones Until Consecutive II - Solution Explained/problem-solving.webp
+    alt: 1040 Moving Stones Until Consecutive II
     hiddenInList: true
     hiddenInSingle: false
 ---

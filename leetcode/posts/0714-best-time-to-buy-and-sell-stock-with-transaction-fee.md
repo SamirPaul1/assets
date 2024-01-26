@@ -1,13 +1,13 @@
 ---
-title: 0714 Best Time To Buy And Sell Stock With Transaction Fee
-summary: 0714 Best Time To Buy And Sell Stock With Transaction Fee LeetCode Solution Explained
+title: 0714 Best Time to Buy and Sell Stock with Transaction Fee
+summary: 0714 Best Time to Buy and Sell Stock with Transaction Fee LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0714 Best Time To Buy And Sell Stock With Transaction Fee LeetCode Solution Explained in all languages", "0714 Best Time To Buy And Sell Stock With Transaction Fee", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0714 Best Time to Buy and Sell Stock with Transaction Fee LeetCode Solution Explained in all languages", "0714 Best Time to Buy and Sell Stock with Transaction Fee", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0714 Best Time To Buy And Sell Stock With Transaction Fee - Solution Explained/problem-solving.webp
-    alt: 0714 Best Time To Buy And Sell Stock With Transaction Fee
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0714 Best Time to Buy and Sell Stock with Transaction Fee - Solution Explained/problem-solving.webp
+    alt: 0714 Best Time to Buy and Sell Stock with Transaction Fee
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1503 Last Moment Before All Ants Fall Out Of A Plank
-summary: 1503 Last Moment Before All Ants Fall Out Of A Plank LeetCode Solution Explained
+title: 1503 Last Moment Before All Ants Fall Out of a Plank
+summary: 1503 Last Moment Before All Ants Fall Out of a Plank LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1503 Last Moment Before All Ants Fall Out Of A Plank LeetCode Solution Explained in all languages", "1503 Last Moment Before All Ants Fall Out Of A Plank", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1503 Last Moment Before All Ants Fall Out of a Plank LeetCode Solution Explained in all languages", "1503 Last Moment Before All Ants Fall Out of a Plank", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1503 Last Moment Before All Ants Fall Out Of A Plank - Solution Explained/problem-solving.webp
-    alt: 1503 Last Moment Before All Ants Fall Out Of A Plank
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1503 Last Moment Before All Ants Fall Out of a Plank - Solution Explained/problem-solving.webp
+    alt: 1503 Last Moment Before All Ants Fall Out of a Plank
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1686 Stone Game Vi
-summary: 1686 Stone Game Vi LeetCode Solution Explained
+title: 1686 Stone Game VI
+summary: 1686 Stone Game VI LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1686 Stone Game Vi LeetCode Solution Explained in all languages", "1686 Stone Game Vi", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1686 Stone Game VI LeetCode Solution Explained in all languages", "1686 Stone Game VI", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1686 Stone Game Vi - Solution Explained/problem-solving.webp
-    alt: 1686 Stone Game Vi
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1686 Stone Game VI - Solution Explained/problem-solving.webp
+    alt: 1686 Stone Game VI
     hiddenInList: true
     hiddenInSingle: false
 ---

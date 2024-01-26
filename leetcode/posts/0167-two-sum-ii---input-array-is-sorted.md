@@ -1,13 +1,13 @@
 ---
-title: 0167 Two Sum Ii   Input Array Is Sorted
-summary: 0167 Two Sum Ii   Input Array Is Sorted LeetCode Solution Explained
+title: 0167 Two Sum II   Input Array Is Sorted
+summary: 0167 Two Sum II   Input Array Is Sorted LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0167 Two Sum Ii   Input Array Is Sorted LeetCode Solution Explained in all languages", "0167 Two Sum Ii   Input Array Is Sorted", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0167 Two Sum II   Input Array Is Sorted LeetCode Solution Explained in all languages", "0167 Two Sum II   Input Array Is Sorted", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0167 Two Sum Ii   Input Array Is Sorted - Solution Explained/problem-solving.webp
-    alt: 0167 Two Sum Ii   Input Array Is Sorted
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0167 Two Sum II   Input Array Is Sorted - Solution Explained/problem-solving.webp
+    alt: 0167 Two Sum II   Input Array Is Sorted
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0657 Robot Return To Origin
-summary: 0657 Robot Return To Origin LeetCode Solution Explained
+title: 0657 Robot Return to Origin
+summary: 0657 Robot Return to Origin LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0657 Robot Return To Origin LeetCode Solution Explained in all languages", "0657 Robot Return To Origin", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0657 Robot Return to Origin LeetCode Solution Explained in all languages", "0657 Robot Return to Origin", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0657 Robot Return To Origin - Solution Explained/problem-solving.webp
-    alt: 0657 Robot Return To Origin
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0657 Robot Return to Origin - Solution Explained/problem-solving.webp
+    alt: 0657 Robot Return to Origin
     hiddenInList: true
     hiddenInSingle: false
 ---

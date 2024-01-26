@@ -1,13 +1,13 @@
 ---
-title: 1989 Maximum Number Of People That Can Be Caught In Tag
-summary: 1989 Maximum Number Of People That Can Be Caught In Tag LeetCode Solution Explained
+title: 1989 Maximum Number of People That Can Be Caught in Tag
+summary: 1989 Maximum Number of People That Can Be Caught in Tag LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1989 Maximum Number Of People That Can Be Caught In Tag LeetCode Solution Explained in all languages", "1989 Maximum Number Of People That Can Be Caught In Tag", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1989 Maximum Number of People That Can Be Caught in Tag LeetCode Solution Explained in all languages", "1989 Maximum Number of People That Can Be Caught in Tag", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1989 Maximum Number Of People That Can Be Caught In Tag - Solution Explained/problem-solving.webp
-    alt: 1989 Maximum Number Of People That Can Be Caught In Tag
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1989 Maximum Number of People That Can Be Caught in Tag - Solution Explained/problem-solving.webp
+    alt: 1989 Maximum Number of People That Can Be Caught in Tag
     hiddenInList: true
     hiddenInSingle: false
 ---

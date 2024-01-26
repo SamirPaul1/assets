@@ -1,13 +1,13 @@
 ---
-title: 2472 Maximum Number Of Non Overlapping Palindrome Substrings
-summary: 2472 Maximum Number Of Non Overlapping Palindrome Substrings LeetCode Solution Explained
+title: 2472 Maximum Number of Non overlapping Palindrome Substrings
+summary: 2472 Maximum Number of Non overlapping Palindrome Substrings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2472 Maximum Number Of Non Overlapping Palindrome Substrings LeetCode Solution Explained in all languages", "2472 Maximum Number Of Non Overlapping Palindrome Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2472 Maximum Number of Non overlapping Palindrome Substrings LeetCode Solution Explained in all languages", "2472 Maximum Number of Non overlapping Palindrome Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2472 Maximum Number Of Non Overlapping Palindrome Substrings - Solution Explained/problem-solving.webp
-    alt: 2472 Maximum Number Of Non Overlapping Palindrome Substrings
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2472 Maximum Number of Non overlapping Palindrome Substrings - Solution Explained/problem-solving.webp
+    alt: 2472 Maximum Number of Non overlapping Palindrome Substrings
     hiddenInList: true
     hiddenInSingle: false
 ---

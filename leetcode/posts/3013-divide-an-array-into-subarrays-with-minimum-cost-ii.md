@@ -1,13 +1,13 @@
 ---
-title: 3013 Divide An Array Into Subarrays With Minimum Cost Ii
-summary: 3013 Divide An Array Into Subarrays With Minimum Cost Ii LeetCode Solution Explained
+title: 3013 Divide an Array Into Subarrays With Minimum Cost II
+summary: 3013 Divide an Array Into Subarrays With Minimum Cost II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["3013 Divide An Array Into Subarrays With Minimum Cost Ii LeetCode Solution Explained in all languages", "3013 Divide An Array Into Subarrays With Minimum Cost Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["3013 Divide an Array Into Subarrays With Minimum Cost II LeetCode Solution Explained in all languages", "3013 Divide an Array Into Subarrays With Minimum Cost II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3013 Divide An Array Into Subarrays With Minimum Cost Ii - Solution Explained/problem-solving.webp
-    alt: 3013 Divide An Array Into Subarrays With Minimum Cost Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3013 Divide an Array Into Subarrays With Minimum Cost II - Solution Explained/problem-solving.webp
+    alt: 3013 Divide an Array Into Subarrays With Minimum Cost II
     hiddenInList: true
     hiddenInSingle: false
 ---

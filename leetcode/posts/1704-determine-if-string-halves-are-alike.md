@@ -1,13 +1,13 @@
 ---
-title: 1704 Determine If String Halves Are Alike
-summary: 1704 Determine If String Halves Are Alike LeetCode Solution Explained
+title: 1704 Determine if String Halves Are Alike
+summary: 1704 Determine if String Halves Are Alike LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1704 Determine If String Halves Are Alike LeetCode Solution Explained in all languages", "1704 Determine If String Halves Are Alike", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1704 Determine if String Halves Are Alike LeetCode Solution Explained in all languages", "1704 Determine if String Halves Are Alike", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1704 Determine If String Halves Are Alike - Solution Explained/problem-solving.webp
-    alt: 1704 Determine If String Halves Are Alike
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1704 Determine if String Halves Are Alike - Solution Explained/problem-solving.webp
+    alt: 1704 Determine if String Halves Are Alike
     hiddenInList: true
     hiddenInSingle: false
 ---

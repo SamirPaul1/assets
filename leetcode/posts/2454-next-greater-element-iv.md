@@ -1,13 +1,13 @@
 ---
-title: 2454 Next Greater Element Iv
-summary: 2454 Next Greater Element Iv LeetCode Solution Explained
+title: 2454 Next Greater Element IV
+summary: 2454 Next Greater Element IV LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2454 Next Greater Element Iv LeetCode Solution Explained in all languages", "2454 Next Greater Element Iv", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2454 Next Greater Element IV LeetCode Solution Explained in all languages", "2454 Next Greater Element IV", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2454 Next Greater Element Iv - Solution Explained/problem-solving.webp
-    alt: 2454 Next Greater Element Iv
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2454 Next Greater Element IV - Solution Explained/problem-solving.webp
+    alt: 2454 Next Greater Element IV
     hiddenInList: true
     hiddenInSingle: false
 ---

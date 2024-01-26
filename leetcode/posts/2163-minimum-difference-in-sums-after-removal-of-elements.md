@@ -1,13 +1,13 @@
 ---
-title: 2163 Minimum Difference In Sums After Removal Of Elements
-summary: 2163 Minimum Difference In Sums After Removal Of Elements LeetCode Solution Explained
+title: 2163 Minimum Difference in Sums After Removal of Elements
+summary: 2163 Minimum Difference in Sums After Removal of Elements LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2163 Minimum Difference In Sums After Removal Of Elements LeetCode Solution Explained in all languages", "2163 Minimum Difference In Sums After Removal Of Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2163 Minimum Difference in Sums After Removal of Elements LeetCode Solution Explained in all languages", "2163 Minimum Difference in Sums After Removal of Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2163 Minimum Difference In Sums After Removal Of Elements - Solution Explained/problem-solving.webp
-    alt: 2163 Minimum Difference In Sums After Removal Of Elements
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2163 Minimum Difference in Sums After Removal of Elements - Solution Explained/problem-solving.webp
+    alt: 2163 Minimum Difference in Sums After Removal of Elements
     hiddenInList: true
     hiddenInSingle: false
 ---

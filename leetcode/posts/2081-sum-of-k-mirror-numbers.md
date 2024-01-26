@@ -1,13 +1,13 @@
 ---
-title: 2081 Sum Of K Mirror Numbers
-summary: 2081 Sum Of K Mirror Numbers LeetCode Solution Explained
+title: 2081 Sum of k Mirror Numbers
+summary: 2081 Sum of k Mirror Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2081 Sum Of K Mirror Numbers LeetCode Solution Explained in all languages", "2081 Sum Of K Mirror Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2081 Sum of k Mirror Numbers LeetCode Solution Explained in all languages", "2081 Sum of k Mirror Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2081 Sum Of K Mirror Numbers - Solution Explained/problem-solving.webp
-    alt: 2081 Sum Of K Mirror Numbers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2081 Sum of k Mirror Numbers - Solution Explained/problem-solving.webp
+    alt: 2081 Sum of k Mirror Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---

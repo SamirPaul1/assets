@@ -1,13 +1,13 @@
 ---
-title: 2372 Calculate The Influence Of Each Salesperson
-summary: 2372 Calculate The Influence Of Each Salesperson LeetCode Solution Explained
+title: 2372 Calculate the Influence of Each Salesperson
+summary: 2372 Calculate the Influence of Each Salesperson LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2372 Calculate The Influence Of Each Salesperson LeetCode Solution Explained in all languages", "2372 Calculate The Influence Of Each Salesperson", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2372 Calculate the Influence of Each Salesperson LeetCode Solution Explained in all languages", "2372 Calculate the Influence of Each Salesperson", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2372 Calculate The Influence Of Each Salesperson - Solution Explained/problem-solving.webp
-    alt: 2372 Calculate The Influence Of Each Salesperson
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2372 Calculate the Influence of Each Salesperson - Solution Explained/problem-solving.webp
+    alt: 2372 Calculate the Influence of Each Salesperson
     hiddenInList: true
     hiddenInSingle: false
 ---

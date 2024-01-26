@@ -1,13 +1,13 @@
 ---
-title: 2504 Concatenate The Name And The Profession
-summary: 2504 Concatenate The Name And The Profession LeetCode Solution Explained
+title: 2504 Concatenate the Name and the Profession
+summary: 2504 Concatenate the Name and the Profession LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2504 Concatenate The Name And The Profession LeetCode Solution Explained in all languages", "2504 Concatenate The Name And The Profession", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2504 Concatenate the Name and the Profession LeetCode Solution Explained in all languages", "2504 Concatenate the Name and the Profession", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2504 Concatenate The Name And The Profession - Solution Explained/problem-solving.webp
-    alt: 2504 Concatenate The Name And The Profession
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2504 Concatenate the Name and the Profession - Solution Explained/problem-solving.webp
+    alt: 2504 Concatenate the Name and the Profession
     hiddenInList: true
     hiddenInSingle: false
 ---

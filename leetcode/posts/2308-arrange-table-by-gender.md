@@ -1,13 +1,13 @@
 ---
-title: 2308 Arrange Table By Gender
-summary: 2308 Arrange Table By Gender LeetCode Solution Explained
+title: 2308 Arrange Table by Gender
+summary: 2308 Arrange Table by Gender LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2308 Arrange Table By Gender LeetCode Solution Explained in all languages", "2308 Arrange Table By Gender", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2308 Arrange Table by Gender LeetCode Solution Explained in all languages", "2308 Arrange Table by Gender", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2308 Arrange Table By Gender - Solution Explained/problem-solving.webp
-    alt: 2308 Arrange Table By Gender
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2308 Arrange Table by Gender - Solution Explained/problem-solving.webp
+    alt: 2308 Arrange Table by Gender
     hiddenInList: true
     hiddenInSingle: false
 ---

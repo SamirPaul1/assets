@@ -1,13 +1,13 @@
 ---
-title: 1687 Delivering Boxes From Storage To Ports
-summary: 1687 Delivering Boxes From Storage To Ports LeetCode Solution Explained
+title: 1687 Delivering Boxes from Storage to Ports
+summary: 1687 Delivering Boxes from Storage to Ports LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1687 Delivering Boxes From Storage To Ports LeetCode Solution Explained in all languages", "1687 Delivering Boxes From Storage To Ports", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1687 Delivering Boxes from Storage to Ports LeetCode Solution Explained in all languages", "1687 Delivering Boxes from Storage to Ports", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1687 Delivering Boxes From Storage To Ports - Solution Explained/problem-solving.webp
-    alt: 1687 Delivering Boxes From Storage To Ports
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1687 Delivering Boxes from Storage to Ports - Solution Explained/problem-solving.webp
+    alt: 1687 Delivering Boxes from Storage to Ports
     hiddenInList: true
     hiddenInSingle: false
 ---

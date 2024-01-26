@@ -1,13 +1,13 @@
 ---
-title: 0440 K Th Smallest In Lexicographical Order
-summary: 0440 K Th Smallest In Lexicographical Order LeetCode Solution Explained
+title: 0440 K th Smallest in Lexicographical Order
+summary: 0440 K th Smallest in Lexicographical Order LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0440 K Th Smallest In Lexicographical Order LeetCode Solution Explained in all languages", "0440 K Th Smallest In Lexicographical Order", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0440 K th Smallest in Lexicographical Order LeetCode Solution Explained in all languages", "0440 K th Smallest in Lexicographical Order", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0440 K Th Smallest In Lexicographical Order - Solution Explained/problem-solving.webp
-    alt: 0440 K Th Smallest In Lexicographical Order
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0440 K th Smallest in Lexicographical Order - Solution Explained/problem-solving.webp
+    alt: 0440 K th Smallest in Lexicographical Order
     hiddenInList: true
     hiddenInSingle: false
 ---

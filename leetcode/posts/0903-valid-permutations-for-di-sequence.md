@@ -1,13 +1,13 @@
 ---
-title: 0903 Valid Permutations For Di Sequence
-summary: 0903 Valid Permutations For Di Sequence LeetCode Solution Explained
+title: 0903 Valid Permutations for DI Sequence
+summary: 0903 Valid Permutations for DI Sequence LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0903 Valid Permutations For Di Sequence LeetCode Solution Explained in all languages", "0903 Valid Permutations For Di Sequence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0903 Valid Permutations for DI Sequence LeetCode Solution Explained in all languages", "0903 Valid Permutations for DI Sequence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0903 Valid Permutations For Di Sequence - Solution Explained/problem-solving.webp
-    alt: 0903 Valid Permutations For Di Sequence
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0903 Valid Permutations for DI Sequence - Solution Explained/problem-solving.webp
+    alt: 0903 Valid Permutations for DI Sequence
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1444 Number Of Ways Of Cutting A Pizza
-summary: 1444 Number Of Ways Of Cutting A Pizza LeetCode Solution Explained
+title: 1444 Number of Ways of Cutting a Pizza
+summary: 1444 Number of Ways of Cutting a Pizza LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1444 Number Of Ways Of Cutting A Pizza LeetCode Solution Explained in all languages", "1444 Number Of Ways Of Cutting A Pizza", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1444 Number of Ways of Cutting a Pizza LeetCode Solution Explained in all languages", "1444 Number of Ways of Cutting a Pizza", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1444 Number Of Ways Of Cutting A Pizza - Solution Explained/problem-solving.webp
-    alt: 1444 Number Of Ways Of Cutting A Pizza
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1444 Number of Ways of Cutting a Pizza - Solution Explained/problem-solving.webp
+    alt: 1444 Number of Ways of Cutting a Pizza
     hiddenInList: true
     hiddenInSingle: false
 ---

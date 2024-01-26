@@ -1,13 +1,13 @@
 ---
-title: 1955 Count Number Of Special Subsequences
-summary: 1955 Count Number Of Special Subsequences LeetCode Solution Explained
+title: 1955 Count Number of Special Subsequences
+summary: 1955 Count Number of Special Subsequences LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1955 Count Number Of Special Subsequences LeetCode Solution Explained in all languages", "1955 Count Number Of Special Subsequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1955 Count Number of Special Subsequences LeetCode Solution Explained in all languages", "1955 Count Number of Special Subsequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1955 Count Number Of Special Subsequences - Solution Explained/problem-solving.webp
-    alt: 1955 Count Number Of Special Subsequences
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1955 Count Number of Special Subsequences - Solution Explained/problem-solving.webp
+    alt: 1955 Count Number of Special Subsequences
     hiddenInList: true
     hiddenInSingle: false
 ---

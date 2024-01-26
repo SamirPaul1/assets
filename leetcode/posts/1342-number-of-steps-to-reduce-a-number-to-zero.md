@@ -1,13 +1,13 @@
 ---
-title: 1342 Number Of Steps To Reduce A Number To Zero
-summary: 1342 Number Of Steps To Reduce A Number To Zero LeetCode Solution Explained
+title: 1342 Number of Steps to Reduce a Number to Zero
+summary: 1342 Number of Steps to Reduce a Number to Zero LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1342 Number Of Steps To Reduce A Number To Zero LeetCode Solution Explained in all languages", "1342 Number Of Steps To Reduce A Number To Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1342 Number of Steps to Reduce a Number to Zero LeetCode Solution Explained in all languages", "1342 Number of Steps to Reduce a Number to Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1342 Number Of Steps To Reduce A Number To Zero - Solution Explained/problem-solving.webp
-    alt: 1342 Number Of Steps To Reduce A Number To Zero
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1342 Number of Steps to Reduce a Number to Zero - Solution Explained/problem-solving.webp
+    alt: 1342 Number of Steps to Reduce a Number to Zero
     hiddenInList: true
     hiddenInSingle: false
 ---

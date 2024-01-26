@@ -1,13 +1,13 @@
 ---
-title: 2584 Split The Array To Make Coprime Products
-summary: 2584 Split The Array To Make Coprime Products LeetCode Solution Explained
+title: 2584 Split the Array to Make Coprime Products
+summary: 2584 Split the Array to Make Coprime Products LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2584 Split The Array To Make Coprime Products LeetCode Solution Explained in all languages", "2584 Split The Array To Make Coprime Products", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2584 Split the Array to Make Coprime Products LeetCode Solution Explained in all languages", "2584 Split the Array to Make Coprime Products", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2584 Split The Array To Make Coprime Products - Solution Explained/problem-solving.webp
-    alt: 2584 Split The Array To Make Coprime Products
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2584 Split the Array to Make Coprime Products - Solution Explained/problem-solving.webp
+    alt: 2584 Split the Array to Make Coprime Products
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2878 Get The Size Of A Dataframe
-summary: 2878 Get The Size Of A Dataframe LeetCode Solution Explained
+title: 2878 Get the Size of a DataFrame
+summary: 2878 Get the Size of a DataFrame LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2878 Get The Size Of A Dataframe LeetCode Solution Explained in all languages", "2878 Get The Size Of A Dataframe", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2878 Get the Size of a DataFrame LeetCode Solution Explained in all languages", "2878 Get the Size of a DataFrame", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2878 Get The Size Of A Dataframe - Solution Explained/problem-solving.webp
-    alt: 2878 Get The Size Of A Dataframe
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2878 Get the Size of a DataFrame - Solution Explained/problem-solving.webp
+    alt: 2878 Get the Size of a DataFrame
     hiddenInList: true
     hiddenInSingle: false
 ---

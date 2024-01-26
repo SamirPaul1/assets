@@ -1,13 +1,13 @@
 ---
-title: 2925 Maximum Score After Applying Operations On A Tree
-summary: 2925 Maximum Score After Applying Operations On A Tree LeetCode Solution Explained
+title: 2925 Maximum Score After Applying Operations on a Tree
+summary: 2925 Maximum Score After Applying Operations on a Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2925 Maximum Score After Applying Operations On A Tree LeetCode Solution Explained in all languages", "2925 Maximum Score After Applying Operations On A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2925 Maximum Score After Applying Operations on a Tree LeetCode Solution Explained in all languages", "2925 Maximum Score After Applying Operations on a Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2925 Maximum Score After Applying Operations On A Tree - Solution Explained/problem-solving.webp
-    alt: 2925 Maximum Score After Applying Operations On A Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2925 Maximum Score After Applying Operations on a Tree - Solution Explained/problem-solving.webp
+    alt: 2925 Maximum Score After Applying Operations on a Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

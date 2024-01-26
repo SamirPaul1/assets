@@ -1,13 +1,13 @@
 ---
-title: 1218 Longest Arithmetic Subsequence Of Given Difference
-summary: 1218 Longest Arithmetic Subsequence Of Given Difference LeetCode Solution Explained
+title: 1218 Longest Arithmetic Subsequence of Given Difference
+summary: 1218 Longest Arithmetic Subsequence of Given Difference LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1218 Longest Arithmetic Subsequence Of Given Difference LeetCode Solution Explained in all languages", "1218 Longest Arithmetic Subsequence Of Given Difference", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1218 Longest Arithmetic Subsequence of Given Difference LeetCode Solution Explained in all languages", "1218 Longest Arithmetic Subsequence of Given Difference", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1218 Longest Arithmetic Subsequence Of Given Difference - Solution Explained/problem-solving.webp
-    alt: 1218 Longest Arithmetic Subsequence Of Given Difference
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1218 Longest Arithmetic Subsequence of Given Difference - Solution Explained/problem-solving.webp
+    alt: 1218 Longest Arithmetic Subsequence of Given Difference
     hiddenInList: true
     hiddenInSingle: false
 ---

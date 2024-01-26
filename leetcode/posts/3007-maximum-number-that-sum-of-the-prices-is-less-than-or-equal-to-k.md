@@ -1,13 +1,13 @@
 ---
-title: 3007 Maximum Number That Sum Of The Prices Is Less Than Or Equal To K
-summary: 3007 Maximum Number That Sum Of The Prices Is Less Than Or Equal To K LeetCode Solution Explained
+title: 3007 Maximum Number That Sum of the Prices Is Less Than or Equal to K
+summary: 3007 Maximum Number That Sum of the Prices Is Less Than or Equal to K LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["3007 Maximum Number That Sum Of The Prices Is Less Than Or Equal To K LeetCode Solution Explained in all languages", "3007 Maximum Number That Sum Of The Prices Is Less Than Or Equal To K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["3007 Maximum Number That Sum of the Prices Is Less Than or Equal to K LeetCode Solution Explained in all languages", "3007 Maximum Number That Sum of the Prices Is Less Than or Equal to K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3007 Maximum Number That Sum Of The Prices Is Less Than Or Equal To K - Solution Explained/problem-solving.webp
-    alt: 3007 Maximum Number That Sum Of The Prices Is Less Than Or Equal To K
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3007 Maximum Number That Sum of the Prices Is Less Than or Equal to K - Solution Explained/problem-solving.webp
+    alt: 3007 Maximum Number That Sum of the Prices Is Less Than or Equal to K
     hiddenInList: true
     hiddenInSingle: false
 ---

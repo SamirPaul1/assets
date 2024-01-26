@@ -1,13 +1,13 @@
 ---
-title: 0309 Best Time To Buy And Sell Stock With Cooldown
-summary: 0309 Best Time To Buy And Sell Stock With Cooldown LeetCode Solution Explained
+title: 0309 Best Time to Buy and Sell Stock with Cooldown
+summary: 0309 Best Time to Buy and Sell Stock with Cooldown LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0309 Best Time To Buy And Sell Stock With Cooldown LeetCode Solution Explained in all languages", "0309 Best Time To Buy And Sell Stock With Cooldown", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0309 Best Time to Buy and Sell Stock with Cooldown LeetCode Solution Explained in all languages", "0309 Best Time to Buy and Sell Stock with Cooldown", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0309 Best Time To Buy And Sell Stock With Cooldown - Solution Explained/problem-solving.webp
-    alt: 0309 Best Time To Buy And Sell Stock With Cooldown
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0309 Best Time to Buy and Sell Stock with Cooldown - Solution Explained/problem-solving.webp
+    alt: 0309 Best Time to Buy and Sell Stock with Cooldown
     hiddenInList: true
     hiddenInSingle: false
 ---

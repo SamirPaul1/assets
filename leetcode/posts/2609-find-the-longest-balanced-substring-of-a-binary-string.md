@@ -1,13 +1,13 @@
 ---
-title: 2609 Find The Longest Balanced Substring Of A Binary String
-summary: 2609 Find The Longest Balanced Substring Of A Binary String LeetCode Solution Explained
+title: 2609 Find the Longest Balanced Substring of a Binary String
+summary: 2609 Find the Longest Balanced Substring of a Binary String LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2609 Find The Longest Balanced Substring Of A Binary String LeetCode Solution Explained in all languages", "2609 Find The Longest Balanced Substring Of A Binary String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2609 Find the Longest Balanced Substring of a Binary String LeetCode Solution Explained in all languages", "2609 Find the Longest Balanced Substring of a Binary String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2609 Find The Longest Balanced Substring Of A Binary String - Solution Explained/problem-solving.webp
-    alt: 2609 Find The Longest Balanced Substring Of A Binary String
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2609 Find the Longest Balanced Substring of a Binary String - Solution Explained/problem-solving.webp
+    alt: 2609 Find the Longest Balanced Substring of a Binary String
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2152 Minimum Number Of Lines To Cover Points
-summary: 2152 Minimum Number Of Lines To Cover Points LeetCode Solution Explained
+title: 2152 Minimum Number of Lines to Cover Points
+summary: 2152 Minimum Number of Lines to Cover Points LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2152 Minimum Number Of Lines To Cover Points LeetCode Solution Explained in all languages", "2152 Minimum Number Of Lines To Cover Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2152 Minimum Number of Lines to Cover Points LeetCode Solution Explained in all languages", "2152 Minimum Number of Lines to Cover Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2152 Minimum Number Of Lines To Cover Points - Solution Explained/problem-solving.webp
-    alt: 2152 Minimum Number Of Lines To Cover Points
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2152 Minimum Number of Lines to Cover Points - Solution Explained/problem-solving.webp
+    alt: 2152 Minimum Number of Lines to Cover Points
     hiddenInList: true
     hiddenInSingle: false
 ---

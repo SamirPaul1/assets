@@ -1,13 +1,13 @@
 ---
-title: 1820 Maximum Number Of Accepted Invitations
-summary: 1820 Maximum Number Of Accepted Invitations LeetCode Solution Explained
+title: 1820 Maximum Number of Accepted Invitations
+summary: 1820 Maximum Number of Accepted Invitations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1820 Maximum Number Of Accepted Invitations LeetCode Solution Explained in all languages", "1820 Maximum Number Of Accepted Invitations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1820 Maximum Number of Accepted Invitations LeetCode Solution Explained in all languages", "1820 Maximum Number of Accepted Invitations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1820 Maximum Number Of Accepted Invitations - Solution Explained/problem-solving.webp
-    alt: 1820 Maximum Number Of Accepted Invitations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1820 Maximum Number of Accepted Invitations - Solution Explained/problem-solving.webp
+    alt: 1820 Maximum Number of Accepted Invitations
     hiddenInList: true
     hiddenInSingle: false
 ---

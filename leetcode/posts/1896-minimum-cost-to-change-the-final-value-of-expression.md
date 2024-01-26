@@ -1,13 +1,13 @@
 ---
-title: 1896 Minimum Cost To Change The Final Value Of Expression
-summary: 1896 Minimum Cost To Change The Final Value Of Expression LeetCode Solution Explained
+title: 1896 Minimum Cost to Change the Final Value of Expression
+summary: 1896 Minimum Cost to Change the Final Value of Expression LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1896 Minimum Cost To Change The Final Value Of Expression LeetCode Solution Explained in all languages", "1896 Minimum Cost To Change The Final Value Of Expression", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1896 Minimum Cost to Change the Final Value of Expression LeetCode Solution Explained in all languages", "1896 Minimum Cost to Change the Final Value of Expression", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1896 Minimum Cost To Change The Final Value Of Expression - Solution Explained/problem-solving.webp
-    alt: 1896 Minimum Cost To Change The Final Value Of Expression
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1896 Minimum Cost to Change the Final Value of Expression - Solution Explained/problem-solving.webp
+    alt: 1896 Minimum Cost to Change the Final Value of Expression
     hiddenInList: true
     hiddenInSingle: false
 ---

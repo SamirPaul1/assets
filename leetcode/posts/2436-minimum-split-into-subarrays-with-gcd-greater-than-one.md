@@ -1,13 +1,13 @@
 ---
-title: 2436 Minimum Split Into Subarrays With Gcd Greater Than One
-summary: 2436 Minimum Split Into Subarrays With Gcd Greater Than One LeetCode Solution Explained
+title: 2436 Minimum Split Into Subarrays With GCD Greater Than One
+summary: 2436 Minimum Split Into Subarrays With GCD Greater Than One LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2436 Minimum Split Into Subarrays With Gcd Greater Than One LeetCode Solution Explained in all languages", "2436 Minimum Split Into Subarrays With Gcd Greater Than One", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2436 Minimum Split Into Subarrays With GCD Greater Than One LeetCode Solution Explained in all languages", "2436 Minimum Split Into Subarrays With GCD Greater Than One", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2436 Minimum Split Into Subarrays With Gcd Greater Than One - Solution Explained/problem-solving.webp
-    alt: 2436 Minimum Split Into Subarrays With Gcd Greater Than One
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2436 Minimum Split Into Subarrays With GCD Greater Than One - Solution Explained/problem-solving.webp
+    alt: 2436 Minimum Split Into Subarrays With GCD Greater Than One
     hiddenInList: true
     hiddenInSingle: false
 ---

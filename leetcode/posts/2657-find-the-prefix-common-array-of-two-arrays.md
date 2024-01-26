@@ -1,13 +1,13 @@
 ---
-title: 2657 Find The Prefix Common Array Of Two Arrays
-summary: 2657 Find The Prefix Common Array Of Two Arrays LeetCode Solution Explained
+title: 2657 Find the Prefix Common Array of Two Arrays
+summary: 2657 Find the Prefix Common Array of Two Arrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2657 Find The Prefix Common Array Of Two Arrays LeetCode Solution Explained in all languages", "2657 Find The Prefix Common Array Of Two Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2657 Find the Prefix Common Array of Two Arrays LeetCode Solution Explained in all languages", "2657 Find the Prefix Common Array of Two Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2657 Find The Prefix Common Array Of Two Arrays - Solution Explained/problem-solving.webp
-    alt: 2657 Find The Prefix Common Array Of Two Arrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2657 Find the Prefix Common Array of Two Arrays - Solution Explained/problem-solving.webp
+    alt: 2657 Find the Prefix Common Array of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2024 Maximize The Confusion Of An Exam
-summary: 2024 Maximize The Confusion Of An Exam LeetCode Solution Explained
+title: 2024 Maximize the Confusion of an Exam
+summary: 2024 Maximize the Confusion of an Exam LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2024 Maximize The Confusion Of An Exam LeetCode Solution Explained in all languages", "2024 Maximize The Confusion Of An Exam", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2024 Maximize the Confusion of an Exam LeetCode Solution Explained in all languages", "2024 Maximize the Confusion of an Exam", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2024 Maximize The Confusion Of An Exam - Solution Explained/problem-solving.webp
-    alt: 2024 Maximize The Confusion Of An Exam
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2024 Maximize the Confusion of an Exam - Solution Explained/problem-solving.webp
+    alt: 2024 Maximize the Confusion of an Exam
     hiddenInList: true
     hiddenInSingle: false
 ---

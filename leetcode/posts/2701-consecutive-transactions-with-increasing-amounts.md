@@ -1,13 +1,13 @@
 ---
-title: 2701 Consecutive Transactions With Increasing Amounts
-summary: 2701 Consecutive Transactions With Increasing Amounts LeetCode Solution Explained
+title: 2701 Consecutive Transactions with Increasing Amounts
+summary: 2701 Consecutive Transactions with Increasing Amounts LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2701 Consecutive Transactions With Increasing Amounts LeetCode Solution Explained in all languages", "2701 Consecutive Transactions With Increasing Amounts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2701 Consecutive Transactions with Increasing Amounts LeetCode Solution Explained in all languages", "2701 Consecutive Transactions with Increasing Amounts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2701 Consecutive Transactions With Increasing Amounts - Solution Explained/problem-solving.webp
-    alt: 2701 Consecutive Transactions With Increasing Amounts
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2701 Consecutive Transactions with Increasing Amounts - Solution Explained/problem-solving.webp
+    alt: 2701 Consecutive Transactions with Increasing Amounts
     hiddenInList: true
     hiddenInSingle: false
 ---

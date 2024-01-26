@@ -1,13 +1,13 @@
 ---
-title: 3003 Maximize The Number Of Partitions After Operations
-summary: 3003 Maximize The Number Of Partitions After Operations LeetCode Solution Explained
+title: 3003 Maximize the Number of Partitions After Operations
+summary: 3003 Maximize the Number of Partitions After Operations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["3003 Maximize The Number Of Partitions After Operations LeetCode Solution Explained in all languages", "3003 Maximize The Number Of Partitions After Operations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["3003 Maximize the Number of Partitions After Operations LeetCode Solution Explained in all languages", "3003 Maximize the Number of Partitions After Operations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3003 Maximize The Number Of Partitions After Operations - Solution Explained/problem-solving.webp
-    alt: 3003 Maximize The Number Of Partitions After Operations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3003 Maximize the Number of Partitions After Operations - Solution Explained/problem-solving.webp
+    alt: 3003 Maximize the Number of Partitions After Operations
     hiddenInList: true
     hiddenInSingle: false
 ---

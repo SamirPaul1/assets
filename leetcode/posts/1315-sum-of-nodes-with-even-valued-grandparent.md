@@ -1,13 +1,13 @@
 ---
-title: 1315 Sum Of Nodes With Even Valued Grandparent
-summary: 1315 Sum Of Nodes With Even Valued Grandparent LeetCode Solution Explained
+title: 1315 Sum of Nodes with Even Valued Grandparent
+summary: 1315 Sum of Nodes with Even Valued Grandparent LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1315 Sum Of Nodes With Even Valued Grandparent LeetCode Solution Explained in all languages", "1315 Sum Of Nodes With Even Valued Grandparent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1315 Sum of Nodes with Even Valued Grandparent LeetCode Solution Explained in all languages", "1315 Sum of Nodes with Even Valued Grandparent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1315 Sum Of Nodes With Even Valued Grandparent - Solution Explained/problem-solving.webp
-    alt: 1315 Sum Of Nodes With Even Valued Grandparent
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1315 Sum of Nodes with Even Valued Grandparent - Solution Explained/problem-solving.webp
+    alt: 1315 Sum of Nodes with Even Valued Grandparent
     hiddenInList: true
     hiddenInSingle: false
 ---

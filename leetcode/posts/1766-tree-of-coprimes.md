@@ -1,13 +1,13 @@
 ---
-title: 1766 Tree Of Coprimes
-summary: 1766 Tree Of Coprimes LeetCode Solution Explained
+title: 1766 Tree of Coprimes
+summary: 1766 Tree of Coprimes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1766 Tree Of Coprimes LeetCode Solution Explained in all languages", "1766 Tree Of Coprimes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1766 Tree of Coprimes LeetCode Solution Explained in all languages", "1766 Tree of Coprimes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1766 Tree Of Coprimes - Solution Explained/problem-solving.webp
-    alt: 1766 Tree Of Coprimes
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1766 Tree of Coprimes - Solution Explained/problem-solving.webp
+    alt: 1766 Tree of Coprimes
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1418 Display Table Of Food Orders In A Restaurant
-summary: 1418 Display Table Of Food Orders In A Restaurant LeetCode Solution Explained
+title: 1418 Display Table of Food Orders in a Restaurant
+summary: 1418 Display Table of Food Orders in a Restaurant LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1418 Display Table Of Food Orders In A Restaurant LeetCode Solution Explained in all languages", "1418 Display Table Of Food Orders In A Restaurant", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1418 Display Table of Food Orders in a Restaurant LeetCode Solution Explained in all languages", "1418 Display Table of Food Orders in a Restaurant", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1418 Display Table Of Food Orders In A Restaurant - Solution Explained/problem-solving.webp
-    alt: 1418 Display Table Of Food Orders In A Restaurant
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1418 Display Table of Food Orders in a Restaurant - Solution Explained/problem-solving.webp
+    alt: 1418 Display Table of Food Orders in a Restaurant
     hiddenInList: true
     hiddenInSingle: false
 ---

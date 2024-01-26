@@ -1,13 +1,13 @@
 ---
-title: 2574 Left And Right Sum Differences
-summary: 2574 Left And Right Sum Differences LeetCode Solution Explained
+title: 2574 Left and Right Sum Differences
+summary: 2574 Left and Right Sum Differences LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2574 Left And Right Sum Differences LeetCode Solution Explained in all languages", "2574 Left And Right Sum Differences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2574 Left and Right Sum Differences LeetCode Solution Explained in all languages", "2574 Left and Right Sum Differences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2574 Left And Right Sum Differences - Solution Explained/problem-solving.webp
-    alt: 2574 Left And Right Sum Differences
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2574 Left and Right Sum Differences - Solution Explained/problem-solving.webp
+    alt: 2574 Left and Right Sum Differences
     hiddenInList: true
     hiddenInSingle: false
 ---

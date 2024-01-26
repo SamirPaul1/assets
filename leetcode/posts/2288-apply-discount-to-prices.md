@@ -1,13 +1,13 @@
 ---
-title: 2288 Apply Discount To Prices
-summary: 2288 Apply Discount To Prices LeetCode Solution Explained
+title: 2288 Apply Discount to Prices
+summary: 2288 Apply Discount to Prices LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2288 Apply Discount To Prices LeetCode Solution Explained in all languages", "2288 Apply Discount To Prices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2288 Apply Discount to Prices LeetCode Solution Explained in all languages", "2288 Apply Discount to Prices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2288 Apply Discount To Prices - Solution Explained/problem-solving.webp
-    alt: 2288 Apply Discount To Prices
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2288 Apply Discount to Prices - Solution Explained/problem-solving.webp
+    alt: 2288 Apply Discount to Prices
     hiddenInList: true
     hiddenInSingle: false
 ---

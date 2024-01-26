@@ -1,13 +1,13 @@
 ---
-title: 0323 Number Of Connected Components In An Undirected Graph
-summary: 0323 Number Of Connected Components In An Undirected Graph LeetCode Solution Explained
+title: 0323 Number of Connected Components in an Undirected Graph
+summary: 0323 Number of Connected Components in an Undirected Graph LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0323 Number Of Connected Components In An Undirected Graph LeetCode Solution Explained in all languages", "0323 Number Of Connected Components In An Undirected Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0323 Number of Connected Components in an Undirected Graph LeetCode Solution Explained in all languages", "0323 Number of Connected Components in an Undirected Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0323 Number Of Connected Components In An Undirected Graph - Solution Explained/problem-solving.webp
-    alt: 0323 Number Of Connected Components In An Undirected Graph
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0323 Number of Connected Components in an Undirected Graph - Solution Explained/problem-solving.webp
+    alt: 0323 Number of Connected Components in an Undirected Graph
     hiddenInList: true
     hiddenInSingle: false
 ---

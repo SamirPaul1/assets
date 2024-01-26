@@ -1,13 +1,13 @@
 ---
-title: 2639 Find The Width Of Columns Of A Grid
-summary: 2639 Find The Width Of Columns Of A Grid LeetCode Solution Explained
+title: 2639 Find the Width of Columns of a Grid
+summary: 2639 Find the Width of Columns of a Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2639 Find The Width Of Columns Of A Grid LeetCode Solution Explained in all languages", "2639 Find The Width Of Columns Of A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2639 Find the Width of Columns of a Grid LeetCode Solution Explained in all languages", "2639 Find the Width of Columns of a Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2639 Find The Width Of Columns Of A Grid - Solution Explained/problem-solving.webp
-    alt: 2639 Find The Width Of Columns Of A Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2639 Find the Width of Columns of a Grid - Solution Explained/problem-solving.webp
+    alt: 2639 Find the Width of Columns of a Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2086 Minimum Number Of Food Buckets To Feed The Hamsters
-summary: 2086 Minimum Number Of Food Buckets To Feed The Hamsters LeetCode Solution Explained
+title: 2086 Minimum Number of Food Buckets to Feed the Hamsters
+summary: 2086 Minimum Number of Food Buckets to Feed the Hamsters LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2086 Minimum Number Of Food Buckets To Feed The Hamsters LeetCode Solution Explained in all languages", "2086 Minimum Number Of Food Buckets To Feed The Hamsters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2086 Minimum Number of Food Buckets to Feed the Hamsters LeetCode Solution Explained in all languages", "2086 Minimum Number of Food Buckets to Feed the Hamsters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2086 Minimum Number Of Food Buckets To Feed The Hamsters - Solution Explained/problem-solving.webp
-    alt: 2086 Minimum Number Of Food Buckets To Feed The Hamsters
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2086 Minimum Number of Food Buckets to Feed the Hamsters - Solution Explained/problem-solving.webp
+    alt: 2086 Minimum Number of Food Buckets to Feed the Hamsters
     hiddenInList: true
     hiddenInSingle: false
 ---

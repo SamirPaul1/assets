@@ -1,13 +1,13 @@
 ---
-title: 1462 Course Schedule Iv
-summary: 1462 Course Schedule Iv LeetCode Solution Explained
+title: 1462 Course Schedule IV
+summary: 1462 Course Schedule IV LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1462 Course Schedule Iv LeetCode Solution Explained in all languages", "1462 Course Schedule Iv", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1462 Course Schedule IV LeetCode Solution Explained in all languages", "1462 Course Schedule IV", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1462 Course Schedule Iv - Solution Explained/problem-solving.webp
-    alt: 1462 Course Schedule Iv
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1462 Course Schedule IV - Solution Explained/problem-solving.webp
+    alt: 1462 Course Schedule IV
     hiddenInList: true
     hiddenInSingle: false
 ---

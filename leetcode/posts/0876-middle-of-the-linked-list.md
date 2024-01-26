@@ -1,13 +1,13 @@
 ---
-title: 0876 Middle Of The Linked List
-summary: 0876 Middle Of The Linked List LeetCode Solution Explained
+title: 0876 Middle of the Linked List
+summary: 0876 Middle of the Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0876 Middle Of The Linked List LeetCode Solution Explained in all languages", "0876 Middle Of The Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0876 Middle of the Linked List LeetCode Solution Explained in all languages", "0876 Middle of the Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0876 Middle Of The Linked List - Solution Explained/problem-solving.webp
-    alt: 0876 Middle Of The Linked List
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0876 Middle of the Linked List - Solution Explained/problem-solving.webp
+    alt: 0876 Middle of the Linked List
     hiddenInList: true
     hiddenInSingle: false
 ---

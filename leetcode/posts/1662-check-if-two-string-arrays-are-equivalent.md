@@ -1,13 +1,13 @@
 ---
-title: 1662 Check If Two String Arrays Are Equivalent
-summary: 1662 Check If Two String Arrays Are Equivalent LeetCode Solution Explained
+title: 1662 Check If Two String Arrays are Equivalent
+summary: 1662 Check If Two String Arrays are Equivalent LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1662 Check If Two String Arrays Are Equivalent LeetCode Solution Explained in all languages", "1662 Check If Two String Arrays Are Equivalent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1662 Check If Two String Arrays are Equivalent LeetCode Solution Explained in all languages", "1662 Check If Two String Arrays are Equivalent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1662 Check If Two String Arrays Are Equivalent - Solution Explained/problem-solving.webp
-    alt: 1662 Check If Two String Arrays Are Equivalent
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1662 Check If Two String Arrays are Equivalent - Solution Explained/problem-solving.webp
+    alt: 1662 Check If Two String Arrays are Equivalent
     hiddenInList: true
     hiddenInSingle: false
 ---

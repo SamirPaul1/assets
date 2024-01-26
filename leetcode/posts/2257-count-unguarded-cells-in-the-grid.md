@@ -1,13 +1,13 @@
 ---
-title: 2257 Count Unguarded Cells In The Grid
-summary: 2257 Count Unguarded Cells In The Grid LeetCode Solution Explained
+title: 2257 Count Unguarded Cells in the Grid
+summary: 2257 Count Unguarded Cells in the Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2257 Count Unguarded Cells In The Grid LeetCode Solution Explained in all languages", "2257 Count Unguarded Cells In The Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2257 Count Unguarded Cells in the Grid LeetCode Solution Explained in all languages", "2257 Count Unguarded Cells in the Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2257 Count Unguarded Cells In The Grid - Solution Explained/problem-solving.webp
-    alt: 2257 Count Unguarded Cells In The Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2257 Count Unguarded Cells in the Grid - Solution Explained/problem-solving.webp
+    alt: 2257 Count Unguarded Cells in the Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

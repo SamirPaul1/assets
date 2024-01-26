@@ -1,13 +1,13 @@
 ---
-title: 1168 Optimize Water Distribution In A Village
-summary: 1168 Optimize Water Distribution In A Village LeetCode Solution Explained
+title: 1168 Optimize Water Distribution in a Village
+summary: 1168 Optimize Water Distribution in a Village LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1168 Optimize Water Distribution In A Village LeetCode Solution Explained in all languages", "1168 Optimize Water Distribution In A Village", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1168 Optimize Water Distribution in a Village LeetCode Solution Explained in all languages", "1168 Optimize Water Distribution in a Village", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1168 Optimize Water Distribution In A Village - Solution Explained/problem-solving.webp
-    alt: 1168 Optimize Water Distribution In A Village
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1168 Optimize Water Distribution in a Village - Solution Explained/problem-solving.webp
+    alt: 1168 Optimize Water Distribution in a Village
     hiddenInList: true
     hiddenInSingle: false
 ---

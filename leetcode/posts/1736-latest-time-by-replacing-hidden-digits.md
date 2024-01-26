@@ -1,13 +1,13 @@
 ---
-title: 1736 Latest Time By Replacing Hidden Digits
-summary: 1736 Latest Time By Replacing Hidden Digits LeetCode Solution Explained
+title: 1736 Latest Time by Replacing Hidden Digits
+summary: 1736 Latest Time by Replacing Hidden Digits LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1736 Latest Time By Replacing Hidden Digits LeetCode Solution Explained in all languages", "1736 Latest Time By Replacing Hidden Digits", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1736 Latest Time by Replacing Hidden Digits LeetCode Solution Explained in all languages", "1736 Latest Time by Replacing Hidden Digits", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1736 Latest Time By Replacing Hidden Digits - Solution Explained/problem-solving.webp
-    alt: 1736 Latest Time By Replacing Hidden Digits
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1736 Latest Time by Replacing Hidden Digits - Solution Explained/problem-solving.webp
+    alt: 1736 Latest Time by Replacing Hidden Digits
     hiddenInList: true
     hiddenInSingle: false
 ---

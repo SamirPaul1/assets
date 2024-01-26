@@ -1,13 +1,13 @@
 ---
-title: 0084 Largest Rectangle In Histogram
-summary: 0084 Largest Rectangle In Histogram LeetCode Solution Explained
+title: 0084 Largest Rectangle in Histogram
+summary: 0084 Largest Rectangle in Histogram LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0084 Largest Rectangle In Histogram LeetCode Solution Explained in all languages", "0084 Largest Rectangle In Histogram", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0084 Largest Rectangle in Histogram LeetCode Solution Explained in all languages", "0084 Largest Rectangle in Histogram", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0084 Largest Rectangle In Histogram - Solution Explained/problem-solving.webp
-    alt: 0084 Largest Rectangle In Histogram
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0084 Largest Rectangle in Histogram - Solution Explained/problem-solving.webp
+    alt: 0084 Largest Rectangle in Histogram
     hiddenInList: true
     hiddenInSingle: false
 ---

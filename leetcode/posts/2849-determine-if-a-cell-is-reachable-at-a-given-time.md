@@ -1,13 +1,13 @@
 ---
-title: 2849 Determine If A Cell Is Reachable At A Given Time
-summary: 2849 Determine If A Cell Is Reachable At A Given Time LeetCode Solution Explained
+title: 2849 Determine if a Cell Is Reachable at a Given Time
+summary: 2849 Determine if a Cell Is Reachable at a Given Time LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2849 Determine If A Cell Is Reachable At A Given Time LeetCode Solution Explained in all languages", "2849 Determine If A Cell Is Reachable At A Given Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2849 Determine if a Cell Is Reachable at a Given Time LeetCode Solution Explained in all languages", "2849 Determine if a Cell Is Reachable at a Given Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2849 Determine If A Cell Is Reachable At A Given Time - Solution Explained/problem-solving.webp
-    alt: 2849 Determine If A Cell Is Reachable At A Given Time
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2849 Determine if a Cell Is Reachable at a Given Time - Solution Explained/problem-solving.webp
+    alt: 2849 Determine if a Cell Is Reachable at a Given Time
     hiddenInList: true
     hiddenInSingle: false
 ---

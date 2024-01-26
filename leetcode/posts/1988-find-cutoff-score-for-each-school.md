@@ -1,13 +1,13 @@
 ---
-title: 1988 Find Cutoff Score For Each School
-summary: 1988 Find Cutoff Score For Each School LeetCode Solution Explained
+title: 1988 Find Cutoff Score for Each School
+summary: 1988 Find Cutoff Score for Each School LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1988 Find Cutoff Score For Each School LeetCode Solution Explained in all languages", "1988 Find Cutoff Score For Each School", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1988 Find Cutoff Score for Each School LeetCode Solution Explained in all languages", "1988 Find Cutoff Score for Each School", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1988 Find Cutoff Score For Each School - Solution Explained/problem-solving.webp
-    alt: 1988 Find Cutoff Score For Each School
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1988 Find Cutoff Score for Each School - Solution Explained/problem-solving.webp
+    alt: 1988 Find Cutoff Score for Each School
     hiddenInList: true
     hiddenInSingle: false
 ---

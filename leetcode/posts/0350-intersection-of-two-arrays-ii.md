@@ -1,13 +1,13 @@
 ---
-title: 0350 Intersection Of Two Arrays Ii
-summary: 0350 Intersection Of Two Arrays Ii LeetCode Solution Explained
+title: 0350 Intersection of Two Arrays II
+summary: 0350 Intersection of Two Arrays II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0350 Intersection Of Two Arrays Ii LeetCode Solution Explained in all languages", "0350 Intersection Of Two Arrays Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0350 Intersection of Two Arrays II LeetCode Solution Explained in all languages", "0350 Intersection of Two Arrays II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0350 Intersection Of Two Arrays Ii - Solution Explained/problem-solving.webp
-    alt: 0350 Intersection Of Two Arrays Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0350 Intersection of Two Arrays II - Solution Explained/problem-solving.webp
+    alt: 0350 Intersection of Two Arrays II
     hiddenInList: true
     hiddenInSingle: false
 ---

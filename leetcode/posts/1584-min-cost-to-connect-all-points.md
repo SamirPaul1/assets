@@ -1,13 +1,13 @@
 ---
-title: 1584 Min Cost To Connect All Points
-summary: 1584 Min Cost To Connect All Points LeetCode Solution Explained
+title: 1584 Min Cost to Connect All Points
+summary: 1584 Min Cost to Connect All Points LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1584 Min Cost To Connect All Points LeetCode Solution Explained in all languages", "1584 Min Cost To Connect All Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1584 Min Cost to Connect All Points LeetCode Solution Explained in all languages", "1584 Min Cost to Connect All Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1584 Min Cost To Connect All Points - Solution Explained/problem-solving.webp
-    alt: 1584 Min Cost To Connect All Points
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1584 Min Cost to Connect All Points - Solution Explained/problem-solving.webp
+    alt: 1584 Min Cost to Connect All Points
     hiddenInList: true
     hiddenInSingle: false
 ---

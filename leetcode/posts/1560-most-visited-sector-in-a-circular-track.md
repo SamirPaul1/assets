@@ -1,13 +1,13 @@
 ---
-title: 1560 Most Visited Sector In A Circular Track
-summary: 1560 Most Visited Sector In A Circular Track LeetCode Solution Explained
+title: 1560 Most Visited Sector in a Circular Track
+summary: 1560 Most Visited Sector in a Circular Track LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1560 Most Visited Sector In A Circular Track LeetCode Solution Explained in all languages", "1560 Most Visited Sector In A Circular Track", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1560 Most Visited Sector in a Circular Track LeetCode Solution Explained in all languages", "1560 Most Visited Sector in a Circular Track", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1560 Most Visited Sector In A Circular Track - Solution Explained/problem-solving.webp
-    alt: 1560 Most Visited Sector In A Circular Track
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1560 Most Visited Sector in a Circular Track - Solution Explained/problem-solving.webp
+    alt: 1560 Most Visited Sector in a Circular Track
     hiddenInList: true
     hiddenInSingle: false
 ---

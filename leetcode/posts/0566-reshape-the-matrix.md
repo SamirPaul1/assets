@@ -1,13 +1,13 @@
 ---
-title: 0566 Reshape The Matrix
-summary: 0566 Reshape The Matrix LeetCode Solution Explained
+title: 0566 Reshape the Matrix
+summary: 0566 Reshape the Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0566 Reshape The Matrix LeetCode Solution Explained in all languages", "0566 Reshape The Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0566 Reshape the Matrix LeetCode Solution Explained in all languages", "0566 Reshape the Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0566 Reshape The Matrix - Solution Explained/problem-solving.webp
-    alt: 0566 Reshape The Matrix
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0566 Reshape the Matrix - Solution Explained/problem-solving.webp
+    alt: 0566 Reshape the Matrix
     hiddenInList: true
     hiddenInSingle: false
 ---

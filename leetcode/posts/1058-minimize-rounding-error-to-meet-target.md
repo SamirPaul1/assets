@@ -1,13 +1,13 @@
 ---
-title: 1058 Minimize Rounding Error To Meet Target
-summary: 1058 Minimize Rounding Error To Meet Target LeetCode Solution Explained
+title: 1058 Minimize Rounding Error to Meet Target
+summary: 1058 Minimize Rounding Error to Meet Target LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1058 Minimize Rounding Error To Meet Target LeetCode Solution Explained in all languages", "1058 Minimize Rounding Error To Meet Target", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1058 Minimize Rounding Error to Meet Target LeetCode Solution Explained in all languages", "1058 Minimize Rounding Error to Meet Target", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1058 Minimize Rounding Error To Meet Target - Solution Explained/problem-solving.webp
-    alt: 1058 Minimize Rounding Error To Meet Target
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1058 Minimize Rounding Error to Meet Target - Solution Explained/problem-solving.webp
+    alt: 1058 Minimize Rounding Error to Meet Target
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2554 Maximum Number Of Integers To Choose From A Range I
-summary: 2554 Maximum Number Of Integers To Choose From A Range I LeetCode Solution Explained
+title: 2554 Maximum Number of Integers to Choose From a Range I
+summary: 2554 Maximum Number of Integers to Choose From a Range I LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2554 Maximum Number Of Integers To Choose From A Range I LeetCode Solution Explained in all languages", "2554 Maximum Number Of Integers To Choose From A Range I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2554 Maximum Number of Integers to Choose From a Range I LeetCode Solution Explained in all languages", "2554 Maximum Number of Integers to Choose From a Range I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2554 Maximum Number Of Integers To Choose From A Range I - Solution Explained/problem-solving.webp
-    alt: 2554 Maximum Number Of Integers To Choose From A Range I
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2554 Maximum Number of Integers to Choose From a Range I - Solution Explained/problem-solving.webp
+    alt: 2554 Maximum Number of Integers to Choose From a Range I
     hiddenInList: true
     hiddenInSingle: false
 ---

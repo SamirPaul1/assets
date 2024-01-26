@@ -1,13 +1,13 @@
 ---
-title: 2505 Bitwise Or Of All Subsequence Sums
-summary: 2505 Bitwise Or Of All Subsequence Sums LeetCode Solution Explained
+title: 2505 Bitwise OR of All Subsequence Sums
+summary: 2505 Bitwise OR of All Subsequence Sums LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2505 Bitwise Or Of All Subsequence Sums LeetCode Solution Explained in all languages", "2505 Bitwise Or Of All Subsequence Sums", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2505 Bitwise OR of All Subsequence Sums LeetCode Solution Explained in all languages", "2505 Bitwise OR of All Subsequence Sums", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2505 Bitwise Or Of All Subsequence Sums - Solution Explained/problem-solving.webp
-    alt: 2505 Bitwise Or Of All Subsequence Sums
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2505 Bitwise OR of All Subsequence Sums - Solution Explained/problem-solving.webp
+    alt: 2505 Bitwise OR of All Subsequence Sums
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1379 Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree
-summary: 1379 Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree LeetCode Solution Explained
+title: 1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree
+summary: 1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1379 Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree LeetCode Solution Explained in all languages", "1379 Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree LeetCode Solution Explained in all languages", "1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1379 Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree - Solution Explained/problem-solving.webp
-    alt: 1379 Find A Corresponding Node Of A Binary Tree In A Clone Of That Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree - Solution Explained/problem-solving.webp
+    alt: 1379 Find a Corresponding Node of a Binary Tree in a Clone of That Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

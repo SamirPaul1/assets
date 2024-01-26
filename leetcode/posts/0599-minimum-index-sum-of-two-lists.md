@@ -1,13 +1,13 @@
 ---
-title: 0599 Minimum Index Sum Of Two Lists
-summary: 0599 Minimum Index Sum Of Two Lists LeetCode Solution Explained
+title: 0599 Minimum Index Sum of Two Lists
+summary: 0599 Minimum Index Sum of Two Lists LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0599 Minimum Index Sum Of Two Lists LeetCode Solution Explained in all languages", "0599 Minimum Index Sum Of Two Lists", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0599 Minimum Index Sum of Two Lists LeetCode Solution Explained in all languages", "0599 Minimum Index Sum of Two Lists", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0599 Minimum Index Sum Of Two Lists - Solution Explained/problem-solving.webp
-    alt: 0599 Minimum Index Sum Of Two Lists
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0599 Minimum Index Sum of Two Lists - Solution Explained/problem-solving.webp
+    alt: 0599 Minimum Index Sum of Two Lists
     hiddenInList: true
     hiddenInSingle: false
 ---

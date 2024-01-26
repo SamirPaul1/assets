@@ -1,13 +1,13 @@
 ---
-title: 1682 Longest Palindromic Subsequence Ii
-summary: 1682 Longest Palindromic Subsequence Ii LeetCode Solution Explained
+title: 1682 Longest Palindromic Subsequence II
+summary: 1682 Longest Palindromic Subsequence II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1682 Longest Palindromic Subsequence Ii LeetCode Solution Explained in all languages", "1682 Longest Palindromic Subsequence Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1682 Longest Palindromic Subsequence II LeetCode Solution Explained in all languages", "1682 Longest Palindromic Subsequence II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1682 Longest Palindromic Subsequence Ii - Solution Explained/problem-solving.webp
-    alt: 1682 Longest Palindromic Subsequence Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1682 Longest Palindromic Subsequence II - Solution Explained/problem-solving.webp
+    alt: 1682 Longest Palindromic Subsequence II
     hiddenInList: true
     hiddenInSingle: false
 ---

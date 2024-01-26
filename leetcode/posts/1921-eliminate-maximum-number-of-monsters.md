@@ -1,13 +1,13 @@
 ---
-title: 1921 Eliminate Maximum Number Of Monsters
-summary: 1921 Eliminate Maximum Number Of Monsters LeetCode Solution Explained
+title: 1921 Eliminate Maximum Number of Monsters
+summary: 1921 Eliminate Maximum Number of Monsters LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1921 Eliminate Maximum Number Of Monsters LeetCode Solution Explained in all languages", "1921 Eliminate Maximum Number Of Monsters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1921 Eliminate Maximum Number of Monsters LeetCode Solution Explained in all languages", "1921 Eliminate Maximum Number of Monsters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1921 Eliminate Maximum Number Of Monsters - Solution Explained/problem-solving.webp
-    alt: 1921 Eliminate Maximum Number Of Monsters
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1921 Eliminate Maximum Number of Monsters - Solution Explained/problem-solving.webp
+    alt: 1921 Eliminate Maximum Number of Monsters
     hiddenInList: true
     hiddenInSingle: false
 ---

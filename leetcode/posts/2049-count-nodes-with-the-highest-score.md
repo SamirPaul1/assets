@@ -1,13 +1,13 @@
 ---
-title: 2049 Count Nodes With The Highest Score
-summary: 2049 Count Nodes With The Highest Score LeetCode Solution Explained
+title: 2049 Count Nodes With the Highest Score
+summary: 2049 Count Nodes With the Highest Score LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2049 Count Nodes With The Highest Score LeetCode Solution Explained in all languages", "2049 Count Nodes With The Highest Score", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2049 Count Nodes With the Highest Score LeetCode Solution Explained in all languages", "2049 Count Nodes With the Highest Score", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2049 Count Nodes With The Highest Score - Solution Explained/problem-solving.webp
-    alt: 2049 Count Nodes With The Highest Score
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2049 Count Nodes With the Highest Score - Solution Explained/problem-solving.webp
+    alt: 2049 Count Nodes With the Highest Score
     hiddenInList: true
     hiddenInSingle: false
 ---

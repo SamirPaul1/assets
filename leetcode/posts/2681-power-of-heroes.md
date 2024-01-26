@@ -1,13 +1,13 @@
 ---
-title: 2681 Power Of Heroes
-summary: 2681 Power Of Heroes LeetCode Solution Explained
+title: 2681 Power of Heroes
+summary: 2681 Power of Heroes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2681 Power Of Heroes LeetCode Solution Explained in all languages", "2681 Power Of Heroes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2681 Power of Heroes LeetCode Solution Explained in all languages", "2681 Power of Heroes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2681 Power Of Heroes - Solution Explained/problem-solving.webp
-    alt: 2681 Power Of Heroes
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2681 Power of Heroes - Solution Explained/problem-solving.webp
+    alt: 2681 Power of Heroes
     hiddenInList: true
     hiddenInSingle: false
 ---

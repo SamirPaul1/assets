@@ -1,13 +1,13 @@
 ---
-title: 1312 Minimum Insertion Steps To Make A String Palindrome
-summary: 1312 Minimum Insertion Steps To Make A String Palindrome LeetCode Solution Explained
+title: 1312 Minimum Insertion Steps to Make a String Palindrome
+summary: 1312 Minimum Insertion Steps to Make a String Palindrome LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1312 Minimum Insertion Steps To Make A String Palindrome LeetCode Solution Explained in all languages", "1312 Minimum Insertion Steps To Make A String Palindrome", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1312 Minimum Insertion Steps to Make a String Palindrome LeetCode Solution Explained in all languages", "1312 Minimum Insertion Steps to Make a String Palindrome", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1312 Minimum Insertion Steps To Make A String Palindrome - Solution Explained/problem-solving.webp
-    alt: 1312 Minimum Insertion Steps To Make A String Palindrome
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1312 Minimum Insertion Steps to Make a String Palindrome - Solution Explained/problem-solving.webp
+    alt: 1312 Minimum Insertion Steps to Make a String Palindrome
     hiddenInList: true
     hiddenInSingle: false
 ---

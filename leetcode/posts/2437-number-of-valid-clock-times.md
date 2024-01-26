@@ -1,13 +1,13 @@
 ---
-title: 2437 Number Of Valid Clock Times
-summary: 2437 Number Of Valid Clock Times LeetCode Solution Explained
+title: 2437 Number of Valid Clock Times
+summary: 2437 Number of Valid Clock Times LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2437 Number Of Valid Clock Times LeetCode Solution Explained in all languages", "2437 Number Of Valid Clock Times", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2437 Number of Valid Clock Times LeetCode Solution Explained in all languages", "2437 Number of Valid Clock Times", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2437 Number Of Valid Clock Times - Solution Explained/problem-solving.webp
-    alt: 2437 Number Of Valid Clock Times
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2437 Number of Valid Clock Times - Solution Explained/problem-solving.webp
+    alt: 2437 Number of Valid Clock Times
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1080 Insufficient Nodes In Root To Leaf Paths
-summary: 1080 Insufficient Nodes In Root To Leaf Paths LeetCode Solution Explained
+title: 1080 Insufficient Nodes in Root to Leaf Paths
+summary: 1080 Insufficient Nodes in Root to Leaf Paths LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1080 Insufficient Nodes In Root To Leaf Paths LeetCode Solution Explained in all languages", "1080 Insufficient Nodes In Root To Leaf Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1080 Insufficient Nodes in Root to Leaf Paths LeetCode Solution Explained in all languages", "1080 Insufficient Nodes in Root to Leaf Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1080 Insufficient Nodes In Root To Leaf Paths - Solution Explained/problem-solving.webp
-    alt: 1080 Insufficient Nodes In Root To Leaf Paths
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1080 Insufficient Nodes in Root to Leaf Paths - Solution Explained/problem-solving.webp
+    alt: 1080 Insufficient Nodes in Root to Leaf Paths
     hiddenInList: true
     hiddenInSingle: false
 ---

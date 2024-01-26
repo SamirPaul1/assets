@@ -1,13 +1,13 @@
 ---
-title: 2693 Call Function With Custom Context
-summary: 2693 Call Function With Custom Context LeetCode Solution Explained
+title: 2693 Call Function with Custom Context
+summary: 2693 Call Function with Custom Context LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2693 Call Function With Custom Context LeetCode Solution Explained in all languages", "2693 Call Function With Custom Context", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2693 Call Function with Custom Context LeetCode Solution Explained in all languages", "2693 Call Function with Custom Context", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2693 Call Function With Custom Context - Solution Explained/problem-solving.webp
-    alt: 2693 Call Function With Custom Context
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2693 Call Function with Custom Context - Solution Explained/problem-solving.webp
+    alt: 2693 Call Function with Custom Context
     hiddenInList: true
     hiddenInSingle: false
 ---

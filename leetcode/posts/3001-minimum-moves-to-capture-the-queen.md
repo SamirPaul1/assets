@@ -1,13 +1,13 @@
 ---
-title: 3001 Minimum Moves To Capture The Queen
-summary: 3001 Minimum Moves To Capture The Queen LeetCode Solution Explained
+title: 3001 Minimum Moves to Capture The Queen
+summary: 3001 Minimum Moves to Capture The Queen LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["3001 Minimum Moves To Capture The Queen LeetCode Solution Explained in all languages", "3001 Minimum Moves To Capture The Queen", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["3001 Minimum Moves to Capture The Queen LeetCode Solution Explained in all languages", "3001 Minimum Moves to Capture The Queen", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3001 Minimum Moves To Capture The Queen - Solution Explained/problem-solving.webp
-    alt: 3001 Minimum Moves To Capture The Queen
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3001 Minimum Moves to Capture The Queen - Solution Explained/problem-solving.webp
+    alt: 3001 Minimum Moves to Capture The Queen
     hiddenInList: true
     hiddenInSingle: false
 ---

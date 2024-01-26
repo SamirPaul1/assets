@@ -1,13 +1,13 @@
 ---
-title: 1456 Maximum Number Of Vowels In A Substring Of Given Length
-summary: 1456 Maximum Number Of Vowels In A Substring Of Given Length LeetCode Solution Explained
+title: 1456 Maximum Number of Vowels in a Substring of Given Length
+summary: 1456 Maximum Number of Vowels in a Substring of Given Length LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1456 Maximum Number Of Vowels In A Substring Of Given Length LeetCode Solution Explained in all languages", "1456 Maximum Number Of Vowels In A Substring Of Given Length", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1456 Maximum Number of Vowels in a Substring of Given Length LeetCode Solution Explained in all languages", "1456 Maximum Number of Vowels in a Substring of Given Length", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1456 Maximum Number Of Vowels In A Substring Of Given Length - Solution Explained/problem-solving.webp
-    alt: 1456 Maximum Number Of Vowels In A Substring Of Given Length
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1456 Maximum Number of Vowels in a Substring of Given Length - Solution Explained/problem-solving.webp
+    alt: 1456 Maximum Number of Vowels in a Substring of Given Length
     hiddenInList: true
     hiddenInSingle: false
 ---

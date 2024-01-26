@@ -1,13 +1,13 @@
 ---
-title: 1297 Maximum Number Of Occurrences Of A Substring
-summary: 1297 Maximum Number Of Occurrences Of A Substring LeetCode Solution Explained
+title: 1297 Maximum Number of Occurrences of a Substring
+summary: 1297 Maximum Number of Occurrences of a Substring LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1297 Maximum Number Of Occurrences Of A Substring LeetCode Solution Explained in all languages", "1297 Maximum Number Of Occurrences Of A Substring", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1297 Maximum Number of Occurrences of a Substring LeetCode Solution Explained in all languages", "1297 Maximum Number of Occurrences of a Substring", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1297 Maximum Number Of Occurrences Of A Substring - Solution Explained/problem-solving.webp
-    alt: 1297 Maximum Number Of Occurrences Of A Substring
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1297 Maximum Number of Occurrences of a Substring - Solution Explained/problem-solving.webp
+    alt: 1297 Maximum Number of Occurrences of a Substring
     hiddenInList: true
     hiddenInSingle: false
 ---

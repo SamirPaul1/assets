@@ -1,13 +1,13 @@
 ---
-title: 1863 Sum Of All Subset Xor Totals
-summary: 1863 Sum Of All Subset Xor Totals LeetCode Solution Explained
+title: 1863 Sum of All Subset XOR Totals
+summary: 1863 Sum of All Subset XOR Totals LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1863 Sum Of All Subset Xor Totals LeetCode Solution Explained in all languages", "1863 Sum Of All Subset Xor Totals", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1863 Sum of All Subset XOR Totals LeetCode Solution Explained in all languages", "1863 Sum of All Subset XOR Totals", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1863 Sum Of All Subset Xor Totals - Solution Explained/problem-solving.webp
-    alt: 1863 Sum Of All Subset Xor Totals
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1863 Sum of All Subset XOR Totals - Solution Explained/problem-solving.webp
+    alt: 1863 Sum of All Subset XOR Totals
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1217 Minimum Cost To Move Chips To The Same Position
-summary: 1217 Minimum Cost To Move Chips To The Same Position LeetCode Solution Explained
+title: 1217 Minimum Cost to Move Chips to The Same Position
+summary: 1217 Minimum Cost to Move Chips to The Same Position LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1217 Minimum Cost To Move Chips To The Same Position LeetCode Solution Explained in all languages", "1217 Minimum Cost To Move Chips To The Same Position", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1217 Minimum Cost to Move Chips to The Same Position LeetCode Solution Explained in all languages", "1217 Minimum Cost to Move Chips to The Same Position", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1217 Minimum Cost To Move Chips To The Same Position - Solution Explained/problem-solving.webp
-    alt: 1217 Minimum Cost To Move Chips To The Same Position
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1217 Minimum Cost to Move Chips to The Same Position - Solution Explained/problem-solving.webp
+    alt: 1217 Minimum Cost to Move Chips to The Same Position
     hiddenInList: true
     hiddenInSingle: false
 ---

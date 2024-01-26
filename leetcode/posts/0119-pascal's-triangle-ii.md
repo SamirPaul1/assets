@@ -1,13 +1,13 @@
 ---
-title: 0119 Pascal'S Triangle Ii
-summary: 0119 Pascal'S Triangle Ii LeetCode Solution Explained
+title: 0119 Pascal's Triangle II
+summary: 0119 Pascal's Triangle II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0119 Pascal'S Triangle Ii LeetCode Solution Explained in all languages", "0119 Pascal'S Triangle Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0119 Pascal's Triangle II LeetCode Solution Explained in all languages", "0119 Pascal's Triangle II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0119 Pascal'S Triangle Ii - Solution Explained/problem-solving.webp
-    alt: 0119 Pascal'S Triangle Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0119 Pascal's Triangle II - Solution Explained/problem-solving.webp
+    alt: 0119 Pascal's Triangle II
     hiddenInList: true
     hiddenInSingle: false
 ---

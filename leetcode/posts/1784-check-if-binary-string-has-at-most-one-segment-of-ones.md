@@ -1,13 +1,13 @@
 ---
-title: 1784 Check If Binary String Has At Most One Segment Of Ones
-summary: 1784 Check If Binary String Has At Most One Segment Of Ones LeetCode Solution Explained
+title: 1784 Check if Binary String Has at Most One Segment of Ones
+summary: 1784 Check if Binary String Has at Most One Segment of Ones LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1784 Check If Binary String Has At Most One Segment Of Ones LeetCode Solution Explained in all languages", "1784 Check If Binary String Has At Most One Segment Of Ones", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1784 Check if Binary String Has at Most One Segment of Ones LeetCode Solution Explained in all languages", "1784 Check if Binary String Has at Most One Segment of Ones", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1784 Check If Binary String Has At Most One Segment Of Ones - Solution Explained/problem-solving.webp
-    alt: 1784 Check If Binary String Has At Most One Segment Of Ones
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1784 Check if Binary String Has at Most One Segment of Ones - Solution Explained/problem-solving.webp
+    alt: 1784 Check if Binary String Has at Most One Segment of Ones
     hiddenInList: true
     hiddenInSingle: false
 ---

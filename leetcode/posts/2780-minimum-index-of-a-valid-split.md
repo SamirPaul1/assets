@@ -1,13 +1,13 @@
 ---
-title: 2780 Minimum Index Of A Valid Split
-summary: 2780 Minimum Index Of A Valid Split LeetCode Solution Explained
+title: 2780 Minimum Index of a Valid Split
+summary: 2780 Minimum Index of a Valid Split LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2780 Minimum Index Of A Valid Split LeetCode Solution Explained in all languages", "2780 Minimum Index Of A Valid Split", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2780 Minimum Index of a Valid Split LeetCode Solution Explained in all languages", "2780 Minimum Index of a Valid Split", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2780 Minimum Index Of A Valid Split - Solution Explained/problem-solving.webp
-    alt: 2780 Minimum Index Of A Valid Split
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2780 Minimum Index of a Valid Split - Solution Explained/problem-solving.webp
+    alt: 2780 Minimum Index of a Valid Split
     hiddenInList: true
     hiddenInSingle: false
 ---

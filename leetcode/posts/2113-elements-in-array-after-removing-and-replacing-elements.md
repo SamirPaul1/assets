@@ -1,13 +1,13 @@
 ---
-title: 2113 Elements In Array After Removing And Replacing Elements
-summary: 2113 Elements In Array After Removing And Replacing Elements LeetCode Solution Explained
+title: 2113 Elements in Array After Removing and Replacing Elements
+summary: 2113 Elements in Array After Removing and Replacing Elements LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2113 Elements In Array After Removing And Replacing Elements LeetCode Solution Explained in all languages", "2113 Elements In Array After Removing And Replacing Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2113 Elements in Array After Removing and Replacing Elements LeetCode Solution Explained in all languages", "2113 Elements in Array After Removing and Replacing Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2113 Elements In Array After Removing And Replacing Elements - Solution Explained/problem-solving.webp
-    alt: 2113 Elements In Array After Removing And Replacing Elements
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2113 Elements in Array After Removing and Replacing Elements - Solution Explained/problem-solving.webp
+    alt: 2113 Elements in Array After Removing and Replacing Elements
     hiddenInList: true
     hiddenInSingle: false
 ---

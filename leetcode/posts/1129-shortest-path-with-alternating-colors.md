@@ -1,13 +1,13 @@
 ---
-title: 1129 Shortest Path With Alternating Colors
-summary: 1129 Shortest Path With Alternating Colors LeetCode Solution Explained
+title: 1129 Shortest Path with Alternating Colors
+summary: 1129 Shortest Path with Alternating Colors LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1129 Shortest Path With Alternating Colors LeetCode Solution Explained in all languages", "1129 Shortest Path With Alternating Colors", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1129 Shortest Path with Alternating Colors LeetCode Solution Explained in all languages", "1129 Shortest Path with Alternating Colors", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1129 Shortest Path With Alternating Colors - Solution Explained/problem-solving.webp
-    alt: 1129 Shortest Path With Alternating Colors
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1129 Shortest Path with Alternating Colors - Solution Explained/problem-solving.webp
+    alt: 1129 Shortest Path with Alternating Colors
     hiddenInList: true
     hiddenInSingle: false
 ---

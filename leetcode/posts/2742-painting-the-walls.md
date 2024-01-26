@@ -1,13 +1,13 @@
 ---
-title: 2742 Painting The Walls
-summary: 2742 Painting The Walls LeetCode Solution Explained
+title: 2742 Painting the Walls
+summary: 2742 Painting the Walls LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2742 Painting The Walls LeetCode Solution Explained in all languages", "2742 Painting The Walls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2742 Painting the Walls LeetCode Solution Explained in all languages", "2742 Painting the Walls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2742 Painting The Walls - Solution Explained/problem-solving.webp
-    alt: 2742 Painting The Walls
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2742 Painting the Walls - Solution Explained/problem-solving.webp
+    alt: 2742 Painting the Walls
     hiddenInList: true
     hiddenInSingle: false
 ---

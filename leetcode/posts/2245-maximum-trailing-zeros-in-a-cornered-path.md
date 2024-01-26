@@ -1,13 +1,13 @@
 ---
-title: 2245 Maximum Trailing Zeros In A Cornered Path
-summary: 2245 Maximum Trailing Zeros In A Cornered Path LeetCode Solution Explained
+title: 2245 Maximum Trailing Zeros in a Cornered Path
+summary: 2245 Maximum Trailing Zeros in a Cornered Path LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2245 Maximum Trailing Zeros In A Cornered Path LeetCode Solution Explained in all languages", "2245 Maximum Trailing Zeros In A Cornered Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2245 Maximum Trailing Zeros in a Cornered Path LeetCode Solution Explained in all languages", "2245 Maximum Trailing Zeros in a Cornered Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2245 Maximum Trailing Zeros In A Cornered Path - Solution Explained/problem-solving.webp
-    alt: 2245 Maximum Trailing Zeros In A Cornered Path
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2245 Maximum Trailing Zeros in a Cornered Path - Solution Explained/problem-solving.webp
+    alt: 2245 Maximum Trailing Zeros in a Cornered Path
     hiddenInList: true
     hiddenInSingle: false
 ---

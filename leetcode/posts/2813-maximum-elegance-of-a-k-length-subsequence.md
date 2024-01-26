@@ -1,13 +1,13 @@
 ---
-title: 2813 Maximum Elegance Of A K Length Subsequence
-summary: 2813 Maximum Elegance Of A K Length Subsequence LeetCode Solution Explained
+title: 2813 Maximum Elegance of a K Length Subsequence
+summary: 2813 Maximum Elegance of a K Length Subsequence LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2813 Maximum Elegance Of A K Length Subsequence LeetCode Solution Explained in all languages", "2813 Maximum Elegance Of A K Length Subsequence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2813 Maximum Elegance of a K Length Subsequence LeetCode Solution Explained in all languages", "2813 Maximum Elegance of a K Length Subsequence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2813 Maximum Elegance Of A K Length Subsequence - Solution Explained/problem-solving.webp
-    alt: 2813 Maximum Elegance Of A K Length Subsequence
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2813 Maximum Elegance of a K Length Subsequence - Solution Explained/problem-solving.webp
+    alt: 2813 Maximum Elegance of a K Length Subsequence
     hiddenInList: true
     hiddenInSingle: false
 ---

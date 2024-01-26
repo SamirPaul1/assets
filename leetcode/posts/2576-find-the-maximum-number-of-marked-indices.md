@@ -1,13 +1,13 @@
 ---
-title: 2576 Find The Maximum Number Of Marked Indices
-summary: 2576 Find The Maximum Number Of Marked Indices LeetCode Solution Explained
+title: 2576 Find the Maximum Number of Marked Indices
+summary: 2576 Find the Maximum Number of Marked Indices LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2576 Find The Maximum Number Of Marked Indices LeetCode Solution Explained in all languages", "2576 Find The Maximum Number Of Marked Indices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2576 Find the Maximum Number of Marked Indices LeetCode Solution Explained in all languages", "2576 Find the Maximum Number of Marked Indices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2576 Find The Maximum Number Of Marked Indices - Solution Explained/problem-solving.webp
-    alt: 2576 Find The Maximum Number Of Marked Indices
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2576 Find the Maximum Number of Marked Indices - Solution Explained/problem-solving.webp
+    alt: 2576 Find the Maximum Number of Marked Indices
     hiddenInList: true
     hiddenInSingle: false
 ---

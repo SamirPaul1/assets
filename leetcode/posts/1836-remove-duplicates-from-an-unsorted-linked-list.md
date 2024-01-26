@@ -1,13 +1,13 @@
 ---
-title: 1836 Remove Duplicates From An Unsorted Linked List
-summary: 1836 Remove Duplicates From An Unsorted Linked List LeetCode Solution Explained
+title: 1836 Remove Duplicates From an Unsorted Linked List
+summary: 1836 Remove Duplicates From an Unsorted Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1836 Remove Duplicates From An Unsorted Linked List LeetCode Solution Explained in all languages", "1836 Remove Duplicates From An Unsorted Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1836 Remove Duplicates From an Unsorted Linked List LeetCode Solution Explained in all languages", "1836 Remove Duplicates From an Unsorted Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1836 Remove Duplicates From An Unsorted Linked List - Solution Explained/problem-solving.webp
-    alt: 1836 Remove Duplicates From An Unsorted Linked List
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1836 Remove Duplicates From an Unsorted Linked List - Solution Explained/problem-solving.webp
+    alt: 1836 Remove Duplicates From an Unsorted Linked List
     hiddenInList: true
     hiddenInSingle: false
 ---

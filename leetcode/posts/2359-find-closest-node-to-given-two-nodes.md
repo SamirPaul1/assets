@@ -1,13 +1,13 @@
 ---
-title: 2359 Find Closest Node To Given Two Nodes
-summary: 2359 Find Closest Node To Given Two Nodes LeetCode Solution Explained
+title: 2359 Find Closest Node to Given Two Nodes
+summary: 2359 Find Closest Node to Given Two Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2359 Find Closest Node To Given Two Nodes LeetCode Solution Explained in all languages", "2359 Find Closest Node To Given Two Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2359 Find Closest Node to Given Two Nodes LeetCode Solution Explained in all languages", "2359 Find Closest Node to Given Two Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2359 Find Closest Node To Given Two Nodes - Solution Explained/problem-solving.webp
-    alt: 2359 Find Closest Node To Given Two Nodes
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2359 Find Closest Node to Given Two Nodes - Solution Explained/problem-solving.webp
+    alt: 2359 Find Closest Node to Given Two Nodes
     hiddenInList: true
     hiddenInSingle: false
 ---

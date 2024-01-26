@@ -1,13 +1,13 @@
 ---
-title: 1770 Maximum Score From Performing Multiplication Operations
-summary: 1770 Maximum Score From Performing Multiplication Operations LeetCode Solution Explained
+title: 1770 Maximum Score from Performing Multiplication Operations
+summary: 1770 Maximum Score from Performing Multiplication Operations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1770 Maximum Score From Performing Multiplication Operations LeetCode Solution Explained in all languages", "1770 Maximum Score From Performing Multiplication Operations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1770 Maximum Score from Performing Multiplication Operations LeetCode Solution Explained in all languages", "1770 Maximum Score from Performing Multiplication Operations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1770 Maximum Score From Performing Multiplication Operations - Solution Explained/problem-solving.webp
-    alt: 1770 Maximum Score From Performing Multiplication Operations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1770 Maximum Score from Performing Multiplication Operations - Solution Explained/problem-solving.webp
+    alt: 1770 Maximum Score from Performing Multiplication Operations
     hiddenInList: true
     hiddenInSingle: false
 ---

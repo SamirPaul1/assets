@@ -1,13 +1,13 @@
 ---
-title: 2489 Number Of Substrings With Fixed Ratio
-summary: 2489 Number Of Substrings With Fixed Ratio LeetCode Solution Explained
+title: 2489 Number of Substrings With Fixed Ratio
+summary: 2489 Number of Substrings With Fixed Ratio LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2489 Number Of Substrings With Fixed Ratio LeetCode Solution Explained in all languages", "2489 Number Of Substrings With Fixed Ratio", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2489 Number of Substrings With Fixed Ratio LeetCode Solution Explained in all languages", "2489 Number of Substrings With Fixed Ratio", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2489 Number Of Substrings With Fixed Ratio - Solution Explained/problem-solving.webp
-    alt: 2489 Number Of Substrings With Fixed Ratio
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2489 Number of Substrings With Fixed Ratio - Solution Explained/problem-solving.webp
+    alt: 2489 Number of Substrings With Fixed Ratio
     hiddenInList: true
     hiddenInSingle: false
 ---

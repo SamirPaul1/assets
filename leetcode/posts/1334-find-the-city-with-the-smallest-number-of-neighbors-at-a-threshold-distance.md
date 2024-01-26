@@ -1,13 +1,13 @@
 ---
-title: 1334 Find The City With The Smallest Number Of Neighbors At A Threshold Distance
-summary: 1334 Find The City With The Smallest Number Of Neighbors At A Threshold Distance LeetCode Solution Explained
+title: 1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance
+summary: 1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1334 Find The City With The Smallest Number Of Neighbors At A Threshold Distance LeetCode Solution Explained in all languages", "1334 Find The City With The Smallest Number Of Neighbors At A Threshold Distance", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance LeetCode Solution Explained in all languages", "1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1334 Find The City With The Smallest Number Of Neighbors At A Threshold Distance - Solution Explained/problem-solving.webp
-    alt: 1334 Find The City With The Smallest Number Of Neighbors At A Threshold Distance
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance - Solution Explained/problem-solving.webp
+    alt: 1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance
     hiddenInList: true
     hiddenInSingle: false
 ---

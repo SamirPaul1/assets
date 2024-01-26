@@ -1,13 +1,13 @@
 ---
-title: 0375 Guess Number Higher Or Lower Ii
-summary: 0375 Guess Number Higher Or Lower Ii LeetCode Solution Explained
+title: 0375 Guess Number Higher or Lower II
+summary: 0375 Guess Number Higher or Lower II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0375 Guess Number Higher Or Lower Ii LeetCode Solution Explained in all languages", "0375 Guess Number Higher Or Lower Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0375 Guess Number Higher or Lower II LeetCode Solution Explained in all languages", "0375 Guess Number Higher or Lower II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0375 Guess Number Higher Or Lower Ii - Solution Explained/problem-solving.webp
-    alt: 0375 Guess Number Higher Or Lower Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0375 Guess Number Higher or Lower II - Solution Explained/problem-solving.webp
+    alt: 0375 Guess Number Higher or Lower II
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2300 Successful Pairs Of Spells And Potions
-summary: 2300 Successful Pairs Of Spells And Potions LeetCode Solution Explained
+title: 2300 Successful Pairs of Spells and Potions
+summary: 2300 Successful Pairs of Spells and Potions LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2300 Successful Pairs Of Spells And Potions LeetCode Solution Explained in all languages", "2300 Successful Pairs Of Spells And Potions", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2300 Successful Pairs of Spells and Potions LeetCode Solution Explained in all languages", "2300 Successful Pairs of Spells and Potions", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2300 Successful Pairs Of Spells And Potions - Solution Explained/problem-solving.webp
-    alt: 2300 Successful Pairs Of Spells And Potions
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2300 Successful Pairs of Spells and Potions - Solution Explained/problem-solving.webp
+    alt: 2300 Successful Pairs of Spells and Potions
     hiddenInList: true
     hiddenInSingle: false
 ---

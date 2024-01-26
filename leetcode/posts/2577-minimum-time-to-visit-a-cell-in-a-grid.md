@@ -1,13 +1,13 @@
 ---
-title: 2577 Minimum Time To Visit A Cell In A Grid
-summary: 2577 Minimum Time To Visit A Cell In A Grid LeetCode Solution Explained
+title: 2577 Minimum Time to Visit a Cell In a Grid
+summary: 2577 Minimum Time to Visit a Cell In a Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2577 Minimum Time To Visit A Cell In A Grid LeetCode Solution Explained in all languages", "2577 Minimum Time To Visit A Cell In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2577 Minimum Time to Visit a Cell In a Grid LeetCode Solution Explained in all languages", "2577 Minimum Time to Visit a Cell In a Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2577 Minimum Time To Visit A Cell In A Grid - Solution Explained/problem-solving.webp
-    alt: 2577 Minimum Time To Visit A Cell In A Grid
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2577 Minimum Time to Visit a Cell In a Grid - Solution Explained/problem-solving.webp
+    alt: 2577 Minimum Time to Visit a Cell In a Grid
     hiddenInList: true
     hiddenInSingle: false
 ---

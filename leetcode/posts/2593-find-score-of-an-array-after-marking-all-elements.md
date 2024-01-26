@@ -1,13 +1,13 @@
 ---
-title: 2593 Find Score Of An Array After Marking All Elements
-summary: 2593 Find Score Of An Array After Marking All Elements LeetCode Solution Explained
+title: 2593 Find Score of an Array After Marking All Elements
+summary: 2593 Find Score of an Array After Marking All Elements LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2593 Find Score Of An Array After Marking All Elements LeetCode Solution Explained in all languages", "2593 Find Score Of An Array After Marking All Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2593 Find Score of an Array After Marking All Elements LeetCode Solution Explained in all languages", "2593 Find Score of an Array After Marking All Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2593 Find Score Of An Array After Marking All Elements - Solution Explained/problem-solving.webp
-    alt: 2593 Find Score Of An Array After Marking All Elements
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2593 Find Score of an Array After Marking All Elements - Solution Explained/problem-solving.webp
+    alt: 2593 Find Score of an Array After Marking All Elements
     hiddenInList: true
     hiddenInSingle: false
 ---

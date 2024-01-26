@@ -1,13 +1,13 @@
 ---
-title: 1357 Apply Discount Every N Orders
-summary: 1357 Apply Discount Every N Orders LeetCode Solution Explained
+title: 1357 Apply Discount Every n Orders
+summary: 1357 Apply Discount Every n Orders LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1357 Apply Discount Every N Orders LeetCode Solution Explained in all languages", "1357 Apply Discount Every N Orders", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1357 Apply Discount Every n Orders LeetCode Solution Explained in all languages", "1357 Apply Discount Every n Orders", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1357 Apply Discount Every N Orders - Solution Explained/problem-solving.webp
-    alt: 1357 Apply Discount Every N Orders
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1357 Apply Discount Every n Orders - Solution Explained/problem-solving.webp
+    alt: 1357 Apply Discount Every n Orders
     hiddenInList: true
     hiddenInSingle: false
 ---

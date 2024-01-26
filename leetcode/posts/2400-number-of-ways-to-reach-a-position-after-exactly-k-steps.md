@@ -1,13 +1,13 @@
 ---
-title: 2400 Number Of Ways To Reach A Position After Exactly K Steps
-summary: 2400 Number Of Ways To Reach A Position After Exactly K Steps LeetCode Solution Explained
+title: 2400 Number of Ways to Reach a Position After Exactly k Steps
+summary: 2400 Number of Ways to Reach a Position After Exactly k Steps LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2400 Number Of Ways To Reach A Position After Exactly K Steps LeetCode Solution Explained in all languages", "2400 Number Of Ways To Reach A Position After Exactly K Steps", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2400 Number of Ways to Reach a Position After Exactly k Steps LeetCode Solution Explained in all languages", "2400 Number of Ways to Reach a Position After Exactly k Steps", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2400 Number Of Ways To Reach A Position After Exactly K Steps - Solution Explained/problem-solving.webp
-    alt: 2400 Number Of Ways To Reach A Position After Exactly K Steps
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2400 Number of Ways to Reach a Position After Exactly k Steps - Solution Explained/problem-solving.webp
+    alt: 2400 Number of Ways to Reach a Position After Exactly k Steps
     hiddenInList: true
     hiddenInSingle: false
 ---

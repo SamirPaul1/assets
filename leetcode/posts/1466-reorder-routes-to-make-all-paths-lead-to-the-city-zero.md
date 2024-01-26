@@ -1,13 +1,13 @@
 ---
-title: 1466 Reorder Routes To Make All Paths Lead To The City Zero
-summary: 1466 Reorder Routes To Make All Paths Lead To The City Zero LeetCode Solution Explained
+title: 1466 Reorder Routes to Make All Paths Lead to the City Zero
+summary: 1466 Reorder Routes to Make All Paths Lead to the City Zero LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1466 Reorder Routes To Make All Paths Lead To The City Zero LeetCode Solution Explained in all languages", "1466 Reorder Routes To Make All Paths Lead To The City Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1466 Reorder Routes to Make All Paths Lead to the City Zero LeetCode Solution Explained in all languages", "1466 Reorder Routes to Make All Paths Lead to the City Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1466 Reorder Routes To Make All Paths Lead To The City Zero - Solution Explained/problem-solving.webp
-    alt: 1466 Reorder Routes To Make All Paths Lead To The City Zero
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1466 Reorder Routes to Make All Paths Lead to the City Zero - Solution Explained/problem-solving.webp
+    alt: 1466 Reorder Routes to Make All Paths Lead to the City Zero
     hiddenInList: true
     hiddenInSingle: false
 ---

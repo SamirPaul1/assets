@@ -1,13 +1,13 @@
 ---
-title: 2814 Minimum Time Takes To Reach Destination Without Drowning
-summary: 2814 Minimum Time Takes To Reach Destination Without Drowning LeetCode Solution Explained
+title: 2814 Minimum Time Takes to Reach Destination Without Drowning
+summary: 2814 Minimum Time Takes to Reach Destination Without Drowning LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2814 Minimum Time Takes To Reach Destination Without Drowning LeetCode Solution Explained in all languages", "2814 Minimum Time Takes To Reach Destination Without Drowning", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2814 Minimum Time Takes to Reach Destination Without Drowning LeetCode Solution Explained in all languages", "2814 Minimum Time Takes to Reach Destination Without Drowning", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2814 Minimum Time Takes To Reach Destination Without Drowning - Solution Explained/problem-solving.webp
-    alt: 2814 Minimum Time Takes To Reach Destination Without Drowning
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2814 Minimum Time Takes to Reach Destination Without Drowning - Solution Explained/problem-solving.webp
+    alt: 2814 Minimum Time Takes to Reach Destination Without Drowning
     hiddenInList: true
     hiddenInSingle: false
 ---

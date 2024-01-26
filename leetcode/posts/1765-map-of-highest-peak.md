@@ -1,13 +1,13 @@
 ---
-title: 1765 Map Of Highest Peak
-summary: 1765 Map Of Highest Peak LeetCode Solution Explained
+title: 1765 Map of Highest Peak
+summary: 1765 Map of Highest Peak LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1765 Map Of Highest Peak LeetCode Solution Explained in all languages", "1765 Map Of Highest Peak", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1765 Map of Highest Peak LeetCode Solution Explained in all languages", "1765 Map of Highest Peak", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1765 Map Of Highest Peak - Solution Explained/problem-solving.webp
-    alt: 1765 Map Of Highest Peak
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1765 Map of Highest Peak - Solution Explained/problem-solving.webp
+    alt: 1765 Map of Highest Peak
     hiddenInList: true
     hiddenInSingle: false
 ---

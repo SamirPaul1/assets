@@ -1,13 +1,13 @@
 ---
-title: 0558 Logical Or Of Two Binary Grids Represented As Quad Trees
-summary: 0558 Logical Or Of Two Binary Grids Represented As Quad Trees LeetCode Solution Explained
+title: 0558 Logical OR of Two Binary Grids Represented as Quad Trees
+summary: 0558 Logical OR of Two Binary Grids Represented as Quad Trees LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0558 Logical Or Of Two Binary Grids Represented As Quad Trees LeetCode Solution Explained in all languages", "0558 Logical Or Of Two Binary Grids Represented As Quad Trees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0558 Logical OR of Two Binary Grids Represented as Quad Trees LeetCode Solution Explained in all languages", "0558 Logical OR of Two Binary Grids Represented as Quad Trees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0558 Logical Or Of Two Binary Grids Represented As Quad Trees - Solution Explained/problem-solving.webp
-    alt: 0558 Logical Or Of Two Binary Grids Represented As Quad Trees
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0558 Logical OR of Two Binary Grids Represented as Quad Trees - Solution Explained/problem-solving.webp
+    alt: 0558 Logical OR of Two Binary Grids Represented as Quad Trees
     hiddenInList: true
     hiddenInSingle: false
 ---

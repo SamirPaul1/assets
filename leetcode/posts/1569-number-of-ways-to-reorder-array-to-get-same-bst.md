@@ -1,13 +1,13 @@
 ---
-title: 1569 Number Of Ways To Reorder Array To Get Same Bst
-summary: 1569 Number Of Ways To Reorder Array To Get Same Bst LeetCode Solution Explained
+title: 1569 Number of Ways to Reorder Array to Get Same BST
+summary: 1569 Number of Ways to Reorder Array to Get Same BST LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1569 Number Of Ways To Reorder Array To Get Same Bst LeetCode Solution Explained in all languages", "1569 Number Of Ways To Reorder Array To Get Same Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1569 Number of Ways to Reorder Array to Get Same BST LeetCode Solution Explained in all languages", "1569 Number of Ways to Reorder Array to Get Same BST", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1569 Number Of Ways To Reorder Array To Get Same Bst - Solution Explained/problem-solving.webp
-    alt: 1569 Number Of Ways To Reorder Array To Get Same Bst
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1569 Number of Ways to Reorder Array to Get Same BST - Solution Explained/problem-solving.webp
+    alt: 1569 Number of Ways to Reorder Array to Get Same BST
     hiddenInList: true
     hiddenInSingle: false
 ---

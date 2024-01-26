@@ -1,13 +1,13 @@
 ---
-title: 2516 Take K Of Each Character From Left And Right
-summary: 2516 Take K Of Each Character From Left And Right LeetCode Solution Explained
+title: 2516 Take K of Each Character From Left and Right
+summary: 2516 Take K of Each Character From Left and Right LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2516 Take K Of Each Character From Left And Right LeetCode Solution Explained in all languages", "2516 Take K Of Each Character From Left And Right", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2516 Take K of Each Character From Left and Right LeetCode Solution Explained in all languages", "2516 Take K of Each Character From Left and Right", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2516 Take K Of Each Character From Left And Right - Solution Explained/problem-solving.webp
-    alt: 2516 Take K Of Each Character From Left And Right
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2516 Take K of Each Character From Left and Right - Solution Explained/problem-solving.webp
+    alt: 2516 Take K of Each Character From Left and Right
     hiddenInList: true
     hiddenInSingle: false
 ---

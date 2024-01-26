@@ -1,13 +1,13 @@
 ---
-title: 1785 Minimum Elements To Add To Form A Given Sum
-summary: 1785 Minimum Elements To Add To Form A Given Sum LeetCode Solution Explained
+title: 1785 Minimum Elements to Add to Form a Given Sum
+summary: 1785 Minimum Elements to Add to Form a Given Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1785 Minimum Elements To Add To Form A Given Sum LeetCode Solution Explained in all languages", "1785 Minimum Elements To Add To Form A Given Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1785 Minimum Elements to Add to Form a Given Sum LeetCode Solution Explained in all languages", "1785 Minimum Elements to Add to Form a Given Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1785 Minimum Elements To Add To Form A Given Sum - Solution Explained/problem-solving.webp
-    alt: 1785 Minimum Elements To Add To Form A Given Sum
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1785 Minimum Elements to Add to Form a Given Sum - Solution Explained/problem-solving.webp
+    alt: 1785 Minimum Elements to Add to Form a Given Sum
     hiddenInList: true
     hiddenInSingle: false
 ---

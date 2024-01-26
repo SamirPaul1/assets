@@ -1,13 +1,13 @@
 ---
-title: 2378 Choose Edges To Maximize Score In A Tree
-summary: 2378 Choose Edges To Maximize Score In A Tree LeetCode Solution Explained
+title: 2378 Choose Edges to Maximize Score in a Tree
+summary: 2378 Choose Edges to Maximize Score in a Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2378 Choose Edges To Maximize Score In A Tree LeetCode Solution Explained in all languages", "2378 Choose Edges To Maximize Score In A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2378 Choose Edges to Maximize Score in a Tree LeetCode Solution Explained in all languages", "2378 Choose Edges to Maximize Score in a Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2378 Choose Edges To Maximize Score In A Tree - Solution Explained/problem-solving.webp
-    alt: 2378 Choose Edges To Maximize Score In A Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2378 Choose Edges to Maximize Score in a Tree - Solution Explained/problem-solving.webp
+    alt: 2378 Choose Edges to Maximize Score in a Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1798 Maximum Number Of Consecutive Values You Can Make
-summary: 1798 Maximum Number Of Consecutive Values You Can Make LeetCode Solution Explained
+title: 1798 Maximum Number of Consecutive Values You Can Make
+summary: 1798 Maximum Number of Consecutive Values You Can Make LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1798 Maximum Number Of Consecutive Values You Can Make LeetCode Solution Explained in all languages", "1798 Maximum Number Of Consecutive Values You Can Make", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1798 Maximum Number of Consecutive Values You Can Make LeetCode Solution Explained in all languages", "1798 Maximum Number of Consecutive Values You Can Make", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1798 Maximum Number Of Consecutive Values You Can Make - Solution Explained/problem-solving.webp
-    alt: 1798 Maximum Number Of Consecutive Values You Can Make
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1798 Maximum Number of Consecutive Values You Can Make - Solution Explained/problem-solving.webp
+    alt: 1798 Maximum Number of Consecutive Values You Can Make
     hiddenInList: true
     hiddenInSingle: false
 ---

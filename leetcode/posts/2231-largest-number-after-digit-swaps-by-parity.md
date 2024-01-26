@@ -1,13 +1,13 @@
 ---
-title: 2231 Largest Number After Digit Swaps By Parity
-summary: 2231 Largest Number After Digit Swaps By Parity LeetCode Solution Explained
+title: 2231 Largest Number After Digit Swaps by Parity
+summary: 2231 Largest Number After Digit Swaps by Parity LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2231 Largest Number After Digit Swaps By Parity LeetCode Solution Explained in all languages", "2231 Largest Number After Digit Swaps By Parity", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2231 Largest Number After Digit Swaps by Parity LeetCode Solution Explained in all languages", "2231 Largest Number After Digit Swaps by Parity", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2231 Largest Number After Digit Swaps By Parity - Solution Explained/problem-solving.webp
-    alt: 2231 Largest Number After Digit Swaps By Parity
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2231 Largest Number After Digit Swaps by Parity - Solution Explained/problem-solving.webp
+    alt: 2231 Largest Number After Digit Swaps by Parity
     hiddenInList: true
     hiddenInSingle: false
 ---

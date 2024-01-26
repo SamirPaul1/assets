@@ -1,13 +1,13 @@
 ---
-title: 1590 Make Sum Divisible By P
-summary: 1590 Make Sum Divisible By P LeetCode Solution Explained
+title: 1590 Make Sum Divisible by P
+summary: 1590 Make Sum Divisible by P LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1590 Make Sum Divisible By P LeetCode Solution Explained in all languages", "1590 Make Sum Divisible By P", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1590 Make Sum Divisible by P LeetCode Solution Explained in all languages", "1590 Make Sum Divisible by P", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1590 Make Sum Divisible By P - Solution Explained/problem-solving.webp
-    alt: 1590 Make Sum Divisible By P
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1590 Make Sum Divisible by P - Solution Explained/problem-solving.webp
+    alt: 1590 Make Sum Divisible by P
     hiddenInList: true
     hiddenInSingle: false
 ---

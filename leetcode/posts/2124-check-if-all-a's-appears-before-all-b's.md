@@ -1,13 +1,13 @@
 ---
-title: 2124 Check If All A'S Appears Before All B'S
-summary: 2124 Check If All A'S Appears Before All B'S LeetCode Solution Explained
+title: 2124 Check if All A's Appears Before All B's
+summary: 2124 Check if All A's Appears Before All B's LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2124 Check If All A'S Appears Before All B'S LeetCode Solution Explained in all languages", "2124 Check If All A'S Appears Before All B'S", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2124 Check if All A's Appears Before All B's LeetCode Solution Explained in all languages", "2124 Check if All A's Appears Before All B's", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2124 Check If All A'S Appears Before All B'S - Solution Explained/problem-solving.webp
-    alt: 2124 Check If All A'S Appears Before All B'S
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2124 Check if All A's Appears Before All B's - Solution Explained/problem-solving.webp
+    alt: 2124 Check if All A's Appears Before All B's
     hiddenInList: true
     hiddenInSingle: false
 ---

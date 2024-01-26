@@ -1,13 +1,13 @@
 ---
-title: 2338 Count The Number Of Ideal Arrays
-summary: 2338 Count The Number Of Ideal Arrays LeetCode Solution Explained
+title: 2338 Count the Number of Ideal Arrays
+summary: 2338 Count the Number of Ideal Arrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2338 Count The Number Of Ideal Arrays LeetCode Solution Explained in all languages", "2338 Count The Number Of Ideal Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2338 Count the Number of Ideal Arrays LeetCode Solution Explained in all languages", "2338 Count the Number of Ideal Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2338 Count The Number Of Ideal Arrays - Solution Explained/problem-solving.webp
-    alt: 2338 Count The Number Of Ideal Arrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2338 Count the Number of Ideal Arrays - Solution Explained/problem-solving.webp
+    alt: 2338 Count the Number of Ideal Arrays
     hiddenInList: true
     hiddenInSingle: false
 ---

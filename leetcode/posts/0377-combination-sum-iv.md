@@ -1,13 +1,13 @@
 ---
-title: 0377 Combination Sum Iv
-summary: 0377 Combination Sum Iv LeetCode Solution Explained
+title: 0377 Combination Sum IV
+summary: 0377 Combination Sum IV LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0377 Combination Sum Iv LeetCode Solution Explained in all languages", "0377 Combination Sum Iv", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0377 Combination Sum IV LeetCode Solution Explained in all languages", "0377 Combination Sum IV", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0377 Combination Sum Iv - Solution Explained/problem-solving.webp
-    alt: 0377 Combination Sum Iv
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0377 Combination Sum IV - Solution Explained/problem-solving.webp
+    alt: 0377 Combination Sum IV
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0706 Design Hashmap
-summary: 0706 Design Hashmap LeetCode Solution Explained
+title: 0706 Design HashMap
+summary: 0706 Design HashMap LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0706 Design Hashmap LeetCode Solution Explained in all languages", "0706 Design Hashmap", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0706 Design HashMap LeetCode Solution Explained in all languages", "0706 Design HashMap", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0706 Design Hashmap - Solution Explained/problem-solving.webp
-    alt: 0706 Design Hashmap
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0706 Design HashMap - Solution Explained/problem-solving.webp
+    alt: 0706 Design HashMap
     hiddenInList: true
     hiddenInSingle: false
 ---

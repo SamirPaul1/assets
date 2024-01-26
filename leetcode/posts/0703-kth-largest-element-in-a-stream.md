@@ -1,13 +1,13 @@
 ---
-title: 0703 Kth Largest Element In A Stream
-summary: 0703 Kth Largest Element In A Stream LeetCode Solution Explained
+title: 0703 Kth Largest Element in a Stream
+summary: 0703 Kth Largest Element in a Stream LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0703 Kth Largest Element In A Stream LeetCode Solution Explained in all languages", "0703 Kth Largest Element In A Stream", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0703 Kth Largest Element in a Stream LeetCode Solution Explained in all languages", "0703 Kth Largest Element in a Stream", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0703 Kth Largest Element In A Stream - Solution Explained/problem-solving.webp
-    alt: 0703 Kth Largest Element In A Stream
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0703 Kth Largest Element in a Stream - Solution Explained/problem-solving.webp
+    alt: 0703 Kth Largest Element in a Stream
     hiddenInList: true
     hiddenInSingle: false
 ---

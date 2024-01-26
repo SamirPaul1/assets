@@ -1,13 +1,13 @@
 ---
-title: 1596 The Most Frequently Ordered Products For Each Customer
-summary: 1596 The Most Frequently Ordered Products For Each Customer LeetCode Solution Explained
+title: 1596 The Most Frequently Ordered Products for Each Customer
+summary: 1596 The Most Frequently Ordered Products for Each Customer LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1596 The Most Frequently Ordered Products For Each Customer LeetCode Solution Explained in all languages", "1596 The Most Frequently Ordered Products For Each Customer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1596 The Most Frequently Ordered Products for Each Customer LeetCode Solution Explained in all languages", "1596 The Most Frequently Ordered Products for Each Customer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1596 The Most Frequently Ordered Products For Each Customer - Solution Explained/problem-solving.webp
-    alt: 1596 The Most Frequently Ordered Products For Each Customer
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1596 The Most Frequently Ordered Products for Each Customer - Solution Explained/problem-solving.webp
+    alt: 1596 The Most Frequently Ordered Products for Each Customer
     hiddenInList: true
     hiddenInSingle: false
 ---

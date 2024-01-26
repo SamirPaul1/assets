@@ -1,13 +1,13 @@
 ---
-title: 0792 Number Of Matching Subsequences
-summary: 0792 Number Of Matching Subsequences LeetCode Solution Explained
+title: 0792 Number of Matching Subsequences
+summary: 0792 Number of Matching Subsequences LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0792 Number Of Matching Subsequences LeetCode Solution Explained in all languages", "0792 Number Of Matching Subsequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0792 Number of Matching Subsequences LeetCode Solution Explained in all languages", "0792 Number of Matching Subsequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0792 Number Of Matching Subsequences - Solution Explained/problem-solving.webp
-    alt: 0792 Number Of Matching Subsequences
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0792 Number of Matching Subsequences - Solution Explained/problem-solving.webp
+    alt: 0792 Number of Matching Subsequences
     hiddenInList: true
     hiddenInSingle: false
 ---

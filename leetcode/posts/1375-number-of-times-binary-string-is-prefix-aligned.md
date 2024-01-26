@@ -1,13 +1,13 @@
 ---
-title: 1375 Number Of Times Binary String Is Prefix Aligned
-summary: 1375 Number Of Times Binary String Is Prefix Aligned LeetCode Solution Explained
+title: 1375 Number of Times Binary String Is Prefix Aligned
+summary: 1375 Number of Times Binary String Is Prefix Aligned LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1375 Number Of Times Binary String Is Prefix Aligned LeetCode Solution Explained in all languages", "1375 Number Of Times Binary String Is Prefix Aligned", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1375 Number of Times Binary String Is Prefix Aligned LeetCode Solution Explained in all languages", "1375 Number of Times Binary String Is Prefix Aligned", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1375 Number Of Times Binary String Is Prefix Aligned - Solution Explained/problem-solving.webp
-    alt: 1375 Number Of Times Binary String Is Prefix Aligned
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1375 Number of Times Binary String Is Prefix Aligned - Solution Explained/problem-solving.webp
+    alt: 1375 Number of Times Binary String Is Prefix Aligned
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1721 Swapping Nodes In A Linked List
-summary: 1721 Swapping Nodes In A Linked List LeetCode Solution Explained
+title: 1721 Swapping Nodes in a Linked List
+summary: 1721 Swapping Nodes in a Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1721 Swapping Nodes In A Linked List LeetCode Solution Explained in all languages", "1721 Swapping Nodes In A Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1721 Swapping Nodes in a Linked List LeetCode Solution Explained in all languages", "1721 Swapping Nodes in a Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1721 Swapping Nodes In A Linked List - Solution Explained/problem-solving.webp
-    alt: 1721 Swapping Nodes In A Linked List
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1721 Swapping Nodes in a Linked List - Solution Explained/problem-solving.webp
+    alt: 1721 Swapping Nodes in a Linked List
     hiddenInList: true
     hiddenInSingle: false
 ---

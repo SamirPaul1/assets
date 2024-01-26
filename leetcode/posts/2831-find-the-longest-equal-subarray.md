@@ -1,13 +1,13 @@
 ---
-title: 2831 Find The Longest Equal Subarray
-summary: 2831 Find The Longest Equal Subarray LeetCode Solution Explained
+title: 2831 Find the Longest Equal Subarray
+summary: 2831 Find the Longest Equal Subarray LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2831 Find The Longest Equal Subarray LeetCode Solution Explained in all languages", "2831 Find The Longest Equal Subarray", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2831 Find the Longest Equal Subarray LeetCode Solution Explained in all languages", "2831 Find the Longest Equal Subarray", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2831 Find The Longest Equal Subarray - Solution Explained/problem-solving.webp
-    alt: 2831 Find The Longest Equal Subarray
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2831 Find the Longest Equal Subarray - Solution Explained/problem-solving.webp
+    alt: 2831 Find the Longest Equal Subarray
     hiddenInList: true
     hiddenInSingle: false
 ---

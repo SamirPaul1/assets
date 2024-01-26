@@ -1,13 +1,13 @@
 ---
-title: 1750 Minimum Length Of String After Deleting Similar Ends
-summary: 1750 Minimum Length Of String After Deleting Similar Ends LeetCode Solution Explained
+title: 1750 Minimum Length of String After Deleting Similar Ends
+summary: 1750 Minimum Length of String After Deleting Similar Ends LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1750 Minimum Length Of String After Deleting Similar Ends LeetCode Solution Explained in all languages", "1750 Minimum Length Of String After Deleting Similar Ends", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1750 Minimum Length of String After Deleting Similar Ends LeetCode Solution Explained in all languages", "1750 Minimum Length of String After Deleting Similar Ends", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1750 Minimum Length Of String After Deleting Similar Ends - Solution Explained/problem-solving.webp
-    alt: 1750 Minimum Length Of String After Deleting Similar Ends
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1750 Minimum Length of String After Deleting Similar Ends - Solution Explained/problem-solving.webp
+    alt: 1750 Minimum Length of String After Deleting Similar Ends
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1928 Minimum Cost To Reach Destination In Time
-summary: 1928 Minimum Cost To Reach Destination In Time LeetCode Solution Explained
+title: 1928 Minimum Cost to Reach Destination in Time
+summary: 1928 Minimum Cost to Reach Destination in Time LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1928 Minimum Cost To Reach Destination In Time LeetCode Solution Explained in all languages", "1928 Minimum Cost To Reach Destination In Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1928 Minimum Cost to Reach Destination in Time LeetCode Solution Explained in all languages", "1928 Minimum Cost to Reach Destination in Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1928 Minimum Cost To Reach Destination In Time - Solution Explained/problem-solving.webp
-    alt: 1928 Minimum Cost To Reach Destination In Time
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1928 Minimum Cost to Reach Destination in Time - Solution Explained/problem-solving.webp
+    alt: 1928 Minimum Cost to Reach Destination in Time
     hiddenInList: true
     hiddenInSingle: false
 ---

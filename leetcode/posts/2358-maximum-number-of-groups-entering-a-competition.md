@@ -1,13 +1,13 @@
 ---
-title: 2358 Maximum Number Of Groups Entering A Competition
-summary: 2358 Maximum Number Of Groups Entering A Competition LeetCode Solution Explained
+title: 2358 Maximum Number of Groups Entering a Competition
+summary: 2358 Maximum Number of Groups Entering a Competition LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2358 Maximum Number Of Groups Entering A Competition LeetCode Solution Explained in all languages", "2358 Maximum Number Of Groups Entering A Competition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2358 Maximum Number of Groups Entering a Competition LeetCode Solution Explained in all languages", "2358 Maximum Number of Groups Entering a Competition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2358 Maximum Number Of Groups Entering A Competition - Solution Explained/problem-solving.webp
-    alt: 2358 Maximum Number Of Groups Entering A Competition
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2358 Maximum Number of Groups Entering a Competition - Solution Explained/problem-solving.webp
+    alt: 2358 Maximum Number of Groups Entering a Competition
     hiddenInList: true
     hiddenInSingle: false
 ---

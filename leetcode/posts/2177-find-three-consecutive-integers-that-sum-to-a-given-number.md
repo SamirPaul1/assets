@@ -1,13 +1,13 @@
 ---
-title: 2177 Find Three Consecutive Integers That Sum To A Given Number
-summary: 2177 Find Three Consecutive Integers That Sum To A Given Number LeetCode Solution Explained
+title: 2177 Find Three Consecutive Integers That Sum to a Given Number
+summary: 2177 Find Three Consecutive Integers That Sum to a Given Number LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2177 Find Three Consecutive Integers That Sum To A Given Number LeetCode Solution Explained in all languages", "2177 Find Three Consecutive Integers That Sum To A Given Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2177 Find Three Consecutive Integers That Sum to a Given Number LeetCode Solution Explained in all languages", "2177 Find Three Consecutive Integers That Sum to a Given Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2177 Find Three Consecutive Integers That Sum To A Given Number - Solution Explained/problem-solving.webp
-    alt: 2177 Find Three Consecutive Integers That Sum To A Given Number
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2177 Find Three Consecutive Integers That Sum to a Given Number - Solution Explained/problem-solving.webp
+    alt: 2177 Find Three Consecutive Integers That Sum to a Given Number
     hiddenInList: true
     hiddenInSingle: false
 ---

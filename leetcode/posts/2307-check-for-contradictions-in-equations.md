@@ -1,13 +1,13 @@
 ---
-title: 2307 Check For Contradictions In Equations
-summary: 2307 Check For Contradictions In Equations LeetCode Solution Explained
+title: 2307 Check for Contradictions in Equations
+summary: 2307 Check for Contradictions in Equations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2307 Check For Contradictions In Equations LeetCode Solution Explained in all languages", "2307 Check For Contradictions In Equations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2307 Check for Contradictions in Equations LeetCode Solution Explained in all languages", "2307 Check for Contradictions in Equations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2307 Check For Contradictions In Equations - Solution Explained/problem-solving.webp
-    alt: 2307 Check For Contradictions In Equations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2307 Check for Contradictions in Equations - Solution Explained/problem-solving.webp
+    alt: 2307 Check for Contradictions in Equations
     hiddenInList: true
     hiddenInSingle: false
 ---

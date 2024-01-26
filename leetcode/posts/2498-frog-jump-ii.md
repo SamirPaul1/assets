@@ -1,13 +1,13 @@
 ---
-title: 2498 Frog Jump Ii
-summary: 2498 Frog Jump Ii LeetCode Solution Explained
+title: 2498 Frog Jump II
+summary: 2498 Frog Jump II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2498 Frog Jump Ii LeetCode Solution Explained in all languages", "2498 Frog Jump Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2498 Frog Jump II LeetCode Solution Explained in all languages", "2498 Frog Jump II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2498 Frog Jump Ii - Solution Explained/problem-solving.webp
-    alt: 2498 Frog Jump Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2498 Frog Jump II - Solution Explained/problem-solving.webp
+    alt: 2498 Frog Jump II
     hiddenInList: true
     hiddenInSingle: false
 ---

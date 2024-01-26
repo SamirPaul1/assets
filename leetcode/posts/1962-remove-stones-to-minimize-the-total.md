@@ -1,13 +1,13 @@
 ---
-title: 1962 Remove Stones To Minimize The Total
-summary: 1962 Remove Stones To Minimize The Total LeetCode Solution Explained
+title: 1962 Remove Stones to Minimize the Total
+summary: 1962 Remove Stones to Minimize the Total LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1962 Remove Stones To Minimize The Total LeetCode Solution Explained in all languages", "1962 Remove Stones To Minimize The Total", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1962 Remove Stones to Minimize the Total LeetCode Solution Explained in all languages", "1962 Remove Stones to Minimize the Total", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1962 Remove Stones To Minimize The Total - Solution Explained/problem-solving.webp
-    alt: 1962 Remove Stones To Minimize The Total
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1962 Remove Stones to Minimize the Total - Solution Explained/problem-solving.webp
+    alt: 1962 Remove Stones to Minimize the Total
     hiddenInList: true
     hiddenInSingle: false
 ---

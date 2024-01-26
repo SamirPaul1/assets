@@ -1,13 +1,13 @@
 ---
-title: 2029 Stone Game Ix
-summary: 2029 Stone Game Ix LeetCode Solution Explained
+title: 2029 Stone Game IX
+summary: 2029 Stone Game IX LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2029 Stone Game Ix LeetCode Solution Explained in all languages", "2029 Stone Game Ix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2029 Stone Game IX LeetCode Solution Explained in all languages", "2029 Stone Game IX", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2029 Stone Game Ix - Solution Explained/problem-solving.webp
-    alt: 2029 Stone Game Ix
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2029 Stone Game IX - Solution Explained/problem-solving.webp
+    alt: 2029 Stone Game IX
     hiddenInList: true
     hiddenInSingle: false
 ---

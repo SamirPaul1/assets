@@ -1,13 +1,13 @@
 ---
-title: 2350 Shortest Impossible Sequence Of Rolls
-summary: 2350 Shortest Impossible Sequence Of Rolls LeetCode Solution Explained
+title: 2350 Shortest Impossible Sequence of Rolls
+summary: 2350 Shortest Impossible Sequence of Rolls LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2350 Shortest Impossible Sequence Of Rolls LeetCode Solution Explained in all languages", "2350 Shortest Impossible Sequence Of Rolls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2350 Shortest Impossible Sequence of Rolls LeetCode Solution Explained in all languages", "2350 Shortest Impossible Sequence of Rolls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2350 Shortest Impossible Sequence Of Rolls - Solution Explained/problem-solving.webp
-    alt: 2350 Shortest Impossible Sequence Of Rolls
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2350 Shortest Impossible Sequence of Rolls - Solution Explained/problem-solving.webp
+    alt: 2350 Shortest Impossible Sequence of Rolls
     hiddenInList: true
     hiddenInSingle: false
 ---

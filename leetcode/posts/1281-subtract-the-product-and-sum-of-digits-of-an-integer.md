@@ -1,13 +1,13 @@
 ---
-title: 1281 Subtract The Product And Sum Of Digits Of An Integer
-summary: 1281 Subtract The Product And Sum Of Digits Of An Integer LeetCode Solution Explained
+title: 1281 Subtract the Product and Sum of Digits of an Integer
+summary: 1281 Subtract the Product and Sum of Digits of an Integer LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1281 Subtract The Product And Sum Of Digits Of An Integer LeetCode Solution Explained in all languages", "1281 Subtract The Product And Sum Of Digits Of An Integer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1281 Subtract the Product and Sum of Digits of an Integer LeetCode Solution Explained in all languages", "1281 Subtract the Product and Sum of Digits of an Integer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1281 Subtract The Product And Sum Of Digits Of An Integer - Solution Explained/problem-solving.webp
-    alt: 1281 Subtract The Product And Sum Of Digits Of An Integer
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1281 Subtract the Product and Sum of Digits of an Integer - Solution Explained/problem-solving.webp
+    alt: 1281 Subtract the Product and Sum of Digits of an Integer
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0567 Permutation In String
-summary: 0567 Permutation In String LeetCode Solution Explained
+title: 0567 Permutation in String
+summary: 0567 Permutation in String LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0567 Permutation In String LeetCode Solution Explained in all languages", "0567 Permutation In String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0567 Permutation in String LeetCode Solution Explained in all languages", "0567 Permutation in String", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0567 Permutation In String - Solution Explained/problem-solving.webp
-    alt: 0567 Permutation In String
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0567 Permutation in String - Solution Explained/problem-solving.webp
+    alt: 0567 Permutation in String
     hiddenInList: true
     hiddenInSingle: false
 ---

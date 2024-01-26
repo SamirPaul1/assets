@@ -1,13 +1,13 @@
 ---
-title: 2411 Smallest Subarrays With Maximum Bitwise Or
-summary: 2411 Smallest Subarrays With Maximum Bitwise Or LeetCode Solution Explained
+title: 2411 Smallest Subarrays With Maximum Bitwise OR
+summary: 2411 Smallest Subarrays With Maximum Bitwise OR LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2411 Smallest Subarrays With Maximum Bitwise Or LeetCode Solution Explained in all languages", "2411 Smallest Subarrays With Maximum Bitwise Or", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2411 Smallest Subarrays With Maximum Bitwise OR LeetCode Solution Explained in all languages", "2411 Smallest Subarrays With Maximum Bitwise OR", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2411 Smallest Subarrays With Maximum Bitwise Or - Solution Explained/problem-solving.webp
-    alt: 2411 Smallest Subarrays With Maximum Bitwise Or
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2411 Smallest Subarrays With Maximum Bitwise OR - Solution Explained/problem-solving.webp
+    alt: 2411 Smallest Subarrays With Maximum Bitwise OR
     hiddenInList: true
     hiddenInSingle: false
 ---

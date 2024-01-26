@@ -1,13 +1,13 @@
 ---
-title: 0405 Convert A Number To Hexadecimal
-summary: 0405 Convert A Number To Hexadecimal LeetCode Solution Explained
+title: 0405 Convert a Number to Hexadecimal
+summary: 0405 Convert a Number to Hexadecimal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0405 Convert A Number To Hexadecimal LeetCode Solution Explained in all languages", "0405 Convert A Number To Hexadecimal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0405 Convert a Number to Hexadecimal LeetCode Solution Explained in all languages", "0405 Convert a Number to Hexadecimal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0405 Convert A Number To Hexadecimal - Solution Explained/problem-solving.webp
-    alt: 0405 Convert A Number To Hexadecimal
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0405 Convert a Number to Hexadecimal - Solution Explained/problem-solving.webp
+    alt: 0405 Convert a Number to Hexadecimal
     hiddenInList: true
     hiddenInSingle: false
 ---

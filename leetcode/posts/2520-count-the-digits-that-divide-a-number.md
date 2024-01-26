@@ -1,13 +1,13 @@
 ---
-title: 2520 Count The Digits That Divide A Number
-summary: 2520 Count The Digits That Divide A Number LeetCode Solution Explained
+title: 2520 Count the Digits That Divide a Number
+summary: 2520 Count the Digits That Divide a Number LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2520 Count The Digits That Divide A Number LeetCode Solution Explained in all languages", "2520 Count The Digits That Divide A Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2520 Count the Digits That Divide a Number LeetCode Solution Explained in all languages", "2520 Count the Digits That Divide a Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2520 Count The Digits That Divide A Number - Solution Explained/problem-solving.webp
-    alt: 2520 Count The Digits That Divide A Number
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2520 Count the Digits That Divide a Number - Solution Explained/problem-solving.webp
+    alt: 2520 Count the Digits That Divide a Number
     hiddenInList: true
     hiddenInSingle: false
 ---

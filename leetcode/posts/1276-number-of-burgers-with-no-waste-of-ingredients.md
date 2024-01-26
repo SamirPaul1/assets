@@ -1,13 +1,13 @@
 ---
-title: 1276 Number Of Burgers With No Waste Of Ingredients
-summary: 1276 Number Of Burgers With No Waste Of Ingredients LeetCode Solution Explained
+title: 1276 Number of Burgers with No Waste of Ingredients
+summary: 1276 Number of Burgers with No Waste of Ingredients LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1276 Number Of Burgers With No Waste Of Ingredients LeetCode Solution Explained in all languages", "1276 Number Of Burgers With No Waste Of Ingredients", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1276 Number of Burgers with No Waste of Ingredients LeetCode Solution Explained in all languages", "1276 Number of Burgers with No Waste of Ingredients", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1276 Number Of Burgers With No Waste Of Ingredients - Solution Explained/problem-solving.webp
-    alt: 1276 Number Of Burgers With No Waste Of Ingredients
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1276 Number of Burgers with No Waste of Ingredients - Solution Explained/problem-solving.webp
+    alt: 1276 Number of Burgers with No Waste of Ingredients
     hiddenInList: true
     hiddenInSingle: false
 ---

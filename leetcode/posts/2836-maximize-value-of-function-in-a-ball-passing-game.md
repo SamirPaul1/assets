@@ -1,13 +1,13 @@
 ---
-title: 2836 Maximize Value Of Function In A Ball Passing Game
-summary: 2836 Maximize Value Of Function In A Ball Passing Game LeetCode Solution Explained
+title: 2836 Maximize Value of Function in a Ball Passing Game
+summary: 2836 Maximize Value of Function in a Ball Passing Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2836 Maximize Value Of Function In A Ball Passing Game LeetCode Solution Explained in all languages", "2836 Maximize Value Of Function In A Ball Passing Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2836 Maximize Value of Function in a Ball Passing Game LeetCode Solution Explained in all languages", "2836 Maximize Value of Function in a Ball Passing Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2836 Maximize Value Of Function In A Ball Passing Game - Solution Explained/problem-solving.webp
-    alt: 2836 Maximize Value Of Function In A Ball Passing Game
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2836 Maximize Value of Function in a Ball Passing Game - Solution Explained/problem-solving.webp
+    alt: 2836 Maximize Value of Function in a Ball Passing Game
     hiddenInList: true
     hiddenInSingle: false
 ---

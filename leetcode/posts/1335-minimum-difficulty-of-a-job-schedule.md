@@ -1,13 +1,13 @@
 ---
-title: 1335 Minimum Difficulty Of A Job Schedule
-summary: 1335 Minimum Difficulty Of A Job Schedule LeetCode Solution Explained
+title: 1335 Minimum Difficulty of a Job Schedule
+summary: 1335 Minimum Difficulty of a Job Schedule LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1335 Minimum Difficulty Of A Job Schedule LeetCode Solution Explained in all languages", "1335 Minimum Difficulty Of A Job Schedule", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1335 Minimum Difficulty of a Job Schedule LeetCode Solution Explained in all languages", "1335 Minimum Difficulty of a Job Schedule", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1335 Minimum Difficulty Of A Job Schedule - Solution Explained/problem-solving.webp
-    alt: 1335 Minimum Difficulty Of A Job Schedule
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1335 Minimum Difficulty of a Job Schedule - Solution Explained/problem-solving.webp
+    alt: 1335 Minimum Difficulty of a Job Schedule
     hiddenInList: true
     hiddenInSingle: false
 ---

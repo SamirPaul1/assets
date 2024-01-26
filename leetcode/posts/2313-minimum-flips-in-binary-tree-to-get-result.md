@@ -1,13 +1,13 @@
 ---
-title: 2313 Minimum Flips In Binary Tree To Get Result
-summary: 2313 Minimum Flips In Binary Tree To Get Result LeetCode Solution Explained
+title: 2313 Minimum Flips in Binary Tree to Get Result
+summary: 2313 Minimum Flips in Binary Tree to Get Result LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2313 Minimum Flips In Binary Tree To Get Result LeetCode Solution Explained in all languages", "2313 Minimum Flips In Binary Tree To Get Result", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2313 Minimum Flips in Binary Tree to Get Result LeetCode Solution Explained in all languages", "2313 Minimum Flips in Binary Tree to Get Result", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2313 Minimum Flips In Binary Tree To Get Result - Solution Explained/problem-solving.webp
-    alt: 2313 Minimum Flips In Binary Tree To Get Result
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2313 Minimum Flips in Binary Tree to Get Result - Solution Explained/problem-solving.webp
+    alt: 2313 Minimum Flips in Binary Tree to Get Result
     hiddenInList: true
     hiddenInSingle: false
 ---

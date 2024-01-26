@@ -1,13 +1,13 @@
 ---
-title: 2138 Divide A String Into Groups Of Size K
-summary: 2138 Divide A String Into Groups Of Size K LeetCode Solution Explained
+title: 2138 Divide a String Into Groups of Size k
+summary: 2138 Divide a String Into Groups of Size k LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2138 Divide A String Into Groups Of Size K LeetCode Solution Explained in all languages", "2138 Divide A String Into Groups Of Size K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2138 Divide a String Into Groups of Size k LeetCode Solution Explained in all languages", "2138 Divide a String Into Groups of Size k", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2138 Divide A String Into Groups Of Size K - Solution Explained/problem-solving.webp
-    alt: 2138 Divide A String Into Groups Of Size K
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2138 Divide a String Into Groups of Size k - Solution Explained/problem-solving.webp
+    alt: 2138 Divide a String Into Groups of Size k
     hiddenInList: true
     hiddenInSingle: false
 ---

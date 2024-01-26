@@ -1,13 +1,13 @@
 ---
-title: 1071 Greatest Common Divisor Of Strings
-summary: 1071 Greatest Common Divisor Of Strings LeetCode Solution Explained
+title: 1071 Greatest Common Divisor of Strings
+summary: 1071 Greatest Common Divisor of Strings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1071 Greatest Common Divisor Of Strings LeetCode Solution Explained in all languages", "1071 Greatest Common Divisor Of Strings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1071 Greatest Common Divisor of Strings LeetCode Solution Explained in all languages", "1071 Greatest Common Divisor of Strings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1071 Greatest Common Divisor Of Strings - Solution Explained/problem-solving.webp
-    alt: 1071 Greatest Common Divisor Of Strings
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1071 Greatest Common Divisor of Strings - Solution Explained/problem-solving.webp
+    alt: 1071 Greatest Common Divisor of Strings
     hiddenInList: true
     hiddenInSingle: false
 ---

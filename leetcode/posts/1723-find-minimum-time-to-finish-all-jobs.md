@@ -1,13 +1,13 @@
 ---
-title: 1723 Find Minimum Time To Finish All Jobs
-summary: 1723 Find Minimum Time To Finish All Jobs LeetCode Solution Explained
+title: 1723 Find Minimum Time to Finish All Jobs
+summary: 1723 Find Minimum Time to Finish All Jobs LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1723 Find Minimum Time To Finish All Jobs LeetCode Solution Explained in all languages", "1723 Find Minimum Time To Finish All Jobs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1723 Find Minimum Time to Finish All Jobs LeetCode Solution Explained in all languages", "1723 Find Minimum Time to Finish All Jobs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1723 Find Minimum Time To Finish All Jobs - Solution Explained/problem-solving.webp
-    alt: 1723 Find Minimum Time To Finish All Jobs
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1723 Find Minimum Time to Finish All Jobs - Solution Explained/problem-solving.webp
+    alt: 1723 Find Minimum Time to Finish All Jobs
     hiddenInList: true
     hiddenInSingle: false
 ---

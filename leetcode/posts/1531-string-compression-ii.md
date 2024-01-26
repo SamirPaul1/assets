@@ -1,13 +1,13 @@
 ---
-title: 1531 String Compression Ii
-summary: 1531 String Compression Ii LeetCode Solution Explained
+title: 1531 String Compression II
+summary: 1531 String Compression II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1531 String Compression Ii LeetCode Solution Explained in all languages", "1531 String Compression Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1531 String Compression II LeetCode Solution Explained in all languages", "1531 String Compression II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1531 String Compression Ii - Solution Explained/problem-solving.webp
-    alt: 1531 String Compression Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1531 String Compression II - Solution Explained/problem-solving.webp
+    alt: 1531 String Compression II
     hiddenInList: true
     hiddenInSingle: false
 ---

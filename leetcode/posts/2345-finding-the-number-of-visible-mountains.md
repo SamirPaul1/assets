@@ -1,13 +1,13 @@
 ---
-title: 2345 Finding The Number Of Visible Mountains
-summary: 2345 Finding The Number Of Visible Mountains LeetCode Solution Explained
+title: 2345 Finding the Number of Visible Mountains
+summary: 2345 Finding the Number of Visible Mountains LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2345 Finding The Number Of Visible Mountains LeetCode Solution Explained in all languages", "2345 Finding The Number Of Visible Mountains", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2345 Finding the Number of Visible Mountains LeetCode Solution Explained in all languages", "2345 Finding the Number of Visible Mountains", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2345 Finding The Number Of Visible Mountains - Solution Explained/problem-solving.webp
-    alt: 2345 Finding The Number Of Visible Mountains
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2345 Finding the Number of Visible Mountains - Solution Explained/problem-solving.webp
+    alt: 2345 Finding the Number of Visible Mountains
     hiddenInList: true
     hiddenInSingle: false
 ---

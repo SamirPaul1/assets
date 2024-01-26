@@ -1,13 +1,13 @@
 ---
-title: 2314 The First Day Of The Maximum Recorded Degree In Each City
-summary: 2314 The First Day Of The Maximum Recorded Degree In Each City LeetCode Solution Explained
+title: 2314 The First Day of the Maximum Recorded Degree in Each City
+summary: 2314 The First Day of the Maximum Recorded Degree in Each City LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2314 The First Day Of The Maximum Recorded Degree In Each City LeetCode Solution Explained in all languages", "2314 The First Day Of The Maximum Recorded Degree In Each City", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2314 The First Day of the Maximum Recorded Degree in Each City LeetCode Solution Explained in all languages", "2314 The First Day of the Maximum Recorded Degree in Each City", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2314 The First Day Of The Maximum Recorded Degree In Each City - Solution Explained/problem-solving.webp
-    alt: 2314 The First Day Of The Maximum Recorded Degree In Each City
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2314 The First Day of the Maximum Recorded Degree in Each City - Solution Explained/problem-solving.webp
+    alt: 2314 The First Day of the Maximum Recorded Degree in Each City
     hiddenInList: true
     hiddenInSingle: false
 ---

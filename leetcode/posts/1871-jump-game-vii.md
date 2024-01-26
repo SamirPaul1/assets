@@ -1,13 +1,13 @@
 ---
-title: 1871 Jump Game Vii
-summary: 1871 Jump Game Vii LeetCode Solution Explained
+title: 1871 Jump Game VII
+summary: 1871 Jump Game VII LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1871 Jump Game Vii LeetCode Solution Explained in all languages", "1871 Jump Game Vii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1871 Jump Game VII LeetCode Solution Explained in all languages", "1871 Jump Game VII", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1871 Jump Game Vii - Solution Explained/problem-solving.webp
-    alt: 1871 Jump Game Vii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1871 Jump Game VII - Solution Explained/problem-solving.webp
+    alt: 1871 Jump Game VII
     hiddenInList: true
     hiddenInSingle: false
 ---

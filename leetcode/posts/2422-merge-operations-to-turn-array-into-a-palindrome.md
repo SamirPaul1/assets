@@ -1,13 +1,13 @@
 ---
-title: 2422 Merge Operations To Turn Array Into A Palindrome
-summary: 2422 Merge Operations To Turn Array Into A Palindrome LeetCode Solution Explained
+title: 2422 Merge Operations to Turn Array Into a Palindrome
+summary: 2422 Merge Operations to Turn Array Into a Palindrome LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2422 Merge Operations To Turn Array Into A Palindrome LeetCode Solution Explained in all languages", "2422 Merge Operations To Turn Array Into A Palindrome", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2422 Merge Operations to Turn Array Into a Palindrome LeetCode Solution Explained in all languages", "2422 Merge Operations to Turn Array Into a Palindrome", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2422 Merge Operations To Turn Array Into A Palindrome - Solution Explained/problem-solving.webp
-    alt: 2422 Merge Operations To Turn Array Into A Palindrome
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2422 Merge Operations to Turn Array Into a Palindrome - Solution Explained/problem-solving.webp
+    alt: 2422 Merge Operations to Turn Array Into a Palindrome
     hiddenInList: true
     hiddenInSingle: false
 ---

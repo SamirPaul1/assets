@@ -1,13 +1,13 @@
 ---
-title: 2908 Minimum Sum Of Mountain Triplets I
-summary: 2908 Minimum Sum Of Mountain Triplets I LeetCode Solution Explained
+title: 2908 Minimum Sum of Mountain Triplets I
+summary: 2908 Minimum Sum of Mountain Triplets I LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2908 Minimum Sum Of Mountain Triplets I LeetCode Solution Explained in all languages", "2908 Minimum Sum Of Mountain Triplets I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2908 Minimum Sum of Mountain Triplets I LeetCode Solution Explained in all languages", "2908 Minimum Sum of Mountain Triplets I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2908 Minimum Sum Of Mountain Triplets I - Solution Explained/problem-solving.webp
-    alt: 2908 Minimum Sum Of Mountain Triplets I
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2908 Minimum Sum of Mountain Triplets I - Solution Explained/problem-solving.webp
+    alt: 2908 Minimum Sum of Mountain Triplets I
     hiddenInList: true
     hiddenInSingle: false
 ---

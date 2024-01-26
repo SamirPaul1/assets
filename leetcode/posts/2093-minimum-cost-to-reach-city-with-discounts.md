@@ -1,13 +1,13 @@
 ---
-title: 2093 Minimum Cost To Reach City With Discounts
-summary: 2093 Minimum Cost To Reach City With Discounts LeetCode Solution Explained
+title: 2093 Minimum Cost to Reach City With Discounts
+summary: 2093 Minimum Cost to Reach City With Discounts LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2093 Minimum Cost To Reach City With Discounts LeetCode Solution Explained in all languages", "2093 Minimum Cost To Reach City With Discounts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2093 Minimum Cost to Reach City With Discounts LeetCode Solution Explained in all languages", "2093 Minimum Cost to Reach City With Discounts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2093 Minimum Cost To Reach City With Discounts - Solution Explained/problem-solving.webp
-    alt: 2093 Minimum Cost To Reach City With Discounts
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2093 Minimum Cost to Reach City With Discounts - Solution Explained/problem-solving.webp
+    alt: 2093 Minimum Cost to Reach City With Discounts
     hiddenInList: true
     hiddenInSingle: false
 ---

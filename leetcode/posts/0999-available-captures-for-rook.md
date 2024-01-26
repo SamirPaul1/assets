@@ -1,13 +1,13 @@
 ---
-title: 0999 Available Captures For Rook
-summary: 0999 Available Captures For Rook LeetCode Solution Explained
+title: 0999 Available Captures for Rook
+summary: 0999 Available Captures for Rook LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0999 Available Captures For Rook LeetCode Solution Explained in all languages", "0999 Available Captures For Rook", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0999 Available Captures for Rook LeetCode Solution Explained in all languages", "0999 Available Captures for Rook", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0999 Available Captures For Rook - Solution Explained/problem-solving.webp
-    alt: 0999 Available Captures For Rook
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0999 Available Captures for Rook - Solution Explained/problem-solving.webp
+    alt: 0999 Available Captures for Rook
     hiddenInList: true
     hiddenInSingle: false
 ---

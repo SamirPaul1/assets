@@ -1,13 +1,13 @@
 ---
-title: 2001 Number Of Pairs Of Interchangeable Rectangles
-summary: 2001 Number Of Pairs Of Interchangeable Rectangles LeetCode Solution Explained
+title: 2001 Number of Pairs of Interchangeable Rectangles
+summary: 2001 Number of Pairs of Interchangeable Rectangles LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2001 Number Of Pairs Of Interchangeable Rectangles LeetCode Solution Explained in all languages", "2001 Number Of Pairs Of Interchangeable Rectangles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2001 Number of Pairs of Interchangeable Rectangles LeetCode Solution Explained in all languages", "2001 Number of Pairs of Interchangeable Rectangles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2001 Number Of Pairs Of Interchangeable Rectangles - Solution Explained/problem-solving.webp
-    alt: 2001 Number Of Pairs Of Interchangeable Rectangles
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2001 Number of Pairs of Interchangeable Rectangles - Solution Explained/problem-solving.webp
+    alt: 2001 Number of Pairs of Interchangeable Rectangles
     hiddenInList: true
     hiddenInSingle: false
 ---

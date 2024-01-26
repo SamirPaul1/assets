@@ -1,13 +1,13 @@
 ---
-title: 0008 String To Integer (Atoi)
-summary: 0008 String To Integer (Atoi) LeetCode Solution Explained
+title: 0008 String to Integer (atoi)
+summary: 0008 String to Integer (atoi) LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0008 String To Integer (Atoi) LeetCode Solution Explained in all languages", "0008 String To Integer (Atoi)", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0008 String to Integer (atoi) LeetCode Solution Explained in all languages", "0008 String to Integer (atoi)", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0008 String To Integer (Atoi) - Solution Explained/problem-solving.webp
-    alt: 0008 String To Integer (Atoi)
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0008 String to Integer (atoi) - Solution Explained/problem-solving.webp
+    alt: 0008 String to Integer (atoi)
     hiddenInList: true
     hiddenInSingle: false
 ---

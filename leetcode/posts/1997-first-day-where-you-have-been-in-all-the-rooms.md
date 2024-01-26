@@ -1,13 +1,13 @@
 ---
-title: 1997 First Day Where You Have Been In All The Rooms
-summary: 1997 First Day Where You Have Been In All The Rooms LeetCode Solution Explained
+title: 1997 First Day Where You Have Been in All the Rooms
+summary: 1997 First Day Where You Have Been in All the Rooms LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1997 First Day Where You Have Been In All The Rooms LeetCode Solution Explained in all languages", "1997 First Day Where You Have Been In All The Rooms", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1997 First Day Where You Have Been in All the Rooms LeetCode Solution Explained in all languages", "1997 First Day Where You Have Been in All the Rooms", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1997 First Day Where You Have Been In All The Rooms - Solution Explained/problem-solving.webp
-    alt: 1997 First Day Where You Have Been In All The Rooms
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1997 First Day Where You Have Been in All the Rooms - Solution Explained/problem-solving.webp
+    alt: 1997 First Day Where You Have Been in All the Rooms
     hiddenInList: true
     hiddenInSingle: false
 ---

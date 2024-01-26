@@ -1,13 +1,13 @@
 ---
-title: 1535 Find The Winner Of An Array Game
-summary: 1535 Find The Winner Of An Array Game LeetCode Solution Explained
+title: 1535 Find the Winner of an Array Game
+summary: 1535 Find the Winner of an Array Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1535 Find The Winner Of An Array Game LeetCode Solution Explained in all languages", "1535 Find The Winner Of An Array Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1535 Find the Winner of an Array Game LeetCode Solution Explained in all languages", "1535 Find the Winner of an Array Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1535 Find The Winner Of An Array Game - Solution Explained/problem-solving.webp
-    alt: 1535 Find The Winner Of An Array Game
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1535 Find the Winner of an Array Game - Solution Explained/problem-solving.webp
+    alt: 1535 Find the Winner of an Array Game
     hiddenInList: true
     hiddenInSingle: false
 ---

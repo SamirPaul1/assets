@@ -1,13 +1,13 @@
 ---
-title: 2249 Count Lattice Points Inside A Circle
-summary: 2249 Count Lattice Points Inside A Circle LeetCode Solution Explained
+title: 2249 Count Lattice Points Inside a Circle
+summary: 2249 Count Lattice Points Inside a Circle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2249 Count Lattice Points Inside A Circle LeetCode Solution Explained in all languages", "2249 Count Lattice Points Inside A Circle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2249 Count Lattice Points Inside a Circle LeetCode Solution Explained in all languages", "2249 Count Lattice Points Inside a Circle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2249 Count Lattice Points Inside A Circle - Solution Explained/problem-solving.webp
-    alt: 2249 Count Lattice Points Inside A Circle
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2249 Count Lattice Points Inside a Circle - Solution Explained/problem-solving.webp
+    alt: 2249 Count Lattice Points Inside a Circle
     hiddenInList: true
     hiddenInSingle: false
 ---

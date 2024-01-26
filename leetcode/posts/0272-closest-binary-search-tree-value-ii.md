@@ -1,13 +1,13 @@
 ---
-title: 0272 Closest Binary Search Tree Value Ii
-summary: 0272 Closest Binary Search Tree Value Ii LeetCode Solution Explained
+title: 0272 Closest Binary Search Tree Value II
+summary: 0272 Closest Binary Search Tree Value II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0272 Closest Binary Search Tree Value Ii LeetCode Solution Explained in all languages", "0272 Closest Binary Search Tree Value Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0272 Closest Binary Search Tree Value II LeetCode Solution Explained in all languages", "0272 Closest Binary Search Tree Value II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0272 Closest Binary Search Tree Value Ii - Solution Explained/problem-solving.webp
-    alt: 0272 Closest Binary Search Tree Value Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0272 Closest Binary Search Tree Value II - Solution Explained/problem-solving.webp
+    alt: 0272 Closest Binary Search Tree Value II
     hiddenInList: true
     hiddenInSingle: false
 ---

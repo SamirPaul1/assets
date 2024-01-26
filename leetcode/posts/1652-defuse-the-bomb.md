@@ -1,13 +1,13 @@
 ---
-title: 1652 Defuse The Bomb
-summary: 1652 Defuse The Bomb LeetCode Solution Explained
+title: 1652 Defuse the Bomb
+summary: 1652 Defuse the Bomb LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1652 Defuse The Bomb LeetCode Solution Explained in all languages", "1652 Defuse The Bomb", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1652 Defuse the Bomb LeetCode Solution Explained in all languages", "1652 Defuse the Bomb", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1652 Defuse The Bomb - Solution Explained/problem-solving.webp
-    alt: 1652 Defuse The Bomb
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1652 Defuse the Bomb - Solution Explained/problem-solving.webp
+    alt: 1652 Defuse the Bomb
     hiddenInList: true
     hiddenInSingle: false
 ---

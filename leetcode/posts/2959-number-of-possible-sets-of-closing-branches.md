@@ -1,13 +1,13 @@
 ---
-title: 2959 Number Of Possible Sets Of Closing Branches
-summary: 2959 Number Of Possible Sets Of Closing Branches LeetCode Solution Explained
+title: 2959 Number of Possible Sets of Closing Branches
+summary: 2959 Number of Possible Sets of Closing Branches LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2959 Number Of Possible Sets Of Closing Branches LeetCode Solution Explained in all languages", "2959 Number Of Possible Sets Of Closing Branches", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2959 Number of Possible Sets of Closing Branches LeetCode Solution Explained in all languages", "2959 Number of Possible Sets of Closing Branches", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2959 Number Of Possible Sets Of Closing Branches - Solution Explained/problem-solving.webp
-    alt: 2959 Number Of Possible Sets Of Closing Branches
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2959 Number of Possible Sets of Closing Branches - Solution Explained/problem-solving.webp
+    alt: 2959 Number of Possible Sets of Closing Branches
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0342 Power Of Four
-summary: 0342 Power Of Four LeetCode Solution Explained
+title: 0342 Power of Four
+summary: 0342 Power of Four LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0342 Power Of Four LeetCode Solution Explained in all languages", "0342 Power Of Four", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0342 Power of Four LeetCode Solution Explained in all languages", "0342 Power of Four", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0342 Power Of Four - Solution Explained/problem-solving.webp
-    alt: 0342 Power Of Four
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0342 Power of Four - Solution Explained/problem-solving.webp
+    alt: 0342 Power of Four
     hiddenInList: true
     hiddenInSingle: false
 ---

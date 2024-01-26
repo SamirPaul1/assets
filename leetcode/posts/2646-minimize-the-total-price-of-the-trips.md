@@ -1,13 +1,13 @@
 ---
-title: 2646 Minimize The Total Price Of The Trips
-summary: 2646 Minimize The Total Price Of The Trips LeetCode Solution Explained
+title: 2646 Minimize the Total Price of the Trips
+summary: 2646 Minimize the Total Price of the Trips LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2646 Minimize The Total Price Of The Trips LeetCode Solution Explained in all languages", "2646 Minimize The Total Price Of The Trips", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2646 Minimize the Total Price of the Trips LeetCode Solution Explained in all languages", "2646 Minimize the Total Price of the Trips", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2646 Minimize The Total Price Of The Trips - Solution Explained/problem-solving.webp
-    alt: 2646 Minimize The Total Price Of The Trips
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2646 Minimize the Total Price of the Trips - Solution Explained/problem-solving.webp
+    alt: 2646 Minimize the Total Price of the Trips
     hiddenInList: true
     hiddenInSingle: false
 ---

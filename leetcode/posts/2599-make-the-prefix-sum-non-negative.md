@@ -1,13 +1,13 @@
 ---
-title: 2599 Make The Prefix Sum Non Negative
-summary: 2599 Make The Prefix Sum Non Negative LeetCode Solution Explained
+title: 2599 Make the Prefix Sum Non negative
+summary: 2599 Make the Prefix Sum Non negative LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2599 Make The Prefix Sum Non Negative LeetCode Solution Explained in all languages", "2599 Make The Prefix Sum Non Negative", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2599 Make the Prefix Sum Non negative LeetCode Solution Explained in all languages", "2599 Make the Prefix Sum Non negative", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2599 Make The Prefix Sum Non Negative - Solution Explained/problem-solving.webp
-    alt: 2599 Make The Prefix Sum Non Negative
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2599 Make the Prefix Sum Non negative - Solution Explained/problem-solving.webp
+    alt: 2599 Make the Prefix Sum Non negative
     hiddenInList: true
     hiddenInSingle: false
 ---

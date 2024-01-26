@@ -1,13 +1,13 @@
 ---
-title: 1020 Number Of Enclaves
-summary: 1020 Number Of Enclaves LeetCode Solution Explained
+title: 1020 Number of Enclaves
+summary: 1020 Number of Enclaves LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1020 Number Of Enclaves LeetCode Solution Explained in all languages", "1020 Number Of Enclaves", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1020 Number of Enclaves LeetCode Solution Explained in all languages", "1020 Number of Enclaves", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1020 Number Of Enclaves - Solution Explained/problem-solving.webp
-    alt: 1020 Number Of Enclaves
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1020 Number of Enclaves - Solution Explained/problem-solving.webp
+    alt: 1020 Number of Enclaves
     hiddenInList: true
     hiddenInSingle: false
 ---

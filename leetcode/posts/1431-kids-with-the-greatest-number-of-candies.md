@@ -1,13 +1,13 @@
 ---
-title: 1431 Kids With The Greatest Number Of Candies
-summary: 1431 Kids With The Greatest Number Of Candies LeetCode Solution Explained
+title: 1431 Kids With the Greatest Number of Candies
+summary: 1431 Kids With the Greatest Number of Candies LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1431 Kids With The Greatest Number Of Candies LeetCode Solution Explained in all languages", "1431 Kids With The Greatest Number Of Candies", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1431 Kids With the Greatest Number of Candies LeetCode Solution Explained in all languages", "1431 Kids With the Greatest Number of Candies", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1431 Kids With The Greatest Number Of Candies - Solution Explained/problem-solving.webp
-    alt: 1431 Kids With The Greatest Number Of Candies
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1431 Kids With the Greatest Number of Candies - Solution Explained/problem-solving.webp
+    alt: 1431 Kids With the Greatest Number of Candies
     hiddenInList: true
     hiddenInSingle: false
 ---

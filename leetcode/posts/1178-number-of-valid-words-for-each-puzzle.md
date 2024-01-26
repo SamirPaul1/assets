@@ -1,13 +1,13 @@
 ---
-title: 1178 Number Of Valid Words For Each Puzzle
-summary: 1178 Number Of Valid Words For Each Puzzle LeetCode Solution Explained
+title: 1178 Number of Valid Words for Each Puzzle
+summary: 1178 Number of Valid Words for Each Puzzle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1178 Number Of Valid Words For Each Puzzle LeetCode Solution Explained in all languages", "1178 Number Of Valid Words For Each Puzzle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1178 Number of Valid Words for Each Puzzle LeetCode Solution Explained in all languages", "1178 Number of Valid Words for Each Puzzle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1178 Number Of Valid Words For Each Puzzle - Solution Explained/problem-solving.webp
-    alt: 1178 Number Of Valid Words For Each Puzzle
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1178 Number of Valid Words for Each Puzzle - Solution Explained/problem-solving.webp
+    alt: 1178 Number of Valid Words for Each Puzzle
     hiddenInList: true
     hiddenInSingle: false
 ---

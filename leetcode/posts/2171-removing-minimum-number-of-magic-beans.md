@@ -1,13 +1,13 @@
 ---
-title: 2171 Removing Minimum Number Of Magic Beans
-summary: 2171 Removing Minimum Number Of Magic Beans LeetCode Solution Explained
+title: 2171 Removing Minimum Number of Magic Beans
+summary: 2171 Removing Minimum Number of Magic Beans LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2171 Removing Minimum Number Of Magic Beans LeetCode Solution Explained in all languages", "2171 Removing Minimum Number Of Magic Beans", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2171 Removing Minimum Number of Magic Beans LeetCode Solution Explained in all languages", "2171 Removing Minimum Number of Magic Beans", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2171 Removing Minimum Number Of Magic Beans - Solution Explained/problem-solving.webp
-    alt: 2171 Removing Minimum Number Of Magic Beans
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2171 Removing Minimum Number of Magic Beans - Solution Explained/problem-solving.webp
+    alt: 2171 Removing Minimum Number of Magic Beans
     hiddenInList: true
     hiddenInSingle: false
 ---

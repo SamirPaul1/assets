@@ -1,13 +1,13 @@
 ---
-title: 1835 Find Xor Sum Of All Pairs Bitwise And
-summary: 1835 Find Xor Sum Of All Pairs Bitwise And LeetCode Solution Explained
+title: 1835 Find XOR Sum of All Pairs Bitwise AND
+summary: 1835 Find XOR Sum of All Pairs Bitwise AND LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1835 Find Xor Sum Of All Pairs Bitwise And LeetCode Solution Explained in all languages", "1835 Find Xor Sum Of All Pairs Bitwise And", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1835 Find XOR Sum of All Pairs Bitwise AND LeetCode Solution Explained in all languages", "1835 Find XOR Sum of All Pairs Bitwise AND", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1835 Find Xor Sum Of All Pairs Bitwise And - Solution Explained/problem-solving.webp
-    alt: 1835 Find Xor Sum Of All Pairs Bitwise And
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1835 Find XOR Sum of All Pairs Bitwise AND - Solution Explained/problem-solving.webp
+    alt: 1835 Find XOR Sum of All Pairs Bitwise AND
     hiddenInList: true
     hiddenInSingle: false
 ---

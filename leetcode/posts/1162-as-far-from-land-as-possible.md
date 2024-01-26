@@ -1,13 +1,13 @@
 ---
-title: 1162 As Far From Land As Possible
-summary: 1162 As Far From Land As Possible LeetCode Solution Explained
+title: 1162 As Far from Land as Possible
+summary: 1162 As Far from Land as Possible LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1162 As Far From Land As Possible LeetCode Solution Explained in all languages", "1162 As Far From Land As Possible", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1162 As Far from Land as Possible LeetCode Solution Explained in all languages", "1162 As Far from Land as Possible", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1162 As Far From Land As Possible - Solution Explained/problem-solving.webp
-    alt: 1162 As Far From Land As Possible
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1162 As Far from Land as Possible - Solution Explained/problem-solving.webp
+    alt: 1162 As Far from Land as Possible
     hiddenInList: true
     hiddenInSingle: false
 ---

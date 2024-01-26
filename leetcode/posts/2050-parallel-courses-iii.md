@@ -1,13 +1,13 @@
 ---
-title: 2050 Parallel Courses Iii
-summary: 2050 Parallel Courses Iii LeetCode Solution Explained
+title: 2050 Parallel Courses III
+summary: 2050 Parallel Courses III LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2050 Parallel Courses Iii LeetCode Solution Explained in all languages", "2050 Parallel Courses Iii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2050 Parallel Courses III LeetCode Solution Explained in all languages", "2050 Parallel Courses III", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2050 Parallel Courses Iii - Solution Explained/problem-solving.webp
-    alt: 2050 Parallel Courses Iii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2050 Parallel Courses III - Solution Explained/problem-solving.webp
+    alt: 2050 Parallel Courses III
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0562 Longest Line Of Consecutive One In Matrix
-summary: 0562 Longest Line Of Consecutive One In Matrix LeetCode Solution Explained
+title: 0562 Longest Line of Consecutive One in Matrix
+summary: 0562 Longest Line of Consecutive One in Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0562 Longest Line Of Consecutive One In Matrix LeetCode Solution Explained in all languages", "0562 Longest Line Of Consecutive One In Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0562 Longest Line of Consecutive One in Matrix LeetCode Solution Explained in all languages", "0562 Longest Line of Consecutive One in Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0562 Longest Line Of Consecutive One In Matrix - Solution Explained/problem-solving.webp
-    alt: 0562 Longest Line Of Consecutive One In Matrix
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0562 Longest Line of Consecutive One in Matrix - Solution Explained/problem-solving.webp
+    alt: 0562 Longest Line of Consecutive One in Matrix
     hiddenInList: true
     hiddenInSingle: false
 ---

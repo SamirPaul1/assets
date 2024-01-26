@@ -1,13 +1,13 @@
 ---
-title: 1275 Find Winner On A Tic Tac Toe Game
-summary: 1275 Find Winner On A Tic Tac Toe Game LeetCode Solution Explained
+title: 1275 Find Winner on a Tic Tac Toe Game
+summary: 1275 Find Winner on a Tic Tac Toe Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1275 Find Winner On A Tic Tac Toe Game LeetCode Solution Explained in all languages", "1275 Find Winner On A Tic Tac Toe Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1275 Find Winner on a Tic Tac Toe Game LeetCode Solution Explained in all languages", "1275 Find Winner on a Tic Tac Toe Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1275 Find Winner On A Tic Tac Toe Game - Solution Explained/problem-solving.webp
-    alt: 1275 Find Winner On A Tic Tac Toe Game
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1275 Find Winner on a Tic Tac Toe Game - Solution Explained/problem-solving.webp
+    alt: 1275 Find Winner on a Tic Tac Toe Game
     hiddenInList: true
     hiddenInSingle: false
 ---

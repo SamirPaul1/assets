@@ -1,13 +1,13 @@
 ---
-title: 1676 Lowest Common Ancestor Of A Binary Tree Iv
-summary: 1676 Lowest Common Ancestor Of A Binary Tree Iv LeetCode Solution Explained
+title: 1676 Lowest Common Ancestor of a Binary Tree IV
+summary: 1676 Lowest Common Ancestor of a Binary Tree IV LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1676 Lowest Common Ancestor Of A Binary Tree Iv LeetCode Solution Explained in all languages", "1676 Lowest Common Ancestor Of A Binary Tree Iv", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1676 Lowest Common Ancestor of a Binary Tree IV LeetCode Solution Explained in all languages", "1676 Lowest Common Ancestor of a Binary Tree IV", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1676 Lowest Common Ancestor Of A Binary Tree Iv - Solution Explained/problem-solving.webp
-    alt: 1676 Lowest Common Ancestor Of A Binary Tree Iv
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1676 Lowest Common Ancestor of a Binary Tree IV - Solution Explained/problem-solving.webp
+    alt: 1676 Lowest Common Ancestor of a Binary Tree IV
     hiddenInList: true
     hiddenInSingle: false
 ---

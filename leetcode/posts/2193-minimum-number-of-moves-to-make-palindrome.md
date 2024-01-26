@@ -1,13 +1,13 @@
 ---
-title: 2193 Minimum Number Of Moves To Make Palindrome
-summary: 2193 Minimum Number Of Moves To Make Palindrome LeetCode Solution Explained
+title: 2193 Minimum Number of Moves to Make Palindrome
+summary: 2193 Minimum Number of Moves to Make Palindrome LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2193 Minimum Number Of Moves To Make Palindrome LeetCode Solution Explained in all languages", "2193 Minimum Number Of Moves To Make Palindrome", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2193 Minimum Number of Moves to Make Palindrome LeetCode Solution Explained in all languages", "2193 Minimum Number of Moves to Make Palindrome", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2193 Minimum Number Of Moves To Make Palindrome - Solution Explained/problem-solving.webp
-    alt: 2193 Minimum Number Of Moves To Make Palindrome
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2193 Minimum Number of Moves to Make Palindrome - Solution Explained/problem-solving.webp
+    alt: 2193 Minimum Number of Moves to Make Palindrome
     hiddenInList: true
     hiddenInSingle: false
 ---

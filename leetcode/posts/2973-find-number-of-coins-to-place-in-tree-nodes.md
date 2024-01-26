@@ -1,13 +1,13 @@
 ---
-title: 2973 Find Number Of Coins To Place In Tree Nodes
-summary: 2973 Find Number Of Coins To Place In Tree Nodes LeetCode Solution Explained
+title: 2973 Find Number of Coins to Place in Tree Nodes
+summary: 2973 Find Number of Coins to Place in Tree Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2973 Find Number Of Coins To Place In Tree Nodes LeetCode Solution Explained in all languages", "2973 Find Number Of Coins To Place In Tree Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2973 Find Number of Coins to Place in Tree Nodes LeetCode Solution Explained in all languages", "2973 Find Number of Coins to Place in Tree Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2973 Find Number Of Coins To Place In Tree Nodes - Solution Explained/problem-solving.webp
-    alt: 2973 Find Number Of Coins To Place In Tree Nodes
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2973 Find Number of Coins to Place in Tree Nodes - Solution Explained/problem-solving.webp
+    alt: 2973 Find Number of Coins to Place in Tree Nodes
     hiddenInList: true
     hiddenInSingle: false
 ---

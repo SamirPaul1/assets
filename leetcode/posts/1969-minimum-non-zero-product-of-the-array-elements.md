@@ -1,13 +1,13 @@
 ---
-title: 1969 Minimum Non Zero Product Of The Array Elements
-summary: 1969 Minimum Non Zero Product Of The Array Elements LeetCode Solution Explained
+title: 1969 Minimum Non Zero Product of the Array Elements
+summary: 1969 Minimum Non Zero Product of the Array Elements LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1969 Minimum Non Zero Product Of The Array Elements LeetCode Solution Explained in all languages", "1969 Minimum Non Zero Product Of The Array Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1969 Minimum Non Zero Product of the Array Elements LeetCode Solution Explained in all languages", "1969 Minimum Non Zero Product of the Array Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1969 Minimum Non Zero Product Of The Array Elements - Solution Explained/problem-solving.webp
-    alt: 1969 Minimum Non Zero Product Of The Array Elements
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1969 Minimum Non Zero Product of the Array Elements - Solution Explained/problem-solving.webp
+    alt: 1969 Minimum Non Zero Product of the Array Elements
     hiddenInList: true
     hiddenInSingle: false
 ---

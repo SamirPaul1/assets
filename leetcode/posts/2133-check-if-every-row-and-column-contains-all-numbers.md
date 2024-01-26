@@ -1,13 +1,13 @@
 ---
-title: 2133 Check If Every Row And Column Contains All Numbers
-summary: 2133 Check If Every Row And Column Contains All Numbers LeetCode Solution Explained
+title: 2133 Check if Every Row and Column Contains All Numbers
+summary: 2133 Check if Every Row and Column Contains All Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2133 Check If Every Row And Column Contains All Numbers LeetCode Solution Explained in all languages", "2133 Check If Every Row And Column Contains All Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2133 Check if Every Row and Column Contains All Numbers LeetCode Solution Explained in all languages", "2133 Check if Every Row and Column Contains All Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2133 Check If Every Row And Column Contains All Numbers - Solution Explained/problem-solving.webp
-    alt: 2133 Check If Every Row And Column Contains All Numbers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2133 Check if Every Row and Column Contains All Numbers - Solution Explained/problem-solving.webp
+    alt: 2133 Check if Every Row and Column Contains All Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---

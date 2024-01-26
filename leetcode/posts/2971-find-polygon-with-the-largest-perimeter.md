@@ -1,13 +1,13 @@
 ---
-title: 2971 Find Polygon With The Largest Perimeter
-summary: 2971 Find Polygon With The Largest Perimeter LeetCode Solution Explained
+title: 2971 Find Polygon With the Largest Perimeter
+summary: 2971 Find Polygon With the Largest Perimeter LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2971 Find Polygon With The Largest Perimeter LeetCode Solution Explained in all languages", "2971 Find Polygon With The Largest Perimeter", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2971 Find Polygon With the Largest Perimeter LeetCode Solution Explained in all languages", "2971 Find Polygon With the Largest Perimeter", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2971 Find Polygon With The Largest Perimeter - Solution Explained/problem-solving.webp
-    alt: 2971 Find Polygon With The Largest Perimeter
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2971 Find Polygon With the Largest Perimeter - Solution Explained/problem-solving.webp
+    alt: 2971 Find Polygon With the Largest Perimeter
     hiddenInList: true
     hiddenInSingle: false
 ---

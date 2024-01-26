@@ -1,13 +1,13 @@
 ---
-title: 0030 Substring With Concatenation Of All Words
-summary: 0030 Substring With Concatenation Of All Words LeetCode Solution Explained
+title: 0030 Substring with Concatenation of All Words
+summary: 0030 Substring with Concatenation of All Words LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0030 Substring With Concatenation Of All Words LeetCode Solution Explained in all languages", "0030 Substring With Concatenation Of All Words", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0030 Substring with Concatenation of All Words LeetCode Solution Explained in all languages", "0030 Substring with Concatenation of All Words", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0030 Substring With Concatenation Of All Words - Solution Explained/problem-solving.webp
-    alt: 0030 Substring With Concatenation Of All Words
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0030 Substring with Concatenation of All Words - Solution Explained/problem-solving.webp
+    alt: 0030 Substring with Concatenation of All Words
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1936 Add Minimum Number Of Rungs
-summary: 1936 Add Minimum Number Of Rungs LeetCode Solution Explained
+title: 1936 Add Minimum Number of Rungs
+summary: 1936 Add Minimum Number of Rungs LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1936 Add Minimum Number Of Rungs LeetCode Solution Explained in all languages", "1936 Add Minimum Number Of Rungs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1936 Add Minimum Number of Rungs LeetCode Solution Explained in all languages", "1936 Add Minimum Number of Rungs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1936 Add Minimum Number Of Rungs - Solution Explained/problem-solving.webp
-    alt: 1936 Add Minimum Number Of Rungs
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1936 Add Minimum Number of Rungs - Solution Explained/problem-solving.webp
+    alt: 1936 Add Minimum Number of Rungs
     hiddenInList: true
     hiddenInSingle: false
 ---

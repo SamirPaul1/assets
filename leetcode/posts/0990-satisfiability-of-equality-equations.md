@@ -1,13 +1,13 @@
 ---
-title: 0990 Satisfiability Of Equality Equations
-summary: 0990 Satisfiability Of Equality Equations LeetCode Solution Explained
+title: 0990 Satisfiability of Equality Equations
+summary: 0990 Satisfiability of Equality Equations LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0990 Satisfiability Of Equality Equations LeetCode Solution Explained in all languages", "0990 Satisfiability Of Equality Equations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0990 Satisfiability of Equality Equations LeetCode Solution Explained in all languages", "0990 Satisfiability of Equality Equations", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0990 Satisfiability Of Equality Equations - Solution Explained/problem-solving.webp
-    alt: 0990 Satisfiability Of Equality Equations
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0990 Satisfiability of Equality Equations - Solution Explained/problem-solving.webp
+    alt: 0990 Satisfiability of Equality Equations
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2980 Check If Bitwise Or Has Trailing Zeros
-summary: 2980 Check If Bitwise Or Has Trailing Zeros LeetCode Solution Explained
+title: 2980 Check if Bitwise OR Has Trailing Zeros
+summary: 2980 Check if Bitwise OR Has Trailing Zeros LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2980 Check If Bitwise Or Has Trailing Zeros LeetCode Solution Explained in all languages", "2980 Check If Bitwise Or Has Trailing Zeros", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2980 Check if Bitwise OR Has Trailing Zeros LeetCode Solution Explained in all languages", "2980 Check if Bitwise OR Has Trailing Zeros", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2980 Check If Bitwise Or Has Trailing Zeros - Solution Explained/problem-solving.webp
-    alt: 2980 Check If Bitwise Or Has Trailing Zeros
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2980 Check if Bitwise OR Has Trailing Zeros - Solution Explained/problem-solving.webp
+    alt: 2980 Check if Bitwise OR Has Trailing Zeros
     hiddenInList: true
     hiddenInSingle: false
 ---

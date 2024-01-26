@@ -1,13 +1,13 @@
 ---
-title: 1993 Operations On Tree
-summary: 1993 Operations On Tree LeetCode Solution Explained
+title: 1993 Operations on Tree
+summary: 1993 Operations on Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1993 Operations On Tree LeetCode Solution Explained in all languages", "1993 Operations On Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1993 Operations on Tree LeetCode Solution Explained in all languages", "1993 Operations on Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1993 Operations On Tree - Solution Explained/problem-solving.webp
-    alt: 1993 Operations On Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1993 Operations on Tree - Solution Explained/problem-solving.webp
+    alt: 1993 Operations on Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

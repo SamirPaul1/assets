@@ -1,13 +1,13 @@
 ---
-title: 2232 Minimize Result By Adding Parentheses To Expression
-summary: 2232 Minimize Result By Adding Parentheses To Expression LeetCode Solution Explained
+title: 2232 Minimize Result by Adding Parentheses to Expression
+summary: 2232 Minimize Result by Adding Parentheses to Expression LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2232 Minimize Result By Adding Parentheses To Expression LeetCode Solution Explained in all languages", "2232 Minimize Result By Adding Parentheses To Expression", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2232 Minimize Result by Adding Parentheses to Expression LeetCode Solution Explained in all languages", "2232 Minimize Result by Adding Parentheses to Expression", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2232 Minimize Result By Adding Parentheses To Expression - Solution Explained/problem-solving.webp
-    alt: 2232 Minimize Result By Adding Parentheses To Expression
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2232 Minimize Result by Adding Parentheses to Expression - Solution Explained/problem-solving.webp
+    alt: 2232 Minimize Result by Adding Parentheses to Expression
     hiddenInList: true
     hiddenInSingle: false
 ---

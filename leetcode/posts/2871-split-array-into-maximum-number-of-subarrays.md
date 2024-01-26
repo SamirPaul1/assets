@@ -1,13 +1,13 @@
 ---
-title: 2871 Split Array Into Maximum Number Of Subarrays
-summary: 2871 Split Array Into Maximum Number Of Subarrays LeetCode Solution Explained
+title: 2871 Split Array Into Maximum Number of Subarrays
+summary: 2871 Split Array Into Maximum Number of Subarrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2871 Split Array Into Maximum Number Of Subarrays LeetCode Solution Explained in all languages", "2871 Split Array Into Maximum Number Of Subarrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2871 Split Array Into Maximum Number of Subarrays LeetCode Solution Explained in all languages", "2871 Split Array Into Maximum Number of Subarrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2871 Split Array Into Maximum Number Of Subarrays - Solution Explained/problem-solving.webp
-    alt: 2871 Split Array Into Maximum Number Of Subarrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2871 Split Array Into Maximum Number of Subarrays - Solution Explained/problem-solving.webp
+    alt: 2871 Split Array Into Maximum Number of Subarrays
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2531 Make Number Of Distinct Characters Equal
-summary: 2531 Make Number Of Distinct Characters Equal LeetCode Solution Explained
+title: 2531 Make Number of Distinct Characters Equal
+summary: 2531 Make Number of Distinct Characters Equal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2531 Make Number Of Distinct Characters Equal LeetCode Solution Explained in all languages", "2531 Make Number Of Distinct Characters Equal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2531 Make Number of Distinct Characters Equal LeetCode Solution Explained in all languages", "2531 Make Number of Distinct Characters Equal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2531 Make Number Of Distinct Characters Equal - Solution Explained/problem-solving.webp
-    alt: 2531 Make Number Of Distinct Characters Equal
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2531 Make Number of Distinct Characters Equal - Solution Explained/problem-solving.webp
+    alt: 2531 Make Number of Distinct Characters Equal
     hiddenInList: true
     hiddenInSingle: false
 ---

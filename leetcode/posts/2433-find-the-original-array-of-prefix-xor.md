@@ -1,13 +1,13 @@
 ---
-title: 2433 Find The Original Array Of Prefix Xor
-summary: 2433 Find The Original Array Of Prefix Xor LeetCode Solution Explained
+title: 2433 Find The Original Array of Prefix Xor
+summary: 2433 Find The Original Array of Prefix Xor LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2433 Find The Original Array Of Prefix Xor LeetCode Solution Explained in all languages", "2433 Find The Original Array Of Prefix Xor", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2433 Find The Original Array of Prefix Xor LeetCode Solution Explained in all languages", "2433 Find The Original Array of Prefix Xor", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2433 Find The Original Array Of Prefix Xor - Solution Explained/problem-solving.webp
-    alt: 2433 Find The Original Array Of Prefix Xor
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2433 Find The Original Array of Prefix Xor - Solution Explained/problem-solving.webp
+    alt: 2433 Find The Original Array of Prefix Xor
     hiddenInList: true
     hiddenInSingle: false
 ---

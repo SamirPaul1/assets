@@ -1,13 +1,13 @@
 ---
-title: 1385 Find The Distance Value Between Two Arrays
-summary: 1385 Find The Distance Value Between Two Arrays LeetCode Solution Explained
+title: 1385 Find the Distance Value Between Two Arrays
+summary: 1385 Find the Distance Value Between Two Arrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1385 Find The Distance Value Between Two Arrays LeetCode Solution Explained in all languages", "1385 Find The Distance Value Between Two Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1385 Find the Distance Value Between Two Arrays LeetCode Solution Explained in all languages", "1385 Find the Distance Value Between Two Arrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1385 Find The Distance Value Between Two Arrays - Solution Explained/problem-solving.webp
-    alt: 1385 Find The Distance Value Between Two Arrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1385 Find the Distance Value Between Two Arrays - Solution Explained/problem-solving.webp
+    alt: 1385 Find the Distance Value Between Two Arrays
     hiddenInList: true
     hiddenInSingle: false
 ---

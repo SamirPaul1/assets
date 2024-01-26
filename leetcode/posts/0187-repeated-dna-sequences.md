@@ -1,13 +1,13 @@
 ---
-title: 0187 Repeated Dna Sequences
-summary: 0187 Repeated Dna Sequences LeetCode Solution Explained
+title: 0187 Repeated DNA Sequences
+summary: 0187 Repeated DNA Sequences LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0187 Repeated Dna Sequences LeetCode Solution Explained in all languages", "0187 Repeated Dna Sequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0187 Repeated DNA Sequences LeetCode Solution Explained in all languages", "0187 Repeated DNA Sequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0187 Repeated Dna Sequences - Solution Explained/problem-solving.webp
-    alt: 0187 Repeated Dna Sequences
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0187 Repeated DNA Sequences - Solution Explained/problem-solving.webp
+    alt: 0187 Repeated DNA Sequences
     hiddenInList: true
     hiddenInSingle: false
 ---

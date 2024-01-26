@@ -1,13 +1,13 @@
 ---
-title: 3018 Maximum Number Of Removal Queries That Can Be Processed I
-summary: 3018 Maximum Number Of Removal Queries That Can Be Processed I LeetCode Solution Explained
+title: 3018 Maximum Number of Removal Queries That Can Be Processed I
+summary: 3018 Maximum Number of Removal Queries That Can Be Processed I LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["3018 Maximum Number Of Removal Queries That Can Be Processed I LeetCode Solution Explained in all languages", "3018 Maximum Number Of Removal Queries That Can Be Processed I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["3018 Maximum Number of Removal Queries That Can Be Processed I LeetCode Solution Explained in all languages", "3018 Maximum Number of Removal Queries That Can Be Processed I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3018 Maximum Number Of Removal Queries That Can Be Processed I - Solution Explained/problem-solving.webp
-    alt: 3018 Maximum Number Of Removal Queries That Can Be Processed I
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3018 Maximum Number of Removal Queries That Can Be Processed I - Solution Explained/problem-solving.webp
+    alt: 3018 Maximum Number of Removal Queries That Can Be Processed I
     hiddenInList: true
     hiddenInSingle: false
 ---

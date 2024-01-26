@@ -1,13 +1,13 @@
 ---
-title: 1103 Distribute Candies To People
-summary: 1103 Distribute Candies To People LeetCode Solution Explained
+title: 1103 Distribute Candies to People
+summary: 1103 Distribute Candies to People LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1103 Distribute Candies To People LeetCode Solution Explained in all languages", "1103 Distribute Candies To People", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1103 Distribute Candies to People LeetCode Solution Explained in all languages", "1103 Distribute Candies to People", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1103 Distribute Candies To People - Solution Explained/problem-solving.webp
-    alt: 1103 Distribute Candies To People
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1103 Distribute Candies to People - Solution Explained/problem-solving.webp
+    alt: 1103 Distribute Candies to People
     hiddenInList: true
     hiddenInSingle: false
 ---

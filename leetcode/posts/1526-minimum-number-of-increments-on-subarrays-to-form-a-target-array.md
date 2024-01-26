@@ -1,13 +1,13 @@
 ---
-title: 1526 Minimum Number Of Increments On Subarrays To Form A Target Array
-summary: 1526 Minimum Number Of Increments On Subarrays To Form A Target Array LeetCode Solution Explained
+title: 1526 Minimum Number of Increments on Subarrays to Form a Target Array
+summary: 1526 Minimum Number of Increments on Subarrays to Form a Target Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1526 Minimum Number Of Increments On Subarrays To Form A Target Array LeetCode Solution Explained in all languages", "1526 Minimum Number Of Increments On Subarrays To Form A Target Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1526 Minimum Number of Increments on Subarrays to Form a Target Array LeetCode Solution Explained in all languages", "1526 Minimum Number of Increments on Subarrays to Form a Target Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1526 Minimum Number Of Increments On Subarrays To Form A Target Array - Solution Explained/problem-solving.webp
-    alt: 1526 Minimum Number Of Increments On Subarrays To Form A Target Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1526 Minimum Number of Increments on Subarrays to Form a Target Array - Solution Explained/problem-solving.webp
+    alt: 1526 Minimum Number of Increments on Subarrays to Form a Target Array
     hiddenInList: true
     hiddenInSingle: false
 ---

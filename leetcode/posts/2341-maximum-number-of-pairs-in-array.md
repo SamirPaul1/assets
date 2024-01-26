@@ -1,13 +1,13 @@
 ---
-title: 2341 Maximum Number Of Pairs In Array
-summary: 2341 Maximum Number Of Pairs In Array LeetCode Solution Explained
+title: 2341 Maximum Number of Pairs in Array
+summary: 2341 Maximum Number of Pairs in Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2341 Maximum Number Of Pairs In Array LeetCode Solution Explained in all languages", "2341 Maximum Number Of Pairs In Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2341 Maximum Number of Pairs in Array LeetCode Solution Explained in all languages", "2341 Maximum Number of Pairs in Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2341 Maximum Number Of Pairs In Array - Solution Explained/problem-solving.webp
-    alt: 2341 Maximum Number Of Pairs In Array
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2341 Maximum Number of Pairs in Array - Solution Explained/problem-solving.webp
+    alt: 2341 Maximum Number of Pairs in Array
     hiddenInList: true
     hiddenInSingle: false
 ---

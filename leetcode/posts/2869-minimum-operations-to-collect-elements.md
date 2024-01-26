@@ -1,13 +1,13 @@
 ---
-title: 2869 Minimum Operations To Collect Elements
-summary: 2869 Minimum Operations To Collect Elements LeetCode Solution Explained
+title: 2869 Minimum Operations to Collect Elements
+summary: 2869 Minimum Operations to Collect Elements LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2869 Minimum Operations To Collect Elements LeetCode Solution Explained in all languages", "2869 Minimum Operations To Collect Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2869 Minimum Operations to Collect Elements LeetCode Solution Explained in all languages", "2869 Minimum Operations to Collect Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2869 Minimum Operations To Collect Elements - Solution Explained/problem-solving.webp
-    alt: 2869 Minimum Operations To Collect Elements
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2869 Minimum Operations to Collect Elements - Solution Explained/problem-solving.webp
+    alt: 2869 Minimum Operations to Collect Elements
     hiddenInList: true
     hiddenInSingle: false
 ---

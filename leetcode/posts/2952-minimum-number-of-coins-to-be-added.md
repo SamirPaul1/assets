@@ -1,13 +1,13 @@
 ---
-title: 2952 Minimum Number Of Coins To Be Added
-summary: 2952 Minimum Number Of Coins To Be Added LeetCode Solution Explained
+title: 2952 Minimum Number of Coins to be Added
+summary: 2952 Minimum Number of Coins to be Added LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2952 Minimum Number Of Coins To Be Added LeetCode Solution Explained in all languages", "2952 Minimum Number Of Coins To Be Added", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2952 Minimum Number of Coins to be Added LeetCode Solution Explained in all languages", "2952 Minimum Number of Coins to be Added", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2952 Minimum Number Of Coins To Be Added - Solution Explained/problem-solving.webp
-    alt: 2952 Minimum Number Of Coins To Be Added
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2952 Minimum Number of Coins to be Added - Solution Explained/problem-solving.webp
+    alt: 2952 Minimum Number of Coins to be Added
     hiddenInList: true
     hiddenInSingle: false
 ---

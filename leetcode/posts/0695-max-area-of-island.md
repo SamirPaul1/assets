@@ -1,13 +1,13 @@
 ---
-title: 0695 Max Area Of Island
-summary: 0695 Max Area Of Island LeetCode Solution Explained
+title: 0695 Max Area of Island
+summary: 0695 Max Area of Island LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0695 Max Area Of Island LeetCode Solution Explained in all languages", "0695 Max Area Of Island", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0695 Max Area of Island LeetCode Solution Explained in all languages", "0695 Max Area of Island", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0695 Max Area Of Island - Solution Explained/problem-solving.webp
-    alt: 0695 Max Area Of Island
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0695 Max Area of Island - Solution Explained/problem-solving.webp
+    alt: 0695 Max Area of Island
     hiddenInList: true
     hiddenInSingle: false
 ---

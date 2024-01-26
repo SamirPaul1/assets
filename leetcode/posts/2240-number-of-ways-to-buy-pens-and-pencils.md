@@ -1,13 +1,13 @@
 ---
-title: 2240 Number Of Ways To Buy Pens And Pencils
-summary: 2240 Number Of Ways To Buy Pens And Pencils LeetCode Solution Explained
+title: 2240 Number of Ways to Buy Pens and Pencils
+summary: 2240 Number of Ways to Buy Pens and Pencils LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2240 Number Of Ways To Buy Pens And Pencils LeetCode Solution Explained in all languages", "2240 Number Of Ways To Buy Pens And Pencils", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2240 Number of Ways to Buy Pens and Pencils LeetCode Solution Explained in all languages", "2240 Number of Ways to Buy Pens and Pencils", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2240 Number Of Ways To Buy Pens And Pencils - Solution Explained/problem-solving.webp
-    alt: 2240 Number Of Ways To Buy Pens And Pencils
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2240 Number of Ways to Buy Pens and Pencils - Solution Explained/problem-solving.webp
+    alt: 2240 Number of Ways to Buy Pens and Pencils
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0947 Most Stones Removed With Same Row Or Column
-summary: 0947 Most Stones Removed With Same Row Or Column LeetCode Solution Explained
+title: 0947 Most Stones Removed with Same Row or Column
+summary: 0947 Most Stones Removed with Same Row or Column LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0947 Most Stones Removed With Same Row Or Column LeetCode Solution Explained in all languages", "0947 Most Stones Removed With Same Row Or Column", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0947 Most Stones Removed with Same Row or Column LeetCode Solution Explained in all languages", "0947 Most Stones Removed with Same Row or Column", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0947 Most Stones Removed With Same Row Or Column - Solution Explained/problem-solving.webp
-    alt: 0947 Most Stones Removed With Same Row Or Column
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0947 Most Stones Removed with Same Row or Column - Solution Explained/problem-solving.webp
+    alt: 0947 Most Stones Removed with Same Row or Column
     hiddenInList: true
     hiddenInSingle: false
 ---

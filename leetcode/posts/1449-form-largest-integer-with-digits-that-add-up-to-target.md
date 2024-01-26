@@ -1,13 +1,13 @@
 ---
-title: 1449 Form Largest Integer With Digits That Add Up To Target
-summary: 1449 Form Largest Integer With Digits That Add Up To Target LeetCode Solution Explained
+title: 1449 Form Largest Integer With Digits That Add up to Target
+summary: 1449 Form Largest Integer With Digits That Add up to Target LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1449 Form Largest Integer With Digits That Add Up To Target LeetCode Solution Explained in all languages", "1449 Form Largest Integer With Digits That Add Up To Target", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1449 Form Largest Integer With Digits That Add up to Target LeetCode Solution Explained in all languages", "1449 Form Largest Integer With Digits That Add up to Target", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1449 Form Largest Integer With Digits That Add Up To Target - Solution Explained/problem-solving.webp
-    alt: 1449 Form Largest Integer With Digits That Add Up To Target
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1449 Form Largest Integer With Digits That Add up to Target - Solution Explained/problem-solving.webp
+    alt: 1449 Form Largest Integer With Digits That Add up to Target
     hiddenInList: true
     hiddenInSingle: false
 ---

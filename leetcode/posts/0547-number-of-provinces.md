@@ -1,13 +1,13 @@
 ---
-title: 0547 Number Of Provinces
-summary: 0547 Number Of Provinces LeetCode Solution Explained
+title: 0547 Number of Provinces
+summary: 0547 Number of Provinces LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0547 Number Of Provinces LeetCode Solution Explained in all languages", "0547 Number Of Provinces", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0547 Number of Provinces LeetCode Solution Explained in all languages", "0547 Number of Provinces", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0547 Number Of Provinces - Solution Explained/problem-solving.webp
-    alt: 0547 Number Of Provinces
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0547 Number of Provinces - Solution Explained/problem-solving.webp
+    alt: 0547 Number of Provinces
     hiddenInList: true
     hiddenInSingle: false
 ---

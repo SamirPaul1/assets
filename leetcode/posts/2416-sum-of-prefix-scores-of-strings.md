@@ -1,13 +1,13 @@
 ---
-title: 2416 Sum Of Prefix Scores Of Strings
-summary: 2416 Sum Of Prefix Scores Of Strings LeetCode Solution Explained
+title: 2416 Sum of Prefix Scores of Strings
+summary: 2416 Sum of Prefix Scores of Strings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2416 Sum Of Prefix Scores Of Strings LeetCode Solution Explained in all languages", "2416 Sum Of Prefix Scores Of Strings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2416 Sum of Prefix Scores of Strings LeetCode Solution Explained in all languages", "2416 Sum of Prefix Scores of Strings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2416 Sum Of Prefix Scores Of Strings - Solution Explained/problem-solving.webp
-    alt: 2416 Sum Of Prefix Scores Of Strings
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2416 Sum of Prefix Scores of Strings - Solution Explained/problem-solving.webp
+    alt: 2416 Sum of Prefix Scores of Strings
     hiddenInList: true
     hiddenInSingle: false
 ---

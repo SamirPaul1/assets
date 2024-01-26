@@ -1,13 +1,13 @@
 ---
-title: 1706 Where Will The Ball Fall
-summary: 1706 Where Will The Ball Fall LeetCode Solution Explained
+title: 1706 Where Will the Ball Fall
+summary: 1706 Where Will the Ball Fall LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1706 Where Will The Ball Fall LeetCode Solution Explained in all languages", "1706 Where Will The Ball Fall", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1706 Where Will the Ball Fall LeetCode Solution Explained in all languages", "1706 Where Will the Ball Fall", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1706 Where Will The Ball Fall - Solution Explained/problem-solving.webp
-    alt: 1706 Where Will The Ball Fall
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1706 Where Will the Ball Fall - Solution Explained/problem-solving.webp
+    alt: 1706 Where Will the Ball Fall
     hiddenInList: true
     hiddenInSingle: false
 ---

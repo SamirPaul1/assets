@@ -1,13 +1,13 @@
 ---
-title: 2318 Number Of Distinct Roll Sequences
-summary: 2318 Number Of Distinct Roll Sequences LeetCode Solution Explained
+title: 2318 Number of Distinct Roll Sequences
+summary: 2318 Number of Distinct Roll Sequences LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2318 Number Of Distinct Roll Sequences LeetCode Solution Explained in all languages", "2318 Number Of Distinct Roll Sequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2318 Number of Distinct Roll Sequences LeetCode Solution Explained in all languages", "2318 Number of Distinct Roll Sequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2318 Number Of Distinct Roll Sequences - Solution Explained/problem-solving.webp
-    alt: 2318 Number Of Distinct Roll Sequences
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2318 Number of Distinct Roll Sequences - Solution Explained/problem-solving.webp
+    alt: 2318 Number of Distinct Roll Sequences
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1142 User Activity For The Past 30 Days Ii
-summary: 1142 User Activity For The Past 30 Days Ii LeetCode Solution Explained
+title: 1142 User Activity for the Past 30 Days II
+summary: 1142 User Activity for the Past 30 Days II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1142 User Activity For The Past 30 Days Ii LeetCode Solution Explained in all languages", "1142 User Activity For The Past 30 Days Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1142 User Activity for the Past 30 Days II LeetCode Solution Explained in all languages", "1142 User Activity for the Past 30 Days II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1142 User Activity For The Past 30 Days Ii - Solution Explained/problem-solving.webp
-    alt: 1142 User Activity For The Past 30 Days Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1142 User Activity for the Past 30 Days II - Solution Explained/problem-solving.webp
+    alt: 1142 User Activity for the Past 30 Days II
     hiddenInList: true
     hiddenInSingle: false
 ---

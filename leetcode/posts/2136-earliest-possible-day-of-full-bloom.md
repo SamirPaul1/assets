@@ -1,13 +1,13 @@
 ---
-title: 2136 Earliest Possible Day Of Full Bloom
-summary: 2136 Earliest Possible Day Of Full Bloom LeetCode Solution Explained
+title: 2136 Earliest Possible Day of Full Bloom
+summary: 2136 Earliest Possible Day of Full Bloom LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2136 Earliest Possible Day Of Full Bloom LeetCode Solution Explained in all languages", "2136 Earliest Possible Day Of Full Bloom", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2136 Earliest Possible Day of Full Bloom LeetCode Solution Explained in all languages", "2136 Earliest Possible Day of Full Bloom", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2136 Earliest Possible Day Of Full Bloom - Solution Explained/problem-solving.webp
-    alt: 2136 Earliest Possible Day Of Full Bloom
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2136 Earliest Possible Day of Full Bloom - Solution Explained/problem-solving.webp
+    alt: 2136 Earliest Possible Day of Full Bloom
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1677 Product'S Worth Over Invoices
-summary: 1677 Product'S Worth Over Invoices LeetCode Solution Explained
+title: 1677 Product's Worth Over Invoices
+summary: 1677 Product's Worth Over Invoices LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1677 Product'S Worth Over Invoices LeetCode Solution Explained in all languages", "1677 Product'S Worth Over Invoices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1677 Product's Worth Over Invoices LeetCode Solution Explained in all languages", "1677 Product's Worth Over Invoices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1677 Product'S Worth Over Invoices - Solution Explained/problem-solving.webp
-    alt: 1677 Product'S Worth Over Invoices
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1677 Product's Worth Over Invoices - Solution Explained/problem-solving.webp
+    alt: 1677 Product's Worth Over Invoices
     hiddenInList: true
     hiddenInSingle: false
 ---

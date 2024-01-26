@@ -1,13 +1,13 @@
 ---
-title: 1791 Find Center Of Star Graph
-summary: 1791 Find Center Of Star Graph LeetCode Solution Explained
+title: 1791 Find Center of Star Graph
+summary: 1791 Find Center of Star Graph LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1791 Find Center Of Star Graph LeetCode Solution Explained in all languages", "1791 Find Center Of Star Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1791 Find Center of Star Graph LeetCode Solution Explained in all languages", "1791 Find Center of Star Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1791 Find Center Of Star Graph - Solution Explained/problem-solving.webp
-    alt: 1791 Find Center Of Star Graph
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1791 Find Center of Star Graph - Solution Explained/problem-solving.webp
+    alt: 1791 Find Center of Star Graph
     hiddenInList: true
     hiddenInSingle: false
 ---

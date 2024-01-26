@@ -1,13 +1,13 @@
 ---
-title: 2098 Subsequence Of Size K With The Largest Even Sum
-summary: 2098 Subsequence Of Size K With The Largest Even Sum LeetCode Solution Explained
+title: 2098 Subsequence of Size K With the Largest Even Sum
+summary: 2098 Subsequence of Size K With the Largest Even Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2098 Subsequence Of Size K With The Largest Even Sum LeetCode Solution Explained in all languages", "2098 Subsequence Of Size K With The Largest Even Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2098 Subsequence of Size K With the Largest Even Sum LeetCode Solution Explained in all languages", "2098 Subsequence of Size K With the Largest Even Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2098 Subsequence Of Size K With The Largest Even Sum - Solution Explained/problem-solving.webp
-    alt: 2098 Subsequence Of Size K With The Largest Even Sum
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2098 Subsequence of Size K With the Largest Even Sum - Solution Explained/problem-solving.webp
+    alt: 2098 Subsequence of Size K With the Largest Even Sum
     hiddenInList: true
     hiddenInSingle: false
 ---

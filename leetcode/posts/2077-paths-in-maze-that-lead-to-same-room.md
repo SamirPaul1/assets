@@ -1,13 +1,13 @@
 ---
-title: 2077 Paths In Maze That Lead To Same Room
-summary: 2077 Paths In Maze That Lead To Same Room LeetCode Solution Explained
+title: 2077 Paths in Maze That Lead to Same Room
+summary: 2077 Paths in Maze That Lead to Same Room LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2077 Paths In Maze That Lead To Same Room LeetCode Solution Explained in all languages", "2077 Paths In Maze That Lead To Same Room", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2077 Paths in Maze That Lead to Same Room LeetCode Solution Explained in all languages", "2077 Paths in Maze That Lead to Same Room", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2077 Paths In Maze That Lead To Same Room - Solution Explained/problem-solving.webp
-    alt: 2077 Paths In Maze That Lead To Same Room
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2077 Paths in Maze That Lead to Same Room - Solution Explained/problem-solving.webp
+    alt: 2077 Paths in Maze That Lead to Same Room
     hiddenInList: true
     hiddenInSingle: false
 ---

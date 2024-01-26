@@ -1,13 +1,13 @@
 ---
-title: 2494 Merge Overlapping Events In The Same Hall
-summary: 2494 Merge Overlapping Events In The Same Hall LeetCode Solution Explained
+title: 2494 Merge Overlapping Events in the Same Hall
+summary: 2494 Merge Overlapping Events in the Same Hall LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2494 Merge Overlapping Events In The Same Hall LeetCode Solution Explained in all languages", "2494 Merge Overlapping Events In The Same Hall", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2494 Merge Overlapping Events in the Same Hall LeetCode Solution Explained in all languages", "2494 Merge Overlapping Events in the Same Hall", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2494 Merge Overlapping Events In The Same Hall - Solution Explained/problem-solving.webp
-    alt: 2494 Merge Overlapping Events In The Same Hall
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2494 Merge Overlapping Events in the Same Hall - Solution Explained/problem-solving.webp
+    alt: 2494 Merge Overlapping Events in the Same Hall
     hiddenInList: true
     hiddenInSingle: false
 ---

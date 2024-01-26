@@ -1,13 +1,13 @@
 ---
-title: 2058 Find The Minimum And Maximum Number Of Nodes Between Critical Points
-summary: 2058 Find The Minimum And Maximum Number Of Nodes Between Critical Points LeetCode Solution Explained
+title: 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points
+summary: 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2058 Find The Minimum And Maximum Number Of Nodes Between Critical Points LeetCode Solution Explained in all languages", "2058 Find The Minimum And Maximum Number Of Nodes Between Critical Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2058 Find the Minimum and Maximum Number of Nodes Between Critical Points LeetCode Solution Explained in all languages", "2058 Find the Minimum and Maximum Number of Nodes Between Critical Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2058 Find The Minimum And Maximum Number Of Nodes Between Critical Points - Solution Explained/problem-solving.webp
-    alt: 2058 Find The Minimum And Maximum Number Of Nodes Between Critical Points
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2058 Find the Minimum and Maximum Number of Nodes Between Critical Points - Solution Explained/problem-solving.webp
+    alt: 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points
     hiddenInList: true
     hiddenInSingle: false
 ---

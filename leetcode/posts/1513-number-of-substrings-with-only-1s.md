@@ -1,13 +1,13 @@
 ---
-title: 1513 Number Of Substrings With Only 1S
-summary: 1513 Number Of Substrings With Only 1S LeetCode Solution Explained
+title: 1513 Number of Substrings With Only 1s
+summary: 1513 Number of Substrings With Only 1s LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1513 Number Of Substrings With Only 1S LeetCode Solution Explained in all languages", "1513 Number Of Substrings With Only 1S", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1513 Number of Substrings With Only 1s LeetCode Solution Explained in all languages", "1513 Number of Substrings With Only 1s", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1513 Number Of Substrings With Only 1S - Solution Explained/problem-solving.webp
-    alt: 1513 Number Of Substrings With Only 1S
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1513 Number of Substrings With Only 1s - Solution Explained/problem-solving.webp
+    alt: 1513 Number of Substrings With Only 1s
     hiddenInList: true
     hiddenInSingle: false
 ---

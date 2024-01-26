@@ -1,13 +1,13 @@
 ---
-title: 1909 Remove One Element To Make The Array Strictly Increasing
-summary: 1909 Remove One Element To Make The Array Strictly Increasing LeetCode Solution Explained
+title: 1909 Remove One Element to Make the Array Strictly Increasing
+summary: 1909 Remove One Element to Make the Array Strictly Increasing LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1909 Remove One Element To Make The Array Strictly Increasing LeetCode Solution Explained in all languages", "1909 Remove One Element To Make The Array Strictly Increasing", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1909 Remove One Element to Make the Array Strictly Increasing LeetCode Solution Explained in all languages", "1909 Remove One Element to Make the Array Strictly Increasing", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1909 Remove One Element To Make The Array Strictly Increasing - Solution Explained/problem-solving.webp
-    alt: 1909 Remove One Element To Make The Array Strictly Increasing
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1909 Remove One Element to Make the Array Strictly Increasing - Solution Explained/problem-solving.webp
+    alt: 1909 Remove One Element to Make the Array Strictly Increasing
     hiddenInList: true
     hiddenInSingle: false
 ---

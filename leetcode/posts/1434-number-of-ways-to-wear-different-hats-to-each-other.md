@@ -1,13 +1,13 @@
 ---
-title: 1434 Number Of Ways To Wear Different Hats To Each Other
-summary: 1434 Number Of Ways To Wear Different Hats To Each Other LeetCode Solution Explained
+title: 1434 Number of Ways to Wear Different Hats to Each Other
+summary: 1434 Number of Ways to Wear Different Hats to Each Other LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1434 Number Of Ways To Wear Different Hats To Each Other LeetCode Solution Explained in all languages", "1434 Number Of Ways To Wear Different Hats To Each Other", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1434 Number of Ways to Wear Different Hats to Each Other LeetCode Solution Explained in all languages", "1434 Number of Ways to Wear Different Hats to Each Other", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1434 Number Of Ways To Wear Different Hats To Each Other - Solution Explained/problem-solving.webp
-    alt: 1434 Number Of Ways To Wear Different Hats To Each Other
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1434 Number of Ways to Wear Different Hats to Each Other - Solution Explained/problem-solving.webp
+    alt: 1434 Number of Ways to Wear Different Hats to Each Other
     hiddenInList: true
     hiddenInSingle: false
 ---

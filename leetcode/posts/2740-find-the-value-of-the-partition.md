@@ -1,13 +1,13 @@
 ---
-title: 2740 Find The Value Of The Partition
-summary: 2740 Find The Value Of The Partition LeetCode Solution Explained
+title: 2740 Find the Value of the Partition
+summary: 2740 Find the Value of the Partition LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2740 Find The Value Of The Partition LeetCode Solution Explained in all languages", "2740 Find The Value Of The Partition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2740 Find the Value of the Partition LeetCode Solution Explained in all languages", "2740 Find the Value of the Partition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2740 Find The Value Of The Partition - Solution Explained/problem-solving.webp
-    alt: 2740 Find The Value Of The Partition
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2740 Find the Value of the Partition - Solution Explained/problem-solving.webp
+    alt: 2740 Find the Value of the Partition
     hiddenInList: true
     hiddenInSingle: false
 ---

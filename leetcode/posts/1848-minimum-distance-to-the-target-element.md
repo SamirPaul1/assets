@@ -1,13 +1,13 @@
 ---
-title: 1848 Minimum Distance To The Target Element
-summary: 1848 Minimum Distance To The Target Element LeetCode Solution Explained
+title: 1848 Minimum Distance to the Target Element
+summary: 1848 Minimum Distance to the Target Element LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1848 Minimum Distance To The Target Element LeetCode Solution Explained in all languages", "1848 Minimum Distance To The Target Element", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1848 Minimum Distance to the Target Element LeetCode Solution Explained in all languages", "1848 Minimum Distance to the Target Element", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1848 Minimum Distance To The Target Element - Solution Explained/problem-solving.webp
-    alt: 1848 Minimum Distance To The Target Element
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1848 Minimum Distance to the Target Element - Solution Explained/problem-solving.webp
+    alt: 1848 Minimum Distance to the Target Element
     hiddenInList: true
     hiddenInSingle: false
 ---

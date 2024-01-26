@@ -1,13 +1,13 @@
 ---
-title: 1732 Find The Highest Altitude
-summary: 1732 Find The Highest Altitude LeetCode Solution Explained
+title: 1732 Find the Highest Altitude
+summary: 1732 Find the Highest Altitude LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1732 Find The Highest Altitude LeetCode Solution Explained in all languages", "1732 Find The Highest Altitude", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1732 Find the Highest Altitude LeetCode Solution Explained in all languages", "1732 Find the Highest Altitude", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1732 Find The Highest Altitude - Solution Explained/problem-solving.webp
-    alt: 1732 Find The Highest Altitude
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1732 Find the Highest Altitude - Solution Explained/problem-solving.webp
+    alt: 1732 Find the Highest Altitude
     hiddenInList: true
     hiddenInSingle: false
 ---

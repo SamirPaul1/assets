@@ -1,13 +1,13 @@
 ---
-title: 2415 Reverse Odd Levels Of Binary Tree
-summary: 2415 Reverse Odd Levels Of Binary Tree LeetCode Solution Explained
+title: 2415 Reverse Odd Levels of Binary Tree
+summary: 2415 Reverse Odd Levels of Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2415 Reverse Odd Levels Of Binary Tree LeetCode Solution Explained in all languages", "2415 Reverse Odd Levels Of Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2415 Reverse Odd Levels of Binary Tree LeetCode Solution Explained in all languages", "2415 Reverse Odd Levels of Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2415 Reverse Odd Levels Of Binary Tree - Solution Explained/problem-solving.webp
-    alt: 2415 Reverse Odd Levels Of Binary Tree
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2415 Reverse Odd Levels of Binary Tree - Solution Explained/problem-solving.webp
+    alt: 2415 Reverse Odd Levels of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
 ---

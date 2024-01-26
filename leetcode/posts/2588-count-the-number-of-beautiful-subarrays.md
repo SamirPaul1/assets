@@ -1,13 +1,13 @@
 ---
-title: 2588 Count The Number Of Beautiful Subarrays
-summary: 2588 Count The Number Of Beautiful Subarrays LeetCode Solution Explained
+title: 2588 Count the Number of Beautiful Subarrays
+summary: 2588 Count the Number of Beautiful Subarrays LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2588 Count The Number Of Beautiful Subarrays LeetCode Solution Explained in all languages", "2588 Count The Number Of Beautiful Subarrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2588 Count the Number of Beautiful Subarrays LeetCode Solution Explained in all languages", "2588 Count the Number of Beautiful Subarrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2588 Count The Number Of Beautiful Subarrays - Solution Explained/problem-solving.webp
-    alt: 2588 Count The Number Of Beautiful Subarrays
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2588 Count the Number of Beautiful Subarrays - Solution Explained/problem-solving.webp
+    alt: 2588 Count the Number of Beautiful Subarrays
     hiddenInList: true
     hiddenInSingle: false
 ---

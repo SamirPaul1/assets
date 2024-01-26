@@ -1,13 +1,13 @@
 ---
-title: 1406 Stone Game Iii
-summary: 1406 Stone Game Iii LeetCode Solution Explained
+title: 1406 Stone Game III
+summary: 1406 Stone Game III LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1406 Stone Game Iii LeetCode Solution Explained in all languages", "1406 Stone Game Iii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1406 Stone Game III LeetCode Solution Explained in all languages", "1406 Stone Game III", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1406 Stone Game Iii - Solution Explained/problem-solving.webp
-    alt: 1406 Stone Game Iii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1406 Stone Game III - Solution Explained/problem-solving.webp
+    alt: 1406 Stone Game III
     hiddenInList: true
     hiddenInSingle: false
 ---

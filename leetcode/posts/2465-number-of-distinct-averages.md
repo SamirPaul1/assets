@@ -1,13 +1,13 @@
 ---
-title: 2465 Number Of Distinct Averages
-summary: 2465 Number Of Distinct Averages LeetCode Solution Explained
+title: 2465 Number of Distinct Averages
+summary: 2465 Number of Distinct Averages LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2465 Number Of Distinct Averages LeetCode Solution Explained in all languages", "2465 Number Of Distinct Averages", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2465 Number of Distinct Averages LeetCode Solution Explained in all languages", "2465 Number of Distinct Averages", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2465 Number Of Distinct Averages - Solution Explained/problem-solving.webp
-    alt: 2465 Number Of Distinct Averages
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2465 Number of Distinct Averages - Solution Explained/problem-solving.webp
+    alt: 2465 Number of Distinct Averages
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1317 Convert Integer To The Sum Of Two No Zero Integers
-summary: 1317 Convert Integer To The Sum Of Two No Zero Integers LeetCode Solution Explained
+title: 1317 Convert Integer to the Sum of Two No Zero Integers
+summary: 1317 Convert Integer to the Sum of Two No Zero Integers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1317 Convert Integer To The Sum Of Two No Zero Integers LeetCode Solution Explained in all languages", "1317 Convert Integer To The Sum Of Two No Zero Integers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1317 Convert Integer to the Sum of Two No Zero Integers LeetCode Solution Explained in all languages", "1317 Convert Integer to the Sum of Two No Zero Integers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1317 Convert Integer To The Sum Of Two No Zero Integers - Solution Explained/problem-solving.webp
-    alt: 1317 Convert Integer To The Sum Of Two No Zero Integers
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1317 Convert Integer to the Sum of Two No Zero Integers - Solution Explained/problem-solving.webp
+    alt: 1317 Convert Integer to the Sum of Two No Zero Integers
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 2827 Number Of Beautiful Integers In The Range
-summary: 2827 Number Of Beautiful Integers In The Range LeetCode Solution Explained
+title: 2827 Number of Beautiful Integers in the Range
+summary: 2827 Number of Beautiful Integers in the Range LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2827 Number Of Beautiful Integers In The Range LeetCode Solution Explained in all languages", "2827 Number Of Beautiful Integers In The Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2827 Number of Beautiful Integers in the Range LeetCode Solution Explained in all languages", "2827 Number of Beautiful Integers in the Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2827 Number Of Beautiful Integers In The Range - Solution Explained/problem-solving.webp
-    alt: 2827 Number Of Beautiful Integers In The Range
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2827 Number of Beautiful Integers in the Range - Solution Explained/problem-solving.webp
+    alt: 2827 Number of Beautiful Integers in the Range
     hiddenInList: true
     hiddenInSingle: false
 ---

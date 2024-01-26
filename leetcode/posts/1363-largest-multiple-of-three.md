@@ -1,13 +1,13 @@
 ---
-title: 1363 Largest Multiple Of Three
-summary: 1363 Largest Multiple Of Three LeetCode Solution Explained
+title: 1363 Largest Multiple of Three
+summary: 1363 Largest Multiple of Three LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1363 Largest Multiple Of Three LeetCode Solution Explained in all languages", "1363 Largest Multiple Of Three", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1363 Largest Multiple of Three LeetCode Solution Explained in all languages", "1363 Largest Multiple of Three", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1363 Largest Multiple Of Three - Solution Explained/problem-solving.webp
-    alt: 1363 Largest Multiple Of Three
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1363 Largest Multiple of Three - Solution Explained/problem-solving.webp
+    alt: 1363 Largest Multiple of Three
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1628 Design An Expression Tree With Evaluate Function
-summary: 1628 Design An Expression Tree With Evaluate Function LeetCode Solution Explained
+title: 1628 Design an Expression Tree With Evaluate Function
+summary: 1628 Design an Expression Tree With Evaluate Function LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1628 Design An Expression Tree With Evaluate Function LeetCode Solution Explained in all languages", "1628 Design An Expression Tree With Evaluate Function", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1628 Design an Expression Tree With Evaluate Function LeetCode Solution Explained in all languages", "1628 Design an Expression Tree With Evaluate Function", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1628 Design An Expression Tree With Evaluate Function - Solution Explained/problem-solving.webp
-    alt: 1628 Design An Expression Tree With Evaluate Function
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1628 Design an Expression Tree With Evaluate Function - Solution Explained/problem-solving.webp
+    alt: 1628 Design an Expression Tree With Evaluate Function
     hiddenInList: true
     hiddenInSingle: false
 ---

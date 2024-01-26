@@ -1,13 +1,13 @@
 ---
-title: 0116 Populating Next Right Pointers In Each Node
-summary: 0116 Populating Next Right Pointers In Each Node LeetCode Solution Explained
+title: 0116 Populating Next Right Pointers in Each Node
+summary: 0116 Populating Next Right Pointers in Each Node LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0116 Populating Next Right Pointers In Each Node LeetCode Solution Explained in all languages", "0116 Populating Next Right Pointers In Each Node", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0116 Populating Next Right Pointers in Each Node LeetCode Solution Explained in all languages", "0116 Populating Next Right Pointers in Each Node", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0116 Populating Next Right Pointers In Each Node - Solution Explained/problem-solving.webp
-    alt: 0116 Populating Next Right Pointers In Each Node
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0116 Populating Next Right Pointers in Each Node - Solution Explained/problem-solving.webp
+    alt: 0116 Populating Next Right Pointers in Each Node
     hiddenInList: true
     hiddenInSingle: false
 ---

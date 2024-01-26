@@ -1,13 +1,13 @@
 ---
-title: 1463 Cherry Pickup Ii
-summary: 1463 Cherry Pickup Ii LeetCode Solution Explained
+title: 1463 Cherry Pickup II
+summary: 1463 Cherry Pickup II LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1463 Cherry Pickup Ii LeetCode Solution Explained in all languages", "1463 Cherry Pickup Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1463 Cherry Pickup II LeetCode Solution Explained in all languages", "1463 Cherry Pickup II", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1463 Cherry Pickup Ii - Solution Explained/problem-solving.webp
-    alt: 1463 Cherry Pickup Ii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1463 Cherry Pickup II - Solution Explained/problem-solving.webp
+    alt: 1463 Cherry Pickup II
     hiddenInList: true
     hiddenInSingle: false
 ---

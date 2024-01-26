@@ -1,13 +1,13 @@
 ---
-title: 1986 Minimum Number Of Work Sessions To Finish The Tasks
-summary: 1986 Minimum Number Of Work Sessions To Finish The Tasks LeetCode Solution Explained
+title: 1986 Minimum Number of Work Sessions to Finish the Tasks
+summary: 1986 Minimum Number of Work Sessions to Finish the Tasks LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1986 Minimum Number Of Work Sessions To Finish The Tasks LeetCode Solution Explained in all languages", "1986 Minimum Number Of Work Sessions To Finish The Tasks", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1986 Minimum Number of Work Sessions to Finish the Tasks LeetCode Solution Explained in all languages", "1986 Minimum Number of Work Sessions to Finish the Tasks", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1986 Minimum Number Of Work Sessions To Finish The Tasks - Solution Explained/problem-solving.webp
-    alt: 1986 Minimum Number Of Work Sessions To Finish The Tasks
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1986 Minimum Number of Work Sessions to Finish the Tasks - Solution Explained/problem-solving.webp
+    alt: 1986 Minimum Number of Work Sessions to Finish the Tasks
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 0960 Delete Columns To Make Sorted Iii
-summary: 0960 Delete Columns To Make Sorted Iii LeetCode Solution Explained
+title: 0960 Delete Columns to Make Sorted III
+summary: 0960 Delete Columns to Make Sorted III LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0960 Delete Columns To Make Sorted Iii LeetCode Solution Explained in all languages", "0960 Delete Columns To Make Sorted Iii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0960 Delete Columns to Make Sorted III LeetCode Solution Explained in all languages", "0960 Delete Columns to Make Sorted III", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0960 Delete Columns To Make Sorted Iii - Solution Explained/problem-solving.webp
-    alt: 0960 Delete Columns To Make Sorted Iii
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0960 Delete Columns to Make Sorted III - Solution Explained/problem-solving.webp
+    alt: 0960 Delete Columns to Make Sorted III
     hiddenInList: true
     hiddenInSingle: false
 ---

@@ -1,13 +1,13 @@
 ---
-title: 1498 Number Of Subsequences That Satisfy The Given Sum Condition
-summary: 1498 Number Of Subsequences That Satisfy The Given Sum Condition LeetCode Solution Explained
+title: 1498 Number of Subsequences That Satisfy the Given Sum Condition
+summary: 1498 Number of Subsequences That Satisfy the Given Sum Condition LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1498 Number Of Subsequences That Satisfy The Given Sum Condition LeetCode Solution Explained in all languages", "1498 Number Of Subsequences That Satisfy The Given Sum Condition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1498 Number of Subsequences That Satisfy the Given Sum Condition LeetCode Solution Explained in all languages", "1498 Number of Subsequences That Satisfy the Given Sum Condition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1498 Number Of Subsequences That Satisfy The Given Sum Condition - Solution Explained/problem-solving.webp
-    alt: 1498 Number Of Subsequences That Satisfy The Given Sum Condition
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1498 Number of Subsequences That Satisfy the Given Sum Condition - Solution Explained/problem-solving.webp
+    alt: 1498 Number of Subsequences That Satisfy the Given Sum Condition
     hiddenInList: true
     hiddenInSingle: false
 ---

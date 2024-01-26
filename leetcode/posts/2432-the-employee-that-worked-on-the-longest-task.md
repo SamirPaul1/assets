@@ -1,13 +1,13 @@
 ---
-title: 2432 The Employee That Worked On The Longest Task
-summary: 2432 The Employee That Worked On The Longest Task LeetCode Solution Explained
+title: 2432 The Employee That Worked on the Longest Task
+summary: 2432 The Employee That Worked on the Longest Task LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2432 The Employee That Worked On The Longest Task LeetCode Solution Explained in all languages", "2432 The Employee That Worked On The Longest Task", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2432 The Employee That Worked on the Longest Task LeetCode Solution Explained in all languages", "2432 The Employee That Worked on the Longest Task", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2432 The Employee That Worked On The Longest Task - Solution Explained/problem-solving.webp
-    alt: 2432 The Employee That Worked On The Longest Task
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2432 The Employee That Worked on the Longest Task - Solution Explained/problem-solving.webp
+    alt: 2432 The Employee That Worked on the Longest Task
     hiddenInList: true
     hiddenInSingle: false
 ---

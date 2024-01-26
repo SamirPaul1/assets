@@ -1,13 +1,13 @@
 ---
-title: 1964 Find The Longest Valid Obstacle Course At Each Position
-summary: 1964 Find The Longest Valid Obstacle Course At Each Position LeetCode Solution Explained
+title: 1964 Find the Longest Valid Obstacle Course at Each Position
+summary: 1964 Find the Longest Valid Obstacle Course at Each Position LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1964 Find The Longest Valid Obstacle Course At Each Position LeetCode Solution Explained in all languages", "1964 Find The Longest Valid Obstacle Course At Each Position", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1964 Find the Longest Valid Obstacle Course at Each Position LeetCode Solution Explained in all languages", "1964 Find the Longest Valid Obstacle Course at Each Position", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1964 Find The Longest Valid Obstacle Course At Each Position - Solution Explained/problem-solving.webp
-    alt: 1964 Find The Longest Valid Obstacle Course At Each Position
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1964 Find the Longest Valid Obstacle Course at Each Position - Solution Explained/problem-solving.webp
+    alt: 1964 Find the Longest Valid Obstacle Course at Each Position
     hiddenInList: true
     hiddenInSingle: false
 ---

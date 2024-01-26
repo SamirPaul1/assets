@@ -1,13 +1,13 @@
 ---
-title: 1593 Split A String Into The Max Number Of Unique Substrings
-summary: 1593 Split A String Into The Max Number Of Unique Substrings LeetCode Solution Explained
+title: 1593 Split a String Into the Max Number of Unique Substrings
+summary: 1593 Split a String Into the Max Number of Unique Substrings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1593 Split A String Into The Max Number Of Unique Substrings LeetCode Solution Explained in all languages", "1593 Split A String Into The Max Number Of Unique Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1593 Split a String Into the Max Number of Unique Substrings LeetCode Solution Explained in all languages", "1593 Split a String Into the Max Number of Unique Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1593 Split A String Into The Max Number Of Unique Substrings - Solution Explained/problem-solving.webp
-    alt: 1593 Split A String Into The Max Number Of Unique Substrings
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1593 Split a String Into the Max Number of Unique Substrings - Solution Explained/problem-solving.webp
+    alt: 1593 Split a String Into the Max Number of Unique Substrings
     hiddenInList: true
     hiddenInSingle: false
 ---

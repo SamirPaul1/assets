@@ -1,13 +1,13 @@
 ---
-title: 0149 Max Points On A Line
-summary: 0149 Max Points On A Line LeetCode Solution Explained
+title: 0149 Max Points on a Line
+summary: 0149 Max Points on a Line LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["0149 Max Points On A Line LeetCode Solution Explained in all languages", "0149 Max Points On A Line", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["0149 Max Points on a Line LeetCode Solution Explained in all languages", "0149 Max Points on a Line", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0149 Max Points On A Line - Solution Explained/problem-solving.webp
-    alt: 0149 Max Points On A Line
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0149 Max Points on a Line - Solution Explained/problem-solving.webp
+    alt: 0149 Max Points on a Line
     hiddenInList: true
     hiddenInSingle: false
 ---

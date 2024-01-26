@@ -1,13 +1,13 @@
 ---
-title: 1787 Make The Xor Of All Segments Equal To Zero
-summary: 1787 Make The Xor Of All Segments Equal To Zero LeetCode Solution Explained
+title: 1787 Make the XOR of All Segments Equal to Zero
+summary: 1787 Make the XOR of All Segments Equal to Zero LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1787 Make The Xor Of All Segments Equal To Zero LeetCode Solution Explained in all languages", "1787 Make The Xor Of All Segments Equal To Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1787 Make the XOR of All Segments Equal to Zero LeetCode Solution Explained in all languages", "1787 Make the XOR of All Segments Equal to Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1787 Make The Xor Of All Segments Equal To Zero - Solution Explained/problem-solving.webp
-    alt: 1787 Make The Xor Of All Segments Equal To Zero
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1787 Make the XOR of All Segments Equal to Zero - Solution Explained/problem-solving.webp
+    alt: 1787 Make the XOR of All Segments Equal to Zero
     hiddenInList: true
     hiddenInSingle: false
 ---

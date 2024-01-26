@@ -1,13 +1,13 @@
 ---
-title: 1530 Number Of Good Leaf Nodes Pairs
-summary: 1530 Number Of Good Leaf Nodes Pairs LeetCode Solution Explained
+title: 1530 Number of Good Leaf Nodes Pairs
+summary: 1530 Number of Good Leaf Nodes Pairs LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1530 Number Of Good Leaf Nodes Pairs LeetCode Solution Explained in all languages", "1530 Number Of Good Leaf Nodes Pairs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1530 Number of Good Leaf Nodes Pairs LeetCode Solution Explained in all languages", "1530 Number of Good Leaf Nodes Pairs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1530 Number Of Good Leaf Nodes Pairs - Solution Explained/problem-solving.webp
-    alt: 1530 Number Of Good Leaf Nodes Pairs
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1530 Number of Good Leaf Nodes Pairs - Solution Explained/problem-solving.webp
+    alt: 1530 Number of Good Leaf Nodes Pairs
     hiddenInList: true
     hiddenInSingle: false
 ---

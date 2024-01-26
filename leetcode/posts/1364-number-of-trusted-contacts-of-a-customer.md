@@ -1,13 +1,13 @@
 ---
-title: 1364 Number Of Trusted Contacts Of A Customer
-summary: 1364 Number Of Trusted Contacts Of A Customer LeetCode Solution Explained
+title: 1364 Number of Trusted Contacts of a Customer
+summary: 1364 Number of Trusted Contacts of a Customer LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["1364 Number Of Trusted Contacts Of A Customer LeetCode Solution Explained in all languages", "1364 Number Of Trusted Contacts Of A Customer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["1364 Number of Trusted Contacts of a Customer LeetCode Solution Explained in all languages", "1364 Number of Trusted Contacts of a Customer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1364 Number Of Trusted Contacts Of A Customer - Solution Explained/problem-solving.webp
-    alt: 1364 Number Of Trusted Contacts Of A Customer
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1364 Number of Trusted Contacts of a Customer - Solution Explained/problem-solving.webp
+    alt: 1364 Number of Trusted Contacts of a Customer
     hiddenInList: true
     hiddenInSingle: false
 ---

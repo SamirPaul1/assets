@@ -1,13 +1,13 @@
 ---
-title: 2203 Minimum Weighted Subgraph With The Required Paths
-summary: 2203 Minimum Weighted Subgraph With The Required Paths LeetCode Solution Explained
+title: 2203 Minimum Weighted Subgraph With the Required Paths
+summary: 2203 Minimum Weighted Subgraph With the Required Paths LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["2203 Minimum Weighted Subgraph With The Required Paths LeetCode Solution Explained in all languages", "2203 Minimum Weighted Subgraph With The Required Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+keywords: ["2203 Minimum Weighted Subgraph With the Required Paths LeetCode Solution Explained in all languages", "2203 Minimum Weighted Subgraph With the Required Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2203 Minimum Weighted Subgraph With The Required Paths - Solution Explained/problem-solving.webp
-    alt: 2203 Minimum Weighted Subgraph With The Required Paths
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2203 Minimum Weighted Subgraph With the Required Paths - Solution Explained/problem-solving.webp
+    alt: 2203 Minimum Weighted Subgraph With the Required Paths
     hiddenInList: true
     hiddenInSingle: false
 ---

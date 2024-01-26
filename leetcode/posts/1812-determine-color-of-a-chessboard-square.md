@@ -4,7 +4,7 @@ summary: 1812 Determine Color Of A Chessboard Square LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1812 Determine Color Of A Chessboard Square LeetCode Solution Explained in all languages"]
+keywords: ["1812 Determine Color Of A Chessboard Square LeetCode Solution Explained in all languages", "1812 Determine Color Of A Chessboard Square", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1812 Determine Color Of A Chessboard Square - Solution Explained/problem-solving.webp
     alt: 1812 Determine Color Of A Chessboard Square
@@ -20,7 +20,7 @@ cover:
 
 <p>You are given <code>coordinates</code>, a string that represents the coordinates of a square of the chessboard. Below is a chessboard for your reference.</p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1812.Determine%20Color%20of%20a%20Chessboard%20Square/images/screenshot-2021-02-20-at-22159-pm.png" style="width: 400px; height: 396px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1812.Determine%20Color%20of%20a%20Chessboard%20Square/images/screenshot-2021-02-20-at-22159-pm.png" style="width: 400px; height: 396px;" /></p>
 
 <p>Return <code>true</code><em> if the square is white, and </em><code>false</code><em> if the square is black</em>.</p>
 

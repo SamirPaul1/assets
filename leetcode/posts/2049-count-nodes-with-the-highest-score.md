@@ -4,7 +4,7 @@ summary: 2049 Count Nodes With The Highest Score LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2049 Count Nodes With The Highest Score LeetCode Solution Explained in all languages"]
+keywords: ["2049 Count Nodes With The Highest Score LeetCode Solution Explained in all languages", "2049 Count Nodes With The Highest Score", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2049 Count Nodes With The Highest Score - Solution Explained/problem-solving.webp
     alt: 2049 Count Nodes With The Highest Score
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="example-1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2049.Count%20Nodes%20With%20the%20Highest%20Score/images/example-1.png" style="width: 604px; height: 266px;" />
+<img alt="example-1" src="https://spcdn.pages.dev/leetcode/problems/2049.Count%20Nodes%20With%20the%20Highest%20Score/images/example-1.png" style="width: 604px; height: 266px;" />
 <pre>
 <strong>Input:</strong> parents = [-1,2,0,2,0]
 <strong>Output:</strong> 3
@@ -40,7 +40,7 @@ The highest score is 4, and three nodes (node 1, node 3, and node 4) have the hi
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="example-2" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2049.Count%20Nodes%20With%20the%20Highest%20Score/images/example-2.png" style="width: 95px; height: 143px;" />
+<img alt="example-2" src="https://spcdn.pages.dev/leetcode/problems/2049.Count%20Nodes%20With%20the%20Highest%20Score/images/example-2.png" style="width: 95px; height: 143px;" />
 <pre>
 <strong>Input:</strong> parents = [-1,2,0]
 <strong>Output:</strong> 2

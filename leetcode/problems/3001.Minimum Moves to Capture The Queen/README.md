@@ -27,7 +27,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3001.Minimum%20Moves%20to%20Capture%20The%20Queen/images/ex1.png" style="width: 600px; height: 600px; padding: 10px; background: #fff; border-radius: .5rem;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3001.Minimum%20Moves%20to%20Capture%20The%20Queen/images/ex1.png" style="width: 600px; height: 600px; padding: 10px; background: #fff; border-radius: .5rem;" />
 <pre>
 <strong>Input:</strong> a = 1, b = 1, c = 8, d = 8, e = 2, f = 3
 <strong>Output:</strong> 2
@@ -36,7 +36,7 @@ It is impossible to capture the black queen in less than two moves since it is n
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3001.Minimum%20Moves%20to%20Capture%20The%20Queen/images/ex2.png" style="width: 600px; height: 600px;padding: 10px; background: #fff; border-radius: .5rem;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3001.Minimum%20Moves%20to%20Capture%20The%20Queen/images/ex2.png" style="width: 600px; height: 600px;padding: 10px; background: #fff; border-radius: .5rem;" />
 <pre>
 <strong>Input:</strong> a = 5, b = 3, c = 3, d = 4, e = 5, f = 2
 <strong>Output:</strong> 1

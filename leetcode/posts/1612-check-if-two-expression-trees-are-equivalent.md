@@ -4,7 +4,7 @@ summary: 1612 Check If Two Expression Trees Are Equivalent LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1612 Check If Two Expression Trees Are Equivalent LeetCode Solution Explained in all languages"]
+keywords: ["1612 Check If Two Expression Trees Are Equivalent LeetCode Solution Explained in all languages", "1612 Check If Two Expression Trees Are Equivalent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1612 Check If Two Expression Trees Are Equivalent - Solution Explained/problem-solving.webp
     alt: 1612 Check If Two Expression Trees Are Equivalent
@@ -34,7 +34,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1612.Check%20If%20Two%20Expression%20Trees%20are%20Equivalent/images/tree1.png" style="width: 211px; height: 131px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1612.Check%20If%20Two%20Expression%20Trees%20are%20Equivalent/images/tree1.png" style="width: 211px; height: 131px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root1 = [+,a,+,null,null,b,c], root2 = [+,+,a,b,c]
@@ -43,7 +43,7 @@ cover:
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1612.Check%20If%20Two%20Expression%20Trees%20are%20Equivalent/images/tree2.png" style="width: 211px; height: 131px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1612.Check%20If%20Two%20Expression%20Trees%20are%20Equivalent/images/tree2.png" style="width: 211px; height: 131px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root1 = [+,a,+,null,null,b,c], root2 = [+,+,a,b,d]

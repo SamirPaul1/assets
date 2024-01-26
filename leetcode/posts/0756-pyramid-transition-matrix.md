@@ -4,7 +4,7 @@ summary: 0756 Pyramid Transition Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0756 Pyramid Transition Matrix LeetCode Solution Explained in all languages"]
+keywords: ["0756 Pyramid Transition Matrix LeetCode Solution Explained in all languages", "0756 Pyramid Transition Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0756 Pyramid Transition Matrix - Solution Explained/problem-solving.webp
     alt: 0756 Pyramid Transition Matrix
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0756.Pyramid%20Transition%20Matrix/images/pyramid1-grid.jpg" style="width: 600px; height: 232px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0756.Pyramid%20Transition%20Matrix/images/pyramid1-grid.jpg" style="width: 600px; height: 232px;" />
 <pre>
 <strong>Input:</strong> bottom = &quot;BCD&quot;, allowed = [&quot;BCC&quot;,&quot;CDE&quot;,&quot;CEA&quot;,&quot;FFF&quot;]
 <strong>Output:</strong> true
@@ -42,7 +42,7 @@ There are three triangular patterns in the pyramid, which are &quot;BCC&quot;, &
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0756.Pyramid%20Transition%20Matrix/images/pyramid2-grid.jpg" style="width: 600px; height: 359px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0756.Pyramid%20Transition%20Matrix/images/pyramid2-grid.jpg" style="width: 600px; height: 359px;" />
 <pre>
 <strong>Input:</strong> bottom = &quot;AAAA&quot;, allowed = [&quot;AAB&quot;,&quot;AAC&quot;,&quot;BCD&quot;,&quot;BBE&quot;,&quot;DEF&quot;]
 <strong>Output:</strong> false

@@ -4,7 +4,7 @@ summary: 0883 Projection Area Of 3D Shapes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0883 Projection Area Of 3D Shapes LeetCode Solution Explained in all languages"]
+keywords: ["0883 Projection Area Of 3D Shapes LeetCode Solution Explained in all languages", "0883 Projection Area Of 3D Shapes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0883 Projection Area Of 3D Shapes - Solution Explained/problem-solving.webp
     alt: 0883 Projection Area Of 3D Shapes
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0883.Projection%20Area%20of%203D%20Shapes/images/shadow.png" style="width: 800px; height: 214px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0883.Projection%20Area%20of%203D%20Shapes/images/shadow.png" style="width: 800px; height: 214px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2],[3,4]]
 <strong>Output:</strong> 17

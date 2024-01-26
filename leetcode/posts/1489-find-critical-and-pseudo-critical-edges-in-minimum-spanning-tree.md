@@ -4,7 +4,7 @@ summary: 1489 Find Critical And Pseudo Critical Edges In Minimum Spanning Tree L
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1489 Find Critical And Pseudo Critical Edges In Minimum Spanning Tree LeetCode Solution Explained in all languages"]
+keywords: ["1489 Find Critical And Pseudo Critical Edges In Minimum Spanning Tree LeetCode Solution Explained in all languages", "1489 Find Critical And Pseudo Critical Edges In Minimum Spanning Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1489 Find Critical And Pseudo Critical Edges In Minimum Spanning Tree - Solution Explained/problem-solving.webp
     alt: 1489 Find Critical And Pseudo Critical Edges In Minimum Spanning Tree
@@ -27,21 +27,21 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1489.Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/images/ex1.png" style="width: 259px; height: 262px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1489.Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/images/ex1.png" style="width: 259px; height: 262px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 5, edges = [[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]
 <strong>Output:</strong> [[0,1],[2,3,4,5]]
 <strong>Explanation:</strong> The figure above describes the graph.
 The following figure shows all the possible MSTs:
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1489.Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/images/msts.png" style="width: 540px; height: 553px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1489.Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/images/msts.png" style="width: 540px; height: 553px;" />
 Notice that the two edges 0 and 1 appear in all MSTs, therefore they are critical edges, so we return them in the first list of the output.
 The edges 2, 3, 4, and 5 are only part of some MSTs, therefore they are considered pseudo-critical edges. We add them to the second list of the output.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1489.Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/images/ex2.png" style="width: 247px; height: 253px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1489.Find%20Critical%20and%20Pseudo-Critical%20Edges%20in%20Minimum%20Spanning%20Tree/images/ex2.png" style="width: 247px; height: 253px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[0,1,1],[1,2,1],[2,3,1],[0,3,1]]

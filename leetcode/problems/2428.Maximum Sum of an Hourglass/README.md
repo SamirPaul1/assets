@@ -7,14 +7,14 @@
 <p>You are given an <code>m x n</code> integer matrix <code>grid</code>.</p>
 
 <p>We define an <strong>hourglass</strong> as a part of the matrix with the following form:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2428.Maximum%20Sum%20of%20an%20Hourglass/images/img.jpg" style="width: 243px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2428.Maximum%20Sum%20of%20an%20Hourglass/images/img.jpg" style="width: 243px; height: 243px;" />
 <p>Return <em>the <strong>maximum</strong> sum of the elements of an hourglass</em>.</p>
 
 <p><strong>Note</strong> that an hourglass cannot be rotated and must be entirely contained within the matrix.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2428.Maximum%20Sum%20of%20an%20Hourglass/images/1.jpg" style="width: 323px; height: 323px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2428.Maximum%20Sum%20of%20an%20Hourglass/images/1.jpg" style="width: 323px; height: 323px;" />
 <pre>
 <strong>Input:</strong> grid = [[6,2,1,3],[4,2,1,5],[9,2,8,7],[4,1,2,9]]
 <strong>Output:</strong> 30
@@ -22,7 +22,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2428.Maximum%20Sum%20of%20an%20Hourglass/images/2.jpg" style="width: 243px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2428.Maximum%20Sum%20of%20an%20Hourglass/images/2.jpg" style="width: 243px; height: 243px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2,3],[4,5,6],[7,8,9]]
 <strong>Output:</strong> 35

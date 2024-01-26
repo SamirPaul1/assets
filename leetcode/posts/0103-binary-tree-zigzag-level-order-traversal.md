@@ -4,7 +4,7 @@ summary: 0103 Binary Tree Zigzag Level Order Traversal LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0103 Binary Tree Zigzag Level Order Traversal LeetCode Solution Explained in all languages"]
+keywords: ["0103 Binary Tree Zigzag Level Order Traversal LeetCode Solution Explained in all languages", "0103 Binary Tree Zigzag Level Order Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0103 Binary Tree Zigzag Level Order Traversal - Solution Explained/problem-solving.webp
     alt: 0103 Binary Tree Zigzag Level Order Traversal
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/images/tree1.jpg" style="width: 277px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0103.Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/images/tree1.jpg" style="width: 277px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,20,null,null,15,7]
 <strong>Output:</strong> [[3],[20,9],[15,7]]

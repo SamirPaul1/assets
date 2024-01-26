@@ -4,7 +4,7 @@ summary: 0143 Reorder List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0143 Reorder List LeetCode Solution Explained in all languages"]
+keywords: ["0143 Reorder List LeetCode Solution Explained in all languages", "0143 Reorder List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0143 Reorder List - Solution Explained/problem-solving.webp
     alt: 0143 Reorder List
@@ -34,14 +34,14 @@ L<sub>0</sub> &rarr; L<sub>n</sub> &rarr; L<sub>1</sub> &rarr; L<sub>n - 1</sub>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0143.Reorder%20List/images/reorder1linked-list.jpg" style="width: 422px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0143.Reorder%20List/images/reorder1linked-list.jpg" style="width: 422px; height: 222px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4]
 <strong>Output:</strong> [1,4,2,3]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0143.Reorder%20List/images/reorder2-linked-list.jpg" style="width: 542px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0143.Reorder%20List/images/reorder2-linked-list.jpg" style="width: 542px; height: 222px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4,5]
 <strong>Output:</strong> [1,5,2,4,3]

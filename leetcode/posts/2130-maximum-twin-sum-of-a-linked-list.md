@@ -4,7 +4,7 @@ summary: 2130 Maximum Twin Sum Of A Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2130 Maximum Twin Sum Of A Linked List LeetCode Solution Explained in all languages"]
+keywords: ["2130 Maximum Twin Sum Of A Linked List LeetCode Solution Explained in all languages", "2130 Maximum Twin Sum Of A Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2130 Maximum Twin Sum Of A Linked List - Solution Explained/problem-solving.webp
     alt: 2130 Maximum Twin Sum Of A Linked List
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/images/eg1drawio.png" style="width: 250px; height: 70px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/images/eg1drawio.png" style="width: 250px; height: 70px;" />
 <pre>
 <strong>Input:</strong> head = [5,4,2,1]
 <strong>Output:</strong> 6
@@ -41,7 +41,7 @@ Thus, the maximum twin sum of the linked list is 6.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/images/eg2drawio.png" style="width: 250px; height: 70px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/images/eg2drawio.png" style="width: 250px; height: 70px;" />
 <pre>
 <strong>Input:</strong> head = [4,2,2,3]
 <strong>Output:</strong> 7
@@ -53,7 +53,7 @@ Thus, the maximum twin sum of the linked list is max(7, 4) = 7.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/images/eg3drawio.png" style="width: 200px; height: 88px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2130.Maximum%20Twin%20Sum%20of%20a%20Linked%20List/images/eg3drawio.png" style="width: 200px; height: 88px;" />
 <pre>
 <strong>Input:</strong> head = [1,100000]
 <strong>Output:</strong> 100001

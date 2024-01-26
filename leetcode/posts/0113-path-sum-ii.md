@@ -4,7 +4,7 @@ summary: 0113 Path Sum Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0113 Path Sum Ii LeetCode Solution Explained in all languages"]
+keywords: ["0113 Path Sum Ii LeetCode Solution Explained in all languages", "0113 Path Sum Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0113 Path Sum Ii - Solution Explained/problem-solving.webp
     alt: 0113 Path Sum Ii
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0113.Path%20Sum%20II/images/pathsumii1.jpg" style="width: 500px; height: 356px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0113.Path%20Sum%20II/images/pathsumii1.jpg" style="width: 500px; height: 356px;" />
 <pre>
 <strong>Input:</strong> root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
 <strong>Output:</strong> [[5,4,11,2],[5,8,4,5]]
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0113.Path%20Sum%20II/images/pathsum2.jpg" style="width: 212px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0113.Path%20Sum%20II/images/pathsum2.jpg" style="width: 212px; height: 181px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3], targetSum = 5
 <strong>Output:</strong> []

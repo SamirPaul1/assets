@@ -4,7 +4,7 @@ summary: 3004 Maximum Subtree Of The Same Color LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "3004 Maximum Subtree Of The Same Color LeetCode Solution Explained in all languages"]
+keywords: ["3004 Maximum Subtree Of The Same Color LeetCode Solution Explained in all languages", "3004 Maximum Subtree Of The Same Color", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3004 Maximum Subtree Of The Same Color - Solution Explained/problem-solving.webp
     alt: 3004 Maximum Subtree Of The Same Color
@@ -27,7 +27,7 @@ cover:
 <p>Return <em>the size of such subtree with the <strong>maximum</strong> number of nodes possible.</em></p>
 
 <p>&nbsp;</p>
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3004.Maximum%20Subtree%20of%20the%20Same%20Color/images/20231216-134026.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 221px; height: 132px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/3004.Maximum%20Subtree%20of%20the%20Same%20Color/images/20231216-134026.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 221px; height: 132px;" /></strong></p>
 
 <p><strong class="example">Example 1:</strong></p>
 
@@ -45,7 +45,7 @@ cover:
 <strong>Explanation:</strong> The whole tree has the same color, and the subtree rooted at node 0 has the most number of nodes which is 4. Hence, we return 4.
 </pre>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3004.Maximum%20Subtree%20of%20the%20Same%20Color/images/20231216-134017.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 221px; height: 221px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/3004.Maximum%20Subtree%20of%20the%20Same%20Color/images/20231216-134017.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 221px; height: 221px;" /></strong></p>
 
 <p><strong class="example">Example 3:</strong></p>
 

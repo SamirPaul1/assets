@@ -4,7 +4,7 @@ summary: 2046 Sort Linked List Already Sorted Using Absolute Values LeetCode Sol
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2046 Sort Linked List Already Sorted Using Absolute Values LeetCode Solution Explained in all languages"]
+keywords: ["2046 Sort Linked List Already Sorted Using Absolute Values LeetCode Solution Explained in all languages", "2046 Sort Linked List Already Sorted Using Absolute Values", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2046 Sort Linked List Already Sorted Using Absolute Values - Solution Explained/problem-solving.webp
     alt: 2046 Sort Linked List Already Sorted Using Absolute Values
@@ -22,7 +22,7 @@ Given the <code>head</code> of a singly linked list that is sorted in <strong>no
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2046.Sort%20Linked%20List%20Already%20Sorted%20Using%20Absolute%20Values/images/image-20211017201240-3.png" style="width: 621px; height: 250px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2046.Sort%20Linked%20List%20Already%20Sorted%20Using%20Absolute%20Values/images/image-20211017201240-3.png" style="width: 621px; height: 250px;" />
 <pre>
 <strong>Input:</strong> head = [0,2,-5,5,10,-10]
 <strong>Output:</strong> [-10,-5,0,2,5,10]
@@ -32,7 +32,7 @@ The list sorted in non-descending order using the actual values is [-10,-5,0,2,5
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2046.Sort%20Linked%20List%20Already%20Sorted%20Using%20Absolute%20Values/images/image-20211017201318-4.png" style="width: 338px; height: 250px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2046.Sort%20Linked%20List%20Already%20Sorted%20Using%20Absolute%20Values/images/image-20211017201318-4.png" style="width: 338px; height: 250px;" />
 <pre>
 <strong>Input:</strong> head = [0,1,2]
 <strong>Output:</strong> [0,1,2]

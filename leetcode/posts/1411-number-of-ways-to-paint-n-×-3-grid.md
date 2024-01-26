@@ -4,7 +4,7 @@ summary: 1411 Number Of Ways To Paint N × 3 Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1411 Number Of Ways To Paint N × 3 Grid LeetCode Solution Explained in all languages"]
+keywords: ["1411 Number Of Ways To Paint N × 3 Grid LeetCode Solution Explained in all languages", "1411 Number Of Ways To Paint N × 3 Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1411 Number Of Ways To Paint N × 3 Grid - Solution Explained/problem-solving.webp
     alt: 1411 Number Of Ways To Paint N × 3 Grid
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1411.Number%20of%20Ways%20to%20Paint%20N%20%C3%97%203%20Grid/images/e1.png" style="width: 400px; height: 257px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1411.Number%20of%20Ways%20to%20Paint%20N%20%C3%97%203%20Grid/images/e1.png" style="width: 400px; height: 257px;" />
 <pre>
 <strong>Input:</strong> n = 1
 <strong>Output:</strong> 12

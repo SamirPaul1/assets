@@ -4,7 +4,7 @@ summary: 1189 Maximum Number Of Balloons LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1189 Maximum Number Of Balloons LeetCode Solution Explained in all languages"]
+keywords: ["1189 Maximum Number Of Balloons LeetCode Solution Explained in all languages", "1189 Maximum Number Of Balloons", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1189 Maximum Number Of Balloons - Solution Explained/problem-solving.webp
     alt: 1189 Maximum Number Of Balloons
@@ -25,7 +25,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1189.Maximum%20Number%20of%20Balloons/images/1536_ex1_upd.jpg" style="width: 132px; height: 35px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1189.Maximum%20Number%20of%20Balloons/images/1536_ex1_upd.jpg" style="width: 132px; height: 35px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> text = &quot;nlaebolko&quot;
@@ -34,7 +34,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1189.Maximum%20Number%20of%20Balloons/images/1536_ex2_upd.jpg" style="width: 267px; height: 35px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1189.Maximum%20Number%20of%20Balloons/images/1536_ex2_upd.jpg" style="width: 267px; height: 35px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> text = &quot;loonbalxballpoon&quot;

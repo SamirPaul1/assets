@@ -4,7 +4,7 @@ summary: 2158 Amount Of New Area Painted Each Day LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2158 Amount Of New Area Painted Each Day LeetCode Solution Explained in all languages"]
+keywords: ["2158 Amount Of New Area Painted Each Day LeetCode Solution Explained in all languages", "2158 Amount Of New Area Painted Each Day", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2158 Amount Of New Area Painted Each Day - Solution Explained/problem-solving.webp
     alt: 2158 Amount Of New Area Painted Each Day
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day/images/screenshot-2022-02-01-at-17-16-16-diagram-drawio-diagrams-net.png" style="height: 300px; width: 620px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day/images/screenshot-2022-02-01-at-17-16-16-diagram-drawio-diagrams-net.png" style="height: 300px; width: 620px;" />
 <pre>
 <strong>Input:</strong> paint = [[1,4],[4,7],[5,8]]
 <strong>Output:</strong> [3,3,1]
@@ -41,7 +41,7 @@ The amount of new area painted on day 2 is 8 - 7 = 1.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day/images/screenshot-2022-02-01-at-17-17-45-diagram-drawio-diagrams-net.png" style="width: 604px; height: 300px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day/images/screenshot-2022-02-01-at-17-17-45-diagram-drawio-diagrams-net.png" style="width: 604px; height: 300px;" />
 <pre>
 <strong>Input:</strong> paint = [[1,4],[5,8],[4,7]]
 <strong>Output:</strong> [3,3,1]
@@ -56,7 +56,7 @@ The amount of new area painted on day 2 is 5 - 4 = 1.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day/images/screenshot-2022-02-01-at-17-19-49-diagram-drawio-diagrams-net.png" style="width: 423px; height: 275px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2158.Amount%20of%20New%20Area%20Painted%20Each%20Day/images/screenshot-2022-02-01-at-17-19-49-diagram-drawio-diagrams-net.png" style="width: 423px; height: 275px;" />
 <pre>
 <strong>Input:</strong> paint = [[1,5],[2,4]]
 <strong>Output:</strong> [4,0]

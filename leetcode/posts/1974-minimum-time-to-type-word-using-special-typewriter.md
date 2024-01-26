@@ -4,7 +4,7 @@ summary: 1974 Minimum Time To Type Word Using Special Typewriter LeetCode Soluti
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1974 Minimum Time To Type Word Using Special Typewriter LeetCode Solution Explained in all languages"]
+keywords: ["1974 Minimum Time To Type Word Using Special Typewriter LeetCode Solution Explained in all languages", "1974 Minimum Time To Type Word Using Special Typewriter", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1974 Minimum Time To Type Word Using Special Typewriter - Solution Explained/problem-solving.webp
     alt: 1974 Minimum Time To Type Word Using Special Typewriter
@@ -19,7 +19,7 @@ cover:
 ## Description
 
 <p>There is a special typewriter with lowercase English letters <code>&#39;a&#39;</code> to <code>&#39;z&#39;</code> arranged in a <strong>circle</strong> with a <strong>pointer</strong>. A character can <strong>only</strong> be typed if the pointer is pointing to that character. The pointer is <strong>initially</strong> pointing to the character <code>&#39;a&#39;</code>.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1974.Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter/images/chart.jpg" style="width: 530px; height: 410px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1974.Minimum%20Time%20to%20Type%20Word%20Using%20Special%20Typewriter/images/chart.jpg" style="width: 530px; height: 410px;" />
 <p>Each second, you may perform one of the following operations:</p>
 
 <ul>

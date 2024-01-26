@@ -4,7 +4,7 @@ summary: 1074 Number Of Submatrices That Sum To Target LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1074 Number Of Submatrices That Sum To Target LeetCode Solution Explained in all languages"]
+keywords: ["1074 Number Of Submatrices That Sum To Target LeetCode Solution Explained in all languages", "1074 Number Of Submatrices That Sum To Target", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1074 Number Of Submatrices That Sum To Target - Solution Explained/problem-solving.webp
     alt: 1074 Number Of Submatrices That Sum To Target
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1074.Number%20of%20Submatrices%20That%20Sum%20to%20Target/images/mate1.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1074.Number%20of%20Submatrices%20That%20Sum%20to%20Target/images/mate1.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> matrix = [[0,1,0],[1,1,1],[0,1,0]], target = 0
 <strong>Output:</strong> 4

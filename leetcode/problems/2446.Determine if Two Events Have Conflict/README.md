@@ -59,7 +59,7 @@
 
 If the start time of $event1$ is later than the end time of $event2$, or the end time of $event1$ is earlier than the start time of $event2$, then the two events will not conflict. Otherwise, the two events will conflict.
 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2446.Determine%20if%20Two%20Events%20Have%20Conflict/images/event.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2446.Determine%20if%20Two%20Events%20Have%20Conflict/images/event.png" />
 
 The time complexity is $O(1)$, and the space complexity is $O(1)$.
 

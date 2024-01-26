@@ -4,7 +4,7 @@ summary: 1976 Number Of Ways To Arrive At Destination LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1976 Number Of Ways To Arrive At Destination LeetCode Solution Explained in all languages"]
+keywords: ["1976 Number Of Ways To Arrive At Destination LeetCode Solution Explained in all languages", "1976 Number Of Ways To Arrive At Destination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1976 Number Of Ways To Arrive At Destination - Solution Explained/problem-solving.webp
     alt: 1976 Number Of Ways To Arrive At Destination
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1976.Number%20of%20Ways%20to%20Arrive%20at%20Destination/images/graph2.png" style="width: 235px; height: 381px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1976.Number%20of%20Ways%20to%20Arrive%20at%20Destination/images/graph2.png" style="width: 235px; height: 381px;" />
 <pre>
 <strong>Input:</strong> n = 7, roads = [[0,6,7],[0,1,2],[1,2,3],[1,3,3],[6,3,3],[3,5,1],[6,5,1],[2,5,1],[0,4,5],[4,6,2]]
 <strong>Output:</strong> 4

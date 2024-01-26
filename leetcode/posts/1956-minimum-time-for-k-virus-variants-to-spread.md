@@ -4,7 +4,7 @@ summary: 1956 Minimum Time For K Virus Variants To Spread LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1956 Minimum Time For K Virus Variants To Spread LeetCode Solution Explained in all languages"]
+keywords: ["1956 Minimum Time For K Virus Variants To Spread LeetCode Solution Explained in all languages", "1956 Minimum Time For K Virus Variants To Spread", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1956 Minimum Time For K Virus Variants To Spread - Solution Explained/problem-solving.webp
     alt: 1956 Minimum Time For K Virus Variants To Spread
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1956.Minimum%20Time%20For%20K%20Virus%20Variants%20to%20Spread/images/case-1.png" style="width: 421px; height: 256px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1956.Minimum%20Time%20For%20K%20Virus%20Variants%20to%20Spread/images/case-1.png" style="width: 421px; height: 256px;" />
 <pre>
 <strong>Input:</strong> points = [[1,1],[6,1]], k = 2
 <strong>Output:</strong> 3
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1956.Minimum%20Time%20For%20K%20Virus%20Variants%20to%20Spread/images/case-2.png" style="width: 416px; height: 257px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1956.Minimum%20Time%20For%20K%20Virus%20Variants%20to%20Spread/images/case-2.png" style="width: 416px; height: 257px;" />
 <pre>
 <strong>Input:</strong> points = [[3,3],[1,2],[9,2]], k = 2
 <strong>Output:</strong> 2
@@ -42,7 +42,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1956.Minimum%20Time%20For%20K%20Virus%20Variants%20to%20Spread/images/case-2.png" style="width: 416px; height: 257px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1956.Minimum%20Time%20For%20K%20Virus%20Variants%20to%20Spread/images/case-2.png" style="width: 416px; height: 257px;" />
 <pre>
 <strong>Input:</strong> points = [[3,3],[1,2],[9,2]], k = 3
 <strong>Output:</strong> 4

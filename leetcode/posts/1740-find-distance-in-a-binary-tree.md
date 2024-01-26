@@ -4,7 +4,7 @@ summary: 1740 Find Distance In A Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1740 Find Distance In A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1740 Find Distance In A Binary Tree LeetCode Solution Explained in all languages", "1740 Find Distance In A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1740 Find Distance In A Binary Tree - Solution Explained/problem-solving.webp
     alt: 1740 Find Distance In A Binary Tree
@@ -24,21 +24,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1740.Find%20Distance%20in%20a%20Binary%20Tree/images/binarytree.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1740.Find%20Distance%20in%20a%20Binary%20Tree/images/binarytree.png" />
 <pre>
 <strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 0
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> There are 3 edges between 5 and 0: 5-3-1-0.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1740.Find%20Distance%20in%20a%20Binary%20Tree/images/binarytree.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1740.Find%20Distance%20in%20a%20Binary%20Tree/images/binarytree.png" />
 <pre>
 <strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 7
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> There are 2 edges between 5 and 7: 5-2-7.</pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1740.Find%20Distance%20in%20a%20Binary%20Tree/images/binarytree.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1740.Find%20Distance%20in%20a%20Binary%20Tree/images/binarytree.png" />
 <pre>
 <strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 5
 <strong>Output:</strong> 0

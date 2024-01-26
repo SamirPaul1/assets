@@ -4,7 +4,7 @@ summary: 1579 Remove Max Number Of Edges To Keep Graph Fully Traversable LeetCod
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1579 Remove Max Number Of Edges To Keep Graph Fully Traversable LeetCode Solution Explained in all languages"]
+keywords: ["1579 Remove Max Number Of Edges To Keep Graph Fully Traversable LeetCode Solution Explained in all languages", "1579 Remove Max Number Of Edges To Keep Graph Fully Traversable", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1579 Remove Max Number Of Edges To Keep Graph Fully Traversable - Solution Explained/problem-solving.webp
     alt: 1579 Remove Max Number Of Edges To Keep Graph Fully Traversable
@@ -33,7 +33,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1579.Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/images/ex1.png" style="width: 179px; height: 191px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1579.Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/images/ex1.png" style="width: 179px; height: 191px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[3,1,2],[3,2,3],[1,1,3],[1,2,4],[1,1,2],[2,3,4]]
@@ -43,7 +43,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1579.Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/images/ex2.png" style="width: 178px; height: 190px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1579.Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/images/ex2.png" style="width: 178px; height: 190px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[3,1,2],[3,2,3],[1,1,4],[2,1,4]]
@@ -53,7 +53,7 @@ cover:
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1579.Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/images/ex3.png" style="width: 178px; height: 190px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1579.Remove%20Max%20Number%20of%20Edges%20to%20Keep%20Graph%20Fully%20Traversable/images/ex3.png" style="width: 178px; height: 190px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[3,2,3],[1,1,2],[2,3,4]]

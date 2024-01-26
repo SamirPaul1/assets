@@ -4,7 +4,7 @@ summary: 2039 The Time When The Network Becomes Idle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2039 The Time When The Network Becomes Idle LeetCode Solution Explained in all languages"]
+keywords: ["2039 The Time When The Network Becomes Idle LeetCode Solution Explained in all languages", "2039 The Time When The Network Becomes Idle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2039 The Time When The Network Becomes Idle - Solution Explained/problem-solving.webp
     alt: 2039 The Time When The Network Becomes Idle
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="example 1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2039.The%20Time%20When%20the%20Network%20Becomes%20Idle/images/quiet-place-example1.png" style="width: 750px; height: 384px;" />
+<img alt="example 1" src="https://spcdn.pages.dev/leetcode/problems/2039.The%20Time%20When%20the%20Network%20Becomes%20Idle/images/quiet-place-example1.png" style="width: 750px; height: 384px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1],[1,2]], patience = [0,2,1]
 <strong>Output:</strong> 8
@@ -69,7 +69,7 @@ This is the time when the network becomes idle.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="example 2" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2039.The%20Time%20When%20the%20Network%20Becomes%20Idle/images/network_a_quiet_place_2.png" style="width: 100px; height: 85px;" />
+<img alt="example 2" src="https://spcdn.pages.dev/leetcode/problems/2039.The%20Time%20When%20the%20Network%20Becomes%20Idle/images/network_a_quiet_place_2.png" style="width: 100px; height: 85px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1],[0,2],[1,2]], patience = [0,10,10]
 <strong>Output:</strong> 3

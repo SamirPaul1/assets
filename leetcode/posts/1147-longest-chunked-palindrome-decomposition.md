@@ -4,7 +4,7 @@ summary: 1147 Longest Chunked Palindrome Decomposition LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1147 Longest Chunked Palindrome Decomposition LeetCode Solution Explained in all languages"]
+keywords: ["1147 Longest Chunked Palindrome Decomposition LeetCode Solution Explained in all languages", "1147 Longest Chunked Palindrome Decomposition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1147 Longest Chunked Palindrome Decomposition - Solution Explained/problem-solving.webp
     alt: 1147 Longest Chunked Palindrome Decomposition
@@ -74,7 +74,7 @@ The proof of the above greedy strategy is as follows:
 
 Suppose there is a prefix $A_1$ and a suffix $A_2$ that meet the conditions, and there is a prefix $B_1$ and a suffix $B_4$ that meet the conditions. Since $A_1 = A_2$ and $B_1=B_4$, then $B_3=B_1=B_4=B_2$, and $C_1 = C_2$. Therefore, if we greedily split $B_1$ and $B_4$, then the remaining $C_1$ and $C_2$, and $B_2$ and $B_3$ can also be successfully split. Therefore, we should greedily choose the shortest identical prefix and suffix to split, so that in the remaining string, more segmented palindromes may be split.
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1147.Longest%20Chunked%20Palindrome%20Decomposition/images/demo.png" style="width: 300px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1147.Longest%20Chunked%20Palindrome%20Decomposition/images/demo.png" style="width: 300px;" /></p>
 
 The time complexity is $O(n^2)$, and the space complexity is $O(n)$ or $O(1)$. Here, $n$ is the length of the string.
 

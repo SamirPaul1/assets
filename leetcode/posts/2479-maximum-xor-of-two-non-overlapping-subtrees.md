@@ -4,7 +4,7 @@ summary: 2479 Maximum Xor Of Two Non Overlapping Subtrees LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2479 Maximum Xor Of Two Non Overlapping Subtrees LeetCode Solution Explained in all languages"]
+keywords: ["2479 Maximum Xor Of Two Non Overlapping Subtrees LeetCode Solution Explained in all languages", "2479 Maximum Xor Of Two Non Overlapping Subtrees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2479 Maximum Xor Of Two Non Overlapping Subtrees - Solution Explained/problem-solving.webp
     alt: 2479 Maximum Xor Of Two Non Overlapping Subtrees
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2479.Maximum%20XOR%20of%20Two%20Non-Overlapping%20Subtrees/images/treemaxxor.png" style="width: 346px; height: 249px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2479.Maximum%20XOR%20of%20Two%20Non-Overlapping%20Subtrees/images/treemaxxor.png" style="width: 346px; height: 249px;" />
 <pre>
 <strong>Input:</strong> n = 6, edges = [[0,1],[0,2],[1,3],[1,4],[2,5]], values = [2,8,3,6,2,5]
 <strong>Output:</strong> 24
@@ -43,7 +43,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2479.Maximum%20XOR%20of%20Two%20Non-Overlapping%20Subtrees/images/tree3drawio.png" style="width: 240px; height: 261px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2479.Maximum%20XOR%20of%20Two%20Non-Overlapping%20Subtrees/images/tree3drawio.png" style="width: 240px; height: 261px;" />
 <pre>
 <strong>Input:</strong> n = 3, edges = [[0,1],[1,2]], values = [4,6,1]
 <strong>Output:</strong> 0

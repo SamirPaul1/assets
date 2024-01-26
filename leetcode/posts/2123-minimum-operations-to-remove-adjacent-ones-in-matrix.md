@@ -4,7 +4,7 @@ summary: 2123 Minimum Operations To Remove Adjacent Ones In Matrix LeetCode Solu
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2123 Minimum Operations To Remove Adjacent Ones In Matrix LeetCode Solution Explained in all languages"]
+keywords: ["2123 Minimum Operations To Remove Adjacent Ones In Matrix LeetCode Solution Explained in all languages", "2123 Minimum Operations To Remove Adjacent Ones In Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2123 Minimum Operations To Remove Adjacent Ones In Matrix - Solution Explained/problem-solving.webp
     alt: 2123 Minimum Operations To Remove Adjacent Ones In Matrix
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2123.Minimum%20Operations%20to%20Remove%20Adjacent%20Ones%20in%20Matrix/images/image-20211223181501-1.png" style="width: 644px; height: 250px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2123.Minimum%20Operations%20to%20Remove%20Adjacent%20Ones%20in%20Matrix/images/image-20211223181501-1.png" style="width: 644px; height: 250px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,0],[0,1,1],[1,1,1]]
 <strong>Output:</strong> 3
@@ -35,7 +35,7 @@ After, no more 1&#39;s are 4-directionally connected and grid is well-isolated.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2123.Minimum%20Operations%20to%20Remove%20Adjacent%20Ones%20in%20Matrix/images/image-20211223181518-2.png" style="height: 250px; width: 255px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2123.Minimum%20Operations%20to%20Remove%20Adjacent%20Ones%20in%20Matrix/images/image-20211223181518-2.png" style="height: 250px; width: 255px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,0],[0,0,0],[0,0,0]]
 <strong>Output:</strong> 0
@@ -44,7 +44,7 @@ No operations were done so return 0.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2123.Minimum%20Operations%20to%20Remove%20Adjacent%20Ones%20in%20Matrix/images/image-20211223181817-3.png" style="width: 165px; height: 167px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2123.Minimum%20Operations%20to%20Remove%20Adjacent%20Ones%20in%20Matrix/images/image-20211223181817-3.png" style="width: 165px; height: 167px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1],[1,0]]
 <strong>Output:</strong> 0

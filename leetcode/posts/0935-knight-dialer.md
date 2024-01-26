@@ -4,7 +4,7 @@ summary: 0935 Knight Dialer LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0935 Knight Dialer LeetCode Solution Explained in all languages"]
+keywords: ["0935 Knight Dialer LeetCode Solution Explained in all languages", "0935 Knight Dialer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0935 Knight Dialer - Solution Explained/problem-solving.webp
     alt: 0935 Knight Dialer
@@ -21,9 +21,9 @@ cover:
 <p>The chess knight has a <strong>unique movement</strong>,&nbsp;it may move two squares vertically and one square horizontally, or two squares horizontally and one square vertically (with both forming the shape of an <strong>L</strong>). The possible movements of chess knight are shown in this diagaram:</p>
 
 <p>A chess knight can move as indicated in the chess diagram below:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0935.Knight%20Dialer/images/chess.jpg" style="width: 402px; height: 402px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0935.Knight%20Dialer/images/chess.jpg" style="width: 402px; height: 402px;" />
 <p>We have a chess knight and a phone pad as shown below, the knight <strong>can only stand on a numeric cell</strong>&nbsp;(i.e. blue cell).</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0935.Knight%20Dialer/images/phone.jpg" style="width: 242px; height: 322px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0935.Knight%20Dialer/images/phone.jpg" style="width: 242px; height: 322px;" />
 <p>Given an integer <code>n</code>, return how many distinct phone numbers of length <code>n</code> we can dial.</p>
 
 <p>You are allowed to place the knight <strong>on any numeric cell</strong> initially and then you should perform <code>n - 1</code> jumps to dial a number of length <code>n</code>. All jumps should be <strong>valid</strong> knight jumps.</p>

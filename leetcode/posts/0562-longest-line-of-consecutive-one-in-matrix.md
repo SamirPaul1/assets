@@ -4,7 +4,7 @@ summary: 0562 Longest Line Of Consecutive One In Matrix LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0562 Longest Line Of Consecutive One In Matrix LeetCode Solution Explained in all languages"]
+keywords: ["0562 Longest Line Of Consecutive One In Matrix LeetCode Solution Explained in all languages", "0562 Longest Line Of Consecutive One In Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0562 Longest Line Of Consecutive One In Matrix - Solution Explained/problem-solving.webp
     alt: 0562 Longest Line Of Consecutive One In Matrix
@@ -24,14 +24,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0562.Longest%20Line%20of%20Consecutive%20One%20in%20Matrix/images/long1-grid.jpg" style="width: 333px; height: 253px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0562.Longest%20Line%20of%20Consecutive%20One%20in%20Matrix/images/long1-grid.jpg" style="width: 333px; height: 253px;" />
 <pre>
 <strong>Input:</strong> mat = [[0,1,1,0],[0,1,1,0],[0,0,0,1]]
 <strong>Output:</strong> 3
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0562.Longest%20Line%20of%20Consecutive%20One%20in%20Matrix/images/long2-grid.jpg" style="width: 333px; height: 253px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0562.Longest%20Line%20of%20Consecutive%20One%20in%20Matrix/images/long2-grid.jpg" style="width: 333px; height: 253px;" />
 <pre>
 <strong>Input:</strong> mat = [[1,1,1,1],[0,1,1,0],[0,0,0,1]]
 <strong>Output:</strong> 4

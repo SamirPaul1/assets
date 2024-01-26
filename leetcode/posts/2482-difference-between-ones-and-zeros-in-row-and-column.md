@@ -4,7 +4,7 @@ summary: 2482 Difference Between Ones And Zeros In Row And Column LeetCode Solut
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2482 Difference Between Ones And Zeros In Row And Column LeetCode Solution Explained in all languages"]
+keywords: ["2482 Difference Between Ones And Zeros In Row And Column LeetCode Solution Explained in all languages", "2482 Difference Between Ones And Zeros In Row And Column", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2482 Difference Between Ones And Zeros In Row And Column - Solution Explained/problem-solving.webp
     alt: 2482 Difference Between Ones And Zeros In Row And Column
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2482.Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column/images/image-20221106171729-5.png" style="width: 400px; height: 208px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2482.Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column/images/image-20221106171729-5.png" style="width: 400px; height: 208px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,1],[1,0,1],[0,0,1]]
 <strong>Output:</strong> [[0,0,4],[0,0,4],[-2,-2,2]]
@@ -51,7 +51,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2482.Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column/images/image-20221106171747-6.png" style="width: 358px; height: 150px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2482.Difference%20Between%20Ones%20and%20Zeros%20in%20Row%20and%20Column/images/image-20221106171747-6.png" style="width: 358px; height: 150px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,1,1]]
 <strong>Output:</strong> [[5,5,5],[5,5,5]]

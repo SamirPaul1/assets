@@ -4,7 +4,7 @@ summary: 0988 Smallest String Starting From Leaf LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0988 Smallest String Starting From Leaf LeetCode Solution Explained in all languages"]
+keywords: ["0988 Smallest String Starting From Leaf LeetCode Solution Explained in all languages", "0988 Smallest String Starting From Leaf", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0988 Smallest String Starting From Leaf - Solution Explained/problem-solving.webp
     alt: 0988 Smallest String Starting From Leaf
@@ -32,21 +32,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0988.Smallest%20String%20Starting%20From%20Leaf/images/tree1.png" style="width: 534px; height: 358px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0988.Smallest%20String%20Starting%20From%20Leaf/images/tree1.png" style="width: 534px; height: 358px;" />
 <pre>
 <strong>Input:</strong> root = [0,1,2,3,4,3,4]
 <strong>Output:</strong> &quot;dba&quot;
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0988.Smallest%20String%20Starting%20From%20Leaf/images/tree2.png" style="width: 534px; height: 358px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0988.Smallest%20String%20Starting%20From%20Leaf/images/tree2.png" style="width: 534px; height: 358px;" />
 <pre>
 <strong>Input:</strong> root = [25,1,3,1,3,0,2]
 <strong>Output:</strong> &quot;adz&quot;
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0988.Smallest%20String%20Starting%20From%20Leaf/images/tree3.png" style="height: 490px; width: 468px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0988.Smallest%20String%20Starting%20From%20Leaf/images/tree3.png" style="height: 490px; width: 468px;" />
 <pre>
 <strong>Input:</strong> root = [2,2,1,null,1,0,null,0]
 <strong>Output:</strong> &quot;abc&quot;

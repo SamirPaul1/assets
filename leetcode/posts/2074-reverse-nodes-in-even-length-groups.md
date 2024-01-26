@@ -4,7 +4,7 @@ summary: 2074 Reverse Nodes In Even Length Groups LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2074 Reverse Nodes In Even Length Groups LeetCode Solution Explained in all languages"]
+keywords: ["2074 Reverse Nodes In Even Length Groups LeetCode Solution Explained in all languages", "2074 Reverse Nodes In Even Length Groups", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2074 Reverse Nodes In Even Length Groups - Solution Explained/problem-solving.webp
     alt: 2074 Reverse Nodes In Even Length Groups
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2074.Reverse%20Nodes%20in%20Even%20Length%20Groups/images/eg1.png" style="width: 699px; height: 124px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2074.Reverse%20Nodes%20in%20Even%20Length%20Groups/images/eg1.png" style="width: 699px; height: 124px;" />
 <pre>
 <strong>Input:</strong> head = [5,2,6,3,9,1,7,3,8,4]
 <strong>Output:</strong> [5,6,2,3,9,1,4,8,3,7]
@@ -46,7 +46,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2074.Reverse%20Nodes%20in%20Even%20Length%20Groups/images/eg2.png" style="width: 284px; height: 114px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2074.Reverse%20Nodes%20in%20Even%20Length%20Groups/images/eg2.png" style="width: 284px; height: 114px;" />
 <pre>
 <strong>Input:</strong> head = [1,1,0,6]
 <strong>Output:</strong> [1,0,1,6]
@@ -57,7 +57,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2074.Reverse%20Nodes%20in%20Even%20Length%20Groups/images/ex3.png" style="width: 348px; height: 114px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2074.Reverse%20Nodes%20in%20Even%20Length%20Groups/images/ex3.png" style="width: 348px; height: 114px;" />
 <pre>
 <strong>Input:</strong> head = [1,1,0,6,5]
 <strong>Output:</strong> [1,0,1,5,6]

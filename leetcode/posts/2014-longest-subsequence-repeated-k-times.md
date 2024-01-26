@@ -4,7 +4,7 @@ summary: 2014 Longest Subsequence Repeated K Times LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2014 Longest Subsequence Repeated K Times LeetCode Solution Explained in all languages"]
+keywords: ["2014 Longest Subsequence Repeated K Times LeetCode Solution Explained in all languages", "2014 Longest Subsequence Repeated K Times", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2014 Longest Subsequence Repeated K Times - Solution Explained/problem-solving.webp
     alt: 2014 Longest Subsequence Repeated K Times
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="example 1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2014.Longest%20Subsequence%20Repeated%20k%20Times/images/longest-subsequence-repeat-k-times.png" style="width: 457px; height: 99px;" />
+<img alt="example 1" src="https://spcdn.pages.dev/leetcode/problems/2014.Longest%20Subsequence%20Repeated%20k%20Times/images/longest-subsequence-repeat-k-times.png" style="width: 457px; height: 99px;" />
 <pre>
 <strong>Input:</strong> s = &quot;letsleetcode&quot;, k = 2
 <strong>Output:</strong> &quot;let&quot;

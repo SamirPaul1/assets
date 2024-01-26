@@ -11,7 +11,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_1.png" style="width: 300px; height: 201px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_1.png" style="width: 300px; height: 201px;" /></p>
 
 <pre>
 <strong>Input:</strong> root = [2,3,1,3,1,null,1]
@@ -21,7 +21,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_2.png" style="width: 300px; height: 314px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_2.png" style="width: 300px; height: 314px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root = [2,1,1,1,3,null,null,null,null,null,1]

@@ -4,7 +4,7 @@ summary: 2152 Minimum Number Of Lines To Cover Points LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2152 Minimum Number Of Lines To Cover Points LeetCode Solution Explained in all languages"]
+keywords: ["2152 Minimum Number Of Lines To Cover Points LeetCode Solution Explained in all languages", "2152 Minimum Number Of Lines To Cover Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2152 Minimum Number Of Lines To Cover Points - Solution Explained/problem-solving.webp
     alt: 2152 Minimum Number Of Lines To Cover Points
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/images/image-20220123200023-1.png" style="width: 350px; height: 402px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/images/image-20220123200023-1.png" style="width: 350px; height: 402px;" />
 <pre>
 <strong>Input:</strong> points = [[0,1],[2,3],[4,5],[4,3]]
 <strong>Output:</strong> 2
@@ -36,7 +36,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/images/image-20220123200057-3.png" style="width: 350px; height: 480px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2152.Minimum%20Number%20of%20Lines%20to%20Cover%20Points/images/image-20220123200057-3.png" style="width: 350px; height: 480px;" />
 <pre>
 <strong>Input:</strong> points = [[0,2],[-2,-2],[1,4]]
 <strong>Output:</strong> 1

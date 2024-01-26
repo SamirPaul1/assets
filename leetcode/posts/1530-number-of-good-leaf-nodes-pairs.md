@@ -4,7 +4,7 @@ summary: 1530 Number Of Good Leaf Nodes Pairs LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1530 Number Of Good Leaf Nodes Pairs LeetCode Solution Explained in all languages"]
+keywords: ["1530 Number Of Good Leaf Nodes Pairs LeetCode Solution Explained in all languages", "1530 Number Of Good Leaf Nodes Pairs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1530 Number Of Good Leaf Nodes Pairs - Solution Explained/problem-solving.webp
     alt: 1530 Number Of Good Leaf Nodes Pairs
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1530.Number%20of%20Good%20Leaf%20Nodes%20Pairs/images/e1.jpg" style="width: 250px; height: 250px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1530.Number%20of%20Good%20Leaf%20Nodes%20Pairs/images/e1.jpg" style="width: 250px; height: 250px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,null,4], distance = 3
 <strong>Output:</strong> 1
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1530.Number%20of%20Good%20Leaf%20Nodes%20Pairs/images/e2.jpg" style="width: 250px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1530.Number%20of%20Good%20Leaf%20Nodes%20Pairs/images/e2.jpg" style="width: 250px; height: 182px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6,7], distance = 3
 <strong>Output:</strong> 2

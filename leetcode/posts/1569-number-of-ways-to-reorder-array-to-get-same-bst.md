@@ -4,7 +4,7 @@ summary: 1569 Number Of Ways To Reorder Array To Get Same Bst LeetCode Solution 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1569 Number Of Ways To Reorder Array To Get Same Bst LeetCode Solution Explained in all languages"]
+keywords: ["1569 Number Of Ways To Reorder Array To Get Same Bst LeetCode Solution Explained in all languages", "1569 Number Of Ways To Reorder Array To Get Same Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1569 Number Of Ways To Reorder Array To Get Same Bst - Solution Explained/problem-solving.webp
     alt: 1569 Number Of Ways To Reorder Array To Get Same Bst
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1569.Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/images/bb.png" style="width: 121px; height: 101px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1569.Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/images/bb.png" style="width: 121px; height: 101px;" />
 <pre>
 <strong>Input:</strong> nums = [2,1,3]
 <strong>Output:</strong> 1
@@ -38,7 +38,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1569.Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/images/ex1.png" style="width: 241px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1569.Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/images/ex1.png" style="width: 241px; height: 161px;" />
 <pre>
 <strong>Input:</strong> nums = [3,4,5,1,2]
 <strong>Output:</strong> 5
@@ -51,7 +51,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1569.Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/images/ex4.png" style="width: 121px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1569.Number%20of%20Ways%20to%20Reorder%20Array%20to%20Get%20Same%20BST/images/ex4.png" style="width: 121px; height: 161px;" />
 <pre>
 <strong>Input:</strong> nums = [1,2,3]
 <strong>Output:</strong> 0

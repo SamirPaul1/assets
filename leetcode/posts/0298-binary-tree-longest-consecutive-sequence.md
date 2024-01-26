@@ -4,7 +4,7 @@ summary: 0298 Binary Tree Longest Consecutive Sequence LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0298 Binary Tree Longest Consecutive Sequence LeetCode Solution Explained in all languages"]
+keywords: ["0298 Binary Tree Longest Consecutive Sequence LeetCode Solution Explained in all languages", "0298 Binary Tree Longest Consecutive Sequence", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0298 Binary Tree Longest Consecutive Sequence - Solution Explained/problem-solving.webp
     alt: 0298 Binary Tree Longest Consecutive Sequence
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/images/consec1-1-tree.jpg" style="width: 306px; height: 400px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/images/consec1-1-tree.jpg" style="width: 306px; height: 400px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,3,2,4,null,null,null,5]
 <strong>Output:</strong> 3
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/images/consec1-2-tree.jpg" style="width: 249px; height: 400px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0298.Binary%20Tree%20Longest%20Consecutive%20Sequence/images/consec1-2-tree.jpg" style="width: 249px; height: 400px;" />
 <pre>
 <strong>Input:</strong> root = [2,null,3,2,null,1]
 <strong>Output:</strong> 2

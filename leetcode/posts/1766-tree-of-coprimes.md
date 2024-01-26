@@ -4,7 +4,7 @@ summary: 1766 Tree Of Coprimes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1766 Tree Of Coprimes LeetCode Solution Explained in all languages"]
+keywords: ["1766 Tree Of Coprimes LeetCode Solution Explained in all languages", "1766 Tree Of Coprimes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1766 Tree Of Coprimes - Solution Explained/problem-solving.webp
     alt: 1766 Tree Of Coprimes
@@ -31,7 +31,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1766.Tree%20of%20Coprimes/images/untitled-diagram.png" style="width: 191px; height: 281px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1766.Tree%20of%20Coprimes/images/untitled-diagram.png" style="width: 191px; height: 281px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> nums = [2,3,3,2], edges = [[0,1],[1,2],[1,3]]
@@ -47,7 +47,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1766.Tree%20of%20Coprimes/images/untitled-diagram1.png" style="width: 441px; height: 291px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1766.Tree%20of%20Coprimes/images/untitled-diagram1.png" style="width: 441px; height: 291px;" /></p>
 
 <pre>
 <strong>Input:</strong> nums = [5,6,10,2,3,6,15], edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6]]

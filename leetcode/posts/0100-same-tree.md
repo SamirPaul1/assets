@@ -4,7 +4,7 @@ summary: 0100 Same Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0100 Same Tree LeetCode Solution Explained in all languages"]
+keywords: ["0100 Same Tree LeetCode Solution Explained in all languages", "0100 Same Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0100 Same Tree - Solution Explained/problem-solving.webp
     alt: 0100 Same Tree
@@ -24,21 +24,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0100.Same%20Tree/images/ex1.jpg" style="width: 622px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0100.Same%20Tree/images/ex1.jpg" style="width: 622px; height: 182px;" />
 <pre>
 <strong>Input:</strong> p = [1,2,3], q = [1,2,3]
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0100.Same%20Tree/images/ex2.jpg" style="width: 382px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0100.Same%20Tree/images/ex2.jpg" style="width: 382px; height: 182px;" />
 <pre>
 <strong>Input:</strong> p = [1,2], q = [1,null,2]
 <strong>Output:</strong> false
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0100.Same%20Tree/images/ex3.jpg" style="width: 622px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0100.Same%20Tree/images/ex3.jpg" style="width: 622px; height: 182px;" />
 <pre>
 <strong>Input:</strong> p = [1,2,1], q = [1,1,2]
 <strong>Output:</strong> false

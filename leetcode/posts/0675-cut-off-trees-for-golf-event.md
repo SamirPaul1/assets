@@ -4,7 +4,7 @@ summary: 0675 Cut Off Trees For Golf Event LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0675 Cut Off Trees For Golf Event LeetCode Solution Explained in all languages"]
+keywords: ["0675 Cut Off Trees For Golf Event LeetCode Solution Explained in all languages", "0675 Cut Off Trees For Golf Event", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0675 Cut Off Trees For Golf Event - Solution Explained/problem-solving.webp
     alt: 0675 Cut Off Trees For Golf Event
@@ -36,7 +36,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0675.Cut%20Off%20Trees%20for%20Golf%20Event/images/trees1.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0675.Cut%20Off%20Trees%20for%20Golf%20Event/images/trees1.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> forest = [[1,2,3],[0,0,4],[7,6,5]]
 <strong>Output:</strong> 6
@@ -44,7 +44,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0675.Cut%20Off%20Trees%20for%20Golf%20Event/images/trees2.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0675.Cut%20Off%20Trees%20for%20Golf%20Event/images/trees2.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> forest = [[1,2,3],[0,0,0],[7,6,5]]
 <strong>Output:</strong> -1

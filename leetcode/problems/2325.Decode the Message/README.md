@@ -21,7 +21,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2325.Decode%20the%20Message/images/ex1new4.jpg" style="width: 752px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2325.Decode%20the%20Message/images/ex1new4.jpg" style="width: 752px; height: 150px;" />
 <pre>
 <strong>Input:</strong> key = &quot;the quick brown fox jumps over the lazy dog&quot;, message = &quot;vkbs bs t suepuv&quot;
 <strong>Output:</strong> &quot;this is a secret&quot;
@@ -30,7 +30,7 @@ It is obtained by taking the first appearance of each letter in &quot;<u><strong
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2325.Decode%20the%20Message/images/ex2new.jpg" style="width: 754px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2325.Decode%20the%20Message/images/ex2new.jpg" style="width: 754px; height: 150px;" />
 <pre>
 <strong>Input:</strong> key = &quot;eljuxhpwnyrdgtqkviszcfmabo&quot;, message = &quot;zwx hnfx lqantp mnoeius ycgk vcnjrdb&quot;
 <strong>Output:</strong> &quot;the five boxing wizards jump quickly&quot;

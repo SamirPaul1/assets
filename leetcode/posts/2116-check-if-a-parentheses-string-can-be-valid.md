@@ -4,7 +4,7 @@ summary: 2116 Check If A Parentheses String Can Be Valid LeetCode Solution Expla
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2116 Check If A Parentheses String Can Be Valid LeetCode Solution Explained in all languages"]
+keywords: ["2116 Check If A Parentheses String Can Be Valid LeetCode Solution Explained in all languages", "2116 Check If A Parentheses String Can Be Valid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2116 Check If A Parentheses String Can Be Valid - Solution Explained/problem-solving.webp
     alt: 2116 Check If A Parentheses String Can Be Valid
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2116.Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid/images/eg1.png" style="width: 311px; height: 101px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2116.Check%20if%20a%20Parentheses%20String%20Can%20Be%20Valid/images/eg1.png" style="width: 311px; height: 101px;" />
 <pre>
 <strong>Input:</strong> s = &quot;))()))&quot;, locked = &quot;010100&quot;
 <strong>Output:</strong> true

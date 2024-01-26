@@ -4,7 +4,7 @@ summary: 1643 Kth Smallest Instructions LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1643 Kth Smallest Instructions LeetCode Solution Explained in all languages"]
+keywords: ["1643 Kth Smallest Instructions LeetCode Solution Explained in all languages", "1643 Kth Smallest Instructions", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1643 Kth Smallest Instructions - Solution Explained/problem-solving.webp
     alt: 1643 Kth Smallest Instructions
@@ -36,7 +36,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1643.Kth%20Smallest%20Instructions/images/ex1.png" style="width: 300px; height: 229px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1643.Kth%20Smallest%20Instructions/images/ex1.png" style="width: 300px; height: 229px;" /></p>
 
 <pre>
 <strong>Input:</strong> destination = [2,3], k = 1
@@ -47,7 +47,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1643.Kth%20Smallest%20Instructions/images/ex2.png" style="width: 300px; height: 229px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1643.Kth%20Smallest%20Instructions/images/ex2.png" style="width: 300px; height: 229px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> destination = [2,3], k = 2
@@ -56,7 +56,7 @@ cover:
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1643.Kth%20Smallest%20Instructions/images/ex3.png" style="width: 300px; height: 229px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1643.Kth%20Smallest%20Instructions/images/ex3.png" style="width: 300px; height: 229px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> destination = [2,3], k = 3

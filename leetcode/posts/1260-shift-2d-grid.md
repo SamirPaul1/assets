@@ -4,7 +4,7 @@ summary: 1260 Shift 2D Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1260 Shift 2D Grid LeetCode Solution Explained in all languages"]
+keywords: ["1260 Shift 2D Grid LeetCode Solution Explained in all languages", "1260 Shift 2D Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1260 Shift 2D Grid - Solution Explained/problem-solving.webp
     alt: 1260 Shift 2D Grid
@@ -32,14 +32,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1260.Shift%202D%20Grid/images/e1.png" style="width: 400px; height: 178px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1260.Shift%202D%20Grid/images/e1.png" style="width: 400px; height: 178px;" />
 <pre>
 <strong>Input:</strong> <code>grid</code> = [[1,2,3],[4,5,6],[7,8,9]], k = 1
 <strong>Output:</strong> [[9,1,2],[3,4,5],[6,7,8]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1260.Shift%202D%20Grid/images/e2.png" style="width: 400px; height: 166px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1260.Shift%202D%20Grid/images/e2.png" style="width: 400px; height: 166px;" />
 <pre>
 <strong>Input:</strong> <code>grid</code> = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]], k = 4
 <strong>Output:</strong> [[12,0,21,13],[3,8,1,9],[19,7,2,5],[4,6,11,10]]

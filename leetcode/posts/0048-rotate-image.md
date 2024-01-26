@@ -4,7 +4,7 @@ summary: 0048 Rotate Image LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0048 Rotate Image LeetCode Solution Explained in all languages"]
+keywords: ["0048 Rotate Image LeetCode Solution Explained in all languages", "0048 Rotate Image", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0048 Rotate Image - Solution Explained/problem-solving.webp
     alt: 0048 Rotate Image
@@ -24,14 +24,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0048.Rotate%20Image/images/mat1.jpg" style="width: 500px; height: 188px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0048.Rotate%20Image/images/mat1.jpg" style="width: 500px; height: 188px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2,3],[4,5,6],[7,8,9]]
 <strong>Output:</strong> [[7,4,1],[8,5,2],[9,6,3]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0048.Rotate%20Image/images/mat2.jpg" style="width: 500px; height: 201px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0048.Rotate%20Image/images/mat2.jpg" style="width: 500px; height: 201px;" />
 <pre>
 <strong>Input:</strong> matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
 <strong>Output:</strong> [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]

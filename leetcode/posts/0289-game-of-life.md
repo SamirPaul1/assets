@@ -4,7 +4,7 @@ summary: 0289 Game Of Life LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0289 Game Of Life LeetCode Solution Explained in all languages"]
+keywords: ["0289 Game Of Life LeetCode Solution Explained in all languages", "0289 Game Of Life", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0289 Game Of Life - Solution Explained/problem-solving.webp
     alt: 0289 Game Of Life
@@ -33,14 +33,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0289.Game%20of%20Life/images/grid1.jpg" style="width: 562px; height: 322px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0289.Game%20of%20Life/images/grid1.jpg" style="width: 562px; height: 322px;" />
 <pre>
 <strong>Input:</strong> board = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
 <strong>Output:</strong> [[0,0,0],[1,0,1],[0,1,1],[0,1,0]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0289.Game%20of%20Life/images/grid2.jpg" style="width: 402px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0289.Game%20of%20Life/images/grid2.jpg" style="width: 402px; height: 162px;" />
 <pre>
 <strong>Input:</strong> board = [[1,1],[1,0]]
 <strong>Output:</strong> [[1,1],[1,1]]

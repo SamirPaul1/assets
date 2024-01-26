@@ -4,7 +4,7 @@ summary: 2087 Minimum Cost Homecoming Of A Robot In A Grid LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2087 Minimum Cost Homecoming Of A Robot In A Grid LeetCode Solution Explained in all languages"]
+keywords: ["2087 Minimum Cost Homecoming Of A Robot In A Grid LeetCode Solution Explained in all languages", "2087 Minimum Cost Homecoming Of A Robot In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2087 Minimum Cost Homecoming Of A Robot In A Grid - Solution Explained/problem-solving.webp
     alt: 2087 Minimum Cost Homecoming Of A Robot In A Grid
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2087.Minimum%20Cost%20Homecoming%20of%20a%20Robot%20in%20a%20Grid/images/eg-1.png" style="width: 282px; height: 217px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2087.Minimum%20Cost%20Homecoming%20of%20a%20Robot%20in%20a%20Grid/images/eg-1.png" style="width: 282px; height: 217px;" />
 <pre>
 <strong>Input:</strong> startPos = [1, 0], homePos = [2, 3], rowCosts = [5, 4, 3], colCosts = [8, 2, 6, 7]
 <strong>Output:</strong> 18

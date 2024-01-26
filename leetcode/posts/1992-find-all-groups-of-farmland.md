@@ -4,7 +4,7 @@ summary: 1992 Find All Groups Of Farmland LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1992 Find All Groups Of Farmland LeetCode Solution Explained in all languages"]
+keywords: ["1992 Find All Groups Of Farmland LeetCode Solution Explained in all languages", "1992 Find All Groups Of Farmland", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1992 Find All Groups Of Farmland - Solution Explained/problem-solving.webp
     alt: 1992 Find All Groups Of Farmland
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1992.Find%20All%20Groups%20of%20Farmland/images/screenshot-2021-07-27-at-12-23-15-copy-of-diagram-drawio-diagrams-net.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1992.Find%20All%20Groups%20of%20Farmland/images/screenshot-2021-07-27-at-12-23-15-copy-of-diagram-drawio-diagrams-net.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> land = [[1,0,0],[0,1,1],[0,1,1]]
 <strong>Output:</strong> [[0,0,0,0],[1,1,2,2]]
@@ -38,7 +38,7 @@ The second group has a top left corner at land[1][1] and a bottom right corner a
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1992.Find%20All%20Groups%20of%20Farmland/images/screenshot-2021-07-27-at-12-30-26-copy-of-diagram-drawio-diagrams-net.png" style="width: 200px; height: 200px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1992.Find%20All%20Groups%20of%20Farmland/images/screenshot-2021-07-27-at-12-30-26-copy-of-diagram-drawio-diagrams-net.png" style="width: 200px; height: 200px;" />
 <pre>
 <strong>Input:</strong> land = [[1,1],[1,1]]
 <strong>Output:</strong> [[0,0,1,1]]
@@ -47,7 +47,7 @@ The first group has a top left corner at land[0][0] and a bottom right corner at
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1992.Find%20All%20Groups%20of%20Farmland/images/screenshot-2021-07-27-at-12-32-24-copy-of-diagram-drawio-diagrams-net.png" style="width: 100px; height: 100px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1992.Find%20All%20Groups%20of%20Farmland/images/screenshot-2021-07-27-at-12-32-24-copy-of-diagram-drawio-diagrams-net.png" style="width: 100px; height: 100px;" />
 <pre>
 <strong>Input:</strong> land = [[0]]
 <strong>Output:</strong> []

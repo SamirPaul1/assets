@@ -4,7 +4,7 @@ summary: 2093 Minimum Cost To Reach City With Discounts LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2093 Minimum Cost To Reach City With Discounts LeetCode Solution Explained in all languages"]
+keywords: ["2093 Minimum Cost To Reach City With Discounts LeetCode Solution Explained in all languages", "2093 Minimum Cost To Reach City With Discounts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2093 Minimum Cost To Reach City With Discounts - Solution Explained/problem-solving.webp
     alt: 2093 Minimum Cost To Reach City With Discounts
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2093.Minimum%20Cost%20to%20Reach%20City%20With%20Discounts/images/image-20211129222429-1.png" style="height: 250px; width: 404px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2093.Minimum%20Cost%20to%20Reach%20City%20With%20Discounts/images/image-20211129222429-1.png" style="height: 250px; width: 404px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 5, highways = [[0,1,4],[2,1,3],[1,4,11],[3,2,3],[3,4,2]], discounts = 1
@@ -38,7 +38,7 @@ The minimum cost to go from 0 to 4 is 4 + 5 = 9.
 </pre>
 
 <p><strong class="example">Example 2:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2093.Minimum%20Cost%20to%20Reach%20City%20With%20Discounts/images/image-20211129222650-4.png" style="width: 284px; height: 250px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2093.Minimum%20Cost%20to%20Reach%20City%20With%20Discounts/images/image-20211129222650-4.png" style="width: 284px; height: 250px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 4, highways = [[1,3,17],[1,2,7],[3,2,5],[0,1,6],[3,0,20]], discounts = 20
@@ -51,7 +51,7 @@ The minimum cost to go from 0 to 3 is 3 + 3 + 2 = 8.
 </pre>
 
 <p><strong class="example">Example 3:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2093.Minimum%20Cost%20to%20Reach%20City%20With%20Discounts/images/image-20211129222531-3.png" style="width: 275px; height: 250px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2093.Minimum%20Cost%20to%20Reach%20City%20With%20Discounts/images/image-20211129222531-3.png" style="width: 275px; height: 250px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 4, highways = [[0,1,3],[2,3,2]], discounts = 0

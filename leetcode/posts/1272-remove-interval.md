@@ -4,7 +4,7 @@ summary: 1272 Remove Interval LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1272 Remove Interval LeetCode Solution Explained in all languages"]
+keywords: ["1272 Remove Interval LeetCode Solution Explained in all languages", "1272 Remove Interval", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1272 Remove Interval - Solution Explained/problem-solving.webp
     alt: 1272 Remove Interval
@@ -26,14 +26,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1272.Remove%20Interval/images/removeintervalex1.png" style="width: 510px; height: 319px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1272.Remove%20Interval/images/removeintervalex1.png" style="width: 510px; height: 319px;" />
 <pre>
 <strong>Input:</strong> intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
 <strong>Output:</strong> [[0,1],[6,7]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1272.Remove%20Interval/images/removeintervalex2.png" style="width: 410px; height: 318px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1272.Remove%20Interval/images/removeintervalex2.png" style="width: 410px; height: 318px;" />
 <pre>
 <strong>Input:</strong> intervals = [[0,5]], toBeRemoved = [2,3]
 <strong>Output:</strong> [[0,2],[3,5]]

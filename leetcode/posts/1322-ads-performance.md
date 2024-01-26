@@ -4,7 +4,7 @@ summary: 1322 Ads Performance LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1322 Ads Performance LeetCode Solution Explained in all languages"]
+keywords: ["1322 Ads Performance LeetCode Solution Explained in all languages", "1322 Ads Performance", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1322 Ads Performance - Solution Explained/problem-solving.webp
     alt: 1322 Ads Performance
@@ -38,7 +38,7 @@ The action column is an ENUM (category) type of (&#39;Clicked&#39;, &#39;Viewed&
 <p>A company is running Ads and wants to calculate the performance of each Ad.</p>
 
 <p>Performance of the Ad is measured using Click-Through Rate (CTR) where:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1322.Ads%20Performance/images/sql1.png" style="width: 600px; height: 54px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1322.Ads%20Performance/images/sql1.png" style="width: 600px; height: 54px;" />
 <p>Write a solution&nbsp;to find the <code>ctr</code> of each Ad. <strong>Round</strong> <code>ctr</code> to <strong>two decimal points</strong>.</p>
 
 <p>Return the result table ordered by <code>ctr</code> in <strong>descending order</strong> and by <code>ad_id</code> in <strong>ascending order</strong> in case of a tie.</p>

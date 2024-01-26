@@ -4,7 +4,7 @@ summary: 0668 Kth Smallest Number In Multiplication Table LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0668 Kth Smallest Number In Multiplication Table LeetCode Solution Explained in all languages"]
+keywords: ["0668 Kth Smallest Number In Multiplication Table LeetCode Solution Explained in all languages", "0668 Kth Smallest Number In Multiplication Table", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0668 Kth Smallest Number In Multiplication Table - Solution Explained/problem-solving.webp
     alt: 0668 Kth Smallest Number In Multiplication Table
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0668.Kth%20Smallest%20Number%20in%20Multiplication%20Table/images/multtable1-grid.jpg" style="width: 500px; height: 254px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0668.Kth%20Smallest%20Number%20in%20Multiplication%20Table/images/multtable1-grid.jpg" style="width: 500px; height: 254px;" />
 <pre>
 <strong>Input:</strong> m = 3, n = 3, k = 5
 <strong>Output:</strong> 3
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0668.Kth%20Smallest%20Number%20in%20Multiplication%20Table/images/multtable2-grid.jpg" style="width: 493px; height: 293px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0668.Kth%20Smallest%20Number%20in%20Multiplication%20Table/images/multtable2-grid.jpg" style="width: 493px; height: 293px;" />
 <pre>
 <strong>Input:</strong> m = 2, n = 3, k = 6
 <strong>Output:</strong> 6

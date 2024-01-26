@@ -4,7 +4,7 @@ summary: 0802 Find Eventual Safe States LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0802 Find Eventual Safe States LeetCode Solution Explained in all languages"]
+keywords: ["0802 Find Eventual Safe States LeetCode Solution Explained in all languages", "0802 Find Eventual Safe States", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0802 Find Eventual Safe States - Solution Explained/problem-solving.webp
     alt: 0802 Find Eventual Safe States
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="Illustration of graph" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0802.Find%20Eventual%20Safe%20States/images/picture1.png" style="height: 171px; width: 600px;" />
+<img alt="Illustration of graph" src="https://spcdn.pages.dev/leetcode/problems/0802.Find%20Eventual%20Safe%20States/images/picture1.png" style="height: 171px; width: 600px;" />
 <pre>
 <strong>Input:</strong> graph = [[1,2],[2,3],[5],[0],[5],[],[]]
 <strong>Output:</strong> [2,4,5,6]

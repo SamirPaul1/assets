@@ -4,7 +4,7 @@ summary: 2975 Maximum Square Area By Removing Fences From A Field LeetCode Solut
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2975 Maximum Square Area By Removing Fences From A Field LeetCode Solution Explained in all languages"]
+keywords: ["2975 Maximum Square Area By Removing Fences From A Field LeetCode Solution Explained in all languages", "2975 Maximum Square Area By Removing Fences From A Field", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2975 Maximum Square Area By Removing Fences From A Field - Solution Explained/problem-solving.webp
     alt: 2975 Maximum Square Area By Removing Fences From A Field
@@ -31,7 +31,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2975.Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field/images/screenshot-from-2023-11-05-22-40-25.png" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2975.Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field/images/screenshot-from-2023-11-05-22-40-25.png" /></p>
 
 <pre>
 <strong>Input:</strong> m = 4, n = 3, hFences = [2,3], vFences = [2]
@@ -41,7 +41,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2975.Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field/images/maxsquareareaexample1.png" style="width: 285px; height: 242px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2975.Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field/images/maxsquareareaexample1.png" style="width: 285px; height: 242px;" /></p>
 
 <pre>
 <strong>Input:</strong> m = 6, n = 7, hFences = [2], vFences = [4]

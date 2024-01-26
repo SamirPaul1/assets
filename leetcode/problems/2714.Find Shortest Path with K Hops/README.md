@@ -19,7 +19,7 @@
 <strong>Explanation:</strong> In this example there is only one path from node 1 (the green node) to node 3 (the red node), which is (1-&gt;0-&gt;2-&gt;3) and the length of it is 4 + 2 + 6 = 12. Now we can make weight of two edges 0, we make weight of the blue edges 0, then we have 0 + 2 + 0 = 2. It can be shown that 2 is the minimum length of a path we can achieve with the given condition.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/1.jpg" style="width: 170px; height: 171px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/1.jpg" style="width: 170px; height: 171px;" /></p>
 
 <p><strong class="example">Example 2:</strong></p>
 
@@ -29,7 +29,7 @@
 <strong>Explanation:</strong> In this example there are 2 paths from node 4 (the green node) to node 1 (the red node), which are (4-&gt;0-&gt;6-&gt;3-&gt;2-&gt;1) and (4-&gt;0-&gt;6-&gt;3-&gt;1). The first one has the length 9 + 4 + 2 + 4 + 4 = 23, and the second one has the length 9 + 4 + 2 + 9 = 24. Now if we make weight of the blue edges 0, we get the shortest path with the length 0 + 4 + 2 + 0 = 6. It can be shown that 6 is the minimum length of a path we can achieve with the given condition.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/2.jpg" style="width: 400px; height: 171px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/2.jpg" style="width: 400px; height: 171px;" /></p>
 
 <p><strong class="example">Example 3:</strong></p>
 
@@ -39,7 +39,7 @@
 <strong>Explanation:</strong> In this example there are 4 paths from node 2 (the green node) to node 3 (the red node), which are (2-&gt;1-&gt;3), (2-&gt;0-&gt;1-&gt;3), (2-&gt;1-&gt;0-&gt;4-&gt;3) and (2-&gt;0-&gt;4-&gt;3). The first two have the length 4 + 4 = 1 + 3 + 4 = 8, the third one has the length 4 + 3 + 2 + 7 = 16 and the last one has the length 1 + 2 + 7 = 10. Now if we make weight of the blue edge 0, we get the shortest path with the length 1 + 2 + 0 = 3. It can be shown that 3 is the minimum length of a path we can achieve with the given condition.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/3.jpg" style="width: 300px; height: 296px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2714.Find%20Shortest%20Path%20with%20K%20Hops/images/3.jpg" style="width: 300px; height: 296px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>

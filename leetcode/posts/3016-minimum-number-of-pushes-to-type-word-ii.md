@@ -4,7 +4,7 @@ summary: 3016 Minimum Number Of Pushes To Type Word Ii LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "3016 Minimum Number Of Pushes To Type Word Ii LeetCode Solution Explained in all languages"]
+keywords: ["3016 Minimum Number Of Pushes To Type Word Ii LeetCode Solution Explained in all languages", "3016 Minimum Number Of Pushes To Type Word Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3016 Minimum Number Of Pushes To Type Word Ii - Solution Explained/problem-solving.webp
     alt: 3016 Minimum Number Of Pushes To Type Word Ii
@@ -27,10 +27,10 @@ cover:
 <p>Return <em>the <strong>minimum</strong> number of pushes needed to type </em><code>word</code> <em>after remapping the keys</em>.</p>
 
 <p>An example mapping of letters to keys on a telephone keypad is given below. Note that <code>1</code>, <code>*</code>, <code>#</code>, and <code>0</code> do <strong>not</strong> map to any letters.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypaddesc.png" style="width: 329px; height: 313px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypaddesc.png" style="width: 329px; height: 313px;" />
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypadv1e1.png" style="width: 329px; height: 313px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypadv1e1.png" style="width: 329px; height: 313px;" />
 <pre>
 <strong>Input:</strong> word = &quot;abcde&quot;
 <strong>Output:</strong> 5
@@ -45,7 +45,7 @@ It can be shown that no other mapping can provide a lower cost.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypadv2e2.png" style="width: 329px; height: 313px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypadv2e2.png" style="width: 329px; height: 313px;" />
 <pre>
 <strong>Input:</strong> word = &quot;xyzxyzxyzxyz&quot;
 <strong>Output:</strong> 12
@@ -59,7 +59,7 @@ Note that the key 9 is not mapped to any letter: it is not necessary to map lett
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypadv2.png" style="width: 329px; height: 313px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3016.Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II/images/keypadv2.png" style="width: 329px; height: 313px;" />
 <pre>
 <strong>Input:</strong> word = &quot;aabbccddeeffgghhiiiiii&quot;
 <strong>Output:</strong> 24

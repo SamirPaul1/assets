@@ -4,7 +4,7 @@ summary: 2021 Brightest Position On Street LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2021 Brightest Position On Street LeetCode Solution Explained in all languages"]
+keywords: ["2021 Brightest Position On Street LeetCode Solution Explained in all languages", "2021 Brightest Position On Street", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2021 Brightest Position On Street - Solution Explained/problem-solving.webp
     alt: 2021 Brightest Position On Street
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2021.Brightest%20Position%20on%20Street/images/image-20210928155140-1.png" style="width: 700px; height: 165px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2021.Brightest%20Position%20on%20Street/images/image-20210928155140-1.png" style="width: 700px; height: 165px;" />
 <pre>
 <strong>Input:</strong> lights = [[-3,2],[1,2],[3,3]]
 <strong>Output:</strong> -1

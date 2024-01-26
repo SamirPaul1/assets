@@ -4,7 +4,7 @@ summary: 2446 Determine If Two Events Have Conflict LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2446 Determine If Two Events Have Conflict LeetCode Solution Explained in all languages"]
+keywords: ["2446 Determine If Two Events Have Conflict LeetCode Solution Explained in all languages", "2446 Determine If Two Events Have Conflict", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2446 Determine If Two Events Have Conflict - Solution Explained/problem-solving.webp
     alt: 2446 Determine If Two Events Have Conflict
@@ -73,7 +73,7 @@ cover:
 
 If the start time of $event1$ is later than the end time of $event2$, or the end time of $event1$ is earlier than the start time of $event2$, then the two events will not conflict. Otherwise, the two events will conflict.
 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2446.Determine%20if%20Two%20Events%20Have%20Conflict/images/event.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2446.Determine%20if%20Two%20Events%20Have%20Conflict/images/event.png" />
 
 The time complexity is $O(1)$, and the space complexity is $O(1)$.
 

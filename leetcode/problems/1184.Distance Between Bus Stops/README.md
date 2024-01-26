@@ -13,7 +13,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1184.Distance%20Between%20Bus%20Stops/images/untitled-diagram-1.jpg" style="width: 388px; height: 240px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1184.Distance%20Between%20Bus%20Stops/images/untitled-diagram-1.jpg" style="width: 388px; height: 240px;" /></p>
 
 <pre>
 <strong>Input:</strong> distance = [1,2,3,4], start = 0, destination = 1
@@ -24,7 +24,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1184.Distance%20Between%20Bus%20Stops/images/untitled-diagram-1-1.jpg" style="width: 388px; height: 240px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1184.Distance%20Between%20Bus%20Stops/images/untitled-diagram-1-1.jpg" style="width: 388px; height: 240px;" /></p>
 
 <pre>
 <strong>Input:</strong> distance = [1,2,3,4], start = 0, destination = 2
@@ -36,7 +36,7 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1184.Distance%20Between%20Bus%20Stops/images/untitled-diagram-1-2.jpg" style="width: 388px; height: 240px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1184.Distance%20Between%20Bus%20Stops/images/untitled-diagram-1-2.jpg" style="width: 388px; height: 240px;" /></p>
 
 <pre>
 <strong>Input:</strong> distance = [1,2,3,4], start = 0, destination = 3

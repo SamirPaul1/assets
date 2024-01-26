@@ -4,7 +4,7 @@ summary: 0847 Shortest Path Visiting All Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0847 Shortest Path Visiting All Nodes LeetCode Solution Explained in all languages"]
+keywords: ["0847 Shortest Path Visiting All Nodes LeetCode Solution Explained in all languages", "0847 Shortest Path Visiting All Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0847 Shortest Path Visiting All Nodes - Solution Explained/problem-solving.webp
     alt: 0847 Shortest Path Visiting All Nodes
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0847.Shortest%20Path%20Visiting%20All%20Nodes/images/shortest1-graph.jpg" style="width: 222px; height: 183px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0847.Shortest%20Path%20Visiting%20All%20Nodes/images/shortest1-graph.jpg" style="width: 222px; height: 183px;" />
 <pre>
 <strong>Input:</strong> graph = [[1,2,3],[0],[0],[0]]
 <strong>Output:</strong> 4
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0847.Shortest%20Path%20Visiting%20All%20Nodes/images/shortest2-graph.jpg" style="width: 382px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0847.Shortest%20Path%20Visiting%20All%20Nodes/images/shortest2-graph.jpg" style="width: 382px; height: 222px;" />
 <pre>
 <strong>Input:</strong> graph = [[1],[0,2,4],[1,3,4],[2],[1,2]]
 <strong>Output:</strong> 4

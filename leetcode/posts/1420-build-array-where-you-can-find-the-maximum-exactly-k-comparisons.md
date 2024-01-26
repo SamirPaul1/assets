@@ -4,7 +4,7 @@ summary: 1420 Build Array Where You Can Find The Maximum Exactly K Comparisons L
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1420 Build Array Where You Can Find The Maximum Exactly K Comparisons LeetCode Solution Explained in all languages"]
+keywords: ["1420 Build Array Where You Can Find The Maximum Exactly K Comparisons LeetCode Solution Explained in all languages", "1420 Build Array Where You Can Find The Maximum Exactly K Comparisons", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1420 Build Array Where You Can Find The Maximum Exactly K Comparisons - Solution Explained/problem-solving.webp
     alt: 1420 Build Array Where You Can Find The Maximum Exactly K Comparisons
@@ -19,7 +19,7 @@ cover:
 ## Description
 
 <p>You are given three integers <code>n</code>, <code>m</code> and <code>k</code>. Consider the following algorithm to find the maximum element of an array of positive integers:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1420.Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/images/e.png" style="width: 424px; height: 372px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1420.Build%20Array%20Where%20You%20Can%20Find%20The%20Maximum%20Exactly%20K%20Comparisons/images/e.png" style="width: 424px; height: 372px;" />
 <p>You should build the array arr which has the following properties:</p>
 
 <ul>

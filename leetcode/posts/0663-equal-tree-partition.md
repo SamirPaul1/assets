@@ -4,7 +4,7 @@ summary: 0663 Equal Tree Partition LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0663 Equal Tree Partition LeetCode Solution Explained in all languages"]
+keywords: ["0663 Equal Tree Partition LeetCode Solution Explained in all languages", "0663 Equal Tree Partition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0663 Equal Tree Partition - Solution Explained/problem-solving.webp
     alt: 0663 Equal Tree Partition
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0663.Equal%20Tree%20Partition/images/split1-tree.jpg" style="width: 500px; height: 204px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0663.Equal%20Tree%20Partition/images/split1-tree.jpg" style="width: 500px; height: 204px;" />
 <pre>
 <strong>Input:</strong> root = [5,10,10,null,null,2,3]
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0663.Equal%20Tree%20Partition/images/split2-tree.jpg" style="width: 277px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0663.Equal%20Tree%20Partition/images/split2-tree.jpg" style="width: 277px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,10,null,null,2,20]
 <strong>Output:</strong> false

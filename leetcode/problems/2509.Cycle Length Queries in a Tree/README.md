@@ -31,7 +31,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/bexample1.png" style="width: 647px; height: 128px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/bexample1.png" style="width: 647px; height: 128px;" />
 <pre>
 <strong>Input:</strong> n = 3, queries = [[5,3],[4,7],[2,3]]
 <strong>Output:</strong> [4,5,3]
@@ -42,7 +42,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/aexample2.png" style="width: 146px; height: 71px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/aexample2.png" style="width: 146px; height: 71px;" />
 <pre>
 <strong>Input:</strong> n = 2, queries = [[1,2]]
 <strong>Output:</strong> [2]

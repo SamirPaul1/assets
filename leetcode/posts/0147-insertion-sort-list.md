@@ -4,7 +4,7 @@ summary: 0147 Insertion Sort List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0147 Insertion Sort List LeetCode Solution Explained in all languages"]
+keywords: ["0147 Insertion Sort List LeetCode Solution Explained in all languages", "0147 Insertion Sort List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0147 Insertion Sort List - Solution Explained/problem-solving.webp
     alt: 0147 Insertion Sort List
@@ -29,17 +29,17 @@ cover:
 </ol>
 
 <p>The following is a graphical example of the insertion sort algorithm. The partially sorted list (black) initially contains only the first element in the list. One element (red) is removed from the input data and inserted in-place into the sorted list with each iteration.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0147.Insertion%20Sort%20List/images/Insertion-sort-example-300px.gif" style="height:180px; width:300px" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0147.Insertion%20Sort%20List/images/Insertion-sort-example-300px.gif" style="height:180px; width:300px" />
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0147.Insertion%20Sort%20List/images/sort1linked-list.jpg" style="width: 422px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0147.Insertion%20Sort%20List/images/sort1linked-list.jpg" style="width: 422px; height: 222px;" />
 <pre>
 <strong>Input:</strong> head = [4,2,1,3]
 <strong>Output:</strong> [1,2,3,4]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0147.Insertion%20Sort%20List/images/sort2linked-list.jpg" style="width: 542px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0147.Insertion%20Sort%20List/images/sort2linked-list.jpg" style="width: 542px; height: 222px;" />
 <pre>
 <strong>Input:</strong> head = [-1,5,3,4,0]
 <strong>Output:</strong> [-1,0,3,4,5]

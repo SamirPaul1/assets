@@ -23,7 +23,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2812.Find%20the%20Safest%20Path%20in%20a%20Grid/images/example1.png" style="width: 362px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2812.Find%20the%20Safest%20Path%20in%20a%20Grid/images/example1.png" style="width: 362px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,0],[0,0,0],[0,0,1]]
 <strong>Output:</strong> 0
@@ -31,7 +31,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2812.Find%20the%20Safest%20Path%20in%20a%20Grid/images/example2.png" style="width: 362px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2812.Find%20the%20Safest%20Path%20in%20a%20Grid/images/example2.png" style="width: 362px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,1],[0,0,0],[0,0,0]]
 <strong>Output:</strong> 2
@@ -41,7 +41,7 @@ It can be shown that there are no other paths with a higher safeness factor.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2812.Find%20the%20Safest%20Path%20in%20a%20Grid/images/example3.png" style="width: 362px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2812.Find%20the%20Safest%20Path%20in%20a%20Grid/images/example3.png" style="width: 362px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,0,1],[0,0,0,0],[0,0,0,0],[1,0,0,0]]
 <strong>Output:</strong> 2

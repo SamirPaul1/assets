@@ -4,7 +4,7 @@ summary: 0963 Minimum Area Rectangle Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0963 Minimum Area Rectangle Ii LeetCode Solution Explained in all languages"]
+keywords: ["0963 Minimum Area Rectangle Ii LeetCode Solution Explained in all languages", "0963 Minimum Area Rectangle Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0963 Minimum Area Rectangle Ii - Solution Explained/problem-solving.webp
     alt: 0963 Minimum Area Rectangle Ii
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0963.Minimum%20Area%20Rectangle%20II/images/1a.png" style="width: 398px; height: 400px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0963.Minimum%20Area%20Rectangle%20II/images/1a.png" style="width: 398px; height: 400px;" />
 <pre>
 <strong>Input:</strong> points = [[1,2],[2,1],[1,0],[0,1]]
 <strong>Output:</strong> 2.00000
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0963.Minimum%20Area%20Rectangle%20II/images/2.png" style="width: 400px; height: 251px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0963.Minimum%20Area%20Rectangle%20II/images/2.png" style="width: 400px; height: 251px;" />
 <pre>
 <strong>Input:</strong> points = [[0,1],[2,1],[1,1],[1,0],[2,0]]
 <strong>Output:</strong> 1.00000
@@ -42,7 +42,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0963.Minimum%20Area%20Rectangle%20II/images/3.png" style="width: 383px; height: 400px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0963.Minimum%20Area%20Rectangle%20II/images/3.png" style="width: 383px; height: 400px;" />
 <pre>
 <strong>Input:</strong> points = [[0,3],[1,2],[3,1],[1,3],[2,1]]
 <strong>Output:</strong> 0

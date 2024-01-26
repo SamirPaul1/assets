@@ -4,7 +4,7 @@ summary: 2061 Number Of Spaces Cleaning Robot Cleaned LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2061 Number Of Spaces Cleaning Robot Cleaned LeetCode Solution Explained in all languages"]
+keywords: ["2061 Number Of Spaces Cleaning Robot Cleaned LeetCode Solution Explained in all languages", "2061 Number Of Spaces Cleaning Robot Cleaned", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2061 Number Of Spaces Cleaning Robot Cleaned - Solution Explained/problem-solving.webp
     alt: 2061 Number Of Spaces Cleaning Robot Cleaned
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2061.Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned/images/image-20211101204703-1.png" style="width: 250px; height: 242px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2061.Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned/images/image-20211101204703-1.png" style="width: 250px; height: 242px;" /></p>
 
 <pre>
 <strong>Input:</strong> room = [[0,0,0],[1,1,0],[0,0,0]]
@@ -41,7 +41,7 @@ The robot has cleaned all 7 empty spaces, so return 7.
 </pre>
 
 <p><strong class="example">Example 2:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2061.Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned/images/image-20211101204736-2.png" style="width: 250px; height: 245px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2061.Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned/images/image-20211101204736-2.png" style="width: 250px; height: 245px;" /></p>
 
 <pre>
 <strong>Input:</strong> room = [[0,1,0],[1,0,0],[0,0,0]]

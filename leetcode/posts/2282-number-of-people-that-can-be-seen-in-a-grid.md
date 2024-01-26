@@ -4,7 +4,7 @@ summary: 2282 Number Of People That Can Be Seen In A Grid LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2282 Number Of People That Can Be Seen In A Grid LeetCode Solution Explained in all languages"]
+keywords: ["2282 Number Of People That Can Be Seen In A Grid LeetCode Solution Explained in all languages", "2282 Number Of People That Can Be Seen In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2282 Number Of People That Can Be Seen In A Grid - Solution Explained/problem-solving.webp
     alt: 2282 Number Of People That Can Be Seen In A Grid
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2282.Number%20of%20People%20That%20Can%20Be%20Seen%20in%20a%20Grid/images/image-20220524180458-1.png" style="width: 700px; height: 164px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2282.Number%20of%20People%20That%20Can%20Be%20Seen%20in%20a%20Grid/images/image-20220524180458-1.png" style="width: 700px; height: 164px;" />
 <pre>
 <strong>Input:</strong> heights = [[3,1,4,2,5]]
 <strong>Output:</strong> [[2,1,2,1,0]]
@@ -45,7 +45,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2282.Number%20of%20People%20That%20Can%20Be%20Seen%20in%20a%20Grid/images/image-20220523113533-2.png" style="width: 400px; height: 249px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2282.Number%20of%20People%20That%20Can%20Be%20Seen%20in%20a%20Grid/images/image-20220523113533-2.png" style="width: 400px; height: 249px;" />
 <pre>
 <strong>Input:</strong> heights = [[5,1],[3,1],[4,1]]
 <strong>Output:</strong> [[3,1],[2,1],[1,0]]

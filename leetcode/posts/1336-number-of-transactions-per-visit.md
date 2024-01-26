@@ -4,7 +4,7 @@ summary: 1336 Number Of Transactions Per Visit LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1336 Number Of Transactions Per Visit LeetCode Solution Explained in all languages"]
+keywords: ["1336 Number Of Transactions Per Visit LeetCode Solution Explained in all languages", "1336 Number Of Transactions Per Visit", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1336 Number Of Transactions Per Visit - Solution Explained/problem-solving.webp
     alt: 1336 Number Of Transactions Per Visit
@@ -69,7 +69,7 @@ It is guaranteed that the user has visited the bank in the transaction_date.(i.e
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1336.Number%20of%20Transactions%20per%20Visit/images/chart.png" style="width: 500px; height: 299px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1336.Number%20of%20Transactions%20per%20Visit/images/chart.png" style="width: 500px; height: 299px;" />
 <pre>
 <strong>Input:</strong> 
 Visits table:

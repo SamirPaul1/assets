@@ -25,7 +25,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0457.Circular%20Array%20Loop/images/img1.jpg" style="width: 402px; height: 289px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0457.Circular%20Array%20Loop/images/img1.jpg" style="width: 402px; height: 289px;" />
 <pre>
 <strong>Input:</strong> nums = [2,-1,1,2,2]
 <strong>Output:</strong> true
@@ -34,7 +34,7 @@ We can see the cycle 0 --&gt; 2 --&gt; 3 --&gt; 0 --&gt; ..., and all of its nod
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0457.Circular%20Array%20Loop/images/img2.jpg" style="width: 402px; height: 390px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0457.Circular%20Array%20Loop/images/img2.jpg" style="width: 402px; height: 390px;" />
 <pre>
 <strong>Input:</strong> nums = [-1,-2,-3,-4,-5,6]
 <strong>Output:</strong> false
@@ -43,7 +43,7 @@ The only cycle is of size 1, so we return false.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0457.Circular%20Array%20Loop/images/img3.jpg" style="width: 497px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0457.Circular%20Array%20Loop/images/img3.jpg" style="width: 497px; height: 242px;" />
 <pre>
 <strong>Input:</strong> nums = [1,-1,5,1,4]
 <strong>Output:</strong> true

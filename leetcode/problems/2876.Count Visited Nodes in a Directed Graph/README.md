@@ -18,7 +18,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaphdrawio-1.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaphdrawio-1.png" />
 <pre>
 <strong>Input:</strong> edges = [1,2,0,0]
 <strong>Output:</strong> [3,3,3,4]
@@ -30,7 +30,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaph2drawio.png" style="width: 191px; height: 251px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaph2drawio.png" style="width: 191px; height: 251px;" />
 <pre>
 <strong>Input:</strong> edges = [1,2,3,4,0]
 <strong>Output:</strong> [5,5,5,5,5]

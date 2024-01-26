@@ -4,7 +4,7 @@ summary: 1318 Minimum Flips To Make A Or B Equal To C LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1318 Minimum Flips To Make A Or B Equal To C LeetCode Solution Explained in all languages"]
+keywords: ["1318 Minimum Flips To Make A Or B Equal To C LeetCode Solution Explained in all languages", "1318 Minimum Flips To Make A Or B Equal To C", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1318 Minimum Flips To Make A Or B Equal To C - Solution Explained/problem-solving.webp
     alt: 1318 Minimum Flips To Make A Or B Equal To C
@@ -24,7 +24,7 @@ Flip operation&nbsp;consists of change&nbsp;<strong>any</strong>&nbsp;single bit
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1318.Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/images/sample_3_1676.png" style="width: 260px; height: 87px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1318.Minimum%20Flips%20to%20Make%20a%20OR%20b%20Equal%20to%20c/images/sample_3_1676.png" style="width: 260px; height: 87px;" /></p>
 
 <pre>
 <strong>Input:</strong> a = 2, b = 6, c = 5

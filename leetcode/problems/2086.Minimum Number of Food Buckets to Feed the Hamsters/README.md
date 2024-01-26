@@ -17,7 +17,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2086.Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters/images/example1.png" style="width: 482px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2086.Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters/images/example1.png" style="width: 482px; height: 162px;" />
 <pre>
 <strong>Input:</strong> hamsters = &quot;H..H&quot;
 <strong>Output:</strong> 2
@@ -26,7 +26,7 @@ It can be shown that if we place only one food bucket, one of the hamsters will 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2086.Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters/images/example2.png" style="width: 602px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2086.Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters/images/example2.png" style="width: 602px; height: 162px;" />
 <pre>
 <strong>Input:</strong> hamsters = &quot;.H.H.&quot;
 <strong>Output:</strong> 1
@@ -34,7 +34,7 @@ It can be shown that if we place only one food bucket, one of the hamsters will 
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2086.Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters/images/example3.png" style="width: 602px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2086.Minimum%20Number%20of%20Food%20Buckets%20to%20Feed%20the%20Hamsters/images/example3.png" style="width: 602px; height: 162px;" />
 <pre>
 <strong>Input:</strong> hamsters = &quot;.HHH.&quot;
 <strong>Output:</strong> -1

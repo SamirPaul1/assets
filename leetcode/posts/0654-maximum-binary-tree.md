@@ -4,7 +4,7 @@ summary: 0654 Maximum Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0654 Maximum Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0654 Maximum Binary Tree LeetCode Solution Explained in all languages", "0654 Maximum Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0654 Maximum Binary Tree - Solution Explained/problem-solving.webp
     alt: 0654 Maximum Binary Tree
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0654.Maximum%20Binary%20Tree/images/tree1.jpg" style="width: 302px; height: 421px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0654.Maximum%20Binary%20Tree/images/tree1.jpg" style="width: 302px; height: 421px;" />
 <pre>
 <strong>Input:</strong> nums = [3,2,1,6,0,5]
 <strong>Output:</strong> [6,3,5,null,2,0,null,null,1]
@@ -47,7 +47,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0654.Maximum%20Binary%20Tree/images/tree2.jpg" style="width: 182px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0654.Maximum%20Binary%20Tree/images/tree2.jpg" style="width: 182px; height: 301px;" />
 <pre>
 <strong>Input:</strong> nums = [3,2,1]
 <strong>Output:</strong> [3,null,2,null,1]

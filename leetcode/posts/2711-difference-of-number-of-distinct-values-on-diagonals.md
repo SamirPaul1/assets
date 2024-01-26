@@ -4,7 +4,7 @@ summary: 2711 Difference Of Number Of Distinct Values On Diagonals LeetCode Solu
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2711 Difference Of Number Of Distinct Values On Diagonals LeetCode Solution Explained in all languages"]
+keywords: ["2711 Difference Of Number Of Distinct Values On Diagonals LeetCode Solution Explained in all languages", "2711 Difference Of Number Of Distinct Values On Diagonals", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2711 Difference Of Number Of Distinct Values On Diagonals - Solution Explained/problem-solving.webp
     alt: 2711 Difference Of Number Of Distinct Values On Diagonals
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2711.Difference%20of%20Number%20of%20Distinct%20Values%20on%20Diagonals/images/ex2.png" style="width: 786px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2711.Difference%20of%20Number%20of%20Distinct%20Values%20on%20Diagonals/images/ex2.png" style="width: 786px; height: 121px;" />
 <pre>
 <strong>
 Input:</strong> grid = [[1,2,3],[3,1,5],[3,2,1]]

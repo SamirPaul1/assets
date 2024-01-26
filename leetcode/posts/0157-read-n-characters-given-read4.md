@@ -4,7 +4,7 @@ summary: 0157 Read N Characters Given Read4 LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0157 Read N Characters Given Read4 LeetCode Solution Explained in all languages"]
+keywords: ["0157 Read N Characters Given Read4 LeetCode Solution Explained in all languages", "0157 Read N Characters Given Read4", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0157 Read N Characters Given Read4 - Solution Explained/problem-solving.webp
     alt: 0157 Read N Characters Given Read4
@@ -38,7 +38,7 @@ buf4[] is a destination, not a source. The results from read4 will be copied to 
 </pre>
 
 <p>Below is a high-level example of how <code>read4</code> works:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0157.Read%20N%20Characters%20Given%20Read4/images/157_example.png" style="width: 600px; height: 403px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0157.Read%20N%20Characters%20Given%20Read4/images/157_example.png" style="width: 600px; height: 403px;" />
 <pre>
 File file(&quot;abcde<code>&quot;); // File is &quot;</code>abcde<code>&quot;, initially file pointer (fp) points to &#39;a&#39;
 char[] buf4 = new char[4]; // Create buffer with enough space to store characters

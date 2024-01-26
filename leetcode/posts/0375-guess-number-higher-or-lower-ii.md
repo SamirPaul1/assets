@@ -4,7 +4,7 @@ summary: 0375 Guess Number Higher Or Lower Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0375 Guess Number Higher Or Lower Ii LeetCode Solution Explained in all languages"]
+keywords: ["0375 Guess Number Higher Or Lower Ii LeetCode Solution Explained in all languages", "0375 Guess Number Higher Or Lower Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0375 Guess Number Higher Or Lower Ii - Solution Explained/problem-solving.webp
     alt: 0375 Guess Number Higher Or Lower Ii
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0375.Guess%20Number%20Higher%20or%20Lower%20II/images/graph.png" style="width: 505px; height: 388px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0375.Guess%20Number%20Higher%20or%20Lower%20II/images/graph.png" style="width: 505px; height: 388px;" />
 <pre>
 <strong>Input:</strong> n = 10
 <strong>Output:</strong> 16

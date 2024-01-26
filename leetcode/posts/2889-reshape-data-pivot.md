@@ -4,7 +4,7 @@ summary: 2889 Reshape Data Pivot LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2889 Reshape Data Pivot LeetCode Solution Explained in all languages"]
+keywords: ["2889 Reshape Data Pivot LeetCode Solution Explained in all languages", "2889 Reshape Data Pivot", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2889 Reshape Data Pivot - Solution Explained/problem-solving.webp
     alt: 2889 Reshape Data Pivot

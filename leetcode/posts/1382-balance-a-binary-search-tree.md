@@ -4,7 +4,7 @@ summary: 1382 Balance A Binary Search Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1382 Balance A Binary Search Tree LeetCode Solution Explained in all languages"]
+keywords: ["1382 Balance A Binary Search Tree LeetCode Solution Explained in all languages", "1382 Balance A Binary Search Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1382 Balance A Binary Search Tree - Solution Explained/problem-solving.webp
     alt: 1382 Balance A Binary Search Tree
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1382.Balance%20a%20Binary%20Search%20Tree/images/balance1-tree.jpg" style="width: 500px; height: 319px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1382.Balance%20a%20Binary%20Search%20Tree/images/balance1-tree.jpg" style="width: 500px; height: 319px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,2,null,3,null,4,null,null]
 <strong>Output:</strong> [2,1,3,null,null,null,4]
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1382.Balance%20a%20Binary%20Search%20Tree/images/balanced2-tree.jpg" style="width: 224px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1382.Balance%20a%20Binary%20Search%20Tree/images/balanced2-tree.jpg" style="width: 224px; height: 145px;" />
 <pre>
 <strong>Input:</strong> root = [2,1,3]
 <strong>Output:</strong> [2,1,3]

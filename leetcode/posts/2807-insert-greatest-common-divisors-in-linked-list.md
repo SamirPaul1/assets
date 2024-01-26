@@ -4,7 +4,7 @@ summary: 2807 Insert Greatest Common Divisors In Linked List LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2807 Insert Greatest Common Divisors In Linked List LeetCode Solution Explained in all languages"]
+keywords: ["2807 Insert Greatest Common Divisors In Linked List LeetCode Solution Explained in all languages", "2807 Insert Greatest Common Divisors In Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2807 Insert Greatest Common Divisors In Linked List - Solution Explained/problem-solving.webp
     alt: 2807 Insert Greatest Common Divisors In Linked List
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2807.Insert%20Greatest%20Common%20Divisors%20in%20Linked%20List/images/ex1_copy.png" style="width: 641px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2807.Insert%20Greatest%20Common%20Divisors%20in%20Linked%20List/images/ex1_copy.png" style="width: 641px; height: 181px;" />
 <pre>
 <strong>Input:</strong> head = [18,6,10,3]
 <strong>Output:</strong> [18,6,6,2,10,1,3]
@@ -40,7 +40,7 @@ There are no more adjacent nodes, so we return the linked list.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2807.Insert%20Greatest%20Common%20Divisors%20in%20Linked%20List/images/ex2_copy1.png" style="width: 51px; height: 191px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2807.Insert%20Greatest%20Common%20Divisors%20in%20Linked%20List/images/ex2_copy1.png" style="width: 51px; height: 191px;" />
 <pre>
 <strong>Input:</strong> head = [7]
 <strong>Output:</strong> [7]

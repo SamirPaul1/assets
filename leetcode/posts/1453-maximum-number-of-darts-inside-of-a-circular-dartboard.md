@@ -4,7 +4,7 @@ summary: 1453 Maximum Number Of Darts Inside Of A Circular Dartboard LeetCode So
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1453 Maximum Number Of Darts Inside Of A Circular Dartboard LeetCode Solution Explained in all languages"]
+keywords: ["1453 Maximum Number Of Darts Inside Of A Circular Dartboard LeetCode Solution Explained in all languages", "1453 Maximum Number Of Darts Inside Of A Circular Dartboard", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1453 Maximum Number Of Darts Inside Of A Circular Dartboard - Solution Explained/problem-solving.webp
     alt: 1453 Maximum Number Of Darts Inside Of A Circular Dartboard
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1453.Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/images/sample_1_1806.png" style="width: 248px; height: 211px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1453.Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/images/sample_1_1806.png" style="width: 248px; height: 211px;" />
 <pre>
 <strong>Input:</strong> darts = [[-2,0],[2,0],[0,2],[0,-2]], r = 2
 <strong>Output:</strong> 4
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1453.Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/images/sample_2_1806.png" style="width: 306px; height: 244px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1453.Maximum%20Number%20of%20Darts%20Inside%20of%20a%20Circular%20Dartboard/images/sample_2_1806.png" style="width: 306px; height: 244px;" />
 <pre>
 <strong>Input:</strong> darts = [[-3,0],[3,0],[2,6],[5,4],[0,9],[7,8]], r = 5
 <strong>Output:</strong> 5

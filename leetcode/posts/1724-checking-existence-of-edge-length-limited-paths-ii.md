@@ -4,7 +4,7 @@ summary: 1724 Checking Existence Of Edge Length Limited Paths Ii LeetCode Soluti
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1724 Checking Existence Of Edge Length Limited Paths Ii LeetCode Solution Explained in all languages"]
+keywords: ["1724 Checking Existence Of Edge Length Limited Paths Ii LeetCode Solution Explained in all languages", "1724 Checking Existence Of Edge Length Limited Paths Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1724 Checking Existence Of Edge Length Limited Paths Ii - Solution Explained/problem-solving.webp
     alt: 1724 Checking Existence Of Edge Length Limited Paths Ii
@@ -30,7 +30,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1724.Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths%20II/images/messed.png" style="width: 300px; height: 298px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1724.Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths%20II/images/messed.png" style="width: 300px; height: 298px;" /></strong></p>
 
 <pre>
 <strong>Input</strong>

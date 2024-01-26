@@ -4,7 +4,7 @@ summary: 1274 Number Of Ships In A Rectangle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1274 Number Of Ships In A Rectangle LeetCode Solution Explained in all languages"]
+keywords: ["1274 Number Of Ships In A Rectangle LeetCode Solution Explained in all languages", "1274 Number Of Ships In A Rectangle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1274 Number Of Ships In A Rectangle - Solution Explained/problem-solving.webp
     alt: 1274 Number Of Ships In A Rectangle
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example :</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1274.Number%20of%20Ships%20in%20a%20Rectangle/images/1445_example_1.png" style="width: 496px; height: 500px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1274.Number%20of%20Ships%20in%20a%20Rectangle/images/1445_example_1.png" style="width: 496px; height: 500px;" />
 <pre>
 <strong>Input:</strong> 
 ships = [[1,1],[2,2],[3,3],[5,5]], topRight = [4,4], bottomLeft = [0,0]

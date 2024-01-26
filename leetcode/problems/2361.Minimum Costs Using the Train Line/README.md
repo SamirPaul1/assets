@@ -24,7 +24,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2361.Minimum%20Costs%20Using%20the%20Train%20Line/images/ex1drawio.png" style="width: 442px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2361.Minimum%20Costs%20Using%20the%20Train%20Line/images/ex1drawio.png" style="width: 442px; height: 150px;" />
 <pre>
 <strong>Input:</strong> regular = [1,6,9,5], express = [5,2,3,10], expressCost = 8
 <strong>Output:</strong> [1,7,14,19]
@@ -38,7 +38,7 @@ Note that a different route could be taken to reach the other stops with minimum
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2361.Minimum%20Costs%20Using%20the%20Train%20Line/images/ex2drawio.png" style="width: 346px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2361.Minimum%20Costs%20Using%20the%20Train%20Line/images/ex2drawio.png" style="width: 346px; height: 150px;" />
 <pre>
 <strong>Input:</strong> regular = [11,5,13], express = [7,10,6], expressCost = 3
 <strong>Output:</strong> [10,15,24]

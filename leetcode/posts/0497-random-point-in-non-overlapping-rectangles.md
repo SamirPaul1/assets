@@ -4,7 +4,7 @@ summary: 0497 Random Point In Non Overlapping Rectangles LeetCode Solution Expla
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0497 Random Point In Non Overlapping Rectangles LeetCode Solution Explained in all languages"]
+keywords: ["0497 Random Point In Non Overlapping Rectangles LeetCode Solution Explained in all languages", "0497 Random Point In Non Overlapping Rectangles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0497 Random Point In Non Overlapping Rectangles - Solution Explained/problem-solving.webp
     alt: 0497 Random Point In Non Overlapping Rectangles
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0497.Random%20Point%20in%20Non-overlapping%20Rectangles/images/lc-pickrandomrec.jpg" style="width: 419px; height: 539px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0497.Random%20Point%20in%20Non-overlapping%20Rectangles/images/lc-pickrandomrec.jpg" style="width: 419px; height: 539px;" />
 <pre>
 <strong>Input</strong>
 [&quot;Solution&quot;, &quot;pick&quot;, &quot;pick&quot;, &quot;pick&quot;, &quot;pick&quot;, &quot;pick&quot;]

@@ -4,7 +4,7 @@ summary: 1505 Minimum Possible Integer After At Most K Adjacent Swaps On Digits 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1505 Minimum Possible Integer After At Most K Adjacent Swaps On Digits LeetCode Solution Explained in all languages"]
+keywords: ["1505 Minimum Possible Integer After At Most K Adjacent Swaps On Digits LeetCode Solution Explained in all languages", "1505 Minimum Possible Integer After At Most K Adjacent Swaps On Digits", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1505 Minimum Possible Integer After At Most K Adjacent Swaps On Digits - Solution Explained/problem-solving.webp
     alt: 1505 Minimum Possible Integer After At Most K Adjacent Swaps On Digits
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1505.Minimum%20Possible%20Integer%20After%20at%20Most%20K%20Adjacent%20Swaps%20On%20Digits/images/q4_1.jpg" style="width: 500px; height: 40px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1505.Minimum%20Possible%20Integer%20After%20at%20Most%20K%20Adjacent%20Swaps%20On%20Digits/images/q4_1.jpg" style="width: 500px; height: 40px;" />
 <pre>
 <strong>Input:</strong> num = &quot;4321&quot;, k = 4
 <strong>Output:</strong> &quot;1342&quot;

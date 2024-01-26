@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0587.Erect%20the%20Fence/images/erect2-plane.jpg" style="width: 400px; height: 393px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0587.Erect%20the%20Fence/images/erect2-plane.jpg" style="width: 400px; height: 393px;" />
 <pre>
 <strong>Input:</strong> trees = [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]
 <strong>Output:</strong> [[1,1],[2,0],[4,2],[3,3],[2,4]]
@@ -20,7 +20,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0587.Erect%20the%20Fence/images/erect1-plane.jpg" style="width: 400px; height: 393px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0587.Erect%20the%20Fence/images/erect1-plane.jpg" style="width: 400px; height: 393px;" />
 <pre>
 <strong>Input:</strong> trees = [[1,2],[2,2],[4,2]]
 <strong>Output:</strong> [[4,2],[2,2],[1,2]]

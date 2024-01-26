@@ -4,7 +4,7 @@ summary: 0687 Longest Univalue Path LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0687 Longest Univalue Path LeetCode Solution Explained in all languages"]
+keywords: ["0687 Longest Univalue Path LeetCode Solution Explained in all languages", "0687 Longest Univalue Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0687 Longest Univalue Path - Solution Explained/problem-solving.webp
     alt: 0687 Longest Univalue Path
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex1.jpg" style="width: 450px; height: 238px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0687.Longest%20Univalue%20Path/images/ex1.jpg" style="width: 450px; height: 238px;" />
 <pre>
 <strong>Input:</strong> root = [5,4,5,1,1,null,5]
 <strong>Output:</strong> 2
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex2.jpg" style="width: 450px; height: 238px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0687.Longest%20Univalue%20Path/images/ex2.jpg" style="width: 450px; height: 238px;" />
 <pre>
 <strong>Input:</strong> root = [1,4,5,4,4,null,5]
 <strong>Output:</strong> 2

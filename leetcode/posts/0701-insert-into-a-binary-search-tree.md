@@ -4,7 +4,7 @@ summary: 0701 Insert Into A Binary Search Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0701 Insert Into A Binary Search Tree LeetCode Solution Explained in all languages"]
+keywords: ["0701 Insert Into A Binary Search Tree LeetCode Solution Explained in all languages", "0701 Insert Into A Binary Search Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0701 Insert Into A Binary Search Tree - Solution Explained/problem-solving.webp
     alt: 0701 Insert Into A Binary Search Tree
@@ -24,12 +24,12 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0701.Insert%20into%20a%20Binary%20Search%20Tree/images/insertbst.jpg" style="width: 752px; height: 221px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0701.Insert%20into%20a%20Binary%20Search%20Tree/images/insertbst.jpg" style="width: 752px; height: 221px;" />
 <pre>
 <strong>Input:</strong> root = [4,2,7,1,3], val = 5
 <strong>Output:</strong> [4,2,7,1,3,5]
 <strong>Explanation:</strong> Another accepted tree is:
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0701.Insert%20into%20a%20Binary%20Search%20Tree/images/bst.jpg" style="width: 352px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0701.Insert%20into%20a%20Binary%20Search%20Tree/images/bst.jpg" style="width: 352px; height: 301px;" />
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>

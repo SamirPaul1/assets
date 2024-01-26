@@ -4,7 +4,7 @@ summary: 0218 The Skyline Problem LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0218 The Skyline Problem LeetCode Solution Explained in all languages"]
+keywords: ["0218 The Skyline Problem LeetCode Solution Explained in all languages", "0218 The Skyline Problem", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0218 The Skyline Problem - Solution Explained/problem-solving.webp
     alt: 0218 The Skyline Problem
@@ -36,7 +36,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0218.The%20Skyline%20Problem/images/merged.jpg" style="width: 800px; height: 331px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0218.The%20Skyline%20Problem/images/merged.jpg" style="width: 800px; height: 331px;" />
 <pre>
 <strong>Input:</strong> buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]
 <strong>Output:</strong> [[2,10],[3,15],[7,12],[12,0],[15,10],[20,8],[24,0]]

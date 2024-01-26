@@ -24,7 +24,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img height="300" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2924.Find%20Champion%20II/images/graph-3.png" width="300" /></p>
+<p><img height="300" src="https://spcdn.pages.dev/leetcode/problems/2924.Find%20Champion%20II/images/graph-3.png" width="300" /></p>
 
 <pre>
 <strong>Input:</strong> n = 3, edges = [[0,1],[1,2]]
@@ -34,7 +34,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img height="300" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2924.Find%20Champion%20II/images/graph-4.png" width="300" /></p>
+<p><img height="300" src="https://spcdn.pages.dev/leetcode/problems/2924.Find%20Champion%20II/images/graph-4.png" width="300" /></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[0,2],[1,3],[1,2]]

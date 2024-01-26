@@ -4,7 +4,7 @@ summary: 1631 Path With Minimum Effort LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1631 Path With Minimum Effort LeetCode Solution Explained in all languages"]
+keywords: ["1631 Path With Minimum Effort LeetCode Solution Explained in all languages", "1631 Path With Minimum Effort", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1631 Path With Minimum Effort - Solution Explained/problem-solving.webp
     alt: 1631 Path With Minimum Effort
@@ -27,7 +27,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1631.Path%20With%20Minimum%20Effort/images/ex1.png" style="width: 300px; height: 300px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1631.Path%20With%20Minimum%20Effort/images/ex1.png" style="width: 300px; height: 300px;" /></p>
 
 <pre>
 <strong>Input:</strong> heights = [[1,2,2],[3,8,2],[5,3,5]]
@@ -38,7 +38,7 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1631.Path%20With%20Minimum%20Effort/images/ex2.png" style="width: 300px; height: 300px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1631.Path%20With%20Minimum%20Effort/images/ex2.png" style="width: 300px; height: 300px;" /></p>
 
 <pre>
 <strong>Input:</strong> heights = [[1,2,3],[3,8,4],[5,3,5]]
@@ -47,7 +47,7 @@ This is better than the route of [1,2,2,2,5], where the maximum absolute differe
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1631.Path%20With%20Minimum%20Effort/images/ex3.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1631.Path%20With%20Minimum%20Effort/images/ex3.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> heights = [[1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1]]
 <strong>Output:</strong> 0

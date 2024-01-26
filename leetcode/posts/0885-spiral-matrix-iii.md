@@ -4,7 +4,7 @@ summary: 0885 Spiral Matrix Iii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0885 Spiral Matrix Iii LeetCode Solution Explained in all languages"]
+keywords: ["0885 Spiral Matrix Iii LeetCode Solution Explained in all languages", "0885 Spiral Matrix Iii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0885 Spiral Matrix Iii - Solution Explained/problem-solving.webp
     alt: 0885 Spiral Matrix Iii
@@ -26,14 +26,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0885.Spiral%20Matrix%20III/images/example_1.png" style="width: 174px; height: 99px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0885.Spiral%20Matrix%20III/images/example_1.png" style="width: 174px; height: 99px;" />
 <pre>
 <strong>Input:</strong> rows = 1, cols = 4, rStart = 0, cStart = 0
 <strong>Output:</strong> [[0,0],[0,1],[0,2],[0,3]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0885.Spiral%20Matrix%20III/images/example_2.png" style="width: 202px; height: 142px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0885.Spiral%20Matrix%20III/images/example_2.png" style="width: 202px; height: 142px;" />
 <pre>
 <strong>Input:</strong> rows = 5, cols = 6, rStart = 1, cStart = 4
 <strong>Output:</strong> [[1,4],[1,5],[2,5],[2,4],[2,3],[1,3],[0,3],[0,4],[0,5],[3,5],[3,4],[3,3],[3,2],[2,2],[1,2],[0,2],[4,5],[4,4],[4,3],[4,2],[4,1],[3,1],[2,1],[1,1],[0,1],[4,0],[3,0],[2,0],[1,0],[0,0]]

@@ -4,7 +4,7 @@ summary: 1591 Strange Printer Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1591 Strange Printer Ii LeetCode Solution Explained in all languages"]
+keywords: ["1591 Strange Printer Ii LeetCode Solution Explained in all languages", "1591 Strange Printer Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1591 Strange Printer Ii - Solution Explained/problem-solving.webp
     alt: 1591 Strange Printer Ii
@@ -31,14 +31,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1591.Strange%20Printer%20II/images/print1.jpg" style="width: 600px; height: 175px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1591.Strange%20Printer%20II/images/print1.jpg" style="width: 600px; height: 175px;" />
 <pre>
 <strong>Input:</strong> targetGrid = [[1,1,1,1],[1,2,2,1],[1,2,2,1],[1,1,1,1]]
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1591.Strange%20Printer%20II/images/print2.jpg" style="width: 600px; height: 367px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1591.Strange%20Printer%20II/images/print2.jpg" style="width: 600px; height: 367px;" />
 <pre>
 <strong>Input:</strong> targetGrid = [[1,1,1,1],[1,1,3,3],[1,1,3,4],[5,5,1,4]]
 <strong>Output:</strong> true

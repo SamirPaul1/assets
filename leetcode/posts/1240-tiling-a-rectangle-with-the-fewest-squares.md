@@ -4,7 +4,7 @@ summary: 1240 Tiling A Rectangle With The Fewest Squares LeetCode Solution Expla
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1240 Tiling A Rectangle With The Fewest Squares LeetCode Solution Explained in all languages"]
+keywords: ["1240 Tiling A Rectangle With The Fewest Squares LeetCode Solution Explained in all languages", "1240 Tiling A Rectangle With The Fewest Squares", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1240 Tiling A Rectangle With The Fewest Squares - Solution Explained/problem-solving.webp
     alt: 1240 Tiling A Rectangle With The Fewest Squares
@@ -23,7 +23,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1240.Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/images/sample_11_1592.png" style="width: 154px; height: 106px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1240.Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/images/sample_11_1592.png" style="width: 154px; height: 106px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 2, m = 3
@@ -34,7 +34,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1240.Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/images/sample_22_1592.png" style="width: 224px; height: 126px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1240.Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/images/sample_22_1592.png" style="width: 224px; height: 126px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 5, m = 8
@@ -43,7 +43,7 @@ cover:
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1240.Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/images/sample_33_1592.png" style="width: 224px; height: 189px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1240.Tiling%20a%20Rectangle%20with%20the%20Fewest%20Squares/images/sample_33_1592.png" style="width: 224px; height: 189px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 11, m = 13

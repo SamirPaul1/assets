@@ -4,7 +4,7 @@ summary: 2174 Remove All Ones With Row And Column Flips Ii LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2174 Remove All Ones With Row And Column Flips Ii LeetCode Solution Explained in all languages"]
+keywords: ["2174 Remove All Ones With Row And Column Flips Ii LeetCode Solution Explained in all languages", "2174 Remove All Ones With Row And Column Flips Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2174 Remove All Ones With Row And Column Flips Ii - Solution Explained/problem-solving.webp
     alt: 2174 Remove All Ones With Row And Column Flips Ii
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2174.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II/images/image-20220213162716-1.png" style="width: 709px; height: 200px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2174.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II/images/image-20220213162716-1.png" style="width: 709px; height: 200px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,1,1],[0,1,0]]
 <strong>Output:</strong> 2
@@ -44,7 +44,7 @@ In the second operation, change all cell values of row 0 and column 0 to zero.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2174.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II/images/image-20220213162737-2.png" style="width: 734px; height: 200px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2174.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II/images/image-20220213162737-2.png" style="width: 734px; height: 200px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,0],[1,0,1],[0,1,0]]
 <strong>Output:</strong> 2
@@ -55,7 +55,7 @@ Note that we cannot perform an operation using row 1 and column 1 because grid[1
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2174.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II/images/image-20220213162752-3.png" style="width: 156px; height: 150px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2174.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips%20II/images/image-20220213162752-3.png" style="width: 156px; height: 150px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0],[0,0]]
 <strong>Output:</strong> 0

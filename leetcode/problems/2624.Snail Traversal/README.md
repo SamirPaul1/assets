@@ -10,7 +10,7 @@
 
 <p>&nbsp;</p>
 
-<p><img alt="Traversal Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2624.Snail%20Traversal/images/screen-shot-2023-04-10-at-100006-pm.png" style="width: 275px; height: 343px;" /></p>
+<p><img alt="Traversal Diagram" src="https://spcdn.pages.dev/leetcode/problems/2624.Snail%20Traversal/images/screen-shot-2023-04-10-at-100006-pm.png" style="width: 275px; height: 343px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

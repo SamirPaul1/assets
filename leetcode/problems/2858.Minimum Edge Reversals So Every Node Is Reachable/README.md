@@ -17,7 +17,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img height="246" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826221104-3.png" width="312" /></p>
+<p><img height="246" src="https://spcdn.pages.dev/leetcode/problems/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826221104-3.png" width="312" /></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[2,0],[2,1],[1,3]]
@@ -35,7 +35,7 @@ So, answer[3] = 2.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img height="217" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826225541-2.png" width="322" /></p>
+<p><img height="217" src="https://spcdn.pages.dev/leetcode/problems/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826225541-2.png" width="322" /></p>
 
 <pre>
 <strong>Input:</strong> n = 3, edges = [[1,2],[2,0]]

@@ -4,7 +4,7 @@ summary: 2002 Maximum Product Of The Length Of Two Palindromic Subsequences Leet
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2002 Maximum Product Of The Length Of Two Palindromic Subsequences LeetCode Solution Explained in all languages"]
+keywords: ["2002 Maximum Product Of The Length Of Two Palindromic Subsequences LeetCode Solution Explained in all languages", "2002 Maximum Product Of The Length Of Two Palindromic Subsequences", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2002 Maximum Product Of The Length Of Two Palindromic Subsequences - Solution Explained/problem-solving.webp
     alt: 2002 Maximum Product Of The Length Of Two Palindromic Subsequences
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="example-1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2002.Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/images/two-palindromic-subsequences.png" style="width: 550px; height: 124px;" />
+<img alt="example-1" src="https://spcdn.pages.dev/leetcode/problems/2002.Maximum%20Product%20of%20the%20Length%20of%20Two%20Palindromic%20Subsequences/images/two-palindromic-subsequences.png" style="width: 550px; height: 124px;" />
 <pre>
 <strong>Input:</strong> s = &quot;leetcodecom&quot;
 <strong>Output:</strong> 9

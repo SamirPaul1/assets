@@ -4,7 +4,7 @@ summary: 2065 Maximum Path Quality Of A Graph LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2065 Maximum Path Quality Of A Graph LeetCode Solution Explained in all languages"]
+keywords: ["2065 Maximum Path Quality Of A Graph LeetCode Solution Explained in all languages", "2065 Maximum Path Quality Of A Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2065 Maximum Path Quality Of A Graph - Solution Explained/problem-solving.webp
     alt: 2065 Maximum Path Quality Of A Graph
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2065.Maximum%20Path%20Quality%20of%20a%20Graph/images/ex1drawio.png" style="width: 269px; height: 170px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2065.Maximum%20Path%20Quality%20of%20a%20Graph/images/ex1drawio.png" style="width: 269px; height: 170px;" />
 <pre>
 <strong>Input:</strong> values = [0,32,10,43], edges = [[0,1,10],[1,2,15],[0,3,10]], maxTime = 49
 <strong>Output:</strong> 75
@@ -38,7 +38,7 @@ The nodes visited are 0, 1, and 3, giving a maximal path quality of 0 + 32 + 43 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2065.Maximum%20Path%20Quality%20of%20a%20Graph/images/ex2drawio.png" style="width: 269px; height: 170px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2065.Maximum%20Path%20Quality%20of%20a%20Graph/images/ex2drawio.png" style="width: 269px; height: 170px;" />
 <pre>
 <strong>Input:</strong> values = [5,10,15,20], edges = [[0,1,10],[1,2,10],[0,3,10]], maxTime = 30
 <strong>Output:</strong> 25
@@ -48,7 +48,7 @@ The nodes visited are 0 and 3, giving a maximal path quality of 5 + 20 = 25.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2065.Maximum%20Path%20Quality%20of%20a%20Graph/images/ex31drawio.png" style="width: 236px; height: 170px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2065.Maximum%20Path%20Quality%20of%20a%20Graph/images/ex31drawio.png" style="width: 236px; height: 170px;" />
 <pre>
 <strong>Input:</strong> values = [1,2,3,4], edges = [[0,1,10],[1,2,11],[2,3,12],[1,3,13]], maxTime = 50
 <strong>Output:</strong> 7

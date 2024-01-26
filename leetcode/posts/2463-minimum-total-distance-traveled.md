@@ -4,7 +4,7 @@ summary: 2463 Minimum Total Distance Traveled LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2463 Minimum Total Distance Traveled LeetCode Solution Explained in all languages"]
+keywords: ["2463 Minimum Total Distance Traveled LeetCode Solution Explained in all languages", "2463 Minimum Total Distance Traveled", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2463 Minimum Total Distance Traveled - Solution Explained/problem-solving.webp
     alt: 2463 Minimum Total Distance Traveled
@@ -40,7 +40,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2463.Minimum%20Total%20Distance%20Traveled/images/example1.jpg" style="width: 500px; height: 320px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2463.Minimum%20Total%20Distance%20Traveled/images/example1.jpg" style="width: 500px; height: 320px;" />
 <pre>
 <strong>Input:</strong> robot = [0,4,6], factory = [[2,2],[6,2]]
 <strong>Output:</strong> 4
@@ -54,7 +54,7 @@ The total distance is |2 - 0| + |2 - 4| + |6 - 6| = 4. It can be shown that we c
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2463.Minimum%20Total%20Distance%20Traveled/images/example-2.jpg" style="width: 500px; height: 329px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2463.Minimum%20Total%20Distance%20Traveled/images/example-2.jpg" style="width: 500px; height: 329px;" />
 <pre>
 <strong>Input:</strong> robot = [1,-1], factory = [[-2,1],[2,1]]
 <strong>Output:</strong> 2

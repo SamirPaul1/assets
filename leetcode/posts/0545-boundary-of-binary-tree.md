@@ -4,7 +4,7 @@ summary: 0545 Boundary Of Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0545 Boundary Of Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0545 Boundary Of Binary Tree LeetCode Solution Explained in all languages", "0545 Boundary Of Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0545 Boundary Of Binary Tree - Solution Explained/problem-solving.webp
     alt: 0545 Boundary Of Binary Tree
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0545.Boundary%20of%20Binary%20Tree/images/boundary1.jpg" style="width: 299px; height: 290px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0545.Boundary%20of%20Binary%20Tree/images/boundary1.jpg" style="width: 299px; height: 290px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,2,3,4]
 <strong>Output:</strong> [1,3,4,2]
@@ -50,7 +50,7 @@ Concatenating everything results in [1] + [] + [3,4] + [2] = [1,3,4,2].
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0545.Boundary%20of%20Binary%20Tree/images/boundary2.jpg" style="width: 599px; height: 411px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0545.Boundary%20of%20Binary%20Tree/images/boundary2.jpg" style="width: 599px; height: 411px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6,null,null,null,7,8,9,10]
 <strong>Output:</strong> [1,2,4,7,8,9,10,6,3]

@@ -10,7 +10,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2435.Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/images/image-20220813183124-1.png" style="width: 437px; height: 200px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2435.Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/images/image-20220813183124-1.png" style="width: 437px; height: 200px;" />
 <pre>
 <strong>Input:</strong> grid = [[5,2,4],[3,0,5],[0,7,2]], k = 3
 <strong>Output:</strong> 2
@@ -20,7 +20,7 @@ The second path highlighted in blue has a sum of 5 + 3 + 0 + 5 + 2 = 15 which is
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2435.Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/images/image-20220817112930-3.png" style="height: 85px; width: 132px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2435.Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/images/image-20220817112930-3.png" style="height: 85px; width: 132px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0]], k = 5
 <strong>Output:</strong> 1
@@ -28,7 +28,7 @@ The second path highlighted in blue has a sum of 5 + 3 + 0 + 5 + 2 = 15 which is
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2435.Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/images/image-20220812224605-3.png" style="width: 257px; height: 200px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2435.Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/images/image-20220812224605-3.png" style="width: 257px; height: 200px;" />
 <pre>
 <strong>Input:</strong> grid = [[7,3,4,9],[2,3,6,2],[2,3,7,0]], k = 1
 <strong>Output:</strong> 10

@@ -21,7 +21,7 @@
 
 <p>The following diagram illustrates how the throttling algorithm works. Each rectangle represents 100ms. The throttle time is 400ms.</p>
 
-<p><img alt="Throttle info" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2756.Query%20Batching/images/throttle.png" style="width: 622px; height: 200px;" /></p>
+<p><img alt="Throttle info" src="https://spcdn.pages.dev/leetcode/problems/2756.Query%20Batching/images/throttle.png" style="width: 622px; height: 200px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

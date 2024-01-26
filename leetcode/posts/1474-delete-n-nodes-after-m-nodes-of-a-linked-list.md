@@ -4,7 +4,7 @@ summary: 1474 Delete N Nodes After M Nodes Of A Linked List LeetCode Solution Ex
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1474 Delete N Nodes After M Nodes Of A Linked List LeetCode Solution Explained in all languages"]
+keywords: ["1474 Delete N Nodes After M Nodes Of A Linked List LeetCode Solution Explained in all languages", "1474 Delete N Nodes After M Nodes Of A Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1474 Delete N Nodes After M Nodes Of A Linked List - Solution Explained/problem-solving.webp
     alt: 1474 Delete N Nodes After M Nodes Of A Linked List
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1474.Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List/images/sample_1_1848.png" style="width: 600px; height: 95px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1474.Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List/images/sample_1_1848.png" style="width: 600px; height: 95px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4,5,6,7,8,9,10,11,12,13], m = 2, n = 3
 <strong>Output:</strong> [1,2,6,7,11,12]
@@ -44,7 +44,7 @@ Head of the linked list after removing nodes is returned.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1474.Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List/images/sample_2_1848.png" style="width: 600px; height: 123px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1474.Delete%20N%20Nodes%20After%20M%20Nodes%20of%20a%20Linked%20List/images/sample_2_1848.png" style="width: 600px; height: 123px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4,5,6,7,8,9,10,11], m = 1, n = 3
 <strong>Output:</strong> [1,5,9]

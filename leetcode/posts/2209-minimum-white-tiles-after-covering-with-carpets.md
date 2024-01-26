@@ -4,7 +4,7 @@ summary: 2209 Minimum White Tiles After Covering With Carpets LeetCode Solution 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2209 Minimum White Tiles After Covering With Carpets LeetCode Solution Explained in all languages"]
+keywords: ["2209 Minimum White Tiles After Covering With Carpets LeetCode Solution Explained in all languages", "2209 Minimum White Tiles After Covering With Carpets", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2209 Minimum White Tiles After Covering With Carpets - Solution Explained/problem-solving.webp
     alt: 2209 Minimum White Tiles After Covering With Carpets
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2209.Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets/images/ex1-1.png" style="width: 400px; height: 73px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2209.Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets/images/ex1-1.png" style="width: 400px; height: 73px;" />
 <pre>
 <strong>Input:</strong> floor = &quot;10110101&quot;, numCarpets = 2, carpetLen = 2
 <strong>Output:</strong> 2
@@ -41,7 +41,7 @@ No other way of covering the tiles with the carpets can leave less than 2 white 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2209.Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets/images/ex2.png" style="width: 353px; height: 123px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2209.Minimum%20White%20Tiles%20After%20Covering%20With%20Carpets/images/ex2.png" style="width: 353px; height: 123px;" />
 <pre>
 <strong>Input:</strong> floor = &quot;11111&quot;, numCarpets = 2, carpetLen = 3
 <strong>Output:</strong> 0

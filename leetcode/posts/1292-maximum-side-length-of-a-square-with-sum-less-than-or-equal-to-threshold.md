@@ -4,7 +4,7 @@ summary: 1292 Maximum Side Length Of A Square With Sum Less Than Or Equal To Thr
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1292 Maximum Side Length Of A Square With Sum Less Than Or Equal To Threshold LeetCode Solution Explained in all languages"]
+keywords: ["1292 Maximum Side Length Of A Square With Sum Less Than Or Equal To Threshold LeetCode Solution Explained in all languages", "1292 Maximum Side Length Of A Square With Sum Less Than Or Equal To Threshold", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1292 Maximum Side Length Of A Square With Sum Less Than Or Equal To Threshold - Solution Explained/problem-solving.webp
     alt: 1292 Maximum Side Length Of A Square With Sum Less Than Or Equal To Threshold
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1292.Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold/images/e1.png" style="width: 335px; height: 186px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1292.Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold/images/e1.png" style="width: 335px; height: 186px;" />
 <pre>
 <strong>Input:</strong> mat = [[1,1,3,2,4,3,2],[1,1,3,2,4,3,2],[1,1,3,2,4,3,2]], threshold = 4
 <strong>Output:</strong> 2

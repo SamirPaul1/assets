@@ -4,7 +4,7 @@ summary: 1595 Minimum Cost To Connect Two Groups Of Points LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1595 Minimum Cost To Connect Two Groups Of Points LeetCode Solution Explained in all languages"]
+keywords: ["1595 Minimum Cost To Connect Two Groups Of Points LeetCode Solution Explained in all languages", "1595 Minimum Cost To Connect Two Groups Of Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1595 Minimum Cost To Connect Two Groups Of Points - Solution Explained/problem-solving.webp
     alt: 1595 Minimum Cost To Connect Two Groups Of Points
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1595.Minimum%20Cost%20to%20Connect%20Two%20Groups%20of%20Points/images/ex1.jpg" style="width: 322px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1595.Minimum%20Cost%20to%20Connect%20Two%20Groups%20of%20Points/images/ex1.jpg" style="width: 322px; height: 243px;" />
 <pre>
 <strong>Input:</strong> cost = [[15, 96], [36, 2]]
 <strong>Output:</strong> 17
@@ -37,7 +37,7 @@ This results in a total cost of 17.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1595.Minimum%20Cost%20to%20Connect%20Two%20Groups%20of%20Points/images/ex2.jpg" style="width: 322px; height: 403px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1595.Minimum%20Cost%20to%20Connect%20Two%20Groups%20of%20Points/images/ex2.jpg" style="width: 322px; height: 403px;" />
 <pre>
 <strong>Input:</strong> cost = [[1, 3, 5], [4, 1, 1], [1, 5, 3]]
 <strong>Output:</strong> 4

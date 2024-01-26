@@ -4,7 +4,7 @@ summary: 1557 Minimum Number Of Vertices To Reach All Nodes LeetCode Solution Ex
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1557 Minimum Number Of Vertices To Reach All Nodes LeetCode Solution Explained in all languages"]
+keywords: ["1557 Minimum Number Of Vertices To Reach All Nodes LeetCode Solution Explained in all languages", "1557 Minimum Number Of Vertices To Reach All Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1557 Minimum Number Of Vertices To Reach All Nodes - Solution Explained/problem-solving.webp
     alt: 1557 Minimum Number Of Vertices To Reach All Nodes
@@ -27,7 +27,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1557.Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes/images/untitled22.png" style="width: 231px; height: 181px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1557.Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes/images/untitled22.png" style="width: 231px; height: 181px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 6, edges = [[0,1],[0,2],[2,5],[3,4],[4,2]]
@@ -36,7 +36,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1557.Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes/images/untitled.png" style="width: 201px; height: 201px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1557.Minimum%20Number%20of%20Vertices%20to%20Reach%20All%20Nodes/images/untitled.png" style="width: 201px; height: 201px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 5, edges = [[0,1],[2,1],[3,1],[1,4],[2,4]]

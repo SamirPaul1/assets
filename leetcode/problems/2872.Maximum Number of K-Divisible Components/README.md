@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2872.Maximum%20Number%20of%20K-Divisible%20Components/images/example12-cropped2svg.jpg" style="width: 1024px; height: 453px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2872.Maximum%20Number%20of%20K-Divisible%20Components/images/example12-cropped2svg.jpg" style="width: 1024px; height: 453px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[0,2],[1,2],[1,3],[2,4]], values = [1,8,1,4,4], k = 6
 <strong>Output:</strong> 2
@@ -24,7 +24,7 @@
 It can be shown that no other valid split has more than 2 connected components.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2872.Maximum%20Number%20of%20K-Divisible%20Components/images/example21svg-1.jpg" style="width: 999px; height: 338px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2872.Maximum%20Number%20of%20K-Divisible%20Components/images/example21svg-1.jpg" style="width: 999px; height: 338px;" />
 <pre>
 <strong>Input:</strong> n = 7, edges = [[0,1],[0,2],[1,3],[1,4],[2,5],[2,6]], values = [3,0,6,1,5,2,1], k = 3
 <strong>Output:</strong> 3

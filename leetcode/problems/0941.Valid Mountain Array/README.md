@@ -17,7 +17,7 @@
 	</ul>
 	</li>
 </ul>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0941.Valid%20Mountain%20Array/images/hint_valid_mountain_array.png" width="500" />
+<img src="https://spcdn.pages.dev/leetcode/problems/0941.Valid%20Mountain%20Array/images/hint_valid_mountain_array.png" width="500" />
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <pre><strong>Input:</strong> arr = [2,1]

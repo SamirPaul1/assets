@@ -4,7 +4,7 @@ summary: 0652 Find Duplicate Subtrees LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0652 Find Duplicate Subtrees LeetCode Solution Explained in all languages"]
+keywords: ["0652 Find Duplicate Subtrees LeetCode Solution Explained in all languages", "0652 Find Duplicate Subtrees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0652 Find Duplicate Subtrees - Solution Explained/problem-solving.webp
     alt: 0652 Find Duplicate Subtrees
@@ -26,21 +26,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0652.Find%20Duplicate%20Subtrees/images/e1.jpg" style="width: 450px; height: 354px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0652.Find%20Duplicate%20Subtrees/images/e1.jpg" style="width: 450px; height: 354px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,null,2,4,null,null,4]
 <strong>Output:</strong> [[2,4],[4]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0652.Find%20Duplicate%20Subtrees/images/e2.jpg" style="width: 321px; height: 201px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0652.Find%20Duplicate%20Subtrees/images/e2.jpg" style="width: 321px; height: 201px;" />
 <pre>
 <strong>Input:</strong> root = [2,1,1]
 <strong>Output:</strong> [[1]]
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0652.Find%20Duplicate%20Subtrees/images/e33.jpg" style="width: 450px; height: 303px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0652.Find%20Duplicate%20Subtrees/images/e33.jpg" style="width: 450px; height: 303px;" />
 <pre>
 <strong>Input:</strong> root = [2,2,2,3,null,3,null]
 <strong>Output:</strong> [[2,3],[3]]

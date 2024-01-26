@@ -4,7 +4,7 @@ summary: 0785 Is Graph Bipartite LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0785 Is Graph Bipartite LeetCode Solution Explained in all languages"]
+keywords: ["0785 Is Graph Bipartite LeetCode Solution Explained in all languages", "0785 Is Graph Bipartite", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0785 Is Graph Bipartite - Solution Explained/problem-solving.webp
     alt: 0785 Is Graph Bipartite
@@ -33,14 +33,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0785.Is%20Graph%20Bipartite/images/bi2.jpg" style="width: 222px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0785.Is%20Graph%20Bipartite/images/bi2.jpg" style="width: 222px; height: 222px;" />
 <pre>
 <strong>Input:</strong> graph = [[1,2,3],[0,2],[0,1,3],[0,2]]
 <strong>Output:</strong> false
 <strong>Explanation:</strong> There is no way to partition the nodes into two independent sets such that every edge connects a node in one and a node in the other.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0785.Is%20Graph%20Bipartite/images/bi1.jpg" style="width: 222px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0785.Is%20Graph%20Bipartite/images/bi1.jpg" style="width: 222px; height: 222px;" />
 <pre>
 <strong>Input:</strong> graph = [[1,3],[0,2],[1,3],[0,2]]
 <strong>Output:</strong> true

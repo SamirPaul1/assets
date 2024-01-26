@@ -4,7 +4,7 @@ summary: 0508 Most Frequent Subtree Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0508 Most Frequent Subtree Sum LeetCode Solution Explained in all languages"]
+keywords: ["0508 Most Frequent Subtree Sum LeetCode Solution Explained in all languages", "0508 Most Frequent Subtree Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0508 Most Frequent Subtree Sum - Solution Explained/problem-solving.webp
     alt: 0508 Most Frequent Subtree Sum
@@ -24,14 +24,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0508.Most%20Frequent%20Subtree%20Sum/images/freq1-tree.jpg" style="width: 207px; height: 183px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0508.Most%20Frequent%20Subtree%20Sum/images/freq1-tree.jpg" style="width: 207px; height: 183px;" />
 <pre>
 <strong>Input:</strong> root = [5,2,-3]
 <strong>Output:</strong> [2,-3,4]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0508.Most%20Frequent%20Subtree%20Sum/images/freq2-tree.jpg" style="width: 207px; height: 183px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0508.Most%20Frequent%20Subtree%20Sum/images/freq2-tree.jpg" style="width: 207px; height: 183px;" />
 <pre>
 <strong>Input:</strong> root = [5,2,-5]
 <strong>Output:</strong> [2]

@@ -4,7 +4,7 @@ summary: 1973 Count Nodes Equal To Sum Of Descendants LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1973 Count Nodes Equal To Sum Of Descendants LeetCode Solution Explained in all languages"]
+keywords: ["1973 Count Nodes Equal To Sum Of Descendants LeetCode Solution Explained in all languages", "1973 Count Nodes Equal To Sum Of Descendants", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1973 Count Nodes Equal To Sum Of Descendants - Solution Explained/problem-solving.webp
     alt: 1973 Count Nodes Equal To Sum Of Descendants
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1973.Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants/images/screenshot-2021-08-17-at-17-16-50-diagram-drawio-diagrams-net.png" style="width: 250px; height: 207px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1973.Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants/images/screenshot-2021-08-17-at-17-16-50-diagram-drawio-diagrams-net.png" style="width: 250px; height: 207px;" />
 <pre>
 <strong>Input:</strong> root = [10,3,4,2,1]
 <strong>Output:</strong> 2
@@ -34,7 +34,7 @@ For the node with value 3: The sum of its descendants is 2+1 = 3.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1973.Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants/images/screenshot-2021-08-17-at-17-25-21-diagram-drawio-diagrams-net.png" style="height: 196px; width: 200px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1973.Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants/images/screenshot-2021-08-17-at-17-25-21-diagram-drawio-diagrams-net.png" style="height: 196px; width: 200px;" />
 <pre>
 <strong>Input:</strong> root = [2,3,null,2,null]
 <strong>Output:</strong> 0
@@ -43,7 +43,7 @@ No node has a value that is equal to the sum of its descendants.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1973.Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants/images/screenshot-2021-08-17-at-17-23-53-diagram-drawio-diagrams-net.png" style="width: 50px; height: 50px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1973.Count%20Nodes%20Equal%20to%20Sum%20of%20Descendants/images/screenshot-2021-08-17-at-17-23-53-diagram-drawio-diagrams-net.png" style="width: 50px; height: 50px;" />
 <pre>
 <strong>Input:</strong> root = [0]
 <strong>Output:</strong> 1

@@ -4,7 +4,7 @@ summary: 1568 Minimum Number Of Days To Disconnect Island LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1568 Minimum Number Of Days To Disconnect Island LeetCode Solution Explained in all languages"]
+keywords: ["1568 Minimum Number Of Days To Disconnect Island LeetCode Solution Explained in all languages", "1568 Minimum Number Of Days To Disconnect Island", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1568 Minimum Number Of Days To Disconnect Island - Solution Explained/problem-solving.webp
     alt: 1568 Minimum Number Of Days To Disconnect Island
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1568.Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/images/land1.jpg" style="width: 500px; height: 169px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1568.Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/images/land1.jpg" style="width: 500px; height: 169px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,1,0],[0,1,1,0],[0,0,0,0]]
 
@@ -39,7 +39,7 @@ Change land grid[1][1] and grid[0][2] to water and get 2 disconnected island.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1568.Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/images/land2.jpg" style="width: 404px; height: 85px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1568.Minimum%20Number%20of%20Days%20to%20Disconnect%20Island/images/land2.jpg" style="width: 404px; height: 85px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1]]
 <strong>Output:</strong> 2

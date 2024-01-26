@@ -29,7 +29,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2943.Maximize%20Area%20of%20Square%20Hole%20in%20Grid/images/screenshot-from-2023-11-05-22-40-25.png" style="width: 411px; height: 220px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2943.Maximize%20Area%20of%20Square%20Hole%20in%20Grid/images/screenshot-from-2023-11-05-22-40-25.png" style="width: 411px; height: 220px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 2, m = 1, hBars = [2,3], vBars = [2]
@@ -46,7 +46,7 @@ Hence, the answer is 4.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2943.Maximize%20Area%20of%20Square%20Hole%20in%20Grid/images/screenshot-from-2023-11-04-17-01-02.png" style="width: 368px; height: 145px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2943.Maximize%20Area%20of%20Square%20Hole%20in%20Grid/images/screenshot-from-2023-11-04-17-01-02.png" style="width: 368px; height: 145px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 1, m = 1, hBars = [2], vBars = [2]
@@ -62,7 +62,7 @@ Hence, the answer is 4, and it is the maximum possible.
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2943.Maximize%20Area%20of%20Square%20Hole%20in%20Grid/images/screenshot-from-2023-11-05-22-33-35.png" style="width: 648px; height: 218px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2943.Maximize%20Area%20of%20Square%20Hole%20in%20Grid/images/screenshot-from-2023-11-05-22-33-35.png" style="width: 648px; height: 218px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 2, m = 3, hBars = [2,3], vBars = [2,3,4]

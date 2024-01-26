@@ -4,7 +4,7 @@ summary: 2120 Execution Of All Suffix Instructions Staying In A Grid LeetCode So
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2120 Execution Of All Suffix Instructions Staying In A Grid LeetCode Solution Explained in all languages"]
+keywords: ["2120 Execution Of All Suffix Instructions Staying In A Grid LeetCode Solution Explained in all languages", "2120 Execution Of All Suffix Instructions Staying In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2120 Execution Of All Suffix Instructions Staying In A Grid - Solution Explained/problem-solving.webp
     alt: 2120 Execution Of All Suffix Instructions Staying In A Grid
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2120.Execution%20of%20All%20Suffix%20Instructions%20Staying%20in%20a%20Grid/images/1.png" style="width: 145px; height: 142px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2120.Execution%20of%20All%20Suffix%20Instructions%20Staying%20in%20a%20Grid/images/1.png" style="width: 145px; height: 142px;" />
 <pre>
 <strong>Input:</strong> n = 3, startPos = [0,1], s = &quot;RRDDLU&quot;
 <strong>Output:</strong> [1,5,4,3,1,0]
@@ -47,7 +47,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2120.Execution%20of%20All%20Suffix%20Instructions%20Staying%20in%20a%20Grid/images/2.png" style="width: 106px; height: 103px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2120.Execution%20of%20All%20Suffix%20Instructions%20Staying%20in%20a%20Grid/images/2.png" style="width: 106px; height: 103px;" />
 <pre>
 <strong>Input:</strong> n = 2, startPos = [1,1], s = &quot;LURD&quot;
 <strong>Output:</strong> [4,1,0,0]
@@ -59,7 +59,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2120.Execution%20of%20All%20Suffix%20Instructions%20Staying%20in%20a%20Grid/images/3.png" style="width: 67px; height: 64px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2120.Execution%20of%20All%20Suffix%20Instructions%20Staying%20in%20a%20Grid/images/3.png" style="width: 67px; height: 64px;" />
 <pre>
 <strong>Input:</strong> n = 1, startPos = [0,0], s = &quot;LRUD&quot;
 <strong>Output:</strong> [0,0,0,0]

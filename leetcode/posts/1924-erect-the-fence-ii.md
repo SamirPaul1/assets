@@ -4,7 +4,7 @@ summary: 1924 Erect The Fence Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1924 Erect The Fence Ii LeetCode Solution Explained in all languages"]
+keywords: ["1924 Erect The Fence Ii LeetCode Solution Explained in all languages", "1924 Erect The Fence Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1924 Erect The Fence Ii - Solution Explained/problem-solving.webp
     alt: 1924 Erect The Fence Ii
@@ -29,7 +29,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1924.Erect%20the%20Fence%20II/images/trees1.png" style="width: 510px; height: 501px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1924.Erect%20the%20Fence%20II/images/trees1.png" style="width: 510px; height: 501px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> trees = [[1,1],[2,2],[2,0],[2,4],[3,3],[4,2]]
@@ -39,7 +39,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1924.Erect%20the%20Fence%20II/images/trees2.png" style="width: 510px; height: 501px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1924.Erect%20the%20Fence%20II/images/trees2.png" style="width: 510px; height: 501px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> trees = [[1,2],[2,2],[4,2]]

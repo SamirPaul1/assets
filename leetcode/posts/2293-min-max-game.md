@@ -4,7 +4,7 @@ summary: 2293 Min Max Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2293 Min Max Game LeetCode Solution Explained in all languages"]
+keywords: ["2293 Min Max Game LeetCode Solution Explained in all languages", "2293 Min Max Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2293 Min Max Game - Solution Explained/problem-solving.webp
     alt: 2293 Min Max Game
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2293.Min%20Max%20Game/images/example1drawio-1.png" style="width: 500px; height: 240px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2293.Min%20Max%20Game/images/example1drawio-1.png" style="width: 500px; height: 240px;" />
 <pre>
 <strong>Input:</strong> nums = [1,3,5,2,4,8,2,2]
 <strong>Output:</strong> 1

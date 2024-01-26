@@ -4,7 +4,7 @@ summary: 1478 Allocate Mailboxes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1478 Allocate Mailboxes LeetCode Solution Explained in all languages"]
+keywords: ["1478 Allocate Mailboxes LeetCode Solution Explained in all languages", "1478 Allocate Mailboxes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1478 Allocate Mailboxes - Solution Explained/problem-solving.webp
     alt: 1478 Allocate Mailboxes
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1478.Allocate%20Mailboxes/images/sample_11_1816.png" style="width: 454px; height: 154px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1478.Allocate%20Mailboxes/images/sample_11_1816.png" style="width: 454px; height: 154px;" />
 <pre>
 <strong>Input:</strong> houses = [1,4,8,10,20], k = 3
 <strong>Output:</strong> 5
@@ -35,7 +35,7 @@ Minimum total distance from each houses to nearest mailboxes is |3-1| + |4-3| + 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1478.Allocate%20Mailboxes/images/sample_2_1816.png" style="width: 433px; height: 154px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1478.Allocate%20Mailboxes/images/sample_2_1816.png" style="width: 433px; height: 154px;" />
 <pre>
 <strong>Input:</strong> houses = [2,3,5,12,18], k = 2
 <strong>Output:</strong> 9

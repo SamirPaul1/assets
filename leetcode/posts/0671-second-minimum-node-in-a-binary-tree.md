@@ -4,7 +4,7 @@ summary: 0671 Second Minimum Node In A Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0671 Second Minimum Node In A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0671 Second Minimum Node In A Binary Tree LeetCode Solution Explained in all languages", "0671 Second Minimum Node In A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0671 Second Minimum Node In A Binary Tree - Solution Explained/problem-solving.webp
     alt: 0671 Second Minimum Node In A Binary Tree
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0671.Second%20Minimum%20Node%20In%20a%20Binary%20Tree/images/smbt1.jpg" style="width: 431px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0671.Second%20Minimum%20Node%20In%20a%20Binary%20Tree/images/smbt1.jpg" style="width: 431px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [2,2,5,null,null,5,7]
 <strong>Output:</strong> 5
@@ -36,7 +36,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0671.Second%20Minimum%20Node%20In%20a%20Binary%20Tree/images/smbt2.jpg" style="width: 321px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0671.Second%20Minimum%20Node%20In%20a%20Binary%20Tree/images/smbt2.jpg" style="width: 321px; height: 182px;" />
 <pre>
 <strong>Input:</strong> root = [2,2,2]
 <strong>Output:</strong> -1

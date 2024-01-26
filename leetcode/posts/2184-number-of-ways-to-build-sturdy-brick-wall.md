@@ -4,7 +4,7 @@ summary: 2184 Number Of Ways To Build Sturdy Brick Wall LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2184 Number Of Ways To Build Sturdy Brick Wall LeetCode Solution Explained in all languages"]
+keywords: ["2184 Number Of Ways To Build Sturdy Brick Wall LeetCode Solution Explained in all languages", "2184 Number Of Ways To Build Sturdy Brick Wall", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2184 Number Of Ways To Build Sturdy Brick Wall - Solution Explained/problem-solving.webp
     alt: 2184 Number Of Ways To Build Sturdy Brick Wall
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2184.Number%20of%20Ways%20to%20Build%20Sturdy%20Brick%20Wall/images/image-20220220190749-1.png" style="width: 919px; height: 250px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2184.Number%20of%20Ways%20to%20Build%20Sturdy%20Brick%20Wall/images/image-20220220190749-1.png" style="width: 919px; height: 250px;" />
 <pre>
 <strong>Input:</strong> height = 2, width = 3, bricks = [1,2]
 <strong>Output:</strong> 2

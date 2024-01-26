@@ -4,7 +4,7 @@ summary: 2212 Maximum Points In An Archery Competition LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2212 Maximum Points In An Archery Competition LeetCode Solution Explained in all languages"]
+keywords: ["2212 Maximum Points In An Archery Competition LeetCode Solution Explained in all languages", "2212 Maximum Points In An Archery Competition", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2212 Maximum Points In An Archery Competition - Solution Explained/problem-solving.webp
     alt: 2212 Maximum Points In An Archery Competition
@@ -45,7 +45,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2212.Maximum%20Points%20in%20an%20Archery%20Competition/images/ex1.jpg" style="width: 600px; height: 120px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2212.Maximum%20Points%20in%20an%20Archery%20Competition/images/ex1.jpg" style="width: 600px; height: 120px;" />
 <pre>
 <strong>Input:</strong> numArrows = 9, aliceArrows = [1,1,0,1,0,0,2,1,0,1,2,0]
 <strong>Output:</strong> [0,0,0,0,1,1,0,0,1,2,3,1]
@@ -55,7 +55,7 @@ It can be shown that Bob cannot obtain a score higher than 47 points.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2212.Maximum%20Points%20in%20an%20Archery%20Competition/images/ex2new.jpg" style="width: 600px; height: 117px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2212.Maximum%20Points%20in%20an%20Archery%20Competition/images/ex2new.jpg" style="width: 600px; height: 117px;" />
 <pre>
 <strong>Input:</strong> numArrows = 3, aliceArrows = [0,0,1,0,0,0,0,0,0,0,0,2]
 <strong>Output:</strong> [0,0,0,0,0,0,0,0,1,1,1,0]

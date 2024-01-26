@@ -4,7 +4,7 @@ summary: 0314 Binary Tree Vertical Order Traversal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0314 Binary Tree Vertical Order Traversal LeetCode Solution Explained in all languages"]
+keywords: ["0314 Binary Tree Vertical Order Traversal LeetCode Solution Explained in all languages", "0314 Binary Tree Vertical Order Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0314 Binary Tree Vertical Order Traversal - Solution Explained/problem-solving.webp
     alt: 0314 Binary Tree Vertical Order Traversal
@@ -24,21 +24,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree1.jpg" style="width: 282px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree1.jpg" style="width: 282px; height: 301px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,20,null,null,15,7]
 <strong>Output:</strong> [[9],[3,15],[20],[7]]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree2-1.jpg" style="width: 462px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree2-1.jpg" style="width: 462px; height: 222px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,8,4,0,1,7]
 <strong>Output:</strong> [[4],[9],[3,0,1],[8],[7]]
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree2.jpg" style="width: 462px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0314.Binary%20Tree%20Vertical%20Order%20Traversal/images/vtree2.jpg" style="width: 462px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,8,4,0,1,7,null,null,null,2,5]
 <strong>Output:</strong> [[4],[9,5],[3,0,1],[8,2],[7]]

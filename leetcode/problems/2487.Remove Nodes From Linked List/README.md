@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2487.Remove%20Nodes%20From%20Linked%20List/images/drawio.png" style="width: 631px; height: 51px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2487.Remove%20Nodes%20From%20Linked%20List/images/drawio.png" style="width: 631px; height: 51px;" />
 <pre>
 <strong>Input:</strong> head = [5,2,13,3,8]
 <strong>Output:</strong> [13,8]

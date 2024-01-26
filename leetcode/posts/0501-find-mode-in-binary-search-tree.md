@@ -4,7 +4,7 @@ summary: 0501 Find Mode In Binary Search Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0501 Find Mode In Binary Search Tree LeetCode Solution Explained in all languages"]
+keywords: ["0501 Find Mode In Binary Search Tree LeetCode Solution Explained in all languages", "0501 Find Mode In Binary Search Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0501 Find Mode In Binary Search Tree - Solution Explained/problem-solving.webp
     alt: 0501 Find Mode In Binary Search Tree
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0501.Find%20Mode%20in%20Binary%20Search%20Tree/images/mode-tree.jpg" style="width: 142px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0501.Find%20Mode%20in%20Binary%20Search%20Tree/images/mode-tree.jpg" style="width: 142px; height: 222px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,2,2]
 <strong>Output:</strong> [2]

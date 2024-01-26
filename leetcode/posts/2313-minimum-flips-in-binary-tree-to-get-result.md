@@ -4,7 +4,7 @@ summary: 2313 Minimum Flips In Binary Tree To Get Result LeetCode Solution Expla
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2313 Minimum Flips In Binary Tree To Get Result LeetCode Solution Explained in all languages"]
+keywords: ["2313 Minimum Flips In Binary Tree To Get Result LeetCode Solution Explained in all languages", "2313 Minimum Flips In Binary Tree To Get Result", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2313 Minimum Flips In Binary Tree To Get Result - Solution Explained/problem-solving.webp
     alt: 2313 Minimum Flips In Binary Tree To Get Result
@@ -44,7 +44,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2313.Minimum%20Flips%20in%20Binary%20Tree%20to%20Get%20Result/images/operationstree.png" style="width: 500px; height: 179px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2313.Minimum%20Flips%20in%20Binary%20Tree%20to%20Get%20Result/images/operationstree.png" style="width: 500px; height: 179px;" />
 <pre>
 <strong>Input:</strong> root = [3,5,4,2,null,1,1,1,0], result = true
 <strong>Output:</strong> 2

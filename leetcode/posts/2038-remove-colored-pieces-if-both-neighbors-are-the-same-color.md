@@ -4,7 +4,7 @@ summary: 2038 Remove Colored Pieces If Both Neighbors Are The Same Color LeetCod
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2038 Remove Colored Pieces If Both Neighbors Are The Same Color LeetCode Solution Explained in all languages"]
+keywords: ["2038 Remove Colored Pieces If Both Neighbors Are The Same Color LeetCode Solution Explained in all languages", "2038 Remove Colored Pieces If Both Neighbors Are The Same Color", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2038 Remove Colored Pieces If Both Neighbors Are The Same Color - Solution Explained/problem-solving.webp
     alt: 2038 Remove Colored Pieces If Both Neighbors Are The Same Color

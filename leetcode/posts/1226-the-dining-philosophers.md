@@ -4,7 +4,7 @@ summary: 1226 The Dining Philosophers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1226 The Dining Philosophers LeetCode Solution Explained in all languages"]
+keywords: ["1226 The Dining Philosophers LeetCode Solution Explained in all languages", "1226 The Dining Philosophers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1226 The Dining Philosophers - Solution Explained/problem-solving.webp
     alt: 1226 The Dining Philosophers
@@ -26,7 +26,7 @@ cover:
 
 <p>Design a discipline of behaviour (a concurrent algorithm) such that no philosopher will starve;&nbsp;<i>i.e.</i>, each can forever continue to alternate between eating and thinking, assuming that no philosopher can know when others may want to eat or think.</p>
 
-<p style="text-align: center"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1226.The%20Dining%20Philosophers/images/an_illustration_of_the_dining_philosophers_problem.png" style="width: 400px; height: 415px;" /></p>
+<p style="text-align: center"><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1226.The%20Dining%20Philosophers/images/an_illustration_of_the_dining_philosophers_problem.png" style="width: 400px; height: 415px;" /></p>
 
 <p style="text-align: center"><em>The problem statement and the image above are taken from <a href="https://en.wikipedia.org/wiki/Dining_philosophers_problem" target="_blank">wikipedia.org</a></em></p>
 

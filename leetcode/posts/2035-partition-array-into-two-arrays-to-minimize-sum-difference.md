@@ -4,7 +4,7 @@ summary: 2035 Partition Array Into Two Arrays To Minimize Sum Difference LeetCod
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2035 Partition Array Into Two Arrays To Minimize Sum Difference LeetCode Solution Explained in all languages"]
+keywords: ["2035 Partition Array Into Two Arrays To Minimize Sum Difference LeetCode Solution Explained in all languages", "2035 Partition Array Into Two Arrays To Minimize Sum Difference", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2035 Partition Array Into Two Arrays To Minimize Sum Difference - Solution Explained/problem-solving.webp
     alt: 2035 Partition Array Into Two Arrays To Minimize Sum Difference
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="example-1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2035.Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference/images/ex1.png" style="width: 240px; height: 106px;" />
+<img alt="example-1" src="https://spcdn.pages.dev/leetcode/problems/2035.Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference/images/ex1.png" style="width: 240px; height: 106px;" />
 <pre>
 <strong>Input:</strong> nums = [3,9,7,3]
 <strong>Output:</strong> 2
@@ -42,7 +42,7 @@ The absolute difference between the sums of the arrays is abs((-36) - (36)) = 72
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="example-3" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2035.Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference/images/ex3.png" style="width: 316px; height: 106px;" />
+<img alt="example-3" src="https://spcdn.pages.dev/leetcode/problems/2035.Partition%20Array%20Into%20Two%20Arrays%20to%20Minimize%20Sum%20Difference/images/ex3.png" style="width: 316px; height: 106px;" />
 <pre>
 <strong>Input:</strong> nums = [2,-1,0,4,-2,-9]
 <strong>Output:</strong> 0

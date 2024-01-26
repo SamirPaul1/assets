@@ -4,7 +4,7 @@ summary: 2265 Count Nodes Equal To Average Of Subtree LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2265 Count Nodes Equal To Average Of Subtree LeetCode Solution Explained in all languages"]
+keywords: ["2265 Count Nodes Equal To Average Of Subtree LeetCode Solution Explained in all languages", "2265 Count Nodes Equal To Average Of Subtree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2265 Count Nodes Equal To Average Of Subtree - Solution Explained/problem-solving.webp
     alt: 2265 Count Nodes Equal To Average Of Subtree
@@ -29,7 +29,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2265.Count%20Nodes%20Equal%20to%20Average%20of%20Subtree/images/image-20220315203925-1.png" style="width: 300px; height: 212px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2265.Count%20Nodes%20Equal%20to%20Average%20of%20Subtree/images/image-20220315203925-1.png" style="width: 300px; height: 212px;" />
 <pre>
 <strong>Input:</strong> root = [4,8,5,0,1,null,6]
 <strong>Output:</strong> 5
@@ -42,7 +42,7 @@ For the node with value 6: The average of its subtree is 6 / 1 = 6.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2265.Count%20Nodes%20Equal%20to%20Average%20of%20Subtree/images/image-20220326133920-1.png" style="width: 80px; height: 76px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2265.Count%20Nodes%20Equal%20to%20Average%20of%20Subtree/images/image-20220326133920-1.png" style="width: 80px; height: 76px;" />
 <pre>
 <strong>Input:</strong> root = [1]
 <strong>Output:</strong> 1

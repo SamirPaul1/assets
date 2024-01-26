@@ -4,7 +4,7 @@ summary: 2756 Query Batching LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2756 Query Batching LeetCode Solution Explained in all languages"]
+keywords: ["2756 Query Batching LeetCode Solution Explained in all languages", "2756 Query Batching", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2756 Query Batching - Solution Explained/problem-solving.webp
     alt: 2756 Query Batching
@@ -35,7 +35,7 @@ cover:
 
 <p>The following diagram illustrates how the throttling algorithm works. Each rectangle represents 100ms. The throttle time is 400ms.</p>
 
-<p><img alt="Throttle info" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2756.Query%20Batching/images/throttle.png" style="width: 622px; height: 200px;" /></p>
+<p><img alt="Throttle info" src="https://spcdn.pages.dev/leetcode/problems/2756.Query%20Batching/images/throttle.png" style="width: 622px; height: 200px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

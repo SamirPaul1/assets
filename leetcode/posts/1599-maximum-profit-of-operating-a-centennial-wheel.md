@@ -4,7 +4,7 @@ summary: 1599 Maximum Profit Of Operating A Centennial Wheel LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1599 Maximum Profit Of Operating A Centennial Wheel LeetCode Solution Explained in all languages"]
+keywords: ["1599 Maximum Profit Of Operating A Centennial Wheel LeetCode Solution Explained in all languages", "1599 Maximum Profit Of Operating A Centennial Wheel", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1599 Maximum Profit Of Operating A Centennial Wheel - Solution Explained/problem-solving.webp
     alt: 1599 Maximum Profit Of Operating A Centennial Wheel
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1599.Maximum%20Profit%20of%20Operating%20a%20Centennial%20Wheel/images/wheeldiagram12.png" style="width: 700px; height: 225px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1599.Maximum%20Profit%20of%20Operating%20a%20Centennial%20Wheel/images/wheeldiagram12.png" style="width: 700px; height: 225px;" />
 <pre>
 <strong>Input:</strong> customers = [8,3], boardingCost = 5, runningCost = 6
 <strong>Output:</strong> 3

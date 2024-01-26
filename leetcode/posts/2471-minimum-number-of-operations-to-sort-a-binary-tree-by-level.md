@@ -4,7 +4,7 @@ summary: 2471 Minimum Number Of Operations To Sort A Binary Tree By Level LeetCo
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2471 Minimum Number Of Operations To Sort A Binary Tree By Level LeetCode Solution Explained in all languages"]
+keywords: ["2471 Minimum Number Of Operations To Sort A Binary Tree By Level LeetCode Solution Explained in all languages", "2471 Minimum Number Of Operations To Sort A Binary Tree By Level", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2471 Minimum Number Of Operations To Sort A Binary Tree By Level - Solution Explained/problem-solving.webp
     alt: 2471 Minimum Number Of Operations To Sort A Binary Tree By Level
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/images/image-20220918174006-2.png" style="width: 500px; height: 324px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/images/image-20220918174006-2.png" style="width: 500px; height: 324px;" />
 <pre>
 <strong>Input:</strong> root = [1,4,3,7,6,8,5,null,null,null,null,9,null,10]
 <strong>Output:</strong> 3
@@ -41,7 +41,7 @@ It can be proven that 3 is the minimum number of operations needed.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/images/image-20220918174026-3.png" style="width: 400px; height: 303px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/images/image-20220918174026-3.png" style="width: 400px; height: 303px;" />
 <pre>
 <strong>Input:</strong> root = [1,3,2,7,6,5,4]
 <strong>Output:</strong> 3
@@ -54,7 +54,7 @@ It can be proven that 3 is the minimum number of operations needed.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/images/image-20220918174052-4.png" style="width: 400px; height: 274px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2471.Minimum%20Number%20of%20Operations%20to%20Sort%20a%20Binary%20Tree%20by%20Level/images/image-20220918174052-4.png" style="width: 400px; height: 274px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6]
 <strong>Output:</strong> 0

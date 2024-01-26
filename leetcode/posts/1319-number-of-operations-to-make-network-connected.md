@@ -4,7 +4,7 @@ summary: 1319 Number Of Operations To Make Network Connected LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1319 Number Of Operations To Make Network Connected LeetCode Solution Explained in all languages"]
+keywords: ["1319 Number Of Operations To Make Network Connected LeetCode Solution Explained in all languages", "1319 Number Of Operations To Make Network Connected", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1319 Number Of Operations To Make Network Connected - Solution Explained/problem-solving.webp
     alt: 1319 Number Of Operations To Make Network Connected
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1319.Number%20of%20Operations%20to%20Make%20Network%20Connected/images/sample_1_1677.png" style="width: 500px; height: 148px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1319.Number%20of%20Operations%20to%20Make%20Network%20Connected/images/sample_1_1677.png" style="width: 500px; height: 148px;" />
 <pre>
 <strong>Input:</strong> n = 4, connections = [[0,1],[0,2],[1,2]]
 <strong>Output:</strong> 1
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1319.Number%20of%20Operations%20to%20Make%20Network%20Connected/images/sample_2_1677.png" style="width: 500px; height: 129px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1319.Number%20of%20Operations%20to%20Make%20Network%20Connected/images/sample_2_1677.png" style="width: 500px; height: 129px;" />
 <pre>
 <strong>Input:</strong> n = 6, connections = [[0,1],[0,2],[0,3],[1,2],[1,3]]
 <strong>Output:</strong> 2

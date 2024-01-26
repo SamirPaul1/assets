@@ -4,7 +4,7 @@ summary: 1558 Minimum Numbers Of Function Calls To Make Target Array LeetCode So
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1558 Minimum Numbers Of Function Calls To Make Target Array LeetCode Solution Explained in all languages"]
+keywords: ["1558 Minimum Numbers Of Function Calls To Make Target Array LeetCode Solution Explained in all languages", "1558 Minimum Numbers Of Function Calls To Make Target Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1558 Minimum Numbers Of Function Calls To Make Target Array - Solution Explained/problem-solving.webp
     alt: 1558 Minimum Numbers Of Function Calls To Make Target Array
@@ -19,7 +19,7 @@ cover:
 ## Description
 
 <p>You are given an integer array <code>nums</code>. You have an integer array <code>arr</code> of the same length with all values set to <code>0</code> initially. You also have the following <code>modify</code> function:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1558.Minimum%20Numbers%20of%20Function%20Calls%20to%20Make%20Target%20Array/images/sample_2_1887.png" style="width: 573px; height: 294px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1558.Minimum%20Numbers%20of%20Function%20Calls%20to%20Make%20Target%20Array/images/sample_2_1887.png" style="width: 573px; height: 294px;" />
 <p>You want to use the modify function to convert <code>arr</code> to <code>nums</code> using the minimum number of calls.</p>
 
 <p>Return <em>the minimum number of function calls to make </em><code>nums</code><em> from </em><code>arr</code>.</p>

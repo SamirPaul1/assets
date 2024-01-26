@@ -4,7 +4,7 @@ summary: 2624 Snail Traversal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2624 Snail Traversal LeetCode Solution Explained in all languages"]
+keywords: ["2624 Snail Traversal LeetCode Solution Explained in all languages", "2624 Snail Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2624 Snail Traversal - Solution Explained/problem-solving.webp
     alt: 2624 Snail Traversal
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 
-<p><img alt="Traversal Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2624.Snail%20Traversal/images/screen-shot-2023-04-10-at-100006-pm.png" style="width: 275px; height: 343px;" /></p>
+<p><img alt="Traversal Diagram" src="https://spcdn.pages.dev/leetcode/problems/2624.Snail%20Traversal/images/screen-shot-2023-04-10-at-100006-pm.png" style="width: 275px; height: 343px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

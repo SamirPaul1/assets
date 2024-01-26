@@ -4,7 +4,7 @@ summary: 0388 Longest Absolute File Path LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0388 Longest Absolute File Path LeetCode Solution Explained in all languages"]
+keywords: ["0388 Longest Absolute File Path LeetCode Solution Explained in all languages", "0388 Longest Absolute File Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0388 Longest Absolute File Path - Solution Explained/problem-solving.webp
     alt: 0388 Longest Absolute File Path
@@ -20,7 +20,7 @@ cover:
 
 <p>Suppose we have a file system that stores both files and directories. An example of one system is represented in the following picture:</p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0388.Longest%20Absolute%20File%20Path/images/mdir.jpg" style="width: 681px; height: 322px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/0388.Longest%20Absolute%20File%20Path/images/mdir.jpg" style="width: 681px; height: 322px;" /></p>
 
 <p>Here, we have <code>dir</code> as the only directory in the root. <code>dir</code> contains two subdirectories, <code>subdir1</code> and <code>subdir2</code>. <code>subdir1</code> contains a file <code>file1.ext</code> and subdirectory <code>subsubdir1</code>. <code>subdir2</code> contains a subdirectory <code>subsubdir2</code>, which contains a file <code>file2.ext</code>.</p>
 
@@ -46,7 +46,7 @@ dir
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0388.Longest%20Absolute%20File%20Path/images/dir1.jpg" style="width: 401px; height: 202px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0388.Longest%20Absolute%20File%20Path/images/dir1.jpg" style="width: 401px; height: 202px;" />
 <pre>
 <strong>Input:</strong> input = &quot;dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext&quot;
 <strong>Output:</strong> 20
@@ -54,7 +54,7 @@ dir
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0388.Longest%20Absolute%20File%20Path/images/dir2.jpg" style="width: 641px; height: 322px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0388.Longest%20Absolute%20File%20Path/images/dir2.jpg" style="width: 641px; height: 322px;" />
 <pre>
 <strong>Input:</strong> input = &quot;dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext&quot;
 <strong>Output:</strong> 32

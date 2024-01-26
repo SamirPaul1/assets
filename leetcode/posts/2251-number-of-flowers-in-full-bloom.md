@@ -4,7 +4,7 @@ summary: 2251 Number Of Flowers In Full Bloom LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2251 Number Of Flowers In Full Bloom LeetCode Solution Explained in all languages"]
+keywords: ["2251 Number Of Flowers In Full Bloom LeetCode Solution Explained in all languages", "2251 Number Of Flowers In Full Bloom", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2251 Number Of Flowers In Full Bloom - Solution Explained/problem-solving.webp
     alt: 2251 Number Of Flowers In Full Bloom
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2251.Number%20of%20Flowers%20in%20Full%20Bloom/images/ex1new.jpg" style="width: 550px; height: 216px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2251.Number%20of%20Flowers%20in%20Full%20Bloom/images/ex1new.jpg" style="width: 550px; height: 216px;" />
 <pre>
 <strong>Input:</strong> flowers = [[1,6],[3,7],[9,12],[4,13]], people = [2,3,7,11]
 <strong>Output:</strong> [1,2,2,2]
@@ -33,7 +33,7 @@ For each person, we return the number of flowers in full bloom during their arri
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2251.Number%20of%20Flowers%20in%20Full%20Bloom/images/ex2new.jpg" style="width: 450px; height: 195px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2251.Number%20of%20Flowers%20in%20Full%20Bloom/images/ex2new.jpg" style="width: 450px; height: 195px;" />
 <pre>
 <strong>Input:</strong> flowers = [[1,10],[3,3]], people = [3,3,2]
 <strong>Output:</strong> [2,2,1]

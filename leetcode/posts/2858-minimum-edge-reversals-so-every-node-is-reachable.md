@@ -4,7 +4,7 @@ summary: 2858 Minimum Edge Reversals So Every Node Is Reachable LeetCode Solutio
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2858 Minimum Edge Reversals So Every Node Is Reachable LeetCode Solution Explained in all languages"]
+keywords: ["2858 Minimum Edge Reversals So Every Node Is Reachable LeetCode Solution Explained in all languages", "2858 Minimum Edge Reversals So Every Node Is Reachable", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2858 Minimum Edge Reversals So Every Node Is Reachable - Solution Explained/problem-solving.webp
     alt: 2858 Minimum Edge Reversals So Every Node Is Reachable
@@ -31,7 +31,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img height="246" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826221104-3.png" width="312" /></p>
+<p><img height="246" src="https://spcdn.pages.dev/leetcode/problems/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826221104-3.png" width="312" /></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[2,0],[2,1],[1,3]]
@@ -49,7 +49,7 @@ So, answer[3] = 2.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img height="217" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826225541-2.png" width="322" /></p>
+<p><img height="217" src="https://spcdn.pages.dev/leetcode/problems/2858.Minimum%20Edge%20Reversals%20So%20Every%20Node%20Is%20Reachable/images/image-20230826225541-2.png" width="322" /></p>
 
 <pre>
 <strong>Input:</strong> n = 3, edges = [[1,2],[2,0]]

@@ -12,7 +12,7 @@
 </ul>
 
 <p>Below is a pictorial representation of the state of the grid after minutes 1, 2, and 3.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2579.Count%20Total%20Number%20of%20Colored%20Cells/images/example-copy-2.png" style="width: 500px; height: 279px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2579.Count%20Total%20Number%20of%20Colored%20Cells/images/example-copy-2.png" style="width: 500px; height: 279px;" />
 <p>Return <em>the number of <strong>colored cells</strong> at the end of </em><code>n</code> <em>minutes</em>.</p>
 
 <p>&nbsp;</p>

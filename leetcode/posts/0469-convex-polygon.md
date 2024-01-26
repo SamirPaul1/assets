@@ -4,7 +4,7 @@ summary: 0469 Convex Polygon LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0469 Convex Polygon LeetCode Solution Explained in all languages"]
+keywords: ["0469 Convex Polygon LeetCode Solution Explained in all languages", "0469 Convex Polygon", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0469 Convex Polygon - Solution Explained/problem-solving.webp
     alt: 0469 Convex Polygon
@@ -26,14 +26,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0469.Convex%20Polygon/images/covpoly1-plane.jpg" style="width: 300px; height: 294px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0469.Convex%20Polygon/images/covpoly1-plane.jpg" style="width: 300px; height: 294px;" />
 <pre>
 <strong>Input:</strong> points = [[0,0],[0,5],[5,5],[5,0]]
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0469.Convex%20Polygon/images/covpoly2-plane.jpg" style="width: 300px; height: 303px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0469.Convex%20Polygon/images/covpoly2-plane.jpg" style="width: 300px; height: 303px;" />
 <pre>
 <strong>Input:</strong> points = [[0,0],[0,10],[10,10],[10,0],[5,5]]
 <strong>Output:</strong> false

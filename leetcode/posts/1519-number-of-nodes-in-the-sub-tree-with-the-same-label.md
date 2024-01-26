@@ -4,7 +4,7 @@ summary: 1519 Number Of Nodes In The Sub Tree With The Same Label LeetCode Solut
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1519 Number Of Nodes In The Sub Tree With The Same Label LeetCode Solution Explained in all languages"]
+keywords: ["1519 Number Of Nodes In The Sub Tree With The Same Label LeetCode Solution Explained in all languages", "1519 Number Of Nodes In The Sub Tree With The Same Label", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1519 Number Of Nodes In The Sub Tree With The Same Label - Solution Explained/problem-solving.webp
     alt: 1519 Number Of Nodes In The Sub Tree With The Same Label
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1519.Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/images/q3e1.jpg" style="width: 400px; height: 291px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1519.Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/images/q3e1.jpg" style="width: 400px; height: 291px;" />
 <pre>
 <strong>Input:</strong> n = 7, edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]], labels = &quot;abaedcd&quot;
 <strong>Output:</strong> [2,1,1,1,1,1,1]
@@ -37,7 +37,7 @@ Node 1 has a label &#39;b&#39;. The sub-tree of node 1 contains nodes 1,4 and 5,
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1519.Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/images/q3e2.jpg" style="width: 300px; height: 253px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1519.Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/images/q3e2.jpg" style="width: 300px; height: 253px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[0,1],[1,2],[0,3]], labels = &quot;bbbb&quot;
 <strong>Output:</strong> [4,2,1,1]
@@ -48,7 +48,7 @@ The sub-tree of node 0 contains nodes 0, 1, 2 and 3, all with label &#39;b&#39;,
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1519.Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/images/q3e3.jpg" style="width: 300px; height: 253px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1519.Number%20of%20Nodes%20in%20the%20Sub-Tree%20With%20the%20Same%20Label/images/q3e3.jpg" style="width: 300px; height: 253px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[0,1],[0,2],[1,3],[0,4]], labels = &quot;aabab&quot;
 <strong>Output:</strong> [3,2,1,1,1]

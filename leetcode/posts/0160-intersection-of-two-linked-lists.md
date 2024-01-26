@@ -4,7 +4,7 @@ summary: 0160 Intersection Of Two Linked Lists LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0160 Intersection Of Two Linked Lists LeetCode Solution Explained in all languages"]
+keywords: ["0160 Intersection Of Two Linked Lists LeetCode Solution Explained in all languages", "0160 Intersection Of Two Linked Lists", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0160 Intersection Of Two Linked Lists - Solution Explained/problem-solving.webp
     alt: 0160 Intersection Of Two Linked Lists
@@ -21,7 +21,7 @@ cover:
 <p>Given the heads of two singly linked-lists <code>headA</code> and <code>headB</code>, return <em>the node at which the two lists intersect</em>. If the two linked lists have no intersection at all, return <code>null</code>.</p>
 
 <p>For example, the following two linked lists begin to intersect at node <code>c1</code>:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_statement.png" style="width: 500px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_statement.png" style="width: 500px; height: 162px;" />
 <p>The test cases are generated such that there are no cycles anywhere in the entire linked structure.</p>
 
 <p><strong>Note</strong> that the linked lists must <strong>retain their original structure</strong> after the function returns.</p>
@@ -42,7 +42,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_1_1.png" style="width: 500px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_1_1.png" style="width: 500px; height: 162px;" />
 <pre>
 <strong>Input:</strong> intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
 <strong>Output:</strong> Intersected at &#39;8&#39;
@@ -52,7 +52,7 @@ From the head of A, it reads as [4,1,8,4,5]. From the head of B, it reads as [5,
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_2.png" style="width: 500px; height: 194px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_2.png" style="width: 500px; height: 194px;" />
 <pre>
 <strong>Input:</strong> intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
 <strong>Output:</strong> Intersected at &#39;2&#39;
@@ -61,7 +61,7 @@ From the head of A, it reads as [1,9,1,2,4]. From the head of B, it reads as [3,
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_3.png" style="width: 300px; height: 189px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0160.Intersection%20of%20Two%20Linked%20Lists/images/160_example_3.png" style="width: 300px; height: 189px;" />
 <pre>
 <strong>Input:</strong> intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
 <strong>Output:</strong> No intersection

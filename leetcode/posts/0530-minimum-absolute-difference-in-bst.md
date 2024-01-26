@@ -4,7 +4,7 @@ summary: 0530 Minimum Absolute Difference In Bst LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0530 Minimum Absolute Difference In Bst LeetCode Solution Explained in all languages"]
+keywords: ["0530 Minimum Absolute Difference In Bst LeetCode Solution Explained in all languages", "0530 Minimum Absolute Difference In Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0530 Minimum Absolute Difference In Bst - Solution Explained/problem-solving.webp
     alt: 0530 Minimum Absolute Difference In Bst
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0530.Minimum%20Absolute%20Difference%20in%20BST/images/bst1.jpg" style="width: 292px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0530.Minimum%20Absolute%20Difference%20in%20BST/images/bst1.jpg" style="width: 292px; height: 301px;" />
 <pre>
 <strong>Input:</strong> root = [4,2,6,1,3]
 <strong>Output:</strong> 1
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0530.Minimum%20Absolute%20Difference%20in%20BST/images/bst2.jpg" style="width: 282px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0530.Minimum%20Absolute%20Difference%20in%20BST/images/bst2.jpg" style="width: 282px; height: 301px;" />
 <pre>
 <strong>Input:</strong> root = [1,0,48,null,null,12,49]
 <strong>Output:</strong> 1

@@ -4,7 +4,7 @@ summary: 2345 Finding The Number Of Visible Mountains LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2345 Finding The Number Of Visible Mountains LeetCode Solution Explained in all languages"]
+keywords: ["2345 Finding The Number Of Visible Mountains LeetCode Solution Explained in all languages", "2345 Finding The Number Of Visible Mountains", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2345 Finding The Number Of Visible Mountains - Solution Explained/problem-solving.webp
     alt: 2345 Finding The Number Of Visible Mountains
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2345.Finding%20the%20Number%20of%20Visible%20Mountains/images/ex1.png" style="width: 402px; height: 210px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2345.Finding%20the%20Number%20of%20Visible%20Mountains/images/ex1.png" style="width: 402px; height: 210px;" />
 <pre>
 <strong>Input:</strong> peaks = [[2,2],[6,3],[5,4]]
 <strong>Output:</strong> 2
@@ -37,7 +37,7 @@ cover:
 There are 2 mountains that are visible.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2345.Finding%20the%20Number%20of%20Visible%20Mountains/images/ex2new1.png" style="width: 300px; height: 180px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2345.Finding%20the%20Number%20of%20Visible%20Mountains/images/ex2new1.png" style="width: 300px; height: 180px;" />
 <pre>
 <strong>Input:</strong> peaks = [[1,3],[1,3]]
 <strong>Output:</strong> 0

@@ -4,7 +4,7 @@ summary: 2103 Rings And Rods LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2103 Rings And Rods LeetCode Solution Explained in all languages"]
+keywords: ["2103 Rings And Rods LeetCode Solution Explained in all languages", "2103 Rings And Rods", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2103 Rings And Rods - Solution Explained/problem-solving.webp
     alt: 2103 Rings And Rods
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2103.Rings%20and%20Rods/images/ex1final.png" style="width: 258px; height: 130px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2103.Rings%20and%20Rods/images/ex1final.png" style="width: 258px; height: 130px;" />
 <pre>
 <strong>Input:</strong> rings = &quot;B0B6G0R6R0R6G9&quot;
 <strong>Output:</strong> 1
@@ -45,7 +45,7 @@ Thus, the number of rods with all three colors is 1.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2103.Rings%20and%20Rods/images/ex2final.png" style="width: 266px; height: 130px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2103.Rings%20and%20Rods/images/ex2final.png" style="width: 266px; height: 130px;" />
 <pre>
 <strong>Input:</strong> rings = &quot;B0R0G0R9R0B0G0&quot;
 <strong>Output:</strong> 1

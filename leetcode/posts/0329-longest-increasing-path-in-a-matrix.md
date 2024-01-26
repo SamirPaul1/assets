@@ -4,7 +4,7 @@ summary: 0329 Longest Increasing Path In A Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0329 Longest Increasing Path In A Matrix LeetCode Solution Explained in all languages"]
+keywords: ["0329 Longest Increasing Path In A Matrix LeetCode Solution Explained in all languages", "0329 Longest Increasing Path In A Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0329 Longest Increasing Path In A Matrix - Solution Explained/problem-solving.webp
     alt: 0329 Longest Increasing Path In A Matrix
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0329.Longest%20Increasing%20Path%20in%20a%20Matrix/images/grid1.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0329.Longest%20Increasing%20Path%20in%20a%20Matrix/images/grid1.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> matrix = [[9,9,4],[6,6,8],[2,1,1]]
 <strong>Output:</strong> 4
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0329.Longest%20Increasing%20Path%20in%20a%20Matrix/images/tmp-grid.jpg" style="width: 253px; height: 253px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0329.Longest%20Increasing%20Path%20in%20a%20Matrix/images/tmp-grid.jpg" style="width: 253px; height: 253px;" />
 <pre>
 <strong>Input:</strong> matrix = [[3,4,5],[3,2,6],[2,2,1]]
 <strong>Output:</strong> 4

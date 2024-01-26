@@ -4,7 +4,7 @@ summary: 0353 Design Snake Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0353 Design Snake Game LeetCode Solution Explained in all languages"]
+keywords: ["0353 Design Snake Game LeetCode Solution Explained in all languages", "0353 Design Snake Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0353 Design Snake Game - Solution Explained/problem-solving.webp
     alt: 0353 Design Snake Game
@@ -39,7 +39,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0353.Design%20Snake%20Game/images/snake.jpg" style="width: 800px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0353.Design%20Snake%20Game/images/snake.jpg" style="width: 800px; height: 302px;" />
 <pre>
 <strong>Input</strong>
 [&quot;SnakeGame&quot;, &quot;move&quot;, &quot;move&quot;, &quot;move&quot;, &quot;move&quot;, &quot;move&quot;, &quot;move&quot;]

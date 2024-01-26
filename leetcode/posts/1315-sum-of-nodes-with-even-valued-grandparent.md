@@ -4,7 +4,7 @@ summary: 1315 Sum Of Nodes With Even Valued Grandparent LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1315 Sum Of Nodes With Even Valued Grandparent LeetCode Solution Explained in all languages"]
+keywords: ["1315 Sum Of Nodes With Even Valued Grandparent LeetCode Solution Explained in all languages", "1315 Sum Of Nodes With Even Valued Grandparent", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1315 Sum Of Nodes With Even Valued Grandparent - Solution Explained/problem-solving.webp
     alt: 1315 Sum Of Nodes With Even Valued Grandparent
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1315.Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent/images/even1-tree.jpg" style="width: 504px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1315.Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent/images/even1-tree.jpg" style="width: 504px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
 <strong>Output:</strong> 18
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1315.Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent/images/even2-tree.jpg" style="width: 64px; height: 65px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1315.Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent/images/even2-tree.jpg" style="width: 64px; height: 65px;" />
 <pre>
 <strong>Input:</strong> root = [1]
 <strong>Output:</strong> 0

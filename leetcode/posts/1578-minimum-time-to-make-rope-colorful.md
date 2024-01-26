@@ -4,7 +4,7 @@ summary: 1578 Minimum Time To Make Rope Colorful LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1578 Minimum Time To Make Rope Colorful LeetCode Solution Explained in all languages"]
+keywords: ["1578 Minimum Time To Make Rope Colorful LeetCode Solution Explained in all languages", "1578 Minimum Time To Make Rope Colorful", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1578 Minimum Time To Make Rope Colorful - Solution Explained/problem-solving.webp
     alt: 1578 Minimum Time To Make Rope Colorful
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful/images/ballon1.jpg" style="width: 404px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful/images/ballon1.jpg" style="width: 404px; height: 243px;" />
 <pre>
 <strong>Input:</strong> colors = &quot;abaac&quot;, neededTime = [1,2,3,4,5]
 <strong>Output:</strong> 3
@@ -35,7 +35,7 @@ Bob can remove the blue balloon at index 2. This takes 3 seconds.
 There are no longer two consecutive balloons of the same color. Total time = 3.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful/images/balloon2.jpg" style="width: 244px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful/images/balloon2.jpg" style="width: 244px; height: 243px;" />
 <pre>
 <strong>Input:</strong> colors = &quot;abc&quot;, neededTime = [1,2,3]
 <strong>Output:</strong> 0
@@ -43,7 +43,7 @@ There are no longer two consecutive balloons of the same color. Total time = 3.<
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful/images/balloon3.jpg" style="width: 404px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1578.Minimum%20Time%20to%20Make%20Rope%20Colorful/images/balloon3.jpg" style="width: 404px; height: 243px;" />
 <pre>
 <strong>Input:</strong> colors = &quot;aabaa&quot;, neededTime = [1,2,3,4,1]
 <strong>Output:</strong> 2

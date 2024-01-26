@@ -4,7 +4,7 @@ summary: 0766 Toeplitz Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0766 Toeplitz Matrix LeetCode Solution Explained in all languages"]
+keywords: ["0766 Toeplitz Matrix LeetCode Solution Explained in all languages", "0766 Toeplitz Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0766 Toeplitz Matrix - Solution Explained/problem-solving.webp
     alt: 0766 Toeplitz Matrix
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0766.Toeplitz%20Matrix/images/ex1.jpg" style="width: 322px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0766.Toeplitz%20Matrix/images/ex1.jpg" style="width: 322px; height: 242px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
 <strong>Output:</strong> true
@@ -35,7 +35,7 @@ In each diagonal all elements are the same, so the answer is True.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0766.Toeplitz%20Matrix/images/ex2.jpg" style="width: 162px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0766.Toeplitz%20Matrix/images/ex2.jpg" style="width: 162px; height: 162px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2],[2,2]]
 <strong>Output:</strong> false

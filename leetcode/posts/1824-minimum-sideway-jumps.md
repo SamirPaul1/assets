@@ -4,7 +4,7 @@ summary: 1824 Minimum Sideway Jumps LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1824 Minimum Sideway Jumps LeetCode Solution Explained in all languages"]
+keywords: ["1824 Minimum Sideway Jumps LeetCode Solution Explained in all languages", "1824 Minimum Sideway Jumps", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1824 Minimum Sideway Jumps - Solution Explained/problem-solving.webp
     alt: 1824 Minimum Sideway Jumps
@@ -38,7 +38,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1824.Minimum%20Sideway%20Jumps/images/ic234-q3-ex1.png" style="width: 500px; height: 244px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1824.Minimum%20Sideway%20Jumps/images/ic234-q3-ex1.png" style="width: 500px; height: 244px;" />
 <pre>
 <strong>Input:</strong> obstacles = [0,1,2,3,0]
 <strong>Output:</strong> 2 
@@ -47,7 +47,7 @@ Note that the frog can jump over obstacles only when making side jumps (as shown
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1824.Minimum%20Sideway%20Jumps/images/ic234-q3-ex2.png" style="width: 500px; height: 196px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1824.Minimum%20Sideway%20Jumps/images/ic234-q3-ex2.png" style="width: 500px; height: 196px;" />
 <pre>
 <strong>Input:</strong> obstacles = [0,1,1,3,3,0]
 <strong>Output:</strong> 0
@@ -55,7 +55,7 @@ Note that the frog can jump over obstacles only when making side jumps (as shown
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1824.Minimum%20Sideway%20Jumps/images/ic234-q3-ex3.png" style="width: 500px; height: 196px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1824.Minimum%20Sideway%20Jumps/images/ic234-q3-ex3.png" style="width: 500px; height: 196px;" />
 <pre>
 <strong>Input:</strong> obstacles = [0,2,1,0,3,0]
 <strong>Output:</strong> 2

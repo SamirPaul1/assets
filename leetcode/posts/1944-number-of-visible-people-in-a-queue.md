@@ -4,7 +4,7 @@ summary: 1944 Number Of Visible People In A Queue LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1944 Number Of Visible People In A Queue LeetCode Solution Explained in all languages"]
+keywords: ["1944 Number Of Visible People In A Queue LeetCode Solution Explained in all languages", "1944 Number Of Visible People In A Queue", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1944 Number Of Visible People In A Queue - Solution Explained/problem-solving.webp
     alt: 1944 Number Of Visible People In A Queue
@@ -27,7 +27,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1944.Number%20of%20Visible%20People%20in%20a%20Queue/images/queue-plane.jpg" style="width: 600px; height: 247px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1944.Number%20of%20Visible%20People%20in%20a%20Queue/images/queue-plane.jpg" style="width: 600px; height: 247px;" /></p>
 
 <pre>
 <strong>Input:</strong> heights = [10,6,8,5,11,9]

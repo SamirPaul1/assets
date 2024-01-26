@@ -4,7 +4,7 @@ summary: 1256 Encode Number LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1256 Encode Number LeetCode Solution Explained in all languages"]
+keywords: ["1256 Encode Number LeetCode Solution Explained in all languages", "1256 Encode Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1256 Encode Number - Solution Explained/problem-solving.webp
     alt: 1256 Encode Number
@@ -22,7 +22,7 @@ cover:
 
 <p>The encoding is done by converting the integer to a string using a secret function that you should deduce from the following table:</p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1256.Encode%20Number/images/encode_number.png" style="width: 164px; height: 360px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1256.Encode%20Number/images/encode_number.png" style="width: 164px; height: 360px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

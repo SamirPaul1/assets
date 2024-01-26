@@ -4,7 +4,7 @@ summary: 2809 Minimum Time To Make Array Sum At Most X LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2809 Minimum Time To Make Array Sum At Most X LeetCode Solution Explained in all languages"]
+keywords: ["2809 Minimum Time To Make Array Sum At Most X LeetCode Solution Explained in all languages", "2809 Minimum Time To Make Array Sum At Most X", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2809 Minimum Time To Make Array Sum At Most X - Solution Explained/problem-solving.webp
     alt: 2809 Minimum Time To Make Array Sum At Most X

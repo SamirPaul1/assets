@@ -24,7 +24,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1801.Number%20of%20Orders%20in%20the%20Backlog/images/ex1.png" style="width: 450px; height: 479px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1801.Number%20of%20Orders%20in%20the%20Backlog/images/ex1.png" style="width: 450px; height: 479px;" />
 <pre>
 <strong>Input:</strong> orders = [[10,5,0],[15,2,1],[25,1,1],[30,4,0]]
 <strong>Output:</strong> 6
@@ -37,7 +37,7 @@ Finally, the backlog has 5 buy orders with price 10, and 1 buy order with price 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1801.Number%20of%20Orders%20in%20the%20Backlog/images/ex2.png" style="width: 450px; height: 584px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1801.Number%20of%20Orders%20in%20the%20Backlog/images/ex2.png" style="width: 450px; height: 584px;" />
 <pre>
 <strong>Input:</strong> orders = [[7,1000000000,1],[15,3,0],[5,999999995,0],[5,1,1]]
 <strong>Output:</strong> 999999984

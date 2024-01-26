@@ -4,7 +4,7 @@ summary: 0782 Transform To Chessboard LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0782 Transform To Chessboard LeetCode Solution Explained in all languages"]
+keywords: ["0782 Transform To Chessboard LeetCode Solution Explained in all languages", "0782 Transform To Chessboard", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0782 Transform To Chessboard - Solution Explained/problem-solving.webp
     alt: 0782 Transform To Chessboard
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0782.Transform%20to%20Chessboard/images/chessboard1-grid.jpg" style="width: 500px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0782.Transform%20to%20Chessboard/images/chessboard1-grid.jpg" style="width: 500px; height: 145px;" />
 <pre>
 <strong>Input:</strong> board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
 <strong>Output:</strong> 2
@@ -36,7 +36,7 @@ The second move swaps the second and third row.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0782.Transform%20to%20Chessboard/images/chessboard2-grid.jpg" style="width: 164px; height: 165px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0782.Transform%20to%20Chessboard/images/chessboard2-grid.jpg" style="width: 164px; height: 165px;" />
 <pre>
 <strong>Input:</strong> board = [[0,1],[1,0]]
 <strong>Output:</strong> 0
@@ -44,7 +44,7 @@ The second move swaps the second and third row.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0782.Transform%20to%20Chessboard/images/chessboard3-grid.jpg" style="width: 164px; height: 165px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0782.Transform%20to%20Chessboard/images/chessboard3-grid.jpg" style="width: 164px; height: 165px;" />
 <pre>
 <strong>Input:</strong> board = [[1,0],[1,0]]
 <strong>Output:</strong> -1

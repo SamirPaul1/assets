@@ -30,7 +30,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2313.Minimum%20Flips%20in%20Binary%20Tree%20to%20Get%20Result/images/operationstree.png" style="width: 500px; height: 179px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2313.Minimum%20Flips%20in%20Binary%20Tree%20to%20Get%20Result/images/operationstree.png" style="width: 500px; height: 179px;" />
 <pre>
 <strong>Input:</strong> root = [3,5,4,2,null,1,1,1,0], result = true
 <strong>Output:</strong> 2

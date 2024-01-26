@@ -4,7 +4,7 @@ summary: 2316 Count Unreachable Pairs Of Nodes In An Undirected Graph LeetCode S
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2316 Count Unreachable Pairs Of Nodes In An Undirected Graph LeetCode Solution Explained in all languages"]
+keywords: ["2316 Count Unreachable Pairs Of Nodes In An Undirected Graph LeetCode Solution Explained in all languages", "2316 Count Unreachable Pairs Of Nodes In An Undirected Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2316 Count Unreachable Pairs Of Nodes In An Undirected Graph - Solution Explained/problem-solving.webp
     alt: 2316 Count Unreachable Pairs Of Nodes In An Undirected Graph
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2316.Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/images/tc-3.png" style="width: 267px; height: 169px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2316.Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/images/tc-3.png" style="width: 267px; height: 169px;" />
 <pre>
 <strong>Input:</strong> n = 3, edges = [[0,1],[0,2],[1,2]]
 <strong>Output:</strong> 0
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2316.Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/images/tc-2.png" style="width: 295px; height: 269px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2316.Count%20Unreachable%20Pairs%20of%20Nodes%20in%20an%20Undirected%20Graph/images/tc-2.png" style="width: 295px; height: 269px;" />
 <pre>
 <strong>Input:</strong> n = 7, edges = [[0,2],[0,5],[2,4],[1,6],[5,4]]
 <strong>Output:</strong> 14

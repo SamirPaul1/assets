@@ -4,7 +4,7 @@ summary: 0889 Construct Binary Tree From Preorder And Postorder Traversal LeetCo
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0889 Construct Binary Tree From Preorder And Postorder Traversal LeetCode Solution Explained in all languages"]
+keywords: ["0889 Construct Binary Tree From Preorder And Postorder Traversal LeetCode Solution Explained in all languages", "0889 Construct Binary Tree From Preorder And Postorder Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0889 Construct Binary Tree From Preorder And Postorder Traversal - Solution Explained/problem-solving.webp
     alt: 0889 Construct Binary Tree From Preorder And Postorder Traversal
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/images/lc-prepost.jpg" style="width: 304px; height: 265px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0889.Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal/images/lc-prepost.jpg" style="width: 304px; height: 265px;" />
 <pre>
 <strong>Input:</strong> preorder = [1,2,4,5,3,6,7], postorder = [4,5,2,6,7,3,1]
 <strong>Output:</strong> [1,2,3,4,5,6,7]

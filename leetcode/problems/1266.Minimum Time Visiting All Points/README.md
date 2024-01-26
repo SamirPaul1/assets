@@ -24,7 +24,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1266.Minimum%20Time%20Visiting%20All%20Points/images/1626_example_1.png" style="width: 500px; height: 428px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1266.Minimum%20Time%20Visiting%20All%20Points/images/1626_example_1.png" style="width: 500px; height: 428px;" />
 <pre>
 <strong>Input:</strong> points = [[1,1],[3,4],[-1,0]]
 <strong>Output:</strong> 7

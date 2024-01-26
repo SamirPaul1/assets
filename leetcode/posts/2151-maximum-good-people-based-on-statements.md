@@ -4,7 +4,7 @@ summary: 2151 Maximum Good People Based On Statements LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2151 Maximum Good People Based On Statements LeetCode Solution Explained in all languages"]
+keywords: ["2151 Maximum Good People Based On Statements LeetCode Solution Explained in all languages", "2151 Maximum Good People Based On Statements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2151 Maximum Good People Based On Statements - Solution Explained/problem-solving.webp
     alt: 2151 Maximum Good People Based On Statements
@@ -39,7 +39,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2151.Maximum%20Good%20People%20Based%20on%20Statements/images/logic1.jpg" style="width: 600px; height: 262px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2151.Maximum%20Good%20People%20Based%20on%20Statements/images/logic1.jpg" style="width: 600px; height: 262px;" />
 <pre>
 <strong>Input:</strong> statements = [[2,1,2],[1,2,2],[2,0,2]]
 <strong>Output:</strong> 2
@@ -67,7 +67,7 @@ Note that there is more than one way to arrive at this conclusion.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2151.Maximum%20Good%20People%20Based%20on%20Statements/images/logic2.jpg" style="width: 600px; height: 262px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2151.Maximum%20Good%20People%20Based%20on%20Statements/images/logic2.jpg" style="width: 600px; height: 262px;" />
 <pre>
 <strong>Input:</strong> statements = [[2,0],[0,2]]
 <strong>Output:</strong> 1

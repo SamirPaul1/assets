@@ -4,7 +4,7 @@ summary: 2467 Most Profitable Path In A Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2467 Most Profitable Path In A Tree LeetCode Solution Explained in all languages"]
+keywords: ["2467 Most Profitable Path In A Tree LeetCode Solution Explained in all languages", "2467 Most Profitable Path In A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2467 Most Profitable Path In A Tree - Solution Explained/problem-solving.webp
     alt: 2467 Most Profitable Path In A Tree
@@ -45,7 +45,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2467.Most%20Profitable%20Path%20in%20a%20Tree/images/eg1.png" style="width: 275px; height: 275px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2467.Most%20Profitable%20Path%20in%20a%20Tree/images/eg1.png" style="width: 275px; height: 275px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1],[1,2],[1,3],[3,4]], bob = 3, amount = [-2,4,2,-4,6]
 <strong>Output:</strong> 6
@@ -64,7 +64,7 @@ It is not possible for Alice to get a higher net income.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2467.Most%20Profitable%20Path%20in%20a%20Tree/images/eg2.png" style="width: 250px; height: 78px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2467.Most%20Profitable%20Path%20in%20a%20Tree/images/eg2.png" style="width: 250px; height: 78px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1]], bob = 1, amount = [-7280,2350]
 <strong>Output:</strong> -7280

@@ -4,7 +4,7 @@ summary: 2101 Detonate The Maximum Bombs LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2101 Detonate The Maximum Bombs LeetCode Solution Explained in all languages"]
+keywords: ["2101 Detonate The Maximum Bombs LeetCode Solution Explained in all languages", "2101 Detonate The Maximum Bombs", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2101 Detonate The Maximum Bombs - Solution Explained/problem-solving.webp
     alt: 2101 Detonate The Maximum Bombs
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2101.Detonate%20the%20Maximum%20Bombs/images/desmos-eg-3.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2101.Detonate%20the%20Maximum%20Bombs/images/desmos-eg-3.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> bombs = [[2,1,3],[6,1,4]]
 <strong>Output:</strong> 2
@@ -40,7 +40,7 @@ So the maximum bombs that can be detonated is max(1, 2) = 2.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2101.Detonate%20the%20Maximum%20Bombs/images/desmos-eg-2.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2101.Detonate%20the%20Maximum%20Bombs/images/desmos-eg-2.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> bombs = [[1,1,5],[10,10,5]]
 <strong>Output:</strong> 1
@@ -49,7 +49,7 @@ So the maximum bombs that can be detonated is max(1, 2) = 2.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2101.Detonate%20the%20Maximum%20Bombs/images/desmos-eg1.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2101.Detonate%20the%20Maximum%20Bombs/images/desmos-eg1.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> bombs = [[1,2,3],[2,3,1],[3,4,2],[4,5,3],[5,6,4]]
 <strong>Output:</strong> 5

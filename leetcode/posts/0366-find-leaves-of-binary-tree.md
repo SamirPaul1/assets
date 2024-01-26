@@ -4,7 +4,7 @@ summary: 0366 Find Leaves Of Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0366 Find Leaves Of Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0366 Find Leaves Of Binary Tree LeetCode Solution Explained in all languages", "0366 Find Leaves Of Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0366 Find Leaves Of Binary Tree - Solution Explained/problem-solving.webp
     alt: 0366 Find Leaves Of Binary Tree
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0366.Find%20Leaves%20of%20Binary%20Tree/images/remleaves-tree.jpg" style="width: 500px; height: 215px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0366.Find%20Leaves%20of%20Binary%20Tree/images/remleaves-tree.jpg" style="width: 500px; height: 215px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5]
 <strong>Output:</strong> [[4,5,3],[2],[1]]

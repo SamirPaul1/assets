@@ -4,7 +4,7 @@ summary: 0235 Lowest Common Ancestor Of A Binary Search Tree LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0235 Lowest Common Ancestor Of A Binary Search Tree LeetCode Solution Explained in all languages"]
+keywords: ["0235 Lowest Common Ancestor Of A Binary Search Tree LeetCode Solution Explained in all languages", "0235 Lowest Common Ancestor Of A Binary Search Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0235 Lowest Common Ancestor Of A Binary Search Tree - Solution Explained/problem-solving.webp
     alt: 0235 Lowest Common Ancestor Of A Binary Search Tree
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/images/binarysearchtree_improved.png" style="width: 200px; height: 190px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/images/binarysearchtree_improved.png" style="width: 200px; height: 190px;" />
 <pre>
 <strong>Input:</strong> root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
 <strong>Output:</strong> 6
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/images/binarysearchtree_improved.png" style="width: 200px; height: 190px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0235.Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree/images/binarysearchtree_improved.png" style="width: 200px; height: 190px;" />
 <pre>
 <strong>Input:</strong> root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
 <strong>Output:</strong> 2

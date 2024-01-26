@@ -4,7 +4,7 @@ summary: 1515 Best Position For A Service Centre LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1515 Best Position For A Service Centre LeetCode Solution Explained in all languages"]
+keywords: ["1515 Best Position For A Service Centre LeetCode Solution Explained in all languages", "1515 Best Position For A Service Centre", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1515 Best Position For A Service Centre - Solution Explained/problem-solving.webp
     alt: 1515 Best Position For A Service Centre
@@ -23,12 +23,12 @@ cover:
 <p>Given an array <code>positions</code> where <code>positions[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> is the position of the <code>ith</code> customer on the map, return <em>the minimum sum of the euclidean distances</em> to all customers.</p>
 
 <p>In other words, you need to choose the position of the service center <code>[x<sub>centre</sub>, y<sub>centre</sub>]</code> such that the following formula is minimized:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1515.Best%20Position%20for%20a%20Service%20Centre/images/q4_edited.jpg" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1515.Best%20Position%20for%20a%20Service%20Centre/images/q4_edited.jpg" />
 <p>Answers within <code>10<sup>-5</sup></code> of the actual value will be accepted.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1515.Best%20Position%20for%20a%20Service%20Centre/images/q4_e1.jpg" style="width: 377px; height: 362px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1515.Best%20Position%20for%20a%20Service%20Centre/images/q4_e1.jpg" style="width: 377px; height: 362px;" />
 <pre>
 <strong>Input:</strong> positions = [[0,1],[1,0],[1,2],[2,1]]
 <strong>Output:</strong> 4.00000
@@ -36,7 +36,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1515.Best%20Position%20for%20a%20Service%20Centre/images/q4_e3.jpg" style="width: 419px; height: 419px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1515.Best%20Position%20for%20a%20Service%20Centre/images/q4_e3.jpg" style="width: 419px; height: 419px;" />
 <pre>
 <strong>Input:</strong> positions = [[1,1],[3,3]]
 <strong>Output:</strong> 2.82843

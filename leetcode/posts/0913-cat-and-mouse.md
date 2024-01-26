@@ -4,7 +4,7 @@ summary: 0913 Cat And Mouse LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0913 Cat And Mouse LeetCode Solution Explained in all languages"]
+keywords: ["0913 Cat And Mouse LeetCode Solution Explained in all languages", "0913 Cat And Mouse", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0913 Cat And Mouse - Solution Explained/problem-solving.webp
     alt: 0913 Cat And Mouse
@@ -46,14 +46,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0913.Cat%20and%20Mouse/images/cat1.jpg" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0913.Cat%20and%20Mouse/images/cat1.jpg" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
 <strong>Output:</strong> 0
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0913.Cat%20and%20Mouse/images/cat2.jpg" style="width: 200px; height: 200px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0913.Cat%20and%20Mouse/images/cat2.jpg" style="width: 200px; height: 200px;" />
 <pre>
 <strong>Input:</strong> graph = [[1,3],[0],[3],[0,2]]
 <strong>Output:</strong> 1

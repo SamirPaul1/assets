@@ -26,7 +26,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2331.Evaluate%20Boolean%20Binary%20Tree/images/example1drawio1.png" style="width: 700px; height: 252px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2331.Evaluate%20Boolean%20Binary%20Tree/images/example1drawio1.png" style="width: 700px; height: 252px;" />
 <pre>
 <strong>Input:</strong> root = [2,1,3,null,null,0,1]
 <strong>Output:</strong> true

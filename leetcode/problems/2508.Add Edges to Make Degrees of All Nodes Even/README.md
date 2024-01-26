@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/agraphdrawio.png" style="width: 500px; height: 190px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/agraphdrawio.png" style="width: 500px; height: 190px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[1,2],[2,3],[3,4],[4,2],[1,4],[2,5]]
 <strong>Output:</strong> true
@@ -23,14 +23,14 @@ Every node in the resulting graph is connected to an even number of edges.
 </pre>
 
 <p><strong>Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aagraphdrawio.png" style="width: 400px; height: 120px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aagraphdrawio.png" style="width: 400px; height: 120px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[1,2],[3,4]]
 <strong>Output:</strong> true
 <strong>Explanation:</strong> The above diagram shows a valid way of adding two edges.</pre>
 
 <p><strong>Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aaagraphdrawio.png" style="width: 150px; height: 158px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aaagraphdrawio.png" style="width: 150px; height: 158px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[1,2],[1,3],[1,4]]
 <strong>Output:</strong> false

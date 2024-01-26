@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2545.Sort%20the%20Students%20by%20Their%20Kth%20Score/images/example1.png" style="width: 600px; height: 136px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2545.Sort%20the%20Students%20by%20Their%20Kth%20Score/images/example1.png" style="width: 600px; height: 136px;" />
 <pre>
 <strong>Input:</strong> score = [[10,6,9,1],[7,5,11,2],[4,8,3,15]], k = 2
 <strong>Output:</strong> [[7,5,11,2],[10,6,9,1],[4,8,3,15]]
@@ -23,7 +23,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2545.Sort%20the%20Students%20by%20Their%20Kth%20Score/images/example2.png" style="width: 486px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2545.Sort%20the%20Students%20by%20Their%20Kth%20Score/images/example2.png" style="width: 486px; height: 121px;" />
 <pre>
 <strong>Input:</strong> score = [[3,4],[5,6]], k = 0
 <strong>Output:</strong> [[5,6],[3,4]]

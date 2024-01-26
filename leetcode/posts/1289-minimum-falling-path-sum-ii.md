@@ -4,7 +4,7 @@ summary: 1289 Minimum Falling Path Sum Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1289 Minimum Falling Path Sum Ii LeetCode Solution Explained in all languages"]
+keywords: ["1289 Minimum Falling Path Sum Ii LeetCode Solution Explained in all languages", "1289 Minimum Falling Path Sum Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1289 Minimum Falling Path Sum Ii - Solution Explained/problem-solving.webp
     alt: 1289 Minimum Falling Path Sum Ii
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1289.Minimum%20Falling%20Path%20Sum%20II/images/falling-grid.jpg" style="width: 244px; height: 245px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1289.Minimum%20Falling%20Path%20Sum%20II/images/falling-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2,3],[4,5,6],[7,8,9]]
 <strong>Output:</strong> 13

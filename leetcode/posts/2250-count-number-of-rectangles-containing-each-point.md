@@ -4,7 +4,7 @@ summary: 2250 Count Number Of Rectangles Containing Each Point LeetCode Solution
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2250 Count Number Of Rectangles Containing Each Point LeetCode Solution Explained in all languages"]
+keywords: ["2250 Count Number Of Rectangles Containing Each Point LeetCode Solution Explained in all languages", "2250 Count Number Of Rectangles Containing Each Point", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2250 Count Number Of Rectangles Containing Each Point - Solution Explained/problem-solving.webp
     alt: 2250 Count Number Of Rectangles Containing Each Point
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2250.Count%20Number%20of%20Rectangles%20Containing%20Each%20Point/images/example1.png" style="width: 300px; height: 509px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2250.Count%20Number%20of%20Rectangles%20Containing%20Each%20Point/images/example1.png" style="width: 300px; height: 509px;" />
 <pre>
 <strong>Input:</strong> rectangles = [[1,2],[2,3],[2,5]], points = [[2,1],[1,4]]
 <strong>Output:</strong> [2,1]
@@ -42,7 +42,7 @@ Therefore, we return [2, 1].
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2250.Count%20Number%20of%20Rectangles%20Containing%20Each%20Point/images/example2.png" style="width: 300px; height: 312px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2250.Count%20Number%20of%20Rectangles%20Containing%20Each%20Point/images/example2.png" style="width: 300px; height: 312px;" />
 <pre>
 <strong>Input:</strong> rectangles = [[1,1],[2,2],[3,3]], points = [[1,3],[1,1]]
 <strong>Output:</strong> [1,3]

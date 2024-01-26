@@ -4,7 +4,7 @@ summary: 2849 Determine If A Cell Is Reachable At A Given Time LeetCode Solution
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2849 Determine If A Cell Is Reachable At A Given Time LeetCode Solution Explained in all languages"]
+keywords: ["2849 Determine If A Cell Is Reachable At A Given Time LeetCode Solution Explained in all languages", "2849 Determine If A Cell Is Reachable At A Given Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2849 Determine If A Cell Is Reachable At A Given Time - Solution Explained/problem-solving.webp
     alt: 2849 Determine If A Cell Is Reachable At A Given Time
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2849.Determine%20if%20a%20Cell%20Is%20Reachable%20at%20a%20Given%20Time/images/example2.svg" style="width: 443px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2849.Determine%20if%20a%20Cell%20Is%20Reachable%20at%20a%20Given%20Time/images/example2.svg" style="width: 443px; height: 243px;" />
 <pre>
 <strong>Input:</strong> sx = 2, sy = 4, fx = 7, fy = 7, t = 6
 <strong>Output:</strong> true
@@ -36,7 +36,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2849.Determine%20if%20a%20Cell%20Is%20Reachable%20at%20a%20Given%20Time/images/example1.svg" style="width: 383px; height: 202px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2849.Determine%20if%20a%20Cell%20Is%20Reachable%20at%20a%20Given%20Time/images/example1.svg" style="width: 383px; height: 202px;" />
 <pre>
 <strong>Input:</strong> sx = 3, sy = 1, fx = 7, fy = 3, t = 3
 <strong>Output:</strong> false

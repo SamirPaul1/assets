@@ -4,7 +4,7 @@ summary: 1719 Number Of Ways To Reconstruct A Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1719 Number Of Ways To Reconstruct A Tree LeetCode Solution Explained in all languages"]
+keywords: ["1719 Number Of Ways To Reconstruct A Tree LeetCode Solution Explained in all languages", "1719 Number Of Ways To Reconstruct A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1719 Number Of Ways To Reconstruct A Tree - Solution Explained/problem-solving.webp
     alt: 1719 Number Of Ways To Reconstruct A Tree
@@ -49,7 +49,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1719.Number%20Of%20Ways%20To%20Reconstruct%20A%20Tree/images/trees2.png" style="width: 208px; height: 221px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/1719.Number%20Of%20Ways%20To%20Reconstruct%20A%20Tree/images/trees2.png" style="width: 208px; height: 221px;" />
 <pre>
 <strong>Input:</strong> pairs = [[1,2],[2,3]]
 <strong>Output:</strong> 1
@@ -57,7 +57,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1719.Number%20Of%20Ways%20To%20Reconstruct%20A%20Tree/images/tree.png" style="width: 234px; height: 241px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1719.Number%20Of%20Ways%20To%20Reconstruct%20A%20Tree/images/tree.png" style="width: 234px; height: 241px;" />
 <pre>
 <strong>Input:</strong> pairs = [[1,2],[2,3],[1,3]]
 <strong>Output:</strong> 2

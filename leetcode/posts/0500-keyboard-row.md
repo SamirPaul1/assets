@@ -4,7 +4,7 @@ summary: 0500 Keyboard Row LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0500 Keyboard Row LeetCode Solution Explained in all languages"]
+keywords: ["0500 Keyboard Row LeetCode Solution Explained in all languages", "0500 Keyboard Row", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0500 Keyboard Row - Solution Explained/problem-solving.webp
     alt: 0500 Keyboard Row
@@ -27,7 +27,7 @@ cover:
 	<li>the second row consists of the characters <code>&quot;asdfghjkl&quot;</code>, and</li>
 	<li>the third row consists of the characters <code>&quot;zxcvbnm&quot;</code>.</li>
 </ul>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0500.Keyboard%20Row/images/keyboard.png" style="width: 800px; max-width: 600px; height: 267px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0500.Keyboard%20Row/images/keyboard.png" style="width: 800px; max-width: 600px; height: 267px;" />
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 

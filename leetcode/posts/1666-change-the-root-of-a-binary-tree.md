@@ -4,7 +4,7 @@ summary: 1666 Change The Root Of A Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1666 Change The Root Of A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1666 Change The Root Of A Binary Tree LeetCode Solution Explained in all languages", "1666 Change The Root Of A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1666 Change The Root Of A Binary Tree - Solution Explained/problem-solving.webp
     alt: 1666 Change The Root Of A Binary Tree
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1666.Change%20the%20Root%20of%20a%20Binary%20Tree/images/fliptree.png" style="width: 400px; height: 298px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1666.Change%20the%20Root%20of%20a%20Binary%20Tree/images/fliptree.png" style="width: 400px; height: 298px;" />
 <pre>
 <strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4], leaf = 7
 <strong>Output:</strong> [7,2,null,5,4,3,6,null,null,null,1,null,null,0,8]

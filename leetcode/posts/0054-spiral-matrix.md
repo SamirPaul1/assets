@@ -4,7 +4,7 @@ summary: 0054 Spiral Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0054 Spiral Matrix LeetCode Solution Explained in all languages"]
+keywords: ["0054 Spiral Matrix LeetCode Solution Explained in all languages", "0054 Spiral Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0054 Spiral Matrix - Solution Explained/problem-solving.webp
     alt: 0054 Spiral Matrix
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0054.Spiral%20Matrix/images/spiral1.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0054.Spiral%20Matrix/images/spiral1.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2,3],[4,5,6],[7,8,9]]
 <strong>Output:</strong> [1,2,3,6,9,8,7,4,5]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0054.Spiral%20Matrix/images/spiral.jpg" style="width: 322px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0054.Spiral%20Matrix/images/spiral.jpg" style="width: 322px; height: 242px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
 <strong>Output:</strong> [1,2,3,4,8,12,11,10,9,5,6,7]

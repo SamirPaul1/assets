@@ -4,7 +4,7 @@ summary: 1602 Find Nearest Right Node In Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1602 Find Nearest Right Node In Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1602 Find Nearest Right Node In Binary Tree LeetCode Solution Explained in all languages", "1602 Find Nearest Right Node In Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1602 Find Nearest Right Node In Binary Tree - Solution Explained/problem-solving.webp
     alt: 1602 Find Nearest Right Node In Binary Tree
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p3.png" style="width: 241px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p3.png" style="width: 241px; height: 161px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,null,4,5,6], u = 4
 <strong>Output:</strong> 5
@@ -30,7 +30,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p2.png" style="width: 101px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1602.Find%20Nearest%20Right%20Node%20in%20Binary%20Tree/images/p2.png" style="width: 101px; height: 161px;" />
 <pre>
 <strong>Input:</strong> root = [3,null,4,2], u = 2
 <strong>Output:</strong> null

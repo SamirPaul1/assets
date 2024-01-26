@@ -4,7 +4,7 @@ summary: 0986 Interval List Intersections LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0986 Interval List Intersections LeetCode Solution Explained in all languages"]
+keywords: ["0986 Interval List Intersections LeetCode Solution Explained in all languages", "0986 Interval List Intersections", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0986 Interval List Intersections - Solution Explained/problem-solving.webp
     alt: 0986 Interval List Intersections
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0986.Interval%20List%20Intersections/images/interval1.png" style="width: 700px; height: 194px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0986.Interval%20List%20Intersections/images/interval1.png" style="width: 700px; height: 194px;" />
 <pre>
 <strong>Input:</strong> firstList = [[0,2],[5,10],[13,23],[24,25]], secondList = [[1,5],[8,12],[15,24],[25,26]]
 <strong>Output:</strong> [[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]

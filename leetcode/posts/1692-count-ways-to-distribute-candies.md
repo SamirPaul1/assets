@@ -4,7 +4,7 @@ summary: 1692 Count Ways To Distribute Candies LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1692 Count Ways To Distribute Candies LeetCode Solution Explained in all languages"]
+keywords: ["1692 Count Ways To Distribute Candies LeetCode Solution Explained in all languages", "1692 Count Ways To Distribute Candies", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1692 Count Ways To Distribute Candies - Solution Explained/problem-solving.webp
     alt: 1692 Count Ways To Distribute Candies
@@ -29,7 +29,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1692.Count%20Ways%20to%20Distribute%20Candies/images/candies-1.png" style="height: 248px; width: 600px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1692.Count%20Ways%20to%20Distribute%20Candies/images/candies-1.png" style="height: 248px; width: 600px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 3, k = 2

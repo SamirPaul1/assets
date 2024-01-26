@@ -4,7 +4,7 @@ summary: 1620 Coordinate With Maximum Network Quality LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1620 Coordinate With Maximum Network Quality LeetCode Solution Explained in all languages"]
+keywords: ["1620 Coordinate With Maximum Network Quality LeetCode Solution Explained in all languages", "1620 Coordinate With Maximum Network Quality", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1620 Coordinate With Maximum Network Quality - Solution Explained/problem-solving.webp
     alt: 1620 Coordinate With Maximum Network Quality
@@ -42,7 +42,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1620.Coordinate%20With%20Maximum%20Network%20Quality/images/untitled-diagram.png" style="width: 176px; height: 176px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1620.Coordinate%20With%20Maximum%20Network%20Quality/images/untitled-diagram.png" style="width: 176px; height: 176px;" />
 <pre>
 <strong>Input:</strong> towers = [[1,2,5],[2,1,7],[3,1,9]], radius = 2
 <strong>Output:</strong> [2,1]

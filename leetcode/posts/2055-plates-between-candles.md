@@ -4,7 +4,7 @@ summary: 2055 Plates Between Candles LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2055 Plates Between Candles LeetCode Solution Explained in all languages"]
+keywords: ["2055 Plates Between Candles LeetCode Solution Explained in all languages", "2055 Plates Between Candles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2055 Plates Between Candles - Solution Explained/problem-solving.webp
     alt: 2055 Plates Between Candles
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="ex-1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2055.Plates%20Between%20Candles/images/ex-1.png" style="width: 400px; height: 134px;" />
+<img alt="ex-1" src="https://spcdn.pages.dev/leetcode/problems/2055.Plates%20Between%20Candles/images/ex-1.png" style="width: 400px; height: 134px;" />
 <pre>
 <strong>Input:</strong> s = &quot;**|**|***|&quot;, queries = [[2,5],[5,9]]
 <strong>Output:</strong> [2,3]
@@ -40,7 +40,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="ex-2" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2055.Plates%20Between%20Candles/images/ex-2.png" style="width: 600px; height: 193px;" />
+<img alt="ex-2" src="https://spcdn.pages.dev/leetcode/problems/2055.Plates%20Between%20Candles/images/ex-2.png" style="width: 600px; height: 193px;" />
 <pre>
 <strong>Input:</strong> s = &quot;***|**|*****|**||**|*&quot;, queries = [[1,17],[4,5],[14,17],[5,11],[15,16]]
 <strong>Output:</strong> [9,0,0,0,0]

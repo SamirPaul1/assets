@@ -4,7 +4,7 @@ summary: 0993 Cousins In Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0993 Cousins In Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0993 Cousins In Binary Tree LeetCode Solution Explained in all languages", "0993 Cousins In Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0993 Cousins In Binary Tree - Solution Explained/problem-solving.webp
     alt: 0993 Cousins In Binary Tree
@@ -26,21 +26,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0993.Cousins%20in%20Binary%20Tree/images/q1248-01.png" style="width: 304px; height: 270px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0993.Cousins%20in%20Binary%20Tree/images/q1248-01.png" style="width: 304px; height: 270px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4], x = 4, y = 3
 <strong>Output:</strong> false
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0993.Cousins%20in%20Binary%20Tree/images/q1248-02.png" style="width: 334px; height: 266px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0993.Cousins%20in%20Binary%20Tree/images/q1248-02.png" style="width: 334px; height: 266px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,null,4,null,5], x = 5, y = 4
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0993.Cousins%20in%20Binary%20Tree/images/q1248-03.png" style="width: 267px; height: 258px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0993.Cousins%20in%20Binary%20Tree/images/q1248-03.png" style="width: 267px; height: 258px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,null,4], x = 2, y = 3
 <strong>Output:</strong> false

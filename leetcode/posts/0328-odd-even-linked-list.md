@@ -4,7 +4,7 @@ summary: 0328 Odd Even Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0328 Odd Even Linked List LeetCode Solution Explained in all languages"]
+keywords: ["0328 Odd Even Linked List LeetCode Solution Explained in all languages", "0328 Odd Even Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0328 Odd Even Linked List - Solution Explained/problem-solving.webp
     alt: 0328 Odd Even Linked List
@@ -28,14 +28,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0328.Odd%20Even%20Linked%20List/images/oddeven-linked-list.jpg" style="width: 300px; height: 123px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0328.Odd%20Even%20Linked%20List/images/oddeven-linked-list.jpg" style="width: 300px; height: 123px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4,5]
 <strong>Output:</strong> [1,3,5,2,4]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0328.Odd%20Even%20Linked%20List/images/oddeven2-linked-list.jpg" style="width: 500px; height: 142px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0328.Odd%20Even%20Linked%20List/images/oddeven2-linked-list.jpg" style="width: 500px; height: 142px;" />
 <pre>
 <strong>Input:</strong> head = [2,1,3,5,6,4,7]
 <strong>Output:</strong> [2,3,6,7,1,5,4]

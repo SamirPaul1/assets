@@ -4,7 +4,7 @@ summary: 1632 Rank Transform Of A Matrix LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1632 Rank Transform Of A Matrix LeetCode Solution Explained in all languages"]
+keywords: ["1632 Rank Transform Of A Matrix LeetCode Solution Explained in all languages", "1632 Rank Transform Of A Matrix", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1632 Rank Transform Of A Matrix - Solution Explained/problem-solving.webp
     alt: 1632 Rank Transform Of A Matrix
@@ -38,7 +38,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1632.Rank%20Transform%20of%20a%20Matrix/images/rank1.jpg" style="width: 442px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1632.Rank%20Transform%20of%20a%20Matrix/images/rank1.jpg" style="width: 442px; height: 162px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2],[3,4]]
 <strong>Output:</strong> [[1,2],[2,3]]
@@ -50,14 +50,14 @@ The rank of matrix[1][1] is 3 because matrix[1][1] &gt; matrix[0][1], matrix[1][
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1632.Rank%20Transform%20of%20a%20Matrix/images/rank2.jpg" style="width: 442px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1632.Rank%20Transform%20of%20a%20Matrix/images/rank2.jpg" style="width: 442px; height: 162px;" />
 <pre>
 <strong>Input:</strong> matrix = [[7,7],[7,7]]
 <strong>Output:</strong> [[1,1],[1,1]]
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1632.Rank%20Transform%20of%20a%20Matrix/images/rank3.jpg" style="width: 601px; height: 322px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1632.Rank%20Transform%20of%20a%20Matrix/images/rank3.jpg" style="width: 601px; height: 322px;" />
 <pre>
 <strong>Input:</strong> matrix = [[20,-21,14],[-19,4,19],[22,-47,24],[-19,4,19]]
 <strong>Output:</strong> [[4,2,3],[1,3,4],[5,1,6],[1,3,4]]

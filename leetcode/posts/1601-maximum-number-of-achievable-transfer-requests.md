@@ -4,7 +4,7 @@ summary: 1601 Maximum Number Of Achievable Transfer Requests LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1601 Maximum Number Of Achievable Transfer Requests LeetCode Solution Explained in all languages"]
+keywords: ["1601 Maximum Number Of Achievable Transfer Requests LeetCode Solution Explained in all languages", "1601 Maximum Number Of Achievable Transfer Requests", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1601 Maximum Number Of Achievable Transfer Requests - Solution Explained/problem-solving.webp
     alt: 1601 Maximum Number Of Achievable Transfer Requests
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1601.Maximum%20Number%20of%20Achievable%20Transfer%20Requests/images/move1.jpg" style="width: 600px; height: 406px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1601.Maximum%20Number%20of%20Achievable%20Transfer%20Requests/images/move1.jpg" style="width: 600px; height: 406px;" />
 <pre>
 <strong>Input:</strong> n = 5, requests = [[0,1],[1,0],[0,1],[1,2],[2,0],[3,4]]
 <strong>Output:</strong> 5
@@ -43,7 +43,7 @@ We can achieve the requests of users y, a and z by swapping the places in the 3 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1601.Maximum%20Number%20of%20Achievable%20Transfer%20Requests/images/move2.jpg" style="width: 450px; height: 327px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1601.Maximum%20Number%20of%20Achievable%20Transfer%20Requests/images/move2.jpg" style="width: 450px; height: 327px;" />
 <pre>
 <strong>Input:</strong> n = 3, requests = [[0,0],[1,2],[2,1]]
 <strong>Output:</strong> 3

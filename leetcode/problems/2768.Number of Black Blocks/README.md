@@ -19,7 +19,7 @@
 <strong>Input:</strong> m = 3, n = 3, coordinates = [[0,0]]
 <strong>Output:</strong> [3,1,0,0,0]
 <strong>Explanation:</strong> The grid looks like this:
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2768.Number%20of%20Black%20Blocks/images/screen-shot-2023-06-18-at-44656-am.png" style="width: 150px; height: 128px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2768.Number%20of%20Black%20Blocks/images/screen-shot-2023-06-18-at-44656-am.png" style="width: 150px; height: 128px;" />
 There is only 1 block with one black cell, and it is the block starting with cell [0,0].
 The other 3 blocks start with cells [0,1], [1,0] and [1,1]. They all have zero black cells. 
 Thus, we return [3,1,0,0,0]. 
@@ -31,7 +31,7 @@ Thus, we return [3,1,0,0,0].
 <strong>Input:</strong> m = 3, n = 3, coordinates = [[0,0],[1,1],[0,2]]
 <strong>Output:</strong> [0,2,2,0,0]
 <strong>Explanation:</strong> The grid looks like this:
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2768.Number%20of%20Black%20Blocks/images/screen-shot-2023-06-18-at-45018-am.png" style="width: 150px; height: 128px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2768.Number%20of%20Black%20Blocks/images/screen-shot-2023-06-18-at-45018-am.png" style="width: 150px; height: 128px;" />
 There are 2 blocks with two black cells (the ones starting with cell coordinates [0,0] and [0,1]).
 The other 2 blocks have starting cell coordinates of [1,0] and [1,1]. They both have 1 black cell.
 Therefore, we return [0,2,2,0,0].

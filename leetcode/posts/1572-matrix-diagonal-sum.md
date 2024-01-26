@@ -4,7 +4,7 @@ summary: 1572 Matrix Diagonal Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1572 Matrix Diagonal Sum LeetCode Solution Explained in all languages"]
+keywords: ["1572 Matrix Diagonal Sum LeetCode Solution Explained in all languages", "1572 Matrix Diagonal Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1572 Matrix Diagonal Sum - Solution Explained/problem-solving.webp
     alt: 1572 Matrix Diagonal Sum
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1572.Matrix%20Diagonal%20Sum/images/sample_1911.png" style="width: 336px; height: 174px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1572.Matrix%20Diagonal%20Sum/images/sample_1911.png" style="width: 336px; height: 174px;" />
 <pre>
 <strong>Input:</strong> mat = [[<strong>1</strong>,2,<strong>3</strong>],
 &nbsp;             [4,<strong>5</strong>,6],

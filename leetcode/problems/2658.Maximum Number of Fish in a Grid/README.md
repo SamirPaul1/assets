@@ -24,7 +24,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2658.Maximum%20Number%20of%20Fish%20in%20a%20Grid/images/example.png" style="width: 241px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2658.Maximum%20Number%20of%20Fish%20in%20a%20Grid/images/example.png" style="width: 241px; height: 161px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,2,1,0],[4,0,0,3],[1,0,0,4],[0,3,2,0]]
 <strong>Output:</strong> 7
@@ -32,7 +32,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2658.Maximum%20Number%20of%20Fish%20in%20a%20Grid/images/example2.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2658.Maximum%20Number%20of%20Fish%20in%20a%20Grid/images/example2.png" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,1]]
 <strong>Output:</strong> 1

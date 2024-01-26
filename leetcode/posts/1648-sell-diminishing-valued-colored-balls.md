@@ -4,7 +4,7 @@ summary: 1648 Sell Diminishing Valued Colored Balls LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1648 Sell Diminishing Valued Colored Balls LeetCode Solution Explained in all languages"]
+keywords: ["1648 Sell Diminishing Valued Colored Balls LeetCode Solution Explained in all languages", "1648 Sell Diminishing Valued Colored Balls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1648 Sell Diminishing Valued Colored Balls - Solution Explained/problem-solving.webp
     alt: 1648 Sell Diminishing Valued Colored Balls
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1648.Sell%20Diminishing-Valued%20Colored%20Balls/images/jj.gif" style="width: 480px; height: 270px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1648.Sell%20Diminishing-Valued%20Colored%20Balls/images/jj.gif" style="width: 480px; height: 270px;" />
 <pre>
 <strong>Input:</strong> inventory = [2,5], orders = 4
 <strong>Output:</strong> 14

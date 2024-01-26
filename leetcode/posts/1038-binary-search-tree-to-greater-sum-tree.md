@@ -4,7 +4,7 @@ summary: 1038 Binary Search Tree To Greater Sum Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1038 Binary Search Tree To Greater Sum Tree LeetCode Solution Explained in all languages"]
+keywords: ["1038 Binary Search Tree To Greater Sum Tree LeetCode Solution Explained in all languages", "1038 Binary Search Tree To Greater Sum Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1038 Binary Search Tree To Greater Sum Tree - Solution Explained/problem-solving.webp
     alt: 1038 Binary Search Tree To Greater Sum Tree
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1038.Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree/images/tree.png" style="width: 400px; height: 273px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1038.Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree/images/tree.png" style="width: 400px; height: 273px;" />
 <pre>
 <strong>Input:</strong> root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
 <strong>Output:</strong> [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]

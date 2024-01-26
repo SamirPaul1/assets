@@ -4,7 +4,7 @@ summary: 0543 Diameter Of Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0543 Diameter Of Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0543 Diameter Of Binary Tree LeetCode Solution Explained in all languages", "0543 Diameter Of Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0543 Diameter Of Binary Tree - Solution Explained/problem-solving.webp
     alt: 0543 Diameter Of Binary Tree
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0543.Diameter%20of%20Binary%20Tree/images/diamtree.jpg" style="width: 292px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0543.Diameter%20of%20Binary%20Tree/images/diamtree.jpg" style="width: 292px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5]
 <strong>Output:</strong> 3

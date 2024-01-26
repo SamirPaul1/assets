@@ -4,7 +4,7 @@ summary: 2920 Maximum Points After Collecting Coins From All Nodes LeetCode Solu
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2920 Maximum Points After Collecting Coins From All Nodes LeetCode Solution Explained in all languages"]
+keywords: ["2920 Maximum Points After Collecting Coins From All Nodes LeetCode Solution Explained in all languages", "2920 Maximum Points After Collecting Coins From All Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2920 Maximum Points After Collecting Coins From All Nodes - Solution Explained/problem-solving.webp
     alt: 2920 Maximum Points After Collecting Coins From All Nodes
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2920.Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes/images/ex1-copy.png" style="width: 60px; height: 316px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2920.Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes/images/ex1-copy.png" style="width: 60px; height: 316px; padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1],[1,2],[2,3]], coins = [10,10,3,3], k = 5
 <strong>Output:</strong> 11                        
@@ -46,7 +46,7 @@ It can be shown that the maximum points we can get after collecting coins from a
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<strong class="example"> <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2920.Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes/images/ex2.png" style="width: 140px; height: 147px; padding: 10px; background: #fff; border-radius: .5rem;" /></strong>
+<strong class="example"> <img alt="" src="https://spcdn.pages.dev/leetcode/problems/2920.Maximum%20Points%20After%20Collecting%20Coins%20From%20All%20Nodes/images/ex2.png" style="width: 140px; height: 147px; padding: 10px; background: #fff; border-radius: .5rem;" /></strong>
 
 <pre>
 <strong>Input:</strong> edges = [[0,1],[0,2]], coins = [8,4,4], k = 0

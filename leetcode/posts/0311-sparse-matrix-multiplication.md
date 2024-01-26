@@ -4,7 +4,7 @@ summary: 0311 Sparse Matrix Multiplication LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0311 Sparse Matrix Multiplication LeetCode Solution Explained in all languages"]
+keywords: ["0311 Sparse Matrix Multiplication LeetCode Solution Explained in all languages", "0311 Sparse Matrix Multiplication", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0311 Sparse Matrix Multiplication - Solution Explained/problem-solving.webp
     alt: 0311 Sparse Matrix Multiplication
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0311.Sparse%20Matrix%20Multiplication/images/mult-grid.jpg" style="width: 500px; height: 142px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0311.Sparse%20Matrix%20Multiplication/images/mult-grid.jpg" style="width: 500px; height: 142px;" />
 <pre>
 <strong>Input:</strong> mat1 = [[1,0,0],[-1,0,3]], mat2 = [[7,0,0],[0,0,0],[0,0,1]]
 <strong>Output:</strong> [[7,0,0],[-7,0,3]]

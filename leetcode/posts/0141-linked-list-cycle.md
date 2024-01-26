@@ -4,7 +4,7 @@ summary: 0141 Linked List Cycle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0141 Linked List Cycle LeetCode Solution Explained in all languages"]
+keywords: ["0141 Linked List Cycle LeetCode Solution Explained in all languages", "0141 Linked List Cycle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0141 Linked List Cycle - Solution Explained/problem-solving.webp
     alt: 0141 Linked List Cycle
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0141.Linked%20List%20Cycle/images/circularlinkedlist.png" style="width: 300px; height: 97px; margin-top: 8px; margin-bottom: 8px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0141.Linked%20List%20Cycle/images/circularlinkedlist.png" style="width: 300px; height: 97px; margin-top: 8px; margin-bottom: 8px;" />
 <pre>
 <strong>Input:</strong> head = [3,2,0,-4], pos = 1
 <strong>Output:</strong> true
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0141.Linked%20List%20Cycle/images/circularlinkedlist_test2.png" style="width: 141px; height: 74px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0141.Linked%20List%20Cycle/images/circularlinkedlist_test2.png" style="width: 141px; height: 74px;" />
 <pre>
 <strong>Input:</strong> head = [1,2], pos = 0
 <strong>Output:</strong> true
@@ -42,7 +42,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0141.Linked%20List%20Cycle/images/circularlinkedlist_test3.png" style="width: 45px; height: 45px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0141.Linked%20List%20Cycle/images/circularlinkedlist_test3.png" style="width: 45px; height: 45px;" />
 <pre>
 <strong>Input:</strong> head = [1], pos = -1
 <strong>Output:</strong> false

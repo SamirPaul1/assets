@@ -4,7 +4,7 @@ summary: 2791 Count Paths That Can Form A Palindrome In A Tree LeetCode Solution
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2791 Count Paths That Can Form A Palindrome In A Tree LeetCode Solution Explained in all languages"]
+keywords: ["2791 Count Paths That Can Form A Palindrome In A Tree LeetCode Solution Explained in all languages", "2791 Count Paths That Can Form A Palindrome In A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2791 Count Paths That Can Form A Palindrome In A Tree - Solution Explained/problem-solving.webp
     alt: 2791 Count Paths That Can Form A Palindrome In A Tree
@@ -29,7 +29,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2791.Count%20Paths%20That%20Can%20Form%20a%20Palindrome%20in%20a%20Tree/images/treedrawio-8drawio.png" style="width: 281px; height: 181px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2791.Count%20Paths%20That%20Can%20Form%20a%20Palindrome%20in%20a%20Tree/images/treedrawio-8drawio.png" style="width: 281px; height: 181px;" /></p>
 
 <pre>
 <strong>Input:</strong> parent = [-1,0,0,1,1,2], s = &quot;acaabc&quot;

@@ -4,7 +4,7 @@ summary: 0743 Network Delay Time LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0743 Network Delay Time LeetCode Solution Explained in all languages"]
+keywords: ["0743 Network Delay Time LeetCode Solution Explained in all languages", "0743 Network Delay Time", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0743 Network Delay Time - Solution Explained/problem-solving.webp
     alt: 0743 Network Delay Time
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0743.Network%20Delay%20Time/images/931_example_1.png" style="width: 217px; height: 239px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0743.Network%20Delay%20Time/images/931_example_1.png" style="width: 217px; height: 239px;" />
 <pre>
 <strong>Input:</strong> times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2
 <strong>Output:</strong> 2

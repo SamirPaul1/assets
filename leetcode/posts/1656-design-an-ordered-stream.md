@@ -4,7 +4,7 @@ summary: 1656 Design An Ordered Stream LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1656 Design An Ordered Stream LeetCode Solution Explained in all languages"]
+keywords: ["1656 Design An Ordered Stream LeetCode Solution Explained in all languages", "1656 Design An Ordered Stream", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1656 Design An Ordered Stream - Solution Explained/problem-solving.webp
     alt: 1656 Design An Ordered Stream
@@ -32,7 +32,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1656.Design%20an%20Ordered%20Stream/images/q1.gif" style="width: 682px; height: 240px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1656.Design%20an%20Ordered%20Stream/images/q1.gif" style="width: 682px; height: 240px;" /></strong></p>
 
 <pre>
 <strong>Input</strong>

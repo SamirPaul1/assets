@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2641.Cousins%20in%20Binary%20Tree%20II/images/example11.png" style="width: 571px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2641.Cousins%20in%20Binary%20Tree%20II/images/example11.png" style="width: 571px; height: 151px;" />
 <pre>
 <strong>Input:</strong> root = [5,4,9,1,10,null,7]
 <strong>Output:</strong> [0,0,0,7,7,null,11]
@@ -28,7 +28,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2641.Cousins%20in%20Binary%20Tree%20II/images/diagram33.png" style="width: 481px; height: 91px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2641.Cousins%20in%20Binary%20Tree%20II/images/diagram33.png" style="width: 481px; height: 91px;" />
 <pre>
 <strong>Input:</strong> root = [3,1,2]
 <strong>Output:</strong> [0,0,0]

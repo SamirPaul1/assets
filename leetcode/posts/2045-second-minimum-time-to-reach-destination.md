@@ -4,7 +4,7 @@ summary: 2045 Second Minimum Time To Reach Destination LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2045 Second Minimum Time To Reach Destination LeetCode Solution Explained in all languages"]
+keywords: ["2045 Second Minimum Time To Reach Destination LeetCode Solution Explained in all languages", "2045 Second Minimum Time To Reach Destination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2045 Second Minimum Time To Reach Destination - Solution Explained/problem-solving.webp
     alt: 2045 Second Minimum Time To Reach Destination
@@ -39,7 +39,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2045.Second%20Minimum%20Time%20to%20Reach%20Destination/images/e1.png" style="width: 200px; height: 250px;" /> &emsp; &emsp; &emsp; &emsp;<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2045.Second%20Minimum%20Time%20to%20Reach%20Destination/images/e2.png" style="width: 200px; height: 250px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2045.Second%20Minimum%20Time%20to%20Reach%20Destination/images/e1.png" style="width: 200px; height: 250px;" /> &emsp; &emsp; &emsp; &emsp;<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2045.Second%20Minimum%20Time%20to%20Reach%20Destination/images/e2.png" style="width: 200px; height: 250px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[1,2],[1,3],[1,4],[3,4],[4,5]], time = 3, change = 5
 <strong>Output:</strong> 13
@@ -63,7 +63,7 @@ Hence the second minimum time is 13 minutes.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2045.Second%20Minimum%20Time%20to%20Reach%20Destination/images/eg2.png" style="width: 225px; height: 50px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2045.Second%20Minimum%20Time%20to%20Reach%20Destination/images/eg2.png" style="width: 225px; height: 50px;" />
 <pre>
 <strong>Input:</strong> n = 2, edges = [[1,2]], time = 3, change = 2
 <strong>Output:</strong> 11

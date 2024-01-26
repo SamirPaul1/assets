@@ -4,7 +4,7 @@ summary: 0083 Remove Duplicates From Sorted List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0083 Remove Duplicates From Sorted List LeetCode Solution Explained in all languages"]
+keywords: ["0083 Remove Duplicates From Sorted List LeetCode Solution Explained in all languages", "0083 Remove Duplicates From Sorted List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0083 Remove Duplicates From Sorted List - Solution Explained/problem-solving.webp
     alt: 0083 Remove Duplicates From Sorted List
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0083.Remove%20Duplicates%20from%20Sorted%20List/images/list1.jpg" style="width: 302px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0083.Remove%20Duplicates%20from%20Sorted%20List/images/list1.jpg" style="width: 302px; height: 242px;" />
 <pre>
 <strong>Input:</strong> head = [1,1,2]
 <strong>Output:</strong> [1,2]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0083.Remove%20Duplicates%20from%20Sorted%20List/images/list2.jpg" style="width: 542px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0083.Remove%20Duplicates%20from%20Sorted%20List/images/list2.jpg" style="width: 542px; height: 222px;" />
 <pre>
 <strong>Input:</strong> head = [1,1,2,3,3]
 <strong>Output:</strong> [1,2,3]

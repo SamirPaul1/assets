@@ -4,7 +4,7 @@ summary: 2385 Amount Of Time For Binary Tree To Be Infected LeetCode Solution Ex
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2385 Amount Of Time For Binary Tree To Be Infected LeetCode Solution Explained in all languages"]
+keywords: ["2385 Amount Of Time For Binary Tree To Be Infected LeetCode Solution Explained in all languages", "2385 Amount Of Time For Binary Tree To Be Infected", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2385 Amount Of Time For Binary Tree To Be Infected - Solution Explained/problem-solving.webp
     alt: 2385 Amount Of Time For Binary Tree To Be Infected
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231744-1.png" style="width: 400px; height: 306px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231744-1.png" style="width: 400px; height: 306px;" />
 <pre>
 <strong>Input:</strong> root = [1,5,3,null,4,10,6,9,2], start = 3
 <strong>Output:</strong> 4
@@ -45,7 +45,7 @@ It takes 4 minutes for the whole tree to be infected so we return 4.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231812-2.png" style="width: 75px; height: 66px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231812-2.png" style="width: 75px; height: 66px;" />
 <pre>
 <strong>Input:</strong> root = [1], start = 1
 <strong>Output:</strong> 0

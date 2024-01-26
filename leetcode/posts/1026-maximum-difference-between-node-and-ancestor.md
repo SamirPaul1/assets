@@ -4,7 +4,7 @@ summary: 1026 Maximum Difference Between Node And Ancestor LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1026 Maximum Difference Between Node And Ancestor LeetCode Solution Explained in all languages"]
+keywords: ["1026 Maximum Difference Between Node And Ancestor LeetCode Solution Explained in all languages", "1026 Maximum Difference Between Node And Ancestor", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1026 Maximum Difference Between Node And Ancestor - Solution Explained/problem-solving.webp
     alt: 1026 Maximum Difference Between Node And Ancestor
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1026.Maximum%20Difference%20Between%20Node%20and%20Ancestor/images/tmp-tree.jpg" style="width: 400px; height: 390px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1026.Maximum%20Difference%20Between%20Node%20and%20Ancestor/images/tmp-tree.jpg" style="width: 400px; height: 390px;" />
 <pre>
 <strong>Input:</strong> root = [8,3,10,1,6,null,14,null,null,4,7,13]
 <strong>Output:</strong> 7
@@ -36,7 +36,7 @@ cover:
 Among all possible differences, the maximum value of 7 is obtained by |8 - 1| = 7.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1026.Maximum%20Difference%20Between%20Node%20and%20Ancestor/images/tmp-tree-1.jpg" style="width: 250px; height: 349px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1026.Maximum%20Difference%20Between%20Node%20and%20Ancestor/images/tmp-tree-1.jpg" style="width: 250px; height: 349px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,2,null,0,3]
 <strong>Output:</strong> 3

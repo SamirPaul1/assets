@@ -4,7 +4,7 @@ summary: 2850 Minimum Moves To Spread Stones Over Grid LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2850 Minimum Moves To Spread Stones Over Grid LeetCode Solution Explained in all languages"]
+keywords: ["2850 Minimum Moves To Spread Stones Over Grid LeetCode Solution Explained in all languages", "2850 Minimum Moves To Spread Stones Over Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2850 Minimum Moves To Spread Stones Over Grid - Solution Explained/problem-solving.webp
     alt: 2850 Minimum Moves To Spread Stones Over Grid
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example1-3.svg" style="width: 401px; height: 281px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example1-3.svg" style="width: 401px; height: 281px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,0],[1,1,1],[1,2,1]]
 <strong>Output:</strong> 3
@@ -39,7 +39,7 @@ It can be shown that 3 is the minimum number of moves required to place one ston
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example2-2.svg" style="width: 401px; height: 281px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example2-2.svg" style="width: 401px; height: 281px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,3,0],[1,0,0],[1,0,3]]
 <strong>Output:</strong> 4

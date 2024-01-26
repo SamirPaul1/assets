@@ -4,7 +4,7 @@ summary: 0834 Sum Of Distances In Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0834 Sum Of Distances In Tree LeetCode Solution Explained in all languages"]
+keywords: ["0834 Sum Of Distances In Tree LeetCode Solution Explained in all languages", "0834 Sum Of Distances In Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0834 Sum Of Distances In Tree - Solution Explained/problem-solving.webp
     alt: 0834 Sum Of Distances In Tree
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0834.Sum%20of%20Distances%20in%20Tree/images/lc-sumdist1.jpg" style="width: 304px; height: 224px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0834.Sum%20of%20Distances%20in%20Tree/images/lc-sumdist1.jpg" style="width: 304px; height: 224px;" />
 <pre>
 <strong>Input:</strong> n = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]
 <strong>Output:</strong> [8,12,6,10,10,10]
@@ -37,14 +37,14 @@ Hence, answer[0] = 8, and so on.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0834.Sum%20of%20Distances%20in%20Tree/images/lc-sumdist2.jpg" style="width: 64px; height: 65px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0834.Sum%20of%20Distances%20in%20Tree/images/lc-sumdist2.jpg" style="width: 64px; height: 65px;" />
 <pre>
 <strong>Input:</strong> n = 1, edges = []
 <strong>Output:</strong> [0]
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0834.Sum%20of%20Distances%20in%20Tree/images/lc-sumdist3.jpg" style="width: 144px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0834.Sum%20of%20Distances%20in%20Tree/images/lc-sumdist3.jpg" style="width: 144px; height: 145px;" />
 <pre>
 <strong>Input:</strong> n = 2, edges = [[1,0]]
 <strong>Output:</strong> [1,1]

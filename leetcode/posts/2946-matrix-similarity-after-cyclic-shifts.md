@@ -4,7 +4,7 @@ summary: 2946 Matrix Similarity After Cyclic Shifts LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2946 Matrix Similarity After Cyclic Shifts LeetCode Solution Explained in all languages"]
+keywords: ["2946 Matrix Similarity After Cyclic Shifts LeetCode Solution Explained in all languages", "2946 Matrix Similarity After Cyclic Shifts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2946 Matrix Similarity After Cyclic Shifts - Solution Explained/problem-solving.webp
     alt: 2946 Matrix Similarity After Cyclic Shifts
@@ -29,7 +29,7 @@ cover:
 <strong>Input:</strong> mat = [[1,2,1,2],[5,5,5,5],[6,3,6,3]], k = 2
 <strong>Output:</strong> true
 <strong>Explanation:</strong>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/images/similarmatrix.png" style="width: 500px; height: 117px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/images/similarmatrix.png" style="width: 500px; height: 117px;" />
 
 Initially, the matrix looks like the first figure. 
 Second figure represents the state of the matrix after one right and left cyclic shifts to even and odd indexed rows.

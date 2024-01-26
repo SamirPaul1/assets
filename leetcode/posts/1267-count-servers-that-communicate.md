@@ -4,7 +4,7 @@ summary: 1267 Count Servers That Communicate LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1267 Count Servers That Communicate LeetCode Solution Explained in all languages"]
+keywords: ["1267 Count Servers That Communicate LeetCode Solution Explained in all languages", "1267 Count Servers That Communicate", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1267 Count Servers That Communicate - Solution Explained/problem-solving.webp
     alt: 1267 Count Servers That Communicate
@@ -25,7 +25,7 @@ Return the number of servers&nbsp;that communicate with any other server.</p>
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1267.Count%20Servers%20that%20Communicate/images/untitled-diagram-6.jpg" style="width: 202px; height: 203px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1267.Count%20Servers%20that%20Communicate/images/untitled-diagram-6.jpg" style="width: 202px; height: 203px;" /></p>
 
 <pre>
 <strong>Input:</strong> grid = [[1,0],[0,1]]
@@ -34,7 +34,7 @@ Return the number of servers&nbsp;that communicate with any other server.</p>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1267.Count%20Servers%20that%20Communicate/images/untitled-diagram-4.jpg" style="width: 203px; height: 203px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1267.Count%20Servers%20that%20Communicate/images/untitled-diagram-4.jpg" style="width: 203px; height: 203px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> grid = [[1,0],[1,1]]
@@ -44,7 +44,7 @@ Return the number of servers&nbsp;that communicate with any other server.</p>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1267.Count%20Servers%20that%20Communicate/images/untitled-diagram-1-3.jpg" style="width: 443px; height: 443px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1267.Count%20Servers%20that%20Communicate/images/untitled-diagram-1-3.jpg" style="width: 443px; height: 443px;" /></p>
 
 <pre>
 <strong>Input:</strong> grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]

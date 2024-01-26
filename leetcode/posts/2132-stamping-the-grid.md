@@ -4,7 +4,7 @@ summary: 2132 Stamping The Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2132 Stamping The Grid LeetCode Solution Explained in all languages"]
+keywords: ["2132 Stamping The Grid LeetCode Solution Explained in all languages", "2132 Stamping The Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2132 Stamping The Grid - Solution Explained/problem-solving.webp
     alt: 2132 Stamping The Grid
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2132.Stamping%20the%20Grid/images/ex1.png" style="width: 180px; height: 237px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2132.Stamping%20the%20Grid/images/ex1.png" style="width: 180px; height: 237px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0]], stampHeight = 4, stampWidth = 3
 <strong>Output:</strong> true
@@ -43,7 +43,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2132.Stamping%20the%20Grid/images/ex2.png" style="width: 170px; height: 179px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2132.Stamping%20the%20Grid/images/ex2.png" style="width: 170px; height: 179px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]], stampHeight = 2, stampWidth = 2 
 <strong>Output:</strong> false 

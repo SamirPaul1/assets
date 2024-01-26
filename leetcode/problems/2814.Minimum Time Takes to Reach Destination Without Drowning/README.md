@@ -35,7 +35,7 @@ Picture (0) shows the initial state and picture (3) shows the final state when w
 It can be shown that 3 is the minimum time needed to reach from S to D.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex1.png" style="padding: 5px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 111px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex1.png" style="padding: 5px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 111px;" /></p>
 
 <p><strong class="example">Example 2:</strong></p>
 
@@ -47,7 +47,7 @@ Picture (0) shows the initial state. As you see, no matter which paths we choose
 So the answer would be -1.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex2-2.png" style="padding: 7px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 107px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex2-2.png" style="padding: 7px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 107px;" /></p>
 
 <p><strong class="example">Example 3:</strong></p>
 

@@ -27,7 +27,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1902.Depth%20of%20BST%20Given%20Insertion%20Order/images/1.png" style="width: 624px; height: 154px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1902.Depth%20of%20BST%20Given%20Insertion%20Order/images/1.png" style="width: 624px; height: 154px;" />
 <pre>
 <strong>Input:</strong> order = [2,1,4,3]
 <strong>Output:</strong> 3
@@ -35,7 +35,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1902.Depth%20of%20BST%20Given%20Insertion%20Order/images/2.png" style="width: 624px; height: 146px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1902.Depth%20of%20BST%20Given%20Insertion%20Order/images/2.png" style="width: 624px; height: 146px;" />
 <pre>
 <strong>Input:</strong> order = [2,1,3,4]
 <strong>Output:</strong> 3
@@ -43,7 +43,7 @@
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1902.Depth%20of%20BST%20Given%20Insertion%20Order/images/3.png" style="width: 624px; height: 225px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1902.Depth%20of%20BST%20Given%20Insertion%20Order/images/3.png" style="width: 624px; height: 225px;" />
 <pre>
 <strong>Input:</strong> order = [1,2,3,4]
 <strong>Output:</strong> 4

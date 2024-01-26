@@ -4,7 +4,7 @@ summary: 0255 Verify Preorder Sequence In Binary Search Tree LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0255 Verify Preorder Sequence In Binary Search Tree LeetCode Solution Explained in all languages"]
+keywords: ["0255 Verify Preorder Sequence In Binary Search Tree LeetCode Solution Explained in all languages", "0255 Verify Preorder Sequence In Binary Search Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0255 Verify Preorder Sequence In Binary Search Tree - Solution Explained/problem-solving.webp
     alt: 0255 Verify Preorder Sequence In Binary Search Tree
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0255.Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree/images/preorder-tree.jpg" style="width: 292px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0255.Verify%20Preorder%20Sequence%20in%20Binary%20Search%20Tree/images/preorder-tree.jpg" style="width: 292px; height: 302px;" />
 <pre>
 <strong>Input:</strong> preorder = [5,2,1,3,6]
 <strong>Output:</strong> true

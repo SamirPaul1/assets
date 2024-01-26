@@ -4,7 +4,7 @@ summary: 0021 Merge Two Sorted Lists LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0021 Merge Two Sorted Lists LeetCode Solution Explained in all languages"]
+keywords: ["0021 Merge Two Sorted Lists LeetCode Solution Explained in all languages", "0021 Merge Two Sorted Lists", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0021 Merge Two Sorted Lists - Solution Explained/problem-solving.webp
     alt: 0021 Merge Two Sorted Lists
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0021.Merge%20Two%20Sorted%20Lists/images/merge_ex1.jpg" style="width: 662px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0021.Merge%20Two%20Sorted%20Lists/images/merge_ex1.jpg" style="width: 662px; height: 302px;" />
 <pre>
 <strong>Input:</strong> list1 = [1,2,4], list2 = [1,3,4]
 <strong>Output:</strong> [1,1,2,3,4,4]

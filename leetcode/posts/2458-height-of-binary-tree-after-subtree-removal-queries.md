@@ -4,7 +4,7 @@ summary: 2458 Height Of Binary Tree After Subtree Removal Queries LeetCode Solut
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2458 Height Of Binary Tree After Subtree Removal Queries LeetCode Solution Explained in all languages"]
+keywords: ["2458 Height Of Binary Tree After Subtree Removal Queries LeetCode Solution Explained in all languages", "2458 Height Of Binary Tree After Subtree Removal Queries", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2458 Height Of Binary Tree After Subtree Removal Queries - Solution Explained/problem-solving.webp
     alt: 2458 Height Of Binary Tree After Subtree Removal Queries
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2458.Height%20of%20Binary%20Tree%20After%20Subtree%20Removal%20Queries/images/binaryytreeedrawio-1.png" style="width: 495px; height: 281px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2458.Height%20of%20Binary%20Tree%20After%20Subtree%20Removal%20Queries/images/binaryytreeedrawio-1.png" style="width: 495px; height: 281px;" />
 <pre>
 <strong>Input:</strong> root = [1,3,4,2,null,6,5,null,null,null,null,null,7], queries = [4]
 <strong>Output:</strong> [2]
@@ -46,7 +46,7 @@ The height of the tree is 2 (The path 1 -&gt; 3 -&gt; 2).
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2458.Height%20of%20Binary%20Tree%20After%20Subtree%20Removal%20Queries/images/binaryytreeedrawio-2.png" style="width: 301px; height: 284px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2458.Height%20of%20Binary%20Tree%20After%20Subtree%20Removal%20Queries/images/binaryytreeedrawio-2.png" style="width: 301px; height: 284px;" />
 <pre>
 <strong>Input:</strong> root = [5,8,9,2,1,3,7,4,6], queries = [3,2,4,8]
 <strong>Output:</strong> [3,2,3,2]

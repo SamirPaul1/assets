@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/tree1.jpg" style="width: 224px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1245.Tree%20Diameter/images/tree1.jpg" style="width: 224px; height: 145px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1],[0,2]]
 <strong>Output:</strong> 2
@@ -20,7 +20,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/tree2.jpg" style="width: 224px; height: 225px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1245.Tree%20Diameter/images/tree2.jpg" style="width: 224px; height: 225px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1],[1,2],[2,3],[1,4],[4,5]]
 <strong>Output:</strong> 4
@@ -53,7 +53,7 @@ Proof: Suppose this diameter is $\delta(s, t)$. There are two cases:
     - When the furthest node $z$ reached by $y$ crosses $\delta(s, t)$, mark the intersecting node as $x$. At this time, $\delta(y, z) = \delta(y, x) + \delta(x, z)$. And at this time $\delta(y, z) > \delta(y, t)$, so $\delta(x, z) > \delta(x, t)$. According to the conclusion of 1, this assumption is not established.
     - When the furthest node $z$ reached by $y$ does not intersect with $\delta(s, t)$, define the first node on the simple path from $y$ to $t$ that also exists on the simple path $\delta(s, t)$ as $x$, and the last node on the simple path $\delta(y, z)$ as $x'$. As shown in the figure below. Then according to the assumption, $\delta(y, z) \geq \delta(y, t) \Rightarrow \delta(x', z) \geq \delta(x', x) + \delta(x, t)$. In this case, $\delta(x, z) \geq \delta(x, t)$, which does not match the premise that $\delta(s, t)$ corresponds to the diameter, so the furthest node $z$ of $y$ cannot be outside the path corresponding to the diameter from $s$ to $t$.
 
-    <img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1245.Tree%20Diameter/images/tree-diameter.svg">
+    <img alt="" src="https://spcdn.pages.dev/leetcode/problems/1245.Tree%20Diameter/images/tree-diameter.svg">
 
 Therefore, the theorem holds.
 

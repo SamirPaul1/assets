@@ -4,7 +4,7 @@ summary: 1373 Maximum Sum Bst In Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1373 Maximum Sum Bst In Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1373 Maximum Sum Bst In Binary Tree LeetCode Solution Explained in all languages", "1373 Maximum Sum Bst In Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1373 Maximum Sum Bst In Binary Tree - Solution Explained/problem-solving.webp
     alt: 1373 Maximum Sum Bst In Binary Tree
@@ -31,7 +31,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1373.Maximum%20Sum%20BST%20in%20Binary%20Tree/images/sample_1_1709.png" style="width: 320px; height: 250px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1373.Maximum%20Sum%20BST%20in%20Binary%20Tree/images/sample_1_1709.png" style="width: 320px; height: 250px;" /></p>
 
 <pre>
 <strong>Input:</strong> root = [1,4,3,2,4,2,5,null,null,null,null,null,null,4,6]
@@ -41,7 +41,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1373.Maximum%20Sum%20BST%20in%20Binary%20Tree/images/sample_2_1709.png" style="width: 134px; height: 180px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1373.Maximum%20Sum%20BST%20in%20Binary%20Tree/images/sample_2_1709.png" style="width: 134px; height: 180px;" /></p>
 
 <pre>
 <strong>Input:</strong> root = [4,3,null,1,2]

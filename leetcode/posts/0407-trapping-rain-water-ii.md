@@ -4,7 +4,7 @@ summary: 0407 Trapping Rain Water Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0407 Trapping Rain Water Ii LeetCode Solution Explained in all languages"]
+keywords: ["0407 Trapping Rain Water Ii LeetCode Solution Explained in all languages", "0407 Trapping Rain Water Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0407 Trapping Rain Water Ii - Solution Explained/problem-solving.webp
     alt: 0407 Trapping Rain Water Ii
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0407.Trapping%20Rain%20Water%20II/images/trap1-3d.jpg" style="width: 361px; height: 321px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0407.Trapping%20Rain%20Water%20II/images/trap1-3d.jpg" style="width: 361px; height: 321px;" />
 <pre>
 <strong>Input:</strong> heightMap = [[1,4,3,1,3,2],[3,2,1,3,2,4],[2,3,3,2,3,1]]
 <strong>Output:</strong> 4
@@ -32,7 +32,7 @@ The total volume of water trapped is 4.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0407.Trapping%20Rain%20Water%20II/images/trap2-3d.jpg" style="width: 401px; height: 321px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0407.Trapping%20Rain%20Water%20II/images/trap2-3d.jpg" style="width: 401px; height: 321px;" />
 <pre>
 <strong>Input:</strong> heightMap = [[3,3,3,3,3],[3,2,2,2,3],[3,2,1,2,3],[3,2,2,2,3],[3,3,3,3,3]]
 <strong>Output:</strong> 10

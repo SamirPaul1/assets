@@ -4,7 +4,7 @@ summary: 1150 Check If A Number Is Majority Element In A Sorted Array LeetCode S
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1150 Check If A Number Is Majority Element In A Sorted Array LeetCode Solution Explained in all languages"]
+keywords: ["1150 Check If A Number Is Majority Element In A Sorted Array LeetCode Solution Explained in all languages", "1150 Check If A Number Is Majority Element In A Sorted Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1150 Check If A Number Is Majority Element In A Sorted Array - Solution Explained/problem-solving.webp
     alt: 1150 Check If A Number Is Majority Element In A Sorted Array

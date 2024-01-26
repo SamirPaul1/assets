@@ -4,7 +4,7 @@ summary: 1954 Minimum Garden Perimeter To Collect Enough Apples LeetCode Solutio
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1954 Minimum Garden Perimeter To Collect Enough Apples LeetCode Solution Explained in all languages"]
+keywords: ["1954 Minimum Garden Perimeter To Collect Enough Apples LeetCode Solution Explained in all languages", "1954 Minimum Garden Perimeter To Collect Enough Apples", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1954 Minimum Garden Perimeter To Collect Enough Apples - Solution Explained/problem-solving.webp
     alt: 1954 Minimum Garden Perimeter To Collect Enough Apples
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1954.Minimum%20Garden%20Perimeter%20to%20Collect%20Enough%20Apples/images/1527_example_1_2.png" style="width: 442px; height: 449px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1954.Minimum%20Garden%20Perimeter%20to%20Collect%20Enough%20Apples/images/1527_example_1_2.png" style="width: 442px; height: 449px;" />
 <pre>
 <strong>Input:</strong> neededApples = 1
 <strong>Output:</strong> 8

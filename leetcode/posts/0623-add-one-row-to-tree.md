@@ -4,7 +4,7 @@ summary: 0623 Add One Row To Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0623 Add One Row To Tree LeetCode Solution Explained in all languages"]
+keywords: ["0623 Add One Row To Tree LeetCode Solution Explained in all languages", "0623 Add One Row To Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0623 Add One Row To Tree - Solution Explained/problem-solving.webp
     alt: 0623 Add One Row To Tree
@@ -33,14 +33,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0623.Add%20One%20Row%20to%20Tree/images/addrow-tree.jpg" style="width: 500px; height: 231px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0623.Add%20One%20Row%20to%20Tree/images/addrow-tree.jpg" style="width: 500px; height: 231px;" />
 <pre>
 <strong>Input:</strong> root = [4,2,6,3,1,5], val = 1, depth = 2
 <strong>Output:</strong> [4,1,1,2,null,null,6,3,1,5]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0623.Add%20One%20Row%20to%20Tree/images/add2-tree.jpg" style="width: 500px; height: 277px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0623.Add%20One%20Row%20to%20Tree/images/add2-tree.jpg" style="width: 500px; height: 277px;" />
 <pre>
 <strong>Input:</strong> root = [4,2,null,3,1], val = 1, depth = 3
 <strong>Output:</strong> [4,2,null,1,1,3,null,null,1]

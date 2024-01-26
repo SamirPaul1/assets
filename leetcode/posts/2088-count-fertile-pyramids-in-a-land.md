@@ -4,7 +4,7 @@ summary: 2088 Count Fertile Pyramids In A Land LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2088 Count Fertile Pyramids In A Land LeetCode Solution Explained in all languages"]
+keywords: ["2088 Count Fertile Pyramids In A Land LeetCode Solution Explained in all languages", "2088 Count Fertile Pyramids In A Land", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2088 Count Fertile Pyramids In A Land - Solution Explained/problem-solving.webp
     alt: 2088 Count Fertile Pyramids In A Land
@@ -35,12 +35,12 @@ cover:
 </ol>
 
 <p>Some examples of valid and invalid pyramidal (and inverse pyramidal) plots are shown below. Black cells indicate fertile cells.</p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/image.png" style="width: 700px; height: 156px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/image.png" style="width: 700px; height: 156px;" />
 <p>Given a <strong>0-indexed</strong> <code>m x n</code> binary matrix <code>grid</code> representing the farmland, return <em>the <strong>total number</strong> of pyramidal and inverse pyramidal plots that can be found in</em> <code>grid</code>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/1.jpg" style="width: 575px; height: 109px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/1.jpg" style="width: 575px; height: 109px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,1,0],[1,1,1,1]]
 <strong>Output:</strong> 2
@@ -50,7 +50,7 @@ Hence total number of pyramidal and inverse pyramidal plots is 2 + 0 = 2.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/2.jpg" style="width: 502px; height: 120px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/2.jpg" style="width: 502px; height: 120px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,1,1]]
 <strong>Output:</strong> 2
@@ -59,7 +59,7 @@ Hence the total number of plots is 1 + 1 = 2.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/3.jpg" style="width: 676px; height: 148px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2088.Count%20Fertile%20Pyramids%20in%20a%20Land/images/3.jpg" style="width: 676px; height: 148px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1,1,0],[1,1,1,1,1],[1,1,1,1,1],[0,1,0,0,1]]
 <strong>Output:</strong> 13

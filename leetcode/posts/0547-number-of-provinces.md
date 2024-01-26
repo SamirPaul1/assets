@@ -4,7 +4,7 @@ summary: 0547 Number Of Provinces LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0547 Number Of Provinces LeetCode Solution Explained in all languages"]
+keywords: ["0547 Number Of Provinces LeetCode Solution Explained in all languages", "0547 Number Of Provinces", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0547 Number Of Provinces - Solution Explained/problem-solving.webp
     alt: 0547 Number Of Provinces
@@ -28,14 +28,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0547.Number%20of%20Provinces/images/graph1.jpg" style="width: 222px; height: 142px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0547.Number%20of%20Provinces/images/graph1.jpg" style="width: 222px; height: 142px;" />
 <pre>
 <strong>Input:</strong> isConnected = [[1,1,0],[1,1,0],[0,0,1]]
 <strong>Output:</strong> 2
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0547.Number%20of%20Provinces/images/graph2.jpg" style="width: 222px; height: 142px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0547.Number%20of%20Provinces/images/graph2.jpg" style="width: 222px; height: 142px;" />
 <pre>
 <strong>Input:</strong> isConnected = [[1,0,0],[0,1,0],[0,0,1]]
 <strong>Output:</strong> 3

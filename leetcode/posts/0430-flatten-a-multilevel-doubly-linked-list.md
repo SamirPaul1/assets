@@ -4,7 +4,7 @@ summary: 0430 Flatten A Multilevel Doubly Linked List LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0430 Flatten A Multilevel Doubly Linked List LeetCode Solution Explained in all languages"]
+keywords: ["0430 Flatten A Multilevel Doubly Linked List LeetCode Solution Explained in all languages", "0430 Flatten A Multilevel Doubly Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0430 Flatten A Multilevel Doubly Linked List - Solution Explained/problem-solving.webp
     alt: 0430 Flatten A Multilevel Doubly Linked List
@@ -26,23 +26,23 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/flatten11.jpg" style="width: 700px; height: 339px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/flatten11.jpg" style="width: 700px; height: 339px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
 <strong>Output:</strong> [1,2,3,7,8,11,12,9,10,4,5,6]
 <strong>Explanation:</strong> The multilevel linked list in the input is shown.
 After flattening the multilevel linked list it becomes:
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/flatten12.jpg" style="width: 1000px; height: 69px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/flatten12.jpg" style="width: 1000px; height: 69px;" />
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/flatten2.1jpg" style="width: 200px; height: 200px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/flatten2.1jpg" style="width: 200px; height: 200px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,null,3]
 <strong>Output:</strong> [1,3,2]
 <strong>Explanation:</strong> The multilevel linked list in the input is shown.
 After flattening the multilevel linked list it becomes:
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/list.jpg" style="width: 300px; height: 87px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/0430.Flatten%20a%20Multilevel%20Doubly%20Linked%20List/images/list.jpg" style="width: 300px; height: 87px;" />
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>

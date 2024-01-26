@@ -4,7 +4,7 @@ summary: 1916 Count Ways To Build Rooms In An Ant Colony LeetCode Solution Expla
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1916 Count Ways To Build Rooms In An Ant Colony LeetCode Solution Explained in all languages"]
+keywords: ["1916 Count Ways To Build Rooms In An Ant Colony LeetCode Solution Explained in all languages", "1916 Count Ways To Build Rooms In An Ant Colony", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1916 Count Ways To Build Rooms In An Ant Colony - Solution Explained/problem-solving.webp
     alt: 1916 Count Ways To Build Rooms In An Ant Colony
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d1.jpg" style="width: 200px; height: 212px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d1.jpg" style="width: 200px; height: 212px;" />
 <pre>
 <strong>Input:</strong> prevRoom = [-1,0,1]
 <strong>Output:</strong> 1
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d2.jpg" style="width: 200px; height: 239px;" /></strong>
+<strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d2.jpg" style="width: 200px; height: 239px;" /></strong>
 
 <pre>
 <strong>Input:</strong> prevRoom = [-1,0,0,1,2]

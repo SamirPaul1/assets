@@ -4,7 +4,7 @@ summary: 1485 Clone Binary Tree With Random Pointer LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1485 Clone Binary Tree With Random Pointer LeetCode Solution Explained in all languages"]
+keywords: ["1485 Clone Binary Tree With Random Pointer LeetCode Solution Explained in all languages", "1485 Clone Binary Tree With Random Pointer", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1485 Clone Binary Tree With Random Pointer - Solution Explained/problem-solving.webp
     alt: 1485 Clone Binary Tree With Random Pointer
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1485.Clone%20Binary%20Tree%20With%20Random%20Pointer/images/clone_1.png" style="width: 500px; height: 473px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1485.Clone%20Binary%20Tree%20With%20Random%20Pointer/images/clone_1.png" style="width: 500px; height: 473px;" />
 <pre>
 <strong>Input:</strong> root = [[1,null],null,[4,3],[7,0]]
 <strong>Output:</strong> [[1,null],null,[4,3],[7,0]]
@@ -44,7 +44,7 @@ The random pointer of node 7 is node 1, so it is represented as [7, 0] where 0 i
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1485.Clone%20Binary%20Tree%20With%20Random%20Pointer/images/clone_2.png" style="width: 500px; height: 540px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1485.Clone%20Binary%20Tree%20With%20Random%20Pointer/images/clone_2.png" style="width: 500px; height: 540px;" />
 <pre>
 <strong>Input:</strong> root = [[1,4],null,[1,0],null,[1,5],[1,5]]
 <strong>Output:</strong> [[1,4],null,[1,0],null,[1,5],[1,5]]
@@ -52,7 +52,7 @@ The random pointer of node 7 is node 1, so it is represented as [7, 0] where 0 i
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1485.Clone%20Binary%20Tree%20With%20Random%20Pointer/images/clone_3.png" style="width: 500px; height: 426px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1485.Clone%20Binary%20Tree%20With%20Random%20Pointer/images/clone_3.png" style="width: 500px; height: 426px;" />
 <pre>
 <strong>Input:</strong> root = [[1,6],[2,5],[3,4],[4,3],[5,2],[6,1],[7,0]]
 <strong>Output:</strong> [[1,6],[2,5],[3,4],[4,3],[5,2],[6,1],[7,0]]

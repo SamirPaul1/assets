@@ -4,7 +4,7 @@ summary: 0323 Number Of Connected Components In An Undirected Graph LeetCode Sol
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0323 Number Of Connected Components In An Undirected Graph LeetCode Solution Explained in all languages"]
+keywords: ["0323 Number Of Connected Components In An Undirected Graph LeetCode Solution Explained in all languages", "0323 Number Of Connected Components In An Undirected Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0323 Number Of Connected Components In An Undirected Graph - Solution Explained/problem-solving.webp
     alt: 0323 Number Of Connected Components In An Undirected Graph
@@ -24,14 +24,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph/images/conn1-graph.jpg" style="width: 382px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph/images/conn1-graph.jpg" style="width: 382px; height: 222px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[0,1],[1,2],[3,4]]
 <strong>Output:</strong> 2
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph/images/conn2-graph.jpg" style="width: 382px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0323.Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph/images/conn2-graph.jpg" style="width: 382px; height: 222px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[0,1],[1,2],[2,3],[3,4]]
 <strong>Output:</strong> 1

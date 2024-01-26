@@ -4,7 +4,7 @@ summary: 2509 Cycle Length Queries In A Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2509 Cycle Length Queries In A Tree LeetCode Solution Explained in all languages"]
+keywords: ["2509 Cycle Length Queries In A Tree LeetCode Solution Explained in all languages", "2509 Cycle Length Queries In A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2509 Cycle Length Queries In A Tree - Solution Explained/problem-solving.webp
     alt: 2509 Cycle Length Queries In A Tree
@@ -45,7 +45,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/bexample1.png" style="width: 647px; height: 128px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/bexample1.png" style="width: 647px; height: 128px;" />
 <pre>
 <strong>Input:</strong> n = 3, queries = [[5,3],[4,7],[2,3]]
 <strong>Output:</strong> [4,5,3]
@@ -56,7 +56,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/aexample2.png" style="width: 146px; height: 71px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2509.Cycle%20Length%20Queries%20in%20a%20Tree/images/aexample2.png" style="width: 146px; height: 71px;" />
 <pre>
 <strong>Input:</strong> n = 2, queries = [[1,2]]
 <strong>Output:</strong> [2]

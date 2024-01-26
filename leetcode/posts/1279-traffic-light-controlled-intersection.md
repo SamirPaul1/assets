@@ -4,7 +4,7 @@ summary: 1279 Traffic Light Controlled Intersection LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1279 Traffic Light Controlled Intersection LeetCode Solution Explained in all languages"]
+keywords: ["1279 Traffic Light Controlled Intersection LeetCode Solution Explained in all languages", "1279 Traffic Light Controlled Intersection", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1279 Traffic Light Controlled Intersection - Solution Explained/problem-solving.webp
     alt: 1279 Traffic Light Controlled Intersection
@@ -20,7 +20,7 @@ cover:
 
 <p>There is an intersection of two roads. First road is road A where cars travel&nbsp;from North to South in direction 1 and from South to North in direction 2. Second road is road B where cars travel from West to East in direction 3 and from East to West in direction 4.</p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1279.Traffic%20Light%20Controlled%20Intersection/images/exp.png" style="width: 600px; height: 417px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1279.Traffic%20Light%20Controlled%20Intersection/images/exp.png" style="width: 600px; height: 417px;" /></p>
 
 <p>There is a traffic light&nbsp;located on each road before the intersection. A traffic light&nbsp;can&nbsp;either be green or red.</p>
 

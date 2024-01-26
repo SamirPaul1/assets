@@ -4,7 +4,7 @@ summary: 0987 Vertical Order Traversal Of A Binary Tree LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0987 Vertical Order Traversal Of A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0987 Vertical Order Traversal Of A Binary Tree LeetCode Solution Explained in all languages", "0987 Vertical Order Traversal Of A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0987 Vertical Order Traversal Of A Binary Tree - Solution Explained/problem-solving.webp
     alt: 0987 Vertical Order Traversal Of A Binary Tree
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree/images/vtree1.jpg" style="width: 431px; height: 304px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree/images/vtree1.jpg" style="width: 431px; height: 304px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,20,null,null,15,7]
 <strong>Output:</strong> [[9],[3,15],[20],[7]]
@@ -39,7 +39,7 @@ Column 1: Only node 20 is in this column.
 Column 2: Only node 7 is in this column.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree/images/vtree2.jpg" style="width: 512px; height: 304px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree/images/vtree2.jpg" style="width: 512px; height: 304px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6,7]
 <strong>Output:</strong> [[4],[2],[1,5,6],[3],[7]]
@@ -54,7 +54,7 @@ Column 2: Only node 7 is in this column.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree/images/vtree3.jpg" style="width: 512px; height: 304px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0987.Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree/images/vtree3.jpg" style="width: 512px; height: 304px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,6,5,7]
 <strong>Output:</strong> [[4],[2],[1,5,6],[3],[7]]

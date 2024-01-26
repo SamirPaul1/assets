@@ -7,7 +7,7 @@
 <p>You are given an integer <code>n</code>. Consider an equilateral triangle of side length <code>n</code>, broken up into <code>n<sup>2</sup></code> unit equilateral triangles. The triangle has <code>n</code> <strong>1-indexed</strong> rows where the <code>i<sup>th</sup></code> row has <code>2i - 1</code> unit equilateral triangles.</p>
 
 <p>The triangles in the <code>i<sup>th</sup></code> row are also <strong>1-indexed</strong> with coordinates from <code>(i, 1)</code> to <code>(i, 2i - 1)</code>. The following image shows a triangle of side length <code>4</code> with the indexing of its triangle.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2647.Color%20the%20Triangle%20Red/images/triangle4.jpg" style="width: 402px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2647.Color%20the%20Triangle%20Red/images/triangle4.jpg" style="width: 402px; height: 242px;" />
 <p>Two triangles are <strong>neighbors</strong> if they <strong>share a side</strong>. For example:</p>
 
 <ul>
@@ -36,7 +36,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2647.Color%20the%20Triangle%20Red/images/example1.jpg" style="width: 500px; height: 263px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2647.Color%20the%20Triangle%20Red/images/example1.jpg" style="width: 500px; height: 263px;" />
 <pre>
 <strong>Input:</strong> n = 3
 <strong>Output:</strong> [[1,1],[2,1],[2,3],[3,1],[3,5]]
@@ -49,7 +49,7 @@ It can be shown that choosing any 4 triangles and running the algorithm will not
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2647.Color%20the%20Triangle%20Red/images/example2.jpg" style="width: 300px; height: 101px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2647.Color%20the%20Triangle%20Red/images/example2.jpg" style="width: 300px; height: 101px;" />
 <pre>
 <strong>Input:</strong> n = 2
 <strong>Output:</strong> [[1,1],[2,1],[2,3]]
@@ -76,11 +76,11 @@ We draw a graph to observe, and we can find that the first row only has one tria
 1. The $n - 2$ row is colored at $(n - 2, 3)$, $(n - 2, 5)$, ..., $(n - 2, 2n - 5)$.
 1. The $n - 3$ row is colored at $(n - 3, 1)$.
 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2647.Color%20the%20Triangle%20Red/images/demo3.png" style="width: 50%">
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2647.Color%20the%20Triangle%20Red/images/demo3.png" style="width: 50%">
 
 Therefore, we can color the first row according to the above rules, and then start from the last row, and color every four rows once until the second row ends.
 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2647.Color%20the%20Triangle%20Red/images/demo2.png" style="width: 80%">
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2647.Color%20the%20Triangle%20Red/images/demo2.png" style="width: 80%">
 
 The time complexity is $(n^2)$, where $n$ is the parameter given in the problem. Ignoring the space consumption of the answer array, the space complexity is $O(1)$.
 

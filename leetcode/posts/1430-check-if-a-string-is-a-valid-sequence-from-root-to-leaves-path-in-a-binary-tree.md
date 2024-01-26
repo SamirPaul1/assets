@@ -4,7 +4,7 @@ summary: 1430 Check If A String Is A Valid Sequence From Root To Leaves Path In 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1430 Check If A String Is A Valid Sequence From Root To Leaves Path In A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1430 Check If A String Is A Valid Sequence From Root To Leaves Path In A Binary Tree LeetCode Solution Explained in all languages", "1430 Check If A String Is A Valid Sequence From Root To Leaves Path In A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1430 Check If A String Is A Valid Sequence From Root To Leaves Path In A Binary Tree - Solution Explained/problem-solving.webp
     alt: 1430 Check If A String Is A Valid Sequence From Root To Leaves Path In A Binary Tree
@@ -25,7 +25,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1430.Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree/images/leetcode_testcase_1.png" style="width: 333px; height: 250px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1430.Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree/images/leetcode_testcase_1.png" style="width: 333px; height: 250px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root = [0,1,0,0,1,0,null,null,1,0,0], arr = [0,1,0,1]
@@ -39,7 +39,7 @@ Other valid sequences are:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1430.Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree/images/leetcode_testcase_2.png" style="width: 333px; height: 250px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1430.Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree/images/leetcode_testcase_2.png" style="width: 333px; height: 250px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root = [0,1,0,0,1,0,null,null,1,0,0], arr = [0,0,1]
@@ -49,7 +49,7 @@ Other valid sequences are:
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1430.Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree/images/leetcode_testcase_3.png" style="width: 333px; height: 250px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1430.Check%20If%20a%20String%20Is%20a%20Valid%20Sequence%20from%20Root%20to%20Leaves%20Path%20in%20a%20Binary%20Tree/images/leetcode_testcase_3.png" style="width: 333px; height: 250px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root = [0,1,0,0,1,0,null,null,1,0,0], arr = [0,1,1]

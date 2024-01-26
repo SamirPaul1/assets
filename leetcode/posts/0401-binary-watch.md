@@ -4,7 +4,7 @@ summary: 0401 Binary Watch LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0401 Binary Watch LeetCode Solution Explained in all languages"]
+keywords: ["0401 Binary Watch LeetCode Solution Explained in all languages", "0401 Binary Watch", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0401 Binary Watch - Solution Explained/problem-solving.webp
     alt: 0401 Binary Watch
@@ -24,7 +24,7 @@ cover:
 	<li>For example, the below binary watch reads <code>&quot;4:51&quot;</code>.</li>
 </ul>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0401.Binary%20Watch/images/binarywatch.jpg" style="width: 500px; height: 500px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/0401.Binary%20Watch/images/binarywatch.jpg" style="width: 500px; height: 500px;" /></p>
 
 <p>Given an integer <code>turnedOn</code> which represents the number of LEDs that are currently on (ignoring the PM), return <em>all possible times the watch could represent</em>. You may return the answer in <strong>any order</strong>.</p>
 

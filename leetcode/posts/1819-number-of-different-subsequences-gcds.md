@@ -4,7 +4,7 @@ summary: 1819 Number Of Different Subsequences Gcds LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1819 Number Of Different Subsequences Gcds LeetCode Solution Explained in all languages"]
+keywords: ["1819 Number Of Different Subsequences Gcds LeetCode Solution Explained in all languages", "1819 Number Of Different Subsequences Gcds", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1819 Number Of Different Subsequences Gcds - Solution Explained/problem-solving.webp
     alt: 1819 Number Of Different Subsequences Gcds
@@ -36,7 +36,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1819.Number%20of%20Different%20Subsequences%20GCDs/images/image-1.png" style="width: 149px; height: 309px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1819.Number%20of%20Different%20Subsequences%20GCDs/images/image-1.png" style="width: 149px; height: 309px;" />
 <pre>
 <strong>Input:</strong> nums = [6,10,3]
 <strong>Output:</strong> 5

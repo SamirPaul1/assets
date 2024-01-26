@@ -4,7 +4,7 @@ summary: 1627 Graph Connectivity With Threshold LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1627 Graph Connectivity With Threshold LeetCode Solution Explained in all languages"]
+keywords: ["1627 Graph Connectivity With Threshold LeetCode Solution Explained in all languages", "1627 Graph Connectivity With Threshold", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1627 Graph Connectivity With Threshold - Solution Explained/problem-solving.webp
     alt: 1627 Graph Connectivity With Threshold
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1627.Graph%20Connectivity%20With%20Threshold/images/ex1.jpg" style="width: 382px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1627.Graph%20Connectivity%20With%20Threshold/images/ex1.jpg" style="width: 382px; height: 181px;" />
 <pre>
 <strong>Input:</strong> n = 6, threshold = 2, queries = [[1,4],[2,5],[3,6]]
 <strong>Output:</strong> [false,false,true]
@@ -51,7 +51,7 @@ only ones directly connected. The result of each query:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1627.Graph%20Connectivity%20With%20Threshold/images/tmp.jpg" style="width: 532px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1627.Graph%20Connectivity%20With%20Threshold/images/tmp.jpg" style="width: 532px; height: 302px;" />
 <pre>
 <strong>Input:</strong> n = 6, threshold = 0, queries = [[4,5],[3,4],[3,2],[2,6],[1,3]]
 <strong>Output:</strong> [true,true,true,true,true]
@@ -60,7 +60,7 @@ all divisors can be used. Since all numbers share 1 as a divisor, all cities are
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1627.Graph%20Connectivity%20With%20Threshold/images/ex3.jpg" style="width: 282px; height: 282px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1627.Graph%20Connectivity%20With%20Threshold/images/ex3.jpg" style="width: 282px; height: 282px;" />
 <pre>
 <strong>Input:</strong> n = 5, threshold = 1, queries = [[4,5],[4,5],[3,2],[2,3],[3,4]]
 <strong>Output:</strong> [false,false,false,false,false]

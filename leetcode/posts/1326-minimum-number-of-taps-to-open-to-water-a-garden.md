@@ -4,7 +4,7 @@ summary: 1326 Minimum Number Of Taps To Open To Water A Garden LeetCode Solution
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1326 Minimum Number Of Taps To Open To Water A Garden LeetCode Solution Explained in all languages"]
+keywords: ["1326 Minimum Number Of Taps To Open To Water A Garden LeetCode Solution Explained in all languages", "1326 Minimum Number Of Taps To Open To Water A Garden", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1326 Minimum Number Of Taps To Open To Water A Garden - Solution Explained/problem-solving.webp
     alt: 1326 Minimum Number Of Taps To Open To Water A Garden
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1326.Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden/images/1685_example_1.png" style="width: 525px; height: 255px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1326.Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden/images/1685_example_1.png" style="width: 525px; height: 255px;" />
 <pre>
 <strong>Input:</strong> n = 5, ranges = [3,4,1,1,0,0]
 <strong>Output:</strong> 1

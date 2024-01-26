@@ -4,7 +4,7 @@ summary: 0114 Flatten Binary Tree To Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0114 Flatten Binary Tree To Linked List LeetCode Solution Explained in all languages"]
+keywords: ["0114 Flatten Binary Tree To Linked List LeetCode Solution Explained in all languages", "0114 Flatten Binary Tree To Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0114 Flatten Binary Tree To Linked List - Solution Explained/problem-solving.webp
     alt: 0114 Flatten Binary Tree To Linked List
@@ -27,7 +27,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0114.Flatten%20Binary%20Tree%20to%20Linked%20List/images/flaten.jpg" style="width: 500px; height: 226px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0114.Flatten%20Binary%20Tree%20to%20Linked%20List/images/flaten.jpg" style="width: 500px; height: 226px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,5,3,4,null,6]
 <strong>Output:</strong> [1,null,2,null,3,null,4,null,5,null,6]

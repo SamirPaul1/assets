@@ -4,7 +4,7 @@ summary: 1552 Magnetic Force Between Two Balls LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1552 Magnetic Force Between Two Balls LeetCode Solution Explained in all languages"]
+keywords: ["1552 Magnetic Force Between Two Balls LeetCode Solution Explained in all languages", "1552 Magnetic Force Between Two Balls", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1552 Magnetic Force Between Two Balls - Solution Explained/problem-solving.webp
     alt: 1552 Magnetic Force Between Two Balls
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1552.Magnetic%20Force%20Between%20Two%20Balls/images/q3v1.jpg" style="width: 562px; height: 195px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1552.Magnetic%20Force%20Between%20Two%20Balls/images/q3v1.jpg" style="width: 562px; height: 195px;" />
 <pre>
 <strong>Input:</strong> position = [1,2,3,4,7], m = 3
 <strong>Output:</strong> 3

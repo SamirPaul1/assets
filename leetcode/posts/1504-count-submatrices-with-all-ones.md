@@ -4,7 +4,7 @@ summary: 1504 Count Submatrices With All Ones LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1504 Count Submatrices With All Ones LeetCode Solution Explained in all languages"]
+keywords: ["1504 Count Submatrices With All Ones LeetCode Solution Explained in all languages", "1504 Count Submatrices With All Ones", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1504 Count Submatrices With All Ones - Solution Explained/problem-solving.webp
     alt: 1504 Count Submatrices With All Ones
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1504.Count%20Submatrices%20With%20All%20Ones/images/ones1-grid.jpg" style="width: 244px; height: 245px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1504.Count%20Submatrices%20With%20All%20Ones/images/ones1-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
 <strong>Input:</strong> mat = [[1,0,1],[1,1,0],[1,1,0]]
 <strong>Output:</strong> 13
@@ -36,7 +36,7 @@ Total number of rectangles = 6 + 2 + 3 + 1 + 1 = 13.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1504.Count%20Submatrices%20With%20All%20Ones/images/ones2-grid.jpg" style="width: 324px; height: 245px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1504.Count%20Submatrices%20With%20All%20Ones/images/ones2-grid.jpg" style="width: 324px; height: 245px;" />
 <pre>
 <strong>Input:</strong> mat = [[0,1,1,0],[0,1,1,1],[1,1,1,0]]
 <strong>Output:</strong> 24

@@ -4,7 +4,7 @@ summary: 2538 Difference Between Maximum And Minimum Price Sum LeetCode Solution
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2538 Difference Between Maximum And Minimum Price Sum LeetCode Solution Explained in all languages"]
+keywords: ["2538 Difference Between Maximum And Minimum Price Sum LeetCode Solution Explained in all languages", "2538 Difference Between Maximum And Minimum Price Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2538 Difference Between Maximum And Minimum Price Sum - Solution Explained/problem-solving.webp
     alt: 2538 Difference Between Maximum And Minimum Price Sum
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2538.Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/images/example14.png" style="width: 556px; height: 231px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2538.Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/images/example14.png" style="width: 556px; height: 231px;" />
 <pre>
 <strong>Input:</strong> n = 6, edges = [[0,1],[1,2],[1,3],[3,4],[3,5]], price = [9,8,7,6,10,5]
 <strong>Output:</strong> 24
@@ -41,7 +41,7 @@ The difference between the maximum and minimum price sum is 24. It can be proved
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2538.Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/images/p1_example2.png" style="width: 352px; height: 184px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2538.Difference%20Between%20Maximum%20and%20Minimum%20Price%20Sum/images/p1_example2.png" style="width: 352px; height: 184px;" />
 <pre>
 <strong>Input:</strong> n = 3, edges = [[0,1],[1,2]], price = [1,1,1]
 <strong>Output:</strong> 2

@@ -4,7 +4,7 @@ summary: 2579 Count Total Number Of Colored Cells LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2579 Count Total Number Of Colored Cells LeetCode Solution Explained in all languages"]
+keywords: ["2579 Count Total Number Of Colored Cells LeetCode Solution Explained in all languages", "2579 Count Total Number Of Colored Cells", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2579 Count Total Number Of Colored Cells - Solution Explained/problem-solving.webp
     alt: 2579 Count Total Number Of Colored Cells
@@ -26,7 +26,7 @@ cover:
 </ul>
 
 <p>Below is a pictorial representation of the state of the grid after minutes 1, 2, and 3.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2579.Count%20Total%20Number%20of%20Colored%20Cells/images/example-copy-2.png" style="width: 500px; height: 279px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2579.Count%20Total%20Number%20of%20Colored%20Cells/images/example-copy-2.png" style="width: 500px; height: 279px;" />
 <p>Return <em>the number of <strong>colored cells</strong> at the end of </em><code>n</code> <em>minutes</em>.</p>
 
 <p>&nbsp;</p>

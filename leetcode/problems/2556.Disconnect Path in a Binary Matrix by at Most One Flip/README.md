@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid2drawio.png" style="width: 441px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid2drawio.png" style="width: 441px; height: 151px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,0,0],[1,1,1]]
 <strong>Output:</strong> true
@@ -22,7 +22,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid3drawio.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid3drawio.png" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,0,1],[1,1,1]]
 <strong>Output:</strong> false

@@ -4,7 +4,7 @@ summary: 0364 Nested List Weight Sum Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0364 Nested List Weight Sum Ii LeetCode Solution Explained in all languages"]
+keywords: ["0364 Nested List Weight Sum Ii LeetCode Solution Explained in all languages", "0364 Nested List Weight Sum Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0364 Nested List Weight Sum Ii - Solution Explained/problem-solving.webp
     alt: 0364 Nested List Weight Sum Ii
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0364.Nested%20List%20Weight%20Sum%20II/images/nestedlistweightsumiiex1.png" style="width: 426px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0364.Nested%20List%20Weight%20Sum%20II/images/nestedlistweightsumiiex1.png" style="width: 426px; height: 181px;" />
 <pre>
 <strong>Input:</strong> nestedList = [[1,1],2,[1,1]]
 <strong>Output:</strong> 8
@@ -37,7 +37,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0364.Nested%20List%20Weight%20Sum%20II/images/nestedlistweightsumiiex2.png" style="width: 349px; height: 192px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0364.Nested%20List%20Weight%20Sum%20II/images/nestedlistweightsumiiex2.png" style="width: 349px; height: 192px;" />
 <pre>
 <strong>Input:</strong> nestedList = [1,[4,[6]]]
 <strong>Output:</strong> 17

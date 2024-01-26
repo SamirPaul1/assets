@@ -4,7 +4,7 @@ summary: 0094 Binary Tree Inorder Traversal LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0094 Binary Tree Inorder Traversal LeetCode Solution Explained in all languages"]
+keywords: ["0094 Binary Tree Inorder Traversal LeetCode Solution Explained in all languages", "0094 Binary Tree Inorder Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0094 Binary Tree Inorder Traversal - Solution Explained/problem-solving.webp
     alt: 0094 Binary Tree Inorder Traversal
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0094.Binary%20Tree%20Inorder%20Traversal/images/inorder_1.jpg" style="width: 125px; height: 200px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0094.Binary%20Tree%20Inorder%20Traversal/images/inorder_1.jpg" style="width: 125px; height: 200px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,2,3]
 <strong>Output:</strong> [1,3,2]

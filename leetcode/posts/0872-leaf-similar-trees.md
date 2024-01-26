@@ -4,7 +4,7 @@ summary: 0872 Leaf Similar Trees LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0872 Leaf Similar Trees LeetCode Solution Explained in all languages"]
+keywords: ["0872 Leaf Similar Trees LeetCode Solution Explained in all languages", "0872 Leaf Similar Trees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0872 Leaf Similar Trees - Solution Explained/problem-solving.webp
     alt: 0872 Leaf Similar Trees
@@ -20,7 +20,7 @@ cover:
 
 <p>Consider all the leaves of a binary tree, from&nbsp;left to right order, the values of those&nbsp;leaves form a <strong>leaf value sequence</strong><em>.</em></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0872.Leaf-Similar%20Trees/images/tree.png" style="width: 400px; height: 336px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/0872.Leaf-Similar%20Trees/images/tree.png" style="width: 400px; height: 336px;" /></p>
 
 <p>For example, in the given tree above, the leaf value sequence is <code>(6, 7, 4, 9, 8)</code>.</p>
 
@@ -30,14 +30,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0872.Leaf-Similar%20Trees/images/leaf-similar-1.jpg" style="width: 600px; height: 237px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0872.Leaf-Similar%20Trees/images/leaf-similar-1.jpg" style="width: 600px; height: 237px;" />
 <pre>
 <strong>Input:</strong> root1 = [3,5,1,6,2,9,8,null,null,7,4], root2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0872.Leaf-Similar%20Trees/images/leaf-similar-2.jpg" style="width: 300px; height: 110px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0872.Leaf-Similar%20Trees/images/leaf-similar-2.jpg" style="width: 300px; height: 110px;" />
 <pre>
 <strong>Input:</strong> root1 = [1,2,3], root2 = [1,3,2]
 <strong>Output:</strong> false

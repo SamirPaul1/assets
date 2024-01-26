@@ -4,7 +4,7 @@ summary: 2268 Minimum Number Of Keypresses LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2268 Minimum Number Of Keypresses LeetCode Solution Explained in all languages"]
+keywords: ["2268 Minimum Number Of Keypresses LeetCode Solution Explained in all languages", "2268 Minimum Number Of Keypresses", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2268 Minimum Number Of Keypresses - Solution Explained/problem-solving.webp
     alt: 2268 Minimum Number Of Keypresses
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2268.Minimum%20Number%20of%20Keypresses/images/image-20220505184346-1.png" style="width: 300px; height: 293px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2268.Minimum%20Number%20of%20Keypresses/images/image-20220505184346-1.png" style="width: 300px; height: 293px;" />
 <pre>
 <strong>Input:</strong> s = &quot;apple&quot;
 <strong>Output:</strong> 5
@@ -48,7 +48,7 @@ A total of 5 button presses are needed, so return 5.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2268.Minimum%20Number%20of%20Keypresses/images/image-20220505203823-1.png" style="width: 300px; height: 288px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2268.Minimum%20Number%20of%20Keypresses/images/image-20220505203823-1.png" style="width: 300px; height: 288px;" />
 <pre>
 <strong>Input:</strong> s = &quot;abcdefghijkl&quot;
 <strong>Output:</strong> 15

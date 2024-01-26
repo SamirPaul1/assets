@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex1drawio.png" style="width: 290px; height: 215px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex1drawio.png" style="width: 290px; height: 215px;" />
 <pre>
 <strong>Input:</strong> n = 5, roads = [[0,1],[1,2],[2,3],[0,2],[1,3],[2,4]]
 <strong>Output:</strong> 43
@@ -30,7 +30,7 @@ It can be shown that we cannot obtain a greater total importance than 43.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex2drawio.png" style="width: 281px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex2drawio.png" style="width: 281px; height: 151px;" />
 <pre>
 <strong>Input:</strong> n = 5, roads = [[0,3],[2,4],[1,3]]
 <strong>Output:</strong> 20

@@ -4,7 +4,7 @@ summary: 2277 Closest Node To Path In Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2277 Closest Node To Path In Tree LeetCode Solution Explained in all languages"]
+keywords: ["2277 Closest Node To Path In Tree LeetCode Solution Explained in all languages", "2277 Closest Node To Path In Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2277 Closest Node To Path In Tree - Solution Explained/problem-solving.webp
     alt: 2277 Closest Node To Path In Tree
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2277.Closest%20Node%20to%20Path%20in%20Tree/images/image-20220514132158-1.png" style="width: 300px; height: 211px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2277.Closest%20Node%20to%20Path%20in%20Tree/images/image-20220514132158-1.png" style="width: 300px; height: 211px;" />
 <pre>
 <strong>Input:</strong> n = 7, edges = [[0,1],[0,2],[0,3],[1,4],[2,5],[2,6]], query = [[5,3,4],[5,3,6]]
 <strong>Output:</strong> [0,2]
@@ -39,7 +39,7 @@ Node 2 is the node on the path closest to node 6, so the answer to the second qu
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2277.Closest%20Node%20to%20Path%20in%20Tree/images/image-20220514132318-2.png" style="width: 300px; height: 89px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2277.Closest%20Node%20to%20Path%20in%20Tree/images/image-20220514132318-2.png" style="width: 300px; height: 89px;" />
 <pre>
 <strong>Input:</strong> n = 3, edges = [[0,1],[1,2]], query = [[0,1,2]]
 <strong>Output:</strong> [1]
@@ -50,7 +50,7 @@ Node 1 is the node on the path closest to node 2, so the answer to the first que
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2277.Closest%20Node%20to%20Path%20in%20Tree/images/image-20220514132333-3.png" style="width: 300px; height: 89px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2277.Closest%20Node%20to%20Path%20in%20Tree/images/image-20220514132333-3.png" style="width: 300px; height: 89px;" />
 <pre>
 <strong>Input:</strong> n = 3, edges = [[0,1],[1,2]], query = [[0,0,0]]
 <strong>Output:</strong> [0]

@@ -19,7 +19,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2397.Maximum%20Rows%20Covered%20by%20Columns/images/rowscovered.png" style="width: 240px; height: 400px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2397.Maximum%20Rows%20Covered%20by%20Columns/images/rowscovered.png" style="width: 240px; height: 400px;" />
 <pre>
 <strong>Input:</strong> matrix = [[0,0,0],[1,0,1],[0,1,1],[0,0,1]], numSelect = 2
 <strong>Output:</strong> 3
@@ -34,7 +34,7 @@ Note that s = {1, 2} will also cover 3 rows, but it can be shown that no more th
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2397.Maximum%20Rows%20Covered%20by%20Columns/images/rowscovered2.png" style="height: 250px; width: 84px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2397.Maximum%20Rows%20Covered%20by%20Columns/images/rowscovered2.png" style="height: 250px; width: 84px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1],[0]], numSelect = 1
 <strong>Output:</strong> 2

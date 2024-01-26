@@ -4,7 +4,7 @@ summary: 1162 As Far From Land As Possible LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1162 As Far From Land As Possible LeetCode Solution Explained in all languages"]
+keywords: ["1162 As Far From Land As Possible LeetCode Solution Explained in all languages", "1162 As Far From Land As Possible", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1162 As Far From Land As Possible - Solution Explained/problem-solving.webp
     alt: 1162 As Far From Land As Possible
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1162.As%20Far%20from%20Land%20as%20Possible/images/1336_ex1.jpg" style="width: 185px; height: 87px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1162.As%20Far%20from%20Land%20as%20Possible/images/1336_ex1.jpg" style="width: 185px; height: 87px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,1],[0,0,0],[1,0,1]]
 <strong>Output:</strong> 2
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1162.As%20Far%20from%20Land%20as%20Possible/images/1336_ex2.jpg" style="width: 184px; height: 87px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1162.As%20Far%20from%20Land%20as%20Possible/images/1336_ex2.jpg" style="width: 184px; height: 87px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,0],[0,0,0],[0,0,0]]
 <strong>Output:</strong> 4

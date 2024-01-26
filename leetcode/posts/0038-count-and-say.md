@@ -4,7 +4,7 @@ summary: 0038 Count And Say LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0038 Count And Say LeetCode Solution Explained in all languages"]
+keywords: ["0038 Count And Say LeetCode Solution Explained in all languages", "0038 Count And Say", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0038 Count And Say - Solution Explained/problem-solving.webp
     alt: 0038 Count And Say
@@ -28,7 +28,7 @@ cover:
 <p>To determine how you &quot;say&quot; a digit string, split it into the <strong>minimal</strong> number of substrings such that each substring contains exactly <strong>one</strong> unique digit. Then for each substring, say the number of digits, then say the digit. Finally, concatenate every said digit.</p>
 
 <p>For example, the saying and conversion for digit string <code>&quot;3322251&quot;</code>:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0038.Count%20and%20Say/images/countandsay.jpg" style="width: 581px; height: 172px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0038.Count%20and%20Say/images/countandsay.jpg" style="width: 581px; height: 172px;" />
 <p>Given a positive integer <code>n</code>, return <em>the </em><code>n<sup>th</sup></code><em> term of the <strong>count-and-say</strong> sequence</em>.</p>
 
 <p>&nbsp;</p>

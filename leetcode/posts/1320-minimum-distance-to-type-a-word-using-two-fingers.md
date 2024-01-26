@@ -4,7 +4,7 @@ summary: 1320 Minimum Distance To Type A Word Using Two Fingers LeetCode Solutio
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1320 Minimum Distance To Type A Word Using Two Fingers LeetCode Solution Explained in all languages"]
+keywords: ["1320 Minimum Distance To Type A Word Using Two Fingers LeetCode Solution Explained in all languages", "1320 Minimum Distance To Type A Word Using Two Fingers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1320 Minimum Distance To Type A Word Using Two Fingers - Solution Explained/problem-solving.webp
     alt: 1320 Minimum Distance To Type A Word Using Two Fingers
@@ -18,7 +18,7 @@ cover:
 
 ## Description
 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1320.Minimum%20Distance%20to%20Type%20a%20Word%20Using%20Two%20Fingers/images/leetcode_keyboard.png" style="width: 349px; height: 209px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1320.Minimum%20Distance%20to%20Type%20a%20Word%20Using%20Two%20Fingers/images/leetcode_keyboard.png" style="width: 349px; height: 209px;" />
 <p>You have a keyboard layout as shown above in the <strong>X-Y</strong> plane, where each English uppercase letter is located at some coordinate.</p>
 
 <ul>

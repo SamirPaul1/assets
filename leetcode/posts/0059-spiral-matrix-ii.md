@@ -4,7 +4,7 @@ summary: 0059 Spiral Matrix Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0059 Spiral Matrix Ii LeetCode Solution Explained in all languages"]
+keywords: ["0059 Spiral Matrix Ii LeetCode Solution Explained in all languages", "0059 Spiral Matrix Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0059 Spiral Matrix Ii - Solution Explained/problem-solving.webp
     alt: 0059 Spiral Matrix Ii
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0059.Spiral%20Matrix%20II/images/spiraln.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0059.Spiral%20Matrix%20II/images/spiraln.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> n = 3
 <strong>Output:</strong> [[1,2,3],[8,9,4],[7,6,5]]

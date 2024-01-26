@@ -4,7 +4,7 @@ summary: 1521 Find A Value Of A Mysterious Function Closest To Target LeetCode S
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1521 Find A Value Of A Mysterious Function Closest To Target LeetCode Solution Explained in all languages"]
+keywords: ["1521 Find A Value Of A Mysterious Function Closest To Target LeetCode Solution Explained in all languages", "1521 Find A Value Of A Mysterious Function Closest To Target", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1521 Find A Value Of A Mysterious Function Closest To Target - Solution Explained/problem-solving.webp
     alt: 1521 Find A Value Of A Mysterious Function Closest To Target
@@ -18,7 +18,7 @@ cover:
 
 ## Description
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1521.Find%20a%20Value%20of%20a%20Mysterious%20Function%20Closest%20to%20Target/images/change.png" style="width: 635px; height: 312px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1521.Find%20a%20Value%20of%20a%20Mysterious%20Function%20Closest%20to%20Target/images/change.png" style="width: 635px; height: 312px;" /></p>
 
 <p>Winston was given the above mysterious function <code>func</code>. He has an integer array <code>arr</code> and an integer <code>target</code> and he wants to find the values <code>l</code> and <code>r</code> that make the value <code>|func(arr, l, r) - target|</code> minimum possible.</p>
 

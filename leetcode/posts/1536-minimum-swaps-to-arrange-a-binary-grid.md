@@ -4,7 +4,7 @@ summary: 1536 Minimum Swaps To Arrange A Binary Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1536 Minimum Swaps To Arrange A Binary Grid LeetCode Solution Explained in all languages"]
+keywords: ["1536 Minimum Swaps To Arrange A Binary Grid LeetCode Solution Explained in all languages", "1536 Minimum Swaps To Arrange A Binary Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1536 Minimum Swaps To Arrange A Binary Grid - Solution Explained/problem-solving.webp
     alt: 1536 Minimum Swaps To Arrange A Binary Grid
@@ -28,14 +28,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1536.Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/images/fw.jpg" style="width: 750px; height: 141px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1536.Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/images/fw.jpg" style="width: 750px; height: 141px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,1],[1,1,0],[1,0,0]]
 <strong>Output:</strong> 3
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1536.Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/images/e2.jpg" style="width: 270px; height: 270px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1536.Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/images/e2.jpg" style="width: 270px; height: 270px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0]]
 <strong>Output:</strong> -1
@@ -43,7 +43,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1536.Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/images/e3.jpg" style="width: 200px; height: 200px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1536.Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid/images/e3.jpg" style="width: 200px; height: 200px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,0,0],[1,1,0],[1,1,1]]
 <strong>Output:</strong> 0

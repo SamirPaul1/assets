@@ -4,7 +4,7 @@ summary: 2196 Create Binary Tree From Descriptions LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2196 Create Binary Tree From Descriptions LeetCode Solution Explained in all languages"]
+keywords: ["2196 Create Binary Tree From Descriptions LeetCode Solution Explained in all languages", "2196 Create Binary Tree From Descriptions", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2196 Create Binary Tree From Descriptions - Solution Explained/problem-solving.webp
     alt: 2196 Create Binary Tree From Descriptions
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2196.Create%20Binary%20Tree%20From%20Descriptions/images/example1drawio.png" style="width: 300px; height: 236px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2196.Create%20Binary%20Tree%20From%20Descriptions/images/example1drawio.png" style="width: 300px; height: 236px;" />
 <pre>
 <strong>Input:</strong> descriptions = [[20,15,1],[20,17,0],[50,20,1],[50,80,0],[80,19,1]]
 <strong>Output:</strong> [50,20,80,15,17,19]
@@ -40,7 +40,7 @@ The resulting binary tree is shown in the diagram.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2196.Create%20Binary%20Tree%20From%20Descriptions/images/example2drawio.png" style="width: 131px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2196.Create%20Binary%20Tree%20From%20Descriptions/images/example2drawio.png" style="width: 131px; height: 300px;" />
 <pre>
 <strong>Input:</strong> descriptions = [[1,2,1],[2,3,0],[3,4,1]]
 <strong>Output:</strong> [1,2,null,null,3,4]

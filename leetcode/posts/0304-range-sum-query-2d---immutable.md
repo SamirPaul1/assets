@@ -4,7 +4,7 @@ summary: 0304 Range Sum Query 2D   Immutable LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0304 Range Sum Query 2D   Immutable LeetCode Solution Explained in all languages"]
+keywords: ["0304 Range Sum Query 2D   Immutable LeetCode Solution Explained in all languages", "0304 Range Sum Query 2D   Immutable", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0304 Range Sum Query 2D   Immutable - Solution Explained/problem-solving.webp
     alt: 0304 Range Sum Query 2D   Immutable
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0304.Range%20Sum%20Query%202D%20-%20Immutable/images/sum-grid.jpg" style="width: 415px; height: 415px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0304.Range%20Sum%20Query%202D%20-%20Immutable/images/sum-grid.jpg" style="width: 415px; height: 415px;" />
 <pre>
 <strong>Input</strong>
 [&quot;NumMatrix&quot;, &quot;sumRegion&quot;, &quot;sumRegion&quot;, &quot;sumRegion&quot;]

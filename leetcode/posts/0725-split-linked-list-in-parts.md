@@ -4,7 +4,7 @@ summary: 0725 Split Linked List In Parts LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0725 Split Linked List In Parts LeetCode Solution Explained in all languages"]
+keywords: ["0725 Split Linked List In Parts LeetCode Solution Explained in all languages", "0725 Split Linked List In Parts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0725 Split Linked List In Parts - Solution Explained/problem-solving.webp
     alt: 0725 Split Linked List In Parts
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0725.Split%20Linked%20List%20in%20Parts/images/split1-lc.jpg" style="width: 400px; height: 134px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0725.Split%20Linked%20List%20in%20Parts/images/split1-lc.jpg" style="width: 400px; height: 134px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3], k = 5
 <strong>Output:</strong> [[1],[2],[3],[],[]]
@@ -38,7 +38,7 @@ The last element output[4] is null, but its string representation as a ListNode 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0725.Split%20Linked%20List%20in%20Parts/images/split2-lc.jpg" style="width: 600px; height: 60px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0725.Split%20Linked%20List%20in%20Parts/images/split2-lc.jpg" style="width: 600px; height: 60px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4,5,6,7,8,9,10], k = 3
 <strong>Output:</strong> [[1,2,3,4],[5,6,7],[8,9,10]]

@@ -4,7 +4,7 @@ summary: 0129 Sum Root To Leaf Numbers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0129 Sum Root To Leaf Numbers LeetCode Solution Explained in all languages"]
+keywords: ["0129 Sum Root To Leaf Numbers LeetCode Solution Explained in all languages", "0129 Sum Root To Leaf Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0129 Sum Root To Leaf Numbers - Solution Explained/problem-solving.webp
     alt: 0129 Sum Root To Leaf Numbers
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0129.Sum%20Root%20to%20Leaf%20Numbers/images/num1tree.jpg" style="width: 212px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0129.Sum%20Root%20to%20Leaf%20Numbers/images/num1tree.jpg" style="width: 212px; height: 182px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3]
 <strong>Output:</strong> 25
@@ -43,7 +43,7 @@ Therefore, sum = 12 + 13 = <code>25</code>.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0129.Sum%20Root%20to%20Leaf%20Numbers/images/num2tree.jpg" style="width: 292px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0129.Sum%20Root%20to%20Leaf%20Numbers/images/num2tree.jpg" style="width: 292px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [4,9,0,5,1]
 <strong>Output:</strong> 1026

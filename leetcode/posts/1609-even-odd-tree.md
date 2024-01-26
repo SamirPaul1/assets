@@ -4,7 +4,7 @@ summary: 1609 Even Odd Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1609 Even Odd Tree LeetCode Solution Explained in all languages"]
+keywords: ["1609 Even Odd Tree LeetCode Solution Explained in all languages", "1609 Even Odd Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1609 Even Odd Tree - Solution Explained/problem-solving.webp
     alt: 1609 Even Odd Tree
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1609.Even%20Odd%20Tree/images/sample_1_1966.png" style="width: 362px; height: 229px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1609.Even%20Odd%20Tree/images/sample_1_1966.png" style="width: 362px; height: 229px;" />
 <pre>
 <strong>Input:</strong> root = [1,10,4,3,null,7,9,12,8,6,null,null,2]
 <strong>Output:</strong> true
@@ -43,7 +43,7 @@ Since levels 0 and 2 are all odd and increasing and levels 1 and 3 are all even 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1609.Even%20Odd%20Tree/images/sample_2_1966.png" style="width: 363px; height: 167px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1609.Even%20Odd%20Tree/images/sample_2_1966.png" style="width: 363px; height: 167px;" />
 <pre>
 <strong>Input:</strong> root = [5,4,2,3,3,7]
 <strong>Output:</strong> false
@@ -55,7 +55,7 @@ Node values in level 2 must be in strictly increasing order, so the tree is not 
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1609.Even%20Odd%20Tree/images/sample_1_333_1966.png" style="width: 363px; height: 167px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1609.Even%20Odd%20Tree/images/sample_1_333_1966.png" style="width: 363px; height: 167px;" />
 <pre>
 <strong>Input:</strong> root = [5,9,1,3,5,7]
 <strong>Output:</strong> false

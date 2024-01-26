@@ -4,7 +4,7 @@ summary: 0958 Check Completeness Of A Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0958 Check Completeness Of A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0958 Check Completeness Of A Binary Tree LeetCode Solution Explained in all languages", "0958 Check Completeness Of A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0958 Check Completeness Of A Binary Tree - Solution Explained/problem-solving.webp
     alt: 0958 Check Completeness Of A Binary Tree
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0958.Check%20Completeness%20of%20a%20Binary%20Tree/images/complete-binary-tree-1.png" style="width: 180px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0958.Check%20Completeness%20of%20a%20Binary%20Tree/images/complete-binary-tree-1.png" style="width: 180px; height: 145px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6]
 <strong>Output:</strong> true
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0958.Check%20Completeness%20of%20a%20Binary%20Tree/images/complete-binary-tree-2.png" style="width: 200px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0958.Check%20Completeness%20of%20a%20Binary%20Tree/images/complete-binary-tree-2.png" style="width: 200px; height: 145px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,null,7]
 <strong>Output:</strong> false

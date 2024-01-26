@@ -4,7 +4,7 @@ summary: 1104 Path In Zigzag Labelled Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1104 Path In Zigzag Labelled Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1104 Path In Zigzag Labelled Binary Tree LeetCode Solution Explained in all languages", "1104 Path In Zigzag Labelled Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1104 Path In Zigzag Labelled Binary Tree - Solution Explained/problem-solving.webp
     alt: 1104 Path In Zigzag Labelled Binary Tree
@@ -22,7 +22,7 @@ cover:
 
 <p>In the odd numbered rows (ie., the first, third, fifth,...), the labelling is left to right, while in the even numbered rows (second, fourth, sixth,...), the labelling is right to left.</p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1104.Path%20In%20Zigzag%20Labelled%20Binary%20Tree/images/tree.png" style="width: 300px; height: 138px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1104.Path%20In%20Zigzag%20Labelled%20Binary%20Tree/images/tree.png" style="width: 300px; height: 138px;" /></p>
 
 <p>Given the <code>label</code> of a node in this tree, return the labels in the path from the root of the tree to the&nbsp;node with that <code>label</code>.</p>
 

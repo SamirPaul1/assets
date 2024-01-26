@@ -4,7 +4,7 @@ summary: 1564 Put Boxes Into The Warehouse I LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1564 Put Boxes Into The Warehouse I LeetCode Solution Explained in all languages"]
+keywords: ["1564 Put Boxes Into The Warehouse I LeetCode Solution Explained in all languages", "1564 Put Boxes Into The Warehouse I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1564 Put Boxes Into The Warehouse I - Solution Explained/problem-solving.webp
     alt: 1564 Put Boxes Into The Warehouse I
@@ -33,23 +33,23 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/11.png" style="width: 400px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/11.png" style="width: 400px; height: 242px;" />
 <pre>
 <strong>Input:</strong> boxes = [4,3,4,1], warehouse = [5,3,3,4,1]
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/12.png" style="width: 280px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/12.png" style="width: 280px; height: 242px;" />
 We can first put the box of height 1 in room 4. Then we can put the box of height 3 in either of the 3 rooms 1, 2, or 3. Lastly, we can put one box of height 4 in room 0.
 There is no way we can fit all 4 boxes in the warehouse.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/21.png" style="width: 400px; height: 202px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/21.png" style="width: 400px; height: 202px;" />
 <pre>
 <strong>Input:</strong> boxes = [1,2,2,3,4], warehouse = [3,4,1,2]
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/22.png" style="width: 280px; height: 202px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1564.Put%20Boxes%20Into%20the%20Warehouse%20I/images/22.png" style="width: 280px; height: 202px;" />
 Notice that it&#39;s not possible to put the box of height 4 into the warehouse since it cannot pass the first room of height 3.
 Also, for the last two rooms, 2 and 3, only boxes of height 1 can fit.
 We can fit 3 boxes maximum as shown above. The yellow box can also be put in room 2 instead.

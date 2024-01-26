@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d1.jpg" style="width: 200px; height: 212px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d1.jpg" style="width: 200px; height: 212px;" />
 <pre>
 <strong>Input:</strong> prevRoom = [-1,0,1]
 <strong>Output:</strong> 1
@@ -20,7 +20,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d2.jpg" style="width: 200px; height: 239px;" /></strong>
+<strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1916.Count%20Ways%20to%20Build%20Rooms%20in%20an%20Ant%20Colony/images/d2.jpg" style="width: 200px; height: 239px;" /></strong>
 
 <pre>
 <strong>Input:</strong> prevRoom = [-1,0,0,1,2]

@@ -30,7 +30,7 @@ for folder_name in os.listdir(src_dir):
     md_file.write("date: 2022-11-25\n")
     md_file.write("tags: [leetcode]\n")
     md_file.write("series: [leetcode]\n")
-    md_file.write(f"keywords: [\"LeetCode\", \"leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C\", \"{title_name} LeetCode Solution Explained in all languages\"]\n")
+    md_file.write(f"keywords: [\"{title_name} LeetCode Solution Explained in all languages\", \"{title_name}\", \"LeetCode\", \"leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C\", \"GeeksforGeeks\", \"InterviewBit\", \"Coding Ninjas\", \"HackerRank\", \"HackerEarth\", \"CodeChef\", \"TopCoder\", \"AlgoExpert\", \"freeCodeCamp\", \"Codeforces\", \"GitHub\", \"AtCoder\", \"Samir Paul\"]\n")
     md_file.write("cover:\n")
     md_file.write(f"    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:{title_name} - Solution Explained/problem-solving.webp\n")
     md_file.write(f"    alt: {title_name}\n")

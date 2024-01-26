@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example1-3.svg" style="width: 401px; height: 281px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example1-3.svg" style="width: 401px; height: 281px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,0],[1,1,1],[1,2,1]]
 <strong>Output:</strong> 3
@@ -25,7 +25,7 @@ It can be shown that 3 is the minimum number of moves required to place one ston
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example2-2.svg" style="width: 401px; height: 281px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2850.Minimum%20Moves%20to%20Spread%20Stones%20Over%20Grid/images/example2-2.svg" style="width: 401px; height: 281px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,3,0],[1,0,0],[1,0,3]]
 <strong>Output:</strong> 4

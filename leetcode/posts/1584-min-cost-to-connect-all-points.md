@@ -4,7 +4,7 @@ summary: 1584 Min Cost To Connect All Points LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1584 Min Cost To Connect All Points LeetCode Solution Explained in all languages"]
+keywords: ["1584 Min Cost To Connect All Points LeetCode Solution Explained in all languages", "1584 Min Cost To Connect All Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1584 Min Cost To Connect All Points - Solution Explained/problem-solving.webp
     alt: 1584 Min Cost To Connect All Points
@@ -26,12 +26,12 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1584.Min%20Cost%20to%20Connect%20All%20Points/images/d.png" style="width: 214px; height: 268px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1584.Min%20Cost%20to%20Connect%20All%20Points/images/d.png" style="width: 214px; height: 268px;" />
 <pre>
 <strong>Input:</strong> points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
 <strong>Output:</strong> 20
 <strong>Explanation:</strong> 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1584.Min%20Cost%20to%20Connect%20All%20Points/images/c.png" style="width: 214px; height: 268px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1584.Min%20Cost%20to%20Connect%20All%20Points/images/c.png" style="width: 214px; height: 268px;" />
 We can connect the points as shown above to get the minimum cost of 20.
 Notice that there is a unique path between every pair of points.
 </pre>

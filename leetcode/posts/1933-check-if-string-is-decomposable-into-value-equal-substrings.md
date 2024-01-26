@@ -4,7 +4,7 @@ summary: 1933 Check If String Is Decomposable Into Value Equal Substrings LeetCo
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1933 Check If String Is Decomposable Into Value Equal Substrings LeetCode Solution Explained in all languages"]
+keywords: ["1933 Check If String Is Decomposable Into Value Equal Substrings LeetCode Solution Explained in all languages", "1933 Check If String Is Decomposable Into Value Equal Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1933 Check If String Is Decomposable Into Value Equal Substrings - Solution Explained/problem-solving.webp
     alt: 1933 Check If String Is Decomposable Into Value Equal Substrings

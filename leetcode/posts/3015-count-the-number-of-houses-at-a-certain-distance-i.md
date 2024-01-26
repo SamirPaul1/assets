@@ -4,7 +4,7 @@ summary: 3015 Count The Number Of Houses At A Certain Distance I LeetCode Soluti
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "3015 Count The Number Of Houses At A Certain Distance I LeetCode Solution Explained in all languages"]
+keywords: ["3015 Count The Number Of Houses At A Certain Distance I LeetCode Solution Explained in all languages", "3015 Count The Number Of Houses At A Certain Distance I", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3015 Count The Number Of Houses At A Certain Distance I - Solution Explained/problem-solving.webp
     alt: 3015 Count The Number Of Houses At A Certain Distance I
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3015.Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20I/images/example2.png" style="width: 474px; height: 197px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3015.Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20I/images/example2.png" style="width: 474px; height: 197px;" />
 <pre>
 <strong>Input:</strong> n = 3, x = 1, y = 3
 <strong>Output:</strong> [6,0,0]
@@ -44,7 +44,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3015.Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20I/images/example3.png" style="width: 668px; height: 174px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3015.Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20I/images/example3.png" style="width: 668px; height: 174px;" />
 <pre>
 <strong>Input:</strong> n = 5, x = 2, y = 4
 <strong>Output:</strong> [10,8,2,0,0]
@@ -56,7 +56,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3015.Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20I/images/example5.png" style="width: 544px; height: 130px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/3015.Count%20the%20Number%20of%20Houses%20at%20a%20Certain%20Distance%20I/images/example5.png" style="width: 544px; height: 130px;" />
 <pre>
 <strong>Input:</strong> n = 4, x = 1, y = 1
 <strong>Output:</strong> [6,4,2,0]

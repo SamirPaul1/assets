@@ -4,7 +4,7 @@ summary: 2814 Minimum Time Takes To Reach Destination Without Drowning LeetCode 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2814 Minimum Time Takes To Reach Destination Without Drowning LeetCode Solution Explained in all languages"]
+keywords: ["2814 Minimum Time Takes To Reach Destination Without Drowning LeetCode Solution Explained in all languages", "2814 Minimum Time Takes To Reach Destination Without Drowning", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2814 Minimum Time Takes To Reach Destination Without Drowning - Solution Explained/problem-solving.webp
     alt: 2814 Minimum Time Takes To Reach Destination Without Drowning
@@ -49,7 +49,7 @@ Picture (0) shows the initial state and picture (3) shows the final state when w
 It can be shown that 3 is the minimum time needed to reach from S to D.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex1.png" style="padding: 5px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 111px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex1.png" style="padding: 5px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 111px;" /></p>
 
 <p><strong class="example">Example 2:</strong></p>
 
@@ -61,7 +61,7 @@ Picture (0) shows the initial state. As you see, no matter which paths we choose
 So the answer would be -1.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex2-2.png" style="padding: 7px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 107px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2814.Minimum%20Time%20Takes%20to%20Reach%20Destination%20Without%20Drowning/images/ex2-2.png" style="padding: 7px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 600px; height: 107px;" /></p>
 
 <p><strong class="example">Example 3:</strong></p>
 

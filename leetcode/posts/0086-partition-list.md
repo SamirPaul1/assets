@@ -4,7 +4,7 @@ summary: 0086 Partition List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0086 Partition List LeetCode Solution Explained in all languages"]
+keywords: ["0086 Partition List LeetCode Solution Explained in all languages", "0086 Partition List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0086 Partition List - Solution Explained/problem-solving.webp
     alt: 0086 Partition List
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0086.Partition%20List/images/partition.jpg" style="width: 662px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0086.Partition%20List/images/partition.jpg" style="width: 662px; height: 222px;" />
 <pre>
 <strong>Input:</strong> head = [1,4,3,2,5,2], x = 3
 <strong>Output:</strong> [1,2,2,4,3,5]

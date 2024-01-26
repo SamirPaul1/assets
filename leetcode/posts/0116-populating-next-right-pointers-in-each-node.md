@@ -4,7 +4,7 @@ summary: 0116 Populating Next Right Pointers In Each Node LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0116 Populating Next Right Pointers In Each Node LeetCode Solution Explained in all languages"]
+keywords: ["0116 Populating Next Right Pointers In Each Node LeetCode Solution Explained in all languages", "0116 Populating Next Right Pointers In Each Node", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0116 Populating Next Right Pointers In Each Node - Solution Explained/problem-solving.webp
     alt: 0116 Populating Next Right Pointers In Each Node
@@ -35,7 +35,7 @@ struct Node {
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node/images/116_sample.png" style="width: 500px; height: 171px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0116.Populating%20Next%20Right%20Pointers%20in%20Each%20Node/images/116_sample.png" style="width: 500px; height: 171px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6,7]
 <strong>Output:</strong> [1,#,2,3,#,4,5,6,7,#]

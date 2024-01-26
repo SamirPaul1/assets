@@ -4,7 +4,7 @@ summary: 1606 Find Servers That Handled Most Number Of Requests LeetCode Solutio
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1606 Find Servers That Handled Most Number Of Requests LeetCode Solution Explained in all languages"]
+keywords: ["1606 Find Servers That Handled Most Number Of Requests LeetCode Solution Explained in all languages", "1606 Find Servers That Handled Most Number Of Requests", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1606 Find Servers That Handled Most Number Of Requests - Solution Explained/problem-solving.webp
     alt: 1606 Find Servers That Handled Most Number Of Requests
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1606.Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/images/load-1.png" style="width: 389px; height: 221px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1606.Find%20Servers%20That%20Handled%20Most%20Number%20of%20Requests/images/load-1.png" style="width: 389px; height: 221px;" />
 <pre>
 <strong>Input:</strong> k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3] 
 <strong>Output:</strong> [1] 

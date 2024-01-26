@@ -23,7 +23,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2445.Number%20of%20Nodes%20With%20Value%20One/images/ex1.jpg" style="width: 600px; height: 297px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2445.Number%20of%20Nodes%20With%20Value%20One/images/ex1.jpg" style="width: 600px; height: 297px;" />
 <pre>
 <strong>Input:</strong> n = 5 , queries = [1,2,5]
 <strong>Output:</strong> 3
@@ -32,7 +32,7 @@ After processing the queries, there are three red nodes (nodes with value 1): 1,
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2445.Number%20of%20Nodes%20With%20Value%20One/images/ex2.jpg" style="width: 650px; height: 88px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2445.Number%20of%20Nodes%20With%20Value%20One/images/ex2.jpg" style="width: 650px; height: 88px;" />
 <pre>
 <strong>Input:</strong> n = 3, queries = [2,3,3]
 <strong>Output:</strong> 1

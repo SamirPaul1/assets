@@ -4,7 +4,7 @@ summary: 0356 Line Reflection LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0356 Line Reflection LeetCode Solution Explained in all languages"]
+keywords: ["0356 Line Reflection LeetCode Solution Explained in all languages", "0356 Line Reflection", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0356 Line Reflection - Solution Explained/problem-solving.webp
     alt: 0356 Line Reflection
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0356.Line%20Reflection/images/356_example_1.png" style="width: 389px; height: 340px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0356.Line%20Reflection/images/356_example_1.png" style="width: 389px; height: 340px;" />
 <pre>
 <strong>Input:</strong> points = [[1,1],[-1,1]]
 <strong>Output:</strong> true
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0356.Line%20Reflection/images/356_example_2.png" style="width: 300px; height: 294px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0356.Line%20Reflection/images/356_example_2.png" style="width: 300px; height: 294px;" />
 <pre>
 <strong>Input:</strong> points = [[1,1],[-1,-1]]
 <strong>Output:</strong> false

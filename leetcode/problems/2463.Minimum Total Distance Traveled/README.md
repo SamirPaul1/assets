@@ -26,7 +26,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2463.Minimum%20Total%20Distance%20Traveled/images/example1.jpg" style="width: 500px; height: 320px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2463.Minimum%20Total%20Distance%20Traveled/images/example1.jpg" style="width: 500px; height: 320px;" />
 <pre>
 <strong>Input:</strong> robot = [0,4,6], factory = [[2,2],[6,2]]
 <strong>Output:</strong> 4
@@ -40,7 +40,7 @@ The total distance is |2 - 0| + |2 - 4| + |6 - 6| = 4. It can be shown that we c
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2463.Minimum%20Total%20Distance%20Traveled/images/example-2.jpg" style="width: 500px; height: 329px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2463.Minimum%20Total%20Distance%20Traveled/images/example-2.jpg" style="width: 500px; height: 329px;" />
 <pre>
 <strong>Input:</strong> robot = [1,-1], factory = [[-2,1],[2,1]]
 <strong>Output:</strong> 2

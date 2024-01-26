@@ -4,7 +4,7 @@ summary: 2676 Throttle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2676 Throttle LeetCode Solution Explained in all languages"]
+keywords: ["2676 Throttle LeetCode Solution Explained in all languages", "2676 Throttle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2676 Throttle - Solution Explained/problem-solving.webp
     alt: 2676 Throttle
@@ -24,7 +24,7 @@ cover:
 
 <p>For instance, <code>t = 50ms</code>, and the function was called at <code>30ms</code>, <code>40ms</code>, and <code>60ms</code>. The first function call would block calling functions for the following <code>t</code> milliseconds. The second function call would save arguments, and the third call arguments should overwrite currently stored arguments from the second call because the second and third calls are called before <code>80ms</code>. Once the delay has passed, the throttled function should be called with the latest arguments provided during the delay period, and it should also create another delay period of <code>80ms + t</code>.</p>
 
-<p><img alt="Throttle Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2676.Throttle/images/screen-shot-2023-04-08-at-120313-pm.png" style="width: 1156px; height: 372px;" />The above diagram&nbsp;shows how throttle&nbsp;will transform&nbsp;events. Each rectangle represents 100ms and the throttle&nbsp;time is 400ms. Each color represents a different set of inputs.</p>
+<p><img alt="Throttle Diagram" src="https://spcdn.pages.dev/leetcode/problems/2676.Throttle/images/screen-shot-2023-04-08-at-120313-pm.png" style="width: 1156px; height: 372px;" />The above diagram&nbsp;shows how throttle&nbsp;will transform&nbsp;events. Each rectangle represents 100ms and the throttle&nbsp;time is 400ms. Each color represents a different set of inputs.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>

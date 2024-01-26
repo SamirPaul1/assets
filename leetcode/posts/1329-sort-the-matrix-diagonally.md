@@ -4,7 +4,7 @@ summary: 1329 Sort The Matrix Diagonally LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1329 Sort The Matrix Diagonally LeetCode Solution Explained in all languages"]
+keywords: ["1329 Sort The Matrix Diagonally LeetCode Solution Explained in all languages", "1329 Sort The Matrix Diagonally", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1329 Sort The Matrix Diagonally - Solution Explained/problem-solving.webp
     alt: 1329 Sort The Matrix Diagonally
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1329.Sort%20the%20Matrix%20Diagonally/images/1482_example_1_2.png" style="width: 500px; height: 198px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1329.Sort%20the%20Matrix%20Diagonally/images/1482_example_1_2.png" style="width: 500px; height: 198px;" />
 <pre>
 <strong>Input:</strong> mat = [[3,3,1,1],[2,2,1,2],[1,1,1,2]]
 <strong>Output:</strong> [[1,1,1,1],[1,2,2,2],[1,2,3,3]]

@@ -4,7 +4,7 @@ summary: 1637 Widest Vertical Area Between Two Points Containing No Points LeetC
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1637 Widest Vertical Area Between Two Points Containing No Points LeetCode Solution Explained in all languages"]
+keywords: ["1637 Widest Vertical Area Between Two Points Containing No Points LeetCode Solution Explained in all languages", "1637 Widest Vertical Area Between Two Points Containing No Points", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1637 Widest Vertical Area Between Two Points Containing No Points - Solution Explained/problem-solving.webp
     alt: 1637 Widest Vertical Area Between Two Points Containing No Points
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1637.Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points/images/points3.png" style="width: 276px; height: 371px;" />​
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1637.Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points/images/points3.png" style="width: 276px; height: 371px;" />​
 <pre>
 <strong>Input:</strong> points = [[8,7],[9,9],[7,4],[9,7]]
 <strong>Output:</strong> 1

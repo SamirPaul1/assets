@@ -4,7 +4,7 @@ summary: 0563 Binary Tree Tilt LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0563 Binary Tree Tilt LeetCode Solution Explained in all languages"]
+keywords: ["0563 Binary Tree Tilt LeetCode Solution Explained in all languages", "0563 Binary Tree Tilt", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0563 Binary Tree Tilt - Solution Explained/problem-solving.webp
     alt: 0563 Binary Tree Tilt
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0563.Binary%20Tree%20Tilt/images/tilt1.jpg" style="width: 712px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0563.Binary%20Tree%20Tilt/images/tilt1.jpg" style="width: 712px; height: 182px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3]
 <strong>Output:</strong> 1
@@ -36,7 +36,7 @@ Sum of every tilt : 0 + 0 + 1 = 1
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0563.Binary%20Tree%20Tilt/images/tilt2.jpg" style="width: 800px; height: 203px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0563.Binary%20Tree%20Tilt/images/tilt2.jpg" style="width: 800px; height: 203px;" />
 <pre>
 <strong>Input:</strong> root = [4,2,9,3,5,null,7]
 <strong>Output:</strong> 15
@@ -51,7 +51,7 @@ Sum of every tilt : 0 + 0 + 0 + 2 + 7 + 6 = 15
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0563.Binary%20Tree%20Tilt/images/tilt3.jpg" style="width: 800px; height: 293px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0563.Binary%20Tree%20Tilt/images/tilt3.jpg" style="width: 800px; height: 293px;" />
 <pre>
 <strong>Input:</strong> root = [21,7,14,1,1,2,2,3,3]
 <strong>Output:</strong> 9

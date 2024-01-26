@@ -16,7 +16,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2477.Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/images/a4c380025e3ff0c379525e96a7d63a3.png" style="width: 303px; height: 332px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2477.Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/images/a4c380025e3ff0c379525e96a7d63a3.png" style="width: 303px; height: 332px;" />
 <pre>
 <strong>Input:</strong> roads = [[0,1],[0,2],[0,3]], seats = 5
 <strong>Output:</strong> 3
@@ -29,7 +29,7 @@ It can be proven that 3 is the minimum number of liters of fuel needed.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2477.Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/images/2.png" style="width: 274px; height: 340px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2477.Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/images/2.png" style="width: 274px; height: 340px;" />
 <pre>
 <strong>Input:</strong> roads = [[3,1],[3,2],[1,0],[0,4],[0,5],[4,6]], seats = 2
 <strong>Output:</strong> 7
@@ -46,7 +46,7 @@ It can be proven that 7 is the minimum number of liters of fuel needed.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2477.Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/images/efcf7f7be6830b8763639cfd01b690a.png" style="width: 108px; height: 86px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2477.Minimum%20Fuel%20Cost%20to%20Report%20to%20the%20Capital/images/efcf7f7be6830b8763639cfd01b690a.png" style="width: 108px; height: 86px;" />
 <pre>
 <strong>Input:</strong> roads = [], seats = 1
 <strong>Output:</strong> 0

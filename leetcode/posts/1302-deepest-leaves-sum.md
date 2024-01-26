@@ -4,7 +4,7 @@ summary: 1302 Deepest Leaves Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1302 Deepest Leaves Sum LeetCode Solution Explained in all languages"]
+keywords: ["1302 Deepest Leaves Sum LeetCode Solution Explained in all languages", "1302 Deepest Leaves Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1302 Deepest Leaves Sum - Solution Explained/problem-solving.webp
     alt: 1302 Deepest Leaves Sum
@@ -22,7 +22,7 @@ Given the <code>root</code> of a binary tree, return <em>the sum of values of it
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1302.Deepest%20Leaves%20Sum/images/1483_ex1.png" style="width: 273px; height: 265px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1302.Deepest%20Leaves%20Sum/images/1483_ex1.png" style="width: 273px; height: 265px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,null,6,7,null,null,null,null,8]
 <strong>Output:</strong> 15

@@ -4,7 +4,7 @@ summary: 1560 Most Visited Sector In A Circular Track LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1560 Most Visited Sector In A Circular Track LeetCode Solution Explained in all languages"]
+keywords: ["1560 Most Visited Sector In A Circular Track LeetCode Solution Explained in all languages", "1560 Most Visited Sector In A Circular Track", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1560 Most Visited Sector In A Circular Track - Solution Explained/problem-solving.webp
     alt: 1560 Most Visited Sector In A Circular Track
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1500-1599/1560.Most%20Visited%20Sector%20in%20%20a%20Circular%20Track/images/tmp.jpg" style="width: 433px; height: 341px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1560.Most%20Visited%20Sector%20in%20%20a%20Circular%20Track/images/tmp.jpg" style="width: 433px; height: 341px;" />
 <pre>
 <strong>Input:</strong> n = 4, rounds = [1,3,1,2]
 <strong>Output:</strong> [1,2]

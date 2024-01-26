@@ -4,7 +4,7 @@ summary: 2146 K Highest Ranked Items Within A Price Range LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2146 K Highest Ranked Items Within A Price Range LeetCode Solution Explained in all languages"]
+keywords: ["2146 K Highest Ranked Items Within A Price Range LeetCode Solution Explained in all languages", "2146 K Highest Ranked Items Within A Price Range", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2146 K Highest Ranked Items Within A Price Range - Solution Explained/problem-solving.webp
     alt: 2146 K Highest Ranked Items Within A Price Range
@@ -43,7 +43,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2146.K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/images/example1drawio.png" style="width: 200px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2146.K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/images/example1drawio.png" style="width: 200px; height: 151px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2,0,1],[1,3,0,1],[0,2,5,1]], pricing = [2,5], start = [0,0], k = 3
 <strong>Output:</strong> [[0,1],[1,1],[2,1]]
@@ -58,7 +58,7 @@ Thus, the 3 highest ranked items in the price range are (0,1), (1,1), and (2,1).
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2146.K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/images/example2drawio1.png" style="width: 200px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2146.K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/images/example2drawio1.png" style="width: 200px; height: 151px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2,0,1],[1,3,3,1],[0,2,5,1]], pricing = [2,3], start = [2,3], k = 2
 <strong>Output:</strong> [[2,1],[1,2]]
@@ -73,7 +73,7 @@ Thus, the 2 highest ranked items in the price range are (2,1) and (1,2).
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2146.K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/images/example3.png" style="width: 149px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2146.K%20Highest%20Ranked%20Items%20Within%20a%20Price%20Range/images/example3.png" style="width: 149px; height: 150px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[0,0,1],[2,3,4]], pricing = [2,3], start = [0,0], k = 3
 <strong>Output:</strong> [[2,1],[2,0]]

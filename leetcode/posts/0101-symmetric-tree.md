@@ -4,7 +4,7 @@ summary: 0101 Symmetric Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0101 Symmetric Tree LeetCode Solution Explained in all languages"]
+keywords: ["0101 Symmetric Tree LeetCode Solution Explained in all languages", "0101 Symmetric Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0101 Symmetric Tree - Solution Explained/problem-solving.webp
     alt: 0101 Symmetric Tree
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0101.Symmetric%20Tree/images/symtree1.jpg" style="width: 354px; height: 291px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0101.Symmetric%20Tree/images/symtree1.jpg" style="width: 354px; height: 291px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,2,3,4,4,3]
 <strong>Output:</strong> true
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0101.Symmetric%20Tree/images/symtree2.jpg" style="width: 308px; height: 258px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0101.Symmetric%20Tree/images/symtree2.jpg" style="width: 308px; height: 258px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,2,null,3,null,3]
 <strong>Output:</strong> false

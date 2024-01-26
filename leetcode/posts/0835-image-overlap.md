@@ -4,7 +4,7 @@ summary: 0835 Image Overlap LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0835 Image Overlap LeetCode Solution Explained in all languages"]
+keywords: ["0835 Image Overlap LeetCode Solution Explained in all languages", "0835 Image Overlap", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0835 Image Overlap - Solution Explained/problem-solving.webp
     alt: 0835 Image Overlap
@@ -28,14 +28,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0835.Image%20Overlap/images/overlap1.jpg" style="width: 450px; height: 231px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0835.Image%20Overlap/images/overlap1.jpg" style="width: 450px; height: 231px;" />
 <pre>
 <strong>Input:</strong> img1 = [[1,1,0],[0,1,0],[0,1,0]], img2 = [[0,0,0],[0,1,1],[0,0,1]]
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> We translate img1 to right by 1 unit and down by 1 unit.
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0835.Image%20Overlap/images/overlap_step1.jpg" style="width: 450px; height: 105px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0835.Image%20Overlap/images/overlap_step1.jpg" style="width: 450px; height: 105px;" />
 The number of positions that have a 1 in both images is 3 (shown in red).
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0835.Image%20Overlap/images/overlap_step2.jpg" style="width: 450px; height: 231px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0835.Image%20Overlap/images/overlap_step2.jpg" style="width: 450px; height: 231px;" />
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>

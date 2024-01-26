@@ -4,7 +4,7 @@ summary: 0606 Construct String From Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0606 Construct String From Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0606 Construct String From Binary Tree LeetCode Solution Explained in all languages", "0606 Construct String From Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0606 Construct String From Binary Tree - Solution Explained/problem-solving.webp
     alt: 0606 Construct String From Binary Tree
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0606.Construct%20String%20from%20Binary%20Tree/images/cons1-tree.jpg" style="width: 292px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0606.Construct%20String%20from%20Binary%20Tree/images/cons1-tree.jpg" style="width: 292px; height: 301px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4]
 <strong>Output:</strong> &quot;1(2(4))(3)&quot;
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0606.Construct%20String%20from%20Binary%20Tree/images/cons2-tree.jpg" style="width: 207px; height: 293px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0606.Construct%20String%20from%20Binary%20Tree/images/cons2-tree.jpg" style="width: 207px; height: 293px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,null,4]
 <strong>Output:</strong> &quot;1(2()(4))(3)&quot;

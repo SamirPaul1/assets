@@ -4,7 +4,7 @@ summary: 0892 Surface Area Of 3D Shapes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0892 Surface Area Of 3D Shapes LeetCode Solution Explained in all languages"]
+keywords: ["0892 Surface Area Of 3D Shapes LeetCode Solution Explained in all languages", "0892 Surface Area Of 3D Shapes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0892 Surface Area Of 3D Shapes - Solution Explained/problem-solving.webp
     alt: 0892 Surface Area Of 3D Shapes
@@ -28,21 +28,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0892.Surface%20Area%20of%203D%20Shapes/images/tmp-grid2.jpg" style="width: 162px; height: 162px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0892.Surface%20Area%20of%203D%20Shapes/images/tmp-grid2.jpg" style="width: 162px; height: 162px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2],[3,4]]
 <strong>Output:</strong> 34
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0892.Surface%20Area%20of%203D%20Shapes/images/tmp-grid4.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0892.Surface%20Area%20of%203D%20Shapes/images/tmp-grid4.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,0,1],[1,1,1]]
 <strong>Output:</strong> 32
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0892.Surface%20Area%20of%203D%20Shapes/images/tmp-grid5.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0892.Surface%20Area%20of%203D%20Shapes/images/tmp-grid5.jpg" style="width: 242px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[2,2,2],[2,1,2],[2,2,2]]
 <strong>Output:</strong> 46

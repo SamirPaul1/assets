@@ -4,7 +4,7 @@ summary: 1465 Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1465 Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts LeetCode Solution Explained in all languages"]
+keywords: ["1465 Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts LeetCode Solution Explained in all languages", "1465 Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1465 Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts - Solution Explained/problem-solving.webp
     alt: 1465 Maximum Area Of A Piece Of Cake After Horizontal And Vertical Cuts
@@ -29,7 +29,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1465.Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts/images/leetcode_max_area_2.png" style="width: 225px; height: 240px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1465.Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts/images/leetcode_max_area_2.png" style="width: 225px; height: 240px;" />
 <pre>
 <strong>Input:</strong> h = 5, w = 4, horizontalCuts = [1,2,4], verticalCuts = [1,3]
 <strong>Output:</strong> 4 
@@ -37,7 +37,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1465.Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts/images/leetcode_max_area_3.png" style="width: 225px; height: 240px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1465.Maximum%20Area%20of%20a%20Piece%20of%20Cake%20After%20Horizontal%20and%20Vertical%20Cuts/images/leetcode_max_area_3.png" style="width: 225px; height: 240px;" />
 <pre>
 <strong>Input:</strong> h = 5, w = 4, horizontalCuts = [3,1], verticalCuts = [1]
 <strong>Output:</strong> 6

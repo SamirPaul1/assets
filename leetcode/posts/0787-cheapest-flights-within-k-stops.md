@@ -4,7 +4,7 @@ summary: 0787 Cheapest Flights Within K Stops LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0787 Cheapest Flights Within K Stops LeetCode Solution Explained in all languages"]
+keywords: ["0787 Cheapest Flights Within K Stops LeetCode Solution Explained in all languages", "0787 Cheapest Flights Within K Stops", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0787 Cheapest Flights Within K Stops - Solution Explained/problem-solving.webp
     alt: 0787 Cheapest Flights Within K Stops
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0787.Cheapest%20Flights%20Within%20K%20Stops/images/cheapest-flights-within-k-stops-3drawio.png" style="width: 332px; height: 392px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0787.Cheapest%20Flights%20Within%20K%20Stops/images/cheapest-flights-within-k-stops-3drawio.png" style="width: 332px; height: 392px;" />
 <pre>
 <strong>Input:</strong> n = 4, flights = [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], src = 0, dst = 3, k = 1
 <strong>Output:</strong> 700
@@ -35,7 +35,7 @@ Note that the path through cities [0,1,2,3] is cheaper but is invalid because it
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0787.Cheapest%20Flights%20Within%20K%20Stops/images/cheapest-flights-within-k-stops-1drawio.png" style="width: 332px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0787.Cheapest%20Flights%20Within%20K%20Stops/images/cheapest-flights-within-k-stops-1drawio.png" style="width: 332px; height: 242px;" />
 <pre>
 <strong>Input:</strong> n = 3, flights = [[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 1
 <strong>Output:</strong> 200
@@ -45,7 +45,7 @@ The optimal path with at most 1 stop from city 0 to 2 is marked in red and has c
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0787.Cheapest%20Flights%20Within%20K%20Stops/images/cheapest-flights-within-k-stops-2drawio.png" style="width: 332px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0787.Cheapest%20Flights%20Within%20K%20Stops/images/cheapest-flights-within-k-stops-2drawio.png" style="width: 332px; height: 242px;" />
 <pre>
 <strong>Input:</strong> n = 3, flights = [[0,1,100],[1,2,100],[0,2,500]], src = 0, dst = 2, k = 0
 <strong>Output:</strong> 500

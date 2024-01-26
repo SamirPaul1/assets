@@ -4,7 +4,7 @@ summary: 2950 Number Of Divisible Substrings LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2950 Number Of Divisible Substrings LeetCode Solution Explained in all languages"]
+keywords: ["2950 Number Of Divisible Substrings LeetCode Solution Explained in all languages", "2950 Number Of Divisible Substrings", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2950 Number Of Divisible Substrings - Solution Explained/problem-solving.webp
     alt: 2950 Number Of Divisible Substrings
@@ -20,7 +20,7 @@ cover:
 
 <p>Each character of the English alphabet has been mapped to a digit as shown below.</p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2950.Number%20of%20Divisible%20Substrings/images/old_phone_digits.png" style="padding: 10px; width: 200px; height: 200px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2950.Number%20of%20Divisible%20Substrings/images/old_phone_digits.png" style="padding: 10px; width: 200px; height: 200px;" /></p>
 
 <p>A string is <strong>divisible</strong> if the sum of the mapped values of its characters is divisible by its length.</p>
 

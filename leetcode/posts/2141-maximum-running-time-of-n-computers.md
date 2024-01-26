@@ -4,7 +4,7 @@ summary: 2141 Maximum Running Time Of N Computers LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2141 Maximum Running Time Of N Computers LeetCode Solution Explained in all languages"]
+keywords: ["2141 Maximum Running Time Of N Computers LeetCode Solution Explained in all languages", "2141 Maximum Running Time Of N Computers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2141 Maximum Running Time Of N Computers - Solution Explained/problem-solving.webp
     alt: 2141 Maximum Running Time Of N Computers
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2141.Maximum%20Running%20Time%20of%20N%20Computers/images/example1-fit.png" style="width: 762px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2141.Maximum%20Running%20Time%20of%20N%20Computers/images/example1-fit.png" style="width: 762px; height: 150px;" />
 <pre>
 <strong>Input:</strong> n = 2, batteries = [3,3,3]
 <strong>Output:</strong> 4
@@ -42,7 +42,7 @@ We can run the two computers simultaneously for at most 4 minutes, so we return 
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2141.Maximum%20Running%20Time%20of%20N%20Computers/images/example2.png" style="width: 629px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2141.Maximum%20Running%20Time%20of%20N%20Computers/images/example2.png" style="width: 629px; height: 150px;" />
 <pre>
 <strong>Input:</strong> n = 2, batteries = [1,1,1,1]
 <strong>Output:</strong> 2

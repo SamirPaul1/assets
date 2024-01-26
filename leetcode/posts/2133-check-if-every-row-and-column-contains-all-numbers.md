@@ -4,7 +4,7 @@ summary: 2133 Check If Every Row And Column Contains All Numbers LeetCode Soluti
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2133 Check If Every Row And Column Contains All Numbers LeetCode Solution Explained in all languages"]
+keywords: ["2133 Check If Every Row And Column Contains All Numbers LeetCode Solution Explained in all languages", "2133 Check If Every Row And Column Contains All Numbers", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2133 Check If Every Row And Column Contains All Numbers - Solution Explained/problem-solving.webp
     alt: 2133 Check If Every Row And Column Contains All Numbers
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2133.Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers/images/example1drawio.png" style="width: 250px; height: 251px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2133.Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers/images/example1drawio.png" style="width: 250px; height: 251px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,2,3],[3,1,2],[2,3,1]]
 <strong>Output:</strong> true
@@ -33,7 +33,7 @@ Hence, we return true.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2133.Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers/images/example2drawio.png" style="width: 250px; height: 251px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2133.Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers/images/example2drawio.png" style="width: 250px; height: 251px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,1,1],[1,2,3],[1,2,3]]
 <strong>Output:</strong> false

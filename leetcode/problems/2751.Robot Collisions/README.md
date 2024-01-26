@@ -23,7 +23,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img height="169" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2751.Robot%20Collisions/images/image-20230516011718-12.png" width="808" /></p>
+<p><img height="169" src="https://spcdn.pages.dev/leetcode/problems/2751.Robot%20Collisions/images/image-20230516011718-12.png" width="808" /></p>
 
 <pre>
 <strong>Input:</strong> positions = [5,4,3,2,1], healths = [2,17,9,15,10], directions = &quot;RRRRR&quot;
@@ -33,7 +33,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img height="176" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2751.Robot%20Collisions/images/image-20230516004433-7.png" width="717" /></p>
+<p><img height="176" src="https://spcdn.pages.dev/leetcode/problems/2751.Robot%20Collisions/images/image-20230516004433-7.png" width="717" /></p>
 
 <pre>
 <strong>Input:</strong> positions = [3,5,2,6], healths = [10,10,15,12], directions = &quot;RLRL&quot;
@@ -43,7 +43,7 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><img height="172" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2751.Robot%20Collisions/images/image-20230516005114-9.png" width="732" /></p>
+<p><img height="172" src="https://spcdn.pages.dev/leetcode/problems/2751.Robot%20Collisions/images/image-20230516005114-9.png" width="732" /></p>
 
 <pre>
 <strong>Input:</strong> positions = [1,2,5,6], healths = [10,10,11,11], directions = &quot;RLRL&quot;

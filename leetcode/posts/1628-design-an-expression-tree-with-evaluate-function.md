@@ -4,7 +4,7 @@ summary: 1628 Design An Expression Tree With Evaluate Function LeetCode Solution
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1628 Design An Expression Tree With Evaluate Function LeetCode Solution Explained in all languages"]
+keywords: ["1628 Design An Expression Tree With Evaluate Function LeetCode Solution Explained in all languages", "1628 Design An Expression Tree With Evaluate Function", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1628 Design An Expression Tree With Evaluate Function - Solution Explained/problem-solving.webp
     alt: 1628 Design An Expression Tree With Evaluate Function
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram.png" style="width: 242px; height: 241px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram.png" style="width: 242px; height: 241px;" />
 <pre>
 <strong>Input:</strong> s = [&quot;3&quot;,&quot;4&quot;,&quot;+&quot;,&quot;2&quot;,&quot;*&quot;,&quot;7&quot;,&quot;/&quot;]
 <strong>Output:</strong> 2
@@ -40,7 +40,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram2.png" style="width: 222px; height: 232px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1628.Design%20an%20Expression%20Tree%20With%20Evaluate%20Function/images/untitled-diagram2.png" style="width: 222px; height: 232px;" />
 <pre>
 <strong>Input:</strong> s = [&quot;4&quot;,&quot;5&quot;,&quot;2&quot;,&quot;7&quot;,&quot;+&quot;,&quot;-&quot;,&quot;*&quot;]
 <strong>Output:</strong> -16

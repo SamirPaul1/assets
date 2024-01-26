@@ -4,7 +4,7 @@ summary: 0017 Letter Combinations Of A Phone Number LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0017 Letter Combinations Of A Phone Number LeetCode Solution Explained in all languages"]
+keywords: ["0017 Letter Combinations Of A Phone Number LeetCode Solution Explained in all languages", "0017 Letter Combinations Of A Phone Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0017 Letter Combinations Of A Phone Number - Solution Explained/problem-solving.webp
     alt: 0017 Letter Combinations Of A Phone Number
@@ -21,7 +21,7 @@ cover:
 <p>Given a string containing digits from <code>2-9</code> inclusive, return all possible letter combinations that the number could represent. Return the answer in <strong>any order</strong>.</p>
 
 <p>A mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0017.Letter%20Combinations%20of%20a%20Phone%20Number/images/1200px-telephone-keypad2svg.png" style="width: 300px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0017.Letter%20Combinations%20of%20a%20Phone%20Number/images/1200px-telephone-keypad2svg.png" style="width: 300px; height: 243px;" />
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 

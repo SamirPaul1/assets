@@ -4,7 +4,7 @@ summary: 2536 Increment Submatrices By One LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2536 Increment Submatrices By One LeetCode Solution Explained in all languages"]
+keywords: ["2536 Increment Submatrices By One LeetCode Solution Explained in all languages", "2536 Increment Submatrices By One", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2536 Increment Submatrices By One - Solution Explained/problem-solving.webp
     alt: 2536 Increment Submatrices By One
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2536.Increment%20Submatrices%20by%20One/images/p2example11.png" style="width: 531px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2536.Increment%20Submatrices%20by%20One/images/p2example11.png" style="width: 531px; height: 121px;" />
 <pre>
 <strong>Input:</strong> n = 3, queries = [[1,1,2,2],[0,0,1,1]]
 <strong>Output:</strong> [[1,1,0],[1,2,1],[0,1,1]]
@@ -40,7 +40,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2536.Increment%20Submatrices%20by%20One/images/p2example22.png" style="width: 261px; height: 82px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2536.Increment%20Submatrices%20by%20One/images/p2example22.png" style="width: 261px; height: 82px;" />
 <pre>
 <strong>Input:</strong> n = 2, queries = [[0,0,1,1]]
 <strong>Output:</strong> [[1,1],[1,1]]

@@ -4,7 +4,7 @@ summary: 1659 Maximize Grid Happiness LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1659 Maximize Grid Happiness LeetCode Solution Explained in all languages"]
+keywords: ["1659 Maximize Grid Happiness LeetCode Solution Explained in all languages", "1659 Maximize Grid Happiness", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1659 Maximize Grid Happiness - Solution Explained/problem-solving.webp
     alt: 1659 Maximize Grid Happiness
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1659.Maximize%20Grid%20Happiness/images/grid_happiness.png" style="width: 261px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1659.Maximize%20Grid%20Happiness/images/grid_happiness.png" style="width: 261px; height: 121px;" />
 <pre>
 <strong>Input:</strong> m = 2, n = 3, introvertsCount = 1, extrovertsCount = 2
 <strong>Output:</strong> 240

@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2583.Kth%20Largest%20Sum%20in%20a%20Binary%20Tree/images/binaryytreeedrawio-2.png" style="width: 301px; height: 284px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2583.Kth%20Largest%20Sum%20in%20a%20Binary%20Tree/images/binaryytreeedrawio-2.png" style="width: 301px; height: 284px;" />
 <pre>
 <strong>Input:</strong> root = [5,8,9,2,1,3,7,4,6], k = 2
 <strong>Output:</strong> 13
@@ -27,7 +27,7 @@ The 2<sup>nd</sup> largest level sum is 13.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2583.Kth%20Largest%20Sum%20in%20a%20Binary%20Tree/images/treedrawio-3.png" style="width: 181px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2583.Kth%20Largest%20Sum%20in%20a%20Binary%20Tree/images/treedrawio-3.png" style="width: 181px; height: 181px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,null,3], k = 1
 <strong>Output:</strong> 3

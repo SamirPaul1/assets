@@ -4,7 +4,7 @@ summary: 2017 Grid Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2017 Grid Game LeetCode Solution Explained in all languages"]
+keywords: ["2017 Grid Game LeetCode Solution Explained in all languages", "2017 Grid Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2017 Grid Game - Solution Explained/problem-solving.webp
     alt: 2017 Grid Game
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2017.Grid%20Game/images/a1.png" style="width: 388px; height: 103px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2017.Grid%20Game/images/a1.png" style="width: 388px; height: 103px;" />
 <pre>
 <strong>Input:</strong> grid = [[2,5,4],[1,5,1]]
 <strong>Output:</strong> 4
@@ -38,7 +38,7 @@ The second robot will collect 0 + 0 + 4 + 0 = 4 points.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2017.Grid%20Game/images/a2.png" style="width: 384px; height: 105px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2017.Grid%20Game/images/a2.png" style="width: 384px; height: 105px;" />
 <pre>
 <strong>Input:</strong> grid = [[3,3,1],[8,5,2]]
 <strong>Output:</strong> 4
@@ -48,7 +48,7 @@ The second robot will collect 0 + 3 + 1 + 0 = 4 points.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2017.Grid%20Game/images/a3.png" style="width: 493px; height: 103px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2017.Grid%20Game/images/a3.png" style="width: 493px; height: 103px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,3,1,15],[1,3,3,1]]
 <strong>Output:</strong> 7

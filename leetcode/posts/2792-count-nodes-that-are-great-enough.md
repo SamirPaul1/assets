@@ -4,7 +4,7 @@ summary: 2792 Count Nodes That Are Great Enough LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2792 Count Nodes That Are Great Enough LeetCode Solution Explained in all languages"]
+keywords: ["2792 Count Nodes That Are Great Enough LeetCode Solution Explained in all languages", "2792 Count Nodes That Are Great Enough", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2792 Count Nodes That Are Great Enough - Solution Explained/problem-solving.webp
     alt: 2792 Count Nodes That Are Great Enough
@@ -42,7 +42,7 @@ The values in the subtree of node 3: {1,2,5}. Since node.val == 5, there are 2 n
 It can be shown that other nodes are not great enough.
 See the picture below for a better understanding.</pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2792.Count%20Nodes%20That%20Are%20Great%20Enough/images/1.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 300px; height: 167px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2792.Count%20Nodes%20That%20Are%20Great%20Enough/images/1.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 300px; height: 167px;" /></p>
 
 <p><strong class="example">Example 2:</strong></p>
 
@@ -55,7 +55,7 @@ The values in the subtree of node 2: {2}. Since node.val == 2, there are no node
 The values in the subtree of node 3: {3}. Since node.val == 3, there are no nodes having a smaller value than its value. So it&#39;s not great enough.
 See the picture below for a better understanding.</pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2792.Count%20Nodes%20That%20Are%20Great%20Enough/images/2.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 123px; height: 101px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2792.Count%20Nodes%20That%20Are%20Great%20Enough/images/2.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 123px; height: 101px;" /></p>
 
 <p><strong class="example">Example 3:</strong></p>
 
@@ -68,7 +68,7 @@ The values in the subtree of node 2: {2}. Since node.val == 2, there are no node
 The values in the subtree of node 3: {2}. Since node.val == 2, there are no nodes having a smaller value than its value. So it&#39;s not great enough.
 See the picture below for a better understanding.</pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2792.Count%20Nodes%20That%20Are%20Great%20Enough/images/3.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 123px; height: 101px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2792.Count%20Nodes%20That%20Are%20Great%20Enough/images/3.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 123px; height: 101px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>

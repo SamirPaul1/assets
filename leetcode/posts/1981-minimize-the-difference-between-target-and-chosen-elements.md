@@ -4,7 +4,7 @@ summary: 1981 Minimize The Difference Between Target And Chosen Elements LeetCod
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1981 Minimize The Difference Between Target And Chosen Elements LeetCode Solution Explained in all languages"]
+keywords: ["1981 Minimize The Difference Between Target And Chosen Elements LeetCode Solution Explained in all languages", "1981 Minimize The Difference Between Target And Chosen Elements", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1981 Minimize The Difference Between Target And Chosen Elements - Solution Explained/problem-solving.webp
     alt: 1981 Minimize The Difference Between Target And Chosen Elements
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1981.Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/images/matrix1.png" style="width: 181px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1981.Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/images/matrix1.png" style="width: 181px; height: 181px;" />
 <pre>
 <strong>Input:</strong> mat = [[1,2,3],[4,5,6],[7,8,9]], target = 13
 <strong>Output:</strong> 0
@@ -40,7 +40,7 @@ The sum of the chosen elements is 13, which equals the target, so the absolute d
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1981.Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/images/matrix1-1.png" style="width: 61px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1981.Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/images/matrix1-1.png" style="width: 61px; height: 181px;" />
 <pre>
 <strong>Input:</strong> mat = [[1],[2],[3]], target = 100
 <strong>Output:</strong> 94
@@ -52,7 +52,7 @@ The sum of the chosen elements is 6, and the absolute difference is 94.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1981.Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/images/matrix1-3.png" style="width: 301px; height: 61px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1981.Minimize%20the%20Difference%20Between%20Target%20and%20Chosen%20Elements/images/matrix1-3.png" style="width: 301px; height: 61px;" />
 <pre>
 <strong>Input:</strong> mat = [[1,2,9,8,7]], target = 6
 <strong>Output:</strong> 1

@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2661.First%20Completely%20Painted%20Row%20or%20Column/images/image explanation for example 1" /><img alt="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2661.First%20Completely%20Painted%20Row%20or%20Column/images/image explanation for example 1" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2661.First%20Completely%20Painted%20Row%20or%20Column/images/grid1.jpg" style="width: 321px; height: 81px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2661.First%20Completely%20Painted%20Row%20or%20Column/images/image explanation for example 1" /><img alt="https://spcdn.pages.dev/leetcode/problems/2661.First%20Completely%20Painted%20Row%20or%20Column/images/image explanation for example 1" src="https://spcdn.pages.dev/leetcode/problems/2661.First%20Completely%20Painted%20Row%20or%20Column/images/grid1.jpg" style="width: 321px; height: 81px;" />
 <pre>
 <strong>Input:</strong> arr = [1,3,4,2], mat = [[1,4],[2,3]]
 <strong>Output:</strong> 2
@@ -20,7 +20,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="image explanation for example 2" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2661.First%20Completely%20Painted%20Row%20or%20Column/images/grid2.jpg" style="width: 601px; height: 121px;" />
+<img alt="image explanation for example 2" src="https://spcdn.pages.dev/leetcode/problems/2661.First%20Completely%20Painted%20Row%20or%20Column/images/grid2.jpg" style="width: 601px; height: 121px;" />
 <pre>
 <strong>Input:</strong> arr = [2,8,7,4,1,3,5,6,9], mat = [[3,2,5],[1,4,6],[8,7,9]]
 <strong>Output:</strong> 3

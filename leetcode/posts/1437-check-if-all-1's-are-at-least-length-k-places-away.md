@@ -4,7 +4,7 @@ summary: 1437 Check If All 1'S Are At Least Length K Places Away LeetCode Soluti
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1437 Check If All 1'S Are At Least Length K Places Away LeetCode Solution Explained in all languages"]
+keywords: ["1437 Check If All 1'S Are At Least Length K Places Away LeetCode Solution Explained in all languages", "1437 Check If All 1'S Are At Least Length K Places Away", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1437 Check If All 1'S Are At Least Length K Places Away - Solution Explained/problem-solving.webp
     alt: 1437 Check If All 1'S Are At Least Length K Places Away
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1437.Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away/images/sample_1_1791.png" style="width: 428px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1437.Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away/images/sample_1_1791.png" style="width: 428px; height: 181px;" />
 <pre>
 <strong>Input:</strong> nums = [1,0,0,0,1,0,0,1], k = 2
 <strong>Output:</strong> true
@@ -30,7 +30,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1437.Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away/images/sample_2_1791.png" style="width: 320px; height: 173px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1437.Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away/images/sample_2_1791.png" style="width: 320px; height: 173px;" />
 <pre>
 <strong>Input:</strong> nums = [1,0,0,1,0,1], k = 2
 <strong>Output:</strong> false

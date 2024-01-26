@@ -4,7 +4,7 @@ summary: 2249 Count Lattice Points Inside A Circle LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2249 Count Lattice Points Inside A Circle LeetCode Solution Explained in all languages"]
+keywords: ["2249 Count Lattice Points Inside A Circle LeetCode Solution Explained in all languages", "2249 Count Lattice Points Inside A Circle", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2249 Count Lattice Points Inside A Circle - Solution Explained/problem-solving.webp
     alt: 2249 Count Lattice Points Inside A Circle
@@ -29,7 +29,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2249.Count%20Lattice%20Points%20Inside%20a%20Circle/images/exa-11.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2249.Count%20Lattice%20Points%20Inside%20a%20Circle/images/exa-11.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> circles = [[2,2,1]]
 <strong>Output:</strong> 5
@@ -40,7 +40,7 @@ Other points such as (1, 1) and (1, 3), which are shown in red, are not consider
 Hence, the number of lattice points present inside at least one circle is 5.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2249.Count%20Lattice%20Points%20Inside%20a%20Circle/images/exa-22.png" style="width: 300px; height: 300px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2249.Count%20Lattice%20Points%20Inside%20a%20Circle/images/exa-22.png" style="width: 300px; height: 300px;" />
 <pre>
 <strong>Input:</strong> circles = [[2,2,2],[3,4,1]]
 <strong>Output:</strong> 16

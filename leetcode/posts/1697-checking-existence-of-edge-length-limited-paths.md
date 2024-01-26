@@ -4,7 +4,7 @@ summary: 1697 Checking Existence Of Edge Length Limited Paths LeetCode Solution 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1697 Checking Existence Of Edge Length Limited Paths LeetCode Solution Explained in all languages"]
+keywords: ["1697 Checking Existence Of Edge Length Limited Paths LeetCode Solution Explained in all languages", "1697 Checking Existence Of Edge Length Limited Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1697 Checking Existence Of Edge Length Limited Paths - Solution Explained/problem-solving.webp
     alt: 1697 Checking Existence Of Edge Length Limited Paths
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1697.Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths/images/h.png" style="width: 267px; height: 262px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1697.Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths/images/h.png" style="width: 267px; height: 262px;" />
 <pre>
 <strong>Input:</strong> n = 3, edgeList = [[0,1,2],[1,2,4],[2,0,8],[1,0,16]], queries = [[0,1,2],[0,2,5]]
 <strong>Output:</strong> [false,true]
@@ -36,7 +36,7 @@ For the second query, there is a path (0 -&gt; 1 -&gt; 2) of two edges with dist
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1697.Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths/images/q.png" style="width: 390px; height: 358px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1697.Checking%20Existence%20of%20Edge%20Length%20Limited%20Paths/images/q.png" style="width: 390px; height: 358px;" />
 <pre>
 <strong>Input:</strong> n = 5, edgeList = [[0,1,10],[1,2,5],[2,3,9],[3,4,13]], queries = [[0,4,14],[1,4,13]]
 <strong>Output:</strong> [true,false]

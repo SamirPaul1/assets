@@ -4,7 +4,7 @@ summary: 0637 Average Of Levels In Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0637 Average Of Levels In Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0637 Average Of Levels In Binary Tree LeetCode Solution Explained in all languages", "0637 Average Of Levels In Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0637 Average Of Levels In Binary Tree - Solution Explained/problem-solving.webp
     alt: 0637 Average Of Levels In Binary Tree
@@ -22,7 +22,7 @@ Given the <code>root</code> of a binary tree, return <em>the average value of th
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0637.Average%20of%20Levels%20in%20Binary%20Tree/images/avg1-tree.jpg" style="width: 277px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0637.Average%20of%20Levels%20in%20Binary%20Tree/images/avg1-tree.jpg" style="width: 277px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,20,null,null,15,7]
 <strong>Output:</strong> [3.00000,14.50000,11.00000]
@@ -31,7 +31,7 @@ Hence return [3, 14.5, 11].
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0637.Average%20of%20Levels%20in%20Binary%20Tree/images/avg2-tree.jpg" style="width: 292px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0637.Average%20of%20Levels%20in%20Binary%20Tree/images/avg2-tree.jpg" style="width: 292px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [3,9,20,15,7]
 <strong>Output:</strong> [3.00000,14.50000,11.00000]

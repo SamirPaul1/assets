@@ -4,7 +4,7 @@ summary: 2320 Count Number Of Ways To Place Houses LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2320 Count Number Of Ways To Place Houses LeetCode Solution Explained in all languages"]
+keywords: ["2320 Count Number Of Ways To Place Houses LeetCode Solution Explained in all languages", "2320 Count Number Of Ways To Place Houses", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2320 Count Number Of Ways To Place Houses - Solution Explained/problem-solving.webp
     alt: 2320 Count Number Of Ways To Place Houses
@@ -39,7 +39,7 @@ Possible arrangements:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2320.Count%20Number%20of%20Ways%20to%20Place%20Houses/images/arrangements.png" style="width: 500px; height: 500px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2320.Count%20Number%20of%20Ways%20to%20Place%20Houses/images/arrangements.png" style="width: 500px; height: 500px;" />
 <pre>
 <strong>Input:</strong> n = 2
 <strong>Output:</strong> 9

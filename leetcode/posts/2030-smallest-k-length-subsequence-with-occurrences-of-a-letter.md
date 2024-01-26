@@ -4,7 +4,7 @@ summary: 2030 Smallest K Length Subsequence With Occurrences Of A Letter LeetCod
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2030 Smallest K Length Subsequence With Occurrences Of A Letter LeetCode Solution Explained in all languages"]
+keywords: ["2030 Smallest K Length Subsequence With Occurrences Of A Letter LeetCode Solution Explained in all languages", "2030 Smallest K Length Subsequence With Occurrences Of A Letter", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2030 Smallest K Length Subsequence With Occurrences Of A Letter - Solution Explained/problem-solving.webp
     alt: 2030 Smallest K Length Subsequence With Occurrences Of A Letter
@@ -41,7 +41,7 @@ The lexicographically smallest subsequence among them is &quot;eet&quot;.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="example-2" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2030.Smallest%20K-Length%20Subsequence%20With%20Occurrences%20of%20a%20Letter/images/smallest-k-length-subsequence.png" style="width: 339px; height: 67px;" />
+<img alt="example-2" src="https://spcdn.pages.dev/leetcode/problems/2030.Smallest%20K-Length%20Subsequence%20With%20Occurrences%20of%20a%20Letter/images/smallest-k-length-subsequence.png" style="width: 339px; height: 67px;" />
 <pre>
 <strong>Input:</strong> s = &quot;leetcode&quot;, k = 4, letter = &quot;e&quot;, repetition = 2
 <strong>Output:</strong> &quot;ecde&quot;

@@ -4,7 +4,7 @@ summary: 2493 Divide Nodes Into The Maximum Number Of Groups LeetCode Solution E
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2493 Divide Nodes Into The Maximum Number Of Groups LeetCode Solution Explained in all languages"]
+keywords: ["2493 Divide Nodes Into The Maximum Number Of Groups LeetCode Solution Explained in all languages", "2493 Divide Nodes Into The Maximum Number Of Groups", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2493 Divide Nodes Into The Maximum Number Of Groups - Solution Explained/problem-solving.webp
     alt: 2493 Divide Nodes Into The Maximum Number Of Groups
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2493.Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups/images/example1.png" style="width: 352px; height: 201px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2493.Divide%20Nodes%20Into%20the%20Maximum%20Number%20of%20Groups/images/example1.png" style="width: 352px; height: 201px;" />
 <pre>
 <strong>Input:</strong> n = 6, edges = [[1,2],[1,4],[1,5],[2,6],[2,3],[4,6]]
 <strong>Output:</strong> 4

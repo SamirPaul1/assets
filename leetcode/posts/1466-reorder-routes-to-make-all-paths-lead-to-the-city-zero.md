@@ -4,7 +4,7 @@ summary: 1466 Reorder Routes To Make All Paths Lead To The City Zero LeetCode So
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1466 Reorder Routes To Make All Paths Lead To The City Zero LeetCode Solution Explained in all languages"]
+keywords: ["1466 Reorder Routes To Make All Paths Lead To The City Zero LeetCode Solution Explained in all languages", "1466 Reorder Routes To Make All Paths Lead To The City Zero", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1466 Reorder Routes To Make All Paths Lead To The City Zero - Solution Explained/problem-solving.webp
     alt: 1466 Reorder Routes To Make All Paths Lead To The City Zero
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1466.Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/images/sample_1_1819.png" style="width: 311px; height: 189px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1466.Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/images/sample_1_1819.png" style="width: 311px; height: 189px;" />
 <pre>
 <strong>Input:</strong> n = 6, connections = [[0,1],[1,3],[2,3],[4,0],[4,5]]
 <strong>Output:</strong> 3
@@ -38,7 +38,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1466.Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/images/sample_2_1819.png" style="width: 509px; height: 79px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1466.Reorder%20Routes%20to%20Make%20All%20Paths%20Lead%20to%20the%20City%20Zero/images/sample_2_1819.png" style="width: 509px; height: 79px;" />
 <pre>
 <strong>Input:</strong> n = 5, connections = [[1,0],[1,2],[3,2],[3,4]]
 <strong>Output:</strong> 2

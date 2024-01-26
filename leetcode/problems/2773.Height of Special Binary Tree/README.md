@@ -26,7 +26,7 @@
 <strong>Explanation: </strong>The given tree is shown in the following picture. Each leaf&#39;s left child is the leaf to its left (shown with the blue edges). Each leaf&#39;s right child is the leaf to its right (shown with the red edges). We can see that the graph has a height of 2.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2773.Height%20of%20Special%20Binary%20Tree/images/1.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 200px; height: 200px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2773.Height%20of%20Special%20Binary%20Tree/images/1.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 200px; height: 200px;" /></p>
 
 <p><strong class="example">Example 2:</strong></p>
 
@@ -36,7 +36,7 @@
 <strong>Explanation: </strong>The given tree is shown in the following picture. There is only one leaf, so it doesn&#39;t have any left or right child. We can see that the graph has a height of 1.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2773.Height%20of%20Special%20Binary%20Tree/images/2.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 95px; height: 122px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2773.Height%20of%20Special%20Binary%20Tree/images/2.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 95px; height: 122px;" /></p>
 
 <p><strong class="example">Example 3:</strong></p>
 
@@ -46,7 +46,7 @@
 <strong>Explanation: </strong>The given tree is shown in the following picture. Each leaf&#39;s left child is the leaf to its left (shown with the blue edges). Each leaf&#39;s right child is the leaf to its right (shown with the red edges). We can see that the graph has a height of 3.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2773.Height%20of%20Special%20Binary%20Tree/images/3.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 200px; height: 280px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2773.Height%20of%20Special%20Binary%20Tree/images/3.png" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 200px; height: 280px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>

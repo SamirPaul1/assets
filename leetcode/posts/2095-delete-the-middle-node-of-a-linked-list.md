@@ -4,7 +4,7 @@ summary: 2095 Delete The Middle Node Of A Linked List LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2095 Delete The Middle Node Of A Linked List LeetCode Solution Explained in all languages"]
+keywords: ["2095 Delete The Middle Node Of A Linked List LeetCode Solution Explained in all languages", "2095 Delete The Middle Node Of A Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2095 Delete The Middle Node Of A Linked List - Solution Explained/problem-solving.webp
     alt: 2095 Delete The Middle Node Of A Linked List
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/images/eg1drawio.png" style="width: 500px; height: 77px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/images/eg1drawio.png" style="width: 500px; height: 77px;" />
 <pre>
 <strong>Input:</strong> head = [1,3,4,7,1,2,6]
 <strong>Output:</strong> [1,3,4,1,2,6]
@@ -39,7 +39,7 @@ We return the new list after removing this node.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/images/eg2drawio.png" style="width: 250px; height: 43px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/images/eg2drawio.png" style="width: 250px; height: 43px;" />
 <pre>
 <strong>Input:</strong> head = [1,2,3,4]
 <strong>Output:</strong> [1,2,4]
@@ -49,7 +49,7 @@ For n = 4, node 2 with value 3 is the middle node, which is marked in red.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/images/eg3drawio.png" style="width: 150px; height: 58px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2095.Delete%20the%20Middle%20Node%20of%20a%20Linked%20List/images/eg3drawio.png" style="width: 150px; height: 58px;" />
 <pre>
 <strong>Input:</strong> head = [2,1]
 <strong>Output:</strong> [2]

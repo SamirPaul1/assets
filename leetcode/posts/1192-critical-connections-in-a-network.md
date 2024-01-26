@@ -4,7 +4,7 @@ summary: 1192 Critical Connections In A Network LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1192 Critical Connections In A Network LeetCode Solution Explained in all languages"]
+keywords: ["1192 Critical Connections In A Network LeetCode Solution Explained in all languages", "1192 Critical Connections In A Network", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1192 Critical Connections In A Network - Solution Explained/problem-solving.webp
     alt: 1192 Critical Connections In A Network
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1192.Critical%20Connections%20in%20a%20Network/images/1537_ex1_2.png" style="width: 198px; height: 248px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1192.Critical%20Connections%20in%20a%20Network/images/1537_ex1_2.png" style="width: 198px; height: 248px;" />
 <pre>
 <strong>Input:</strong> n = 4, connections = [[0,1],[1,2],[2,0],[1,3]]
 <strong>Output:</strong> [[1,3]]

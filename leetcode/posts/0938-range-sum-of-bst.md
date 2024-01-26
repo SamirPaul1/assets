@@ -4,7 +4,7 @@ summary: 0938 Range Sum Of Bst LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0938 Range Sum Of Bst LeetCode Solution Explained in all languages"]
+keywords: ["0938 Range Sum Of Bst LeetCode Solution Explained in all languages", "0938 Range Sum Of Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0938 Range Sum Of Bst - Solution Explained/problem-solving.webp
     alt: 0938 Range Sum Of Bst
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0938.Range%20Sum%20of%20BST/images/bst1.jpg" style="width: 400px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0938.Range%20Sum%20of%20BST/images/bst1.jpg" style="width: 400px; height: 222px;" />
 <pre>
 <strong>Input:</strong> root = [10,5,15,3,7,null,18], low = 7, high = 15
 <strong>Output:</strong> 32
@@ -30,7 +30,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0938.Range%20Sum%20of%20BST/images/bst2.jpg" style="width: 400px; height: 335px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0938.Range%20Sum%20of%20BST/images/bst2.jpg" style="width: 400px; height: 335px;" />
 <pre>
 <strong>Input:</strong> root = [10,5,15,3,7,13,18,1,null,6], low = 6, high = 10
 <strong>Output:</strong> 23

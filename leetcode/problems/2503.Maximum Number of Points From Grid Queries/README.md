@@ -19,14 +19,14 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/images/yetgriddrawio.png" style="width: 571px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/images/yetgriddrawio.png" style="width: 571px; height: 151px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2,3],[2,5,7],[3,5,1]], queries = [5,6,2]
 <strong>Output:</strong> [5,8,1]
 <strong>Explanation:</strong> The diagrams above show which cells we visit to get points for each query.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/images/yetgriddrawio-2.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2503.Maximum%20Number%20of%20Points%20From%20Grid%20Queries/images/yetgriddrawio-2.png" />
 <pre>
 <strong>Input:</strong> grid = [[5,2,1],[1,1,2]], queries = [3]
 <strong>Output:</strong> [0]

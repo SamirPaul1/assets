@@ -4,7 +4,7 @@ summary: 2500 Delete Greatest Value In Each Row LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2500 Delete Greatest Value In Each Row LeetCode Solution Explained in all languages"]
+keywords: ["2500 Delete Greatest Value In Each Row LeetCode Solution Explained in all languages", "2500 Delete Greatest Value In Each Row", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2500 Delete Greatest Value In Each Row - Solution Explained/problem-solving.webp
     alt: 2500 Delete Greatest Value In Each Row
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2500.Delete%20Greatest%20Value%20in%20Each%20Row/images/q1ex1.jpg" style="width: 600px; height: 135px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2500.Delete%20Greatest%20Value%20in%20Each%20Row/images/q1ex1.jpg" style="width: 600px; height: 135px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2,4],[3,3,1]]
 <strong>Output:</strong> 8
@@ -45,7 +45,7 @@ The final answer = 4 + 3 + 1 = 8.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2500.Delete%20Greatest%20Value%20in%20Each%20Row/images/q1ex2.jpg" style="width: 83px; height: 83px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2500.Delete%20Greatest%20Value%20in%20Each%20Row/images/q1ex2.jpg" style="width: 83px; height: 83px;" />
 <pre>
 <strong>Input:</strong> grid = [[10]]
 <strong>Output:</strong> 10

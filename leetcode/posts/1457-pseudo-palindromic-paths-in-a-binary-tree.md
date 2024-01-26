@@ -4,7 +4,7 @@ summary: 1457 Pseudo Palindromic Paths In A Binary Tree LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1457 Pseudo Palindromic Paths In A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1457 Pseudo Palindromic Paths In A Binary Tree LeetCode Solution Explained in all languages", "1457 Pseudo Palindromic Paths In A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1457 Pseudo Palindromic Paths In A Binary Tree - Solution Explained/problem-solving.webp
     alt: 1457 Pseudo Palindromic Paths In A Binary Tree
@@ -25,7 +25,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_1.png" style="width: 300px; height: 201px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_1.png" style="width: 300px; height: 201px;" /></p>
 
 <pre>
 <strong>Input:</strong> root = [2,3,1,3,1,null,1]
@@ -35,7 +35,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_2.png" style="width: 300px; height: 314px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1457.Pseudo-Palindromic%20Paths%20in%20a%20Binary%20Tree/images/palindromic_paths_2.png" style="width: 300px; height: 314px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> root = [2,1,1,1,3,null,null,null,null,null,1]

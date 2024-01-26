@@ -4,7 +4,7 @@ summary: 1886 Determine Whether Matrix Can Be Obtained By Rotation LeetCode Solu
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1886 Determine Whether Matrix Can Be Obtained By Rotation LeetCode Solution Explained in all languages"]
+keywords: ["1886 Determine Whether Matrix Can Be Obtained By Rotation LeetCode Solution Explained in all languages", "1886 Determine Whether Matrix Can Be Obtained By Rotation", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1886 Determine Whether Matrix Can Be Obtained By Rotation - Solution Explained/problem-solving.webp
     alt: 1886 Determine Whether Matrix Can Be Obtained By Rotation
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1886.Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation/images/grid3.png" style="width: 301px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1886.Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation/images/grid3.png" style="width: 301px; height: 121px;" />
 <pre>
 <strong>Input:</strong> mat = [[0,1],[1,0]], target = [[1,0],[0,1]]
 <strong>Output:</strong> true
@@ -30,7 +30,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1886.Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation/images/grid4.png" style="width: 301px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1886.Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation/images/grid4.png" style="width: 301px; height: 121px;" />
 <pre>
 <strong>Input:</strong> mat = [[0,1],[1,1]], target = [[1,0],[0,1]]
 <strong>Output:</strong> false
@@ -38,7 +38,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1886.Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation/images/grid4.png" style="width: 661px; height: 184px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1886.Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation/images/grid4.png" style="width: 661px; height: 184px;" />
 <pre>
 <strong>Input:</strong> mat = [[0,0,0],[0,1,0],[1,1,1]], target = [[1,1,1],[0,1,0],[0,0,0]]
 <strong>Output:</strong> true

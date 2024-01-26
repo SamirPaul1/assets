@@ -15,7 +15,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong class="example"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/images/diag1drawio.png" style="width: 200px; height: 176px;" /></strong></p>
+<p><strong class="example"><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/images/diag1drawio.png" style="width: 200px; height: 176px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> mat = [[3,1],[3,4]]
@@ -25,7 +25,7 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong class="example"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/images/diag3drawio.png" style="width: 200px; height: 176px;" /></strong></p>
+<p><strong class="example"><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/images/diag3drawio.png" style="width: 200px; height: 176px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> mat = [[1,1],[1,1]]
@@ -35,7 +35,7 @@
 
 <p><strong class="example">Example 3:</strong></p>
 
-<p><strong class="example"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/images/diag4drawio.png" style="width: 350px; height: 250px;" /></strong></p>
+<p><strong class="example"><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2713.Maximum%20Strictly%20Increasing%20Cells%20in%20a%20Matrix/images/diag4drawio.png" style="width: 350px; height: 250px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> mat = [[3,1,6],[-9,5,7]]

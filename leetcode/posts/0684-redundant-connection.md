@@ -4,7 +4,7 @@ summary: 0684 Redundant Connection LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0684 Redundant Connection LeetCode Solution Explained in all languages"]
+keywords: ["0684 Redundant Connection LeetCode Solution Explained in all languages", "0684 Redundant Connection", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0684 Redundant Connection - Solution Explained/problem-solving.webp
     alt: 0684 Redundant Connection
@@ -26,14 +26,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0684.Redundant%20Connection/images/reduntant1-1-graph.jpg" style="width: 222px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0684.Redundant%20Connection/images/reduntant1-1-graph.jpg" style="width: 222px; height: 222px;" />
 <pre>
 <strong>Input:</strong> edges = [[1,2],[1,3],[2,3]]
 <strong>Output:</strong> [2,3]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0684.Redundant%20Connection/images/reduntant1-2-graph.jpg" style="width: 382px; height: 222px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0684.Redundant%20Connection/images/reduntant1-2-graph.jpg" style="width: 382px; height: 222px;" />
 <pre>
 <strong>Input:</strong> edges = [[1,2],[2,3],[3,4],[1,4],[1,5]]
 <strong>Output:</strong> [1,4]

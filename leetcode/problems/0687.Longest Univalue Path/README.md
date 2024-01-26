@@ -10,7 +10,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex1.jpg" style="width: 450px; height: 238px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0687.Longest%20Univalue%20Path/images/ex1.jpg" style="width: 450px; height: 238px;" />
 <pre>
 <strong>Input:</strong> root = [5,4,5,1,1,null,5]
 <strong>Output:</strong> 2
@@ -18,7 +18,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0600-0699/0687.Longest%20Univalue%20Path/images/ex2.jpg" style="width: 450px; height: 238px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0687.Longest%20Univalue%20Path/images/ex2.jpg" style="width: 450px; height: 238px;" />
 <pre>
 <strong>Input:</strong> root = [1,4,5,4,4,null,5]
 <strong>Output:</strong> 2

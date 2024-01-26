@@ -4,7 +4,7 @@ summary: 1782 Count Pairs Of Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1782 Count Pairs Of Nodes LeetCode Solution Explained in all languages"]
+keywords: ["1782 Count Pairs Of Nodes LeetCode Solution Explained in all languages", "1782 Count Pairs Of Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1782 Count Pairs Of Nodes - Solution Explained/problem-solving.webp
     alt: 1782 Count Pairs Of Nodes
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1700-1799/1782.Count%20Pairs%20Of%20Nodes/images/winword_2021-06-08_00-58-39.png" style="width: 529px; height: 305px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1782.Count%20Pairs%20Of%20Nodes/images/winword_2021-06-08_00-58-39.png" style="width: 529px; height: 305px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]
 <strong>Output:</strong> [6,5]

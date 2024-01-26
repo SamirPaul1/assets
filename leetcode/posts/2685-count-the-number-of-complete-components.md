@@ -4,7 +4,7 @@ summary: 2685 Count The Number Of Complete Components LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2685 Count The Number Of Complete Components LeetCode Solution Explained in all languages"]
+keywords: ["2685 Count The Number Of Complete Components LeetCode Solution Explained in all languages", "2685 Count The Number Of Complete Components", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2685 Count The Number Of Complete Components - Solution Explained/problem-solving.webp
     alt: 2685 Count The Number Of Complete Components
@@ -29,7 +29,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong class="example"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2685.Count%20the%20Number%20of%20Complete%20Components/images/screenshot-from-2023-04-11-23-31-23.png" style="width: 671px; height: 270px;" /></strong></p>
+<p><strong class="example"><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2685.Count%20the%20Number%20of%20Complete%20Components/images/screenshot-from-2023-04-11-23-31-23.png" style="width: 671px; height: 270px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> n = 6, edges = [[0,1],[0,2],[1,2],[3,4]]
@@ -39,7 +39,7 @@ cover:
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong class="example"><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2685.Count%20the%20Number%20of%20Complete%20Components/images/screenshot-from-2023-04-11-23-32-00.png" style="width: 671px; height: 270px;" /></strong></p>
+<p><strong class="example"><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2685.Count%20the%20Number%20of%20Complete%20Components/images/screenshot-from-2023-04-11-23-32-00.png" style="width: 671px; height: 270px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> n = 6, edges = [[0,1],[0,2],[1,2],[3,4],[3,5]]

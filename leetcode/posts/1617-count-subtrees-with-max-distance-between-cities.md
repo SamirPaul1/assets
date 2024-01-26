@@ -4,7 +4,7 @@ summary: 1617 Count Subtrees With Max Distance Between Cities LeetCode Solution 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1617 Count Subtrees With Max Distance Between Cities LeetCode Solution Explained in all languages"]
+keywords: ["1617 Count Subtrees With Max Distance Between Cities LeetCode Solution Explained in all languages", "1617 Count Subtrees With Max Distance Between Cities", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1617 Count Subtrees With Max Distance Between Cities - Solution Explained/problem-solving.webp
     alt: 1617 Count Subtrees With Max Distance Between Cities
@@ -31,7 +31,7 @@ cover:
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1617.Count%20Subtrees%20With%20Max%20Distance%20Between%20Cities/images/p1.png" style="width: 161px; height: 181px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1617.Count%20Subtrees%20With%20Max%20Distance%20Between%20Cities/images/p1.png" style="width: 161px; height: 181px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> n = 4, edges = [[1,2],[2,3],[2,4]]

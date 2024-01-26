@@ -13,7 +13,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2577.Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/images/yetgriddrawio-8.png" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2577.Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/images/yetgriddrawio-8.png" /></p>
 
 <pre>
 <strong>Input:</strong> grid = [[0,1,3,2],[5,1,2,5],[4,3,8,6]]
@@ -32,7 +32,7 @@ The final time is 7. It can be shown that it is the minimum time possible.
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2577.Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/images/yetgriddrawio-9.png" style="width: 151px; height: 151px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2577.Minimum%20Time%20to%20Visit%20a%20Cell%20In%20a%20Grid/images/yetgriddrawio-9.png" style="width: 151px; height: 151px;" /></p>
 
 <pre>
 <strong>Input:</strong> grid = [[0,2,4],[3,2,1],[1,0,4]]

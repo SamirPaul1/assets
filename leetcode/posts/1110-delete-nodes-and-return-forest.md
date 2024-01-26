@@ -4,7 +4,7 @@ summary: 1110 Delete Nodes And Return Forest LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1110 Delete Nodes And Return Forest LeetCode Solution Explained in all languages"]
+keywords: ["1110 Delete Nodes And Return Forest LeetCode Solution Explained in all languages", "1110 Delete Nodes And Return Forest", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1110 Delete Nodes And Return Forest - Solution Explained/problem-solving.webp
     alt: 1110 Delete Nodes And Return Forest
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1110.Delete%20Nodes%20And%20Return%20Forest/images/screen-shot-2019-07-01-at-53836-pm.png" style="width: 237px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1110.Delete%20Nodes%20And%20Return%20Forest/images/screen-shot-2019-07-01-at-53836-pm.png" style="width: 237px; height: 150px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6,7], to_delete = [3,5]
 <strong>Output:</strong> [[1,2,null,4],[6],[7]]

@@ -4,7 +4,7 @@ summary: 2876 Count Visited Nodes In A Directed Graph LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2876 Count Visited Nodes In A Directed Graph LeetCode Solution Explained in all languages"]
+keywords: ["2876 Count Visited Nodes In A Directed Graph LeetCode Solution Explained in all languages", "2876 Count Visited Nodes In A Directed Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2876 Count Visited Nodes In A Directed Graph - Solution Explained/problem-solving.webp
     alt: 2876 Count Visited Nodes In A Directed Graph
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaphdrawio-1.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaphdrawio-1.png" />
 <pre>
 <strong>Input:</strong> edges = [1,2,0,0]
 <strong>Output:</strong> [3,3,3,4]
@@ -44,7 +44,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2800-2899/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaph2drawio.png" style="width: 191px; height: 251px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2876.Count%20Visited%20Nodes%20in%20a%20Directed%20Graph/images/graaph2drawio.png" style="width: 191px; height: 251px;" />
 <pre>
 <strong>Input:</strong> edges = [1,2,3,4,0]
 <strong>Output:</strong> [5,5,5,5,5]

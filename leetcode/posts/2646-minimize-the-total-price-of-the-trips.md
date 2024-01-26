@@ -4,7 +4,7 @@ summary: 2646 Minimize The Total Price Of The Trips LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2646 Minimize The Total Price Of The Trips LeetCode Solution Explained in all languages"]
+keywords: ["2646 Minimize The Total Price Of The Trips LeetCode Solution Explained in all languages", "2646 Minimize The Total Price Of The Trips", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2646 Minimize The Total Price Of The Trips - Solution Explained/problem-solving.webp
     alt: 2646 Minimize The Total Price Of The Trips
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2646.Minimize%20the%20Total%20Price%20of%20the%20Trips/images/diagram2.png" style="width: 541px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2646.Minimize%20the%20Total%20Price%20of%20the%20Trips/images/diagram2.png" style="width: 541px; height: 181px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[0,1],[1,2],[1,3]], price = [2,2,10,6], trips = [[0,3],[2,1],[2,3]]
 <strong>Output:</strong> 23
@@ -45,7 +45,7 @@ It can be proven, that 23 is the minimum answer that we can achieve.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2646.Minimize%20the%20Total%20Price%20of%20the%20Trips/images/diagram3.png" style="width: 456px; height: 111px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2646.Minimize%20the%20Total%20Price%20of%20the%20Trips/images/diagram3.png" style="width: 456px; height: 111px;" />
 <pre>
 <strong>Input:</strong> n = 2, edges = [[0,1]], price = [2,2], trips = [[0,0]]
 <strong>Output:</strong> 1

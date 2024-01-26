@@ -4,7 +4,7 @@ summary: 2508 Add Edges To Make Degrees Of All Nodes Even LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2508 Add Edges To Make Degrees Of All Nodes Even LeetCode Solution Explained in all languages"]
+keywords: ["2508 Add Edges To Make Degrees Of All Nodes Even LeetCode Solution Explained in all languages", "2508 Add Edges To Make Degrees Of All Nodes Even", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2508 Add Edges To Make Degrees Of All Nodes Even - Solution Explained/problem-solving.webp
     alt: 2508 Add Edges To Make Degrees Of All Nodes Even
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/agraphdrawio.png" style="width: 500px; height: 190px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/agraphdrawio.png" style="width: 500px; height: 190px;" />
 <pre>
 <strong>Input:</strong> n = 5, edges = [[1,2],[2,3],[3,4],[4,2],[1,4],[2,5]]
 <strong>Output:</strong> true
@@ -37,14 +37,14 @@ Every node in the resulting graph is connected to an even number of edges.
 </pre>
 
 <p><strong>Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aagraphdrawio.png" style="width: 400px; height: 120px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aagraphdrawio.png" style="width: 400px; height: 120px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[1,2],[3,4]]
 <strong>Output:</strong> true
 <strong>Explanation:</strong> The above diagram shows a valid way of adding two edges.</pre>
 
 <p><strong>Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aaagraphdrawio.png" style="width: 150px; height: 158px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2508.Add%20Edges%20to%20Make%20Degrees%20of%20All%20Nodes%20Even/images/aaagraphdrawio.png" style="width: 150px; height: 158px;" />
 <pre>
 <strong>Input:</strong> n = 4, edges = [[1,2],[1,3],[1,4]]
 <strong>Output:</strong> false

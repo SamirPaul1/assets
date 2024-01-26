@@ -4,7 +4,7 @@ summary: 1305 All Elements In Two Binary Search Trees LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1305 All Elements In Two Binary Search Trees LeetCode Solution Explained in all languages"]
+keywords: ["1305 All Elements In Two Binary Search Trees LeetCode Solution Explained in all languages", "1305 All Elements In Two Binary Search Trees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1305 All Elements In Two Binary Search Trees - Solution Explained/problem-solving.webp
     alt: 1305 All Elements In Two Binary Search Trees
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1305.All%20Elements%20in%20Two%20Binary%20Search%20Trees/images/q2-e1.png" style="width: 457px; height: 207px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1305.All%20Elements%20in%20Two%20Binary%20Search%20Trees/images/q2-e1.png" style="width: 457px; height: 207px;" />
 <pre>
 <strong>Input:</strong> root1 = [2,1,4], root2 = [1,0,3]
 <strong>Output:</strong> [0,1,1,2,3,4]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1305.All%20Elements%20in%20Two%20Binary%20Search%20Trees/images/q2-e5-.png" style="width: 352px; height: 197px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1305.All%20Elements%20in%20Two%20Binary%20Search%20Trees/images/q2-e5-.png" style="width: 352px; height: 197px;" />
 <pre>
 <strong>Input:</strong> root1 = [1,null,8], root2 = [8,1]
 <strong>Output:</strong> [1,1,8,8]

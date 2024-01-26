@@ -4,7 +4,7 @@ summary: 0237 Delete Node In A Linked List LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0237 Delete Node In A Linked List LeetCode Solution Explained in all languages"]
+keywords: ["0237 Delete Node In A Linked List LeetCode Solution Explained in all languages", "0237 Delete Node In A Linked List", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0237 Delete Node In A Linked List - Solution Explained/problem-solving.webp
     alt: 0237 Delete Node In A Linked List
@@ -43,7 +43,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0237.Delete%20Node%20in%20a%20Linked%20List/images/node1.jpg" style="width: 400px; height: 286px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0237.Delete%20Node%20in%20a%20Linked%20List/images/node1.jpg" style="width: 400px; height: 286px;" />
 <pre>
 <strong>Input:</strong> head = [4,5,1,9], node = 5
 <strong>Output:</strong> [4,1,9]
@@ -51,7 +51,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0237.Delete%20Node%20in%20a%20Linked%20List/images/node2.jpg" style="width: 400px; height: 315px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0237.Delete%20Node%20in%20a%20Linked%20List/images/node2.jpg" style="width: 400px; height: 315px;" />
 <pre>
 <strong>Input:</strong> head = [4,5,1,9], node = 1
 <strong>Output:</strong> [4,5,9]

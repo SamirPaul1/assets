@@ -4,7 +4,7 @@ summary: 2556 Disconnect Path In A Binary Matrix By At Most One Flip LeetCode So
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2556 Disconnect Path In A Binary Matrix By At Most One Flip LeetCode Solution Explained in all languages"]
+keywords: ["2556 Disconnect Path In A Binary Matrix By At Most One Flip LeetCode Solution Explained in all languages", "2556 Disconnect Path In A Binary Matrix By At Most One Flip", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2556 Disconnect Path In A Binary Matrix By At Most One Flip - Solution Explained/problem-solving.webp
     alt: 2556 Disconnect Path In A Binary Matrix By At Most One Flip
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid2drawio.png" style="width: 441px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid2drawio.png" style="width: 441px; height: 151px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,0,0],[1,1,1]]
 <strong>Output:</strong> true
@@ -36,7 +36,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid3drawio.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2556.Disconnect%20Path%20in%20a%20Binary%20Matrix%20by%20at%20Most%20One%20Flip/images/yetgrid3drawio.png" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1],[1,0,1],[1,1,1]]
 <strong>Output:</strong> false

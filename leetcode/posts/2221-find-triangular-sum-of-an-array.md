@@ -4,7 +4,7 @@ summary: 2221 Find Triangular Sum Of An Array LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2221 Find Triangular Sum Of An Array LeetCode Solution Explained in all languages"]
+keywords: ["2221 Find Triangular Sum Of An Array LeetCode Solution Explained in all languages", "2221 Find Triangular Sum Of An Array", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2221 Find Triangular Sum Of An Array - Solution Explained/problem-solving.webp
     alt: 2221 Find Triangular Sum Of An Array
@@ -33,7 +33,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2221.Find%20Triangular%20Sum%20of%20an%20Array/images/ex1drawio.png" style="width: 250px; height: 250px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2221.Find%20Triangular%20Sum%20of%20an%20Array/images/ex1drawio.png" style="width: 250px; height: 250px;" />
 <pre>
 <strong>Input:</strong> nums = [1,2,3,4,5]
 <strong>Output:</strong> 8

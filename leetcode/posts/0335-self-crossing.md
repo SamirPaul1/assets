@@ -4,7 +4,7 @@ summary: 0335 Self Crossing LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0335 Self Crossing LeetCode Solution Explained in all languages"]
+keywords: ["0335 Self Crossing LeetCode Solution Explained in all languages", "0335 Self Crossing", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0335 Self Crossing - Solution Explained/problem-solving.webp
     alt: 0335 Self Crossing
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0335.Self%20Crossing/images/11.jpg" style="width: 400px; height: 413px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0335.Self%20Crossing/images/11.jpg" style="width: 400px; height: 413px;" />
 <pre>
 <strong>Input:</strong> distance = [2,1,1,2]
 <strong>Output:</strong> true
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0335.Self%20Crossing/images/22.jpg" style="width: 400px; height: 413px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0335.Self%20Crossing/images/22.jpg" style="width: 400px; height: 413px;" />
 <pre>
 <strong>Input:</strong> distance = [1,2,3,4]
 <strong>Output:</strong> false
@@ -42,7 +42,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0335.Self%20Crossing/images/33.jpg" style="width: 400px; height: 413px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0335.Self%20Crossing/images/33.jpg" style="width: 400px; height: 413px;" />
 <pre>
 <strong>Input:</strong> distance = [1,1,1,2,1]
 <strong>Output:</strong> true

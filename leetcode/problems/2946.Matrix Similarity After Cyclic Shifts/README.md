@@ -15,7 +15,7 @@
 <strong>Input:</strong> mat = [[1,2,1,2],[5,5,5,5],[6,3,6,3]], k = 2
 <strong>Output:</strong> true
 <strong>Explanation:</strong>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2900-2999/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/images/similarmatrix.png" style="width: 500px; height: 117px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2946.Matrix%20Similarity%20After%20Cyclic%20Shifts/images/similarmatrix.png" style="width: 500px; height: 117px;" />
 
 Initially, the matrix looks like the first figure. 
 Second figure represents the state of the matrix after one right and left cyclic shifts to even and odd indexed rows.

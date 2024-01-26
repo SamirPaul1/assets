@@ -4,7 +4,7 @@ summary: 1217 Minimum Cost To Move Chips To The Same Position LeetCode Solution 
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1217 Minimum Cost To Move Chips To The Same Position LeetCode Solution Explained in all languages"]
+keywords: ["1217 Minimum Cost To Move Chips To The Same Position LeetCode Solution Explained in all languages", "1217 Minimum Cost To Move Chips To The Same Position", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1217 Minimum Cost To Move Chips To The Same Position - Solution Explained/problem-solving.webp
     alt: 1217 Minimum Cost To Move Chips To The Same Position
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1217.Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position/images/chips_e1.jpg" style="width: 750px; height: 217px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1217.Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position/images/chips_e1.jpg" style="width: 750px; height: 217px;" />
 <pre>
 <strong>Input:</strong> position = [1,2,3]
 <strong>Output:</strong> 1
@@ -41,7 +41,7 @@ Total cost is 1.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1217.Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position/images/chip_e2.jpg" style="width: 750px; height: 306px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1217.Minimum%20Cost%20to%20Move%20Chips%20to%20The%20Same%20Position/images/chip_e2.jpg" style="width: 750px; height: 306px;" />
 <pre>
 <strong>Input:</strong> position = [2,2,2,3,3]
 <strong>Output:</strong> 2

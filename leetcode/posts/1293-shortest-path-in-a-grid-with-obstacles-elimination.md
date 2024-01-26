@@ -4,7 +4,7 @@ summary: 1293 Shortest Path In A Grid With Obstacles Elimination LeetCode Soluti
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1293 Shortest Path In A Grid With Obstacles Elimination LeetCode Solution Explained in all languages"]
+keywords: ["1293 Shortest Path In A Grid With Obstacles Elimination LeetCode Solution Explained in all languages", "1293 Shortest Path In A Grid With Obstacles Elimination", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1293 Shortest Path In A Grid With Obstacles Elimination - Solution Explained/problem-solving.webp
     alt: 1293 Shortest Path In A Grid With Obstacles Elimination
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1293.Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination/images/short1-grid.jpg" style="width: 244px; height: 405px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1293.Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination/images/short1-grid.jpg" style="width: 244px; height: 405px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,0],[1,1,0],[0,0,0],[0,1,1],[0,0,0]], k = 1
 <strong>Output:</strong> 6
@@ -34,7 +34,7 @@ The shortest path with one obstacle elimination at position (3,2) is 6. Such pat
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1293.Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination/images/short2-grid.jpg" style="width: 244px; height: 245px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1293.Shortest%20Path%20in%20a%20Grid%20with%20Obstacles%20Elimination/images/short2-grid.jpg" style="width: 244px; height: 245px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,1],[1,1,1],[1,0,0]], k = 1
 <strong>Output:</strong> -1

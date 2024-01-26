@@ -4,7 +4,7 @@ summary: 1261 Find Elements In A Contaminated Binary Tree LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1261 Find Elements In A Contaminated Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1261 Find Elements In A Contaminated Binary Tree LeetCode Solution Explained in all languages", "1261 Find Elements In A Contaminated Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1261 Find Elements In A Contaminated Binary Tree - Solution Explained/problem-solving.webp
     alt: 1261 Find Elements In A Contaminated Binary Tree
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1.jpg" style="width: 320px; height: 119px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1.jpg" style="width: 320px; height: 119px;" />
 <pre>
 <strong>Input</strong>
 [&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;]
@@ -50,7 +50,7 @@ findElements.find(1); // return False
 findElements.find(2); // return True </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4.jpg" style="width: 400px; height: 198px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4.jpg" style="width: 400px; height: 198px;" />
 <pre>
 <strong>Input</strong>
 [&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;]
@@ -64,7 +64,7 @@ findElements.find(3); // return True
 findElements.find(5); // return False</pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1-1.jpg" style="width: 306px; height: 274px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1261.Find%20Elements%20in%20a%20Contaminated%20Binary%20Tree/images/untitled-diagram-4-1-1.jpg" style="width: 306px; height: 274px;" />
 <pre>
 <strong>Input</strong>
 [&quot;FindElements&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;,&quot;find&quot;]

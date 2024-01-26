@@ -4,7 +4,7 @@ summary: 2005 Subtree Removal Game With Fibonacci Tree LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2005 Subtree Removal Game With Fibonacci Tree LeetCode Solution Explained in all languages"]
+keywords: ["2005 Subtree Removal Game With Fibonacci Tree LeetCode Solution Explained in all languages", "2005 Subtree Removal Game With Fibonacci Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2005 Subtree Removal Game With Fibonacci Tree - Solution Explained/problem-solving.webp
     alt: 2005 Subtree Removal Game With Fibonacci Tree
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2005.Subtree%20Removal%20Game%20with%20Fibonacci%20Tree/images/image-20210914173520-3.png" style="width: 200px; height: 184px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2005.Subtree%20Removal%20Game%20with%20Fibonacci%20Tree/images/image-20210914173520-3.png" style="width: 200px; height: 184px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 3
@@ -48,7 +48,7 @@ Return true because Alice wins.
 </pre>
 
 <p><strong class="example">Example 2:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2005.Subtree%20Removal%20Game%20with%20Fibonacci%20Tree/images/image-20210914173634-4.png" style="width: 75px; height: 75px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2005.Subtree%20Removal%20Game%20with%20Fibonacci%20Tree/images/image-20210914173634-4.png" style="width: 75px; height: 75px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 1
@@ -59,7 +59,7 @@ Return false because Alice loses.
 </pre>
 
 <p><strong class="example">Example 3:</strong><br />
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2005.Subtree%20Removal%20Game%20with%20Fibonacci%20Tree/images/image-20210914173425-1.png" style="width: 100px; height: 106px;" /></p>
+<img src="https://spcdn.pages.dev/leetcode/problems/2005.Subtree%20Removal%20Game%20with%20Fibonacci%20Tree/images/image-20210914173425-1.png" style="width: 100px; height: 106px;" /></p>
 
 <pre>
 <strong>Input:</strong> n = 2

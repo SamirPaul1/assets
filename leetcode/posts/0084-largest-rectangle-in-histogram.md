@@ -4,7 +4,7 @@ summary: 0084 Largest Rectangle In Histogram LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0084 Largest Rectangle In Histogram LeetCode Solution Explained in all languages"]
+keywords: ["0084 Largest Rectangle In Histogram LeetCode Solution Explained in all languages", "0084 Largest Rectangle In Histogram", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0084 Largest Rectangle In Histogram - Solution Explained/problem-solving.webp
     alt: 0084 Largest Rectangle In Histogram
@@ -22,7 +22,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0084.Largest%20Rectangle%20in%20Histogram/images/histogram.jpg" style="width: 522px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0084.Largest%20Rectangle%20in%20Histogram/images/histogram.jpg" style="width: 522px; height: 242px;" />
 <pre>
 <strong>Input:</strong> heights = [2,1,5,6,2,3]
 <strong>Output:</strong> 10
@@ -31,7 +31,7 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0084.Largest%20Rectangle%20in%20Histogram/images/histogram-1.jpg" style="width: 202px; height: 362px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0084.Largest%20Rectangle%20in%20Histogram/images/histogram-1.jpg" style="width: 202px; height: 362px;" />
 <pre>
 <strong>Input:</strong> heights = [2,4]
 <strong>Output:</strong> 4

@@ -4,7 +4,7 @@ summary: 3009 Maximum Number Of Intersections On The Chart LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "3009 Maximum Number Of Intersections On The Chart LeetCode Solution Explained in all languages"]
+keywords: ["3009 Maximum Number Of Intersections On The Chart LeetCode Solution Explained in all languages", "3009 Maximum Number Of Intersections On The Chart", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:3009 Maximum Number Of Intersections On The Chart - Solution Explained/problem-solving.webp
     alt: 3009 Maximum Number Of Intersections On The Chart
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020549.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; height: 217px; width: 600px;" /></strong>
+<strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020549.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; height: 217px; width: 600px;" /></strong>
 
 <pre>
 <strong>Input:</strong> y = [1,2,1,2,1,3,2]
@@ -33,7 +33,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/3000-3099/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020557.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 400px; height: 404px;" /></strong>
+<strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/3009.Maximum%20Number%20of%20Intersections%20on%20the%20Chart/images/20231208-020557.jpeg" style="padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem; width: 400px; height: 404px;" /></strong>
 
 <pre>
 <strong>Input:</strong> y = [2,1,3,4,5]

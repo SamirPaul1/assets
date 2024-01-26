@@ -4,7 +4,7 @@ summary: 0817 Linked List Components LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0817 Linked List Components LeetCode Solution Explained in all languages"]
+keywords: ["0817 Linked List Components LeetCode Solution Explained in all languages", "0817 Linked List Components", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0817 Linked List Components - Solution Explained/problem-solving.webp
     alt: 0817 Linked List Components
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0817.Linked%20List%20Components/images/lc-linkedlistcom1.jpg" style="width: 424px; height: 65px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0817.Linked%20List%20Components/images/lc-linkedlistcom1.jpg" style="width: 424px; height: 65px;" />
 <pre>
 <strong>Input:</strong> head = [0,1,2,3], nums = [0,1,3]
 <strong>Output:</strong> 2
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0817.Linked%20List%20Components/images/lc-linkedlistcom2.jpg" style="width: 544px; height: 65px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0817.Linked%20List%20Components/images/lc-linkedlistcom2.jpg" style="width: 544px; height: 65px;" />
 <pre>
 <strong>Input:</strong> head = [0,1,2,3,4], nums = [0,3,1,4]
 <strong>Output:</strong> 2

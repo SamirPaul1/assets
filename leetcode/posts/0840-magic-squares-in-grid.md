@@ -4,7 +4,7 @@ summary: 0840 Magic Squares In Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0840 Magic Squares In Grid LeetCode Solution Explained in all languages"]
+keywords: ["0840 Magic Squares In Grid LeetCode Solution Explained in all languages", "0840 Magic Squares In Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0840 Magic Squares In Grid - Solution Explained/problem-solving.webp
     alt: 0840 Magic Squares In Grid
@@ -24,15 +24,15 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_main.jpg" style="width: 322px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0840.Magic%20Squares%20In%20Grid/images/magic_main.jpg" style="width: 322px; height: 242px;" />
 <pre>
 <strong>Input:</strong> grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]
 <strong>Output:</strong> 1
 <strong>Explanation: </strong>
 The following subgrid is a 3 x 3 magic square:
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_valid.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0840.Magic%20Squares%20In%20Grid/images/magic_valid.jpg" style="width: 242px; height: 242px;" />
 while this one is not:
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0840.Magic%20Squares%20In%20Grid/images/magic_invalid.jpg" style="width: 242px; height: 242px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0840.Magic%20Squares%20In%20Grid/images/magic_invalid.jpg" style="width: 242px; height: 242px;" />
 In total, there is only one magic square inside the given grid.
 </pre>
 

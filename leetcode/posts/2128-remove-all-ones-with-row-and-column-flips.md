@@ -4,7 +4,7 @@ summary: 2128 Remove All Ones With Row And Column Flips LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2128 Remove All Ones With Row And Column Flips LeetCode Solution Explained in all languages"]
+keywords: ["2128 Remove All Ones With Row And Column Flips LeetCode Solution Explained in all languages", "2128 Remove All Ones With Row And Column Flips", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2128 Remove All Ones With Row And Column Flips - Solution Explained/problem-solving.webp
     alt: 2128 Remove All Ones With Row And Column Flips
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103191300-1.png" style="width: 756px; height: 225px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103191300-1.png" style="width: 756px; height: 225px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,0],[1,0,1],[0,1,0]]
 <strong>Output:</strong> true
@@ -36,7 +36,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181204-7.png" style="width: 237px; height: 225px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181204-7.png" style="width: 237px; height: 225px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,0],[0,0,0],[0,0,0]]
 <strong>Output:</strong> false
@@ -44,7 +44,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181224-8.png" style="width: 114px; height: 100px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2128.Remove%20All%20Ones%20With%20Row%20and%20Column%20Flips/images/image-20220103181224-8.png" style="width: 114px; height: 100px;" />
 <pre>
 <strong>Input:</strong> grid = [[0]]
 <strong>Output:</strong> true

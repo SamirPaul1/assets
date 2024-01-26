@@ -4,7 +4,7 @@ summary: 1197 Minimum Knight Moves LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1197 Minimum Knight Moves LeetCode Solution Explained in all languages"]
+keywords: ["1197 Minimum Knight Moves LeetCode Solution Explained in all languages", "1197 Minimum Knight Moves", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1197 Minimum Knight Moves - Solution Explained/problem-solving.webp
     alt: 1197 Minimum Knight Moves
@@ -21,7 +21,7 @@ cover:
 <p>In an <strong>infinite</strong> chess board with coordinates from <code>-infinity</code> to <code>+infinity</code>, you have a <strong>knight</strong> at square <code>[0, 0]</code>.</p>
 
 <p>A knight has 8 possible moves it can make, as illustrated below. Each move is two squares in a cardinal direction, then one square in an orthogonal direction.</p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1197.Minimum%20Knight%20Moves/images/knight.png" style="height: 250px; width: 250px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/1197.Minimum%20Knight%20Moves/images/knight.png" style="height: 250px; width: 250px;" />
 <p>Return <em>the minimum number of steps needed to move the knight to the square</em> <code>[x, y]</code>. It is guaranteed the answer exists.</p>
 
 <p>&nbsp;</p>

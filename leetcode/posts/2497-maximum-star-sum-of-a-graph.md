@@ -4,7 +4,7 @@ summary: 2497 Maximum Star Sum Of A Graph LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2497 Maximum Star Sum Of A Graph LeetCode Solution Explained in all languages"]
+keywords: ["2497 Maximum Star Sum Of A Graph LeetCode Solution Explained in all languages", "2497 Maximum Star Sum Of A Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2497 Maximum Star Sum Of A Graph - Solution Explained/problem-solving.webp
     alt: 2497 Maximum Star Sum Of A Graph
@@ -25,14 +25,14 @@ cover:
 <p>A <strong>star graph</strong> is a subgraph of the given graph having a center node containing <code>0</code> or more neighbors. In other words, it is a subset of edges of the given graph such that there exists a common node for all edges.</p>
 
 <p>The image below shows star graphs with <code>3</code> and <code>4</code> neighbors respectively, centered at the blue node.</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2497.Maximum%20Star%20Sum%20of%20a%20Graph/images/max-star-sum-descdrawio.png" style="width: 400px; height: 179px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2497.Maximum%20Star%20Sum%20of%20a%20Graph/images/max-star-sum-descdrawio.png" style="width: 400px; height: 179px;" />
 <p>The <strong>star sum</strong> is the sum of the values of all the nodes present in the star graph.</p>
 
 <p>Given an integer <code>k</code>, return <em>the <strong>maximum star sum</strong> of a star graph containing <strong>at most</strong> </em><code>k</code><em> edges.</em></p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2497.Maximum%20Star%20Sum%20of%20a%20Graph/images/max-star-sum-example1drawio.png" style="width: 300px; height: 291px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2497.Maximum%20Star%20Sum%20of%20a%20Graph/images/max-star-sum-example1drawio.png" style="width: 300px; height: 291px;" />
 <pre>
 <strong>Input:</strong> vals = [1,2,3,4,10,-10,-20], edges = [[0,1],[1,2],[1,3],[3,4],[3,5],[3,6]], k = 2
 <strong>Output:</strong> 16

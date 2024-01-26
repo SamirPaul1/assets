@@ -4,7 +4,7 @@ summary: 0222 Count Complete Tree Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0222 Count Complete Tree Nodes LeetCode Solution Explained in all languages"]
+keywords: ["0222 Count Complete Tree Nodes LeetCode Solution Explained in all languages", "0222 Count Complete Tree Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0222 Count Complete Tree Nodes - Solution Explained/problem-solving.webp
     alt: 0222 Count Complete Tree Nodes
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0222.Count%20Complete%20Tree%20Nodes/images/complete.jpg" style="width: 372px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0222.Count%20Complete%20Tree%20Nodes/images/complete.jpg" style="width: 372px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3,4,5,6]
 <strong>Output:</strong> 6

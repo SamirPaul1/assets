@@ -4,7 +4,7 @@ summary: 1353 Maximum Number Of Events That Can Be Attended LeetCode Solution Ex
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1353 Maximum Number Of Events That Can Be Attended LeetCode Solution Explained in all languages"]
+keywords: ["1353 Maximum Number Of Events That Can Be Attended LeetCode Solution Explained in all languages", "1353 Maximum Number Of Events That Can Be Attended", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1353 Maximum Number Of Events That Can Be Attended - Solution Explained/problem-solving.webp
     alt: 1353 Maximum Number Of Events That Can Be Attended
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1353.Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended/images/e1.png" style="width: 400px; height: 267px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1353.Maximum%20Number%20of%20Events%20That%20Can%20Be%20Attended/images/e1.png" style="width: 400px; height: 267px;" />
 <pre>
 <strong>Input:</strong> events = [[1,2],[2,3],[3,4]]
 <strong>Output:</strong> 3

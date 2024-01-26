@@ -4,7 +4,7 @@ summary: 2957 Remove Adjacent Almost Equal Characters LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2957 Remove Adjacent Almost Equal Characters LeetCode Solution Explained in all languages"]
+keywords: ["2957 Remove Adjacent Almost Equal Characters LeetCode Solution Explained in all languages", "2957 Remove Adjacent Almost Equal Characters", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2957 Remove Adjacent Almost Equal Characters - Solution Explained/problem-solving.webp
     alt: 2957 Remove Adjacent Almost Equal Characters

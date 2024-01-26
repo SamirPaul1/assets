@@ -19,7 +19,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2673.Make%20Costs%20of%20Paths%20Equal%20in%20a%20Binary%20Tree/images/binaryytreeedrawio-4.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2673.Make%20Costs%20of%20Paths%20Equal%20in%20a%20Binary%20Tree/images/binaryytreeedrawio-4.png" />
 <pre>
 <strong>Input:</strong> n = 7, cost = [1,5,2,2,3,3,1]
 <strong>Output:</strong> 6
@@ -33,7 +33,7 @@ It can be shown that this is the minimum answer we can achieve.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2673.Make%20Costs%20of%20Paths%20Equal%20in%20a%20Binary%20Tree/images/binaryytreee2drawio.png" style="width: 205px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2673.Make%20Costs%20of%20Paths%20Equal%20in%20a%20Binary%20Tree/images/binaryytreee2drawio.png" style="width: 205px; height: 151px;" />
 <pre>
 <strong>Input:</strong> n = 3, cost = [5,3,3]
 <strong>Output:</strong> 0

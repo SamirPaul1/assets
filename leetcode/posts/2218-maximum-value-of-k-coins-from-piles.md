@@ -4,7 +4,7 @@ summary: 2218 Maximum Value Of K Coins From Piles LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2218 Maximum Value Of K Coins From Piles LeetCode Solution Explained in all languages"]
+keywords: ["2218 Maximum Value Of K Coins From Piles LeetCode Solution Explained in all languages", "2218 Maximum Value Of K Coins From Piles", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2218 Maximum Value Of K Coins From Piles - Solution Explained/problem-solving.webp
     alt: 2218 Maximum Value Of K Coins From Piles
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2218.Maximum%20Value%20of%20K%20Coins%20From%20Piles/images/e1.png" style="width: 600px; height: 243px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2218.Maximum%20Value%20of%20K%20Coins%20From%20Piles/images/e1.png" style="width: 600px; height: 243px;" />
 <pre>
 <strong>Input:</strong> piles = [[1,100,3],[7,8,9]], k = 2
 <strong>Output:</strong> 101

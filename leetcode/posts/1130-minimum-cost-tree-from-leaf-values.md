@@ -4,7 +4,7 @@ summary: 1130 Minimum Cost Tree From Leaf Values LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1130 Minimum Cost Tree From Leaf Values LeetCode Solution Explained in all languages"]
+keywords: ["1130 Minimum Cost Tree From Leaf Values LeetCode Solution Explained in all languages", "1130 Minimum Cost Tree From Leaf Values", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1130 Minimum Cost Tree From Leaf Values - Solution Explained/problem-solving.webp
     alt: 1130 Minimum Cost Tree From Leaf Values
@@ -32,7 +32,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1130.Minimum%20Cost%20Tree%20From%20Leaf%20Values/images/tree1.jpg" style="width: 500px; height: 169px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1130.Minimum%20Cost%20Tree%20From%20Leaf%20Values/images/tree1.jpg" style="width: 500px; height: 169px;" />
 <pre>
 <strong>Input:</strong> arr = [6,2,4]
 <strong>Output:</strong> 32
@@ -41,7 +41,7 @@ The first has a non-leaf node sum 36, and the second has non-leaf node sum 32.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1130.Minimum%20Cost%20Tree%20From%20Leaf%20Values/images/tree2.jpg" style="width: 224px; height: 145px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1130.Minimum%20Cost%20Tree%20From%20Leaf%20Values/images/tree2.jpg" style="width: 224px; height: 145px;" />
 <pre>
 <strong>Input:</strong> arr = [4,11]
 <strong>Output:</strong> 44

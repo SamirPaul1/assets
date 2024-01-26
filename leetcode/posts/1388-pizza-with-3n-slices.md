@@ -4,7 +4,7 @@ summary: 1388 Pizza With 3N Slices LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1388 Pizza With 3N Slices LeetCode Solution Explained in all languages"]
+keywords: ["1388 Pizza With 3N Slices LeetCode Solution Explained in all languages", "1388 Pizza With 3N Slices", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1388 Pizza With 3N Slices - Solution Explained/problem-solving.webp
     alt: 1388 Pizza With 3N Slices
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1388.Pizza%20With%203n%20Slices/images/sample_3_1723.png" style="width: 500px; height: 266px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1388.Pizza%20With%203n%20Slices/images/sample_3_1723.png" style="width: 500px; height: 266px;" />
 <pre>
 <strong>Input:</strong> slices = [1,2,3,4,5,6]
 <strong>Output:</strong> 10
@@ -39,7 +39,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1388.Pizza%20With%203n%20Slices/images/sample_4_1723.png" style="width: 500px; height: 299px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1388.Pizza%20With%203n%20Slices/images/sample_4_1723.png" style="width: 500px; height: 299px;" />
 <pre>
 <strong>Input:</strong> slices = [8,9,8,6,1,1]
 <strong>Output:</strong> 16

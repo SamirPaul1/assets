@@ -14,7 +14,7 @@
 <p>To determine how you &quot;say&quot; a digit string, split it into the <strong>minimal</strong> number of substrings such that each substring contains exactly <strong>one</strong> unique digit. Then for each substring, say the number of digits, then say the digit. Finally, concatenate every said digit.</p>
 
 <p>For example, the saying and conversion for digit string <code>&quot;3322251&quot;</code>:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0000-0099/0038.Count%20and%20Say/images/countandsay.jpg" style="width: 581px; height: 172px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0038.Count%20and%20Say/images/countandsay.jpg" style="width: 581px; height: 172px;" />
 <p>Given a positive integer <code>n</code>, return <em>the </em><code>n<sup>th</sup></code><em> term of the <strong>count-and-say</strong> sequence</em>.</p>
 
 <p>&nbsp;</p>

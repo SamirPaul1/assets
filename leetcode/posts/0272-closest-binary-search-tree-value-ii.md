@@ -4,7 +4,7 @@ summary: 0272 Closest Binary Search Tree Value Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0272 Closest Binary Search Tree Value Ii LeetCode Solution Explained in all languages"]
+keywords: ["0272 Closest Binary Search Tree Value Ii LeetCode Solution Explained in all languages", "0272 Closest Binary Search Tree Value Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0272 Closest Binary Search Tree Value Ii - Solution Explained/problem-solving.webp
     alt: 0272 Closest Binary Search Tree Value Ii
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0272.Closest%20Binary%20Search%20Tree%20Value%20II/images/closest1-1-tree.jpg" style="width: 292px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0272.Closest%20Binary%20Search%20Tree%20Value%20II/images/closest1-1-tree.jpg" style="width: 292px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [4,2,5,1,3], target = 3.714286, k = 2
 <strong>Output:</strong> [4,3]

@@ -4,7 +4,7 @@ summary: 0230 Kth Smallest Element In A Bst LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0230 Kth Smallest Element In A Bst LeetCode Solution Explained in all languages"]
+keywords: ["0230 Kth Smallest Element In A Bst LeetCode Solution Explained in all languages", "0230 Kth Smallest Element In A Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0230 Kth Smallest Element In A Bst - Solution Explained/problem-solving.webp
     alt: 0230 Kth Smallest Element In A Bst
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0230.Kth%20Smallest%20Element%20in%20a%20BST/images/kthtree1.jpg" style="width: 212px; height: 301px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0230.Kth%20Smallest%20Element%20in%20a%20BST/images/kthtree1.jpg" style="width: 212px; height: 301px;" />
 <pre>
 <strong>Input:</strong> root = [3,1,4,null,2], k = 1
 <strong>Output:</strong> 1
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0230.Kth%20Smallest%20Element%20in%20a%20BST/images/kthtree2.jpg" style="width: 382px; height: 302px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0230.Kth%20Smallest%20Element%20in%20a%20BST/images/kthtree2.jpg" style="width: 382px; height: 302px;" />
 <pre>
 <strong>Input:</strong> root = [5,3,6,2,4,null,null,1], k = 3
 <strong>Output:</strong> 3

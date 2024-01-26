@@ -4,7 +4,7 @@ summary: 1645 Hopper Company Queries Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1645 Hopper Company Queries Ii LeetCode Solution Explained in all languages"]
+keywords: ["1645 Hopper Company Queries Ii LeetCode Solution Explained in all languages", "1645 Hopper Company Queries Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1645 Hopper Company Queries Ii - Solution Explained/problem-solving.webp
     alt: 1645 Hopper Company Queries Ii
@@ -69,7 +69,7 @@ It is guaranteed that each accepted ride exists in the Rides table.
 <p>&nbsp;</p>
 
 <p>Write a solution to report the <strong>percentage</strong> of working drivers (<code>working_percentage</code>) for each month of <strong>2020</strong> where:</p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1600-1699/1645.Hopper%20Company%20Queries%20II/images/codecogseqn.png" style="width: 800px; height: 36px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1645.Hopper%20Company%20Queries%20II/images/codecogseqn.png" style="width: 800px; height: 36px;" />
 <p><strong>Note</strong> that if the number of available drivers during a month is zero, we consider the <code>working_percentage</code> to be <code>0</code>.</p>
 
 <p>Return the result table ordered by <code>month</code> in <strong>ascending</strong> order, where <code>month</code> is the month&#39;s number (January is <code>1</code>, February is <code>2</code>, etc.). Round <code>working_percentage</code> to the nearest <strong>2 decimal places</strong>.</p>

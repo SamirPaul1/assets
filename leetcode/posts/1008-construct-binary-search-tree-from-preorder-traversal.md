@@ -4,7 +4,7 @@ summary: 1008 Construct Binary Search Tree From Preorder Traversal LeetCode Solu
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1008 Construct Binary Search Tree From Preorder Traversal LeetCode Solution Explained in all languages"]
+keywords: ["1008 Construct Binary Search Tree From Preorder Traversal LeetCode Solution Explained in all languages", "1008 Construct Binary Search Tree From Preorder Traversal", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1008 Construct Binary Search Tree From Preorder Traversal - Solution Explained/problem-solving.webp
     alt: 1008 Construct Binary Search Tree From Preorder Traversal
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1008.Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal/images/1266.png" style="height: 386px; width: 590px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1008.Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal/images/1266.png" style="height: 386px; width: 590px;" />
 <pre>
 <strong>Input:</strong> preorder = [8,5,1,7,10,12]
 <strong>Output:</strong> [8,5,10,1,7,null,12]

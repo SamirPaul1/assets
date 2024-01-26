@@ -4,7 +4,7 @@ summary: 2285 Maximum Total Importance Of Roads LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2285 Maximum Total Importance Of Roads LeetCode Solution Explained in all languages"]
+keywords: ["2285 Maximum Total Importance Of Roads LeetCode Solution Explained in all languages", "2285 Maximum Total Importance Of Roads", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2285 Maximum Total Importance Of Roads - Solution Explained/problem-solving.webp
     alt: 2285 Maximum Total Importance Of Roads
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex1drawio.png" style="width: 290px; height: 215px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex1drawio.png" style="width: 290px; height: 215px;" />
 <pre>
 <strong>Input:</strong> n = 5, roads = [[0,1],[1,2],[2,3],[0,2],[1,3],[2,4]]
 <strong>Output:</strong> 43
@@ -44,7 +44,7 @@ It can be shown that we cannot obtain a greater total importance than 43.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex2drawio.png" style="width: 281px; height: 151px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2285.Maximum%20Total%20Importance%20of%20Roads/images/ex2drawio.png" style="width: 281px; height: 151px;" />
 <pre>
 <strong>Input:</strong> n = 5, roads = [[0,3],[2,4],[1,3]]
 <strong>Output:</strong> 20

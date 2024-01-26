@@ -4,7 +4,7 @@ summary: 0285 Inorder Successor In Bst LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0285 Inorder Successor In Bst LeetCode Solution Explained in all languages"]
+keywords: ["0285 Inorder Successor In Bst LeetCode Solution Explained in all languages", "0285 Inorder Successor In Bst", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0285 Inorder Successor In Bst - Solution Explained/problem-solving.webp
     alt: 0285 Inorder Successor In Bst
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0285.Inorder%20Successor%20in%20BST/images/285_example_1.png" style="width: 122px; height: 117px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0285.Inorder%20Successor%20in%20BST/images/285_example_1.png" style="width: 122px; height: 117px;" />
 <pre>
 <strong>Input:</strong> root = [2,1,3], p = 1
 <strong>Output:</strong> 2
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0200-0299/0285.Inorder%20Successor%20in%20BST/images/285_example_2.png" style="width: 246px; height: 229px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0285.Inorder%20Successor%20in%20BST/images/285_example_2.png" style="width: 246px; height: 229px;" />
 <pre>
 <strong>Input:</strong> root = [5,3,6,2,4,null,null,1], p = 6
 <strong>Output:</strong> null

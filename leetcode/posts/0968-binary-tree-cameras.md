@@ -4,7 +4,7 @@ summary: 0968 Binary Tree Cameras LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0968 Binary Tree Cameras LeetCode Solution Explained in all languages"]
+keywords: ["0968 Binary Tree Cameras LeetCode Solution Explained in all languages", "0968 Binary Tree Cameras", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0968 Binary Tree Cameras - Solution Explained/problem-solving.webp
     alt: 0968 Binary Tree Cameras
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0968.Binary%20Tree%20Cameras/images/bst_cameras_01.png" style="width: 138px; height: 163px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0968.Binary%20Tree%20Cameras/images/bst_cameras_01.png" style="width: 138px; height: 163px;" />
 <pre>
 <strong>Input:</strong> root = [0,0,null,0,0]
 <strong>Output:</strong> 1
@@ -32,7 +32,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0968.Binary%20Tree%20Cameras/images/bst_cameras_02.png" style="width: 139px; height: 312px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0968.Binary%20Tree%20Cameras/images/bst_cameras_02.png" style="width: 139px; height: 312px;" />
 <pre>
 <strong>Input:</strong> root = [0,0,null,0,null,0,null,null,0]
 <strong>Output:</strong> 2

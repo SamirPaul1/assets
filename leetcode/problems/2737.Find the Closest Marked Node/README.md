@@ -21,7 +21,7 @@ There are two paths from node 0 to node 3 (a red node), which are 0-&gt;1-&gt;2-
 The minimum of them is 4.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2737.Find%20the%20Closest%20Marked%20Node/images/image_2023-06-13_16-34-38.png" style="width: 185px; height: 180px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2737.Find%20the%20Closest%20Marked%20Node/images/image_2023-06-13_16-34-38.png" style="width: 185px; height: 180px;" /></p>
 
 <p><strong class="example">Example 2:</strong></p>
 
@@ -33,7 +33,7 @@ There is one path from node 1 to node 4 (a red node), which is 1-&gt;3-&gt;4, an
 So the answer is 3.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2737.Find%20the%20Closest%20Marked%20Node/images/image_2023-06-13_16-35-13.png" style="width: 300px; height: 285px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2737.Find%20the%20Closest%20Marked%20Node/images/image_2023-06-13_16-35-13.png" style="width: 300px; height: 285px;" /></p>
 
 <p><strong class="example">Example 3:</strong></p>
 
@@ -43,7 +43,7 @@ So the answer is 3.
 <strong>Explanation:</strong> There are no paths from node 3 (the green node) to any of the marked nodes (the red nodes), so the answer is -1.
 </pre>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2700-2799/2737.Find%20the%20Closest%20Marked%20Node/images/image_2023-06-13_16-35-47.png" style="width: 420px; height: 80px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/2737.Find%20the%20Closest%20Marked%20Node/images/image_2023-06-13_16-35-47.png" style="width: 420px; height: 80px;" /></p>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>

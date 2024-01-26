@@ -4,7 +4,7 @@ summary: 2378 Choose Edges To Maximize Score In A Tree LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2378 Choose Edges To Maximize Score In A Tree LeetCode Solution Explained in all languages"]
+keywords: ["2378 Choose Edges To Maximize Score In A Tree LeetCode Solution Explained in all languages", "2378 Choose Edges To Maximize Score In A Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2378 Choose Edges To Maximize Score In A Tree - Solution Explained/problem-solving.webp
     alt: 2378 Choose Edges To Maximize Score In A Tree
@@ -39,7 +39,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2378.Choose%20Edges%20to%20Maximize%20Score%20in%20a%20Tree/images/treedrawio.png" style="width: 271px; height: 221px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2378.Choose%20Edges%20to%20Maximize%20Score%20in%20a%20Tree/images/treedrawio.png" style="width: 271px; height: 221px;" />
 <pre>
 <strong>Input:</strong> edges = [[-1,-1],[0,5],[0,10],[2,6],[2,4]]
 <strong>Output:</strong> 11
@@ -49,7 +49,7 @@ It can be shown that no better score can be obtained.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2378.Choose%20Edges%20to%20Maximize%20Score%20in%20a%20Tree/images/treee1293712983719827.png" style="width: 221px; height: 181px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2378.Choose%20Edges%20to%20Maximize%20Score%20in%20a%20Tree/images/treee1293712983719827.png" style="width: 221px; height: 181px;" />
 <pre>
 <strong>Input:</strong> edges = [[-1,-1],[0,5],[0,-6],[0,7]]
 <strong>Output:</strong> 7

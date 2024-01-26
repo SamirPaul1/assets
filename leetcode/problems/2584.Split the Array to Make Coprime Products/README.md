@@ -18,7 +18,7 @@
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2584.Split%20the%20Array%20to%20Make%20Coprime%20Products/images/second.png" style="width: 450px; height: 211px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2584.Split%20the%20Array%20to%20Make%20Coprime%20Products/images/second.png" style="width: 450px; height: 211px;" />
 <pre>
 <strong>Input:</strong> nums = [4,7,8,15,3,5]
 <strong>Output:</strong> 2
@@ -27,7 +27,7 @@ The only valid split is at index 2.
 </pre>
 
 <p><strong>Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2500-2599/2584.Split%20the%20Array%20to%20Make%20Coprime%20Products/images/capture.png" style="width: 450px; height: 215px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2584.Split%20the%20Array%20to%20Make%20Coprime%20Products/images/capture.png" style="width: 450px; height: 215px;" />
 <pre>
 <strong>Input:</strong> nums = [4,7,15,8,3,5]
 <strong>Output:</strong> -1

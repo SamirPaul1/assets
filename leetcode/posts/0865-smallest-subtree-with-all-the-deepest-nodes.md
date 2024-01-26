@@ -4,7 +4,7 @@ summary: 0865 Smallest Subtree With All The Deepest Nodes LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0865 Smallest Subtree With All The Deepest Nodes LeetCode Solution Explained in all languages"]
+keywords: ["0865 Smallest Subtree With All The Deepest Nodes LeetCode Solution Explained in all languages", "0865 Smallest Subtree With All The Deepest Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0865 Smallest Subtree With All The Deepest Nodes - Solution Explained/problem-solving.webp
     alt: 0865 Smallest Subtree With All The Deepest Nodes
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0865.Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/images/sketch1.png" style="width: 600px; height: 510px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0865.Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes/images/sketch1.png" style="width: 600px; height: 510px;" />
 <pre>
 <strong>Input:</strong> root = [3,5,1,6,2,0,8,null,null,7,4]
 <strong>Output:</strong> [2,7,4]

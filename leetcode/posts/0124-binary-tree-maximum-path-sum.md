@@ -4,7 +4,7 @@ summary: 0124 Binary Tree Maximum Path Sum LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0124 Binary Tree Maximum Path Sum LeetCode Solution Explained in all languages"]
+keywords: ["0124 Binary Tree Maximum Path Sum LeetCode Solution Explained in all languages", "0124 Binary Tree Maximum Path Sum", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0124 Binary Tree Maximum Path Sum - Solution Explained/problem-solving.webp
     alt: 0124 Binary Tree Maximum Path Sum
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0124.Binary%20Tree%20Maximum%20Path%20Sum/images/exx1.jpg" style="width: 322px; height: 182px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0124.Binary%20Tree%20Maximum%20Path%20Sum/images/exx1.jpg" style="width: 322px; height: 182px;" />
 <pre>
 <strong>Input:</strong> root = [1,2,3]
 <strong>Output:</strong> 6
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0124.Binary%20Tree%20Maximum%20Path%20Sum/images/exx2.jpg" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0124.Binary%20Tree%20Maximum%20Path%20Sum/images/exx2.jpg" />
 <pre>
 <strong>Input:</strong> root = [-10,9,20,null,null,15,7]
 <strong>Output:</strong> 42

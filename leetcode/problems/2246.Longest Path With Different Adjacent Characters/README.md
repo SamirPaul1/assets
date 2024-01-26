@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2246.Longest%20Path%20With%20Different%20Adjacent%20Characters/images/testingdrawio.png" style="width: 201px; height: 241px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2246.Longest%20Path%20With%20Different%20Adjacent%20Characters/images/testingdrawio.png" style="width: 201px; height: 241px;" />
 <pre>
 <strong>Input:</strong> parent = [-1,0,0,1,1,2], s = &quot;abacbe&quot;
 <strong>Output:</strong> 3
@@ -21,7 +21,7 @@ It can be proven that there is no longer path that satisfies the conditions.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2246.Longest%20Path%20With%20Different%20Adjacent%20Characters/images/graph2drawio.png" style="width: 201px; height: 221px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2246.Longest%20Path%20With%20Different%20Adjacent%20Characters/images/graph2drawio.png" style="width: 201px; height: 221px;" />
 <pre>
 <strong>Input:</strong> parent = [-1,0,0,0], s = &quot;aabc&quot;
 <strong>Output:</strong> 3

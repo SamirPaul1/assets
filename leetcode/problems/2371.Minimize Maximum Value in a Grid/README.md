@@ -21,7 +21,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2371.Minimize%20Maximum%20Value%20in%20a%20Grid/images/grid2drawio.png" style="width: 371px; height: 121px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2371.Minimize%20Maximum%20Value%20in%20a%20Grid/images/grid2drawio.png" style="width: 371px; height: 121px;" />
 <pre>
 <strong>Input:</strong> grid = [[3,1],[2,5]]
 <strong>Output:</strong> [[2,1],[1,2]]

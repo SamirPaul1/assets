@@ -4,7 +4,7 @@ summary: 1372 Longest Zigzag Path In A Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1372 Longest Zigzag Path In A Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["1372 Longest Zigzag Path In A Binary Tree LeetCode Solution Explained in all languages", "1372 Longest Zigzag Path In A Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1372 Longest Zigzag Path In A Binary Tree - Solution Explained/problem-solving.webp
     alt: 1372 Longest Zigzag Path In A Binary Tree
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1372.Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/images/sample_1_1702.png" style="width: 221px; height: 383px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1372.Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/images/sample_1_1702.png" style="width: 221px; height: 383px;" />
 <pre>
 <strong>Input:</strong> root = [1,null,1,1,1,null,null,1,1,null,1,null,null,null,1]
 <strong>Output:</strong> 3
@@ -43,7 +43,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1372.Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/images/sample_2_1702.png" style="width: 157px; height: 329px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1372.Longest%20ZigZag%20Path%20in%20a%20Binary%20Tree/images/sample_2_1702.png" style="width: 157px; height: 329px;" />
 <pre>
 <strong>Input:</strong> root = [1,1,1,null,1,null,null,1,1,null,1]
 <strong>Output:</strong> 4

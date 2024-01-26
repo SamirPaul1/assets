@@ -4,7 +4,7 @@ summary: 0998 Maximum Binary Tree Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0998 Maximum Binary Tree Ii LeetCode Solution Explained in all languages"]
+keywords: ["0998 Maximum Binary Tree Ii LeetCode Solution Explained in all languages", "0998 Maximum Binary Tree Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0998 Maximum Binary Tree Ii - Solution Explained/problem-solving.webp
     alt: 0998 Maximum Binary Tree Ii
@@ -40,7 +40,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0998.Maximum%20Binary%20Tree%20II/images/maxtree1.jpg" style="width: 376px; height: 235px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0998.Maximum%20Binary%20Tree%20II/images/maxtree1.jpg" style="width: 376px; height: 235px;" />
 <pre>
 <strong>Input:</strong> root = [4,1,3,null,null,2], val = 5
 <strong>Output:</strong> [5,4,null,1,3,null,null,2]
@@ -48,7 +48,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0998.Maximum%20Binary%20Tree%20II/images/maxtree21.jpg" style="width: 358px; height: 156px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0998.Maximum%20Binary%20Tree%20II/images/maxtree21.jpg" style="width: 358px; height: 156px;" />
 <pre>
 <strong>Input:</strong> root = [5,2,4,null,1], val = 3
 <strong>Output:</strong> [5,2,4,null,1,null,3]
@@ -56,7 +56,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0998.Maximum%20Binary%20Tree%20II/images/maxtree3.jpg" style="width: 404px; height: 180px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0998.Maximum%20Binary%20Tree%20II/images/maxtree3.jpg" style="width: 404px; height: 180px;" />
 <pre>
 <strong>Input:</strong> root = [5,2,3,null,1], val = 4
 <strong>Output:</strong> [5,2,4,null,1,3]

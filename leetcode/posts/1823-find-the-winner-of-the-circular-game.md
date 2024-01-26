@@ -4,7 +4,7 @@ summary: 1823 Find The Winner Of The Circular Game LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1823 Find The Winner Of The Circular Game LeetCode Solution Explained in all languages"]
+keywords: ["1823 Find The Winner Of The Circular Game LeetCode Solution Explained in all languages", "1823 Find The Winner Of The Circular Game", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1823 Find The Winner Of The Circular Game - Solution Explained/problem-solving.webp
     alt: 1823 Find The Winner Of The Circular Game
@@ -34,7 +34,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1800-1899/1823.Find%20the%20Winner%20of%20the%20Circular%20Game/images/ic234-q2-ex11.png" style="width: 500px; height: 345px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1823.Find%20the%20Winner%20of%20the%20Circular%20Game/images/ic234-q2-ex11.png" style="width: 500px; height: 345px;" />
 <pre>
 <strong>Input:</strong> n = 5, k = 2
 <strong>Output:</strong> 3

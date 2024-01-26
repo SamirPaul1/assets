@@ -17,7 +17,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231744-1.png" style="width: 400px; height: 306px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231744-1.png" style="width: 400px; height: 306px;" />
 <pre>
 <strong>Input:</strong> root = [1,5,3,null,4,10,6,9,2], start = 3
 <strong>Output:</strong> 4
@@ -31,7 +31,7 @@ It takes 4 minutes for the whole tree to be infected so we return 4.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231812-2.png" style="width: 75px; height: 66px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2385.Amount%20of%20Time%20for%20Binary%20Tree%20to%20Be%20Infected/images/image-20220625231812-2.png" style="width: 75px; height: 66px;" />
 <pre>
 <strong>Input:</strong> root = [1], start = 1
 <strong>Output:</strong> 0

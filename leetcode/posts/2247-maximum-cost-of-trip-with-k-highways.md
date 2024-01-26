@@ -4,7 +4,7 @@ summary: 2247 Maximum Cost Of Trip With K Highways LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2247 Maximum Cost Of Trip With K Highways LeetCode Solution Explained in all languages"]
+keywords: ["2247 Maximum Cost Of Trip With K Highways LeetCode Solution Explained in all languages", "2247 Maximum Cost Of Trip With K Highways", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2247 Maximum Cost Of Trip With K Highways - Solution Explained/problem-solving.webp
     alt: 2247 Maximum Cost Of Trip With K Highways
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2247.Maximum%20Cost%20of%20Trip%20With%20K%20Highways/images/image-20220418173304-1.png" style="height: 200px; width: 327px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2247.Maximum%20Cost%20of%20Trip%20With%20K%20Highways/images/image-20220418173304-1.png" style="height: 200px; width: 327px;" />
 <pre>
 <strong>Input:</strong> n = 5, highways = [[0,1,4],[2,1,3],[1,4,11],[3,2,3],[3,4,2]], k = 3
 <strong>Output:</strong> 17
@@ -40,7 +40,7 @@ Note that the trip 4 -&gt; 1 -&gt; 0 -&gt; 1 is not allowed because you visit th
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2247.Maximum%20Cost%20of%20Trip%20With%20K%20Highways/images/image-20220418173342-2.png" style="height: 200px; width: 217px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2247.Maximum%20Cost%20of%20Trip%20With%20K%20Highways/images/image-20220418173342-2.png" style="height: 200px; width: 217px;" />
 <pre>
 <strong>Input:</strong> n = 4, highways = [[0,1,3],[2,3,2]], k = 2
 <strong>Output:</strong> -1

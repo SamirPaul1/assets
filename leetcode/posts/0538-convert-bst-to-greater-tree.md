@@ -4,7 +4,7 @@ summary: 0538 Convert Bst To Greater Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0538 Convert Bst To Greater Tree LeetCode Solution Explained in all languages"]
+keywords: ["0538 Convert Bst To Greater Tree LeetCode Solution Explained in all languages", "0538 Convert Bst To Greater Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0538 Convert Bst To Greater Tree - Solution Explained/problem-solving.webp
     alt: 0538 Convert Bst To Greater Tree
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0500-0599/0538.Convert%20BST%20to%20Greater%20Tree/images/tree.png" style="width: 500px; height: 341px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0538.Convert%20BST%20to%20Greater%20Tree/images/tree.png" style="width: 500px; height: 341px;" />
 <pre>
 <strong>Input:</strong> root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
 <strong>Output:</strong> [30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]

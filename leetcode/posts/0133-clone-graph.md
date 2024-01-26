@@ -4,7 +4,7 @@ summary: 0133 Clone Graph LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0133 Clone Graph LeetCode Solution Explained in all languages"]
+keywords: ["0133 Clone Graph LeetCode Solution Explained in all languages", "0133 Clone Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0133 Clone Graph - Solution Explained/problem-solving.webp
     alt: 0133 Clone Graph
@@ -43,7 +43,7 @@ class Node {
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0133.Clone%20Graph/images/133_clone_graph_question.png" style="width: 454px; height: 500px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0133.Clone%20Graph/images/133_clone_graph_question.png" style="width: 454px; height: 500px;" />
 <pre>
 <strong>Input:</strong> adjList = [[2,4],[1,3],[2,4],[1,3]]
 <strong>Output:</strong> [[2,4],[1,3],[2,4],[1,3]]
@@ -55,7 +55,7 @@ class Node {
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0133.Clone%20Graph/images/graph.png" style="width: 163px; height: 148px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0133.Clone%20Graph/images/graph.png" style="width: 163px; height: 148px;" />
 <pre>
 <strong>Input:</strong> adjList = [[]]
 <strong>Output:</strong> [[]]

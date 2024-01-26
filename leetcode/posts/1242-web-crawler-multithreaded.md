@@ -4,7 +4,7 @@ summary: 1242 Web Crawler Multithreaded LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1242 Web Crawler Multithreaded LeetCode Solution Explained in all languages"]
+keywords: ["1242 Web Crawler Multithreaded LeetCode Solution Explained in all languages", "1242 Web Crawler Multithreaded", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1242 Web Crawler Multithreaded - Solution Explained/problem-solving.webp
     alt: 1242 Web Crawler Multithreaded
@@ -30,7 +30,7 @@ cover:
 	<li>Do not crawl the same link twice.</li>
 	<li>Explore only the links that are under the <strong>same hostname</strong> as <code>startUrl</code>.</li>
 </ul>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1242.Web%20Crawler%20Multithreaded/images/urlhostname.png" style="width: 500px; height: 136px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1242.Web%20Crawler%20Multithreaded/images/urlhostname.png" style="width: 500px; height: 136px;" />
 <p>As shown in the example URL above, the hostname is <code>example.org</code>. For simplicity&#39;s sake, you may assume all URLs use <strong>HTTP protocol</strong> without any <strong>port</strong> specified. For example, the URLs <code>http://leetcode.com/problems</code> and <code>http://leetcode.com/contest</code> are under the same hostname, while URLs <code>http://example.org/test</code> and <code>http://example.com/abc</code> are not under the same hostname.</p>
 
 <p>The <code>HtmlParser</code> interface is defined as such:</p>
@@ -50,7 +50,7 @@ interface HtmlParser {
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<p><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1242.Web%20Crawler%20Multithreaded/images/sample_2_1497.png" style="width: 610px; height: 300px;" /></p>
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1242.Web%20Crawler%20Multithreaded/images/sample_2_1497.png" style="width: 610px; height: 300px;" /></p>
 
 <pre>
 <strong>Input:
@@ -73,7 +73,7 @@ startUrl = &quot;http://news.yahoo.com/news/topics/&quot;
 
 <p><strong class="example">Example 2:</strong></p>
 
-<p><strong><img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1200-1299/1242.Web%20Crawler%20Multithreaded/images/sample_3_1497.png" style="width: 540px; height: 270px;" /></strong></p>
+<p><strong><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1242.Web%20Crawler%20Multithreaded/images/sample_3_1497.png" style="width: 540px; height: 270px;" /></strong></p>
 
 <pre>
 <strong>Input:</strong> 

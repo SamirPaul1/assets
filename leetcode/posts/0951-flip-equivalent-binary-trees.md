@@ -4,7 +4,7 @@ summary: 0951 Flip Equivalent Binary Trees LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0951 Flip Equivalent Binary Trees LeetCode Solution Explained in all languages"]
+keywords: ["0951 Flip Equivalent Binary Trees LeetCode Solution Explained in all languages", "0951 Flip Equivalent Binary Trees", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0951 Flip Equivalent Binary Trees - Solution Explained/problem-solving.webp
     alt: 0951 Flip Equivalent Binary Trees
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="Flipped Trees Diagram" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0951.Flip%20Equivalent%20Binary%20Trees/images/tree_ex.png" style="width: 500px; height: 220px;" />
+<img alt="Flipped Trees Diagram" src="https://spcdn.pages.dev/leetcode/problems/0951.Flip%20Equivalent%20Binary%20Trees/images/tree_ex.png" style="width: 500px; height: 220px;" />
 <pre>
 <strong>Input:</strong> root1 = [1,2,3,4,5,6,null,null,null,7,8], root2 = [1,3,2,null,6,4,5,null,null,null,null,8,7]
 <strong>Output:</strong> true

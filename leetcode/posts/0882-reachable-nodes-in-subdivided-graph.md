@@ -4,7 +4,7 @@ summary: 0882 Reachable Nodes In Subdivided Graph LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0882 Reachable Nodes In Subdivided Graph LeetCode Solution Explained in all languages"]
+keywords: ["0882 Reachable Nodes In Subdivided Graph LeetCode Solution Explained in all languages", "0882 Reachable Nodes In Subdivided Graph", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0882 Reachable Nodes In Subdivided Graph - Solution Explained/problem-solving.webp
     alt: 0882 Reachable Nodes In Subdivided Graph
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0800-0899/0882.Reachable%20Nodes%20In%20Subdivided%20Graph/images/origfinal.png" style="width: 600px; height: 247px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0882.Reachable%20Nodes%20In%20Subdivided%20Graph/images/origfinal.png" style="width: 600px; height: 247px;" />
 <pre>
 <strong>Input:</strong> edges = [[0,1,10],[0,2,1],[1,2,2]], maxMoves = 6, n = 3
 <strong>Output:</strong> 13

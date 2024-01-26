@@ -4,7 +4,7 @@ summary: 1938 Maximum Genetic Difference Query LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1938 Maximum Genetic Difference Query LeetCode Solution Explained in all languages"]
+keywords: ["1938 Maximum Genetic Difference Query LeetCode Solution Explained in all languages", "1938 Maximum Genetic Difference Query", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1938 Maximum Genetic Difference Query - Solution Explained/problem-solving.webp
     alt: 1938 Maximum Genetic Difference Query
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1938.Maximum%20Genetic%20Difference%20Query/images/c1.png" style="width: 118px; height: 163px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1938.Maximum%20Genetic%20Difference%20Query/images/c1.png" style="width: 118px; height: 163px;" />
 <pre>
 <strong>Input:</strong> parents = [-1,0,1,1], queries = [[0,2],[3,2],[2,5]]
 <strong>Output:</strong> [2,3,7]
@@ -37,7 +37,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1900-1999/1938.Maximum%20Genetic%20Difference%20Query/images/c2.png" style="width: 256px; height: 221px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1938.Maximum%20Genetic%20Difference%20Query/images/c2.png" style="width: 256px; height: 221px;" />
 <pre>
 <strong>Input:</strong> parents = [3,7,-1,2,0,7,0,2], queries = [[4,6],[1,15],[0,5]]
 <strong>Output:</strong> [6,14,7]

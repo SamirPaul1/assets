@@ -4,7 +4,7 @@ summary: 2359 Find Closest Node To Given Two Nodes LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2359 Find Closest Node To Given Two Nodes LeetCode Solution Explained in all languages"]
+keywords: ["2359 Find Closest Node To Given Two Nodes LeetCode Solution Explained in all languages", "2359 Find Closest Node To Given Two Nodes", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2359 Find Closest Node To Given Two Nodes - Solution Explained/problem-solving.webp
     alt: 2359 Find Closest Node To Given Two Nodes
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2359.Find%20Closest%20Node%20to%20Given%20Two%20Nodes/images/graph4drawio-2.png" style="width: 321px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2359.Find%20Closest%20Node%20to%20Given%20Two%20Nodes/images/graph4drawio-2.png" style="width: 321px; height: 161px;" />
 <pre>
 <strong>Input:</strong> edges = [2,2,3,-1], node1 = 0, node2 = 1
 <strong>Output:</strong> 2
@@ -39,7 +39,7 @@ The maximum of those two distances is 1. It can be proven that we cannot get a n
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2359.Find%20Closest%20Node%20to%20Given%20Two%20Nodes/images/graph4drawio-4.png" style="width: 195px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2359.Find%20Closest%20Node%20to%20Given%20Two%20Nodes/images/graph4drawio-4.png" style="width: 195px; height: 161px;" />
 <pre>
 <strong>Input:</strong> edges = [1,2,-1], node1 = 0, node2 = 2
 <strong>Output:</strong> 2

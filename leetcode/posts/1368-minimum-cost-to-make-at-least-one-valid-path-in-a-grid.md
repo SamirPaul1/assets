@@ -4,7 +4,7 @@ summary: 1368 Minimum Cost To Make At Least One Valid Path In A Grid LeetCode So
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1368 Minimum Cost To Make At Least One Valid Path In A Grid LeetCode Solution Explained in all languages"]
+keywords: ["1368 Minimum Cost To Make At Least One Valid Path In A Grid LeetCode Solution Explained in all languages", "1368 Minimum Cost To Make At Least One Valid Path In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1368 Minimum Cost To Make At Least One Valid Path In A Grid - Solution Explained/problem-solving.webp
     alt: 1368 Minimum Cost To Make At Least One Valid Path In A Grid
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1368.Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/images/grid1.png" style="width: 400px; height: 390px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1368.Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/images/grid1.png" style="width: 400px; height: 390px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,1,1],[2,2,2,2],[1,1,1,1],[2,2,2,2]]
 <strong>Output:</strong> 3
@@ -47,7 +47,7 @@ The total cost = 3.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1368.Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/images/grid2.png" style="width: 350px; height: 341px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1368.Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/images/grid2.png" style="width: 350px; height: 341px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,1,3],[3,2,2],[1,1,4]]
 <strong>Output:</strong> 0
@@ -55,7 +55,7 @@ The total cost = 3.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1368.Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/images/grid3.png" style="width: 200px; height: 192px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1368.Minimum%20Cost%20to%20Make%20at%20Least%20One%20Valid%20Path%20in%20a%20Grid/images/grid3.png" style="width: 200px; height: 192px;" />
 <pre>
 <strong>Input:</strong> grid = [[1,2],[4,3]]
 <strong>Output:</strong> 1

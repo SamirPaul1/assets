@@ -4,7 +4,7 @@ summary: 1135 Connecting Cities With Minimum Cost LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1135 Connecting Cities With Minimum Cost LeetCode Solution Explained in all languages"]
+keywords: ["1135 Connecting Cities With Minimum Cost LeetCode Solution Explained in all languages", "1135 Connecting Cities With Minimum Cost", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1135 Connecting Cities With Minimum Cost - Solution Explained/problem-solving.webp
     alt: 1135 Connecting Cities With Minimum Cost
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1135.Connecting%20Cities%20With%20Minimum%20Cost/images/1314_ex2.png" style="width: 161px; height: 141px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1135.Connecting%20Cities%20With%20Minimum%20Cost/images/1314_ex2.png" style="width: 161px; height: 141px;" />
 <pre>
 <strong>Input:</strong> n = 3, connections = [[1,2,5],[1,3,6],[2,3,1]]
 <strong>Output:</strong> 6
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1100-1199/1135.Connecting%20Cities%20With%20Minimum%20Cost/images/1314_ex1.png" style="width: 136px; height: 91px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1135.Connecting%20Cities%20With%20Minimum%20Cost/images/1314_ex1.png" style="width: 136px; height: 91px;" />
 <pre>
 <strong>Input:</strong> n = 4, connections = [[1,2,3],[3,4,4]]
 <strong>Output:</strong> -1

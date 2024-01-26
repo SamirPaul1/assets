@@ -4,7 +4,7 @@ summary: 0733 Flood Fill LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0733 Flood Fill LeetCode Solution Explained in all languages"]
+keywords: ["0733 Flood Fill LeetCode Solution Explained in all languages", "0733 Flood Fill", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0733 Flood Fill - Solution Explained/problem-solving.webp
     alt: 0733 Flood Fill
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0700-0799/0733.Flood%20Fill/images/flood1-grid.jpg" style="width: 613px; height: 253px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0733.Flood%20Fill/images/flood1-grid.jpg" style="width: 613px; height: 253px;" />
 <pre>
 <strong>Input:</strong> image = [[1,1,1],[1,1,0],[1,0,1]], sr = 1, sc = 1, color = 2
 <strong>Output:</strong> [[2,2,2],[2,2,0],[2,0,1]]

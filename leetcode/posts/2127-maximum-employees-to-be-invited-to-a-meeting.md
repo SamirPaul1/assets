@@ -4,7 +4,7 @@ summary: 2127 Maximum Employees To Be Invited To A Meeting LeetCode Solution Exp
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2127 Maximum Employees To Be Invited To A Meeting LeetCode Solution Explained in all languages"]
+keywords: ["2127 Maximum Employees To Be Invited To A Meeting LeetCode Solution Explained in all languages", "2127 Maximum Employees To Be Invited To A Meeting", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2127 Maximum Employees To Be Invited To A Meeting - Solution Explained/problem-solving.webp
     alt: 2127 Maximum Employees To Be Invited To A Meeting
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/images/ex1.png" style="width: 236px; height: 195px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/images/ex1.png" style="width: 236px; height: 195px;" />
 <pre>
 <strong>Input:</strong> favorite = [2,2,1,2]
 <strong>Output:</strong> 3
@@ -52,7 +52,7 @@ The maximum number of employees that can be invited to the meeting is 3.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/images/ex2.png" style="width: 219px; height: 220px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/images/ex2.png" style="width: 219px; height: 220px;" />
 <pre>
 <strong>Input:</strong> favorite = [3,0,1,4,1]
 <strong>Output:</strong> 4
@@ -81,7 +81,7 @@ We observe that the employee's preference relationship in the problem can be reg
 
 What is a "base cycle inward tree"? First, a base cycle tree is a directed graph with $n$ nodes and $n$ edges, and an inward tree means that in this directed graph, each node has exactly one outgoing edge. In this problem, each employee has exactly one favorite employee, so the constructed directed graph can be composed of multiple "base cycle inward trees".
 
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2100-2199/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/images/05Dxh9.png"></p>
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2127.Maximum%20Employees%20to%20Be%20Invited%20to%20a%20Meeting/images/05Dxh9.png"></p>
 
 For this problem, we can find the length of the maximum cycle in the graph. Here we only need to find the length of the largest cycle, because if there are multiple cycles, they are not connected to each other, which does not meet the problem requirements.
 

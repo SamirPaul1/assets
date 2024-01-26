@@ -4,7 +4,7 @@ summary: 2245 Maximum Trailing Zeros In A Cornered Path LeetCode Solution Explai
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2245 Maximum Trailing Zeros In A Cornered Path LeetCode Solution Explained in all languages"]
+keywords: ["2245 Maximum Trailing Zeros In A Cornered Path LeetCode Solution Explained in all languages", "2245 Maximum Trailing Zeros In A Cornered Path", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2245 Maximum Trailing Zeros In A Cornered Path - Solution Explained/problem-solving.webp
     alt: 2245 Maximum Trailing Zeros In A Cornered Path
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex1new2.jpg" style="width: 577px; height: 190px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex1new2.jpg" style="width: 577px; height: 190px;" />
 <pre>
 <strong>Input:</strong> grid = [[23,17,15,3,20],[8,1,20,27,11],[9,4,6,2,21],[40,9,1,10,6],[22,7,4,5,3]]
 <strong>Output:</strong> 3
@@ -49,7 +49,7 @@ The grid on the right is not a cornered path as it requires a return to a previo
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex2.jpg" style="width: 150px; height: 157px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2245.Maximum%20Trailing%20Zeros%20in%20a%20Cornered%20Path/images/ex2.jpg" style="width: 150px; height: 157px;" />
 <pre>
 <strong>Input:</strong> grid = [[4,3,2],[7,6,1],[8,8,8]]
 <strong>Output:</strong> 0

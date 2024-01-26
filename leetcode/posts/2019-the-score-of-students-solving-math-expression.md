@@ -4,7 +4,7 @@ summary: 2019 The Score Of Students Solving Math Expression LeetCode Solution Ex
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2019 The Score Of Students Solving Math Expression LeetCode Solution Explained in all languages"]
+keywords: ["2019 The Score Of Students Solving Math Expression LeetCode Solution Explained in all languages", "2019 The Score Of Students Solving Math Expression", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2019 The Score Of Students Solving Math Expression - Solution Explained/problem-solving.webp
     alt: 2019 The Score Of Students Solving Math Expression
@@ -37,7 +37,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2019.The%20Score%20of%20Students%20Solving%20Math%20Expression/images/student_solving_math.png" style="width: 678px; height: 109px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2019.The%20Score%20of%20Students%20Solving%20Math%20Expression/images/student_solving_math.png" style="width: 678px; height: 109px;" />
 <pre>
 <strong>Input:</strong> s = &quot;7+3*1*2&quot;, answers = [20,13,42]
 <strong>Output:</strong> 7

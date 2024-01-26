@@ -4,7 +4,7 @@ summary: 2258 Escape The Spreading Fire LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2258 Escape The Spreading Fire LeetCode Solution Explained in all languages"]
+keywords: ["2258 Escape The Spreading Fire LeetCode Solution Explained in all languages", "2258 Escape The Spreading Fire", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2258 Escape The Spreading Fire - Solution Explained/problem-solving.webp
     alt: 2258 Escape The Spreading Fire
@@ -36,7 +36,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2258.Escape%20the%20Spreading%20Fire/images/ex1new.jpg" style="width: 650px; height: 404px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2258.Escape%20the%20Spreading%20Fire/images/ex1new.jpg" style="width: 650px; height: 404px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,2,0,0,0,0,0],[0,0,0,2,2,1,0],[0,2,0,0,1,2,0],[0,0,2,2,2,0,2],[0,0,0,0,0,0,0]]
 <strong>Output:</strong> 3
@@ -45,7 +45,7 @@ You will still be able to safely reach the safehouse.
 Staying for more than 3 minutes will not allow you to safely reach the safehouse.</pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2258.Escape%20the%20Spreading%20Fire/images/ex2new2.jpg" style="width: 515px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2258.Escape%20the%20Spreading%20Fire/images/ex2new2.jpg" style="width: 515px; height: 150px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,0,0],[0,1,2,0],[0,2,0,0]]
 <strong>Output:</strong> -1
@@ -55,7 +55,7 @@ Thus, -1 is returned.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2258.Escape%20the%20Spreading%20Fire/images/ex3new.jpg" style="width: 174px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2258.Escape%20the%20Spreading%20Fire/images/ex3new.jpg" style="width: 174px; height: 150px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,0,0],[2,2,0],[1,2,0]]
 <strong>Output:</strong> 1000000000

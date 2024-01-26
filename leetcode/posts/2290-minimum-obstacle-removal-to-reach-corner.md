@@ -4,7 +4,7 @@ summary: 2290 Minimum Obstacle Removal To Reach Corner LeetCode Solution Explain
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2290 Minimum Obstacle Removal To Reach Corner LeetCode Solution Explained in all languages"]
+keywords: ["2290 Minimum Obstacle Removal To Reach Corner LeetCode Solution Explained in all languages", "2290 Minimum Obstacle Removal To Reach Corner", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2290 Minimum Obstacle Removal To Reach Corner - Solution Explained/problem-solving.webp
     alt: 2290 Minimum Obstacle Removal To Reach Corner
@@ -31,7 +31,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2290.Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/images/example1drawio-1.png" style="width: 605px; height: 246px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2290.Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/images/example1drawio-1.png" style="width: 605px; height: 246px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,1],[1,1,0],[1,1,0]]
 <strong>Output:</strong> 2
@@ -41,7 +41,7 @@ Note that there may be other ways to remove 2 obstacles to create a path.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2200-2299/2290.Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/images/example1drawio.png" style="width: 405px; height: 246px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2290.Minimum%20Obstacle%20Removal%20to%20Reach%20Corner/images/example1drawio.png" style="width: 405px; height: 246px;" />
 <pre>
 <strong>Input:</strong> grid = [[0,1,0,0,0],[0,1,0,1,0],[0,0,0,1,0]]
 <strong>Output:</strong> 0

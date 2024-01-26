@@ -4,7 +4,7 @@ summary: 2283 Check If Number Has Equal Digit Count And Digit Value LeetCode Sol
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2283 Check If Number Has Equal Digit Count And Digit Value LeetCode Solution Explained in all languages"]
+keywords: ["2283 Check If Number Has Equal Digit Count And Digit Value LeetCode Solution Explained in all languages", "2283 Check If Number Has Equal Digit Count And Digit Value", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2283 Check If Number Has Equal Digit Count And Digit Value - Solution Explained/problem-solving.webp
     alt: 2283 Check If Number Has Equal Digit Count And Digit Value

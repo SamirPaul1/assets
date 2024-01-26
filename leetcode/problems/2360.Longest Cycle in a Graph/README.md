@@ -14,7 +14,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2360.Longest%20Cycle%20in%20a%20Graph/images/graph4drawio-5.png" style="width: 335px; height: 191px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2360.Longest%20Cycle%20in%20a%20Graph/images/graph4drawio-5.png" style="width: 335px; height: 191px;" />
 <pre>
 <strong>Input:</strong> edges = [3,3,4,2,3]
 <strong>Output:</strong> 3
@@ -23,7 +23,7 @@ The length of this cycle is 3, so 3 is returned.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2360.Longest%20Cycle%20in%20a%20Graph/images/graph4drawio-1.png" style="width: 171px; height: 161px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2360.Longest%20Cycle%20in%20a%20Graph/images/graph4drawio-1.png" style="width: 171px; height: 161px;" />
 <pre>
 <strong>Input:</strong> edges = [2,-1,3,1]
 <strong>Output:</strong> -1

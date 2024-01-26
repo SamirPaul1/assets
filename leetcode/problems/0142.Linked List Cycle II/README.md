@@ -12,7 +12,7 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0142.Linked%20List%20Cycle%20II/images/circularlinkedlist.png" style="height: 145px; width: 450px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0142.Linked%20List%20Cycle%20II/images/circularlinkedlist.png" style="height: 145px; width: 450px;" />
 <pre>
 <strong>Input:</strong> head = [3,2,0,-4], pos = 1
 <strong>Output:</strong> tail connects to node index 1
@@ -20,7 +20,7 @@
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0142.Linked%20List%20Cycle%20II/images/circularlinkedlist_test2.png" style="height: 105px; width: 201px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0142.Linked%20List%20Cycle%20II/images/circularlinkedlist_test2.png" style="height: 105px; width: 201px;" />
 <pre>
 <strong>Input:</strong> head = [1,2], pos = 0
 <strong>Output:</strong> tail connects to node index 0
@@ -28,7 +28,7 @@
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0142.Linked%20List%20Cycle%20II/images/circularlinkedlist_test3.png" style="height: 65px; width: 65px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0142.Linked%20List%20Cycle%20II/images/circularlinkedlist_test3.png" style="height: 65px; width: 65px;" />
 <pre>
 <strong>Input:</strong> head = [1], pos = -1
 <strong>Output:</strong> no cycle
@@ -61,7 +61,7 @@ Why can this find the entrance node of the ring?
 
 Let's assume that the distance from the head node of the linked list to the entrance of the ring is $x$, the distance from the entrance of the ring to the meeting node is $y$, and the distance from the meeting node to the entrance of the ring is $z$. Then the distance traveled by the slow pointer is $x + y$, and the distance traveled by the fast pointer is $x + y + k \times (y + z)$, where $k$ is the number of times the fast pointer goes around the ring.
 
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0100-0199/0142.Linked%20List%20Cycle%20II/images/linked-list-cycle-ii.png" /></p>
+<p><img src="https://spcdn.pages.dev/leetcode/problems/0142.Linked%20List%20Cycle%20II/images/linked-list-cycle-ii.png" /></p>
 
 Because the speed of the fast pointer is twice that of the slow pointer, it is $2 \times (x + y) = x + y + k \times (y + z)$, which can be deduced that $x + y = k \times (y + z)$, that is $x = (k - 1) \times (y + z) + z$.
 

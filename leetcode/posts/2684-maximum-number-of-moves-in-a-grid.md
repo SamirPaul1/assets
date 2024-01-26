@@ -4,7 +4,7 @@ summary: 2684 Maximum Number Of Moves In A Grid LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2684 Maximum Number Of Moves In A Grid LeetCode Solution Explained in all languages"]
+keywords: ["2684 Maximum Number Of Moves In A Grid LeetCode Solution Explained in all languages", "2684 Maximum Number Of Moves In A Grid", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2684 Maximum Number Of Moves In A Grid - Solution Explained/problem-solving.webp
     alt: 2684 Maximum Number Of Moves In A Grid
@@ -30,7 +30,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgriddrawio-10.png" style="width: 201px; height: 201px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgriddrawio-10.png" style="width: 201px; height: 201px;" />
 <pre>
 <strong>Input:</strong> grid = [[2,4,3,5],[5,4,9,3],[3,4,2,11],[10,9,13,15]]
 <strong>Output:</strong> 3
@@ -43,7 +43,7 @@ It can be shown that it is the maximum number of moves that can be made.</pre>
 <p><strong class="example">Example 2:</strong></p>
 
 <pre>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2600-2699/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgrid4drawio.png" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2684.Maximum%20Number%20of%20Moves%20in%20a%20Grid/images/yetgrid4drawio.png" />
 <strong>Input:</strong> grid = [[3,2,4],[2,1,9],[1,1,7]]
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> Starting from any cell in the first column we cannot perform any moves.

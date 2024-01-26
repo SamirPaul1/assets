@@ -4,7 +4,7 @@ summary: 1335 Minimum Difficulty Of A Job Schedule LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1335 Minimum Difficulty Of A Job Schedule LeetCode Solution Explained in all languages"]
+keywords: ["1335 Minimum Difficulty Of A Job Schedule LeetCode Solution Explained in all languages", "1335 Minimum Difficulty Of A Job Schedule", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1335 Minimum Difficulty Of A Job Schedule - Solution Explained/problem-solving.webp
     alt: 1335 Minimum Difficulty Of A Job Schedule
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1300-1399/1335.Minimum%20Difficulty%20of%20a%20Job%20Schedule/images/untitled.png" style="width: 365px; height: 370px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1335.Minimum%20Difficulty%20of%20a%20Job%20Schedule/images/untitled.png" style="width: 365px; height: 370px;" />
 <pre>
 <strong>Input:</strong> jobDifficulty = [6,5,4,3,2,1], d = 2
 <strong>Output:</strong> 7

@@ -4,7 +4,7 @@ summary: 2015 Average Height Of Buildings In Each Segment LeetCode Solution Expl
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2015 Average Height Of Buildings In Each Segment LeetCode Solution Explained in all languages"]
+keywords: ["2015 Average Height Of Buildings In Each Segment LeetCode Solution Explained in all languages", "2015 Average Height Of Buildings In Each Segment", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2015 Average Height Of Buildings In Each Segment - Solution Explained/problem-solving.webp
     alt: 2015 Average Height Of Buildings In Each Segment
@@ -42,7 +42,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2000-2099/2015.Average%20Height%20of%20Buildings%20in%20Each%20Segment/images/image-20210921224001-2.png" style="width: 500px; height: 349px;" />
+<img src="https://spcdn.pages.dev/leetcode/problems/2015.Average%20Height%20of%20Buildings%20in%20Each%20Segment/images/image-20210921224001-2.png" style="width: 500px; height: 349px;" />
 <pre>
 <strong>Input:</strong> buildings = [[1,4,2],[3,9,4]]
 <strong>Output:</strong> [[1,3,2],[3,4,3],[4,9,4]]

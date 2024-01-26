@@ -4,7 +4,7 @@ summary: 1039 Minimum Score Triangulation Of Polygon LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1039 Minimum Score Triangulation Of Polygon LeetCode Solution Explained in all languages"]
+keywords: ["1039 Minimum Score Triangulation Of Polygon LeetCode Solution Explained in all languages", "1039 Minimum Score Triangulation Of Polygon", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1039 Minimum Score Triangulation Of Polygon - Solution Explained/problem-solving.webp
     alt: 1039 Minimum Score Triangulation Of Polygon
@@ -26,7 +26,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1039.Minimum%20Score%20Triangulation%20of%20Polygon/images/shape1.jpg" style="width: 201px; height: 133px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1039.Minimum%20Score%20Triangulation%20of%20Polygon/images/shape1.jpg" style="width: 201px; height: 133px;" />
 <pre>
 <strong>Input:</strong> values = [1,2,3]
 <strong>Output:</strong> 6
@@ -34,7 +34,7 @@ cover:
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1039.Minimum%20Score%20Triangulation%20of%20Polygon/images/shape2.jpg" style="width: 446px; height: 163px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1039.Minimum%20Score%20Triangulation%20of%20Polygon/images/shape2.jpg" style="width: 446px; height: 163px;" />
 <pre>
 <strong>Input:</strong> values = [3,7,4,5]
 <strong>Output:</strong> 144
@@ -43,7 +43,7 @@ The minimum score is 144.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1000-1099/1039.Minimum%20Score%20Triangulation%20of%20Polygon/images/shape3.jpg" style="width: 207px; height: 163px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1039.Minimum%20Score%20Triangulation%20of%20Polygon/images/shape3.jpg" style="width: 207px; height: 163px;" />
 <pre>
 <strong>Input:</strong> values = [1,3,1,4,1,5]
 <strong>Output:</strong> 13

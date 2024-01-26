@@ -4,7 +4,7 @@ summary: 0952 Largest Component Size By Common Factor LeetCode Solution Explaine
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0952 Largest Component Size By Common Factor LeetCode Solution Explained in all languages"]
+keywords: ["0952 Largest Component Size By Common Factor LeetCode Solution Explained in all languages", "0952 Largest Component Size By Common Factor", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0952 Largest Component Size By Common Factor - Solution Explained/problem-solving.webp
     alt: 0952 Largest Component Size By Common Factor
@@ -29,21 +29,21 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0952.Largest%20Component%20Size%20by%20Common%20Factor/images/ex1.png" style="width: 500px; height: 97px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0952.Largest%20Component%20Size%20by%20Common%20Factor/images/ex1.png" style="width: 500px; height: 97px;" />
 <pre>
 <strong>Input:</strong> nums = [4,6,15,35]
 <strong>Output:</strong> 4
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0952.Largest%20Component%20Size%20by%20Common%20Factor/images/ex2.png" style="width: 500px; height: 85px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0952.Largest%20Component%20Size%20by%20Common%20Factor/images/ex2.png" style="width: 500px; height: 85px;" />
 <pre>
 <strong>Input:</strong> nums = [20,50,9,63]
 <strong>Output:</strong> 2
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0900-0999/0952.Largest%20Component%20Size%20by%20Common%20Factor/images/ex3.png" style="width: 500px; height: 260px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0952.Largest%20Component%20Size%20by%20Common%20Factor/images/ex3.png" style="width: 500px; height: 260px;" />
 <pre>
 <strong>Input:</strong> nums = [2,3,6,7,4,12,21,39]
 <strong>Output:</strong> 8

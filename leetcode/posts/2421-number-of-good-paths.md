@@ -4,7 +4,7 @@ summary: 2421 Number Of Good Paths LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2421 Number Of Good Paths LeetCode Solution Explained in all languages"]
+keywords: ["2421 Number Of Good Paths LeetCode Solution Explained in all languages", "2421 Number Of Good Paths", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2421 Number Of Good Paths - Solution Explained/problem-solving.webp
     alt: 2421 Number Of Good Paths
@@ -35,7 +35,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2421.Number%20of%20Good%20Paths/images/f9caaac15b383af9115c5586779dec5.png" style="width: 400px; height: 333px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2421.Number%20of%20Good%20Paths/images/f9caaac15b383af9115c5586779dec5.png" style="width: 400px; height: 333px;" />
 <pre>
 <strong>Input:</strong> vals = [1,3,2,1,3], edges = [[0,1],[0,2],[2,3],[2,4]]
 <strong>Output:</strong> 6
@@ -46,7 +46,7 @@ Note that 0 -&gt; 2 -&gt; 3 is not a good path because vals[2] &gt; vals[0].
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2421.Number%20of%20Good%20Paths/images/149d3065ec165a71a1b9aec890776ff.png" style="width: 273px; height: 350px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2421.Number%20of%20Good%20Paths/images/149d3065ec165a71a1b9aec890776ff.png" style="width: 273px; height: 350px;" />
 <pre>
 <strong>Input:</strong> vals = [1,1,2,2,3], edges = [[0,1],[1,2],[2,3],[2,4]]
 <strong>Output:</strong> 7
@@ -55,7 +55,7 @@ There are 2 additional good paths: 0 -&gt; 1 and 2 -&gt; 3.
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2400-2499/2421.Number%20of%20Good%20Paths/images/31705e22af3d9c0a557459bc7d1b62d.png" style="width: 100px; height: 88px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2421.Number%20of%20Good%20Paths/images/31705e22af3d9c0a557459bc7d1b62d.png" style="width: 100px; height: 88px;" />
 <pre>
 <strong>Input:</strong> vals = [1], edges = []
 <strong>Output:</strong> 1

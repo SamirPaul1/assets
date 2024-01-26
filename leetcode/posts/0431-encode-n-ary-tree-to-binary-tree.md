@@ -4,7 +4,7 @@ summary: 0431 Encode N Ary Tree To Binary Tree LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0431 Encode N Ary Tree To Binary Tree LeetCode Solution Explained in all languages"]
+keywords: ["0431 Encode N Ary Tree To Binary Tree LeetCode Solution Explained in all languages", "0431 Encode N Ary Tree To Binary Tree", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0431 Encode N Ary Tree To Binary Tree - Solution Explained/problem-solving.webp
     alt: 0431 Encode N Ary Tree To Binary Tree
@@ -24,7 +24,7 @@ cover:
 
 <p>For example, you may encode the following <code>3-ary</code> tree to a binary tree in this way:</p>
 
-<p><img src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0400-0499/0431.Encode%20N-ary%20Tree%20to%20Binary%20Tree/images/narytreebinarytreeexample.png" style="width: 100%; max-width: 640px" /></p>
+<p><img src="https://spcdn.pages.dev/leetcode/problems/0431.Encode%20N-ary%20Tree%20to%20Binary%20Tree/images/narytreebinarytreeexample.png" style="width: 100%; max-width: 640px" /></p>
 
 <pre>
 <strong>Input:</strong> root = [1,null,3,2,4,null,5,6]

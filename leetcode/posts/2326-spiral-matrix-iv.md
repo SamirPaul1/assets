@@ -4,7 +4,7 @@ summary: 2326 Spiral Matrix Iv LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "2326 Spiral Matrix Iv LeetCode Solution Explained in all languages"]
+keywords: ["2326 Spiral Matrix Iv LeetCode Solution Explained in all languages", "2326 Spiral Matrix Iv", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:2326 Spiral Matrix Iv - Solution Explained/problem-solving.webp
     alt: 2326 Spiral Matrix Iv
@@ -28,7 +28,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2326.Spiral%20Matrix%20IV/images/ex1new.jpg" style="width: 240px; height: 150px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2326.Spiral%20Matrix%20IV/images/ex1new.jpg" style="width: 240px; height: 150px;" />
 <pre>
 <strong>Input:</strong> m = 3, n = 5, head = [3,0,2,6,8,1,7,9,4,2,5,5,0]
 <strong>Output:</strong> [[3,0,2,6,8],[5,0,-1,-1,1],[5,2,4,9,7]]
@@ -37,7 +37,7 @@ Note that the remaining spaces in the matrix are filled with -1.
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/2300-2399/2326.Spiral%20Matrix%20IV/images/ex2.jpg" style="width: 221px; height: 60px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/2326.Spiral%20Matrix%20IV/images/ex2.jpg" style="width: 221px; height: 60px;" />
 <pre>
 <strong>Input:</strong> m = 1, n = 4, head = [0,1,2]
 <strong>Output:</strong> [[0,1,2,-1]]

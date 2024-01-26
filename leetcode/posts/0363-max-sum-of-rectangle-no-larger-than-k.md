@@ -4,7 +4,7 @@ summary: 0363 Max Sum Of Rectangle No Larger Than K LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0363 Max Sum Of Rectangle No Larger Than K LeetCode Solution Explained in all languages"]
+keywords: ["0363 Max Sum Of Rectangle No Larger Than K LeetCode Solution Explained in all languages", "0363 Max Sum Of Rectangle No Larger Than K", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0363 Max Sum Of Rectangle No Larger Than K - Solution Explained/problem-solving.webp
     alt: 0363 Max Sum Of Rectangle No Larger Than K
@@ -24,7 +24,7 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/0300-0399/0363.Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/images/sum-grid.jpg" style="width: 255px; height: 176px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/0363.Max%20Sum%20of%20Rectangle%20No%20Larger%20Than%20K/images/sum-grid.jpg" style="width: 255px; height: 176px;" />
 <pre>
 <strong>Input:</strong> matrix = [[1,0,1],[0,-2,3]], k = 2
 <strong>Output:</strong> 2

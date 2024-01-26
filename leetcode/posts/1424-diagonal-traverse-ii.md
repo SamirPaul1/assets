@@ -4,7 +4,7 @@ summary: 1424 Diagonal Traverse Ii LeetCode Solution Explained
 date: 2022-11-25
 tags: [leetcode]
 series: [leetcode]
-keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1424 Diagonal Traverse Ii LeetCode Solution Explained in all languages"]
+keywords: ["1424 Diagonal Traverse Ii LeetCode Solution Explained in all languages", "1424 Diagonal Traverse Ii", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
 cover:
     image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1424 Diagonal Traverse Ii - Solution Explained/problem-solving.webp
     alt: 1424 Diagonal Traverse Ii
@@ -22,14 +22,14 @@ cover:
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1424.Diagonal%20Traverse%20II/images/sample_1_1784.png" style="width: 158px; height: 143px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1424.Diagonal%20Traverse%20II/images/sample_1_1784.png" style="width: 158px; height: 143px;" />
 <pre>
 <strong>Input:</strong> nums = [[1,2,3],[4,5,6],[7,8,9]]
 <strong>Output:</strong> [1,4,2,7,5,3,8,6,9]
 </pre>
 
 <p><strong class="example">Example 2:</strong></p>
-<img alt="" src="https://fastly.jsdelivr.net/gh/doocs/leetcode@main/solution/1400-1499/1424.Diagonal%20Traverse%20II/images/sample_2_1784.png" style="width: 230px; height: 177px;" />
+<img alt="" src="https://spcdn.pages.dev/leetcode/problems/1424.Diagonal%20Traverse%20II/images/sample_2_1784.png" style="width: 230px; height: 177px;" />
 <pre>
 <strong>Input:</strong> nums = [[1,2,3,4,5],[6,7],[8],[9,10,11],[12,13,14,15,16]]
 <strong>Output:</strong> [1,6,2,8,7,3,9,4,12,10,5,13,11,14,15,16]

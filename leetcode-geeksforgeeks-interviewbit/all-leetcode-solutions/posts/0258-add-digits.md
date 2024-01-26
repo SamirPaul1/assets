@@ -1,0 +1,123 @@
+---
+title: 0258 Add Digits
+summary: 0258 Add Digits LeetCode Solution Explained
+date: 2022-11-25
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "0258 Add Digits LeetCode Solution Explained in all languages"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:0258 Add Digits - Solution Explained/problem-solving.webp
+    alt: 0258 Add Digits
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
+
+# [258. Add Digits](https://leetcode.com/problems/add-digits)
+
+
+## Description
+
+<p>Given an integer <code>num</code>, repeatedly add all its digits until the result has only one digit, and return it.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> num = 38
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The process is
+38 --&gt; 3 + 8 --&gt; 11
+11 --&gt; 1 + 1 --&gt; 2 
+Since 2 has only one digit, return it.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> num = 0
+<strong>Output:</strong> 0
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>0 &lt;= num &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong> Could you do it without any loop/recursion in <code>O(1)</code> runtime?</p>
+
+## Solutions
+
+### Solution 1
+
+<!-- tabs:start -->
+
+```python
+class Solution:
+    def addDigits(self, num: int) -> int:
+        return 0 if num == 0 else (num - 1) % 9 + 1
+```
+
+```java
+class Solution {
+    public int addDigits(int num) {
+        return (num - 1) % 9 + 1;
+    }
+}
+```
+
+```cpp
+class Solution {
+public:
+    int addDigits(int num) {
+        return (num - 1) % 9 + 1;
+    }
+};
+```
+
+```go
+func addDigits(num int) int {
+	if num == 0 {
+		return 0
+	}
+	return (num-1)%9 + 1
+}
+```
+
+```rust
+impl Solution {
+    pub fn add_digits(num: i32) -> i32 {
+        if num < 10 {
+            return num;
+        }
+        Self::add_digits(
+            num
+                .to_string()
+                .chars()
+                .map(|c| c.to_string().parse::<i32>().unwrap())
+                .sum::<i32>()
+        )
+    }
+}
+```
+
+<!-- tabs:end -->
+
+### Solution 2
+
+<!-- tabs:start -->
+
+```rust
+impl Solution {
+    pub fn add_digits(mut num: i32) -> i32 {
+        ((num - 1) % 9) + 1
+    }
+}
+```
+
+<!-- tabs:end -->
+
+<!-- end -->

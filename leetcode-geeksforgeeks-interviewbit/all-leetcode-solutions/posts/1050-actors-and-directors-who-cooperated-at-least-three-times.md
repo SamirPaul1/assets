@@ -1,0 +1,86 @@
+---
+title: 1050 Actors And Directors Who Cooperated At Least Three Times
+summary: 1050 Actors And Directors Who Cooperated At Least Three Times LeetCode Solution Explained
+date: 2022-11-25
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "1050 Actors And Directors Who Cooperated At Least Three Times LeetCode Solution Explained in all languages"]
+cover:
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:1050 Actors And Directors Who Cooperated At Least Three Times - Solution Explained/problem-solving.webp
+    alt: 1050 Actors And Directors Who Cooperated At Least Three Times
+    hiddenInList: true
+    hiddenInSingle: false
+---
+
+
+# [1050. Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times)
+
+
+## Description
+
+<p>Table: <code>ActorDirector</code></p>
+
+<pre>
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| actor_id    | int     |
+| director_id | int     |
+| timestamp   | int     |
++-------------+---------+
+timestamp is the primary key (column with unique values) for this table.
+</pre>
+
+<p>&nbsp;</p>
+
+<p>Write a solution to find all the pairs <code>(actor_id, director_id)</code> where the actor has cooperated with the director at least three times.</p>
+
+<p>Return the result table in <strong>any order</strong>.</p>
+
+<p>The result format is in the following example.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> 
+ActorDirector table:
++-------------+-------------+-------------+
+| actor_id    | director_id | timestamp   |
++-------------+-------------+-------------+
+| 1           | 1           | 0           |
+| 1           | 1           | 1           |
+| 1           | 1           | 2           |
+| 1           | 2           | 3           |
+| 1           | 2           | 4           |
+| 2           | 1           | 5           |
+| 2           | 1           | 6           |
++-------------+-------------+-------------+
+<strong>Output:</strong> 
++-------------+-------------+
+| actor_id    | director_id |
++-------------+-------------+
+| 1           | 1           |
++-------------+-------------+
+<strong>Explanation:</strong> The only pair is (1, 1) where they cooperated exactly 3 times.
+</pre>
+
+## Solutions
+
+### Solution 1: Group By + Having
+
+We can use the `GROUP BY` statement to group the data by the `actor_id` and `director_id` fields, and then use the `HAVING` statement to filter out the `actor_id` and `director_id` that appear at least three times.
+
+<!-- tabs:start -->
+
+```sql
+# Write your MySQL query statement below
+SELECT actor_id, director_id
+FROM ActorDirector
+GROUP BY 1, 2
+HAVING COUNT(1) >= 3;
+```
+
+<!-- tabs:end -->
+
+<!-- end -->

@@ -10,6 +10,7 @@ cover:
     alt: 0795 Number of Subarrays with Bounded Maximum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1670 Design Front Middle Back Queue
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

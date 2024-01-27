@@ -10,6 +10,7 @@ cover:
     alt: 0820 Short Encoding of Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

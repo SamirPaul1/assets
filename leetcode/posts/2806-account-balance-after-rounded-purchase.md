@@ -10,6 +10,7 @@ cover:
     alt: 2806 Account Balance After Rounded Purchase
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

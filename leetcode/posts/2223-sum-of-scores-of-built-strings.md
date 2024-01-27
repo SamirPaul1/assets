@@ -10,6 +10,7 @@ cover:
     alt: 2223 Sum of Scores of Built Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

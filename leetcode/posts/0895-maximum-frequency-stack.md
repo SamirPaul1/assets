@@ -10,6 +10,7 @@ cover:
     alt: 0895 Maximum Frequency Stack
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

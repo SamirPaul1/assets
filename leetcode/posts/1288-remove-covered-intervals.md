@@ -10,6 +10,7 @@ cover:
     alt: 1288 Remove Covered Intervals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1764 Form Array by Concatenating Subarrays of Another Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

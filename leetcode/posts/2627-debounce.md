@@ -10,6 +10,7 @@ cover:
     alt: 2627 Debounce
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

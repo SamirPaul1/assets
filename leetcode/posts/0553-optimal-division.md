@@ -10,6 +10,7 @@ cover:
     alt: 0553 Optimal Division
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

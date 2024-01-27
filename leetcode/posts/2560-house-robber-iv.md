@@ -10,6 +10,7 @@ cover:
     alt: 2560 House Robber IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

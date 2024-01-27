@@ -10,6 +10,7 @@ cover:
     alt: 0656 Coin Path
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

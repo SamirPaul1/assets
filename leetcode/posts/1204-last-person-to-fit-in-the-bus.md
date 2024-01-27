@@ -10,6 +10,7 @@ cover:
     alt: 1204 Last Person to Fit in the Bus
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

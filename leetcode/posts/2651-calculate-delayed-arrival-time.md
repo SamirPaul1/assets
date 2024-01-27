@@ -10,6 +10,7 @@ cover:
     alt: 2651 Calculate Delayed Arrival Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

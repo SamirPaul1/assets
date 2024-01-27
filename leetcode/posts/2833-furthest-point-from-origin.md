@@ -10,6 +10,7 @@ cover:
     alt: 2833 Furthest Point From Origin
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

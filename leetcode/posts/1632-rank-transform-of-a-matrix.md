@@ -10,6 +10,7 @@ cover:
     alt: 1632 Rank Transform of a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

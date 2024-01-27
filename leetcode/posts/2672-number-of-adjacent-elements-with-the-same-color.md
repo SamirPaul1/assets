@@ -10,6 +10,7 @@ cover:
     alt: 2672 Number of Adjacent Elements With the Same Color
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

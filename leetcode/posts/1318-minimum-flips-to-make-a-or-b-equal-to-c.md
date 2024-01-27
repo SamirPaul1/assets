@@ -10,6 +10,7 @@ cover:
     alt: 1318 Minimum Flips to Make a OR b Equal to c
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2924 Find Champion II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

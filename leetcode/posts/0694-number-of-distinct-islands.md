@@ -10,6 +10,7 @@ cover:
     alt: 0694 Number of Distinct Islands
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

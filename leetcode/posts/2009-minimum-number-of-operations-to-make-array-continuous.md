@@ -10,6 +10,7 @@ cover:
     alt: 2009 Minimum Number of Operations to Make Array Continuous
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

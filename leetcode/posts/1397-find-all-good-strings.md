@@ -10,6 +10,7 @@ cover:
     alt: 1397 Find All Good Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1139 Largest 1 Bordered Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

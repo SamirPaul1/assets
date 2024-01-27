@@ -10,6 +10,7 @@ cover:
     alt: 0557 Reverse Words in a String III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

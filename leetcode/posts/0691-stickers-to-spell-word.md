@@ -10,6 +10,7 @@ cover:
     alt: 0691 Stickers to Spell Word
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

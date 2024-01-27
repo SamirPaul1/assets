@@ -10,6 +10,7 @@ cover:
     alt: 2846 Minimum Edge Weight Equilibrium Queries in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

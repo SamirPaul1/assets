@@ -10,6 +10,7 @@ cover:
     alt: 0423 Reconstruct Original Digits from English
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

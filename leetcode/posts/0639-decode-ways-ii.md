@@ -10,6 +10,7 @@ cover:
     alt: 0639 Decode Ways II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

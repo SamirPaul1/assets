@@ -10,6 +10,7 @@ cover:
     alt: 0725 Split Linked List in Parts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

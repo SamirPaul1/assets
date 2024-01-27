@@ -10,6 +10,7 @@ cover:
     alt: 2986 Find Third Transaction
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

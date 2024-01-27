@@ -10,6 +10,7 @@ cover:
     alt: 0966 Vowel Spellchecker
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

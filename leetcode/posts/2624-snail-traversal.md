@@ -10,6 +10,7 @@ cover:
     alt: 2624 Snail Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

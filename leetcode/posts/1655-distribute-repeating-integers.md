@@ -10,6 +10,7 @@ cover:
     alt: 1655 Distribute Repeating Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1583 Count Unhappy Friends
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

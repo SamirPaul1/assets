@@ -10,6 +10,7 @@ cover:
     alt: 2861 Maximum Number of Alloys
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1529 Minimum Suffix Flips
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

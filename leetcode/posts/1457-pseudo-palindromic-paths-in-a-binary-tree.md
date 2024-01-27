@@ -10,6 +10,7 @@ cover:
     alt: 1457 Pseudo Palindromic Paths in a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

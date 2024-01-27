@@ -10,6 +10,7 @@ cover:
     alt: 0084 Largest Rectangle in Histogram
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2376 Count Special Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

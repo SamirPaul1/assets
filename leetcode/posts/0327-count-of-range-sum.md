@@ -10,6 +10,7 @@ cover:
     alt: 0327 Count of Range Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

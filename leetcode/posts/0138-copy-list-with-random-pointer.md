@@ -10,6 +10,7 @@ cover:
     alt: 0138 Copy List with Random Pointer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

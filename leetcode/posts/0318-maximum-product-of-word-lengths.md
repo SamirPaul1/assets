@@ -10,6 +10,7 @@ cover:
     alt: 0318 Maximum Product of Word Lengths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

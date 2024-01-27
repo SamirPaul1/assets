@@ -10,6 +10,7 @@ cover:
     alt: 1603 Design Parking System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1032 Stream of Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

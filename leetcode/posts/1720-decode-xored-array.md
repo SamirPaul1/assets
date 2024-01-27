@@ -10,6 +10,7 @@ cover:
     alt: 1720 Decode XORed Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

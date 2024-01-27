@@ -10,6 +10,7 @@ cover:
     alt: 1791 Find Center of Star Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0427 Construct Quad Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

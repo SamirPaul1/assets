@@ -10,6 +10,7 @@ cover:
     alt: 2020 Number of Accounts That Did Not Stream
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

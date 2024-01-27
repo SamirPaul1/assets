@@ -10,6 +10,7 @@ cover:
     alt: 0306 Additive Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0903 Valid Permutations for DI Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

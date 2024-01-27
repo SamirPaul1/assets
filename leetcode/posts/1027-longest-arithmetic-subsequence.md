@@ -10,6 +10,7 @@ cover:
     alt: 1027 Longest Arithmetic Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

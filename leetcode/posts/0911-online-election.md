@@ -10,6 +10,7 @@ cover:
     alt: 0911 Online Election
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

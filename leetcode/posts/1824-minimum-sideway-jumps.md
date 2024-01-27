@@ -10,6 +10,7 @@ cover:
     alt: 1824 Minimum Sideway Jumps
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

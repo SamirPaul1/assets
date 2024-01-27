@@ -10,6 +10,7 @@ cover:
     alt: 1312 Minimum Insertion Steps to Make a String Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

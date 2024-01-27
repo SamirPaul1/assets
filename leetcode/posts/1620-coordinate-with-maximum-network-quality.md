@@ -10,6 +10,7 @@ cover:
     alt: 1620 Coordinate With Maximum Network Quality
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

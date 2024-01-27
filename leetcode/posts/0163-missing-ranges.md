@@ -10,6 +10,7 @@ cover:
     alt: 0163 Missing Ranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

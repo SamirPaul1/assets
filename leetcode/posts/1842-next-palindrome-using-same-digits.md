@@ -10,6 +10,7 @@ cover:
     alt: 1842 Next Palindrome Using Same Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

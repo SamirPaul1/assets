@@ -10,6 +10,7 @@ cover:
     alt: 0585 Investments in 2016
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

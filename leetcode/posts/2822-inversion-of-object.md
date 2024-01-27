@@ -10,6 +10,7 @@ cover:
     alt: 2822 Inversion of Object
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

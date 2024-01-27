@@ -10,6 +10,7 @@ cover:
     alt: 0670 Maximum Swap
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

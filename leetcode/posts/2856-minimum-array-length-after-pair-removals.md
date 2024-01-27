@@ -10,6 +10,7 @@ cover:
     alt: 2856 Minimum Array Length After Pair Removals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0628 Maximum Product of Three Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

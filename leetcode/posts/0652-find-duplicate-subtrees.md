@@ -10,6 +10,7 @@ cover:
     alt: 0652 Find Duplicate Subtrees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

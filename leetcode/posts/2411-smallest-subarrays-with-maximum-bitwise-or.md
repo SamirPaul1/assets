@@ -10,6 +10,7 @@ cover:
     alt: 2411 Smallest Subarrays With Maximum Bitwise OR
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

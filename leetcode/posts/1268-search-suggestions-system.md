@@ -10,6 +10,7 @@ cover:
     alt: 1268 Search Suggestions System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

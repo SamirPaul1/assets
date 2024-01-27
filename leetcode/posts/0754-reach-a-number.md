@@ -10,6 +10,7 @@ cover:
     alt: 0754 Reach a Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2569 Handling Sum Queries After Update
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

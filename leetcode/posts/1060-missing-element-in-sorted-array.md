@@ -10,6 +10,7 @@ cover:
     alt: 1060 Missing Element in Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

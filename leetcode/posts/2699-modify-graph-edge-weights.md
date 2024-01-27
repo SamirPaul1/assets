@@ -10,6 +10,7 @@ cover:
     alt: 2699 Modify Graph Edge Weights
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1525 Number of Good Ways to Split a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

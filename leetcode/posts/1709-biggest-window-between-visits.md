@@ -10,6 +10,7 @@ cover:
     alt: 1709 Biggest Window Between Visits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

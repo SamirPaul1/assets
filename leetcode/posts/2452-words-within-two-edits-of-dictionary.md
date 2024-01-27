@@ -10,6 +10,7 @@ cover:
     alt: 2452 Words Within Two Edits of Dictionary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

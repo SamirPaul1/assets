@@ -10,6 +10,7 @@ cover:
     alt: 0646 Maximum Length of Pair Chain
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

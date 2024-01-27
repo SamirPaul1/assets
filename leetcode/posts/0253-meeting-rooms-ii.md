@@ -10,6 +10,7 @@ cover:
     alt: 0253 Meeting Rooms II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0161 One Edit Distance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1462 Course Schedule IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

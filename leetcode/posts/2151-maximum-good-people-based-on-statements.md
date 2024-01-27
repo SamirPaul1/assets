@@ -10,6 +10,7 @@ cover:
     alt: 2151 Maximum Good People Based on Statements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

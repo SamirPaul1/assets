@@ -10,6 +10,7 @@ cover:
     alt: 2383 Minimum Hours of Training to Win a Competition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

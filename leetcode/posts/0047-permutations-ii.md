@@ -10,6 +10,7 @@ cover:
     alt: 0047 Permutations II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

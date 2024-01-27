@@ -10,6 +10,7 @@ cover:
     alt: 1217 Minimum Cost to Move Chips to The Same Position
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

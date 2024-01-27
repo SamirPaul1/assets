@@ -10,6 +10,7 @@ cover:
     alt: 0613 Shortest Distance in a Line
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1245 Tree Diameter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

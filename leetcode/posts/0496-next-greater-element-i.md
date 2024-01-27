@@ -10,6 +10,7 @@ cover:
     alt: 0496 Next Greater Element I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

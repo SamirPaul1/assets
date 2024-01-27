@@ -10,6 +10,7 @@ cover:
     alt: 0297 Serialize and Deserialize Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

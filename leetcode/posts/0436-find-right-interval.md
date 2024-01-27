@@ -10,6 +10,7 @@ cover:
     alt: 0436 Find Right Interval
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

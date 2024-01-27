@@ -10,6 +10,7 @@ cover:
     alt: 1664 Ways to Make a Fair Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

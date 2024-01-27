@@ -10,6 +10,7 @@ cover:
     alt: 2244 Minimum Rounds to Complete All Tasks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

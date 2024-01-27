@@ -10,6 +10,7 @@ cover:
     alt: 0648 Replace Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

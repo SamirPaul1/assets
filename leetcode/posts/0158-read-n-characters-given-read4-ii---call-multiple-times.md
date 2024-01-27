@@ -10,6 +10,7 @@ cover:
     alt: 0158 Read N Characters Given read4 II   Call Multiple Times
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

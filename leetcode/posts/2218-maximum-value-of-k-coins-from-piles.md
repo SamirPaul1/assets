@@ -10,6 +10,7 @@ cover:
     alt: 2218 Maximum Value of K Coins From Piles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

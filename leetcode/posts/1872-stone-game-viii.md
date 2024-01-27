@@ -10,6 +10,7 @@ cover:
     alt: 1872 Stone Game VIII
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

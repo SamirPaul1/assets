@@ -10,6 +10,7 @@ cover:
     alt: 1293 Shortest Path in a Grid with Obstacles Elimination
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0954 Array of Doubled Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

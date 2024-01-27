@@ -10,6 +10,7 @@ cover:
     alt: 1294 Weather Type in Each Country
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

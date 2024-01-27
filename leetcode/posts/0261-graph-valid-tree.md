@@ -10,6 +10,7 @@ cover:
     alt: 0261 Graph Valid Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

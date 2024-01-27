@@ -10,6 +10,7 @@ cover:
     alt: 1694 Reformat Phone Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

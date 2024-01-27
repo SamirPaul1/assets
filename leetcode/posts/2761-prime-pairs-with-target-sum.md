@@ -10,6 +10,7 @@ cover:
     alt: 2761 Prime Pairs With Target Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

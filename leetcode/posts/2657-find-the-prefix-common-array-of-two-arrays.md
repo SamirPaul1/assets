@@ -10,6 +10,7 @@ cover:
     alt: 2657 Find the Prefix Common Array of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

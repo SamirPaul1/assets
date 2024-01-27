@@ -10,6 +10,7 @@ cover:
     alt: 2520 Count the Digits That Divide a Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

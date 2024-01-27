@@ -10,6 +10,7 @@ cover:
     alt: 1406 Stone Game III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

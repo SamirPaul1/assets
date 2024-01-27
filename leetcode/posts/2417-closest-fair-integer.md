@@ -10,6 +10,7 @@ cover:
     alt: 2417 Closest Fair Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

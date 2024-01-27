@@ -10,6 +10,7 @@ cover:
     alt: 1449 Form Largest Integer With Digits That Add up to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

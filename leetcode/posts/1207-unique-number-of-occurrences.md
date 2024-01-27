@@ -10,6 +10,7 @@ cover:
     alt: 1207 Unique Number of Occurrences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

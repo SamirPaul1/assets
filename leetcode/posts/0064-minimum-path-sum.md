@@ -10,6 +10,7 @@ cover:
     alt: 0064 Minimum Path Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

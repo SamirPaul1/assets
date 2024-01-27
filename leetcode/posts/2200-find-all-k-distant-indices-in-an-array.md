@@ -10,6 +10,7 @@ cover:
     alt: 2200 Find All K Distant Indices in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2093 Minimum Cost to Reach City With Discounts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0114 Flatten Binary Tree to Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

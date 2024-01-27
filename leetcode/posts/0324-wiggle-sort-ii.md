@@ -10,6 +10,7 @@ cover:
     alt: 0324 Wiggle Sort II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2658 Maximum Number of Fish in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2189 Number of Ways to Build House of Cards
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

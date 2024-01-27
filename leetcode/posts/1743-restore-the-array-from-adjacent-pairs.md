@@ -10,6 +10,7 @@ cover:
     alt: 1743 Restore the Array From Adjacent Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

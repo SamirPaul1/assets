@@ -10,6 +10,7 @@ cover:
     alt: 1307 Verbal Arithmetic Puzzle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

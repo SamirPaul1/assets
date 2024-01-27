@@ -10,6 +10,7 @@ cover:
     alt: 0588 Design In Memory File System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

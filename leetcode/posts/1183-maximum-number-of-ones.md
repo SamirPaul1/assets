@@ -10,6 +10,7 @@ cover:
     alt: 1183 Maximum Number of Ones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

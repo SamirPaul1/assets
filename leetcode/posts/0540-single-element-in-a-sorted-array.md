@@ -10,6 +10,7 @@ cover:
     alt: 0540 Single Element in a Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

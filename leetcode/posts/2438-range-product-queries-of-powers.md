@@ -10,6 +10,7 @@ cover:
     alt: 2438 Range Product Queries of Powers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

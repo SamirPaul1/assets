@@ -10,6 +10,7 @@ cover:
     alt: 1100 Find K Length Substrings With No Repeated Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

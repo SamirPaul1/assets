@@ -10,6 +10,7 @@ cover:
     alt: 2474 Customers With Strictly Increasing Purchases
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

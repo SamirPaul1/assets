@@ -10,6 +10,7 @@ cover:
     alt: 1196 How Many Apples Can You Put into the Basket
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

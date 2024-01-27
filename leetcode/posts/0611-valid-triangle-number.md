@@ -10,6 +10,7 @@ cover:
     alt: 0611 Valid Triangle Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

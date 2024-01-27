@@ -10,6 +10,7 @@ cover:
     alt: 1961 Check If String Is a Prefix of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

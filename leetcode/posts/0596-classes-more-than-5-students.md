@@ -10,6 +10,7 @@ cover:
     alt: 0596 Classes More Than 5 Students
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

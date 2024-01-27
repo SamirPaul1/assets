@@ -10,6 +10,7 @@ cover:
     alt: 1891 Cutting Ribbons
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0288 Unique Word Abbreviation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

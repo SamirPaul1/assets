@@ -10,6 +10,7 @@ cover:
     alt: 0093 Restore IP Addresses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

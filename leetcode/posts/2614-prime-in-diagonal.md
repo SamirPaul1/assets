@@ -10,6 +10,7 @@ cover:
     alt: 2614 Prime In Diagonal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

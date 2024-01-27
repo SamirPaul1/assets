@@ -10,6 +10,7 @@ cover:
     alt: 2901 Longest Unequal Adjacent Groups Subsequence II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

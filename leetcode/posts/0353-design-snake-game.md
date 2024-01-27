@@ -10,6 +10,7 @@ cover:
     alt: 0353 Design Snake Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

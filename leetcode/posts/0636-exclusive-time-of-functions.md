@@ -10,6 +10,7 @@ cover:
     alt: 0636 Exclusive Time of Functions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

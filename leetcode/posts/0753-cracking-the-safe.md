@@ -10,6 +10,7 @@ cover:
     alt: 0753 Cracking the Safe
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

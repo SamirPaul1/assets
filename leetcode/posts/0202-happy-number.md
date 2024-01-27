@@ -10,6 +10,7 @@ cover:
     alt: 0202 Happy Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

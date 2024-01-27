@@ -10,6 +10,7 @@ cover:
     alt: 2724 Sort By
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

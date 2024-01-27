@@ -10,6 +10,7 @@ cover:
     alt: 0319 Bulb Switcher
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

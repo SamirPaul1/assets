@@ -10,6 +10,7 @@ cover:
     alt: 1414 Find the Minimum Number of Fibonacci Numbers Whose Sum Is K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2019 The Score of Students Solving Math Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

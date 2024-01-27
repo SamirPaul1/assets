@@ -10,6 +10,7 @@ cover:
     alt: 2595 Number of Even and Odd Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

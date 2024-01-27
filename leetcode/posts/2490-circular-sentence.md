@@ -10,6 +10,7 @@ cover:
     alt: 2490 Circular Sentence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

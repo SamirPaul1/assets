@@ -10,6 +10,7 @@ cover:
     alt: 2272 Substring With Largest Variance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

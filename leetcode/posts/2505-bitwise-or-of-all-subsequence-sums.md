@@ -10,6 +10,7 @@ cover:
     alt: 2505 Bitwise OR of All Subsequence Sums
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

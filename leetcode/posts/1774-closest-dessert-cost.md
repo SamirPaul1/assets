@@ -10,6 +10,7 @@ cover:
     alt: 1774 Closest Dessert Cost
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

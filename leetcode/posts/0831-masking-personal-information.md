@@ -10,6 +10,7 @@ cover:
     alt: 0831 Masking Personal Information
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

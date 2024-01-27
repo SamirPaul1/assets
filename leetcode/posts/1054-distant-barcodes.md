@@ -10,6 +10,7 @@ cover:
     alt: 1054 Distant Barcodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

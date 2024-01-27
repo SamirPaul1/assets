@@ -10,6 +10,7 @@ cover:
     alt: 2195 Append K Integers With Minimal Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

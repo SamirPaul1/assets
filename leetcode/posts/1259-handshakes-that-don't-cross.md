@@ -10,6 +10,7 @@ cover:
     alt: 1259 Handshakes That Don't Cross
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

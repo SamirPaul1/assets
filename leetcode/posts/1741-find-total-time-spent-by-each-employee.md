@@ -10,6 +10,7 @@ cover:
     alt: 1741 Find Total Time Spent by Each Employee
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

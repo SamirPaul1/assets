@@ -10,6 +10,7 @@ cover:
     alt: 0043 Multiply Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

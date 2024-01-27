@@ -10,6 +10,7 @@ cover:
     alt: 1629 Slowest Key
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

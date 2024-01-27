@@ -10,6 +10,7 @@ cover:
     alt: 1464 Maximum Product of Two Elements in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

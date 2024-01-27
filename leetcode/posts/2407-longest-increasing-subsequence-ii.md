@@ -10,6 +10,7 @@ cover:
     alt: 2407 Longest Increasing Subsequence II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

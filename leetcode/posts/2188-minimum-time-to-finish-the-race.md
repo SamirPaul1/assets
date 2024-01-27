@@ -10,6 +10,7 @@ cover:
     alt: 2188 Minimum Time to Finish the Race
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

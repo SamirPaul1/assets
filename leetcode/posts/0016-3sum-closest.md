@@ -10,6 +10,7 @@ cover:
     alt: 0016 3Sum Closest
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

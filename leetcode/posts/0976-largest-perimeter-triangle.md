@@ -10,6 +10,7 @@ cover:
     alt: 0976 Largest Perimeter Triangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

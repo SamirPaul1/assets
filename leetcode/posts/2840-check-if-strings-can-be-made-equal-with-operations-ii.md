@@ -10,6 +10,7 @@ cover:
     alt: 2840 Check if Strings Can be Made Equal With Operations II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1010 Pairs of Songs With Total Durations Divisible by 60
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

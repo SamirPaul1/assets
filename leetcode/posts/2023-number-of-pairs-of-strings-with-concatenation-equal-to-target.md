@@ -10,6 +10,7 @@ cover:
     alt: 2023 Number of Pairs of Strings With Concatenation Equal to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

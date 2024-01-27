@@ -10,6 +10,7 @@ cover:
     alt: 1023 Camelcase Matching
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

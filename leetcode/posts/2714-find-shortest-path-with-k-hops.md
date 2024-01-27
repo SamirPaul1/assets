@@ -10,6 +10,7 @@ cover:
     alt: 2714 Find Shortest Path with K Hops
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

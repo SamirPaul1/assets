@@ -10,6 +10,7 @@ cover:
     alt: 0011 Container With Most Water
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

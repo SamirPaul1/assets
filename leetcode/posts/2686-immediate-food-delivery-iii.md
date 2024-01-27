@@ -10,6 +10,7 @@ cover:
     alt: 2686 Immediate Food Delivery III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

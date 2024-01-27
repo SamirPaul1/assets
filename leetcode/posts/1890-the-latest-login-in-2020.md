@@ -10,6 +10,7 @@ cover:
     alt: 1890 The Latest Login in 2020
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

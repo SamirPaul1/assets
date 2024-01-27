@@ -10,6 +10,7 @@ cover:
     alt: 0115 Distinct Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

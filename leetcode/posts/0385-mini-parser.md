@@ -10,6 +10,7 @@ cover:
     alt: 0385 Mini Parser
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

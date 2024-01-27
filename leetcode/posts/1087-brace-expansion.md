@@ -10,6 +10,7 @@ cover:
     alt: 1087 Brace Expansion
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

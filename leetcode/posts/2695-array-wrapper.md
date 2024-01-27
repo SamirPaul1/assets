@@ -10,6 +10,7 @@ cover:
     alt: 2695 Array Wrapper
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

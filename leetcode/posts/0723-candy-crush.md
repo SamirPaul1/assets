@@ -10,6 +10,7 @@ cover:
     alt: 0723 Candy Crush
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

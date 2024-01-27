@@ -10,6 +10,7 @@ cover:
     alt: 2581 Count Number of Possible Root Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

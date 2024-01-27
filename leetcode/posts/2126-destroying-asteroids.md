@@ -10,6 +10,7 @@ cover:
     alt: 2126 Destroying Asteroids
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

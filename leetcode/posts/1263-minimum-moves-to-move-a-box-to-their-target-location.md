@@ -10,6 +10,7 @@ cover:
     alt: 1263 Minimum Moves to Move a Box to Their Target Location
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

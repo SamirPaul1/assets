@@ -10,6 +10,7 @@ cover:
     alt: 1972 First and Last Call On the Same Day
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

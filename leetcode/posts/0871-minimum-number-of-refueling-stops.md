@@ -10,6 +10,7 @@ cover:
     alt: 0871 Minimum Number of Refueling Stops
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0358 Rearrange String k Distance Apart
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

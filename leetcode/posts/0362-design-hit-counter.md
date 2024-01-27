@@ -10,6 +10,7 @@ cover:
     alt: 0362 Design Hit Counter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

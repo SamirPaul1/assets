@@ -10,6 +10,7 @@ cover:
     alt: 2690 Infinite Method Object
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

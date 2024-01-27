@@ -10,6 +10,7 @@ cover:
     alt: 0254 Factor Combinations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

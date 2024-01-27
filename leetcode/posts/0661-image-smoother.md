@@ -10,6 +10,7 @@ cover:
     alt: 0661 Image Smoother
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1364 Number of Trusted Contacts of a Customer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2451 Odd String Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1304 Find N Unique Integers Sum up to Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

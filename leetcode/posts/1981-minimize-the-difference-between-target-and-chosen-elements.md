@@ -10,6 +10,7 @@ cover:
     alt: 1981 Minimize the Difference Between Target and Chosen Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0311 Sparse Matrix Multiplication
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

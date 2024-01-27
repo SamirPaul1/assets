@@ -10,6 +10,7 @@ cover:
     alt: 2938 Separate Black and White Balls
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

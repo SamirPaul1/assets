@@ -10,6 +10,7 @@ cover:
     alt: 1816 Truncate Sentence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

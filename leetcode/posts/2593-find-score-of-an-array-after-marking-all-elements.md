@@ -10,6 +10,7 @@ cover:
     alt: 2593 Find Score of an Array After Marking All Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

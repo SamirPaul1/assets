@@ -10,6 +10,7 @@ cover:
     alt: 1190 Reverse Substrings Between Each Pair of Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

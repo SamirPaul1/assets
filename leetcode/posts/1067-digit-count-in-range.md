@@ -10,6 +10,7 @@ cover:
     alt: 1067 Digit Count in Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2225 Find Players With Zero or One Losses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

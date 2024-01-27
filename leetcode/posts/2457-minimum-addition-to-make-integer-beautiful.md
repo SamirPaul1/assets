@@ -10,6 +10,7 @@ cover:
     alt: 2457 Minimum Addition to Make Integer Beautiful
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

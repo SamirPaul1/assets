@@ -10,6 +10,7 @@ cover:
     alt: 2418 Sort the People
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

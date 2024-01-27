@@ -10,6 +10,7 @@ cover:
     alt: 2641 Cousins in Binary Tree II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

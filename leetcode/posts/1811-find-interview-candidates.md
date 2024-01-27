@@ -10,6 +10,7 @@ cover:
     alt: 1811 Find Interview Candidates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

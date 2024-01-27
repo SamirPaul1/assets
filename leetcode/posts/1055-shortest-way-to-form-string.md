@@ -10,6 +10,7 @@ cover:
     alt: 1055 Shortest Way to Form String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

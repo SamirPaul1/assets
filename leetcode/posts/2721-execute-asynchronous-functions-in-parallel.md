@@ -10,6 +10,7 @@ cover:
     alt: 2721 Execute Asynchronous Functions in Parallel
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

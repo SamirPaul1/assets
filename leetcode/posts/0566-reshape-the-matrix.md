@@ -10,6 +10,7 @@ cover:
     alt: 0566 Reshape the Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

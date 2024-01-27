@@ -10,6 +10,7 @@ cover:
     alt: 0806 Number of Lines To Write String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

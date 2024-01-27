@@ -10,6 +10,7 @@ cover:
     alt: 2771 Longest Non decreasing Subarray From Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

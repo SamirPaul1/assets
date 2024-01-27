@@ -10,6 +10,7 @@ cover:
     alt: 2350 Shortest Impossible Sequence of Rolls
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

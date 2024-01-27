@@ -10,6 +10,7 @@ cover:
     alt: 0580 Count Student Number in Departments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

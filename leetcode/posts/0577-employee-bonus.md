@@ -10,6 +10,7 @@ cover:
     alt: 0577 Employee Bonus
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

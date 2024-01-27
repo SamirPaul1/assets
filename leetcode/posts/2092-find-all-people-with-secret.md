@@ -10,6 +10,7 @@ cover:
     alt: 2092 Find All People With Secret
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

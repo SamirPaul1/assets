@@ -10,6 +10,7 @@ cover:
     alt: 1391 Check if There is a Valid Path in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

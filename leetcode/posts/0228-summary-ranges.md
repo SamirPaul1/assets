@@ -10,6 +10,7 @@ cover:
     alt: 0228 Summary Ranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

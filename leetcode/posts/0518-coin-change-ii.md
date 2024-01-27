@@ -10,6 +10,7 @@ cover:
     alt: 0518 Coin Change II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

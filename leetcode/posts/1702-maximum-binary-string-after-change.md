@@ -10,6 +10,7 @@ cover:
     alt: 1702 Maximum Binary String After Change
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

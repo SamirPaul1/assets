@@ -10,6 +10,7 @@ cover:
     alt: 1132 Reported Posts II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

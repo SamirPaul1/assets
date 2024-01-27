@@ -10,6 +10,7 @@ cover:
     alt: 1105 Filling Bookcase Shelves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

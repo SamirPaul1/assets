@@ -10,6 +10,7 @@ cover:
     alt: 0634 Find the Derangement of An Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

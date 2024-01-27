@@ -10,6 +10,7 @@ cover:
     alt: 2629 Function Composition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

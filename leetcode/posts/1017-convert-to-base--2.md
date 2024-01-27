@@ -10,6 +10,7 @@ cover:
     alt: 1017 Convert to Base  2
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

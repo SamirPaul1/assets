@@ -10,6 +10,7 @@ cover:
     alt: 1871 Jump Game VII
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

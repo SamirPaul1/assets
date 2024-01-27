@@ -10,6 +10,7 @@ cover:
     alt: 1314 Matrix Block Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

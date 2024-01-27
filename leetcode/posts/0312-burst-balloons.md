@@ -10,6 +10,7 @@ cover:
     alt: 0312 Burst Balloons
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

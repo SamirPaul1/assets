@@ -10,6 +10,7 @@ cover:
     alt: 0259 3Sum Smaller
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

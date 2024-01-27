@@ -10,6 +10,7 @@ cover:
     alt: 0402 Remove K Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

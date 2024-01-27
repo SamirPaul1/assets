@@ -10,6 +10,7 @@ cover:
     alt: 2259 Remove Digit From Number to Maximize Result
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

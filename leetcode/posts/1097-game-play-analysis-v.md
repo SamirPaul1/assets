@@ -10,6 +10,7 @@ cover:
     alt: 1097 Game Play Analysis V
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0887 Super Egg Drop
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0569 Median Employee Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

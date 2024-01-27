@@ -10,6 +10,7 @@ cover:
     alt: 2080 Range Frequency Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

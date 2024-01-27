@@ -10,6 +10,7 @@ cover:
     alt: 0759 Employee Free Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

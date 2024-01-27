@@ -10,6 +10,7 @@ cover:
     alt: 2852 Sum of Remoteness of All Cells
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

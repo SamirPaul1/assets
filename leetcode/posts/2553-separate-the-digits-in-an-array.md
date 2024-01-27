@@ -10,6 +10,7 @@ cover:
     alt: 2553 Separate the Digits in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

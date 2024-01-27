@@ -10,6 +10,7 @@ cover:
     alt: 2644 Find the Maximum Divisibility Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

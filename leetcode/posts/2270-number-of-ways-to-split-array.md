@@ -10,6 +10,7 @@ cover:
     alt: 2270 Number of Ways to Split Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

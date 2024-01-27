@@ -10,6 +10,7 @@ cover:
     alt: 2204 Distance to a Cycle in Undirected Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

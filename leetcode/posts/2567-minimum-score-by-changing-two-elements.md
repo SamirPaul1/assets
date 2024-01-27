@@ -10,6 +10,7 @@ cover:
     alt: 2567 Minimum Score by Changing Two Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

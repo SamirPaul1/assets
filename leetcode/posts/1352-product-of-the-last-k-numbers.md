@@ -10,6 +10,7 @@ cover:
     alt: 1352 Product of the Last K Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

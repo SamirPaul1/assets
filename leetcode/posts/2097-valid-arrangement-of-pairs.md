@@ -10,6 +10,7 @@ cover:
     alt: 2097 Valid Arrangement of Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

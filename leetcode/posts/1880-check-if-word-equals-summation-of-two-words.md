@@ -10,6 +10,7 @@ cover:
     alt: 1880 Check if Word Equals Summation of Two Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

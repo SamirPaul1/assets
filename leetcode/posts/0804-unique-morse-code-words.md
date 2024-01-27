@@ -10,6 +10,7 @@ cover:
     alt: 0804 Unique Morse Code Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0239 Sliding Window Maximum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

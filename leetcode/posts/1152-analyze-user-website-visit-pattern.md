@@ -10,6 +10,7 @@ cover:
     alt: 1152 Analyze User Website Visit Pattern
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

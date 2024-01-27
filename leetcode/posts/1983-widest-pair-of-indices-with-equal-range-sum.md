@@ -10,6 +10,7 @@ cover:
     alt: 1983 Widest Pair of Indices With Equal Range Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

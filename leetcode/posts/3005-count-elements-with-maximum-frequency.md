@@ -10,6 +10,7 @@ cover:
     alt: 3005 Count Elements With Maximum Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

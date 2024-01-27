@@ -10,6 +10,7 @@ cover:
     alt: 1444 Number of Ways of Cutting a Pizza
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

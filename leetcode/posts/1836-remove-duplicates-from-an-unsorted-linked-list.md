@@ -10,6 +10,7 @@ cover:
     alt: 1836 Remove Duplicates From an Unsorted Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

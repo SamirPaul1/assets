@@ -10,6 +10,7 @@ cover:
     alt: 0522 Longest Uncommon Subsequence II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

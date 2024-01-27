@@ -10,6 +10,7 @@ cover:
     alt: 0400 Nth Digit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

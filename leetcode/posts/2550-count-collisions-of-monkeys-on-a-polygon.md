@@ -10,6 +10,7 @@ cover:
     alt: 2550 Count Collisions of Monkeys on a Polygon
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

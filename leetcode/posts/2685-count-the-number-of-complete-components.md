@@ -10,6 +10,7 @@ cover:
     alt: 2685 Count the Number of Complete Components
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 3016 Minimum Number of Pushes to Type Word II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

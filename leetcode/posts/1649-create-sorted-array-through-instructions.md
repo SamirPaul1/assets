@@ -10,6 +10,7 @@ cover:
     alt: 1649 Create Sorted Array through Instructions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

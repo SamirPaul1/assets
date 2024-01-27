@@ -10,6 +10,7 @@ cover:
     alt: 0834 Sum of Distances in Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

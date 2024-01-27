@@ -10,6 +10,7 @@ cover:
     alt: 2610 Convert an Array Into a 2D Array With Conditions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

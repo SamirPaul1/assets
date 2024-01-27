@@ -10,6 +10,7 @@ cover:
     alt: 1945 Sum of Digits of String After Convert
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

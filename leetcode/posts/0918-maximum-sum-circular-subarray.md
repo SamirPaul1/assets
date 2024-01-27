@@ -10,6 +10,7 @@ cover:
     alt: 0918 Maximum Sum Circular Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

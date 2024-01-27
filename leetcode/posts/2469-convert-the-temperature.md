@@ -10,6 +10,7 @@ cover:
     alt: 2469 Convert the Temperature
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

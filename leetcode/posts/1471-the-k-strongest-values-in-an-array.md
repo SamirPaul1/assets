@@ -10,6 +10,7 @@ cover:
     alt: 1471 The k Strongest Values in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

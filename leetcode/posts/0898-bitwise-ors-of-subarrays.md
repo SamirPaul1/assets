@@ -10,6 +10,7 @@ cover:
     alt: 0898 Bitwise ORs of Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1924 Erect the Fence II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

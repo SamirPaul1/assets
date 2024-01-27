@@ -10,6 +10,7 @@ cover:
     alt: 2365 Task Scheduler II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

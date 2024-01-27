@@ -10,6 +10,7 @@ cover:
     alt: 0774 Minimize Max Distance to Gas Station
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1797 Design Authentication Manager
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

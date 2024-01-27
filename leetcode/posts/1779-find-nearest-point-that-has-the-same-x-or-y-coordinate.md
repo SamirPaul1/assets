@@ -10,6 +10,7 @@ cover:
     alt: 1779 Find Nearest Point That Has the Same X or Y Coordinate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1659 Maximize Grid Happiness
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

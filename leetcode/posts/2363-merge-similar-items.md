@@ -10,6 +10,7 @@ cover:
     alt: 2363 Merge Similar Items
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

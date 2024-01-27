@@ -10,6 +10,7 @@ cover:
     alt: 0220 Contains Duplicate III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

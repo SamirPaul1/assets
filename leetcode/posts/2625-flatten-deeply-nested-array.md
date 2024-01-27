@@ -10,6 +10,7 @@ cover:
     alt: 2625 Flatten Deeply Nested Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1297 Maximum Number of Occurrences of a Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

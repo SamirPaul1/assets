@@ -10,6 +10,7 @@ cover:
     alt: 1773 Count Items Matching a Rule
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1550 Three Consecutive Odds
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

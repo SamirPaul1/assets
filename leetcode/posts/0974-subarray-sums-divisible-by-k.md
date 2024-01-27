@@ -10,6 +10,7 @@ cover:
     alt: 0974 Subarray Sums Divisible by K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

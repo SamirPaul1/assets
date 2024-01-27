@@ -10,6 +10,7 @@ cover:
     alt: 0110 Balanced Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

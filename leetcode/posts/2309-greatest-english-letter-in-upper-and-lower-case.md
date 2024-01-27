@@ -10,6 +10,7 @@ cover:
     alt: 2309 Greatest English Letter in Upper and Lower Case
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

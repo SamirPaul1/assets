@@ -10,6 +10,7 @@ cover:
     alt: 1921 Eliminate Maximum Number of Monsters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

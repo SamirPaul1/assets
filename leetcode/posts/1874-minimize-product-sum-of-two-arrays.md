@@ -10,6 +10,7 @@ cover:
     alt: 1874 Minimize Product Sum of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

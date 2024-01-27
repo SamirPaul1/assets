@@ -10,6 +10,7 @@ cover:
     alt: 0140 Word Break II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

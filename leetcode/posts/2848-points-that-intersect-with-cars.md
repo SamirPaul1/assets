@@ -10,6 +10,7 @@ cover:
     alt: 2848 Points That Intersect With Cars
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

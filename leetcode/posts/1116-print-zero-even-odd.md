@@ -10,6 +10,7 @@ cover:
     alt: 1116 Print Zero Even Odd
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

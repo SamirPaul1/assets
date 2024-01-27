@@ -10,6 +10,7 @@ cover:
     alt: 2965 Find Missing and Repeated Values
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

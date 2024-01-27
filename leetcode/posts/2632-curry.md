@@ -10,6 +10,7 @@ cover:
     alt: 2632 Curry
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

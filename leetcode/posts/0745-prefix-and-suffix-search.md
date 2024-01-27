@@ -10,6 +10,7 @@ cover:
     alt: 0745 Prefix and Suffix Search
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

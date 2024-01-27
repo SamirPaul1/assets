@@ -10,6 +10,7 @@ cover:
     alt: 2487 Remove Nodes From Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2853 Highest Salaries Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2442 Count Number of Distinct Integers After Reverse Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0464 Can I Win
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

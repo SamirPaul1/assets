@@ -10,6 +10,7 @@ cover:
     alt: 2030 Smallest K Length Subsequence With Occurrences of a Letter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2422 Merge Operations to Turn Array Into a Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

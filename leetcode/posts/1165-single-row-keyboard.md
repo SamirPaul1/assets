@@ -10,6 +10,7 @@ cover:
     alt: 1165 Single Row Keyboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

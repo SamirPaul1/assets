@@ -10,6 +10,7 @@ cover:
     alt: 1340 Jump Game V
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

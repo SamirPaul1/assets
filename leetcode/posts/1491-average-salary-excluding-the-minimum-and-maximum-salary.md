@@ -10,6 +10,7 @@ cover:
     alt: 1491 Average Salary Excluding the Minimum and Maximum Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

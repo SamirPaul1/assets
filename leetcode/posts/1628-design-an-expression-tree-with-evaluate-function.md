@@ -10,6 +10,7 @@ cover:
     alt: 1628 Design an Expression Tree With Evaluate Function
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

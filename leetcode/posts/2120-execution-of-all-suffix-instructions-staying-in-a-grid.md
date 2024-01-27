@@ -10,6 +10,7 @@ cover:
     alt: 2120 Execution of All Suffix Instructions Staying in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

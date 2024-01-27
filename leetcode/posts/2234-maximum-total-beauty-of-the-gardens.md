@@ -10,6 +10,7 @@ cover:
     alt: 2234 Maximum Total Beauty of the Gardens
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

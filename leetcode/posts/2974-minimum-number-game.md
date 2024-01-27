@@ -10,6 +10,7 @@ cover:
     alt: 2974 Minimum Number Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0744 Find Smallest Letter Greater Than Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

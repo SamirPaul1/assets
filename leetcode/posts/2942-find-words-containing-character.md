@@ -10,6 +10,7 @@ cover:
     alt: 2942 Find Words Containing Character
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

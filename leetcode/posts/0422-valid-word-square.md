@@ -10,6 +10,7 @@ cover:
     alt: 0422 Valid Word Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

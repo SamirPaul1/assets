@@ -10,6 +10,7 @@ cover:
     alt: 1214 Two Sum BSTs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

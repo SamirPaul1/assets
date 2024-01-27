@@ -10,6 +10,7 @@ cover:
     alt: 1830 Minimum Number of Operations to Make String Sorted
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

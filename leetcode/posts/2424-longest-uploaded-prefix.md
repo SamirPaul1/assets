@@ -10,6 +10,7 @@ cover:
     alt: 2424 Longest Uploaded Prefix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

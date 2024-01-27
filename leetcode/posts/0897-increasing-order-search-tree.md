@@ -10,6 +10,7 @@ cover:
     alt: 0897 Increasing Order Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

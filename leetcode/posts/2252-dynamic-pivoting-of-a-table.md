@@ -10,6 +10,7 @@ cover:
     alt: 2252 Dynamic Pivoting of a Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

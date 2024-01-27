@@ -10,6 +10,7 @@ cover:
     alt: 1109 Corporate Flight Bookings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

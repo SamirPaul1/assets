@@ -10,6 +10,7 @@ cover:
     alt: 1577 Number of Ways Where Square of Number Is Equal to Product of Two Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

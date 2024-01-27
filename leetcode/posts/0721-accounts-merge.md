@@ -10,6 +10,7 @@ cover:
     alt: 0721 Accounts Merge
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

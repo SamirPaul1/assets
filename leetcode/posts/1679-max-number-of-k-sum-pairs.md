@@ -10,6 +10,7 @@ cover:
     alt: 1679 Max Number of K Sum Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2869 Minimum Operations to Collect Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1493 Longest Subarray of 1's After Deleting One Element
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

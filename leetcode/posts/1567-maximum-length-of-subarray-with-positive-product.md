@@ -10,6 +10,7 @@ cover:
     alt: 1567 Maximum Length of Subarray With Positive Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

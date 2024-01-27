@@ -10,6 +10,7 @@ cover:
     alt: 1064 Fixed Point
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

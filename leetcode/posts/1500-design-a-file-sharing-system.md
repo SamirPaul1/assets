@@ -10,6 +10,7 @@ cover:
     alt: 1500 Design a File Sharing System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

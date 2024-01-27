@@ -10,6 +10,7 @@ cover:
     alt: 2403 Minimum Time to Kill All Monsters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1810 Minimum Path Cost in a Hidden Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

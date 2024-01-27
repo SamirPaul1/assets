@@ -10,6 +10,7 @@ cover:
     alt: 2032 Two Out of Three
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

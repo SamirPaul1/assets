@@ -10,6 +10,7 @@ cover:
     alt: 0370 Range Addition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

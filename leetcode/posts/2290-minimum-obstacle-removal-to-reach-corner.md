@@ -10,6 +10,7 @@ cover:
     alt: 2290 Minimum Obstacle Removal to Reach Corner
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

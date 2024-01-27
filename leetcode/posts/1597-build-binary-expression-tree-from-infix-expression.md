@@ -10,6 +10,7 @@ cover:
     alt: 1597 Build Binary Expression Tree From Infix Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

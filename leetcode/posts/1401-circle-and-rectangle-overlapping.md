@@ -10,6 +10,7 @@ cover:
     alt: 1401 Circle and Rectangle Overlapping
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

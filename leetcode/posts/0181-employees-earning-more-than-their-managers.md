@@ -10,6 +10,7 @@ cover:
     alt: 0181 Employees Earning More Than Their Managers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

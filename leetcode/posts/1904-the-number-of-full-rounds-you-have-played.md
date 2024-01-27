@@ -10,6 +10,7 @@ cover:
     alt: 1904 The Number of Full Rounds You Have Played
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

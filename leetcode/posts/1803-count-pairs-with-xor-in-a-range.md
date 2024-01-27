@@ -10,6 +10,7 @@ cover:
     alt: 1803 Count Pairs With XOR in a Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

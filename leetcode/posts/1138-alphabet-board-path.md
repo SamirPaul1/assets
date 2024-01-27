@@ -10,6 +10,7 @@ cover:
     alt: 1138 Alphabet Board Path
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

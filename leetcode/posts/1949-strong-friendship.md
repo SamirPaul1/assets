@@ -10,6 +10,7 @@ cover:
     alt: 1949 Strong Friendship
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

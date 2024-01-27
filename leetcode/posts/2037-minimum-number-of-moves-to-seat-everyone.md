@@ -10,6 +10,7 @@ cover:
     alt: 2037 Minimum Number of Moves to Seat Everyone
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

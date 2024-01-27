@@ -10,6 +10,7 @@ cover:
     alt: 1528 Shuffle String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

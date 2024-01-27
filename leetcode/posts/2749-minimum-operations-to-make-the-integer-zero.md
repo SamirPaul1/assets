@@ -10,6 +10,7 @@ cover:
     alt: 2749 Minimum Operations to Make the Integer Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

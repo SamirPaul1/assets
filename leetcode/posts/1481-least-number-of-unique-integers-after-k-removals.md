@@ -10,6 +10,7 @@ cover:
     alt: 1481 Least Number of Unique Integers after K Removals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

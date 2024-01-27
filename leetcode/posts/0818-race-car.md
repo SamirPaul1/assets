@@ -10,6 +10,7 @@ cover:
     alt: 0818 Race Car
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

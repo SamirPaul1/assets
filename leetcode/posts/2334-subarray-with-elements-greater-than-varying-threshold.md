@@ -10,6 +10,7 @@ cover:
     alt: 2334 Subarray With Elements Greater Than Varying Threshold
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

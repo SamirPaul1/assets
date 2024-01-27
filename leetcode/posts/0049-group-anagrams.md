@@ -10,6 +10,7 @@ cover:
     alt: 0049 Group Anagrams
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

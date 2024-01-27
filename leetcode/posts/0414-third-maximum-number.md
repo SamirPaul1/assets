@@ -10,6 +10,7 @@ cover:
     alt: 0414 Third Maximum Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

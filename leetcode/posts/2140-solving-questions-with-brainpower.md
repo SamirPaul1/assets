@@ -10,6 +10,7 @@ cover:
     alt: 2140 Solving Questions With Brainpower
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

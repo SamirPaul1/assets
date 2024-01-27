@@ -10,6 +10,7 @@ cover:
     alt: 2326 Spiral Matrix IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

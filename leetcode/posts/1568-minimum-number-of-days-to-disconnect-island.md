@@ -10,6 +10,7 @@ cover:
     alt: 1568 Minimum Number of Days to Disconnect Island
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0417 Pacific Atlantic Water Flow
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

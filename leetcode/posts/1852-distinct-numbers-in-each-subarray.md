@@ -10,6 +10,7 @@ cover:
     alt: 1852 Distinct Numbers in Each Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

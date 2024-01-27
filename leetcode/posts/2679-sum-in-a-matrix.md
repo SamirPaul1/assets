@@ -10,6 +10,7 @@ cover:
     alt: 2679 Sum in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

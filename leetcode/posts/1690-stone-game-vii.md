@@ -10,6 +10,7 @@ cover:
     alt: 1690 Stone Game VII
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

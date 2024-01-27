@@ -10,6 +10,7 @@ cover:
     alt: 0571 Find Median Given Frequency of Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2925 Maximum Score After Applying Operations on a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

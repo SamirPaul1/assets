@@ -10,6 +10,7 @@ cover:
     alt: 2918 Minimum Equal Sum of Two Arrays After Replacing Zeros
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

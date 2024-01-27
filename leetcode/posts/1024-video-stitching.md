@@ -10,6 +10,7 @@ cover:
     alt: 1024 Video Stitching
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

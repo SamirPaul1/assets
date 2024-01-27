@@ -10,6 +10,7 @@ cover:
     alt: 1703 Minimum Adjacent Swaps for K Consecutive Ones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

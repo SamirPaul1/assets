@@ -10,6 +10,7 @@ cover:
     alt: 2878 Get the Size of a DataFrame
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

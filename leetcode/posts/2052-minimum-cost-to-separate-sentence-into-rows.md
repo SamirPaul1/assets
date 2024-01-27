@@ -10,6 +10,7 @@ cover:
     alt: 2052 Minimum Cost to Separate Sentence Into Rows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

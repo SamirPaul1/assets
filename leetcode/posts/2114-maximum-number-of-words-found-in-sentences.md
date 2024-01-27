@@ -10,6 +10,7 @@ cover:
     alt: 2114 Maximum Number of Words Found in Sentences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

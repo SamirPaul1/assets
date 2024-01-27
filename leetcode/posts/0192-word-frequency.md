@@ -10,6 +10,7 @@ cover:
     alt: 0192 Word Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

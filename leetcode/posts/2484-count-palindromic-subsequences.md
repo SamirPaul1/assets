@@ -10,6 +10,7 @@ cover:
     alt: 2484 Count Palindromic Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

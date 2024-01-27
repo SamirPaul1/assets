@@ -10,6 +10,7 @@ cover:
     alt: 2014 Longest Subsequence Repeated k Times
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

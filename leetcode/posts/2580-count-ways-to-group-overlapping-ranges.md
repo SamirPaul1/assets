@@ -10,6 +10,7 @@ cover:
     alt: 2580 Count Ways to Group Overlapping Ranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

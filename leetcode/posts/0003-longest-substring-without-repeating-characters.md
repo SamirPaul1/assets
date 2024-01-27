@@ -10,6 +10,7 @@ cover:
     alt: 0003 Longest Substring Without Repeating Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

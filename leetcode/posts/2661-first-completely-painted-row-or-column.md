@@ -10,6 +10,7 @@ cover:
     alt: 2661 First Completely Painted Row or Column
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

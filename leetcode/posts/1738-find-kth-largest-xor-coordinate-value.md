@@ -10,6 +10,7 @@ cover:
     alt: 1738 Find Kth Largest XOR Coordinate Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

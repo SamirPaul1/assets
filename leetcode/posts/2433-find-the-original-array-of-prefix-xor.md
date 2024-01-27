@@ -10,6 +10,7 @@ cover:
     alt: 2433 Find The Original Array of Prefix Xor
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

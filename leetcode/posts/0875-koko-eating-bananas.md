@@ -10,6 +10,7 @@ cover:
     alt: 0875 Koko Eating Bananas
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

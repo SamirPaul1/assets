@@ -10,6 +10,7 @@ cover:
     alt: 1487 Making File Names Unique
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

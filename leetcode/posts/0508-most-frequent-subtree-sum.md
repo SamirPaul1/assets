@@ -10,6 +10,7 @@ cover:
     alt: 0508 Most Frequent Subtree Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

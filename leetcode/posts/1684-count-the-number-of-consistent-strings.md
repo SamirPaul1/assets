@@ -10,6 +10,7 @@ cover:
     alt: 1684 Count the Number of Consistent Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

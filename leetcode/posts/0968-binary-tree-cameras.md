@@ -10,6 +10,7 @@ cover:
     alt: 0968 Binary Tree Cameras
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

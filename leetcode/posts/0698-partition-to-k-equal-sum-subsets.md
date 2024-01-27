@@ -10,6 +10,7 @@ cover:
     alt: 0698 Partition to K Equal Sum Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0886 Possible Bipartition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

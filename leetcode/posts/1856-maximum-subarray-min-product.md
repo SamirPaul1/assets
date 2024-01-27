@@ -10,6 +10,7 @@ cover:
     alt: 1856 Maximum Subarray Min Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

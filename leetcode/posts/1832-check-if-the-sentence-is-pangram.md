@@ -10,6 +10,7 @@ cover:
     alt: 1832 Check if the Sentence Is Pangram
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

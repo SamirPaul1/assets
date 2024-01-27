@@ -10,6 +10,7 @@ cover:
     alt: 1742 Maximum Number of Balls in a Box
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

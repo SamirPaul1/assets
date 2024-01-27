@@ -10,6 +10,7 @@ cover:
     alt: 1281 Subtract the Product and Sum of Digits of an Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

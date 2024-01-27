@@ -10,6 +10,7 @@ cover:
     alt: 1218 Longest Arithmetic Subsequence of Given Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

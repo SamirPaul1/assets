@@ -10,6 +10,7 @@ cover:
     alt: 2978 Symmetric Coordinates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

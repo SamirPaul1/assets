@@ -10,6 +10,7 @@ cover:
     alt: 2268 Minimum Number of Keypresses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2842 Count K Subsequences of a String With Maximum Beauty
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2461 Maximum Sum of Distinct Subarrays With Length K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

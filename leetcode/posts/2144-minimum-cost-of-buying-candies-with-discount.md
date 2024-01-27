@@ -10,6 +10,7 @@ cover:
     alt: 2144 Minimum Cost of Buying Candies With Discount
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

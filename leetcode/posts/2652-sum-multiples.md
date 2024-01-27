@@ -10,6 +10,7 @@ cover:
     alt: 2652 Sum Multiples
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

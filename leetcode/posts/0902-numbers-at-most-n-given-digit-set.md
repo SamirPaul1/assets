@@ -10,6 +10,7 @@ cover:
     alt: 0902 Numbers At Most N Given Digit Set
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

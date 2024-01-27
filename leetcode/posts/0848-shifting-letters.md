@@ -10,6 +10,7 @@ cover:
     alt: 0848 Shifting Letters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

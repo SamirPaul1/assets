@@ -10,6 +10,7 @@ cover:
     alt: 0982 Triples with Bitwise AND Equal To Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

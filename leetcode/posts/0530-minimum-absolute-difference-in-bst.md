@@ -10,6 +10,7 @@ cover:
     alt: 0530 Minimum Absolute Difference in BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

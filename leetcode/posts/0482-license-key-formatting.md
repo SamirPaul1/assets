@@ -10,6 +10,7 @@ cover:
     alt: 0482 License Key Formatting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

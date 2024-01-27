@@ -10,6 +10,7 @@ cover:
     alt: 1325 Delete Leaves With a Given Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

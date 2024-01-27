@@ -10,6 +10,7 @@ cover:
     alt: 2748 Number of Beautiful Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

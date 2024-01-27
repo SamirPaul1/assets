@@ -10,6 +10,7 @@ cover:
     alt: 2237 Count Positions on Street With Required Brightness
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

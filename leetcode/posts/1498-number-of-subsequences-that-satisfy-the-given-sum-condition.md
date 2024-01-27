@@ -10,6 +10,7 @@ cover:
     alt: 1498 Number of Subsequences That Satisfy the Given Sum Condition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

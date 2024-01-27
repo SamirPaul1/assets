@@ -10,6 +10,7 @@ cover:
     alt: 2466 Count Ways To Build Good Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

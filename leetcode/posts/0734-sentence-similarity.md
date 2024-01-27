@@ -10,6 +10,7 @@ cover:
     alt: 0734 Sentence Similarity
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

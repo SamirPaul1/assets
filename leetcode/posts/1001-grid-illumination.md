@@ -10,6 +10,7 @@ cover:
     alt: 1001 Grid Illumination
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

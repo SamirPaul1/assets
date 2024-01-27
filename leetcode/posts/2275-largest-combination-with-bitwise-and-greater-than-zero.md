@@ -10,6 +10,7 @@ cover:
     alt: 2275 Largest Combination With Bitwise AND Greater Than Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

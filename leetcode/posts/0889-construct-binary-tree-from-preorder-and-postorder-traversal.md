@@ -10,6 +10,7 @@ cover:
     alt: 0889 Construct Binary Tree from Preorder and Postorder Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1631 Path With Minimum Effort
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

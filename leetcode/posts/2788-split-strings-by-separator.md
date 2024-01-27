@@ -10,6 +10,7 @@ cover:
     alt: 2788 Split Strings by Separator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

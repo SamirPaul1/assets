@@ -10,6 +10,7 @@ cover:
     alt: 1771 Maximize Palindrome Length From Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0876 Middle of the Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

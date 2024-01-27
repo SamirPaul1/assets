@@ -10,6 +10,7 @@ cover:
     alt: 0149 Max Points on a Line
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2285 Maximum Total Importance of Roads
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

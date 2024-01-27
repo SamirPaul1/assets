@@ -10,6 +10,7 @@ cover:
     alt: 0732 My Calendar III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

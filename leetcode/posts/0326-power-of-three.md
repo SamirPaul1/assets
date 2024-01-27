@@ -10,6 +10,7 @@ cover:
     alt: 0326 Power of Three
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

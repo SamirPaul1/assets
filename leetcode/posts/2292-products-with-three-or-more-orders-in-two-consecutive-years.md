@@ -10,6 +10,7 @@ cover:
     alt: 2292 Products With Three or More Orders in Two Consecutive Years
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

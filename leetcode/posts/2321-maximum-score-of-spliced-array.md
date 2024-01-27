@@ -10,6 +10,7 @@ cover:
     alt: 2321 Maximum Score Of Spliced Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

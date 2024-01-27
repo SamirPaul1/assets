@@ -10,6 +10,7 @@ cover:
     alt: 2638 Count the Number of K Free Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2224 Minimum Number of Operations to Convert Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

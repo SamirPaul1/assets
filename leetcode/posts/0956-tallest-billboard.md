@@ -10,6 +10,7 @@ cover:
     alt: 0956 Tallest Billboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

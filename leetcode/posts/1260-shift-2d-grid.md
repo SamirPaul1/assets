@@ -10,6 +10,7 @@ cover:
     alt: 1260 Shift 2D Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

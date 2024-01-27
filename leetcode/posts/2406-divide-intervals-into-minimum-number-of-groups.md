@@ -10,6 +10,7 @@ cover:
     alt: 2406 Divide Intervals Into Minimum Number of Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

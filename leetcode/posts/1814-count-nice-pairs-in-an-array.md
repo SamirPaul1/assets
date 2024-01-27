@@ -10,6 +10,7 @@ cover:
     alt: 1814 Count Nice Pairs in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

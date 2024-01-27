@@ -10,6 +10,7 @@ cover:
     alt: 1683 Invalid Tweets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

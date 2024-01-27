@@ -10,6 +10,7 @@ cover:
     alt: 0120 Triangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

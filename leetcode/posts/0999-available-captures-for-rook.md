@@ -10,6 +10,7 @@ cover:
     alt: 0999 Available Captures for Rook
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

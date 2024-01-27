@@ -10,6 +10,7 @@ cover:
     alt: 0779 K th Symbol in Grammar
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

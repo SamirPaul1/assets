@@ -10,6 +10,7 @@ cover:
     alt: 2165 Smallest Value of the Rearranged Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

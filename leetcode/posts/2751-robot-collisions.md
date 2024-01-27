@@ -10,6 +10,7 @@ cover:
     alt: 2751 Robot Collisions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

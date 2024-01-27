@@ -10,6 +10,7 @@ cover:
     alt: 0492 Construct the Rectangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

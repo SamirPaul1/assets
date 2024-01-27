@@ -10,6 +10,7 @@ cover:
     alt: 2450 Number of Distinct Binary Strings After Applying Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

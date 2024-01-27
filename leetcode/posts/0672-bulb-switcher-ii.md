@@ -10,6 +10,7 @@ cover:
     alt: 0672 Bulb Switcher II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

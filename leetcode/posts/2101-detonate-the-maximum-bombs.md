@@ -10,6 +10,7 @@ cover:
     alt: 2101 Detonate the Maximum Bombs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

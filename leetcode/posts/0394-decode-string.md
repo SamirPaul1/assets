@@ -10,6 +10,7 @@ cover:
     alt: 0394 Decode String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

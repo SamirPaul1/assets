@@ -10,6 +10,7 @@ cover:
     alt: 1795 Rearrange Products Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

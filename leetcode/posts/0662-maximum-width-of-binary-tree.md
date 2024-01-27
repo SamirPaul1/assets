@@ -10,6 +10,7 @@ cover:
     alt: 0662 Maximum Width of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

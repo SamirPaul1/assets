@@ -10,6 +10,7 @@ cover:
     alt: 0334 Increasing Triplet Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

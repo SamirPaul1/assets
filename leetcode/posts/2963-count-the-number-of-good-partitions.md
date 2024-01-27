@@ -10,6 +10,7 @@ cover:
     alt: 2963 Count the Number of Good Partitions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

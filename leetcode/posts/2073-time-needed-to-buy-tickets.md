@@ -10,6 +10,7 @@ cover:
     alt: 2073 Time Needed to Buy Tickets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

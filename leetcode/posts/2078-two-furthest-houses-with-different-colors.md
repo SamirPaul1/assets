@@ -10,6 +10,7 @@ cover:
     alt: 2078 Two Furthest Houses With Different Colors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

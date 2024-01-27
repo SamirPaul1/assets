@@ -10,6 +10,7 @@ cover:
     alt: 2548 Maximum Price to Fill a Bag
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

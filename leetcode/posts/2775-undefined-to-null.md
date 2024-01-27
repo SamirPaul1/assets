@@ -10,6 +10,7 @@ cover:
     alt: 2775 Undefined to Null
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

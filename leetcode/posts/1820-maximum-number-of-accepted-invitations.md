@@ -10,6 +10,7 @@ cover:
     alt: 1820 Maximum Number of Accepted Invitations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

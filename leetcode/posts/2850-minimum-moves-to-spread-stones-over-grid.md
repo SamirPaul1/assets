@@ -10,6 +10,7 @@ cover:
     alt: 2850 Minimum Moves to Spread Stones Over Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

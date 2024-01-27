@@ -10,6 +10,7 @@ cover:
     alt: 2835 Minimum Operations to Form Subsequence With Target Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1088 Confusing Number II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

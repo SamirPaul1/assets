@@ -10,6 +10,7 @@ cover:
     alt: 2517 Maximum Tastiness of Candy Basket
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

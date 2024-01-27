@@ -10,6 +10,7 @@ cover:
     alt: 2448 Minimum Cost to Make Array Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

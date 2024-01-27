@@ -10,6 +10,7 @@ cover:
     alt: 1831 Maximum Transaction Each Day
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

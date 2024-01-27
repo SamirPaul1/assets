@@ -10,6 +10,7 @@ cover:
     alt: 0676 Implement Magic Dictionary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

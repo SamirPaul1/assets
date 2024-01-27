@@ -10,6 +10,7 @@ cover:
     alt: 0377 Combination Sum IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

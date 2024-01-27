@@ -10,6 +10,7 @@ cover:
     alt: 1005 Maximize Sum Of Array After K Negations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

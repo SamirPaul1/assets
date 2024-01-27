@@ -10,6 +10,7 @@ cover:
     alt: 1235 Maximum Profit in Job Scheduling
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1534 Count Good Triplets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

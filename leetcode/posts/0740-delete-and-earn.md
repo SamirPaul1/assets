@@ -10,6 +10,7 @@ cover:
     alt: 0740 Delete and Earn
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

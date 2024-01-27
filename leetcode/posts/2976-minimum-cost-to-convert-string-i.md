@@ -10,6 +10,7 @@ cover:
     alt: 2976 Minimum Cost to Convert String I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

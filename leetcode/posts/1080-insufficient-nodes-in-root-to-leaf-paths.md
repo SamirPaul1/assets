@@ -10,6 +10,7 @@ cover:
     alt: 1080 Insufficient Nodes in Root to Leaf Paths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

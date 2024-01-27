@@ -10,6 +10,7 @@ cover:
     alt: 1470 Shuffle the Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

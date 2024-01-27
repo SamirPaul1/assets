@@ -10,6 +10,7 @@ cover:
     alt: 0531 Lonely Pixel I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

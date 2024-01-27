@@ -10,6 +10,7 @@ cover:
     alt: 0194 Transpose File
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

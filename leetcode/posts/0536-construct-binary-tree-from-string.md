@@ -10,6 +10,7 @@ cover:
     alt: 0536 Construct Binary Tree from String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

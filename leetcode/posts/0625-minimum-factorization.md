@@ -10,6 +10,7 @@ cover:
     alt: 0625 Minimum Factorization
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0191 Number of 1 Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

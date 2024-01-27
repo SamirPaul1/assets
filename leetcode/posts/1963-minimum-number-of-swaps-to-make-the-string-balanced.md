@@ -10,6 +10,7 @@ cover:
     alt: 1963 Minimum Number of Swaps to Make the String Balanced
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

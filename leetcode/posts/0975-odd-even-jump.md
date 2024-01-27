@@ -10,6 +10,7 @@ cover:
     alt: 0975 Odd Even Jump
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

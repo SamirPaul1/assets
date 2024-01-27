@@ -10,6 +10,7 @@ cover:
     alt: 0142 Linked List Cycle II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

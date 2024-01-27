@@ -10,6 +10,7 @@ cover:
     alt: 1864 Minimum Number of Swaps to Make the Binary String Alternating
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

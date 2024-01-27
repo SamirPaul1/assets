@@ -10,6 +10,7 @@ cover:
     alt: 0624 Maximum Distance in Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

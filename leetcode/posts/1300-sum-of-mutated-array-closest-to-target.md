@@ -10,6 +10,7 @@ cover:
     alt: 1300 Sum of Mutated Array Closest to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

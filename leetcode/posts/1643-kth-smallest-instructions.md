@@ -10,6 +10,7 @@ cover:
     alt: 1643 Kth Smallest Instructions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

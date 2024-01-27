@@ -10,6 +10,7 @@ cover:
     alt: 2460 Apply Operations to an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1699 Number of Calls Between Two Persons
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

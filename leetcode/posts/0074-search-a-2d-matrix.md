@@ -10,6 +10,7 @@ cover:
     alt: 0074 Search a 2D Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

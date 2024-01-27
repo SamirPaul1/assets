@@ -10,6 +10,7 @@ cover:
     alt: 1606 Find Servers That Handled Most Number of Requests
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

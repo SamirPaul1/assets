@@ -10,6 +10,7 @@ cover:
     alt: 0658 Find K Closest Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0356 Line Reflection
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

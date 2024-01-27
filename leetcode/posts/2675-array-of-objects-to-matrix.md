@@ -10,6 +10,7 @@ cover:
     alt: 2675 Array of Objects to Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

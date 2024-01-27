@@ -10,6 +10,7 @@ cover:
     alt: 1492 The kth Factor of n
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

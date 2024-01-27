@@ -10,6 +10,7 @@ cover:
     alt: 2375 Construct Smallest Number From DI String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1819 Number of Different Subsequences GCDs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

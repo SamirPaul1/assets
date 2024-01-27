@@ -10,6 +10,7 @@ cover:
     alt: 0681 Next Closest Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

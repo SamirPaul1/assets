@@ -10,6 +10,7 @@ cover:
     alt: 0817 Linked List Components
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

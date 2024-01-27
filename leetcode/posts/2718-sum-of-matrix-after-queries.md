@@ -10,6 +10,7 @@ cover:
     alt: 2718 Sum of Matrix After Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

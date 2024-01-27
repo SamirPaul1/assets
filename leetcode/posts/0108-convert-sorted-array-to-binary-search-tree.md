@@ -10,6 +10,7 @@ cover:
     alt: 0108 Convert Sorted Array to Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

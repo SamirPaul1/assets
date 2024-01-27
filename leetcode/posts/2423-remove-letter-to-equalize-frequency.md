@@ -10,6 +10,7 @@ cover:
     alt: 2423 Remove Letter To Equalize Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

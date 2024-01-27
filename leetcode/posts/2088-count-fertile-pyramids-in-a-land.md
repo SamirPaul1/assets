@@ -10,6 +10,7 @@ cover:
     alt: 2088 Count Fertile Pyramids in a Land
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

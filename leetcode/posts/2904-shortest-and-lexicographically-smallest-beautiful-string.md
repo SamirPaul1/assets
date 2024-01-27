@@ -10,6 +10,7 @@ cover:
     alt: 2904 Shortest and Lexicographically Smallest Beautiful String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

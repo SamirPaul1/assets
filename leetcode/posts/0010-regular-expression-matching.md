@@ -10,6 +10,7 @@ cover:
     alt: 0010 Regular Expression Matching
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0879 Profitable Schemes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

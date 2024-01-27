@@ -10,6 +10,7 @@ cover:
     alt: 1018 Binary Prefix Divisible By 5
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

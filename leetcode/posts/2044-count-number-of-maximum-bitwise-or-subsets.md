@@ -10,6 +10,7 @@ cover:
     alt: 2044 Count Number of Maximum Bitwise OR Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

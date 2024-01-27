@@ -10,6 +10,7 @@ cover:
     alt: 1427 Perform String Shifts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

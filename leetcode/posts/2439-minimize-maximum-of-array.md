@@ -10,6 +10,7 @@ cover:
     alt: 2439 Minimize Maximum of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

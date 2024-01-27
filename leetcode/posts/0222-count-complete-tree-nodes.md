@@ -10,6 +10,7 @@ cover:
     alt: 0222 Count Complete Tree Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

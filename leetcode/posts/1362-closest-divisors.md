@@ -10,6 +10,7 @@ cover:
     alt: 1362 Closest Divisors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

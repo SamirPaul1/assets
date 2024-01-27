@@ -10,6 +10,7 @@ cover:
     alt: 1723 Find Minimum Time to Finish All Jobs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

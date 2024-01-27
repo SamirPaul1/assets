@@ -10,6 +10,7 @@ cover:
     alt: 0810 Chalkboard XOR Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0892 Surface Area of 3D Shapes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

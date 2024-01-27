@@ -10,6 +10,7 @@ cover:
     alt: 1839 Longest Substring Of All Vowels in Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

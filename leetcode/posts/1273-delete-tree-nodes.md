@@ -10,6 +10,7 @@ cover:
     alt: 1273 Delete Tree Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

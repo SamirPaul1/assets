@@ -10,6 +10,7 @@ cover:
     alt: 0525 Contiguous Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

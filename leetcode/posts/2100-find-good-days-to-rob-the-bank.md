@@ -10,6 +10,7 @@ cover:
     alt: 2100 Find Good Days to Rob the Bank
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

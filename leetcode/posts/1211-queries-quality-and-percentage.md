@@ -10,6 +10,7 @@ cover:
     alt: 1211 Queries Quality and Percentage
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1000 Minimum Cost to Merge Stones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

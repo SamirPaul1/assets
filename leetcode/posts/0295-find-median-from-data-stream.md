@@ -10,6 +10,7 @@ cover:
     alt: 0295 Find Median from Data Stream
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

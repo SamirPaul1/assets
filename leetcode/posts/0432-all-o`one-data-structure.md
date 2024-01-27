@@ -10,6 +10,7 @@ cover:
     alt: 0432 All O`one Data Structure
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

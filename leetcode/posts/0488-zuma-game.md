@@ -10,6 +10,7 @@ cover:
     alt: 0488 Zuma Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

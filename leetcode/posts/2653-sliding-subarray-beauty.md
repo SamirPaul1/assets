@@ -10,6 +10,7 @@ cover:
     alt: 2653 Sliding Subarray Beauty
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

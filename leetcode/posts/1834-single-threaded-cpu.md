@@ -10,6 +10,7 @@ cover:
     alt: 1834 Single Threaded CPU
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

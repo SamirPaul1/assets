@@ -10,6 +10,7 @@ cover:
     alt: 1589 Maximum Sum Obtained of Any Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

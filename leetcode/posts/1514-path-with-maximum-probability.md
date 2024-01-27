@@ -10,6 +10,7 @@ cover:
     alt: 1514 Path with Maximum Probability
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

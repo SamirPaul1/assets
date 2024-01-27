@@ -10,6 +10,7 @@ cover:
     alt: 2834 Find the Minimum Possible Sum of a Beautiful Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

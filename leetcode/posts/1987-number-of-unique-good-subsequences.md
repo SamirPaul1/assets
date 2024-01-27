@@ -10,6 +10,7 @@ cover:
     alt: 1987 Number of Unique Good Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

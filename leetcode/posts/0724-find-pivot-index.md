@@ -10,6 +10,7 @@ cover:
     alt: 0724 Find Pivot Index
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

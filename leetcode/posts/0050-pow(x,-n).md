@@ -10,6 +10,7 @@ cover:
     alt: 0050 Pow(x, n)
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

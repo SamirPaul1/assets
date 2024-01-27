@@ -10,6 +10,7 @@ cover:
     alt: 2710 Remove Trailing Zeros From a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

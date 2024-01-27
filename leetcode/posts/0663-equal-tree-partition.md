@@ -10,6 +10,7 @@ cover:
     alt: 0663 Equal Tree Partition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

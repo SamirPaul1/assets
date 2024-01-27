@@ -10,6 +10,7 @@ cover:
     alt: 0539 Minimum Time Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

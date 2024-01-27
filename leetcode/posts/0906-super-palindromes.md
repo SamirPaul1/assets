@@ -10,6 +10,7 @@ cover:
     alt: 0906 Super Palindromes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

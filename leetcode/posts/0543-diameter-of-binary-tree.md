@@ -10,6 +10,7 @@ cover:
     alt: 0543 Diameter of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

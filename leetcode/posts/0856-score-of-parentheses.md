@@ -10,6 +10,7 @@ cover:
     alt: 0856 Score of Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

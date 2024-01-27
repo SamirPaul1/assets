@@ -10,6 +10,7 @@ cover:
     alt: 0483 Smallest Good Base
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

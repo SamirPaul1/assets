@@ -10,6 +10,7 @@ cover:
     alt: 2360 Longest Cycle in a Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

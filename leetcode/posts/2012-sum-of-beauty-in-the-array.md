@@ -10,6 +10,7 @@ cover:
     alt: 2012 Sum of Beauty in the Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

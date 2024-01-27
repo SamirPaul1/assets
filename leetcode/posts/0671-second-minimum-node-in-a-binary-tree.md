@@ -10,6 +10,7 @@ cover:
     alt: 0671 Second Minimum Node In a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1308 Running Total for Different Genders
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

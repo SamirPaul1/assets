@@ -10,6 +10,7 @@ cover:
     alt: 1118 Number of Days in a Month
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

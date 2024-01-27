@@ -10,6 +10,7 @@ cover:
     alt: 2174 Remove All Ones With Row and Column Flips II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

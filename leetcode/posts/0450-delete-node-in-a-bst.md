@@ -10,6 +10,7 @@ cover:
     alt: 0450 Delete Node in a BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

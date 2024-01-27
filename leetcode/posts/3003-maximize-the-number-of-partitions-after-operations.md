@@ -10,6 +10,7 @@ cover:
     alt: 3003 Maximize the Number of Partitions After Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

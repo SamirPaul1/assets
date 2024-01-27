@@ -10,6 +10,7 @@ cover:
     alt: 2394 Employees With Deductions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1922 Count Good Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

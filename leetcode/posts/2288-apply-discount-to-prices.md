@@ -10,6 +10,7 @@ cover:
     alt: 2288 Apply Discount to Prices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

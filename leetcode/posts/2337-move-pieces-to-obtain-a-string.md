@@ -10,6 +10,7 @@ cover:
     alt: 2337 Move Pieces to Obtain a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

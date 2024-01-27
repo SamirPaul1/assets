@@ -10,6 +10,7 @@ cover:
     alt: 0835 Image Overlap
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

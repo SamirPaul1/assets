@@ -10,6 +10,7 @@ cover:
     alt: 1812 Determine Color of a Chessboard Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

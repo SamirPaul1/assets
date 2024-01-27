@@ -10,6 +10,7 @@ cover:
     alt: 2024 Maximize the Confusion of an Exam
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

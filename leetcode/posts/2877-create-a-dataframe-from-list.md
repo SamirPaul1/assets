@@ -10,6 +10,7 @@ cover:
     alt: 2877 Create a DataFrame from List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

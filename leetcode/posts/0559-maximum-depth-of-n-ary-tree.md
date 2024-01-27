@@ -10,6 +10,7 @@ cover:
     alt: 0559 Maximum Depth of N ary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

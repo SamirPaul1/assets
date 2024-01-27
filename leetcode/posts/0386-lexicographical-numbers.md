@@ -10,6 +10,7 @@ cover:
     alt: 0386 Lexicographical Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

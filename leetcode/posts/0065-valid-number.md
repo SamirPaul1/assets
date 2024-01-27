@@ -10,6 +10,7 @@ cover:
     alt: 0065 Valid Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

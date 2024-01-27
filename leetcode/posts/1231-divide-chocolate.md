@@ -10,6 +10,7 @@ cover:
     alt: 1231 Divide Chocolate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

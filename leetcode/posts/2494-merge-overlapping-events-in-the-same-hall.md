@@ -10,6 +10,7 @@ cover:
     alt: 2494 Merge Overlapping Events in the Same Hall
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

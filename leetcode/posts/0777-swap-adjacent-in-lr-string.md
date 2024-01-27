@@ -10,6 +10,7 @@ cover:
     alt: 0777 Swap Adjacent in LR String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

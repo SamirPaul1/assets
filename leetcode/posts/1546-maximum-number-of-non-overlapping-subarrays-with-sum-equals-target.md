@@ -10,6 +10,7 @@ cover:
     alt: 1546 Maximum Number of Non Overlapping Subarrays With Sum Equals Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

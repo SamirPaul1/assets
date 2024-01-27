@@ -10,6 +10,7 @@ cover:
     alt: 2723 Add Two Promises
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

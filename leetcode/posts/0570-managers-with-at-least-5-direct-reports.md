@@ -10,6 +10,7 @@ cover:
     alt: 0570 Managers with at Least 5 Direct Reports
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

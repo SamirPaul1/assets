@@ -10,6 +10,7 @@ cover:
     alt: 0465 Optimal Account Balancing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

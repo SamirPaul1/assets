@@ -10,6 +10,7 @@ cover:
     alt: 1386 Cinema Seat Allocation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

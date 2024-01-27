@@ -10,6 +10,7 @@ cover:
     alt: 2320 Count Number of Ways to Place Houses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

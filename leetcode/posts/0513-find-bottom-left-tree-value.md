@@ -10,6 +10,7 @@ cover:
     alt: 0513 Find Bottom Left Tree Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

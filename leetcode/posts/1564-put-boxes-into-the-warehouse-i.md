@@ -10,6 +10,7 @@ cover:
     alt: 1564 Put Boxes Into the Warehouse I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

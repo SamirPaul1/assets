@@ -10,6 +10,7 @@ cover:
     alt: 1958 Check if Move is Legal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0979 Distribute Coins in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

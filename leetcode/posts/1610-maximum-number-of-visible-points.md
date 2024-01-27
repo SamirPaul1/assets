@@ -10,6 +10,7 @@ cover:
     alt: 1610 Maximum Number of Visible Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

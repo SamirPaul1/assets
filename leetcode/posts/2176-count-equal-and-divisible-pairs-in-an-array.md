@@ -10,6 +10,7 @@ cover:
     alt: 2176 Count Equal and Divisible Pairs in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0404 Sum of Left Leaves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

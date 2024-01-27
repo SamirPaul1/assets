@@ -10,6 +10,7 @@ cover:
     alt: 2876 Count Visited Nodes in a Directed Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

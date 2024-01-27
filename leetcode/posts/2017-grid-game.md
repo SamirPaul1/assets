@@ -10,6 +10,7 @@ cover:
     alt: 2017 Grid Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

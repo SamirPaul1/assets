@@ -10,6 +10,7 @@ cover:
     alt: 2049 Count Nodes With the Highest Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

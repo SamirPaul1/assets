@@ -10,6 +10,7 @@ cover:
     alt: 2799 Count Complete Subarrays in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

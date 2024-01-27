@@ -10,6 +10,7 @@ cover:
     alt: 0130 Surrounded Regions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

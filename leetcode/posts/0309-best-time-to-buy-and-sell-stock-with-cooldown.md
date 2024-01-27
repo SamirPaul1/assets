@@ -10,6 +10,7 @@ cover:
     alt: 0309 Best Time to Buy and Sell Stock with Cooldown
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

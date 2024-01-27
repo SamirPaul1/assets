@@ -10,6 +10,7 @@ cover:
     alt: 2867 Count Valid Paths in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

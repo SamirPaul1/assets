@@ -10,6 +10,7 @@ cover:
     alt: 0190 Reverse Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1542 Find Longest Awesome Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1948 Delete Duplicate Folders in System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

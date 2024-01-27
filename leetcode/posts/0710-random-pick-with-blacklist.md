@@ -10,6 +10,7 @@ cover:
     alt: 0710 Random Pick with Blacklist
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

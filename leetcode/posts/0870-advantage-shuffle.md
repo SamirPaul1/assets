@@ -10,6 +10,7 @@ cover:
     alt: 0870 Advantage Shuffle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

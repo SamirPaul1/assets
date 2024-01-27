@@ -10,6 +10,7 @@ cover:
     alt: 1748 Sum of Unique Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

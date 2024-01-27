@@ -10,6 +10,7 @@ cover:
     alt: 2404 Most Frequent Even Element
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0949 Largest Time for Given Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

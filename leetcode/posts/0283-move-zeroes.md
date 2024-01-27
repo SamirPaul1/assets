@@ -10,6 +10,7 @@ cover:
     alt: 0283 Move Zeroes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

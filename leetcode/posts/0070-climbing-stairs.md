@@ -10,6 +10,7 @@ cover:
     alt: 0070 Climbing Stairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

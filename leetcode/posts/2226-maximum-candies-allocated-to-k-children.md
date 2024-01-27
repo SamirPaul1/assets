@@ -10,6 +10,7 @@ cover:
     alt: 2226 Maximum Candies Allocated to K Children
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2230 The Users That Are Eligible for Discount
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

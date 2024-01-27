@@ -10,6 +10,7 @@ cover:
     alt: 0333 Largest BST Subtree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

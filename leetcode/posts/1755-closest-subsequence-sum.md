@@ -10,6 +10,7 @@ cover:
     alt: 1755 Closest Subsequence Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

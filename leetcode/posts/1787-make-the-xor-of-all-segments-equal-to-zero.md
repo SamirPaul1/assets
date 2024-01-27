@@ -10,6 +10,7 @@ cover:
     alt: 1787 Make the XOR of All Segments Equal to Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

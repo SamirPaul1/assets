@@ -10,6 +10,7 @@ cover:
     alt: 2795 Parallel Execution of Promises for Individual Results Retrieval
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

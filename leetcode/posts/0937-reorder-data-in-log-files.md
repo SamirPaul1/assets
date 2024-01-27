@@ -10,6 +10,7 @@ cover:
     alt: 0937 Reorder Data in Log Files
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1286 Iterator for Combination
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

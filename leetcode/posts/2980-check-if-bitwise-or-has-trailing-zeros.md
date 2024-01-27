@@ -10,6 +10,7 @@ cover:
     alt: 2980 Check if Bitwise OR Has Trailing Zeros
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

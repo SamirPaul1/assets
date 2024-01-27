@@ -10,6 +10,7 @@ cover:
     alt: 0058 Length of Last Word
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

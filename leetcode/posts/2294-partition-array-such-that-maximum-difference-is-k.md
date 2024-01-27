@@ -10,6 +10,7 @@ cover:
     alt: 2294 Partition Array Such That Maximum Difference Is K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

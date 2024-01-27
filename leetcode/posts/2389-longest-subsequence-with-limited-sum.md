@@ -10,6 +10,7 @@ cover:
     alt: 2389 Longest Subsequence With Limited Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

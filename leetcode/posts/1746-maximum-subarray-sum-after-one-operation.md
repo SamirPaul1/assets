@@ -10,6 +10,7 @@ cover:
     alt: 1746 Maximum Subarray Sum After One Operation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

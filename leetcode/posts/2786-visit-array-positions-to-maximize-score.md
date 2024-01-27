@@ -10,6 +10,7 @@ cover:
     alt: 2786 Visit Array Positions to Maximize Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

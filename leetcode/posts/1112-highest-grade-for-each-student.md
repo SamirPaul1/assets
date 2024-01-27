@@ -10,6 +10,7 @@ cover:
     alt: 1112 Highest Grade For Each Student
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

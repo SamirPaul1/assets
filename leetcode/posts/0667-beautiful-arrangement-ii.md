@@ -10,6 +10,7 @@ cover:
     alt: 0667 Beautiful Arrangement II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

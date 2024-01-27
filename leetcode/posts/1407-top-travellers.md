@@ -10,6 +10,7 @@ cover:
     alt: 1407 Top Travellers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

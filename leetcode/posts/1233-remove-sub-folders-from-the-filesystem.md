@@ -10,6 +10,7 @@ cover:
     alt: 1233 Remove Sub Folders from the Filesystem
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

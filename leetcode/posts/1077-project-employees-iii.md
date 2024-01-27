@@ -10,6 +10,7 @@ cover:
     alt: 1077 Project Employees III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

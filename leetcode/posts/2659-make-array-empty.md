@@ -10,6 +10,7 @@ cover:
     alt: 2659 Make Array Empty
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

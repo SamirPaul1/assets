@@ -10,6 +10,7 @@ cover:
     alt: 0188 Best Time to Buy and Sell Stock IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

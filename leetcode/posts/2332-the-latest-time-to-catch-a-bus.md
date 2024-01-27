@@ -10,6 +10,7 @@ cover:
     alt: 2332 The Latest Time to Catch a Bus
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

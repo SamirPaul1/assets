@@ -10,6 +10,7 @@ cover:
     alt: 0786 K th Smallest Prime Fraction
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

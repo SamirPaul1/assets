@@ -10,6 +10,7 @@ cover:
     alt: 0176 Second Highest Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

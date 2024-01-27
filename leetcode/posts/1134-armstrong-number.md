@@ -10,6 +10,7 @@ cover:
     alt: 1134 Armstrong Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

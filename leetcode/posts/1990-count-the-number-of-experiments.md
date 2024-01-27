@@ -10,6 +10,7 @@ cover:
     alt: 1990 Count the Number of Experiments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

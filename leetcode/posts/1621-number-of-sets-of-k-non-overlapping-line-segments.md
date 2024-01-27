@@ -10,6 +10,7 @@ cover:
     alt: 1621 Number of Sets of K Non Overlapping Line Segments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

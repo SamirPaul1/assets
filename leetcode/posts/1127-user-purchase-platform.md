@@ -10,6 +10,7 @@ cover:
     alt: 1127 User Purchase Platform
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0329 Longest Increasing Path in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

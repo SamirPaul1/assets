@@ -10,6 +10,7 @@ cover:
     alt: 0528 Random Pick with Weight
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

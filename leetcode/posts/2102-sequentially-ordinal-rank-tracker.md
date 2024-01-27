@@ -10,6 +10,7 @@ cover:
     alt: 2102 Sequentially Ordinal Rank Tracker
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

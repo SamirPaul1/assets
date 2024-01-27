@@ -10,6 +10,7 @@ cover:
     alt: 0103 Binary Tree Zigzag Level Order Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

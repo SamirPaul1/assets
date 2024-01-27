@@ -10,6 +10,7 @@ cover:
     alt: 1137 N th Tribonacci Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0692 Top K Frequent Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

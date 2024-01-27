@@ -10,6 +10,7 @@ cover:
     alt: 0208 Implement Trie (Prefix Tree)
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

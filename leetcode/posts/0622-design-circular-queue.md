@@ -10,6 +10,7 @@ cover:
     alt: 0622 Design Circular Queue
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

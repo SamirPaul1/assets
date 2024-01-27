@@ -10,6 +10,7 @@ cover:
     alt: 2525 Categorize Box According to Criteria
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

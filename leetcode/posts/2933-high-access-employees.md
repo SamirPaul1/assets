@@ -10,6 +10,7 @@ cover:
     alt: 2933 High Access Employees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

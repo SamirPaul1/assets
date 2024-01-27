@@ -10,6 +10,7 @@ cover:
     alt: 1121 Divide Array Into Increasing Sequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

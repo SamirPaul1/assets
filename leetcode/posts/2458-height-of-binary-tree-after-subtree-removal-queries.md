@@ -10,6 +10,7 @@ cover:
     alt: 2458 Height of Binary Tree After Subtree Removal Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0313 Super Ugly Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

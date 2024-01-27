@@ -10,6 +10,7 @@ cover:
     alt: 2382 Maximum Segment Sum After Removals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

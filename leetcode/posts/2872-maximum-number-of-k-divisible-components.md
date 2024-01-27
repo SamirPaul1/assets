@@ -10,6 +10,7 @@ cover:
     alt: 2872 Maximum Number of K Divisible Components
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

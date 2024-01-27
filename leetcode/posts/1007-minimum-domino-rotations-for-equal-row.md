@@ -10,6 +10,7 @@ cover:
     alt: 1007 Minimum Domino Rotations For Equal Row
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2380 Time Needed to Rearrange a Binary String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

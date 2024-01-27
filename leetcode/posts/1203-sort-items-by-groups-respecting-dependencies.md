@@ -10,6 +10,7 @@ cover:
     alt: 1203 Sort Items by Groups Respecting Dependencies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

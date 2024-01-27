@@ -10,6 +10,7 @@ cover:
     alt: 1494 Parallel Courses II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

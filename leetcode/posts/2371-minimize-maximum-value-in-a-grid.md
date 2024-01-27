@@ -10,6 +10,7 @@ cover:
     alt: 2371 Minimize Maximum Value in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

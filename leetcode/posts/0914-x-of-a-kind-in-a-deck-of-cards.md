@@ -10,6 +10,7 @@ cover:
     alt: 0914 X of a Kind in a Deck of Cards
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0281 Zigzag Iterator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

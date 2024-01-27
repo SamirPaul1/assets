@@ -10,6 +10,7 @@ cover:
     alt: 1881 Maximum Value after Insertion
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

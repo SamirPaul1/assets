@@ -10,6 +10,7 @@ cover:
     alt: 1178 Number of Valid Words for Each Puzzle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

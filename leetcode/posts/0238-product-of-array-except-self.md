@@ -10,6 +10,7 @@ cover:
     alt: 0238 Product of Array Except Self
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

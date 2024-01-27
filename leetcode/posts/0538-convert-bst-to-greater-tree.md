@@ -10,6 +10,7 @@ cover:
     alt: 0538 Convert BST to Greater Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

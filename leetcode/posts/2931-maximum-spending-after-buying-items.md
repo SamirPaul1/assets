@@ -10,6 +10,7 @@ cover:
     alt: 2931 Maximum Spending After Buying Items
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

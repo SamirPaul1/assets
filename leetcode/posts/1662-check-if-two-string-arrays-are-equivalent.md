@@ -10,6 +10,7 @@ cover:
     alt: 1662 Check If Two String Arrays are Equivalent
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

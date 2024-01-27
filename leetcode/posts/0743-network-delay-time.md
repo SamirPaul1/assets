@@ -10,6 +10,7 @@ cover:
     alt: 0743 Network Delay Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

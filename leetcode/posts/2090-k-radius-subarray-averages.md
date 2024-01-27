@@ -10,6 +10,7 @@ cover:
     alt: 2090 K Radius Subarray Averages
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

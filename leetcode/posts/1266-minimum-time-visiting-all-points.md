@@ -10,6 +10,7 @@ cover:
     alt: 1266 Minimum Time Visiting All Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2756 Query Batching
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

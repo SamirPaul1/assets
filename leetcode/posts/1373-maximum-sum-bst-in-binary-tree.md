@@ -10,6 +10,7 @@ cover:
     alt: 1373 Maximum Sum BST in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1079 Letter Tile Possibilities
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

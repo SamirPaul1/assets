@@ -10,6 +10,7 @@ cover:
     alt: 0680 Valid Palindrome II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

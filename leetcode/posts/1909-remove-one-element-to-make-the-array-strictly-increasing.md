@@ -10,6 +10,7 @@ cover:
     alt: 1909 Remove One Element to Make the Array Strictly Increasing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

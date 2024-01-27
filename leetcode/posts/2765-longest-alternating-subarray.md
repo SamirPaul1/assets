@@ -10,6 +10,7 @@ cover:
     alt: 2765 Longest Alternating Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

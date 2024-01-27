@@ -10,6 +10,7 @@ cover:
     alt: 0519 Random Flip Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

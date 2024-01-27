@@ -10,6 +10,7 @@ cover:
     alt: 1905 Count Sub Islands
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

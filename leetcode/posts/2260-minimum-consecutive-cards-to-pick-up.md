@@ -10,6 +10,7 @@ cover:
     alt: 2260 Minimum Consecutive Cards to Pick Up
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1133 Largest Unique Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0412 Fizz Buzz
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

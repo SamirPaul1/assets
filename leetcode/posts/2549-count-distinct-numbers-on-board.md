@@ -10,6 +10,7 @@ cover:
     alt: 2549 Count Distinct Numbers on Board
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

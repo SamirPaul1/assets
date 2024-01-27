@@ -10,6 +10,7 @@ cover:
     alt: 0600 Non negative Integers without Consecutive Ones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1724 Checking Existence of Edge Length Limited Paths II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2121 Intervals Between Identical Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2471 Minimum Number of Operations to Sort a Binary Tree by Level
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

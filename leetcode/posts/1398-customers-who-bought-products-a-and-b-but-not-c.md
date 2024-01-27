@@ -10,6 +10,7 @@ cover:
     alt: 1398 Customers Who Bought Products A and B but Not C
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

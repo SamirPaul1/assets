@@ -10,6 +10,7 @@ cover:
     alt: 1234 Replace the Substring for Balanced String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

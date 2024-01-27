@@ -10,6 +10,7 @@ cover:
     alt: 0535 Encode and Decode TinyURL
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

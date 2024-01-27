@@ -10,6 +10,7 @@ cover:
     alt: 2112 The Airport With the Most Traffic
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

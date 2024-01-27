@@ -10,6 +10,7 @@ cover:
     alt: 0767 Reorganize String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

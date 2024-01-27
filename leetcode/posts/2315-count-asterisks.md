@@ -10,6 +10,7 @@ cover:
     alt: 2315 Count Asterisks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0212 Word Search II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

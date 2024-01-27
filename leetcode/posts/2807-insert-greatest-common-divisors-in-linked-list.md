@@ -10,6 +10,7 @@ cover:
     alt: 2807 Insert Greatest Common Divisors in Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1882 Process Tasks Using Servers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

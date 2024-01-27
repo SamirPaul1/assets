@@ -10,6 +10,7 @@ cover:
     alt: 0494 Target Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

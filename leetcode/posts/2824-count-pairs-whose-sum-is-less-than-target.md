@@ -10,6 +10,7 @@ cover:
     alt: 2824 Count Pairs Whose Sum is Less than Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

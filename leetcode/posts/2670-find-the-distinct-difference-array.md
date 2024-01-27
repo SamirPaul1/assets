@@ -10,6 +10,7 @@ cover:
     alt: 2670 Find the Distinct Difference Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

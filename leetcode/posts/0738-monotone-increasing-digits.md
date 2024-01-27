@@ -10,6 +10,7 @@ cover:
     alt: 0738 Monotone Increasing Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

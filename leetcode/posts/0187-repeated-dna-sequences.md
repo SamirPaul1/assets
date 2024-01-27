@@ -10,6 +10,7 @@ cover:
     alt: 0187 Repeated DNA Sequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

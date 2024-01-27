@@ -10,6 +10,7 @@ cover:
     alt: 0554 Brick Wall
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

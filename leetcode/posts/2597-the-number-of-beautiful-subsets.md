@@ -10,6 +10,7 @@ cover:
     alt: 2597 The Number of Beautiful Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

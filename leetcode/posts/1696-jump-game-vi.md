@@ -10,6 +10,7 @@ cover:
     alt: 1696 Jump Game VI
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1669 Merge In Between Linked Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

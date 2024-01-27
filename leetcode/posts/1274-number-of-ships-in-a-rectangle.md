@@ -10,6 +10,7 @@ cover:
     alt: 1274 Number of Ships in a Rectangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

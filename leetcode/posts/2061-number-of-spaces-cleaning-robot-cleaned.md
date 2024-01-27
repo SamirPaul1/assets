@@ -10,6 +10,7 @@ cover:
     alt: 2061 Number of Spaces Cleaning Robot Cleaned
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

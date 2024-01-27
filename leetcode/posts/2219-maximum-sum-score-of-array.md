@@ -10,6 +10,7 @@ cover:
     alt: 2219 Maximum Sum Score of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

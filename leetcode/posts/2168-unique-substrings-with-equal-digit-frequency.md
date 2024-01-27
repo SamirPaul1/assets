@@ -10,6 +10,7 @@ cover:
     alt: 2168 Unique Substrings With Equal Digit Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

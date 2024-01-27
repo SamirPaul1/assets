@@ -10,6 +10,7 @@ cover:
     alt: 2085 Count Common Words With One Occurrence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

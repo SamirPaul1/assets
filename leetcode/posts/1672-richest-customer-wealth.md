@@ -10,6 +10,7 @@ cover:
     alt: 1672 Richest Customer Wealth
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

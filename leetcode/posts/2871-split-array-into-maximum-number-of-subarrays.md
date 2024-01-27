@@ -10,6 +10,7 @@ cover:
     alt: 2871 Split Array Into Maximum Number of Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

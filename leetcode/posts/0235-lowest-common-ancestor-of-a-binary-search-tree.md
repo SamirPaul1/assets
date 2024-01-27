@@ -10,6 +10,7 @@ cover:
     alt: 0235 Lowest Common Ancestor of a Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

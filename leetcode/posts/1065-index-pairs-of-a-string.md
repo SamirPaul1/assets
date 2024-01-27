@@ -10,6 +10,7 @@ cover:
     alt: 1065 Index Pairs of a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

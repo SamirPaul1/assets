@@ -10,6 +10,7 @@ cover:
     alt: 1283 Find the Smallest Divisor Given a Threshold
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

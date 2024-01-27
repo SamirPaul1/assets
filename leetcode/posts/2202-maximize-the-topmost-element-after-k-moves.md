@@ -10,6 +10,7 @@ cover:
     alt: 2202 Maximize the Topmost Element After K Moves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

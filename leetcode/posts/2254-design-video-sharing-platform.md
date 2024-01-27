@@ -10,6 +10,7 @@ cover:
     alt: 2254 Design Video Sharing Platform
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

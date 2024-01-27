@@ -10,6 +10,7 @@ cover:
     alt: 2081 Sum of k Mirror Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1161 Maximum Level Sum of a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

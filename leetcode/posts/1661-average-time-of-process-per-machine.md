@@ -10,6 +10,7 @@ cover:
     alt: 1661 Average Time of Process per Machine
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

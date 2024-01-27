@@ -10,6 +10,7 @@ cover:
     alt: 2812 Find the Safest Path in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

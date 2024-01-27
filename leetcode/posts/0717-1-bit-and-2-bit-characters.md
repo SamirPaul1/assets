@@ -10,6 +10,7 @@ cover:
     alt: 0717 1 bit and 2 bit Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

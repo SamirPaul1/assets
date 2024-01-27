@@ -10,6 +10,7 @@ cover:
     alt: 1277 Count Square Submatrices with All Ones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

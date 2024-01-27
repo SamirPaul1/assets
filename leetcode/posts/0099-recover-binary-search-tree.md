@@ -10,6 +10,7 @@ cover:
     alt: 0099 Recover Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

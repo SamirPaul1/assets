@@ -10,6 +10,7 @@ cover:
     alt: 2392 Build a Matrix With Conditions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

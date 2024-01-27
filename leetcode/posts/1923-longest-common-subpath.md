@@ -10,6 +10,7 @@ cover:
     alt: 1923 Longest Common Subpath
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1944 Number of Visible People in a Queue
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

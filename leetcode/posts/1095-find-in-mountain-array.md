@@ -10,6 +10,7 @@ cover:
     alt: 1095 Find in Mountain Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

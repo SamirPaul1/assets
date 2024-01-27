@@ -10,6 +10,7 @@ cover:
     alt: 2139 Minimum Moves to Reach Target Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

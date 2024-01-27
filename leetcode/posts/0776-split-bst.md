@@ -10,6 +10,7 @@ cover:
     alt: 0776 Split BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1229 Meeting Scheduler
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

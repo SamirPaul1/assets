@@ -10,6 +10,7 @@ cover:
     alt: 2805 Custom Interval
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

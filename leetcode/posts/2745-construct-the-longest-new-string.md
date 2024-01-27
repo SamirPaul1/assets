@@ -10,6 +10,7 @@ cover:
     alt: 2745 Construct the Longest New String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

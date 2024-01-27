@@ -10,6 +10,7 @@ cover:
     alt: 0364 Nested List Weight Sum II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

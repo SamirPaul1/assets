@@ -10,6 +10,7 @@ cover:
     alt: 2459 Sort Array by Moving Items to Empty Space
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0978 Longest Turbulent Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

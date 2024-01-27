@@ -10,6 +10,7 @@ cover:
     alt: 0002 Add Two Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

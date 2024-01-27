@@ -10,6 +10,7 @@ cover:
     alt: 1896 Minimum Cost to Change the Final Value of Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

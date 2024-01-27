@@ -10,6 +10,7 @@ cover:
     alt: 2793 Status of Flight Tickets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

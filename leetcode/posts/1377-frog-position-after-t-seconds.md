@@ -10,6 +10,7 @@ cover:
     alt: 1377 Frog Position After T Seconds
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

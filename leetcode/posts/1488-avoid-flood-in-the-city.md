@@ -10,6 +10,7 @@ cover:
     alt: 1488 Avoid Flood in The City
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

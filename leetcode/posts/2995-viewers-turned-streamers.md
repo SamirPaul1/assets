@@ -10,6 +10,7 @@ cover:
     alt: 2995 Viewers Turned Streamers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

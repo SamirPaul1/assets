@@ -10,6 +10,7 @@ cover:
     alt: 1093 Statistics from a Large Sample
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

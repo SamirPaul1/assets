@@ -10,6 +10,7 @@ cover:
     alt: 0524 Longest Word in Dictionary through Deleting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

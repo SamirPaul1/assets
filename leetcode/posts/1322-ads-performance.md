@@ -10,6 +10,7 @@ cover:
     alt: 1322 Ads Performance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2730 Find the Longest Semi Repetitive Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

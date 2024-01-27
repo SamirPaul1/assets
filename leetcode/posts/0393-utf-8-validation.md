@@ -10,6 +10,7 @@ cover:
     alt: 0393 UTF 8 Validation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2046 Sort Linked List Already Sorted Using Absolute Values
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2863 Maximum Length of Semi Decreasing Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

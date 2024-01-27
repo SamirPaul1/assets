@@ -10,6 +10,7 @@ cover:
     alt: 0198 House Robber
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

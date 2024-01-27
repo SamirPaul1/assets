@@ -10,6 +10,7 @@ cover:
     alt: 0182 Duplicate Emails
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

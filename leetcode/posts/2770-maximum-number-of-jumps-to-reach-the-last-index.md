@@ -10,6 +10,7 @@ cover:
     alt: 2770 Maximum Number of Jumps to Reach the Last Index
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

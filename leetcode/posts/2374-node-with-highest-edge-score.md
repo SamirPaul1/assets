@@ -10,6 +10,7 @@ cover:
     alt: 2374 Node With Highest Edge Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

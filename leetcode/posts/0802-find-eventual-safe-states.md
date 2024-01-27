@@ -10,6 +10,7 @@ cover:
     alt: 0802 Find Eventual Safe States
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

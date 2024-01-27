@@ -10,6 +10,7 @@ cover:
     alt: 1098 Unpopular Books
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

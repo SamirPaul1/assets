@@ -10,6 +10,7 @@ cover:
     alt: 1947 Maximum Compatibility Score Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

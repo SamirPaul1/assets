@@ -10,6 +10,7 @@ cover:
     alt: 0325 Maximum Size Subarray Sum Equals k
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

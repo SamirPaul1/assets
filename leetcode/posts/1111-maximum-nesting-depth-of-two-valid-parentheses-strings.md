@@ -10,6 +10,7 @@ cover:
     alt: 1111 Maximum Nesting Depth of Two Valid Parentheses Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

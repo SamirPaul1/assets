@@ -10,6 +10,7 @@ cover:
     alt: 0470 Implement Rand10() Using Rand7()
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

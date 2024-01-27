@@ -10,6 +10,7 @@ cover:
     alt: 1482 Minimum Number of Days to Make m Bouquets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

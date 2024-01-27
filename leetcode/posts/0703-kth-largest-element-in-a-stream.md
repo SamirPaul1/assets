@@ -10,6 +10,7 @@ cover:
     alt: 0703 Kth Largest Element in a Stream
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

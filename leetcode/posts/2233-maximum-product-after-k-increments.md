@@ -10,6 +10,7 @@ cover:
     alt: 2233 Maximum Product After K Increments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1766 Tree of Coprimes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

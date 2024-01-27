@@ -10,6 +10,7 @@ cover:
     alt: 1469 Find All The Lonely Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

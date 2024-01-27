@@ -10,6 +10,7 @@ cover:
     alt: 2880 Select Data
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

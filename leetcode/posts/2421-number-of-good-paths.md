@@ -10,6 +10,7 @@ cover:
     alt: 2421 Number of Good Paths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2362 Generate the Invoice
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

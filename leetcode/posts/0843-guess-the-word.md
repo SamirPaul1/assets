@@ -10,6 +10,7 @@ cover:
     alt: 0843 Guess the Word
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

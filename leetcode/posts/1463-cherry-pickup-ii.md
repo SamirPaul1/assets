@@ -10,6 +10,7 @@ cover:
     alt: 1463 Cherry Pickup II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2076 Process Restricted Friend Requests
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

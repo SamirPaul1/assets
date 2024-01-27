@@ -10,6 +10,7 @@ cover:
     alt: 0160 Intersection of Two Linked Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

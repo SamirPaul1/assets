@@ -10,6 +10,7 @@ cover:
     alt: 0992 Subarrays with K Different Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

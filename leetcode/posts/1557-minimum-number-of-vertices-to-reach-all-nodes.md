@@ -10,6 +10,7 @@ cover:
     alt: 1557 Minimum Number of Vertices to Reach All Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

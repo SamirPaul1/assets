@@ -10,6 +10,7 @@ cover:
     alt: 2669 Count Artist Occurrences On Spotify Ranking List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

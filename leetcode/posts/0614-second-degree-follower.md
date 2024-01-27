@@ -10,6 +10,7 @@ cover:
     alt: 0614 Second Degree Follower
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2621 Sleep
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1674 Minimum Moves to Make Array Complementary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2530 Maximal Score After Applying K Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

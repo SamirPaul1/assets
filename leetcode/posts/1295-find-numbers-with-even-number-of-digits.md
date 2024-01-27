@@ -10,6 +10,7 @@ cover:
     alt: 1295 Find Numbers with Even Number of Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

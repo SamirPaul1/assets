@@ -10,6 +10,7 @@ cover:
     alt: 0959 Regions Cut By Slashes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

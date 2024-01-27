@@ -10,6 +10,7 @@ cover:
     alt: 1232 Check If It Is a Straight Line
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

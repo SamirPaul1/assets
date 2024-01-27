@@ -10,6 +10,7 @@ cover:
     alt: 0233 Number of Digit One
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

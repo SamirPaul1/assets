@@ -10,6 +10,7 @@ cover:
     alt: 0623 Add One Row to Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

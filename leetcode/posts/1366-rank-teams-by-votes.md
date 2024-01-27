@@ -10,6 +10,7 @@ cover:
     alt: 1366 Rank Teams by Votes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

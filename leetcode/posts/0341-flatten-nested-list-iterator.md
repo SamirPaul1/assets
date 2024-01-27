@@ -10,6 +10,7 @@ cover:
     alt: 0341 Flatten Nested List Iterator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

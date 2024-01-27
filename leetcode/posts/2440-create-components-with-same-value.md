@@ -10,6 +10,7 @@ cover:
     alt: 2440 Create Components With Same Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

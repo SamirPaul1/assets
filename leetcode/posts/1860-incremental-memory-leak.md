@@ -10,6 +10,7 @@ cover:
     alt: 1860 Incremental Memory Leak
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

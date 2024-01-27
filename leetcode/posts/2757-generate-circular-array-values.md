@@ -10,6 +10,7 @@ cover:
     alt: 2757 Generate Circular Array Values
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

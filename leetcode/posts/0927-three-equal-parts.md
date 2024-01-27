@@ -10,6 +10,7 @@ cover:
     alt: 0927 Three Equal Parts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

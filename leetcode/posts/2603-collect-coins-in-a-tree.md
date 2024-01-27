@@ -10,6 +10,7 @@ cover:
     alt: 2603 Collect Coins in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

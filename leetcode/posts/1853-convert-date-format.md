@@ -10,6 +10,7 @@ cover:
     alt: 1853 Convert Date Format
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

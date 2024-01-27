@@ -10,6 +10,7 @@ cover:
     alt: 1237 Find Positive Integer Solution for a Given Equation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

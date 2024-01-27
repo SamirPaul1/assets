@@ -10,6 +10,7 @@ cover:
     alt: 2026 Low Quality Problems
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

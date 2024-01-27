@@ -10,6 +10,7 @@ cover:
     alt: 2307 Check for Contradictions in Equations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

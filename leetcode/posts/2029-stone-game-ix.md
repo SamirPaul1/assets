@@ -10,6 +10,7 @@ cover:
     alt: 2029 Stone Game IX
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

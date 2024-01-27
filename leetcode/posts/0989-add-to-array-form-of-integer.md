@@ -10,6 +10,7 @@ cover:
     alt: 0989 Add to Array Form of Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

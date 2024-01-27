@@ -10,6 +10,7 @@ cover:
     alt: 1301 Number of Paths with Max Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

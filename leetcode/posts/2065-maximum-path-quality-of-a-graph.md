@@ -10,6 +10,7 @@ cover:
     alt: 2065 Maximum Path Quality of a Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

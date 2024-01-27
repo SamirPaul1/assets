@@ -10,6 +10,7 @@ cover:
     alt: 2545 Sort the Students by Their Kth Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

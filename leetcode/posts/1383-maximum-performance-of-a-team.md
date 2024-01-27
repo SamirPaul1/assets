@@ -10,6 +10,7 @@ cover:
     alt: 1383 Maximum Performance of a Team
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

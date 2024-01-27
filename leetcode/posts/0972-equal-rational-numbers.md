@@ -10,6 +10,7 @@ cover:
     alt: 0972 Equal Rational Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

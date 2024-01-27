@@ -10,6 +10,7 @@ cover:
     alt: 2988 Manager of the Largest Department
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

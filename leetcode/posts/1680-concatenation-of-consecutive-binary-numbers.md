@@ -10,6 +10,7 @@ cover:
     alt: 1680 Concatenation of Consecutive Binary Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

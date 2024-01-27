@@ -10,6 +10,7 @@ cover:
     alt: 2971 Find Polygon With the Largest Perimeter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

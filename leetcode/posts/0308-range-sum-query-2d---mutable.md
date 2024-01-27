@@ -10,6 +10,7 @@ cover:
     alt: 0308 Range Sum Query 2D   Mutable
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2519 Count the Number of K Big Indices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0840 Magic Squares In Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

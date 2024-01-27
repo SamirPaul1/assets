@@ -10,6 +10,7 @@ cover:
     alt: 1120 Maximum Average Subtree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

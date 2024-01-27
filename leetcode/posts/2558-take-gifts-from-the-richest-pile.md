@@ -10,6 +10,7 @@ cover:
     alt: 2558 Take Gifts From the Richest Pile
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

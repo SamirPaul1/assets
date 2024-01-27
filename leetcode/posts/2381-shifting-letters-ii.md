@@ -10,6 +10,7 @@ cover:
     alt: 2381 Shifting Letters II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

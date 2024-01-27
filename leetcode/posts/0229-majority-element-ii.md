@@ -10,6 +10,7 @@ cover:
     alt: 0229 Majority Element II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

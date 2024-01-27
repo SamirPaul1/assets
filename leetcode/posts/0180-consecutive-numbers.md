@@ -10,6 +10,7 @@ cover:
     alt: 0180 Consecutive Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

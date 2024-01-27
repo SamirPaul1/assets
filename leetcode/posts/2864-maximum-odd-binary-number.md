@@ -10,6 +10,7 @@ cover:
     alt: 2864 Maximum Odd Binary Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

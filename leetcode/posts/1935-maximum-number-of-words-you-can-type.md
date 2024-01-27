@@ -10,6 +10,7 @@ cover:
     alt: 1935 Maximum Number of Words You Can Type
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

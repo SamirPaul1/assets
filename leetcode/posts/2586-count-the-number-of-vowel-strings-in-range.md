@@ -10,6 +10,7 @@ cover:
     alt: 2586 Count the Number of Vowel Strings in Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2393 Count Strictly Increasing Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

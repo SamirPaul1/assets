@@ -10,6 +10,7 @@ cover:
     alt: 2280 Minimum Lines to Represent a Line Chart
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

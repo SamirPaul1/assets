@@ -10,6 +10,7 @@ cover:
     alt: 0688 Knight Probability in Chessboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

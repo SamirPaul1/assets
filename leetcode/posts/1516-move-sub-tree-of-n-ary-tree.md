@@ -10,6 +10,7 @@ cover:
     alt: 1516 Move Sub Tree of N Ary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

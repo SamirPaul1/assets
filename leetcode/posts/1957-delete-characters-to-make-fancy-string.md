@@ -10,6 +10,7 @@ cover:
     alt: 1957 Delete Characters to Make Fancy String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

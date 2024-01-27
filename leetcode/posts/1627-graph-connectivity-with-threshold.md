@@ -10,6 +10,7 @@ cover:
     alt: 1627 Graph Connectivity With Threshold
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

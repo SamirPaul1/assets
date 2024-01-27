@@ -10,6 +10,7 @@ cover:
     alt: 0081 Search in Rotated Sorted Array II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

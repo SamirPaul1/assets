@@ -10,6 +10,7 @@ cover:
     alt: 1385 Find the Distance Value Between Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

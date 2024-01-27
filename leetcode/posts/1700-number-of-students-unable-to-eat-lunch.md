@@ -10,6 +10,7 @@ cover:
     alt: 1700 Number of Students Unable to Eat Lunch
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

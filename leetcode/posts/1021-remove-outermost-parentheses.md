@@ -10,6 +10,7 @@ cover:
     alt: 1021 Remove Outermost Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

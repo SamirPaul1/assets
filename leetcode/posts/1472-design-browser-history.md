@@ -10,6 +10,7 @@ cover:
     alt: 1472 Design Browser History
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

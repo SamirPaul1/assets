@@ -10,6 +10,7 @@ cover:
     alt: 0685 Redundant Connection II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

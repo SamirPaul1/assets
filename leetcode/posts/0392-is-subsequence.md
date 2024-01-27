@@ -10,6 +10,7 @@ cover:
     alt: 0392 Is Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

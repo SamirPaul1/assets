@@ -10,6 +10,7 @@ cover:
     alt: 2552 Count Increasing Quadruplets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

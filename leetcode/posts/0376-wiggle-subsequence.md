@@ -10,6 +10,7 @@ cover:
     alt: 0376 Wiggle Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

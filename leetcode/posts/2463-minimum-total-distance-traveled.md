@@ -10,6 +10,7 @@ cover:
     alt: 2463 Minimum Total Distance Traveled
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

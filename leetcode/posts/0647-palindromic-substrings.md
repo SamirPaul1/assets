@@ -10,6 +10,7 @@ cover:
     alt: 0647 Palindromic Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

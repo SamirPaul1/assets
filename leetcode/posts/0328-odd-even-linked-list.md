@@ -10,6 +10,7 @@ cover:
     alt: 0328 Odd Even Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

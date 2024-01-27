@@ -10,6 +10,7 @@ cover:
     alt: 2664 The Knight’s Tour
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1123 Lowest Common Ancestor of Deepest Leaves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

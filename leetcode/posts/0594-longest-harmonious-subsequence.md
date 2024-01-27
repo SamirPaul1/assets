@@ -10,6 +10,7 @@ cover:
     alt: 0594 Longest Harmonious Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2841 Maximum Sum of Almost Unique Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

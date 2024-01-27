@@ -10,6 +10,7 @@ cover:
     alt: 1329 Sort the Matrix Diagonally
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

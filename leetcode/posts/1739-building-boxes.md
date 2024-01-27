@@ -10,6 +10,7 @@ cover:
     alt: 1739 Building Boxes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

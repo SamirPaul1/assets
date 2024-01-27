@@ -10,6 +10,7 @@ cover:
     alt: 1285 Find the Start and End Number of Continuous Ranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

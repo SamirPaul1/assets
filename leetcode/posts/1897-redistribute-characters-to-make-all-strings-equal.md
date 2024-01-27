@@ -10,6 +10,7 @@ cover:
     alt: 1897 Redistribute Characters to Make All Strings Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

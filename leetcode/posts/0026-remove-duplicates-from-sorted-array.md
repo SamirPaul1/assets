@@ -10,6 +10,7 @@ cover:
     alt: 0026 Remove Duplicates from Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

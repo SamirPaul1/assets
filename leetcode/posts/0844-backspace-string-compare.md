@@ -10,6 +10,7 @@ cover:
     alt: 0844 Backspace String Compare
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

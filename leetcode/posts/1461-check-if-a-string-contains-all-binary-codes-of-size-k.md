@@ -10,6 +10,7 @@ cover:
     alt: 1461 Check If a String Contains All Binary Codes of Size K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

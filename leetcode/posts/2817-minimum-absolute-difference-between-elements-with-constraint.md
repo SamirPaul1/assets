@@ -10,6 +10,7 @@ cover:
     alt: 2817 Minimum Absolute Difference Between Elements With Constraint
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

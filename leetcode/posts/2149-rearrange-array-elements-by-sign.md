@@ -10,6 +10,7 @@ cover:
     alt: 2149 Rearrange Array Elements by Sign
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

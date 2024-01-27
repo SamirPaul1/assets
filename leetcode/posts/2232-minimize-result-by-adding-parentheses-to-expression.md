@@ -10,6 +10,7 @@ cover:
     alt: 2232 Minimize Result by Adding Parentheses to Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

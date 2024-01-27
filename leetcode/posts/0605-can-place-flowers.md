@@ -10,6 +10,7 @@ cover:
     alt: 0605 Can Place Flowers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

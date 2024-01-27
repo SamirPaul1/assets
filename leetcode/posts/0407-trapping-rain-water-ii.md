@@ -10,6 +10,7 @@ cover:
     alt: 0407 Trapping Rain Water II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

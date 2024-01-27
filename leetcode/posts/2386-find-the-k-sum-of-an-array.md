@@ -10,6 +10,7 @@ cover:
     alt: 2386 Find the K Sum of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

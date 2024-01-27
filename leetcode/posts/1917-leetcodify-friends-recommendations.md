@@ -10,6 +10,7 @@ cover:
     alt: 1917 Leetcodify Friends Recommendations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

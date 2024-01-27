@@ -10,6 +10,7 @@ cover:
     alt: 0247 Strobogrammatic Number II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

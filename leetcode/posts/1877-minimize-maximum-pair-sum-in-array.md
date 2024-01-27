@@ -10,6 +10,7 @@ cover:
     alt: 1877 Minimize Maximum Pair Sum in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

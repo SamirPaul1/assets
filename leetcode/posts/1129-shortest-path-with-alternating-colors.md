@@ -10,6 +10,7 @@ cover:
     alt: 1129 Shortest Path with Alternating Colors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

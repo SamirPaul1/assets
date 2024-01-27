@@ -10,6 +10,7 @@ cover:
     alt: 2364 Count Number of Bad Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

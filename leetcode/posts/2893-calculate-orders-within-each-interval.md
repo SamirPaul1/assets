@@ -10,6 +10,7 @@ cover:
     alt: 2893 Calculate Orders Within Each Interval
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

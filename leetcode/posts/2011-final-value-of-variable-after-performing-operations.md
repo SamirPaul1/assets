@@ -10,6 +10,7 @@ cover:
     alt: 2011 Final Value of Variable After Performing Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

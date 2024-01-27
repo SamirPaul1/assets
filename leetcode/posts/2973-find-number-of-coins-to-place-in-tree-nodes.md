@@ -10,6 +10,7 @@ cover:
     alt: 2973 Find Number of Coins to Place in Tree Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

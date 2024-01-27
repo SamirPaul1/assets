@@ -10,6 +10,7 @@ cover:
     alt: 2091 Removing Minimum and Maximum From Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1033 Moving Stones Until Consecutive
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

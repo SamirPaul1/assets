@@ -10,6 +10,7 @@ cover:
     alt: 0850 Rectangle Area II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

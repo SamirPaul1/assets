@@ -10,6 +10,7 @@ cover:
     alt: 0808 Soup Servings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

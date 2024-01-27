@@ -10,6 +10,7 @@ cover:
     alt: 2642 Design Graph With Shortest Path Calculator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

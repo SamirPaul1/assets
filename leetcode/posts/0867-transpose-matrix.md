@@ -10,6 +10,7 @@ cover:
     alt: 0867 Transpose Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

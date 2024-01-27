@@ -10,6 +10,7 @@ cover:
     alt: 2048 Next Greater Numerically Balanced Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

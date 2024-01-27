@@ -10,6 +10,7 @@ cover:
     alt: 2512 Reward Top K Students
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

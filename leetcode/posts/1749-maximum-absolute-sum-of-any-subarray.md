@@ -10,6 +10,7 @@ cover:
     alt: 1749 Maximum Absolute Sum of Any Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

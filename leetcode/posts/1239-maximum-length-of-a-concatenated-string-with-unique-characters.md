@@ -10,6 +10,7 @@ cover:
     alt: 1239 Maximum Length of a Concatenated String with Unique Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

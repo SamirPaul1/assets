@@ -10,6 +10,7 @@ cover:
     alt: 1456 Maximum Number of Vowels in a Substring of Given Length
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

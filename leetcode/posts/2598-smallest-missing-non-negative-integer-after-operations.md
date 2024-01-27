@@ -10,6 +10,7 @@ cover:
     alt: 2598 Smallest Missing Non negative Integer After Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

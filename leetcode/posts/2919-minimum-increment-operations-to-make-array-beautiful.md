@@ -10,6 +10,7 @@ cover:
     alt: 2919 Minimum Increment Operations to Make Array Beautiful
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

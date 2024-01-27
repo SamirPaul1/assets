@@ -10,6 +10,7 @@ cover:
     alt: 1200 Minimum Absolute Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

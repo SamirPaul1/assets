@@ -10,6 +10,7 @@ cover:
     alt: 1693 Daily Leads and Partners
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

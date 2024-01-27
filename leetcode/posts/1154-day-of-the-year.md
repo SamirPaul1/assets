@@ -10,6 +10,7 @@ cover:
     alt: 1154 Day of the Year
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

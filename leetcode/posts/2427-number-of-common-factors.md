@@ -10,6 +10,7 @@ cover:
     alt: 2427 Number of Common Factors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

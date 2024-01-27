@@ -10,6 +10,7 @@ cover:
     alt: 3018 Maximum Number of Removal Queries That Can Be Processed I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

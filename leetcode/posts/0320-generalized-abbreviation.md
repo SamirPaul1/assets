@@ -10,6 +10,7 @@ cover:
     alt: 0320 Generalized Abbreviation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

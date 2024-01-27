@@ -10,6 +10,7 @@ cover:
     alt: 2328 Number of Increasing Paths in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

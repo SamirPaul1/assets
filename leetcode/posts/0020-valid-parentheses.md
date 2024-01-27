@@ -10,6 +10,7 @@ cover:
     alt: 0020 Valid Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1411 Number of Ways to Paint N × 3 Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

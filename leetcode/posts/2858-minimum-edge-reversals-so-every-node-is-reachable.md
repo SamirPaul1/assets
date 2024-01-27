@@ -10,6 +10,7 @@ cover:
     alt: 2858 Minimum Edge Reversals So Every Node Is Reachable
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

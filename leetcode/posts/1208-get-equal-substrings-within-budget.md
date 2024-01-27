@@ -10,6 +10,7 @@ cover:
     alt: 1208 Get Equal Substrings Within Budget
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

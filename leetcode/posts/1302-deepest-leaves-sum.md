@@ -10,6 +10,7 @@ cover:
     alt: 1302 Deepest Leaves Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

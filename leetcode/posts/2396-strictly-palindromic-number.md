@@ -10,6 +10,7 @@ cover:
     alt: 2396 Strictly Palindromic Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

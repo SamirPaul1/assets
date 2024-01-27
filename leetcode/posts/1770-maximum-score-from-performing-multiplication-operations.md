@@ -10,6 +10,7 @@ cover:
     alt: 1770 Maximum Score from Performing Multiplication Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

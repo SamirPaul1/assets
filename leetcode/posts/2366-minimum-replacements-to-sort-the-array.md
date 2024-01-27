@@ -10,6 +10,7 @@ cover:
     alt: 2366 Minimum Replacements to Sort the Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

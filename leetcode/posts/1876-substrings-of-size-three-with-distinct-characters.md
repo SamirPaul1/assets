@@ -10,6 +10,7 @@ cover:
     alt: 1876 Substrings of Size Three with Distinct Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

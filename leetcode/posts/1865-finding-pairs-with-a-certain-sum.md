@@ -10,6 +10,7 @@ cover:
     alt: 1865 Finding Pairs With a Certain Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

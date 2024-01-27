@@ -10,6 +10,7 @@ cover:
     alt: 1715 Count Apples and Oranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1798 Maximum Number of Consecutive Values You Can Make
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

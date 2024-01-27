@@ -10,6 +10,7 @@ cover:
     alt: 0881 Boats to Save People
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

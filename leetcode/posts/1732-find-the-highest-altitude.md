@@ -10,6 +10,7 @@ cover:
     alt: 1732 Find the Highest Altitude
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

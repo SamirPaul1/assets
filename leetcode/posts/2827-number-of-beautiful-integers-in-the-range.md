@@ -10,6 +10,7 @@ cover:
     alt: 2827 Number of Beautiful Integers in the Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

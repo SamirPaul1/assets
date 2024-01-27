@@ -10,6 +10,7 @@ cover:
     alt: 0862 Shortest Subarray with Sum at Least K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

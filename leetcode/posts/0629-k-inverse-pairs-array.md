@@ -10,6 +10,7 @@ cover:
     alt: 0629 K Inverse Pairs Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

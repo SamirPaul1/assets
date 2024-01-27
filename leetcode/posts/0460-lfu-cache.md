@@ -10,6 +10,7 @@ cover:
     alt: 0460 LFU Cache
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

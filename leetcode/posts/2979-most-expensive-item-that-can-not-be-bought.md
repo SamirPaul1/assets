@@ -10,6 +10,7 @@ cover:
     alt: 2979 Most Expensive Item That Can Not Be Bought
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

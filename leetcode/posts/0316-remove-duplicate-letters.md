@@ -10,6 +10,7 @@ cover:
     alt: 0316 Remove Duplicate Letters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

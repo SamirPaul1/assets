@@ -10,6 +10,7 @@ cover:
     alt: 0286 Walls and Gates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

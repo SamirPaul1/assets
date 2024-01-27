@@ -10,6 +10,7 @@ cover:
     alt: 1806 Minimum Number of Operations to Reinitialize a Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

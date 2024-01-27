@@ -10,6 +10,7 @@ cover:
     alt: 1941 Check if All Characters Have Equal Number of Occurrences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2857 Count Pairs of Points With Distance k
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

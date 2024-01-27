@@ -10,6 +10,7 @@ cover:
     alt: 0463 Island Perimeter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

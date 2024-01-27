@@ -10,6 +10,7 @@ cover:
     alt: 1537 Get the Maximum Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

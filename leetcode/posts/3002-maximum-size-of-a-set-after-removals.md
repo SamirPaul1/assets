@@ -10,6 +10,7 @@ cover:
     alt: 3002 Maximum Size of a Set After Removals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

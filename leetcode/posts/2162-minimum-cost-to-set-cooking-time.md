@@ -10,6 +10,7 @@ cover:
     alt: 2162 Minimum Cost to Set Cooking Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

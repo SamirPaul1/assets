@@ -10,6 +10,7 @@ cover:
     alt: 2934 Minimum Operations to Maximize Last Elements in Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

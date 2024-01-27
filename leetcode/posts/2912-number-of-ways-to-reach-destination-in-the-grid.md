@@ -10,6 +10,7 @@ cover:
     alt: 2912 Number of Ways to Reach Destination in the Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

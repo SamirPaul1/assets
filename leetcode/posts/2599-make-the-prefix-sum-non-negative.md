@@ -10,6 +10,7 @@ cover:
     alt: 2599 Make the Prefix Sum Non negative
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

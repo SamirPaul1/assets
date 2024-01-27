@@ -10,6 +10,7 @@ cover:
     alt: 2137 Pour Water Between Buckets to Make Water Levels Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2379 Minimum Recolors to Get K Consecutive Black Blocks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

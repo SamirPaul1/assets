@@ -10,6 +10,7 @@ cover:
     alt: 1151 Minimum Swaps to Group All 1's Together
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

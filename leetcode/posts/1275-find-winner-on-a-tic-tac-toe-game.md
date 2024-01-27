@@ -10,6 +10,7 @@ cover:
     alt: 1275 Find Winner on a Tic Tac Toe Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

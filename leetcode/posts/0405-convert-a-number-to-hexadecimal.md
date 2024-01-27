@@ -10,6 +10,7 @@ cover:
     alt: 0405 Convert a Number to Hexadecimal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0803 Bricks Falling When Hit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

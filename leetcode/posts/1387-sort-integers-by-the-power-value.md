@@ -10,6 +10,7 @@ cover:
     alt: 1387 Sort Integers by The Power Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

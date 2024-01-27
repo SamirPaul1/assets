@@ -10,6 +10,7 @@ cover:
     alt: 0273 Integer to English Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

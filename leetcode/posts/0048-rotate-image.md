@@ -10,6 +10,7 @@ cover:
     alt: 0048 Rotate Image
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

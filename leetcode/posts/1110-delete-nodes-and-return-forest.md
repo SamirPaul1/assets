@@ -10,6 +10,7 @@ cover:
     alt: 1110 Delete Nodes And Return Forest
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

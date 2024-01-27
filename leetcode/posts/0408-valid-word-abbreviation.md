@@ -10,6 +10,7 @@ cover:
     alt: 0408 Valid Word Abbreviation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

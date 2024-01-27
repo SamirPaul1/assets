@@ -10,6 +10,7 @@ cover:
     alt: 1319 Number of Operations to Make Network Connected
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1443 Minimum Time to Collect All Apples in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

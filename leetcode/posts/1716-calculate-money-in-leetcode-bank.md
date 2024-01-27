@@ -10,6 +10,7 @@ cover:
     alt: 1716 Calculate Money in Leetcode Bank
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

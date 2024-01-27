@@ -10,6 +10,7 @@ cover:
     alt: 2148 Count Elements With Strictly Smaller and Greater Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

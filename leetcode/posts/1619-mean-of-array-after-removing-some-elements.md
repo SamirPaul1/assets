@@ -10,6 +10,7 @@ cover:
     alt: 1619 Mean of Array After Removing Some Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

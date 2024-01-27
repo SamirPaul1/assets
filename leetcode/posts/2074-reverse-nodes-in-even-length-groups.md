@@ -10,6 +10,7 @@ cover:
     alt: 2074 Reverse Nodes in Even Length Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

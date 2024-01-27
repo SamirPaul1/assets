@@ -10,6 +10,7 @@ cover:
     alt: 2875 Minimum Size Subarray in Infinite Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

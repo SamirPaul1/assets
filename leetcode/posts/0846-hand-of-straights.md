@@ -10,6 +10,7 @@ cover:
     alt: 0846 Hand of Straights
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

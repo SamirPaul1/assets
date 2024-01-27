@@ -10,6 +10,7 @@ cover:
     alt: 2622 Cache With Time Limit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

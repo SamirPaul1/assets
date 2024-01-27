@@ -10,6 +10,7 @@ cover:
     alt: 2896 Apply Operations to Make Two Strings Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1212 Team Scores in Football Tournament
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

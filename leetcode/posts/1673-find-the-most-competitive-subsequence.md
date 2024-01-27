@@ -10,6 +10,7 @@ cover:
     alt: 1673 Find the Most Competitive Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1089 Duplicate Zeros
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

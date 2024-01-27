@@ -10,6 +10,7 @@ cover:
     alt: 2155 All Divisions With the Highest Score of a Binary Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

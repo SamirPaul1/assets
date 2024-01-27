@@ -10,6 +10,7 @@ cover:
     alt: 0489 Robot Room Cleaner
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2544 Alternating Digit Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

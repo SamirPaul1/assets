@@ -10,6 +10,7 @@ cover:
     alt: 1761 Minimum Degree of a Connected Trio in a Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

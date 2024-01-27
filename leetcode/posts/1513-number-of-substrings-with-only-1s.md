@@ -10,6 +10,7 @@ cover:
     alt: 1513 Number of Substrings With Only 1s
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

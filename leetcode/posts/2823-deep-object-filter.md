@@ -10,6 +10,7 @@ cover:
     alt: 2823 Deep Object Filter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2647 Color the Triangle Red
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2737 Find the Closest Marked Node
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

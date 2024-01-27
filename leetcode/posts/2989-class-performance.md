@@ -10,6 +10,7 @@ cover:
     alt: 2989 Class Performance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

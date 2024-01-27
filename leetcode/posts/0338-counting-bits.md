@@ -10,6 +10,7 @@ cover:
     alt: 0338 Counting Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

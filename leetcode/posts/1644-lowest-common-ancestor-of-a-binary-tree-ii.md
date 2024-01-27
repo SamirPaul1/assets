@@ -10,6 +10,7 @@ cover:
     alt: 1644 Lowest Common Ancestor of a Binary Tree II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

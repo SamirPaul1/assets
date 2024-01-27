@@ -10,6 +10,7 @@ cover:
     alt: 1094 Car Pooling
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

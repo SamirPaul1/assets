@@ -10,6 +10,7 @@ cover:
     alt: 1495 Friendly Movies Streamed Last Month
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

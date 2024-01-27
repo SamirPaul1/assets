@@ -10,6 +10,7 @@ cover:
     alt: 2778 Sum of Squares of Special Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1575 Count All Possible Routes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

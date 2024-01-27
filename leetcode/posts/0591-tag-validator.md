@@ -10,6 +10,7 @@ cover:
     alt: 0591 Tag Validator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

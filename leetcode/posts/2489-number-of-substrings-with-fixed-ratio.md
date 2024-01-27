@@ -10,6 +10,7 @@ cover:
     alt: 2489 Number of Substrings With Fixed Ratio
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

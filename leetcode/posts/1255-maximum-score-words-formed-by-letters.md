@@ -10,6 +10,7 @@ cover:
     alt: 1255 Maximum Score Words Formed by Letters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

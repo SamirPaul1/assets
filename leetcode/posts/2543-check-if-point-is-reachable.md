@@ -10,6 +10,7 @@ cover:
     alt: 2543 Check if Point Is Reachable
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

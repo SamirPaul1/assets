@@ -10,6 +10,7 @@ cover:
     alt: 2537 Count the Number of Good Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

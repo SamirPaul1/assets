@@ -10,6 +10,7 @@ cover:
     alt: 2180 Count Integers With Even Digit Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

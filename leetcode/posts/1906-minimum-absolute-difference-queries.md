@@ -10,6 +10,7 @@ cover:
     alt: 1906 Minimum Absolute Difference Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

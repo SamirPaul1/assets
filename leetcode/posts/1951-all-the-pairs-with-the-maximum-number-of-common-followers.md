@@ -10,6 +10,7 @@ cover:
     alt: 1951 All the Pairs With the Maximum Number of Common Followers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

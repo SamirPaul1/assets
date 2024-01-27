@@ -10,6 +10,7 @@ cover:
     alt: 1777 Product's Price for Each Store
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

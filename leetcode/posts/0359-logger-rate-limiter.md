@@ -10,6 +10,7 @@ cover:
     alt: 0359 Logger Rate Limiter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1507 Reformat Date
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

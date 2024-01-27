@@ -10,6 +10,7 @@ cover:
     alt: 1287 Element Appearing More Than 25% In Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

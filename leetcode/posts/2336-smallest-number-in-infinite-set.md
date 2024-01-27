@@ -10,6 +10,7 @@ cover:
     alt: 2336 Smallest Number in Infinite Set
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

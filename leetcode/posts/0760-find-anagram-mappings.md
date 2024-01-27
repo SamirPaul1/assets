@@ -10,6 +10,7 @@ cover:
     alt: 0760 Find Anagram Mappings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0167 Two Sum II   Input Array Is Sorted
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

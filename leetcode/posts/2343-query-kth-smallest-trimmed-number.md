@@ -10,6 +10,7 @@ cover:
     alt: 2343 Query Kth Smallest Trimmed Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

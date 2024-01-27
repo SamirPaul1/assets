@@ -10,6 +10,7 @@ cover:
     alt: 1532 The Most Recent Three Orders
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

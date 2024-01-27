@@ -10,6 +10,7 @@ cover:
     alt: 2062 Count Vowel Substrings of a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

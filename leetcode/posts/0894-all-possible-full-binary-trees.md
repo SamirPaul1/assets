@@ -10,6 +10,7 @@ cover:
     alt: 0894 All Possible Full Binary Trees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

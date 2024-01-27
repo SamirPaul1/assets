@@ -10,6 +10,7 @@ cover:
     alt: 2913 Subarrays Distinct Element Sum of Squares I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

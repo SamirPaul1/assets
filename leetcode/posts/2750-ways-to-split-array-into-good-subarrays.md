@@ -10,6 +10,7 @@ cover:
     alt: 2750 Ways to Split Array Into Good Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

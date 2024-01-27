@@ -10,6 +10,7 @@ cover:
     alt: 1776 Car Fleet II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

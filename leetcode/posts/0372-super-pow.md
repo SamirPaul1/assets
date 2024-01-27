@@ -10,6 +10,7 @@ cover:
     alt: 0372 Super Pow
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0479 Largest Palindrome Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

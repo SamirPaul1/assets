@@ -10,6 +10,7 @@ cover:
     alt: 2007 Find Original Array From Doubled Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1450 Number of Students Doing Homework at a Given Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2792 Count Nodes That Are Great Enough
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

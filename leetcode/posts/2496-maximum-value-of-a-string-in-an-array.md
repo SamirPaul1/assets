@@ -10,6 +10,7 @@ cover:
     alt: 2496 Maximum Value of a String in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

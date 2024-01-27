@@ -10,6 +10,7 @@ cover:
     alt: 0012 Integer to Roman
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

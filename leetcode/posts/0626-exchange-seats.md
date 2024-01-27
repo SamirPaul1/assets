@@ -10,6 +10,7 @@ cover:
     alt: 0626 Exchange Seats
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

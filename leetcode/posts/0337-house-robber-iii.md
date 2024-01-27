@@ -10,6 +10,7 @@ cover:
     alt: 0337 House Robber III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

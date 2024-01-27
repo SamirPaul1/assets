@@ -10,6 +10,7 @@ cover:
     alt: 2813 Maximum Elegance of a K Length Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

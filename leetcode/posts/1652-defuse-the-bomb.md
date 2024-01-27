@@ -10,6 +10,7 @@ cover:
     alt: 1652 Defuse the Bomb
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1718 Construct the Lexicographically Largest Valid Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

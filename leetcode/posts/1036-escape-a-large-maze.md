@@ -10,6 +10,7 @@ cover:
     alt: 1036 Escape a Large Maze
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

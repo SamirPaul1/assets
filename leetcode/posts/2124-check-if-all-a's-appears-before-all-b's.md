@@ -10,6 +10,7 @@ cover:
     alt: 2124 Check if All A's Appears Before All B's
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

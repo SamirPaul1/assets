@@ -10,6 +10,7 @@ cover:
     alt: 2298 Tasks Count in the Weekend
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

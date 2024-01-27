@@ -10,6 +10,7 @@ cover:
     alt: 0923 3Sum With Multiplicity
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

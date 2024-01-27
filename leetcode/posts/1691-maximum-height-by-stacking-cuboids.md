@@ -10,6 +10,7 @@ cover:
     alt: 1691 Maximum Height by Stacking Cuboids
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1148 Article Views I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

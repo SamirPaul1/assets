@@ -10,6 +10,7 @@ cover:
     alt: 2564 Substring XOR Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0595 Big Countries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

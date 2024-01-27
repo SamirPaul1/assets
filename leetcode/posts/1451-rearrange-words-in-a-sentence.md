@@ -10,6 +10,7 @@ cover:
     alt: 1451 Rearrange Words in a Sentence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

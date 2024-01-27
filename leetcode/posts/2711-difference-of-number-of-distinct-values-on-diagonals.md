@@ -10,6 +10,7 @@ cover:
     alt: 2711 Difference of Number of Distinct Values on Diagonals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

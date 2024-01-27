@@ -10,6 +10,7 @@ cover:
     alt: 0406 Queue Reconstruction by Height
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

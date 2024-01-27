@@ -10,6 +10,7 @@ cover:
     alt: 2296 Design a Text Editor
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2419 Longest Subarray With Maximum Bitwise AND
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0410 Split Array Largest Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

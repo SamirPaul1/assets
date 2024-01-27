@@ -10,6 +10,7 @@ cover:
     alt: 1582 Special Positions in a Binary Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

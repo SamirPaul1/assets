@@ -10,6 +10,7 @@ cover:
     alt: 0915 Partition Array into Disjoint Intervals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

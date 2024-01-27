@@ -10,6 +10,7 @@ cover:
     alt: 2397 Maximum Rows Covered by Columns
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

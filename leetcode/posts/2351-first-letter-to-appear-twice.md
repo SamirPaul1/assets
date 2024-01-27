@@ -10,6 +10,7 @@ cover:
     alt: 2351 First Letter to Appear Twice
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

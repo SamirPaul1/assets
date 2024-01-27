@@ -10,6 +10,7 @@ cover:
     alt: 0197 Rising Temperature
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

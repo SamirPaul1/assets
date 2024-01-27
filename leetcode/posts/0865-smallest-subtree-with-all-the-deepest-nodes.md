@@ -10,6 +10,7 @@ cover:
     alt: 0865 Smallest Subtree with all the Deepest Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

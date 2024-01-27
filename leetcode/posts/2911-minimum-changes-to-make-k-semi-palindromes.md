@@ -10,6 +10,7 @@ cover:
     alt: 2911 Minimum Changes to Make K Semi palindromes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

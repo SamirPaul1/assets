@@ -10,6 +10,7 @@ cover:
     alt: 2467 Most Profitable Path in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

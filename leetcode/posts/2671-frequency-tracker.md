@@ -10,6 +10,7 @@ cover:
     alt: 2671 Frequency Tracker
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2042 Check if Numbers Are Ascending in a Sentence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1750 Minimum Length of String After Deleting Similar Ends
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

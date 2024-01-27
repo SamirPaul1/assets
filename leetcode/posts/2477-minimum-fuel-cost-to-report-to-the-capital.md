@@ -10,6 +10,7 @@ cover:
     alt: 2477 Minimum Fuel Cost to Report to the Capital
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

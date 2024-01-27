@@ -10,6 +10,7 @@ cover:
     alt: 0857 Minimum Cost to Hire K Workers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

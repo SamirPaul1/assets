@@ -10,6 +10,7 @@ cover:
     alt: 0134 Gas Station
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

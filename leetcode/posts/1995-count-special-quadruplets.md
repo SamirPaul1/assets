@@ -10,6 +10,7 @@ cover:
     alt: 1995 Count Special Quadruplets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

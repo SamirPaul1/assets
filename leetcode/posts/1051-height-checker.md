@@ -10,6 +10,7 @@ cover:
     alt: 1051 Height Checker
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

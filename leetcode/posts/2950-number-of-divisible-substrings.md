@@ -10,6 +10,7 @@ cover:
     alt: 2950 Number of Divisible Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

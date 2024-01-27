@@ -10,6 +10,7 @@ cover:
     alt: 1565 Unique Orders and Customers Per Month
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

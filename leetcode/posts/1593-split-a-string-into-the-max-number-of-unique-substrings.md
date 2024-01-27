@@ -10,6 +10,7 @@ cover:
     alt: 1593 Split a String Into the Max Number of Unique Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

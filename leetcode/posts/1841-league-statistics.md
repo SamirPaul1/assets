@@ -10,6 +10,7 @@ cover:
     alt: 1841 League Statistics
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

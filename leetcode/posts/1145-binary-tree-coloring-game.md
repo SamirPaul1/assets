@@ -10,6 +10,7 @@ cover:
     alt: 1145 Binary Tree Coloring Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

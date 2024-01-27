@@ -10,6 +10,7 @@ cover:
     alt: 0736 Parse Lisp Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

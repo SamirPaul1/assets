@@ -10,6 +10,7 @@ cover:
     alt: 0852 Peak Index in a Mountain Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

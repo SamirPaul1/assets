@@ -10,6 +10,7 @@ cover:
     alt: 0809 Expressive Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

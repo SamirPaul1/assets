@@ -10,6 +10,7 @@ cover:
     alt: 2109 Adding Spaces to a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

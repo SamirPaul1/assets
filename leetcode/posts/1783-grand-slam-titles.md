@@ -10,6 +10,7 @@ cover:
     alt: 1783 Grand Slam Titles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

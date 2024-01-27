@@ -10,6 +10,7 @@ cover:
     alt: 1902 Depth of BST Given Insertion Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0274 H Index
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

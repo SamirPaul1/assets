@@ -10,6 +10,7 @@ cover:
     alt: 1962 Remove Stones to Minimize the Total
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

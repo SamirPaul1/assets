@@ -10,6 +10,7 @@ cover:
     alt: 2518 Number of Great Partitions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

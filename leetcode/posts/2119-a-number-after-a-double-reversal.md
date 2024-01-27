@@ -10,6 +10,7 @@ cover:
     alt: 2119 A Number After a Double Reversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

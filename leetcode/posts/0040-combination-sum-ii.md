@@ -10,6 +10,7 @@ cover:
     alt: 0040 Combination Sum II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

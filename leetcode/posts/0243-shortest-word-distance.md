@@ -10,6 +10,7 @@ cover:
     alt: 0243 Shortest Word Distance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

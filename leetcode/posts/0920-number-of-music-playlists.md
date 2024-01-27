@@ -10,6 +10,7 @@ cover:
     alt: 0920 Number of Music Playlists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0617 Merge Two Binary Trees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

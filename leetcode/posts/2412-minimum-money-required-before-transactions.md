@@ -10,6 +10,7 @@ cover:
     alt: 2412 Minimum Money Required Before Transactions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

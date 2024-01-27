@@ -10,6 +10,7 @@ cover:
     alt: 1290 Convert Binary Number in a Linked List to Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

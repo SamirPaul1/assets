@@ -10,6 +10,7 @@ cover:
     alt: 1615 Maximal Network Rank
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

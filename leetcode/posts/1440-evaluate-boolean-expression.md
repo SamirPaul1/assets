@@ -10,6 +10,7 @@ cover:
     alt: 1440 Evaluate Boolean Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

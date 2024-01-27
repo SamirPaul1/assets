@@ -10,6 +10,7 @@ cover:
     alt: 1228 Missing Number In Arithmetic Progression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

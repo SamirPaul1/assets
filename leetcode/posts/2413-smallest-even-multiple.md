@@ -10,6 +10,7 @@ cover:
     alt: 2413 Smallest Even Multiple
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

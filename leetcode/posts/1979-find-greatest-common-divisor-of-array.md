@@ -10,6 +10,7 @@ cover:
     alt: 1979 Find Greatest Common Divisor of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

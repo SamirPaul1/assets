@@ -10,6 +10,7 @@ cover:
     alt: 0241 Different Ways to Add Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1117 Building H2O
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

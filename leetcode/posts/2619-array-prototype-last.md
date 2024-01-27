@@ -10,6 +10,7 @@ cover:
     alt: 2619 Array Prototype Last
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

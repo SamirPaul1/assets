@@ -10,6 +10,7 @@ cover:
     alt: 0472 Concatenated Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

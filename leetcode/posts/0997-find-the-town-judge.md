@@ -10,6 +10,7 @@ cover:
     alt: 0997 Find the Town Judge
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

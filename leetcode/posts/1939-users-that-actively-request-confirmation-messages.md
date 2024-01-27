@@ -10,6 +10,7 @@ cover:
     alt: 1939 Users That Actively Request Confirmation Messages
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

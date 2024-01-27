@@ -10,6 +10,7 @@ cover:
     alt: 0150 Evaluate Reverse Polish Notation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2665 Counter II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

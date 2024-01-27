@@ -10,6 +10,7 @@ cover:
     alt: 0439 Ternary Expression Parser
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

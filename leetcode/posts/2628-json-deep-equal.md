@@ -10,6 +10,7 @@ cover:
     alt: 2628 JSON Deep Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

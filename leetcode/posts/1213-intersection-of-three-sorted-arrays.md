@@ -10,6 +10,7 @@ cover:
     alt: 1213 Intersection of Three Sorted Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

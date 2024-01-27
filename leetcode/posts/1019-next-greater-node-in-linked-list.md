@@ -10,6 +10,7 @@ cover:
     alt: 1019 Next Greater Node In Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

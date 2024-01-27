@@ -10,6 +10,7 @@ cover:
     alt: 1143 Longest Common Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

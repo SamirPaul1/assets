@@ -10,6 +10,7 @@ cover:
     alt: 2917 Find the K or of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2306 Naming a Company
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

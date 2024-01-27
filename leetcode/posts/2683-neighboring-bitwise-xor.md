@@ -10,6 +10,7 @@ cover:
     alt: 2683 Neighboring Bitwise XOR
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

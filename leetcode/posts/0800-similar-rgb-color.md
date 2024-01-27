@@ -10,6 +10,7 @@ cover:
     alt: 0800 Similar RGB Color
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

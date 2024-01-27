@@ -10,6 +10,7 @@ cover:
     alt: 0211 Design Add and Search Words Data Structure
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1540 Can Convert String in K Moves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

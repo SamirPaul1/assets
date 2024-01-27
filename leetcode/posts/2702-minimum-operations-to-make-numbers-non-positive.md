@@ -10,6 +10,7 @@ cover:
     alt: 2702 Minimum Operations to Make Numbers Non positive
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

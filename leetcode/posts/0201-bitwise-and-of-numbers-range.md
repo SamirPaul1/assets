@@ -10,6 +10,7 @@ cover:
     alt: 0201 Bitwise AND of Numbers Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

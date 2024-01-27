@@ -10,6 +10,7 @@ cover:
     alt: 1175 Prime Arrangements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

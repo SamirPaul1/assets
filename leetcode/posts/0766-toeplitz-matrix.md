@@ -10,6 +10,7 @@ cover:
     alt: 0766 Toeplitz Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1189 Maximum Number of Balloons
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0708 Insert into a Sorted Circular Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

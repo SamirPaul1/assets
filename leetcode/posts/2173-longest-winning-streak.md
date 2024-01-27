@@ -10,6 +10,7 @@ cover:
     alt: 2173 Longest Winning Streak
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

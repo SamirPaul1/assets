@@ -10,6 +10,7 @@ cover:
     alt: 0830 Positions of Large Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

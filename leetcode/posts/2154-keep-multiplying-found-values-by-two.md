@@ -10,6 +10,7 @@ cover:
     alt: 2154 Keep Multiplying Found Values by Two
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

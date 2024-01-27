@@ -10,6 +10,7 @@ cover:
     alt: 0419 Battleships in a Board
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

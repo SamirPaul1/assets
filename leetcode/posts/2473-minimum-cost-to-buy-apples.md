@@ -10,6 +10,7 @@ cover:
     alt: 2473 Minimum Cost to Buy Apples
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

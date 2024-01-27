@@ -10,6 +10,7 @@ cover:
     alt: 1989 Maximum Number of People That Can Be Caught in Tag
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

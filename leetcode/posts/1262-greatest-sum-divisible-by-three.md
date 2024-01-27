@@ -10,6 +10,7 @@ cover:
     alt: 1262 Greatest Sum Divisible by Three
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

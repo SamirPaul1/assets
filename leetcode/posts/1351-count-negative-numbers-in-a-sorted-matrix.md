@@ -10,6 +10,7 @@ cover:
     alt: 1351 Count Negative Numbers in a Sorted Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

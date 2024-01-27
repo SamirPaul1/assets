@@ -10,6 +10,7 @@ cover:
     alt: 1859 Sorting the Sentence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0258 Add Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

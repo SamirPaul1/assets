@@ -10,6 +10,7 @@ cover:
     alt: 1734 Decode XORed Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

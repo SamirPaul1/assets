@@ -10,6 +10,7 @@ cover:
     alt: 0587 Erect the Fence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

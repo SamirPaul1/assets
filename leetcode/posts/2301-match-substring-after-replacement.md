@@ -10,6 +10,7 @@ cover:
     alt: 2301 Match Substring After Replacement
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

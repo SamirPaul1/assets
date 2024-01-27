@@ -10,6 +10,7 @@ cover:
     alt: 1857 Largest Color Value in a Directed Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

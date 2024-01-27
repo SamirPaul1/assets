@@ -10,6 +10,7 @@ cover:
     alt: 1536 Minimum Swaps to Arrange a Binary Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

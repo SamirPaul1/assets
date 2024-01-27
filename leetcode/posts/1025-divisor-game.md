@@ -10,6 +10,7 @@ cover:
     alt: 1025 Divisor Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

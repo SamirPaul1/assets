@@ -10,6 +10,7 @@ cover:
     alt: 0765 Couples Holding Hands
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

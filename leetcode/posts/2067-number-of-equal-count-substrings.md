@@ -10,6 +10,7 @@ cover:
     alt: 2067 Number of Equal Count Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

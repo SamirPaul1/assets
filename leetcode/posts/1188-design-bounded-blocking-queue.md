@@ -10,6 +10,7 @@ cover:
     alt: 1188 Design Bounded Blocking Queue
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

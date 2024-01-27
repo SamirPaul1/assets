@@ -10,6 +10,7 @@ cover:
     alt: 2727 Is Object Empty
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

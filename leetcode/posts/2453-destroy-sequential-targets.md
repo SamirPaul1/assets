@@ -10,6 +10,7 @@ cover:
     alt: 2453 Destroy Sequential Targets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

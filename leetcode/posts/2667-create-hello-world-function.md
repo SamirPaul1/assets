@@ -10,6 +10,7 @@ cover:
     alt: 2667 Create Hello World Function
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

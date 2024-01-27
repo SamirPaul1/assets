@@ -10,6 +10,7 @@ cover:
     alt: 2053 Kth Distinct String in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

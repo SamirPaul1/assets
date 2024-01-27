@@ -10,6 +10,7 @@ cover:
     alt: 2215 Find the Difference of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

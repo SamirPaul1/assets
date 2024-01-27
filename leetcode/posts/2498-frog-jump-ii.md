@@ -10,6 +10,7 @@ cover:
     alt: 2498 Frog Jump II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

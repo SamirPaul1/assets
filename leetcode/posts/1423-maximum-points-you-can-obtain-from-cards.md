@@ -10,6 +10,7 @@ cover:
     alt: 1423 Maximum Points You Can Obtain from Cards
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

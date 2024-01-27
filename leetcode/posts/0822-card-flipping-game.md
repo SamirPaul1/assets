@@ -10,6 +10,7 @@ cover:
     alt: 0822 Card Flipping Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

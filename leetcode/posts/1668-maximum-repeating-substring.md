@@ -10,6 +10,7 @@ cover:
     alt: 1668 Maximum Repeating Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1369 Get the Second Most Recent Activity
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

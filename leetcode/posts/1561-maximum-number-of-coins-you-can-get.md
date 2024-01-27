@@ -10,6 +10,7 @@ cover:
     alt: 1561 Maximum Number of Coins You Can Get
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

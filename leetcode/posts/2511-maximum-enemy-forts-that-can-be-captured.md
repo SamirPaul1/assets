@@ -10,6 +10,7 @@ cover:
     alt: 2511 Maximum Enemy Forts That Can Be Captured
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

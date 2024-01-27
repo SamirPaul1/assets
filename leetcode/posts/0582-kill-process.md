@@ -10,6 +10,7 @@ cover:
     alt: 0582 Kill Process
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

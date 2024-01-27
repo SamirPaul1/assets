@@ -10,6 +10,7 @@ cover:
     alt: 2051 The Category of Each Member in the Store
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

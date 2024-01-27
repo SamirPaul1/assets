@@ -10,6 +10,7 @@ cover:
     alt: 0762 Prime Number of Set Bits in Binary Representation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

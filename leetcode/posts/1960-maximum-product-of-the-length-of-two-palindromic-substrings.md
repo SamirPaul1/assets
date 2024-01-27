@@ -10,6 +10,7 @@ cover:
     alt: 1960 Maximum Product of the Length of Two Palindromic Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0117 Populating Next Right Pointers in Each Node II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0067 Add Binary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

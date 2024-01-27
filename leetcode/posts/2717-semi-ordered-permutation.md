@@ -10,6 +10,7 @@ cover:
     alt: 2717 Semi Ordered Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

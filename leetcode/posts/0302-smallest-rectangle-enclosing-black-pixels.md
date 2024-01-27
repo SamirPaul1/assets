@@ -10,6 +10,7 @@ cover:
     alt: 0302 Smallest Rectangle Enclosing Black Pixels
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

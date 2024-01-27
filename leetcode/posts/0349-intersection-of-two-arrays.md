@@ -10,6 +10,7 @@ cover:
     alt: 0349 Intersection of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

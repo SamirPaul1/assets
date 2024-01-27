@@ -10,6 +10,7 @@ cover:
     alt: 0563 Binary Tree Tilt
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

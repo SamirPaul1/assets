@@ -10,6 +10,7 @@ cover:
     alt: 1757 Recyclable and Low Fat Products
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

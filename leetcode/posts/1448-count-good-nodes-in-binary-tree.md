@@ -10,6 +10,7 @@ cover:
     alt: 1448 Count Good Nodes in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

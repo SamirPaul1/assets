@@ -10,6 +10,7 @@ cover:
     alt: 0369 Plus One Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

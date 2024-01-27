@@ -10,6 +10,7 @@ cover:
     alt: 2357 Make Array Zero by Subtracting Equal Amounts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

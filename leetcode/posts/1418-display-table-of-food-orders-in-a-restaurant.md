@@ -10,6 +10,7 @@ cover:
     alt: 1418 Display Table of Food Orders in a Restaurant
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

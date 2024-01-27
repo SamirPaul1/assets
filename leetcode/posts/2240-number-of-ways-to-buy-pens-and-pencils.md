@@ -10,6 +10,7 @@ cover:
     alt: 2240 Number of Ways to Buy Pens and Pencils
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

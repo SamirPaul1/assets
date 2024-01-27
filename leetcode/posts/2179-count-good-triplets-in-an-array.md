@@ -10,6 +10,7 @@ cover:
     alt: 2179 Count Good Triplets in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

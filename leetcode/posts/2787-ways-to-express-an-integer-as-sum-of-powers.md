@@ -10,6 +10,7 @@ cover:
     alt: 2787 Ways to Express an Integer as Sum of Powers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

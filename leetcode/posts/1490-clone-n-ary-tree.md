@@ -10,6 +10,7 @@ cover:
     alt: 1490 Clone N ary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0174 Dungeon Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

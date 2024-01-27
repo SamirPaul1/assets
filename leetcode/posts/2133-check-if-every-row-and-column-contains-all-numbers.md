@@ -10,6 +10,7 @@ cover:
     alt: 2133 Check if Every Row and Column Contains All Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

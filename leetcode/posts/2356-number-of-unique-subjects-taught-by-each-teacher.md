@@ -10,6 +10,7 @@ cover:
     alt: 2356 Number of Unique Subjects Taught by Each Teacher
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

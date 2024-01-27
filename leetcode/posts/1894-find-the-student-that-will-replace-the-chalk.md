@@ -10,6 +10,7 @@ cover:
     alt: 1894 Find the Student that Will Replace the Chalk
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

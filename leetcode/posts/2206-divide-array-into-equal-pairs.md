@@ -10,6 +10,7 @@ cover:
     alt: 2206 Divide Array Into Equal Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

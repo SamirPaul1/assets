@@ -10,6 +10,7 @@ cover:
     alt: 2524 Maximum Frequency Score of a Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

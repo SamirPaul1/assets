@@ -10,6 +10,7 @@ cover:
     alt: 2384 Largest Palindromic Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

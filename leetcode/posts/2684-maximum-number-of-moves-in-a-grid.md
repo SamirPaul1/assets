@@ -10,6 +10,7 @@ cover:
     alt: 2684 Maximum Number of Moves in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1249 Minimum Remove to Make Valid Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

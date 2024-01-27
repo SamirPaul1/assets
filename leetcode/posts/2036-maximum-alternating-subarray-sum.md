@@ -10,6 +10,7 @@ cover:
     alt: 2036 Maximum Alternating Subarray Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

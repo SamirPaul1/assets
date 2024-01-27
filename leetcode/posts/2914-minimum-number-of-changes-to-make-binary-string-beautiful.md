@@ -10,6 +10,7 @@ cover:
     alt: 2914 Minimum Number of Changes to Make Binary String Beautiful
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

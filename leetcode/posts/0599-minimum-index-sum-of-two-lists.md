@@ -10,6 +10,7 @@ cover:
     alt: 0599 Minimum Index Sum of Two Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

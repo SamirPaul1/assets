@@ -10,6 +10,7 @@ cover:
     alt: 0700 Search in a Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

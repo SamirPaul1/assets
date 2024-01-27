@@ -10,6 +10,7 @@ cover:
     alt: 0756 Pyramid Transition Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

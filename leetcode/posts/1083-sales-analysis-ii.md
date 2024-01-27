@@ -10,6 +10,7 @@ cover:
     alt: 1083 Sales Analysis II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

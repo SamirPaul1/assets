@@ -10,6 +10,7 @@ cover:
     alt: 2534 Time Taken to Cross the Door
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

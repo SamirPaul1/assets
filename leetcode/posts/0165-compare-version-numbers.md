@@ -10,6 +10,7 @@ cover:
     alt: 0165 Compare Version Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

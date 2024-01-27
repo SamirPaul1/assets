@@ -10,6 +10,7 @@ cover:
     alt: 1226 The Dining Philosophers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

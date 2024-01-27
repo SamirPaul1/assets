@@ -10,6 +10,7 @@ cover:
     alt: 2409 Count Days Spent Together
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

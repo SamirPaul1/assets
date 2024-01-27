@@ -10,6 +10,7 @@ cover:
     alt: 1157 Online Majority Element In Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2297 Jump Game VIII
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

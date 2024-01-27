@@ -10,6 +10,7 @@ cover:
     alt: 1376 Time Needed to Inform All Employees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1747 Leetflex Banned Accounts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

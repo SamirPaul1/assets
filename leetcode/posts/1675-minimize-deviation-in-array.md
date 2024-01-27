@@ -10,6 +10,7 @@ cover:
     alt: 1675 Minimize Deviation in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

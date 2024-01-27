@@ -10,6 +10,7 @@ cover:
     alt: 1850 Minimum Adjacent Swaps to Reach the Kth Smallest Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

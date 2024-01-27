@@ -10,6 +10,7 @@ cover:
     alt: 2572 Count the Number of Square Free Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0073 Set Matrix Zeroes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0909 Snakes and Ladders
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

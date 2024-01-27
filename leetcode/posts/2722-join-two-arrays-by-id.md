@@ -10,6 +10,7 @@ cover:
     alt: 2722 Join Two Arrays by ID
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

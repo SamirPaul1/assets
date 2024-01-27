@@ -10,6 +10,7 @@ cover:
     alt: 1611 Minimum One Bit Operations to Make Integers Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

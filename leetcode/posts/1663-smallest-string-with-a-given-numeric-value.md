@@ -10,6 +10,7 @@ cover:
     alt: 1663 Smallest String With A Given Numeric Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

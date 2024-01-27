@@ -10,6 +10,7 @@ cover:
     alt: 2010 The Number of Seniors and Juniors to Join the Company II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1126 Active Businesses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

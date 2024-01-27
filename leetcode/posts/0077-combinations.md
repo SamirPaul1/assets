@@ -10,6 +10,7 @@ cover:
     alt: 0077 Combinations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

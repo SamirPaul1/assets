@@ -10,6 +10,7 @@ cover:
     alt: 2152 Minimum Number of Lines to Cover Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

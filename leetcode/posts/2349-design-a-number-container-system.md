@@ -10,6 +10,7 @@ cover:
     alt: 2349 Design a Number Container System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

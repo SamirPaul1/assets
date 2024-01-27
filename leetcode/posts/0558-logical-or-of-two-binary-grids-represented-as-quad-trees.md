@@ -10,6 +10,7 @@ cover:
     alt: 0558 Logical OR of Two Binary Grids Represented as Quad Trees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

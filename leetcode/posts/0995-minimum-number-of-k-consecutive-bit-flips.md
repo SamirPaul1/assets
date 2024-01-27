@@ -10,6 +10,7 @@ cover:
     alt: 0995 Minimum Number of K Consecutive Bit Flips
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

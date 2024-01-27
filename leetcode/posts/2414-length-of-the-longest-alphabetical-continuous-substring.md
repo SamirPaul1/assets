@@ -10,6 +10,7 @@ cover:
     alt: 2414 Length of the Longest Alphabetical Continuous Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

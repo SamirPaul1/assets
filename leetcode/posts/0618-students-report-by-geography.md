@@ -10,6 +10,7 @@ cover:
     alt: 0618 Students Report By Geography
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

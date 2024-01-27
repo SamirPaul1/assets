@@ -10,6 +10,7 @@ cover:
     alt: 2728 Count Houses in a Circular Street
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

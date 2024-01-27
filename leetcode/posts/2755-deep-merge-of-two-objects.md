@@ -10,6 +10,7 @@ cover:
     alt: 2755 Deep Merge of Two Objects
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

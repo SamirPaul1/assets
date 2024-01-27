@@ -10,6 +10,7 @@ cover:
     alt: 0527 Word Abbreviation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

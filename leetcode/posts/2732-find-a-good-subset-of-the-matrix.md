@@ -10,6 +10,7 @@ cover:
     alt: 2732 Find a Good Subset of the Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

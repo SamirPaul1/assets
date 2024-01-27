@@ -10,6 +10,7 @@ cover:
     alt: 0926 Flip String to Monotone Increasing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

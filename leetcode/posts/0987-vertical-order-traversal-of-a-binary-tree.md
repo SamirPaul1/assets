@@ -10,6 +10,7 @@ cover:
     alt: 0987 Vertical Order Traversal of a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

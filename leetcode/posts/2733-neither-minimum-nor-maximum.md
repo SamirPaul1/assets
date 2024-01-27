@@ -10,6 +10,7 @@ cover:
     alt: 2733 Neither Minimum nor Maximum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

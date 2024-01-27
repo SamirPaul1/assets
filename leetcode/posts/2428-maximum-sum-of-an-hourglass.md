@@ -10,6 +10,7 @@ cover:
     alt: 2428 Maximum Sum of an Hourglass
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

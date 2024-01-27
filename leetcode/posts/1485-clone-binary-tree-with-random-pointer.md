@@ -10,6 +10,7 @@ cover:
     alt: 1485 Clone Binary Tree With Random Pointer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

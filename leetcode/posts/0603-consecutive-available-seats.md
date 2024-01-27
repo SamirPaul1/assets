@@ -10,6 +10,7 @@ cover:
     alt: 0603 Consecutive Available Seats
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

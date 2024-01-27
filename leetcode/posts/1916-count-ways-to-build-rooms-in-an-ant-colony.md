@@ -10,6 +10,7 @@ cover:
     alt: 1916 Count Ways to Build Rooms in an Ant Colony
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

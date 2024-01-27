@@ -10,6 +10,7 @@ cover:
     alt: 2130 Maximum Twin Sum of a Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

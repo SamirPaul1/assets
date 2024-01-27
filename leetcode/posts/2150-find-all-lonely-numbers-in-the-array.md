@@ -10,6 +10,7 @@ cover:
     alt: 2150 Find All Lonely Numbers in the Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

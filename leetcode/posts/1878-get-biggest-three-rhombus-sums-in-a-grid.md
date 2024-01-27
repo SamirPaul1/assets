@@ -10,6 +10,7 @@ cover:
     alt: 1878 Get Biggest Three Rhombus Sums in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

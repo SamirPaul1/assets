@@ -10,6 +10,7 @@ cover:
     alt: 0873 Length of Longest Fibonacci Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

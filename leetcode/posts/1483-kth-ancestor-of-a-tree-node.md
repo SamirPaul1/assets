@@ -10,6 +10,7 @@ cover:
     alt: 1483 Kth Ancestor of a Tree Node
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

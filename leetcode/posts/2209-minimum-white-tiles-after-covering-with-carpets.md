@@ -10,6 +10,7 @@ cover:
     alt: 2209 Minimum White Tiles After Covering With Carpets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

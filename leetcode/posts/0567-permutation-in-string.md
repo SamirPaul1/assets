@@ -10,6 +10,7 @@ cover:
     alt: 0567 Permutation in String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

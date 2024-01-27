@@ -10,6 +10,7 @@ cover:
     alt: 2668 Find Latest Salaries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

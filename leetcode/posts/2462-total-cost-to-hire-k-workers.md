@@ -10,6 +10,7 @@ cover:
     alt: 2462 Total Cost to Hire K Workers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

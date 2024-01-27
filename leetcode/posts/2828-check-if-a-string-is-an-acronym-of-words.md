@@ -10,6 +10,7 @@ cover:
     alt: 2828 Check if a String Is an Acronym of Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

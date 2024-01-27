@@ -10,6 +10,7 @@ cover:
     alt: 2108 Find First Palindromic String in the Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

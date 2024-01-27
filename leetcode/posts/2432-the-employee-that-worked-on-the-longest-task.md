@@ -10,6 +10,7 @@ cover:
     alt: 2432 The Employee That Worked on the Longest Task
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

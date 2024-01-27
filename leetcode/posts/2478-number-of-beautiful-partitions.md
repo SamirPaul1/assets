@@ -10,6 +10,7 @@ cover:
     alt: 2478 Number of Beautiful Partitions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

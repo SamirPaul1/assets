@@ -10,6 +10,7 @@ cover:
     alt: 1106 Parsing A Boolean Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

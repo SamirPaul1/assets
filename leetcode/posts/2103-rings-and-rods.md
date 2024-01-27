@@ -10,6 +10,7 @@ cover:
     alt: 2103 Rings and Rods
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

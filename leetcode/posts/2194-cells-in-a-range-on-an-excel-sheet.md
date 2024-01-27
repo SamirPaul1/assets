@@ -10,6 +10,7 @@ cover:
     alt: 2194 Cells in a Range on an Excel Sheet
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

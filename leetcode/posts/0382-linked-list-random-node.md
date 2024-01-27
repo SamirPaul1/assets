@@ -10,6 +10,7 @@ cover:
     alt: 0382 Linked List Random Node
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

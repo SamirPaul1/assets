@@ -10,6 +10,7 @@ cover:
     alt: 2947 Count Beautiful Substrings I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

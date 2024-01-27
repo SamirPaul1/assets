@@ -10,6 +10,7 @@ cover:
     alt: 1195 Fizz Buzz Multithreaded
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

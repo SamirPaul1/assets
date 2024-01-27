@@ -10,6 +10,7 @@ cover:
     alt: 2486 Append Characters to String to Make Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

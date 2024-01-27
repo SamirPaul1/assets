@@ -10,6 +10,7 @@ cover:
     alt: 1870 Minimum Speed to Arrive on Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

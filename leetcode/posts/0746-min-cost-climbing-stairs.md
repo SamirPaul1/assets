@@ -10,6 +10,7 @@ cover:
     alt: 0746 Min Cost Climbing Stairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

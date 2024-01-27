@@ -10,6 +10,7 @@ cover:
     alt: 1825 Finding MK Average
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

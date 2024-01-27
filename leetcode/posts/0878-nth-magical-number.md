@@ -10,6 +10,7 @@ cover:
     alt: 0878 Nth Magical Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

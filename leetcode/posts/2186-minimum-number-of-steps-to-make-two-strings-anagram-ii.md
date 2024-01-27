@@ -10,6 +10,7 @@ cover:
     alt: 2186 Minimum Number of Steps to Make Two Strings Anagram II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2348 Number of Zero Filled Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

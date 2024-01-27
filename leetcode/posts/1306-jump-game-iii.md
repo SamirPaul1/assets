@@ -10,6 +10,7 @@ cover:
     alt: 1306 Jump Game III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

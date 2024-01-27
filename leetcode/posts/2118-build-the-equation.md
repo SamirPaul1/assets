@@ -10,6 +10,7 @@ cover:
     alt: 2118 Build the Equation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

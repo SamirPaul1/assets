@@ -10,6 +10,7 @@ cover:
     alt: 2099 Find Subsequence of Length K With the Largest Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2447 Number of Subarrays With GCD Equal to K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

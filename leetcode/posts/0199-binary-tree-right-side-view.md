@@ -10,6 +10,7 @@ cover:
     alt: 0199 Binary Tree Right Side View
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

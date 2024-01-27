@@ -10,6 +10,7 @@ cover:
     alt: 1073 Adding Two Negabinary Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

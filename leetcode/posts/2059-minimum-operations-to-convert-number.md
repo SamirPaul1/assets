@@ -10,6 +10,7 @@ cover:
     alt: 2059 Minimum Operations to Convert Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

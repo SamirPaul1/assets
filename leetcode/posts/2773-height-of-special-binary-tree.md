@@ -10,6 +10,7 @@ cover:
     alt: 2773 Height of Special Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

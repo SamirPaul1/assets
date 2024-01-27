@@ -10,6 +10,7 @@ cover:
     alt: 2879 Display the First Three Rows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

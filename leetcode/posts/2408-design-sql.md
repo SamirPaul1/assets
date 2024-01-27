@@ -10,6 +10,7 @@ cover:
     alt: 2408 Design SQL
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

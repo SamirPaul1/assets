@@ -10,6 +10,7 @@ cover:
     alt: 1497 Check If Array Pairs Are Divisible by k
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

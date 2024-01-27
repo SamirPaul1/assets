@@ -10,6 +10,7 @@ cover:
     alt: 2166 Design Bitset
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

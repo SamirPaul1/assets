@@ -10,6 +10,7 @@ cover:
     alt: 2483 Minimum Penalty for a Shop
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

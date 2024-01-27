@@ -10,6 +10,7 @@ cover:
     alt: 2884 Modify Columns
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

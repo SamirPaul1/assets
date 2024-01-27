@@ -10,6 +10,7 @@ cover:
     alt: 2217 Find Palindrome With Fixed Length
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

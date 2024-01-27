@@ -10,6 +10,7 @@ cover:
     alt: 0111 Minimum Depth of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

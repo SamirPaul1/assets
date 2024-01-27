@@ -10,6 +10,7 @@ cover:
     alt: 1605 Find Valid Matrix Given Row and Column Sums
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

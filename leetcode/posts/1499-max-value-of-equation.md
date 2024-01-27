@@ -10,6 +10,7 @@ cover:
     alt: 1499 Max Value of Equation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

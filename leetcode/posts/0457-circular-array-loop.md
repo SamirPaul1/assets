@@ -10,6 +10,7 @@ cover:
     alt: 0457 Circular Array Loop
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

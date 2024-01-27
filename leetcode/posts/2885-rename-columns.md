@@ -10,6 +10,7 @@ cover:
     alt: 2885 Rename Columns
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

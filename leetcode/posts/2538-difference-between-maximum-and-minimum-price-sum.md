@@ -10,6 +10,7 @@ cover:
     alt: 2538 Difference Between Maximum and Minimum Price Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1350 Students With Invalid Departments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1119 Remove Vowels from a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

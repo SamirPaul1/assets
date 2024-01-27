@@ -10,6 +10,7 @@ cover:
     alt: 0390 Elimination Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0200 Number of Islands
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

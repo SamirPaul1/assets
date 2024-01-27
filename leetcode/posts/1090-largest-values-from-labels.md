@@ -10,6 +10,7 @@ cover:
     alt: 1090 Largest Values From Labels
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

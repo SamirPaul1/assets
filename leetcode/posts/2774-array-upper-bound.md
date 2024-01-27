@@ -10,6 +10,7 @@ cover:
     alt: 2774 Array Upper Bound
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

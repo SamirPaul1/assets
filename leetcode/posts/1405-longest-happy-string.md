@@ -10,6 +10,7 @@ cover:
     alt: 1405 Longest Happy String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

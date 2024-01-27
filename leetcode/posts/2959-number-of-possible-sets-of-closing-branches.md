@@ -10,6 +10,7 @@ cover:
     alt: 2959 Number of Possible Sets of Closing Branches
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

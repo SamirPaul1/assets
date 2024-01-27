@@ -10,6 +10,7 @@ cover:
     alt: 2028 Find Missing Observations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

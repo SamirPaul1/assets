@@ -10,6 +10,7 @@ cover:
     alt: 1441 Build an Array With Stack Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

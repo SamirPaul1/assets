@@ -10,6 +10,7 @@ cover:
     alt: 1539 Kth Missing Positive Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

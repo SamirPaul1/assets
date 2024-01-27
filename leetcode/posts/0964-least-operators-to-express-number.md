@@ -10,6 +10,7 @@ cover:
     alt: 0964 Least Operators to Express Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

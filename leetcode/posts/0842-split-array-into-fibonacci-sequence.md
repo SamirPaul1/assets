@@ -10,6 +10,7 @@ cover:
     alt: 0842 Split Array into Fibonacci Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

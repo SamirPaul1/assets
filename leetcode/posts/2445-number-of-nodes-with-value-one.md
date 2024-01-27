@@ -10,6 +10,7 @@ cover:
     alt: 2445 Number of Nodes With Value One
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

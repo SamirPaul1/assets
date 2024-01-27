@@ -10,6 +10,7 @@ cover:
     alt: 1309 Decrypt String from Alphabet to Integer Mapping
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

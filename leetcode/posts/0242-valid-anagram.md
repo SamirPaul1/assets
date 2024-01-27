@@ -10,6 +10,7 @@ cover:
     alt: 0242 Valid Anagram
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

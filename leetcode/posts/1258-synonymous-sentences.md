@@ -10,6 +10,7 @@ cover:
     alt: 1258 Synonymous Sentences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

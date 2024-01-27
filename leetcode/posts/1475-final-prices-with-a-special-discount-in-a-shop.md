@@ -10,6 +10,7 @@ cover:
     alt: 1475 Final Prices With a Special Discount in a Shop
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

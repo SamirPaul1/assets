@@ -10,6 +10,7 @@ cover:
     alt: 0637 Average of Levels in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

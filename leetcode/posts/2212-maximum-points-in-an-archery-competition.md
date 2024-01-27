@@ -10,6 +10,7 @@ cover:
     alt: 2212 Maximum Points in an Archery Competition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

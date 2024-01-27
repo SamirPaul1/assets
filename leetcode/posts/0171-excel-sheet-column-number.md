@@ -10,6 +10,7 @@ cover:
     alt: 0171 Excel Sheet Column Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1125 Smallest Sufficient Team
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

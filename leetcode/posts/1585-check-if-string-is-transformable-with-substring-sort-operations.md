@@ -10,6 +10,7 @@ cover:
     alt: 1585 Check If String Is Transformable With Substring Sort Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

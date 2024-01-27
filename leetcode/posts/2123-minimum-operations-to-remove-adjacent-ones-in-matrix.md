@@ -10,6 +10,7 @@ cover:
     alt: 2123 Minimum Operations to Remove Adjacent Ones in Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

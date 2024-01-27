@@ -10,6 +10,7 @@ cover:
     alt: 3012 Minimize Length of Array Using Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

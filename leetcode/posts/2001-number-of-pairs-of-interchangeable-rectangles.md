@@ -10,6 +10,7 @@ cover:
     alt: 2001 Number of Pairs of Interchangeable Rectangles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1710 Maximum Units on a Truck
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

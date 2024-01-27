@@ -10,6 +10,7 @@ cover:
     alt: 2311 Longest Binary Subsequence Less Than or Equal to K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0819 Most Common Word
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

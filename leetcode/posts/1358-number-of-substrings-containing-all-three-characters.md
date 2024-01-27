@@ -10,6 +10,7 @@ cover:
     alt: 1358 Number of Substrings Containing All Three Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

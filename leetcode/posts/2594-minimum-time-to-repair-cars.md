@@ -10,6 +10,7 @@ cover:
     alt: 2594 Minimum Time to Repair Cars
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

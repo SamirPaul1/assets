@@ -10,6 +10,7 @@ cover:
     alt: 2551 Put Marbles in Bags
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

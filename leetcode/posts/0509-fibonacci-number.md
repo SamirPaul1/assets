@@ -10,6 +10,7 @@ cover:
     alt: 0509 Fibonacci Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

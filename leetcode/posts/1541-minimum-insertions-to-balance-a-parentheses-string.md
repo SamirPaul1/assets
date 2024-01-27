@@ -10,6 +10,7 @@ cover:
     alt: 1541 Minimum Insertions to Balance a Parentheses String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0715 Range Module
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

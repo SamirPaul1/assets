@@ -10,6 +10,7 @@ cover:
     alt: 2954 Count the Number of Infection Sequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

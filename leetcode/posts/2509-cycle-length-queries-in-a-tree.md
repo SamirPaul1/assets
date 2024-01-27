@@ -10,6 +10,7 @@ cover:
     alt: 2509 Cycle Length Queries in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2768 Number of Black Blocks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

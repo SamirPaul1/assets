@@ -10,6 +10,7 @@ cover:
     alt: 1197 Minimum Knight Moves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

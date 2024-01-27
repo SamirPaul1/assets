@@ -10,6 +10,7 @@ cover:
     alt: 2692 Make Object Immutable
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

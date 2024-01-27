@@ -10,6 +10,7 @@ cover:
     alt: 0548 Split Array with Equal Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1520 Maximum Number of Non Overlapping Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0466 Count The Repetitions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

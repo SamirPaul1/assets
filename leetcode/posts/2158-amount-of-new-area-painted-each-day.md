@@ -10,6 +10,7 @@ cover:
     alt: 2158 Amount of New Area Painted Each Day
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

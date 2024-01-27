@@ -10,6 +10,7 @@ cover:
     alt: 0943 Find the Shortest Superstring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

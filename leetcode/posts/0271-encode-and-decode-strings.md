@@ -10,6 +10,7 @@ cover:
     alt: 0271 Encode and Decode Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2899 Last Visited Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

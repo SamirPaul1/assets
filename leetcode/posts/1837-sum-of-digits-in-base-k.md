@@ -10,6 +10,7 @@ cover:
     alt: 1837 Sum of Digits in Base K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

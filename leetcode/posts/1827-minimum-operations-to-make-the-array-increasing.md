@@ -10,6 +10,7 @@ cover:
     alt: 1827 Minimum Operations to Make the Array Increasing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

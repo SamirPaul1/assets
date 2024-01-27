@@ -10,6 +10,7 @@ cover:
     alt: 0654 Maximum Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

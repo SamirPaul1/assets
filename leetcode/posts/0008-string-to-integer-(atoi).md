@@ -10,6 +10,7 @@ cover:
     alt: 0008 String to Integer (atoi)
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

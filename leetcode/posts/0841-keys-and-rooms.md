@@ -10,6 +10,7 @@ cover:
     alt: 0841 Keys and Rooms
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

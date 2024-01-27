@@ -10,6 +10,7 @@ cover:
     alt: 1911 Maximum Alternating Subsequence Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

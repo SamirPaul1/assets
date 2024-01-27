@@ -10,6 +10,7 @@ cover:
     alt: 0071 Simplify Path
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1845 Seat Reservation Manager
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

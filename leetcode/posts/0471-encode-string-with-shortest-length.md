@@ -10,6 +10,7 @@ cover:
     alt: 0471 Encode String with Shortest Length
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2801 Count Stepping Numbers in Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

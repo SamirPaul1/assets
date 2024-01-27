@@ -10,6 +10,7 @@ cover:
     alt: 2501 Longest Square Streak in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

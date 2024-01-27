@@ -10,6 +10,7 @@ cover:
     alt: 2214 Minimum Health to Beat Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

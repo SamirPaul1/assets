@@ -10,6 +10,7 @@ cover:
     alt: 0474 Ones and Zeroes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

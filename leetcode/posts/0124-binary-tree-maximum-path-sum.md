@@ -10,6 +10,7 @@ cover:
     alt: 0124 Binary Tree Maximum Path Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

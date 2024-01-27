@@ -10,6 +10,7 @@ cover:
     alt: 2709 Greatest Common Divisor Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

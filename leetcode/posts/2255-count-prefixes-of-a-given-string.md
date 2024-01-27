@@ -10,6 +10,7 @@ cover:
     alt: 2255 Count Prefixes of a Given String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

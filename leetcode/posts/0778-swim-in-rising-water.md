@@ -10,6 +10,7 @@ cover:
     alt: 0778 Swim in Rising Water
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2031 Count Subarrays With More Ones Than Zeros
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

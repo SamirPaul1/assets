@@ -10,6 +10,7 @@ cover:
     alt: 2707 Extra Characters in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

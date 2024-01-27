@@ -10,6 +10,7 @@ cover:
     alt: 0838 Push Dominoes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

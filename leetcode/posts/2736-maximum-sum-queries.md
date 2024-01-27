@@ -10,6 +10,7 @@ cover:
     alt: 2736 Maximum Sum Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

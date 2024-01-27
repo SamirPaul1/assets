@@ -10,6 +10,7 @@ cover:
     alt: 1735 Count Ways to Make Array With Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

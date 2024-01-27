@@ -10,6 +10,7 @@ cover:
     alt: 0462 Minimum Moves to Equal Array Elements II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

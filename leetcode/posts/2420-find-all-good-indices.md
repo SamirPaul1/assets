@@ -10,6 +10,7 @@ cover:
     alt: 2420 Find All Good Indices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

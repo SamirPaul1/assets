@@ -10,6 +10,7 @@ cover:
     alt: 0458 Poor Pigs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

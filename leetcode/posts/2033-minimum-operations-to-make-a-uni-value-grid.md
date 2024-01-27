@@ -10,6 +10,7 @@ cover:
     alt: 2033 Minimum Operations to Make a Uni Value Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

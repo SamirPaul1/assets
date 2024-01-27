@@ -10,6 +10,7 @@ cover:
     alt: 1714 Sum Of Special Evenly Spaced Elements In Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

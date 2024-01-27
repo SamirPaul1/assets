@@ -10,6 +10,7 @@ cover:
     alt: 0030 Substring with Concatenation of All Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

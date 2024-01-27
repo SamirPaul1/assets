@@ -10,6 +10,7 @@ cover:
     alt: 2185 Counting Words With a Given Prefix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

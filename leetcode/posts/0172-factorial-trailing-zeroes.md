@@ -10,6 +10,7 @@ cover:
     alt: 0172 Factorial Trailing Zeroes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1968 Array With Elements Not Equal to Average of Neighbors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

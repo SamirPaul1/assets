@@ -10,6 +10,7 @@ cover:
     alt: 1868 Product of Two Run Length Encoded Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

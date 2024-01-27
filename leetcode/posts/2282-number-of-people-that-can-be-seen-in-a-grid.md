@@ -10,6 +10,7 @@ cover:
     alt: 2282 Number of People That Can Be Seen in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

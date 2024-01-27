@@ -10,6 +10,7 @@ cover:
     alt: 2436 Minimum Split Into Subarrays With GCD Greater Than One
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

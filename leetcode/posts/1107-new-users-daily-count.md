@@ -10,6 +10,7 @@ cover:
     alt: 1107 New Users Daily Count
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

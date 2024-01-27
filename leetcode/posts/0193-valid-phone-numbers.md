@@ -10,6 +10,7 @@ cover:
     alt: 0193 Valid Phone Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

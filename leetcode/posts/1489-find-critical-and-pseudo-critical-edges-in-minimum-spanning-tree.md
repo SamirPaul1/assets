@@ -10,6 +10,7 @@ cover:
     alt: 1489 Find Critical and Pseudo Critical Edges in Minimum Spanning Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

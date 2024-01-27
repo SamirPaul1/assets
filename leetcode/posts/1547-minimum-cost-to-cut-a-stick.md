@@ -10,6 +10,7 @@ cover:
     alt: 1547 Minimum Cost to Cut a Stick
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

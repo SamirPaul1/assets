@@ -10,6 +10,7 @@ cover:
     alt: 2339 All the Matches of the League
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

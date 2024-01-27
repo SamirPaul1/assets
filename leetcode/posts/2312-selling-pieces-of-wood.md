@@ -10,6 +10,7 @@ cover:
     alt: 2312 Selling Pieces of Wood
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

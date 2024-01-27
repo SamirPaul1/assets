@@ -10,6 +10,7 @@ cover:
     alt: 0741 Cherry Pickup
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

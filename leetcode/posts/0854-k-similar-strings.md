@@ -10,6 +10,7 @@ cover:
     alt: 0854 K Similar Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

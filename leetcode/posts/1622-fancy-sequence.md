@@ -10,6 +10,7 @@ cover:
     alt: 1622 Fancy Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

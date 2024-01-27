@@ -10,6 +10,7 @@ cover:
     alt: 2920 Maximum Points After Collecting Coins From All Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

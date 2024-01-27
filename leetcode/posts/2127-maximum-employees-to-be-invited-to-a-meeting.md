@@ -10,6 +10,7 @@ cover:
     alt: 2127 Maximum Employees to Be Invited to a Meeting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

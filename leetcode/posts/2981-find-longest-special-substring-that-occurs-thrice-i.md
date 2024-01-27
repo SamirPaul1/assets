@@ -10,6 +10,7 @@ cover:
     alt: 2981 Find Longest Special Substring That Occurs Thrice I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1660 Correct a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

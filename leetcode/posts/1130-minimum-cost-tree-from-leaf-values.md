@@ -10,6 +10,7 @@ cover:
     alt: 1130 Minimum Cost Tree From Leaf Values
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2557 Maximum Number of Integers to Choose From a Range II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

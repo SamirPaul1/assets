@@ -10,6 +10,7 @@ cover:
     alt: 0773 Sliding Puzzle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

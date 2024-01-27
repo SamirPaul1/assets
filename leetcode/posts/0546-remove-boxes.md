@@ -10,6 +10,7 @@ cover:
     alt: 0546 Remove Boxes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1128 Number of Equivalent Domino Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

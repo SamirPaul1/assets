@@ -10,6 +10,7 @@ cover:
     alt: 2637 Promise Time Limit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

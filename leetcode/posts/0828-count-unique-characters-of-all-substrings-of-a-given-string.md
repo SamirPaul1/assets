@@ -10,6 +10,7 @@ cover:
     alt: 0828 Count Unique Characters of All Substrings of a Given String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

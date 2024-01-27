@@ -10,6 +10,7 @@ cover:
     alt: 1689 Partitioning Into Minimum Number Of Deci Binary Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

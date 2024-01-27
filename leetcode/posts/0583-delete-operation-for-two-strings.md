@@ -10,6 +10,7 @@ cover:
     alt: 0583 Delete Operation for Two Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

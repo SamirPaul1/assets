@@ -10,6 +10,7 @@ cover:
     alt: 2874 Maximum Value of an Ordered Triplet II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

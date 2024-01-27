@@ -10,6 +10,7 @@ cover:
     alt: 0342 Power of Four
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

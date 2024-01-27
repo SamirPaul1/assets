@@ -10,6 +10,7 @@ cover:
     alt: 0823 Binary Trees With Factors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

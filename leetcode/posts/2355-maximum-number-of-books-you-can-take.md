@@ -10,6 +10,7 @@ cover:
     alt: 2355 Maximum Number of Books You Can Take
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

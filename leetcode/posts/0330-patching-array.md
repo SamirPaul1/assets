@@ -10,6 +10,7 @@ cover:
     alt: 0330 Patching Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

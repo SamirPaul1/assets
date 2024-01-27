@@ -10,6 +10,7 @@ cover:
     alt: 1435 Create a Session Bar Chart
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

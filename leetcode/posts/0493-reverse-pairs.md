@@ -10,6 +10,7 @@ cover:
     alt: 0493 Reverse Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

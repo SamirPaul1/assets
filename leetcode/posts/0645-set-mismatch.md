@@ -10,6 +10,7 @@ cover:
     alt: 0645 Set Mismatch
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

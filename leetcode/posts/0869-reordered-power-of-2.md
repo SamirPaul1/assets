@@ -10,6 +10,7 @@ cover:
     alt: 0869 Reordered Power of 2
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

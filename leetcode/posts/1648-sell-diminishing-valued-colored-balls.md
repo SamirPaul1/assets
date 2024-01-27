@@ -10,6 +10,7 @@ cover:
     alt: 1648 Sell Diminishing Valued Colored Balls
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

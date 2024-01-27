@@ -10,6 +10,7 @@ cover:
     alt: 2431 Maximize Total Tastiness of Purchased Fruits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1778 Shortest Path in a Hidden Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

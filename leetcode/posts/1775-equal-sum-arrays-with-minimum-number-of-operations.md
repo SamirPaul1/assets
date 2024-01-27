@@ -10,6 +10,7 @@ cover:
     alt: 1775 Equal Sum Arrays With Minimum Number of Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

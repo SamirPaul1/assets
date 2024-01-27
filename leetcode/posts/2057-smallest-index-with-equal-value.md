@@ -10,6 +10,7 @@ cover:
     alt: 2057 Smallest Index With Equal Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

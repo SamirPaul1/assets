@@ -10,6 +10,7 @@ cover:
     alt: 2677 Chunk Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

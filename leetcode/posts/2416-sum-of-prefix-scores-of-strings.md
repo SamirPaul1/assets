@@ -10,6 +10,7 @@ cover:
     alt: 2416 Sum of Prefix Scores of Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

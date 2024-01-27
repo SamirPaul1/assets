@@ -10,6 +10,7 @@ cover:
     alt: 0962 Maximum Width Ramp
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

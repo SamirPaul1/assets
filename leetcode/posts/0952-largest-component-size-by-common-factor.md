@@ -10,6 +10,7 @@ cover:
     alt: 0952 Largest Component Size by Common Factor
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

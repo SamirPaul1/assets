@@ -10,6 +10,7 @@ cover:
     alt: 2514 Count Anagrams
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

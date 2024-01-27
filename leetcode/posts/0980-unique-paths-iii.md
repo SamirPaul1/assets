@@ -10,6 +10,7 @@ cover:
     alt: 0980 Unique Paths III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

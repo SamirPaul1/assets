@@ -10,6 +10,7 @@ cover:
     alt: 1432 Max Difference You Can Get From Changing an Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

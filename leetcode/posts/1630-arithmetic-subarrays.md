@@ -10,6 +10,7 @@ cover:
     alt: 1630 Arithmetic Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

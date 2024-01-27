@@ -10,6 +10,7 @@ cover:
     alt: 0735 Asteroid Collision
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

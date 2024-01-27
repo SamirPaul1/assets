@@ -10,6 +10,7 @@ cover:
     alt: 2889 Reshape Data Pivot
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

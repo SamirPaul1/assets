@@ -10,6 +10,7 @@ cover:
     alt: 0649 Dota2 Senate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

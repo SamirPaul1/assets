@@ -10,6 +10,7 @@ cover:
     alt: 2054 Two Best Non Overlapping Events
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

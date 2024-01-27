@@ -10,6 +10,7 @@ cover:
     alt: 2228 Users With Two Purchases Within Seven Days
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2104 Sum of Subarray Ranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

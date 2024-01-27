@@ -10,6 +10,7 @@ cover:
     alt: 0411 Minimum Unique Word Abbreviation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

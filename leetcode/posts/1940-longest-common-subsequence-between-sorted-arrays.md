@@ -10,6 +10,7 @@ cover:
     alt: 1940 Longest Common Subsequence Between Sorted Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

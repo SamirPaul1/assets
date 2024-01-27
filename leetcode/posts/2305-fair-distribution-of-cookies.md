@@ -10,6 +10,7 @@ cover:
     alt: 2305 Fair Distribution of Cookies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

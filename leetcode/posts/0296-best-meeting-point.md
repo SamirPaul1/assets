@@ -10,6 +10,7 @@ cover:
     alt: 0296 Best Meeting Point
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

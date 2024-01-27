@@ -10,6 +10,7 @@ cover:
     alt: 0421 Maximum XOR of Two Numbers in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

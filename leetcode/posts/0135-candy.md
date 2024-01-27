@@ -10,6 +10,7 @@ cover:
     alt: 0135 Candy
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

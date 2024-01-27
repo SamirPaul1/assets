@@ -10,6 +10,7 @@ cover:
     alt: 0346 Moving Average from Data Stream
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

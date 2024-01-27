@@ -10,6 +10,7 @@ cover:
     alt: 0104 Maximum Depth of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

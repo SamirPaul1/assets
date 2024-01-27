@@ -10,6 +10,7 @@ cover:
     alt: 2391 Minimum Amount of Time to Collect Garbage
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

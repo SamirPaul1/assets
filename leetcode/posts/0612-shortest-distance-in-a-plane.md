@@ -10,6 +10,7 @@ cover:
     alt: 0612 Shortest Distance in a Plane
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

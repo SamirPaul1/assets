@@ -10,6 +10,7 @@ cover:
     alt: 2808 Minimum Seconds to Equalize a Circular Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1390 Four Divisors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

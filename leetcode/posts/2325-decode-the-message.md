@@ -10,6 +10,7 @@ cover:
     alt: 2325 Decode the Message
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

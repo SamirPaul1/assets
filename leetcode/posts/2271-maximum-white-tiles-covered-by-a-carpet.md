@@ -10,6 +10,7 @@ cover:
     alt: 2271 Maximum White Tiles Covered by a Carpet
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

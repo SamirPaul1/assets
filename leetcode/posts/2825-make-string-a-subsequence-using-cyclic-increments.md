@@ -10,6 +10,7 @@ cover:
     alt: 2825 Make String a Subsequence Using Cyclic Increments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

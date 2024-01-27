@@ -10,6 +10,7 @@ cover:
     alt: 2990 Loan Types
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

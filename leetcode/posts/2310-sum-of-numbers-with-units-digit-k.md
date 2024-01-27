@@ -10,6 +10,7 @@ cover:
     alt: 2310 Sum of Numbers With Units Digit K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

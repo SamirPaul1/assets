@@ -10,6 +10,7 @@ cover:
     alt: 0653 Two Sum IV   Input is a BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

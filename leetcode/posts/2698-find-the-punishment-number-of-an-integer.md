@@ -10,6 +10,7 @@ cover:
     alt: 2698 Find the Punishment Number of an Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1792 Maximum Average Pass Ratio
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

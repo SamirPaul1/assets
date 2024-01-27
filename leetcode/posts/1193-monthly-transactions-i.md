@@ -10,6 +10,7 @@ cover:
     alt: 1193 Monthly Transactions I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

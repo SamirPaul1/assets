@@ -10,6 +10,7 @@ cover:
     alt: 2504 Concatenate the Name and the Profession
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

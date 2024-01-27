@@ -10,6 +10,7 @@ cover:
     alt: 2961 Double Modular Exponentiation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2443 Sum of Number and Its Reverse
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

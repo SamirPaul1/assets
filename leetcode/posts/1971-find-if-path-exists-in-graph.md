@@ -10,6 +10,7 @@ cover:
     alt: 1971 Find if Path Exists in Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

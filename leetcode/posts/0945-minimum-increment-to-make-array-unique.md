@@ -10,6 +10,7 @@ cover:
     alt: 0945 Minimum Increment to Make Array Unique
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

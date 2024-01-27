@@ -10,6 +10,7 @@ cover:
     alt: 2142 The Number of Passengers in Each Bus I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

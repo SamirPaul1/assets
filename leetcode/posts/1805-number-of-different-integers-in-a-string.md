@@ -10,6 +10,7 @@ cover:
     alt: 1805 Number of Different Integers in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

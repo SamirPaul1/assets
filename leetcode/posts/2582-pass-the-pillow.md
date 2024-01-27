@@ -10,6 +10,7 @@ cover:
     alt: 2582 Pass the Pillow
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2335 Minimum Amount of Time to Fill Cups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

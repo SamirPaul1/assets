@@ -10,6 +10,7 @@ cover:
     alt: 1433 Check If a String Can Break Another String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

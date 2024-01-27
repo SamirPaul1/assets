@@ -10,6 +10,7 @@ cover:
     alt: 1104 Path In Zigzag Labelled Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

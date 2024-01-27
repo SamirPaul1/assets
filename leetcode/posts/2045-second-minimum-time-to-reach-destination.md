@@ -10,6 +10,7 @@ cover:
     alt: 2045 Second Minimum Time to Reach Destination
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

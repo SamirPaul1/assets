@@ -10,6 +10,7 @@ cover:
     alt: 2944 Minimum Number of Coins for Fruits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

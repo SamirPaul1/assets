@@ -10,6 +10,7 @@ cover:
     alt: 2725 Interval Cancellation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2182 Construct String With Repeat Limit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

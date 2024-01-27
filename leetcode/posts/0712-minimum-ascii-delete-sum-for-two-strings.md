@@ -10,6 +10,7 @@ cover:
     alt: 0712 Minimum ASCII Delete Sum for Two Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

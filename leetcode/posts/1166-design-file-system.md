@@ -10,6 +10,7 @@ cover:
     alt: 1166 Design File System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

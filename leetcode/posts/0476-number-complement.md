@@ -10,6 +10,7 @@ cover:
     alt: 0476 Number Complement
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

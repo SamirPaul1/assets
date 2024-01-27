@@ -10,6 +10,7 @@ cover:
     alt: 2172 Maximum AND Sum of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

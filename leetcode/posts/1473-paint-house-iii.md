@@ -10,6 +10,7 @@ cover:
     alt: 1473 Paint House III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

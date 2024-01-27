@@ -10,6 +10,7 @@ cover:
     alt: 0075 Sort Colors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

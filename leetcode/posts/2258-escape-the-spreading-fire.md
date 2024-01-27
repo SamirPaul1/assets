@@ -10,6 +10,7 @@ cover:
     alt: 2258 Escape the Spreading Fire
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

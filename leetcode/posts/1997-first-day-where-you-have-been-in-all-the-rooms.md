@@ -10,6 +10,7 @@ cover:
     alt: 1997 First Day Where You Have Been in All the Rooms
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

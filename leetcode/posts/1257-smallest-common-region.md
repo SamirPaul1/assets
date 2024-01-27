@@ -10,6 +10,7 @@ cover:
     alt: 1257 Smallest Common Region
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

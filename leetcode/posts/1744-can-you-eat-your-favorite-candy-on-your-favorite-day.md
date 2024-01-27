@@ -10,6 +10,7 @@ cover:
     alt: 1744 Can You Eat Your Favorite Candy on Your Favorite Day
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

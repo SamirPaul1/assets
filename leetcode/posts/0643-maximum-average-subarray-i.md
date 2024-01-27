@@ -10,6 +10,7 @@ cover:
     alt: 0643 Maximum Average Subarray I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

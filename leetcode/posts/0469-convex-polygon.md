@@ -10,6 +10,7 @@ cover:
     alt: 0469 Convex Polygon
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

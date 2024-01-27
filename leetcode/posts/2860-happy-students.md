@@ -10,6 +10,7 @@ cover:
     alt: 2860 Happy Students
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

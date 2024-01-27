@@ -10,6 +10,7 @@ cover:
     alt: 1635 Hopper Company Queries I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

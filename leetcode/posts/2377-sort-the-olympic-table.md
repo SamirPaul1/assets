@@ -10,6 +10,7 @@ cover:
     alt: 2377 Sort the Olympic Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

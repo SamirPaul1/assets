@@ -10,6 +10,7 @@ cover:
     alt: 2540 Minimum Common Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

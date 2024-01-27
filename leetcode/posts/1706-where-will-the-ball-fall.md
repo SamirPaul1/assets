@@ -10,6 +10,7 @@ cover:
     alt: 1706 Where Will the Ball Fall
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

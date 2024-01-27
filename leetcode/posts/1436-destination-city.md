@@ -10,6 +10,7 @@ cover:
     alt: 1436 Destination City
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

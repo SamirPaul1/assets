@@ -10,6 +10,7 @@ cover:
     alt: 0564 Find the Closest Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

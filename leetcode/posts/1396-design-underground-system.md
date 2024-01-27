@@ -10,6 +10,7 @@ cover:
     alt: 1396 Design Underground System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

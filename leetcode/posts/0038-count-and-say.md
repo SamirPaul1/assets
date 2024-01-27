@@ -10,6 +10,7 @@ cover:
     alt: 0038 Count and Say
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

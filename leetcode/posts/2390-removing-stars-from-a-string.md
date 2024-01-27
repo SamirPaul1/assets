@@ -10,6 +10,7 @@ cover:
     alt: 2390 Removing Stars From a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

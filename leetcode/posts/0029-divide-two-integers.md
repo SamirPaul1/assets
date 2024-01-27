@@ -10,6 +10,7 @@ cover:
     alt: 0029 Divide Two Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

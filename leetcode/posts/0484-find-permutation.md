@@ -10,6 +10,7 @@ cover:
     alt: 0484 Find Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

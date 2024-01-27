@@ -10,6 +10,7 @@ cover:
     alt: 1711 Count Good Meals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

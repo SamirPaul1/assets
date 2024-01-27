@@ -10,6 +10,7 @@ cover:
     alt: 1639 Number of Ways to Form a Target String Given a Dictionary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

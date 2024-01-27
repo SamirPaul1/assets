@@ -10,6 +10,7 @@ cover:
     alt: 0299 Bulls and Cows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

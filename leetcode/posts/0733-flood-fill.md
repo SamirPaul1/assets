@@ -10,6 +10,7 @@ cover:
     alt: 0733 Flood Fill
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

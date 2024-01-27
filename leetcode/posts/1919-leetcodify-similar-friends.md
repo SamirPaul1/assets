@@ -10,6 +10,7 @@ cover:
     alt: 1919 Leetcodify Similar Friends
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1468 Calculate Salaries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

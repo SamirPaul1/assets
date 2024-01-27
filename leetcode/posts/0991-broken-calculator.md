@@ -10,6 +10,7 @@ cover:
     alt: 0991 Broken Calculator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

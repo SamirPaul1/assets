@@ -10,6 +10,7 @@ cover:
     alt: 1818 Minimum Absolute Sum Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

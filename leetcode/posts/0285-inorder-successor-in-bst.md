@@ -10,6 +10,7 @@ cover:
     alt: 0285 Inorder Successor in BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0426 Convert Binary Search Tree to Sorted Doubly Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0619 Biggest Single Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

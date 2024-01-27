@@ -10,6 +10,7 @@ cover:
     alt: 2972 Count the Number of Incremovable Subarrays II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

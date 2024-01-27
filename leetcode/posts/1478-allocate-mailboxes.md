@@ -10,6 +10,7 @@ cover:
     alt: 1478 Allocate Mailboxes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

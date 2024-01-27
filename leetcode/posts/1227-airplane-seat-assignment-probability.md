@@ -10,6 +10,7 @@ cover:
     alt: 1227 Airplane Seat Assignment Probability
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0022 Generate Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

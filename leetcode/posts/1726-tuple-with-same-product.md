@@ -10,6 +10,7 @@ cover:
     alt: 1726 Tuple with Same Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

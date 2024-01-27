@@ -10,6 +10,7 @@ cover:
     alt: 1072 Flip Columns For Maximum Number of Equal Rows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

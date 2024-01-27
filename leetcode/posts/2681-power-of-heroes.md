@@ -10,6 +10,7 @@ cover:
     alt: 2681 Power of Heroes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

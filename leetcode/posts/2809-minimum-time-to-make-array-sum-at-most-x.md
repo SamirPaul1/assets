@@ -10,6 +10,7 @@ cover:
     alt: 2809 Minimum Time to Make Array Sum At Most x
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

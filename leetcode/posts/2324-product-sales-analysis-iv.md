@@ -10,6 +10,7 @@ cover:
     alt: 2324 Product Sales Analysis IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

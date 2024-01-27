@@ -10,6 +10,7 @@ cover:
     alt: 1240 Tiling a Rectangle with the Fewest Squares
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

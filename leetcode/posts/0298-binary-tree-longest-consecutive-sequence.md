@@ -10,6 +10,7 @@ cover:
     alt: 0298 Binary Tree Longest Consecutive Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2075 Decode the Slanted Ciphertext
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

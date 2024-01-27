@@ -10,6 +10,7 @@ cover:
     alt: 2395 Find Subarrays With Equal Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

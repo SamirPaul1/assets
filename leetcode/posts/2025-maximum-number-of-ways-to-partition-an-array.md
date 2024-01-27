@@ -10,6 +10,7 @@ cover:
     alt: 2025 Maximum Number of Ways to Partition an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

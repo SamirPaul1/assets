@@ -10,6 +10,7 @@ cover:
     alt: 1223 Dice Roll Simulation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

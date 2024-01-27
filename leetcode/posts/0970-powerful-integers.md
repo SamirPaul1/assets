@@ -10,6 +10,7 @@ cover:
     alt: 0970 Powerful Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

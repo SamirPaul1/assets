@@ -10,6 +10,7 @@ cover:
     alt: 2688 Find Active Users
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

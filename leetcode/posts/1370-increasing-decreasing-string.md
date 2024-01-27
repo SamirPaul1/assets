@@ -10,6 +10,7 @@ cover:
     alt: 1370 Increasing Decreasing String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1389 Create Target Array in the Given Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

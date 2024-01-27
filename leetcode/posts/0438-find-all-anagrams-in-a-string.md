@@ -10,6 +10,7 @@ cover:
     alt: 0438 Find All Anagrams in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

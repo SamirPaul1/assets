@@ -10,6 +10,7 @@ cover:
     alt: 0317 Shortest Distance from All Buildings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2529 Maximum Count of Positive Integer and Negative Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2125 Number of Laser Beams in a Bank
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

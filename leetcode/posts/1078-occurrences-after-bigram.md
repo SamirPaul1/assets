@@ -10,6 +10,7 @@ cover:
     alt: 1078 Occurrences After Bigram
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

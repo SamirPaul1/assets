@@ -10,6 +10,7 @@ cover:
     alt: 2187 Minimum Time to Complete Trips
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

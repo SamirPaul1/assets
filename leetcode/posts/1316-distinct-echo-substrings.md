@@ -10,6 +10,7 @@ cover:
     alt: 1316 Distinct Echo Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

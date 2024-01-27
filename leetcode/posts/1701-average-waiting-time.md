@@ -10,6 +10,7 @@ cover:
     alt: 1701 Average Waiting Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0608 Tree Node
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

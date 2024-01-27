@@ -10,6 +10,7 @@ cover:
     alt: 1900 The Earliest and Latest Rounds Where Players Compete
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0041 First Missing Positive
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

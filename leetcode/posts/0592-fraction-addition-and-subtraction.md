@@ -10,6 +10,7 @@ cover:
     alt: 0592 Fraction Addition and Subtraction
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

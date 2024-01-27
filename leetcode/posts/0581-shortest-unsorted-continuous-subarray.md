@@ -10,6 +10,7 @@ cover:
     alt: 0581 Shortest Unsorted Continuous Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

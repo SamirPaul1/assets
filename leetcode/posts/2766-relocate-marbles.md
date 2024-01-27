@@ -10,6 +10,7 @@ cover:
     alt: 2766 Relocate Marbles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

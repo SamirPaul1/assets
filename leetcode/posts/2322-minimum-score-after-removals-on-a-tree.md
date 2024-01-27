@@ -10,6 +10,7 @@ cover:
     alt: 2322 Minimum Score After Removals on a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

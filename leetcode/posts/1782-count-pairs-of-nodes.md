@@ -10,6 +10,7 @@ cover:
     alt: 1782 Count Pairs Of Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

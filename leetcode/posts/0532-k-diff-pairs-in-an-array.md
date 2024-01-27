@@ -10,6 +10,7 @@ cover:
     alt: 0532 K diff Pairs in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2043 Simple Bank System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1424 Diagonal Traverse II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

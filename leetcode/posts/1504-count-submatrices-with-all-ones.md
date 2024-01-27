@@ -10,6 +10,7 @@ cover:
     alt: 1504 Count Submatrices With All Ones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

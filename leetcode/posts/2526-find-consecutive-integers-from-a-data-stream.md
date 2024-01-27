@@ -10,6 +10,7 @@ cover:
     alt: 2526 Find Consecutive Integers from a Data Stream
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

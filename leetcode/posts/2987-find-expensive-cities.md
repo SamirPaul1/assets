@@ -10,6 +10,7 @@ cover:
     alt: 2987 Find Expensive Cities
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

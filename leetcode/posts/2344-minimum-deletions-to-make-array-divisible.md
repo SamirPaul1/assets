@@ -10,6 +10,7 @@ cover:
     alt: 2344 Minimum Deletions to Make Array Divisible
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

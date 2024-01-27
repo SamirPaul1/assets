@@ -10,6 +10,7 @@ cover:
     alt: 2616 Minimize the Maximum Difference of Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

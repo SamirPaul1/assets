@@ -10,6 +10,7 @@ cover:
     alt: 2566 Maximum Difference by Remapping a Digit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

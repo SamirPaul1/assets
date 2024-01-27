@@ -10,6 +10,7 @@ cover:
     alt: 1934 Confirmation Rate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0747 Largest Number At Least Twice of Others
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

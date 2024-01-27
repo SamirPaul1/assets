@@ -10,6 +10,7 @@ cover:
     alt: 1807 Evaluate the Bracket Pairs of a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

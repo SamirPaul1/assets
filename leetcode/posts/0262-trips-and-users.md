@@ -10,6 +10,7 @@ cover:
     alt: 0262 Trips and Users
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

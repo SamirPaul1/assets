@@ -10,6 +10,7 @@ cover:
     alt: 1029 Two City Scheduling
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1222 Queens That Can Attack the King
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

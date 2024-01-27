@@ -10,6 +10,7 @@ cover:
     alt: 1657 Determine if Two Strings Are Close
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

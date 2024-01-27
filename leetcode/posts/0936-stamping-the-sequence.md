@@ -10,6 +10,7 @@ cover:
     alt: 0936 Stamping The Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

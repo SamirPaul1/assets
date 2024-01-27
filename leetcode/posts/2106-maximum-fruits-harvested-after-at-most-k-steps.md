@@ -10,6 +10,7 @@ cover:
     alt: 2106 Maximum Fruits Harvested After at Most K Steps
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

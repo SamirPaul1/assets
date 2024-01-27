@@ -10,6 +10,7 @@ cover:
     alt: 1156 Swap For Longest Repeated Character Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

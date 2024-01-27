@@ -10,6 +10,7 @@ cover:
     alt: 2993 Friday Purchases I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

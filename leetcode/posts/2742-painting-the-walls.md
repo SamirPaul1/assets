@@ -10,6 +10,7 @@ cover:
     alt: 2742 Painting the Walls
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

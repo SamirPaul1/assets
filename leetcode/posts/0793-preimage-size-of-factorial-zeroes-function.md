@@ -10,6 +10,7 @@ cover:
     alt: 0793 Preimage Size of Factorial Zeroes Function
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

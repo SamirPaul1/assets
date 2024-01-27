@@ -10,6 +10,7 @@ cover:
     alt: 0287 Find the Duplicate Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

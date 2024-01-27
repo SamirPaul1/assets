@@ -10,6 +10,7 @@ cover:
     alt: 1975 Maximum Matrix Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

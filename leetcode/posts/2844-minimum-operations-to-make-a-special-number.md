@@ -10,6 +10,7 @@ cover:
     alt: 2844 Minimum Operations to Make a Special Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2129 Capitalize the Title
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

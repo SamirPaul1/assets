@@ -10,6 +10,7 @@ cover:
     alt: 0728 Self Dividing Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

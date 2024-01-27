@@ -10,6 +10,7 @@ cover:
     alt: 0815 Bus Routes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

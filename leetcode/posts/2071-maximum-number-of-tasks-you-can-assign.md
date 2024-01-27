@@ -10,6 +10,7 @@ cover:
     alt: 2071 Maximum Number of Tasks You Can Assign
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

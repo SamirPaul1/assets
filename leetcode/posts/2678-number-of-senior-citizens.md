@@ -10,6 +10,7 @@ cover:
     alt: 2678 Number of Senior Citizens
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

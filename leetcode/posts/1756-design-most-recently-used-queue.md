@@ -10,6 +10,7 @@ cover:
     alt: 1756 Design Most Recently Used Queue
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

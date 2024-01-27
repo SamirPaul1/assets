@@ -10,6 +10,7 @@ cover:
     alt: 1037 Valid Boomerang
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

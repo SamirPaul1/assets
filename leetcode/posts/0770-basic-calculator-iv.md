@@ -10,6 +10,7 @@ cover:
     alt: 0770 Basic Calculator IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0480 Sliding Window Median
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

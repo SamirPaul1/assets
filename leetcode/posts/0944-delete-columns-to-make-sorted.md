@@ -10,6 +10,7 @@ cover:
     alt: 0944 Delete Columns to Make Sorted
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

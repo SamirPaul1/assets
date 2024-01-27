@@ -10,6 +10,7 @@ cover:
     alt: 0811 Subdomain Visit Count
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

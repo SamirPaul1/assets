@@ -10,6 +10,7 @@ cover:
     alt: 2967 Minimum Cost to Make Array Equalindromic
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

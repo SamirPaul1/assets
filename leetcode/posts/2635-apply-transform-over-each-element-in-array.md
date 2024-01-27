@@ -10,6 +10,7 @@ cover:
     alt: 2635 Apply Transform Over Each Element in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

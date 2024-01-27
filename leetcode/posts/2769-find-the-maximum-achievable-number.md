@@ -10,6 +10,7 @@ cover:
     alt: 2769 Find the Maximum Achievable Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2147 Number of Ways to Divide a Long Corridor
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1313 Decompress Run Length Encoded List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

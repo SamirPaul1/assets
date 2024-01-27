@@ -10,6 +10,7 @@ cover:
     alt: 1980 Find Unique Binary String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

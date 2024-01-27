@@ -10,6 +10,7 @@ cover:
     alt: 0925 Long Pressed Name
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1047 Remove All Adjacent Duplicates In String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

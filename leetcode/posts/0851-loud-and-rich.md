@@ -10,6 +10,7 @@ cover:
     alt: 0851 Loud and Rich
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

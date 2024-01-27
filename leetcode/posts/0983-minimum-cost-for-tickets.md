@@ -10,6 +10,7 @@ cover:
     alt: 0983 Minimum Cost For Tickets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

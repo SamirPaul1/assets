@@ -10,6 +10,7 @@ cover:
     alt: 0345 Reverse Vowels of a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

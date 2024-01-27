@@ -10,6 +10,7 @@ cover:
     alt: 2446 Determine if Two Events Have Conflict
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

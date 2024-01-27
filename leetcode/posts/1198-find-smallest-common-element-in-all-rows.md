@@ -10,6 +10,7 @@ cover:
     alt: 1198 Find Smallest Common Element in All Rows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

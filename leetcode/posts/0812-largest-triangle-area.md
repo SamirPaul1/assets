@@ -10,6 +10,7 @@ cover:
     alt: 0812 Largest Triangle Area
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0352 Data Stream as Disjoint Intervals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

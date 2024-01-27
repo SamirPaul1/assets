@@ -10,6 +10,7 @@ cover:
     alt: 1965 Employees With Missing Information
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

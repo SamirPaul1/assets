@@ -10,6 +10,7 @@ cover:
     alt: 2705 Compact Object
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

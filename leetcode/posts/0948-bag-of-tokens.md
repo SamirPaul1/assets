@@ -10,6 +10,7 @@ cover:
     alt: 0948 Bag of Tokens
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

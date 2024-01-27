@@ -10,6 +10,7 @@ cover:
     alt: 1009 Complement of Base 10 Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

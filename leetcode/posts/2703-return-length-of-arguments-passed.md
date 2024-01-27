@@ -10,6 +10,7 @@ cover:
     alt: 2703 Return Length of Arguments Passed
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

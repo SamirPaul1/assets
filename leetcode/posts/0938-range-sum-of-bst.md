@@ -10,6 +10,7 @@ cover:
     alt: 0938 Range Sum of BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

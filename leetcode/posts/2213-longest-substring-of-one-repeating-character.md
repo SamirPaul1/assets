@@ -10,6 +10,7 @@ cover:
     alt: 2213 Longest Substring of One Repeating Character
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

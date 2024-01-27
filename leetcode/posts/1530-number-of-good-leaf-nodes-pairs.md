@@ -10,6 +10,7 @@ cover:
     alt: 1530 Number of Good Leaf Nodes Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

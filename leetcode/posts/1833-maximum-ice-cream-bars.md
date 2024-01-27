@@ -10,6 +10,7 @@ cover:
     alt: 1833 Maximum Ice Cream Bars
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0121 Best Time to Buy and Sell Stock
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

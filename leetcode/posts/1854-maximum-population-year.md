@@ -10,6 +10,7 @@ cover:
     alt: 1854 Maximum Population Year
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

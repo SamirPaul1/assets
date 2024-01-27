@@ -10,6 +10,7 @@ cover:
     alt: 0069 Sqrt(x)
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

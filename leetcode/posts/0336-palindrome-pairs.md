@@ -10,6 +10,7 @@ cover:
     alt: 0336 Palindrome Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1849 Splitting a String Into Descending Consecutive Values
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

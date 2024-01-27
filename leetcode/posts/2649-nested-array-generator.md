@@ -10,6 +10,7 @@ cover:
     alt: 2649 Nested Array Generator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

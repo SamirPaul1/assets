@@ -10,6 +10,7 @@ cover:
     alt: 1359 Count All Valid Pickup and Delivery Options
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

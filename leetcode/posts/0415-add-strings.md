@@ -10,6 +10,7 @@ cover:
     alt: 0415 Add Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

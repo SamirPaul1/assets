@@ -10,6 +10,7 @@ cover:
     alt: 2353 Design a Food Rating System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

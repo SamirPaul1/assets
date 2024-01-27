@@ -10,6 +10,7 @@ cover:
     alt: 0507 Perfect Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

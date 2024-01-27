@@ -10,6 +10,7 @@ cover:
     alt: 1835 Find XOR Sum of All Pairs Bitwise AND
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

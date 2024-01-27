@@ -10,6 +10,7 @@ cover:
     alt: 0495 Teemo Attacking
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0129 Sum Root to Leaf Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

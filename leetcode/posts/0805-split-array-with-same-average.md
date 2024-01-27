@@ -10,6 +10,7 @@ cover:
     alt: 0805 Split Array With Same Average
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2361 Minimum Costs Using the Train Line
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

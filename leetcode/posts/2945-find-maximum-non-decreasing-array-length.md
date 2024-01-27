@@ -10,6 +10,7 @@ cover:
     alt: 2945 Find Maximum Non decreasing Array Length
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

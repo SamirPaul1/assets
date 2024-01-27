@@ -10,6 +10,7 @@ cover:
     alt: 0573 Squirrel Simulation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

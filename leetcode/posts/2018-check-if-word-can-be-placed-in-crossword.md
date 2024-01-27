@@ -10,6 +10,7 @@ cover:
     alt: 2018 Check if Word Can Be Placed In Crossword
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

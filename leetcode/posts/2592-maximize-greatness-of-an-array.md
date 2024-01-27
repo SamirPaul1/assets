@@ -10,6 +10,7 @@ cover:
     alt: 2592 Maximize Greatness of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

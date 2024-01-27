@@ -10,6 +10,7 @@ cover:
     alt: 0781 Rabbits in Forest
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

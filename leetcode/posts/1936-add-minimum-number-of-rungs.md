@@ -10,6 +10,7 @@ cover:
     alt: 1936 Add Minimum Number of Rungs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

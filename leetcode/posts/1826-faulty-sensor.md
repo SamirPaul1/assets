@@ -10,6 +10,7 @@ cover:
     alt: 1826 Faulty Sensor
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

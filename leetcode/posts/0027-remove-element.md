@@ -10,6 +10,7 @@ cover:
     alt: 0027 Remove Element
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

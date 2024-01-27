@@ -10,6 +10,7 @@ cover:
     alt: 2693 Call Function with Custom Context
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

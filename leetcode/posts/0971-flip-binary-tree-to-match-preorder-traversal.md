@@ -10,6 +10,7 @@ cover:
     alt: 0971 Flip Binary Tree To Match Preorder Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

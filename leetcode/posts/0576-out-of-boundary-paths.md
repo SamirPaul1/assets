@@ -10,6 +10,7 @@ cover:
     alt: 0576 Out of Boundary Paths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2256 Minimum Average Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

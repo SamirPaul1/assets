@@ -10,6 +10,7 @@ cover:
     alt: 1063 Number of Valid Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

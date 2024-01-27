@@ -10,6 +10,7 @@ cover:
     alt: 0537 Complex Number Multiplication
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

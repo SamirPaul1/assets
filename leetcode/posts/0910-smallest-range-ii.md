@@ -10,6 +10,7 @@ cover:
     alt: 0910 Smallest Range II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

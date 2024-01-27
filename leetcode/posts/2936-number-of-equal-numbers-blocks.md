@@ -10,6 +10,7 @@ cover:
     alt: 2936 Number of Equal Numbers Blocks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1920 Build Array from Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

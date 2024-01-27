@@ -10,6 +10,7 @@ cover:
     alt: 0913 Cat and Mouse
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

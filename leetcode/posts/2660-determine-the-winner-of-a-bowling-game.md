@@ -10,6 +10,7 @@ cover:
     alt: 2660 Determine the Winner of a Bowling Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2246 Longest Path With Different Adjacent Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

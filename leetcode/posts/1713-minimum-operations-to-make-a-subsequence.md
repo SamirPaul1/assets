@@ -10,6 +10,7 @@ cover:
     alt: 1713 Minimum Operations to Make a Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

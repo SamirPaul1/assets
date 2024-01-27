@@ -10,6 +10,7 @@ cover:
     alt: 0855 Exam Room
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

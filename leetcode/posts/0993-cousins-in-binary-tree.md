@@ -10,6 +10,7 @@ cover:
     alt: 0993 Cousins in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

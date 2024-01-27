@@ -10,6 +10,7 @@ cover:
     alt: 0204 Count Primes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

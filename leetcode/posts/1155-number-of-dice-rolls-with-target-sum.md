@@ -10,6 +10,7 @@ cover:
     alt: 1155 Number of Dice Rolls With Target Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

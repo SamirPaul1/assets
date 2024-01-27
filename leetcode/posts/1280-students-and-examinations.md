@@ -10,6 +10,7 @@ cover:
     alt: 1280 Students and Examinations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2832 Maximal Range That Each Element Is Maximum in It
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

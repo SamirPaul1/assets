@@ -10,6 +10,7 @@ cover:
     alt: 2370 Longest Ideal Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1592 Rearrange Spaces Between Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

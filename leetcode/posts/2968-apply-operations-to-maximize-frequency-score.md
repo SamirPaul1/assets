@@ -10,6 +10,7 @@ cover:
     alt: 2968 Apply Operations to Maximize Frequency Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

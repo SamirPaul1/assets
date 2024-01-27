@@ -10,6 +10,7 @@ cover:
     alt: 0113 Path Sum II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

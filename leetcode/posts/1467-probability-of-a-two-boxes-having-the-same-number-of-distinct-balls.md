@@ -10,6 +10,7 @@ cover:
     alt: 1467 Probability of a Two Boxes Having The Same Number of Distinct Balls
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

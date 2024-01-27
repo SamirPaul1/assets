@@ -10,6 +10,7 @@ cover:
     alt: 1996 The Number of Weak Characters in the Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

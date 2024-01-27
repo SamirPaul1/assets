@@ -10,6 +10,7 @@ cover:
     alt: 3006 Find Beautiful Indices in the Given Array I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

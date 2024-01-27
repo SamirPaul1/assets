@@ -10,6 +10,7 @@ cover:
     alt: 1336 Number of Transactions per Visit
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

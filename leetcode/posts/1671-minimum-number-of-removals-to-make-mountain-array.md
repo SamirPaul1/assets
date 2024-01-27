@@ -10,6 +10,7 @@ cover:
     alt: 1671 Minimum Number of Removals to Make Mountain Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0446 Arithmetic Slices II   Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

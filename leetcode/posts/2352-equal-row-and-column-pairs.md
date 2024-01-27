@@ -10,6 +10,7 @@ cover:
     alt: 2352 Equal Row and Column Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

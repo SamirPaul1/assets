@@ -10,6 +10,7 @@ cover:
     alt: 0037 Sudoku Solver
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

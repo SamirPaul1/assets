@@ -10,6 +10,7 @@ cover:
     alt: 1147 Longest Chunked Palindrome Decomposition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

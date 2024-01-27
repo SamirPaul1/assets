@@ -10,6 +10,7 @@ cover:
     alt: 1395 Count Number of Teams
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

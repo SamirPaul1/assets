@@ -10,6 +10,7 @@ cover:
     alt: 2720 Popularity Percentage
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

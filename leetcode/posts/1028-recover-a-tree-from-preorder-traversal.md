@@ -10,6 +10,7 @@ cover:
     alt: 1028 Recover a Tree From Preorder Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

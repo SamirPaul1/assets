@@ -10,6 +10,7 @@ cover:
     alt: 2803 Factorial Generator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

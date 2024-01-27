@@ -10,6 +10,7 @@ cover:
     alt: 3001 Minimum Moves to Capture The Queen
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

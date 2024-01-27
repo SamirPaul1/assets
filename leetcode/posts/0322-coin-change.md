@@ -10,6 +10,7 @@ cover:
     alt: 0322 Coin Change
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

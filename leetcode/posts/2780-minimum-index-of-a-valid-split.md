@@ -10,6 +10,7 @@ cover:
     alt: 2780 Minimum Index of a Valid Split
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

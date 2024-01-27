@@ -10,6 +10,7 @@ cover:
     alt: 1238 Circular Permutation in Binary Representation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

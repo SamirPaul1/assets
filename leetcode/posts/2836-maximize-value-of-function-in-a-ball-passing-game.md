@@ -10,6 +10,7 @@ cover:
     alt: 2836 Maximize Value of Function in a Ball Passing Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

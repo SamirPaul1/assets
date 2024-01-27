@@ -10,6 +10,7 @@ cover:
     alt: 1993 Operations on Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

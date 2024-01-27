@@ -10,6 +10,7 @@ cover:
     alt: 0904 Fruit Into Baskets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

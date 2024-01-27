@@ -10,6 +10,7 @@ cover:
     alt: 0891 Sum of Subsequence Widths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

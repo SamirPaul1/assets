@@ -10,6 +10,7 @@ cover:
     alt: 0674 Longest Continuous Increasing Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

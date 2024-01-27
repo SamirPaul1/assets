@@ -10,6 +10,7 @@ cover:
     alt: 0693 Binary Number with Alternating Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

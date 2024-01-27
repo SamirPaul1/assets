@@ -10,6 +10,7 @@ cover:
     alt: 1099 Two Sum Less Than K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

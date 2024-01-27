@@ -10,6 +10,7 @@ cover:
     alt: 0379 Design Phone Directory
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

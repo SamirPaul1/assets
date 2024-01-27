@@ -10,6 +10,7 @@ cover:
     alt: 0988 Smallest String Starting From Leaf
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

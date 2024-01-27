@@ -10,6 +10,7 @@ cover:
     alt: 1903 Largest Odd Number in String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

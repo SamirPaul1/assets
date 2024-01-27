@@ -10,6 +10,7 @@ cover:
     alt: 1135 Connecting Cities With Minimum Cost
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

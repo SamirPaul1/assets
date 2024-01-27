@@ -10,6 +10,7 @@ cover:
     alt: 2816 Double a Number Represented as a Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

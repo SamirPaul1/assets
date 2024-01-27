@@ -10,6 +10,7 @@ cover:
     alt: 1815 Maximum Number of Groups Getting Fresh Donuts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

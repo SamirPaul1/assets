@@ -10,6 +10,7 @@ cover:
     alt: 0270 Closest Binary Search Tree Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

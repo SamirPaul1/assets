@@ -10,6 +10,7 @@ cover:
     alt: 0119 Pascal's Triangle II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

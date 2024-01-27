@@ -10,6 +10,7 @@ cover:
     alt: 0863 All Nodes Distance K in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

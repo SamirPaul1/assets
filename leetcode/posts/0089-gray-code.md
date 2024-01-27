@@ -10,6 +10,7 @@ cover:
     alt: 0089 Gray Code
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

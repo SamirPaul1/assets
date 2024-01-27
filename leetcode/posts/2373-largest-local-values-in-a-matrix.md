@@ -10,6 +10,7 @@ cover:
     alt: 2373 Largest Local Values in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

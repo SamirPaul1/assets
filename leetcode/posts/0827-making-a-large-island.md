@@ -10,6 +10,7 @@ cover:
     alt: 0827 Making A Large Island
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

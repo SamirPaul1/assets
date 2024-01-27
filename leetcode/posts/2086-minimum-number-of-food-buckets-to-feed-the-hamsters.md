@@ -10,6 +10,7 @@ cover:
     alt: 2086 Minimum Number of Food Buckets to Feed the Hamsters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

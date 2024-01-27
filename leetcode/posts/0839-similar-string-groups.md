@@ -10,6 +10,7 @@ cover:
     alt: 0839 Similar String Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

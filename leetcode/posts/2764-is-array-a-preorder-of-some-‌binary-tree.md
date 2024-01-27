@@ -10,6 +10,7 @@ cover:
     alt: 2764 Is Array a Preorder of Some ‌Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

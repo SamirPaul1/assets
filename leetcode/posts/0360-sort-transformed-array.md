@@ -10,6 +10,7 @@ cover:
     alt: 0360 Sort Transformed Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

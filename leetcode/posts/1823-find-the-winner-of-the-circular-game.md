@@ -10,6 +10,7 @@ cover:
     alt: 1823 Find the Winner of the Circular Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

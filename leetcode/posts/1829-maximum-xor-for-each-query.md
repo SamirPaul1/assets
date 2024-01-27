@@ -10,6 +10,7 @@ cover:
     alt: 1829 Maximum XOR for Each Query
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

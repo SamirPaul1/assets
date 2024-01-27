@@ -10,6 +10,7 @@ cover:
     alt: 0575 Distribute Candies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

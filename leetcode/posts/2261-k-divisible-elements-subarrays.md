@@ -10,6 +10,7 @@ cover:
     alt: 2261 K Divisible Elements Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

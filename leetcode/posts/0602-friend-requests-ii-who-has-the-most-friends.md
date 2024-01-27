@@ -10,6 +10,7 @@ cover:
     alt: 0602 Friend Requests II Who Has the Most Friends
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

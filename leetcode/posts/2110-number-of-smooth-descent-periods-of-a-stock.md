@@ -10,6 +10,7 @@ cover:
     alt: 2110 Number of Smooth Descent Periods of a Stock
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

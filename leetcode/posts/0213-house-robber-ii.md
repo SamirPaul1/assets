@@ -10,6 +10,7 @@ cover:
     alt: 0213 House Robber II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

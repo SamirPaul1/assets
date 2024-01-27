@@ -10,6 +10,7 @@ cover:
     alt: 1185 Day of the Week
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

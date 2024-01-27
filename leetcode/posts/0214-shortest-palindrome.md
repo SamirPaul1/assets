@@ -10,6 +10,7 @@ cover:
     alt: 0214 Shortest Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1576 Replace All 's to Avoid Consecutive Repeating Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

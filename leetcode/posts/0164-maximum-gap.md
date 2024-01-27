@@ -10,6 +10,7 @@ cover:
     alt: 0164 Maximum Gap
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

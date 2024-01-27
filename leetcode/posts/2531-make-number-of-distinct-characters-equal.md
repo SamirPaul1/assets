@@ -10,6 +10,7 @@ cover:
     alt: 2531 Make Number of Distinct Characters Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

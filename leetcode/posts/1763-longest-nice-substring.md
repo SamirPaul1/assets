@@ -10,6 +10,7 @@ cover:
     alt: 1763 Longest Nice Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

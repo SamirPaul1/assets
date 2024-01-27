@@ -10,6 +10,7 @@ cover:
     alt: 1429 First Unique Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

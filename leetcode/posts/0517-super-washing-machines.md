@@ -10,6 +10,7 @@ cover:
     alt: 0517 Super Washing Machines
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

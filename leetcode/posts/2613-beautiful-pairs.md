@@ -10,6 +10,7 @@ cover:
     alt: 2613 Beautiful Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

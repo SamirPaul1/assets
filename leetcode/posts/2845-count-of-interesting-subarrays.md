@@ -10,6 +10,7 @@ cover:
     alt: 2845 Count of Interesting Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

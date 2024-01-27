@@ -10,6 +10,7 @@ cover:
     alt: 2951 Find the Peaks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

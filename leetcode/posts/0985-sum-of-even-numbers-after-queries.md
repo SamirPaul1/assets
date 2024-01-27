@@ -10,6 +10,7 @@ cover:
     alt: 0985 Sum of Even Numbers After Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

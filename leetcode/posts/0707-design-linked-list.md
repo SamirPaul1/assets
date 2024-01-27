@@ -10,6 +10,7 @@ cover:
     alt: 0707 Design Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

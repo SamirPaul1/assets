@@ -10,6 +10,7 @@ cover:
     alt: 0967 Numbers With Same Consecutive Differences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

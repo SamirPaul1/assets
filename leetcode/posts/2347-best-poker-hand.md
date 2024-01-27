@@ -10,6 +10,7 @@ cover:
     alt: 2347 Best Poker Hand
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

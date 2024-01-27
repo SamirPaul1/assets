@@ -10,6 +10,7 @@ cover:
     alt: 1122 Relative Sort Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1788 Maximize the Beauty of the Garden
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

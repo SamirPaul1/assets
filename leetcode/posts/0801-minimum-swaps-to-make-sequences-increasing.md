@@ -10,6 +10,7 @@ cover:
     alt: 0801 Minimum Swaps To Make Sequences Increasing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

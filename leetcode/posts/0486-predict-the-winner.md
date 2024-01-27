@@ -10,6 +10,7 @@ cover:
     alt: 0486 Predict the Winner
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

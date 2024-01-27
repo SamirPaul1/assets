@@ -10,6 +10,7 @@ cover:
     alt: 0375 Guess Number Higher or Lower II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

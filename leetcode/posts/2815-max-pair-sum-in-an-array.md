@@ -10,6 +10,7 @@ cover:
     alt: 2815 Max Pair Sum in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

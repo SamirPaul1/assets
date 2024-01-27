@@ -10,6 +10,7 @@ cover:
     alt: 2239 Find Closest Number to Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

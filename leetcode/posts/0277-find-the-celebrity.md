@@ -10,6 +10,7 @@ cover:
     alt: 0277 Find the Celebrity
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

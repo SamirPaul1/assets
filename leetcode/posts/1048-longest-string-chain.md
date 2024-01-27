@@ -10,6 +10,7 @@ cover:
     alt: 1048 Longest String Chain
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1168 Optimize Water Distribution in a Village
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

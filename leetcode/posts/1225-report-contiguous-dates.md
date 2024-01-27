@@ -10,6 +10,7 @@ cover:
     alt: 1225 Report Contiguous Dates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

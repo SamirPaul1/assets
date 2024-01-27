@@ -10,6 +10,7 @@ cover:
     alt: 1303 Find the Team Size
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

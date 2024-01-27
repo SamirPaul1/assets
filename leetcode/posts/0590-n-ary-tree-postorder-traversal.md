@@ -10,6 +10,7 @@ cover:
     alt: 0590 N ary Tree Postorder Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

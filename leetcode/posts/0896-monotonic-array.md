@@ -10,6 +10,7 @@ cover:
     alt: 0896 Monotonic Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

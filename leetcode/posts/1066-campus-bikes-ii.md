@@ -10,6 +10,7 @@ cover:
     alt: 1066 Campus Bikes II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

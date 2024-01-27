@@ -10,6 +10,7 @@ cover:
     alt: 2859 Sum of Values at Indices With K Set Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

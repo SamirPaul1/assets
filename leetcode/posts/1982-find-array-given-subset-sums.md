@@ -10,6 +10,7 @@ cover:
     alt: 1982 Find Array Given Subset Sums
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

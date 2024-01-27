@@ -10,6 +10,7 @@ cover:
     alt: 2615 Sum of Distances
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

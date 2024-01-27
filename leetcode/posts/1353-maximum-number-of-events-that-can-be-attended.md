@@ -10,6 +10,7 @@ cover:
     alt: 1353 Maximum Number of Events That Can Be Attended
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0378 Kth Smallest Element in a Sorted Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

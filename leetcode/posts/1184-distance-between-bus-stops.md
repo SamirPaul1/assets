@@ -10,6 +10,7 @@ cover:
     alt: 1184 Distance Between Bus Stops
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

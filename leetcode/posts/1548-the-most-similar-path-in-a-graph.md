@@ -10,6 +10,7 @@ cover:
     alt: 1548 The Most Similar Path in a Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1602 Find Nearest Right Node in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

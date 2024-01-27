@@ -10,6 +10,7 @@ cover:
     alt: 1658 Minimum Operations to Reduce X to Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

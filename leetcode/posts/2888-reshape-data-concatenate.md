@@ -10,6 +10,7 @@ cover:
     alt: 2888 Reshape Data Concatenate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0498 Diagonal Traverse
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

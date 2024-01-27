@@ -10,6 +10,7 @@ cover:
     alt: 0683 K Empty Slots
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

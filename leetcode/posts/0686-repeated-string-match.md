@@ -10,6 +10,7 @@ cover:
     alt: 0686 Repeated String Match
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

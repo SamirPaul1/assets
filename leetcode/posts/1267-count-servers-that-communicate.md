@@ -10,6 +10,7 @@ cover:
     alt: 1267 Count Servers that Communicate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

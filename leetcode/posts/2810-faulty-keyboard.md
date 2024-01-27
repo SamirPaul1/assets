@@ -10,6 +10,7 @@ cover:
     alt: 2810 Faulty Keyboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2606 Find the Substring With Maximum Cost
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

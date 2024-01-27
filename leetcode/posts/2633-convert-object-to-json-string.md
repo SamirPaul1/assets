@@ -10,6 +10,7 @@ cover:
     alt: 2633 Convert Object to JSON String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

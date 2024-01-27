@@ -10,6 +10,7 @@ cover:
     alt: 0832 Flipping an Image
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

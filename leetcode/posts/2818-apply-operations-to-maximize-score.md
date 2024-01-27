@@ -10,6 +10,7 @@ cover:
     alt: 2818 Apply Operations to Maximize Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

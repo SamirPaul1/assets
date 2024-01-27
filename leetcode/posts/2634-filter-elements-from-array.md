@@ -10,6 +10,7 @@ cover:
     alt: 2634 Filter Elements from Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

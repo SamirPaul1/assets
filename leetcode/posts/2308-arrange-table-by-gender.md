@@ -10,6 +10,7 @@ cover:
     alt: 2308 Arrange Table by Gender
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

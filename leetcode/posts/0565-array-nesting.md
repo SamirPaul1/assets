@@ -10,6 +10,7 @@ cover:
     alt: 0565 Array Nesting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

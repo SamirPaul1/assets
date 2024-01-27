@@ -10,6 +10,7 @@ cover:
     alt: 2249 Count Lattice Points Inside a Circle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

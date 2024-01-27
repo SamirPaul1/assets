@@ -10,6 +10,7 @@ cover:
     alt: 2006 Count Number of Pairs With Absolute Difference K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2701 Consecutive Transactions with Increasing Amounts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

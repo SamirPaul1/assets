@@ -10,6 +10,7 @@ cover:
     alt: 1279 Traffic Light Controlled Intersection
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

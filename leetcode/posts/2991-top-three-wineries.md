@@ -10,6 +10,7 @@ cover:
     alt: 2991 Top Three Wineries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

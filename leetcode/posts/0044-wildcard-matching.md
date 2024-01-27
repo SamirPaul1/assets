@@ -10,6 +10,7 @@ cover:
     alt: 0044 Wildcard Matching
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

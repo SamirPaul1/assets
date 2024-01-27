@@ -10,6 +10,7 @@ cover:
     alt: 0154 Find Minimum in Rotated Sorted Array II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

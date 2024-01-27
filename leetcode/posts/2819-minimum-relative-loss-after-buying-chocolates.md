@@ -10,6 +10,7 @@ cover:
     alt: 2819 Minimum Relative Loss After Buying Chocolates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2866 Beautiful Towers II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

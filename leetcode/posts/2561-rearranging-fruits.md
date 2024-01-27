@@ -10,6 +10,7 @@ cover:
     alt: 2561 Rearranging Fruits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

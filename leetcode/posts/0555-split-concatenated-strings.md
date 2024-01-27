@@ -10,6 +10,7 @@ cover:
     alt: 0555 Split Concatenated Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

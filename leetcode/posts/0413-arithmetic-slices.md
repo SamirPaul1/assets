@@ -10,6 +10,7 @@ cover:
     alt: 0413 Arithmetic Slices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

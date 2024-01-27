@@ -10,6 +10,7 @@ cover:
     alt: 0505 The Maze II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

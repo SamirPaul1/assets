@@ -10,6 +10,7 @@ cover:
     alt: 2488 Count Subarrays With Median K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

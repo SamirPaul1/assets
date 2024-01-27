@@ -10,6 +10,7 @@ cover:
     alt: 1624 Largest Substring Between Two Equal Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

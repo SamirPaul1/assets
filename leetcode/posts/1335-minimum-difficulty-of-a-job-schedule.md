@@ -10,6 +10,7 @@ cover:
     alt: 1335 Minimum Difficulty of a Job Schedule
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

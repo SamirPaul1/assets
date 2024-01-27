@@ -10,6 +10,7 @@ cover:
     alt: 0351 Android Unlock Patterns
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

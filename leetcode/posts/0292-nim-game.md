@@ -10,6 +10,7 @@ cover:
     alt: 0292 Nim Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

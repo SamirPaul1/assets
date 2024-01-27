@@ -10,6 +10,7 @@ cover:
     alt: 0166 Fraction to Recurring Decimal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

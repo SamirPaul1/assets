@@ -10,6 +10,7 @@ cover:
     alt: 1617 Count Subtrees With Max Distance Between Cities
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

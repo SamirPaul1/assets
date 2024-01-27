@@ -10,6 +10,7 @@ cover:
     alt: 0085 Maximal Rectangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

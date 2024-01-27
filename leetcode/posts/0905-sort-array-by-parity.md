@@ -10,6 +10,7 @@ cover:
     alt: 0905 Sort Array By Parity
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

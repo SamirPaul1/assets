@@ -10,6 +10,7 @@ cover:
     alt: 1410 HTML Entity Parser
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

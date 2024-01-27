@@ -10,6 +10,7 @@ cover:
     alt: 0035 Search Insert Position
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1551 Minimum Operations to Make Array Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

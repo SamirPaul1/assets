@@ -10,6 +10,7 @@ cover:
     alt: 0761 Special Binary String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

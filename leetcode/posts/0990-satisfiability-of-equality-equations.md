@@ -10,6 +10,7 @@ cover:
     alt: 0990 Satisfiability of Equality Equations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0007 Reverse Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

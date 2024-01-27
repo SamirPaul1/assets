@@ -10,6 +10,7 @@ cover:
     alt: 0289 Game of Life
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

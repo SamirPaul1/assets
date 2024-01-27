@@ -10,6 +10,7 @@ cover:
     alt: 1479 Sales by Day of the Week
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

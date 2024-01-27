@@ -10,6 +10,7 @@ cover:
     alt: 1729 Find Followers Count
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

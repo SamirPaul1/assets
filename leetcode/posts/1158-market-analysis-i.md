@@ -10,6 +10,7 @@ cover:
     alt: 1158 Market Analysis I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

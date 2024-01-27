@@ -10,6 +10,7 @@ cover:
     alt: 0024 Swap Nodes in Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

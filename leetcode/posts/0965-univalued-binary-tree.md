@@ -10,6 +10,7 @@ cover:
     alt: 0965 Univalued Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

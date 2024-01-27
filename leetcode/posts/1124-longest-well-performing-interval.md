@@ -10,6 +10,7 @@ cover:
     alt: 1124 Longest Well Performing Interval
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

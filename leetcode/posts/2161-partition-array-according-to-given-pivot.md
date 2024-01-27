@@ -10,6 +10,7 @@ cover:
     alt: 2161 Partition Array According to Given Pivot
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

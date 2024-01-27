@@ -10,6 +10,7 @@ cover:
     alt: 0032 Longest Valid Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

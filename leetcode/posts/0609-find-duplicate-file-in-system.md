@@ -10,6 +10,7 @@ cover:
     alt: 0609 Find Duplicate File in System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

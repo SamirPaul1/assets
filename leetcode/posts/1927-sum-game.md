@@ -10,6 +10,7 @@ cover:
     alt: 1927 Sum Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

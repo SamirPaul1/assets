@@ -10,6 +10,7 @@ cover:
     alt: 2957 Remove Adjacent Almost Equal Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

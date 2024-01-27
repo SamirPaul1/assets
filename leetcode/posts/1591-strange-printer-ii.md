@@ -10,6 +10,7 @@ cover:
     alt: 1591 Strange Printer II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

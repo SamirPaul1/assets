@@ -10,6 +10,7 @@ cover:
     alt: 2303 Calculate Amount Paid in Taxes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

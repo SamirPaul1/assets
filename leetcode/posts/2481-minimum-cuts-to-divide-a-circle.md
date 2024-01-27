@@ -10,6 +10,7 @@ cover:
     alt: 2481 Minimum Cuts to Divide a Circle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

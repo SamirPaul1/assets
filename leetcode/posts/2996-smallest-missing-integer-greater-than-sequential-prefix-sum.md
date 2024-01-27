@@ -10,6 +10,7 @@ cover:
     alt: 2996 Smallest Missing Integer Greater Than Sequential Prefix Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

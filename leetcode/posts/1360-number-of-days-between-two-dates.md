@@ -10,6 +10,7 @@ cover:
     alt: 1360 Number of Days Between Two Dates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

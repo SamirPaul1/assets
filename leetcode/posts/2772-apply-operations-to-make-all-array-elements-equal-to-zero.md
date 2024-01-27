@@ -10,6 +10,7 @@ cover:
     alt: 2772 Apply Operations to Make All Array Elements Equal to Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0448 Find All Numbers Disappeared in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

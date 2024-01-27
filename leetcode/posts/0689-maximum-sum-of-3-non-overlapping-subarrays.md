@@ -10,6 +10,7 @@ cover:
     alt: 0689 Maximum Sum of 3 Non Overlapping Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

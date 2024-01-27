@@ -10,6 +10,7 @@ cover:
     alt: 0994 Rotting Oranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

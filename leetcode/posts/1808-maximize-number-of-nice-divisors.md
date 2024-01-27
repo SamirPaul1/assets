@@ -10,6 +10,7 @@ cover:
     alt: 1808 Maximize Number of Nice Divisors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

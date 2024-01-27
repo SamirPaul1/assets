@@ -10,6 +10,7 @@ cover:
     alt: 2682 Find the Losers of the Circular Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

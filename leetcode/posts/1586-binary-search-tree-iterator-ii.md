@@ -10,6 +10,7 @@ cover:
     alt: 1586 Binary Search Tree Iterator II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

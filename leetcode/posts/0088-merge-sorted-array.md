@@ -10,6 +10,7 @@ cover:
     alt: 0088 Merge Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

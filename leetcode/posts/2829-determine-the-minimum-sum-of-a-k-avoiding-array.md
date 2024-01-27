@@ -10,6 +10,7 @@ cover:
     alt: 2829 Determine the Minimum Sum of a k avoiding Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0365 Water and Jug Problem
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

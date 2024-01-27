@@ -10,6 +10,7 @@ cover:
     alt: 1092 Shortest Common Supersequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1588 Sum of All Odd Length Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

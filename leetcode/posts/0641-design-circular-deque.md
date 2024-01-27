@@ -10,6 +10,7 @@ cover:
     alt: 0641 Design Circular Deque
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

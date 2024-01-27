@@ -10,6 +10,7 @@ cover:
     alt: 0373 Find K Pairs with Smallest Sums
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

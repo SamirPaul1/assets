@@ -10,6 +10,7 @@ cover:
     alt: 1595 Minimum Cost to Connect Two Groups of Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

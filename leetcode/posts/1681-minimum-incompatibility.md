@@ -10,6 +10,7 @@ cover:
     alt: 1681 Minimum Incompatibility
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

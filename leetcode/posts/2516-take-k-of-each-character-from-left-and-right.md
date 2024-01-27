@@ -10,6 +10,7 @@ cover:
     alt: 2516 Take K of Each Character From Left and Right
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0431 Encode N ary Tree to Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

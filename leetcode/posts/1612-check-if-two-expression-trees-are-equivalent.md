@@ -10,6 +10,7 @@ cover:
     alt: 1612 Check If Two Expression Trees are Equivalent
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2358 Maximum Number of Groups Entering a Competition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

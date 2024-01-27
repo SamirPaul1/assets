@@ -10,6 +10,7 @@ cover:
     alt: 1131 Maximum of Absolute Value Expression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0797 All Paths From Source to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

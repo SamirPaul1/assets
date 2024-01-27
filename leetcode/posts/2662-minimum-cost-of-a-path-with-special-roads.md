@@ -10,6 +10,7 @@ cover:
     alt: 2662 Minimum Cost of a Path With Special Roads
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

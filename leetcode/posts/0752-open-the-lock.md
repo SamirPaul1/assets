@@ -10,6 +10,7 @@ cover:
     alt: 0752 Open the Lock
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

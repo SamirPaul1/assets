@@ -10,6 +10,7 @@ cover:
     alt: 0278 First Bad Version
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

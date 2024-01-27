@@ -10,6 +10,7 @@ cover:
     alt: 1954 Minimum Garden Perimeter to Collect Enough Apples
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

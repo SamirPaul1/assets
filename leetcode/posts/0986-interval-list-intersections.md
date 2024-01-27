@@ -10,6 +10,7 @@ cover:
     alt: 0986 Interval List Intersections
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

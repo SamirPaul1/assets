@@ -10,6 +10,7 @@ cover:
     alt: 0231 Power of Two
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0335 Self Crossing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1973 Count Nodes Equal to Sum of Descendants
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

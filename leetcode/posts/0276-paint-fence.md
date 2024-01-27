@@ -10,6 +10,7 @@ cover:
     alt: 0276 Paint Fence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

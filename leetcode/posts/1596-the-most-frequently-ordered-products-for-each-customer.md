@@ -10,6 +10,7 @@ cover:
     alt: 1596 The Most Frequently Ordered Products for Each Customer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

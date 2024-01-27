@@ -10,6 +10,7 @@ cover:
     alt: 1688 Count of Matches in Tournament
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

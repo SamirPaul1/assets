@@ -10,6 +10,7 @@ cover:
     alt: 0833 Find And Replace in String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1256 Encode Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2674 Split a Circular Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

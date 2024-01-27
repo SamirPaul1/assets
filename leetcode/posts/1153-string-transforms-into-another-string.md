@@ -10,6 +10,7 @@ cover:
     alt: 1153 String Transforms Into Another String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

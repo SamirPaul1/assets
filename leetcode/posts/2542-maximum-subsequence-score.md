@@ -10,6 +10,7 @@ cover:
     alt: 2542 Maximum Subsequence Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

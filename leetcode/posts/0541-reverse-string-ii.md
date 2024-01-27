@@ -10,6 +10,7 @@ cover:
     alt: 0541 Reverse String II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

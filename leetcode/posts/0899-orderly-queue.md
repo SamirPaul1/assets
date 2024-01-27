@@ -10,6 +10,7 @@ cover:
     alt: 0899 Orderly Queue
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

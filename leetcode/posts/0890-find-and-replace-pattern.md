@@ -10,6 +10,7 @@ cover:
     alt: 0890 Find and Replace Pattern
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

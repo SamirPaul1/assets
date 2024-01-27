@@ -10,6 +10,7 @@ cover:
     alt: 0579 Find Cumulative Salary of an Employee
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

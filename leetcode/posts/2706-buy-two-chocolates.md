@@ -10,6 +10,7 @@ cover:
     alt: 2706 Buy Two Chocolates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2922 Market Analysis III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

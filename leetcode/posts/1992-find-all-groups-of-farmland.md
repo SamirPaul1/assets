@@ -10,6 +10,7 @@ cover:
     alt: 1992 Find All Groups of Farmland
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

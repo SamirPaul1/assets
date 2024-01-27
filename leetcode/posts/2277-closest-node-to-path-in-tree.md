@@ -10,6 +10,7 @@ cover:
     alt: 2277 Closest Node to Path in Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

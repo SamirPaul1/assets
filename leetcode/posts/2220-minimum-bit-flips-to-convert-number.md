@@ -10,6 +10,7 @@ cover:
     alt: 2220 Minimum Bit Flips to Convert Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0497 Random Point in Non overlapping Rectangles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

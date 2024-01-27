@@ -10,6 +10,7 @@ cover:
     alt: 2611 Mice and Cheese
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

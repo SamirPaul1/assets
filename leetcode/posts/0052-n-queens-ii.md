@@ -10,6 +10,7 @@ cover:
     alt: 0052 N Queens II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

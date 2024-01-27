@@ -10,6 +10,7 @@ cover:
     alt: 0749 Contain Virus
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

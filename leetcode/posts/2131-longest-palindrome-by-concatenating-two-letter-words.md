@@ -10,6 +10,7 @@ cover:
     alt: 2131 Longest Palindrome by Concatenating Two Letter Words
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

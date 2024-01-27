@@ -10,6 +10,7 @@ cover:
     alt: 2266 Count Number of Texts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

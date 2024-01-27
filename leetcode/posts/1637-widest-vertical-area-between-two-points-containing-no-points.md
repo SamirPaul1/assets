@@ -10,6 +10,7 @@ cover:
     alt: 1637 Widest Vertical Area Between Two Points Containing No Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

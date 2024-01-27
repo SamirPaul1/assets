@@ -10,6 +10,7 @@ cover:
     alt: 0514 Freedom Trail
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

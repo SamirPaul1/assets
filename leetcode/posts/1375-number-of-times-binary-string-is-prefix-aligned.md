@@ -10,6 +10,7 @@ cover:
     alt: 1375 Number of Times Binary String Is Prefix Aligned
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2132 Stamping the Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

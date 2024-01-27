@@ -10,6 +10,7 @@ cover:
     alt: 1964 Find the Longest Valid Obstacle Course at Each Position
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

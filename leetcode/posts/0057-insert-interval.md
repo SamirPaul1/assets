@@ -10,6 +10,7 @@ cover:
     alt: 0057 Insert Interval
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

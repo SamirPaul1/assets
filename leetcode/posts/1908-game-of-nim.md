@@ -10,6 +10,7 @@ cover:
     alt: 1908 Game of Nim
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

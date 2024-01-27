@@ -10,6 +10,7 @@ cover:
     alt: 1933 Check if String Is Decomposable Into Value Equal Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

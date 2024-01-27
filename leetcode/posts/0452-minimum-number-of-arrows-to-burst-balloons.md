@@ -10,6 +10,7 @@ cover:
     alt: 0452 Minimum Number of Arrows to Burst Balloons
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

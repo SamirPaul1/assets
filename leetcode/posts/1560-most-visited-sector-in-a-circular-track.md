@@ -10,6 +10,7 @@ cover:
     alt: 1560 Most Visited Sector in a Circular Track
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2574 Left and Right Sum Differences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2588 Count the Number of Beautiful Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

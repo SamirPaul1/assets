@@ -10,6 +10,7 @@ cover:
     alt: 1413 Minimum Value to Get Positive Step by Step Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

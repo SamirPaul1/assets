@@ -10,6 +10,7 @@ cover:
     alt: 2744 Find Maximum Number of String Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0354 Russian Doll Envelopes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

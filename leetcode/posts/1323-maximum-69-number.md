@@ -10,6 +10,7 @@ cover:
     alt: 1323 Maximum 69 Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

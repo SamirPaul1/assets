@@ -10,6 +10,7 @@ cover:
     alt: 2083 Substrings That Begin and End With the Same Letter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

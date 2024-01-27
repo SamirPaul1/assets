@@ -10,6 +10,7 @@ cover:
     alt: 3009 Maximum Number of Intersections on the Chart
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

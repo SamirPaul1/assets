@@ -10,6 +10,7 @@ cover:
     alt: 2940 Find Building Where Alice and Bob Can Meet
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

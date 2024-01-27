@@ -10,6 +10,7 @@ cover:
     alt: 2716 Minimize String Length
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

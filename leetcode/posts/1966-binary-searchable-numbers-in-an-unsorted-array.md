@@ -10,6 +10,7 @@ cover:
     alt: 1966 Binary Searchable Numbers in an Unsorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

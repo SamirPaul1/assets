@@ -10,6 +10,7 @@ cover:
     alt: 2153 The Number of Passengers in Each Bus II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

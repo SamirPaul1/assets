@@ -10,6 +10,7 @@ cover:
     alt: 1150 Check If a Number Is Majority Element in a Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

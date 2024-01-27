@@ -10,6 +10,7 @@ cover:
     alt: 0434 Number of Segments in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

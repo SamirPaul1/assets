@@ -10,6 +10,7 @@ cover:
     alt: 0162 Find Peak Element
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

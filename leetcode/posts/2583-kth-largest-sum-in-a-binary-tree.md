@@ -10,6 +10,7 @@ cover:
     alt: 2583 Kth Largest Sum in a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

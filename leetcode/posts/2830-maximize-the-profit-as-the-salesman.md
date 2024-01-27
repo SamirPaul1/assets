@@ -10,6 +10,7 @@ cover:
     alt: 2830 Maximize the Profit as the Salesman
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

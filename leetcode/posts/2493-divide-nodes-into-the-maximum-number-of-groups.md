@@ -10,6 +10,7 @@ cover:
     alt: 2493 Divide Nodes Into the Maximum Number of Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

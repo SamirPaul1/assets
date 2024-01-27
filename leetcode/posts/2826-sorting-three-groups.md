@@ -10,6 +10,7 @@ cover:
     alt: 2826 Sorting Three Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

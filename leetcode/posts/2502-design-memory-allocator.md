@@ -10,6 +10,7 @@ cover:
     alt: 2502 Design Memory Allocator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

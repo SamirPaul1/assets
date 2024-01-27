@@ -10,6 +10,7 @@ cover:
     alt: 2430 Maximum Deletions on a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

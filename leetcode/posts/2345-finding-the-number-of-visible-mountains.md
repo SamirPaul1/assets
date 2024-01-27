@@ -10,6 +10,7 @@ cover:
     alt: 2345 Finding the Number of Visible Mountains
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0807 Max Increase to Keep City Skyline
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

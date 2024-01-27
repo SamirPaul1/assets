@@ -10,6 +10,7 @@ cover:
     alt: 2079 Watering Plants
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

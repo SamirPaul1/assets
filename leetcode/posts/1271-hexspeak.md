@@ -10,6 +10,7 @@ cover:
     alt: 1271 Hexspeak
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

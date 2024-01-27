@@ -10,6 +10,7 @@ cover:
     alt: 0363 Max Sum of Rectangle No Larger Than K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2522 Partition String Into Substrings With Values at Most K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

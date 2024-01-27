@@ -10,6 +10,7 @@ cover:
     alt: 2584 Split the Array to Make Coprime Products
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

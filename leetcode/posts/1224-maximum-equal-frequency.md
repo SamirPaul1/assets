@@ -10,6 +10,7 @@ cover:
     alt: 1224 Maximum Equal Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

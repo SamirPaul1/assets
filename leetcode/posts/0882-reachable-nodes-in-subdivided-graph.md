@@ -10,6 +10,7 @@ cover:
     alt: 0882 Reachable Nodes In Subdivided Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

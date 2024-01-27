@@ -10,6 +10,7 @@ cover:
     alt: 1926 Nearest Exit from Entrance in Maze
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

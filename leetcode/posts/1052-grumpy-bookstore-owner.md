@@ -10,6 +10,7 @@ cover:
     alt: 1052 Grumpy Bookstore Owner
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

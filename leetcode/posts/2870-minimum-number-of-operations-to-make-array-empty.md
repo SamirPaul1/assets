@@ -10,6 +10,7 @@ cover:
     alt: 2870 Minimum Number of Operations to Make Array Empty
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

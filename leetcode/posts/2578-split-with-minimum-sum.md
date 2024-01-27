@@ -10,6 +10,7 @@ cover:
     alt: 2578 Split With Minimum Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2485 Find the Pivot Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

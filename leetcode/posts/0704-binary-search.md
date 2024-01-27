@@ -10,6 +10,7 @@ cover:
     alt: 0704 Binary Search
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

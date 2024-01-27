@@ -10,6 +10,7 @@ cover:
     alt: 1311 Get Watched Videos by Your Friends
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

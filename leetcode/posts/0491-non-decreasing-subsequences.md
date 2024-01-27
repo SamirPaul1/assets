@@ -10,6 +10,7 @@ cover:
     alt: 0491 Non decreasing Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

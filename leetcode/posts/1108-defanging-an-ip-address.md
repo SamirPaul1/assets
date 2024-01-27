@@ -10,6 +10,7 @@ cover:
     alt: 1108 Defanging an IP Address
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

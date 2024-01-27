@@ -10,6 +10,7 @@ cover:
     alt: 1199 Minimum Time to Build Blocks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

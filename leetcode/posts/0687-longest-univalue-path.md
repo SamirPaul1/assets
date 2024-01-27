@@ -10,6 +10,7 @@ cover:
     alt: 0687 Longest Univalue Path
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

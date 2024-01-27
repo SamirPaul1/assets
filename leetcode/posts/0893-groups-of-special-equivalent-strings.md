@@ -10,6 +10,7 @@ cover:
     alt: 0893 Groups of Special Equivalent Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

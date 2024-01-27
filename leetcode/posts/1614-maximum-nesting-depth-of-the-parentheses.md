@@ -10,6 +10,7 @@ cover:
     alt: 1614 Maximum Nesting Depth of the Parentheses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

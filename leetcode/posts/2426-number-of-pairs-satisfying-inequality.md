@@ -10,6 +10,7 @@ cover:
     alt: 2426 Number of Pairs Satisfying Inequality
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

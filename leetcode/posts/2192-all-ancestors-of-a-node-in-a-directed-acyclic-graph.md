@@ -10,6 +10,7 @@ cover:
     alt: 2192 All Ancestors of a Node in a Directed Acyclic Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

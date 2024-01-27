@@ -10,6 +10,7 @@ cover:
     alt: 0455 Assign Cookies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

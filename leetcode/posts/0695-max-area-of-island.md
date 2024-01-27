@@ -10,6 +10,7 @@ cover:
     alt: 0695 Max Area of Island
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

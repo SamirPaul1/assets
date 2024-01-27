@@ -10,6 +10,7 @@ cover:
     alt: 1888 Minimum Number of Flips to Make the Binary String Alternating
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2639 Find the Width of Columns of a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

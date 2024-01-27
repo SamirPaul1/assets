@@ -10,6 +10,7 @@ cover:
     alt: 1171 Remove Zero Sum Consecutive Nodes from Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

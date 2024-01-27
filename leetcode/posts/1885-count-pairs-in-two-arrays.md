@@ -10,6 +10,7 @@ cover:
     alt: 1885 Count Pairs in Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

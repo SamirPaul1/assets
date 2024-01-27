@@ -10,6 +10,7 @@ cover:
     alt: 0616 Add Bold Tag in String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

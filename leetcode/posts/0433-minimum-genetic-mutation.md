@@ -10,6 +10,7 @@ cover:
     alt: 0433 Minimum Genetic Mutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

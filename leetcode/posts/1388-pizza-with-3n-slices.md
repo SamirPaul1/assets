@@ -10,6 +10,7 @@ cover:
     alt: 1388 Pizza With 3n Slices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

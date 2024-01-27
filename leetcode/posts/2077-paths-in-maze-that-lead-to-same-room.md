@@ -10,6 +10,7 @@ cover:
     alt: 2077 Paths in Maze That Lead to Same Room
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

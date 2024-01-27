@@ -10,6 +10,7 @@ cover:
     alt: 0958 Check Completeness of a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

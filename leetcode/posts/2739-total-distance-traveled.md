@@ -10,6 +10,7 @@ cover:
     alt: 2739 Total Distance Traveled
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

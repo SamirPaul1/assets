@@ -10,6 +10,7 @@ cover:
     alt: 2449 Minimum Number of Operations to Make Arrays Similar
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

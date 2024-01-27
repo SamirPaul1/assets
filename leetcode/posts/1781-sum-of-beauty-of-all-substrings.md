@@ -10,6 +10,7 @@ cover:
     alt: 1781 Sum of Beauty of All Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

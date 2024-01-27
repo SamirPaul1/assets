@@ -10,6 +10,7 @@ cover:
     alt: 0388 Longest Absolute File Path
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2398 Maximum Number of Robots Within Budget
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

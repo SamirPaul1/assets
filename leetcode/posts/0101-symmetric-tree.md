@@ -10,6 +10,7 @@ cover:
     alt: 0101 Symmetric Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

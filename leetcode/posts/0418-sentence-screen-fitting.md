@@ -10,6 +10,7 @@ cover:
     alt: 0418 Sentence Screen Fitting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

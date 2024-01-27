@@ -10,6 +10,7 @@ cover:
     alt: 2849 Determine if a Cell Is Reachable at a Given Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

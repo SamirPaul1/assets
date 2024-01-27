@@ -10,6 +10,7 @@ cover:
     alt: 1549 The Most Recent Orders for Each Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

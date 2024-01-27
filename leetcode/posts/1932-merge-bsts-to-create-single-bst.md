@@ -10,6 +10,7 @@ cover:
     alt: 1932 Merge BSTs to Create Single BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

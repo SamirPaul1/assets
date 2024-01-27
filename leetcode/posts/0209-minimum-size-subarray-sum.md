@@ -10,6 +10,7 @@ cover:
     alt: 0209 Minimum Size Subarray Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

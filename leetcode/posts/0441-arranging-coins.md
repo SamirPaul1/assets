@@ -10,6 +10,7 @@ cover:
     alt: 0441 Arranging Coins
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

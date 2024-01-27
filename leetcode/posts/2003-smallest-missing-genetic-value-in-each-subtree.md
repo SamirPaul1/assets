@@ -10,6 +10,7 @@ cover:
     alt: 2003 Smallest Missing Genetic Value in Each Subtree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

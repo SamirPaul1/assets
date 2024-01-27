@@ -10,6 +10,7 @@ cover:
     alt: 1356 Sort Integers by The Number of 1 Bits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

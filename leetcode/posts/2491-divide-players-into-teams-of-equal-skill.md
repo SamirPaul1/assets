@@ -10,6 +10,7 @@ cover:
     alt: 2491 Divide Players Into Teams of Equal Skill
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

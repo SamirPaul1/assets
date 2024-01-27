@@ -10,6 +10,7 @@ cover:
     alt: 2926 Maximum Balanced Subsequence Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

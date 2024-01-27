@@ -10,6 +10,7 @@ cover:
     alt: 2465 Number of Distinct Averages
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

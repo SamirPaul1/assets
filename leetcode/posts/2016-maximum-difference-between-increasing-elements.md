@@ -10,6 +10,7 @@ cover:
     alt: 2016 Maximum Difference Between Increasing Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

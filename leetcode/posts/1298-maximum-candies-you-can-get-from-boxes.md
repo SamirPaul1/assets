@@ -10,6 +10,7 @@ cover:
     alt: 1298 Maximum Candies You Can Get from Boxes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

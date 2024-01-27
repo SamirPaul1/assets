@@ -10,6 +10,7 @@ cover:
     alt: 1759 Count Number of Homogenous Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

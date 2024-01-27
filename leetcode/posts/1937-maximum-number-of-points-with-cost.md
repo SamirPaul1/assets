@@ -10,6 +10,7 @@ cover:
     alt: 1937 Maximum Number of Points with Cost
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

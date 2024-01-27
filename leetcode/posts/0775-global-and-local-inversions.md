@@ -10,6 +10,7 @@ cover:
     alt: 0775 Global and Local Inversions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

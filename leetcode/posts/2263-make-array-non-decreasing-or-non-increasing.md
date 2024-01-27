@@ -10,6 +10,7 @@ cover:
     alt: 2263 Make Array Non decreasing or Non increasing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

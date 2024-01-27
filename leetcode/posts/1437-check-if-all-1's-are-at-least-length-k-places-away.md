@@ -10,6 +10,7 @@ cover:
     alt: 1437 Check If All 1's Are at Least Length K Places Away
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

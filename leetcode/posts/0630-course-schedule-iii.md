@@ -10,6 +10,7 @@ cover:
     alt: 0630 Course Schedule III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

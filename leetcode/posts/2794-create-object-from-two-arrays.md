@@ -10,6 +10,7 @@ cover:
     alt: 2794 Create Object from Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

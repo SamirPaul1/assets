@@ -10,6 +10,7 @@ cover:
     alt: 2211 Count Collisions on a Road
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0331 Verify Preorder Serialization of a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

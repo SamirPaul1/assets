@@ -10,6 +10,7 @@ cover:
     alt: 2596 Check Knight Tour Configuration
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0544 Output Contest Matches
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

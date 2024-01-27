@@ -10,6 +10,7 @@ cover:
     alt: 2056 Number of Valid Move Combinations On Chessboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

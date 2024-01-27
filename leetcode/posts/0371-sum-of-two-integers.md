@@ -10,6 +10,7 @@ cover:
     alt: 0371 Sum of Two Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0387 First Unique Character in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

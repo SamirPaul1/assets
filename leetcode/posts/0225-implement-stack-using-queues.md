@@ -10,6 +10,7 @@ cover:
     alt: 0225 Implement Stack using Queues
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

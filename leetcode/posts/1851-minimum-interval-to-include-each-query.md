@@ -10,6 +10,7 @@ cover:
     alt: 1851 Minimum Interval to Include Each Query
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

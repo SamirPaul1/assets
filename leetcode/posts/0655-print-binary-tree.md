@@ -10,6 +10,7 @@ cover:
     alt: 0655 Print Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

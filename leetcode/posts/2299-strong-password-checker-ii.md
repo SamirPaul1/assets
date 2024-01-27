@@ -10,6 +10,7 @@ cover:
     alt: 2299 Strong Password Checker II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

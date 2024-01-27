@@ -10,6 +10,7 @@ cover:
     alt: 2890 Reshape Data Melt
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

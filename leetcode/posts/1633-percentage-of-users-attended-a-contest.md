@@ -10,6 +10,7 @@ cover:
     alt: 1633 Percentage of Users Attended a Contest
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

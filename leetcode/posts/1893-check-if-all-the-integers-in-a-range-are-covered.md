@@ -10,6 +10,7 @@ cover:
     alt: 1893 Check if All the Integers in a Range Are Covered
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1399 Count Largest Group
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

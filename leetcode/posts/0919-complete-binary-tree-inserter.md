@@ -10,6 +10,7 @@ cover:
     alt: 0919 Complete Binary Tree Inserter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

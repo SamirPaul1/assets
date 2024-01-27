@@ -10,6 +10,7 @@ cover:
     alt: 1745 Palindrome Partitioning IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

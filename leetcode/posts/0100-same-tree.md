@@ -10,6 +10,7 @@ cover:
     alt: 0100 Same Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

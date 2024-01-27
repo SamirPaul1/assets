@@ -10,6 +10,7 @@ cover:
     alt: 2210 Count Hills and Valleys in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

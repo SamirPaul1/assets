@@ -10,6 +10,7 @@ cover:
     alt: 1801 Number of Orders in the Backlog
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

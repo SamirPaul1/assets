@@ -10,6 +10,7 @@ cover:
     alt: 1844 Replace All Digits with Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0883 Projection Area of 3D Shapes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

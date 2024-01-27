@@ -10,6 +10,7 @@ cover:
     alt: 2820 Election Results
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

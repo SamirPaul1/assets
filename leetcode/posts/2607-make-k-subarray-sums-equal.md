@@ -10,6 +10,7 @@ cover:
     alt: 2607 Make K Subarray Sums Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

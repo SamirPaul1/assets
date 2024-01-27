@@ -10,6 +10,7 @@ cover:
     alt: 2087 Minimum Cost Homecoming of a Robot in a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

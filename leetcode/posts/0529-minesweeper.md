@@ -10,6 +10,7 @@ cover:
     alt: 0529 Minesweeper
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

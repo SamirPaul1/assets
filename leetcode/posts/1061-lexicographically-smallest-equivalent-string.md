@@ -10,6 +10,7 @@ cover:
     alt: 1061 Lexicographically Smallest Equivalent String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2547 Minimum Cost to Split an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

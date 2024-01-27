@@ -10,6 +10,7 @@ cover:
     alt: 1114 Print in Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0520 Detect Capital
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

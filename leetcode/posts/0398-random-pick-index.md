@@ -10,6 +10,7 @@ cover:
     alt: 0398 Random Pick Index
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

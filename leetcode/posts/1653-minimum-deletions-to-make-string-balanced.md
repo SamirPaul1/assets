@@ -10,6 +10,7 @@ cover:
     alt: 1653 Minimum Deletions to Make String Balanced
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0941 Valid Mountain Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1394 Find Lucky Integer in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1600 Throne Inheritance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1086 High Five
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

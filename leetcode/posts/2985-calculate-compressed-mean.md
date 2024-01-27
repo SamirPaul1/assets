@@ -10,6 +10,7 @@ cover:
     alt: 2985 Calculate Compressed Mean
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

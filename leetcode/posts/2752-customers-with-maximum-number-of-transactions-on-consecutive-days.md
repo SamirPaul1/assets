@@ -10,6 +10,7 @@ cover:
     alt: 2752 Customers with Maximum Number of Transactions on Consecutive Days
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

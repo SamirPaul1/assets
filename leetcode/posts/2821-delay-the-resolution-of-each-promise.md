@@ -10,6 +10,7 @@ cover:
     alt: 2821 Delay the Resolution of Each Promise
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

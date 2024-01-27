@@ -10,6 +10,7 @@ cover:
     alt: 1895 Largest Magic Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

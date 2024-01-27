@@ -10,6 +10,7 @@ cover:
     alt: 2289 Steps to Make Array Non decreasing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

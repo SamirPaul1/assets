@@ -10,6 +10,7 @@ cover:
     alt: 1719 Number Of Ways To Reconstruct A Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

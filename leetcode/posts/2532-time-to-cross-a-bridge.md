@@ -10,6 +10,7 @@ cover:
     alt: 2532 Time to Cross a Bridge
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

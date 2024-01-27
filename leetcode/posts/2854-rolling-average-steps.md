@@ -10,6 +10,7 @@ cover:
     alt: 2854 Rolling Average Steps
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

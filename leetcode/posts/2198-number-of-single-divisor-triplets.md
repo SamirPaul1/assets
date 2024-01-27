@@ -10,6 +10,7 @@ cover:
     alt: 2198 Number of Single Divisor Triplets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

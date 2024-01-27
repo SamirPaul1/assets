@@ -10,6 +10,7 @@ cover:
     alt: 1618 Maximum Font to Fit a Sentence in a Screen
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

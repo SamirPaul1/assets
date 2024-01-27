@@ -10,6 +10,7 @@ cover:
     alt: 0028 Find the Index of the First Occurrence in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

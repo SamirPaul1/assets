@@ -10,6 +10,7 @@ cover:
     alt: 1035 Uncrossed Lines
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

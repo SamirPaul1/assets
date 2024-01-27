@@ -10,6 +10,7 @@ cover:
     alt: 0868 Binary Gap
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2843 Count Symmetric Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

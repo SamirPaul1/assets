@@ -10,6 +10,7 @@ cover:
     alt: 1454 Active Users
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

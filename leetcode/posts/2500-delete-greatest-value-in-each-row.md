@@ -10,6 +10,7 @@ cover:
     alt: 2500 Delete Greatest Value in Each Row
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

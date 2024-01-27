@@ -10,6 +10,7 @@ cover:
     alt: 2369 Check if There is a Valid Partition For The Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

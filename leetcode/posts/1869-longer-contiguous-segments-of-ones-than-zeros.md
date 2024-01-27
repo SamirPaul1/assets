@@ -10,6 +10,7 @@ cover:
     alt: 1869 Longer Contiguous Segments of Ones than Zeros
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

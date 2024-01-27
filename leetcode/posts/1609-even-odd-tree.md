@@ -10,6 +10,7 @@ cover:
     alt: 1609 Even Odd Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

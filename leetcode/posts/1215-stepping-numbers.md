@@ -10,6 +10,7 @@ cover:
     alt: 1215 Stepping Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

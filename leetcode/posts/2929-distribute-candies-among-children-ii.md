@@ -10,6 +10,7 @@ cover:
     alt: 2929 Distribute Candies Among Children II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

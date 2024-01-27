@@ -10,6 +10,7 @@ cover:
     alt: 2216 Minimum Deletions to Make Array Beautiful
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

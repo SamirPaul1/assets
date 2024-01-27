@@ -10,6 +10,7 @@ cover:
     alt: 2415 Reverse Odd Levels of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

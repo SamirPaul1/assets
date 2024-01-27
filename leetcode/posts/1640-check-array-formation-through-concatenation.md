@@ -10,6 +10,7 @@ cover:
     alt: 1640 Check Array Formation Through Concatenation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

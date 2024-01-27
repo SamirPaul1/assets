@@ -10,6 +10,7 @@ cover:
     alt: 0690 Employee Importance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2066 Account Balance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

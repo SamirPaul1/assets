@@ -10,6 +10,7 @@ cover:
     alt: 0144 Binary Tree Preorder Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

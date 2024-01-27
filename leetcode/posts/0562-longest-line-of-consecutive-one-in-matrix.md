@@ -10,6 +10,7 @@ cover:
     alt: 0562 Longest Line of Consecutive One in Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

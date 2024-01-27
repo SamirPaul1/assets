@@ -10,6 +10,7 @@ cover:
     alt: 1003 Check If Word Is Valid After Substitutions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

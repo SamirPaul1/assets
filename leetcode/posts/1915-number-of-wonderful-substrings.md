@@ -10,6 +10,7 @@ cover:
     alt: 1915 Number of Wonderful Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

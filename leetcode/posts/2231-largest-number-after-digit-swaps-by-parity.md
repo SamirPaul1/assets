@@ -10,6 +10,7 @@ cover:
     alt: 2231 Largest Number After Digit Swaps by Parity
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

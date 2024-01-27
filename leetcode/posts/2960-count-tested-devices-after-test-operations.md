@@ -10,6 +10,7 @@ cover:
     alt: 2960 Count Tested Devices After Test Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

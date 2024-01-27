@@ -10,6 +10,7 @@ cover:
     alt: 1412 Find the Quiet Students in All Exams
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

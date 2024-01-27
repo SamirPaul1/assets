@@ -10,6 +10,7 @@ cover:
     alt: 0001 Two Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2563 Count the Number of Fair Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

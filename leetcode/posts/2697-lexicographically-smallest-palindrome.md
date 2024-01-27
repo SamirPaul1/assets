@@ -10,6 +10,7 @@ cover:
     alt: 2697 Lexicographically Smallest Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

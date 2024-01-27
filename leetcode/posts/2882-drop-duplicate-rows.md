@@ -10,6 +10,7 @@ cover:
     alt: 2882 Drop Duplicate Rows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

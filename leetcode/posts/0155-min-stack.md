@@ -10,6 +10,7 @@ cover:
     alt: 0155 Min Stack
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

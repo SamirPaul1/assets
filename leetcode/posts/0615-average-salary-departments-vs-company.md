@@ -10,6 +10,7 @@ cover:
     alt: 0615 Average Salary Departments VS Company
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

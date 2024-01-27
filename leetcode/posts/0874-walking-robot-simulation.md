@@ -10,6 +10,7 @@ cover:
     alt: 0874 Walking Robot Simulation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2300 Successful Pairs of Spells and Potions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

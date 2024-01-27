@@ -10,6 +10,7 @@ cover:
     alt: 1146 Snapshot Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

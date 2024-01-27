@@ -10,6 +10,7 @@ cover:
     alt: 0877 Stone Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

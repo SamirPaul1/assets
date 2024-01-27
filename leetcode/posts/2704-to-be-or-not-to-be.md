@@ -10,6 +10,7 @@ cover:
     alt: 2704 To Be Or Not To Be
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

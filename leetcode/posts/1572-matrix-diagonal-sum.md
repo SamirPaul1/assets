@@ -10,6 +10,7 @@ cover:
     alt: 1572 Matrix Diagonal Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

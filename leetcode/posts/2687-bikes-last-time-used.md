@@ -10,6 +10,7 @@ cover:
     alt: 2687 Bikes Last Time Used
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

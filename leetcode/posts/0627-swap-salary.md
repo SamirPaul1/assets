@@ -10,6 +10,7 @@ cover:
     alt: 0627 Swap Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

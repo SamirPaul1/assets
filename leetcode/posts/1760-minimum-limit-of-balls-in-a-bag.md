@@ -10,6 +10,7 @@ cover:
     alt: 1760 Minimum Limit of Balls in a Bag
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

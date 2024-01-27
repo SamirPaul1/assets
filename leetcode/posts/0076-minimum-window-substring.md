@@ -10,6 +10,7 @@ cover:
     alt: 0076 Minimum Window Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

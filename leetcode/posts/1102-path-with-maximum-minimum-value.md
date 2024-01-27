@@ -10,6 +10,7 @@ cover:
     alt: 1102 Path With Maximum Minimum Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

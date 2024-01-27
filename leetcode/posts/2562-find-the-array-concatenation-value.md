@@ -10,6 +10,7 @@ cover:
     alt: 2562 Find the Array Concatenation Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

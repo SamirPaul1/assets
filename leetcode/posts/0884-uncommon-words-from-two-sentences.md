@@ -10,6 +10,7 @@ cover:
     alt: 0884 Uncommon Words from Two Sentences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

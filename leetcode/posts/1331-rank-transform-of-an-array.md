@@ -10,6 +10,7 @@ cover:
     alt: 1331 Rank Transform of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

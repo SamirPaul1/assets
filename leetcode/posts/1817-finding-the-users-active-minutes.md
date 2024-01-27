@@ -10,6 +10,7 @@ cover:
     alt: 1817 Finding the Users Active Minutes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

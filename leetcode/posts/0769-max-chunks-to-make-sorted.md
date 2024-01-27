@@ -10,6 +10,7 @@ cover:
     alt: 0769 Max Chunks To Make Sorted
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

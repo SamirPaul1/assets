@@ -10,6 +10,7 @@ cover:
     alt: 1533 Find the Index of the Large Integer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

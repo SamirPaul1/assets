@@ -10,6 +10,7 @@ cover:
     alt: 2589 Minimum Time to Complete All Tasks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

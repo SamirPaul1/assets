@@ -10,6 +10,7 @@ cover:
     alt: 2626 Array Reduce Transformation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

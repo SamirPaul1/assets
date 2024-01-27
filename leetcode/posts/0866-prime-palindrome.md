@@ -10,6 +10,7 @@ cover:
     alt: 0866 Prime Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

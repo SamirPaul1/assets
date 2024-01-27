@@ -10,6 +10,7 @@ cover:
     alt: 2797 Partial Function with Placeholders
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

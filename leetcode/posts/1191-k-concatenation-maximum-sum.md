@@ -10,6 +10,7 @@ cover:
     alt: 1191 K Concatenation Maximum Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

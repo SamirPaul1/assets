@@ -10,6 +10,7 @@ cover:
     alt: 0332 Reconstruct Itinerary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

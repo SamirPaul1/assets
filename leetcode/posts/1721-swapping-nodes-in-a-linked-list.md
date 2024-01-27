@@ -10,6 +10,7 @@ cover:
     alt: 1721 Swapping Nodes in a Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

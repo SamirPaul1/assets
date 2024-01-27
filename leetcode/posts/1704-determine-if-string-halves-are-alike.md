@@ -10,6 +10,7 @@ cover:
     alt: 1704 Determine if String Halves Are Alike
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

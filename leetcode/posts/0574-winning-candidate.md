@@ -10,6 +10,7 @@ cover:
     alt: 0574 Winning Candidate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

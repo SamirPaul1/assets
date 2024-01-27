@@ -10,6 +10,7 @@ cover:
     alt: 1059 All Paths from Source Lead to Destination
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

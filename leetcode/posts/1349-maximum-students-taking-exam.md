@@ -10,6 +10,7 @@ cover:
     alt: 1349 Maximum Students Taking Exam
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

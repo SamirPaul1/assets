@@ -10,6 +10,7 @@ cover:
     alt: 2955 Number of Same End Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

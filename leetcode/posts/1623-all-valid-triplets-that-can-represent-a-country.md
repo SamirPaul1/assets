@@ -10,6 +10,7 @@ cover:
     alt: 1623 All Valid Triplets That Can Represent a Country
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

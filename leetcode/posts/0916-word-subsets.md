@@ -10,6 +10,7 @@ cover:
     alt: 0916 Word Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

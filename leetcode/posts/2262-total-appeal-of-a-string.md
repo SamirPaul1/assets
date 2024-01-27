@@ -10,6 +10,7 @@ cover:
     alt: 2262 Total Appeal of A String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

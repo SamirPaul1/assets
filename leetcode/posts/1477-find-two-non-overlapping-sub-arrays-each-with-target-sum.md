@@ -10,6 +10,7 @@ cover:
     alt: 1477 Find Two Non overlapping Sub arrays Each With Target Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

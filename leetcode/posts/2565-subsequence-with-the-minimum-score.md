@@ -10,6 +10,7 @@ cover:
     alt: 2565 Subsequence With the Minimum Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

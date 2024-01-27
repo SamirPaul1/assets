@@ -10,6 +10,7 @@ cover:
     alt: 1357 Apply Discount Every n Orders
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

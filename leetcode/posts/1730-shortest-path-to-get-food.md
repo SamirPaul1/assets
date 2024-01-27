@@ -10,6 +10,7 @@ cover:
     alt: 1730 Shortest Path to Get Food
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

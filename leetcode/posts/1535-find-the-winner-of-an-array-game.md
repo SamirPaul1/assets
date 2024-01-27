@@ -10,6 +10,7 @@ cover:
     alt: 1535 Find the Winner of an Array Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

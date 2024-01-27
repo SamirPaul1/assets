@@ -10,6 +10,7 @@ cover:
     alt: 1587 Bank Account Summary II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

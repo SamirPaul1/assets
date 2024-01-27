@@ -10,6 +10,7 @@ cover:
     alt: 2278 Percentage of Letter in String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

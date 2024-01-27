@@ -10,6 +10,7 @@ cover:
     alt: 1221 Split a String in Balanced Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

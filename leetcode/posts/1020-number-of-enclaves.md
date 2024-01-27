@@ -10,6 +10,7 @@ cover:
     alt: 1020 Number of Enclaves
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

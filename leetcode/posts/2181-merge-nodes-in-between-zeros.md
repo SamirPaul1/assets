@@ -10,6 +10,7 @@ cover:
     alt: 2181 Merge Nodes in Between Zeros
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

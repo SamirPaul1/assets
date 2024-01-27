@@ -10,6 +10,7 @@ cover:
     alt: 1722 Minimize Hamming Distance After Swap Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

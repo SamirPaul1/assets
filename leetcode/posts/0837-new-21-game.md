@@ -10,6 +10,7 @@ cover:
     alt: 0837 New 21 Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

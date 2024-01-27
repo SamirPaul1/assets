@@ -10,6 +10,7 @@ cover:
     alt: 0675 Cut Off Trees for Golf Event
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

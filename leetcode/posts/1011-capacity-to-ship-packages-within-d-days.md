@@ -10,6 +10,7 @@ cover:
     alt: 1011 Capacity To Ship Packages Within D Days
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

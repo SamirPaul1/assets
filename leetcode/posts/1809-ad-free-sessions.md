@@ -10,6 +10,7 @@ cover:
     alt: 1809 Ad Free Sessions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

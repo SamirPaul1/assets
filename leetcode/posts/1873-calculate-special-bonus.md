@@ -10,6 +10,7 @@ cover:
     alt: 1873 Calculate Special Bonus
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

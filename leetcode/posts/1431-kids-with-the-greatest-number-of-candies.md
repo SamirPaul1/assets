@@ -10,6 +10,7 @@ cover:
     alt: 1431 Kids With the Greatest Number of Candies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

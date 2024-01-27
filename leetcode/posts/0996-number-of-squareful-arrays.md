@@ -10,6 +10,7 @@ cover:
     alt: 0996 Number of Squareful Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

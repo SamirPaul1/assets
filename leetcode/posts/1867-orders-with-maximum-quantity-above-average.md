@@ -10,6 +10,7 @@ cover:
     alt: 1867 Orders With Maximum Quantity Above Average
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

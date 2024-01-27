@@ -10,6 +10,7 @@ cover:
     alt: 2804 Array Prototype ForEach
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

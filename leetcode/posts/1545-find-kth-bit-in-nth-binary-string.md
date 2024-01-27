@@ -10,6 +10,7 @@ cover:
     alt: 1545 Find Kth Bit in Nth Binary String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

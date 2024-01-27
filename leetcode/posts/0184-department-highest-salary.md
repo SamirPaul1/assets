@@ -10,6 +10,7 @@ cover:
     alt: 0184 Department Highest Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

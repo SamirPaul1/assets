@@ -10,6 +10,7 @@ cover:
     alt: 0506 Relative Ranks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

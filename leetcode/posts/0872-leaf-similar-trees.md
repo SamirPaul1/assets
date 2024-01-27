@@ -10,6 +10,7 @@ cover:
     alt: 0872 Leaf Similar Trees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

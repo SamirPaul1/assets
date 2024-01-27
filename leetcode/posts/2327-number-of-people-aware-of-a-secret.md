@@ -10,6 +10,7 @@ cover:
     alt: 2327 Number of People Aware of a Secret
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

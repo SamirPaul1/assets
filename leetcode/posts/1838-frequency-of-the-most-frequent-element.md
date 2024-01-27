@@ -10,6 +10,7 @@ cover:
     alt: 1838 Frequency of the Most Frequent Element
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

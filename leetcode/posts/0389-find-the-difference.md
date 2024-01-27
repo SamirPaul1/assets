@@ -10,6 +10,7 @@ cover:
     alt: 0389 Find the Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

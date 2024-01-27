@@ -10,6 +10,7 @@ cover:
     alt: 0845 Longest Mountain in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

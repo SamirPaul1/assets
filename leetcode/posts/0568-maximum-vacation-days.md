@@ -10,6 +10,7 @@ cover:
     alt: 0568 Maximum Vacation Days
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

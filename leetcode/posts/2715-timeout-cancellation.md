@@ -10,6 +10,7 @@ cover:
     alt: 2715 Timeout Cancellation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

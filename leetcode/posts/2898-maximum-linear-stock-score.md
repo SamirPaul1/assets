@@ -10,6 +10,7 @@ cover:
     alt: 2898 Maximum Linear Stock Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

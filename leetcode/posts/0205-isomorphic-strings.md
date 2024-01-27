@@ -10,6 +10,7 @@ cover:
     alt: 0205 Isomorphic Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

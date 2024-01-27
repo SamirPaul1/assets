@@ -10,6 +10,7 @@ cover:
     alt: 2946 Matrix Similarity After Cyclic Shifts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

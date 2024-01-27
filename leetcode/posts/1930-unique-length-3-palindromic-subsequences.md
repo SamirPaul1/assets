@@ -10,6 +10,7 @@ cover:
     alt: 1930 Unique Length 3 Palindromic Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

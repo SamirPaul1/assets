@@ -10,6 +10,7 @@ cover:
     alt: 2113 Elements in Array After Removing and Replacing Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

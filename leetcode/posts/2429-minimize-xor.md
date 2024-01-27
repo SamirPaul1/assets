@@ -10,6 +10,7 @@ cover:
     alt: 2429 Minimize XOR
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

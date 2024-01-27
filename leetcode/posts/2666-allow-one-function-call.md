@@ -10,6 +10,7 @@ cover:
     alt: 2666 Allow One Function Call
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

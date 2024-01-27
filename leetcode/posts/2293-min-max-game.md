@@ -10,6 +10,7 @@ cover:
     alt: 2293 Min Max Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

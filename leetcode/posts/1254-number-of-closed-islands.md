@@ -10,6 +10,7 @@ cover:
     alt: 1254 Number of Closed Islands
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

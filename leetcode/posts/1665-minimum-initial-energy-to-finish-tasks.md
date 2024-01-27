@@ -10,6 +10,7 @@ cover:
     alt: 1665 Minimum Initial Energy to Finish Tasks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

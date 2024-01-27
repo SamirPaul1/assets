@@ -10,6 +10,7 @@ cover:
     alt: 2758 Next Day
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

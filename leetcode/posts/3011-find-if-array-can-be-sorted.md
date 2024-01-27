@@ -10,6 +10,7 @@ cover:
     alt: 3011 Find if Array Can Be Sorted
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

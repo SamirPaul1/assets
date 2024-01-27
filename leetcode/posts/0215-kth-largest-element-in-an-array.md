@@ -10,6 +10,7 @@ cover:
     alt: 0215 Kth Largest Element in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

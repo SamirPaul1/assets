@@ -10,6 +10,7 @@ cover:
     alt: 1439 Find the Kth Smallest Sum of a Matrix With Sorted Rows
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

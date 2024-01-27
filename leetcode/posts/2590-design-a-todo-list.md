@@ -10,6 +10,7 @@ cover:
     alt: 2590 Design a Todo List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

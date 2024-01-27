@@ -10,6 +10,7 @@ cover:
     alt: 1034 Coloring A Border
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

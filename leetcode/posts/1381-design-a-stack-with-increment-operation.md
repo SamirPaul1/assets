@@ -10,6 +10,7 @@ cover:
     alt: 1381 Design a Stack With Increment Operation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

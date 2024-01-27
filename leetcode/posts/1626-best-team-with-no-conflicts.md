@@ -10,6 +10,7 @@ cover:
     alt: 1626 Best Team With No Conflicts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

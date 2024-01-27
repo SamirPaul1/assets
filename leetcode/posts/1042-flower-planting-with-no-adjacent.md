@@ -10,6 +10,7 @@ cover:
     alt: 1042 Flower Planting With No Adjacent
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

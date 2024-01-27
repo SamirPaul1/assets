@@ -10,6 +10,7 @@ cover:
     alt: 1341 Movie Rating
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1728 Cat and Mouse II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

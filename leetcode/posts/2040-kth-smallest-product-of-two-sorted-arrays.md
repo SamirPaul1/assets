@@ -10,6 +10,7 @@ cover:
     alt: 2040 Kth Smallest Product of Two Sorted Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

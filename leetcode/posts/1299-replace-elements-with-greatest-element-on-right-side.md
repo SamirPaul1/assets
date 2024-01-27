@@ -10,6 +10,7 @@ cover:
     alt: 1299 Replace Elements with Greatest Element on Right Side
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

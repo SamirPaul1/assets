@@ -10,6 +10,7 @@ cover:
     alt: 1978 Employees Whose Manager Left the Company
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

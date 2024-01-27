@@ -10,6 +10,7 @@ cover:
     alt: 1800 Maximum Ascending Subarray Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1374 Generate a String With Characters That Have Odd Counts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

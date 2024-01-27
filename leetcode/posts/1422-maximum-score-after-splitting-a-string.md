@@ -10,6 +10,7 @@ cover:
     alt: 1422 Maximum Score After Splitting a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

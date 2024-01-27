@@ -10,6 +10,7 @@ cover:
     alt: 1355 Activity Participants
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

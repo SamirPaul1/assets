@@ -10,6 +10,7 @@ cover:
     alt: 2341 Maximum Number of Pairs in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

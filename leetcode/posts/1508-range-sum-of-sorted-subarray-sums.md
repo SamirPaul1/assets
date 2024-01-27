@@ -10,6 +10,7 @@ cover:
     alt: 1508 Range Sum of Sorted Subarray Sums
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

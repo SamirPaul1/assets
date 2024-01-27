@@ -10,6 +10,7 @@ cover:
     alt: 0185 Department Top Three Salaries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

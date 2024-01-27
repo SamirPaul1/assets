@@ -10,6 +10,7 @@ cover:
     alt: 1330 Reverse Subarray To Maximize Array Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

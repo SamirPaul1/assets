@@ -10,6 +10,7 @@ cover:
     alt: 0784 Letter Case Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

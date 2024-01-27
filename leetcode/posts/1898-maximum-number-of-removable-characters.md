@@ -10,6 +10,7 @@ cover:
     alt: 1898 Maximum Number of Removable Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

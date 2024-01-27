@@ -10,6 +10,7 @@ cover:
     alt: 2241 Design an ATM Machine
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

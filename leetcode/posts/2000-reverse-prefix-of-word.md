@@ -10,6 +10,7 @@ cover:
     alt: 2000 Reverse Prefix of Word
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

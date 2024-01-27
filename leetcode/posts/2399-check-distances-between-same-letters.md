@@ -10,6 +10,7 @@ cover:
     alt: 2399 Check Distances Between Same Letters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

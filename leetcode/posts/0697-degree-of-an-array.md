@@ -10,6 +10,7 @@ cover:
     alt: 0697 Degree of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

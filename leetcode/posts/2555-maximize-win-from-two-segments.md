@@ -10,6 +10,7 @@ cover:
     alt: 2555 Maximize Win From Two Segments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

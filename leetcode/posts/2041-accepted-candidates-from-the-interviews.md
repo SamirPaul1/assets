@@ -10,6 +10,7 @@ cover:
     alt: 2041 Accepted Candidates From the Interviews
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0816 Ambiguous Coordinates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

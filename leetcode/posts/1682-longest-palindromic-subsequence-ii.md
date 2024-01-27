@@ -10,6 +10,7 @@ cover:
     alt: 1682 Longest Palindromic Subsequence II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

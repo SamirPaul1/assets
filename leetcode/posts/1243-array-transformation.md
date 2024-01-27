@@ -10,6 +10,7 @@ cover:
     alt: 1243 Array Transformation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

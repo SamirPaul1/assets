@@ -10,6 +10,7 @@ cover:
     alt: 1367 Linked List in Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

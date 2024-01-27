@@ -10,6 +10,7 @@ cover:
     alt: 0864 Shortest Path to Get All Keys
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

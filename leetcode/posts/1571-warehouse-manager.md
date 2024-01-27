@@ -10,6 +10,7 @@ cover:
     alt: 1571 Warehouse Manager
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

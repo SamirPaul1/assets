@@ -10,6 +10,7 @@ cover:
     alt: 0025 Reverse Nodes in k Group
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

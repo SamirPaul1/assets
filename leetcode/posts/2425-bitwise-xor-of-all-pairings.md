@@ -10,6 +10,7 @@ cover:
     alt: 2425 Bitwise XOR of All Pairings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

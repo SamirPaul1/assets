@@ -10,6 +10,7 @@ cover:
     alt: 1041 Robot Bounded In Circle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

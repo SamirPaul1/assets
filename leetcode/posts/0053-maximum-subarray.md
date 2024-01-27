@@ -10,6 +10,7 @@ cover:
     alt: 0053 Maximum Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

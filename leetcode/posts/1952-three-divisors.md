@@ -10,6 +10,7 @@ cover:
     alt: 1952 Three Divisors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2004 The Number of Seniors and Juniors to Join the Company
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

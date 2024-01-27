@@ -10,6 +10,7 @@ cover:
     alt: 0264 Ugly Number II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

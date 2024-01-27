@@ -10,6 +10,7 @@ cover:
     alt: 0917 Reverse Only Letters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

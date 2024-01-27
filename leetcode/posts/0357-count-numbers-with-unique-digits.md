@@ -10,6 +10,7 @@ cover:
     alt: 0357 Count Numbers with Unique Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

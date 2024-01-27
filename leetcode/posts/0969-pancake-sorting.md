@@ -10,6 +10,7 @@ cover:
     alt: 0969 Pancake Sorting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

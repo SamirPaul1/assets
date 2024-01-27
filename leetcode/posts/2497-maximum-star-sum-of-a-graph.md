@@ -10,6 +10,7 @@ cover:
     alt: 2497 Maximum Star Sum of a Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

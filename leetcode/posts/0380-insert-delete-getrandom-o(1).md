@@ -10,6 +10,7 @@ cover:
     alt: 0380 Insert Delete GetRandom O(1)
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

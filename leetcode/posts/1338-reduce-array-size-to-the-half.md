@@ -10,6 +10,7 @@ cover:
     alt: 1338 Reduce Array Size to The Half
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

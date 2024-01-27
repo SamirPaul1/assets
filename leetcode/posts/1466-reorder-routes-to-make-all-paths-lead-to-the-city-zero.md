@@ -10,6 +10,7 @@ cover:
     alt: 1466 Reorder Routes to Make All Paths Lead to the City Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2342 Max Sum of a Pair With Equal Sum of Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0705 Design HashSet
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

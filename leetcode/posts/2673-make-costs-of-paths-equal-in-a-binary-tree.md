@@ -10,6 +10,7 @@ cover:
     alt: 2673 Make Costs of Paths Equal in a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

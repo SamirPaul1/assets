@@ -10,6 +10,7 @@ cover:
     alt: 2790 Maximum Number of Groups With Increasing Length
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

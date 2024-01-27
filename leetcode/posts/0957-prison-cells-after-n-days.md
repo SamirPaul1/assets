@@ -10,6 +10,7 @@ cover:
     alt: 0957 Prison Cells After N Days
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

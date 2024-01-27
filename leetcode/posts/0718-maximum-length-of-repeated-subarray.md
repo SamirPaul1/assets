@@ -10,6 +10,7 @@ cover:
     alt: 0718 Maximum Length of Repeated Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

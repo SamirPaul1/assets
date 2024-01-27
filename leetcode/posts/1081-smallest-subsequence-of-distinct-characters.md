@@ -10,6 +10,7 @@ cover:
     alt: 1081 Smallest Subsequence of Distinct Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

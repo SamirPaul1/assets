@@ -10,6 +10,7 @@ cover:
     alt: 1636 Sort Array by Increasing Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

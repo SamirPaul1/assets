@@ -10,6 +10,7 @@ cover:
     alt: 0751 IP to CIDR
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1140 Stone Game II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

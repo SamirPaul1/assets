@@ -10,6 +10,7 @@ cover:
     alt: 1883 Minimum Skips to Arrive at Meeting On Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

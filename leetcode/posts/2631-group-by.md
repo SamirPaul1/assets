@@ -10,6 +10,7 @@ cover:
     alt: 2631 Group By
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

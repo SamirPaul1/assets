@@ -10,6 +10,7 @@ cover:
     alt: 1458 Max Dot Product of Two Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

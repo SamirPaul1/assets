@@ -10,6 +10,7 @@ cover:
     alt: 2253 Dynamic Unpivoting of a Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

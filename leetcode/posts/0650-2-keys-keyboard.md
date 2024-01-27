@@ -10,6 +10,7 @@ cover:
     alt: 0650 2 Keys Keyboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2105 Watering Plants II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

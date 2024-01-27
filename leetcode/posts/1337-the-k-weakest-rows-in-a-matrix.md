@@ -10,6 +10,7 @@ cover:
     alt: 1337 The K Weakest Rows in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

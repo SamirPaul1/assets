@@ -10,6 +10,7 @@ cover:
     alt: 2359 Find Closest Node to Given Two Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

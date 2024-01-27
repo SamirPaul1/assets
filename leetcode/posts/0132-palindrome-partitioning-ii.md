@@ -10,6 +10,7 @@ cover:
     alt: 0132 Palindrome Partitioning II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

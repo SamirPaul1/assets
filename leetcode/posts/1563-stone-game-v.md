@@ -10,6 +10,7 @@ cover:
     alt: 1563 Stone Game V
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

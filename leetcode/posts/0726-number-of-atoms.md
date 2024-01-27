@@ -10,6 +10,7 @@ cover:
     alt: 0726 Number of Atoms
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2242 Maximum Score of a Node Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

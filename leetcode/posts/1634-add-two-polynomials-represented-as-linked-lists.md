@@ -10,6 +10,7 @@ cover:
     alt: 1634 Add Two Polynomials Represented as Linked Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

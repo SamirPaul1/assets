@@ -10,6 +10,7 @@ cover:
     alt: 2191 Sort the Jumbled Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

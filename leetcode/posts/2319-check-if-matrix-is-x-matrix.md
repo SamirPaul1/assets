@@ -10,6 +10,7 @@ cover:
     alt: 2319 Check if Matrix Is X Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

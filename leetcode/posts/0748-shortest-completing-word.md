@@ -10,6 +10,7 @@ cover:
     alt: 0748 Shortest Completing Word
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

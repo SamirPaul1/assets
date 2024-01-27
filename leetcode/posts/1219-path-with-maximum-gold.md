@@ -10,6 +10,7 @@ cover:
     alt: 1219 Path with Maximum Gold
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

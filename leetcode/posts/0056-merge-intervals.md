@@ -10,6 +10,7 @@ cover:
     alt: 0056 Merge Intervals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

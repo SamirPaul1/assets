@@ -10,6 +10,7 @@ cover:
     alt: 1843 Suspicious Bank Accounts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

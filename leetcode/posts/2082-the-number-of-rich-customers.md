@@ -10,6 +10,7 @@ cover:
     alt: 2082 The Number of Rich Customers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

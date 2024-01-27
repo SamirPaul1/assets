@@ -10,6 +10,7 @@ cover:
     alt: 2930 Number of Strings Which Can Be Rearranged to Contain Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1994 The Number of Good Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

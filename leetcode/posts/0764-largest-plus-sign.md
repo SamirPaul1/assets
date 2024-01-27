@@ -10,6 +10,7 @@ cover:
     alt: 0764 Largest Plus Sign
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

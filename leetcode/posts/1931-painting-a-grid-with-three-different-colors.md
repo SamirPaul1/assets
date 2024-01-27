@@ -10,6 +10,7 @@ cover:
     alt: 1931 Painting a Grid With Three Different Colors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

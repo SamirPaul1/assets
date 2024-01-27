@@ -10,6 +10,7 @@ cover:
     alt: 2317 Maximum XOR After Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

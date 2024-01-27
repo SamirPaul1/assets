@@ -10,6 +10,7 @@ cover:
     alt: 2238 Number of Times a Driver Was a Passenger
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

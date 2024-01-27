@@ -10,6 +10,7 @@ cover:
     alt: 1101 The Earliest Moment When Everyone Become Friends
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

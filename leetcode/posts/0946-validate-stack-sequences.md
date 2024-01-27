@@ -10,6 +10,7 @@ cover:
     alt: 0946 Validate Stack Sequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

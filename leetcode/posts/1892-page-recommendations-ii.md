@@ -10,6 +10,7 @@ cover:
     alt: 1892 Page Recommendations II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

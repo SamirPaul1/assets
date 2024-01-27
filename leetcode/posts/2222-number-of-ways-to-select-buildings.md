@@ -10,6 +10,7 @@ cover:
     alt: 2222 Number of Ways to Select Buildings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

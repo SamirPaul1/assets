@@ -10,6 +10,7 @@ cover:
     alt: 1956 Minimum Time For K Virus Variants to Spread
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

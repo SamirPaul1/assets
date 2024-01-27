@@ -10,6 +10,7 @@ cover:
     alt: 0593 Valid Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

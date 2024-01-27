@@ -10,6 +10,7 @@ cover:
     alt: 1459 Rectangles Area
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

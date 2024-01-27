@@ -10,6 +10,7 @@ cover:
     alt: 0444 Sequence Reconstruction
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

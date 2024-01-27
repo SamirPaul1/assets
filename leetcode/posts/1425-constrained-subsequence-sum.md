@@ -10,6 +10,7 @@ cover:
     alt: 1425 Constrained Subsequence Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2274 Maximum Consecutive Floors Without Special Floors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

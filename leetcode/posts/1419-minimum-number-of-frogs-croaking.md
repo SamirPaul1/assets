@@ -10,6 +10,7 @@ cover:
     alt: 1419 Minimum Number of Frogs Croaking
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

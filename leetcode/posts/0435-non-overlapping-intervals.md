@@ -10,6 +10,7 @@ cover:
     alt: 0435 Non overlapping Intervals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

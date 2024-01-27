@@ -10,6 +10,7 @@ cover:
     alt: 1705 Maximum Number of Eaten Apples
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0763 Partition Labels
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

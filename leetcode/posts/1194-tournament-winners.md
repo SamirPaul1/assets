@@ -10,6 +10,7 @@ cover:
     alt: 1194 Tournament Winners
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

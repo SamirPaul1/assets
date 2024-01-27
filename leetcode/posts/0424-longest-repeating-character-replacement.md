@@ -10,6 +10,7 @@ cover:
     alt: 0424 Longest Repeating Character Replacement
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0601 Human Traffic of Stadium
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

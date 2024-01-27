@@ -10,6 +10,7 @@ cover:
     alt: 1480 Running Sum of 1d Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1174 Immediate Food Delivery II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

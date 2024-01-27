@@ -10,6 +10,7 @@ cover:
     alt: 0399 Evaluate Division
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

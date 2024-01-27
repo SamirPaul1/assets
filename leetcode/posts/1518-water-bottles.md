@@ -10,6 +10,7 @@ cover:
     alt: 1518 Water Bottles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

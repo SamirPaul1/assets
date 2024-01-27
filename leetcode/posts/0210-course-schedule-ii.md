@@ -10,6 +10,7 @@ cover:
     alt: 0210 Course Schedule II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

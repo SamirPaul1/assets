@@ -10,6 +10,7 @@ cover:
     alt: 0042 Trapping Rain Water
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1346 Check If N and Its Double Exist
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

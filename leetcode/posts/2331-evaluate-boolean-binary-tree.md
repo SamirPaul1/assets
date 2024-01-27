@@ -10,6 +10,7 @@ cover:
     alt: 2331 Evaluate Boolean Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

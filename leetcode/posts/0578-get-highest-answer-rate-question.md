@@ -10,6 +10,7 @@ cover:
     alt: 0578 Get Highest Answer Rate Question
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

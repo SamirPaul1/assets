@@ -10,6 +10,7 @@ cover:
     alt: 3013 Divide an Array Into Subarrays With Minimum Cost II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

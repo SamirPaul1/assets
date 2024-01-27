@@ -10,6 +10,7 @@ cover:
     alt: 2568 Minimum Impossible OR
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0620 Not Boring Movies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

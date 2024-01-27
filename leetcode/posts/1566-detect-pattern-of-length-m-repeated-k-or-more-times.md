@@ -10,6 +10,7 @@ cover:
     alt: 1566 Detect Pattern of Length M Repeated K or More Times
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

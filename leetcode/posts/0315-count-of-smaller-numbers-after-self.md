@@ -10,6 +10,7 @@ cover:
     alt: 0315 Count of Smaller Numbers After Self
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

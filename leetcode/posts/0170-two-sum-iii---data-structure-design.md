@@ -10,6 +10,7 @@ cover:
     alt: 0170 Two Sum III   Data structure design
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

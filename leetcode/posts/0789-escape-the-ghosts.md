@@ -10,6 +10,7 @@ cover:
     alt: 0789 Escape The Ghosts
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

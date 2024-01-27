@@ -10,6 +10,7 @@ cover:
     alt: 2245 Maximum Trailing Zeros in a Cornered Path
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

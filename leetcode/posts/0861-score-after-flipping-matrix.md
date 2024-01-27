@@ -10,6 +10,7 @@ cover:
     alt: 0861 Score After Flipping Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

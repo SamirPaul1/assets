@@ -10,6 +10,7 @@ cover:
     alt: 0790 Domino and Tromino Tiling
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

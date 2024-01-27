@@ -10,6 +10,7 @@ cover:
     alt: 2953 Count Complete Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

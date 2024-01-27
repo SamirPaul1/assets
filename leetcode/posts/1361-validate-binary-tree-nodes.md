@@ -10,6 +10,7 @@ cover:
     alt: 1361 Validate Binary Tree Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

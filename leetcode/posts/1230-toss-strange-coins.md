@@ -10,6 +10,7 @@ cover:
     alt: 1230 Toss Strange Coins
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

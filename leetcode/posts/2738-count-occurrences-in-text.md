@@ -10,6 +10,7 @@ cover:
     alt: 2738 Count Occurrences in Text
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

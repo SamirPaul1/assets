@@ -10,6 +10,7 @@ cover:
     alt: 2883 Drop Missing Data
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

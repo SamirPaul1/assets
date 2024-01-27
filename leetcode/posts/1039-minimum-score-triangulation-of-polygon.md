@@ -10,6 +10,7 @@ cover:
     alt: 1039 Minimum Score Triangulation of Polygon
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

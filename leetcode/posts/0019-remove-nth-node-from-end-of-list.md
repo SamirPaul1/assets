@@ -10,6 +10,7 @@ cover:
     alt: 0019 Remove Nth Node From End of List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

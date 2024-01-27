@@ -10,6 +10,7 @@ cover:
     alt: 1666 Change the Root of a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

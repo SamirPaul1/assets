@@ -10,6 +10,7 @@ cover:
     alt: 1521 Find a Value of a Mysterious Function Closest to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

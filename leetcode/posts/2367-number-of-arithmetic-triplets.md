@@ -10,6 +10,7 @@ cover:
     alt: 2367 Number of Arithmetic Triplets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

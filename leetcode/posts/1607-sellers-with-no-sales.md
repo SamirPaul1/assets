@@ -10,6 +10,7 @@ cover:
     alt: 1607 Sellers With No Sales
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

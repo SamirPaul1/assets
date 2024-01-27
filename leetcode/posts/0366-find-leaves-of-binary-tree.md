@@ -10,6 +10,7 @@ cover:
     alt: 0366 Find Leaves of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

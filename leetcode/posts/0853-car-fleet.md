@@ -10,6 +10,7 @@ cover:
     alt: 0853 Car Fleet
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

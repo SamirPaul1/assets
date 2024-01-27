@@ -10,6 +10,7 @@ cover:
     alt: 2506 Count Pairs Of Similar Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

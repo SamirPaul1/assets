@@ -10,6 +10,7 @@ cover:
     alt: 1578 Minimum Time to Make Rope Colorful
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

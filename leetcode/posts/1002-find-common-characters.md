@@ -10,6 +10,7 @@ cover:
     alt: 1002 Find Common Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1496 Path Crossing
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

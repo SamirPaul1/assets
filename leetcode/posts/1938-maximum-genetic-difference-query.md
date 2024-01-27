@@ -10,6 +10,7 @@ cover:
     alt: 1938 Maximum Genetic Difference Query
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

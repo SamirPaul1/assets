@@ -10,6 +10,7 @@ cover:
     alt: 2507 Smallest Value After Replacing With Sum of Prime Factors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

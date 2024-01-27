@@ -10,6 +10,7 @@ cover:
     alt: 0251 Flatten 2D Vector
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

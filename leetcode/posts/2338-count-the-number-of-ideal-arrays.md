@@ -10,6 +10,7 @@ cover:
     alt: 2338 Count the Number of Ideal Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

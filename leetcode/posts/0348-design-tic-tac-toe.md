@@ -10,6 +10,7 @@ cover:
     alt: 0348 Design Tic Tac Toe
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

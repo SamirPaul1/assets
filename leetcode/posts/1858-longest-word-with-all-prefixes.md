@@ -10,6 +10,7 @@ cover:
     alt: 1858 Longest Word With All Prefixes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

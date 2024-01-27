@@ -10,6 +10,7 @@ cover:
     alt: 0551 Student Attendance Record I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

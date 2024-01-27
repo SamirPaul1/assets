@@ -10,6 +10,7 @@ cover:
     alt: 0515 Find Largest Value in Each Tree Row
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

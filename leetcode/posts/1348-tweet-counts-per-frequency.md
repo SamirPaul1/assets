@@ -10,6 +10,7 @@ cover:
     alt: 1348 Tweet Counts Per Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

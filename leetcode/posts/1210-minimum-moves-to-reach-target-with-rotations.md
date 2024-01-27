@@ -10,6 +10,7 @@ cover:
     alt: 1210 Minimum Moves to Reach Target with Rotations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

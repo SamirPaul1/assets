@@ -10,6 +10,7 @@ cover:
     alt: 0780 Reaching Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

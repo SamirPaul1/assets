@@ -10,6 +10,7 @@ cover:
     alt: 0501 Find Mode in Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

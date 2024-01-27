@@ -10,6 +10,7 @@ cover:
     alt: 0678 Valid Parenthesis String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

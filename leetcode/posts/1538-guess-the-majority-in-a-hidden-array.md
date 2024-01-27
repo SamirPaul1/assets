@@ -10,6 +10,7 @@ cover:
     alt: 1538 Guess the Majority in a Hidden Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

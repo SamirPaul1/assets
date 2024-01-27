@@ -10,6 +10,7 @@ cover:
     alt: 0305 Number of Islands II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

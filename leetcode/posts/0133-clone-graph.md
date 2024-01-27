@@ -10,6 +10,7 @@ cover:
     alt: 0133 Clone Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

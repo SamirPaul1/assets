@@ -10,6 +10,7 @@ cover:
     alt: 1248 Count Number of Nice Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2814 Minimum Time Takes to Reach Destination Without Drowning
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

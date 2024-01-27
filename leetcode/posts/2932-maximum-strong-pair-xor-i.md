@@ -10,6 +10,7 @@ cover:
     alt: 2932 Maximum Strong Pair XOR I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

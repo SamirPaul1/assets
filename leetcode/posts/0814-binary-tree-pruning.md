@@ -10,6 +10,7 @@ cover:
     alt: 0814 Binary Tree Pruning
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1943 Describe the Painting
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

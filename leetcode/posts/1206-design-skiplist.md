@@ -10,6 +10,7 @@ cover:
     alt: 1206 Design Skiplist
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0632 Smallest Range Covering Elements from K Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

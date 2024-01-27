@@ -10,6 +10,7 @@ cover:
     alt: 2992 Number of Self Divisible Permutations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

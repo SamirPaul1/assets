@@ -10,6 +10,7 @@ cover:
     alt: 0610 Triangle Judgement
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

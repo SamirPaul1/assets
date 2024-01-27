@@ -10,6 +10,7 @@ cover:
     alt: 1180 Count Substrings with Only One Distinct Letter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

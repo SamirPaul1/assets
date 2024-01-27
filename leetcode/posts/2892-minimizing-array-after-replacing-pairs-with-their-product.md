@@ -10,6 +10,7 @@ cover:
     alt: 2892 Minimizing Array After Replacing Pairs With Their Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1144 Decrease Elements To Make Array Zigzag
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

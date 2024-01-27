@@ -10,6 +10,7 @@ cover:
     alt: 0888 Fair Candy Swap
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

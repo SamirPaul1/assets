@@ -10,6 +10,7 @@ cover:
     alt: 0383 Ransom Note
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

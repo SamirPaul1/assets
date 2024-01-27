@@ -10,6 +10,7 @@ cover:
     alt: 1380 Lucky Numbers in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

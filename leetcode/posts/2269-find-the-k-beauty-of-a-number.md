@@ -10,6 +10,7 @@ cover:
     alt: 2269 Find the K Beauty of a Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

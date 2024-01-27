@@ -10,6 +10,7 @@ cover:
     alt: 1393 Capital GainLoss
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

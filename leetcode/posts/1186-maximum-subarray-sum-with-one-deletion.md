@@ -10,6 +10,7 @@ cover:
     alt: 1186 Maximum Subarray Sum with One Deletion
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

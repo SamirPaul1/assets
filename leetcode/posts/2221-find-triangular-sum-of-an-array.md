@@ -10,6 +10,7 @@ cover:
     alt: 2221 Find Triangular Sum of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2203 Minimum Weighted Subgraph With the Required Paths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

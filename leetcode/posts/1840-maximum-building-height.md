@@ -10,6 +10,7 @@ cover:
     alt: 1840 Maximum Building Height
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

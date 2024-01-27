@@ -10,6 +10,7 @@ cover:
     alt: 2387 Median of a Row Wise Sorted Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

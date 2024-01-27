@@ -10,6 +10,7 @@ cover:
     alt: 2401 Longest Nice Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

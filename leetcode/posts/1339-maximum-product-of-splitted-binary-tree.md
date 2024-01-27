@@ -10,6 +10,7 @@ cover:
     alt: 1339 Maximum Product of Splitted Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

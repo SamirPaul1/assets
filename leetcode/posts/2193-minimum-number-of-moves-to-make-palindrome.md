@@ -10,6 +10,7 @@ cover:
     alt: 2193 Minimum Number of Moves to Make Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

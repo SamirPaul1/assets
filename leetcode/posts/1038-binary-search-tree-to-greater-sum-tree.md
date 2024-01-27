@@ -10,6 +10,7 @@ cover:
     alt: 1038 Binary Search Tree to Greater Sum Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

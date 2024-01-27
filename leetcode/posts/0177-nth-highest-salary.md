@@ -10,6 +10,7 @@ cover:
     alt: 0177 Nth Highest Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

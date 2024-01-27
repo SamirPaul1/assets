@@ -10,6 +10,7 @@ cover:
     alt: 1977 Number of Ways to Separate Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

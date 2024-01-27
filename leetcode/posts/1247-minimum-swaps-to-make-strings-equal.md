@@ -10,6 +10,7 @@ cover:
     alt: 1247 Minimum Swaps to Make Strings Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

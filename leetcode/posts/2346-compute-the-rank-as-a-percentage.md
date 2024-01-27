@@ -10,6 +10,7 @@ cover:
     alt: 2346 Compute the Rank as a Percentage
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

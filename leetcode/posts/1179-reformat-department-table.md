@@ -10,6 +10,7 @@ cover:
     alt: 1179 Reformat Department Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

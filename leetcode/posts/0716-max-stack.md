@@ -10,6 +10,7 @@ cover:
     alt: 0716 Max Stack
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

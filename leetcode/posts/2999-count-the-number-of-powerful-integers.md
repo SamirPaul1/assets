@@ -10,6 +10,7 @@ cover:
     alt: 2999 Count the Number of Powerful Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

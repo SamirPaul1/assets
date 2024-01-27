@@ -10,6 +10,7 @@ cover:
     alt: 1875 Group Employees of the Same Salary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

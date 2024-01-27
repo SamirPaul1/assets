@@ -10,6 +10,7 @@ cover:
     alt: 2410 Maximum Matching of Players With Trainers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

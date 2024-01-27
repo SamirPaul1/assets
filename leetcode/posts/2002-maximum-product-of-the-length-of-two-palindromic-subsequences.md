@@ -10,6 +10,7 @@ cover:
     alt: 2002 Maximum Product of the Length of Two Palindromic Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

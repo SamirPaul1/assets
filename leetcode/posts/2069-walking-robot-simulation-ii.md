@@ -10,6 +10,7 @@ cover:
     alt: 2069 Walking Robot Simulation II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

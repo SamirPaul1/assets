@@ -10,6 +10,7 @@ cover:
     alt: 2207 Maximize Number of Subsequences in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

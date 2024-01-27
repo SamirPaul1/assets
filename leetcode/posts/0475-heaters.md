@@ -10,6 +10,7 @@ cover:
     alt: 0475 Heaters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

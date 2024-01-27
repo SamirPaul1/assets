@@ -10,6 +10,7 @@ cover:
     alt: 0087 Scramble String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

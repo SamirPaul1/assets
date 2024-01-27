@@ -10,6 +10,7 @@ cover:
     alt: 2886 Change Data Type
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

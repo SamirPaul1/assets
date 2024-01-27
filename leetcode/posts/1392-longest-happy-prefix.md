@@ -10,6 +10,7 @@ cover:
     alt: 1392 Longest Happy Prefix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

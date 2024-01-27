@@ -10,6 +10,7 @@ cover:
     alt: 0677 Map Sum Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

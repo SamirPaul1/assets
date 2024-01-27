@@ -10,6 +10,7 @@ cover:
     alt: 2600 K Items With the Maximum Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

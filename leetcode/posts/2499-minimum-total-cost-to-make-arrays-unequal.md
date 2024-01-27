@@ -10,6 +10,7 @@ cover:
     alt: 2499 Minimum Total Cost to Make Arrays Unequal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

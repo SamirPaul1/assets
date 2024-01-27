@@ -10,6 +10,7 @@ cover:
     alt: 0250 Count Univalue Subtrees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2902 Count of Sub Multisets With Bounded Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

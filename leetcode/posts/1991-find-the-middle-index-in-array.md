@@ -10,6 +10,7 @@ cover:
     alt: 1991 Find the Middle Index in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

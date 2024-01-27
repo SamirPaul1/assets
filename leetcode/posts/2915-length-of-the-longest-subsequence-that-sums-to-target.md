@@ -10,6 +10,7 @@ cover:
     alt: 2915 Length of the Longest Subsequence That Sums to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

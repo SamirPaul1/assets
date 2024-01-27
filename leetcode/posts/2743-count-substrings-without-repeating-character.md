@@ -10,6 +10,7 @@ cover:
     alt: 2743 Count Substrings Without Repeating Character
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

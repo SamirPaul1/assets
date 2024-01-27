@@ -10,6 +10,7 @@ cover:
     alt: 2646 Minimize the Total Price of the Trips
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

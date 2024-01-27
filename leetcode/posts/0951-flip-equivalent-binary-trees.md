@@ -10,6 +10,7 @@ cover:
     alt: 0951 Flip Equivalent Binary Trees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1046 Last Stone Weight
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0447 Number of Boomerangs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

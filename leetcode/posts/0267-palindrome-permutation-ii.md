@@ -10,6 +10,7 @@ cover:
     alt: 0267 Palindrome Permutation II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

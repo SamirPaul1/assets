@@ -10,6 +10,7 @@ cover:
     alt: 1594 Maximum Non Negative Product in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

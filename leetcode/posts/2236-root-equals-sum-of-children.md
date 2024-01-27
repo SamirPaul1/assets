@@ -10,6 +10,7 @@ cover:
     alt: 2236 Root Equals Sum of Children
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

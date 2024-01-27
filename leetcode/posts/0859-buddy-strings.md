@@ -10,6 +10,7 @@ cover:
     alt: 0859 Buddy Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

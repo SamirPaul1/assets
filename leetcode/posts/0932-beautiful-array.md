@@ -10,6 +10,7 @@ cover:
     alt: 0932 Beautiful Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

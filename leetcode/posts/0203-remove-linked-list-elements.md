@@ -10,6 +10,7 @@ cover:
     alt: 0203 Remove Linked List Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

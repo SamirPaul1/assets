@@ -10,6 +10,7 @@ cover:
     alt: 0401 Binary Watch
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

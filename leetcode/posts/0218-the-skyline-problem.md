@@ -10,6 +10,7 @@ cover:
     alt: 0218 The Skyline Problem
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

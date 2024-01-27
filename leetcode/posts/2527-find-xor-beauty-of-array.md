@@ -10,6 +10,7 @@ cover:
     alt: 2527 Find Xor Beauty of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

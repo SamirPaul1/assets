@@ -10,6 +10,7 @@ cover:
     alt: 0451 Sort Characters By Frequency
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

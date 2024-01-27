@@ -10,6 +10,7 @@ cover:
     alt: 2726 Calculator with Method Chaining
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

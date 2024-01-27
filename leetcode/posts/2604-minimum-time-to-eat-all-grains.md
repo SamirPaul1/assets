@@ -10,6 +10,7 @@ cover:
     alt: 2604 Minimum Time to Eat All Grains
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

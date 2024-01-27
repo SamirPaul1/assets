@@ -10,6 +10,7 @@ cover:
     alt: 0159 Longest Substring with At Most Two Distinct Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

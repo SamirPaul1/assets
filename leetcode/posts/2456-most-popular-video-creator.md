@@ -10,6 +10,7 @@ cover:
     alt: 2456 Most Popular Video Creator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

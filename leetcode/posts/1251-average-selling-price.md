@@ -10,6 +10,7 @@ cover:
     alt: 1251 Average Selling Price
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

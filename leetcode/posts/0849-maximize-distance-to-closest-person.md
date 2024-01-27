@@ -10,6 +10,7 @@ cover:
     alt: 0849 Maximize Distance to Closest Person
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0545 Boundary of Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

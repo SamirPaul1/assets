@@ -10,6 +10,7 @@ cover:
     alt: 0361 Bomb Enemy
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

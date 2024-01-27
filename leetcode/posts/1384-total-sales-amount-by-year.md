@@ -10,6 +10,7 @@ cover:
     alt: 1384 Total Sales Amount by Year
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

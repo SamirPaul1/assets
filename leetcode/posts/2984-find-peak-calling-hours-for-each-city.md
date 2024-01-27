@@ -10,6 +10,7 @@ cover:
     alt: 2984 Find Peak Calling Hours for Each City
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

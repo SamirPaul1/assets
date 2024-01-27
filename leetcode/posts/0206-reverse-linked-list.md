@@ -10,6 +10,7 @@ cover:
     alt: 0206 Reverse Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

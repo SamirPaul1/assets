@@ -10,6 +10,7 @@ cover:
     alt: 0973 K Closest Points to Origin
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

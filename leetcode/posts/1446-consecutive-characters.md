@@ -10,6 +10,7 @@ cover:
     alt: 1446 Consecutive Characters
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

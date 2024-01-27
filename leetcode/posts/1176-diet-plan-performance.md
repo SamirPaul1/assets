@@ -10,6 +10,7 @@ cover:
     alt: 1176 Diet Plan Performance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

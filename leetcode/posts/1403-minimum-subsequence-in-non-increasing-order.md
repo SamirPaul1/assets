@@ -10,6 +10,7 @@ cover:
     alt: 1403 Minimum Subsequence in Non Increasing Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

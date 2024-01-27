@@ -10,6 +10,7 @@ cover:
     alt: 2047 Number of Valid Words in a Sentence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

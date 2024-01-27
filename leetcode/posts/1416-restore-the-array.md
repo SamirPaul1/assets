@@ -10,6 +10,7 @@ cover:
     alt: 1416 Restore The Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

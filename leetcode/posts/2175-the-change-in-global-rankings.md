@@ -10,6 +10,7 @@ cover:
     alt: 2175 The Change in Global Rankings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

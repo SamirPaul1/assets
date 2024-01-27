@@ -10,6 +10,7 @@ cover:
     alt: 2708 Maximum Strength of a Group
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

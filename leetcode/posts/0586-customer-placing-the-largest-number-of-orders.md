@@ -10,6 +10,7 @@ cover:
     alt: 0586 Customer Placing the Largest Number of Orders
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0772 Basic Calculator III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

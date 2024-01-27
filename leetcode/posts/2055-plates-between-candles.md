@@ -10,6 +10,7 @@ cover:
     alt: 2055 Plates Between Candles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

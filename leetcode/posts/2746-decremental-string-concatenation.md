@@ -10,6 +10,7 @@ cover:
     alt: 2746 Decremental String Concatenation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1476 Subrectangle Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2013 Detect Squares
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

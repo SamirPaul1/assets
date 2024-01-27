@@ -10,6 +10,7 @@ cover:
     alt: 1687 Delivering Boxes from Storage to Ports
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

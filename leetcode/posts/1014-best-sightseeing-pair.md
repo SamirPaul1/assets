@@ -10,6 +10,7 @@ cover:
     alt: 1014 Best Sightseeing Pair
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2503 Maximum Number of Points From Grid Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

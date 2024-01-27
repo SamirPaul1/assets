@@ -10,6 +10,7 @@ cover:
     alt: 0572 Subtree of Another Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

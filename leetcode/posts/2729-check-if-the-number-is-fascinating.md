@@ -10,6 +10,7 @@ cover:
     alt: 2729 Check if The Number is Fascinating
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

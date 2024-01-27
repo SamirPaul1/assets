@@ -10,6 +10,7 @@ cover:
     alt: 2700 Differences Between Two Objects
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

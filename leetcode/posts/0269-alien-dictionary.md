@@ -10,6 +10,7 @@ cover:
     alt: 0269 Alien Dictionary
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

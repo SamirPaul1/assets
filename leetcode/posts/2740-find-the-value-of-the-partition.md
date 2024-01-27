@@ -10,6 +10,7 @@ cover:
     alt: 2740 Find the Value of the Partition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

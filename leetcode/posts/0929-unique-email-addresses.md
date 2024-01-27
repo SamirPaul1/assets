@@ -10,6 +10,7 @@ cover:
     alt: 0929 Unique Email Addresses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

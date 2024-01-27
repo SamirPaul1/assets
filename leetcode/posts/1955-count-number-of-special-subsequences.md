@@ -10,6 +10,7 @@ cover:
     alt: 1955 Count Number of Special Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

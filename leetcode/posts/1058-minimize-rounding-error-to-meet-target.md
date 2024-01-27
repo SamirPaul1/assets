@@ -10,6 +10,7 @@ cover:
     alt: 1058 Minimize Rounding Error to Meet Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

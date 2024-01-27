@@ -10,6 +10,7 @@ cover:
     alt: 2008 Maximum Earnings From Taxi
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

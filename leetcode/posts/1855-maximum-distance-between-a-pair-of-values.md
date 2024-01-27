@@ -10,6 +10,7 @@ cover:
     alt: 1855 Maximum Distance Between a Pair of Values
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

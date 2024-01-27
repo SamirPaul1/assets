@@ -10,6 +10,7 @@ cover:
     alt: 1848 Minimum Distance to the Target Element
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

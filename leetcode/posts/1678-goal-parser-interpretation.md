@@ -10,6 +10,7 @@ cover:
     alt: 1678 Goal Parser Interpretation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

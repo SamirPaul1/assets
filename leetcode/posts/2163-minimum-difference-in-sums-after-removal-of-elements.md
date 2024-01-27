@@ -10,6 +10,7 @@ cover:
     alt: 2163 Minimum Difference in Sums After Removal of Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

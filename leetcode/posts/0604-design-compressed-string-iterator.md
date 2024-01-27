@@ -10,6 +10,7 @@ cover:
     alt: 0604 Design Compressed String Iterator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

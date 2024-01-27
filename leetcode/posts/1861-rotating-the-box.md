@@ -10,6 +10,7 @@ cover:
     alt: 1861 Rotating the Box
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

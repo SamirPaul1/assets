@@ -10,6 +10,7 @@ cover:
     alt: 0034 Find First and Last Position of Element in Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0631 Design Excel Sum Formula
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

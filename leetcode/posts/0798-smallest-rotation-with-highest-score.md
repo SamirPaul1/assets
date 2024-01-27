@@ -10,6 +10,7 @@ cover:
     alt: 0798 Smallest Rotation with Highest Score
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

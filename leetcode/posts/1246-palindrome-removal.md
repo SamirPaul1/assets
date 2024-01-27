@@ -10,6 +10,7 @@ cover:
     alt: 1246 Palindrome Removal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

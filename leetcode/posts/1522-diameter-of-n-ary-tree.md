@@ -10,6 +10,7 @@ cover:
     alt: 1522 Diameter of N Ary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

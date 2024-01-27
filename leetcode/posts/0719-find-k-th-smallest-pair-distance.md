@@ -10,6 +10,7 @@ cover:
     alt: 0719 Find K th Smallest Pair Distance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

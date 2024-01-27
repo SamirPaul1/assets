@@ -10,6 +10,7 @@ cover:
     alt: 1752 Check if Array Is Sorted and Rotated
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

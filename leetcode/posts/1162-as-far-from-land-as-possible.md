@@ -10,6 +10,7 @@ cover:
     alt: 1162 As Far from Land as Possible
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

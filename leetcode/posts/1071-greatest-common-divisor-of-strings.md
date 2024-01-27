@@ -10,6 +10,7 @@ cover:
     alt: 1071 Greatest Common Divisor of Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

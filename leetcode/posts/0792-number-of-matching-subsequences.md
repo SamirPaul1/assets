@@ -10,6 +10,7 @@ cover:
     alt: 0792 Number of Matching Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

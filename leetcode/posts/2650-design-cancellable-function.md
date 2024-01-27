@@ -10,6 +10,7 @@ cover:
     alt: 2650 Design Cancellable Function
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

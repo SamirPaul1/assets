@@ -10,6 +10,7 @@ cover:
     alt: 0367 Valid Perfect Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2178 Maximum Split of Positive Even Integers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

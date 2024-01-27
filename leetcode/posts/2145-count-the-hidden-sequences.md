@@ -10,6 +10,7 @@ cover:
     alt: 2145 Count the Hidden Sequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

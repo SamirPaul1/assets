@@ -10,6 +10,7 @@ cover:
     alt: 2763 Sum of Imbalance Numbers of All Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

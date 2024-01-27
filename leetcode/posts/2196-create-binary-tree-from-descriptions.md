@@ -10,6 +10,7 @@ cover:
     alt: 2196 Create Binary Tree From Descriptions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

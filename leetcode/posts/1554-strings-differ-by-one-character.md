@@ -10,6 +10,7 @@ cover:
     alt: 1554 Strings Differ by One Character
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

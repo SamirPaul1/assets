@@ -10,6 +10,7 @@ cover:
     alt: 0036 Valid Sudoku
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

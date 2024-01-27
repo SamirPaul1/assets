@@ -10,6 +10,7 @@ cover:
     alt: 1886 Determine Whether Matrix Can Be Obtained By Rotation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

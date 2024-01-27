@@ -10,6 +10,7 @@ cover:
     alt: 2838 Maximum Coins Heroes Can Collect
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

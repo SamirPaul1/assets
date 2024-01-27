@@ -10,6 +10,7 @@ cover:
     alt: 2656 Maximum Sum With Exactly K Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2291 Maximum Profit From Trading Stocks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

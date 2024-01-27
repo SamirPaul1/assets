@@ -10,6 +10,7 @@ cover:
     alt: 2894 Divisible and Non divisible Sums Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

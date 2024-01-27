@@ -10,6 +10,7 @@ cover:
     alt: 2735 Collecting Chocolates
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

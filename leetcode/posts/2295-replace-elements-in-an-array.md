@@ -10,6 +10,7 @@ cover:
     alt: 2295 Replace Elements in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

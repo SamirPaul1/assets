@@ -10,6 +10,7 @@ cover:
     alt: 1642 Furthest Building You Can Reach
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

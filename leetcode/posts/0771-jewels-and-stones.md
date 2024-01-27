@@ -10,6 +10,7 @@ cover:
     alt: 0771 Jewels and Stones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

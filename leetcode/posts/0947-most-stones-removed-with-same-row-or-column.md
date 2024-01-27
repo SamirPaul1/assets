@@ -10,6 +10,7 @@ cover:
     alt: 0947 Most Stones Removed with Same Row or Column
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

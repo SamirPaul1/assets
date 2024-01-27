@@ -10,6 +10,7 @@ cover:
     alt: 2513 Minimize the Maximum of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

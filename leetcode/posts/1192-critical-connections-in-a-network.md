@@ -10,6 +10,7 @@ cover:
     alt: 1192 Critical Connections in a Network
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

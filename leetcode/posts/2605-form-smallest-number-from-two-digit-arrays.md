@@ -10,6 +10,7 @@ cover:
     alt: 2605 Form Smallest Number From Two Digit Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

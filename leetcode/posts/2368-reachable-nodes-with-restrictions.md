@@ -10,6 +10,7 @@ cover:
     alt: 2368 Reachable Nodes With Restrictions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

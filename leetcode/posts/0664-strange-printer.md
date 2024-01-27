@@ -10,6 +10,7 @@ cover:
     alt: 0664 Strange Printer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

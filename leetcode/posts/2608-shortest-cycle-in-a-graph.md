@@ -10,6 +10,7 @@ cover:
     alt: 2608 Shortest Cycle in a Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

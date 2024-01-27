@@ -10,6 +10,7 @@ cover:
     alt: 0942 DI String Match
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

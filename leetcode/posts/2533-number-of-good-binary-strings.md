@@ -10,6 +10,7 @@ cover:
     alt: 2533 Number of Good Binary Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

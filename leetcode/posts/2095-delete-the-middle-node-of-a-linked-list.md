@@ -10,6 +10,7 @@ cover:
     alt: 2095 Delete the Middle Node of a Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

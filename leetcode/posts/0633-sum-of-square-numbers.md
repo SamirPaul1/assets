@@ -10,6 +10,7 @@ cover:
     alt: 0633 Sum of Square Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

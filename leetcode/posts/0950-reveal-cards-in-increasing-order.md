@@ -10,6 +10,7 @@ cover:
     alt: 0950 Reveal Cards In Increasing Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

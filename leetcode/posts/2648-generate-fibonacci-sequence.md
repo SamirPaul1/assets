@@ -10,6 +10,7 @@ cover:
     alt: 2648 Generate Fibonacci Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

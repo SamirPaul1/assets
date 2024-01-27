@@ -10,6 +10,7 @@ cover:
     alt: 2316 Count Unreachable Pairs of Nodes in an Undirected Graph
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

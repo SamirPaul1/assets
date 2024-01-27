@@ -10,6 +10,7 @@ cover:
     alt: 2027 Minimum Moves to Convert String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

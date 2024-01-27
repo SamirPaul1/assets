@@ -10,6 +10,7 @@ cover:
     alt: 2141 Maximum Running Time of N Computers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

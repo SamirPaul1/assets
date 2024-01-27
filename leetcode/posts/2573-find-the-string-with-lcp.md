@@ -10,6 +10,7 @@ cover:
     alt: 2573 Find the String with LCP
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

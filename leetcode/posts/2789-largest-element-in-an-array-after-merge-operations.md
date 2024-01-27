@@ -10,6 +10,7 @@ cover:
     alt: 2789 Largest Element in an Array after Merge Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

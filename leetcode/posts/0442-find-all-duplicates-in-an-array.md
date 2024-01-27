@@ -10,6 +10,7 @@ cover:
     alt: 0442 Find All Duplicates in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0257 Binary Tree Paths
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

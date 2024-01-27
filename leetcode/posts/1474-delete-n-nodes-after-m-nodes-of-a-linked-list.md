@@ -10,6 +10,7 @@ cover:
     alt: 1474 Delete N Nodes After M Nodes of a Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

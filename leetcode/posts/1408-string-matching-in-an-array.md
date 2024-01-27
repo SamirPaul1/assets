@@ -10,6 +10,7 @@ cover:
     alt: 1408 String Matching in an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

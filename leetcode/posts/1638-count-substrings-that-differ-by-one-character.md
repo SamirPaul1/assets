@@ -10,6 +10,7 @@ cover:
     alt: 1638 Count Substrings That Differ by One Character
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2435 Paths in Matrix Whose Sum Is Divisible by K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

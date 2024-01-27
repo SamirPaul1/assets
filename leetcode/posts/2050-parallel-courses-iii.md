@@ -10,6 +10,7 @@ cover:
     alt: 2050 Parallel Courses III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1421 NPV Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

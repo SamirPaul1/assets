@@ -10,6 +10,7 @@ cover:
     alt: 2781 Length of the Longest Valid Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

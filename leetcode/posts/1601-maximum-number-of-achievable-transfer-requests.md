@@ -10,6 +10,7 @@ cover:
     alt: 1601 Maximum Number of Achievable Transfer Requests
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

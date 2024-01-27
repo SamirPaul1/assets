@@ -10,6 +10,7 @@ cover:
     alt: 1324 Print Words Vertically
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

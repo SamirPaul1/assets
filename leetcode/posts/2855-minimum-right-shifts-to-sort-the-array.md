@@ -10,6 +10,7 @@ cover:
     alt: 2855 Minimum Right Shifts to Sort the Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

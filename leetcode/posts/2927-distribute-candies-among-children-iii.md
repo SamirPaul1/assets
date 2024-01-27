@@ -10,6 +10,7 @@ cover:
     alt: 2927 Distribute Candies Among Children III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

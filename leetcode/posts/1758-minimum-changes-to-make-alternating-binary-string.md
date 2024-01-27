@@ -10,6 +10,7 @@ cover:
     alt: 1758 Minimum Changes To Make Alternating Binary String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2623 Memoize
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

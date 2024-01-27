@@ -10,6 +10,7 @@ cover:
     alt: 0234 Palindrome Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

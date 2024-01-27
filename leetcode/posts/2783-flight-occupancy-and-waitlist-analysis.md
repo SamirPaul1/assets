@@ -10,6 +10,7 @@ cover:
     alt: 2783 Flight Occupancy and Waitlist Analysis
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

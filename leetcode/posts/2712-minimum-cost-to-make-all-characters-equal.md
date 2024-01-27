@@ -10,6 +10,7 @@ cover:
     alt: 2712 Minimum Cost to Make All Characters Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

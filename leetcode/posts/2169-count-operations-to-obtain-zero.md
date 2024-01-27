@@ -10,6 +10,7 @@ cover:
     alt: 2169 Count Operations to Obtain Zero
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

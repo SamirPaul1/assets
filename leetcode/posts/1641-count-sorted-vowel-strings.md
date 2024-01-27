@@ -10,6 +10,7 @@ cover:
     alt: 1641 Count Sorted Vowel Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

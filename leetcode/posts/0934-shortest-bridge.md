@@ -10,6 +10,7 @@ cover:
     alt: 0934 Shortest Bridge
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

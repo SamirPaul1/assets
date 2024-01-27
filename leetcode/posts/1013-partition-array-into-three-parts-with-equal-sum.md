@@ -10,6 +10,7 @@ cover:
     alt: 1013 Partition Array Into Three Parts With Equal Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

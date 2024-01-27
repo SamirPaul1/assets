@@ -10,6 +10,7 @@ cover:
     alt: 2035 Partition Array Into Two Arrays to Minimize Sum Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

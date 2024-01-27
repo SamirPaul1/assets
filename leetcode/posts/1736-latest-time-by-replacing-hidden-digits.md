@@ -10,6 +10,7 @@ cover:
     alt: 1736 Latest Time by Replacing Hidden Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

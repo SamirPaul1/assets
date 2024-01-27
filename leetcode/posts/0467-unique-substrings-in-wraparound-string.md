@@ -10,6 +10,7 @@ cover:
     alt: 0467 Unique Substrings in Wraparound String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

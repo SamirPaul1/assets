@@ -10,6 +10,7 @@ cover:
     alt: 1765 Map of Highest Peak
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

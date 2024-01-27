@@ -10,6 +10,7 @@ cover:
     alt: 1252 Cells with Odd Values in a Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

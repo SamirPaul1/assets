@@ -10,6 +10,7 @@ cover:
     alt: 1556 Thousand Separator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

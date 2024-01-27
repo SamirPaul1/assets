@@ -10,6 +10,7 @@ cover:
     alt: 2680 Maximum OR
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

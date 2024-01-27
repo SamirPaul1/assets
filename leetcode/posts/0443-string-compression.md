@@ -10,6 +10,7 @@ cover:
     alt: 0443 String Compression
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

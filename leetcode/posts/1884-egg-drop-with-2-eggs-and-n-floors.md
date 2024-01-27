@@ -10,6 +10,7 @@ cover:
     alt: 1884 Egg Drop With 2 Eggs and N Floors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

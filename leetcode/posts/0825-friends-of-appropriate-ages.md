@@ -10,6 +10,7 @@ cover:
     alt: 0825 Friends Of Appropriate Ages
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

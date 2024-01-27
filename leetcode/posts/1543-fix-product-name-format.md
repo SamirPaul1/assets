@@ -10,6 +10,7 @@ cover:
     alt: 1543 Fix Product Name Format
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

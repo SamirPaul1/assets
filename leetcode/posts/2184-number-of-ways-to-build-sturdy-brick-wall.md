@@ -10,6 +10,7 @@ cover:
     alt: 2184 Number of Ways to Build Sturdy Brick Wall
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

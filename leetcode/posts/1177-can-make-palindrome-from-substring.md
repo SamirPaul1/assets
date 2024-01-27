@@ -10,6 +10,7 @@ cover:
     alt: 1177 Can Make Palindrome from Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

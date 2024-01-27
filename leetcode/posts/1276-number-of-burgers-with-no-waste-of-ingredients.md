@@ -10,6 +10,7 @@ cover:
     alt: 1276 Number of Burgers with No Waste of Ingredients
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

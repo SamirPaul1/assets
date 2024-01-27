@@ -10,6 +10,7 @@ cover:
     alt: 2479 Maximum XOR of Two Non Overlapping Subtrees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

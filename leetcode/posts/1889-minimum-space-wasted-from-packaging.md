@@ -10,6 +10,7 @@ cover:
     alt: 1889 Minimum Space Wasted From Packaging
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

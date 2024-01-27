@@ -10,6 +10,7 @@ cover:
     alt: 3000 Maximum Area of Longest Diagonal Rectangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1012 Numbers With Repeated Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

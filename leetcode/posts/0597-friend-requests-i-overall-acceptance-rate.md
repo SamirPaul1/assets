@@ -10,6 +10,7 @@ cover:
     alt: 0597 Friend Requests I Overall Acceptance Rate
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

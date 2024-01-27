@@ -10,6 +10,7 @@ cover:
     alt: 1974 Minimum Time to Type Word Using Special Typewriter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

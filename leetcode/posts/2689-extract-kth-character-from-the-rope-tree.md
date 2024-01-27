@@ -10,6 +10,7 @@ cover:
     alt: 2689 Extract Kth Character From The Rope Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

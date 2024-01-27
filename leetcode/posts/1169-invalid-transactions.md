@@ -10,6 +10,7 @@ cover:
     alt: 1169 Invalid Transactions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

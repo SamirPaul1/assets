@@ -10,6 +10,7 @@ cover:
     alt: 2831 Find the Longest Equal Subarray
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

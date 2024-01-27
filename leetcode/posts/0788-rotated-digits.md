@@ -10,6 +10,7 @@ cover:
     alt: 0788 Rotated Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0068 Text Justification
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

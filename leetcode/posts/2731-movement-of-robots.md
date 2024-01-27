@@ -10,6 +10,7 @@ cover:
     alt: 2731 Movement of Robots
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

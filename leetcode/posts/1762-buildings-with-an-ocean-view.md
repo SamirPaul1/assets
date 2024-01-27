@@ -10,6 +10,7 @@ cover:
     alt: 1762 Buildings With an Ocean View
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

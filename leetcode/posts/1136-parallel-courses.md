@@ -10,6 +10,7 @@ cover:
     alt: 1136 Parallel Courses
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

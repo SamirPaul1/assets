@@ -10,6 +10,7 @@ cover:
     alt: 0397 Integer Replacement
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

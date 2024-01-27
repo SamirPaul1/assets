@@ -10,6 +10,7 @@ cover:
     alt: 2138 Divide a String Into Groups of Size k
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

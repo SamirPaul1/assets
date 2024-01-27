@@ -10,6 +10,7 @@ cover:
     alt: 2676 Throttle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

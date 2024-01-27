@@ -10,6 +10,7 @@ cover:
     alt: 1918 Kth Smallest Subarray Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

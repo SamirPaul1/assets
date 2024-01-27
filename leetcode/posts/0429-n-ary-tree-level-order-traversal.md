@@ -10,6 +10,7 @@ cover:
     alt: 0429 N ary Tree Level Order Traversal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

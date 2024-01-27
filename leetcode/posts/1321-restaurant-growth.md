@@ -10,6 +10,7 @@ cover:
     alt: 1321 Restaurant Growth
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

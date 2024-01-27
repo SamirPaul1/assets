@@ -10,6 +10,7 @@ cover:
     alt: 1767 Find the Subtasks That Did Not Execute
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2868 The Wording Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

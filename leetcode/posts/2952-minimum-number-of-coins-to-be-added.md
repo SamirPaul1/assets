@@ -10,6 +10,7 @@ cover:
     alt: 2952 Minimum Number of Coins to be Added
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

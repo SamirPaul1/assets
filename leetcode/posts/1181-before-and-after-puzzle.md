@@ -10,6 +10,7 @@ cover:
     alt: 1181 Before and After Puzzle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

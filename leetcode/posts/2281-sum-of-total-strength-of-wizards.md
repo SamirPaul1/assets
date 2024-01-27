@@ -10,6 +10,7 @@ cover:
     alt: 2281 Sum of Total Strength of Wizards
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

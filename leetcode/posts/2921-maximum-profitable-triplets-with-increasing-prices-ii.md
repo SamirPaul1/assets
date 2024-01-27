@@ -10,6 +10,7 @@ cover:
     alt: 2921 Maximum Profitable Triplets With Increasing Prices II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

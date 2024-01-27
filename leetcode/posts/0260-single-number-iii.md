@@ -10,6 +10,7 @@ cover:
     alt: 0260 Single Number III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

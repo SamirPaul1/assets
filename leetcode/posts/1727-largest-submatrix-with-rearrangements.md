@@ -10,6 +10,7 @@ cover:
     alt: 1727 Largest Submatrix With Rearrangements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

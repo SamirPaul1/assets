@@ -10,6 +10,7 @@ cover:
     alt: 1928 Minimum Cost to Reach Destination in Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

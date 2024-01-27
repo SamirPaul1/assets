@@ -10,6 +10,7 @@ cover:
     alt: 1022 Sum of Root To Leaf Binary Numbers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

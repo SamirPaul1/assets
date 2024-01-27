@@ -10,6 +10,7 @@ cover:
     alt: 1043 Partition Array for Maximum Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

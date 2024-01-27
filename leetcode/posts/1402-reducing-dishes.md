@@ -10,6 +10,7 @@ cover:
     alt: 1402 Reducing Dishes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

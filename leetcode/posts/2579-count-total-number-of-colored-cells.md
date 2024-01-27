@@ -10,6 +10,7 @@ cover:
     alt: 2579 Count Total Number of Colored Cells
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

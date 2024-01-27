@@ -10,6 +10,7 @@ cover:
     alt: 1712 Ways to Split Array Into Three Subarrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

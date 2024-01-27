@@ -10,6 +10,7 @@ cover:
     alt: 2897 Apply Operations on Array to Maximize Sum of Squares
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

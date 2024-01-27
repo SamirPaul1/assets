@@ -10,6 +10,7 @@ cover:
     alt: 2655 Find Maximal Uncovered Ranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

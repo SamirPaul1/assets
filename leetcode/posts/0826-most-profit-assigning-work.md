@@ -10,6 +10,7 @@ cover:
     alt: 0826 Most Profit Assigning Work
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

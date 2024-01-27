@@ -10,6 +10,7 @@ cover:
     alt: 1400 Construct K Palindrome Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

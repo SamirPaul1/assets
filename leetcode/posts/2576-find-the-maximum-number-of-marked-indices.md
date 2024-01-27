@@ -10,6 +10,7 @@ cover:
     alt: 2576 Find the Maximum Number of Marked Indices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

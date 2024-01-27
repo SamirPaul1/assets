@@ -10,6 +10,7 @@ cover:
     alt: 1006 Clumsy Factorial
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

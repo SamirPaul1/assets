@@ -10,6 +10,7 @@ cover:
     alt: 2159 Order Two Columns Independently
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

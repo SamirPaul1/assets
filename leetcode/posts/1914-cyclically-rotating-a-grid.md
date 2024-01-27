@@ -10,6 +10,7 @@ cover:
     alt: 1914 Cyclically Rotating a Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

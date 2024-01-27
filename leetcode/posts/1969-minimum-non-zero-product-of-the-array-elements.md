@@ -10,6 +10,7 @@ cover:
     alt: 1969 Minimum Non Zero Product of the Array Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

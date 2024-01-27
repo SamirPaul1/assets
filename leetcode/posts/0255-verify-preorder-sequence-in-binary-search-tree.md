@@ -10,6 +10,7 @@ cover:
     alt: 0255 Verify Preorder Sequence in Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

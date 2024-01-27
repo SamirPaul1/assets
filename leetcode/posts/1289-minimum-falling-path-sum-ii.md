@@ -10,6 +10,7 @@ cover:
     alt: 1289 Minimum Falling Path Sum II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2546 Apply Bitwise Operations to Make Strings Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

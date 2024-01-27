@@ -10,6 +10,7 @@ cover:
     alt: 1269 Number of Ways to Stay in the Same Place After Some Steps
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

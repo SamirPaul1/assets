@@ -10,6 +10,7 @@ cover:
     alt: 1333 Filter Restaurants by Vegan Friendly, Price and Distance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

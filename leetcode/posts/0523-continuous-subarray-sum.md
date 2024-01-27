@@ -10,6 +10,7 @@ cover:
     alt: 0523 Continuous Subarray Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

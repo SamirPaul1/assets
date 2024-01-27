@@ -10,6 +10,7 @@ cover:
     alt: 2354 Number of Excellent Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

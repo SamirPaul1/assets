@@ -10,6 +10,7 @@ cover:
     alt: 0668 Kth Smallest Number in Multiplication Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

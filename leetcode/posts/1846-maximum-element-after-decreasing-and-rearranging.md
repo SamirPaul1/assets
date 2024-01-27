@@ -10,6 +10,7 @@ cover:
     alt: 1846 Maximum Element After Decreasing and Rearranging
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

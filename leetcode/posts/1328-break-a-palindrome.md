@@ -10,6 +10,7 @@ cover:
     alt: 1328 Break a Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

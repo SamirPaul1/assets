@@ -10,6 +10,7 @@ cover:
     alt: 2171 Removing Minimum Number of Magic Beans
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

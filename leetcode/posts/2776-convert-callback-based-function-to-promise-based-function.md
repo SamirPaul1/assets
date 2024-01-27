@@ -10,6 +10,7 @@ cover:
     alt: 2776 Convert Callback Based Function to Promise Based Function
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

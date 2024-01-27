@@ -10,6 +10,7 @@ cover:
     alt: 1510 Stone Game IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

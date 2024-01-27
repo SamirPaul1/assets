@@ -10,6 +10,7 @@ cover:
     alt: 1544 Make The String Great
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

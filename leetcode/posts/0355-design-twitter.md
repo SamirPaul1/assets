@@ -10,6 +10,7 @@ cover:
     alt: 0355 Design Twitter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

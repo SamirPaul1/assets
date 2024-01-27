@@ -10,6 +10,7 @@ cover:
     alt: 2164 Sort Even and Odd Indices Independently
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

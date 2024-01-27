@@ -10,6 +10,7 @@ cover:
     alt: 0146 LRU Cache
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

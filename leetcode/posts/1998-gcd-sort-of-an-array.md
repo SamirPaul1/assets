@@ -10,6 +10,7 @@ cover:
     alt: 1998 GCD Sort of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

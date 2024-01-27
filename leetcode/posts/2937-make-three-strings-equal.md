@@ -10,6 +10,7 @@ cover:
     alt: 2937 Make Three Strings Equal
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

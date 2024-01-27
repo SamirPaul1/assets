@@ -10,6 +10,7 @@ cover:
     alt: 2437 Number of Valid Clock Times
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

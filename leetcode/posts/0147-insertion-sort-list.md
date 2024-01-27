@@ -10,6 +10,7 @@ cover:
     alt: 0147 Insertion Sort List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

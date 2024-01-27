@@ -10,6 +10,7 @@ cover:
     alt: 1428 Leftmost Column with at Least a One
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

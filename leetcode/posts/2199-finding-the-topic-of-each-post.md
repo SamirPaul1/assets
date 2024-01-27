@@ -10,6 +10,7 @@ cover:
     alt: 2199 Finding the Topic of Each Post
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

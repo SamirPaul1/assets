@@ -10,6 +10,7 @@ cover:
     alt: 0449 Serialize and Deserialize BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2585 Number of Ways to Earn Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

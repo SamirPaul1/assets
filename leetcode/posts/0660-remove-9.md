@@ -10,6 +10,7 @@ cover:
     alt: 0660 Remove 9
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

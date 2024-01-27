@@ -10,6 +10,7 @@ cover:
     alt: 1656 Design an Ordered Stream
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

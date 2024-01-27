@@ -10,6 +10,7 @@ cover:
     alt: 0430 Flatten a Multilevel Doubly Linked List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

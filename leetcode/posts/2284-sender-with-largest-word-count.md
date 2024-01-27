@@ -10,6 +10,7 @@ cover:
     alt: 2284 Sender With Largest Word Count
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

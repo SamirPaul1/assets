@@ -10,6 +10,7 @@ cover:
     alt: 0014 Longest Common Prefix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2156 Find Substring With Given Hash Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

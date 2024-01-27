@@ -10,6 +10,7 @@ cover:
     alt: 1141 User Activity for the Past 30 Days I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0282 Expression Add Operators
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

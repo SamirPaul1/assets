@@ -10,6 +10,7 @@ cover:
     alt: 0860 Lemonade Change
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

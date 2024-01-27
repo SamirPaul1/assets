@@ -10,6 +10,7 @@ cover:
     alt: 2243 Calculate Digit Sum of a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

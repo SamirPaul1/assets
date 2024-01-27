@@ -10,6 +10,7 @@ cover:
     alt: 1913 Maximum Product Difference Between Two Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

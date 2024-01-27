@@ -10,6 +10,7 @@ cover:
     alt: 0739 Daily Temperatures
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

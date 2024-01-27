@@ -10,6 +10,7 @@ cover:
     alt: 2612 Minimum Reverse Operations
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

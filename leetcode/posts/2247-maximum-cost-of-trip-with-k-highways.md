@@ -10,6 +10,7 @@ cover:
     alt: 2247 Maximum Cost of Trip With K Highways
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

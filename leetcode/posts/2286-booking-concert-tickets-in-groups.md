@@ -10,6 +10,7 @@ cover:
     alt: 2286 Booking Concert Tickets in Groups
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

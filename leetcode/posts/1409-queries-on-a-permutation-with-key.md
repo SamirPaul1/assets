@@ -10,6 +10,7 @@ cover:
     alt: 1409 Queries on a Permutation With Key
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

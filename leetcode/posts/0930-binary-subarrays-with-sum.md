@@ -10,6 +10,7 @@ cover:
     alt: 0930 Binary Subarrays With Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1753 Maximum Score From Removing Stones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

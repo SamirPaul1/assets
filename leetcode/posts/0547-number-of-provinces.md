@@ -10,6 +10,7 @@ cover:
     alt: 0547 Number of Provinces
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

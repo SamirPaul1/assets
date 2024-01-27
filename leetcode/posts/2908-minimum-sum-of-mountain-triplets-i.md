@@ -10,6 +10,7 @@ cover:
     alt: 2908 Minimum Sum of Mountain Triplets I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0023 Merge k Sorted Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

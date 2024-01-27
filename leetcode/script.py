@@ -36,6 +36,7 @@ for folder_name in os.listdir(src_dir):
     md_file.write(f"    alt: {title_name}\n")
     md_file.write("    hiddenInList: true\n")
     md_file.write("    hiddenInSingle: false\n")
+    md_file.write("math: true\n")
     md_file.write("---\n")
     md_file.write("\n")
     md_file.write("\n")

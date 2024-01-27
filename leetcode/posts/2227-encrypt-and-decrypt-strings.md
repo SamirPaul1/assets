@@ -10,6 +10,7 @@ cover:
     alt: 2227 Encrypt and Decrypt Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

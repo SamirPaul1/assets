@@ -10,6 +10,7 @@ cover:
     alt: 2005 Subtree Removal Game with Fibonacci Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0310 Minimum Height Trees
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

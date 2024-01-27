@@ -10,6 +10,7 @@ cover:
     alt: 1863 Sum of All Subset XOR Totals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

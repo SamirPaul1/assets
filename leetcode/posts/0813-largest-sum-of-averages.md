@@ -10,6 +10,7 @@ cover:
     alt: 0813 Largest Sum of Averages
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

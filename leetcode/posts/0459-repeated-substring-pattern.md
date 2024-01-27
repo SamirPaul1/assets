@@ -10,6 +10,7 @@ cover:
     alt: 0459 Repeated Substring Pattern
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

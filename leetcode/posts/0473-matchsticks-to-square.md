@@ -10,6 +10,7 @@ cover:
     alt: 0473 Matchsticks to Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0933 Number of Recent Calls
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

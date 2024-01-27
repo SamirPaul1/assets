@@ -10,6 +10,7 @@ cover:
     alt: 1970 Last Day Where You Can Still Cross
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

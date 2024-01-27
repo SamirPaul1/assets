@@ -10,6 +10,7 @@ cover:
     alt: 1163 Last Substring in Lexicographical Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

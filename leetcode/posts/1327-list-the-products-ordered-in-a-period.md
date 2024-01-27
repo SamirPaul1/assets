@@ -10,6 +10,7 @@ cover:
     alt: 1327 List the Products Ordered in a Period
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

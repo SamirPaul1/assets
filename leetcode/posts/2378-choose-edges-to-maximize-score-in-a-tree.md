@@ -10,6 +10,7 @@ cover:
     alt: 2378 Choose Edges to Maximize Score in a Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

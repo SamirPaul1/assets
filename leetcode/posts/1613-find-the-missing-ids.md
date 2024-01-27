@@ -10,6 +10,7 @@ cover:
     alt: 1613 Find the Missing IDs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

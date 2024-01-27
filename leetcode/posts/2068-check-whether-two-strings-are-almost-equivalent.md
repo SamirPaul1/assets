@@ -10,6 +10,7 @@ cover:
     alt: 2068 Check Whether Two Strings are Almost Equivalent
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

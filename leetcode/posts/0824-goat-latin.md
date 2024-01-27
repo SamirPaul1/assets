@@ -10,6 +10,7 @@ cover:
     alt: 0824 Goat Latin
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

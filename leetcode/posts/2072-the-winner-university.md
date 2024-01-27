@@ -10,6 +10,7 @@ cover:
     alt: 2072 The Winner University
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

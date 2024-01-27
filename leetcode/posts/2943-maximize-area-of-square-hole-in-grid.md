@@ -10,6 +10,7 @@ cover:
     alt: 2943 Maximize Area of Square Hole in Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

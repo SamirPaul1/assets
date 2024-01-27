@@ -10,6 +10,7 @@ cover:
     alt: 1182 Shortest Distance to Target Color
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

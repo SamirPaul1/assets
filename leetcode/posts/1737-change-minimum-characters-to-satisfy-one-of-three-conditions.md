@@ -10,6 +10,7 @@ cover:
     alt: 1737 Change Minimum Characters to Satisfy One of Three Conditions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0821 Shortest Distance to a Character
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

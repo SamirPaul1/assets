@@ -10,6 +10,7 @@ cover:
     alt: 0072 Edit Distance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

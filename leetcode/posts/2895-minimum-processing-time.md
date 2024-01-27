@@ -10,6 +10,7 @@ cover:
     alt: 2895 Minimum Processing Time
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

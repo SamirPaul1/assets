@@ -10,6 +10,7 @@ cover:
     alt: 1363 Largest Multiple of Three
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

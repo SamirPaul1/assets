@@ -10,6 +10,7 @@ cover:
     alt: 2117 Abbreviating the Product of a Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

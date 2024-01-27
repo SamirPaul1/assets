@@ -10,6 +10,7 @@ cover:
     alt: 0977 Squares of a Sorted Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

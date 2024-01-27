@@ -10,6 +10,7 @@ cover:
     alt: 0659 Split Array into Consecutive Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

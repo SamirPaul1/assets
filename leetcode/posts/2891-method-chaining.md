@@ -10,6 +10,7 @@ cover:
     alt: 2891 Method Chaining
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

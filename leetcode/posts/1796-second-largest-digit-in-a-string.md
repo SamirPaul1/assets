@@ -10,6 +10,7 @@ cover:
     alt: 1796 Second Largest Digit in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

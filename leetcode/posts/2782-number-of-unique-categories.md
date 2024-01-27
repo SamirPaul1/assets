@@ -10,6 +10,7 @@ cover:
     alt: 2782 Number of Unique Categories
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

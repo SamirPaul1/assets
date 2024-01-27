@@ -10,6 +10,7 @@ cover:
     alt: 0128 Longest Consecutive Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

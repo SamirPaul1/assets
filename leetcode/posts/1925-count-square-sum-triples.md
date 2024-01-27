@@ -10,6 +10,7 @@ cover:
     alt: 1925 Count Square Sum Triples
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

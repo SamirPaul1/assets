@@ -10,6 +10,7 @@ cover:
     alt: 1345 Jump Game IV
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

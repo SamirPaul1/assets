@@ -10,6 +10,7 @@ cover:
     alt: 0657 Robot Return to Origin
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

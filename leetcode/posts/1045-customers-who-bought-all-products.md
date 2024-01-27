@@ -10,6 +10,7 @@ cover:
     alt: 1045 Customers Who Bought All Products
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

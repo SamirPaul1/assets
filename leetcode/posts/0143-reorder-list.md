@@ -10,6 +10,7 @@ cover:
     alt: 0143 Reorder List
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

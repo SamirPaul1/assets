@@ -10,6 +10,7 @@ cover:
     alt: 2691 Immutability Helper
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

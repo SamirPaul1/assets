@@ -10,6 +10,7 @@ cover:
     alt: 2283 Check if Number Has Equal Digit Count and Digit Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

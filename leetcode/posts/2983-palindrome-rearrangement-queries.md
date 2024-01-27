@@ -10,6 +10,7 @@ cover:
     alt: 2983 Palindrome Rearrangement Queries
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

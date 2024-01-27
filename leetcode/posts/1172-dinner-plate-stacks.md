@@ -10,6 +10,7 @@ cover:
     alt: 1172 Dinner Plate Stacks
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

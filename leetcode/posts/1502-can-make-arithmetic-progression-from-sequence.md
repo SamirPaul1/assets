@@ -10,6 +10,7 @@ cover:
     alt: 1502 Can Make Arithmetic Progression From Sequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

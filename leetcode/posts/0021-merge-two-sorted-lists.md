@@ -10,6 +10,7 @@ cover:
     alt: 0021 Merge Two Sorted Lists
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

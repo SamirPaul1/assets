@@ -10,6 +10,7 @@ cover:
     alt: 0673 Number of Longest Increasing Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

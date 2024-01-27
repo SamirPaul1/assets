@@ -10,6 +10,7 @@ cover:
     alt: 0291 Word Pattern II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

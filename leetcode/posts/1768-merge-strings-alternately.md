@@ -10,6 +10,7 @@ cover:
     alt: 1768 Merge Strings Alternately
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

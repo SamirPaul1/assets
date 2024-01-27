@@ -10,6 +10,7 @@ cover:
     alt: 1015 Smallest Integer Divisible by K
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

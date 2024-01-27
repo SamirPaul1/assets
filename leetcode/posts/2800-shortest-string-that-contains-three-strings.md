@@ -10,6 +10,7 @@ cover:
     alt: 2800 Shortest String That Contains Three Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

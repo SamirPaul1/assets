@@ -10,6 +10,7 @@ cover:
     alt: 2318 Number of Distinct Roll Sequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

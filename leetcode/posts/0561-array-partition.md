@@ -10,6 +10,7 @@ cover:
     alt: 0561 Array Partition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

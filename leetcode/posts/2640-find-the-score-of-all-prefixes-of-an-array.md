@@ -10,6 +10,7 @@ cover:
     alt: 2640 Find the Score of All Prefixes of an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

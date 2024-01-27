@@ -10,6 +10,7 @@ cover:
     alt: 2643 Row With Maximum Ones
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0156 Binary Tree Upside Down
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

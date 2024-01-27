@@ -10,6 +10,7 @@ cover:
     alt: 2881 Create a New Column
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

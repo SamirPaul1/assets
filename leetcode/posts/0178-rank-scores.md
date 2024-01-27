@@ -10,6 +10,7 @@ cover:
     alt: 0178 Rank Scores
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

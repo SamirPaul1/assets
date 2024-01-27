@@ -10,6 +10,7 @@ cover:
     alt: 0221 Maximal Square
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

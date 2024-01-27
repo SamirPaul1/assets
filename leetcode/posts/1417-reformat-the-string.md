@@ -10,6 +10,7 @@ cover:
     alt: 1417 Reformat The String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

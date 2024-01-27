@@ -10,6 +10,7 @@ cover:
     alt: 0642 Design Search Autocomplete System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

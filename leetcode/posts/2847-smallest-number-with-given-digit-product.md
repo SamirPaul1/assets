@@ -10,6 +10,7 @@ cover:
     alt: 2847 Smallest Number With Given Digit Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

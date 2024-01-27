@@ -10,6 +10,7 @@ cover:
     alt: 1574 Shortest Subarray to be Removed to Make Array Sorted
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

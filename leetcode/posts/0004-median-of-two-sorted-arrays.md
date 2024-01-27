@@ -10,6 +10,7 @@ cover:
     alt: 0004 Median of Two Sorted Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

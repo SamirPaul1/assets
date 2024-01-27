@@ -10,6 +10,7 @@ cover:
     alt: 2276 Count Integers in Intervals
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

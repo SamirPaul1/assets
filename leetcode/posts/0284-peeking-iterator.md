@@ -10,6 +10,7 @@ cover:
     alt: 0284 Peeking Iterator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

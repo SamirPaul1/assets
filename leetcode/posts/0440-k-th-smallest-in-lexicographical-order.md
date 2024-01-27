@@ -10,6 +10,7 @@ cover:
     alt: 0440 K th Smallest in Lexicographical Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

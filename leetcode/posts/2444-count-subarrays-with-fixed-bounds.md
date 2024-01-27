@@ -10,6 +10,7 @@ cover:
     alt: 2444 Count Subarrays With Fixed Bounds
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

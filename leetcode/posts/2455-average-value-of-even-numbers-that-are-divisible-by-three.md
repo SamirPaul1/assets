@@ -10,6 +10,7 @@ cover:
     alt: 2455 Average Value of Even Numbers That Are Divisible by Three
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

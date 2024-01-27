@@ -10,6 +10,7 @@ cover:
     alt: 0082 Remove Duplicates from Sorted List II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

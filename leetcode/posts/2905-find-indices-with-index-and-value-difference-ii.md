@@ -10,6 +10,7 @@ cover:
     alt: 2905 Find Indices With Index and Value Difference II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

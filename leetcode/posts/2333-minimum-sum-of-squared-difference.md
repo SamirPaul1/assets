@@ -10,6 +10,7 @@ cover:
     alt: 2333 Minimum Sum of Squared Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

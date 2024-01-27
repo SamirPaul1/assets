@@ -10,6 +10,7 @@ cover:
     alt: 0829 Consecutive Numbers Sum
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1570 Dot Product of Two Sparse Vectors
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

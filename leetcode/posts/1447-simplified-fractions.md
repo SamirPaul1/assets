@@ -10,6 +10,7 @@ cover:
     alt: 1447 Simplified Fractions
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

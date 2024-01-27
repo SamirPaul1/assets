@@ -10,6 +10,7 @@ cover:
     alt: 0935 Knight Dialer
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

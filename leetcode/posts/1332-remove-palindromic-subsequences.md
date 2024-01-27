@@ -10,6 +10,7 @@ cover:
     alt: 1332 Remove Palindromic Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

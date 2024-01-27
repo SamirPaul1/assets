@@ -10,6 +10,7 @@ cover:
     alt: 0912 Sort an Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

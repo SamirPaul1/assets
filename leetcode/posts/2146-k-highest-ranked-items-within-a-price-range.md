@@ -10,6 +10,7 @@ cover:
     alt: 2146 K Highest Ranked Items Within a Price Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

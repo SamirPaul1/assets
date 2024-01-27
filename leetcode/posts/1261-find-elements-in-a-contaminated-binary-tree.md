@@ -10,6 +10,7 @@ cover:
     alt: 1261 Find Elements in a Contaminated Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

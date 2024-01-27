@@ -10,6 +10,7 @@ cover:
     alt: 0490 The Maze
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

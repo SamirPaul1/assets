@@ -10,6 +10,7 @@ cover:
     alt: 1026 Maximum Difference Between Node and Ancestor
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

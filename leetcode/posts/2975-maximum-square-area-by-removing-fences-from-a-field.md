@@ -10,6 +10,7 @@ cover:
     alt: 2975 Maximum Square Area by Removing Fences From a Field
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

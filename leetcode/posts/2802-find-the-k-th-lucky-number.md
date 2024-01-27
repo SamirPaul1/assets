@@ -10,6 +10,7 @@ cover:
     alt: 2802 Find The K th Lucky Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

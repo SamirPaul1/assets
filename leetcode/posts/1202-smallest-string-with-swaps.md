@@ -10,6 +10,7 @@ cover:
     alt: 1202 Smallest String With Swaps
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

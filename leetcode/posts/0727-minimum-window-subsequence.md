@@ -10,6 +10,7 @@ cover:
     alt: 0727 Minimum Window Subsequence
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

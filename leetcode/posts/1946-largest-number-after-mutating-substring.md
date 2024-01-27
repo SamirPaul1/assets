@@ -10,6 +10,7 @@ cover:
     alt: 1946 Largest Number After Mutating Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

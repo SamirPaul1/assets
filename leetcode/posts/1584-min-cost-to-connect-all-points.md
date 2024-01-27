@@ -10,6 +10,7 @@ cover:
     alt: 1584 Min Cost to Connect All Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

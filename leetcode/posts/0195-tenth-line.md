@@ -10,6 +10,7 @@ cover:
     alt: 0195 Tenth Line
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

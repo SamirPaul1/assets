@@ -10,6 +10,7 @@ cover:
     alt: 2536 Increment Submatrices by One
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

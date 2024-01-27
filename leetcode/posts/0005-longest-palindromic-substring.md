@@ -10,6 +10,7 @@ cover:
     alt: 0005 Longest Palindromic Substring
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

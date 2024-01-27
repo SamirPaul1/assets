@@ -10,6 +10,7 @@ cover:
     alt: 0396 Rotate Function
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

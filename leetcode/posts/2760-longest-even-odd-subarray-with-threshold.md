@@ -10,6 +10,7 @@ cover:
     alt: 2760 Longest Even Odd Subarray With Threshold
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

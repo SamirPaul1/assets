@@ -10,6 +10,7 @@ cover:
     alt: 1794 Count Pairs of Equal Substrings With Minimum Difference
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

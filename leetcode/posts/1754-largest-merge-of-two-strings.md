@@ -10,6 +10,7 @@ cover:
     alt: 1754 Largest Merge Of Two Strings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

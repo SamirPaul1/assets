@@ -10,6 +10,7 @@ cover:
     alt: 0758 Bold Words in String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

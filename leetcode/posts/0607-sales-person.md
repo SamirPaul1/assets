@@ -10,6 +10,7 @@ cover:
     alt: 0607 Sales Person
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

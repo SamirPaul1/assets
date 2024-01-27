@@ -10,6 +10,7 @@ cover:
     alt: 0709 To Lower Case
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

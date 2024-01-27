@@ -10,6 +10,7 @@ cover:
     alt: 0984 String Without AAA or BBB
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

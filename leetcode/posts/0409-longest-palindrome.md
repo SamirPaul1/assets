@@ -10,6 +10,7 @@ cover:
     alt: 0409 Longest Palindrome
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

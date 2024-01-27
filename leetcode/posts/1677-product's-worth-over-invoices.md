@@ -10,6 +10,7 @@ cover:
     alt: 1677 Product's Worth Over Invoices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

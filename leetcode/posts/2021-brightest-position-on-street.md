@@ -10,6 +10,7 @@ cover:
     alt: 2021 Brightest Position on Street
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

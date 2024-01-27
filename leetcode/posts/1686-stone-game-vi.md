@@ -10,6 +10,7 @@ cover:
     alt: 1686 Stone Game VI
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

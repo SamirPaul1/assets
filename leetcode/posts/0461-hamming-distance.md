@@ -10,6 +10,7 @@ cover:
     alt: 0461 Hamming Distance
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

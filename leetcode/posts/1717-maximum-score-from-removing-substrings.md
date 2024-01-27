@@ -10,6 +10,7 @@ cover:
     alt: 1717 Maximum Score From Removing Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

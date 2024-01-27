@@ -10,6 +10,7 @@ cover:
     alt: 1953 Maximum Number of Weeks for Which You Can Work
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

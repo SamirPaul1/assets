@@ -10,6 +10,7 @@ cover:
     alt: 2107 Number of Unique Flavors After Sharing K Candies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

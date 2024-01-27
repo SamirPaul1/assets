@@ -10,6 +10,7 @@ cover:
     alt: 1115 Print FooBar Alternately
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

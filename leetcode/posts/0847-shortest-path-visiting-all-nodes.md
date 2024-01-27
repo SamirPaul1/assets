@@ -10,6 +10,7 @@ cover:
     alt: 0847 Shortest Path Visiting All Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1667 Fix Names in a Table
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

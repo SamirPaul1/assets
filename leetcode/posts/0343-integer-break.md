@@ -10,6 +10,7 @@ cover:
     alt: 0343 Integer Break
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

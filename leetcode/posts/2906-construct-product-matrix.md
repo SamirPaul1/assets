@@ -10,6 +10,7 @@ cover:
     alt: 2906 Construct Product Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

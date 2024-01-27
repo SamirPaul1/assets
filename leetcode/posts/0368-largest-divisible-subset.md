@@ -10,6 +10,7 @@ cover:
     alt: 0368 Largest Divisible Subset
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

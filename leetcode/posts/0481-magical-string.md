@@ -10,6 +10,7 @@ cover:
     alt: 0481 Magical String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

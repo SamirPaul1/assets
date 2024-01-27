@@ -10,6 +10,7 @@ cover:
     alt: 0391 Perfect Rectangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

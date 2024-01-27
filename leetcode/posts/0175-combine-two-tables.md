@@ -10,6 +10,7 @@ cover:
     alt: 0175 Combine Two Tables
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

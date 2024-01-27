@@ -10,6 +10,7 @@ cover:
     alt: 0783 Minimum Distance Between BST Nodes
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

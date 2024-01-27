@@ -10,6 +10,7 @@ cover:
     alt: 2539 Count the Number of Good Subsequences
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

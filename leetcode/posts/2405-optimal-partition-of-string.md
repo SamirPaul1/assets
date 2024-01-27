@@ -10,6 +10,7 @@ cover:
     alt: 2405 Optimal Partition of String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1085 Sum of Digits in the Minimum Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

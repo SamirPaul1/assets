@@ -10,6 +10,7 @@ cover:
     alt: 1484 Group Sold Products By The Date
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

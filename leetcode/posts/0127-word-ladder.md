@@ -10,6 +10,7 @@ cover:
     alt: 0127 Word Ladder
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

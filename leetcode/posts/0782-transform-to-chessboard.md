@@ -10,6 +10,7 @@ cover:
     alt: 0782 Transform to Chessboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

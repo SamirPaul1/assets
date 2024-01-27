@@ -10,6 +10,7 @@ cover:
     alt: 1929 Concatenation of Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0635 Design Log Storage System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

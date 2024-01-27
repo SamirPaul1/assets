@@ -10,6 +10,7 @@ cover:
     alt: 0478 Generate Random Point in a Circle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0799 Champagne Tower
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

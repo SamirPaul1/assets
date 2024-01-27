@@ -10,6 +10,7 @@ cover:
     alt: 0321 Create Maximum Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

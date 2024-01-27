@@ -10,6 +10,7 @@ cover:
     alt: 0268 Missing Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

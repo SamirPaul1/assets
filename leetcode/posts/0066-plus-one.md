@@ -10,6 +10,7 @@ cover:
     alt: 0066 Plus One
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

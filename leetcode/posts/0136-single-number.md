@@ -10,6 +10,7 @@ cover:
     alt: 0136 Single Number
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

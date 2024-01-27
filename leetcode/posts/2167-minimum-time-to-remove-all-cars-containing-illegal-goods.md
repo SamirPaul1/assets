@@ -10,6 +10,7 @@ cover:
     alt: 2167 Minimum Time to Remove All Cars Containing Illegal Goods
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

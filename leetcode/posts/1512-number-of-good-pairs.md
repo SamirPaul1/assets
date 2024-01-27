@@ -10,6 +10,7 @@ cover:
     alt: 1512 Number of Good Pairs
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

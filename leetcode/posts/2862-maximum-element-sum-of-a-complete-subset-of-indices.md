@@ -10,6 +10,7 @@ cover:
     alt: 2862 Maximum Element Sum of a Complete Subset of Indices
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2784 Check if Array is Good
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

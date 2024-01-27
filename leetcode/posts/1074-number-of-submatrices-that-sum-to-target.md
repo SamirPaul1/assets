@@ -10,6 +10,7 @@ cover:
     alt: 1074 Number of Submatrices That Sum to Target
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

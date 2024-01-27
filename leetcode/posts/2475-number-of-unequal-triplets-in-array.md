@@ -10,6 +10,7 @@ cover:
     alt: 2475 Number of Unequal Triplets in Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

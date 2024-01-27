@@ -10,6 +10,7 @@ cover:
     alt: 0078 Subsets
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

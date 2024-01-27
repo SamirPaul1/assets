@@ -10,6 +10,7 @@ cover:
     alt: 2039 The Time When the Network Becomes Idle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

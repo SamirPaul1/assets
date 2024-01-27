@@ -10,6 +10,7 @@ cover:
     alt: 0682 Baseball Game
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

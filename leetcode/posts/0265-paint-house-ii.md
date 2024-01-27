@@ -10,6 +10,7 @@ cover:
     alt: 0265 Paint House II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

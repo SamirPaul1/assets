@@ -10,6 +10,7 @@ cover:
     alt: 2939 Maximum Xor Product
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

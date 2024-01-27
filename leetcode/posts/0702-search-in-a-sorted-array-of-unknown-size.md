@@ -10,6 +10,7 @@ cover:
     alt: 0702 Search in a Sorted Array of Unknown Size
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

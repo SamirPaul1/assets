@@ -10,6 +10,7 @@ cover:
     alt: 2523 Closest Prime Numbers in Range
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

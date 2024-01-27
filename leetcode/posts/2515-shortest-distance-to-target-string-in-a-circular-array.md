@@ -10,6 +10,7 @@ cover:
     alt: 2515 Shortest Distance to Target String in a Circular Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

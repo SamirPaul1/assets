@@ -10,6 +10,7 @@ cover:
     alt: 1879 Minimum XOR Sum of Two Arrays
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

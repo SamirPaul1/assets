@@ -10,6 +10,7 @@ cover:
     alt: 1647 Minimum Deletions to Make Character Frequencies Unique
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0347 Top K Frequent Elements
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

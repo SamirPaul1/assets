@@ -10,6 +10,7 @@ cover:
     alt: 1695 Maximum Erasure Value
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

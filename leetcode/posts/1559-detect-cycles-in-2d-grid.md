@@ -10,6 +10,7 @@ cover:
     alt: 1559 Detect Cycles in 2D Grid
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

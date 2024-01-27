@@ -10,6 +10,7 @@ cover:
     alt: 2480 Form a Chemical Bond
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

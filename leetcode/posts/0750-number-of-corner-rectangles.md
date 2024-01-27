@@ -10,6 +10,7 @@ cover:
     alt: 0750 Number Of Corner Rectangles
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

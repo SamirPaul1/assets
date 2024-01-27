@@ -10,6 +10,7 @@ cover:
     alt: 3015 Count the Number of Houses at a Certain Distance I
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

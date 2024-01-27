@@ -10,6 +10,7 @@ cover:
     alt: 2070 Most Beautiful Item for Each Query
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

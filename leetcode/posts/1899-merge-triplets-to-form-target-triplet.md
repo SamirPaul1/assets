@@ -10,6 +10,7 @@ cover:
     alt: 1899 Merge Triplets to Form Target Triplet
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

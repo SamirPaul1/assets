@@ -10,6 +10,7 @@ cover:
     alt: 0722 Remove Comments
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

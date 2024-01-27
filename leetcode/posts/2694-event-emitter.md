@@ -10,6 +10,7 @@ cover:
     alt: 2694 Event Emitter
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

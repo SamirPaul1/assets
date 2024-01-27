@@ -10,6 +10,7 @@ cover:
     alt: 1030 Matrix Cells in Distance Order
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

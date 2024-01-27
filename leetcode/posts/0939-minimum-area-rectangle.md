@@ -10,6 +10,7 @@ cover:
     alt: 0939 Minimum Area Rectangle
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

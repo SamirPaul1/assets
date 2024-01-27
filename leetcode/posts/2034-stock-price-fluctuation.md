@@ -10,6 +10,7 @@ cover:
     alt: 2034 Stock Price Fluctuation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1698 Number of Distinct Substrings in a String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

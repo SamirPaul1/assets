@@ -10,6 +10,7 @@ cover:
     alt: 1912 Design Movie Rental System
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

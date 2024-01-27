@@ -10,6 +10,7 @@ cover:
     alt: 0791 Custom Sort String
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

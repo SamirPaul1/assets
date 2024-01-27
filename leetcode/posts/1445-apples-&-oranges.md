@@ -10,6 +10,7 @@ cover:
     alt: 1445 Apples & Oranges
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

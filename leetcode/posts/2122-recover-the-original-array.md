@@ -10,6 +10,7 @@ cover:
     alt: 2122 Recover the Original Array
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

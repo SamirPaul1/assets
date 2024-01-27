@@ -10,6 +10,7 @@ cover:
     alt: 1004 Max Consecutive Ones III
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

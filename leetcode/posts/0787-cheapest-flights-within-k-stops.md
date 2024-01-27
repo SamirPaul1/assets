@@ -10,6 +10,7 @@ cover:
     alt: 0787 Cheapest Flights Within K Stops
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

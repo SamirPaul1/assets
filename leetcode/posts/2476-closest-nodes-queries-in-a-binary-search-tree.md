@@ -10,6 +10,7 @@ cover:
     alt: 2476 Closest Nodes Queries in a Binary Search Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 1220 Count Vowels Permutation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

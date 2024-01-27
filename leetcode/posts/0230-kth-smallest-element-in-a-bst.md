@@ -10,6 +10,7 @@ cover:
     alt: 0230 Kth Smallest Element in a BST
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

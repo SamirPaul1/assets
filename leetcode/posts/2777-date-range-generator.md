@@ -10,6 +10,7 @@ cover:
     alt: 2777 Date Range Generator
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

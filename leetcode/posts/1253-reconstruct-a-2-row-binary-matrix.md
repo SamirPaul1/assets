@@ -10,6 +10,7 @@ cover:
     alt: 1253 Reconstruct a 2 Row Binary Matrix
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

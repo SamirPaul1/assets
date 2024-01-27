@@ -10,6 +10,7 @@ cover:
     alt: 1527 Patients With a Condition
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

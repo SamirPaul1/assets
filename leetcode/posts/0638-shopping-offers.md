@@ -10,6 +10,7 @@ cover:
     alt: 0638 Shopping Offers
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

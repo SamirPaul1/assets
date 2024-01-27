@@ -10,6 +10,7 @@ cover:
     alt: 1291 Sequential Digits
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 2767 Partition String Into Minimum Beautiful Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

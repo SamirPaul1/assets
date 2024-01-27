@@ -10,6 +10,7 @@ cover:
     alt: 1244 Design A Leaderboard
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

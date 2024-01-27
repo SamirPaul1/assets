@@ -10,6 +10,7 @@ cover:
     alt: 1907 Count Salary Categories
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

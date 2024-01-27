@@ -10,6 +10,7 @@ cover:
     alt: 1242 Web Crawler Multithreaded
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

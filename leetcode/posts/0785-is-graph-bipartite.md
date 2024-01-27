@@ -10,6 +10,7 @@ cover:
     alt: 0785 Is Graph Bipartite
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

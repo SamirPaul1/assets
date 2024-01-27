@@ -10,6 +10,7 @@ cover:
     alt: 0794 Valid Tic Tac Toe State
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

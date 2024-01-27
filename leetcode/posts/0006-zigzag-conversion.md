@@ -10,6 +10,7 @@ cover:
     alt: 0006 Zigzag Conversion
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

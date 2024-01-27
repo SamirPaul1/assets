@@ -10,6 +10,7 @@ cover:
     alt: 2636 Promise Pool
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

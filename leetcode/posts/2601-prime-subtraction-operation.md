@@ -10,6 +10,7 @@ cover:
     alt: 2601 Prime Subtraction Operation
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

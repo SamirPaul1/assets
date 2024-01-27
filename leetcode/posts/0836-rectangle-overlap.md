@@ -10,6 +10,7 @@ cover:
     alt: 0836 Rectangle Overlap
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

@@ -10,6 +10,7 @@ cover:
     alt: 0742 Closest Leaf in a Binary Tree
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

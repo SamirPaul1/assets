@@ -10,6 +10,7 @@ cover:
     alt: 2058 Find the Minimum and Maximum Number of Nodes Between Critical Points
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

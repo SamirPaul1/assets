@@ -10,6 +10,7 @@ cover:
     alt: 0294 Flip Game II
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

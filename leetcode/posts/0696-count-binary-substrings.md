@@ -10,6 +10,7 @@ cover:
     alt: 0696 Count Binary Substrings
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

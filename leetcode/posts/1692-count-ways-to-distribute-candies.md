@@ -10,6 +10,7 @@ cover:
     alt: 1692 Count Ways to Distribute Candies
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

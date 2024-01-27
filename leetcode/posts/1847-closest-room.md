@@ -10,6 +10,7 @@ cover:
     alt: 1847 Closest Room
     hiddenInList: true
     hiddenInSingle: false
+math: true
 ---
 
 

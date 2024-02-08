@@ -76,6 +76,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
@@ -90,7 +91,9 @@ class Solution:
                 mp[r] = i
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkSubarraySum(nums []int, k int) bool {
 	mp := map[int]int{0: -1}
@@ -147,6 +154,7 @@ func checkSubarraySum(nums []int, k int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

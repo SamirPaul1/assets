@@ -70,6 +70,7 @@ There is no way to divide the players into teams such that the total skill of ea
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
@@ -84,7 +85,9 @@ class Solution:
             i, j = i + 1, j - 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long dividePlayers(int[] skill) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dividePlayers(skill []int) (ans int64) {
 	sort.Ints(skill)
@@ -134,7 +141,9 @@ func dividePlayers(skill []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dividePlayers(skill: number[]): number {
     const n = skill.length;
@@ -150,7 +159,9 @@ function dividePlayers(skill: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn divide_players(mut skill: Vec<i32>) -> i64 {
@@ -168,7 +179,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var dividePlayers = function (skill) {
     const n = skill.length,
@@ -185,6 +198,7 @@ var dividePlayers = function (skill) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -192,6 +206,7 @@ var dividePlayers = function (skill) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dividePlayers(self, skill: List[int]) -> int:
@@ -211,7 +226,9 @@ class Solution:
                 d[v] += 1
         return -1 if m else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long dividePlayers(int[] skill) {
@@ -236,7 +253,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -260,7 +279,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dividePlayers(skill []int) int64 {
 	s := 0
@@ -289,6 +310,7 @@ func dividePlayers(skill []int) int64 {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

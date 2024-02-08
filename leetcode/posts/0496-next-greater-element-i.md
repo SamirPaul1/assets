@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
@@ -79,7 +80,9 @@ class Solution:
             stk.append(v)
         return [m.get(v, -1) for v in nums1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	stk := []int{}
@@ -143,7 +150,9 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function nextGreaterElement(nums1: number[], nums2: number[]): number[] {
     const map = new Map<number, number>();
@@ -157,7 +166,9 @@ function nextGreaterElement(nums1: number[], nums2: number[]): number[] {
     return nums1.map(num => map.get(num) || -1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -178,7 +189,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -197,6 +210,7 @@ var nextGreaterElement = function (nums1, nums2) {
     return nums1.map(e => m[e] || -1);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -204,6 +218,7 @@ var nextGreaterElement = function (nums1, nums2) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
@@ -217,7 +232,9 @@ class Solution:
             stk.append(v)
         return [m.get(x, -1) for x in nums1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
@@ -241,7 +258,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -259,7 +278,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	stk := []int{}
@@ -284,7 +305,9 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn next_greater_element(nums1: Vec<i32>, nums2: Vec<i32>) -> Vec<i32> {
@@ -306,7 +329,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -328,6 +353,7 @@ var nextGreaterElement = function (nums1, nums2) {
     return nums1.map(e => m[e] || -1);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

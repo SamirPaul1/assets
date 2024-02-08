@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumTwoNoOverlap(self, nums: List[int], firstLen: int, secondLen: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumTwoNoOverlap(int[] nums, int firstLen, int secondLen) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumTwoNoOverlap(nums []int, firstLen int, secondLen int) (ans int) {
 	n := len(nums)
@@ -149,6 +156,7 @@ func maxSumTwoNoOverlap(nums []int, firstLen int, secondLen int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

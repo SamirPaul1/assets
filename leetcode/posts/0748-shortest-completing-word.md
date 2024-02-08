@@ -72,6 +72,7 @@ The time complexity is $O(n \times |\Sigma|)$, and the space complexity is $O(|\
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
@@ -85,7 +86,9 @@ class Solution:
                 ans = w
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestCompletingWord(licensePlate string, words []string) (ans string) {
 	cnt := [26]int{}
@@ -186,7 +193,9 @@ func shortestCompletingWord(licensePlate string, words []string) (ans string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestCompletingWord(licensePlate: string, words: string[]): string {
     const cnt: number[] = Array(26).fill(0);
@@ -219,7 +228,9 @@ function shortestCompletingWord(licensePlate: string, words: string[]): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shortest_completing_word(license_plate: String, words: Vec<String>) -> String {
@@ -253,6 +264,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

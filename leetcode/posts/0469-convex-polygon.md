@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isConvex(self, points: List[List[int]]) -> bool:
@@ -73,7 +74,9 @@ class Solution:
                 pre = cur
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isConvex(List<List<Integer>> points) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isConvex(points [][]int) bool {
 	n := len(points)
@@ -144,6 +151,7 @@ func isConvex(points [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

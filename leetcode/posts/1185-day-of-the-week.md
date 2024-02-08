@@ -78,12 +78,15 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
         return datetime.date(year, month, day).strftime('%A')
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.util.Calendar;
 
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dayOfTheWeek(d int, m int, y int) string {
 	if m < 3 {
@@ -129,7 +136,9 @@ func dayOfTheWeek(d int, m int, y int) string {
 	return weeks[(w+7)%7]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dayOfTheWeek(d: number, m: number, y: number): string {
     if (m < 3) {
@@ -151,6 +160,7 @@ function dayOfTheWeek(d: number, m: number, y: number): string {
     return weeks[(w + 7) % 7];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -158,6 +168,7 @@ function dayOfTheWeek(d: number, m: number, y: number): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dayOfTheWeek(self, d: int, m: int, y: int) -> str:
@@ -177,7 +188,9 @@ class Solution:
             "Saturday",
         ][w]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String dayOfTheWeek(int d, int m, int y) {
@@ -193,6 +206,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

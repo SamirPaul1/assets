@@ -133,6 +133,7 @@ We can use the `JOIN` statement to join the `Orders` table and the `Product` tab
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT customer_id, name
@@ -146,6 +147,7 @@ HAVING
     SUM(IF(MONTH(order_date) = 6, quantity * price, 0)) >= 100
     AND SUM(IF(MONTH(order_date) = 7, quantity * price, 0)) >= 100;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

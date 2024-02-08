@@ -60,6 +60,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
@@ -71,7 +72,9 @@ class Solution:
                 cnt += 1 if m == x else -1
         return m
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int majorityElement(int[] nums) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func majorityElement(nums []int) int {
 	var cnt, m int
@@ -124,7 +131,9 @@ func majorityElement(nums []int) int {
 	return m
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function majorityElement(nums: number[]): number {
     let cnt: number = 0;
@@ -140,7 +149,9 @@ function majorityElement(nums: number[]): number {
     return m;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn majority_element(nums: Vec<i32>) -> i32 {
@@ -158,7 +169,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -178,7 +191,9 @@ var majorityElement = function (nums) {
     return m;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MajorityElement(int[] nums) {
@@ -195,7 +210,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -219,6 +236,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

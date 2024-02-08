@@ -1,6 +1,5 @@
 # [2600. K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum)
 
-[中文文档](/solution/2600-2699/2600.K%20Items%20With%20the%20Maximum%20Sum/README.md)
 
 ## Description
 

@@ -66,6 +66,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -79,7 +80,9 @@ class Solution:
             return 0
         return 1 + self.countNodes(root.left) + self.countNodes(root.right)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -145,7 +152,9 @@ func countNodes(root *TreeNode) int {
 	return 1 + countNodes(root.Left) + countNodes(root.Right)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cell::RefCell;
 use std::rc::Rc;
@@ -171,7 +180,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -192,7 +203,9 @@ var countNodes = function (root) {
     return 1 + countNodes(root.left) + countNodes(root.right);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for a binary tree node.
@@ -216,6 +229,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +250,7 @@ The time complexity is $O(\log^2 n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -259,7 +274,9 @@ class Solution:
             return (1 << left) + self.countNodes(root.right)
         return (1 << right) + self.countNodes(root.left)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -298,7 +315,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -334,7 +353,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -362,7 +383,9 @@ func depth(root *TreeNode) (d int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -395,7 +418,9 @@ var countNodes = function (root) {
     return (1 << right) + countNodes(root.left);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for a binary tree node.
@@ -432,6 +457,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

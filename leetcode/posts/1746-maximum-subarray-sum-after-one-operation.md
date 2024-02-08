@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumAfterOperation(self, nums: List[int]) -> int:
@@ -64,7 +65,9 @@ class Solution:
             ans = max(ans, f, g)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumAfterOperation(int[] nums) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumAfterOperation(nums []int) int {
 	var f, g int
@@ -113,7 +120,9 @@ func maxSumAfterOperation(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -141,6 +150,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

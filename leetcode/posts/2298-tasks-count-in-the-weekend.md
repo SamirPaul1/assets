@@ -85,6 +85,7 @@ Task 6 was submitted on Sunday.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -92,6 +93,7 @@ SELECT
     SUM(WEEKDAY(submit_date) NOT IN (5, 6)) AS working_cnt
 FROM Tasks;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

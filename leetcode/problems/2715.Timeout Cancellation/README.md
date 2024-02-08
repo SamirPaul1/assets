@@ -1,6 +1,5 @@
 # [2715. Timeout Cancellation](https://leetcode.com/problems/timeout-cancellation)
 
-[中文文档](/solution/2700-2799/2715.Timeout%20Cancellation/README.md)
 
 ## Description
 

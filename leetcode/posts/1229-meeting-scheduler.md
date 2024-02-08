@@ -64,6 +64,7 @@ The time complexity is $O(m \times \log m + n \times \log n)$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAvailableDuration(
@@ -84,7 +85,9 @@ class Solution:
                 j += 1
         return []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAvailableDuration(slots1 [][]int, slots2 [][]int, duration int) []int {
 	sort.Slice(slots1, func(i, j int) bool { return slots1[i][0] < slots1[j][0] })
@@ -154,7 +161,9 @@ func minAvailableDuration(slots1 [][]int, slots2 [][]int, duration int) []int {
 	return []int{}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -202,6 +211,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

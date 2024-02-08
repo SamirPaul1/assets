@@ -75,6 +75,7 @@ The time complexity is $O(L)$, and the space complexity is $O(L)$. Here, $L$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     __slots__ = ["children", "cnt"]
@@ -120,7 +121,9 @@ class Solution:
             )
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private final Trie[] children = new Trie[26];
@@ -172,7 +175,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -236,7 +241,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -294,7 +301,9 @@ func wordsAbbreviation(words []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     private children: Trie[] = Array(26);
@@ -348,6 +357,7 @@ function wordsAbbreviation(words: string[]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

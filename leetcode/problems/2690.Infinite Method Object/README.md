@@ -1,6 +1,5 @@
 # [2690. Infinite Method Object](https://leetcode.com/problems/infinite-method-object)
 
-[中文文档](/solution/2600-2699/2690.Infinite%20Method%20Object/README.md)
 
 ## Description
 

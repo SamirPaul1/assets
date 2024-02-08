@@ -65,12 +65,15 @@ There are no &#39;a&#39;s, hence, every &#39;a&#39; appears before every &#39;b&
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkString(self, s: str) -> bool:
         return "ba" not in s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkString(String s) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -87,12 +92,15 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkString(s string) bool {
 	return !strings.Contains(s, "ba")
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

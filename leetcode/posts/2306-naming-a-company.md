@@ -85,6 +85,7 @@ The time complexity is $O(n \times m \times |\Sigma|)$, and the space complexity
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctNames(self, ideas: List[str]) -> int:
@@ -107,7 +108,9 @@ class Solution:
                     ans += f[j][i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long distinctNames(String[] ideas) {
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctNames(ideas []string) (ans int64) {
 	s := map[string]bool{}
@@ -203,7 +210,9 @@ func distinctNames(ideas []string) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctNames(ideas: string[]): number {
     const s = new Set(ideas);
@@ -234,6 +243,7 @@ function distinctNames(ideas: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

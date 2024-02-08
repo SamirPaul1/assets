@@ -84,6 +84,7 @@ Bob wins because 9 + 3 + 2 + 9 = 5 + 9 + 2 + 7.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumGame(self, num: str) -> bool:
@@ -94,7 +95,9 @@ class Solution:
         s2 = sum(int(x) for x in num[n // 2 :] if x != "?")
         return (cnt1 + cnt2) % 2 == 1 or s1 - s2 != 9 * (cnt2 - cnt1) // 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean sumGame(String num) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumGame(num string) bool {
 	n := len(num)
@@ -167,7 +174,9 @@ func sumGame(num string) bool {
 	return (cnt1+cnt2)%2 == 1 || s1-s2 != (cnt2-cnt1)*9/2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumGame(num: string): boolean {
     const n = num.length;
@@ -189,6 +198,7 @@ function sumGame(num: string): boolean {
     return (cnt1 + cnt2) % 2 === 1 || 2 * (s1 - s2) !== 9 * (cnt2 - cnt1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

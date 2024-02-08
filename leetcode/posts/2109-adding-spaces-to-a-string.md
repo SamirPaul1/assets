@@ -74,6 +74,7 @@ We are also able to place spaces before the first character of the string.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addSpaces(self, s: str, spaces: List[int]) -> str:
@@ -86,7 +87,9 @@ class Solution:
             ans.append(c)
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String addSpaces(String s, int[] spaces) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addSpaces(s string, spaces []int) string {
 	var ans []byte
@@ -133,7 +140,9 @@ func addSpaces(s string, spaces []int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addSpaces(s: string, spaces: number[]): string {
     let ans = '';
@@ -147,6 +156,7 @@ function addSpaces(s: string, spaces: number[]): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,6 +164,7 @@ function addSpaces(s: string, spaces: number[]): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addSpaces(self, s: str, spaces: List[int]) -> str:
@@ -167,6 +178,7 @@ class Solution:
             i -= 1
         return ''.join(ans[::-1])
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

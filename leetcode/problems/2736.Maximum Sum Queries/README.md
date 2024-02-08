@@ -1,6 +1,5 @@
 # [2736. Maximum Sum Queries](https://leetcode.com/problems/maximum-sum-queries)
 
-[中文文档](/solution/2700-2799/2736.Maximum%20Sum%20Queries/README.md)
 
 ## Description
 

@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def strWithout3a3b(self, a: int, b: int) -> str:
@@ -77,7 +78,9 @@ class Solution:
             ans.append('b' * b)
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String strWithout3a3b(int a, int b) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func strWithout3a3b(a int, b int) string {
 	var ans strings.Builder
@@ -162,6 +169,7 @@ func strWithout3a3b(a int, b int) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

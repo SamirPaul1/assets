@@ -68,6 +68,7 @@ We define the left boundary of the binary search as $l=0$, and the right boundar
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], x: int, y: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 l = mid + 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, x int, y int) int {
 	check := func(t int) bool {
@@ -176,7 +183,9 @@ func minOperations(nums []int, x int, y int) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums: number[], x: number, y: number): number {
     let l = 0;
@@ -201,6 +210,7 @@ function minOperations(nums: number[], x: number, y: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

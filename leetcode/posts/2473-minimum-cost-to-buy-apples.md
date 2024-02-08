@@ -73,6 +73,7 @@ The time complexity is $O(n \times m \times \log m)$, where $n$ and $m$ are the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(
@@ -99,7 +100,9 @@ class Solution:
             g[b].append((a, c))
         return [dijkstra(i) for i in range(n)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int k;
@@ -151,7 +154,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 using pii = pair<int, int>;
@@ -196,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(n int, roads [][]int, appleCost []int, k int) []int64 {
 	g := make([]pairs, n)
@@ -251,6 +258,7 @@ func (a pairs) Swap(i int, j int) { a[i], a[j] = a[j], a[i] }
 func (a *pairs) Push(x any)       { *a = append(*a, x.(pair)) }
 func (a *pairs) Pop() any         { l := len(*a); t := (*a)[l-1]; *a = (*a)[:l-1]; return t }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

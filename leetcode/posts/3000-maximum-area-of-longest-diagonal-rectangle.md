@@ -60,6 +60,7 @@ So, the rectangle at index 1 has a greater diagonal length therefore we return a
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areaOfMaxDiagonal(self, dimensions: List[List[int]]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 ans = max(ans, l * w)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int areaOfMaxDiagonal(int[][] dimensions) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func areaOfMaxDiagonal(dimensions [][]int) (ans int) {
 	mx := 0
@@ -129,7 +136,9 @@ func areaOfMaxDiagonal(dimensions [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areaOfMaxDiagonal(dimensions: number[][]): number {
     let [ans, mx] = [0, 0];
@@ -145,6 +154,7 @@ function areaOfMaxDiagonal(dimensions: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

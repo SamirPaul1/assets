@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubMultisets(self, nums: List[int], l: int, r: int) -> int:
@@ -97,7 +98,9 @@ class Solution:
 
         return (zeros + 1) * sum(dp[l : r + 1]) % kMod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     static final int MOD = 1_000_000_007;
@@ -145,6 +148,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

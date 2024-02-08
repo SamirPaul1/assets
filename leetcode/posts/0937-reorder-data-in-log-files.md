@@ -72,6 +72,7 @@ The digit-logs have a relative order of &quot;dig1 8 1 5 1&quot;, &quot;dig2 3 6
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:
@@ -81,7 +82,9 @@ class Solution:
 
         return sorted(logs, key=cmp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] reorderLogFiles(String[] logs) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reorderLogFiles(logs: string[]): string[] {
     const isDigit = (c: string) => c >= '0' && c <= '9';
@@ -130,7 +135,9 @@ function reorderLogFiles(logs: string[]): string[] {
     });
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reorder_log_files(mut logs: Vec<String>) -> Vec<String> {
@@ -153,6 +160,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

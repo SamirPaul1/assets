@@ -76,6 +76,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $groups$. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getWordsInLongestSubsequence(
@@ -83,7 +84,9 @@ class Solution:
     ) -> List[str]:
         return [words[i] for i, x in enumerate(groups) if i == 0 or x != groups[i - 1]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> getWordsInLongestSubsequence(int n, String[] words, int[] groups) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getWordsInLongestSubsequence(n int, words []string, groups []int) (ans []string) {
 	for i, x := range groups {
@@ -123,7 +130,9 @@ func getWordsInLongestSubsequence(n int, words []string, groups []int) (ans []st
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getWordsInLongestSubsequence(n: number, words: string[], groups: number[]): string[] {
     const ans: string[] = [];
@@ -135,7 +144,9 @@ function getWordsInLongestSubsequence(n: number, words: string[], groups: number
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_words_in_longest_subsequence(
@@ -155,6 +166,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

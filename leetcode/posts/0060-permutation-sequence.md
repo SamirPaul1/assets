@@ -67,6 +67,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
@@ -86,7 +87,9 @@ class Solution:
                         break
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String getPermutation(int n, int k) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getPermutation(n int, k int) string {
 	ans := make([]byte, n)
@@ -163,7 +170,9 @@ func getPermutation(n int, k int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_permutation(n: i32, k: i32) -> String {
@@ -195,7 +204,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string GetPermutation(int n, int k) {
@@ -222,6 +233,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

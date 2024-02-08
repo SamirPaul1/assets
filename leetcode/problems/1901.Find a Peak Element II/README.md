@@ -1,6 +1,5 @@
 # [1901. Find a Peak Element II](https://leetcode.com/problems/find-a-peak-element-ii)
 
-[中文文档](/solution/1900-1999/1901.Find%20a%20Peak%20Element%20II/README.md)
 
 ## Description
 

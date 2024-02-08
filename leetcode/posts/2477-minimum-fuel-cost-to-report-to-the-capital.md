@@ -95,6 +95,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumFuelCost(self, roads: List[List[int]], seats: int) -> int:
@@ -116,7 +117,9 @@ class Solution:
         dfs(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -150,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumFuelCost(roads [][]int, seats int) (ans int64) {
 	n := len(roads) + 1
@@ -205,7 +212,9 @@ func minimumFuelCost(roads [][]int, seats int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumFuelCost(roads: number[][], seats: number): number {
     const n = roads.length + 1;
@@ -230,7 +239,9 @@ function minimumFuelCost(roads: number[][], seats: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_fuel_cost(roads: Vec<Vec<i32>>, seats: i32) -> i64 {
@@ -259,6 +270,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

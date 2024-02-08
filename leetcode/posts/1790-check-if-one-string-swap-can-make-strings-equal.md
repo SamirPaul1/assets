@@ -71,6 +71,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areAlmostEqual(self, s1: str, s2: str) -> bool:
@@ -84,7 +85,9 @@ class Solution:
                 c1, c2 = a, b
         return cnt != 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean areAlmostEqual(String s1, String s2) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func areAlmostEqual(s1 string, s2 string) bool {
 	cnt := 0
@@ -142,7 +149,9 @@ func areAlmostEqual(s1 string, s2 string) bool {
 	return cnt != 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areAlmostEqual(s1: string, s2: string): boolean {
     let c1, c2;
@@ -161,7 +170,9 @@ function areAlmostEqual(s1: string, s2: string): boolean {
     return cnt != 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn are_almost_equal(s1: String, s2: String) -> bool {
@@ -182,7 +193,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool areAlmostEqual(char* s1, char* s2) {
     int n = strlen(s1);
@@ -208,6 +221,7 @@ bool areAlmostEqual(char* s1, char* s2) {
     return s1[i1] == s2[i2] && s1[i2] == s2[i1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

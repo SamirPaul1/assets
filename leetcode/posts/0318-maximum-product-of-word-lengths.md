@@ -69,6 +69,7 @@ The time complexity is $O(n^2 + L)$, and the space complexity is $O(n)$. Here, $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                     ans = max(ans, len(s) * len(t))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProduct(String[] words) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProduct(words []string) (ans int) {
 	n := len(words)
@@ -144,7 +151,9 @@ func maxProduct(words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProduct(words: string[]): number {
     const n = words.length;
@@ -163,6 +172,7 @@ function maxProduct(words: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -170,6 +180,7 @@ function maxProduct(words: string[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProduct(self, words: List[str]) -> int:
@@ -186,7 +197,9 @@ class Solution:
             mask[x] = max(mask[x], a)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProduct(String[] words) {
@@ -210,7 +223,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -234,7 +249,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProduct(words []string) (ans int) {
 	mask := map[int]int{}
@@ -254,7 +271,9 @@ func maxProduct(words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProduct(words: string[]): number {
     const mask: Map<number, number> = new Map();
@@ -275,6 +294,7 @@ function maxProduct(words: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

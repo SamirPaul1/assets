@@ -74,6 +74,7 @@ It can be proven that no smaller answer exists.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumberOfHours(
@@ -95,7 +96,9 @@ class Solution:
             initialExperience += b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumberOfHours(
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, experience []int) int {
 	ans := 0
@@ -161,7 +168,9 @@ func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, ex
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumberOfHours(
     initialEnergy: number,
@@ -190,7 +199,9 @@ function minNumberOfHours(
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_number_of_hours(
@@ -217,7 +228,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minNumberOfHours(int initialEnergy, int initialExperience, int* energy, int energySize, int* experience, int experienceSize) {
     int res = 0;
@@ -236,6 +249,7 @@ int minNumberOfHours(int initialEnergy, int initialExperience, int* energy, int 
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -243,6 +257,7 @@ int minNumberOfHours(int initialEnergy, int initialExperience, int* energy, int 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumberOfHours(
@@ -260,7 +275,9 @@ class Solution:
             initialExperience += x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumberOfHours(
@@ -281,7 +298,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -299,7 +318,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, experience []int) (ans int) {
 	s := 0
@@ -319,7 +340,9 @@ func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, ex
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumberOfHours(
     initialEnergy: number,
@@ -345,6 +368,7 @@ function minNumberOfHours(
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -352,6 +376,7 @@ function minNumberOfHours(
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumberOfHours(
     initialEnergy: number,
@@ -371,6 +396,7 @@ function minNumberOfHours(
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

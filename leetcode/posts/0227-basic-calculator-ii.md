@@ -65,6 +65,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def calculate(self, s: str) -> int:
@@ -88,7 +89,9 @@ class Solution:
                 v = 0
         return sum(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int calculate(String s) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func calculate(s string) int {
 	sign := '+'
@@ -193,7 +200,9 @@ func calculate(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections.Generic;
 using System.Linq;
@@ -280,6 +289,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

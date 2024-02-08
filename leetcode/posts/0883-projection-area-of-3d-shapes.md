@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def projectionArea(self, grid: List[List[int]]) -> int:
@@ -75,7 +76,9 @@ class Solution:
         zx = sum(max(col) for col in zip(*grid))
         return xy + yz + zx
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int projectionArea(int[][] grid) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func projectionArea(grid [][]int) int {
 	xy, yz, zx := 0, 0, 0
@@ -136,7 +143,9 @@ func projectionArea(grid [][]int) int {
 	return xy + yz + zx
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function projectionArea(grid: number[][]): number {
     const n = grid.length;
@@ -153,7 +162,9 @@ function projectionArea(grid: number[][]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn projection_area(grid: Vec<Vec<i32>>) -> i32 {
@@ -176,6 +187,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

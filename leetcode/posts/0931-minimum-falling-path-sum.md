@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
@@ -68,7 +69,9 @@ class Solution:
             f = g
         return min(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minFallingPathSum(matrix [][]int) int {
 	n := len(matrix)
@@ -142,7 +149,9 @@ func minFallingPathSum(matrix [][]int) int {
 	return slices.Min(f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minFallingPathSum(matrix: number[][]): number {
     const n = matrix.length;
@@ -163,6 +172,7 @@ function minFallingPathSum(matrix: number[][]): number {
     return Math.min(...f);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

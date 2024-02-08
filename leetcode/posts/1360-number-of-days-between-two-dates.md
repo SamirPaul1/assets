@@ -54,6 +54,7 @@ The time complexity is $O(y + m)$, where $y$ represents the number of years from
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def daysBetweenDates(self, date1: str, date2: str) -> int:
@@ -89,7 +90,9 @@ class Solution:
 
         return abs(calcDays(date1) - calcDays(date2))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int daysBetweenDates(String date1, String date2) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func daysBetweenDates(date1 string, date2 string) int {
 	return abs(calcDays(date1) - calcDays(date2))
@@ -199,7 +206,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function daysBetweenDates(date1: string, date2: string): number {
     return Math.abs(calcDays(date1) - calcDays(date2));
@@ -227,6 +236,7 @@ function calcDays(date: string): number {
     return days;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

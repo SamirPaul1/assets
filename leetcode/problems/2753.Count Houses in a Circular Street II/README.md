@@ -1,6 +1,5 @@
 # [2753. Count Houses in a Circular Street II](https://leetcode.com/problems/count-houses-in-a-circular-street-ii)
 
-[中文文档](/solution/2700-2799/2753.Count%20Houses%20in%20a%20Circular%20Street%20II/README.md)
 
 ## Description
 

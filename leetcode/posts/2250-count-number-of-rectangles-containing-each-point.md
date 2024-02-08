@@ -74,6 +74,7 @@ Therefore, we return [1, 3].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countRectangles(
@@ -93,7 +94,9 @@ class Solution:
             ans.append(cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countRectangles(int[][] rectangles, int[][] points) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countRectangles(rectangles [][]int, points [][]int) []int {
 	n := 101
@@ -186,7 +193,9 @@ func countRectangles(rectangles [][]int, points [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countRectangles(rectangles: number[][], points: number[][]): number[] {
     const n = 101;
@@ -219,6 +228,7 @@ function countRectangles(rectangles: number[][], points: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

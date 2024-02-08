@@ -75,6 +75,7 @@ Since divisors[0] and divisors[1] both have the maximum divisibility score, we r
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxDivScore(self, nums: List[int], divisors: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 ans = div
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxDivScore(int[] nums, int[] divisors) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxDivScore(nums []int, divisors []int) int {
 	ans, mx := divisors[0], 0
@@ -154,7 +161,9 @@ func maxDivScore(nums []int, divisors []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxDivScore(nums: number[], divisors: number[]): number {
     let ans: number = divisors[0];
@@ -171,7 +180,9 @@ function maxDivScore(nums: number[], divisors: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_div_score(nums: Vec<i32>, divisors: Vec<i32>) -> i32 {
@@ -197,6 +208,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

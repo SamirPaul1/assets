@@ -70,6 +70,7 @@ It is obtained by taking the first appearance of each letter in &quot;<u><strong
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decodeMessage(self, key: str, message: str) -> str:
@@ -81,7 +82,9 @@ class Solution:
                 i += 1
         return "".join(d[c] for c in message)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String decodeMessage(String key, String message) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func decodeMessage(key string, message string) string {
 	d := [128]byte{}
@@ -139,7 +146,9 @@ func decodeMessage(key string, message string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function decodeMessage(key: string, message: string): string {
     const d = new Map<string, string>();
@@ -153,7 +162,9 @@ function decodeMessage(key: string, message: string): string {
     return [...message].map(v => d.get(v)).join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -173,7 +184,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* decodeMessage(char* key, char* message) {
     int m = strlen(key);
@@ -194,6 +207,7 @@ char* decodeMessage(char* key, char* message) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

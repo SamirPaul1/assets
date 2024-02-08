@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def trimMean(self, arr: List[int]) -> float:
@@ -70,7 +71,9 @@ class Solution:
         t = arr[start:end]
         return round(sum(t) / len(t), 5)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double trimMean(int[] arr) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func trimMean(arr []int) float64 {
 	sort.Ints(arr)
@@ -110,7 +117,9 @@ func trimMean(arr []int) float64 {
 	return sum / (float64(n) * 0.9)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function trimMean(arr: number[]): number {
     arr.sort((a, b) => a - b);
@@ -123,7 +132,9 @@ function trimMean(arr: number[]): number {
     return sum / (n * 0.9);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn trim_mean(mut arr: Vec<i32>) -> f64 {
@@ -138,6 +149,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

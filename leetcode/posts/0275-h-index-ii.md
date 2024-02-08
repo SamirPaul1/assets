@@ -64,6 +64,7 @@ The time complexity is $O(\log n)$, where $n$ is the length of the array $citati
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int hIndex(int[] citations) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hIndex(citations []int) int {
 	n := len(citations)
@@ -129,7 +136,9 @@ func hIndex(citations []int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hIndex(citations: number[]): number {
     const n = citations.length;
@@ -146,7 +155,9 @@ function hIndex(citations: number[]): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn h_index(citations: Vec<i32>) -> i32 {
@@ -164,7 +175,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int HIndex(int[] citations) {
@@ -182,6 +195,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -50,6 +50,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
@@ -58,7 +59,9 @@ class Solution:
                 nums[nums[i] - 1], nums[i] = nums[i], nums[nums[i] - 1]
         return [v for i, v in enumerate(nums) if v != i + 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDuplicates(nums []int) []int {
 	for i := range nums {
@@ -122,6 +129,7 @@ func findDuplicates(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

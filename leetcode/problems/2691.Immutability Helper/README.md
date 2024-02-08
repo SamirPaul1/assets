@@ -1,6 +1,5 @@
 # [2691. Immutability Helper](https://leetcode.com/problems/immutability-helper)
 
-[中文文档](/solution/2600-2699/2691.Immutability%20Helper/README.md)
 
 ## Description
 

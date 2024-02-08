@@ -67,6 +67,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def killProcess(self, pid: List[int], ppid: List[int], kill: int) -> List[int]:
@@ -82,7 +83,9 @@ class Solution:
         dfs(kill)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, List<Integer>> g = new HashMap<>();
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func killProcess(pid []int, ppid []int, kill int) (ans []int) {
 	g := map[int][]int{}
@@ -145,7 +152,9 @@ func killProcess(pid []int, ppid []int, kill int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function killProcess(pid: number[], ppid: number[], kill: number): number[] {
     const g: Map<number, number[]> = new Map();
@@ -166,7 +175,9 @@ function killProcess(pid: number[], ppid: number[], kill: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -194,6 +205,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

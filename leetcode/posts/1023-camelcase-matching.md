@@ -76,6 +76,7 @@ Time complexity $(n \times m)$, where $n$ and $m$ are the length of the array `q
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def camelMatch(self, queries: List[str], pattern: str) -> List[bool]:
@@ -94,7 +95,9 @@ class Solution:
 
         return [check(q, pattern) for q in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Boolean> camelMatch(String[] queries, String pattern) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func camelMatch(queries []string, pattern string) (ans []bool) {
 	check := func(s, t string) bool {
@@ -177,7 +184,9 @@ func camelMatch(queries []string, pattern string) (ans []bool) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function camelMatch(queries: string[], pattern: string): boolean[] {
     const check = (s: string, t: string) => {
@@ -205,6 +214,7 @@ function camelMatch(queries: string[], pattern: string): boolean[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

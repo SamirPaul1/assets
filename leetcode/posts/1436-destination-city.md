@@ -69,13 +69,16 @@ Clearly the destination city is &quot;A&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def destCity(self, paths: List[List[str]]) -> str:
         s = {a for a, _ in paths}
         return next(b for _, b in paths if b not in s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String destCity(List<List<String>> paths) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func destCity(paths [][]string) string {
 	s := map[string]bool{}
@@ -125,7 +132,9 @@ func destCity(paths [][]string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function destCity(paths: string[][]): string {
     const set = new Set(paths.map(([a]) => a));
@@ -137,7 +146,9 @@ function destCity(paths: string[][]): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -155,7 +166,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string[][]} paths
@@ -174,7 +187,9 @@ var destCity = function (paths) {
     return '';
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* destCity(char*** paths, int pathsSize, int* pathsColSize) {
     for (int i = 0; i < pathsSize; i++) {
@@ -192,6 +207,7 @@ char* destCity(char*** paths, int pathsSize, int* pathsColSize) {
     return NULL;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

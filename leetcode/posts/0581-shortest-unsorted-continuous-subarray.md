@@ -67,6 +67,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
             r -= 1
         return r - l + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findUnsortedSubarray(nums []int) int {
 	arr := make([]int, len(nums))
@@ -129,7 +136,9 @@ func findUnsortedSubarray(nums []int) int {
 	return r - l + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findUnsortedSubarray(nums: number[]): number {
     const arr = [...nums];
@@ -144,7 +153,9 @@ function findUnsortedSubarray(nums: number[]): number {
     return r - l + 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_unsorted_subarray(nums: Vec<i32>) -> i32 {
@@ -177,6 +188,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -188,6 +200,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
@@ -205,7 +218,9 @@ class Solution:
                 mi = nums[n - i - 1]
         return 0 if r == -1 else r - l + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findUnsortedSubarray(int[] nums) {
@@ -229,7 +244,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -254,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findUnsortedSubarray(nums []int) int {
 	const inf = 1 << 30
@@ -279,7 +298,9 @@ func findUnsortedSubarray(nums []int) int {
 	return r - l + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findUnsortedSubarray(nums: number[]): number {
     let [l, r] = [-1, -1];
@@ -300,6 +321,7 @@ function findUnsortedSubarray(nums: number[]): number {
     return r === -1 ? 0 : r - l + 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

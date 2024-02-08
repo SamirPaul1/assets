@@ -88,6 +88,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$, where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canSplitArray(self, nums: List[int], m: int) -> bool:
@@ -105,7 +106,9 @@ class Solution:
         s = list(accumulate(nums, initial=0))
         return dfs(0, len(nums) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Boolean[][] f;
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canSplitArray(nums []int, m int) bool {
 	n := len(nums)
@@ -209,7 +216,9 @@ func canSplitArray(nums []int, m int) bool {
 	return dfs(0, n-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canSplitArray(nums: number[], m: number): boolean {
     const n = nums.length;
@@ -241,7 +250,9 @@ function canSplitArray(nums: number[], m: number): boolean {
     return dfs(0, n - 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_split_array(nums: Vec<i32>, m: i32) -> bool {
@@ -258,6 +269,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -271,6 +283,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canSplitArray(nums: number[], m: number): boolean {
     const n = nums.length;
@@ -285,6 +298,7 @@ function canSplitArray(nums: number[], m: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

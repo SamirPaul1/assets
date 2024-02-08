@@ -65,6 +65,7 @@ trie.search(&quot;app&quot;);     // return True
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -104,7 +105,9 @@ class Trie:
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children;
@@ -157,7 +160,9 @@ class Trie {
  * boolean param_3 = obj.startsWith(prefix);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 private:
@@ -208,7 +213,9 @@ public:
  * bool param_3 = obj->startsWith(prefix);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -261,7 +268,9 @@ func (this *Trie) SearchPrefix(s string) *Trie {
  * param_3 := obj.StartsWith(prefix);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class TrieNode {
     children;
@@ -310,7 +319,9 @@ class Trie {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::{ rc::Rc, cell::RefCell, collections::HashMap };
 
@@ -404,7 +415,9 @@ impl Trie {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Initialize your data structure here.
@@ -465,7 +478,9 @@ Trie.prototype.startsWith = function (prefix) {
  * var param_3 = obj.startsWith(prefix)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Trie {
     bool isEnd;
@@ -519,6 +534,7 @@ public class Trie {
  * bool param_3 = obj.StartsWith(prefix);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

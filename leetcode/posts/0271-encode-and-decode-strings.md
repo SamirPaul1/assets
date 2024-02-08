@@ -98,6 +98,7 @@ String[] strs = decoder.decode(msg);
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Codec:
     def encode(self, strs: List[str]) -> str:
@@ -113,7 +114,9 @@ class Codec:
 # codec = Codec()
 # codec.decode(codec.encode(strs))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Codec {
 
@@ -143,7 +146,9 @@ public class Codec {
 // Codec codec = new Codec();
 // codec.decode(codec.encode(strs));
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Codec {
 public:
@@ -177,7 +182,9 @@ public:
 // Codec codec;
 // codec.decode(codec.encode(strs));
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Codec struct {
 }
@@ -211,6 +218,7 @@ func (codec *Codec) Decode(strs string) []string {
 // var codec Codec
 // codec.Decode(codec.Encode(strs));
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,6 +226,7 @@ func (codec *Codec) Decode(strs string) []string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Codec:
     def encode(self, strs: List[str]) -> str:
@@ -243,6 +252,7 @@ class Codec:
 # codec = Codec()
 # codec.decode(codec.encode(strs))
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

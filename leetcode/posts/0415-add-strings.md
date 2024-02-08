@@ -68,6 +68,7 @@ The following code also implements string subtraction, refer to the `subStrings(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
@@ -101,7 +102,9 @@ class Solution:
             ans.append('-')
         return ''.join(ans[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String addStrings(String num1, String num2) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -184,7 +189,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addStrings(num1 string, num2 string) string {
 	i, j := len(num1)-1, len(num2)-1
@@ -237,7 +244,9 @@ func subStrings(num1 string, num2 string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addStrings(num1: string, num2: string): string {
     let i = num1.length - 1;
@@ -278,7 +287,9 @@ function subStrings(num1: string, num2: string): string {
     return (neg ? '-' : '') + ans.reverse().join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn add_strings(num1: String, num2: String) -> String {
@@ -304,7 +315,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} num1
@@ -355,6 +368,7 @@ var subStrings = function (num1, num2) {
     return (neg ? '-' : '') + ans.reverse().join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

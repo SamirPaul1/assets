@@ -1,6 +1,5 @@
 # [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf)
 
-[中文文档](/solution/0900-0999/0988.Smallest%20String%20Starting%20From%20Leaf/README.md)
 
 ## Description
 

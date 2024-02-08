@@ -63,6 +63,7 @@ No letter occurs more than once in s, so the variance of every substring is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestVariance(self, s: str) -> int:
@@ -81,7 +82,9 @@ class Solution:
                     ans = f[1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestVariance(String s) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestVariance(s string) int {
 	ans, n := 0, len(s)
@@ -161,6 +168,7 @@ func largestVariance(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

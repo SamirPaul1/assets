@@ -94,6 +94,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(2^n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, power: List[int]) -> int:
@@ -111,7 +112,9 @@ class Solution:
 
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -146,7 +149,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -177,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(power []int) int64 {
 	n := len(power)
@@ -207,7 +214,9 @@ func minimumTime(power []int) int64 {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTime(power: number[]): number {
     const n = power.length;
@@ -243,6 +252,7 @@ function bitCount(x) {
     return cnt;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -250,6 +260,7 @@ function bitCount(x) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, power: List[int]) -> int:
@@ -263,7 +274,9 @@ class Solution:
                     dp[mask] = min(dp[mask], dp[mask ^ (1 << i)] + (v + cnt - 1) // cnt)
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumTime(int[] power) {
@@ -283,7 +296,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -303,7 +318,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(power []int) int64 {
 	n := len(power)
@@ -323,7 +340,9 @@ func minimumTime(power []int) int64 {
 	return dp[len(dp)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTime(power: number[]): number {
     const n = power.length;
@@ -350,6 +369,7 @@ function bitCount(x) {
     return cnt;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

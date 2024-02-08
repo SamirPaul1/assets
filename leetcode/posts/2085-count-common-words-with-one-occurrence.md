@@ -70,6 +70,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n + m)$. Where
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countWords(self, words1: List[str], words2: List[str]) -> int:
@@ -77,7 +78,9 @@ class Solution:
         cnt2 = Counter(words2)
         return sum(v == 1 and cnt2[w] == 1 for w, v in cnt1.items())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countWords(String[] words1, String[] words2) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countWords(words1 []string, words2 []string) (ans int) {
 	cnt1 := map[string]int{}
@@ -139,7 +146,9 @@ func countWords(words1 []string, words2 []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countWords(words1: string[], words2: string[]): number {
     const cnt1 = new Map<string, number>();
@@ -159,6 +168,7 @@ function countWords(words1: string[], words2: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

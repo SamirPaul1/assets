@@ -95,6 +95,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
@@ -116,7 +117,9 @@ class Solution:
             f, g, h = ff, gg, hh
         return min(f, g, h)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumOperations(List<Integer> nums) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(nums []int) int {
 	f := make([]int, 3)
@@ -193,7 +200,9 @@ func minimumOperations(nums []int) int {
 	return min(f[0], min(f[1], f[2]))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOperations(nums: number[]): number {
     let f: number[] = new Array(3).fill(0);
@@ -217,6 +226,7 @@ function minimumOperations(nums: number[]): number {
     return Math.min(...f);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -224,6 +234,7 @@ function minimumOperations(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
@@ -245,6 +256,7 @@ class Solution:
             f = g
         return min(f)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -82,12 +82,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minChanges(self, s: str) -> int:
         return sum(s[i] != s[i - 1] for i in range(1, len(s), 2))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minChanges(String s) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minChanges(s string) (ans int) {
 	for i := 1; i < len(s); i += 2 {
@@ -126,7 +133,9 @@ func minChanges(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minChanges(s: string): number {
     let ans = 0;
@@ -138,6 +147,7 @@ function minChanges(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

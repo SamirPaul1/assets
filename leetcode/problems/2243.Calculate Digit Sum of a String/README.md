@@ -1,6 +1,5 @@
 # [2243. Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string)
 
-[中文文档](/solution/2200-2299/2243.Calculate%20Digit%20Sum%20of%20a%20String/README.md)
 
 ## Description
 

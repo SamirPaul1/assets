@@ -1,6 +1,5 @@
 # [2788. Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator)
 
-[中文文档](/solution/2700-2799/2788.Split%20Strings%20by%20Separator/README.md)
 
 ## Description
 

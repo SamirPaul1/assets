@@ -95,6 +95,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
@@ -114,7 +115,9 @@ class Solution:
             return False
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<List<Integer>, Boolean> f = new HashMap<>();
@@ -157,7 +160,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -188,7 +193,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isInterleave(s1 string, s2 string, s3 string) bool {
 	m, n := len(s1), len(s2)
@@ -212,7 +219,9 @@ func isInterleave(s1 string, s2 string, s3 string) bool {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isInterleave(s1: string, s2: string, s3: string): boolean {
     const m = s1.length;
@@ -240,7 +249,9 @@ function isInterleave(s1: string, s2: string, s3: string): boolean {
     return dfs(0, 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -308,7 +319,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int m;
@@ -349,6 +362,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -374,6 +388,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
@@ -391,7 +406,9 @@ class Solution:
                     f[i][j] |= f[i][j - 1]
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
@@ -416,7 +433,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -443,7 +462,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isInterleave(s1 string, s2 string, s3 string) bool {
 	m, n := len(s1), len(s2)
@@ -469,7 +490,9 @@ func isInterleave(s1 string, s2 string, s3 string) bool {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isInterleave(s1: string, s2: string, s3: string): boolean {
     const m = s1.length;
@@ -493,7 +516,9 @@ function isInterleave(s1: string, s2: string, s3: string): boolean {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsInterleave(string s1, string s2, string s3) {
@@ -518,6 +543,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -525,6 +551,7 @@ We notice that the state $f[i][j]$ is only related to the states $f[i - 1][j]$, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isInterleave(self, s1: str, s2: str, s3: str) -> bool:
@@ -541,7 +568,9 @@ class Solution:
                     f[j] |= f[j - 1] and s2[j - 1] == s3[k]
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isInterleave(String s1, String s2, String s3) {
@@ -566,7 +595,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -593,7 +624,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isInterleave(s1 string, s2 string, s3 string) bool {
 	m, n := len(s1), len(s2)
@@ -616,7 +649,9 @@ func isInterleave(s1 string, s2 string, s3 string) bool {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isInterleave(s1: string, s2: string, s3: string): boolean {
     const m = s1.length;
@@ -640,7 +675,9 @@ function isInterleave(s1: string, s2: string, s3: string): boolean {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsInterleave(string s1, string s2, string s3) {
@@ -665,6 +702,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

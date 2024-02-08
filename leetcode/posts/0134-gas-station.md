@@ -70,6 +70,7 @@ Therefore, you can&#39;t travel around the circuit once no matter where you star
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 cnt += 1
         return -1 if s < 0 else i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canCompleteCircuit(gas []int, cost []int) int {
 	n := len(gas)
@@ -151,7 +158,9 @@ func canCompleteCircuit(gas []int, cost []int) int {
 	return i
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canCompleteCircuit(gas: number[], cost: number[]): number {
     const n = gas.length;
@@ -172,7 +181,9 @@ function canCompleteCircuit(gas: number[], cost: number[]): number {
     return s < 0 ? -1 : i;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CanCompleteCircuit(int[] gas, int[] cost) {
@@ -193,6 +204,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

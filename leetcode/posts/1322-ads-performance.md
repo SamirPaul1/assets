@@ -89,6 +89,7 @@ Note that we do not care about Ignored Ads.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     ad_id,
@@ -97,6 +98,7 @@ FROM Ads
 GROUP BY 1
 ORDER BY 2 DESC, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

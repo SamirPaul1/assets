@@ -57,6 +57,7 @@ It can be shown with 5 or less moves that it is impossible for the array to have
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minIncrementForUnique(self, nums: List[int]) -> int:
@@ -69,7 +70,9 @@ class Solution:
                 ans += d
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minIncrementForUnique(int[] nums) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minIncrementForUnique(nums []int) int {
 	sort.Ints(nums)
@@ -119,6 +126,7 @@ func minIncrementForUnique(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -91,6 +91,7 @@ The time complexity is $O(n\log n \times \log m)$. Where $n$ and $m$ are the len
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDeviation(self, nums: List[int]) -> int:
@@ -110,7 +111,9 @@ class Solution:
             ans = min(ans, -h[0] - mi)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDeviation(int[] nums) {
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDeviation(nums []int) int {
 	q := hp{}
@@ -191,6 +198,7 @@ func (h *hp) Pop() any {
 }
 func (h *hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

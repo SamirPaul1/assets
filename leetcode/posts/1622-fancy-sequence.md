@@ -71,6 +71,7 @@ fancy.getIndex(2); // return 20
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 MOD = int(1e9 + 7)
 
@@ -185,7 +186,9 @@ class Fancy:
 # obj.multAll(m)
 # param_4 = obj.getIndex(idx)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node left;
@@ -339,7 +342,9 @@ class Fancy {
  * int param_4 = obj.getIndex(idx);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 const int MOD = 1e9 + 7;
 
@@ -482,6 +487,7 @@ public:
  * int param_4 = obj->getIndex(idx);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

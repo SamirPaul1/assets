@@ -78,6 +78,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def assignTasks(self, servers: List[int], tasks: List[int]) -> List[int]:
@@ -98,7 +99,9 @@ class Solution:
             res.append(i)
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] assignTasks(int[] servers, int[] tasks) {
@@ -136,6 +139,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

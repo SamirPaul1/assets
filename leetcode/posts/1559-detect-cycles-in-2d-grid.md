@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def containsCycle(self, grid: List[List[str]]) -> bool:
@@ -95,7 +96,9 @@ class Solution:
                         p[find(x * n + y)] = find(i * n + j)
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -164,7 +169,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func containsCycle(grid [][]byte) bool {
 	m, n := len(grid), len(grid[0])
@@ -196,7 +203,9 @@ func containsCycle(grid [][]byte) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -255,7 +264,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {character[][]} grid
@@ -289,6 +300,7 @@ var containsCycle = function (grid) {
     return false;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

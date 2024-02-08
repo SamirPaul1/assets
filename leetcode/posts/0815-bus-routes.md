@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numBusesToDestination(
@@ -105,7 +106,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numBusesToDestination(int[][] routes, int source, int target) {
@@ -160,7 +163,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -215,7 +220,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numBusesToDestination(routes [][]int, source int, target int) int {
 	if source == target {
@@ -269,7 +276,9 @@ func numBusesToDestination(routes [][]int, source int, target int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int NumBusesToDestination(int[][] routes, int source, int target) {
@@ -326,6 +335,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ It can be shown that there is no way to make them anagrams of each other with le
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSteps(self, s: str, t: str) -> int:
@@ -69,7 +70,9 @@ class Solution:
             cnt[c] -= 1
         return sum(abs(v) for v in cnt.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSteps(String s, String t) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSteps(s string, t string) int {
 	cnt := make([]int, 26)
@@ -126,7 +133,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSteps(s: string, t: string): number {
     let cnt = new Array(128).fill(0);
@@ -143,7 +152,9 @@ function minSteps(s: string, t: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -165,6 +176,7 @@ var minSteps = function (s, t) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

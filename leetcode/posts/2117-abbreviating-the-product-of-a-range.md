@@ -89,6 +89,7 @@ Hence, the abbreviated product is &quot;399168e2&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import numpy
 
@@ -124,7 +125,9 @@ class Solution:
         pre = int(pow(10, z - int(z) + 4))
         return str(pre) + "..." + str(suf).zfill(5) + "e" + str(c)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -165,7 +168,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +213,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func abbreviateProduct(left int, right int) string {
 	cnt2, cnt5 := 0, 0
@@ -252,6 +259,7 @@ func abbreviateProduct(left int, right int) string {
 	return fmt.Sprintf("%de%d", suf, c)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -259,6 +267,7 @@ func abbreviateProduct(left int, right int) string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def abbreviateProduct(self, left: int, right: int) -> str:
@@ -291,6 +300,7 @@ class Solution:
             return str(int(pre)) + "..." + str(suf % int(1e5)).zfill(5) + 'e' + str(c)
         return str(suf) + "e" + str(c)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

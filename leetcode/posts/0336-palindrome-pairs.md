@@ -73,6 +73,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def palindromePairs(self, words: List[str]) -> List[List[int]]:
@@ -88,7 +89,9 @@ class Solution:
                     ans.append([d[rb], i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int BASE = 131;
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func palindromePairs(words []string) [][]int {
 	base := 131
@@ -176,7 +181,9 @@ func palindromePairs(words []string) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections.Generic;
 using System.Linq;
@@ -229,6 +236,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +244,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[26];
@@ -316,6 +325,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

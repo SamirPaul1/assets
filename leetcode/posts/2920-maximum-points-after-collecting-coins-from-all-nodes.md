@@ -90,6 +90,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(n \t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumPoints(self, edges: List[List[int]], coins: List[int], k: int) -> int:
@@ -113,7 +114,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int k;
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -188,7 +193,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumPoints(edges [][]int, coins []int, k int) int {
 	n := len(coins)
@@ -226,7 +233,9 @@ func maximumPoints(edges [][]int, coins []int, k int) int {
 	return dfs(0, -1, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumPoints(edges: number[][], coins: number[], k: number): number {
     const n = coins.length;
@@ -255,6 +264,7 @@ function maximumPoints(edges: number[][], coins: number[], k: number): number {
     return dfs(0, -1, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

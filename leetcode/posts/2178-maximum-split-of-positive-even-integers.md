@@ -70,6 +70,7 @@ Note that [10,2,4,12], [6,2,4,16], etc. are also accepted.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumEvenSplit(self, finalSum: int) -> List[int]:
@@ -84,7 +85,9 @@ class Solution:
         ans[-1] += finalSum
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Long> maximumEvenSplit(long finalSum) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumEvenSplit(finalSum int64) (ans []int64) {
 	if finalSum%2 == 1 {
@@ -131,7 +138,9 @@ func maximumEvenSplit(finalSum int64) (ans []int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumEvenSplit(finalSum: number): number[] {
     const ans: number[] = [];
@@ -146,7 +155,9 @@ function maximumEvenSplit(finalSum: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<long> MaximumEvenSplit(long finalSum) {
@@ -163,6 +174,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

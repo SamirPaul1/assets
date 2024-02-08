@@ -57,12 +57,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         return sum(v & 1 for v in Counter(s).values()) < 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canPermutePalindrome(String s) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPermutePalindrome(s string) bool {
 	cnt := [26]int{}
@@ -109,7 +116,9 @@ func canPermutePalindrome(s string) bool {
 	return odd < 2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canPermutePalindrome(s: string): boolean {
     const cnt: number[] = new Array(26).fill(0);
@@ -119,7 +128,9 @@ function canPermutePalindrome(s: string): boolean {
     return cnt.filter(c => c % 2 === 1).length < 2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -133,6 +144,7 @@ var canPermutePalindrome = function (s) {
     return cnt.filter(c => c % 2 === 1).length < 2;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ Time complexity $O(1)$, space complexity $O(n)$, where $n$ is the number of elem
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class RandomizedSet:
     def __init__(self):
@@ -109,7 +110,9 @@ class RandomizedSet:
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class RandomizedSet {
     private Map<Integer, Integer> d = new HashMap<>();
@@ -153,7 +156,9 @@ class RandomizedSet {
  * int param_3 = obj.getRandom();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class RandomizedSet {
 public:
@@ -198,7 +203,9 @@ private:
  * int param_3 = obj->getRandom();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type RandomizedSet struct {
 	d map[int]int
@@ -242,7 +249,9 @@ func (this *RandomizedSet) GetRandom() int {
  * param_3 := obj.GetRandom();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class RandomizedSet {
     private d: Map<number, number> = new Map();
@@ -284,7 +293,9 @@ class RandomizedSet {
  * var param_3 = obj.getRandom()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 use rand::Rng;
@@ -324,7 +335,9 @@ impl RandomizedSet {
  * let ret_3: i32 = obj.get_random();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class RandomizedSet {
     private Dictionary<int, int> d = new Dictionary<int, int>();
@@ -368,6 +381,7 @@ public class RandomizedSet {
  * int param_3 = obj.GetRandom();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

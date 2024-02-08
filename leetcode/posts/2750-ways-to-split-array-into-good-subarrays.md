@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfGoodSubarraySplits(self, nums: List[int]) -> int:
@@ -75,7 +76,9 @@ class Solution:
             j = i
         return 0 if j == -1 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfGoodSubarraySplits(int[] nums) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfGoodSubarraySplits(nums []int) int {
 	const mod int = 1e9 + 7
@@ -134,7 +141,9 @@ func numberOfGoodSubarraySplits(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfGoodSubarraySplits(nums: number[]): number {
     let ans = 1;
@@ -153,7 +162,9 @@ function numberOfGoodSubarraySplits(nums: number[]): number {
     return j === -1 ? 0 : ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int NumberOfGoodSubarraySplits(int[] nums) {
@@ -173,6 +184,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

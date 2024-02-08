@@ -64,6 +64,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, nums: List[int]) -> int:
@@ -75,7 +76,9 @@ class Solution:
                 return i
         return len(nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxScore(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(nums []int) int {
 	sort.Ints(nums)
@@ -125,7 +132,9 @@ func maxScore(nums []int) int {
 	return n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxScore(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -140,7 +149,9 @@ function maxScore(nums: number[]): number {
     return n;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_score(mut nums: Vec<i32>) -> i32 {
@@ -156,6 +167,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

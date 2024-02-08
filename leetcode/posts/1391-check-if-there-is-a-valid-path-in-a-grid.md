@@ -77,6 +77,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hasValidPath(self, grid: List[List[int]]) -> bool:
@@ -127,7 +128,9 @@ class Solution:
                     up(i, j)
         return find(0) == find(m * n - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -202,7 +205,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -266,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hasValidPath(grid [][]int) bool {
 	m, n := len(grid), len(grid[0])
@@ -327,6 +334,7 @@ func hasValidPath(grid [][]int) bool {
 	return find(0) == find(m*n-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

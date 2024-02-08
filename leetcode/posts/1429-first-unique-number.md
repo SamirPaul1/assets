@@ -99,6 +99,7 @@ firstUnique.showFirstUnique(); // return -1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FirstUnique:
     def __init__(self, nums: List[int]):
@@ -121,7 +122,9 @@ class FirstUnique:
 # param_1 = obj.showFirstUnique()
 # obj.add(value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FirstUnique {
     private Map<Integer, Integer> cnt = new HashMap<>();
@@ -159,7 +162,9 @@ class FirstUnique {
  * obj.add(value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FirstUnique {
 public:
@@ -192,7 +197,9 @@ private:
  * obj->add(value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type FirstUnique struct {
 	cnt map[int]int
@@ -229,6 +236,7 @@ func (this *FirstUnique) Add(value int) {
  * obj.Add(value);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +244,7 @@ func (this *FirstUnique) Add(value int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FirstUnique:
     def __init__(self, nums: List[int]):
@@ -257,7 +266,9 @@ class FirstUnique:
 # param_1 = obj.showFirstUnique()
 # obj.add(value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FirstUnique {
     private Map<Integer, Integer> cnt = new HashMap<>();
@@ -290,6 +301,7 @@ class FirstUnique {
  * obj.add(value);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -72,6 +72,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int], k: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
             x += y
         return -1 if x else ans // 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minOperations(int[] nums1, int[] nums2, int k) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums1 []int, nums2 []int, k int) int64 {
 	ans, x := 0, 0
@@ -169,7 +176,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums1: number[], nums2: number[], k: number): number {
     const n = nums1.length;
@@ -192,7 +201,9 @@ function minOperations(nums1: number[], nums2: number[], k: number): number {
     return sum2 / (k * 2);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations(nums1: Vec<i32>, nums2: Vec<i32>, k: i32) -> i64 {
@@ -227,7 +238,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 long long minOperations(int* nums1, int nums1Size, int* nums2, int nums2Size, int k) {
     if (k == 0) {
@@ -254,6 +267,7 @@ long long minOperations(int* nums1, int nums1Size, int* nums2, int nums2Size, in
     return sum2 / (k * 2);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

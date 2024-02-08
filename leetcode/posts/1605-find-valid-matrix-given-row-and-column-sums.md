@@ -66,6 +66,7 @@ Another possible matrix is: [[1,2],
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def restoreMatrix(self, rowSum: List[int], colSum: List[int]) -> List[List[int]]:
@@ -79,7 +80,9 @@ class Solution:
                 colSum[j] -= x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func restoreMatrix(rowSum []int, colSum []int) [][]int {
 	m, n := len(rowSum), len(colSum)
@@ -136,7 +143,9 @@ func restoreMatrix(rowSum []int, colSum []int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function restoreMatrix(rowSum: number[], colSum: number[]): number[][] {
     const m = rowSum.length;
@@ -153,7 +162,9 @@ function restoreMatrix(rowSum: number[], colSum: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} rowSum
@@ -175,6 +186,7 @@ var restoreMatrix = function (rowSum, colSum) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

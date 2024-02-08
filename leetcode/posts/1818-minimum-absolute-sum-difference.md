@@ -88,6 +88,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAbsoluteSumDiff(self, nums1: List[int], nums2: List[int]) -> int:
@@ -105,7 +106,9 @@ class Solution:
             mx = max(mx, d1 - d2)
         return (s - mx + mod) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAbsoluteSumDiff(int[] nums1, int[] nums2) {
@@ -146,7 +149,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAbsoluteSumDiff(nums1 []int, nums2 []int) int {
 	n := len(nums1)
@@ -210,7 +217,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minAbsoluteSumDiff(nums1: number[], nums2: number[]): number {
     const mod = 10 ** 9 + 7;
@@ -251,7 +260,9 @@ function search(nums: number[], x: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -297,6 +308,7 @@ function search(nums, x) {
     return left;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

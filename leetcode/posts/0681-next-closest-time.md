@@ -58,6 +58,7 @@ It may be assumed that the returned time is next day&#39;s time since it is smal
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextClosestTime(self, time: str) -> str:
@@ -88,7 +89,9 @@ class Solution:
             ans = f'{mi}{mi}:{mi}{mi}'
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int t;
@@ -142,6 +145,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

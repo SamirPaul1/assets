@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:
@@ -77,7 +78,9 @@ class Solution:
             ans[idx[i]] = top3[i] if i < 3 else str(i + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] findRelativeRanks(int[] score) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRelativeRanks(score []int) []string {
 	n := len(score)
@@ -138,6 +145,7 @@ func findRelativeRanks(score []int) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

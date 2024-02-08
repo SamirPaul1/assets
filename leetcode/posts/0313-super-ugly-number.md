@@ -67,6 +67,7 @@ The time complexity is $O(n \times m \times \log (n \times m))$, and the space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nthSuperUglyNumber(self, n: int, primes: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                     break
         return x
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nthSuperUglyNumber(n int, primes []int) (x int) {
 	q := hp{[]int{1}}
@@ -160,6 +167,7 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -167,6 +175,7 @@ func (h *hp) Pop() any {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 type Ugly struct{ value, prime, index int }
 type Queue []Ugly
@@ -199,6 +208,7 @@ func nthSuperUglyNumber(n int, primes []int) int {
 	return ugly[n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

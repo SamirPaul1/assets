@@ -1,6 +1,5 @@
 # [2893. Calculate Orders Within Each Interval](https://leetcode.com/problems/calculate-orders-within-each-interval)
 
-[中文文档](/solution/2800-2899/2893.Calculate%20Orders%20Within%20Each%20Interval/README.md)
 
 ## Description
 

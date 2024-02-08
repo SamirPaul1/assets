@@ -74,6 +74,7 @@ Therefore, no substrings in s are equal count substrings, so return 0</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def equalCountSubstrings(self, s: str, count: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 ans += x == y
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int equalCountSubstrings(String s, int count) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func equalCountSubstrings(s string, count int) (ans int) {
 	n := len(s)
@@ -202,7 +209,9 @@ func equalCountSubstrings(s string, count int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -234,6 +243,7 @@ var equalCountSubstrings = function (s, count) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

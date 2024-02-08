@@ -60,6 +60,7 @@ The time complexity is $O(n)$, where $n$ is the minimum length of the three stri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMinimumOperations(self, s1: str, s2: str, s3: str) -> int:
@@ -70,7 +71,9 @@ class Solution:
                 return -1 if i == 0 else s - 3 * i
         return s - 3 * n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMinimumOperations(String s1, String s2, String s3) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMinimumOperations(s1 string, s2 string, s3 string) int {
 	s := len(s1) + len(s2) + len(s3)
@@ -117,7 +124,9 @@ func findMinimumOperations(s1 string, s2 string, s3 string) int {
 	return s - 3*n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMinimumOperations(s1: string, s2: string, s3: string): number {
     const s = s1.length + s2.length + s3.length;
@@ -130,6 +139,7 @@ function findMinimumOperations(s1: string, s2: string, s3: string): number {
     return s - 3 * n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

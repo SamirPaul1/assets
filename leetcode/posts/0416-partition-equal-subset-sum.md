@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
@@ -66,7 +67,9 @@ class Solution:
                 f[i][j] = f[i - 1][j] or (j >= x and f[i - 1][j - x])
         return f[n][m]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canPartition(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPartition(nums []int) bool {
 	s := 0
@@ -141,7 +148,9 @@ func canPartition(nums []int) bool {
 	return f[n][m]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canPartition(nums: number[]): boolean {
     const s = nums.reduce((a, b) => a + b, 0);
@@ -163,7 +172,9 @@ function canPartition(nums: number[]): boolean {
     return f[n][m];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -199,7 +210,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -225,6 +238,7 @@ var canPartition = function (nums) {
     return f[n][m];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -232,6 +246,7 @@ var canPartition = function (nums) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
@@ -244,7 +259,9 @@ class Solution:
                 f[j] = f[j] or f[j - x]
         return f[m]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canPartition(int[] nums) {
@@ -268,7 +285,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -290,7 +309,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPartition(nums []int) bool {
 	s := 0
@@ -311,7 +332,9 @@ func canPartition(nums []int) bool {
 	return f[m]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canPartition(nums: number[]): boolean {
     const s = nums.reduce((a, b) => a + b, 0);
@@ -329,7 +352,9 @@ function canPartition(nums: number[]): boolean {
     return f[m];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -365,7 +390,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -387,6 +414,7 @@ var canPartition = function (nums) {
     return f[m];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

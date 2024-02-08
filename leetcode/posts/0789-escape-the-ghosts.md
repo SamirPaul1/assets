@@ -70,13 +70,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def escapeGhosts(self, ghosts: List[List[int]], target: List[int]) -> bool:
         tx, ty = target
         return all(abs(tx - x) + abs(ty - y) > abs(tx) + abs(ty) for x, y in ghosts)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean escapeGhosts(int[][] ghosts, int[] target) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func escapeGhosts(ghosts [][]int, target []int) bool {
 	tx, ty := target[0], target[1]
@@ -127,7 +134,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function escapeGhosts(ghosts: number[][], target: number[]): boolean {
     const [tx, ty] = target;
@@ -139,6 +148,7 @@ function escapeGhosts(ghosts: number[][], target: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

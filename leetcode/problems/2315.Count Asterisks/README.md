@@ -1,6 +1,5 @@
 # [2315. Count Asterisks](https://leetcode.com/problems/count-asterisks)
 
-[中文文档](/solution/2300-2399/2315.Count%20Asterisks/README.md)
 
 ## Description
 

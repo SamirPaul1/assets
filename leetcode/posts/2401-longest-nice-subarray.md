@@ -77,6 +77,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestNiceSubarray(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
             mask |= x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestNiceSubarray(int[] nums) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestNiceSubarray(nums []int) (ans int) {
 	mask, j := 0, 0
@@ -138,7 +145,9 @@ func longestNiceSubarray(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestNiceSubarray(nums: number[]): number {
     let mask = 0;
@@ -153,6 +162,7 @@ function longestNiceSubarray(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

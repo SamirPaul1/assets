@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseBits(self, n: int) -> int:
@@ -70,7 +71,9 @@ class Solution:
             n >>= 1
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Solution {
     // you need treat n as an unsigned value
@@ -84,7 +87,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseBits(num uint32) uint32 {
 	var ans uint32 = 0
@@ -109,7 +116,9 @@ func reverseBits(num uint32) uint32 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_bits(mut x: u32) -> u32 {
@@ -122,7 +131,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n - a positive integer
@@ -138,6 +149,7 @@ var reverseBits = function (n) {
     return res >>> 0;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,13 +61,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hasAllCodes(self, s: str, k: int) -> bool:
         ss = {s[i : i + k] for i in range(len(s) - k + 1)}
         return len(ss) == 1 << k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean hasAllCodes(String s, int k) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hasAllCodes(s string, k int) bool {
 	ss := map[string]bool{}
@@ -102,6 +109,7 @@ func hasAllCodes(s string, k int) bool {
 	return len(ss) == 1<<k
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -109,6 +117,7 @@ func hasAllCodes(s string, k int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hasAllCodes(self, s: str, k: int) -> bool:
@@ -124,7 +133,9 @@ class Solution:
             vis[num] = True
         return all(v for v in vis)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean hasAllCodes(String s, int k) {
@@ -150,7 +161,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +185,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hasAllCodes(s string, k int) bool {
 	n := len(s)
@@ -198,6 +213,7 @@ func hasAllCodes(s string, k int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

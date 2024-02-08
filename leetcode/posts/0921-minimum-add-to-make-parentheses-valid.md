@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
@@ -75,7 +76,9 @@ class Solution:
                 stk.append(c)
         return len(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAddToMakeValid(String s) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAddToMakeValid(s string) int {
 	stk := []rune{}
@@ -121,6 +128,7 @@ func minAddToMakeValid(s string) int {
 	return len(stk)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -128,6 +136,7 @@ func minAddToMakeValid(s string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
@@ -142,7 +151,9 @@ class Solution:
         ans += cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAddToMakeValid(String s) {
@@ -161,7 +172,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +193,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAddToMakeValid(s string) int {
 	ans, cnt := 0, 0
@@ -197,6 +212,7 @@ func minAddToMakeValid(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

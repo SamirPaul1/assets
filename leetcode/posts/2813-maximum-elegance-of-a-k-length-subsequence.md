@@ -90,6 +90,7 @@ The time complexity is $O(n \times \log n)$ and the space complexity is $O(n)$, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaximumElegance(self, items: List[List[int]], k: int) -> int:
@@ -112,7 +113,9 @@ class Solution:
             ans = max(ans, tot + len(vis) ** 2)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long findMaximumElegance(int[][] items, int k) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaximumElegance(items [][]int, k int) int64 {
 	sort.Slice(items, func(i, j int) bool { return items[i][0] > items[j][0] })
@@ -208,7 +215,9 @@ func findMaximumElegance(items [][]int, k int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaximumElegance(items: number[][], k: number): number {
     items.sort((a, b) => b[0] - a[0]);
@@ -235,6 +244,7 @@ function findMaximumElegance(items: number[][], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

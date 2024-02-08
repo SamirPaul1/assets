@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findKthNumber(self, m: int, n: int, k: int) -> int:
@@ -69,7 +70,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findKthNumber(int m, int n, int k) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findKthNumber(m int, n int, k int) int {
 	left, right := 1, m*n
@@ -128,6 +135,7 @@ func findKthNumber(m int, n int, k int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

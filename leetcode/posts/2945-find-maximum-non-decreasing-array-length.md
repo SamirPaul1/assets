@@ -72,6 +72,7 @@ Because the given array is not non-decreasing, the maximum<!-- notionvc: 3447a50
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaximumLength(self, nums: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             pre[j] = i
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaximumLength(int[] nums) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaximumLength(nums []int) int {
 	n := len(nums)
@@ -150,7 +157,9 @@ func findMaximumLength(nums []int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaximumLength(nums: number[]): number {
     const n = nums.length;
@@ -181,6 +190,7 @@ function findMaximumLength(nums: number[]): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

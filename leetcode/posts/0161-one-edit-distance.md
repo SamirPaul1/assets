@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isOneEditDistance(self, s: str, t: str) -> bool:
@@ -73,7 +74,9 @@ class Solution:
                 return s[i + 1 :] == t[i + 1 :] if m == n else s[i + 1 :] == t[i:]
         return m == n + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isOneEditDistance(String s, String t) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isOneEditDistance(s string, t string) bool {
 	m, n := len(s), len(t)
@@ -135,6 +142,7 @@ func isOneEditDistance(s string, t string) bool {
 	return m == n+1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

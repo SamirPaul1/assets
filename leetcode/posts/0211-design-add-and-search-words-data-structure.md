@@ -67,6 +67,7 @@ wordDictionary.search(&quot;b..&quot;); // return True
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -110,7 +111,9 @@ class WordDictionary:
 # obj.addWord(word)
 # param_2 = obj.search(word)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[26];
@@ -169,7 +172,9 @@ class WordDictionary {
  * boolean param_2 = obj.search(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class trie {
 public:
@@ -239,7 +244,9 @@ private:
  * bool param_2 = obj->search(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type WordDictionary struct {
 	root *trie
@@ -304,7 +311,9 @@ func (t *trie) insert(word string) {
  * param_2 := obj.Search(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections.Generic;
 using System.Linq;
@@ -374,6 +383,7 @@ public class WordDictionary {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

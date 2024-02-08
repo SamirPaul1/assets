@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findComplement(self, num: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
                 ans |= 1 << i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findComplement(int num) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findComplement(num int) int {
 	ans := 0
@@ -122,6 +129,7 @@ func findComplement(num int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -129,12 +137,15 @@ func findComplement(num int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findComplement(self, num: int) -> int:
         return num ^ (2 ** (len(bin(num)[2:])) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,6 +162,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

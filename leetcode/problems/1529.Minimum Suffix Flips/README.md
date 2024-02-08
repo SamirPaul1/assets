@@ -1,6 +1,5 @@
 # [1529. Minimum Suffix Flips](https://leetcode.com/problems/minimum-suffix-flips)
 
-[中文文档](/solution/1500-1599/1529.Minimum%20Suffix%20Flips/README.md)
 
 ## Description
 

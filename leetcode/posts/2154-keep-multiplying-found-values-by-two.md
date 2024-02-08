@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findFinalValue(self, nums: List[int], original: int) -> int:
@@ -75,7 +76,9 @@ class Solution:
             original <<= 1
         return original
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findFinalValue(nums []int, original int) int {
 	s := make(map[int]bool)
@@ -116,7 +123,9 @@ func findFinalValue(nums []int, original int) int {
 	return original
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findFinalValue(nums: number[], original: number): number {
     let set: Set<number> = new Set(nums);
@@ -126,6 +135,7 @@ function findFinalValue(nums: number[], original: number): number {
     return original;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

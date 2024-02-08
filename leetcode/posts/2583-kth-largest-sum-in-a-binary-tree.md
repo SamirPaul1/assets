@@ -69,6 +69,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -92,7 +93,9 @@ class Solution:
             arr.append(t)
         return -1 if len(arr) < k else nlargest(k, arr)[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -177,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -212,7 +219,9 @@ func kthLargestLevelSum(root *TreeNode, k int) int64 {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -252,6 +261,7 @@ function kthLargestLevelSum(root: TreeNode | null, k: number): number {
     return arr[k - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -263,6 +273,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -285,7 +296,9 @@ class Solution:
         dfs(root, 0)
         return -1 if len(arr) < k else nlargest(k, arr)[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -327,7 +340,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -364,7 +379,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -397,7 +414,9 @@ func kthLargestLevelSum(root *TreeNode, k int) int64 {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -434,6 +453,7 @@ function kthLargestLevelSum(root: TreeNode | null, k: number): number {
     return arr[k - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

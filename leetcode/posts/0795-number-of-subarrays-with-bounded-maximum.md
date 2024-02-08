@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:
@@ -66,7 +67,9 @@ class Solution:
 
         return f(right) - f(left - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubarrayBoundedMax(int[] nums, int left, int right) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubarrayBoundedMax(nums []int, left int, right int) int {
 	f := func(x int) (cnt int) {
@@ -117,6 +124,7 @@ func numSubarrayBoundedMax(nums []int, left int, right int) int {
 	return f(right) - f(left-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -124,6 +132,7 @@ func numSubarrayBoundedMax(nums []int, left int, right int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubarrayBoundedMax(self, nums: List[int], left: int, right: int) -> int:
@@ -147,7 +156,9 @@ class Solution:
             (i - l[i]) * (r[i] - i) for i, v in enumerate(nums) if left <= v <= right
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubarrayBoundedMax(int[] nums, int left, int right) {
@@ -188,7 +199,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -220,7 +233,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubarrayBoundedMax(nums []int, left int, right int) (ans int) {
 	n := len(nums)
@@ -258,6 +273,7 @@ func numSubarrayBoundedMax(nums []int, left int, right int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ Note that other answers, such as [3, 3], would also be accepted.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pancakeSort(self, arr: List[int]) -> List[int]:
@@ -94,7 +95,9 @@ class Solution:
                 reverse(arr, i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> pancakeSort(int[] arr) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pancakeSort(arr []int) []int {
 	var ans []int
@@ -174,7 +181,9 @@ func pancakeSort(arr []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function pancakeSort(arr: number[]): number[] {
     let ans = [];
@@ -200,7 +209,9 @@ function reverse(nums: Array<number>, end: number): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn pancake_sort(mut arr: Vec<i32>) -> Vec<i32> {
@@ -225,6 +236,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

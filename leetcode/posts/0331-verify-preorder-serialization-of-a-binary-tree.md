@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isValidSerialization(self, preorder: str) -> bool:
@@ -71,7 +72,9 @@ class Solution:
                 stk.append("#")
         return len(stk) == 1 and stk[0] == "#"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isValidSerialization(String preorder) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isValidSerialization(preorder string) bool {
 	stk := []string{}
@@ -124,6 +131,7 @@ func isValidSerialization(preorder string) bool {
 	return len(stk) == 1 && stk[0] == "#"
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -131,6 +139,7 @@ func isValidSerialization(preorder string) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isValidSerialization(String preorder) {
@@ -149,6 +158,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

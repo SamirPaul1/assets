@@ -71,6 +71,7 @@ The time complexity is $O(h^2 + v^2)$, and the space complexity is $O(h^2 + v^2)
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeSquareArea(
@@ -87,7 +88,9 @@ class Solution:
         ans = max(hs & vs, default=0)
         return ans**2 % mod if ans else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeSquareArea(m int, n int, hFences []int, vFences []int) int {
 	f := func(nums []int, k int) map[int]bool {
@@ -176,7 +183,9 @@ func maximizeSquareArea(m int, n int, hFences []int, vFences []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeSquareArea(m: number, n: number, hFences: number[], vFences: number[]): number {
     const f = (nums: number[], k: number): Set<number> => {
@@ -201,6 +210,7 @@ function maximizeSquareArea(m: number, n: number, hFences: number[], vFences: nu
     return ans ? Number(BigInt(ans) ** 2n % 1000000007n) : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

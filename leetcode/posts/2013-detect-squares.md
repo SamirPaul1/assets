@@ -84,6 +84,7 @@ In terms of time complexity, the time complexity of calling the $add(x, y)$ meth
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class DetectSquares:
     def __init__(self):
@@ -111,7 +112,9 @@ class DetectSquares:
 # obj.add(point)
 # param_2 = obj.count(point)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class DetectSquares {
     private Map<Integer, Map<Integer, Integer>> cnt = new HashMap<>();
@@ -153,7 +156,9 @@ class DetectSquares {
  * int param_2 = obj.count(point);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class DetectSquares {
 public:
@@ -193,7 +198,9 @@ private:
  * int param_2 = obj->count(point);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type DetectSquares struct {
 	cnt map[int]map[int]int
@@ -232,6 +239,7 @@ func (this *DetectSquares) Count(point []int) (ans int) {
  * param_2 := obj.Count(point);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

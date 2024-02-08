@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkPowersOfThree(self, n: int) -> bool:
@@ -69,7 +70,9 @@ class Solution:
             n //= 3
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkPowersOfThree(int n) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkPowersOfThree(n int) bool {
 	for n > 0 {
@@ -108,7 +115,9 @@ func checkPowersOfThree(n int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkPowersOfThree(n: number): boolean {
     while (n) {
@@ -118,6 +127,7 @@ function checkPowersOfThree(n: number): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

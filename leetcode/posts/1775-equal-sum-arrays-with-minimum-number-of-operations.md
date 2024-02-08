@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[] nums1, int[] nums2) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums1 []int, nums2 []int) int {
 	s1, s2 := sum(nums1), sum(nums2)
@@ -176,6 +183,7 @@ func sum(nums []int) (s int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -183,6 +191,7 @@ func sum(nums []int) (s int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int]) -> int:
@@ -201,7 +210,9 @@ class Solution:
                 ans += 1
         return ans if d <= 0 else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[] nums1, int[] nums2) {
@@ -233,7 +244,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -258,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums1 []int, nums2 []int) (ans int) {
 	s1, s2 := sum(nums1), sum(nums2)
@@ -296,6 +311,7 @@ func sum(nums []int) (s int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

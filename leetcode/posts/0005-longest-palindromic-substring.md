@@ -61,6 +61,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> str:
@@ -76,7 +77,9 @@ class Solution:
                         k, mx = i, j - i + 1
         return s[k : k + mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String longestPalindrome(String s) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindrome(s string) string {
 	n := len(s)
@@ -153,7 +160,9 @@ func longestPalindrome(s string) string {
 	return s[k : k+mx]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestPalindrome(s: string): string {
     const n = s.length;
@@ -177,7 +186,9 @@ function longestPalindrome(s: string): string {
     return s.slice(k, k + mx);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_palindrome(s: String) -> String {
@@ -199,7 +210,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -227,7 +240,9 @@ var longestPalindrome = function (s) {
     return s.slice(k, k + mx);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string LongestPalindrome(string s) {
@@ -255,7 +270,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Nim Code" >}}
 ```nim
 import std/sequtils
 
@@ -279,6 +296,7 @@ proc longestPalindrome(s: string): string =
 
   result = s[start ..< start+mx]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -290,6 +308,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(1)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> str:
@@ -309,7 +328,9 @@ class Solution:
                 start = i - ((t - 1) >> 1)
         return s[start : start + mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -340,7 +361,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -366,7 +389,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindrome(s string) string {
 	n := len(s)
@@ -388,7 +413,9 @@ func longestPalindrome(s string) string {
 	return s[start : start+mx]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_palindrome(s: &str) -> bool {
@@ -418,7 +445,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -454,6 +483,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

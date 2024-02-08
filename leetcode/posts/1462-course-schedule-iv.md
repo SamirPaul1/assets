@@ -78,6 +78,7 @@ Course 0 is not a prerequisite of course 1, but the opposite is true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfPrerequisite(
@@ -93,7 +94,9 @@ class Solution:
                         f[i][j] = True
         return [f[a][b] for a, b in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Boolean> checkIfPrerequisite(int n, int[][] prerequisites, int[][] queries) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfPrerequisite(n int, prerequisites [][]int, queries [][]int) (ans []bool) {
 	f := make([][]bool, n)
@@ -164,7 +171,9 @@ func checkIfPrerequisite(n int, prerequisites [][]int, queries [][]int) (ans []b
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfPrerequisite(n: number, prerequisites: number[][], queries: number[][]): boolean[] {
     const f = Array.from({ length: n }, () => Array(n).fill(false));
@@ -179,6 +188,7 @@ function checkIfPrerequisite(n: number, prerequisites: number[][], queries: numb
     return queries.map(([a, b]) => f[a][b]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -186,6 +196,7 @@ function checkIfPrerequisite(n: number, prerequisites: number[][], queries: numb
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfPrerequisite(
@@ -209,7 +220,9 @@ class Solution:
                     q.append(j)
         return [f[a][b] for a, b in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Boolean> checkIfPrerequisite(int n, int[][] prerequisites, int[][] queries) {
@@ -247,7 +260,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -287,7 +302,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfPrerequisite(n int, prerequisites [][]int, queries [][]int) (ans []bool) {
 	f := make([][]bool, n)
@@ -327,7 +344,9 @@ func checkIfPrerequisite(n int, prerequisites [][]int, queries [][]int) (ans []b
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfPrerequisite(n: number, prerequisites: number[][], queries: number[][]): boolean[] {
     const f = Array.from({ length: n }, () => Array(n).fill(false));
@@ -358,6 +377,7 @@ function checkIfPrerequisite(n: number, prerequisites: number[][], queries: numb
     return queries.map(([a, b]) => f[a][b]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

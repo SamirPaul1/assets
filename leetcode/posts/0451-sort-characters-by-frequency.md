@@ -65,13 +65,16 @@ Note that &#39;A&#39; and &#39;a&#39; are treated as two different characters.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def frequencySort(self, s: str) -> str:
         cnt = Counter(s)
         return ''.join(c * v for c, v in sorted(cnt.items(), key=lambda x: -x[1]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String frequencySort(String s) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func frequencySort(s string) string {
 	cnt := map[byte]int{}
@@ -134,7 +141,9 @@ func frequencySort(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function frequencySort(s: string): string {
     const cnt: Map<string, number> = new Map();
@@ -149,7 +158,9 @@ function frequencySort(s: string): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -166,7 +177,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -186,6 +199,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

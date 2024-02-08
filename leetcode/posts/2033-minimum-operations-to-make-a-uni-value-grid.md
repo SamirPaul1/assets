@@ -77,6 +77,7 @@ The time complexity is $O((m \times n) \times \log (m \times n))$, and the space
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, grid: List[List[int]], x: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
         mid = nums[len(nums) >> 1]
         return sum(abs(v - mid) // x for v in nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[][] grid, int x) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(grid [][]int, x int) int {
 	mod := grid[0][0] % x
@@ -171,6 +178,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ The time complexity is $O(\log x)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mySqrt(self, x: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 l = mid
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mySqrt(int x) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,13 +117,17 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mySqrt(x int) int {
 	return sort.Search(x+1, func(i int) bool { return i*i > x }) - 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn my_sqrt(x: i32) -> i32 {
@@ -139,7 +148,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} x
@@ -158,7 +169,9 @@ var mySqrt = function (x) {
     return l;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MySqrt(int x) {
@@ -175,6 +188,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

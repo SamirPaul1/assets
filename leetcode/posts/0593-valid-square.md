@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validSquare(
@@ -86,7 +87,9 @@ class Solution:
             and check(p1, p2, p4)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validSquare(p1 []int, p2 []int, p3 []int, p4 []int) bool {
 	check := func(a, b, c []int) bool {
@@ -159,6 +166,7 @@ func validSquare(p1 []int, p2 []int, p3 []int, p4 []int) bool {
 	return check(p1, p2, p3) && check(p1, p3, p4) && check(p1, p2, p4) && check(p2, p3, p4)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

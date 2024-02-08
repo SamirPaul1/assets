@@ -67,6 +67,7 @@ Note that there may be other ways to remove 2 obstacles to create a path.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumObstacles(self, grid: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                     else:
                         q.append((x, y, k + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumObstacles(int[][] grid) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumObstacles(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -193,7 +200,9 @@ func minimumObstacles(grid [][]int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumObstacles(grid: number[][]): number {
     const m = grid.length,
@@ -221,6 +230,7 @@ function minimumObstacles(grid: number[][]): number {
     return ans[m - 1][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

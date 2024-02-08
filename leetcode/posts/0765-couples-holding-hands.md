@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSwapsCouples(self, row: List[int]) -> int:
@@ -74,7 +75,9 @@ class Solution:
             p[find(a)] = find(b)
         return n - sum(i == find(i) for i in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSwapsCouples(row []int) int {
 	n := len(row) >> 1
@@ -160,7 +167,9 @@ func minSwapsCouples(row []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSwapsCouples(row: number[]): number {
     const n = row.length >> 1;
@@ -187,7 +196,9 @@ function minSwapsCouples(row: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int[] p;
@@ -220,6 +231,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

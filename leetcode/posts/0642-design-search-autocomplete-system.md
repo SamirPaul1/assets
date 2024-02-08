@@ -84,6 +84,7 @@ obj.input(&quot;#&quot;); // return []. The user finished the input, the sentenc
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -147,7 +148,9 @@ class AutocompleteSystem:
 # obj = AutocompleteSystem(sentences, times)
 # param_1 = obj.input(c)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[27];
@@ -234,6 +237,7 @@ class AutocompleteSystem {
  * List<String> param_1 = obj.input(c);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

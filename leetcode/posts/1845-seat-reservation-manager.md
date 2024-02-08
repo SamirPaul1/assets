@@ -78,6 +78,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class SeatManager:
     def __init__(self, n: int):
@@ -96,7 +97,9 @@ class SeatManager:
 # param_1 = obj.reserve()
 # obj.unreserve(seatNumber)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SeatManager {
     private PriorityQueue<Integer> q = new PriorityQueue<>();
@@ -123,7 +126,9 @@ class SeatManager {
  * obj.unreserve(seatNumber);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SeatManager {
 public:
@@ -154,7 +159,9 @@ private:
  * obj->unreserve(seatNumber);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type SeatManager struct {
 	q hp
@@ -194,7 +201,9 @@ func (h *hp) Pop() any {
  * obj.Unreserve(seatNumber);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class SeatManager {
     private SortedSet<int> availableSeats;
@@ -224,6 +233,7 @@ public class SeatManager {
  * obj.Unreserve(seatNumber);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

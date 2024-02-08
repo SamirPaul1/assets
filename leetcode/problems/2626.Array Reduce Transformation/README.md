@@ -1,6 +1,5 @@
 # [2626. Array Reduce Transformation](https://leetcode.com/problems/array-reduce-transformation)
 
-[中文文档](/solution/2600-2699/2626.Array%20Reduce%20Transformation/README.md)
 
 ## Description
 

@@ -67,6 +67,7 @@ We have that [0,5,6] are the only nodes that can be reached from node 0 without 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reachableNodes(
@@ -93,7 +94,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reachableNodes(n int, edges [][]int, restricted []int) int {
 	g := make([][]int, n)
@@ -187,7 +194,9 @@ func reachableNodes(n int, edges [][]int, restricted []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reachableNodes(n: number, edges: number[][], restricted: number[]): number {
     let res = 0;
@@ -212,6 +221,7 @@ function reachableNodes(n: number, edges: number[][], restricted: number[]): num
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -219,6 +229,7 @@ function reachableNodes(n: number, edges: number[][], restricted: number[]): num
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reachableNodes(
@@ -243,7 +254,9 @@ class Solution:
                     q.append(j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reachableNodes(int n, int[][] edges, int[] restricted) {
@@ -275,7 +288,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -302,7 +317,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reachableNodes(n int, edges [][]int, restricted []int) int {
 	g := make([][]int, n)
@@ -331,7 +348,9 @@ func reachableNodes(n int, edges [][]int, restricted []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reachableNodes(n: number, edges: number[][], restricted: number[]): number {
     const g = Array.from({ length: n }, () => []);
@@ -358,6 +377,7 @@ function reachableNodes(n: number, edges: number[][], restricted: number[]): num
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -68,6 +68,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $rectangles$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countGoodRectangles(self, rectangles: List[List[int]]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countGoodRectangles(int[][] rectangles) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countGoodRectangles(rectangles [][]int) (ans int) {
 	mx := 0
@@ -134,7 +141,9 @@ func countGoodRectangles(rectangles [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countGoodRectangles(rectangles: number[][]): number {
     let [ans, mx] = [0, 0];
@@ -150,6 +159,7 @@ function countGoodRectangles(rectangles: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
@@ -96,7 +97,9 @@ class Solution:
             i, j = i - 1, j - 1
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean backspaceCompare(String s, String t) {
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func backspaceCompare(s string, t string) bool {
 	i, j := len(s)-1, len(t)-1
@@ -213,7 +220,9 @@ func backspaceCompare(s string, t string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function backspaceCompare(s: string, t: string): boolean {
     let i = s.length - 1;
@@ -250,7 +259,9 @@ function backspaceCompare(s: string, t: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn backspace_compare(s: String, t: String) -> bool {
@@ -295,6 +306,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

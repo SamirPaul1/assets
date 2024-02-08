@@ -67,6 +67,7 @@ stringIterator.hasNext(); // return True
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class StringIterator:
     def __init__(self, compressedString: str):
@@ -101,7 +102,9 @@ class StringIterator:
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class StringIterator {
     private List<Node> d = new ArrayList<>();
@@ -153,7 +156,9 @@ class Node {
  * boolean param_2 = obj.hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class StringIterator {
 public:
@@ -195,7 +200,9 @@ private:
  * bool param_2 = obj->hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type pair struct {
 	c byte
@@ -247,6 +254,7 @@ func (this *StringIterator) HasNext() bool {
  * param_2 := obj.HasNext();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

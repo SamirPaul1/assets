@@ -84,6 +84,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:
@@ -101,7 +102,9 @@ class Solution:
                 return "B" if k & 1 else "A"
         return "Draw" if n == 9 else "Pending"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String tictactoe(int[][] moves) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tictactoe(moves [][]int) string {
 	n := len(moves)
@@ -178,7 +185,9 @@ func tictactoe(moves [][]int) string {
 	return "Pending"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tictactoe(moves: number[][]): string {
     const n = moves.length;
@@ -200,6 +209,7 @@ function tictactoe(moves: number[][]): string {
     return n == 9 ? 'Draw' : 'Pending';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

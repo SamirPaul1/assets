@@ -44,6 +44,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findStrobogrammatic(self, n: int) -> List[str]:
@@ -62,7 +63,9 @@ class Solution:
 
         return dfs(n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int[][] PAIRS = {{1, 1}, {8, 8}, {6, 9}, {9, 6}};
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findStrobogrammatic(n int) []string {
 	var dfs func(int) []string
@@ -140,6 +147,7 @@ func findStrobogrammatic(n int) []string {
 	return dfs(n)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ medianFinder.findMedian(); // return 2.0
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MedianFinder:
     def __init__(self):
@@ -102,7 +103,9 @@ class MedianFinder:
 # obj.addNum(num)
 # param_2 = obj.findMedian()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MedianFinder {
     private PriorityQueue<Integer> q1 = new PriorityQueue<>();
@@ -135,7 +138,9 @@ class MedianFinder {
  * double param_2 = obj.findMedian();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MedianFinder {
 public:
@@ -172,7 +177,9 @@ private:
  * double param_2 = obj->findMedian();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MedianFinder struct {
 	q1 hp
@@ -217,7 +224,9 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MedianFinder {
     private nums: number[];
@@ -258,7 +267,9 @@ class MedianFinder {
  * var param_2 = obj.findMedian()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct MedianFinder {
     nums: Vec<i32>,
@@ -302,7 +313,9 @@ impl MedianFinder {
  * let ret_2: f64 = obj.find_median();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * initialize your data structure here.
@@ -337,7 +350,9 @@ MedianFinder.prototype.findMedian = function () {
     return this.val.length % 2 ? this.val[mid] : (this.val[mid - 1] + this.val[mid]) / 2;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class MedianFinder {
     private List<int> nums;
@@ -396,6 +411,7 @@ public class MedianFinder {
  * double param_2 = obj.FindMedian();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

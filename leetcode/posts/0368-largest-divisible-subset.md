@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestDivisibleSubset(self, nums: List[int]) -> List[int]:
@@ -82,7 +83,9 @@ class Solution:
             i -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> largestDivisibleSubset(int[] nums) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestDivisibleSubset(nums []int) (ans []int) {
 	sort.Ints(nums)
@@ -176,6 +183,7 @@ func largestDivisibleSubset(nums []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

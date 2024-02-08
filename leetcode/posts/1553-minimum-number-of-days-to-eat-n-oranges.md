@@ -70,6 +70,7 @@ You need at least 3 days to eat the 6 oranges.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDays(self, n: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
 
         return dfs(n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Integer> f = new HashMap<>();
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDays(n int) int {
 	f := map[int]int{0: 0, 1: 1}
@@ -138,6 +145,7 @@ func minDays(n int) int {
 	return dfs(n)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

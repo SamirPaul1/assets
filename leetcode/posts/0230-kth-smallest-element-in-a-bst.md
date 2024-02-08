@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -75,7 +76,9 @@ class Solution:
                     return root.val
                 root = root.right
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -172,7 +179,9 @@ func kthSmallest(root *TreeNode, k int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -207,7 +216,9 @@ function kthSmallest(root: TreeNode | null, k: number): number {
     return dfs(root);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -249,6 +260,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -256,6 +268,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -296,7 +309,9 @@ class Solution:
         bst = BST(root)
         return bst.kthSmallest(k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -356,7 +371,9 @@ class BST {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -410,7 +427,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -465,6 +484,7 @@ func kthSmallest(root *TreeNode, k int) int {
 	return bst.kthSmallest(k)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

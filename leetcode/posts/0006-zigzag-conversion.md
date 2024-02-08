@@ -83,6 +83,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
@@ -97,7 +98,9 @@ class Solution:
             i += k
         return ''.join(chain(*g))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String convert(String s, int numRows) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func convert(s string, numRows int) string {
 	if numRows == 1 {
@@ -161,7 +168,9 @@ func convert(s string, numRows int) string {
 	return string(bytes.Join(g, nil))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function convert(s: string, numRows: number): string {
     if (numRows === 1) {
@@ -180,7 +189,9 @@ function convert(s: string, numRows: number): string {
     return g.flat().join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn convert(s: String, num_rows: i32) -> String {
@@ -210,7 +221,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -234,7 +247,9 @@ var convert = function (s, numRows) {
     return g.flat().join('');
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string Convert(string s, int numRows) {
@@ -262,6 +277,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -269,6 +285,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
@@ -287,7 +304,9 @@ class Solution:
                     interval = group
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String convert(String s, int numRows) {
@@ -312,7 +331,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -334,7 +355,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func convert(s string, numRows int) string {
 	if numRows == 1 {
@@ -357,7 +380,9 @@ func convert(s string, numRows int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function convert(s: string, numRows: number): string {
     if (numRows === 1) {
@@ -380,7 +405,9 @@ function convert(s: string, numRows: number): string {
     return ss.reduce((r, s) => r + s);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn convert(s: String, num_rows: i32) -> String {
@@ -392,7 +419,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -421,7 +450,9 @@ var convert = function (s, numRows) {
     return ans.join('');
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -453,6 +484,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -81,6 +81,7 @@ We can use the window function `RANK()` to rank each session by `user_id` dimens
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -102,6 +103,7 @@ WHERE rk = 1 AND t.session_type = 'Viewer' AND s.session_type = 'Streamer'
 GROUP BY 1
 ORDER BY 2 DESC, 1 DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

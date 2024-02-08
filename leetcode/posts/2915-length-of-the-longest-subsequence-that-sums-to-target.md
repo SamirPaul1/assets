@@ -79,6 +79,7 @@ We notice that the state of $f[i][j]$ is only related to $f[i-1][\cdot]$, so we 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
@@ -92,7 +93,9 @@ class Solution:
                     f[i][j] = max(f[i][j], f[i - 1][j - x] + 1)
         return -1 if f[n][target] <= 0 else f[n][target]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLongestSubsequence(List<Integer> nums, int target) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthOfLongestSubsequence(nums []int, target int) int {
 	n := len(nums)
@@ -165,7 +172,9 @@ func lengthOfLongestSubsequence(nums []int, target int) int {
 	return f[n][target]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lengthOfLongestSubsequence(nums: number[], target: number): number {
     const n = nums.length;
@@ -183,6 +192,7 @@ function lengthOfLongestSubsequence(nums: number[], target: number): number {
     return f[n][target] <= 0 ? -1 : f[n][target];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -190,6 +200,7 @@ function lengthOfLongestSubsequence(nums: number[], target: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lengthOfLongestSubsequence(self, nums: List[int], target: int) -> int:
@@ -199,7 +210,9 @@ class Solution:
                 f[j] = max(f[j], f[j - x] + 1)
         return -1 if f[-1] <= 0 else f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLongestSubsequence(List<Integer> nums, int target) {
@@ -216,7 +229,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -233,7 +248,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthOfLongestSubsequence(nums []int, target int) int {
 	f := make([]int, target+1)
@@ -252,7 +269,9 @@ func lengthOfLongestSubsequence(nums []int, target int) int {
 	return f[target]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lengthOfLongestSubsequence(nums: number[], target: number): number {
     const f: number[] = Array(target + 1).fill(-Infinity);
@@ -265,6 +284,7 @@ function lengthOfLongestSubsequence(nums: number[], target: number): number {
     return f[target] <= 0 ? -1 : f[target];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

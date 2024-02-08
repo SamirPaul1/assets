@@ -90,6 +90,7 @@ number of jumps.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedDict
 
@@ -115,7 +116,9 @@ class Solution:
             sd[arr[i]] = i
         return sum(dfs(i, 1) for i in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -192,7 +197,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func oddEvenJumps(arr []int) (ans int) {
 	n := len(arr)
@@ -234,6 +241,7 @@ func oddEvenJumps(arr []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

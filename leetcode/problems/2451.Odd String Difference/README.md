@@ -1,6 +1,5 @@
 # [2451. Odd String Difference](https://leetcode.com/problems/odd-string-difference)
 
-[中文文档](/solution/2400-2499/2451.Odd%20String%20Difference/README.md)
 
 ## Description
 

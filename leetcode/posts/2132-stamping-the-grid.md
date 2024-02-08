@@ -88,6 +88,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def possibleToStamp(
@@ -114,7 +115,9 @@ class Solution:
                     return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean possibleToStamp(int[][] grid, int stampHeight, int stampWidth) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -187,7 +192,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func possibleToStamp(grid [][]int, stampHeight int, stampWidth int) bool {
 	m, n := len(grid), len(grid[0])
@@ -229,7 +236,9 @@ func possibleToStamp(grid [][]int, stampHeight int, stampWidth int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function possibleToStamp(grid: number[][], stampHeight: number, stampWidth: number): boolean {
     const m = grid.length;
@@ -265,7 +274,9 @@ function possibleToStamp(grid: number[][], stampHeight: number, stampWidth: numb
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn possible_to_stamp(grid: Vec<Vec<i32>>, stamp_height: i32, stamp_width: i32) -> bool {
@@ -334,7 +345,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} grid
@@ -376,6 +389,7 @@ var possibleToStamp = function (grid, stampHeight, stampWidth) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getModifiedArray(self, length: int, updates: List[List[int]]) -> List[int]:
@@ -66,7 +67,9 @@ class Solution:
                 d[r + 1] -= c
         return list(accumulate(d))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getModifiedArray(int length, int[][] updates) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getModifiedArray(length int, updates [][]int) []int {
 	d := make([]int, length)
@@ -118,7 +125,9 @@ func getModifiedArray(length int, updates [][]int) []int {
 	return d
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} length
@@ -139,6 +148,7 @@ var getModifiedArray = function (length, updates) {
     return d;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -146,6 +156,7 @@ var getModifiedArray = function (length, updates) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -177,7 +188,9 @@ class Solution:
             tree.update(end + 2, -inc)
         return [tree.query(i + 1) for i in range(length)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getModifiedArray(int length, int[][] updates) {
@@ -225,7 +238,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -272,7 +287,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -318,6 +335,7 @@ func getModifiedArray(length int, updates [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

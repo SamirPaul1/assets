@@ -1,6 +1,5 @@
 # [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph)
 
-[中文文档](/solution/1700-1799/1791.Find%20Center%20of%20Star%20Graph/README.md)
 
 ## Description
 

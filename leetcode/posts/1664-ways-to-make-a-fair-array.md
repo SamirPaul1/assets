@@ -77,6 +77,7 @@ There is 1 index that you can remove to make nums fair.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def waysToMakeFair(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
             t2 += v if i % 2 == 1 else 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int waysToMakeFair(int[] nums) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func waysToMakeFair(nums []int) (ans int) {
 	var s1, s2, t1, t2 int
@@ -163,7 +170,9 @@ func waysToMakeFair(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -190,6 +199,7 @@ var waysToMakeFair = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

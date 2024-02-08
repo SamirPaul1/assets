@@ -91,6 +91,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(n \t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -131,7 +132,9 @@ class Solution:
             tree.insert(x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[2];
@@ -179,7 +182,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -234,7 +239,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [2]*Trie
@@ -282,6 +289,7 @@ func countPairs(nums []int, low int, high int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

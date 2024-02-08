@@ -73,6 +73,7 @@ os.insert(4, &quot;ddddd&quot;); // Inserts (4, &quot;ddddd&quot;), returns [&qu
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class OrderedStream:
     def __init__(self, n: int):
@@ -92,7 +93,9 @@ class OrderedStream:
 # obj = OrderedStream(n)
 # param_1 = obj.insert(idKey,value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class OrderedStream {
     private String[] data;
@@ -119,7 +122,9 @@ class OrderedStream {
  * List<String> param_1 = obj.insert(idKey,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class OrderedStream {
 public:
@@ -144,7 +149,9 @@ public:
  * vector<string> param_1 = obj->insert(idKey,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type OrderedStream struct {
 	data []string
@@ -172,7 +179,9 @@ func (this *OrderedStream) Insert(idKey int, value string) []string {
  * param_1 := obj.Insert(idKey,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class OrderedStream {
     private ptr: number;
@@ -200,7 +209,9 @@ class OrderedStream {
  * var param_1 = obj.insert(idKey,value)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct OrderedStream {
     ptr: usize,
@@ -235,6 +246,7 @@ impl OrderedStream {
  * let ret_1: Vec<String> = obj.insert(idKey, value);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPrimes(self, n: int) -> int:
@@ -69,7 +70,9 @@ class Solution:
                     primes[j] = False
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countPrimes(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPrimes(n int) int {
 	primes := make([]bool, n)
@@ -124,7 +131,9 @@ func countPrimes(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -144,7 +153,9 @@ var countPrimes = function (n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CountPrimes(int n) {
@@ -165,6 +176,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

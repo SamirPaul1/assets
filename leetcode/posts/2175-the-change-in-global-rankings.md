@@ -129,6 +129,7 @@ New Zealand did not gain or lose points and their rank did not change.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -147,6 +148,7 @@ FROM
     TeamPoints
     JOIN P USING (team_id);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

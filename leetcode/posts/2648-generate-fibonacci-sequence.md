@@ -61,6 +61,7 @@ gen.next().value; // 3
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function* fibGenerator(): Generator<number, any, number> {
     let a = 0;
@@ -77,6 +78,7 @@ function* fibGenerator(): Generator<number, any, number> {
  * gen.next().value; // 1
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

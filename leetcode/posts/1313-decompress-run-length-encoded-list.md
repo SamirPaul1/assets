@@ -58,6 +58,7 @@ At the end the concatenation [2] + [4,4,4] is [2,4,4,4].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
@@ -66,7 +67,9 @@ class Solution:
             res.extend([nums[i]] * nums[i - 1])
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func decompressRLElist(nums []int) []int {
 	var res []int
@@ -111,7 +118,9 @@ func decompressRLElist(nums []int) []int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function decompressRLElist(nums: number[]): number[] {
     let n = nums.length >> 1;
@@ -124,7 +133,9 @@ function decompressRLElist(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn decompress_rl_elist(nums: Vec<i32>) -> Vec<i32> {
@@ -139,7 +150,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -159,6 +172,7 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

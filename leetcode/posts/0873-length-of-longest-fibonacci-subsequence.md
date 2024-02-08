@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lenLongestFibSubseq(self, arr: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                     ans = max(ans, dp[j][i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lenLongestFibSubseq(int[] arr) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lenLongestFibSubseq(arr []int) int {
 	n := len(arr)
@@ -167,7 +174,9 @@ func lenLongestFibSubseq(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -199,6 +208,7 @@ var lenLongestFibSubseq = function (arr) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

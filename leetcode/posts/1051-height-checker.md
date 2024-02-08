@@ -73,13 +73,16 @@ All indices match.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
         expected = sorted(heights)
         return sum(a != b for a, b in zip(heights, expected))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int heightChecker(int[] heights) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func heightChecker(heights []int) int {
 	expected := make([]int, len(heights))
@@ -123,6 +130,7 @@ func heightChecker(heights []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -130,6 +138,7 @@ func heightChecker(heights []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def heightChecker(self, heights: List[int]) -> int:
@@ -145,7 +154,9 @@ class Solution:
                 i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int heightChecker(int[] heights) {
@@ -166,7 +177,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -184,7 +197,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func heightChecker(heights []int) int {
 	cnt := make([]int, 101)
@@ -204,6 +219,7 @@ func heightChecker(heights []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

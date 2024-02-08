@@ -94,6 +94,7 @@ t.getInheritanceOrder(); // return [&quot;king&quot;, &quot;andy&quot;, &quot;ma
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class ThroneInheritance:
     def __init__(self, kingName: str):
@@ -125,7 +126,9 @@ class ThroneInheritance:
 # obj.death(name)
 # param_3 = obj.getInheritanceOrder()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ThroneInheritance {
     private Map<String, List<String>> g = new HashMap<>();
@@ -169,7 +172,9 @@ class ThroneInheritance {
  * List<String> param_3 = obj.getInheritanceOrder();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class ThroneInheritance {
 public:
@@ -214,7 +219,9 @@ public:
  * vector<string> param_3 = obj->getInheritanceOrder();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type ThroneInheritance struct {
 	g    map[string][]string
@@ -260,6 +267,7 @@ func (this *ThroneInheritance) GetInheritanceOrder() []string {
  * param_3 := obj.GetInheritanceOrder();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

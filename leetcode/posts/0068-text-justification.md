@@ -95,6 +95,7 @@ The time complexity is $O(L)$, and the space complexity is $O(L)$. Here, $L$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
@@ -124,7 +125,9 @@ class Solution:
             ans.append(''.join(row))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
@@ -159,7 +162,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fullJustify(words []string, maxWidth int) (ans []string) {
 	for i, n := 0, len(words); i < n; {
@@ -231,7 +238,9 @@ func fullJustify(words []string, maxWidth int) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fullJustify(words: string[], maxWidth: number): string[] {
     const ans: string[] = [];
@@ -262,7 +271,9 @@ function fullJustify(words: string[], maxWidth: number): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<string> FullJustify(string[] words, int maxWidth) {
@@ -298,6 +309,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

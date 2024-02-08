@@ -71,6 +71,7 @@ and two 2s from [2,2,2,2] in 6 ways.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def threeSumMulti(self, arr: List[int], target: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
                 ans = (ans + cnt[c]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func threeSumMulti(arr []int, target int) int {
 	const mod int = 1e9 + 7
@@ -162,6 +169,7 @@ func threeSumMulti(arr []int, target int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

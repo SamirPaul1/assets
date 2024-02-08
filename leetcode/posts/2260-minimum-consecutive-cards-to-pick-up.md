@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCardPickup(self, cards: List[int]) -> int:
@@ -65,7 +66,9 @@ class Solution:
             last[x] = i
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCardPickup(int[] cards) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCardPickup(cards []int) int {
 	last := map[int]int{}
@@ -118,7 +125,9 @@ func minimumCardPickup(cards []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCardPickup(cards: number[]): number {
     const n = cards.length;
@@ -133,6 +142,7 @@ function minimumCardPickup(cards: number[]): number {
     return ans > n ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
@@ -95,7 +96,9 @@ class Solution:
 
         return merge_sort(0, len(nums) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -191,7 +196,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reversePairs(nums []int) int {
 	n := len(nums)
@@ -236,6 +243,7 @@ func reversePairs(nums []int) int {
 	return mergeSort(0, n-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -243,6 +251,7 @@ func reversePairs(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -281,7 +290,9 @@ class Solution:
             tree.update(m[num * 2], 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reversePairs(int[] nums) {
@@ -336,7 +347,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -389,7 +402,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -445,6 +460,7 @@ func reversePairs(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -452,6 +468,7 @@ func reversePairs(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -516,7 +533,9 @@ class Solution:
             tree.modify(1, m[v * 2], 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reversePairs(int[] nums) {
@@ -603,7 +622,9 @@ class SegmentTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -679,6 +700,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

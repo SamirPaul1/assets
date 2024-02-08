@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generatePossibleNextMoves(self, currentState: str) -> List[str]:
@@ -66,7 +67,9 @@ class Solution:
                 s[i] = s[i + 1] = "+"
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> generatePossibleNextMoves(String currentState) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generatePossibleNextMoves(currentState string) []string {
 	ans := []string{}
@@ -119,6 +126,7 @@ func generatePossibleNextMoves(currentState string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

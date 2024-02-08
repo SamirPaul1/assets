@@ -85,6 +85,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumNumberOfStringPairs(self, words: List[str]) -> int:
@@ -95,7 +96,9 @@ class Solution:
             cnt[w] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumNumberOfStringPairs(String[] words) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumNumberOfStringPairs(words []string) (ans int) {
 	cnt := map[int]int{}
@@ -138,7 +145,9 @@ func maximumNumberOfStringPairs(words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumNumberOfStringPairs(words: string[]): number {
     const cnt: { [key: number]: number } = {};
@@ -151,6 +160,7 @@ function maximumNumberOfStringPairs(words: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

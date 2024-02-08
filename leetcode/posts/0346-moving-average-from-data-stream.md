@@ -61,6 +61,7 @@ movingAverage.next(5); // return 6.0 = (10 + 3 + 5) / 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MovingAverage:
     def __init__(self, size: int):
@@ -80,7 +81,9 @@ class MovingAverage:
 # obj = MovingAverage(size)
 # param_1 = obj.next(val)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MovingAverage {
     private int[] arr;
@@ -106,7 +109,9 @@ class MovingAverage {
  * double param_1 = obj.next(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MovingAverage {
 public:
@@ -134,7 +139,9 @@ private:
  * double param_1 = obj->next(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MovingAverage struct {
 	arr []int
@@ -161,6 +168,7 @@ func (this *MovingAverage) Next(val int) float64 {
  * param_1 := obj.Next(val);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -168,6 +176,7 @@ func (this *MovingAverage) Next(val int) float64 {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MovingAverage:
     def __init__(self, size: int):
@@ -187,7 +196,9 @@ class MovingAverage:
 # obj = MovingAverage(size)
 # param_1 = obj.next(val)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MovingAverage {
     private Deque<Integer> q = new ArrayDeque<>();
@@ -214,7 +225,9 @@ class MovingAverage {
  * double param_1 = obj.next(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MovingAverage {
 public:
@@ -244,7 +257,9 @@ private:
  * double param_1 = obj->next(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MovingAverage struct {
 	q []int
@@ -272,6 +287,7 @@ func (this *MovingAverage) Next(val int) float64 {
  * param_1 := obj.Next(val);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

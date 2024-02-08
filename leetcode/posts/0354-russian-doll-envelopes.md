@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 d[idx] = h
         return len(d)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxEnvelopes(int[][] envelopes) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxEnvelopes(envelopes [][]int) int {
 	sort.Slice(envelopes, func(i, j int) bool {
@@ -165,6 +172,7 @@ func maxEnvelopes(envelopes [][]int) int {
 	return size
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

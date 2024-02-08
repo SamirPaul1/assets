@@ -1,6 +1,5 @@
 # [2612. Minimum Reverse Operations](https://leetcode.com/problems/minimum-reverse-operations)
 
-[中文文档](/solution/2600-2699/2612.Minimum%20Reverse%20Operations/README.md)
 
 ## Description
 

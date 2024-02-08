@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
                     f[i] = max(f[i], f[j] + 1)
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthOfLIS(nums []int) int {
 	n := len(nums)
@@ -130,7 +137,9 @@ func lengthOfLIS(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lengthOfLIS(nums: number[]): number {
     const n = nums.length;
@@ -145,7 +154,9 @@ function lengthOfLIS(nums: number[]): number {
     return Math.max(...f);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn length_of_lis(nums: Vec<i32>) -> i32 {
@@ -162,6 +173,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +181,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n: int):
@@ -199,7 +212,9 @@ class Solution:
             tree.update(x, t)
         return tree.query(m)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
@@ -261,7 +276,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -306,7 +323,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -354,7 +373,9 @@ func lengthOfLIS(nums []int) int {
 	return tree.query(m)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -408,6 +429,7 @@ function search(nums: number[], x: number): number {
     return l + 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -56,6 +56,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -67,7 +68,9 @@ class Solution:
             right[n - i - 1] = max(right[n - i], height[n - i - 1])
         return sum(min(l, r) - h for l, r, h in zip(left, right, height))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int trap(int[] height) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func trap(height []int) (ans int) {
 	n := len(height)
@@ -126,7 +133,9 @@ func trap(height []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function trap(height: number[]): number {
     const n = height.length;
@@ -143,7 +152,9 @@ function trap(height: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int Trap(int[] height) {
@@ -193,6 +206,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

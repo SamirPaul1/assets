@@ -71,6 +71,7 @@ Employee table:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -81,7 +82,9 @@ def find_employees(employee: pd.DataFrame) -> pd.DataFrame:
 
     return pd.DataFrame({"Employee": emp})
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT Name AS Employee
 FROM Employee AS Curr
@@ -92,6 +95,7 @@ WHERE
         WHERE Id = Curr.ManagerId
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -99,6 +103,7 @@ WHERE
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -108,6 +113,7 @@ FROM
     JOIN Employee AS e2 ON e1.managerId = e2.id
 WHERE e1.salary > e2.salary;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

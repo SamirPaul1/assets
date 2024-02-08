@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSpecial(self, mat: List[List[int]]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                     ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSpecial(int[][] mat) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSpecial(mat [][]int) int {
 	m, n := len(mat), len(mat[0])
@@ -145,7 +152,9 @@ func numSpecial(mat [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numSpecial(mat: number[][]): number {
     const m = mat.length;
@@ -173,7 +182,9 @@ function numSpecial(mat: number[][]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_special(mat: Vec<Vec<i32>>) -> i32 {
@@ -200,7 +211,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int numSpecial(int** mat, int matSize, int* matColSize) {
     int m = matSize;
@@ -230,6 +243,7 @@ int numSpecial(int** mat, int matSize, int* matColSize) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

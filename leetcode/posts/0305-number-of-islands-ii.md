@@ -74,6 +74,7 @@ The time complexity is $O(k \times \alpha(m \times n))$ or $O(k \times \log(m \t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n: int):
@@ -123,7 +124,9 @@ class Solution:
             ans.append(cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private final int[] p;
@@ -189,7 +192,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -254,7 +259,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -319,7 +326,9 @@ func numIslands2(m int, n int, positions [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class UnionFind {
     p: number[];
@@ -381,6 +390,7 @@ function numIslands2(m: number, n: number, positions: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

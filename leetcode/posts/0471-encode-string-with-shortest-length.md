@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def encode(self, s: str) -> str:
@@ -89,7 +90,9 @@ class Solution:
                             f[i][j] = t
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func encode(s string) string {
 	n := len(s)
@@ -203,7 +210,9 @@ func encode(s string) string {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function encode(s: string): string {
     const n = s.length;
@@ -236,6 +245,7 @@ function encode(s: string): string {
     return f[0][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

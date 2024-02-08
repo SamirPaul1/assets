@@ -93,6 +93,7 @@ The time complexity is $O(n^4)$, and the space complexity is $O(n^3)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:
@@ -109,7 +110,9 @@ class Solution:
 
         return dfs(0, 0, len(s1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Boolean[][][] f;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isScramble(s1 string, s2 string) bool {
 	n := len(s1)
@@ -203,7 +210,9 @@ func isScramble(s1 string, s2 string) bool {
 	return dfs(0, 0, n)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isScramble(s1: string, s2: string): boolean {
     const n = s1.length;
@@ -230,7 +239,9 @@ function isScramble(s1: string, s2: string): boolean {
     return dfs(0, 0, n);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private string s1;
@@ -267,6 +278,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -284,6 +296,7 @@ The time complexity is $O(n^4)$, and the space complexity is $O(n^3)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isScramble(self, s1: str, s2: str) -> bool:
@@ -304,7 +317,9 @@ class Solution:
                             break
         return f[0][0][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isScramble(String s1, String s2) {
@@ -335,7 +350,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -368,7 +385,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isScramble(s1 string, s2 string) bool {
 	n := len(s1)
@@ -395,7 +414,9 @@ func isScramble(s1 string, s2 string) bool {
 	return f[0][0][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isScramble(s1: string, s2: string): boolean {
     const n = s1.length;
@@ -426,7 +447,9 @@ function isScramble(s1: string, s2: string): boolean {
     return f[0][0][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsScramble(string s1, string s2) {
@@ -457,6 +480,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAreaRect(self, points: List[List[int]]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                     pos[(y1, y2)] = x
         return 0 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAreaRect(int[][] points) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAreaRect(points [][]int) int {
 	d := map[int][]int{}
@@ -171,6 +178,7 @@ func minAreaRect(points [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

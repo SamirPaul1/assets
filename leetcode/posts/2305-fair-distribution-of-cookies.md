@@ -72,6 +72,7 @@ Finally, we return $ans$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distributeCookies(self, cookies: List[int], k: int) -> int:
@@ -93,7 +94,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] cookies;
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distributeCookies(cookies []int, k int) int {
 	sort.Sort(sort.Reverse(sort.IntSlice(cookies)))
@@ -188,7 +195,9 @@ func distributeCookies(cookies []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distributeCookies(cookies: number[], k: number): number {
     const cnt = new Array(k).fill(0);
@@ -211,6 +220,7 @@ function distributeCookies(cookies: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

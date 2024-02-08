@@ -56,6 +56,7 @@ The time complexity is $O(n)$, where $n$ is the number of nodes in the binary tr
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -70,7 +71,9 @@ class Solution:
         l, r = self.maxDepth(root.left), self.maxDepth(root.right)
         return 1 + max(l, r)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -138,7 +145,9 @@ func maxDepth(root *TreeNode) int {
 	return 1 + max(l, r)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -161,7 +170,9 @@ function maxDepth(root: TreeNode | null): number {
     return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -197,7 +208,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -218,7 +231,9 @@ var maxDepth = function (root) {
     return 1 + Math.max(l, r);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for a binary tree node.
@@ -240,6 +255,7 @@ int maxDepth(struct TreeNode* root) {
     return 1 + max(left, right);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

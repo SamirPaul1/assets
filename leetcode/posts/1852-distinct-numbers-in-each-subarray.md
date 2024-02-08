@@ -73,6 +73,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$ or $O(M)$. Whe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctNumbers(self, nums: List[int], k: int) -> List[int]:
@@ -86,7 +87,9 @@ class Solution:
             ans.append(len(cnt))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] distinctNumbers(int[] nums, int k) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctNumbers(nums []int, k int) []int {
 	cnt := map[int]int{}
@@ -150,7 +157,9 @@ func distinctNumbers(nums []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctNumbers(nums: number[], k: number): number[] {
     const cnt: Map<number, number> = new Map();
@@ -169,6 +178,7 @@ function distinctNumbers(nums: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -176,6 +186,7 @@ function distinctNumbers(nums: number[], k: number): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] distinctNumbers(int[] nums, int k) {
@@ -206,7 +217,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -236,7 +249,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctNumbers(nums []int, k int) (ans []int) {
 	m := slices.Max(nums)
@@ -263,7 +278,9 @@ func distinctNumbers(nums []int, k int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctNumbers(nums: number[], k: number): number[] {
     const m = Math.max(...nums);
@@ -287,6 +304,7 @@ function distinctNumbers(nums: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

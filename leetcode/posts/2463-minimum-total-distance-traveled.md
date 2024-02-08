@@ -90,6 +90,7 @@ The time complexity is $O(m^2 \times n)$, and the space complexity is $O(m \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTotalDistance(self, robot: List[int], factory: List[List[int]]) -> int:
@@ -114,7 +115,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private long[][] f;
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -182,7 +187,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTotalDistance(robot []int, factory [][]int) int64 {
 	sort.Ints(robot)
@@ -224,6 +231,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

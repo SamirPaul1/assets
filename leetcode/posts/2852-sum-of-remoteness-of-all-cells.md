@@ -83,6 +83,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumRemoteness(self, grid: List[List[int]]) -> int:
@@ -107,7 +108,9 @@ class Solution:
                     ans += (cnt - t) * s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -195,7 +200,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumRemoteness(grid [][]int) (ans int64) {
 	n := len(grid)
@@ -233,7 +240,9 @@ func sumRemoteness(grid [][]int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumRemoteness(grid: number[][]): number {
     const n = grid.length;
@@ -272,6 +281,7 @@ function sumRemoteness(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

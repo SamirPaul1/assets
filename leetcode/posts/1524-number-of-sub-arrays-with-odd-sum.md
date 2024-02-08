@@ -65,6 +65,7 @@ All sub-arrays have even sum and the answer is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfSubarrays(self, arr: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
             cnt[s & 1] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfSubarrays(int[] arr) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfSubarrays(arr []int) (ans int) {
 	const mod int = 1e9 + 7
@@ -124,7 +131,9 @@ func numOfSubarrays(arr []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfSubarrays(arr: number[]): number {
     let ans = 0;
@@ -139,6 +148,7 @@ function numOfSubarrays(arr: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

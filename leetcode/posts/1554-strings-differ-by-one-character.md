@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def differByOne(self, dict: List[str]) -> bool:
@@ -77,7 +78,9 @@ class Solution:
                 s.add(t)
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean differByOne(String[] dict) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func differByOne(dict []string) bool {
 	s := make(map[string]bool)
@@ -129,6 +136,7 @@ func differByOne(dict []string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

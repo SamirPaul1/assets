@@ -79,6 +79,7 @@ The time complexity is $O(n^2 \times m)$, where $n$ and $m$ are the lengths of t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfPairs(self, nums: List[str], target: str) -> int:
@@ -87,7 +88,9 @@ class Solution:
             i != j and nums[i] + nums[j] == target for i in range(n) for j in range(n)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfPairs(String[] nums, String target) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfPairs(nums []string, target string) (ans int) {
 	for i, a := range nums {
@@ -133,6 +140,7 @@ func numOfPairs(nums []string, target string) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -144,6 +152,7 @@ The time complexity is $O(n + m^2)$, and the space complexity is $O(n)$. Here, $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfPairs(self, nums: List[str], target: str) -> int:
@@ -157,7 +166,9 @@ class Solution:
                 ans += cnt[a] * (cnt[a] - 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfPairs(String[] nums, String target) {
@@ -181,7 +192,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -203,7 +216,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfPairs(nums []string, target string) (ans int) {
 	cnt := map[string]int{}
@@ -221,6 +236,7 @@ func numOfPairs(nums []string, target string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

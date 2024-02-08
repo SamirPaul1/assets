@@ -65,6 +65,7 @@ Person 5 can see no one since nobody is to the right of them.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canSeePersonsCount(self, heights: List[int]) -> List[int]:
@@ -80,7 +81,9 @@ class Solution:
             stk.append(heights[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] canSeePersonsCount(int[] heights) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canSeePersonsCount(heights []int) []int {
 	n := len(heights)
@@ -142,7 +149,9 @@ func canSeePersonsCount(heights []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canSeePersonsCount(heights: number[]): number[] {
     const n = heights.length;
@@ -161,7 +170,9 @@ function canSeePersonsCount(heights: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_see_persons_count(heights: Vec<i32>) -> Vec<i32> {
@@ -182,7 +193,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -206,6 +219,7 @@ int* canSeePersonsCount(int* heights, int heightsSize, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

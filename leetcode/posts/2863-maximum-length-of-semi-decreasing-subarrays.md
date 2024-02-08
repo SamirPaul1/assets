@@ -79,6 +79,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSubarrayLength(self, nums: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             k = min(k, d[x][0])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSubarrayLength(int[] nums) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSubarrayLength(nums []int) (ans int) {
 	d := map[int][]int{}
@@ -147,7 +154,9 @@ func maxSubarrayLength(nums []int) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSubarrayLength(nums: number[]): number {
     const d: Map<number, number[]> = new Map();
@@ -168,6 +177,7 @@ function maxSubarrayLength(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

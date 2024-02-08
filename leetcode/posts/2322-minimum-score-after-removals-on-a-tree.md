@@ -83,6 +83,7 @@ We cannot obtain a smaller score than 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumScore(self, nums: List[int], edges: List[List[int]]) -> int:
@@ -122,7 +123,9 @@ class Solution:
                 dfs2(i, -1, j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int s;
@@ -180,7 +183,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -232,7 +237,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumScore(nums []int, edges [][]int) int {
 	n := len(nums)
@@ -282,6 +289,7 @@ func minimumScore(nums []int, edges [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

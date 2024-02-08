@@ -66,12 +66,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distributeCandies(self, candyType: List[int]) -> int:
         return min(len(candyType) >> 1, len(set(candyType)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distributeCandies(int[] candyType) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -94,7 +99,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distributeCandies(candyType []int) int {
 	s := hashset.New()
@@ -104,6 +111,7 @@ func distributeCandies(candyType []int) int {
 	return min(len(candyType)>>1, s.Size())
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

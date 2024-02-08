@@ -75,6 +75,7 @@ myCircularQueue.Rear();     // return 4
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyCircularQueue:
     def __init__(self, k: int):
@@ -123,7 +124,9 @@ class MyCircularQueue:
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyCircularQueue {
     private int[] q;
@@ -190,7 +193,9 @@ class MyCircularQueue {
  * boolean param_6 = obj.isFull();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyCircularQueue {
 private:
@@ -252,7 +257,9 @@ public:
  * bool param_6 = obj->isFull();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyCircularQueue struct {
 	front    int
@@ -319,7 +326,9 @@ func (this *MyCircularQueue) IsFull() bool {
  * param_6 := obj.IsFull();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyCircularQueue {
     private queue: number[];
@@ -385,7 +394,9 @@ class MyCircularQueue {
  * var param_6 = obj.isFull()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct MyCircularQueue {
     queue: Vec<i32>,
@@ -458,6 +469,7 @@ impl MyCircularQueue {
  * let ret_6: bool = obj.is_full();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -84,6 +84,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def semiOrderedPermutation(self, nums: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
         k = 1 if i < j else 2
         return i + n - j - k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int semiOrderedPermutation(int[] nums) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func semiOrderedPermutation(nums []int) int {
 	n := len(nums)
@@ -145,7 +152,9 @@ func semiOrderedPermutation(nums []int) int {
 	return i + n - j - k
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function semiOrderedPermutation(nums: number[]): number {
     const n = nums.length;
@@ -155,7 +164,9 @@ function semiOrderedPermutation(nums: number[]): number {
     return i + n - j - k;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn semi_ordered_permutation(nums: Vec<i32>) -> i32 {
@@ -181,6 +192,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -188,6 +200,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn semi_ordered_permutation(nums: Vec<i32>) -> i32 {
@@ -214,6 +227,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

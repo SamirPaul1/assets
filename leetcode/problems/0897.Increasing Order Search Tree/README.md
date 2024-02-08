@@ -1,6 +1,5 @@
 # [897. Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree)
 
-[中文文档](/solution/0800-0899/0897.Increasing%20Order%20Search%20Tree/README.md)
 
 ## Description
 

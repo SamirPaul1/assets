@@ -84,6 +84,7 @@ The time complexity is $O((m + n) \times \log n)$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumCoins(
@@ -98,7 +99,9 @@ class Solution:
             ans.append(s[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] maximumCoins(int[] heroes, int[] monsters, int[] coins) {
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumCoins(heroes []int, monsters []int, coins []int) (ans []int64) {
 	m := len(monsters)
@@ -192,7 +199,9 @@ func maximumCoins(heroes []int, monsters []int, coins []int) (ans []int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumCoins(heroes: number[], monsters: number[], coins: number[]): number[] {
     const m = monsters.length;
@@ -218,6 +227,7 @@ function maximumCoins(heroes: number[], monsters: number[], coins: number[]): nu
     return heroes.map(h => s[search(h)]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

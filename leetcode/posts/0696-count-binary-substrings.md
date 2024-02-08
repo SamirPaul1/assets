@@ -56,6 +56,7 @@ Also, &quot;00110011&quot; is not a valid substring because all the 0&#39;s (and
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
@@ -73,7 +74,9 @@ class Solution:
             ans += min(t[i - 1], t[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countBinarySubstrings(String s) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countBinarySubstrings(s string) int {
 	i, n := 0, len(s)
@@ -139,6 +146,7 @@ func countBinarySubstrings(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

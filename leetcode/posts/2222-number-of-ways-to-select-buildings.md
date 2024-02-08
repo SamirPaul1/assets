@@ -73,6 +73,7 @@ No other selection is valid. Thus, there are 6 total ways.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWays(self, s: str) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 c1 += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long numberOfWays(String s) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWays(s string) int64 {
 	n := len(s)
@@ -161,6 +168,7 @@ func numberOfWays(s string) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

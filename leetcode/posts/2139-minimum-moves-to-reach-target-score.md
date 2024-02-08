@@ -94,6 +94,7 @@ We can also change the above process to an iterative way to avoid the space over
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMoves(self, target: int, maxDoubles: int) -> int:
@@ -105,7 +106,9 @@ class Solution:
             return 1 + self.minMoves(target >> 1, maxDoubles - 1)
         return 1 + self.minMoves(target - 1, maxDoubles)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMoves(int target, int maxDoubles) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMoves(target int, maxDoubles int) int {
 	if target == 1 {
@@ -155,7 +162,9 @@ func minMoves(target int, maxDoubles int) int {
 	return 1 + minMoves(target-1, maxDoubles)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMoves(target: number, maxDoubles: number): number {
     if (target === 1) {
@@ -170,6 +179,7 @@ function minMoves(target: number, maxDoubles: number): number {
     return 1 + minMoves(target - 1, maxDoubles);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -177,6 +187,7 @@ function minMoves(target: number, maxDoubles: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMoves(self, target: int, maxDoubles: int) -> int:
@@ -191,7 +202,9 @@ class Solution:
         ans += target - 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMoves(int target, int maxDoubles) {
@@ -210,7 +223,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -230,7 +245,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMoves(target int, maxDoubles int) (ans int) {
 	for maxDoubles > 0 && target > 1 {
@@ -246,7 +263,9 @@ func minMoves(target int, maxDoubles int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMoves(target: number, maxDoubles: number): number {
     let ans = 0;
@@ -263,6 +282,7 @@ function minMoves(target: number, maxDoubles: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

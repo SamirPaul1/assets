@@ -68,6 +68,7 @@ region2 = &quot;New York&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findSmallestRegion(
@@ -87,7 +88,9 @@ class Solution:
             region2 = m[region2]
         return region1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findSmallestRegion(List<List<String>> regions, String region1, String region2) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findSmallestRegion(regions [][]string, region1 string, region2 string) string {
 	m := make(map[string]string)
@@ -157,6 +164,7 @@ func findSmallestRegion(regions [][]string, region1 string, region2 string) stri
 	return region1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

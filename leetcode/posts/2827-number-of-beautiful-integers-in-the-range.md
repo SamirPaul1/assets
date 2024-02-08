@@ -101,6 +101,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfBeautifulIntegers(self, low: int, high: int, k: int) -> int:
@@ -125,7 +126,9 @@ class Solution:
         b = dfs(0, 0, 10, 1, 1)
         return a - b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -166,7 +169,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -206,7 +211,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfBeautifulIntegers(low int, high int, k int) int {
 	s := strconv.Itoa(high)
@@ -266,7 +273,9 @@ func g(m, n, k int) [][][]int {
 	return f
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfBeautifulIntegers(low: number, high: number, k: number): number {
     let s = String(high);
@@ -312,6 +321,7 @@ function numberOfBeautifulIntegers(low: number, high: number, k: number): number
     return a - b;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

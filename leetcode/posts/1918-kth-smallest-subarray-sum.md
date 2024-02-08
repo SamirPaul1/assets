@@ -74,6 +74,7 @@ Ordering the sums from smallest to largest gives 3, 3, 5, 5, 6, 8, <u>10</u>, 11
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthSmallestSubarraySum(self, nums: List[int], k: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
         l, r = min(nums), sum(nums)
         return l + bisect_left(range(l, r + 1), True, key=f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kthSmallestSubarraySum(int[] nums, int k) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthSmallestSubarraySum(nums []int, k int) int {
 	l, r := 1<<30, 0
@@ -189,6 +196,7 @@ func kthSmallestSubarraySum(nums []int, k int) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

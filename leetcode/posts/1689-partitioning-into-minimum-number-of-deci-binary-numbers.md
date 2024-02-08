@@ -65,12 +65,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minPartitions(self, n: str) -> int:
         return int(max(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minPartitions(String n) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minPartitions(n string) (ans int) {
 	for _, c := range n {
@@ -104,7 +111,9 @@ func minPartitions(n string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minPartitions(n: string): number {
     let nums = n.split('').map(d => parseInt(d));
@@ -112,7 +121,9 @@ function minPartitions(n: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_partitions(n: String) -> i32 {
@@ -124,7 +135,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minPartitions(char* n) {
     int ans = 0;
@@ -137,6 +150,7 @@ int minPartitions(char* n) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

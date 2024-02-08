@@ -1,6 +1,5 @@
 # [2622. Cache With Time Limit](https://leetcode.com/problems/cache-with-time-limit)
 
-[中文文档](/solution/2600-2699/2622.Cache%20With%20Time%20Limit/README.md)
 
 ## Description
 

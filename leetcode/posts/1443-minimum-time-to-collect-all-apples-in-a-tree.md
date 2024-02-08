@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minTime(self, n: int, edges: List[List[int]], hasApple: List[bool]) -> int:
@@ -85,7 +86,9 @@ class Solution:
         vis = [False] * n
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minTime(int n, int[][] edges, List<Boolean> hasApple) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minTime(n int, edges [][]int, hasApple []bool) int {
 	vis := make([]bool, n)
@@ -169,6 +176,7 @@ func minTime(n int, edges [][]int, hasApple []bool) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

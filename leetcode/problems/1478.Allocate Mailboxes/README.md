@@ -1,6 +1,5 @@
 # [1478. Allocate Mailboxes](https://leetcode.com/problems/allocate-mailboxes)
 
-[中文文档](/solution/1400-1499/1478.Allocate%20Mailboxes/README.md)
 
 ## Description
 

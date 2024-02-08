@@ -1,6 +1,5 @@
 # [2784. Check if Array is Good](https://leetcode.com/problems/check-if-array-is-good)
 
-[中文文档](/solution/2700-2799/2784.Check%20if%20Array%20is%20Good/README.md)
 
 ## Description
 

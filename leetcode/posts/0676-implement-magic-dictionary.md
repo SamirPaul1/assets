@@ -72,6 +72,7 @@ The time complexity is $O(n \times l + q \times l \times |\Sigma|)$, and the spa
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     __slots__ = ["children", "is_end"]
@@ -118,7 +119,9 @@ class MagicDictionary:
 # obj.buildDict(dictionary)
 # param_2 = obj.search(searchWord)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[26];
@@ -187,7 +190,9 @@ class MagicDictionary {
  * boolean param_2 = obj.search(searchWord);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 private:
@@ -262,7 +267,9 @@ private:
  * bool param_2 = obj->search(searchWord);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -332,7 +339,9 @@ func (md *MagicDictionary) Search(searchWord string) bool {
  * param_2 := obj.Search(searchWord);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     private children: Trie[] = Array(26).fill(null);
@@ -399,7 +408,9 @@ class MagicDictionary {
  * var param_2 = obj.search(searchWord)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -486,6 +497,7 @@ impl MagicDictionary {
  * let ret_2: bool = obj.search(searchWord);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -493,6 +505,7 @@ impl MagicDictionary {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     __slots__ = ["children", "is_end"]
@@ -543,6 +556,7 @@ class MagicDictionary:
 # obj.buildDict(dictionary)
 # param_2 = obj.search(searchWord)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

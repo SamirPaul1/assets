@@ -66,6 +66,7 @@ The time complexity is $O(m^2)$ and the space complexity is $O(m + n)$, where $m
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findShortestCycle(self, n: int, edges: List[List[int]]) -> int:
@@ -88,7 +89,9 @@ class Solution:
         ans = min(bfs(u, v) for u, v in edges)
         return ans if ans < inf else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findShortestCycle(n int, edges [][]int) int {
 	g := make([][]int, n)
@@ -210,7 +217,9 @@ func findShortestCycle(n int, edges [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findShortestCycle(n: number, edges: number[][]): number {
     const g: number[][] = new Array(n).fill(0).map(() => []);
@@ -242,6 +251,7 @@ function findShortestCycle(n: number, edges: number[][]): number {
     return ans < inf ? ans : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -255,6 +265,7 @@ The time complexity is $O(m \times n)$ and the space complexity is $O(m + n)$, w
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findShortestCycle(self, n: int, edges: List[List[int]]) -> int:
@@ -280,7 +291,9 @@ class Solution:
         ans = min(bfs(i) for i in range(n))
         return ans if ans < inf else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -325,7 +338,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -368,7 +383,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findShortestCycle(n int, edges [][]int) int {
 	g := make([][]int, n)
@@ -412,7 +429,9 @@ func findShortestCycle(n int, edges [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findShortestCycle(n: number, edges: number[][]): number {
     const g: number[][] = new Array(n).fill(0).map(() => []);
@@ -448,6 +467,7 @@ function findShortestCycle(n: number, edges: number[][]): number {
     return ans < inf ? ans : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

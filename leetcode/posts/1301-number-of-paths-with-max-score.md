@@ -51,6 +51,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pathsWithMaxScore(self, board: List[str]) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
         mod = 10**9 + 7
         return [0, 0] if f[0][0] == -1 else [f[0][0], g[0][0] % mod]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<String> board;
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pathsWithMaxScore(board []string) []int {
 	n := len(board)
@@ -223,6 +230,7 @@ func pathsWithMaxScore(board []string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

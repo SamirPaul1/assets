@@ -85,6 +85,7 @@ order_date is sorted in ascending order.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT  order_date
@@ -93,6 +94,7 @@ FROM Delivery
 GROUP BY  order_date
 ORDER BY order_date
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

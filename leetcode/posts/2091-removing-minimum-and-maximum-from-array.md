@@ -77,6 +77,7 @@ We can remove it with 1 deletion.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDeletions(self, nums: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
             mi, mx = mx, mi
         return min(mx + 1, len(nums) - mi, mi + 1 + len(nums) - mx)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDeletions(int[] nums) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDeletions(nums []int) int {
 	mi, mx, n := 0, 0, len(nums)
@@ -149,7 +156,9 @@ func minimumDeletions(nums []int) int {
 	return min(min(mx+1, n-mi), mi+1+n-mx)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDeletions(nums: number[]): number {
     const n = nums.length;
@@ -164,6 +173,7 @@ function minimumDeletions(nums: number[]): number {
     return Math.min(left + 1 + n - right, right + 1, n - left);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

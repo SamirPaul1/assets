@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def groupStrings(self, strings: List[str]) -> List[List[str]]:
@@ -72,7 +73,9 @@ class Solution:
             mp[k].append(s)
         return list(mp.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<String>> groupStrings(String[] strings) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func groupStrings(strings []string) [][]string {
 	mp := make(map[string][]string)
@@ -136,6 +143,7 @@ func groupStrings(strings []string) [][]string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

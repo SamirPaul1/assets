@@ -72,6 +72,7 @@ The time complexity is $O(n^3)$, where $n$ is the length of the array $nums$. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def unequalTriplets(self, nums: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
                     )
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int unequalTriplets(int[] nums) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func unequalTriplets(nums []int) (ans int) {
 	n := len(nums)
@@ -140,7 +147,9 @@ func unequalTriplets(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function unequalTriplets(nums: number[]): number {
     const n = nums.length;
@@ -157,7 +166,9 @@ function unequalTriplets(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn unequal_triplets(nums: Vec<i32>) -> i32 {
@@ -176,6 +187,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -189,6 +201,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def unequalTriplets(self, nums: List[int]) -> int:
@@ -200,7 +213,9 @@ class Solution:
             ans += (i >= 0 and k < n) * (i + 1) * (n - k)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int unequalTriplets(int[] nums) {
@@ -229,7 +244,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -247,7 +264,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func unequalTriplets(nums []int) (ans int) {
 	sort.Ints(nums)
@@ -262,7 +281,9 @@ func unequalTriplets(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function unequalTriplets(nums: number[]): number {
     const n = nums.length;
@@ -280,7 +301,9 @@ function unequalTriplets(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -301,6 +324,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -314,6 +338,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def unequalTriplets(self, nums: List[int]) -> int:
@@ -326,7 +351,9 @@ class Solution:
             a += b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int unequalTriplets(int[] nums) {
@@ -345,7 +372,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -365,7 +394,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func unequalTriplets(nums []int) (ans int) {
 	cnt := map[int]int{}
@@ -381,7 +412,9 @@ func unequalTriplets(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -405,6 +438,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -412,6 +446,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn unequal_triplets(nums: Vec<i32>) -> i32 {
@@ -452,6 +487,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

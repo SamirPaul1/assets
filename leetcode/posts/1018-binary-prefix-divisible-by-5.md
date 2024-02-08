@@ -60,6 +60,7 @@ Only the first number is divisible by 5, so answer[0] is true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def prefixesDivBy5(self, nums: List[int]) -> List[bool]:
@@ -70,7 +71,9 @@ class Solution:
             ans.append(x == 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Boolean> prefixesDivBy5(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func prefixesDivBy5(nums []int) (ans []bool) {
 	x := 0
@@ -110,7 +117,9 @@ func prefixesDivBy5(nums []int) (ans []bool) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function prefixesDivBy5(nums: number[]): boolean[] {
     const ans: boolean[] = [];
@@ -122,6 +131,7 @@ function prefixesDivBy5(nums: number[]): boolean[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

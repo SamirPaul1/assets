@@ -73,6 +73,7 @@ Since now the four &lt;b&gt;&#39;s are consecutive, we merge them: &quot;&lt;b&g
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -134,7 +135,9 @@ class Solution:
 
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[128];
@@ -211,7 +214,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -280,7 +285,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [128]*Trie
@@ -356,6 +363,7 @@ func addBoldTag(s string, words []string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

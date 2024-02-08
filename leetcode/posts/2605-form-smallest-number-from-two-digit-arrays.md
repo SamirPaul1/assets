@@ -57,6 +57,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(1)$, wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
@@ -69,7 +70,9 @@ class Solution:
                     ans = min(ans, 10 * a + b, 10 * b + a)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumber(int[] nums1, int[] nums2) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumber(nums1 []int, nums2 []int) int {
 	ans := 100
@@ -122,7 +129,9 @@ func minNumber(nums1 []int, nums2 []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumber(nums1: number[], nums2: number[]): number {
     let ans = 100;
@@ -138,7 +147,9 @@ function minNumber(nums1: number[], nums2: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_number(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
@@ -158,6 +169,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +181,7 @@ The time complexity is $(m + n)$, and the space complexity is $O(C)$. Where $m$ 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
@@ -178,7 +191,9 @@ class Solution:
         a, b = min(nums1), min(nums2)
         return min(a * 10 + b, b * 10 + a)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumber(int[] nums1, int[] nums2) {
@@ -206,7 +221,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -235,7 +252,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumber(nums1 []int, nums2 []int) int {
 	s1 := [10]bool{}
@@ -261,7 +280,9 @@ func minNumber(nums1 []int, nums2 []int) int {
 	return min(a*10+b, b*10+a)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumber(nums1: number[], nums2: number[]): number {
     const s1: boolean[] = new Array(10).fill(false);
@@ -288,7 +309,9 @@ function minNumber(nums1: number[], nums2: number[]): number {
     return Math.min(a * 10 + b, b * 10 + a);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -325,6 +348,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -340,6 +364,7 @@ The time complexity is $O(m + n)$, and the space complexity is $O(1)$. Where $m$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
@@ -355,7 +380,9 @@ class Solution:
         b = (mask2 & -mask2).bit_length() - 1
         return min(a * 10 + b, b * 10 + a)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumber(int[] nums1, int[] nums2) {
@@ -376,7 +403,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -398,7 +427,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumber(nums1 []int, nums2 []int) int {
 	var mask1, mask2 uint
@@ -415,7 +446,9 @@ func minNumber(nums1 []int, nums2 []int) int {
 	return min(a*10+b, b*10+a)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumber(nums1: number[], nums2: number[]): number {
     let mask1: number = 0;
@@ -464,6 +497,7 @@ function numberOfTrailingZeros(i: number): number {
     return n - ((i << 1) >>> 31);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

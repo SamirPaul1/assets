@@ -70,6 +70,7 @@ nc.find(10); // Number 10 is at the indices 2, 3, and 5. The smallest index that
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -96,7 +97,9 @@ class NumberContainers:
 # obj.change(index,number)
 # param_2 = obj.find(number)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class NumberContainers {
     private Map<Integer, Integer> mp = new HashMap<>();
@@ -129,7 +132,9 @@ class NumberContainers {
  * int param_2 = obj.find(number);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class NumberContainers {
 public:
@@ -162,7 +167,9 @@ public:
  * int param_2 = obj->find(number);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type NumberContainers struct {
 	mp map[int]int
@@ -199,6 +206,7 @@ func (this *NumberContainers) Find(number int) int {
  * param_2 := obj.Find(number);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

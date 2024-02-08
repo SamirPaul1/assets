@@ -109,6 +109,7 @@ The npv values of all other queries can be found in the NPV table.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT q.*, IFNULL(npv, 0) AS npv
@@ -116,6 +117,7 @@ FROM
     Queries AS q
     LEFT JOIN NPV AS n USING (id, year);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

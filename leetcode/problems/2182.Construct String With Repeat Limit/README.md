@@ -1,6 +1,5 @@
 # [2182. Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit)
 
-[中文文档](/solution/2100-2199/2182.Construct%20String%20With%20Repeat%20Limit/README.md)
 
 ## Description
 

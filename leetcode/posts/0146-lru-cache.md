@@ -70,6 +70,7 @@ lRUCache.get(4);    // return 4
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self, key=0, val=0):
@@ -136,7 +137,9 @@ class LRUCache:
 # param_1 = obj.get(key)
 # obj.put(key,value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     int key;
@@ -224,7 +227,9 @@ class LRUCache {
  * obj.put(key,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 struct Node {
     int k;
@@ -318,7 +323,9 @@ private:
  * obj->put(key,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type node struct {
 	key, val   int
@@ -389,7 +396,9 @@ func (this *LRUCache) pushFront(n *node) {
 	this.head.next = n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class LRUCache {
     capacity: number;
@@ -425,7 +434,9 @@ class LRUCache {
  * obj.put(key,value)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cell::RefCell;
 use std::collections::HashMap;
@@ -556,7 +567,9 @@ impl LRUCache {
  * obj.put(key, value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class LRUCache {
     class Node {
@@ -635,6 +648,7 @@ public class LRUCache {
  * obj.Put(key,Val);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

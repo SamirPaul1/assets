@@ -83,6 +83,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSum(self, nums: List[int]) -> int:
@@ -97,7 +98,9 @@ class Solution:
             left = min(left, x)
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSum(int[] nums) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSum(nums []int) int {
 	n := len(nums)
@@ -165,7 +172,9 @@ func minimumSum(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSum(nums: number[]): number {
     const n = nums.length;
@@ -183,6 +192,7 @@ function minimumSum(nums: number[]): number {
     return ans === Infinity ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

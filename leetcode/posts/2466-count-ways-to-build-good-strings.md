@@ -77,6 +77,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n = hi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countGoodStrings(self, low: int, high: int, zero: int, one: int) -> int:
@@ -93,7 +94,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countGoodStrings(low int, high int, zero int, one int) int {
 	f := make([]int, high+1)
@@ -180,6 +187,7 @@ func countGoodStrings(low int, high int, zero int, one int) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

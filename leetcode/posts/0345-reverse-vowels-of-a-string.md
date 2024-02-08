@@ -45,6 +45,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseVowels(self, s: str) -> str:
@@ -61,7 +62,9 @@ class Solution:
                 i, j = i + 1, j - 1
         return "".join(cs)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseVowels(String s) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseVowels(s string) string {
 	vowels := [128]bool{}
@@ -140,7 +147,9 @@ func reverseVowels(s string) string {
 	return string(cs)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reverseVowels(s: string): string {
     const vowels = new Set(['a', 'e', 'i', 'o', 'u']);
@@ -157,7 +166,9 @@ function reverseVowels(s: string): string {
     return cs.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_vowels(s: String) -> String {
@@ -181,6 +192,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

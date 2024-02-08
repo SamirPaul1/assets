@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def bestTeamScore(self, scores: List[int], ages: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
             f[i] += score
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int bestTeamScore(int[] scores, int[] ages) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func bestTeamScore(scores []int, ages []int) int {
 	n := len(ages)
@@ -152,7 +159,9 @@ func bestTeamScore(scores []int, ages []int) int {
 	return slices.Max(f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function bestTeamScore(scores: number[], ages: number[]): number {
     const arr = ages.map((age, i) => [age, scores[i]]);
@@ -170,7 +179,9 @@ function bestTeamScore(scores: number[], ages: number[]): number {
     return Math.max(...f);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} scores
@@ -193,6 +204,7 @@ var bestTeamScore = function (scores, ages) {
     return Math.max(...f);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -200,6 +212,7 @@ var bestTeamScore = function (scores, ages) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -227,7 +240,9 @@ class Solution:
             tree.update(age, score + tree.query(age))
         return tree.query(m)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -275,7 +290,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -322,7 +339,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -369,6 +388,7 @@ func bestTeamScore(scores []int, ages []int) int {
 	return tree.query(m)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

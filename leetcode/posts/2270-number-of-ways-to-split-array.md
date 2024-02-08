@@ -69,6 +69,7 @@ There are two valid splits in nums:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def waysToSplitArray(self, nums: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int waysToSplitArray(int[] nums) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func waysToSplitArray(nums []int) int {
 	s := 0
@@ -133,6 +140,7 @@ func waysToSplitArray(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

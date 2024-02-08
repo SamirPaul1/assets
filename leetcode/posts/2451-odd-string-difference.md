@@ -72,6 +72,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m + n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def oddString(self, words: List[str]) -> str:
@@ -81,7 +82,9 @@ class Solution:
             d[t].append(s)
         return next(ss[0] for ss in d.values() if len(ss) == 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String oddString(String[] words) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func oddString(words []string) string {
 	d := map[string][]string{}
@@ -149,7 +156,9 @@ func oddString(words []string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function oddString(words: string[]): string {
     const d: Map<string, string[]> = new Map();
@@ -172,7 +181,9 @@ function oddString(words: string[]): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -197,6 +208,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -204,6 +216,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -238,6 +251,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

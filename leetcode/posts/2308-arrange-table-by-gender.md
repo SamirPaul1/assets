@@ -89,6 +89,7 @@ Note that the IDs of each gender are sorted in ascending order.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -110,6 +111,7 @@ SELECT user_id, gender
 FROM t
 ORDER BY rk1, rk2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -117,6 +119,7 @@ ORDER BY rk1, rk2;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     user_id,
@@ -131,6 +134,7 @@ ORDER BY
     ),
     2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

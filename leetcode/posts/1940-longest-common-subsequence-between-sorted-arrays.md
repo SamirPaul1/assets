@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestCommomSubsequence(self, arrays: List[List[int]]) -> List[int]:
@@ -78,7 +79,9 @@ class Solution:
                 counter[e] += 1
         return [e for e, count in counter.items() if count == n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> longestCommomSubsequence(int[][] arrays) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestCommomSubsequence(arrays [][]int) []int {
 	counter := make(map[int]int)
@@ -136,7 +143,9 @@ func longestCommomSubsequence(arrays [][]int) []int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} arrays
@@ -155,6 +164,7 @@ var longestCommonSubsequence = function (arrays) {
     return rs;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -162,6 +172,7 @@ var longestCommonSubsequence = function (arrays) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestCommomSubsequence(self, arrays: List[List[int]]) -> List[int]:
@@ -184,6 +195,7 @@ class Solution:
             arrays[i] = common(arrays[i - 1], arrays[i])
         return arrays[n - 1]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

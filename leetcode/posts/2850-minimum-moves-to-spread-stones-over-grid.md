@@ -70,6 +70,7 @@ The problem is essentially finding the shortest path from the initial state to t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMoves(self, grid: List[List[int]]) -> int:
@@ -97,7 +98,9 @@ class Solution:
                                         q.append(nxt)
             ans += 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumMoves(int[][] grid) {
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumMoves(grid [][]int) int {
 	left := [][2]int{}
@@ -241,7 +248,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumMoves(grid: number[][]): number {
     const left: number[][] = [];
@@ -279,6 +288,7 @@ function minimumMoves(grid: number[][]): number {
     return f[(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -294,6 +304,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(2^n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMoves(self, grid: List[List[int]]) -> int:
@@ -319,7 +330,9 @@ class Solution:
                     f[i] = min(f[i], f[i ^ (1 << j)] + cal(left[k - 1], right[j]))
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumMoves(int[][] grid) {
@@ -356,6 +369,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

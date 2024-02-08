@@ -79,6 +79,7 @@ The space complexity is $O(n)$, where $n$ is the number of players.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -110,7 +111,9 @@ class Leaderboard:
 # param_2 = obj.top(K)
 # obj.reset(playerId)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Leaderboard {
     private Map<Integer, Integer> d = new HashMap<>();
@@ -158,7 +161,9 @@ class Leaderboard {
  * obj.reset(playerId);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Leaderboard {
 public:
@@ -204,7 +209,9 @@ private:
  * obj->reset(playerId);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::BTreeMap;
 
@@ -262,6 +269,7 @@ impl Leaderboard {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -78,6 +78,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minReorder(self, n: int, connections: List[List[int]]) -> int:
@@ -90,7 +91,9 @@ class Solution:
             g[b].append((a, 0))
         return dfs(0, -1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<int[]>[] g;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minReorder(n int, connections [][]int) int {
 	g := make([][][2]int, n)
@@ -163,7 +170,9 @@ func minReorder(n int, connections [][]int) int {
 	return dfs(0, -1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minReorder(n: number, connections: number[][]): number {
     const g: [number, number][][] = Array.from({ length: n }, () => []);
@@ -183,7 +192,9 @@ function minReorder(n: number, connections: number[][]): number {
     return dfs(0, -1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_reorder(n: i32, connections: Vec<Vec<i32>>) -> i32 {
@@ -207,6 +218,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

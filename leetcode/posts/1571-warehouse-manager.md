@@ -113,6 +113,7 @@ We can use an inner join to join the `Warehouse` table and the `Products` table 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -123,6 +124,7 @@ FROM
     JOIN Products USING (product_id)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

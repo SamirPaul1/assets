@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -81,7 +82,9 @@ class Solution:
         dfs(root)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -192,7 +199,9 @@ func postorderTraversal(root *TreeNode) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -231,7 +240,9 @@ function postorderTraversal(root: TreeNode | null): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -271,6 +282,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -278,6 +290,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -300,7 +313,9 @@ class Solution:
                 stk.append(node.right)
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -339,7 +354,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -363,7 +380,9 @@ function postorderTraversal(root: TreeNode | null): number[] {
     return [...postorderTraversal(left), ...postorderTraversal(right), val];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -409,6 +428,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -416,6 +436,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -443,7 +464,9 @@ class Solution:
                     root = root.left
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -486,7 +509,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -527,6 +552,7 @@ function postorderTraversal(root: TreeNode | null): number[] {
     return res.reverse();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

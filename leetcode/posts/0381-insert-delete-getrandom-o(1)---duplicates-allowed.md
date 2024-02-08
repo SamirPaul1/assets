@@ -75,6 +75,7 @@ randomizedCollection.getRandom(); // getRandom should return 1 or 2, both equall
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class RandomizedCollection:
     def __init__(self):
@@ -129,7 +130,9 @@ class RandomizedCollection:
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class RandomizedCollection {
     private Map<Integer, Set<Integer>> m;
@@ -194,6 +197,7 @@ class RandomizedCollection {
  * int param_3 = obj.getRandom();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

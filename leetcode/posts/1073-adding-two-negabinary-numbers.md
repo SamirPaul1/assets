@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:
@@ -86,7 +87,9 @@ class Solution:
             ans.pop()
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] addNegabinary(int[] arr1, int[] arr2) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addNegabinary(arr1 []int, arr2 []int) (ans []int) {
 	i, j := len(arr1)-1, len(arr2)-1
@@ -174,7 +181,9 @@ func addNegabinary(arr1 []int, arr2 []int) (ans []int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addNegabinary(arr1: number[], arr2: number[]): number[] {
     let i = arr1.length - 1,
@@ -200,7 +209,9 @@ function addNegabinary(arr1: number[], arr2: number[]): number[] {
     return ans.reverse();
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] AddNegabinary(int[] arr1, int[] arr2) {
@@ -228,6 +239,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

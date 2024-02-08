@@ -77,6 +77,7 @@ We can achieve all the requests. </pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumRequests(self, n: int, requests: List[List[int]]) -> int:
@@ -95,7 +96,9 @@ class Solution:
                 ans = cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumRequests(n int, requests [][]int) (ans int) {
 	m := len(requests)
@@ -197,7 +204,9 @@ func maximumRequests(n int, requests [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumRequests(n: number, requests: number[][]): number {
     const m = requests.length;
@@ -231,7 +240,9 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -270,6 +281,7 @@ function bitCount(i) {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

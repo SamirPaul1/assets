@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validSubarrays(self, nums: List[int]) -> int:
@@ -76,7 +77,9 @@ class Solution:
             stk.append(i)
         return sum(j - i for i, j in enumerate(right))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int validSubarrays(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validSubarrays(nums []int) (ans int) {
 	n := len(nums)
@@ -150,7 +157,9 @@ func validSubarrays(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validSubarrays(nums: number[]): number {
     const n = nums.length;
@@ -172,6 +181,7 @@ function validSubarrays(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -179,6 +189,7 @@ function validSubarrays(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validSubarrays(self, nums: List[int]) -> int:
@@ -192,7 +203,9 @@ class Solution:
             stk.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int validSubarrays(int[] nums) {
@@ -211,7 +224,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -230,7 +245,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validSubarrays(nums []int) (ans int) {
 	n := len(nums)
@@ -250,7 +267,9 @@ func validSubarrays(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validSubarrays(nums: number[]): number {
     const n = nums.length;
@@ -266,6 +285,7 @@ function validSubarrays(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

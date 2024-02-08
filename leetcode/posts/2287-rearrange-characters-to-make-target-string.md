@@ -72,6 +72,7 @@ We can make at most one copy of &quot;aaaaa&quot;, so we return 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rearrangeCharacters(self, s: str, target: str) -> int:
@@ -79,7 +80,9 @@ class Solution:
         cnt2 = Counter(target)
         return min(cnt1[c] // v for c, v in cnt2.items())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rearrangeCharacters(String s, String target) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeCharacters(s string, target string) int {
 	var cnt1, cnt2 [26]int
@@ -143,7 +150,9 @@ func rearrangeCharacters(s string, target string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rearrangeCharacters(s: string, target: string): number {
     const idx = (s: string) => s.charCodeAt(0) - 97;
@@ -164,7 +173,9 @@ function rearrangeCharacters(s: string, target: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn rearrange_characters(s: String, target: String) -> i32 {
@@ -186,7 +197,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
@@ -208,6 +221,7 @@ int rearrangeCharacters(char* s, char* target) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

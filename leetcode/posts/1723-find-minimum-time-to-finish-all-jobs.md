@@ -58,6 +58,7 @@ The maximum working time is 11.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTimeRequired(self, jobs: List[int], k: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] cnt;
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTimeRequired(jobs []int, k int) int {
 	cnt := make([]int, k)
@@ -187,6 +194,7 @@ func minimumTimeRequired(jobs []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

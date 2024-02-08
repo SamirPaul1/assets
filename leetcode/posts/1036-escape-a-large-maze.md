@@ -65,6 +65,7 @@ We cannot move south or west because we cannot go outside of the grid.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isEscapePossible(
@@ -90,7 +91,9 @@ class Solution:
         blocked = set((x, y) for x, y in blocked)
         return dfs(source, target, set()) and dfs(target, source, set())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] dirs = new int[][] {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef unsigned long long ULL;
 
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isEscapePossible(blocked [][]int, source []int, target []int) bool {
 	const N = 1e6
@@ -189,7 +196,9 @@ func isEscapePossible(blocked [][]int, source []int, target []int) bool {
 	return dfs(source, target, s1) && dfs(target, source, s2)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::{ HashSet, VecDeque };
 
@@ -239,6 +248,7 @@ fn bfs(block: &HashSet<(i32, i32)>, source: &Vec<i32>, target: &Vec<i32>) -> boo
     vis.len() >= MAX
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

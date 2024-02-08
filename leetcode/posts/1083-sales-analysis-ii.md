@@ -98,6 +98,7 @@ Sales table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT buyer_id
@@ -107,6 +108,7 @@ FROM
 GROUP BY 1
 HAVING SUM(product_name = 'S8') > 0 AND SUM(product_name = 'iPhone') = 0;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

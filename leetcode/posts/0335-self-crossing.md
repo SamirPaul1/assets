@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isSelfCrossing(self, distance: List[int]) -> bool:
@@ -83,7 +84,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isSelfCrossing(int[] distance) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isSelfCrossing(distance []int) bool {
 	d := distance
@@ -137,7 +144,9 @@ func isSelfCrossing(distance []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsSelfCrossing(int[] x) {
@@ -154,6 +163,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -77,6 +77,7 @@ Salary table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 UPDATE salary
 SET sex = CASE sex
@@ -84,6 +85,7 @@ SET sex = CASE sex
     ELSE 'm'
 END;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -91,11 +93,13 @@ END;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 UPDATE Salary
 SET sex = IF(sex = 'f', 'm', 'f');
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

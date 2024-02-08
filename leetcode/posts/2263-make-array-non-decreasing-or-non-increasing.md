@@ -77,6 +77,7 @@ It can be proven that 4 is the minimum number of operations needed.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def convertArray(self, nums: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
 
         return min(solve(nums), solve(nums[::-1]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int convertArray(int[] nums) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func convertArray(nums []int) int {
 	return min(solve(nums), solve(reverse(nums)))
@@ -190,6 +197,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

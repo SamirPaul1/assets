@@ -78,6 +78,7 @@ Note that we cannot choose more than one edge because all edges are adjacent to 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, edges: List[List[int]]) -> int:
@@ -96,7 +97,9 @@ class Solution:
             g[p].append((i, w))
         return dfs(0)[1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<int[]>[] g;
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(edges [][]int) int64 {
 	n := len(edges)
@@ -179,6 +186,7 @@ func maxScore(edges [][]int) int64 {
 	return int64(dfs(0)[1])
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

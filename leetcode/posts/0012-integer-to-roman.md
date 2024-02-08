@@ -85,6 +85,7 @@ The time complexity is $O(m)$, and the space complexity is $O(m)$. Here, $m$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def intToRoman(self, num: int) -> str:
@@ -97,7 +98,9 @@ class Solution:
                 ans.append(c)
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String intToRoman(int num) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func intToRoman(num int) string {
 	cs := []string{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"}
@@ -148,7 +155,9 @@ func intToRoman(num int) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function intToRoman(num: number): string {
     const cs: string[] = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
@@ -163,7 +172,9 @@ function intToRoman(num: number): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string IntToRoman(int num) {
@@ -180,6 +191,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

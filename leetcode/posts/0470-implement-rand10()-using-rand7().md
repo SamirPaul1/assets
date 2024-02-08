@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # The rand7() API is already defined for you.
 # def rand7():
@@ -73,7 +74,9 @@ class Solution:
             if x <= 40:
                 return x % 10 + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * The rand7() API is already defined in the parent class SolBase.
@@ -93,7 +96,9 @@ class Solution extends SolBase {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 // The rand7() API is already defined for you.
 // int rand7();
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rand10() int {
 	for {
@@ -126,7 +133,9 @@ func rand10() int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * The rand7() API is already defined for you.
@@ -145,7 +154,9 @@ function rand10(): number {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 
 /**
@@ -167,6 +178,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

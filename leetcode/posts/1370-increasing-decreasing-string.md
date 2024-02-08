@@ -76,6 +76,7 @@ The time complexity is $O(n \times |\Sigma|)$, and the space complexity is $O(|\
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortString(self, s: str) -> str:
@@ -89,7 +90,9 @@ class Solution:
                     cnt[c] -= 1
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String sortString(String s) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortString(s string) string {
 	cnt := [26]int{}
@@ -171,7 +178,9 @@ func sortString(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortString(s: string): string {
     const cnt: number[] = Array(26).fill(0);
@@ -196,7 +205,9 @@ function sortString(s: string): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -225,6 +236,7 @@ var sortString = function (s) {
     return ans.join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

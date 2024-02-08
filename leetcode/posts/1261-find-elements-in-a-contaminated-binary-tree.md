@@ -101,6 +101,7 @@ In terms of time complexity, we need to traverse the binary tree during initiali
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -131,7 +132,9 @@ class FindElements:
 # obj = FindElements(root)
 # param_1 = obj.find(target)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -179,7 +182,9 @@ class FindElements {
  * boolean param_1 = obj.find(target);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -224,7 +229,9 @@ private:
  * bool param_1 = obj->find(target);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -267,6 +274,7 @@ func (this *FindElements) Find(target int) bool {
  * param_1 := obj.Find(target);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

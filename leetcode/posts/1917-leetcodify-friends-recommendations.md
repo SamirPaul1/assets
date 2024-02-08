@@ -119,6 +119,7 @@ Similarly, we can see that users 2 and 3 listened to songs 10, 11, and 12 on the
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -143,6 +144,7 @@ WHERE
 GROUP BY l1.day, l1.user_id, l2.user_id
 HAVING COUNT(DISTINCT l1.song_id) >= 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

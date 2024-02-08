@@ -114,6 +114,7 @@ Users 2 and 5 are friends and listened to songs 10, 11, and 12, but they did not
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT DISTINCT user1_id, user2_id
@@ -125,6 +126,7 @@ WHERE l1.song_id = l2.song_id AND l1.day = l2.day
 GROUP BY 1, 2, l1.day
 HAVING COUNT(DISTINCT l1.song_id) >= 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

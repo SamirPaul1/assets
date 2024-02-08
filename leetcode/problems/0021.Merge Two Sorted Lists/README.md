@@ -1,6 +1,5 @@
 # [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)
 
-[中文文档](/solution/0000-0099/0021.Merge%20Two%20Sorted%20Lists/README.md)
 
 ## Description
 

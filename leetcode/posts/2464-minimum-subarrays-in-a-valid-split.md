@@ -86,6 +86,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validSubarraySplit(self, nums: List[int]) -> int:
@@ -104,7 +105,9 @@ class Solution:
         dfs.cache_clear()
         return ans if ans < inf else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validSubarraySplit(nums []int) int {
 	n := len(nums)
@@ -204,6 +211,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

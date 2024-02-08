@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCut(self, s: str) -> int:
@@ -75,7 +76,9 @@ class Solution:
                     f[i] = min(f[i], 1 + f[j - 1] if j else 0)
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCut(String s) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCut(s string) int {
 	n := len(s)
@@ -162,7 +169,9 @@ func minCut(s string) int {
 	return f[n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCut(s: string): number {
     const n = s.length;
@@ -187,7 +196,9 @@ function minCut(s: string): number {
     return f[n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MinCut(string s) {
@@ -216,6 +227,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

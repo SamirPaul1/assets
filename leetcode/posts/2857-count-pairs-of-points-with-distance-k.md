@@ -65,6 +65,7 @@ The time complexity is $O(n \times k)$, and the space complexity is $O(n)$. Here
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(self, coordinates: List[List[int]], k: int) -> int:
@@ -78,7 +79,9 @@ class Solution:
             cnt[(x2, y2)] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countPairs(List<List<Integer>> coordinates, int k) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(coordinates [][]int, k int) (ans int) {
 	cnt := map[[2]int]int{}
@@ -133,7 +140,9 @@ func countPairs(coordinates [][]int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPairs(coordinates: number[][], k: number): number {
     const cnt: Map<number, number> = new Map();
@@ -150,6 +159,7 @@ function countPairs(coordinates: number[][], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -157,6 +167,7 @@ function countPairs(coordinates: number[][], k: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,6 +190,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

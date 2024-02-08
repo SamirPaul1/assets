@@ -51,6 +51,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minmaxGasDist(self, stations: List[int], k: int) -> float:
@@ -66,7 +67,9 @@ class Solution:
                 left = mid
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double minmaxGasDist(int[] stations, int k) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minmaxGasDist(stations []int, k int) float64 {
 	check := func(x float64) bool {
@@ -138,6 +145,7 @@ func minmaxGasDist(stations []int, k int) float64 {
 	return left
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

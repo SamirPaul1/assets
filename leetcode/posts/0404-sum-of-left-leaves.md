@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -73,7 +74,9 @@ class Solution:
         res += self.sumOfLeftLeaves(root.right)
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -122,7 +127,9 @@ func sumOfLeftLeaves(root *TreeNode) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -156,7 +163,9 @@ function sumOfLeftLeaves(root: TreeNode | null): number {
     return dfs(root, false);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -200,7 +209,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for a binary tree node.
@@ -225,6 +236,7 @@ int sumOfLeftLeaves(struct TreeNode* root) {
     return dfs(root, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

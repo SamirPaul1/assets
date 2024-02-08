@@ -71,6 +71,7 @@ It can be shown that no other path has less score.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minScore(self, n: int, roads: List[List[int]]) -> int:
@@ -91,7 +92,9 @@ class Solution:
         dfs(1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<int[]>[] g;
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minScore(n int, roads [][]int) int {
 	type pair struct{ i, v int }
@@ -178,7 +185,9 @@ func minScore(n int, roads [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minScore(n: number, roads: number[][]): number {
     const vis = new Array(n + 1).fill(false);
@@ -202,7 +211,9 @@ function minScore(n: number, roads: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: usize, mut ans: i32, g: &Vec<Vec<(usize, i32)>>, vis: &mut Vec<bool>) -> i32 {
@@ -231,7 +242,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var minScore = function (n, roads) {
     // 构建点到点的映射表
@@ -256,6 +269,7 @@ var minScore = function (n, roads) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -263,6 +277,7 @@ var minScore = function (n, roads) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minScore(self, n: int, roads: List[List[int]]) -> int:
@@ -284,7 +299,9 @@ class Solution:
                         q.append(j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minScore(int n, int[][] roads) {
@@ -317,7 +334,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -350,7 +369,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minScore(n int, roads [][]int) int {
 	type pair struct{ i, v int }
@@ -381,6 +402,7 @@ func minScore(n int, roads [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

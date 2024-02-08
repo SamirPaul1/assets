@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function undefinedToNull(obj: Record<any, any>): Record<any, any> {
     for (const key in obj) {
@@ -72,6 +73,7 @@ function undefinedToNull(obj: Record<any, any>): Record<any, any> {
  * undefinedToNull([undefined, undefined]) // [null, null]
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

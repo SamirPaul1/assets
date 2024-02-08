@@ -69,6 +69,7 @@ Third: nums = [1]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMaxGame(self, nums: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 nums[i] = min(a, b) if i % 2 == 0 else max(a, b)
         return nums[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMaxGame(int[] nums) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMaxGame(nums []int) int {
 	for n := len(nums); n > 1; {
@@ -128,7 +135,9 @@ func minMaxGame(nums []int) int {
 	return nums[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMaxGame(nums: number[]): number {
     for (let n = nums.length; n > 1; ) {
@@ -142,7 +151,9 @@ function minMaxGame(nums: number[]): number {
     return nums[0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_max_game(mut nums: Vec<i32>) -> i32 {
@@ -160,7 +171,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 #define max(a, b) (((a) > (b)) ? (a) : (b))
@@ -177,6 +190,7 @@ int minMaxGame(int* nums, int numsSize) {
     return nums[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

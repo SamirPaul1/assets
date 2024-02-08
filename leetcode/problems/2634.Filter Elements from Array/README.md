@@ -1,6 +1,5 @@
 # [2634. Filter Elements from Array](https://leetcode.com/problems/filter-elements-from-array)
 
-[中文文档](/solution/2600-2699/2634.Filter%20Elements%20from%20Array/README.md)
 
 ## Description
 

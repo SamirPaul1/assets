@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def confusingNumberII(self, n: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
         s = str(n)
         return dfs(0, True, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int[] d = {0, 1, -1, -1, -1, -1, 9, -1, 8, 6};
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func confusingNumberII(n int) int {
 	d := [10]int{0, 1, -1, -1, -1, -1, 9, -1, 8, 6}
@@ -198,7 +205,9 @@ func confusingNumberII(n int) int {
 	return dfs(0, true, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function confusingNumberII(n: number): number {
     const s = n.toString();
@@ -227,6 +236,7 @@ function confusingNumberII(n: number): number {
     return dfs(0, true, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

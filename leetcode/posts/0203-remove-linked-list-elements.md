@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -75,7 +76,9 @@ class Solution:
                 pre.next = pre.next.next
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeElements(head *ListNode, val int) *ListNode {
 	dummy := new(ListNode)
@@ -136,7 +143,9 @@ func removeElements(head *ListNode, val int) *ListNode {
 	return dummy.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -163,7 +172,9 @@ function removeElements(head: ListNode | null, val: number): ListNode | null {
     return dummy.next;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -197,7 +208,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public ListNode RemoveElements(ListNode head, int val) {
@@ -225,6 +238,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

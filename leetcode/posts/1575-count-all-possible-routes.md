@@ -91,6 +91,7 @@ The time complexity is $O(n^2 \times m)$, and the space complexity is $O(n \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countRoutes(
@@ -109,7 +110,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(start, fuel)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] locations;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countRoutes(locations []int, start int, finish int, fuel int) int {
 	n := len(locations)
@@ -212,7 +219,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countRoutes(locations: number[], start: number, finish: number, fuel: number): number {
     const n = locations.length;
@@ -237,6 +246,7 @@ function countRoutes(locations: number[], start: number, finish: number, fuel: n
     return dfs(start, fuel);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -254,6 +264,7 @@ The time complexity is $O(n^2 \times m)$, and the space complexity is $O(n \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countRoutes(
@@ -273,7 +284,9 @@ class Solution:
                         ) % mod
         return f[start][fuel]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countRoutes(int[] locations, int start, int finish, int fuel) {
@@ -296,7 +309,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -321,7 +336,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countRoutes(locations []int, start int, finish int, fuel int) int {
 	n := len(locations)
@@ -352,7 +369,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countRoutes(locations: number[], start: number, finish: number, fuel: number): number {
     const n = locations.length;
@@ -373,6 +392,7 @@ function countRoutes(locations: number[], start: number, finish: number, fuel: n
     return f[start][fuel];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

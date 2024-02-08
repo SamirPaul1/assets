@@ -1,6 +1,5 @@
 # [620. Not Boring Movies](https://leetcode.com/problems/not-boring-movies)
 
-[中文文档](/solution/0600-0699/0620.Not%20Boring%20Movies/README.md)
 
 ## Description
 

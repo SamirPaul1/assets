@@ -60,12 +60,15 @@ Therefore, we return false.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isStrictlyPalindromic(self, n: int) -> bool:
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isStrictlyPalindromic(int n) {
@@ -73,7 +76,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -82,19 +87,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isStrictlyPalindromic(n int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isStrictlyPalindromic(n: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_strictly_palindromic(n: i32) -> bool {
@@ -102,12 +113,15 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool isStrictlyPalindromic(int n) {
     return 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

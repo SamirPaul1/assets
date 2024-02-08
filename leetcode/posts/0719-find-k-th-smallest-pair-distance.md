@@ -66,6 +66,7 @@ Then the 1<sup>st</sup> smallest distance pair is (1,1), and its distance is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestDistancePair(self, nums: List[int], k: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
         nums.sort()
         return bisect_left(range(nums[-1] - nums[0]), k, key=count)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestDistancePair(int[] nums, int k) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestDistancePair(nums []int, k int) int {
 	sort.Ints(nums)
@@ -178,7 +185,9 @@ func smallestDistancePair(nums []int, k int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestDistancePair(nums: number[], k: number): number {
     nums.sort((a, b) => a - b);
@@ -205,6 +214,7 @@ function smallestDistancePair(nums: number[], k: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

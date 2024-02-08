@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
@@ -69,7 +70,9 @@ class Solution:
             cnt[s] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubarraysWithSum(nums []int, goal int) (ans int) {
 	cnt := map[int]int{0: 1}
@@ -120,7 +127,9 @@ func numSubarraysWithSum(nums []int, goal int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -142,6 +151,7 @@ var numSubarraysWithSum = function (nums, goal) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -149,6 +159,7 @@ var numSubarraysWithSum = function (nums, goal) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubarraysWithSum(self, nums: List[int], goal: int) -> int:
@@ -167,7 +178,9 @@ class Solution:
             j += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
@@ -189,7 +202,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +223,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubarraysWithSum(nums []int, goal int) int {
 	i1, i2, s1, s2, j, ans, n := 0, 0, 0, 0, 0, 0, len(nums)
@@ -229,7 +246,9 @@ func numSubarraysWithSum(nums []int, goal int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -255,6 +274,7 @@ var numSubarraysWithSum = function (nums, goal) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 mod = 10**9 + 7
 f = [1]
@@ -79,7 +80,9 @@ class Solution:
                 ans %= mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.math.BigInteger;
 
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mod int = 1e9 + 7
 
@@ -170,6 +177,7 @@ func pow(x, n int) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -177,6 +185,7 @@ func pow(x, n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countAnagrams(self, s: str) -> int:
@@ -190,6 +199,7 @@ class Solution:
                 ans = ans * i % mod
         return ans * pow(mul, -1, mod) % mod
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

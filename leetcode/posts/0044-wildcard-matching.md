@@ -83,6 +83,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
@@ -100,7 +101,9 @@ class Solution:
                     dp[i][j] = dp[i - 1][j] or dp[i][j - 1]
         return dp[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isMatch(String s, String p) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isMatch(s string, p string) bool {
 	m, n := len(s), len(p)
@@ -177,7 +184,9 @@ func isMatch(s string, p string) bool {
 	return dp[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Linq;
 
@@ -223,6 +232,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

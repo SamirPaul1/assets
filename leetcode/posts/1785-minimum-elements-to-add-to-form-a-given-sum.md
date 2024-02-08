@@ -65,13 +65,16 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minElements(self, nums: List[int], limit: int, goal: int) -> int:
         d = abs(sum(nums) - goal)
         return (d + limit - 1) // limit
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minElements(int[] nums, int limit, int goal) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minElements(nums []int, limit int, goal int) int {
 	s := 0
@@ -114,7 +121,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minElements(nums: number[], limit: number, goal: number): number {
     const sum = nums.reduce((r, v) => r + v, 0);
@@ -122,7 +131,9 @@ function minElements(nums: number[], limit: number, goal: number): number {
     return Math.floor((diff + limit - 1) / limit);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_elements(nums: Vec<i32>, limit: i32, goal: i32) -> i32 {
@@ -137,7 +148,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minElements(int* nums, int numsSize, int limit, int goal) {
     long long sum = 0;
@@ -148,6 +161,7 @@ int minElements(int* nums, int numsSize, int limit, int goal) {
     return (diff + limit - 1) / limit;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

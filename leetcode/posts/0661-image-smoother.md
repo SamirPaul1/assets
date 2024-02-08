@@ -62,6 +62,7 @@ For the point (1,1): floor((50+200+200+200+200+100+100+100+100)/9) = floor(138.8
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def imageSmoother(self, img: List[List[int]]) -> List[List[int]]:
@@ -78,7 +79,9 @@ class Solution:
                 ans[i][j] = s // cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] imageSmoother(int[][] img) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func imageSmoother(img [][]int) [][]int {
 	m, n := len(img), len(img[0])
@@ -151,7 +158,9 @@ func imageSmoother(img [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function imageSmoother(img: number[][]): number[][] {
     const m = img.length;
@@ -186,7 +195,9 @@ function imageSmoother(img: number[][]): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn image_smoother(img: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -226,6 +237,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

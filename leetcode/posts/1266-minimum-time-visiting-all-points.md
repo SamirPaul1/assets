@@ -79,6 +79,7 @@ The time complexity is $O(n)$, where $n$ is the number of points. The space comp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             max(abs(p1[0] - p2[0]), abs(p1[1] - p2[1])) for p1, p2 in pairwise(points)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minTimeToVisitAllPoints(points [][]int) (ans int) {
 	for i, p := range points[1:] {
@@ -133,7 +140,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minTimeToVisitAllPoints(points: number[][]): number {
     let ans = 0;
@@ -145,7 +154,9 @@ function minTimeToVisitAllPoints(points: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_time_to_visit_all_points(points: Vec<Vec<i32>>) -> i32 {
@@ -160,7 +171,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -174,6 +187,7 @@ int minTimeToVisitAllPoints(int** points, int pointsSize, int* pointsColSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

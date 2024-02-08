@@ -79,6 +79,7 @@ The time complexity is $O(n^2 \times \log n)$, and the space complexity is $O(n^
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
@@ -89,7 +90,9 @@ class Solution:
                 cnt[c][i] += 1
         return "".join(sorted(votes[0], key=lambda x: (cnt[x], -ord(x)), reverse=True))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String rankTeams(String[] votes) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rankTeams(votes []string) string {
 	cnt := [26][26]int{}
@@ -172,6 +179,7 @@ func rankTeams(votes []string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

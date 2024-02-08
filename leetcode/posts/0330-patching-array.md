@@ -67,6 +67,7 @@ Explanation: The two patches can be [2, 4].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minPatches(self, nums: List[int], n: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 x <<= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minPatches(int[] nums, int n) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minPatches(nums []int, n int) (ans int) {
 	x := 1
@@ -134,7 +141,9 @@ func minPatches(nums []int, n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minPatches(nums: number[], n: number): number {
     let x = 1;
@@ -150,6 +159,7 @@ function minPatches(nums: number[], n: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

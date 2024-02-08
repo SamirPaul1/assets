@@ -1,6 +1,5 @@
 # [2104. Sum of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges)
 
-[中文文档](/solution/2100-2199/2104.Sum%20of%20Subarray%20Ranges/README.md)
 
 ## Description
 

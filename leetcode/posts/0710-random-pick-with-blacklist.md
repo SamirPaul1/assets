@@ -69,6 +69,7 @@ solution.pick(); // return 4
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def __init__(self, n: int, blacklist: List[int]):
@@ -92,7 +93,9 @@ class Solution:
 # obj = Solution(n, blacklist)
 # param_1 = obj.pick()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Integer> d = new HashMap<>();
@@ -128,7 +131,9 @@ class Solution {
  * int param_1 = obj.pick();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
  * int param_1 = obj->pick();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Solution struct {
 	d map[int]int
@@ -200,6 +207,7 @@ func (this *Solution) Pick() int {
  * param_1 := obj.Pick();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

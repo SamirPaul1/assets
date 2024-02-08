@@ -51,6 +51,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def cheapestJump(self, coins: List[int], maxJump: int) -> List[int]:
@@ -74,7 +75,9 @@ class Solution:
                 ans.append(i + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> cheapestJump(int[] coins, int maxJump) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func cheapestJump(coins []int, maxJump int) (ans []int) {
 	n := len(coins)
@@ -175,7 +182,9 @@ func cheapestJump(coins []int, maxJump int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function cheapestJump(coins: number[], maxJump: number): number[] {
     const n = coins.length;
@@ -205,6 +214,7 @@ function cheapestJump(coins: number[], maxJump: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

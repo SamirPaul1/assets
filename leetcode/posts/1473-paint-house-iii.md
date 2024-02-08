@@ -84,6 +84,7 @@ Cost of paint the first and last house (10 + 1) = 11.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(
@@ -120,7 +121,9 @@ class Solution:
         ans = min(f[-1][j][target] for j in range(1, n + 1))
         return -1 if ans >= inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCost(int[] houses, int[][] cost, int m, int n, int target) {
@@ -173,7 +176,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -221,7 +226,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(houses []int, cost [][]int, m int, n int, target int) int {
 	f := make([][][]int, m)
@@ -278,7 +285,9 @@ func minCost(houses []int, cost [][]int, m int, n int, target int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCost(houses: number[], cost: number[][], m: number, n: number, target: number): number {
     const inf = 1 << 30;
@@ -325,6 +334,7 @@ function minCost(houses: number[], cost: number[][], m: number, n: number, targe
     return ans >= inf ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

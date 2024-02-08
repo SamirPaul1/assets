@@ -1,6 +1,5 @@
 # [500. Keyboard Row](https://leetcode.com/problems/keyboard-row)
 
-[中文文档](/solution/0500-0599/0500.Keyboard%20Row/README.md)
 
 ## Description
 

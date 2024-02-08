@@ -1,6 +1,5 @@
 # [2826. Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups)
 
-[中文文档](/solution/2800-2899/2826.Sorting%20Three%20Groups/README.md)
 
 ## Description
 

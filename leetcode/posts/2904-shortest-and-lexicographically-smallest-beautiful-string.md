@@ -90,6 +90,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestBeautifulSubstring(self, s: str, k: int) -> str:
@@ -104,7 +105,9 @@ class Solution:
                     ans = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shortestBeautifulSubstring(String s, int k) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestBeautifulSubstring(s string, k int) (ans string) {
 	n := len(s)
@@ -169,7 +176,9 @@ func shortestBeautifulSubstring(s string, k int) (ans string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestBeautifulSubstring(s: string, k: number): string {
     const n = s.length;
@@ -189,7 +198,9 @@ function shortestBeautifulSubstring(s: string, k: number): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shortest_beautiful_substring(s: String, k: i32) -> String {
@@ -211,6 +222,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -226,6 +238,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestBeautifulSubstring(self, s: str, k: int) -> str:
@@ -244,7 +257,9 @@ class Solution:
                 ans = s[i:j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shortestBeautifulSubstring(String s, int k) {
@@ -269,7 +284,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -292,7 +309,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestBeautifulSubstring(s string, k int) (ans string) {
 	i, j, cnt := 0, 0, 0
@@ -312,7 +331,9 @@ func shortestBeautifulSubstring(s string, k int) (ans string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestBeautifulSubstring(s: string, k: number): string {
     let [i, j, cnt] = [0, 0, 0];
@@ -332,7 +353,9 @@ function shortestBeautifulSubstring(s: string, k: number): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shortest_beautiful_substring(s: String, k: i32) -> String {
@@ -369,6 +392,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

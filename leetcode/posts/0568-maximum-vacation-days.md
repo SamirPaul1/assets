@@ -94,6 +94,7 @@ Ans = 7 + 7 + 7 = 21
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxVacationDays(self, flights: List[List[int]], days: List[List[int]]) -> int:
@@ -110,7 +111,9 @@ class Solution:
                 f[k][j] += days[j][k - 1]
         return max(f[-1][j] for j in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxVacationDays(int[][] flights, int[][] days) {
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -170,7 +175,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxVacationDays(flights [][]int, days [][]int) (ans int) {
 	n, K := len(flights), len(days[0])
@@ -199,6 +206,7 @@ func maxVacationDays(flights [][]int, days [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

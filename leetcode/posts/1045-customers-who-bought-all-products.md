@@ -95,6 +95,7 @@ We can group the `Customer` table by `customer_id`, and then use the `HAVING` cl
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT customer_id
@@ -102,6 +103,7 @@ FROM Customer
 GROUP BY 1
 HAVING COUNT(DISTINCT product_key) = (SELECT COUNT(1) FROM Product);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

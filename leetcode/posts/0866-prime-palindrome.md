@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def primePalindrome(self, n: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 n = 10**8
             n += 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int primePalindrome(int n) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func primePalindrome(n int) int {
 	isPrime := func(x int) bool {
@@ -187,6 +194,7 @@ func primePalindrome(n int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

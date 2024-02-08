@@ -69,6 +69,7 @@ No operations were done so return 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, grid: List[List[int]]) -> int:
@@ -103,7 +104,9 @@ class Solution:
             ans += find(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, List<Integer>> g = new HashMap<>();
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -203,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(grid [][]int) (ans int) {
 	m, n := len(grid), len(grid[0])
@@ -252,7 +259,9 @@ func minimumOperations(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOperations(grid: number[][]): number {
     const m = grid.length;
@@ -300,6 +309,7 @@ function minimumOperations(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ We cannot draw 3 uncrossed lines, because the line from nums1[1] = 4 to nums2[2]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxUncrossedLines(self, nums1: List[int], nums2: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
         return dp[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxUncrossedLines(int[] nums1, int[] nums2) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxUncrossedLines(nums1 []int, nums2 []int) int {
 	m, n := len(nums1), len(nums2)
@@ -143,7 +150,9 @@ func maxUncrossedLines(nums1 []int, nums2 []int) int {
 	return dp[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxUncrossedLines(nums1: number[], nums2: number[]): number {
     const m = nums1.length;
@@ -160,6 +169,7 @@ function maxUncrossedLines(nums1: number[], nums2: number[]): number {
     return dp[m][n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

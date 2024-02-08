@@ -88,6 +88,7 @@ Each row contains employees details and their yearly salaries, however, some of 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -100,6 +101,7 @@ FROM Salary
 GROUP BY emp_id
 ORDER BY emp_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

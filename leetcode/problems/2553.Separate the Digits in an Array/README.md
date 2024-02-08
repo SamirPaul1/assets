@@ -1,6 +1,5 @@
 # [2553. Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array)
 
-[中文文档](/solution/2500-2599/2553.Separate%20the%20Digits%20in%20an%20Array/README.md)
 
 ## Description
 

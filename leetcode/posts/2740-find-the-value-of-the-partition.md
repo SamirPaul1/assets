@@ -74,13 +74,16 @@ It can be proven that 9 is the minimum value out of all partitions.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findValueOfPartition(self, nums: List[int]) -> int:
         nums.sort()
         return min(b - a for a, b in pairwise(nums))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findValueOfPartition(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findValueOfPartition(nums []int) int {
 	sort.Ints(nums)
@@ -118,6 +125,7 @@ func findValueOfPartition(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

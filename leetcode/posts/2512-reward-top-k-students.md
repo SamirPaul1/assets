@@ -80,6 +80,7 @@ The time complexity is $O(n \times \log n + (|ps| + |ns| + n) \times |s|)$, and 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def topStudents(
@@ -104,7 +105,9 @@ class Solution:
         arr.sort(key=lambda x: (-x[0], x[1]))
         return [v[1] for v in arr[:k]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> topStudents(String[] positive_feedback, String[] negative_feedback,
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func topStudents(positive_feedback []string, negative_feedback []string, report []string, student_id []int, k int) (ans []int) {
 	ps := map[string]bool{}
@@ -211,7 +218,9 @@ func topStudents(positive_feedback []string, negative_feedback []string, report 
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function topStudents(
     positive_feedback: string[],
@@ -249,7 +258,9 @@ function topStudents(
         .slice(0, k);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::{ HashMap, HashSet };
 impl Solution {
@@ -291,6 +302,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

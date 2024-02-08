@@ -100,6 +100,7 @@ Orders table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT book_id, name
@@ -110,6 +111,7 @@ WHERE available_from < '2019-05-23'
 GROUP BY 1
 HAVING SUM(IF(dispatch_date >= '2018-06-23', quantity, 0)) < 10;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

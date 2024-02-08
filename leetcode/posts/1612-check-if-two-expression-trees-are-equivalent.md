@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class Node(object):
@@ -92,7 +93,9 @@ class Solution:
         dfs(root2, -1)
         return all(x == 0 for x in cnt.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -210,6 +217,7 @@ var checkEquivalence = function (root1, root2) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -217,6 +225,7 @@ var checkEquivalence = function (root1, root2) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class Node(object):
@@ -241,7 +250,9 @@ class Solution:
 
         return dfs(root1) == dfs(root2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -289,7 +300,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -326,7 +339,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -369,6 +384,7 @@ var checkEquivalence = function (root1, root2) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

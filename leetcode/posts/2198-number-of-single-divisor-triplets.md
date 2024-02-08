@@ -70,6 +70,7 @@ Note that (0, 1, 2) is not a single divisor triplet because nums[0] + nums[1] + 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def singleDivisorTriplet(self, nums: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
                             ans += cnt1 * cnt2 * cnt3
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long singleDivisorTriplet(int[] nums) {
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func singleDivisorTriplet(nums []int) int64 {
 	counter := make([]int, 101)
@@ -209,6 +216,7 @@ func singleDivisorTriplet(nums []int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

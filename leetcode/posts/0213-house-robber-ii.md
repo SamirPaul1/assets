@@ -66,6 +66,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
             return nums[0]
         return max(_rob(nums[1:]), _rob(nums[:-1]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rob(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rob(nums []int) int {
 	n := len(nums)
@@ -142,7 +149,9 @@ func robRange(nums []int, l, r int) int {
 	return max(f, g)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rob(nums: number[]): number {
     const n = nums.length;
@@ -159,7 +168,9 @@ function rob(nums: number[]): number {
     return Math.max(robRange(0, n - 2), robRange(1, n - 1));
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
@@ -178,6 +189,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

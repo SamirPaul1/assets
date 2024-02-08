@@ -60,6 +60,7 @@ However, splitting into [2, 1], [3], [4], [4] is the highest number of chunks po
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
@@ -74,7 +75,9 @@ class Solution:
                 stk.append(mx)
         return len(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxChunksToSorted(int[] arr) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxChunksToSorted(arr []int) int {
 	var stk []int
@@ -133,7 +140,9 @@ func maxChunksToSorted(arr []int) int {
 	return len(stk)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxChunksToSorted(arr: number[]): number {
     const stack = [];
@@ -151,7 +160,9 @@ function maxChunksToSorted(arr: number[]): number {
     return stack.length;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_chunks_to_sorted(arr: Vec<i32>) -> i32 {
@@ -171,6 +182,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -69,6 +69,7 @@ The time complexity is $O((n + m) \times |\Sigma|)$, and the space complexity is
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sameEndSubstringCount(self, s: str, queries: List[List[int]]) -> List[int]:
@@ -88,7 +89,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sameEndSubstringCount(String s, int[][] queries) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sameEndSubstringCount(s string, queries [][]int) []int {
 	n := len(s)
@@ -170,7 +177,9 @@ func sameEndSubstringCount(s string, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sameEndSubstringCount(s: string, queries: number[][]): number[] {
     const n: number = s.length;
@@ -192,7 +201,9 @@ function sameEndSubstringCount(s: string, queries: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn same_end_substring_count(s: String, queries: Vec<Vec<i32>>) -> Vec<i32> {
@@ -219,6 +230,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

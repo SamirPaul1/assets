@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -96,7 +97,9 @@ class Solution:
         head.left = prev
         return head
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -151,7 +154,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -205,7 +210,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a Node.
@@ -243,7 +250,9 @@ func treeToDoublyList(root *Node) *Node {
 	return head
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * // Definition for a Node.
@@ -281,6 +290,7 @@ var treeToDoublyList = function (root) {
     return head;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

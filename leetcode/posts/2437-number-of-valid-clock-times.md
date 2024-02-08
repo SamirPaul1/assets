@@ -72,6 +72,7 @@ The time complexity is $O(24 \times 60)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countTime(self, time: str) -> int:
@@ -82,7 +83,9 @@ class Solution:
             check(f'{h:02d}:{m:02d}', time) for h in range(24) for m in range(60)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countTime(String time) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countTime(time string) int {
 	ans := 0
@@ -148,7 +155,9 @@ func countTime(time string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countTime(time: string): number {
     let ans = 0;
@@ -168,7 +177,9 @@ function countTime(time: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_time(time: String) -> i32 {
@@ -195,6 +206,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +218,7 @@ The time complexity is $O(24 + 60)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countTime(self, time: str) -> int:
@@ -219,7 +232,9 @@ class Solution:
 
         return f(time[:2], 24) * f(time[3:], 60)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countTime(String time) {
@@ -237,7 +252,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -255,7 +272,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countTime(time string) int {
 	f := func(s string, m int) (cnt int) {
@@ -271,7 +290,9 @@ func countTime(time string) int {
 	return f(time[:2], 24) * f(time[3:], 60)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countTime(time: string): number {
     const f = (s: string, m: number): number => {
@@ -288,7 +309,9 @@ function countTime(time: string): number {
     return f(time.slice(0, 2), 24) * f(time.slice(3), 60);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_time(time: String) -> i32 {
@@ -314,6 +337,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

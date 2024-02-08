@@ -70,6 +70,7 @@ Head of the linked list after removing nodes is returned.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -93,7 +94,9 @@ class Solution:
             pre = pre.next
         return head
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -191,6 +198,7 @@ func deleteNodes(head *ListNode, m int, n int) *ListNode {
 	return head
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxDistance(self, position: List[int], m: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxDistance(int[] position, int m) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxDistance(position []int, m int) int {
 	sort.Ints(position)
@@ -170,7 +177,9 @@ func maxDistance(position []int, m int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} position
@@ -206,6 +215,7 @@ var maxDistance = function (position, m) {
     return left;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -59,6 +59,7 @@ For each person, we return the number of flowers in full bloom during their arri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fullBloomFlowers(
@@ -67,7 +68,9 @@ class Solution:
         start, end = sorted(a for a, _ in flowers), sorted(b for _, b in flowers)
         return [bisect_right(start, p) - bisect_left(end, p) for p in people]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] fullBloomFlowers(int[][] flowers, int[] people) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fullBloomFlowers(flowers [][]int, people []int) (ans []int) {
 	n := len(flowers)
@@ -146,7 +153,9 @@ func fullBloomFlowers(flowers [][]int, people []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fullBloomFlowers(flowers: number[][], people: number[]): number[] {
     const n = flowers.length;
@@ -181,7 +190,9 @@ function search(nums: number[], x: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::BTreeMap;
 
@@ -232,6 +243,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -239,6 +251,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fullBloomFlowers(
@@ -259,7 +272,9 @@ class Solution:
             ans[j] = s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] fullBloomFlowers(int[][] flowers, int[] people) {
@@ -287,7 +302,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -317,7 +334,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fullBloomFlowers(flowers [][]int, people []int) []int {
 	d := map[int]int{}
@@ -349,7 +368,9 @@ func fullBloomFlowers(flowers [][]int, people []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fullBloomFlowers(flowers: number[][], people: number[]): number[] {
     const d: Map<number, number> = new Map();
@@ -374,6 +395,7 @@ function fullBloomFlowers(flowers: number[][], people: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -43,6 +43,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
@@ -52,7 +53,9 @@ class Solution:
             delta[end] -= 1
         return max(accumulate(delta))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
@@ -71,7 +74,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -89,7 +94,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMeetingRooms(intervals [][]int) int {
 	n := 1000010
@@ -104,7 +111,9 @@ func minMeetingRooms(intervals [][]int) int {
 	return slices.Max(delta)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::{ collections::BinaryHeap, cmp::Reverse };
 
@@ -142,6 +151,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

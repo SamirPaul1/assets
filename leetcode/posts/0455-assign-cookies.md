@@ -59,6 +59,7 @@ You need to output 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findContentChildren(self, g: List[int], s: List[int]) -> int:
@@ -73,7 +74,9 @@ class Solution:
             j += 1
         return len(g)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findContentChildren(g []int, s []int) int {
 	sort.Ints(g)
@@ -131,7 +138,9 @@ func findContentChildren(g []int, s []int) int {
 	return len(g)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findContentChildren(g: number[], s: number[]): number {
     g.sort((a, b) => a - b);
@@ -149,7 +158,9 @@ function findContentChildren(g: number[], s: number[]): number {
     return m;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} g
@@ -172,6 +183,7 @@ var findContentChildren = function (g, s) {
     return m;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,6 +73,7 @@ After move 5: [[1,2,3],[4,5,0]]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def slidingPuzzle(self, board: List[List[int]]) -> int:
@@ -120,7 +121,9 @@ class Solution:
                         q.append(y)
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String[] t = new String[6];
@@ -209,7 +212,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -284,6 +289,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -291,6 +297,7 @@ public:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def slidingPuzzle(self, board: List[List[int]]) -> int:
@@ -339,7 +346,9 @@ class Solution:
                         heappush(q, (dist[next] + f(next), next))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m = 2;
@@ -423,7 +432,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -490,6 +501,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

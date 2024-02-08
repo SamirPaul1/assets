@@ -46,6 +46,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def queryString(self, s: str, n: int) -> bool:
@@ -53,7 +54,9 @@ class Solution:
             return False
         return all(bin(i)[2:] in s for i in range(n, n // 2, -1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean queryString(String s, int n) {
@@ -69,7 +72,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -88,7 +93,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func queryString(s string, n int) bool {
 	if n > 1000 {
@@ -102,7 +109,9 @@ func queryString(s string, n int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function queryString(s: string, n: number): boolean {
     if (n > 1000) {
@@ -116,6 +125,7 @@ function queryString(s: string, n: number): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

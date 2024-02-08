@@ -64,6 +64,7 @@ The time complexity is $O(n \times target)$, and the space complexity is $O(targ
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def probabilityOfHeads(self, prob: List[float], target: int) -> float:
@@ -77,7 +78,9 @@ class Solution:
                     f[i][j] += p * f[i - 1][j - 1]
         return f[n][target]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double probabilityOfHeads(double[] prob, int target) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func probabilityOfHeads(prob []float64, target int) float64 {
 	n := len(prob)
@@ -137,7 +144,9 @@ func probabilityOfHeads(prob []float64, target int) float64 {
 	return f[n][target]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function probabilityOfHeads(prob: number[], target: number): number {
     const n = prob.length;
@@ -154,6 +163,7 @@ function probabilityOfHeads(prob: number[], target: number): number {
     return f[n][target];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +171,7 @@ function probabilityOfHeads(prob: number[], target: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def probabilityOfHeads(self, prob: List[float], target: int) -> float:
@@ -173,7 +184,9 @@ class Solution:
                     f[j] += p * f[j - 1]
         return f[target]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double probabilityOfHeads(double[] prob, int target) {
@@ -191,7 +204,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -211,7 +226,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func probabilityOfHeads(prob []float64, target int) float64 {
 	f := make([]float64, target+1)
@@ -227,7 +244,9 @@ func probabilityOfHeads(prob []float64, target int) float64 {
 	return f[target]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function probabilityOfHeads(prob: number[], target: number): number {
     const f = new Array(target + 1).fill(0);
@@ -243,6 +262,7 @@ function probabilityOfHeads(prob: number[], target: number): number {
     return f[target];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

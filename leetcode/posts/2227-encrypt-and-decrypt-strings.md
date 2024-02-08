@@ -88,6 +88,7 @@ encrypter.decrypt(&quot;eizfeiam&quot;); // return 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Encrypter:
     def __init__(self, keys: List[str], values: List[str], dictionary: List[str]):
@@ -111,7 +112,9 @@ class Encrypter:
 # param_1 = obj.encrypt(word1)
 # param_2 = obj.decrypt(word2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Encrypter {
     private Map<Character, String> mp = new HashMap<>();
@@ -150,7 +153,9 @@ class Encrypter {
  * int param_2 = obj.decrypt(word2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Encrypter {
 public:
@@ -183,7 +188,9 @@ public:
  * int param_2 = obj->decrypt(word2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Encrypter struct {
 	mp  map[byte]string
@@ -226,6 +233,7 @@ func (this *Encrypter) Decrypt(word2 string) int {
  * param_2 := obj.Decrypt(word2);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

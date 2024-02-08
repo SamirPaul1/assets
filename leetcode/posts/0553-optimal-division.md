@@ -71,6 +71,7 @@ It can be shown that after trying all possibilities, we cannot get an expression
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def optimalDivision(self, nums: List[int]) -> str:
@@ -81,7 +82,9 @@ class Solution:
             return f'{nums[0]}/{nums[1]}'
         return f'{nums[0]}/({"/".join(map(str, nums[1:]))})'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String optimalDivision(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func optimalDivision(nums []int) string {
 	n := len(nums)
@@ -136,7 +143,9 @@ func optimalDivision(nums []int) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function optimalDivision(nums: number[]): string {
     const n = nums.length;
@@ -148,7 +157,9 @@ function optimalDivision(nums: number[]): string {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn optimal_division(nums: Vec<i32>) -> String {
@@ -171,6 +182,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

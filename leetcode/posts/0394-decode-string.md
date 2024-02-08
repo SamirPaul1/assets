@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decodeString(self, s: str) -> str:
@@ -83,7 +84,9 @@ class Solution:
                 res += c
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String decodeString(String s) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function decodeString(s: string): string {
     let ans = '';
@@ -138,6 +143,7 @@ function decodeString(s: string): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

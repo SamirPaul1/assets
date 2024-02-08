@@ -78,6 +78,7 @@ You can only eliminate 1 monster.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def eliminateMaximum(self, dist: List[int], speed: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 return i
         return len(times)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int eliminateMaximum(int[] dist, int[] speed) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func eliminateMaximum(dist []int, speed []int) int {
 	n := len(dist)
@@ -143,7 +150,9 @@ func eliminateMaximum(dist []int, speed []int) int {
 	return n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function eliminateMaximum(dist: number[], speed: number[]): number {
     const n = dist.length;
@@ -160,7 +169,9 @@ function eliminateMaximum(dist: number[], speed: number[]): number {
     return n;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} dist
@@ -181,7 +192,9 @@ var eliminateMaximum = function (dist, speed) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int EliminateMaximum(int[] dist, int[] speed) {
@@ -200,6 +213,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

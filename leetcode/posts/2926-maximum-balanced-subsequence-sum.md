@@ -98,6 +98,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n: int):
@@ -128,7 +129,9 @@ class Solution:
             tree.update(j, v)
         return tree.query(len(s))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -195,7 +198,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 private:
@@ -247,7 +252,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const inf int = 1e18
 
@@ -304,7 +311,9 @@ func maxBalancedSubsequenceSum(nums []int) int64 {
 	return int64(tree.query(m))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -367,6 +376,7 @@ function maxBalancedSubsequenceSum(nums: number[]): number {
     return tree.query(m);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

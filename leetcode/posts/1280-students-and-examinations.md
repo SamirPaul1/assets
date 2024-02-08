@@ -141,6 +141,7 @@ We can first join the `Students` table and the `Subjects` table to obtain all co
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT student_id, student_name, subject_name, COUNT(e.student_id) AS attended_exams
@@ -151,6 +152,7 @@ FROM
 GROUP BY 1, 3
 ORDER BY 1, 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

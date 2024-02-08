@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def outerTrees(self, trees: List[List[int]]) -> List[List[int]]:
@@ -86,7 +87,9 @@ class Solution:
         stk.pop()
         return [trees[i] for i in stk]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] outerTrees(int[][] trees) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func outerTrees(trees [][]int) [][]int {
 	n := len(trees)
@@ -203,6 +210,7 @@ func outerTrees(trees [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

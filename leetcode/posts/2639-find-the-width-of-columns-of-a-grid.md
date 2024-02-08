@@ -65,6 +65,7 @@ In the 2<sup>nd</sup> column, both 12 and -2 are of length 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findColumnWidth(self, grid: List[List[int]]) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
                 ans[j] = max(ans[j], w)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findColumnWidth(int[][] grid) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findColumnWidth(grid [][]int) []int {
 	ans := make([]int, len(grid[0]))
@@ -121,7 +128,9 @@ func findColumnWidth(grid [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findColumnWidth(grid: number[][]): number[] {
     const n = grid[0].length;
@@ -135,7 +144,9 @@ function findColumnWidth(grid: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_column_width(grid: Vec<Vec<i32>>) -> Vec<i32> {
@@ -152,6 +163,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -159,11 +171,13 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findColumnWidth(self, grid: List[List[int]]) -> List[int]:
         return [max(len(str(x)) for x in col) for col in zip(*grid)]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

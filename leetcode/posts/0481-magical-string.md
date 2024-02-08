@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def magicalString(self, n: int) -> int:
@@ -71,7 +72,9 @@ class Solution:
             i += 1
         return s[:n].count(1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int magicalString(int n) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func magicalString(n int) (ans int) {
 	s := []int{1, 2, 2}
@@ -129,7 +136,9 @@ func magicalString(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function magicalString(n: number): number {
     const cs = [...'1221121'];
@@ -145,7 +154,9 @@ function magicalString(n: number): number {
     return cs.slice(0, n).reduce((r, c) => r + (c === '1' ? 1 : 0), 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn magical_string(n: i32) -> i32 {
@@ -168,6 +179,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

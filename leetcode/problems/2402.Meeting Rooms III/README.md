@@ -1,6 +1,5 @@
 # [2402. Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii)
 
-[中文文档](/solution/2400-2499/2402.Meeting%20Rooms%20III/README.md)
 
 ## Description
 

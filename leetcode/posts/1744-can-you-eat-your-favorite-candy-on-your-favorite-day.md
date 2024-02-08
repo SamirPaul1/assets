@@ -73,6 +73,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canEat(self, candiesCount: List[int], queries: List[List[int]]) -> List[bool]:
@@ -83,7 +84,9 @@ class Solution:
             ans.append(least < s[t + 1] and most > s[t])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean[] canEat(int[] candiesCount, int[][] queries) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canEat(candiesCount []int, queries [][]int) (ans []bool) {
 	n := len(candiesCount)
@@ -139,6 +146,7 @@ func canEat(candiesCount []int, queries [][]int) (ans []bool) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

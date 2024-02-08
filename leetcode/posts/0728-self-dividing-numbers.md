@@ -50,6 +50,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
@@ -59,7 +60,9 @@ class Solution:
             if all(i != '0' and num % int(i) == 0 for i in str(num))
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func selfDividingNumbers(left int, right int) []int {
 	check := func(num int) bool {
@@ -126,7 +133,9 @@ func selfDividingNumbers(left int, right int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn self_dividing_numbers(left: i32, right: i32) -> Vec<i32> {
@@ -152,6 +161,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

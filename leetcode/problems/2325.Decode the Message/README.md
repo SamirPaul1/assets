@@ -1,6 +1,5 @@
 # [2325. Decode the Message](https://leetcode.com/problems/decode-the-message)
 
-[中文文档](/solution/2300-2399/2325.Decode%20the%20Message/README.md)
 
 ## Description
 

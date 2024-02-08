@@ -78,6 +78,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def treeDiameter(self, edges: List[List[int]]) -> int:
@@ -104,7 +105,9 @@ class Solution:
         dfs(next, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Set<Integer>> g;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func treeDiameter(edges [][]int) int {
 	n := len(edges)
@@ -212,6 +219,7 @@ func treeDiameter(edges [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

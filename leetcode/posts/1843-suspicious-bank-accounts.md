@@ -114,6 +114,7 @@ We can see that the income exceeded the max income in May and July, but not in J
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -137,6 +138,7 @@ FROM
 WHERE s1.marked = 1 AND s2.marked = 1
 ORDER BY s1.tx;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -144,6 +146,7 @@ ORDER BY s1.tx;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -164,6 +167,7 @@ FROM S
 WHERE (account_id, PERIOD_ADD(yearmonth, 1)) IN (SELECT account_id, yearmonth FROM S)
 ORDER BY tx;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

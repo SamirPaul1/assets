@@ -1,6 +1,5 @@
 # [1259. Handshakes That Don't Cross](https://leetcode.com/problems/handshakes-that-dont-cross)
 
-[中文文档](/solution/1200-1299/1259.Handshakes%20That%20Don%27t%20Cross/README.md)
 
 ## Description
 

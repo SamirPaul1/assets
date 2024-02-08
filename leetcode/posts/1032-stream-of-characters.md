@@ -73,6 +73,7 @@ streamChecker.query(&quot;l&quot;); // return True, because &#39;kl&#39; is in t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -117,7 +118,9 @@ class StreamChecker:
 # obj = StreamChecker(words)
 # param_1 = obj.query(letter)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[26];
@@ -173,7 +176,9 @@ class StreamChecker {
  * boolean param_1 = obj.query(letter);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -236,7 +241,9 @@ public:
  * bool param_1 = obj->query(letter);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -298,6 +305,7 @@ func (this *StreamChecker) Query(letter byte) bool {
  * param_1 := obj.Query(letter);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

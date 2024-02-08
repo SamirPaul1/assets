@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubstrings(self, s: str) -> int:
@@ -67,7 +68,9 @@ class Solution:
                 i, j = i - 1, j + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSubstrings(String s) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubstrings(s string) int {
 	ans, n := 0, len(s)
@@ -118,7 +125,9 @@ func countSubstrings(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -139,6 +148,7 @@ var countSubstrings = function (s) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -146,6 +156,7 @@ var countSubstrings = function (s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubstrings(self, s: str) -> int:
@@ -164,7 +175,9 @@ class Solution:
             ans += p[i] // 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSubstrings(String s) {
@@ -192,6 +205,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

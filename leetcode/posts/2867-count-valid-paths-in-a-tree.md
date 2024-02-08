@@ -88,6 +88,7 @@ The time complexity is $O(n \times \alpha(n))$, and the space complexity is $O(n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -143,7 +144,9 @@ class Solution:
                         t += cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class PrimeTable {
     private final boolean[] prime;
@@ -240,7 +243,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 const int mx = 1e5 + 10;
 bool prime[mx + 1];
@@ -325,7 +330,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mx int = 1e5 + 10
 
@@ -410,7 +417,9 @@ func countPaths(n int, edges [][]int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const mx = 100010;
 const prime = Array(mx).fill(true);
@@ -488,6 +497,7 @@ function countPaths(n: number, edges: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -495,6 +505,7 @@ function countPaths(n: number, edges: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPaths(self, n: int, edges: List[List[int]]) -> int:
@@ -539,7 +550,9 @@ class Solution:
         dfs(1, 0, con, prime, r)
         return r[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long countPaths(int n, int[][] edges) {
@@ -611,7 +624,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
     long long mul(long long x, long long y) {
@@ -665,6 +680,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -72,6 +72,7 @@ The time complexity is $O(n \times \sqrt{M})$, where $n$ and $M$ are the number 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def diagonalPrime(self, nums: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 ans = max(ans, row[n - i - 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int diagonalPrime(int[][] nums) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func diagonalPrime(nums [][]int) (ans int) {
 	n := len(nums)
@@ -177,7 +184,9 @@ func isPrime(x int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn diagonal_prime(nums: Vec<Vec<i32>>) -> i32 {
@@ -212,6 +221,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

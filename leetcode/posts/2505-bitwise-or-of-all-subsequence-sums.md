@@ -55,6 +55,7 @@ And we have 0 OR 1 OR 2 OR 3 OR 4 OR 5 OR 6 = 7, so we return 7.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsequenceSumOr(self, nums: List[int]) -> int:
@@ -70,7 +71,9 @@ class Solution:
             cnt[i + 1] += cnt[i] // 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long subsequenceSumOr(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsequenceSumOr(nums []int) int64 {
 	cnt := make([]int, 64)
@@ -138,6 +145,7 @@ func subsequenceSumOr(nums []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

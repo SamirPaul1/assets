@@ -73,6 +73,7 @@ The time complexity is $O(n + m)$, where $n$ and $m$ are the lengths of the stri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stringShift(self, s: str, shift: List[List[int]]) -> str:
@@ -80,7 +81,9 @@ class Solution:
         x %= len(s)
         return s[-x:] + s[:-x]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String stringShift(String s, int[][] shift) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stringShift(s string, shift [][]int) string {
 	x := 0
@@ -130,7 +137,9 @@ func stringShift(s string, shift [][]int) string {
 	return s[n-x:] + s[:n-x]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stringShift(s: string, shift: number[][]): string {
     let x = 0;
@@ -144,6 +153,7 @@ function stringShift(s: string, shift: number[][]): string {
     return s.slice(-x) + s.slice(0, -x);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

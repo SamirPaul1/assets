@@ -69,6 +69,7 @@ The time complexity is $O(m + n)$, and the space complexity is $O(m + n)$. Here,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -88,7 +89,9 @@ class Solution:
             list2.next = self.mergeTwoLists(list1, list2.next)
             return list2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -170,7 +177,9 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -197,7 +206,9 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -237,7 +248,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -264,7 +277,9 @@ var mergeTwoLists = function (list1, list2) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for singly-linked list.
@@ -300,7 +315,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # Definition for singly-linked list.
 # class ListNode
@@ -330,6 +347,7 @@ def merge_two_lists(list1, list2)
     dummy.next
 end
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -345,6 +363,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of the two 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -368,7 +387,9 @@ class Solution:
         curr.next = list1 or list2
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -399,7 +420,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -431,7 +454,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -461,7 +486,9 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	return dummy.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -492,7 +519,9 @@ function mergeTwoLists(list1: ListNode | null, list2: ListNode | null): ListNode
     return dummy.next;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -535,7 +564,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -566,6 +597,7 @@ var mergeTwoLists = function (list1, list2) {
     return dummy.next;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

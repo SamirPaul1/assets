@@ -46,6 +46,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def firstUniqChar(self, s: str) -> int:
@@ -55,7 +56,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int firstUniqChar(String s) {
@@ -73,7 +76,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func firstUniqChar(s string) int {
 	cnt := [26]int{}
@@ -107,7 +114,9 @@ func firstUniqChar(s string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function firstUniqChar(s: string): number {
     const cnt = new Array(26).fill(0);
@@ -122,7 +131,9 @@ function firstUniqChar(s: string): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -141,7 +152,9 @@ var firstUniqChar = function (s) {
     return -1;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -161,6 +174,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

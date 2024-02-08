@@ -80,6 +80,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfRounds(self, loginTime: str, logoutTime: str) -> int:
@@ -92,7 +93,9 @@ class Solution:
         a, b = (a + 14) // 15, b // 15
         return max(0, b - a)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfRounds(String loginTime, String logoutTime) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfRounds(loginTime string, logoutTime string) int {
 	f := func(s string) int {
@@ -143,7 +150,9 @@ func numberOfRounds(loginTime string, logoutTime string) int {
 	return max(0, b/15-(a+14)/15)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfRounds(startTime: string, finishTime: string): number {
     const f = (s: string): number => {
@@ -157,6 +166,7 @@ function numberOfRounds(startTime: string, finishTime: string): number {
     return Math.max(0, Math.floor(b / 15) - Math.ceil(a / 15));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(\log n)$. Whe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMaxDifference(self, num: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 return int(s.replace(c, '9')) - mi
         return num - mi
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMaxDifference(int num) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMaxDifference(num int) int {
 	s := []byte(strconv.Itoa(num))
@@ -157,7 +164,9 @@ func minMaxDifference(num int) int {
 	return num - mi
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMaxDifference(num: number): number {
     const s = num + '';
@@ -170,7 +179,9 @@ function minMaxDifference(num: number): number {
     return num - min;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_max_difference(num: i32) -> i32 {
@@ -185,7 +196,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int getLen(int num) {
     int res = 0;
@@ -224,6 +237,7 @@ int minMaxDifference(int num) {
     return max - min;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -231,6 +245,7 @@ int minMaxDifference(int num) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_max_difference(num: i32) -> i32 {
@@ -263,6 +278,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

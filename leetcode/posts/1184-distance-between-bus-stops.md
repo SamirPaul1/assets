@@ -79,6 +79,7 @@ The time complexity is $O(n)$, where $n$ is the number of bus stops. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distanceBetweenBusStops(
@@ -90,7 +91,9 @@ class Solution:
             start = (start + 1) % n
         return min(a, sum(distance) - a)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distanceBetweenBusStops(distance []int, start int, destination int) int {
 	s := 0
@@ -135,7 +142,9 @@ func distanceBetweenBusStops(distance []int, start int, destination int) int {
 	return min(a, s-a)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distanceBetweenBusStops(distance: number[], start: number, destination: number): number {
     const s = distance.reduce((a, b) => a + b, 0);
@@ -148,7 +157,9 @@ function distanceBetweenBusStops(distance: number[], start: number, destination:
     return Math.min(a, s - a);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} distance
@@ -167,6 +178,7 @@ var distanceBetweenBusStops = function (distance, start, destination) {
     return Math.min(a, s - a);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

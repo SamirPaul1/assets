@@ -1,6 +1,5 @@
 # [2363. Merge Similar Items](https://leetcode.com/problems/merge-similar-items)
 
-[中文文档](/solution/2300-2399/2363.Merge%20Similar%20Items/README.md)
 
 ## Description
 

@@ -65,11 +65,13 @@ Assume a binary number is represented as $B_{n-1}B_{n-2}...B_2B_1B_0$, its Gray 
 
 Therefore, for an integer $x$, we can use the function $gray(x)$ to get its Gray code:
 
+{{< terminal title="Java Code" >}}
 ```java
 int gray(x) {
     return x ^ (x >> 1);
 }
 ```
+{{< /terminal >}}
 
 We can directly convert the integers $[0,..2^n - 1]$ into the corresponding Gray code array, then find the position of $start$ in the Gray code array, cut the Gray code array from this position, and then append the cut part to the front of the Gray code array to get the arrangement required by the problem.
 
@@ -77,6 +79,7 @@ The time complexity is $O(2^n)$, and the space complexity is $O(2^n)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def circularPermutation(self, n: int, start: int) -> List[int]:
@@ -84,7 +87,9 @@ class Solution:
         j = g.index(start)
         return g[j:] + g[:j]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> circularPermutation(int n, int start) {
@@ -104,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func circularPermutation(n int, start int) []int {
 	g := make([]int, 1<<n)
@@ -139,7 +148,9 @@ func circularPermutation(n int, start int) []int {
 	return append(g[j:], g[:j]...)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function circularPermutation(n: number, start: number): number[] {
     const ans: number[] = [];
@@ -149,6 +160,7 @@ function circularPermutation(n: number, start: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -162,12 +174,15 @@ The time complexity is $O(2^n)$, where $n$ is the integer given in the problem. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def circularPermutation(self, n: int, start: int) -> List[int]:
         return [i ^ (i >> 1) ^ start for i in range(1 << n)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> circularPermutation(int n, int start) {
@@ -179,7 +194,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -192,7 +209,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func circularPermutation(n int, start int) (ans []int) {
 	for i := 0; i < 1<<n; i++ {
@@ -201,6 +220,7 @@ func circularPermutation(n int, start int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

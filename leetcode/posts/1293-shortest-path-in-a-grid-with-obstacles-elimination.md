@@ -60,6 +60,7 @@ The shortest path with one obstacle elimination at position (3,2) is 6. Such pat
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestPath(self, grid: List[List[int]], k: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
                             vis.add((x, y, k - 1))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestPath(int[][] grid, int k) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestPath(grid [][]int, k int) int {
 	m, n := len(grid), len(grid[0])
@@ -210,6 +217,7 @@ func shortestPath(grid [][]int, k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

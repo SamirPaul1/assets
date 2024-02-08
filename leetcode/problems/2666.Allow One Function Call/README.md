@@ -1,6 +1,5 @@
 # [2666. Allow One Function Call](https://leetcode.com/problems/allow-one-function-call)
 
-[中文文档](/solution/2600-2699/2666.Allow%20One%20Function%20Call/README.md)
 
 ## Description
 

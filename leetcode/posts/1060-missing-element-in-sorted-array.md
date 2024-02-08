@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def missingElement(self, nums: List[int], k: int) -> int:
@@ -83,7 +84,9 @@ class Solution:
                 l = mid + 1
         return nums[l - 1] + k - missing(l - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int missingElement(int[] nums, int k) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func missingElement(nums []int, k int) int {
 	missing := func(i int) int {
@@ -155,6 +162,7 @@ func missingElement(nums []int, k int) int {
 	return nums[l-1] + k - missing(l-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

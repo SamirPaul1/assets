@@ -79,6 +79,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -108,7 +109,9 @@ class Solution:
             or self.isSubPath(head, root.right)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -231,7 +238,9 @@ func dfs(head *ListNode, root *TreeNode) bool {
 	return dfs(head.Next, root.Left) || dfs(head.Next, root.Right)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -276,7 +285,9 @@ function isSubPath(head: ListNode | null, root: TreeNode | null): boolean {
     return dfs(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -345,6 +356,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

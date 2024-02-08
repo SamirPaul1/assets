@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxUniqueSplit(self, s: str) -> int:
@@ -87,7 +88,9 @@ class Solution:
         dfs(0, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Set<String> vis = new HashSet<>();
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxUniqueSplit(s string) int {
 	ans := 1
@@ -170,6 +177,7 @@ func maxUniqueSplit(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -89,6 +89,7 @@ Friends 0 and 2 are happy.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def unhappyFriends(
@@ -105,7 +106,9 @@ class Solution:
             ans += any(d[u][x] < d[u][p[u]] for u in preferences[x][: d[x][y]])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int unhappyFriends(int n, int[][] preferences, int[][] pairs) {
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func unhappyFriends(n int, preferences [][]int, pairs [][]int) (ans int) {
 	d := make([][]int, n)
@@ -203,6 +210,7 @@ func unhappyFriends(n int, preferences [][]int, pairs [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

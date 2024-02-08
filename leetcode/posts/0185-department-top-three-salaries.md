@@ -113,6 +113,7 @@ In the Sales department:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -135,7 +136,9 @@ def top_three_salaries(
         columns={"name": "Employee", "salary": "Salary"}
     )[["Department", "Employee", "Salary"]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     Department.NAME AS Department,
@@ -153,6 +156,7 @@ WHERE
         WHERE e2.Salary > Employee.Salary AND Employee.DepartmentId = e2.DepartmentId
     ) < 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -160,6 +164,7 @@ WHERE
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -178,6 +183,7 @@ FROM
     JOIN Department AS d ON t.departmentId = d.id
 WHERE rk <= 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

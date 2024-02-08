@@ -152,6 +152,7 @@ There are no keys so every row is an empty array.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function jsonToMatrix(arr: any[]): (string | number | boolean | null)[] {
     const dfs = (key: string, obj: any) => {
@@ -192,6 +193,7 @@ function jsonToMatrix(arr: any[]): (string | number | boolean | null)[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

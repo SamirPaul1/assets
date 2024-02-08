@@ -65,6 +65,7 @@ myCalendarThree.book(25, 55); // return 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self, l, r):
@@ -141,7 +142,9 @@ class MyCalendarThree:
 # obj = MyCalendarThree()
 # param_1 = obj.book(start,end)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node left;
@@ -249,7 +252,9 @@ class MyCalendarThree {
  * int param_1 = obj.book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -349,7 +354,9 @@ public:
  * int param_1 = obj->book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type node struct {
 	left      *node
@@ -452,6 +459,7 @@ func (this *MyCalendarThree) Book(start int, end int) int {
  * param_1 := obj.Book(start,end);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

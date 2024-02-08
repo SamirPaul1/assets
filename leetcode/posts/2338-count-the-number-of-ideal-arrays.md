@@ -74,6 +74,7 @@ There are a total of 9 + 1 + 1 = 11 distinct ideal arrays.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def idealArrays(self, n: int, maxValue: int) -> int:
@@ -97,7 +98,9 @@ class Solution:
             ans = (ans + dfs(i, 1)) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] f;
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func idealArrays(n int, maxValue int) int {
 	mod := int(1e9) + 7
@@ -220,6 +227,7 @@ func idealArrays(n int, maxValue int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -227,6 +235,7 @@ func idealArrays(n int, maxValue int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def idealArrays(self, n: int, maxValue: int) -> int:
@@ -250,7 +259,9 @@ class Solution:
                 ans = (ans + dp[i][j] * c[-1][j - 1]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -284,7 +295,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -313,7 +326,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func idealArrays(n int, maxValue int) int {
 	mod := int(1e9) + 7
@@ -352,6 +367,7 @@ func idealArrays(n int, maxValue int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -75,6 +75,7 @@ It can be shown that we cannot obtain a greater total importance than 20.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumImportance(self, n: int, roads: List[List[int]]) -> int:
@@ -85,7 +86,9 @@ class Solution:
         deg.sort()
         return sum(i * v for i, v in enumerate(deg, 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumImportance(int n, int[][] roads) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumImportance(n int, roads [][]int) int64 {
 	deg := make([]int, n)
@@ -136,6 +143,7 @@ func maximumImportance(n int, roads [][]int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

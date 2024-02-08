@@ -82,6 +82,7 @@ Finally, the fourth droplet falls at index k = 3. Since moving left would not ev
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pourWater(self, heights: List[int], volume: int, k: int) -> List[int]:
@@ -99,7 +100,9 @@ class Solution:
                 heights[k] += 1
         return heights
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] pourWater(int[] heights, int volume, int k) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pourWater(heights []int, volume int, k int) []int {
 	for ; volume > 0; volume-- {
@@ -180,6 +187,7 @@ func pourWater(heights []int, volume int, k int) []int {
 	return heights
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

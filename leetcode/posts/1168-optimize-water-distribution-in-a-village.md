@@ -82,6 +82,7 @@ The time complexity is $O((m + n) \times \log (m + n))$, and the space complexit
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostToSupplyWater(
@@ -106,7 +107,9 @@ class Solution:
                 if n == 0:
                     return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostToSupplyWater(n int, wells []int, pipes [][]int) (ans int) {
 	for i, w := range wells {
@@ -213,7 +220,9 @@ func minCostToSupplyWater(n int, wells []int, pipes [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCostToSupplyWater(n: number, wells: number[], pipes: number[][]): number {
     for (let i = 0; i < n; ++i) {
@@ -245,7 +254,9 @@ function minCostToSupplyWater(n: number, wells: number[], pipes: number[][]): nu
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct UnionFind {
     p: Vec<usize>,
@@ -308,6 +319,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -315,6 +327,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     __slots__ = ("p", "size")
@@ -357,7 +370,9 @@ class Solution:
                 if n == 0:
                     return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private int[] p;
@@ -417,7 +432,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -476,7 +493,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -532,7 +551,9 @@ func minCostToSupplyWater(n int, wells []int, pipes [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class UnionFind {
     private p: number[];
@@ -587,6 +608,7 @@ function minCostToSupplyWater(n: number, wells: number[], pipes: number[][]): nu
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -108,6 +108,7 @@ startUrl = &quot;http://news.google.com&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is HtmlParser's API interface.
@@ -139,7 +140,9 @@ class Solution:
         dfs(startUrl)
         return list(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the HtmlParser's API interface.
@@ -176,7 +179,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the HtmlParser's API interface.
@@ -217,7 +222,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is HtmlParser's API interface.
@@ -250,6 +257,7 @@ func crawl(startUrl string, htmlParser HtmlParser) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [1980. Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string)
 
-[中文文档](/solution/1900-1999/1980.Find%20Unique%20Binary%20String/README.md)
 
 ## Description
 

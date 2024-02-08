@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reorderSpaces(self, text: str) -> str:
@@ -67,7 +68,9 @@ class Solution:
             return words[0] + ' ' * cnt
         return (' ' * (cnt // m)).join(words) + ' ' * (cnt % m)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reorderSpaces(String text) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reorderSpaces(text string) string {
 	cnt := strings.Count(text, " ")
@@ -106,7 +111,9 @@ func reorderSpaces(text string) string {
 	return strings.Join(words, strings.Repeat(" ", cnt/m)) + strings.Repeat(" ", cnt%m)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reorderSpaces(text: string): string {
     let count = 0;
@@ -127,7 +134,9 @@ function reorderSpaces(text: string): string {
     return words.join(''.padStart(per)) + ''.padStart(rest);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn create_spaces(n: usize) -> String {
@@ -158,6 +167,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

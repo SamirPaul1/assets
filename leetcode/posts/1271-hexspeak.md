@@ -58,6 +58,7 @@ The time complexity is $O(\log n)$, where $n$ is the size of the decimal number 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def toHexspeak(self, num: str) -> str:
@@ -65,7 +66,9 @@ class Solution:
         t = hex(int(num))[2:].upper().replace('0', 'O').replace('1', 'I')
         return t if all(c in s for c in t) else 'ERROR'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final Set<Character> S = Set.of('A', 'B', 'C', 'D', 'E', 'F', 'I', 'O');
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func toHexspeak(num string) string {
 	x, _ := strconv.Atoi(num)
@@ -118,6 +125,7 @@ func toHexspeak(num string) string {
 	return t
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

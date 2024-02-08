@@ -75,6 +75,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def jump(self, nums: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 last = mx
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int jump(int[] nums) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func jump(nums []int) (ans int) {
 	mx, last := 0, 0
@@ -133,7 +140,9 @@ func jump(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function jump(nums: number[]): number {
     let [ans, mx, last] = [0, 0, 0];
@@ -147,7 +156,9 @@ function jump(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn jump(nums: Vec<i32>) -> i32 {
@@ -166,7 +177,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int Jump(int[] nums) {
@@ -182,7 +195,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) a < b ? a : b
 int jump(int* nums, int numsSize) {
@@ -199,6 +214,7 @@ int jump(int* nums, int numsSize) {
     return dp[numsSize - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

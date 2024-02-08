@@ -88,6 +88,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameIII(self, stoneValue: List[int]) -> str:
@@ -109,7 +110,9 @@ class Solution:
             return 'Tie'
         return 'Alice' if ans > 0 else 'Bob'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] stoneValue;
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGameIII(stoneValue []int) string {
 	n := len(stoneValue)
@@ -209,7 +216,9 @@ func stoneGameIII(stoneValue []int) string {
 	return "Bob"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stoneGameIII(stoneValue: number[]): string {
     const n = stoneValue.length;
@@ -237,6 +246,7 @@ function stoneGameIII(stoneValue: number[]): string {
     return ans > 0 ? 'Alice' : 'Bob';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

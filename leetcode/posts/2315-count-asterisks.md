@@ -66,6 +66,7 @@ There are 2 asterisks considered. Therefore, we return 2.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countAsterisks(self, s: str) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 ok ^= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countAsterisks(String s) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countAsterisks(s string) (ans int) {
 	ok := 1
@@ -125,7 +132,9 @@ func countAsterisks(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countAsterisks(s: string): number {
     let ans = 0;
@@ -140,7 +149,9 @@ function countAsterisks(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_asterisks(s: String) -> i32 {
@@ -157,7 +168,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CountAsterisks(string s) {
@@ -173,7 +186,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countAsterisks(char* s) {
     int ans = 0;
@@ -188,6 +203,7 @@ int countAsterisks(char* s) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

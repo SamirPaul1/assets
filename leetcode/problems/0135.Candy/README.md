@@ -1,6 +1,5 @@
 # [135. Candy](https://leetcode.com/problems/candy)
 
-[中文文档](/solution/0100-0199/0135.Candy/README.md)
 
 ## Description
 

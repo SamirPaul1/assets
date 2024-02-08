@@ -124,6 +124,7 @@ Transactions table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH RECURSIVE
@@ -161,6 +162,7 @@ FROM
 GROUP BY n
 ORDER BY n;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii)
 
-[中文文档](/solution/0400-0499/0445.Add%20Two%20Numbers%20II/README.md)
 
 ## Description
 

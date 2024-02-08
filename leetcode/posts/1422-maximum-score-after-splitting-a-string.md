@@ -67,12 +67,15 @@ left = &quot;01110&quot; and right = &quot;1&quot;, score = 2 + 1 = 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, s: str) -> int:
         return max(s[:i].count('0') + s[i:].count('1') for i in range(1, len(s)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxScore(String s) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(s string) int {
 	ans := 0
@@ -136,7 +143,9 @@ func maxScore(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxScore(s: string): number {
     const n = s.length;
@@ -162,7 +171,9 @@ function maxScore(s: string): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_score(s: String) -> i32 {
@@ -191,6 +202,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -198,6 +210,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, s: str) -> int:
@@ -207,7 +220,9 @@ class Solution:
             ans = max(ans, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxScore(String s) {
@@ -229,7 +244,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -246,7 +263,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(s string) int {
 	t := 0
@@ -271,6 +290,7 @@ func maxScore(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

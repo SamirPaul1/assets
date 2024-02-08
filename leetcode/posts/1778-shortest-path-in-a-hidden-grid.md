@@ -115,6 +115,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is GridMaster's API interface.
@@ -170,7 +171,9 @@ class Solution(object):
                         q.append((x, y))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the GridMaster's API interface.
@@ -232,7 +235,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the GridMaster's API interface.
@@ -299,6 +304,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

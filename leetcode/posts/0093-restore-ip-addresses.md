@@ -73,6 +73,7 @@ The time complexity is $O(n \times 3^4)$, and the space complexity is $O(n)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
@@ -99,7 +100,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func restoreIpAddresses(s string) (ans []string) {
 	n := len(s)
@@ -196,7 +203,9 @@ func restoreIpAddresses(s string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function restoreIpAddresses(s: string): string[] {
     const n = s.length;
@@ -225,7 +234,9 @@ function restoreIpAddresses(s: string): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private IList<string> ans = new List<string>();
@@ -261,6 +272,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

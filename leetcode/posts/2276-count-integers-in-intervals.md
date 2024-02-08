@@ -76,6 +76,7 @@ countIntervals.count();    // return 8
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -120,7 +121,9 @@ class CountIntervals:
 # obj.add(left,right)
 # param_2 = obj.count()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node left;
@@ -233,7 +236,9 @@ class CountIntervals {
  * int param_2 = obj.count();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -348,7 +353,9 @@ private:
  * int param_2 = obj->count();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Node struct {
 	left  *Node
@@ -472,7 +479,9 @@ func (ci *CountIntervals) Count() int {
  * param_2 := obj.Count();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class CountIntervals {
     left: null | CountIntervals;
@@ -514,6 +523,7 @@ class CountIntervals {
  * var param_2 = obj.count()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -521,6 +531,7 @@ class CountIntervals {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     __slots__ = ("left", "right", "l", "r", "mid", "v", "add")
@@ -603,6 +614,7 @@ class CountIntervals:
 # obj.add(left, right)
 # param_2 = obj.count()
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

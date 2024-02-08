@@ -1,6 +1,5 @@
 # [766. Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix)
 
-[中文文档](/solution/0700-0799/0766.Toeplitz%20Matrix/README.md)
 
 ## Description
 

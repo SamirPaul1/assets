@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getCoprimes(self, nums: List[int], edges: List[List[int]]) -> List[int]:
@@ -104,7 +105,9 @@ class Solution:
         dfs(0, -1, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +213,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getCoprimes(nums []int, edges [][]int) []int {
 	n := len(nums)
@@ -258,6 +265,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

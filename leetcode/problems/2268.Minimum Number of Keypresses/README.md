@@ -1,6 +1,5 @@
 # [2268. Minimum Number of Keypresses](https://leetcode.com/problems/minimum-number-of-keypresses)
 
-[中文文档](/solution/2200-2299/2268.Minimum%20Number%20of%20Keypresses/README.md)
 
 ## Description
 

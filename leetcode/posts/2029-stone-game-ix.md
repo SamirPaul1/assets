@@ -74,6 +74,7 @@ Alice loses the game because the sum of the removed stones (15) is divisible by 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameIX(self, stones: List[int]) -> bool:
@@ -93,7 +94,9 @@ class Solution:
         c1 = [c[0], c[2], c[1]]
         return check(c) or check(c1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean stoneGameIX(int[] stones) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGameIX(stones []int) bool {
 	check := func(c [3]int) bool {
@@ -164,6 +171,7 @@ func stoneGameIX(stones []int) bool {
 	return check(c) || check([3]int{c[0], c[2], c[1]})
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

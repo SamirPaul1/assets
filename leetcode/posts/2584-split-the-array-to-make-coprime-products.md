@@ -65,6 +65,7 @@ There is no valid split.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findValidSplit(self, nums: List[int]) -> int:
@@ -94,7 +95,9 @@ class Solution:
             mx = max(mx, x)
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findValidSplit(int[] nums) {
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findValidSplit(nums []int) int {
 	first := map[int]int{}
@@ -219,6 +226,7 @@ func findValidSplit(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

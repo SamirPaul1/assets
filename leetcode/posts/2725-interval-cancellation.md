@@ -129,6 +129,7 @@ Cancelled at 180ms
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function cancellable(fn: Function, args: any[], t: number): Function {
     fn(...args);
@@ -161,6 +162,7 @@ function cancellable(fn: Function, args: any[], t: number): Function {
  *  }, cancelT)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -75,6 +75,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
@@ -94,7 +95,9 @@ class Solution:
         dfs(1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<Integer>> ans = new ArrayList<>();
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func combine(n int, k int) (ans [][]int) {
 	t := []int{}
@@ -171,7 +178,9 @@ func combine(n int, k int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function combine(n: number, k: number): number[][] {
     const ans: number[][] = [];
@@ -193,7 +202,9 @@ function combine(n: number, k: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: i32, n: i32, k: i32, t: &mut Vec<i32>, ans: &mut Vec<Vec<i32>>) {
@@ -217,7 +228,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private List<IList<int>> ans = new List<IList<int>>();
@@ -247,6 +260,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -254,6 +268,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
@@ -273,7 +288,9 @@ class Solution:
         dfs(1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<Integer>> ans = new ArrayList<>();
@@ -304,7 +321,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -330,7 +349,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func combine(n int, k int) (ans [][]int) {
 	t := []int{}
@@ -353,7 +374,9 @@ func combine(n int, k int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function combine(n: number, k: number): number[][] {
     const ans: number[][] = [];
@@ -376,7 +399,9 @@ function combine(n: number, k: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: i32, n: i32, k: i32, t: &mut Vec<i32>, ans: &mut Vec<Vec<i32>>) {
@@ -401,7 +426,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private List<IList<int>> ans = new List<IList<int>>();
@@ -432,6 +459,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

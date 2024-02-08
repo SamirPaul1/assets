@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
@@ -68,7 +69,9 @@ class Solution:
                 left = mid + 1
         return left if nums[left] == target else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int search(int[] nums, int target) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func search(nums []int, target int) int {
 	left, right := 0, len(nums)-1
@@ -120,7 +127,9 @@ func search(nums []int, target int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 
@@ -146,7 +155,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -167,6 +178,7 @@ var search = function (nums, target) {
     return nums[left] == target ? left : -1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -174,6 +186,7 @@ var search = function (nums, target) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 
@@ -196,6 +209,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

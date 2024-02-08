@@ -1,6 +1,5 @@
 # [2000. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word)
 
-[中文文档](/solution/2000-2099/2000.Reverse%20Prefix%20of%20Word/README.md)
 
 ## Description
 

@@ -80,6 +80,7 @@ We can use the `IF` statement to determine the calculation method of the bonus, 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -94,6 +95,7 @@ FROM
     employees
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

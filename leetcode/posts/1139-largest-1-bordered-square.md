@@ -57,6 +57,7 @@ The time complexity is $O(m \times n \times \min(m, n))$, and the space complexi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largest1BorderedSquare(self, grid: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                         return k * k
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largest1BorderedSquare(int[][] grid) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largest1BorderedSquare(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -176,6 +183,7 @@ func largest1BorderedSquare(grid [][]int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

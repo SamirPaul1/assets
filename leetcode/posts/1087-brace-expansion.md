@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def expand(self, s: str) -> List[str]:
@@ -89,7 +90,9 @@ class Solution:
         ans.sort()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<String> ans;
@@ -136,6 +139,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

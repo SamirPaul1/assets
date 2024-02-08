@@ -92,6 +92,7 @@ The time complexity is $O(m \times n)$ and the space complexity is $O(m \times n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSeconds(self, land: List[List[str]]) -> int:
@@ -147,7 +148,9 @@ class Solution:
             t += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSeconds(List<List<String>> land) {
@@ -214,7 +217,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -283,7 +288,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSeconds(land [][]string) int {
 	m, n := len(land), len(land[0])
@@ -355,7 +362,9 @@ func minimumSeconds(land [][]string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSeconds(land: string[][]): number {
     const m = land.length;
@@ -424,6 +433,7 @@ function minimumSeconds(land: string[][]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

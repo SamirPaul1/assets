@@ -1,6 +1,5 @@
 # [2272. Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance)
 
-[中文文档](/solution/2200-2299/2272.Substring%20With%20Largest%20Variance/README.md)
 
 ## Description
 

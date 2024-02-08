@@ -72,6 +72,7 @@ The strings &quot;aa&quot; and &quot;bb&quot; are already semi-palindromes. Thus
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumChanges(self, s: str, k: int) -> int:
@@ -99,7 +100,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[h][j - 1] + g[h + 1][i])
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumChanges(String s, int k) {
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -185,7 +190,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumChanges(s string, k int) int {
 	n := len(s)
@@ -233,7 +240,9 @@ func minimumChanges(s string, k int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumChanges(s: string, k: number): number {
     const n = s.length;
@@ -270,6 +279,7 @@ function minimumChanges(s: string, k: number): number {
     return f[n][k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -277,6 +287,7 @@ function minimumChanges(s: string, k: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     static int inf = 200;
@@ -359,6 +370,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

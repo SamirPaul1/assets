@@ -69,6 +69,7 @@ Note that square 2 only brushes the right side of square 1, which does not count
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self, l, r):
@@ -145,7 +146,9 @@ class Solution:
             tree.modify(l, r, h)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node left;
@@ -251,7 +254,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -348,7 +353,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type node struct {
 	left      *node
@@ -446,6 +453,7 @@ func fallingSquares(positions [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2751. Robot Collisions](https://leetcode.com/problems/robot-collisions)
 
-[中文文档](/solution/2700-2799/2751.Robot%20Collisions/README.md)
 
 ## Description
 

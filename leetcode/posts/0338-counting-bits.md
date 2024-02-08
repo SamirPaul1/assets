@@ -68,12 +68,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countBits(self, n: int) -> List[int]:
         return [i.bit_count() for i in range(n + 1)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countBits(int n) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countBits(n int) []int {
 	ans := make([]int, n+1)
@@ -108,7 +115,9 @@ func countBits(n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countBits(n: number): number[] {
     const ans: number[] = Array(n + 1).fill(0);
@@ -127,6 +136,7 @@ function bitCount(n: number): number {
     return count;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -134,6 +144,7 @@ function bitCount(n: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countBits(self, n: int) -> List[int]:
@@ -142,7 +153,9 @@ class Solution:
             ans[i] = ans[i & (i - 1)] + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countBits(int n) {
@@ -154,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countBits(n int) []int {
 	ans := make([]int, n+1)
@@ -177,7 +194,9 @@ func countBits(n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countBits(n: number): number[] {
     const ans: number[] = Array(n + 1).fill(0);
@@ -187,6 +206,7 @@ function countBits(n: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

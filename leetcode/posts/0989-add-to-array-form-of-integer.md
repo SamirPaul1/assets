@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addToArrayForm(self, num: List[int], k: int) -> List[int]:
@@ -81,7 +82,9 @@ class Solution:
             i -= 1
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addToArrayForm(num []int, k int) []int {
 	i, carry := len(num)-1, 0
@@ -135,7 +142,9 @@ func addToArrayForm(num []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addToArrayForm(num: number[], k: number): number[] {
     let arr2 = [...String(k)].map(Number);
@@ -151,7 +160,9 @@ function addToArrayForm(num: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn add_to_array_form(num: Vec<i32>, mut k: i32) -> Vec<i32> {
@@ -173,6 +184,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -180,6 +192,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addToArrayForm(num: number[], k: number): number[] {
     const n = num.length;
@@ -195,6 +208,7 @@ function addToArrayForm(num: number[], k: number): number[] {
     return res.reverse();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

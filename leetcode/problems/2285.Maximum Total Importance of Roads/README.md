@@ -1,6 +1,5 @@
 # [2285. Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads)
 
-[中文文档](/solution/2200-2299/2285.Maximum%20Total%20Importance%20of%20Roads/README.md)
 
 ## Description
 

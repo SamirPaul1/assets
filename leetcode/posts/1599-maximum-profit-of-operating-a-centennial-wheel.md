@@ -90,6 +90,7 @@ The time complexity is $O(n)$, where $n$ is the length of the `customers` array.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperationsMaxProfit(
@@ -110,7 +111,9 @@ class Solution:
                 ans = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperationsMaxProfit(int[] customers, int boardingCost, int runningCost) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperationsMaxProfit(customers []int, boardingCost int, runningCost int) int {
 	ans := -1
@@ -177,7 +184,9 @@ func minOperationsMaxProfit(customers []int, boardingCost int, runningCost int) 
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperationsMaxProfit(
     customers: number[],
@@ -202,7 +211,9 @@ function minOperationsMaxProfit(
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations_max_profit(
@@ -233,6 +244,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
@@ -91,7 +92,9 @@ class Solution:
                 ans += a * (a - 1) == b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -170,7 +175,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countCompleteComponents(n int, edges [][]int) (ans int) {
 	g := make([][]int, n)
@@ -204,6 +211,7 @@ func countCompleteComponents(n int, edges [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

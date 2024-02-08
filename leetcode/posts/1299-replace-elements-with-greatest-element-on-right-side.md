@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def replaceElements(self, arr: List[int]) -> List[int]:
@@ -70,7 +71,9 @@ class Solution:
             m = max(m, t)
         return arr
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] replaceElements(int[] arr) {
@@ -83,6 +86,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [1955. Count Number of Special Subsequences](https://leetcode.com/problems/count-number-of-special-subsequences)
 
-[中文文档](/solution/1900-1999/1955.Count%20Number%20of%20Special%20Subsequences/README.md)
 
 ## Description
 

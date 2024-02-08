@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wordSubsets(self, words1: List[str], words2: List[str]) -> List[str]:
@@ -77,7 +78,9 @@ class Solution:
                 ans.append(a)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> wordSubsets(String[] words1, String[] words2) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wordSubsets(words1 []string, words2 []string) (ans []string) {
 	cnt := [26]int{}
@@ -181,6 +188,7 @@ func wordSubsets(words1 []string, words2 []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

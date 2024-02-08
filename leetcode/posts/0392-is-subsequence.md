@@ -53,6 +53,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of the stri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
@@ -63,7 +64,9 @@ class Solution:
             j += 1
         return i == len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isSubsequence(s string, t string) bool {
 	i, j, m, n := 0, 0, len(s), len(t)
@@ -108,7 +115,9 @@ func isSubsequence(s string, t string) bool {
 	return i == m
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isSubsequence(s: string, t: string): boolean {
     const m = s.length;
@@ -122,7 +131,9 @@ function isSubsequence(s: string, t: string): boolean {
     return i === m;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_subsequence(s: String, t: String) -> bool {
@@ -142,7 +153,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsSubsequence(string s, string t) {
@@ -157,7 +170,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool isSubsequence(char* s, char* t) {
     int m = strlen(s);
@@ -171,6 +186,7 @@ bool isSubsequence(char* s, char* t) {
     return i == m;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

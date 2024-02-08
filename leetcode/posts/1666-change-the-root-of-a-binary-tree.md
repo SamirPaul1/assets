@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -94,7 +95,9 @@ class Solution:
         leaf.parent = None
         return leaf
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node->
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * // Definition for a Node.
@@ -206,7 +213,9 @@ var flipBinaryTree = function (root, leaf) {
     return leaf;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /*
 // Definition for a Node.
@@ -242,6 +251,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

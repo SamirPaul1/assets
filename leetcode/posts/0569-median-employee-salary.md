@@ -122,6 +122,7 @@ For company C, the rows sorted are as follows:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -142,6 +143,7 @@ SELECT
 FROM t
 WHERE rk >= n / 2 AND rk <= n / 2 + 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

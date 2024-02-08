@@ -67,6 +67,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestDistanceColor(
@@ -89,7 +90,9 @@ class Solution:
             ans.append(-1 if d > n else d)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> shortestDistanceColor(int[] colors, int[][] queries) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestDistanceColor(colors []int, queries [][]int) (ans []int) {
 	n := len(colors)
@@ -186,7 +193,9 @@ func shortestDistanceColor(colors []int, queries [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestDistanceColor(colors: number[], queries: number[][]): number[] {
     const n = colors.length;
@@ -217,6 +226,7 @@ function shortestDistanceColor(colors: number[], queries: number[][]): number[] 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

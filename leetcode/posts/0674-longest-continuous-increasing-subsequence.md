@@ -65,6 +65,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 cnt = 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLengthOfLCIS(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLengthOfLCIS(nums []int) int {
 	ans, cnt := 1, 1
@@ -125,7 +132,9 @@ func findLengthOfLCIS(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLengthOfLCIS(nums: number[]): number {
     let [ans, cnt] = [1, 1];
@@ -139,7 +148,9 @@ function findLengthOfLCIS(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_length_of_lcis(nums: Vec<i32>) -> i32 {
@@ -157,7 +168,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -178,6 +191,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -189,6 +203,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
@@ -202,7 +217,9 @@ class Solution:
             i = j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLengthOfLCIS(int[] nums) {
@@ -220,7 +237,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -239,7 +258,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLengthOfLCIS(nums []int) int {
 	ans := 1
@@ -255,7 +276,9 @@ func findLengthOfLCIS(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLengthOfLCIS(nums: number[]): number {
     let ans = 1;
@@ -271,7 +294,9 @@ function findLengthOfLCIS(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_length_of_lcis(nums: Vec<i32>) -> i32 {
@@ -290,7 +315,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -313,6 +340,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

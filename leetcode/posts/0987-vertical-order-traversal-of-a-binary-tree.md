@@ -78,6 +78,7 @@ Note that the solution remains the same since 5 and 6 are in the same location a
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -106,7 +107,9 @@ class Solution:
             ans[-1].append(v)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -195,6 +200,7 @@ function dfs(root: TreeNode | null, depth: number, idx: number, solution: Array<
     dfs(root.right, depth + 1, idx + 1, solution);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

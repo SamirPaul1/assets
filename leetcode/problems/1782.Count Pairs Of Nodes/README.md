@@ -1,6 +1,5 @@
 # [1782. Count Pairs Of Nodes](https://leetcode.com/problems/count-pairs-of-nodes)
 
-[中文文档](/solution/1700-1799/1782.Count%20Pairs%20Of%20Nodes/README.md)
 
 ## Description
 

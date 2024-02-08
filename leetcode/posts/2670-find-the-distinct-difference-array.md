@@ -66,6 +66,7 @@ For index i = 4, there are 3 distinct elements in the prefix and no elements in 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctDifferenceArray(self, nums: List[int]) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
             ans[i] = a - b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] distinctDifferenceArray(int[] nums) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctDifferenceArray(nums []int) []int {
 	n := len(nums)
@@ -139,7 +146,9 @@ func distinctDifferenceArray(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctDifferenceArray(nums: number[]): number[] {
     const n = nums.length;
@@ -158,7 +167,9 @@ function distinctDifferenceArray(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 
@@ -188,6 +199,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -195,6 +207,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctDifferenceArray(self, nums: List[int]) -> List[int]:
@@ -212,7 +225,9 @@ class Solution:
             ans[i] = len(s) - suf[i + 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 
@@ -238,6 +253,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

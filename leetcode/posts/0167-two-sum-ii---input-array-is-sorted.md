@@ -73,6 +73,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
@@ -83,7 +84,9 @@ class Solution:
             if j < n and numbers[j] == x:
                 return [i + 1, j + 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoSum(numbers []int, target int) []int {
 	for i, n := 0, len(numbers); ; i++ {
@@ -132,7 +139,9 @@ func twoSum(numbers []int, target int) []int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function twoSum(numbers: number[], target: number): number[] {
     const n = numbers.length;
@@ -154,7 +163,9 @@ function twoSum(numbers: number[], target: number): number[] {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 
@@ -180,7 +191,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} numbers
@@ -207,6 +220,7 @@ var twoSum = function (numbers, target) {
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,6 +232,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array `numbers`. T
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
@@ -231,7 +246,9 @@ class Solution:
             else:
                 j -= 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
@@ -249,7 +266,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -268,7 +287,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoSum(numbers []int, target int) []int {
 	for i, j := 0, len(numbers)-1; ; {
@@ -284,7 +305,9 @@ func twoSum(numbers []int, target int) []int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function twoSum(numbers: number[], target: number): number[] {
     for (let i = 0, j = numbers.length - 1; ; ) {
@@ -300,7 +323,9 @@ function twoSum(numbers: number[], target: number): number[] {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} numbers
@@ -321,6 +346,7 @@ var twoSum = function (numbers, target) {
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

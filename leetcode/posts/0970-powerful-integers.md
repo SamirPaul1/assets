@@ -72,6 +72,7 @@ The time complexity is $O(\log^2 bound)$, and the space complexity is $O(\log^2 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def powerfulIntegers(self, x: int, y: int, bound: int) -> List[int]:
@@ -89,7 +90,9 @@ class Solution:
             a *= x
         return list(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> powerfulIntegers(int x, int y, int bound) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func powerfulIntegers(x int, y int, bound int) (ans []int) {
 	s := map[int]struct{}{}
@@ -151,7 +158,9 @@ func powerfulIntegers(x int, y int, bound int) (ans []int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function powerfulIntegers(x: number, y: number, bound: number): number[] {
     const ans = new Set<number>();
@@ -169,7 +178,9 @@ function powerfulIntegers(x: number, y: number, bound: number): number[] {
     return Array.from(ans);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} x
@@ -193,6 +204,7 @@ var powerfulIntegers = function (x, y, bound) {
     return [...ans];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

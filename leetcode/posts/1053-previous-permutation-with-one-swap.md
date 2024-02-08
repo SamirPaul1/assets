@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def prevPermOpt1(self, arr: List[int]) -> List[int]:
@@ -74,7 +75,9 @@ class Solution:
                         return arr
         return arr
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] prevPermOpt1(int[] arr) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func prevPermOpt1(arr []int) []int {
 	n := len(arr)
@@ -132,7 +139,9 @@ func prevPermOpt1(arr []int) []int {
 	return arr
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function prevPermOpt1(arr: number[]): number[] {
     const n = arr.length;
@@ -151,6 +160,7 @@ function prevPermOpt1(arr: number[]): number[] {
     return arr;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ If the node values given in the problem have duplicates, then we only need to re
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -88,7 +89,9 @@ class Solution:
         d = {v: i for i, v in enumerate(inorder)}
         return dfs(0, 0, len(preorder))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -196,7 +203,9 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	return dfs(0, 0, len(preorder))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -231,7 +240,9 @@ function buildTree(preorder: number[], inorder: number[]): TreeNode | null {
     return dfs(0, 0, n);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -282,7 +293,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -316,6 +329,7 @@ var buildTree = function (preorder, inorder) {
     return dfs(0, 0, n);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -323,6 +337,7 @@ var buildTree = function (preorder, inorder) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getBinaryTrees(self, preOrder: List[int], inOrder: List[int]) -> List[TreeNode]:
@@ -343,7 +358,9 @@ class Solution:
             d[x].append(i)
         return dfs(0, 0, len(preOrder))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -385,7 +402,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * struct TreeNode {
@@ -430,7 +449,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getBinaryTrees(preOrder []int, inOrder []int) []*TreeNode {
 	n := len(preOrder)
@@ -462,6 +483,7 @@ func getBinaryTrees(preOrder []int, inOrder []int) []*TreeNode {
 	return dfs(0, 0, n)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

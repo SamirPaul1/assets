@@ -100,6 +100,7 @@ We return only product 1 as it is the product that was only sold in the spring o
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT product_id, product_name
@@ -109,6 +110,7 @@ FROM
 GROUP BY 1
 HAVING COUNT(1) = SUM(sale_date BETWEEN '2019-01-01' AND '2019-03-31');
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
@@ -73,7 +74,9 @@ class Solution:
             stk.append(c)
         return ''.join(stk[:remain]).lstrip('0') or '0'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeKdigits(String num, int k) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeKdigits(num string, k int) string {
 	stk, remain := make([]byte, 0), len(num)-k
@@ -141,7 +148,9 @@ func removeKdigits(num string, k int) string {
 	return "0"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeKdigits(num: string, k: number): string {
     let nums = [...num];
@@ -156,6 +165,7 @@ function removeKdigits(num: string, k: number): string {
     return nums.join('').replace(/^0*/g, '') || '0';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canWin(self, currentState: str) -> bool:
@@ -77,7 +78,9 @@ class Solution:
                 mask |= 1 << i
         return dfs(mask)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canWin(currentState string) bool {
 	n := len(currentState)
@@ -175,6 +182,7 @@ func canWin(currentState string) bool {
 	return dfs(mask)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -182,6 +190,7 @@ func canWin(currentState string) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canWin(self, currentState: str) -> bool:
@@ -209,7 +218,9 @@ class Solution:
             i = j + 1
         return ans > 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -250,7 +261,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -279,7 +292,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canWin(currentState string) bool {
 	n := len(currentState)
@@ -316,6 +331,7 @@ func canWin(currentState string) bool {
 	return ans > 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

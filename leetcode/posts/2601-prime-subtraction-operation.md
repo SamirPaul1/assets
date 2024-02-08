@@ -78,6 +78,7 @@ The time complexity is $O(n \log n)$ and the space complexity is $O(n)$. where $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def primeSubOperation(self, nums: List[int]) -> bool:
@@ -99,7 +100,9 @@ class Solution:
             nums[i] -= p[j]
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean primeSubOperation(int[] nums) {
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -177,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func primeSubOperation(nums []int) bool {
 	p := []int{}
@@ -206,7 +213,9 @@ func primeSubOperation(nums []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function primeSubOperation(nums: number[]): boolean {
     const p: number[] = [];
@@ -249,6 +258,7 @@ function primeSubOperation(nums: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

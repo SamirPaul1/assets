@@ -70,6 +70,7 @@ minStack.getMin(); // return -2
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MinStack:
     def __init__(self):
@@ -98,7 +99,9 @@ class MinStack:
 # param_3 = obj.top()
 # param_4 = obj.getMin()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MinStack {
     private Deque<Integer> stk1 = new ArrayDeque<>();
@@ -136,7 +139,9 @@ class MinStack {
  * int param_4 = obj.getMin();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MinStack {
 public:
@@ -176,7 +181,9 @@ private:
  * int param_4 = obj->getMin();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MinStack struct {
 	stk1 []int
@@ -214,7 +221,9 @@ func (this *MinStack) GetMin() int {
  * param_4 := obj.GetMin();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MinStack {
     stk1: number[];
@@ -253,7 +262,9 @@ class MinStack {
  * var param_4 = obj.getMin()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 struct MinStack {
@@ -300,7 +311,9 @@ impl MinStack {
  * let ret_4: i32 = obj.get_min();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var MinStack = function () {
     this.stk1 = [];
@@ -347,7 +360,9 @@ MinStack.prototype.getMin = function () {
  * var param_4 = obj.getMin()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class MinStack {
     private Stack<int> stk1 = new Stack<int>();
@@ -385,6 +400,7 @@ public class MinStack {
  * int param_4 = obj.GetMin();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

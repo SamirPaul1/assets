@@ -86,6 +86,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, nums: List[int], x: int) -> int:
@@ -97,7 +98,9 @@ class Solution:
                 f[i][j] = min(f[i][j - 1], nums[(i - j) % n])
         return min(sum(f[i][j] for i in range(n)) + x * j for j in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minCost(int[] nums, int x) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(nums []int, x int) int64 {
 	n := len(nums)
@@ -169,7 +176,9 @@ func minCost(nums []int, x int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCost(nums: number[], x: number): number {
     const n = nums.length;
@@ -191,7 +200,9 @@ function minCost(nums: number[], x: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_cost(nums: Vec<i32>, x: i32) -> i64 {
@@ -215,6 +226,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

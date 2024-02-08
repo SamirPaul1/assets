@@ -66,6 +66,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def accountBalanceAfterPurchase(self, purchaseAmount: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
                 x = y
         return 100 - x
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int accountBalanceAfterPurchase(int purchaseAmount) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func accountBalanceAfterPurchase(purchaseAmount int) int {
 	diff, x := 100, 0
@@ -130,7 +137,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function accountBalanceAfterPurchase(purchaseAmount: number): number {
     let [diff, x] = [100, 0];
@@ -144,6 +153,7 @@ function accountBalanceAfterPurchase(purchaseAmount: number): number {
     return 100 - x;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [785. Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite)
 
-[中文文档](/solution/0700-0799/0785.Is%20Graph%20Bipartite/README.md)
 
 ## Description
 

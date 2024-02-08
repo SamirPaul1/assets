@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:
@@ -76,7 +77,9 @@ class Solution:
             s2 = min(s2, f2)
         return s1 if s1 <= 0 else max(s1, sum(nums) - s2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSubarraySumCircular(nums []int) int {
 	s1, s2, f1, f2, total := nums[0], nums[0], nums[0], nums[0], nums[0]
@@ -126,7 +133,9 @@ func maxSubarraySumCircular(nums []int) int {
 	return max(s1, total-s2)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSubarraySumCircular(nums: number[]): number {
     let pre1 = nums[0],
@@ -147,6 +156,7 @@ function maxSubarraySumCircular(nums: number[]): number {
     return ans1 > 0 ? Math.max(ans1, sum - ans2) : ans1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,6 +164,7 @@ function maxSubarraySumCircular(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:
@@ -167,7 +178,9 @@ class Solution:
             pmx = max(pmx, s)
         return max(ans, s - smi)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSubarraySumCircular(int[] nums) {
@@ -185,7 +198,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -204,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSubarraySumCircular(nums []int) int {
 	const inf = 1 << 30
@@ -220,7 +237,9 @@ func maxSubarraySumCircular(nums []int) int {
 	return max(ans, s-smi)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSubarraySumCircular(nums: number[]): number {
     const inf = 1 << 30;
@@ -236,6 +255,7 @@ function maxSubarraySumCircular(nums: number[]): number {
     return Math.max(ans, s - smi);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

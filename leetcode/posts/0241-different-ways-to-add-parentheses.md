@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:
@@ -85,7 +86,9 @@ class Solution:
 
         return dfs(expression)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static Map<String, List<Integer>> memo = new HashMap<>();
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -164,7 +169,9 @@ private:
     unordered_map<string, vector<int>> memo;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var memo = map[string][]int{}
 
@@ -201,7 +208,9 @@ func dfs(exp string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections.Generic;
 
@@ -265,6 +274,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

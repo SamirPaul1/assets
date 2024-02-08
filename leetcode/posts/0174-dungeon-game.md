@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def calculateMinimumHP(self, dungeon: List[List[int]]) -> int:
@@ -74,7 +75,9 @@ class Solution:
                 dp[i][j] = max(1, min(dp[i + 1][j], dp[i][j + 1]) - dungeon[i][j])
         return dp[0][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int calculateMinimumHP(int[][] dungeon) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func calculateMinimumHP(dungeon [][]int) int {
 	m, n := len(dungeon), len(dungeon[0])
@@ -131,7 +138,9 @@ func calculateMinimumHP(dungeon [][]int) int {
 	return dp[0][0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CalculateMinimumHP(int[][] dungeon) {
@@ -151,6 +160,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

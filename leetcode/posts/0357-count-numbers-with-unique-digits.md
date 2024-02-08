@@ -50,6 +50,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:
@@ -63,7 +64,9 @@ class Solution:
             ans += cur
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countNumbersWithUniqueDigits(int n) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countNumbersWithUniqueDigits(n int) int {
 	if n == 0 {
@@ -115,6 +122,7 @@ func countNumbersWithUniqueDigits(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -122,6 +130,7 @@ func countNumbersWithUniqueDigits(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countNumbersWithUniqueDigits(self, n: int) -> int:
@@ -141,7 +150,9 @@ class Solution:
 
         return dfs(n, 0, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] dp = new int[10][1 << 11];
@@ -178,7 +189,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -212,7 +225,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countNumbersWithUniqueDigits(n int) int {
 	dp := make([][]int, 10)
@@ -250,6 +265,7 @@ func countNumbersWithUniqueDigits(n int) int {
 	return dfs(n, 0, true)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

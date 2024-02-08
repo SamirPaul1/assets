@@ -85,6 +85,7 @@ No other coordinate has a higher network quality.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def bestCoordinate(self, towers: List[List[int]], radius: int) -> List[int]:
@@ -102,7 +103,9 @@ class Solution:
                     ans = [i, j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] bestCoordinate(int[][] towers, int radius) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func bestCoordinate(towers [][]int, radius int) []int {
 	ans := []int{0, 0}
@@ -176,6 +183,7 @@ func bestCoordinate(towers [][]int, radius int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

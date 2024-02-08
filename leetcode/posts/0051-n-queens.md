@@ -66,6 +66,7 @@ The time complexity is $O(n^2 \times n!)$, and the space complexity is $O(n)$. H
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
@@ -89,7 +90,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<String>> ans = new ArrayList<>();
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func solveNQueens(n int) (ans [][]string) {
 	col := make([]int, n)
@@ -200,7 +207,9 @@ func solveNQueens(n int) (ans [][]string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function solveNQueens(n: number): string[][] {
     const col: number[] = new Array(n).fill(0);
@@ -229,7 +238,9 @@ function solveNQueens(n: number): string[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int n;
@@ -268,6 +279,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

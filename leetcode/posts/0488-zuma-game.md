@@ -87,6 +87,7 @@ There are still balls remaining on the board, and you are out of balls to insert
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMinStep(self, board: str, hand: str) -> int:
@@ -114,6 +115,7 @@ class Solution:
                         q.append((s, b))
         return -1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

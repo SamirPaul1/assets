@@ -1,6 +1,5 @@
 # [1572. Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum)
 
-[中文文档](/solution/1500-1599/1572.Matrix%20Diagonal%20Sum/README.md)
 
 ## Description
 

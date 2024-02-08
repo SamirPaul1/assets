@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Array<T> {
@@ -72,6 +73,7 @@ Array.prototype.last = function () {
 
 export {};
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

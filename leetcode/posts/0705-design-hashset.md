@@ -64,6 +64,7 @@ myHashSet.contains(2); // return False, (already removed)</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyHashSet:
     def __init__(self):
@@ -85,7 +86,9 @@ class MyHashSet:
 # obj.remove(key)
 # param_3 = obj.contains(key)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyHashSet {
     private boolean[] data = new boolean[1000001];
@@ -114,7 +117,9 @@ class MyHashSet {
  * boolean param_3 = obj.contains(key);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyHashSet {
 public:
@@ -145,7 +150,9 @@ public:
  * bool param_3 = obj->contains(key);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyHashSet struct {
 	data []bool
@@ -176,7 +183,9 @@ func (this *MyHashSet) Contains(key int) bool {
  * param_3 := obj.Contains(key);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyHashSet {
     data: Array<boolean>;
@@ -205,6 +214,7 @@ class MyHashSet {
  * var param_3 = obj.contains(key)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -212,6 +222,7 @@ class MyHashSet {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyHashSet:
     def __init__(self):
@@ -244,7 +255,9 @@ class MyHashSet:
 # obj.remove(key)
 # param_3 = obj.contains(key)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyHashSet {
     private static final int SIZE = 1000;
@@ -298,7 +311,9 @@ class MyHashSet {
  * boolean param_3 = obj.contains(key);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyHashSet {
 private:
@@ -349,7 +364,9 @@ public:
  * bool param_3 = obj->contains(key);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyHashSet struct {
 	data []list.List
@@ -398,6 +415,7 @@ func (this *MyHashSet) hash(key int) int {
  * param_3 := obj.Contains(key);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

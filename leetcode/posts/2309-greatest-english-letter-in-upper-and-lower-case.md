@@ -72,6 +72,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ and
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def greatestLetter(self, s: str) -> str:
@@ -81,7 +82,9 @@ class Solution:
                 return c
         return ''
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String greatestLetter(String s) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func greatestLetter(s string) string {
 	ss := map[rune]bool{}
@@ -128,7 +135,9 @@ func greatestLetter(s string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function greatestLetter(s: string): string {
     const ss = new Array(128).fill(false);
@@ -143,7 +152,9 @@ function greatestLetter(s: string): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn greatest_letter(s: String) -> String {
@@ -164,7 +175,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -183,6 +196,7 @@ var greatestLetter = function (s) {
     return '';
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -198,6 +212,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def greatestLetter(self, s: str) -> str:
@@ -210,7 +225,9 @@ class Solution:
         mask = mask1 & mask2
         return chr(mask.bit_length() - 1 + ord("A")) if mask else ""
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String greatestLetter(String s) {
@@ -229,7 +246,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -247,7 +266,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func greatestLetter(s string) string {
 	mask1, mask2 := 0, 0
@@ -265,6 +286,7 @@ func greatestLetter(s string) string {
 	return string(byte(bits.Len(uint(mask))-1) + 'A')
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

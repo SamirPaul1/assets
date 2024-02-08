@@ -62,6 +62,7 @@ Note that &quot;ea&quot; is not a valid string since &#39;e&#39; comes after &#3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVowelStrings(self, n: int) -> int:
@@ -71,7 +72,9 @@ class Solution:
 
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countVowelStrings(n int) int {
 	f := make([][5]int, n)
@@ -144,6 +151,7 @@ func countVowelStrings(n int) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -151,6 +159,7 @@ func countVowelStrings(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVowelStrings(self, n: int) -> int:
@@ -162,7 +171,9 @@ class Solution:
                 f[j] = s
         return sum(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countVowelStrings(int n) {
@@ -178,7 +189,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -195,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countVowelStrings(n int) (ans int) {
 	f := [5]int{1, 1, 1, 1, 1}
@@ -212,6 +227,7 @@ func countVowelStrings(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

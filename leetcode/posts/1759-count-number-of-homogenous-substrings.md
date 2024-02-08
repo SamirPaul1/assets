@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countHomogenous(self, s: str) -> int:
@@ -85,7 +86,9 @@ class Solution:
             i = j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countHomogenous(s string) (ans int) {
 	n := len(s)
@@ -143,7 +150,9 @@ func countHomogenous(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countHomogenous(s: string): number {
     const mod = 1e9 + 7;
@@ -158,7 +167,9 @@ function countHomogenous(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_homogenous(s: String) -> i32 {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CountHomogenous(string s) {
@@ -196,7 +209,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countHomogenous(char* s) {
     int MOD = 1e9 + 7;
@@ -210,6 +225,7 @@ int countHomogenous(char* s) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -217,6 +233,7 @@ int countHomogenous(char* s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countHomogenous(self, s: str) -> int:
@@ -227,7 +244,9 @@ class Solution:
             ans = (ans + cnt) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -243,7 +262,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -260,7 +281,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countHomogenous(s string) int {
 	n := len(s)
@@ -277,6 +300,7 @@ func countHomogenous(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ so we return 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def secondsToRemoveOccurrences(self, s: str) -> int:
@@ -76,7 +77,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int secondsToRemoveOccurrences(String s) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func secondsToRemoveOccurrences(s string) int {
 	cs := []byte(s)
@@ -148,6 +155,7 @@ func secondsToRemoveOccurrences(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -155,6 +163,7 @@ func secondsToRemoveOccurrences(s string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def secondsToRemoveOccurrences(self, s: str) -> int:
@@ -166,7 +175,9 @@ class Solution:
                 ans = max(ans + 1, cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int secondsToRemoveOccurrences(String s) {
@@ -182,7 +193,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -199,7 +212,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func secondsToRemoveOccurrences(s string) int {
 	ans, cnt := 0, 0
@@ -213,6 +228,7 @@ func secondsToRemoveOccurrences(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

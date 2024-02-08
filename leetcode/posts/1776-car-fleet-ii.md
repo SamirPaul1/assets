@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getCollisionTimes(self, cars: List[List[int]]) -> List[float]:
@@ -79,7 +80,9 @@ class Solution:
             stk.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double[] getCollisionTimes(int[][] cars) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getCollisionTimes(cars [][]int) []float64 {
 	n := len(cars)
@@ -157,6 +164,7 @@ func getCollisionTimes(cars [][]int) []float64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -80,6 +80,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestPathAllKeys(self, grid: List[str]) -> int:
@@ -125,7 +126,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] dirs = {-1, 0, 1, 0, -1};
@@ -192,7 +195,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -248,7 +253,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestPathAllKeys(grid []string) int {
 	m, n := len(grid), len(grid[0])
@@ -307,6 +314,7 @@ func shortestPathAllKeys(grid []string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

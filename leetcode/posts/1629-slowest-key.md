@@ -75,6 +75,7 @@ The longest of these was the keypress for &#39;a&#39; with duration 16.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def slowestKey(self, releaseTimes: List[int], keysPressed: str) -> str:
@@ -87,7 +88,9 @@ class Solution:
                 ans = keysPressed[i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public char slowestKey(int[] releaseTimes, String keysPressed) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func slowestKey(releaseTimes []int, keysPressed string) byte {
 	ans := keysPressed[0]
@@ -137,6 +144,7 @@ func slowestKey(releaseTimes []int, keysPressed string) byte {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

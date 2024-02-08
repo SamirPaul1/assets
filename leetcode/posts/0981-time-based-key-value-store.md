@@ -66,6 +66,7 @@ timeMap.get(&quot;foo&quot;, 5);         // return &quot;bar2&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class TimeMap:
     def __init__(self):
@@ -87,7 +88,9 @@ class TimeMap:
 # obj.set(key,value,timestamp)
 # param_2 = obj.get(key,timestamp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TimeMap {
     private Map<String, TreeMap<Integer, String>> ktv = new HashMap<>();
@@ -116,7 +119,9 @@ class TimeMap {
  * String param_2 = obj.get(key,timestamp);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class TimeMap {
 public:
@@ -145,7 +150,9 @@ private:
  * string param_2 = obj->get(key,timestamp);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type TimeMap struct {
 	ktv map[string][]pair
@@ -180,6 +187,7 @@ type pair struct {
  * param_2 := obj.Get(key,timestamp);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2886. Change Data Type](https://leetcode.com/problems/change-data-type)
 
-[中文文档](/solution/2800-2899/2886.Change%20Data%20Type/README.md)
 
 ## Description
 

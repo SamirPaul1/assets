@@ -65,6 +65,7 @@ The time complexity is $O(\log n)$, where $n$ is the length of the array $nums$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findPeakElement(int[] nums) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPeakElement(nums []int) int {
 	left, right := 0, len(nums)-1
@@ -127,7 +134,9 @@ func findPeakElement(nums []int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findPeakElement(nums: number[]): number {
     let [left, right] = [0, nums.length - 1];
@@ -142,6 +151,7 @@ function findPeakElement(nums: number[]): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

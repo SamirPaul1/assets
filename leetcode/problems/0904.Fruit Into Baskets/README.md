@@ -1,6 +1,5 @@
 # [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets)
 
-[中文文档](/solution/0900-0999/0904.Fruit%20Into%20Baskets/README.md)
 
 ## Description
 
@@ -61,7 +60,7 @@ We traverse the `fruits` array, add the current fruit $x$ to the window, i.e., $
 
 After the traversal ends, we can get the final answer.
 
-```
+```txt
 1 2 3 2 2 1 4
 ^   ^
 j   i

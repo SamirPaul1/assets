@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
@@ -75,7 +76,9 @@ class Solution:
             cnt[t] += 1
         return max(cnt.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxEqualRowsAfterFlips(int[][] matrix) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxEqualRowsAfterFlips(matrix [][]int) (ans int) {
 	cnt := map[string]int{}
@@ -129,7 +136,9 @@ func maxEqualRowsAfterFlips(matrix [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxEqualRowsAfterFlips(matrix: number[][]): number {
     const cnt = new Map<string, number>();
@@ -147,6 +156,7 @@ function maxEqualRowsAfterFlips(matrix: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

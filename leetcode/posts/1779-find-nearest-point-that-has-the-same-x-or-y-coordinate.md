@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nearestValidPoint(self, x: int, y: int, points: List[List[int]]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                     ans, mi = i, d
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int nearestValidPoint(int x, int y, int[][] points) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nearestValidPoint(x int, y int, points [][]int) int {
 	ans, mi := -1, 1000000
@@ -135,7 +142,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function nearestValidPoint(x: number, y: number, points: number[][]): number {
     let res = -1;
@@ -153,7 +162,9 @@ function nearestValidPoint(x: number, y: number, points: number[][]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn nearest_valid_point(x: i32, y: i32, points: Vec<Vec<i32>>) -> i32 {
@@ -175,7 +186,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int nearestValidPoint(int x, int y, int** points, int pointsSize, int* pointsColSize) {
     int ans = -1;
@@ -194,6 +207,7 @@ int nearestValidPoint(int x, int y, int** points, int pointsSize, int* pointsCol
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

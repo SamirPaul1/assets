@@ -86,6 +86,7 @@ Only index 0 has the highest possible division score 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScoreIndices(self, nums: List[int]) -> List[int]:
@@ -105,7 +106,9 @@ class Solution:
                 ans = [i + 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScoreIndices(nums []int) []int {
 	left, right := 0, 0
@@ -194,7 +201,9 @@ func maxScoreIndices(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxScoreIndices(nums: number[]): number[] {
     const n = nums.length;
@@ -220,6 +229,7 @@ function maxScoreIndices(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

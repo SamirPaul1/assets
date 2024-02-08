@@ -115,6 +115,7 @@ Terms table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -139,6 +140,7 @@ SELECT
     CONCAT(GROUP_CONCAT(it ORDER BY power DESC SEPARATOR ""), '=0') AS equation
 FROM T;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

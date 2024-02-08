@@ -80,6 +80,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def flipLights(self, n: int, presses: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
                 vis.add(t)
         return len(vis)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int flipLights(int n, int presses) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func flipLights(n int, presses int) int {
 	if n > 6 {
@@ -173,6 +180,7 @@ func flipLights(n int, presses int) int {
 	return len(vis)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

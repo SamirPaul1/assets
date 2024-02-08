@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def simplifiedFractions(self, n: int) -> List[str]:
@@ -68,7 +69,9 @@ class Solution:
             if gcd(i, j) == 1
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> simplifiedFractions(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func simplifiedFractions(n int) (ans []string) {
 	for i := 1; i < n; i++ {
@@ -125,7 +132,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function simplifiedFractions(n: number): string[] {
     const ans: string[] = [];
@@ -143,7 +152,9 @@ function gcd(a: number, b: number): number {
     return b === 0 ? a : gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn gcd(a: i32, b: i32) -> i32 {
@@ -166,6 +177,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

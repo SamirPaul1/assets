@@ -1,6 +1,5 @@
 # [2719. Count of Integers](https://leetcode.com/problems/count-of-integers)
 
-[中文文档](/solution/2700-2799/2719.Count%20of%20Integers/README.md)
 
 ## Description
 

@@ -84,6 +84,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def applyOperations(self, nums: List[int]) -> List[int]:
@@ -100,7 +101,9 @@ class Solution:
                 i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] applyOperations(int[] nums) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func applyOperations(nums []int) []int {
 	n := len(nums)
@@ -166,7 +173,9 @@ func applyOperations(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function applyOperations(nums: number[]): number[] {
     const n = nums.length;
@@ -186,7 +195,9 @@ function applyOperations(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn apply_operations(nums: Vec<i32>) -> Vec<i32> {
@@ -211,6 +222,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

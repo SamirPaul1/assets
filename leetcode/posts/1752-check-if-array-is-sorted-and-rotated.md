@@ -66,12 +66,15 @@ You can rotate the array by x = 0 positions (i.e. no rotation) to make nums.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def check(self, nums: List[int]) -> bool:
         return sum(nums[i - 1] > v for i, v in enumerate(nums)) <= 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean check(int[] nums) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func check(nums []int) bool {
 	cnt := 0
@@ -110,14 +117,18 @@ func check(nums []int) bool {
 	return cnt <= 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function check(nums: number[]): boolean {
     const n = nums.length;
     return nums.reduce((r, v, i) => r + (v > nums[(i + 1) % n] ? 1 : 0), 0) <= 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check(nums: Vec<i32>) -> bool {
@@ -132,7 +143,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool check(int* nums, int numsSize) {
     int count = 0;
@@ -144,6 +157,7 @@ bool check(int* nums, int numsSize) {
     return count <= 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

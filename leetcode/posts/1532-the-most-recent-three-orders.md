@@ -121,6 +121,7 @@ We can use an equi-join to join the `Customers` table and the `Orders` table bas
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -140,6 +141,7 @@ FROM T
 WHERE rk <= 3
 ORDER BY 1, 2, 4 DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

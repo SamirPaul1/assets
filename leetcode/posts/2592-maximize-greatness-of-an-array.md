@@ -65,6 +65,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeGreatness(self, nums: List[int]) -> int:
@@ -74,7 +75,9 @@ class Solution:
             i += x > nums[i]
         return i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeGreatness(int[] nums) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeGreatness(nums []int) int {
 	sort.Ints(nums)
@@ -116,7 +123,9 @@ func maximizeGreatness(nums []int) int {
 	return i
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeGreatness(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -129,6 +138,7 @@ function maximizeGreatness(nums: number[]): number {
     return i;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

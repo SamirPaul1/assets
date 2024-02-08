@@ -51,12 +51,15 @@ Given two integers <code>num1</code> and <code>num2</code>, return <em>the <stro
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sum(self, num1: int, num2: int) -> int:
         return num1 + num2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sum(int num1, int num2) {
@@ -64,7 +67,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -73,19 +78,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sum(num1 int, num2 int) int {
 	return num1 + num2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sum(num1: number, num2: number): number {
     return num1 + num2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sum(num1: i32, num2: i32) -> i32 {
@@ -93,12 +104,15 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int sum(int num1, int num2) {
     return num1 + num2;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -106,6 +120,7 @@ int sum(int num1, int num2) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sum(self, num1: int, num2: int) -> int:
@@ -115,7 +130,9 @@ class Solution:
             num1, num2 = num1 ^ num2, carry
         return num1 if num1 < 0x80000000 else ~(num1 ^ 0xFFFFFFFF)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sum(int num1, int num2) {
@@ -128,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sum(num1 int, num2 int) int {
 	for num2 != 0 {
@@ -153,7 +174,9 @@ func sum(num1 int, num2 int) int {
 	return num1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sum(num1: number, num2: number): number {
     while (num2) {
@@ -164,7 +187,9 @@ function sum(num1: number, num2: number): number {
     return num1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sum(num1: i32, num2: i32) -> i32 {
@@ -179,6 +204,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

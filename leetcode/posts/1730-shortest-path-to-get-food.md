@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getFood(self, grid: List[List[str]]) -> int:
@@ -97,7 +98,9 @@ class Solution:
                             q.append((x, y))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] dirs = {-1, 0, 1, 0, -1};
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getFood(grid [][]byte) (ans int) {
 	m, n := len(grid), len(grid[0])
@@ -216,7 +223,9 @@ func getFood(grid [][]byte) (ans int) {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {character[][]} grid
@@ -259,6 +268,7 @@ var getFood = function (grid) {
     return -1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

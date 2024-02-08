@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxLengthBetweenEqualCharacters(self, s: str) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 d[c] = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxLengthBetweenEqualCharacters(String s) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxLengthBetweenEqualCharacters(s string) int {
 	d := make([]int, 26)
@@ -130,7 +137,9 @@ func maxLengthBetweenEqualCharacters(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxLengthBetweenEqualCharacters(s: string): number {
     const n = s.length;
@@ -147,7 +156,9 @@ function maxLengthBetweenEqualCharacters(s: string): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_length_between_equal_characters(s: String) -> i32 {
@@ -168,7 +179,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -189,6 +202,7 @@ int maxLengthBetweenEqualCharacters(char* s) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

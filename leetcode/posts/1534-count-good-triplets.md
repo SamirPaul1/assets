@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countGoodTriplets(self, arr: List[int], a: int, b: int, c: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
                     )
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countGoodTriplets(arr []int, a int, b int, c int) (ans int) {
 	n := len(arr)
@@ -141,6 +148,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

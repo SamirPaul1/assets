@@ -78,6 +78,7 @@ The results should be sorted in descending order of weight.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -87,6 +88,7 @@ def findHeavyAnimals(animals: pd.DataFrame) -> pd.DataFrame:
         ['name']
     ]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

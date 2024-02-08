@@ -99,6 +99,7 @@ The time complexity is $O(n \times target \times count)$ and the space complexit
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def waysToReachTarget(self, target: int, types: List[List[int]]) -> int:
@@ -114,7 +115,9 @@ class Solution:
                         f[i][j] = (f[i][j] + f[i - 1][j - k * marks]) % mod
         return f[n][target]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int waysToReachTarget(int target, int[][] types) {
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func waysToReachTarget(target int, types [][]int) int {
 	n := len(types)
@@ -183,7 +190,9 @@ func waysToReachTarget(target int, types [][]int) int {
 	return f[n][target]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function waysToReachTarget(target: number, types: number[][]): number {
     const n = types.length;
@@ -203,6 +212,7 @@ function waysToReachTarget(target: number, types: number[][]): number {
     return f[n][target];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

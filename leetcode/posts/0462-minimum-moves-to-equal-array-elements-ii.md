@@ -58,6 +58,7 @@ Only two moves are needed (remember each move increments or decrements one eleme
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:
@@ -65,7 +66,9 @@ class Solution:
         k = nums[len(nums) >> 1]
         return sum(abs(v - k) for v in nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMoves2(int[] nums) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMoves2(nums []int) int {
 	sort.Ints(nums)
@@ -111,7 +118,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMoves2(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -119,7 +128,9 @@ function minMoves2(nums: number[]): number {
     return nums.reduce((r, v) => r + Math.abs(v - mid), 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_moves2(mut nums: Vec<i32>) -> i32 {
@@ -133,6 +144,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -140,6 +152,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMoves2(self, nums: List[int]) -> int:
@@ -154,6 +167,7 @@ class Solution:
         n = len(nums)
         return min(move(i) for i in range(n))
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

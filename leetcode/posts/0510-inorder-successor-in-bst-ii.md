@@ -69,6 +69,7 @@ class Node {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -92,7 +93,9 @@ class Solution:
             node = node.parent
         return node.parent
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for Node.
@@ -173,7 +180,9 @@ func inorderSuccessor(node *Node) *Node {
 	return node.Parent
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * // Definition for a Node.
@@ -199,6 +208,7 @@ var inorderSuccessor = function (node) {
     return node.parent;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

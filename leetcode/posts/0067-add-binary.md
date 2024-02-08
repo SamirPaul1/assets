@@ -48,12 +48,15 @@ The time complexity is $O(\max(m, n))$, where $m$ and $n$ are the lengths of str
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         return bin(int(a, 2) + int(b, 2))[2:]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String addBinary(String a, String b) {
@@ -68,7 +71,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -85,7 +90,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addBinary(a string, b string) string {
 	i, j := len(a)-1, len(b)-1
@@ -106,13 +113,17 @@ func addBinary(a string, b string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addBinary(a: string, b: string): string {
     return (BigInt('0b' + a) + BigInt('0b' + b)).toString(2);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn add_binary(a: String, b: String) -> String {
@@ -138,7 +149,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string AddBinary(string a, string b) {
@@ -157,6 +170,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -164,6 +178,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
@@ -176,7 +191,9 @@ class Solution:
             i, j = i - 1, j - 1
         return ''.join(ans[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addBinary(a: string, b: string): string {
     let i = a.length - 1;
@@ -191,6 +208,7 @@ function addBinary(a: string, b: string): string {
     return ans.reverse().join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

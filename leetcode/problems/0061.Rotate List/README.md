@@ -1,6 +1,5 @@
 # [61. Rotate List](https://leetcode.com/problems/rotate-list)
 
-[中文文档](/solution/0000-0099/0061.Rotate%20List/README.md)
 
 ## Description
 

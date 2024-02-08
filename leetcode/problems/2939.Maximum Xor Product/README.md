@@ -1,6 +1,5 @@
 # [2939. Maximum Xor Product](https://leetcode.com/problems/maximum-xor-product)
 
-[中文文档](/solution/2900-2999/2939.Maximum%20Xor%20Product/README.md)
 
 ## Description
 

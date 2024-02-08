@@ -91,6 +91,7 @@ The time complexity is $O(m \times n \times \log (m \times n))$, and the space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumMinutes(self, grid: List[List[int]]) -> int:
@@ -156,7 +157,9 @@ class Solution:
                 r = mid - 1
         return int(1e9) if l == m * n else l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] grid;
@@ -245,7 +248,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -324,7 +329,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumMinutes(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -407,7 +414,9 @@ func maximumMinutes(grid [][]int) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumMinutes(grid: number[][]): number {
     const m = grid.length;
@@ -491,6 +500,7 @@ function maximumMinutes(grid: number[][]): number {
     return l === m * n ? 1e9 : l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

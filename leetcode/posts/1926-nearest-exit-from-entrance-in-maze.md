@@ -79,6 +79,7 @@ Thus, the nearest exit is [1,2], which is 2 steps away.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
@@ -100,7 +101,9 @@ class Solution:
                         maze[x][y] = '+'
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int nearestExit(char[][] maze, int[] entrance) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nearestExit(maze [][]byte, entrance []int) int {
 	m, n := len(maze), len(maze[0])
@@ -189,6 +196,7 @@ func nearestExit(maze [][]byte, entrance []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

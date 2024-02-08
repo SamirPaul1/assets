@@ -71,6 +71,7 @@ It can be shown that there are only 2 powerful integers in this range.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfPowerfulInt(self, start: int, finish: int, limit: int, s: str) -> int:
@@ -94,7 +95,9 @@ class Solution:
         b = dfs(0, True)
         return b - a
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfPowerfulInt(start, finish int64, limit int, s string) int64 {
 	t := strconv.FormatInt(start-1, 10)
@@ -226,7 +233,9 @@ func numberOfPowerfulInt(start, finish int64, limit int, s string) int64 {
 	return b - a
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfPowerfulInt(start: number, finish: number, limit: number, s: string): number {
     let t: string = (start - 1).toString();
@@ -266,6 +275,7 @@ function numberOfPowerfulInt(start: number, finish: number, limit: number, s: st
     return b - a;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

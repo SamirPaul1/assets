@@ -66,6 +66,7 @@ phoneDirectory.check(2);   // Number 2 is available again, return true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class PhoneDirectory:
     def __init__(self, maxNumbers: int):
@@ -105,7 +106,9 @@ class PhoneDirectory:
 # param_2 = obj.check(number)
 # obj.release(number)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class PhoneDirectory {
 
@@ -152,6 +155,7 @@ class PhoneDirectory {
  * obj.release(number);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

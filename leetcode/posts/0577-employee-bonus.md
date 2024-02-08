@@ -97,6 +97,7 @@ We can use a left join to join the `Employee` table and the `Bonus` table on `em
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT name, bonus
@@ -105,6 +106,7 @@ FROM
     LEFT JOIN Bonus USING (empId)
 WHERE IFNULL(bonus, 0) < 1000;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

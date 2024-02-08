@@ -1,6 +1,5 @@
 # [598. Range Addition II](https://leetcode.com/problems/range-addition-ii)
 
-[中文文档](/solution/0500-0599/0598.Range%20Addition%20II/README.md)
 
 ## Description
 

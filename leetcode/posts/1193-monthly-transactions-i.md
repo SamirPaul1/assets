@@ -76,6 +76,7 @@ We can first group by month and country, and then use the `COUNT` and `SUM` func
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -88,6 +89,7 @@ SELECT
 FROM Transactions
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

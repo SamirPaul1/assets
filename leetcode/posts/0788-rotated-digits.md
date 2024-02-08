@@ -69,6 +69,7 @@ Note that 1 and 10 are not good numbers, since they remain unchanged after rotat
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotatedDigits(self, n: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
         d = [0, 1, 5, -1, -1, 2, 9, -1, 8, 6]
         return sum(check(i) for i in range(1, n + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] d = new int[] {0, 1, 5, -1, -1, 2, 9, -1, 8, 6};
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rotatedDigits(n int) int {
 	d := []int{0, 1, 5, -1, -1, 2, 9, -1, 8, 6}
@@ -174,6 +181,7 @@ func rotatedDigits(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -181,6 +189,7 @@ func rotatedDigits(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotatedDigits(self, n: int) -> int:
@@ -205,7 +214,9 @@ class Solution:
             l += 1
         return dfs(l, 0, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] a = new int[6];
@@ -247,7 +258,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -288,7 +301,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rotatedDigits(n int) int {
 	a := make([]int, 6)
@@ -333,6 +348,7 @@ func rotatedDigits(n int) int {
 	return dfs(l, 0, true)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

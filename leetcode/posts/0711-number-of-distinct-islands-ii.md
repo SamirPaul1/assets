@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDistinctIslands2(self, grid: List[List[int]]) -> int:
@@ -97,7 +98,9 @@ class Solution:
                     s.add(normalize(shape))
         return len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -193,7 +196,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef pair<int, int> PII;
 
@@ -249,6 +254,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

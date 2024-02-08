@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(n \t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subarrayBitwiseORs(self, arr: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             ans |= s
         return len(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int subarrayBitwiseORs(int[] arr) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subarrayBitwiseORs(arr []int) int {
 	ans := map[int]bool{}
@@ -143,7 +150,9 @@ func subarrayBitwiseORs(arr []int) int {
 	return len(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subarrayBitwiseORs(arr: number[]): number {
     const s: Set<number> = new Set();
@@ -163,6 +172,7 @@ function subarrayBitwiseORs(arr: number[]): number {
     return ans.size;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

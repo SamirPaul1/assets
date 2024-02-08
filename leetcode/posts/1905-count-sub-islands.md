@@ -64,6 +64,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubIslands(self, grid1: List[List[int]], grid2: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
         dirs = (-1, 0, 1, 0, -1)
         return sum(dfs(i, j) for i in range(m) for j in range(n) if grid2[i][j])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int[] dirs = {-1, 0, 1, 0, -1};
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubIslands(grid1 [][]int, grid2 [][]int) (ans int) {
 	m, n := len(grid1), len(grid1[0])
@@ -175,7 +182,9 @@ func countSubIslands(grid1 [][]int, grid2 [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSubIslands(grid1: number[][], grid2: number[][]): number {
     const [m, n] = [grid1.length, grid1[0].length];
@@ -202,6 +211,7 @@ function countSubIslands(grid1: number[][], grid2: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -209,6 +219,7 @@ function countSubIslands(grid1: number[][], grid2: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubIslands(self, grid1: List[List[int]], grid2: List[List[int]]) -> int:
@@ -230,6 +241,7 @@ class Solution:
         dirs = (-1, 0, 1, 0, -1)
         return sum(bfs(i, j) for i in range(m) for j in range(n) if grid2[i][j])
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

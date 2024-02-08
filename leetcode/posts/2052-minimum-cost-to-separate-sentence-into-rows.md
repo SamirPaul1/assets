@@ -89,6 +89,7 @@ The cost of the last row is not included in the total cost, and since there is o
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCost(self, sentence: str, k: int) -> int:
@@ -107,7 +108,9 @@ class Solution:
         s = list(accumulate(t, initial=0))
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = Integer.MAX_VALUE;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -182,7 +187,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCost(sentence string, k int) int {
 	words := strings.Split(sentence, " ")
@@ -218,6 +225,7 @@ func minimumCost(sentence string, k int) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

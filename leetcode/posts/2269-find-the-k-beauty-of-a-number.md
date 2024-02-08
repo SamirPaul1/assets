@@ -77,6 +77,7 @@ Therefore, the k-beauty is 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def divisorSubstrings(self, num: int, k: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int divisorSubstrings(int num, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func divisorSubstrings(num int, k int) int {
 	ans := 0
@@ -133,7 +140,9 @@ func divisorSubstrings(num int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function divisorSubstrings(num: number, k: number): number {
     let ans = 0;
@@ -147,6 +156,7 @@ function divisorSubstrings(num: number, k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

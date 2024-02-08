@@ -60,6 +60,7 @@ The student with ID = 2 got scores 93, 97, 77, 100, and 76. Their top five avera
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def highFive(self, items: List[List[int]]) -> List[List[int]]:
@@ -75,7 +76,9 @@ class Solution:
                 ans.append([i, avg])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] highFive(int[][] items) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func highFive(items [][]int) (ans [][]int) {
 	d := make([][]int, 1001)
@@ -161,7 +168,9 @@ func highFive(items [][]int) (ans [][]int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function highFive(items: number[][]): number[][] {
     const d: number[][] = Array(1001)
@@ -181,6 +190,7 @@ function highFive(items: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

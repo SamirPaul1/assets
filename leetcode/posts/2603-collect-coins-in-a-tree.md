@@ -85,6 +85,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def collectTheCoins(self, coins: List[int], edges: List[List[int]]) -> int:
@@ -109,7 +110,9 @@ class Solution:
                 g[i].clear()
         return sum(len(g[a]) > 0 and len(g[b]) > 0 for a, b in edges) * 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int collectTheCoins(int[] coins, int[][] edges) {
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -216,7 +221,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func collectTheCoins(coins []int, edges [][]int) int {
 	n := len(coins)
@@ -270,7 +277,9 @@ func collectTheCoins(coins []int, edges [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function collectTheCoins(coins: number[], edges: number[][]): number {
     const n = coins.length;
@@ -318,6 +327,7 @@ function collectTheCoins(coins: number[], edges: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

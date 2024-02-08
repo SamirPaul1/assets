@@ -64,6 +64,7 @@ Take &#39;B&#39; at row r = 0 and column c = 1 as an example:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findBlackPixel(self, picture: List[List[str]], target: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
                         res += 1
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findBlackPixel(char[][] picture, int target) {
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -190,7 +195,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findBlackPixel(picture [][]byte, target int) int {
 	m, n := len(picture), len(picture[0])
@@ -248,6 +255,7 @@ func all(row1, row2 []byte) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

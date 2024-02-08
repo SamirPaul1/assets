@@ -80,6 +80,7 @@ Day 6 is the first day where you have been in all the rooms.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def firstDayBeenInAllRooms(self, nextVisit: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
             f[i] = (f[i - 1] + 1 + f[i - 1] - f[nextVisit[i - 1]] + 1) % mod
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int firstDayBeenInAllRooms(int[] nextVisit) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func firstDayBeenInAllRooms(nextVisit []int) int {
 	n := len(nextVisit)
@@ -131,6 +138,7 @@ func firstDayBeenInAllRooms(nextVisit []int) int {
 	return f[n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

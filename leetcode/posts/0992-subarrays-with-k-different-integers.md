@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
@@ -79,7 +80,9 @@ class Solution:
 
         return sum(a - b for a, b in zip(f(k - 1), f(k)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int subarraysWithKDistinct(int[] nums, int k) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subarraysWithKDistinct(nums []int, k int) (ans int) {
 	f := func(k int) []int {
@@ -177,6 +184,7 @@ func subarraysWithKDistinct(nums []int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

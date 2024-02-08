@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def solveEquation(self, equation: str) -> str:
@@ -89,7 +90,9 @@ class Solution:
             return 'Infinite solutions' if y1 == y2 else 'No solution'
         return f'x={(y2 - y1) // (x1 - x2)}'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String solveEquation(String equation) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func solveEquation(equation string) string {
 	f := func(s string) []int {
@@ -177,7 +182,9 @@ func solveEquation(equation string) string {
 	return fmt.Sprintf("x=%d", (y2-y1)/(x1-x2))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function solveEquation(equation: string): string {
     const [left, right] = equation.split('=');
@@ -235,6 +242,7 @@ function solveEquation(equation: string): string {
     return `x=${(lExpr[1] - rExpr[1]) / (rExpr[0] - lExpr[0])}`;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

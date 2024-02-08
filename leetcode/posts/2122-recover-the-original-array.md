@@ -81,6 +81,7 @@ The only possible combination is arr = [220] and k = 215. Using them, we get low
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def recoverArray(self, nums: List[int]) -> List[int]:
@@ -108,7 +109,9 @@ class Solution:
                 return ans
         return []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] recoverArray(int[] nums) {
@@ -148,7 +151,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func recoverArray(nums []int) []int {
 	sort.Ints(nums)
@@ -206,6 +213,7 @@ func recoverArray(nums []int) []int {
 	return []int{}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

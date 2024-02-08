@@ -87,6 +87,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n=maxL
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def goodBinaryStrings(
@@ -102,7 +103,9 @@ class Solution:
             f[i] %= mod
         return sum(f[minLength:]) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int goodBinaryStrings(int minLength, int maxLength, int oneGroup, int zeroGroup) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func goodBinaryStrings(minLength int, maxLength int, oneGroup int, zeroGroup int) (ans int) {
 	const mod int = 1e9 + 7
@@ -171,7 +178,9 @@ func goodBinaryStrings(minLength int, maxLength int, oneGroup int, zeroGroup int
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function goodBinaryStrings(
     minLength: number,
@@ -194,6 +203,7 @@ function goodBinaryStrings(
     return f.slice(minLength).reduce((a, b) => a + b, 0) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

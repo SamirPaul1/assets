@@ -81,6 +81,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -99,7 +100,9 @@ class Solution:
             sl.add(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] secondGreaterElement(int[] nums) {
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function secondGreaterElement(nums: number[]): number[] {
     const n = nums.length;
@@ -812,6 +819,7 @@ class TreeMultiSet<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

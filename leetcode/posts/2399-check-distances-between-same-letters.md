@@ -68,6 +68,7 @@ Because distance[0] = 1, s is not a well-spaced string.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkDistances(self, s: str, distance: List[int]) -> bool:
@@ -78,7 +79,9 @@ class Solution:
             d[c] = i
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkDistances(String s, int[] distance) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkDistances(s string, distance []int) bool {
 	d := [26]int{}
@@ -125,7 +132,9 @@ func checkDistances(s string, distance []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkDistances(s: string, distance: number[]): boolean {
     const n = s.length;
@@ -140,7 +149,9 @@ function checkDistances(s: string, distance: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check_distances(s: String, distance: Vec<i32>) -> bool {
@@ -159,7 +170,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool checkDistances(char* s, int* distance, int distanceSize) {
     int n = strlen(s);
@@ -174,6 +187,7 @@ bool checkDistances(char* s, int* distance, int distanceSize) {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

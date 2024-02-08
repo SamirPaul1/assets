@@ -79,6 +79,7 @@ We notice that $f[i]$ in the state transition equation is only related to $f[i -
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
@@ -88,7 +89,9 @@ class Solution:
             f[i] = min(f[i - 2] + cost[i - 2], f[i - 1] + cost[i - 1])
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostClimbingStairs(cost []int) int {
 	n := len(cost)
@@ -126,7 +133,9 @@ func minCostClimbingStairs(cost []int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCostClimbingStairs(cost: number[]): number {
     const n = cost.length;
@@ -137,7 +146,9 @@ function minCostClimbingStairs(cost: number[]): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_cost_climbing_stairs(cost: Vec<i32>) -> i32 {
@@ -150,6 +161,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -157,6 +169,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
@@ -165,7 +178,9 @@ class Solution:
             f, g = g, min(f + cost[i - 2], g + cost[i - 1])
         return g
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
@@ -179,7 +194,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -194,7 +211,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostClimbingStairs(cost []int) int {
 	var f, g int
@@ -204,7 +223,9 @@ func minCostClimbingStairs(cost []int) int {
 	return g
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCostClimbingStairs(cost: number[]): number {
     let a = 0,
@@ -215,7 +236,9 @@ function minCostClimbingStairs(cost: number[]): number {
     return b;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_cost_climbing_stairs(cost: Vec<i32>) -> i32 {
@@ -229,6 +252,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2254. Design Video Sharing Platform](https://leetcode.com/problems/design-video-sharing-platform)
 
-[中文文档](/solution/2200-2299/2254.Design%20Video%20Sharing%20Platform/README.md)
 
 ## Description
 

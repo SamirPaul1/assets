@@ -61,6 +61,7 @@ Therefore, 2, 3, 4, or 5 may also be returned.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validSubarraySize(self, nums: List[int], threshold: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
             vis[i] = True
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pii = pair<int, int>;
 
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validSubarraySize(nums []int, threshold int) int {
 	n := len(nums)
@@ -236,6 +243,7 @@ func validSubarraySize(nums []int, threshold int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -243,6 +251,7 @@ func validSubarraySize(nums []int, threshold int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validSubarraySize(self, nums: List[int], threshold: int) -> int:
@@ -269,7 +278,9 @@ class Solution:
                 return k
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int validSubarraySize(int[] nums, int threshold) {
@@ -311,7 +322,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -342,7 +355,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validSubarraySize(nums []int, threshold int) int {
 	n := len(nums)
@@ -382,6 +397,7 @@ func validSubarraySize(nums []int, threshold int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

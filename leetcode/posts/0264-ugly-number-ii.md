@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
@@ -68,7 +69,9 @@ class Solution:
                     heappush(h, nxt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int nthUglyNumber(int n) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nthUglyNumber(n int) int {
 	h := IntHeap([]int{1})
@@ -153,7 +160,9 @@ func (h *IntHeap) Pop() any {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -177,7 +186,9 @@ var nthUglyNumber = function (n) {
     return dp[n - 1];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int NthUglyNumber(int n) {
@@ -201,6 +212,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -208,6 +220,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
@@ -224,7 +237,9 @@ class Solution:
                 p5 += 1
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int nthUglyNumber(int n) {
@@ -242,7 +257,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -261,7 +278,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nthUglyNumber(n int) int {
 	dp := make([]int, n)
@@ -283,6 +302,7 @@ func nthUglyNumber(n int) int {
 	return dp[n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

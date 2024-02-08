@@ -54,12 +54,15 @@ The percentage of characters in s that equal the letter &#39;k&#39; is 0%, so we
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def percentageLetter(self, s: str, letter: str) -> int:
         return s.count(letter) * 100 // len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int percentageLetter(String s, char letter) {
@@ -73,7 +76,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -84,7 +89,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func percentageLetter(s string, letter byte) int {
 	cnt := 0
@@ -96,7 +103,9 @@ func percentageLetter(s string, letter byte) int {
 	return cnt * 100 / len(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function percentageLetter(s: string, letter: string): number {
     let count = 0;
@@ -107,7 +116,9 @@ function percentageLetter(s: string, letter: string): number {
     return Math.floor((count / total) * 100);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn percentage_letter(s: String, letter: char) -> i32 {
@@ -121,6 +132,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

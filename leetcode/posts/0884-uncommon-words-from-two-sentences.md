@@ -49,13 +49,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uncommonFromSentences(self, s1: str, s2: str) -> List[str]:
         cnt = Counter(s1.split()) + Counter(s2.split())
         return [s for s, v in cnt.items() if v == 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] uncommonFromSentences(String s1, String s2) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uncommonFromSentences(s1 string, s2 string) (ans []string) {
 	cnt := map[string]int{}
@@ -114,7 +121,9 @@ func uncommonFromSentences(s1 string, s2 string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function uncommonFromSentences(s1: string, s2: string): string[] {
     const cnt: Map<string, number> = new Map();
@@ -130,7 +139,9 @@ function uncommonFromSentences(s1: string, s2: string): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -153,7 +164,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s1
@@ -174,6 +187,7 @@ var uncommonFromSentences = function (s1, s2) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -77,6 +77,7 @@ Output table is ordered by peak_calling_hour and city in descending order.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -102,6 +103,7 @@ FROM T
 WHERE rk = 1
 ORDER BY 2 DESC, 1 DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2659. Make Array Empty](https://leetcode.com/problems/make-array-empty)
 
-[中文文档](/solution/2600-2699/2659.Make%20Array%20Empty/README.md)
 
 ## Description
 

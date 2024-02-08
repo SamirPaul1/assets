@@ -94,6 +94,7 @@ The time complexity is $O(n \times \log M)$, where $n$ and $M$ are the number of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxLength(self, ribbons: List[int], k: int) -> int:
@@ -107,7 +108,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxLength(int[] ribbons, int k) {
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxLength(ribbons []int, k int) int {
 	left, right := 0, slices.Max(ribbons)
@@ -172,7 +179,9 @@ func maxLength(ribbons []int, k int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxLength(ribbons: number[], k: number): number {
     let left = 0;
@@ -192,7 +201,9 @@ function maxLength(ribbons: number[], k: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_length(ribbons: Vec<i32>, k: i32) -> i32 {
@@ -217,7 +228,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} ribbons
@@ -242,6 +255,7 @@ var maxLength = function (ribbons, k) {
     return left;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

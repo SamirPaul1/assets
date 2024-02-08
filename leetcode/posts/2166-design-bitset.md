@@ -75,6 +75,7 @@ bs.toString(); // return &quot;01010&quot;, which is the composition of bitset.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Bitset:
     def __init__(self, size: int):
@@ -121,7 +122,9 @@ class Bitset:
 # param_6 = obj.count()
 # param_7 = obj.toString()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Bitset {
     private char[] a;
@@ -187,7 +190,9 @@ class Bitset {
  * String param_7 = obj.toString();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Bitset {
 public:
@@ -243,7 +248,9 @@ public:
  * string param_7 = obj->toString();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Bitset struct {
 	a   []byte
@@ -306,6 +313,7 @@ func (this *Bitset) ToString() string {
  * param_7 := obj.ToString();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

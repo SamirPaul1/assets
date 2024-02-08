@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                         ans -= min(v, grid[i][j - 1]) * 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func surfaceArea(grid [][]int) int {
 	ans := 0
@@ -141,6 +148,7 @@ func surfaceArea(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

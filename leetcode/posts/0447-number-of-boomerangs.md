@@ -69,6 +69,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$, where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfBoomerangs(self, points: List[List[int]]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 cnt[d] += 1
         return ans << 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfBoomerangs(int[][] points) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfBoomerangs(points [][]int) (ans int) {
 	for _, p1 := range points {
@@ -131,7 +138,9 @@ func numberOfBoomerangs(points [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfBoomerangs(points: number[][]): number {
     let ans = 0;
@@ -146,6 +155,7 @@ function numberOfBoomerangs(points: number[][]): number {
     return ans << 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -153,6 +163,7 @@ function numberOfBoomerangs(points: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfBoomerangs(self, points: List[List[int]]) -> int:
@@ -165,7 +176,9 @@ class Solution:
             ans += sum(x * (x - 1) for x in cnt.values())
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfBoomerangs(int[][] points) {
@@ -184,7 +197,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -204,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfBoomerangs(points [][]int) (ans int) {
 	for _, p1 := range points {
@@ -220,7 +237,9 @@ func numberOfBoomerangs(points [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfBoomerangs(points: number[][]): number {
     let ans = 0;
@@ -237,6 +256,7 @@ function numberOfBoomerangs(points: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

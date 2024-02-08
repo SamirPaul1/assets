@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numFriendRequests(self, ages: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
                         ans -= n2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numFriendRequests(int[] ages) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numFriendRequests(ages []int) int {
 	counter := make([]int, 121)
@@ -160,6 +167,7 @@ func numFriendRequests(ages []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

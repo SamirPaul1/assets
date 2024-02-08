@@ -59,6 +59,7 @@ There are a total of 5 bad pairs, so we return 5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countBadPairs(self, nums: List[int]) -> int:
@@ -69,7 +70,9 @@ class Solution:
             cnt[i - x] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long countBadPairs(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countBadPairs(nums []int) (ans int64) {
 	cnt := map[int]int{}
@@ -112,7 +119,9 @@ func countBadPairs(nums []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countBadPairs(nums: number[]): number {
     const cnt = new Map<number, number>();
@@ -125,6 +134,7 @@ function countBadPairs(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

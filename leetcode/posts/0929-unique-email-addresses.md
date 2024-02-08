@@ -76,6 +76,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
@@ -88,7 +89,9 @@ class Solution:
             s.add(local + '@' + domain)
         return len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numUniqueEmails(String[] emails) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numUniqueEmails(emails []string) int {
 	s := map[string]bool{}
@@ -141,7 +148,9 @@ func numUniqueEmails(emails []string) int {
 	return len(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numUniqueEmails(emails: string[]): number {
     return new Set(
@@ -151,7 +160,9 @@ function numUniqueEmails(emails: string[]): number {
     ).size;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 const numUniqueEmails2 = function (emails) {
     const emailFilter = function (str) {
@@ -220,6 +233,7 @@ const numUniqueEmails = function (emails) {
     return set.size;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

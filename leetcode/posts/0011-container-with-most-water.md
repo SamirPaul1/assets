@@ -66,6 +66,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array `height`. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 j -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxArea(int[] height) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxArea(height []int) (ans int) {
 	i, j := 0, len(height)-1
@@ -135,7 +142,9 @@ func maxArea(height []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxArea(height: number[]): number {
     let i = 0;
@@ -153,7 +162,9 @@ function maxArea(height: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} height
@@ -194,7 +207,9 @@ var maxArea = function (height) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaxArea(int[] height) {
@@ -213,6 +228,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

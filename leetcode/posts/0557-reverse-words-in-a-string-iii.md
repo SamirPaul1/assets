@@ -53,12 +53,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseWords(self, s: str) -> str:
         return ' '.join([t[::-1] for t in s.split(' ')])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseWords(String s) {
@@ -73,7 +76,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -89,7 +94,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseWords(s string) string {
 	t := []byte(s)
@@ -106,7 +113,9 @@ func reverseWords(s string) string {
 	return string(t)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reverseWords(s: string): string {
     return s
@@ -121,7 +130,9 @@ function reverseWords(s: string): string {
         .join(' ');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_words(s: String) -> String {
@@ -132,7 +143,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -148,6 +161,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

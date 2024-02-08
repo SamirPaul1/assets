@@ -1,6 +1,5 @@
 # [2421. Number of Good Paths](https://leetcode.com/problems/number-of-good-paths)
 
-[中文文档](/solution/2400-2499/2421.Number%20of%20Good%20Paths/README.md)
 
 ## Description
 

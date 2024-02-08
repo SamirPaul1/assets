@@ -119,6 +119,7 @@ Thus, the resulting masked number is &quot;***-***-7890&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maskPII(self, s: str) -> str:
@@ -130,7 +131,9 @@ class Solution:
         suf = '***-***-' + s[-4:]
         return suf if cnt == 0 else f'+{"*" * cnt}-{suf}'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String maskPII(String s) {
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maskPII(s string) string {
 	i := strings.Index(s, "@")
@@ -204,7 +211,9 @@ func maskPII(s string) string {
 	return "+" + strings.Repeat("*", cnt) + "-" + suf
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maskPII(s: string): string {
     const i = s.indexOf('@');
@@ -226,6 +235,7 @@ function maskPII(s: string): string {
     return cnt === 0 ? suf : `+${'*'.repeat(cnt)}-${suf}`;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

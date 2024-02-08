@@ -51,12 +51,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         return list(set(nums1) & set(nums2))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -75,7 +78,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func intersection(nums1 []int, nums2 []int) (ans []int) {
 	s := [1001]bool{}
@@ -112,7 +119,9 @@ func intersection(nums1 []int, nums2 []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -134,7 +143,9 @@ var intersection = function (nums1, nums2) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] Intersection(int[] nums1, int[] nums2) {
@@ -150,7 +161,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -174,6 +187,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -181,6 +195,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -191,6 +206,7 @@ var intersection = function (nums1, nums2) {
     return Array.from(new Set(nums1)).filter(num => new Set(nums2).has(num));
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

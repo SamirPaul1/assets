@@ -68,6 +68,7 @@ We can run the two computers simultaneously for at most 2 minutes, so we return 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxRunTime(self, n: int, batteries: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 r = mid - 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxRunTime(int n, int[] batteries) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxRunTime(n int, batteries []int) int64 {
 	l, r := 0, 0
@@ -151,7 +158,9 @@ func maxRunTime(n int, batteries []int) int64 {
 	return int64(l)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxRunTime(n: number, batteries: number[]): number {
     let l = 0n;
@@ -174,7 +183,9 @@ function maxRunTime(n: number, batteries: number[]): number {
     return Number(l);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -226,6 +237,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

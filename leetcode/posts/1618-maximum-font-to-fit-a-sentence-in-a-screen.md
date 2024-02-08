@@ -90,6 +90,7 @@ interface FontInfo {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is FontInfo's API interface.
@@ -128,7 +129,9 @@ class Solution:
                 right = mid - 1
         return fonts[left] if check(fonts[left]) else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the FontInfo's API interface.
@@ -166,7 +169,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the FontInfo's API interface.
@@ -204,7 +209,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * // This is the FontInfo's API interface.
@@ -257,6 +264,7 @@ var maxFont = function (text, w, h, fonts, fontInfo) {
     return check(fonts[left]) ? fonts[left] : -1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

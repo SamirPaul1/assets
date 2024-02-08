@@ -74,6 +74,7 @@ Since we need to return the answer modulo 10<sup>9</sup> + 7, we return 20828761
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 mod = 10**9 + 7
 f = [1, 1, 2, 4]
@@ -91,7 +92,9 @@ class Solution:
             ans = ans * (g[m] if ch in "79" else f[m]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int N = 100010;
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mod int = 1e9 + 7
 const n int = 1e5 + 10
@@ -163,6 +168,7 @@ func countTexts(pressedKeys string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ The time complexity is $O(M \times \log M)$, and the space complexity is $O(M)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOfFlooredPairs(self, nums: List[int]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                     d += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumOfFlooredPairs(int[] nums) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOfFlooredPairs(nums []int) (ans int) {
 	mx := slices.Max(nums)
@@ -166,7 +173,9 @@ func sumOfFlooredPairs(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumOfFlooredPairs(nums: number[]): number {
     const mx = Math.max(...nums);
@@ -191,7 +200,9 @@ function sumOfFlooredPairs(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sum_of_floored_pairs(nums: Vec<i32>) -> i32 {
@@ -232,6 +243,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

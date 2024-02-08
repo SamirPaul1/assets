@@ -79,6 +79,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areSentencesSimilar(
@@ -91,7 +92,9 @@ class Solution:
             a == b or (a, b) in s or (b, a) in s for a, b in zip(sentence1, sentence2)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean areSentencesSimilar(
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func areSentencesSimilar(sentence1 []string, sentence2 []string, similarPairs [][]string) bool {
 	if len(sentence1) != len(sentence2) {
@@ -149,6 +156,7 @@ func areSentencesSimilar(sentence1 []string, sentence2 []string, similarPairs []
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

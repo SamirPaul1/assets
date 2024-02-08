@@ -1,6 +1,5 @@
 # [2722. Join Two Arrays by ID](https://leetcode.com/problems/join-two-arrays-by-id)
 
-[中文文档](/solution/2700-2799/2722.Join%20Two%20Arrays%20by%20ID/README.md)
 
 ## Description
 

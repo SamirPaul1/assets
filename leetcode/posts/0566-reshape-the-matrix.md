@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def matrixReshape(self, mat: List[List[int]], r: int, c: int) -> List[List[int]]:
@@ -70,7 +71,9 @@ class Solution:
             ans[i // c][i % c] = mat[i // n][i % n]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] matrixReshape(int[][] mat, int r, int c) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func matrixReshape(mat [][]int, r int, c int) [][]int {
 	m, n := len(mat), len(mat[0])
@@ -120,7 +127,9 @@ func matrixReshape(mat [][]int, r int, c int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function matrixReshape(mat: number[][], r: number, c: number): number[][] {
     let m = mat.length,
@@ -137,7 +146,9 @@ function matrixReshape(mat: number[][], r: number, c: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn matrix_reshape(mat: Vec<Vec<i32>>, r: i32, c: i32) -> Vec<Vec<i32>> {
@@ -170,7 +181,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Return an array of arrays of size *returnSize.
@@ -196,6 +209,7 @@ int** matrixReshape(int** mat, int matSize, int* matColSize, int r, int c, int* 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -203,6 +217,7 @@ int** matrixReshape(int** mat, int matSize, int* matColSize, int r, int c, int* 
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function matrixReshape(mat: number[][], r: number, c: number): number[][] {
     const m = mat.length;
@@ -217,6 +232,7 @@ function matrixReshape(mat: number[][], r: number, c: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

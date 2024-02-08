@@ -72,6 +72,7 @@ House 0 has color 0, and house 1 has color 1. The distance between them is abs(0
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxDistance(self, colors: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                     ans = max(ans, abs(i - j))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxDistance(int[] colors) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxDistance(colors []int) int {
 	ans, n := 0, len(colors)
@@ -133,6 +140,7 @@ func abs(x int) int {
 	return -x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -140,6 +148,7 @@ func abs(x int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxDistance(self, colors: List[int]) -> int:
@@ -153,7 +162,9 @@ class Solution:
             j -= 1
         return max(n - i - 1, j)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxDistance(int[] colors) {
@@ -170,7 +181,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +199,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxDistance(colors []int) int {
 	n := len(colors)
@@ -203,6 +218,7 @@ func maxDistance(colors []int) int {
 	return max(n-i-1, j)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

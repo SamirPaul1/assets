@@ -73,12 +73,15 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isAcronym(self, words: List[str], s: str) -> bool:
         return "".join(w[0] for w in words) == s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isAcronym(List<String> words, String s) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isAcronym(words []string, s string) bool {
 	t := []byte{}
@@ -113,13 +120,17 @@ func isAcronym(words []string, s string) bool {
 	return string(t) == s
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isAcronym(words: string[], s: string): boolean {
     return words.map(w => w[0]).join('') === s;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_acronym(words: Vec<String>, s: String) -> bool {
@@ -130,6 +141,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -145,12 +157,15 @@ The time complexity is $O(n)$, where $n$ is the length of the array $words$. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isAcronym(self, words: List[str], s: str) -> bool:
         return len(words) == len(s) and all(w[0] == c for w, c in zip(words, s))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isAcronym(List<String> words, String s) {
@@ -166,7 +181,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -183,7 +200,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isAcronym(words []string, s string) bool {
 	if len(words) != len(s) {
@@ -197,7 +216,9 @@ func isAcronym(words []string, s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isAcronym(words: string[], s: string): boolean {
     if (words.length !== s.length) {
@@ -211,7 +232,9 @@ function isAcronym(words: string[], s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_acronym(words: Vec<String>, s: String) -> bool {
@@ -227,6 +250,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

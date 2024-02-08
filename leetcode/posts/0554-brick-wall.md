@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def leastBricks(self, wall: List[List[int]]) -> int:
@@ -71,7 +72,9 @@ class Solution:
             return len(wall)
         return len(wall) - cnt[max(cnt, key=cnt.get)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int leastBricks(List<List<Integer>> wall) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func leastBricks(wall [][]int) int {
 	cnt := make(map[int]int)
@@ -108,7 +113,9 @@ func leastBricks(wall [][]int) int {
 	return len(wall) - max
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} wall
@@ -130,6 +137,7 @@ var leastBricks = function (wall) {
     return wall.length - max;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

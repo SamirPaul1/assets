@@ -45,6 +45,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generatePalindromes(self, s: str) -> List[str]:
@@ -70,7 +71,9 @@ class Solution:
         dfs(mid)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<String> ans = new ArrayList<>();
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generatePalindromes(s string) []string {
 	cnt := map[byte]int{}
@@ -186,6 +193,7 @@ func generatePalindromes(s string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

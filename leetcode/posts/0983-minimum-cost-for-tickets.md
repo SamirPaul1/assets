@@ -78,6 +78,7 @@ In total, you spent $17 and covered all the days of your travel.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
 
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int[] T = new int[] {1, 7, 30};
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mincostTickets(days []int, costs []int) int {
 	t := []int{1, 7, 30}
@@ -214,7 +221,9 @@ func lowerBound(arr []int, x int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mincostTickets(days: number[], costs: number[]): number {
     const n = days.length,
@@ -230,6 +239,7 @@ function mincostTickets(days: number[], costs: number[]): number {
     return dp[m - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

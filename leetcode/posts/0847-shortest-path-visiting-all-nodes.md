@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                         q.append((j, nst))
             ans += 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestPathLength(int[][] graph) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestPathLength(graph [][]int) int {
 	n := len(graph)
@@ -172,7 +179,9 @@ func shortestPathLength(graph [][]int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestPathLength(graph: number[][]): number {
     const n = graph.length;
@@ -199,7 +208,9 @@ function shortestPathLength(graph: number[][]): number {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -236,6 +247,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -243,6 +255,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
@@ -267,7 +280,9 @@ class Solution:
                     heappush(q, (dist[v][nxt] + f(nxt), v, nxt))
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -311,7 +326,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -349,6 +366,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

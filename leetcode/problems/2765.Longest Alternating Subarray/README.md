@@ -1,6 +1,5 @@
 # [2765. Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray)
 
-[中文文档](/solution/2700-2799/2765.Longest%20Alternating%20Subarray/README.md)
 
 ## Description
 

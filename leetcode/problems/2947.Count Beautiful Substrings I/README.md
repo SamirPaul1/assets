@@ -1,6 +1,5 @@
 # [2947. Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i)
 
-[中文文档](/solution/2900-2999/2947.Count%20Beautiful%20Substrings%20I/README.md)
 
 ## Description
 

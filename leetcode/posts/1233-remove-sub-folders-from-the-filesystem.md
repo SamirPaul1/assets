@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log n \times m)$, and the space complexity i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
@@ -87,7 +88,9 @@ class Solution:
                 ans.append(f)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> removeSubfolders(String[] folder) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeSubfolders(folder []string) []string {
 	sort.Strings(folder)
@@ -139,6 +146,7 @@ func removeSubfolders(folder []string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -152,6 +160,7 @@ The time complexity is $O(n \times m)$, and the space complexity is $O(n \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -187,7 +196,9 @@ class Solution:
             trie.insert(i, f)
         return [folder[i] for i in trie.search()]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Map<String, Trie> children = new HashMap<>();
@@ -237,7 +248,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -299,7 +312,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children map[string]*Trie
@@ -351,6 +366,7 @@ func removeSubfolders(folder []string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -358,6 +374,7 @@ func removeSubfolders(folder []string) []string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children map[string]*Trie
@@ -406,6 +423,7 @@ func removeSubfolders(folder []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

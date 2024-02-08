@@ -79,6 +79,7 @@ The time complexity is $O(n)$ and the space complexity is $O(n)$. Where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -91,7 +92,9 @@ class Solution:
                 t[-3:] = []
         return not t
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isValid(String s) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isValid(s string) bool {
 	if len(s)%3 > 0 {
@@ -144,7 +151,9 @@ func isValid(s string) bool {
 	return len(t) == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isValid(s: string): boolean {
     if (s.length % 3 !== 0) {
@@ -160,6 +169,7 @@ function isValid(s: string): boolean {
     return t.length === 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

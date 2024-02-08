@@ -63,13 +63,16 @@ It can be shown that it is not possible to form more than 3 groups.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumGroups(self, grades: List[int]) -> int:
         n = len(grades)
         return bisect_right(range(n + 1), n * 2, key=lambda x: x * x + x) - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumGroups(int[] grades) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumGroups(grades []int) int {
 	n := len(grades)
@@ -116,7 +123,9 @@ func maximumGroups(grades []int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumGroups(grades: number[]): number {
     const n = grades.length;
@@ -133,6 +142,7 @@ function maximumGroups(grades: number[]): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

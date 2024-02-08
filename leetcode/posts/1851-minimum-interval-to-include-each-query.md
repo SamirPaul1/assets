@@ -81,6 +81,7 @@ The time complexity is $O(n \times \log n + m \times \log m)$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minInterval(self, intervals: List[List[int]], queries: List[int]) -> List[int]:
@@ -101,7 +102,9 @@ class Solution:
                 ans[j] = pq[0][0]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] minInterval(int[][] intervals, int[] queries) {
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minInterval(intervals [][]int, queries []int) []int {
 	n, m := len(intervals), len(queries)
@@ -206,6 +213,7 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(pair)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

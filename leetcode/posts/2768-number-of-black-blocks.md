@@ -81,6 +81,7 @@ Time complexity $O(l)$, space complexity $O(l)$, where $l$ is the length of $coo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countBlackBlocks(
@@ -98,7 +99,9 @@ class Solution:
         ans[0] = (m - 1) * (n - 1) - len(cnt.values())
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] countBlackBlocks(int m, int n, int[][] coordinates) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countBlackBlocks(m int, n int, coordinates [][]int) []int64 {
 	cnt := map[int64]int{}
@@ -172,7 +179,9 @@ func countBlackBlocks(m int, n int, coordinates [][]int) []int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countBlackBlocks(m: number, n: number, coordinates: number[][]): number[] {
     const cnt: Map<number, number> = new Map();
@@ -195,6 +204,7 @@ function countBlackBlocks(m: number, n: number, coordinates: number[][]): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

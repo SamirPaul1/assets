@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numFactoredBinaryTrees(self, arr: List[int]) -> int:
@@ -70,7 +71,9 @@ class Solution:
                     f[i] = (f[i] + f[j] * f[idx[c]]) % mod
         return sum(f) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numFactoredBinaryTrees(int[] arr) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numFactoredBinaryTrees(arr []int) int {
 	const mod int = 1e9 + 7
@@ -166,7 +173,9 @@ func numFactoredBinaryTrees(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numFactoredBinaryTrees(arr: number[]): number {
     const mod = 10 ** 9 + 7;
@@ -193,6 +202,7 @@ function numFactoredBinaryTrees(arr: number[]): number {
     return f.reduce((a, b) => a + b) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2278. Percentage of Letter in String](https://leetcode.com/problems/percentage-of-letter-in-string)
 
-[中文文档](/solution/2200-2299/2278.Percentage%20of%20Letter%20in%20String/README.md)
 
 ## Description
 

@@ -73,6 +73,7 @@ The time complexity is $O(n)$, where $n$ is the given positive integer $n$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pivotInteger(self, n: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 return x
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int pivotInteger(int n) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pivotInteger(n int) int {
 	for x := 1; x <= n; x++ {
@@ -119,7 +126,9 @@ func pivotInteger(n int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function pivotInteger(n: number): number {
     for (let x = 1; x <= n; ++x) {
@@ -130,7 +139,9 @@ function pivotInteger(n: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn pivot_integer(n: i32) -> i32 {
@@ -145,7 +156,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -165,6 +178,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -188,6 +202,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pivotInteger(self, n: int) -> int:
@@ -195,7 +210,9 @@ class Solution:
         x = int(sqrt(y))
         return x if x * x == y else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int pivotInteger(int n) {
@@ -205,7 +222,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -216,7 +235,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pivotInteger(n int) int {
 	y := n * (n + 1) / 2
@@ -227,7 +248,9 @@ func pivotInteger(n int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function pivotInteger(n: number): number {
     const y = Math.floor((n * (n + 1)) / 2);
@@ -235,6 +258,7 @@ function pivotInteger(n: number): number {
     return x * x === y ? x : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def repeatedStringMatch(self, a: str, b: str) -> int:
@@ -66,7 +67,9 @@ class Solution:
             t.append(a)
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int repeatedStringMatch(String a, String b) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func repeatedStringMatch(a string, b string) int {
 	m, n := len(a), len(b)
@@ -118,7 +125,9 @@ func repeatedStringMatch(a string, b string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function repeatedStringMatch(a: string, b: string): number {
     const m: number = a.length,
@@ -137,6 +146,7 @@ function repeatedStringMatch(a: string, b: string): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2578. Split With Minimum Sum](https://leetcode.com/problems/split-with-minimum-sum)
 
-[中文文档](/solution/2500-2599/2578.Split%20With%20Minimum%20Sum/README.md)
 
 ## Description
 

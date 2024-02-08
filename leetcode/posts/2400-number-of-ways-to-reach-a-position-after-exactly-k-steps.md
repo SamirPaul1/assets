@@ -75,6 +75,7 @@ The time complexity is $O(k^2)$, and the space complexity is $O(k^2)$. Here, $k$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWays(self, startPos: int, endPos: int, k: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(abs(startPos - endPos), k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWays(startPos int, endPos int, k int) int {
 	const mod = 1e9 + 7
@@ -179,7 +186,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfWays(startPos: number, endPos: number, k: number): number {
     const mod = 10 ** 9 + 7;
@@ -201,6 +210,7 @@ function numberOfWays(startPos: number, endPos: number, k: number): number {
     return dfs(Math.abs(startPos - endPos), k);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

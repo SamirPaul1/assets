@@ -63,6 +63,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumPopulation(self, logs: List[List[int]]) -> int:
@@ -79,7 +80,9 @@ class Solution:
                 mx, j = s, i
         return j + offset
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumPopulation(int[][] logs) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumPopulation(logs [][]int) int {
 	d := [101]int{}
@@ -151,7 +158,9 @@ func maximumPopulation(logs [][]int) int {
 	return j + offset
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumPopulation(logs: number[][]): number {
     const d: number[] = new Array(101).fill(0);
@@ -171,7 +180,9 @@ function maximumPopulation(logs: number[][]): number {
     return j + offset;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} logs
@@ -197,6 +208,7 @@ var maximumPopulation = function (logs) {
     return j + offset;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

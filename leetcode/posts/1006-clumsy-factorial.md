@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def clumsy(self, N: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
             op = (op + 1) % 4
         return sum(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int clumsy(int N) {
@@ -111,6 +114,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

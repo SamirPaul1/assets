@@ -81,6 +81,7 @@ Scores table:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -94,7 +95,9 @@ def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
 
     return result_df
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -102,6 +105,7 @@ SELECT
     DENSE_RANK() OVER (ORDER BY score DESC) AS 'rank'
 FROM Scores;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -109,6 +113,7 @@ FROM Scores;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     Score,
@@ -130,6 +135,7 @@ FROM
             Score DESC
     ) s;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

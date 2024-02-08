@@ -75,6 +75,7 @@ We return the array [2,1].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayChange(self, nums: List[int], operations: List[List[int]]) -> List[int]:
@@ -84,7 +85,9 @@ class Solution:
             d[b] = d[a]
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] arrayChange(int[] nums, int[][] operations) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayChange(nums []int, operations [][]int) []int {
 	d := map[int]int{}
@@ -134,7 +141,9 @@ func arrayChange(nums []int, operations [][]int) []int {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arrayChange(nums: number[], operations: number[][]): number[] {
     const d = new Map(nums.map((v, i) => [v, i]));
@@ -145,6 +154,7 @@ function arrayChange(nums: number[], operations: number[][]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

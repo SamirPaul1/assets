@@ -50,12 +50,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPowerOfFour(self, n: int) -> bool:
         return n > 0 and (n & (n - 1)) == 0 and (n & 0xAAAAAAAA) == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPowerOfFour(int n) {
@@ -63,7 +66,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -72,19 +77,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPowerOfFour(n int) bool {
 	return n > 0 && (n&(n-1)) == 0 && (n&0xaaaaaaaa) == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPowerOfFour(n: number): boolean {
     return n > 0 && (n & (n - 1)) == 0 && (n & 0xaaaaaaaa) == 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -94,6 +105,7 @@ var isPowerOfFour = function (n) {
     return n > 0 && (n & (n - 1)) == 0 && (n & 0xaaaaaaaa) == 0;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

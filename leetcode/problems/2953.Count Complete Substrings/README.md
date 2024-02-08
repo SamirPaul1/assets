@@ -1,6 +1,5 @@
 # [2953. Count Complete Substrings](https://leetcode.com/problems/count-complete-substrings)
 
-[中文文档](/solution/2900-2999/2953.Count%20Complete%20Substrings/README.md)
 
 ## Description
 

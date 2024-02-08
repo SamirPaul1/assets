@@ -1,6 +1,5 @@
 # [1020. Number of Enclaves](https://leetcode.com/problems/number-of-enclaves)
 
-[中文文档](/solution/1000-1099/1020.Number%20of%20Enclaves/README.md)
 
 ## Description
 

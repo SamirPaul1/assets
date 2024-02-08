@@ -1,6 +1,5 @@
 # [2917. Find the K-or of an Array](https://leetcode.com/problems/find-the-k-or-of-an-array)
 
-[中文文档](/solution/2900-2999/2917.Find%20the%20K-or%20of%20an%20Array/README.md)
 
 ## Description
 

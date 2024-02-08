@@ -80,6 +80,7 @@ Note that the rows in the output are the same as in the input.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -90,6 +91,7 @@ SELECT
     END AS drink
 FROM CoffeeShop;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -97,6 +99,7 @@ FROM CoffeeShop;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -123,6 +126,7 @@ SELECT
     ) AS drink
 FROM T;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

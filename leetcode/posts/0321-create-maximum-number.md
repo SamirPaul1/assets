@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNumber(self, nums1: List[int], nums2: List[int], k: int) -> List[int]:
@@ -118,7 +119,9 @@ class Solution:
                 ans = arr
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maxNumber(int[] nums1, int[] nums2, int k) {
@@ -186,7 +189,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -254,7 +259,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNumber(nums1 []int, nums2 []int, k int) []int {
 	m, n := len(nums1), len(nums2)
@@ -324,7 +331,9 @@ func maxNumber(nums1 []int, nums2 []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxNumber(nums1: number[], nums2: number[], k: number): number[] {
     const m = nums1.length;
@@ -394,6 +403,7 @@ function merge(nums1: number[], nums2: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -55,12 +55,15 @@ The time complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestEvenMultiple(self, n: int) -> int:
         return n if n % 2 == 0 else n * 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestEvenMultiple(int n) {
@@ -68,7 +71,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -77,7 +82,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestEvenMultiple(n int) int {
 	if n%2 == 0 {
@@ -86,13 +93,17 @@ func smallestEvenMultiple(n int) int {
 	return n * 2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestEvenMultiple(n: number): number {
     return n % 2 === 0 ? n : n * 2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn smallest_even_multiple(n: i32) -> i32 {
@@ -103,12 +114,15 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int smallestEvenMultiple(int n) {
     return n % 2 == 0 ? n : n * 2;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

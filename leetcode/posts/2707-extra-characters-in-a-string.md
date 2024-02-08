@@ -76,6 +76,7 @@ The time complexity is $O(n^3 + L)$, and the space complexity is $O(n + L)$. Her
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minExtraChar(self, s: str, dictionary: List[str]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                     f[i] = f[j]
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minExtraChar(String s, String[] dictionary) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minExtraChar(s string, dictionary []string) int {
 	ss := map[string]bool{}
@@ -153,7 +160,9 @@ func minExtraChar(s string, dictionary []string) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minExtraChar(s: string, dictionary: string[]): number {
     const ss = new Set(dictionary);
@@ -170,7 +179,9 @@ function minExtraChar(s: string, dictionary: string[]): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 
@@ -191,6 +202,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +218,7 @@ The time complexity is $O(n^2 + L)$, and the space complexity is $O(n + L \times
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     __slots__ = ['children', 'is_end']
@@ -240,7 +253,9 @@ class Solution:
                     f[i] = f[j]
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node[] children = new Node[26];
@@ -280,7 +295,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -327,7 +344,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Node struct {
 	children [26]*Node
@@ -366,7 +385,9 @@ func minExtraChar(s string, dictionary []string) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Node {
     children: (Node | null)[] = Array(26).fill(null);
@@ -406,6 +427,7 @@ function minExtraChar(s: string, dictionary: string[]): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

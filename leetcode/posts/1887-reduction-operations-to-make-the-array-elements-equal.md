@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reductionOperations(self, nums: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             ans += cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reductionOperations(int[] nums) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reductionOperations(nums []int) int {
 	sort.Ints(nums)
@@ -131,7 +138,9 @@ func reductionOperations(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reductionOperations(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -146,7 +155,9 @@ function reductionOperations(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int ReductionOperations(int[] nums) {
@@ -162,6 +173,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +181,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reductionOperations(self, nums: List[int]) -> int:
@@ -178,7 +191,9 @@ class Solution:
             cnt += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reductionOperations(int[] nums) {
@@ -195,7 +210,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -211,6 +228,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

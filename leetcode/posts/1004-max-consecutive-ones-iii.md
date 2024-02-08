@@ -54,6 +54,7 @@ Bolded numbers were flipped from 0 to 1. The longest subarray is underlined.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
@@ -69,7 +70,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestOnes(int[] nums, int k) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestOnes(nums []int, k int) int {
 	ans := 0
@@ -132,7 +139,9 @@ func longestOnes(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestOnes(nums: number[], k: number): number {
     const n = nums.length;
@@ -148,7 +157,9 @@ function longestOnes(nums: number[], k: number): number {
     return n - l;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_ones(nums: Vec<i32>, mut k: i32) -> i32 {
@@ -169,6 +180,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -176,6 +188,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
@@ -190,7 +203,9 @@ class Solution:
                     k += 1
         return r - l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestOnes(int[] nums, int k) {
@@ -207,7 +222,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -221,7 +238,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestOnes(nums []int, k int) int {
 	l, r := -1, -1
@@ -240,7 +259,9 @@ func longestOnes(nums []int, k int) int {
 	return r - l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestOnes(nums: number[], k: number): number {
     const n = nums.length;
@@ -258,6 +279,7 @@ function longestOnes(nums: number[], k: number): number {
     return Math.max(res, n - l);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

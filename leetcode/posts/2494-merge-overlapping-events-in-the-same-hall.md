@@ -82,6 +82,7 @@ Hall 3:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -122,6 +123,7 @@ SELECT hall_id, MIN(start_day) AS start_day, MAX(end_day) AS end_day
 FROM P
 GROUP BY hall_id, gid;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

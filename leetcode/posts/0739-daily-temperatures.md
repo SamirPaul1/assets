@@ -46,6 +46,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
@@ -58,7 +59,9 @@ class Solution:
             stk.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dailyTemperatures(temperatures []int) []int {
 	ans := make([]int, len(temperatures))
@@ -111,7 +118,9 @@ func dailyTemperatures(temperatures []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dailyTemperatures(temperatures: number[]): number[] {
     const n = temperatures.length;
@@ -129,7 +138,9 @@ function dailyTemperatures(temperatures: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn daily_temperatures(temperatures: Vec<i32>) -> Vec<i32> {
@@ -147,7 +158,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} temperatures
@@ -169,6 +182,7 @@ var dailyTemperatures = function (temperatures) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -176,6 +190,7 @@ var dailyTemperatures = function (temperatures) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
@@ -190,7 +205,9 @@ class Solution:
             stk.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
@@ -210,7 +227,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -227,7 +246,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dailyTemperatures(temperatures []int) []int {
 	n := len(temperatures)
@@ -245,6 +266,7 @@ func dailyTemperatures(temperatures []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

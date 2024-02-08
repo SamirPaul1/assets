@@ -70,6 +70,7 @@ The number of positions that have a 1 in both images is 3 (shown in red).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestOverlap(self, img1: List[List[int]], img2: List[List[int]]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                                 cnt[(i - h, j - k)] += 1
         return max(cnt.values()) if cnt else 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestOverlap(int[][] img1, int[][] img2) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestOverlap(img1 [][]int, img2 [][]int) (ans int) {
 	type pair struct{ x, y int }
@@ -157,7 +164,9 @@ func largestOverlap(img1 [][]int, img2 [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestOverlap(img1: number[][], img2: number[][]): number {
     const n = img1.length;
@@ -181,6 +190,7 @@ function largestOverlap(img1: number[][], img2: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

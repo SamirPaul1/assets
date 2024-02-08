@@ -59,6 +59,7 @@ The time complexity is $O(n^2)$, where $n$ is the side length of the matrix. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
@@ -70,7 +71,9 @@ class Solution:
             for j in range(i):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void rotate(int[][] matrix) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rotate(matrix [][]int) {
 	n := len(matrix)
@@ -127,7 +134,9 @@ func rotate(matrix [][]int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify matrix in-place instead.
@@ -143,7 +152,9 @@ function rotate(matrix: number[][]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn rotate(matrix: &mut Vec<Vec<i32>>) {
@@ -165,7 +176,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -180,7 +193,9 @@ var rotate = function (matrix) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public void Rotate(int[][] matrix) {
@@ -202,6 +217,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

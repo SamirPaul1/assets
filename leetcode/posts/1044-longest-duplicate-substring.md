@@ -45,6 +45,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestDupSubstring(self, s: str) -> str:
@@ -70,7 +71,9 @@ class Solution:
                 right = mid - 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private long[] p;
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef unsigned long long ULL;
 
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestDupSubstring(s string) string {
 	base, n := 131, len(s)
@@ -197,6 +204,7 @@ func longestDupSubstring(s string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

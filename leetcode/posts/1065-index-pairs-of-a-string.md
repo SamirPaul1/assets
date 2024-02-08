@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def indexPairs(self, text: str, words: List[str]) -> List[List[int]]:
@@ -65,7 +66,9 @@ class Solution:
             [i, j] for i in range(n) for j in range(i, n) if text[i : j + 1] in words
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[26];
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -197,6 +204,7 @@ func indexPairs(text string, words []string) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -204,6 +212,7 @@ func indexPairs(text string, words []string) [][]int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -238,6 +247,7 @@ class Solution:
                     ans.append([i, j])
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,13 +74,16 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reversePrefix(self, word: str, ch: str) -> str:
         i = word.find(ch)
         return word if i == -1 else word[i::-1] + word[i + 1 :]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reversePrefix(String word, char ch) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reversePrefix(word string, ch byte) string {
 	j := strings.IndexByte(word, ch)
@@ -126,7 +133,9 @@ func reversePrefix(word string, ch byte) string {
 	return string(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reversePrefix(word: string, ch: string): string {
     const i = word.indexOf(ch) + 1;
@@ -136,7 +145,9 @@ function reversePrefix(word: string, ch: string): string {
     return [...word.slice(0, i)].reverse().join('') + word.slice(i);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_prefix(word: String, ch: char) -> String {
@@ -147,7 +158,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -173,6 +186,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -180,6 +194,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reversePrefix(String word, char ch) {
@@ -194,6 +209,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

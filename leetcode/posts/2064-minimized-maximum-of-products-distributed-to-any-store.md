@@ -79,6 +79,7 @@ The maximum number of products given to any store is max(100000) = 100000.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizedMaximum(self, n: int, quantities: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
 
         return 1 + bisect_left(range(1, 10**6), True, key=check)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimizedMaximum(int n, int[] quantities) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizedMaximum(n int, quantities []int) int {
 	return 1 + sort.Search(1e5, func(x int) bool {
@@ -143,7 +150,9 @@ func minimizedMaximum(n int, quantities []int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimizedMaximum(n: number, quantities: number[]): number {
     let left = 1;
@@ -163,6 +172,7 @@ function minimizedMaximum(n: number, quantities: number[]): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

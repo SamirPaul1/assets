@@ -76,6 +76,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestSubarray(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 cnt = 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestSubarray(int[] nums) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestSubarray(nums []int) int {
 	mx := slices.Max(nums)
@@ -145,6 +152,7 @@ func longestSubarray(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

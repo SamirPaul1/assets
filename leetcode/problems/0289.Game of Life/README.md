@@ -1,6 +1,5 @@
 # [289. Game of Life](https://leetcode.com/problems/game-of-life)
 
-[中文文档](/solution/0200-0299/0289.Game%20of%20Life/README.md)
 
 ## Description
 

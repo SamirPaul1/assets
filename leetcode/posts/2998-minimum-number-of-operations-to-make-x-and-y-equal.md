@@ -85,6 +85,7 @@ It can be shown that 5 is the minimum number of operations required to make 25 e
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperationsToMakeEqual(self, x: int, y: int) -> int:
@@ -101,7 +102,9 @@ class Solution:
 
         return dfs(x)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Integer> f = new HashMap<>();
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperationsToMakeEqual(x int, y int) int {
 	f := map[int]int{}
@@ -175,7 +182,9 @@ func minimumOperationsToMakeEqual(x int, y int) int {
 	return dfs(x)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOperationsToMakeEqual(x: number, y: number): number {
     const f: Map<number, number> = new Map();
@@ -197,6 +206,7 @@ function minimumOperationsToMakeEqual(x: number, y: number): number {
     return dfs(x);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

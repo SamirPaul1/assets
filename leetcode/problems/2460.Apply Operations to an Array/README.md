@@ -1,6 +1,5 @@
 # [2460. Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array)
 
-[中文文档](/solution/2400-2499/2460.Apply%20Operations%20to%20an%20Array/README.md)
 
 ## Description
 

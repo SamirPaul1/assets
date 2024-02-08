@@ -90,6 +90,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortArray(self, nums: List[int]) -> int:
@@ -112,7 +113,9 @@ class Solution:
         b = f([(v - 1 + n) % n for v in nums], n - 1)
         return min(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sortArray(int[] nums) {
@@ -148,7 +151,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortArray(nums []int) int {
 	n := len(nums)
@@ -212,6 +219,7 @@ func sortArray(nums []int) int {
 	return min(a, b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

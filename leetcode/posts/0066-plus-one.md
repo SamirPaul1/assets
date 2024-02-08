@@ -73,6 +73,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. Ignoring th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
@@ -84,7 +85,9 @@ class Solution:
                 return digits
         return [1] + digits
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] plusOne(int[] digits) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func plusOne(digits []int) []int {
 	n := len(digits)
@@ -131,7 +138,9 @@ func plusOne(digits []int) []int {
 	return append([]int{1}, digits...)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function plusOne(digits: number[]): number[] {
     const n = digits.length;
@@ -144,7 +153,9 @@ function plusOne(digits: number[]): number[] {
     return [1, ...digits];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn plus_one(mut digits: Vec<i32>) -> Vec<i32> {
@@ -161,7 +172,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} digits
@@ -178,6 +191,7 @@ var plusOne = function (digits) {
     return [1, ...digits];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

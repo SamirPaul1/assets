@@ -1,6 +1,5 @@
 # [2317. Maximum XOR After Operations](https://leetcode.com/problems/maximum-xor-after-operations)
 
-[中文文档](/solution/2300-2399/2317.Maximum%20XOR%20After%20Operations/README.md)
 
 ## Description
 

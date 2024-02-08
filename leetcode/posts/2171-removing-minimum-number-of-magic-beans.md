@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumRemoval(self, beans: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
         s, n = sum(beans), len(beans)
         return min(s - x * (n - i) for i, x in enumerate(beans))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumRemoval(int[] beans) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumRemoval(beans []int) int64 {
 	sort.Ints(beans)
@@ -133,7 +140,9 @@ func minimumRemoval(beans []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumRemoval(beans: number[]): number {
     beans.sort((a, b) => a - b);
@@ -146,6 +155,7 @@ function minimumRemoval(beans: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

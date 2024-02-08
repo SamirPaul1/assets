@@ -78,6 +78,7 @@ The absolute difference is 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeTheDifference(self, mat: List[List[int]], target: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
             f = set(a + b for a in f for b in row)
         return min(abs(v - target) for v in f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimizeTheDifference(int[][] mat, int target) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizeTheDifference(mat [][]int, target int) int {
 	f := []int{1}
@@ -165,6 +172,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -172,6 +180,7 @@ func abs(x int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimizeTheDifference(int[][] mat, int target) {
@@ -199,6 +208,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

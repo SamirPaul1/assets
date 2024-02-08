@@ -80,13 +80,16 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctAverages(self, nums: List[int]) -> int:
         nums.sort()
         return len(set(nums[i] + nums[-i - 1] for i in range(len(nums) >> 1)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distinctAverages(int[] nums) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctAverages(nums []int) (ans int) {
 	sort.Ints(nums)
@@ -127,7 +134,9 @@ func distinctAverages(nums []int) (ans int) {
 	return len(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctAverages(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -139,7 +148,9 @@ function distinctAverages(nums: number[]): number {
     return s.size;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn distinct_averages(nums: Vec<i32>) -> i32 {
@@ -162,6 +173,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +181,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctAverages(self, nums: List[int]) -> int:
@@ -182,7 +195,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distinctAverages(int[] nums) {
@@ -199,7 +214,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -217,7 +234,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctAverages(nums []int) (ans int) {
 	sort.Ints(nums)
@@ -233,7 +252,9 @@ func distinctAverages(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctAverages(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -248,7 +269,9 @@ function distinctAverages(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -273,6 +296,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -280,6 +304,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 
@@ -306,6 +331,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

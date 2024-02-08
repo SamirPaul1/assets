@@ -1,6 +1,5 @@
 # [2324. Product Sales Analysis IV](https://leetcode.com/problems/product-sales-analysis-iv)
 
-[中文文档](/solution/2300-2399/2324.Product%20Sales%20Analysis%20IV/README.md)
 
 ## Description
 

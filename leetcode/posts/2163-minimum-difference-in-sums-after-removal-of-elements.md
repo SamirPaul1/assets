@@ -77,6 +77,7 @@ It can be shown that it is not possible to obtain a difference smaller than 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDifference(self, nums: List[int]) -> int:
@@ -106,7 +107,9 @@ class Solution:
 
         return min(pre[i] - suf[i + 1] for i in range(n, n * 2 + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumDifference(int[] nums) {
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -187,7 +192,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDifference(nums []int) int64 {
 	m := len(nums)
@@ -234,7 +241,9 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDifference(nums: number[]): number {
     const m = nums.length;
@@ -270,6 +279,7 @@ function minimumDifference(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

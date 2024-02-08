@@ -71,6 +71,7 @@ The relative ordering of the elements less than and greater than pivot is also m
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pivotArray(self, nums: List[int], pivot: int) -> List[int]:
@@ -84,7 +85,9 @@ class Solution:
                 c.append(x)
         return a + b + c
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] pivotArray(int[] nums, int pivot) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pivotArray(nums []int, pivot int) []int {
 	var ans []int
@@ -148,6 +155,7 @@ func pivotArray(nums []int, pivot int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

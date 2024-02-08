@@ -66,6 +66,7 @@ But according to requirement 2, [1,4] is illegal; according to requirement 3,  [
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def constructRectangle(self, area: int) -> List[int]:
@@ -74,7 +75,9 @@ class Solution:
             w -= 1
         return [area // w, w]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] constructRectangle(int area) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,7 +102,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func constructRectangle(area int) []int {
 	w := int(math.Sqrt(float64(area)))
@@ -107,6 +114,7 @@ func constructRectangle(area int) []int {
 	return []int{area / w, w}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

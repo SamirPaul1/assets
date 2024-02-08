@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestSubsequence(self, s: str) -> str:
@@ -68,7 +69,9 @@ class Solution:
             vis.add(c)
         return "".join(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String smallestSubsequence(String text) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestSubsequence(s string) string {
 	last := make([]int, 26)
@@ -144,7 +151,9 @@ func smallestSubsequence(s string) string {
 	return string(stk)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestSubsequence(s: string): string {
     const f = (c: string): number => c.charCodeAt(0) - 'a'.charCodeAt(0);
@@ -168,6 +177,7 @@ function smallestSubsequence(s: string): string {
     return stk.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -175,6 +185,7 @@ function smallestSubsequence(s: string): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String smallestSubsequence(String s) {
@@ -204,6 +215,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

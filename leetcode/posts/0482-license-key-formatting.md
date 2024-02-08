@@ -58,6 +58,7 @@ Note that the two extra dashes are not needed and can be removed.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:
@@ -75,7 +76,9 @@ class Solution:
                     res.append('-')
         return ''.join(res)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String licenseKeyFormatting(String s, int k) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func licenseKeyFormatting(s string, k int) string {
 	s = strings.ReplaceAll(s, "-", "")
@@ -153,6 +160,7 @@ func licenseKeyFormatting(s string, k int) string {
 	return string(res)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

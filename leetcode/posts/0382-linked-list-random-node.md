@@ -72,6 +72,7 @@ solution.getRandom(); // return 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -98,7 +99,9 @@ class Solution:
 # obj = Solution(head)
 # param_1 = obj.getRandom()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -137,7 +140,9 @@ class Solution {
  * int param_1 = obj.getRandom();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -174,7 +179,9 @@ public:
  * int param_1 = obj->getRandom();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -209,6 +216,7 @@ func (this *Solution) GetRandom() int {
  * param_1 := obj.GetRandom();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

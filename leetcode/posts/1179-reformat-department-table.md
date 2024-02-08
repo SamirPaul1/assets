@@ -75,6 +75,7 @@ Note that the result table has 13 columns (1 for the department id + 12 for the 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -142,6 +143,7 @@ SELECT
 FROM Department
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

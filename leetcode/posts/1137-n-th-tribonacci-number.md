@@ -65,6 +65,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tribonacci(self, n: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
             a, b, c = b, c, a + b + c
         return a
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int tribonacci(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tribonacci(n int) int {
 	a, b, c := 0, 1, 1
@@ -114,7 +121,9 @@ func tribonacci(n int) int {
 	return a
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tribonacci(n: number): number {
     if (n === 0) {
@@ -156,7 +165,9 @@ function pow(a: number[][], n: number): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -175,7 +186,9 @@ var tribonacci = function (n) {
     return a;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -196,6 +209,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -227,6 +241,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tribonacci(self, n: int) -> int:
@@ -255,7 +270,9 @@ class Solution:
         a = [[1, 1, 0], [1, 0, 1], [1, 0, 0]]
         return sum(pow(a, n - 3)[0])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int tribonacci(int n) {
@@ -300,7 +317,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -344,7 +363,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tribonacci(n int) (ans int) {
 	if n == 0 {
@@ -389,7 +410,9 @@ func pow(a [][]int, n int) [][]int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -435,6 +458,7 @@ function pow(a, n) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -442,6 +466,7 @@ function pow(a, n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import numpy as np
 
@@ -462,6 +487,7 @@ class Solution:
             n >>= 1
         return res.sum()
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

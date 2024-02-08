@@ -66,6 +66,7 @@ It can be proven that 3 is the maximum possible sum.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kItemsWithMaximumSum(
@@ -77,7 +78,9 @@ class Solution:
             return numOnes
         return numOnes - (k - numOnes - numZeros)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kItemsWithMaximumSum(numOnes int, numZeros int, numNegOnes int, k int) int {
 	if numOnes >= k {
@@ -118,7 +125,9 @@ func kItemsWithMaximumSum(numOnes int, numZeros int, numNegOnes int, k int) int 
 	return numOnes - (k - numOnes - numZeros)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function kItemsWithMaximumSum(
     numOnes: number,
@@ -135,7 +144,9 @@ function kItemsWithMaximumSum(
     return numOnes - (k - numOnes - numZeros);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn k_items_with_maximum_sum(
@@ -156,7 +167,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int KItemsWithMaximumSum(int numOnes, int numZeros, int numNegOnes, int k) {
@@ -170,6 +183,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

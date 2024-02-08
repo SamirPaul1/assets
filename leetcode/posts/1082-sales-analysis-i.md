@@ -97,6 +97,7 @@ Sales table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT seller_id
@@ -109,6 +110,7 @@ HAVING
         GROUP BY seller_id
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -116,6 +118,7 @@ HAVING
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -131,6 +134,7 @@ SELECT seller_id
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2172. Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array)
 
-[中文文档](/solution/2100-2199/2172.Maximum%20AND%20Sum%20of%20Array/README.md)
 
 ## Description
 

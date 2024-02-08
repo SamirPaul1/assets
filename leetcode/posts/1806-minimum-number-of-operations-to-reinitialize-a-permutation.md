@@ -88,6 +88,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reinitializePermutation(self, n: int) -> int:
@@ -101,7 +102,9 @@ class Solution:
             if i == 1:
                 return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reinitializePermutation(int n) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reinitializePermutation(n int) (ans int) {
 	for i := 1; ; {
@@ -156,6 +163,7 @@ func reinitializePermutation(n int) (ans int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

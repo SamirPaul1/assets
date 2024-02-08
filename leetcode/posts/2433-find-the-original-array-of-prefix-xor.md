@@ -87,12 +87,15 @@ The time complexity is $O(n)$, where $n$ is the length of the prefix XOR array. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findArray(self, pref: List[int]) -> List[int]:
         return [a ^ b for a, b in pairwise([0] + pref)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findArray(int[] pref) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findArray(pref []int) []int {
 	n := len(pref)
@@ -131,7 +138,9 @@ func findArray(pref []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findArray(pref: number[]): number[] {
     let ans = pref.slice();
@@ -141,7 +150,9 @@ function findArray(pref: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_array(pref: Vec<i32>) -> Vec<i32> {
@@ -155,7 +166,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -170,6 +183,7 @@ int* findArray(int* pref, int prefSize, int* returnSize) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

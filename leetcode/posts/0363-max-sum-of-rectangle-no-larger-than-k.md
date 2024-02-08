@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -82,7 +83,9 @@ class Solution:
                     ts.add(s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumSubmatrix(int[][] matrix, int k) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumSubmatrix(matrix [][]int, k int) int {
 	m, n := len(matrix), len(matrix[0])
@@ -172,7 +179,9 @@ func maxSumSubmatrix(matrix [][]int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumSubmatrix(matrix: number[][], k: number): number {
     const m = matrix.length;
@@ -840,6 +849,7 @@ class TreeMultiSet<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

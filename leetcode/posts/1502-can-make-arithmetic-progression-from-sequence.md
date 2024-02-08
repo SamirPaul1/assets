@@ -58,6 +58,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
@@ -65,7 +66,9 @@ class Solution:
         d = arr[1] - arr[0]
         return all(b - a == d for a, b in pairwise(arr))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canMakeArithmeticProgression(int[] arr) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canMakeArithmeticProgression(arr []int) bool {
 	sort.Ints(arr)
@@ -109,7 +116,9 @@ func canMakeArithmeticProgression(arr []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canMakeArithmeticProgression(arr: number[]): boolean {
     arr.sort((a, b) => a - b);
@@ -122,7 +131,9 @@ function canMakeArithmeticProgression(arr: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_make_arithmetic_progression(mut arr: Vec<i32>) -> bool {
@@ -137,7 +148,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -153,7 +166,9 @@ var canMakeArithmeticProgression = function (arr) {
     return true;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int cmp(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
@@ -169,6 +184,7 @@ bool canMakeArithmeticProgression(int* arr, int arrSize) {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -182,6 +198,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
@@ -194,7 +211,9 @@ class Solution:
         s = set(arr)
         return all(a + d * i in s for i in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canMakeArithmeticProgression(int[] arr) {
@@ -219,7 +238,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -240,7 +261,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canMakeArithmeticProgression(arr []int) bool {
 	a, b := slices.Min(arr), slices.Max(arr)
@@ -261,7 +284,9 @@ func canMakeArithmeticProgression(arr []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canMakeArithmeticProgression(arr: number[]): boolean {
     const n = arr.length;
@@ -288,7 +313,9 @@ function canMakeArithmeticProgression(arr: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -320,6 +347,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

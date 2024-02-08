@@ -1,6 +1,5 @@
 # [2270. Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array)
 
-[中文文档](/solution/2200-2299/2270.Number%20of%20Ways%20to%20Split%20Array/README.md)
 
 ## Description
 

@@ -68,6 +68,7 @@ Point2D table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT ROUND(SQRT(POW(p1.x - p2.x, 2) + POW(p1.y - p2.y, 2)), 2) AS shortest
@@ -77,6 +78,7 @@ FROM
 ORDER BY 1
 LIMIT 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

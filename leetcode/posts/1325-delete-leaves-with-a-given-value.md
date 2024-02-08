@@ -68,6 +68,7 @@ After removing, new nodes become leaf nodes with value (target = 2) (Picture in 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -87,7 +88,9 @@ class Solution:
             return None
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -168,7 +175,9 @@ func removeLeafNodes(root *TreeNode, target int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -196,6 +205,7 @@ function removeLeafNodes(root: TreeNode | null, target: number): TreeNode | null
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

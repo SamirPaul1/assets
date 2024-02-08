@@ -66,6 +66,7 @@ or 7 -&gt; 6 -&gt; 3 -&gt; 2 -&gt; 1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def integerReplacement(self, n: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int integerReplacement(int n) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func integerReplacement(n int) int {
 	ans := 0
@@ -136,6 +143,7 @@ func integerReplacement(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

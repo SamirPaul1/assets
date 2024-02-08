@@ -1,6 +1,5 @@
 # [2624. Snail Traversal](https://leetcode.com/problems/snail-traversal)
 
-[中文文档](/solution/2600-2699/2624.Snail%20Traversal/README.md)
 
 ## Description
 

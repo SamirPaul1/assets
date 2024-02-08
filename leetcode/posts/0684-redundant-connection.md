@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
@@ -74,7 +75,9 @@ class Solution:
             p[find(a)] = find(b)
         return []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRedundantConnection(edges [][]int) []int {
 	p := make([]int, 1010)
@@ -149,7 +156,9 @@ func findRedundantConnection(edges [][]int) []int {
 	return []int{}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} edges
@@ -172,6 +181,7 @@ var findRedundantConnection = function (edges) {
     return [];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

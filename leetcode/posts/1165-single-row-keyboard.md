@@ -66,6 +66,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def calculateTime(self, keyboard: str, word: str) -> int:
@@ -76,7 +77,9 @@ class Solution:
             i = pos[c]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int calculateTime(String keyboard, String word) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func calculateTime(keyboard string, word string) (ans int) {
 	pos := [26]int{}
@@ -136,7 +143,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function calculateTime(keyboard: string, word: string): number {
     const pos: number[] = Array(26).fill(0);
@@ -153,6 +162,7 @@ function calculateTime(keyboard: string, word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

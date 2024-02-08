@@ -85,6 +85,7 @@ We can optimize the time complexity to $O(n^2)$ using prefix sums. Additionally,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numPermsDISequence(self, s: str) -> int:
@@ -103,7 +104,9 @@ class Solution:
                         f[i][j] = (f[i][j] + f[i - 1][k]) % mod
         return sum(f[n][j] for j in range(n + 1)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numPermsDISequence(String s) {
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numPermsDISequence(s string) (ans int) {
 	const mod = 1e9 + 7
@@ -198,7 +205,9 @@ func numPermsDISequence(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numPermsDISequence(s: string): number {
     const n = s.length;
@@ -229,6 +238,7 @@ function numPermsDISequence(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +246,7 @@ function numPermsDISequence(s: string): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numPermsDISequence(self, s: str) -> int:
@@ -255,7 +266,9 @@ class Solution:
                     pre = (pre + f[i - 1][j]) % mod
         return sum(f[n][j] for j in range(n + 1)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numPermsDISequence(String s) {
@@ -285,7 +298,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -317,7 +332,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numPermsDISequence(s string) (ans int) {
 	const mod = 1e9 + 7
@@ -347,7 +364,9 @@ func numPermsDISequence(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numPermsDISequence(s: string): number {
     const n = s.length;
@@ -377,6 +396,7 @@ function numPermsDISequence(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -384,6 +404,7 @@ function numPermsDISequence(s: string): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numPermsDISequence(self, s: str) -> int:
@@ -404,7 +425,9 @@ class Solution:
             f = g
         return sum(f) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numPermsDISequence(String s) {
@@ -436,7 +459,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -469,7 +494,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numPermsDISequence(s string) (ans int) {
 	const mod = 1e9 + 7
@@ -498,7 +525,9 @@ func numPermsDISequence(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numPermsDISequence(s: string): number {
     const n = s.length;
@@ -528,6 +557,7 @@ function numPermsDISequence(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

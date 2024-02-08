@@ -76,6 +76,7 @@ We can use `GROUP BY` to group the `player_id` and then take the minimum `event_
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -87,13 +88,16 @@ def game_analysis(activity: pd.DataFrame) -> pd.DataFrame:
         .reset_index()
     )
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT player_id, MIN(event_date) AS first_login
 FROM Activity
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

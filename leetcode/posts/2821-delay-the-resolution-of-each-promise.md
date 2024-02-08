@@ -69,6 +69,7 @@ ms = 70
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function delayAll(functions: Function[], ms: number): Function[] {
     return functions.map(fn => {
@@ -79,6 +80,7 @@ function delayAll(functions: Function[], ms: number): Function[] {
     });
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

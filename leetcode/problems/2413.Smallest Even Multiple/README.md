@@ -1,6 +1,5 @@
 # [2413. Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple)
 
-[中文文档](/solution/2400-2499/2413.Smallest%20Even%20Multiple/README.md)
 
 ## Description
 

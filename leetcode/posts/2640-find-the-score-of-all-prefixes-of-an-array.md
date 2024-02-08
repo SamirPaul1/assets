@@ -71,6 +71,7 @@ For the prefix [1, 1, 2, 4, 8, 16], the conversion array is [2, 2, 4, 8, 16, 32]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPrefixScore(self, nums: List[int]) -> List[int]:
@@ -82,7 +83,9 @@ class Solution:
             ans[i] = x + mx + (0 if i == 0 else ans[i - 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] findPrefixScore(int[] nums) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPrefixScore(nums []int) []int64 {
 	n := len(nums)
@@ -129,7 +136,9 @@ func findPrefixScore(nums []int) []int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findPrefixScore(nums: number[]): number[] {
     const n = nums.length;
@@ -142,6 +151,7 @@ function findPrefixScore(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

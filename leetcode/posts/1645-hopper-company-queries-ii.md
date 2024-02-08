@@ -168,6 +168,7 @@ By the end of December --&gt; six active drivers (10, 8, 5, 7, 4, 1) and one acc
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH RECURSIVE
@@ -207,6 +208,7 @@ FROM
         AND s.month = MONTH(t.requested_at)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

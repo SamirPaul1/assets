@@ -114,6 +114,7 @@ Note that &quot;abc&quot; is the file&#39;s content, not buf. buf is the destina
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 The read4 API is already defined for you.
@@ -150,7 +151,9 @@ class Solution:
                     return n
         return i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * The read4 API is defined in the parent class Reader4.
@@ -179,7 +182,9 @@ public class Solution extends Reader4 {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * The read4 API is defined in the parent class Reader4.
@@ -209,7 +214,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * The read4 API is already defined for you.
@@ -243,6 +250,7 @@ var solution = func(read4 func([]byte) int) func([]byte, int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2708. Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group)
 
-[中文文档](/solution/2700-2799/2708.Maximum%20Strength%20of%20a%20Group/README.md)
 
 ## Description
 

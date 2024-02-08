@@ -83,6 +83,7 @@ So the answer is 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDistance(
@@ -105,7 +106,9 @@ class Solution:
         ans = min(dist[i] for i in marked)
         return -1 if ans >= inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDistance(int n, List<List<Integer>> edges, int s, int[] marked) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -176,7 +181,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDistance(n int, edges [][]int, s int, marked []int) int {
 	const inf = 1 << 29
@@ -217,7 +224,9 @@ func minimumDistance(n int, edges [][]int, s int, marked []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDistance(n: number, edges: number[][], s: number, marked: number[]): number {
     const inf = 1 << 29;
@@ -249,6 +258,7 @@ function minimumDistance(n: number, edges: number[][], s: number, marked: number
     return ans >= inf ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

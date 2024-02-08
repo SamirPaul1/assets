@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPalindromePaths(self, parent: List[int], s: str) -> int:
@@ -91,7 +92,9 @@ class Solution:
         dfs(0, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<int[]>[] g;
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPalindromePaths(parent []int, s string) (ans int64) {
 	type pair struct{ i, v int }
@@ -182,7 +189,9 @@ func countPalindromePaths(parent []int, s string) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPalindromePaths(parent: number[], s: string): number {
     const n = parent.length;
@@ -208,6 +217,7 @@ function countPalindromePaths(parent: number[], s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

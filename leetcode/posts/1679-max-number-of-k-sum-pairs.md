@@ -71,6 +71,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 l += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxOperations(int[] nums, int k) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxOperations(nums []int, k int) int {
 	sort.Ints(nums)
@@ -153,7 +160,9 @@ func maxOperations(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxOperations(nums: number[], k: number): number {
     const cnt = new Map();
@@ -169,7 +178,9 @@ function maxOperations(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_operations(nums: Vec<i32>, k: i32) -> i32 {
@@ -195,6 +206,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -210,6 +222,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
@@ -223,7 +236,9 @@ class Solution:
                 cnt[x] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxOperations(int[] nums, int k) {
@@ -243,7 +258,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -262,7 +279,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxOperations(nums []int, k int) (ans int) {
 	cnt := map[int]int{}
@@ -277,7 +296,9 @@ func maxOperations(nums []int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_operations(nums: Vec<i32>, k: i32) -> i32 {
@@ -301,6 +322,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

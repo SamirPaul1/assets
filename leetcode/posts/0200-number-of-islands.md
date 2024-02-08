@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                     ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private char[][] grid;
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numIslands(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
@@ -177,7 +184,9 @@ func numIslands(grid [][]byte) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numIslands(grid: string[][]): number {
     const m = grid.length;
@@ -205,7 +214,9 @@ function numIslands(grid: string[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 const DIRS: [i32; 5] = [-1, 0, 1, 0, -1];
 
@@ -242,7 +253,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System;
 using System.Collections.Generic;
@@ -285,6 +298,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -292,6 +306,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
@@ -316,7 +331,9 @@ class Solution:
                     ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private char[][] grid;
@@ -358,7 +375,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -397,7 +416,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numIslands(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
@@ -429,7 +450,9 @@ func numIslands(grid [][]byte) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numIslands(grid: string[][]): number {
     const m = grid.length;
@@ -462,7 +485,9 @@ function numIslands(grid: string[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -506,6 +531,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -513,6 +539,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
@@ -537,7 +564,9 @@ class Solution:
             for j in range(n)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -582,7 +611,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -621,7 +652,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numIslands(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
@@ -660,7 +693,9 @@ func numIslands(grid [][]byte) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numIslands(grid: string[][]): number {
     const m = grid.length;
@@ -700,7 +735,9 @@ function numIslands(grid: string[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 const DIRS: [usize; 3] = [1, 0, 1];
 
@@ -745,6 +782,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

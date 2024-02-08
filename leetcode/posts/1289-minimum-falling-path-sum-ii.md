@@ -59,6 +59,7 @@ The falling path with the smallest sum is&nbsp;[1,5,7], so the answer is&nbsp;13
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minFallingPathSum(self, grid: List[List[int]]) -> int:
@@ -70,7 +71,9 @@ class Solution:
                 f[i][j] = v + x
         return min(f[n])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minFallingPathSum(int[][] grid) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minFallingPathSum(grid [][]int) int {
 	n := len(grid)
@@ -147,6 +154,7 @@ func minFallingPathSum(grid [][]int) int {
 	return slices.Min(f[n])
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,6 +162,7 @@ func minFallingPathSum(grid [][]int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minFallingPathSum(self, grid: List[List[int]]) -> int:
@@ -173,7 +182,9 @@ class Solution:
             f, g, fp = ff, gg, ffp
         return f
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minFallingPathSum(int[][] grid) {
@@ -201,7 +212,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -230,7 +243,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minFallingPathSum(grid [][]int) int {
 	const inf = 1 << 30
@@ -256,6 +271,7 @@ func minFallingPathSum(grid [][]int) int {
 	return f
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

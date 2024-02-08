@@ -1,6 +1,5 @@
 # [2895. Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time)
 
-[中文文档](/solution/2800-2899/2895.Minimum%20Processing%20Time/README.md)
 
 ## Description
 

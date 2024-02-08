@@ -143,6 +143,7 @@ Purchases table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -160,6 +161,7 @@ FROM
     LEFT JOIN Purchases AS p ON v.visit_id = p.visit_id
 GROUP BY member_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ The length of the path is 1 + 1 + 3 + 1 + 2 + 2 + 2 = 12.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestDistance(
@@ -97,7 +98,9 @@ class Solution:
                     q.append((x, y))
         return -1 if dist[di][dj] == inf else dist[di][dj]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestDistance(int[][] maze, int[] start, int[] destination) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -170,7 +175,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestDistance(maze [][]int, start []int, destination []int) int {
 	m, n := len(maze), len(maze[0])
@@ -208,7 +215,9 @@ func shortestDistance(maze [][]int, start []int, destination []int) int {
 	return dist[di][dj]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestDistance(maze: number[][], start: number[], destination: number[]): number {
     const m = maze.length;
@@ -240,6 +249,7 @@ function shortestDistance(maze: number[][], start: number[], destination: number
     return dist[di][dj] === Infinity ? -1 : dist[di][dj];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

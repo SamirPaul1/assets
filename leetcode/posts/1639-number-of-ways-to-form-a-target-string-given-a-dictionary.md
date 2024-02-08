@@ -92,6 +92,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numWays(self, words: List[str], target: str) -> int:
@@ -113,7 +114,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -187,7 +192,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numWays(words []string, target string) int {
 	m, n := len(target), len(words[0])
@@ -224,7 +231,9 @@ func numWays(words []string, target string) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numWays(words: string[], target: string): number {
     const m = target.length;
@@ -249,6 +258,7 @@ function numWays(words: string[], target: string): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -266,6 +276,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numWays(self, words: List[str], target: str) -> int:
@@ -286,7 +297,9 @@ class Solution:
                 f[i][j] %= mod
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numWays(String[] words, String target) {
@@ -311,7 +324,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -337,7 +352,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numWays(words []string, target string) int {
 	const mod = 1e9 + 7
@@ -364,6 +381,7 @@ func numWays(words []string, target string) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

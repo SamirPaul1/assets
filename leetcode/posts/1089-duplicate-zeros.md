@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
@@ -77,7 +78,9 @@ class Solution:
                 arr[j] = arr[i]
             i, j = i - 1, j - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void duplicateZeros(int[] arr) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func duplicateZeros(arr []int) {
 	n := len(arr)
@@ -154,7 +161,9 @@ func duplicateZeros(arr []int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn duplicate_zeros(arr: &mut Vec<i32>) {
@@ -182,7 +191,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 void duplicateZeros(int* arr, int arrSize) {
     int i = 0;
@@ -209,6 +220,7 @@ void duplicateZeros(int* arr, int arrSize) {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

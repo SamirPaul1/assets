@@ -68,6 +68,7 @@ The time complexity is $O(n \times \log_{10} M)$, and the space complexity is $O
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def separateDigits(self, nums: List[int]) -> List[int]:
@@ -80,7 +81,9 @@ class Solution:
             ans.extend(t[::-1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] separateDigits(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func separateDigits(nums []int) (ans []int) {
 	for _, x := range nums {
@@ -137,7 +144,9 @@ func separateDigits(nums []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function separateDigits(nums: number[]): number[] {
     const ans: number[] = [];
@@ -152,7 +161,9 @@ function separateDigits(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn separate_digits(nums: Vec<i32>) -> Vec<i32> {
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -198,6 +211,7 @@ int* separateDigits(int* nums, int numsSize, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -205,6 +219,7 @@ int* separateDigits(int* nums, int numsSize, int* returnSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn separate_digits(nums: Vec<i32>) -> Vec<i32> {
@@ -228,6 +243,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

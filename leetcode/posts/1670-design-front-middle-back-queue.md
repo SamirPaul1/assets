@@ -89,6 +89,7 @@ The time complexity of the above operations is $O(1)$, and the space complexity 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FrontMiddleBackQueue:
     def __init__(self):
@@ -150,7 +151,9 @@ class FrontMiddleBackQueue:
 # param_5 = obj.popMiddle()
 # param_6 = obj.popBack()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FrontMiddleBackQueue {
     private Deque<Integer> q1 = new ArrayDeque<>();
@@ -222,7 +225,9 @@ class FrontMiddleBackQueue {
  * int param_6 = obj.popBack();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FrontMiddleBackQueue {
 public:
@@ -307,7 +312,9 @@ private:
  * int param_6 = obj->popBack();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type FrontMiddleBackQueue struct {
 	q1, q2 Deque
@@ -447,7 +454,9 @@ func (q Deque) Get(i int) int {
  * param_6 := obj.PopBack();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class FrontMiddleBackQueue {
     private q1: Deque<number>;
@@ -618,7 +627,9 @@ class Deque<T> {
  * var param_6 = obj.popBack()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 class FrontMiddleBackQueue {
     constructor() {
@@ -778,6 +789,7 @@ class Deque {
  * var param_6 = obj.popBack()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

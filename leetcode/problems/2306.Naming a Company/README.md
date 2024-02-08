@@ -1,6 +1,5 @@
 # [2306. Naming a Company](https://leetcode.com/problems/naming-a-company)
 
-[中文文档](/solution/2300-2399/2306.Naming%20a%20Company/README.md)
 
 ## Description
 

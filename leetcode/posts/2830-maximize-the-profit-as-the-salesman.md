@@ -75,6 +75,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeTheProfit(self, n: int, offers: List[List[int]]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             f[i] = max(f[i - 1], f[j] + v)
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeTheProfit(int n, List<List<Integer>> offers) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeTheProfit(n int, offers [][]int) int {
 	sort.Slice(offers, func(i, j int) bool { return offers[i][1] < offers[j][1] })
@@ -159,7 +166,9 @@ func maximizeTheProfit(n int, offers [][]int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeTheProfit(n: number, offers: number[][]): number {
     offers.sort((a, b) => a[1] - b[1]);
@@ -186,6 +195,7 @@ function maximizeTheProfit(n: number, offers: number[][]): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

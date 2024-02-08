@@ -81,6 +81,7 @@ We can use the `MAX` and `MIN` functions to get the maximum and minimum sums of 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -89,6 +90,7 @@ SELECT
     ) AS difference_in_score
 FROM Scores;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

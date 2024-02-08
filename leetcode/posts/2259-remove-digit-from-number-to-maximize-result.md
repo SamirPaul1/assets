@@ -66,6 +66,7 @@ Both result in the string &quot;51&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDigit(self, number: str, digit: str) -> str:
@@ -73,7 +74,9 @@ class Solution:
             number[:i] + number[i + 1 :] for i, d in enumerate(number) if d == digit
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeDigit(String number, char digit) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDigit(number string, digit byte) string {
 	ans := "0"
@@ -125,7 +132,9 @@ func removeDigit(number string, digit byte) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeDigit(number: string, digit: string): string {
     const n = number.length;
@@ -141,7 +150,9 @@ function removeDigit(number: string, digit: string): string {
     return number.substring(0, last) + number.substring(last + 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -163,6 +174,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -170,6 +182,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDigit(self, number: str, digit: str) -> str:
@@ -182,7 +195,9 @@ class Solution:
                     break
         return number[:last] + number[last + 1 :]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeDigit(String number, char digit) {
@@ -201,7 +216,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -221,7 +238,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDigit(number string, digit byte) string {
 	last := -1
@@ -237,6 +256,7 @@ func removeDigit(number string, digit byte) string {
 	return number[:last] + number[last+1:]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

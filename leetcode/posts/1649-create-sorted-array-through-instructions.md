@@ -90,6 +90,7 @@ The total cost is 0 + 0 + 0 + 0 + 1 + 0 + 1 + 0 + 2 = 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -121,7 +122,9 @@ class Solution:
             tree.update(x, 1)
         return ans % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -168,7 +171,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -214,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -254,7 +261,9 @@ func createSortedArray(instructions []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -296,6 +305,7 @@ function createSortedArray(instructions: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -303,6 +313,7 @@ function createSortedArray(instructions: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -363,7 +374,9 @@ class Solution:
             tree.modify(1, num, 1)
         return ans % int((1e9 + 7))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int createSortedArray(int[] instructions) {
@@ -444,7 +457,9 @@ class SegmentTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -517,6 +532,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

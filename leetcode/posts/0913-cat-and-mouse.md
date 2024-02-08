@@ -78,6 +78,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 HOLE, MOUSE_START, CAT_START = 0, 1, 2
 MOUSE_TURN, CAT_TURN = 0, 1
@@ -136,7 +137,9 @@ class Solution:
                             q.append(prev_state)
         return res[MOUSE_START][CAT_START][MOUSE_TURN]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -220,7 +223,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 const int HOLE = 0;
 const int MOUSE_START = 1;
@@ -298,7 +303,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const (
 	hole       = 0
@@ -377,6 +384,7 @@ func catMouseGame(graph [][]int) int {
 	return res[mouseStart][catStart][mouseTurn]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

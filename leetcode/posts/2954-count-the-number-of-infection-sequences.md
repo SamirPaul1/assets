@@ -89,6 +89,7 @@ The time complexity is $O(m)$, where $m$ is the length of the array $sick$. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 mod = 10**9 + 7
 mx = 10**5
@@ -111,7 +112,9 @@ class Solution:
                 ans = ans * pow(2, x - 1, mod) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) (1e9 + 7);
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 const int MX = 1e5;
 const int MOD = 1e9 + 7;
@@ -216,7 +221,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const MX = 1e5
 const MOD = 1e9 + 7
@@ -270,7 +277,9 @@ func numberOfSequence(n int, sick []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const MX = 1e5;
 const MOD: bigint = BigInt(1e9 + 7);
@@ -319,6 +328,7 @@ function numberOfSequence(n: number, sick: number[]): number {
     return Number(ans);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

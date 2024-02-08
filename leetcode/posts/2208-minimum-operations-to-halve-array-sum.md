@@ -70,6 +70,7 @@ It can be shown that we cannot reduce the sum by at least half in less than 3 op
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def halveArray(self, nums: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int halveArray(int[] nums) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func halveArray(nums []int) (ans int) {
 	var s float64
@@ -161,7 +168,9 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function halveArray(nums: number[]): number {
     let s: number = nums.reduce((a, b) => a + b) / 2;
@@ -180,6 +189,7 @@ function halveArray(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -187,6 +197,7 @@ function halveArray(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func halveArray(nums []int) (ans int) {
 	half := 0
@@ -210,6 +221,7 @@ func (h hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
 func (hp) Push(any)             {}
 func (hp) Pop() (_ any)         { return }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

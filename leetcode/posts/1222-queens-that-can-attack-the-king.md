@@ -66,6 +66,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. In this p
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def queensAttacktheKing(
@@ -85,7 +86,9 @@ class Solution:
                             break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> queensAttacktheKing(int[][] queens, int[] king) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func queensAttacktheKing(queens [][]int, king []int) (ans [][]int) {
 	n := 8
@@ -170,7 +177,9 @@ func queensAttacktheKing(queens [][]int, king []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function queensAttacktheKing(queens: number[][], king: number[]): number[][] {
     const n = 8;
@@ -195,6 +204,7 @@ function queensAttacktheKing(queens: number[][], king: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

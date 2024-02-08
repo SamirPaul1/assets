@@ -1,6 +1,5 @@
 # [2467. Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree)
 
-[中文文档](/solution/2400-2499/2467.Most%20Profitable%20Path%20in%20a%20Tree/README.md)
 
 ## Description
 

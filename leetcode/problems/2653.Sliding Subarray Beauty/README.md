@@ -1,6 +1,5 @@
 # [2653. Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty)
 
-[中文文档](/solution/2600-2699/2653.Sliding%20Subarray%20Beauty/README.md)
 
 ## Description
 

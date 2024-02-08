@@ -67,6 +67,7 @@ So the final output is 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
@@ -85,7 +86,9 @@ class Solution:
                     )
         return min(f[-1][j] for j in pos[key[-1]])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findRotateSteps(String ring, String key) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRotateSteps(ring string, key string) int {
 	m, n := len(key), len(ring)
@@ -188,6 +195,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

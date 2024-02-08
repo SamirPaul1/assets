@@ -51,6 +51,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $flowerbed$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
@@ -61,7 +62,9 @@ class Solution:
                 n -= 1
         return n <= 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	m := len(flowerbed)
@@ -116,7 +123,9 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 	return n <= 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canPlaceFlowers(flowerbed: number[], n: number): boolean {
     const m = flowerbed.length;
@@ -131,7 +140,9 @@ function canPlaceFlowers(flowerbed: number[], n: number): boolean {
     return n <= 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {
@@ -150,7 +161,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -173,6 +186,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

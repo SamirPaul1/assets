@@ -55,6 +55,7 @@ promise2 = new Promise(resolve =&gt; setTimeout(() =&gt; resolve(-12), 30))
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 async function addTwoPromises(
     promise1: Promise<number>,
@@ -68,12 +69,15 @@ async function addTwoPromises(
  *   .then(console.log); // 4
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var addTwoPromises = async function (promise1, promise2) {
     return (await promise1) + (await promise2);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

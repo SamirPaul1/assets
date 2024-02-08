@@ -69,6 +69,7 @@ Figure B shows the skyline formed by those buildings. The red points in figure B
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from queue import PriorityQueue
 
@@ -94,7 +95,9 @@ class Solution:
             skys.append([line, high])
         return skys
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Matrix struct{ left, right, height int }
 type Queue []Matrix
@@ -181,7 +186,9 @@ func getSkyline(buildings [][]int) [][]int {
 	return skys
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_skyline(buildings: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -216,6 +223,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -63,6 +63,7 @@ Let `dp[i][j]` be true if and only if the interval `s[i], s[i+1], ..., s[j]` can
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkValidString(self, s: str) -> bool:
@@ -80,7 +81,9 @@ class Solution:
                 )
         return dp[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkValidString(String s) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkValidString(s string) bool {
 	n := len(s)
@@ -147,6 +154,7 @@ func checkValidString(s string) bool {
 	return dp[0][n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -159,6 +167,7 @@ Scan twice, first from left to right to make sure that each of the closing brack
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkValidString(self, s: str) -> bool:
@@ -180,7 +189,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkValidString(String s) {
@@ -209,7 +220,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -238,7 +251,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkValidString(s string) bool {
 	x := 0
@@ -264,6 +279,7 @@ func checkValidString(s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -81,6 +81,7 @@ loc.free(7); // Free all memory units with mID 7. The memory array remains the s
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Allocator:
     def __init__(self, n: int):
@@ -112,7 +113,9 @@ class Allocator:
 # param_1 = obj.allocate(size,mID)
 # param_2 = obj.free(mID)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Allocator {
     private int[] m;
@@ -153,7 +156,9 @@ class Allocator {
  * int param_2 = obj.free(mID);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Allocator {
 public:
@@ -202,7 +207,9 @@ private:
  * int param_2 = obj->free(mID);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Allocator struct {
 	m []int
@@ -247,6 +254,7 @@ func (this *Allocator) Free(mID int) (ans int) {
  * param_2 := obj.Free(mID);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -254,6 +262,7 @@ func (this *Allocator) Free(mID int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -286,7 +295,9 @@ class Allocator:
 # param_1 = obj.allocate(size,mID)
 # param_2 = obj.free(mID)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Allocator {
     private TreeMap<Integer, Integer> tm = new TreeMap<>();
@@ -332,7 +343,9 @@ class Allocator {
  * int param_2 = obj.free(mID);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Allocator {
 public:
@@ -380,7 +393,9 @@ private:
  * int param_2 = obj->free(mID);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Allocator struct {
 	rbt *redblacktree.Tree
@@ -431,6 +446,7 @@ func (this *Allocator) Free(mID int) int {
  * param_2 := obj.Free(mID);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

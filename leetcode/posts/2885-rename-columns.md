@@ -74,6 +74,7 @@ The column names are changed accordingly.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -90,6 +91,7 @@ def renameColumns(students: pd.DataFrame) -> pd.DataFrame:
     )
     return students
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

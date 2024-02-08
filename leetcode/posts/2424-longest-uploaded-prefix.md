@@ -75,6 +75,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class LUPrefix:
     def __init__(self, n: int):
@@ -95,7 +96,9 @@ class LUPrefix:
 # obj.upload(video)
 # param_2 = obj.longest()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class LUPrefix {
     private int r;
@@ -123,7 +126,9 @@ class LUPrefix {
  * int param_2 = obj.longest();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class LUPrefix {
 public:
@@ -153,7 +158,9 @@ private:
  * int param_2 = obj->longest();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type LUPrefix struct {
 	r int
@@ -182,6 +189,7 @@ func (this *LUPrefix) Longest() int {
  * param_2 := obj.Longest();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

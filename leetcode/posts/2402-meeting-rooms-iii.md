@@ -98,6 +98,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
@@ -123,7 +124,9 @@ class Solution:
                 ans = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mostBooked(int n, int[][] meetings) {
@@ -161,7 +164,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 using pii = pair<ll, int>;
@@ -203,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostBooked(n int, meetings [][]int) int {
 	sort.Slice(meetings, func(i, j int) bool { return meetings[i][0] < meetings[j][0] })
@@ -260,6 +267,7 @@ func (h hp2) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
 func (h *hp2) Push(v any)   { *h = append(*h, v.(pair)) }
 func (h *hp2) Pop() any     { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

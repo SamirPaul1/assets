@@ -74,6 +74,7 @@ We can directly filter the product IDs where `low_fats` is `Y` and `recyclable` 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -83,13 +84,16 @@ def find_products(products: pd.DataFrame) -> pd.DataFrame:
     rs = rs[["product_id"]]
     return rs
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     product_id
 FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

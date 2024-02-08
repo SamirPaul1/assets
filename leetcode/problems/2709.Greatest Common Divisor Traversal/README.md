@@ -1,6 +1,5 @@
 # [2709. Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal)
 
-[中文文档](/solution/2700-2799/2709.Greatest%20Common%20Divisor%20Traversal/README.md)
 
 ## Description
 

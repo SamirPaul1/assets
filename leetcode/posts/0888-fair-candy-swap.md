@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fairCandySwap(self, aliceSizes: List[int], bobSizes: List[int]) -> List[int]:
@@ -73,7 +74,9 @@ class Solution:
             if target in s:
                 return [a, target]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fairCandySwap(aliceSizes: number[], bobSizes: number[]): number[] {
     let s1 = aliceSizes.reduce((a, c) => a + c, 0);
@@ -132,6 +139,7 @@ function fairCandySwap(aliceSizes: number[], bobSizes: number[]): number[] {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

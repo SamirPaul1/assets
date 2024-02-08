@@ -63,6 +63,7 @@ Only node 4 is a terminal node, and every path starting at node 4 leads to node 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
@@ -81,7 +82,9 @@ class Solution:
                     q.append(j)
         return [i for i, v in enumerate(indeg) if v == 0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func eventualSafeNodes(graph [][]int) []int {
 	n := len(graph)
@@ -179,7 +186,9 @@ func eventualSafeNodes(graph [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} graph
@@ -216,6 +225,7 @@ var eventualSafeNodes = function (graph) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -223,6 +233,7 @@ var eventualSafeNodes = function (graph) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
@@ -240,7 +251,9 @@ class Solution:
         color = [0] * n
         return [i for i in range(n) if dfs(i)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] color;
@@ -274,7 +287,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -299,7 +314,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func eventualSafeNodes(graph [][]int) []int {
 	n := len(graph)
@@ -327,7 +344,9 @@ func eventualSafeNodes(graph [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} graph
@@ -358,6 +377,7 @@ var eventualSafeNodes = function (graph) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

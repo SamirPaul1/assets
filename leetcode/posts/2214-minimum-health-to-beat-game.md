@@ -82,12 +82,15 @@ Note that you did not use your armor ability.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumHealth(self, damage: List[int], armor: int) -> int:
         return sum(damage) - min(max(damage), armor) + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumHealth(int[] damage, int armor) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumHealth(damage []int, armor int) int64 {
 	var s int64
@@ -128,7 +135,9 @@ func minimumHealth(damage []int, armor int) int64 {
 	return s - int64(min(mx, armor)) + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumHealth(damage: number[], armor: number): number {
     let s = 0;
@@ -140,6 +149,7 @@ function minimumHealth(damage: number[], armor: number): number {
     return s - Math.min(mx, armor) + 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

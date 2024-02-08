@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def answerQueries(self, nums: List[int], queries: List[int]) -> List[int]:
@@ -67,7 +68,9 @@ class Solution:
         s = list(accumulate(nums))
         return [bisect_right(s, q) for q in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] answerQueries(int[] nums, int[] queries) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func answerQueries(nums []int, queries []int) (ans []int) {
 	sort.Ints(nums)
@@ -127,7 +134,9 @@ func answerQueries(nums []int, queries []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function answerQueries(nums: number[], queries: number[]): number[] {
     nums.sort((a, b) => a - b);
@@ -154,7 +163,9 @@ function answerQueries(nums: number[], queries: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn answer_queries(mut nums: Vec<i32>, queries: Vec<i32>) -> Vec<i32> {
@@ -176,7 +187,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] AnswerQueries(int[] nums, int[] queries) {
@@ -201,6 +214,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -208,6 +222,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def answerQueries(self, nums: List[int], queries: List[int]) -> List[int]:
@@ -223,7 +238,9 @@ class Solution:
             ans[i] = j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] answerQueries(int[] nums, int[] queries) {
@@ -246,7 +263,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -270,7 +289,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func answerQueries(nums []int, queries []int) (ans []int) {
 	sort.Ints(nums)
@@ -292,7 +313,9 @@ func answerQueries(nums []int, queries []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function answerQueries(nums: number[], queries: number[]): number[] {
     nums.sort((a, b) => a - b);
@@ -314,6 +337,7 @@ function answerQueries(nums: number[], queries: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

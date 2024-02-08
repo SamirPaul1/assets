@@ -71,6 +71,7 @@ Finally, we return [16,5,3,0].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumSegmentSum(self, nums: List[int], removeQueries: List[int]) -> List[int]:
@@ -100,7 +101,9 @@ class Solution:
             ans[j - 1] = mx
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -183,7 +188,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumSegmentSum(nums []int, removeQueries []int) []int64 {
 	n := len(nums)
@@ -221,6 +228,7 @@ func maximumSegmentSum(nums []int, removeQueries []int) []int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

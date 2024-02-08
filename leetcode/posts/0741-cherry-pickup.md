@@ -73,6 +73,7 @@ The total number of cherries picked up is 5, and this is the maximum possible.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
@@ -101,7 +102,9 @@ class Solution:
                                 )
         return max(0, dp[-1][-1][-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int cherryPickup(int[][] grid) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func cherryPickup(grid [][]int) int {
 	n := len(grid)
@@ -198,7 +205,9 @@ func cherryPickup(grid [][]int) int {
 	return max(0, dp[n*2-2][n-1][n-1])
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} grid
@@ -246,6 +255,7 @@ var cherryPickup = function (grid) {
     return Math.max(0, dp[n * 2 - 2][n - 1][n - 1]);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

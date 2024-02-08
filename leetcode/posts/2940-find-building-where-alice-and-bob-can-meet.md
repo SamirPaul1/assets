@@ -86,6 +86,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     __slots__ = ["n", "c"]
@@ -131,7 +132,9 @@ class Solution:
                 ans[i] = tree.query(k)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private final int inf = 1 << 30;
@@ -198,7 +201,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 private:
@@ -267,7 +272,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const inf int = 1 << 30
 
@@ -337,7 +344,9 @@ func leftmostBuildingQueries(heights []int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -412,6 +421,7 @@ function leftmostBuildingQueries(heights: number[], queries: number[][]): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

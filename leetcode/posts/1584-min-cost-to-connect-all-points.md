@@ -59,6 +59,7 @@ Notice that there is a unique path between every pair of points.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
@@ -85,7 +86,9 @@ class Solution:
                     dist[j] = min(dist[j], g[i][j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCostConnectPoints(int[][] points) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostConnectPoints(points [][]int) (ans int) {
 	n := len(points)
@@ -212,7 +219,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCostConnectPoints(points: number[][]): number {
     const n = points.length;
@@ -250,6 +259,7 @@ function minCostConnectPoints(points: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +267,7 @@ function minCostConnectPoints(points: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostConnectPoints(self, points: List[List[int]]) -> int:
@@ -285,7 +296,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -328,7 +341,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -364,7 +379,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostConnectPoints(points [][]int) int {
 	n := len(points)
@@ -413,6 +430,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

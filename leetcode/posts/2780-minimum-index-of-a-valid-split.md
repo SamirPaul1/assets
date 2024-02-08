@@ -80,6 +80,7 @@ It can be shown that index 4 is the minimum index of a valid split.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumIndex(self, nums: List[int]) -> int:
@@ -92,7 +93,9 @@ class Solution:
                     return i - 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumIndex(List<Integer> nums) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumIndex(nums []int) int {
 	x, cnt := 0, 0
@@ -169,7 +176,9 @@ func minimumIndex(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumIndex(nums: number[]): number {
     let [x, cnt] = [0, 0];
@@ -192,6 +201,7 @@ function minimumIndex(nums: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

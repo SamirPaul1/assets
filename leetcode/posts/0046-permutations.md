@@ -55,12 +55,15 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         return list(permutations(nums))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<Integer>> ans = new ArrayList<>();
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func permute(nums []int) (ans [][]int) {
 	n := len(nums)
@@ -145,7 +152,9 @@ func permute(nums []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function permute(nums: number[]): number[][] {
     const n = nums.length;
@@ -164,7 +173,9 @@ function permute(nums: number[]): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: usize, nums: &mut Vec<i32>, res: &mut Vec<Vec<i32>>) {
@@ -187,7 +198,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -217,7 +230,9 @@ var permute = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<IList<int>> Permute(int[] nums) {
@@ -245,6 +260,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -252,6 +268,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
@@ -273,7 +290,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -313,6 +332,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -320,6 +340,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
@@ -342,6 +363,7 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minLength(self, s: str) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 stk.append(c)
         return len(stk) - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minLength(String s) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minLength(s string) int {
 	stk := []byte{' '}
@@ -129,7 +136,9 @@ func minLength(s string) int {
 	return len(stk) - 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minLength(s: string): number {
     const stk: string[] = [''];
@@ -145,7 +154,9 @@ function minLength(s: string): number {
     return stk.length - 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_length(s: String) -> i32 {
@@ -169,6 +180,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

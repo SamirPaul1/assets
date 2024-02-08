@@ -1,6 +1,5 @@
 # [2647. Color the Triangle Red](https://leetcode.com/problems/color-the-triangle-red)
 
-[中文文档](/solution/2600-2699/2647.Color%20the%20Triangle%20Red/README.md)
 
 ## Description
 

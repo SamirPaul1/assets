@@ -67,6 +67,7 @@ Note that, there are other ways to obtain the minimum of the sum of square diffe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSumSquareDiff(
@@ -94,7 +95,9 @@ class Solution:
                 d[i] -= 1
         return sum(v * v for v in d)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minSumSquareDiff(int[] nums1, int[] nums2, int k1, int k2) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSumSquareDiff(nums1 []int, nums2 []int, k1 int, k2 int) int64 {
 	k := k1 + k2
@@ -241,6 +248,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

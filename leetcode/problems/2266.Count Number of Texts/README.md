@@ -1,6 +1,5 @@
 # [2266. Count Number of Texts](https://leetcode.com/problems/count-number-of-texts)
 
-[中文文档](/solution/2200-2299/2266.Count%20Number%20of%20Texts/README.md)
 
 ## Description
 

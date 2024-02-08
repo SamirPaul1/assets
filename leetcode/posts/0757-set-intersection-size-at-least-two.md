@@ -72,6 +72,7 @@ It can be shown that there cannot be any containing array of size 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def intersectionSizeTwo(self, intervals: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 s, e = e, b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int intersectionSizeTwo(int[][] intervals) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func intersectionSizeTwo(intervals [][]int) int {
 	sort.Slice(intervals, func(i, j int) bool {
@@ -170,6 +177,7 @@ func intersectionSizeTwo(intervals [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

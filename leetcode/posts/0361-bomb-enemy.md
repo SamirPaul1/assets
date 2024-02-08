@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxKilledEnemies(self, grid: List[List[str]]) -> int:
@@ -94,7 +95,9 @@ class Solution:
             default=0,
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxKilledEnemies(char[][] grid) {
@@ -153,7 +156,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -206,7 +211,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxKilledEnemies(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
@@ -265,6 +272,7 @@ func maxKilledEnemies(grid [][]byte) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

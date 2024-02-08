@@ -67,6 +67,7 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxRotateFunction(self, nums: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
             ans = max(ans, f)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxRotateFunction(int[] nums) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxRotateFunction(nums []int) int {
 	f, s, n := 0, 0, len(nums)
@@ -135,7 +142,9 @@ func maxRotateFunction(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxRotateFunction(nums: number[]): number {
     const n = nums.length;
@@ -149,7 +158,9 @@ function maxRotateFunction(nums: number[]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_rotate_function(nums: Vec<i32>) -> i32 {
@@ -171,6 +182,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

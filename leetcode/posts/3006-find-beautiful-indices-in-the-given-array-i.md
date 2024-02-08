@@ -74,6 +74,7 @@ Thus we return [0] as the result.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautifulIndices(self, s: str, a: str, b: str, k: int) -> List[int]:
@@ -125,7 +126,9 @@ class Solution:
             i += 1
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Solution {
     public void computeLPS(String pattern, int[] lps) {
@@ -227,7 +230,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -295,7 +300,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautifulIndices(s string, a string, b string, k int) []int {
 
@@ -381,6 +388,7 @@ func beautifulIndices(s string, a string, b string, k int) []int {
 	return final
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

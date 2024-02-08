@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, nums1: List[int], nums2: List[int], k: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 s -= heappop(q)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxScore(int[] nums1, int[] nums2, int k) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(nums1 []int, nums2 []int, k int) int64 {
 	type pair struct{ a, b int }
@@ -175,6 +182,7 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -64,6 +64,7 @@ Note that [5, 1] may also be returned.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLonely(self, nums: List[int]) -> List[int]:
@@ -74,7 +75,9 @@ class Solution:
                 ans.append(num)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLonely(nums []int) []int {
 	counter := make(map[int]int)
@@ -125,7 +132,9 @@ func findLonely(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLonely(nums: number[]): number[] {
     let hashMap: Map<number, number> = new Map();
@@ -141,6 +150,7 @@ function findLonely(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

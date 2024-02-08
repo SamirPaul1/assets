@@ -86,6 +86,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -102,7 +103,9 @@ class Solution:
         root.right = self.insertIntoMaxTree(root.right, val)
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -169,7 +176,9 @@ func insertIntoMaxTree(root *TreeNode, val int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -193,7 +202,9 @@ function insertIntoMaxTree(root: TreeNode | null, val: number): TreeNode | null 
     return root;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -239,7 +250,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for a binary tree node.
@@ -262,6 +275,7 @@ struct TreeNode* insertIntoMaxTree(struct TreeNode* root, int val) {
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -275,6 +289,7 @@ The time complexity is $O(n)$, where $n$ is the number of nodes in the tree. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -296,7 +311,9 @@ class Solution:
         curr.right = node
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -329,7 +346,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -355,7 +374,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -379,7 +400,9 @@ func insertIntoMaxTree(root *TreeNode, val int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -409,6 +432,7 @@ function insertIntoMaxTree(root: TreeNode | null, val: number): TreeNode | null 
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -78,6 +78,7 @@ The second (add x y) evaluates as 3+2 = 5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def evaluate(self, expression: str) -> int:
@@ -135,7 +136,9 @@ class Solution:
         scope = defaultdict(list)
         return eval()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int i;
@@ -211,7 +214,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -279,7 +284,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func evaluate(expression string) int {
 	i, n := 0, len(expression)
@@ -359,6 +366,7 @@ func evaluate(expression string) int {
 	return eval()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

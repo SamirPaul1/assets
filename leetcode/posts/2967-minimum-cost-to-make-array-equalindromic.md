@@ -83,6 +83,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(M)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 ps = []
 for i in range(1, 10**5 + 1):
@@ -103,7 +104,9 @@ class Solution:
         i = bisect_left(ps, nums[len(nums) // 2])
         return min(f(ps[j]) for j in range(i - 1, i + 2) if 0 <= j < len(ps))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Solution {
     private static long[] ps;
@@ -144,7 +147,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var ps [2 * 100000]int64
 
@@ -241,7 +248,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const ps = Array(2e5).fill(0);
 
@@ -284,6 +293,7 @@ function minimumCost(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

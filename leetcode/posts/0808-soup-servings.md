@@ -66,6 +66,7 @@ So the total probability of A becoming empty first plus half the probability tha
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def soupServings(self, n: int) -> float:
@@ -86,7 +87,9 @@ class Solution:
 
         return 1 if n > 4800 else dfs((n + 24) // 25, (n + 24) // 25)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private double[][] f = new double[200][200];
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func soupServings(n int) float64 {
 	if n > 4800 {
@@ -162,7 +169,9 @@ func soupServings(n int) float64 {
 	return dfs((n+24)/25, (n+24)/25)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function soupServings(n: number): number {
     const f = new Array(200).fill(0).map(() => new Array(200).fill(-1));
@@ -186,6 +195,7 @@ function soupServings(n: number): number {
     return n >= 4800 ? 1 : dfs(Math.ceil(n / 25), Math.ceil(n / 25));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ The time complexity is $O((m + n) \times \log m)$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def successfulPairs(
@@ -80,7 +81,9 @@ class Solution:
         m = len(potions)
         return [m - bisect_left(potions, success / v) for v in spells]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] successfulPairs(int[] spells, int[] potions, long success) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func successfulPairs(spells []int, potions []int, success int64) (ans []int) {
 	sort.Ints(potions)
@@ -131,7 +138,9 @@ func successfulPairs(spells []int, potions []int, success int64) (ans []int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function successfulPairs(spells: number[], potions: number[], success: number): number[] {
     potions.sort((a, b) => a - b);
@@ -153,6 +162,7 @@ function successfulPairs(spells: number[], potions: number[], success: number): 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

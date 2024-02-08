@@ -73,6 +73,7 @@ The time complexity is $O(m \times n)$, where $m$ and $n$ are the lengths of the
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPoints(
@@ -87,7 +88,9 @@ class Solution:
             ans.append(cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countPoints(int[][] points, int[][] queries) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPoints(points [][]int, queries [][]int) (ans []int) {
 	for _, q := range queries {
@@ -145,7 +152,9 @@ func countPoints(points [][]int, queries [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPoints(points: number[][], queries: number[][]): number[] {
     return queries.map(([cx, cy, r]) => {
@@ -159,7 +168,9 @@ function countPoints(points: number[][], queries: number[][]): number[] {
     });
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_points(points: Vec<Vec<i32>>, queries: Vec<Vec<i32>>) -> Vec<i32> {
@@ -181,7 +192,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -205,6 +218,7 @@ int* countPoints(int** points, int pointsSize, int* pointsColSize, int** queries
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

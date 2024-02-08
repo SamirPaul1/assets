@@ -73,6 +73,7 @@ The city 0 has 1 neighboring city at a distanceThreshold = 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheCity(
@@ -103,7 +104,9 @@ class Solution:
                 cnt, ans = t, i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -164,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -207,7 +212,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheCity(n int, edges [][]int, distanceThreshold int) int {
 	g := make([][]int, n)
@@ -261,7 +268,9 @@ func findTheCity(n int, edges [][]int, distanceThreshold int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheCity(n: number, edges: number[][], distanceThreshold: number): number {
     const g: number[][] = Array.from({ length: n }, () => Array(n).fill(Infinity));
@@ -303,6 +312,7 @@ function findTheCity(n: number, edges: number[][], distanceThreshold: number): n
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -310,6 +320,7 @@ function findTheCity(n: number, edges: number[][], distanceThreshold: number): n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheCity(
@@ -334,7 +345,9 @@ class Solution:
                 cnt, ans = t, i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
@@ -373,7 +386,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -404,7 +419,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheCity(n int, edges [][]int, distanceThreshold int) int {
 	g := make([][]int, n)
@@ -446,7 +463,9 @@ func findTheCity(n int, edges [][]int, distanceThreshold int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheCity(n: number, edges: number[][], distanceThreshold: number): number {
     const g: number[][] = Array.from({ length: n }, () => Array(n).fill(Infinity));
@@ -474,6 +493,7 @@ function findTheCity(n: number, edges: number[][], distanceThreshold: number): n
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

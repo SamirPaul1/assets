@@ -1,6 +1,5 @@
 # [1994. The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets)
 
-[中文文档](/solution/1900-1999/1994.The%20Number%20of%20Good%20Subsets/README.md)
 
 ## Description
 

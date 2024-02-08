@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minStartValue(self, nums: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
             t = min(t, s)
         return max(1, 1 - t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minStartValue(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minStartValue(nums []int) int {
 	s, t := 0, 10000
@@ -123,7 +130,9 @@ func minStartValue(nums []int) int {
 	return 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minStartValue(nums: number[]): number {
     let sum = 0;
@@ -135,7 +144,9 @@ function minStartValue(nums: number[]): number {
     return Math.max(1, 1 - min);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_start_value(nums: Vec<i32>) -> i32 {
@@ -149,6 +160,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -156,12 +168,14 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minStartValue(self, nums: List[int]) -> int:
         s = list(accumulate(nums))
         return 1 if min(s) >= 0 else abs(min(s)) + 1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

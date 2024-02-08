@@ -46,13 +46,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isBoomerang(self, points: List[List[int]]) -> bool:
         (x1, y1), (x2, y2), (x3, y3) = points
         return (y2 - y1) * (x3 - x2) != (y3 - y2) * (x2 - x1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isBoomerang(int[][] points) {
@@ -63,7 +66,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -75,7 +80,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isBoomerang(points [][]int) bool {
 	x1, y1 := points[0][0], points[0][1]
@@ -84,7 +91,9 @@ func isBoomerang(points [][]int) bool {
 	return (y2-y1)*(x3-x2) != (y3-y2)*(x2-x1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isBoomerang(points: number[][]): boolean {
     const [x1, y1] = points[0];
@@ -93,7 +102,9 @@ function isBoomerang(points: number[][]): boolean {
     return (x1 - x2) * (y2 - y3) !== (x2 - x3) * (y1 - y2);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_boomerang(points: Vec<Vec<i32>>) -> bool {
@@ -104,6 +115,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

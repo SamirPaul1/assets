@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestValue(self, n: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 return t
             n = s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestValue(int n) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestValue(n int) int {
 	for {
@@ -144,6 +151,7 @@ func smallestValue(n int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

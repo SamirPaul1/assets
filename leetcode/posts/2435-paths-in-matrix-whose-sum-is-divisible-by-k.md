@@ -80,6 +80,7 @@ The time complexity is $O(m \times n \times k)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfPaths(self, grid: List[List[int]], k: int) -> int:
@@ -99,7 +100,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -164,7 +169,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfPaths(grid [][]int, k int) int {
 	m, n := len(grid), len(grid[0])
@@ -202,7 +209,9 @@ func numberOfPaths(grid [][]int, k int) int {
 	return dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfPaths(grid: number[][], k: number): number {
     const MOD = 10 ** 9 + 7;
@@ -224,6 +233,7 @@ function numberOfPaths(grid: number[][], k: number): number {
     return ans[m][n][0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -245,6 +255,7 @@ The time complexity is $O(m \times n \times k)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfPaths(self, grid: List[List[int]], k: int) -> int:
@@ -263,7 +274,9 @@ class Solution:
                     dp[i][j][s] %= mod
         return dp[-1][-1][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -290,7 +303,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -314,7 +329,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfPaths(grid [][]int, k int) int {
 	m, n := len(grid), len(grid[0])
@@ -344,6 +361,7 @@ func numberOfPaths(grid [][]int, k int) int {
 	return dp[m-1][n-1][0]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

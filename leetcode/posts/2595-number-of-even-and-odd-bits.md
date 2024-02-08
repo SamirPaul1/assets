@@ -65,6 +65,7 @@ The time complexity is $O(\log n)$ and the space complexity is $O(1)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def evenOddBit(self, n: int) -> List[int]:
@@ -76,7 +77,9 @@ class Solution:
             n >>= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] evenOddBit(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func evenOddBit(n int) []int {
 	ans := make([]int, 2)
@@ -111,7 +118,9 @@ func evenOddBit(n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function evenOddBit(n: number): number[] {
     const ans = new Array(2).fill(0);
@@ -121,7 +130,9 @@ function evenOddBit(n: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn even_odd_bit(mut n: i32) -> Vec<i32> {
@@ -139,6 +150,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -146,6 +158,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def evenOddBit(self, n: int) -> List[int]:
@@ -154,7 +167,9 @@ class Solution:
         odd = (n & ~mask).bit_count()
         return [even, odd]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] evenOddBit(int n) {
@@ -165,7 +180,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -177,7 +194,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func evenOddBit(n int) []int {
 	mask := 0x5555
@@ -186,7 +205,9 @@ func evenOddBit(n int) []int {
 	return []int{even, odd}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function evenOddBit(n: number): number[] {
     const mask = 0x5555;
@@ -204,7 +225,9 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn even_odd_bit(n: i32) -> Vec<i32> {
@@ -215,6 +238,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

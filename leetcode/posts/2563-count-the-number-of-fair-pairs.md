@@ -65,6 +65,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countFairPairs(self, nums: List[int], lower: int, upper: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
             ans += k - j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countFairPairs(nums []int, lower int, upper int) (ans int64) {
 	sort.Ints(nums)
@@ -133,7 +140,9 @@ func countFairPairs(nums []int, lower int, upper int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countFairPairs(nums: number[], lower: number, upper: number): number {
     const search = (x: number, l: number): number => {
@@ -159,6 +168,7 @@ function countFairPairs(nums: number[], lower: number, upper: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

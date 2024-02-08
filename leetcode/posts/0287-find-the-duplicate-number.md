@@ -70,6 +70,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
 
         return bisect_left(range(len(nums)), True, key=f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findDuplicate(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDuplicate(nums []int) int {
 	return sort.Search(len(nums), func(x int) bool {
@@ -137,7 +144,9 @@ func findDuplicate(nums []int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findDuplicate(nums: number[]): number {
     let l = 0;
@@ -159,7 +168,9 @@ function findDuplicate(nums: number[]): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -184,7 +195,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -210,6 +223,7 @@ var findDuplicate = function (nums) {
     return l;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 dp[j] += dp[j - coin]
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int change(int amount, int[] coins) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func change(amount int, coins []int) int {
 	dp := make([]int, amount+1)
@@ -128,7 +135,9 @@ func change(amount int, coins []int) int {
 	return dp[amount]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function change(amount: number, coins: number[]): number {
     let dp = new Array(amount + 1).fill(0);
@@ -141,6 +150,7 @@ function change(amount: number, coins: number[]): number {
     return dp.pop();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -148,6 +158,7 @@ function change(amount: number, coins: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int change(int amount, int[] coins) {
@@ -167,6 +178,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -174,6 +186,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int change(int amount, int[] coins) {
@@ -189,6 +202,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

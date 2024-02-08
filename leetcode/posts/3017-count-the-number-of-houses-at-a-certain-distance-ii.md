@@ -82,6 +82,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countOfPairs(self, n: int, x: int, y: int) -> List[int]:
@@ -126,7 +127,9 @@ class Solution:
                 res[i] += res3[i]
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] countOfPairs(int n, int x, int y) {
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
   }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countOfPairs(n int, x int, y int) []int64 {
 	if x > y {
@@ -205,6 +212,7 @@ func countOfPairs(n int, x int, y int) []int64 {
 	return A
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

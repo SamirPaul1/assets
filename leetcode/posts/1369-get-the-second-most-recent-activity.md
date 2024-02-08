@@ -77,6 +77,7 @@ Bob only has one record, we just take that one.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     username,
@@ -96,6 +97,7 @@ FROM
     ) AS a
 WHERE a.rk = 2 OR a.cnt = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

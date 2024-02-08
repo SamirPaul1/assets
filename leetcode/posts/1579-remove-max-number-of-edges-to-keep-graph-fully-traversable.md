@@ -81,6 +81,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -125,7 +126,9 @@ class Solution:
                 ans += not ufb.union(u, v)
         return ans if ufa.cnt == 1 and ufb.cnt == 1 else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private int[] p;
@@ -194,7 +197,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -259,7 +264,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -327,6 +334,7 @@ func maxNumEdgesToRemove(n int, edges [][]int) (ans int) {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

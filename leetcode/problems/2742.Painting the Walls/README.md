@@ -1,6 +1,5 @@
 # [2742. Painting the Walls](https://leetcode.com/problems/painting-the-walls)
 
-[中文文档](/solution/2700-2799/2742.Painting%20the%20Walls/README.md)
 
 ## Description
 

@@ -70,6 +70,7 @@ The difference between the maximum and minimum price sum is 2. It can be proved 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxOutput(self, n: int, edges: List[List[int]], price: List[int]) -> int:
@@ -92,7 +93,9 @@ class Solution:
         dfs(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxOutput(n int, edges [][]int, price []int) int64 {
 	g := make([][]int, n)
@@ -187,6 +194,7 @@ func maxOutput(n int, edges [][]int, price []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

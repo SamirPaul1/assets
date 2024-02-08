@@ -78,6 +78,7 @@ Note that you can cut off the first tree at (0, 0) before making any steps.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def cutOffTree(self, forest: List[List[int]]) -> int:
@@ -115,7 +116,9 @@ class Solution:
             i, j = x, y
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] dist = new int[3600];
@@ -184,7 +187,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -242,7 +247,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var dirs = [][]int{{-1, 0}, {1, 0}, {0, -1}, {0, 1}}
 
@@ -305,7 +312,9 @@ func cutOffTree(forest [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 use std::collections::VecDeque;
@@ -381,6 +390,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

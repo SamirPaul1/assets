@@ -87,6 +87,7 @@ We notice that the calculation of $f[i][j]$ is only related to $f[i-1][..]$. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
@@ -101,7 +102,9 @@ class Solution:
                     f[i][j] += f[i - 1][j - 1]
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numDistinct(String s, String t) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDistinct(s string, t string) int {
 	m, n := len(s), len(t)
@@ -167,7 +174,9 @@ func numDistinct(s string, t string) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numDistinct(s: string, t: string): number {
     const m = s.length;
@@ -187,7 +196,9 @@ function numDistinct(s: string, t: string): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -216,6 +227,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -223,6 +235,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
@@ -234,7 +247,9 @@ class Solution:
                     f[j] += f[j - 1]
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numDistinct(String s, String t) {
@@ -253,7 +268,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -274,7 +291,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDistinct(s string, t string) int {
 	n := len(t)
@@ -290,7 +309,9 @@ func numDistinct(s string, t string) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numDistinct(s: string, t: string): number {
     const n = t.length;
@@ -307,6 +328,7 @@ function numDistinct(s: string, t: string): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

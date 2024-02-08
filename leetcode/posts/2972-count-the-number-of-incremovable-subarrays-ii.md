@@ -95,6 +95,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def incremovableSubarrayCount(self, nums: List[int]) -> int:
@@ -114,7 +115,9 @@ class Solution:
             j -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long incremovableSubarrayCount(int[] nums) {
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -165,7 +170,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func incremovableSubarrayCount(nums []int) int64 {
 	i, n := 0, len(nums)
@@ -188,7 +195,9 @@ func incremovableSubarrayCount(nums []int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function incremovableSubarrayCount(nums: number[]): number {
     const n = nums.length;
@@ -212,6 +221,7 @@ function incremovableSubarrayCount(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

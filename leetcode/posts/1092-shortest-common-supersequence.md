@@ -56,6 +56,7 @@ The answer provided is the shortest such string that satisfies these properties.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestCommonSupersequence(self, str1: str, str2: str) -> str:
@@ -88,7 +89,9 @@ class Solution:
                     ans.append(str1[i])
         return ''.join(ans[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shortestCommonSupersequence(String str1, String str2) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestCommonSupersequence(str1 string, str2 string) string {
 	m, n := len(str1), len(str2)
@@ -206,7 +213,9 @@ func shortestCommonSupersequence(str1 string, str2 string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestCommonSupersequence(str1: string, str2: string): string {
     const m = str1.length;
@@ -243,6 +252,7 @@ function shortestCommonSupersequence(str1: string, str2: string): string {
     return ans.reverse().join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

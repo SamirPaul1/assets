@@ -1,6 +1,5 @@
 # [2692. Make Object Immutable](https://leetcode.com/problems/make-object-immutable)
 
-[中文文档](/solution/2600-2699/2692.Make%20Object%20Immutable/README.md)
 
 ## Description
 

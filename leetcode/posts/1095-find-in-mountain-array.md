@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is MountainArray's API interface.
@@ -107,7 +108,9 @@ class Solution:
         ans = search(0, l, 1)
         return search(l + 1, n - 1, -1) if ans == -1 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is MountainArray's API interface.
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the MountainArray's API interface.
@@ -193,7 +198,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the MountainArray's API interface.
@@ -237,7 +244,9 @@ func findInMountainArray(target int, mountainArr *MountainArray) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the MountainArray's API interface.
@@ -276,7 +285,9 @@ function findInMountainArray(target: number, mountainArr: MountainArray) {
     return ans === -1 ? search(l + 1, n - 1, -1) : ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -326,6 +337,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def matrixMedian(self, grid: List[List[int]]) -> int:
@@ -68,7 +69,9 @@ class Solution:
         target = (m * n + 1) >> 1
         return bisect_left(range(10**6 + 1), target, key=count)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] grid;
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func matrixMedian(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -168,6 +175,7 @@ func matrixMedian(grid [][]int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

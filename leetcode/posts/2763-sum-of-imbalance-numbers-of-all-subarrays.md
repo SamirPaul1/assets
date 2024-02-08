@@ -86,6 +86,7 @@ The time complexity is $O(n^2 \times \log n)$ and the space complexity is $O(n)$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -110,7 +111,9 @@ class Solution:
                 ans += cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumImbalanceNumbers(int[] nums) {
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,6 +173,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

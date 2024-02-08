@@ -131,6 +131,7 @@ Let us see all the possible triplets.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -149,6 +150,7 @@ WHERE
     AND a.student_id != c.student_id
     AND b.student_id != c.student_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

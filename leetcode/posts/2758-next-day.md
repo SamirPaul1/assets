@@ -53,6 +53,7 @@ date.nextDay(); // &quot;2014-06-21&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Date {
@@ -71,6 +72,7 @@ Date.prototype.nextDay = function () {
  * date.nextDay(); // "2014-06-21"
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

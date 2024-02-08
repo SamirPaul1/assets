@@ -59,6 +59,7 @@ Note that we do not consider the subarrays of length &lt; 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
@@ -85,7 +86,9 @@ class Solution:
                 r = mid
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxAverage(nums []int, k int) float64 {
 	eps := 1e-5
@@ -205,7 +212,9 @@ func findMaxAverage(nums []int, k int) float64 {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaxAverage(nums: number[], k: number): number {
     const eps = 1e-5;
@@ -239,6 +248,7 @@ function findMaxAverage(nums: number[], k: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

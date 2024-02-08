@@ -76,6 +76,7 @@ It can be shown that it is not possible to obtain a lower maximum satisfying all
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeSet(
@@ -94,7 +95,9 @@ class Solution:
         divisor = lcm(divisor1, divisor2)
         return bisect_left(range(10**10), True, key=f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimizeSet(int divisor1, int divisor2, int uniqueCnt1, int uniqueCnt2) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizeSet(divisor1 int, divisor2 int, uniqueCnt1 int, uniqueCnt2 int) int {
 	divisor := lcm(divisor1, divisor2)
@@ -175,6 +182,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

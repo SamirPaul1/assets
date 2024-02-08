@@ -72,6 +72,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canCross(self, stones: List[int]) -> bool:
@@ -88,7 +89,9 @@ class Solution:
         pos = {s: i for i, s in enumerate(stones)}
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Boolean[][] f;
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canCross(stones []int) bool {
 	n := len(stones)
@@ -192,7 +199,9 @@ func canCross(stones []int) bool {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canCross(stones: number[]): boolean {
     const n = stones.length;
@@ -222,7 +231,9 @@ function canCross(stones: number[]): boolean {
     return dfs(0, 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -273,6 +284,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -288,6 +300,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canCross(self, stones: List[int]) -> bool:
@@ -304,7 +317,9 @@ class Solution:
                     return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canCross(int[] stones) {
@@ -327,7 +342,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -352,7 +369,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canCross(stones []int) bool {
 	n := len(stones)
@@ -376,7 +395,9 @@ func canCross(stones []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canCross(stones: number[]): boolean {
     const n = stones.length;
@@ -397,7 +418,9 @@ function canCross(stones: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -426,6 +449,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

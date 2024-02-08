@@ -78,13 +78,16 @@ The time complexity is $O(n)$, where $n$ is the length of the array. Ignoring th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestSubarray(self, nums: List[int], k: int) -> List[int]:
         i = nums.index(max(nums[: len(nums) - k + 1]))
         return nums[i : i + k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] largestSubarray(int[] nums, int k) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestSubarray(nums []int, k int) []int {
 	j := 0
@@ -120,7 +127,9 @@ func largestSubarray(nums []int, k int) []int {
 	return nums[j : j+k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestSubarray(nums: number[], k: number): number[] {
     let j = 0;
@@ -132,7 +141,9 @@ function largestSubarray(nums: number[], k: number): number[] {
     return nums.slice(j, j + k);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn largest_subarray(nums: Vec<i32>, k: i32) -> Vec<i32> {
@@ -146,6 +157,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

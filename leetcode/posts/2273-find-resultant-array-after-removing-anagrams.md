@@ -66,6 +66,7 @@ No two adjacent strings in words are anagrams of each other, so no operations ar
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeAnagrams(self, words: List[str]) -> List[str]:
@@ -75,7 +76,9 @@ class Solution:
             if i == 0 or sorted(w) != sorted(words[i - 1])
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> removeAnagrams(String[] words) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeAnagrams(words: string[]): string[] {
     const n = words.length;
@@ -119,6 +124,7 @@ function countWord(word: string): number[] {
     return count;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

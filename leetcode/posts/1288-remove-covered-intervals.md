@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:
@@ -68,7 +69,9 @@ class Solution:
                 pre = e
         return cnt
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int removeCoveredIntervals(int[][] intervals) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeCoveredIntervals(intervals [][]int) int {
 	sort.Slice(intervals, func(i, j int) bool {
@@ -123,6 +130,7 @@ func removeCoveredIntervals(intervals [][]int) int {
 	return cnt
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

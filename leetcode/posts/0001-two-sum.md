@@ -73,6 +73,7 @@ The time complexity is $O(n)$ and the space complexity is $O(n)$. Where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -83,7 +84,9 @@ class Solution:
                 return [m[y], i]
             m[x] = i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoSum(nums []int, target int) []int {
 	m := map[int]int{}
@@ -130,7 +137,9 @@ func twoSum(nums []int, target int) []int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function twoSum(nums: number[], target: number): number[] {
     const m: Map<number, number> = new Map();
@@ -147,7 +156,9 @@ function twoSum(nums: number[], target: number): number[] {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -166,7 +177,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -185,7 +198,9 @@ var twoSum = function (nums, target) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
@@ -203,7 +218,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -222,7 +239,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Scala Code" >}}
 ```scala
 import scala.collection.mutable
 
@@ -240,7 +259,9 @@ object Solution {
   }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Swift Code" >}}
 ```swift
 class Solution {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
@@ -258,7 +279,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # @param {Integer[]} nums
 # @param {Integer} target
@@ -272,7 +295,9 @@ def two_sum(nums, target)
   end
 end
 ```
+{{< /terminal >}}
 
+{{< terminal title="Nim Code" >}}
 ```nim
 import std/enumerate
 
@@ -287,6 +312,7 @@ proc twoSum(nums: seq[int], target: int): seq[int] =
             if idx != tdx:
                 return @[idx, tdx]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

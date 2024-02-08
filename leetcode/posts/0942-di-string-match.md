@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def diStringMatch(self, s: str) -> List[int]:
@@ -69,7 +70,9 @@ class Solution:
         ans.append(low)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] diStringMatch(String s) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func diStringMatch(s string) []int {
 	n := len(s)
@@ -127,7 +134,9 @@ func diStringMatch(s string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function diStringMatch(s: string): number[] {
     const n = s.length;
@@ -145,7 +154,9 @@ function diStringMatch(s: string): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn di_string_match(s: String) -> Vec<i32> {
@@ -169,6 +180,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

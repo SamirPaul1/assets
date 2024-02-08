@@ -73,6 +73,7 @@ The time complexity is $O(n \times \log n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -106,7 +107,9 @@ class Solution:
             tree.update(v + 40000, 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -151,7 +154,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -240,6 +247,7 @@ func numberOfPairs(nums1 []int, nums2 []int, diff int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

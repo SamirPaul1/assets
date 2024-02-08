@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function jsonParse(str: string): any {
     const n = str.length;
@@ -176,6 +177,7 @@ function jsonParse(str: string): any {
     return parseValue();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

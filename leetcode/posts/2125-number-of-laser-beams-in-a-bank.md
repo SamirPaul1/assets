@@ -75,6 +75,7 @@ This is because the 2<sup>nd</sup> row contains security devices, which breaks t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfBeams(self, bank: List[str]) -> int:
@@ -85,7 +86,9 @@ class Solution:
                 last = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfBeams(String[] bank) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfBeams(bank []string) int {
 	ans, last := 0, 0
@@ -142,7 +149,9 @@ func numberOfBeams(bank []string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfBeams(bank: string[]): number {
     let last = 0;
@@ -162,7 +171,9 @@ function numberOfBeams(bank: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn number_of_beams(bank: Vec<String>) -> i32 {
@@ -184,7 +195,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int numberOfBeams(char** bank, int bankSize) {
     int last = 0;
@@ -204,6 +217,7 @@ int numberOfBeams(char** bank, int bankSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

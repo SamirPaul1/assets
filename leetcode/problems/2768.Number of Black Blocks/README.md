@@ -1,6 +1,5 @@
 # [2768. Number of Black Blocks](https://leetcode.com/problems/number-of-black-blocks)
 
-[中文文档](/solution/2700-2799/2768.Number%20of%20Black%20Blocks/README.md)
 
 ## Description
 

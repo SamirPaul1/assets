@@ -80,6 +80,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def categorizeBox(self, length: int, width: int, height: int, mass: int) -> str:
@@ -90,7 +91,9 @@ class Solution:
         d = ['Neither', 'Bulky', 'Heavy', 'Both']
         return d[i]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String categorizeBox(int length, int width, int height, int mass) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func categorizeBox(length int, width int, height int, mass int) string {
 	v := length * width * height
@@ -132,7 +139,9 @@ func categorizeBox(length int, width int, height int, mass int) string {
 	return d[i]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function categorizeBox(length: number, width: number, height: number, mass: number): string {
     const v = length * width * height;
@@ -146,7 +155,9 @@ function categorizeBox(length: number, width: number, height: number, mass: numb
     return ['Neither', 'Bulky', 'Heavy', 'Both'][i];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn categorize_box(length: i32, width: i32, height: i32, mass: i32) -> String {
@@ -166,6 +177,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -173,6 +185,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def categorizeBox(self, length: int, width: int, height: int, mass: int) -> str:
@@ -189,7 +202,9 @@ class Solution:
 
         return "Neither"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String categorizeBox(int length, int width, int height, int mass) {
@@ -211,7 +226,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -234,7 +251,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func categorizeBox(length int, width int, height int, mass int) string {
 	v := length * width * height
@@ -252,7 +271,9 @@ func categorizeBox(length int, width int, height int, mass int) string {
 	return "Neither"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function categorizeBox(length: number, width: number, height: number, mass: number): string {
     const v = length * width * height;
@@ -270,7 +291,9 @@ function categorizeBox(length: number, width: number, height: number, mass: numb
     return 'Neither';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn categorize_box(length: i32, width: i32, height: i32, mass: i32) -> String {
@@ -297,6 +320,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

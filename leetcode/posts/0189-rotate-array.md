@@ -82,6 +82,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
@@ -96,7 +97,9 @@ class Solution:
         reverse(0, k - 1)
         reverse(k, n - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rotate(nums []int, k int) {
 	n := len(nums)
@@ -147,7 +154,9 @@ func rotate(nums []int, k int) {
 	reverse(k, n-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify nums in-place instead.
@@ -167,7 +176,9 @@ function rotate(nums: number[], k: number): void {
     reverse(k, n - 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn rotate(nums: &mut Vec<i32>, k: i32) {
@@ -179,7 +190,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -199,7 +212,9 @@ var rotate = function (nums, k) {
     reverse(k, n - 1);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int[] nums;
@@ -222,6 +237,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -229,12 +245,14 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         k %= len(nums)
         nums[:] = nums[-k:] + nums[:-k]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -81,6 +81,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSpeedOnTime(self, dist: List[int], hour: float) -> int:
@@ -94,7 +95,9 @@ class Solution:
         ans = bisect_left(range(1, r), True, key=check) + 1
         return -1 if ans == r else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSpeedOnTime(int[] dist, double hour) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSpeedOnTime(dist []int, hour float64) int {
 	n := len(dist)
@@ -167,7 +174,9 @@ func minSpeedOnTime(dist []int, hour float64) int {
 	return x + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_speed_on_time(dist: Vec<i32>, hour: f64) -> i32 {
@@ -203,7 +212,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} dist
@@ -238,6 +249,7 @@ function arriveOnTime(dist, speed, hour) {
     return res <= hour;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

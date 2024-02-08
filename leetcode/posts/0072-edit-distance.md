@@ -90,6 +90,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
@@ -106,7 +107,9 @@ class Solution:
                     f[i][j] = min(f[i - 1][j], f[i][j - 1], f[i - 1][j - 1]) + 1
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDistance(String word1, String word2) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDistance(word1 string, word2 string) int {
 	m, n := len(word1), len(word2)
@@ -177,7 +184,9 @@ func minDistance(word1 string, word2 string) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minDistance(word1: string, word2: string): number {
     const m = word1.length;
@@ -201,7 +210,9 @@ function minDistance(word1: string, word2: string): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} word1
@@ -230,6 +241,7 @@ var minDistance = function (word1, word2) {
     return f[m][n];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

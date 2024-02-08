@@ -78,6 +78,7 @@ The time complexity is $O(n \log n)$, and the space complexity is $O(n)$. Where 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPossible(self, target: List[int]) -> bool:
@@ -94,7 +95,9 @@ class Solution:
             s = s - mx + x
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPossible(int[] target) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPossible(target []int) bool {
 	pq := &hp{target}
@@ -182,7 +189,9 @@ func (h hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
 func (hp) Pop() (_ any)         { return }
 func (hp) Push(any)             {}
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPossible(target: number[]): boolean {
     const pq = new MaxPriorityQueue();
@@ -204,6 +213,7 @@ function isPossible(target: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

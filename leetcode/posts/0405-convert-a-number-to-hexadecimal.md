@@ -46,6 +46,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def toHex(self, num: int) -> str:
@@ -59,7 +60,9 @@ class Solution:
                 s.append(chars[x])
         return ''.join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String toHex(int num) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func toHex(num int) string {
 	if num == 0 {
@@ -120,6 +127,7 @@ func toHex(num int) string {
 	return sb.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -127,6 +135,7 @@ func toHex(num int) string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String toHex(int num) {
@@ -145,6 +154,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

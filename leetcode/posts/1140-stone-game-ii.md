@@ -74,6 +74,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
         s = list(accumulate(piles, initial=0))
         return dfs(0, 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] s;
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGameII(piles []int) int {
 	n := len(piles)
@@ -178,7 +185,9 @@ func stoneGameII(piles []int) int {
 	return dfs(0, 1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stoneGameII(piles: number[]): number {
     const n = piles.length;
@@ -203,6 +212,7 @@ function stoneGameII(piles: number[]): number {
     return dfs(0, 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -210,6 +220,7 @@ function stoneGameII(piles: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameII(self, piles: List[int]) -> int:
@@ -225,6 +236,7 @@ class Solution:
         s = list(accumulate(piles, initial=0))
         return dfs(0)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

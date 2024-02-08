@@ -63,6 +63,7 @@ The time complexity is $O(n\log \log n)$, and the space complexity is $O(n)$. Wh
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -87,7 +88,9 @@ class Solution:
             ans.append([x[1] for x in v])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -214,6 +221,7 @@ func verticalOrder(root *TreeNode) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -225,6 +233,7 @@ The time complexity is $O(n\log n)$, and the space complexity is $O(n)$. Where $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -248,7 +257,9 @@ class Solution:
                     q.append((root.right, offset + 1))
         return [v for _, v in sorted(d.items())]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -292,7 +303,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -330,7 +343,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -378,6 +393,7 @@ type pair struct {
 	offset int
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

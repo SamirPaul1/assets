@@ -109,6 +109,7 @@ User 102 spent the most money on products 1, 2, and 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -129,6 +130,7 @@ SELECT user_id, product_id
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

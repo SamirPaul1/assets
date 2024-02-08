@@ -67,6 +67,7 @@ The sum of powers of all groups is 8 + 1 + 64 + 4 + 32 + 16 + 16 = 141.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOfPower(self, nums: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
             p = (p * 2 + x * x) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumOfPower(int[] nums) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOfPower(nums []int) (ans int) {
 	const mod = 1e9 + 7
@@ -129,7 +136,9 @@ func sumOfPower(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumOfPower(nums: number[]): number {
     const mod = 10 ** 9 + 7;
@@ -145,6 +154,7 @@ function sumOfPower(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

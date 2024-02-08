@@ -63,6 +63,7 @@ It covers 2 white tiles, so we return 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumWhiteTiles(self, tiles: List[List[int]], carpetLen: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
             s -= ri - li + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumWhiteTiles(int[][] tiles, int carpetLen) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumWhiteTiles(tiles [][]int, carpetLen int) int {
 	sort.Slice(tiles, func(i, j int) bool { return tiles[i][0] < tiles[j][0] })
@@ -147,6 +154,7 @@ func maximumWhiteTiles(tiles [][]int, carpetLen int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

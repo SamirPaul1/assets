@@ -80,6 +80,7 @@ Note that the expressCost is paid again to transfer back to the express route.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCosts(
@@ -95,7 +96,9 @@ class Solution:
             cost[i - 1] = min(f[i], g[i])
         return cost
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] minimumCosts(int[] regular, int[] express, int expressCost) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCosts(regular []int, express []int, expressCost int) []int64 {
 	n := len(regular)
@@ -154,7 +161,9 @@ func minimumCosts(regular []int, express []int, expressCost int) []int64 {
 	return cost
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCosts(regular: number[], express: number[], expressCost: number): number[] {
     const n = regular.length;
@@ -171,6 +180,7 @@ function minimumCosts(regular: number[], express: number[], expressCost: number)
     return cost;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -178,6 +188,7 @@ function minimumCosts(regular: number[], express: number[], expressCost: number)
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCosts(
@@ -193,7 +204,9 @@ class Solution:
             cost[i - 1] = min(f, g)
         return cost
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] minimumCosts(int[] regular, int[] express, int expressCost) {
@@ -214,7 +227,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -236,7 +251,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCosts(regular []int, express []int, expressCost int) []int64 {
 	f, g := 0, 1<<30
@@ -251,7 +268,9 @@ func minimumCosts(regular []int, express []int, expressCost int) []int64 {
 	return cost
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCosts(regular: number[], express: number[], expressCost: number): number[] {
     const n = regular.length;
@@ -268,6 +287,7 @@ function minimumCosts(regular: number[], express: number[], expressCost: number)
     return cost;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

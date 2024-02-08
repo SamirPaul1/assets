@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
                     dp[i][j] += dp[i - 1][j - nums[i - 1]]
         return dp[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTargetSumWays(nums []int, target int) int {
 	s := 0
@@ -156,7 +163,9 @@ func findTargetSumWays(nums []int, target int) int {
 	return dp[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -195,7 +204,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -222,6 +233,7 @@ var findTargetSumWays = function (nums, target) {
     return dp[n];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -229,6 +241,7 @@ var findTargetSumWays = function (nums, target) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
@@ -243,7 +256,9 @@ class Solution:
                 dp[j] += dp[j - v]
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
@@ -266,7 +281,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -283,7 +300,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTargetSumWays(nums []int, target int) int {
 	s := 0
@@ -304,7 +323,9 @@ func findTargetSumWays(nums []int, target int) int {
 	return dp[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -336,6 +357,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -343,6 +365,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
@@ -357,6 +380,7 @@ class Solution:
         ans, n = 0, len(nums)
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

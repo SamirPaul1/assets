@@ -71,6 +71,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. We only nee
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDeletion(self, nums: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
         ans += (n - ans) % 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDeletion(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDeletion(nums []int) (ans int) {
 	n := len(nums)
@@ -137,7 +144,9 @@ func minDeletion(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minDeletion(nums: number[]): number {
     const n = nums.length;
@@ -153,7 +162,9 @@ function minDeletion(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_deletion(nums: Vec<i32>) -> i32 {
@@ -173,6 +184,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -180,6 +192,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDeletion(self, nums: List[int]) -> int:
@@ -194,7 +207,9 @@ class Solution:
         ans += (n - ans) % 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDeletion(int[] nums) {
@@ -213,7 +228,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -233,7 +250,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDeletion(nums []int) (ans int) {
 	n := len(nums)
@@ -248,7 +267,9 @@ func minDeletion(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minDeletion(nums: number[]): number {
     const n = nums.length;
@@ -264,7 +285,9 @@ function minDeletion(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_deletion(nums: Vec<i32>) -> i32 {
@@ -284,6 +307,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

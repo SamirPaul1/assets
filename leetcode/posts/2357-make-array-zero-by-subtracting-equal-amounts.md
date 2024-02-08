@@ -62,12 +62,15 @@ In the third operation, choose x = 2. Now, nums = [0,0,0,0,0].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
         return len({x for x in nums if x})
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumOperations(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(nums []int) (ans int) {
 	s := [101]bool{true}
@@ -115,7 +122,9 @@ func minimumOperations(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOperations(nums: number[]): number {
     const set = new Set(nums);
@@ -123,7 +132,9 @@ function minimumOperations(nums: number[]): number {
     return set.size;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -134,7 +145,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minimumOperations(int* nums, int numsSize) {
     int vis[101] = {0};
@@ -150,6 +163,7 @@ int minimumOperations(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

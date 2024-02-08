@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def baseNeg2(self, n: int) -> str:
@@ -76,7 +77,9 @@ class Solution:
             k *= -1
         return ''.join(ans[::-1]) or '0'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String baseNeg2(int n) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func baseNeg2(n int) string {
 	if n == 0 {
@@ -148,7 +155,9 @@ func baseNeg2(n int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function baseNeg2(n: number): string {
     if (n === 0) {
@@ -169,6 +178,7 @@ function baseNeg2(n: number): string {
     return ans.reverse().join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

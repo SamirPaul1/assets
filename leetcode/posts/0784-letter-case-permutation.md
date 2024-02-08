@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def letterCasePermutation(self, s: str) -> List[str]:
@@ -69,7 +70,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<String> ans = new ArrayList<>();
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func letterCasePermutation(s string) (ans []string) {
 	t := []byte(s)
@@ -137,7 +144,9 @@ func letterCasePermutation(s string) (ans []string) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function letterCasePermutation(s: string): string[] {
     const n = s.length;
@@ -158,7 +167,9 @@ function letterCasePermutation(s: string): string[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: usize, cs: &mut Vec<char>, res: &mut Vec<String>) {
@@ -181,6 +192,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -188,6 +200,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def letterCasePermutation(self, s: str) -> List[str]:
@@ -203,7 +216,9 @@ class Solution:
             ans.append(''.join(t))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> letterCasePermutation(String s) {
@@ -231,7 +246,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -256,7 +273,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func letterCasePermutation(s string) (ans []string) {
 	n := 0
@@ -284,6 +303,7 @@ func letterCasePermutation(s string) (ans []string) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

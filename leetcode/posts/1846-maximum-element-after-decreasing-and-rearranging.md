@@ -90,6 +90,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:
@@ -100,7 +101,9 @@ class Solution:
             arr[i] -= d
         return max(arr)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumElementAfterDecrementingAndRearranging(int[] arr) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumElementAfterDecrementingAndRearranging(arr []int) int {
 	sort.Ints(arr)
@@ -147,7 +154,9 @@ func maximumElementAfterDecrementingAndRearranging(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumElementAfterDecrementingAndRearranging(arr: number[]): number {
     arr.sort((a, b) => a - b);
@@ -161,7 +170,9 @@ function maximumElementAfterDecrementingAndRearranging(arr: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaximumElementAfterDecrementingAndRearranging(int[] arr) {
@@ -175,6 +186,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

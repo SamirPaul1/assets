@@ -64,6 +64,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the number of rows and 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                 j += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countNegatives(int[][] grid) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countNegatives(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -130,7 +137,9 @@ func countNegatives(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countNegatives(grid: number[][]): number {
     const m = grid.length,
@@ -147,7 +156,9 @@ function countNegatives(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_negatives(grid: Vec<Vec<i32>>) -> i32 {
@@ -170,7 +181,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} grid
@@ -191,6 +204,7 @@ var countNegatives = function (grid) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -204,12 +218,15 @@ The time complexity is $O(m \times \log n)$, where $m$ and $n$ are the number of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         return sum(bisect_left(row[::-1], 0) for row in grid)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countNegatives(int[][] grid) {
@@ -231,7 +248,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -244,7 +263,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countNegatives(grid [][]int) int {
 	ans, n := 0, len(grid[0])
@@ -263,7 +284,9 @@ func countNegatives(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countNegatives(grid: number[][]): number {
     const n = grid[0].length;
@@ -284,7 +307,9 @@ function countNegatives(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_negatives(grid: Vec<Vec<i32>>) -> i32 {
@@ -305,7 +330,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} grid
@@ -330,6 +357,7 @@ var countNegatives = function (grid) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

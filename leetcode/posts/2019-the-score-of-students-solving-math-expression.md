@@ -111,6 +111,7 @@ The time complexity is $O(n^3 \times M^2)$, and the space complexity is $O(n^2 \
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def scoreOfStudents(self, s: str, answers: List[int]) -> int:
@@ -147,7 +148,9 @@ class Solution:
                 ans += v << 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int scoreOfStudents(String s, int[] answers) {
@@ -207,7 +210,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -265,7 +270,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func scoreOfStudents(s string, answers []int) int {
 	n := len(s)
@@ -323,7 +330,9 @@ func cal(s string) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function scoreOfStudents(s: string, answers: number[]): number {
     const n = s.length;
@@ -383,6 +392,7 @@ function scoreOfStudents(s: string, answers: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

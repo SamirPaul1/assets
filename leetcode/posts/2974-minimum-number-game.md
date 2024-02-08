@@ -66,6 +66,7 @@ Time complexity is $O(n \times \log n)$, and space complexity is $O(n)$. Where $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberGame(self, nums: List[int]) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
             ans.append(a)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] numberGame(int[] nums) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberGame(nums []int) (ans []int) {
 	pq := &hp{nums}
@@ -146,7 +153,9 @@ func (h *hp) Push(x interface{}) {
 	h.IntSlice = append(h.IntSlice, x.(int))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberGame(nums: number[]): number[] {
     const pq = new MinPriorityQueue();
@@ -162,7 +171,9 @@ function numberGame(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::BinaryHeap;
 use std::cmp::Reverse;
@@ -188,6 +199,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -199,6 +211,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberGame(self, nums: List[int]) -> List[int]:
@@ -207,7 +220,9 @@ class Solution:
             nums[i], nums[i + 1] = nums[i + 1], nums[i]
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] numberGame(int[] nums) {
@@ -221,7 +236,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -235,7 +252,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberGame(nums []int) []int {
 	sort.Ints(nums)
@@ -245,7 +264,9 @@ func numberGame(nums []int) []int {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberGame(nums: number[]): number[] {
     nums.sort((a, b) => a - b);
@@ -255,7 +276,9 @@ function numberGame(nums: number[]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn number_game(nums: Vec<i32>) -> Vec<i32> {
@@ -268,6 +291,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

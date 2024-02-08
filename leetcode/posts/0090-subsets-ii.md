@@ -57,6 +57,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
@@ -77,7 +78,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<Integer>> ans = new ArrayList<>();
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsetsWithDup(nums []int) (ans [][]int) {
 	sort.Ints(nums)
@@ -157,7 +164,9 @@ func subsetsWithDup(nums []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subsetsWithDup(nums: number[]): number[][] {
     nums.sort((a, b) => a - b);
@@ -181,7 +190,9 @@ function subsetsWithDup(nums: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn subsets_with_dup(nums: Vec<i32>) -> Vec<Vec<i32>> {
@@ -210,6 +221,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -225,6 +237,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
@@ -244,7 +257,9 @@ class Solution:
                 ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
@@ -271,7 +286,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -299,7 +316,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsetsWithDup(nums []int) (ans [][]int) {
 	sort.Ints(nums)
@@ -323,7 +342,9 @@ func subsetsWithDup(nums []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subsetsWithDup(nums: number[]): number[][] {
     nums.sort((a, b) => a - b);
@@ -348,7 +369,9 @@ function subsetsWithDup(nums: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn subsets_with_dup(nums: Vec<i32>) -> Vec<Vec<i32>> {
@@ -376,6 +399,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

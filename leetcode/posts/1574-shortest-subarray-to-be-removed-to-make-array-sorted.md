@@ -65,6 +65,7 @@ Another correct solution is to remove the subarray [3,10,4].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLengthOfShortestSubarray(self, arr: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
             ans = min(ans, r - l - 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLengthOfShortestSubarray(int[] arr) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLengthOfShortestSubarray(arr []int) int {
 	n := len(arr)
@@ -166,6 +173,7 @@ func findLengthOfShortestSubarray(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -173,6 +181,7 @@ func findLengthOfShortestSubarray(arr []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLengthOfShortestSubarray(self, arr: List[int]) -> int:
@@ -192,7 +201,9 @@ class Solution:
             ans = min(ans, r - l - 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLengthOfShortestSubarray(int[] arr) {
@@ -218,7 +229,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -245,7 +258,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLengthOfShortestSubarray(arr []int) int {
 	n := len(arr)
@@ -270,6 +285,7 @@ func findLengthOfShortestSubarray(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

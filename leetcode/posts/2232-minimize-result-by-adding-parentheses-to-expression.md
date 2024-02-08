@@ -71,6 +71,7 @@ It can be shown that 170 is the smallest possible value.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeResult(self, expression: str) -> str:
@@ -88,7 +89,9 @@ class Solution:
                     ans = f"{l[:i]}({l[i:]}+{r[: j + 1]}){r[j + 1:]}"
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minimizeResult(String expression) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimizeResult(expression: string): string {
     const [n1, n2] = expression.split('+');
@@ -144,6 +149,7 @@ function getNum(arr: Array<string>): number {
     return arr.length ? Number(arr.join('')) : 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

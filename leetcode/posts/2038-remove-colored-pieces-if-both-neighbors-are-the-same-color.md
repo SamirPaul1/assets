@@ -97,6 +97,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string `colors`. T
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def winnerOfGame(self, colors: str) -> bool:
@@ -109,7 +110,9 @@ class Solution:
                 b += m
         return a > b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean winnerOfGame(String colors) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func winnerOfGame(colors string) bool {
 	n := len(colors)
@@ -177,7 +184,9 @@ func winnerOfGame(colors string) bool {
 	return a > b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function winnerOfGame(colors: string): boolean {
     const n = colors.length;
@@ -198,6 +207,7 @@ function winnerOfGame(colors: string): boolean {
     return a > b;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ The time complexity is $O(L)$, and the space complexity is $O(C)$. Here, $L$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
@@ -76,7 +77,9 @@ class Solution:
                 ans += len(w)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countCharacters(words []string, chars string) (ans int) {
 	cnt := [26]int{}
@@ -156,7 +163,9 @@ func countCharacters(words []string, chars string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countCharacters(words: string[], chars: string): number {
     const idx = (c: string) => c.charCodeAt(0) - 'a'.charCodeAt(0);
@@ -181,7 +190,9 @@ function countCharacters(words: string[], chars: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -209,6 +220,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

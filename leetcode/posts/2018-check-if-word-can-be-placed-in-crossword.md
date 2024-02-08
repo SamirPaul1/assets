@@ -93,6 +93,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(1)$. Here
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def placeWordInCrossword(self, board: List[List[str]], word: str) -> bool:
@@ -128,7 +129,9 @@ class Solution:
                     return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -174,7 +177,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -210,7 +215,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func placeWordInCrossword(board [][]byte, word string) bool {
 	m, n := len(board), len(board[0])
@@ -242,6 +249,7 @@ func placeWordInCrossword(board [][]byte, word string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

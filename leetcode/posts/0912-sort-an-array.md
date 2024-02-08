@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
         quick_sort(0, len(nums) - 1)
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortArray(nums []int) []int {
 	quickSort(nums, 0, len(nums)-1)
@@ -172,7 +179,9 @@ func quickSort(nums []int, l, r int) {
 	quickSort(nums, j+1, r)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortArray(nums: number[]): number[] {
     function quickSort(l: number, r: number) {
@@ -197,7 +206,9 @@ function sortArray(nums: number[]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -226,6 +237,7 @@ var sortArray = function (nums) {
     return nums;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -233,6 +245,7 @@ var sortArray = function (nums) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
@@ -261,7 +274,9 @@ class Solution:
         merge_sort(0, len(nums) - 1)
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -298,7 +313,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -334,7 +351,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortArray(nums []int) []int {
 	mergeSort(nums, 0, len(nums)-1)
@@ -373,7 +392,9 @@ func mergeSort(nums []int, l, r int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortArray(nums: number[]): number[] {
     function mergetSort(l: number, r: number) {
@@ -407,7 +428,9 @@ function sortArray(nums: number[]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -445,6 +468,7 @@ var sortArray = function (nums) {
     return nums;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -452,6 +476,7 @@ var sortArray = function (nums) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -490,6 +515,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -60,6 +60,7 @@ Possible arrangements:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countHousePlacements(self, n: int) -> int:
@@ -72,7 +73,9 @@ class Solution:
         v = f[-1] + g[-1]
         return v * v % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countHousePlacements(int n) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countHousePlacements(n int) int {
 	const mod = 1e9 + 7
@@ -122,7 +129,9 @@ func countHousePlacements(n int) int {
 	return v * v % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countHousePlacements(n: number): number {
     const f = new Array(n);
@@ -137,7 +146,9 @@ function countHousePlacements(n: number): number {
     return Number(v ** 2n % mod);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CountHousePlacements(int n) {
@@ -154,6 +165,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

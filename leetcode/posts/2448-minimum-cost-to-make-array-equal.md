@@ -88,6 +88,7 @@ The time complexity is $O(n\times \log n)$, where $n$ is the length of the array
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, nums: List[int], cost: List[int]) -> int:
@@ -107,7 +108,9 @@ class Solution:
             ans = min(ans, l + r)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minCost(int[] nums, int[] cost) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(nums []int, cost []int) int64 {
 	n := len(nums)
@@ -191,7 +198,9 @@ func minCost(nums []int, cost []int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -239,6 +248,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -255,6 +265,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, nums: List[int], cost: List[int]) -> int:
@@ -266,7 +277,9 @@ class Solution:
             if s > mid:
                 return sum(abs(v - x) * c for v, c in arr)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minCost(int[] nums, int[] cost) {
@@ -300,7 +313,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -326,7 +341,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(nums []int, cost []int) int64 {
 	n := len(nums)
@@ -362,6 +379,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

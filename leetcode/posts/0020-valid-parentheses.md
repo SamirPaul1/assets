@@ -75,6 +75,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isValid(self, s: str) -> bool:
@@ -87,7 +88,9 @@ class Solution:
                 return False
         return not stk
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isValid(String s) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isValid(s string) bool {
 	stk := []rune{}
@@ -149,7 +156,9 @@ func match(l, r rune) bool {
 	return (l == '(' && r == ')') || (l == '[' && r == ']') || (l == '{' && r == '}')
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const map = new Map([
     ['(', ')'],
@@ -169,7 +178,9 @@ function isValid(s: string): boolean {
     return stack.length === 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -191,7 +202,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -215,7 +228,9 @@ function match(l, r) {
     return (l == '(' && r == ')') || (l == '[' && r == ']') || (l == '{' && r == '}');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsValid(string s) {
@@ -235,7 +250,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # @param {String} s
 # @return {Boolean}
@@ -260,6 +277,7 @@ def is_valid(s)
   stack == ''
 end
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

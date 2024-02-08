@@ -1,6 +1,5 @@
 # [2735. Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates)
 
-[中文文档](/solution/2700-2799/2735.Collecting%20Chocolates/README.md)
 
 ## Description
 

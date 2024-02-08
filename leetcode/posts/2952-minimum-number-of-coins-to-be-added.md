@@ -81,6 +81,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumAddedCoins(self, coins: List[int], target: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumAddedCoins(int[] coins, int target) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumAddedCoins(coins []int, target int) (ans int) {
 	slices.Sort(coins)
@@ -149,7 +156,9 @@ func minimumAddedCoins(coins []int, target int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumAddedCoins(coins: number[], target: number): number {
     coins.sort((a, b) => a - b);
@@ -165,6 +174,7 @@ function minimumAddedCoins(coins: number[], target: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

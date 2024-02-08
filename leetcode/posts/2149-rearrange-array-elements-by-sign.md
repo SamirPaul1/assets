@@ -69,6 +69,7 @@ So nums is rearranged to [1,-1].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
@@ -83,7 +84,9 @@ class Solution:
                 j += 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeArray(nums []int) []int {
 	ans := make([]int, len(nums))
@@ -140,7 +147,9 @@ func rearrangeArray(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rearrangeArray(nums: number[]): number[] {
     let ans = [];
@@ -158,6 +167,7 @@ function rearrangeArray(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

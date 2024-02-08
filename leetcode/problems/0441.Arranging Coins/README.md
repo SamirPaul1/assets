@@ -1,6 +1,5 @@
 # [441. Arranging Coins](https://leetcode.com/problems/arranging-coins)
 
-[中文文档](/solution/0400-0499/0441.Arranging%20Coins/README.md)
 
 ## Description
 

@@ -76,6 +76,7 @@ The composition of zero functions is the identity function</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type F = (x: number) => number;
 
@@ -90,6 +91,7 @@ function compose(functions: F[]): F {
  * fn(4) // 9
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

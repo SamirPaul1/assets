@@ -63,6 +63,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numKLenSubstrNoRepeats(self, s: str, k: int) -> int:
@@ -79,7 +80,9 @@ class Solution:
             ans += i - j + 1 == k
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numKLenSubstrNoRepeats(String s, int k) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numKLenSubstrNoRepeats(s string, k int) (ans int) {
 	if k > len(s) || k > 26 {
@@ -142,7 +149,9 @@ func numKLenSubstrNoRepeats(s string, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numKLenSubstrNoRepeats(s: string, k: number): number {
     const n = s.length;
@@ -165,7 +174,9 @@ function numKLenSubstrNoRepeats(s: string, k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -190,6 +201,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -197,6 +209,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numKLenSubstrNoRepeats(self, s: str, k: int) -> int:
@@ -213,7 +226,9 @@ class Solution:
             ans += len(cnt) == k
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numKLenSubstrNoRepeats(String s, int k) {
@@ -237,7 +252,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +280,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numKLenSubstrNoRepeats(s string, k int) (ans int) {
 	n := len(s)
@@ -290,6 +309,7 @@ func numKLenSubstrNoRepeats(s string, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

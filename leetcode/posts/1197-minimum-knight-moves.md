@@ -65,6 +65,7 @@ Bidirectional BFS is a common optimization method for BFS. The main implementati
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minKnightMoves(self, x: int, y: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minKnightMoves(int x, int y) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minKnightMoves(x int, y int) int {
 	x, y = x+310, y+310
@@ -181,7 +188,9 @@ func minKnightMoves(x int, y int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -253,6 +262,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -260,6 +270,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minKnightMoves(self, x: int, y: int) -> int:
@@ -296,7 +307,9 @@ class Solution:
                 return t
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n = 700;
@@ -346,7 +359,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef pair<int, int> PII;
 
@@ -392,7 +407,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minKnightMoves(x int, y int) int {
 	if x == 0 && y == 0 {
@@ -437,7 +454,9 @@ func minKnightMoves(x int, y int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 use std::collections::HashMap;
@@ -534,6 +553,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

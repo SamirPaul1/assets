@@ -62,6 +62,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findNumberOfLIS(self, nums: List[int]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                 ans += cnt[i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findNumberOfLIS(int[] nums) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findNumberOfLIS(nums []int) (ans int) {
 	n, mx := len(nums), 0
@@ -174,7 +181,9 @@ func findNumberOfLIS(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findNumberOfLIS(nums: number[]): number {
     const n = nums.length;
@@ -202,7 +211,9 @@ function findNumberOfLIS(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_number_of_lis(nums: Vec<i32>) -> i32 {
@@ -233,6 +244,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -244,6 +256,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     __slots__ = ["n", "c", "d"]
@@ -285,7 +298,9 @@ class Solution:
             tree.update(i, v + 1, max(cnt, 1))
         return tree.query(m)[1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -343,7 +358,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 private:
@@ -402,7 +419,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -459,7 +478,9 @@ func findNumberOfLIS(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -525,7 +546,9 @@ function findNumberOfLIS(nums: number[]): number {
     return tree.query(m)[1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct BinaryIndexedTree {
     n: usize,
@@ -587,6 +610,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

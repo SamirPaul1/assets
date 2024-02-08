@@ -65,6 +65,7 @@ So the minimum time needed to complete 1 trip is 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, time: List[int], totalTrips: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
             range(mx), totalTrips, key=lambda x: sum(x // v for v in time)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumTime(int[] time, int totalTrips) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(time []int, totalTrips int) int64 {
 	left, right := 1, slices.Min(time)*totalTrips
@@ -137,6 +144,7 @@ func minimumTime(time []int, totalTrips int) int64 {
 	return int64(left)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

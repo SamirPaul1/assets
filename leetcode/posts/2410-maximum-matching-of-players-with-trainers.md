@@ -66,6 +66,7 @@ The time complexity is $O(n \times \log n + m \times \log m)$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def matchPlayersAndTrainers(self, players: List[int], trainers: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 j += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int matchPlayersAndTrainers(int[] players, int[] trainers) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func matchPlayersAndTrainers(players []int, trainers []int) int {
 	sort.Ints(players)
@@ -140,6 +147,7 @@ func matchPlayersAndTrainers(players []int, trainers []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

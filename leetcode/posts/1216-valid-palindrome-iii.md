@@ -66,6 +66,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isValidPalindrome(self, s: str, k: int) -> bool:
@@ -83,7 +84,9 @@ class Solution:
                     return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isValidPalindrome(String s, int k) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isValidPalindrome(s string, k int) bool {
 	n := len(s)
@@ -159,7 +166,9 @@ func isValidPalindrome(s string, k int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isValidPalindrome(s: string, k: number): boolean {
     const n = s.length;
@@ -182,7 +191,9 @@ function isValidPalindrome(s: string, k: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_valid_palindrome(s: String, k: i32) -> bool {
@@ -212,6 +223,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

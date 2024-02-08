@@ -63,6 +63,7 @@ There is 1 distinct prime factor so we return 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctPrimeFactors(self, nums: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
                 s.add(n)
         return len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distinctPrimeFactors(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctPrimeFactors(nums []int) int {
 	s := map[int]bool{}
@@ -144,6 +151,7 @@ func distinctPrimeFactors(nums []int) int {
 	return len(s)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

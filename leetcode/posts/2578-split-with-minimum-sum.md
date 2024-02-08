@@ -77,6 +77,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def splitNum(self, num: int) -> int:
@@ -95,7 +96,9 @@ class Solution:
             ans[i & 1] = ans[i & 1] * 10 + j
         return sum(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int splitNum(int num) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func splitNum(num int) int {
 	cnt := [10]int{}
@@ -160,7 +167,9 @@ func splitNum(num int) int {
 	return ans[0] + ans[1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function splitNum(num: number): number {
     const cnt: number[] = Array(10).fill(0);
@@ -180,7 +189,9 @@ function splitNum(num: number): number {
     return ans[0] + ans[1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn split_num(mut num: i32) -> i32 {
@@ -208,6 +219,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -219,13 +231,16 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def splitNum(self, num: int) -> int:
         s = sorted(str(num))
         return int(''.join(s[::2])) + int(''.join(s[1::2]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int splitNum(int num) {
@@ -239,7 +254,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -254,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func splitNum(num int) int {
 	s := []byte(strconv.Itoa(num))
@@ -266,7 +285,9 @@ func splitNum(num int) int {
 	return ans[0] + ans[1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function splitNum(num: number): number {
     const s: string[] = String(num).split('');
@@ -278,7 +299,9 @@ function splitNum(num: number): number {
     return ans[0] + ans[1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn split_num(num: i32) -> i32 {
@@ -294,6 +317,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

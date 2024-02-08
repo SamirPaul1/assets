@@ -83,6 +83,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSteppingNumbers(self, low: str, high: str) -> int:
@@ -107,7 +108,9 @@ class Solution:
         b = dfs(0, -1, True, True)
         return (a - b) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.math.BigInteger;
 
@@ -150,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSteppingNumbers(low string, high string) int {
 	const mod = 1e9 + 7
@@ -267,7 +274,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSteppingNumbers(low: string, high: string): number {
     const mod = 1e9 + 7;
@@ -307,6 +316,7 @@ function countSteppingNumbers(low: string, high: string): number {
     return (a - b + mod) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

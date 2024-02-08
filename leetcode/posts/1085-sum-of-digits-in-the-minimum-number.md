@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOfDigits(self, nums: List[int]) -> int:
@@ -62,7 +63,9 @@ class Solution:
             x //= 10
         return s & 1 ^ 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumOfDigits(int[] nums) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOfDigits(nums []int) int {
 	s := 0
@@ -102,6 +109,7 @@ func sumOfDigits(nums []int) int {
 	return s&1 ^ 1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

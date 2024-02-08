@@ -73,6 +73,7 @@ s becomes &quot;0&quot; + &quot;0&quot; + &quot;0&quot; = &quot;000&quot;, whose
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def digitSum(self, s: str, k: int) -> str:
@@ -87,7 +88,9 @@ class Solution:
             s = "".join(t)
         return s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String digitSum(String s, int k) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func digitSum(s string, k int) string {
 	for len(s) > k {
@@ -146,7 +153,9 @@ func digitSum(s string, k int) string {
 	return s
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function digitSum(s: string, k: number): string {
     let ans = [];
@@ -161,6 +170,7 @@ function digitSum(s: string, k: number): string {
     return s;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -168,6 +178,7 @@ function digitSum(s: string, k: number): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def digitSum(self, s: str, k: int) -> str:
@@ -179,6 +190,7 @@ class Solution:
             s = s[k:]
         return self.digitSum(''.join(t), k)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

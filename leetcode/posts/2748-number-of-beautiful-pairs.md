@@ -66,6 +66,7 @@ Thus, we return 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countBeautifulPairs(self, nums: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
             cnt[int(str(x)[0])] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countBeautifulPairs(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countBeautifulPairs(nums []int) (ans int) {
 	cnt := [10]int{}
@@ -150,7 +157,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countBeautifulPairs(nums: number[]): number {
     const cnt: number[] = Array(10).fill(0);
@@ -176,6 +185,7 @@ function gcd(a: number, b: number): number {
     return gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

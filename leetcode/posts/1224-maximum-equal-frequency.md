@@ -63,6 +63,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxEqualFreq(self, nums: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
                 ans = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static int[] cnt = new int[100010];
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxEqualFreq(nums []int) int {
 	cnt := map[int]int{}
@@ -164,7 +171,9 @@ func maxEqualFreq(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxEqualFreq(nums: number[]): number {
     const n = nums.length;
@@ -202,6 +211,7 @@ function maxEqualFreq(nums: number[]): number {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

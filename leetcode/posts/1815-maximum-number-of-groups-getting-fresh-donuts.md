@@ -71,6 +71,7 @@ The time complexity does not exceed $O(10^7)$, and the space complexity does not
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxHappyGroups(self, batchSize: int, groups: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
         ans += dfs(state, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Long, Integer> f = new HashMap<>();
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxHappyGroups(batchSize int, groups []int) (ans int) {
 	state := 0
@@ -202,6 +209,7 @@ func maxHappyGroups(batchSize int, groups []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -209,6 +217,7 @@ func maxHappyGroups(batchSize int, groups []int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxHappyGroups(self, batchSize: int, groups: List[int]) -> int:
@@ -229,6 +238,7 @@ class Solution:
         mask = (1 << len(g)) - 1
         return len(groups) - len(g) + dfs(0, 0)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

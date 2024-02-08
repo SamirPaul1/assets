@@ -80,6 +80,7 @@ Player 2 installed the game on 2017-06-25 but didn&#39;t log back in on 2017-06-
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -100,6 +101,7 @@ SELECT
 FROM T
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

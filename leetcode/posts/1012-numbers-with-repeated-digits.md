@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDupDigitsAtMostN(self, n: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numDupDigitsAtMostN(int n) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDupDigitsAtMostN(n int) int {
 	return n - f(n)
@@ -220,7 +227,9 @@ func A(m, n int) int {
 	return A(m, n-1) * (m - n + 1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numDupDigitsAtMostN(n: number): number {
     return n - f(n);
@@ -260,6 +269,7 @@ function f(n: number): number {
     return dfs(i, 0, true, true);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -267,6 +277,7 @@ function f(n: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDupDigitsAtMostN(self, n: int) -> int:
@@ -294,7 +305,9 @@ class Solution:
             n //= 10
         return dfs(len(nums) - 1, 0, True, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums = new int[11];
@@ -338,7 +351,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -385,7 +400,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDupDigitsAtMostN(n int) int {
 	return n - f(n)
@@ -436,6 +453,7 @@ func f(n int) int {
 	return dfs(len(nums)-1, 0, true, true)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -95,6 +95,7 @@ In **Solution 1**, we need to enumerate all $i$ and $j$ combinations, a step tha
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getWordsInLongestSubsequence(
@@ -122,7 +123,9 @@ class Solution:
                 break
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> getWordsInLongestSubsequence(int n, String[] words, int[] groups) {
@@ -167,7 +170,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +213,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getWordsInLongestSubsequence(n int, words []string, groups []int) []string {
 	check := func(s, t string) bool {
@@ -256,7 +263,9 @@ func getWordsInLongestSubsequence(n int, words []string, groups []int) []string 
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getWordsInLongestSubsequence(n: number, words: string[], groups: number[]): string[] {
     const f: number[] = Array(n).fill(1);
@@ -295,7 +304,9 @@ function getWordsInLongestSubsequence(n: number, words: string[], groups: number
     return ans.reverse();
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_words_in_longest_subsequence(
@@ -349,6 +360,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -356,6 +368,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> getWordsInLongestSubsequence(int n, String[] words, int[] groups) {
@@ -403,6 +416,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

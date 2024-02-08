@@ -69,6 +69,7 @@ The time complexity is $O(\log k)$, and the space complexity is $O(\log k)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthLuckyNumber(self, k: int) -> str:
@@ -86,7 +87,9 @@ class Solution:
                 k -= 1 << n
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String kthLuckyNumber(int k) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthLuckyNumber(k int) string {
 	n := 1
@@ -152,7 +159,9 @@ func kthLuckyNumber(k int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function kthLuckyNumber(k: number): string {
     let n = 1;
@@ -172,6 +181,7 @@ function kthLuckyNumber(k: number): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

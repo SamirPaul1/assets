@@ -70,6 +70,7 @@ The time complexity is $O(n \times l)$, and the space complexity is $O(l)$. Here
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def entityParser(self, text: str) -> str:
@@ -95,7 +96,9 @@ class Solution:
                 i += 1
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String entityParser(String text) {
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func entityParser(text string) string {
 	d := map[string]string{
@@ -203,7 +210,9 @@ func entityParser(text string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function entityParser(text: string): string {
     const d: Record<string, string> = {
@@ -242,6 +251,7 @@ function entityParser(text: string): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -249,6 +259,7 @@ function entityParser(text: string): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function entityParser(text: string): string {
     const d: { [key: string]: string } = {
@@ -264,6 +275,7 @@ function entityParser(text: string): string {
     return text.replace(pattern, match => d[match]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

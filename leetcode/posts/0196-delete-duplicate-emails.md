@@ -73,6 +73,7 @@ Person table:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -84,12 +85,15 @@ def delete_duplicate_emails(person: pd.DataFrame) -> None:
     # Drop the duplicates based on email.
     person.drop_duplicates(subset="email", keep="first", inplace=True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 DELETE FROM Person
 WHERE id NOT IN (SELECT MIN(id) FROM (SELECT * FROM Person) AS p GROUP BY email);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -97,6 +101,7 @@ WHERE id NOT IN (SELECT MIN(id) FROM (SELECT * FROM Person) AS p GROUP BY email)
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 DELETE FROM Person
@@ -116,6 +121,7 @@ WHERE
         WHERE rk = 1
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -123,6 +129,7 @@ WHERE
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 DELETE p2
 FROM
@@ -131,6 +138,7 @@ FROM
 WHERE
     p1.id < p2.id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

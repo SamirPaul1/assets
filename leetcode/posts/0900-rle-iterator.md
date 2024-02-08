@@ -78,6 +78,7 @@ The time complexity is $O(n + q)$, and the space complexity is $O(n)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class RLEIterator:
     def __init__(self, encoding: List[int]):
@@ -101,7 +102,9 @@ class RLEIterator:
 # obj = RLEIterator(encoding)
 # param_1 = obj.next(n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class RLEIterator {
     private int[] encoding;
@@ -133,7 +136,9 @@ class RLEIterator {
  * int param_1 = obj.next(n);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class RLEIterator {
 public:
@@ -167,7 +172,9 @@ private:
  * int param_1 = obj->next(n);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type RLEIterator struct {
 	encoding []int
@@ -198,7 +205,9 @@ func (this *RLEIterator) Next(n int) int {
  * param_1 := obj.Next(n);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class RLEIterator {
     private encoding: number[];
@@ -232,6 +241,7 @@ class RLEIterator {
  * var param_1 = obj.next(n)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ For session_id 5 has a duration greater than or equal to 15 minutes.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT '[0-5>' AS bin, COUNT(1) AS total FROM Sessions WHERE duration < 300
 UNION
@@ -88,6 +89,7 @@ SELECT '[10-15>' AS bin, COUNT(1) AS total FROM Sessions WHERE 600 <= duration A
 UNION
 SELECT '15 or more' AS bin, COUNT(1) AS total FROM Sessions WHERE 900 <= duration;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

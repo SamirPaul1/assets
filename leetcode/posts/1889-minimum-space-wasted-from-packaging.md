@@ -79,6 +79,7 @@ The total waste is (5-3) + (5-5) + (10-8) + (10-10) + (14-11) + (14-12) = 9.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minWastedSpace(self, packages: List[int], boxes: List[List[int]]) -> int:
@@ -99,7 +100,9 @@ class Solution:
             return -1
         return (ans - sum(packages)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minWastedSpace(int[] packages, int[][] boxes) {
@@ -146,7 +149,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minWastedSpace(packages []int, boxes [][]int) int {
 	n := len(packages)
@@ -205,7 +212,9 @@ func minWastedSpace(packages []int, boxes [][]int) int {
 	return (ans - s) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minWastedSpace(packages: number[], boxes: number[][]): number {
     const n = packages.length;
@@ -246,6 +255,7 @@ function search(nums: number[], x: number, l: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

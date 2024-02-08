@@ -79,6 +79,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthSmallestPath(self, destination: List[int], k: int) -> str:
@@ -98,7 +99,9 @@ class Solution:
                     h -= 1
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String kthSmallestPath(int[] destination, int k) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthSmallestPath(destination []int, k int) string {
 	v, h := destination[0], destination[1]
@@ -202,6 +209,7 @@ func kthSmallestPath(destination []int, k int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

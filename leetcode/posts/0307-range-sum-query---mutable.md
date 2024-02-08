@@ -69,6 +69,7 @@ numArray.sumRange(0, 2); // return 1 + 2 + 5 = 8
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     __slots__ = ["n", "c"]
@@ -111,7 +112,9 @@ class NumArray:
 # obj.update(index,val)
 # param_2 = obj.sumRange(left,right)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -167,7 +170,9 @@ class NumArray {
  * int param_2 = obj.sumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -222,7 +227,9 @@ public:
  * int param_2 = obj->sumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -275,7 +282,9 @@ func (t *NumArray) SumRange(left int, right int) int {
  * param_2 := obj.SumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -331,7 +340,9 @@ class NumArray {
  * var param_2 = obj.sumRange(left,right)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 class BinaryIndexedTree {
     private int n;
@@ -387,6 +398,7 @@ public class NumArray {
  * int param_2 = obj.SumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -394,6 +406,7 @@ public class NumArray {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     __slots__ = ["l", "r", "v"]
@@ -465,7 +478,9 @@ class NumArray:
 # obj.update(index,val)
 # param_2 = obj.sumRange(left,right)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     int l;
@@ -557,7 +572,9 @@ class NumArray {
  * int param_2 = obj.sumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -643,7 +660,9 @@ public:
  * int param_2 = obj->sumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Node struct {
 	l, r, v int
@@ -737,7 +756,9 @@ func (this *NumArray) SumRange(left int, right int) int {
  * param_2 := obj.SumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Node {
     l: number;
@@ -829,7 +850,9 @@ class NumArray {
  * var param_2 = obj.sumRange(left,right)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Node {
     public int l;
@@ -921,6 +944,7 @@ public class NumArray {
  * int param_2 = obj.SumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

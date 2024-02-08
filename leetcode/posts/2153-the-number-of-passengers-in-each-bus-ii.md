@@ -109,6 +109,7 @@ Passengers table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -131,6 +132,7 @@ FROM T
 WHERE bus_id > 0
 ORDER BY bus_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

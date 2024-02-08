@@ -70,6 +70,7 @@ The maximum number in the matrix is 2. It can be shown that no smaller value can
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minScore(self, grid: List[List[int]]) -> List[List[int]]:
@@ -84,7 +85,9 @@ class Solution:
             row_max[i] = col_max[j] = ans[i][j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] minScore(int[][] grid) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minScore(grid [][]int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -159,7 +166,9 @@ func minScore(grid [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minScore(grid: number[][]): number[][] {
     const m = grid.length;
@@ -181,6 +190,7 @@ function minScore(grid: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

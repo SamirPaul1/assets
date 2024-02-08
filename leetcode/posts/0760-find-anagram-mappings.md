@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def anagramMappings(self, nums1: List[int], nums2: List[int]) -> List[int]:
@@ -65,7 +66,9 @@ class Solution:
             mapper[num].add(i)
         return [mapper[num].pop() for num in nums1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] anagramMappings(int[] nums1, int[] nums2) {
@@ -83,6 +86,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

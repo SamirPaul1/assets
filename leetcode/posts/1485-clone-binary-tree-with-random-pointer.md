@@ -73,6 +73,7 @@ The random pointer of node 7 is node 1, so it is represented as [7, 0] where 0 i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for Node.
 # class Node:
@@ -100,7 +101,9 @@ class Solution:
         mp = {}
         return dfs(root)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for Node.
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a Node.
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a Node.
@@ -210,6 +217,7 @@ func copyRandomBinaryTree(root *Node) *NodeCopy {
 	return dfs(root)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

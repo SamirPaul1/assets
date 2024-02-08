@@ -70,6 +70,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(1)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheLongestBalancedSubstring(self, s: str) -> int:
@@ -90,7 +91,9 @@ class Solution:
                     ans = max(ans, j - i + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTheLongestBalancedSubstring(String s) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheLongestBalancedSubstring(s string) (ans int) {
 	n := len(s)
@@ -173,7 +180,9 @@ func findTheLongestBalancedSubstring(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheLongestBalancedSubstring(s: string): number {
     const n = s.length;
@@ -199,7 +208,9 @@ function findTheLongestBalancedSubstring(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_longest_balanced_substring(s: String) -> i32 {
@@ -236,6 +247,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -254,6 +266,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheLongestBalancedSubstring(self, s: str) -> int:
@@ -268,7 +281,9 @@ class Solution:
                 ans = max(ans, 2 * min(one, zero))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTheLongestBalancedSubstring(String s) {
@@ -289,7 +304,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -311,7 +328,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheLongestBalancedSubstring(s string) (ans int) {
 	zero, one := 0, 0
@@ -329,7 +348,9 @@ func findTheLongestBalancedSubstring(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheLongestBalancedSubstring(s: string): number {
     let zero = 0;
@@ -349,7 +370,9 @@ function findTheLongestBalancedSubstring(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_longest_balanced_substring(s: String) -> i32 {
@@ -374,6 +397,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

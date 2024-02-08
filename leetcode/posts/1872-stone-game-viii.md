@@ -103,6 +103,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameVIII(self, stones: List[int]) -> int:
@@ -115,7 +116,9 @@ class Solution:
         s = list(accumulate(stones))
         return dfs(1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[] f;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGameVIII(stones []int) int {
 	n := len(stones)
@@ -191,7 +198,9 @@ func stoneGameVIII(stones []int) int {
 	return dfs(1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stoneGameVIII(stones: number[]): number {
     const n = stones.length;
@@ -211,6 +220,7 @@ function stoneGameVIII(stones: number[]): number {
     return dfs(1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -240,6 +250,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameVIII(self, stones: List[int]) -> int:
@@ -249,7 +260,9 @@ class Solution:
             f = max(f, s[i] - f)
         return f
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int stoneGameVIII(int[] stones) {
@@ -265,7 +278,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -282,7 +297,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stoneGameVIII(stones: number[]): number {
     const n = stones.length;
@@ -296,6 +313,7 @@ function stoneGameVIII(stones: number[]): number {
     return f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

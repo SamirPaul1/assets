@@ -81,6 +81,7 @@ It can be proven that 13 is the maximum number of books you can take.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumBooks(self, books: List[int]) -> int:
@@ -106,7 +107,9 @@ class Solution:
             ans = max(ans, dp[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumBooks(int[] books) {
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -176,7 +181,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumBooks(books []int) int64 {
 	n := len(books)
@@ -213,6 +220,7 @@ func maximumBooks(books []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

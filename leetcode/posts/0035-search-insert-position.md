@@ -65,6 +65,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func searchInsert(nums []int, target int) int {
 	left, right := 0, len(nums)
@@ -126,7 +133,9 @@ func searchInsert(nums []int, target int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -151,7 +160,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -172,6 +183,7 @@ var searchInsert = function (nums, target) {
     return left;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -179,12 +191,15 @@ var searchInsert = function (nums, target) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         return bisect_left(nums, target)
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -193,12 +208,15 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func searchInsert(nums []int, target int) int {
 	return sort.SearchInts(nums, target)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

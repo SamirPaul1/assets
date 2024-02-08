@@ -59,6 +59,7 @@ Minimum total distance from each houses to nearest mailboxes is |2-3| + |3-3| + 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDistance(self, houses: List[int], k: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[p][j - 1] + g[p + 1][i])
         return f[-1][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDistance(int[] houses, int k) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDistance(houses []int, k int) int {
 	sort.Ints(houses)
@@ -164,6 +171,7 @@ func minDistance(houses []int, k int) int {
 	return f[n-1][k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

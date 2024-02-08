@@ -1,6 +1,5 @@
 # [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs)
 
-[中文文档](/solution/0400-0499/0493.Reverse%20Pairs/README.md)
 
 ## Description
 

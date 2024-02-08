@@ -77,6 +77,7 @@ The time complexity is $O(n \times \log M + m)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def substringXorQueries(self, s: str, queries: List[List[int]]) -> List[List[int]]:
@@ -94,7 +95,9 @@ class Solution:
                     break
         return [d.get(first ^ second, [-1, -1]) for first, second in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] substringXorQueries(String s, int[][] queries) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func substringXorQueries(s string, queries [][]int) (ans [][]int) {
 	d := map[int][]int{}
@@ -182,6 +189,7 @@ func substringXorQueries(s string, queries [][]int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

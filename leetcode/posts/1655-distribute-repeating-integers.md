@@ -73,6 +73,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canDistribute(self, nums: List[int], quantity: List[int]) -> bool:
@@ -104,7 +105,9 @@ class Solution:
                     k = (k - 1) & j
         return f[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canDistribute(int[] nums, int[] quantity) {
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -202,7 +207,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canDistribute(nums []int, quantity []int) bool {
 	m := len(quantity)
@@ -248,7 +255,9 @@ func canDistribute(nums []int, quantity []int) bool {
 	return f[n-1][(1<<m)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canDistribute(nums: number[], quantity: number[]): boolean {
     const m = quantity.length;
@@ -293,6 +302,7 @@ function canDistribute(nums: number[], quantity: number[]): boolean {
     return f[n - 1][(1 << m) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

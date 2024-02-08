@@ -85,6 +85,7 @@ In January 2021 we have two orders from 2 different customers, but only one of t
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -95,6 +96,7 @@ FROM Orders
 WHERE invoice > 20
 GROUP BY month;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

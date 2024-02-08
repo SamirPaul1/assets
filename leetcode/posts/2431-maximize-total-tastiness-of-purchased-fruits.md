@@ -94,6 +94,7 @@ The time complexity is $O(n \times maxAmount \times maxCoupons)$, where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxTastiness(
@@ -112,7 +113,9 @@ class Solution:
 
         return dfs(0, maxAmount, maxCoupons)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][][] f;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ private:
     int f[101][1001][6];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxTastiness(price []int, tastiness []int, maxAmount int, maxCoupons int) int {
 	n := len(price)
@@ -203,6 +210,7 @@ func maxTastiness(price []int, tastiness []int, maxAmount int, maxCoupons int) i
 	return dfs(0, maxAmount, maxCoupons)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

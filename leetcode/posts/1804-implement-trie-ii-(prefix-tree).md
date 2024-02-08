@@ -104,6 +104,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -153,7 +154,9 @@ class Trie:
 # param_3 = obj.countWordsStartingWith(prefix)
 # obj.erase(word)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[26];
@@ -218,7 +221,9 @@ class Trie {
  * obj.erase(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -287,7 +292,9 @@ private:
  * obj->erase(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -357,6 +364,7 @@ func (this *Trie) search(word string) *Trie {
  * obj.Erase(word);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

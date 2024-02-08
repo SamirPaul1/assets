@@ -105,6 +105,7 @@ With he same formula for the average salary comparison in February, the result i
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -128,6 +129,7 @@ SELECT DISTINCT
     END AS comparison
 FROM t;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -135,6 +137,7 @@ FROM t;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -163,6 +166,7 @@ SELECT
 FROM T
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

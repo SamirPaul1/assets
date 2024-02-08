@@ -71,6 +71,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n)$, where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
@@ -85,7 +86,9 @@ class Solution:
         dfs(0)
         return len(vis) == len(rooms)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int cnt;
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canVisitAllRooms(rooms [][]int) bool {
 	n := len(rooms)
@@ -156,7 +163,9 @@ func canVisitAllRooms(rooms [][]int) bool {
 	return cnt == n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canVisitAllRooms(rooms: number[][]): boolean {
     const n = rooms.length;
@@ -174,7 +183,9 @@ function canVisitAllRooms(rooms: number[][]): boolean {
     return vis.every(v => v);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_visit_all_rooms(rooms: Vec<Vec<i32>>) -> bool {
@@ -193,6 +204,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ Note that the rectangle formed by p1 = 1 and p2 = 3 is invalid because the area 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -91,6 +92,7 @@ FROM
 WHERE p1.x_value != p2.x_value AND p1.y_value != p2.y_value
 ORDER BY area DESC, p1, p2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

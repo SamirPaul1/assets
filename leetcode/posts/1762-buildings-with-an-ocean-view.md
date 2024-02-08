@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findBuildings(self, heights: List[int]) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
                 mx = heights[i]
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findBuildings(int[] heights) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findBuildings(heights []int) (ans []int) {
 	mx := 0
@@ -127,7 +134,9 @@ func findBuildings(heights []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findBuildings(heights: number[]): number[] {
     const ans: number[] = [];
@@ -141,7 +150,9 @@ function findBuildings(heights: number[]): number[] {
     return ans.reverse();
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} heights
@@ -159,6 +170,7 @@ var findBuildings = function (heights) {
     return ans.reverse();
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

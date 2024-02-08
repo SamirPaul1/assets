@@ -62,6 +62,7 @@ When i=3, nums[i] = 2, and the average of its neighbors is (6+0) / 2 = 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rearrangeArray(self, nums: List[int]) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
                 ans.append(nums[i + m])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] rearrangeArray(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeArray(nums []int) []int {
 	sort.Ints(nums)
@@ -126,6 +133,7 @@ func rearrangeArray(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -133,6 +141,7 @@ func rearrangeArray(nums []int) []int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeArray(nums []int) []int {
 	rand.Seed(time.Now().UnixNano())
@@ -148,6 +157,7 @@ outer:
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def preimageSizeFZF(self, k: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
 
         return g(k + 1) - g(k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int preimageSizeFZF(int k) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func preimageSizeFZF(k int) int {
 	f := func(x int) int {
@@ -164,6 +171,7 @@ func preimageSizeFZF(k int) int {
 	return g(k+1) - g(k)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

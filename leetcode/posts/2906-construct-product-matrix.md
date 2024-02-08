@@ -75,6 +75,7 @@ The time complexity is $O(n \times m)$, where $n$ and $m$ are the number of rows
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def constructProductMatrix(self, grid: List[List[int]]) -> List[List[int]]:
@@ -93,7 +94,9 @@ class Solution:
                 pre = pre * grid[i][j] % mod
         return p
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] constructProductMatrix(int[][] grid) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func constructProductMatrix(grid [][]int) [][]int {
 	const mod int = 12345
@@ -170,7 +177,9 @@ func constructProductMatrix(grid [][]int) [][]int {
 	return p
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function constructProductMatrix(grid: number[][]): number[][] {
     const mod = 12345;
@@ -193,7 +202,9 @@ function constructProductMatrix(grid: number[][]): number[][] {
     return p;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn construct_product_matrix(grid: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -223,6 +234,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -78,6 +78,7 @@ args = [{&quot;item&quot;: &quot;burger&quot;}, 10, 1.1]
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Function {
@@ -95,6 +96,7 @@ Function.prototype.callPolyfill = function (context, ...args): any {
  * increment.callPolyfill({count: 1}); // 2
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

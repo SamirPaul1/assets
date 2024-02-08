@@ -106,6 +106,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, nums: List[int], k: int) -> int:
@@ -128,7 +129,9 @@ class Solution:
         n = len(nums)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[] f;
@@ -166,7 +169,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(nums []int, k int) int {
 	n := len(nums)
@@ -231,7 +238,9 @@ func minCost(nums []int, k int) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCost(nums: number[], k: number): number {
     const n = nums.length;
@@ -261,6 +270,7 @@ function minCost(nums: number[], k: number): number {
     return dfs(0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

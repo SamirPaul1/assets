@@ -102,6 +102,7 @@ The returned promise resolves within 100 milliseconds. Since promise from the ar
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type FulfilledObj = {
     status: 'fulfilled';
@@ -145,7 +146,9 @@ function promiseAllSettled(functions: Function[]): Promise<Obj[]> {
  * })
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {Array<Function>} functions
@@ -169,6 +172,7 @@ var promiseAllSettled = function (functions) {
     });
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2552. Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets)
 
-[中文文档](/solution/2500-2599/2552.Count%20Increasing%20Quadruplets/README.md)
 
 ## Description
 

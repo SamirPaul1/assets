@@ -1,6 +1,5 @@
 # [100. Same Tree](https://leetcode.com/problems/same-tree)
 
-[中文文档](/solution/0100-0199/0100.Same%20Tree/README.md)
 
 ## Description
 

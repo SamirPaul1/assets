@@ -109,6 +109,7 @@ The selector function splits the array by whether each number is greater than 5.
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Array<T> {
@@ -132,6 +133,7 @@ Array.prototype.groupBy = function (fn) {
  * [1,2,3].groupBy(String) // {"1":[1],"2":[2],"3":[3]}
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

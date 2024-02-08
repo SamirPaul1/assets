@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumCandies(self, candies: List[int], k: int) -> int:
@@ -69,7 +70,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumCandies(int[] candies, long k) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumCandies(candies []int, k int64) int {
 	left, right := 0, int(1e7)
@@ -128,6 +135,7 @@ func maximumCandies(candies []int, k int64) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

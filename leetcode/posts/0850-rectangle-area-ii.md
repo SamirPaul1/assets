@@ -61,6 +61,7 @@ From (1,0) to (2,3), all three rectangles overlap.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -127,7 +128,9 @@ class Solution:
         ans %= int(1e9 + 7)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     int l, r, cnt, length;
@@ -226,7 +229,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -315,7 +320,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rectangleArea(rectangles [][]int) int {
 	var mod int = 1e9 + 7
@@ -413,6 +420,7 @@ func (t *segmentTree) pushup(u int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

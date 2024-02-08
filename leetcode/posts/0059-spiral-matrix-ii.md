@@ -57,6 +57,7 @@ The time complexity is $O(n^2)$, where $n$ is the side length of the matrix. Ign
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
@@ -72,7 +73,9 @@ class Solution:
             i, j = x, y
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] generateMatrix(int n) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generateMatrix(n int) [][]int {
 	ans := make([][]int, n)
@@ -137,7 +144,9 @@ func generateMatrix(n int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function generateMatrix(n: number): number[][] {
     let ans = Array.from({ length: n }, v => new Array(n));
@@ -162,7 +171,9 @@ function generateMatrix(n: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn generate_matrix(n: i32) -> Vec<Vec<i32>> {
@@ -194,7 +205,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -221,6 +234,7 @@ var generateMatrix = function (n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -228,6 +242,7 @@ var generateMatrix = function (n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function generateMatrix(n: number): number[][] {
     const res = new Array(n).fill(0).map(() => new Array(n).fill(0));
@@ -252,6 +267,7 @@ function generateMatrix(n: number): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

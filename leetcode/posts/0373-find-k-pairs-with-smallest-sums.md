@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kSmallestPairs(
@@ -83,7 +84,9 @@ class Solution:
                 heappush(q, [nums1[i] + nums2[j + 1], i, j + 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kSmallestPairs(nums1, nums2 []int, k int) (ans [][]int) {
 	m, n := len(nums1), len(nums2)
@@ -165,6 +172,7 @@ func (h hp) Swap(i, j int) { h.data[i], h.data[j] = h.data[j], h.data[i] }
 func (h *hp) Push(v any)   { h.data = append(h.data, v.(pair)) }
 func (h *hp) Pop() any     { a := h.data; v := a[len(a)-1]; h.data = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

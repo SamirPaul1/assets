@@ -63,6 +63,7 @@ which are both strictly increasing.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSwap(self, nums1: List[int], nums2: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                     a, b = min(a, y), min(b, x + 1)
         return min(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSwap(int[] nums1, int[] nums2) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSwap(nums1 []int, nums2 []int) int {
 	a, b, n := 0, 1, len(nums1)
@@ -140,6 +147,7 @@ func minSwap(nums1 []int, nums2 []int) int {
 	return min(a, b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

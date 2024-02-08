@@ -1,6 +1,5 @@
 # [87. Scramble String](https://leetcode.com/problems/scramble-string)
 
-[中文文档](/solution/0000-0099/0087.Scramble%20String/README.md)
 
 ## Description
 

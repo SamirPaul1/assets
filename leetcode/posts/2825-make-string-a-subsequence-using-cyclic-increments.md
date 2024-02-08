@@ -74,6 +74,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of the stri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMakeSubsequence(self, str1: str, str2: str) -> bool:
@@ -84,7 +85,9 @@ class Solution:
                 i += 1
         return i == len(str2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canMakeSubsequence(String str1, String str2) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canMakeSubsequence(str1 string, str2 string) bool {
 	i, n := 0, len(str2)
@@ -131,7 +138,9 @@ func canMakeSubsequence(str1 string, str2 string) bool {
 	return i == n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canMakeSubsequence(str1: string, str2: string): boolean {
     let i = 0;
@@ -145,6 +154,7 @@ function canMakeSubsequence(str1: string, str2: string): boolean {
     return i === n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

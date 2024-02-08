@@ -69,6 +69,7 @@ The time complexity is $O(n)$, where $n$ is the length of the interval list. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeInterval(
@@ -86,7 +87,9 @@ class Solution:
                     ans.append([y, b])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> removeInterval(int[][] intervals, int[] toBeRemoved) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeInterval(intervals [][]int, toBeRemoved []int) (ans [][]int) {
 	x, y := toBeRemoved[0], toBeRemoved[1]
@@ -153,6 +160,7 @@ func removeInterval(intervals [][]int, toBeRemoved []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

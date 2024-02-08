@@ -66,6 +66,7 @@ cBTInserter.get_root(); // return [1, 2, 3, 4]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -106,7 +107,9 @@ class CBTInserter:
 # param_1 = obj.insert(val)
 # param_2 = obj.get_root()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -167,7 +170,9 @@ class CBTInserter {
  * TreeNode param_2 = obj.get_root();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -219,7 +224,9 @@ public:
  * TreeNode* param_2 = obj->get_root();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -274,7 +281,9 @@ func (this *CBTInserter) Get_root() *TreeNode {
  * param_2 := obj.Get_root();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -339,7 +348,9 @@ class CBTInserter {
  * var param_2 = obj.get_root()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -398,6 +409,7 @@ CBTInserter.prototype.get_root = function () {
  * var param_2 = obj.get_root()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

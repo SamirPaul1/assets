@@ -79,6 +79,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPaths(self, grid: List[List[int]]) -> int:
@@ -95,7 +96,9 @@ class Solution:
         m, n = len(grid), len(grid[0])
         return sum(dfs(i, j) for i in range(m) for j in range(n)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] f;
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPaths(grid [][]int) (ans int) {
 	const mod = 1e9 + 7
@@ -199,7 +206,9 @@ func countPaths(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPaths(grid: number[][]): number {
     const mod = 1e9 + 7;
@@ -230,6 +239,7 @@ function countPaths(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

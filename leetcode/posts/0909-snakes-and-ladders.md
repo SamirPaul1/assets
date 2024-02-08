@@ -83,6 +83,7 @@ This is the lowest possible number of moves to reach the last square, so return 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
@@ -111,7 +112,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -156,7 +159,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func snakesAndLadders(board [][]int) int {
 	n := len(board)
@@ -236,6 +243,7 @@ func snakesAndLadders(board [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

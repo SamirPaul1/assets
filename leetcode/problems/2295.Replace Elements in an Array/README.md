@@ -1,6 +1,5 @@
 # [2295. Replace Elements in an Array](https://leetcode.com/problems/replace-elements-in-an-array)
 
-[中文文档](/solution/2200-2299/2295.Replace%20Elements%20in%20an%20Array/README.md)
 
 ## Description
 

@@ -57,6 +57,7 @@ Of all the ways, &quot;aaccba&quot; is the lexicographically smallest.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def breakPalindrome(self, palindrome: str) -> str:
@@ -73,7 +74,9 @@ class Solution:
             s[i] = "a"
         return "".join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String breakPalindrome(String palindrome) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func breakPalindrome(palindrome string) string {
 	n := len(palindrome)
@@ -137,7 +144,9 @@ func breakPalindrome(palindrome string) string {
 	return string(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function breakPalindrome(palindrome: string): string {
     const n = palindrome.length;
@@ -157,6 +166,7 @@ function breakPalindrome(palindrome: string): string {
     return s.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

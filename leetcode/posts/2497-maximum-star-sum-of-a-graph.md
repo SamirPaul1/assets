@@ -71,6 +71,7 @@ Hence, we return -5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxStarSum(self, vals: List[int], edges: List[List[int]], k: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
             bs.sort(reverse=True)
         return max(v + sum(g[i][:k]) for i, v in enumerate(vals))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxStarSum(int[] vals, int[][] edges, int k) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxStarSum(vals []int, edges [][]int, k int) (ans int) {
 	n := len(vals)
@@ -165,6 +172,7 @@ func maxStarSum(vals []int, edges [][]int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ We made 2 refueling stops along the way, so we return 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minRefuelStops(
@@ -94,7 +95,9 @@ class Solution:
             prev = a
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minRefuelStops(int target, int startFuel, int[][] stations) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minRefuelStops(target int, startFuel int, stations [][]int) int {
 	stations = append(stations, []int{target, 0})
@@ -180,6 +187,7 @@ func (h *hp) Pop() any {
 func (h *hp) push(v int) { heap.Push(h, v) }
 func (h *hp) pop() int   { return heap.Pop(h).(int) }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

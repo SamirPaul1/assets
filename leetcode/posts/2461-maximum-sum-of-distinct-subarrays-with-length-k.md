@@ -73,6 +73,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 ans = max(ans, s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumSubarraySum(int[] nums, int k) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumSubarraySum(nums []int, k int) (ans int64) {
 	n := len(nums)
@@ -175,7 +182,9 @@ func maximumSubarraySum(nums []int, k int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumSubarraySum(nums: number[], k: number): number {
     const n = nums.length;
@@ -201,6 +210,7 @@ function maximumSubarraySum(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

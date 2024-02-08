@@ -61,12 +61,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkOnesSegment(self, s: str) -> bool:
         return '01' not in s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkOnesSegment(String s) {
@@ -74,7 +77,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -83,13 +88,17 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkOnesSegment(s string) bool {
 	return !strings.Contains(s, "01")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkOnesSegment(s: string): boolean {
     let pre = s[0];
@@ -102,7 +111,9 @@ function checkOnesSegment(s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check_ones_segment(s: String) -> bool {
@@ -110,6 +121,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -117,11 +129,13 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkOnesSegment(s: string): boolean {
     return !s.includes('01');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

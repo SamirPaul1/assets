@@ -62,6 +62,7 @@ myCalendar.book(20, 30); // return True, The event can be booked, as the first e
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedDict
 
@@ -82,7 +83,9 @@ class MyCalendar:
 # obj = MyCalendar()
 # param_1 = obj.book(start,end)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.util.Map;
 import java.util.TreeMap;
@@ -113,7 +116,9 @@ class MyCalendar {
  * obj = new MyCalendar(); boolean param_1 = obj.book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyCalendar {
 public:
@@ -144,7 +149,9 @@ public:
  * bool param_1 = obj->book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyCalendar struct {
 	rbt *redblacktree.Tree
@@ -173,7 +180,9 @@ func (this *MyCalendar) Book(start int, end int) bool {
  * param_1 := obj.Book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyCalendar {
     private calendar: number[][];
@@ -200,7 +209,9 @@ class MyCalendar {
  * var param_1 = obj.book(start,end)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::BTreeMap;
 
@@ -240,6 +251,7 @@ impl MyCalendar {
  * let ret_1: bool = obj.book(start, end);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

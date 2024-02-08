@@ -1,6 +1,5 @@
 # [2694. Event Emitter](https://leetcode.com/problems/event-emitter)
 
-[中文文档](/solution/2600-2699/2694.Event%20Emitter/README.md)
 
 ## Description
 

@@ -1,6 +1,5 @@
 # [2649. Nested Array Generator](https://leetcode.com/problems/nested-array-generator)
 
-[中文文档](/solution/2600-2699/2649.Nested%20Array%20Generator/README.md)
 
 ## Description
 

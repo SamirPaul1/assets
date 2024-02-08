@@ -66,6 +66,7 @@ The time complexity is $O(n + m)$, where $n$ and $m$ are the lengths of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSum(self, nums1: List[int], nums2: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
             return s1
         return -1 if nums1.count(0) == 0 else s2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minSum(int[] nums1, int[] nums2) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSum(nums1 []int, nums2 []int) int64 {
 	s1, s2 := 0, 0
@@ -150,7 +157,9 @@ func minSum(nums1 []int, nums2 []int) int64 {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSum(nums1: number[], nums2: number[]): number {
     let [s1, s2] = [0, 0];
@@ -173,6 +182,7 @@ function minSum(nums1: number[], nums2: number[]): number {
     return hasZero ? s2 : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

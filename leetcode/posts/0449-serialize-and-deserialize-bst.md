@@ -48,6 +48,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -99,7 +100,9 @@ class Codec:
 # ans = deser.deserialize(tree)
 # return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -164,7 +167,9 @@ public class Codec {
 // TreeNode ans = deser.deserialize(tree);
 // return ans;
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -234,7 +239,9 @@ public:
 // TreeNode* ans = deser->deserialize(tree);
 // return ans;
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -306,6 +313,7 @@ func (this *Codec) deserialize(data string) *TreeNode {
  * return ans
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

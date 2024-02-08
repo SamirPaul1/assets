@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:
@@ -76,7 +77,9 @@ class Solution:
                     dfs(i, j)
         return sum(v for row in grid for v in row)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numEnclaves(grid [][]int) (ans int) {
 	m, n := len(grid), len(grid[0])
@@ -178,7 +185,9 @@ func numEnclaves(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numEnclaves(grid: number[][]): number {
     const m = grid.length;
@@ -210,7 +219,9 @@ function numEnclaves(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(grid: &mut Vec<Vec<i32>>, y: usize, x: usize) {
@@ -250,6 +261,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +269,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numEnclaves(self, grid: List[List[int]]) -> int:
@@ -277,7 +290,9 @@ class Solution:
                     grid[x][y] = 0
         return sum(v for row in grid for v in row)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numEnclaves(int[][] grid) {
@@ -313,7 +328,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -350,7 +367,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numEnclaves(grid [][]int) (ans int) {
 	m, n := len(grid), len(grid[0])
@@ -383,7 +402,9 @@ func numEnclaves(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numEnclaves(grid: number[][]): number {
     const m = grid.length;
@@ -418,6 +439,7 @@ function numEnclaves(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -425,6 +447,7 @@ function numEnclaves(grid: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -468,7 +491,9 @@ class Solution:
             for j in range(n)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private int[] p;
@@ -538,7 +563,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -604,7 +631,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -670,6 +699,7 @@ func numEnclaves(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

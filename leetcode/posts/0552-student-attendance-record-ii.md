@@ -74,6 +74,7 @@ Only &quot;AA&quot; is not eligible because there are 2 absences (there need to 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkRecord(self, n: int) -> int:
@@ -94,7 +95,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int f[100010][2][3];
 const int mod = 1e9 + 7;
@@ -159,7 +164,9 @@ private:
     int n;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkRecord(n int) int {
 	f := make([][][]int, n)
@@ -194,6 +201,7 @@ func checkRecord(n int) int {
 	return dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -201,6 +209,7 @@ func checkRecord(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkRecord(self, n: int) -> int:
@@ -230,7 +239,9 @@ class Solution:
                 ans = (ans + dp[n - 1][j][k]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = 1000000007;
@@ -266,7 +277,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 constexpr int MOD = 1e9 + 7;
 
@@ -302,7 +315,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const _mod int = 1e9 + 7
 
@@ -342,6 +357,7 @@ func checkRecord(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

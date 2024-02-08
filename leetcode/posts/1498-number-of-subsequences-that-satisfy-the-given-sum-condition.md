@@ -69,6 +69,7 @@ Number of valid subsequences (63 - 2 = 61).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubseq(self, nums: List[int], target: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
             ans = (ans + f[j - i]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubseq(int[] nums, int target) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubseq(nums []int, target int) (ans int) {
 	sort.Ints(nums)
@@ -169,6 +176,7 @@ func numSubseq(nums []int, target int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

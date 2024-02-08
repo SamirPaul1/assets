@@ -1,6 +1,5 @@
 # [561. Array Partition](https://leetcode.com/problems/array-partition)
 
-[中文文档](/solution/0500-0599/0561.Array%20Partition/README.md)
 
 ## Description
 

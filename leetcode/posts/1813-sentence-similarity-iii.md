@@ -73,6 +73,7 @@ The time complexity is $O(L)$, and the space complexity is $O(L)$, where $L$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areSentencesSimilar(self, sentence1: str, sentence2: str) -> bool:
@@ -88,7 +89,9 @@ class Solution:
             j += 1
         return i + j >= n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean areSentencesSimilar(String sentence1, String sentence2) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func areSentencesSimilar(sentence1 string, sentence2 string) bool {
 	words1, words2 := strings.Fields(sentence1), strings.Fields(sentence2)
@@ -161,7 +168,9 @@ func areSentencesSimilar(sentence1 string, sentence2 string) bool {
 	return i+j >= n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areSentencesSimilar(sentence1: string, sentence2: string): boolean {
     const words1 = sentence1.split(' ');
@@ -180,6 +189,7 @@ function areSentencesSimilar(sentence1: string, sentence2: string): boolean {
     return i + j >= n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

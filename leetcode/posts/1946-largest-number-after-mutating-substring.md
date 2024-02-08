@@ -76,6 +76,7 @@ Thus, &quot;<u>021</u>&quot; becomes &quot;<u>934</u>&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumNumber(self, num: str, change: List[int]) -> str:
@@ -88,7 +89,9 @@ class Solution:
                 break
         return ''.join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String maximumNumber(String num, int[] change) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumNumber(num string, change []int) string {
 	s := []byte(num)
@@ -138,6 +145,7 @@ func maximumNumber(num string, change []int) string {
 	return string(s)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

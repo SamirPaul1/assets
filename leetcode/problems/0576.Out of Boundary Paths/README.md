@@ -1,6 +1,5 @@
 # [576. Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths)
 
-[中文文档](/solution/0500-0599/0576.Out%20of%20Boundary%20Paths/README.md)
 
 ## Description
 

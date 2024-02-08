@@ -58,6 +58,7 @@ Note that there may be other sequences of swaps but it can be shown that 87655 i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestInteger(self, num: int) -> int:
@@ -79,7 +80,9 @@ class Solution:
                     break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestInteger(int num) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestInteger(num int) int {
 	cnt := make([]int, 10)
@@ -164,7 +171,9 @@ func largestInteger(num int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestInteger(num: number): number {
     let arrs = String(num).split('').map(Number);
@@ -186,6 +195,7 @@ function largestInteger(num: number): number {
     return Number(ans.join(''));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

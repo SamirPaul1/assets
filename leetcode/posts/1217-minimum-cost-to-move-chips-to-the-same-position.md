@@ -74,6 +74,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostToMoveChips(self, position: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
         b = len(position) - a
         return min(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCostToMoveChips(int[] position) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostToMoveChips(position []int) int {
 	a := 0
@@ -120,7 +127,9 @@ func minCostToMoveChips(position []int) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} position
@@ -135,6 +144,7 @@ var minCostToMoveChips = function (position) {
     return Math.min(a, b);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

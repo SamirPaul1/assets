@@ -53,6 +53,7 @@ Note that although the substring &quot;12&quot; appears twice, it is only counte
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def equalDigitFrequency(self, s: str) -> int:
@@ -75,7 +76,9 @@ class Solution:
         vis = set(s[i : j + 1] for i in range(n) for j in range(i, n) if check(i, j))
         return len(vis)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int equalDigitFrequency(String s) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func equalDigitFrequency(s string) int {
 	n := len(s)
@@ -151,6 +156,7 @@ func equalDigitFrequency(s string) int {
 	return len(vis)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

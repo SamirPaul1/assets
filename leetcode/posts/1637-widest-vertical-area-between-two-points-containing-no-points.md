@@ -57,13 +57,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxWidthOfVerticalArea(self, points: List[List[int]]) -> int:
         points.sort()
         return max(b[0] - a[0] for a, b in pairwise(points))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxWidthOfVerticalArea(int[][] points) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -90,7 +95,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxWidthOfVerticalArea(points [][]int) (ans int) {
 	sort.Slice(points, func(i, j int) bool { return points[i][0] < points[j][0] })
@@ -100,7 +107,9 @@ func maxWidthOfVerticalArea(points [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxWidthOfVerticalArea(points: number[][]): number {
     points.sort((a, b) => a[0] - b[0]);
@@ -111,7 +120,9 @@ function maxWidthOfVerticalArea(points: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} points
@@ -128,6 +139,7 @@ var maxWidthOfVerticalArea = function (points) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -135,6 +147,7 @@ var maxWidthOfVerticalArea = function (points) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxWidthOfVerticalArea(self, points: List[List[int]]) -> int:
@@ -157,7 +170,9 @@ class Solution:
             prev = curmax
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxWidthOfVerticalArea(int[][] points) {
@@ -197,7 +212,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -232,7 +249,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxWidthOfVerticalArea(points [][]int) (ans int) {
 	n := len(points)
@@ -268,7 +287,9 @@ func maxWidthOfVerticalArea(points [][]int) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxWidthOfVerticalArea(points: number[][]): number {
     const nums: number[] = points.map(point => point[0]);
@@ -300,7 +321,9 @@ function maxWidthOfVerticalArea(points: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} points
@@ -336,6 +359,7 @@ var maxWidthOfVerticalArea = function (points) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

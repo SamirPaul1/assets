@@ -80,6 +80,7 @@ You can move at most k = 2 steps and cannot reach any position with fruits.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxTotalFruits(self, fruits: List[List[int]], startPos: int, k: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
             ans = max(ans, s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxTotalFruits(int[][] fruits, int startPos, int k) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxTotalFruits(fruits [][]int, startPos int, k int) (ans int) {
 	var s, i int
@@ -158,7 +165,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxTotalFruits(fruits: number[][], startPos: number, k: number): number {
     let ans = 0;
@@ -180,6 +189,7 @@ function maxTotalFruits(fruits: number[][], startPos: number, k: number): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -92,6 +92,7 @@ The time complexity is $O(m \times n \times \log (m \times n))$, and the space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, grid: List[List[int]]) -> int:
@@ -116,7 +117,9 @@ class Solution:
                         dist[x][y] = nt
                         heappush(q, (nt, x, y))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTime(int[][] grid) {
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -194,7 +199,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(grid [][]int) int {
 	if grid[0][1] > 1 && grid[1][0] > 1 {
@@ -243,6 +250,7 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(tuple)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

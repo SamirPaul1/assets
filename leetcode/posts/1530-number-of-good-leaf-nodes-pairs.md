@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -97,7 +98,9 @@ class Solution:
                     ans += v1 * v2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -190,7 +195,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -231,6 +238,7 @@ func dfs(root *TreeNode, cnt []int, i int) {
 	dfs(root.Right, cnt, i+1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

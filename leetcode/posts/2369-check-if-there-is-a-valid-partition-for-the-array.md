@@ -63,6 +63,7 @@ This partition is valid, so we return true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validPartition(self, nums: List[int]) -> bool:
@@ -86,7 +87,9 @@ class Solution:
         n = len(nums)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validPartition(nums []int) bool {
 	n := len(nums)
@@ -185,7 +192,9 @@ func validPartition(nums []int) bool {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validPartition(nums: number[]): boolean {
     const n = nums.length;
@@ -216,6 +225,7 @@ function validPartition(nums: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -223,6 +233,7 @@ function validPartition(nums: number[]): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validPartition(self, nums: List[int]) -> bool:
@@ -242,7 +253,9 @@ class Solution:
                 dp[i] = dp[i] or dp[i - 3]
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean validPartition(int[] nums) {
@@ -264,7 +277,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -281,7 +296,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validPartition(nums []int) bool {
 	n := len(nums)
@@ -301,7 +318,9 @@ func validPartition(nums []int) bool {
 	return dp[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validPartition(nums: number[]): boolean {
     const n = nums.length;
@@ -321,6 +340,7 @@ function validPartition(nums: number[]): boolean {
     return dp[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

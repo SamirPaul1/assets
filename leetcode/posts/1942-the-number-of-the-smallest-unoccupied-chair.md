@@ -79,6 +79,7 @@ Since friend 0 sat on chair 2, we return 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestChair(self, times: List[List[int]], targetFriend: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
             heappush(busy, (b, c))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestChair(int[][] times, int targetFriend) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pii = pair<int, int>;
 
@@ -156,6 +161,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $arr$. The s
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function map(arr: number[], fn: (n: number, i: number) => number): number[] {
     for (let i = 0; i < arr.length; ++i) {
@@ -79,6 +80,7 @@ function map(arr: number[], fn: (n: number, i: number) => number): number[] {
     return arr;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

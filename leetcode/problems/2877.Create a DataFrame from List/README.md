@@ -1,6 +1,5 @@
 # [2877. Create a DataFrame from List](https://leetcode.com/problems/create-a-dataframe-from-list)
 
-[中文文档](/solution/2800-2899/2877.Create%20a%20DataFrame%20from%20List/README.md)
 
 ## Description
 

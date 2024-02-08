@@ -65,6 +65,7 @@ Note that slots 2, 5, 6, and 8 are empty which is permitted.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumANDSum(self, nums: List[int], numSlots: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
                     f[i] = max(f[i], f[i ^ (1 << j)] + (nums[cnt - 1] & (j // 2 + 1)))
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumANDSum(int[] nums, int numSlots) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumANDSum(nums []int, numSlots int) int {
 	n := len(nums)
@@ -148,7 +155,9 @@ func maximumANDSum(nums []int, numSlots int) int {
 	return slices.Max(f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumANDSum(nums: number[], numSlots: number): number {
     const n = nums.length;
@@ -171,6 +180,7 @@ function maximumANDSum(nums: number[], numSlots: number): number {
     return Math.max(...f);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

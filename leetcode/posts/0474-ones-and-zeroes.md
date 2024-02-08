@@ -60,6 +60,7 @@ Other valid but smaller subsets include {&quot;0001&quot;, &quot;1&quot;} and {&
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
                         f[i][j][k] = max(f[i][j][k], f[i - 1][j - a][k - b] + 1)
         return f[sz][m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxForm(String[] strs, int m, int n) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxForm(strs []string, m int, n int) int {
 	sz := len(strs)
@@ -161,7 +168,9 @@ func count(s string) (int, int) {
 	return a, len(s) - a
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaxForm(strs: string[], m: number, n: number): number {
     const sz = strs.length;
@@ -189,6 +198,7 @@ function findMaxForm(strs: string[], m: number, n: number): number {
     return f[sz][m][n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -196,6 +206,7 @@ function findMaxForm(strs: string[], m: number, n: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
@@ -207,7 +218,9 @@ class Solution:
                     f[i][j] = max(f[i][j], f[i - a][j - b] + 1)
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxForm(String[] strs, int m, int n) {
@@ -232,7 +245,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -256,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxForm(strs []string, m int, n int) int {
 	f := make([][]int, m+1)
@@ -279,7 +296,9 @@ func count(s string) (int, int) {
 	return a, len(s) - a
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaxForm(strs: string[], m: number, n: number): number {
     const f = Array.from({ length: m + 1 }, () => Array.from({ length: n + 1 }, () => 0));
@@ -301,6 +320,7 @@ function findMaxForm(strs: string[], m: number, n: number): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

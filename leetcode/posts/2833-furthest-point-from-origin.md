@@ -75,12 +75,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def furthestDistanceFromOrigin(self, moves: str) -> int:
         return abs(moves.count("L") - moves.count("R")) + moves.count("_")
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int furthestDistanceFromOrigin(String moves) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func furthestDistanceFromOrigin(moves string) int {
 	count := func(c string) int { return strings.Count(moves, c) }
@@ -124,13 +131,16 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function furthestDistanceFromOrigin(moves: string): number {
     const count = (c: string) => moves.split('').filter(x => x === c).length;
     return Math.abs(count('L') - count('R')) + count('_');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

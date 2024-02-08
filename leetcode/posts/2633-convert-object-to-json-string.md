@@ -75,6 +75,7 @@ Primitive types are valid inputs.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function jsonStringify(object: any): string {
     if (object === null) {
@@ -97,6 +98,7 @@ function jsonStringify(object: any): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

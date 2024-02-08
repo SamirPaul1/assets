@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -93,7 +94,9 @@ class Solution:
                 i += 1
         return max(Counter(uf.find(v) for v in nums).values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     int[] p;
@@ -148,7 +151,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -198,7 +203,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestComponentSize(nums []int) int {
 	m := slices.Max(nums)
@@ -237,6 +244,7 @@ func largestComponentSize(nums []int) int {
 	return slices.Max(cnt)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

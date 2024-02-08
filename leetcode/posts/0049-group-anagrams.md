@@ -65,6 +65,7 @@ The time complexity is $O(n\times k\times \log k)$, where $n$ and $k$ are the le
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
@@ -74,7 +75,9 @@ class Solution:
             d[k].append(s)
         return list(d.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func groupAnagrams(strs []string) (ans [][]string) {
 	d := map[string][]string{}
@@ -122,7 +129,9 @@ func groupAnagrams(strs []string) (ans [][]string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function groupAnagrams(strs: string[]): string[][] {
     const d: Map<string, string[]> = new Map();
@@ -136,7 +145,9 @@ function groupAnagrams(strs: string[]): string[][] {
     return Array.from(d.values());
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -158,7 +169,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections.Generic;
 
@@ -216,6 +229,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -227,6 +241,7 @@ The time complexity is $O(n\times (k + C))$, where $n$ and $k$ are the lengths o
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
@@ -238,7 +253,9 @@ class Solution:
             d[tuple(cnt)].append(s)
         return list(d.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -261,7 +278,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -285,7 +304,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func groupAnagrams(strs []string) (ans [][]string) {
 	d := map[[26]int][]string{}
@@ -302,7 +323,9 @@ func groupAnagrams(strs []string) (ans [][]string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function groupAnagrams(strs: string[]): string[][] {
     const map = new Map<string, string[]>();
@@ -313,6 +336,7 @@ function groupAnagrams(strs: string[]): string[][] {
     return [...map.values()];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

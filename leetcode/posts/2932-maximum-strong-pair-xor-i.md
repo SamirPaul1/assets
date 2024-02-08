@@ -77,12 +77,15 @@ The time complexity is $O(n^2)$, where $n$ is the length of the array $nums$. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumStrongPairXor(self, nums: List[int]) -> int:
         return max(x ^ y for x in nums for y in nums if abs(x - y) <= min(x, y))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumStrongPairXor(int[] nums) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumStrongPairXor(nums []int) (ans int) {
 	for _, x := range nums {
@@ -135,7 +142,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumStrongPairXor(nums: number[]): number {
     let ans = 0;
@@ -149,6 +158,7 @@ function maximumStrongPairXor(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -162,6 +172,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(n \t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     __slots__ = ("children", "cnt")
@@ -212,7 +223,9 @@ class Solution:
             ans = max(ans, tree.search(y))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[2];
@@ -274,7 +287,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -341,7 +356,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [2]*Trie
@@ -402,7 +419,9 @@ func maximumStrongPairXor(nums []int) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     children: (Trie | null)[];
@@ -469,6 +488,7 @@ function maximumStrongPairXor(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

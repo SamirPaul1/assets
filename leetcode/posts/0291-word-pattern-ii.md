@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wordPatternMatch(self, pattern: str, s: str) -> bool:
@@ -90,7 +91,9 @@ class Solution:
         vis = set()
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Set<String> vis;
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wordPatternMatch(pattern string, s string) bool {
 	m, n := len(pattern), len(s)
@@ -208,6 +215,7 @@ func wordPatternMatch(pattern string, s string) bool {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2362. Generate the Invoice](https://leetcode.com/problems/generate-the-invoice)
 
-[中文文档](/solution/2300-2399/2362.Generate%20the%20Invoice/README.md)
 
 ## Description
 

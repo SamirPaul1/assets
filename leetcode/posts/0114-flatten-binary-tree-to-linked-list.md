@@ -71,6 +71,7 @@ The time complexity is $O(n)$, where $n$ is the number of nodes in the tree. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -93,7 +94,9 @@ class Solution:
                 root.left = None
             root = root.right
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -188,7 +195,9 @@ func flatten(root *TreeNode) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -222,7 +231,9 @@ function flatten(root: TreeNode | null): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -277,7 +288,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -306,6 +319,7 @@ var flatten = function (root) {
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -313,6 +327,7 @@ var flatten = function (root) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -337,6 +352,7 @@ func flatten(root *TreeNode) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

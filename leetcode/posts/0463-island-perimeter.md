@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                         ans -= 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int islandPerimeter(int[][] grid) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func islandPerimeter(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -145,7 +152,9 @@ func islandPerimeter(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function islandPerimeter(grid: number[][]): number {
     let m = grid.length,
@@ -176,6 +185,7 @@ function islandPerimeter(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

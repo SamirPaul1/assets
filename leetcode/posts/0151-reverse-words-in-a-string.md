@@ -73,12 +73,15 @@ Time complexity $O(n)$, space complexity $O(n)$, where $n$ is the length of the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseWords(self, s: str) -> str:
         return ' '.join(reversed(s.split()))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseWords(String s) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseWords(s string) string {
 	words := strings.Split(s, " ")
@@ -131,13 +138,17 @@ func reverseWords(s string) string {
 	return strings.Join(ans, " ")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reverseWords(s: string): string {
     return s.trim().split(/\s+/).reverse().join(' ');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_words(s: String) -> String {
@@ -145,7 +156,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string ReverseWords(string s) {
@@ -153,6 +166,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -164,6 +178,7 @@ Time complexity $O(n)$, space complexity $O(n)$, where $n$ is the length of the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseWords(self, s: str) -> str:
@@ -180,7 +195,9 @@ class Solution:
                 i = j
         return ' '.join(ans[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseWords(String s) {
@@ -205,6 +222,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

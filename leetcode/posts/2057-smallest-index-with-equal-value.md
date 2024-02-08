@@ -71,6 +71,7 @@ i=3: 3 mod 10 = 3 != nums[3].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestEqual(self, nums: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestEqual(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestEqual(nums []int) int {
 	for i, v := range nums {
@@ -115,7 +122,9 @@ func smallestEqual(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestEqual(nums: number[]): number {
     for (let i = 0; i < nums.length; i++) {
@@ -124,6 +133,7 @@ function smallestEqual(nums: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

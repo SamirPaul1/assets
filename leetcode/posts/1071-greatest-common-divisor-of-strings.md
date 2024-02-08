@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
@@ -74,7 +75,9 @@ class Solution:
                 return t
         return ''
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func gcdOfStrings(str1 string, str2 string) string {
 	if str1+str2 != str2+str1 {
@@ -118,7 +125,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn gcd_of_strings(str1: String, str2: String) -> String {
@@ -137,6 +146,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -144,6 +154,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
@@ -152,6 +163,7 @@ class Solution:
         n = gcd(len(str1), len(str2))
         return str1[:n]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

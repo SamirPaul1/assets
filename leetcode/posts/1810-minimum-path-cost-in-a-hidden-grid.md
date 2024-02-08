@@ -108,6 +108,7 @@ We now know that the target is the cell (1, 0), and the minimum total cost to re
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is GridMaster's API interface.
@@ -170,7 +171,9 @@ class Solution(object):
                     heappush(q, (dist[x][y], x, y))
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the GridMaster's API interface.
@@ -239,6 +242,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

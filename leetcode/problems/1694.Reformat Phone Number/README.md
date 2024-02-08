@@ -1,6 +1,5 @@
 # [1694. Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number)
 
-[中文文档](/solution/1600-1699/1694.Reformat%20Phone%20Number/README.md)
 
 ## Description
 

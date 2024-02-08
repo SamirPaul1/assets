@@ -1,6 +1,5 @@
 # [65. Valid Number](https://leetcode.com/problems/valid-number)
 
-[中文文档](/solution/0000-0099/0065.Valid%20Number/README.md)
 
 ## Description
 

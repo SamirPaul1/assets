@@ -78,6 +78,7 @@ That is, $a = f(x_1, x_2, xCenter)$, $b = f(y_1, y_2, yCenter)$. If $a^2 + b^2 \
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkOverlap(
@@ -99,7 +100,9 @@ class Solution:
         b = f(y1, y2, yCenter)
         return a * a + b * b <= radius * radius
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkOverlap(
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkOverlap(radius int, xCenter int, yCenter int, x1 int, y1 int, x2 int, y2 int) bool {
 	f := func(i, j, k int) int {
@@ -151,7 +158,9 @@ func checkOverlap(radius int, xCenter int, yCenter int, x1 int, y1 int, x2 int, 
 	return a*a+b*b <= radius*radius
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkOverlap(
     radius: number,
@@ -173,6 +182,7 @@ function checkOverlap(
     return a * a + b * b <= radius * radius;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

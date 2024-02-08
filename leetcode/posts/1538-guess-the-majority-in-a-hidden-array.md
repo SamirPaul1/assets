@@ -84,6 +84,7 @@ Index 2, 4, 6, 7 is also a correct answer.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is the ArrayReader's API interface.
@@ -135,7 +136,9 @@ class Solution:
             return -1
         return 3 if a > b else k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the ArrayReader's API interface.
@@ -195,7 +198,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the ArrayReader's API interface.
@@ -255,7 +260,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the ArrayReader's API interface.
@@ -314,7 +321,9 @@ func guessMajority(reader *ArrayReader) int {
 	return k
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the ArrayReader's API interface.
@@ -370,6 +379,7 @@ function guessMajority(reader: ArrayReader): number {
     return a > b ? 3 : k;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

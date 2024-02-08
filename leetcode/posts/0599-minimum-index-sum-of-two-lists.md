@@ -74,6 +74,7 @@ The strings with the least index sum are &quot;sad&quot; and &quot;happy&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
@@ -90,7 +91,9 @@ class Solution:
                     ans.append(v)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRestaurant(list1 []string, list2 []string) []string {
 	mp := make(map[string]int)
@@ -165,7 +172,9 @@ func findRestaurant(list1 []string, list2 []string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findRestaurant(list1: string[], list2: string[]): string[] {
     let minI = Infinity;
@@ -186,7 +195,9 @@ function findRestaurant(list1: string[], list2: string[]): string[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 use std::iter::FromIterator;
@@ -215,6 +226,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -222,6 +234,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 func findRestaurant(list1[] string, list2[] string)[] string {
 mp:= make(map[string]int)
@@ -246,6 +259,7 @@ mp:= make(map[string]int)
     return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

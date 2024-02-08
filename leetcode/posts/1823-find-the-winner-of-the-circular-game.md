@@ -76,6 +76,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheWinner(self, n: int, k: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
         ans = (k + self.findTheWinner(n - 1, k)) % n
         return n if ans == 0 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTheWinner(int n, int k) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheWinner(n int, k int) int {
 	if n == 1 {
@@ -120,7 +127,9 @@ func findTheWinner(n int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class LinkNode {
     public val: number;
@@ -158,6 +167,7 @@ function findTheWinner(n: number, k: number): number {
     return cur.val;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
@@ -92,7 +93,9 @@ class Solution:
         ans = [c * v for c, v in t]
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeDuplicates(String s, int k) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDuplicates(s string, k int) string {
 	stk := []pair{}
@@ -172,6 +179,7 @@ type pair struct {
 	v int
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -179,6 +187,7 @@ type pair struct {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDuplicates(self, s: str, k: int) -> str:
@@ -193,6 +202,7 @@ class Solution:
         ans = [c * v for c, v in stk]
         return "".join(ans)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

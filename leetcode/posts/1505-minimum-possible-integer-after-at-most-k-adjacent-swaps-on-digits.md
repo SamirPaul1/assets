@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -108,7 +109,9 @@ class Solution:
                         break
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minInteger(String num, int k) {
@@ -172,7 +175,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -232,7 +237,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -290,6 +297,7 @@ func minInteger(num string, k int) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

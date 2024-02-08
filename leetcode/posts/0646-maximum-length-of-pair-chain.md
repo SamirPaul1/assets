@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
@@ -70,7 +71,9 @@ class Solution:
                     dp[i] = max(dp[i], dp[j] + 1)
         return max(dp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLongestChain(int[][] pairs) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLongestChain(pairs [][]int) int {
 	sort.Slice(pairs, func(i, j int) bool {
@@ -135,7 +142,9 @@ func findLongestChain(pairs [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLongestChain(pairs: number[][]): number {
     pairs.sort((a, b) => a[0] - b[0]);
@@ -151,7 +160,9 @@ function findLongestChain(pairs: number[][]): number {
     return dp[n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_longest_chain(mut pairs: Vec<Vec<i32>>) -> i32 {
@@ -169,6 +180,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -176,6 +188,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLongestChain(self, pairs: List[List[int]]) -> int:
@@ -186,7 +199,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLongestChain(int[][] pairs) {
@@ -203,7 +218,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -222,7 +239,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLongestChain(pairs [][]int) int {
 	sort.Slice(pairs, func(i, j int) bool {
@@ -238,7 +257,9 @@ func findLongestChain(pairs [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLongestChain(pairs: number[][]): number {
     pairs.sort((a, b) => a[1] - b[1]);
@@ -253,7 +274,9 @@ function findLongestChain(pairs: number[][]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_longest_chain(mut pairs: Vec<Vec<i32>>) -> i32 {
@@ -272,6 +295,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -78,6 +78,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostPopularCreator(
@@ -92,7 +93,9 @@ class Solution:
         mx = max(cnt.values())
         return [[c, ids[d[c]]] for c, x in cnt.items() if x == mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<String>> mostPopularCreator(String[] creators, String[] ids, int[] views) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostPopularCreator(creators []string, ids []string, views []int) (ans [][]string) {
 	cnt := map[string]int{}
@@ -179,7 +186,9 @@ func mostPopularCreator(creators []string, ids []string, views []int) (ans [][]s
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mostPopularCreator(creators: string[], ids: string[], views: number[]): string[][] {
     const cnt: Map<string, number> = new Map();
@@ -202,6 +211,7 @@ function mostPopularCreator(creators: string[], ids: string[], views: number[]):
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

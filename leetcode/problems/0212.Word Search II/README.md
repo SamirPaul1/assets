@@ -1,6 +1,5 @@
 # [212. Word Search II](https://leetcode.com/problems/word-search-ii)
 
-[中文文档](/solution/0200-0299/0212.Word%20Search%20II/README.md)
 
 ## Description
 

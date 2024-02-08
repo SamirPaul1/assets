@@ -1,6 +1,5 @@
 # [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem)
 
-[中文文档](/solution/0200-0299/0218.The%20Skyline%20Problem/README.md)
 
 ## Description
 

@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mirrorReflection(self, p: int, q: int) -> int:
@@ -66,7 +67,9 @@ class Solution:
             return 1
         return 0 if p == 1 else 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mirrorReflection(int p, int q) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mirrorReflection(p int, q int) int {
 	g := gcd(p, q)
@@ -121,7 +128,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mirrorReflection(p: number, q: number): number {
     const g = gcd(p, q);
@@ -137,6 +146,7 @@ function gcd(a: number, b: number): number {
     return b === 0 ? a : gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

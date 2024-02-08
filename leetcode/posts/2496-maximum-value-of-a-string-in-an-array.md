@@ -67,6 +67,7 @@ Each string in the array has value 1. Hence, we return 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumValue(self, strs: List[str]) -> int:
@@ -75,7 +76,9 @@ class Solution:
 
         return max(f(s) for s in strs)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumValue(String[] strs) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumValue(strs []string) (ans int) {
 	f := func(s string) (x int) {
@@ -142,14 +149,18 @@ func maximumValue(strs []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumValue(strs: string[]): number {
     const f = (s: string) => (Number.isNaN(Number(s)) ? s.length : Number(s));
     return Math.max(...strs.map(f));
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum_value(strs: Vec<String>) -> i32 {
@@ -162,7 +173,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaximumValue(string[] strs) {
@@ -181,7 +194,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -206,6 +221,7 @@ int maximumValue(char** strs, int strsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -213,6 +229,7 @@ int maximumValue(char** strs, int strsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumValue(self, strs: List[str]) -> int:
@@ -226,7 +243,9 @@ class Solution:
 
         return max(f(s) for s in strs)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum_value(strs: Vec<String>) -> i32 {
@@ -257,6 +276,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -264,6 +284,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::max;
 
@@ -286,6 +307,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

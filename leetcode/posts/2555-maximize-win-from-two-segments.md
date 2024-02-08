@@ -79,6 +79,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeWin(self, prizePositions: List[int], k: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
             f[i] = max(f[i - 1], i - j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeWin(int[] prizePositions, int k) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeWin(prizePositions []int, k int) (ans int) {
 	n := len(prizePositions)
@@ -152,7 +159,9 @@ func maximizeWin(prizePositions []int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeWin(prizePositions: number[], k: number): number {
     const n = prizePositions.length;
@@ -180,6 +189,7 @@ function maximizeWin(prizePositions: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

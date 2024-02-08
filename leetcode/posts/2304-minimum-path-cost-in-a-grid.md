@@ -82,6 +82,7 @@ The time complexity is $O(m \times n^2)$, and the space complexity is $O(n)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minPathCost(self, grid: List[List[int]], moveCost: List[List[int]]) -> int:
@@ -95,7 +96,9 @@ class Solution:
             f = g
         return min(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minPathCost(int[][] grid, int[][] moveCost) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minPathCost(grid [][]int, moveCost [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -161,7 +168,9 @@ func minPathCost(grid [][]int, moveCost [][]int) int {
 	return slices.Min(f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minPathCost(grid: number[][], moveCost: number[][]): number {
     const m = grid.length;
@@ -179,7 +188,9 @@ function minPathCost(grid: number[][], moveCost: number[][]): number {
     return Math.min(...f);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_path_cost(grid: Vec<Vec<i32>>, move_cost: Vec<Vec<i32>>) -> i32 {
@@ -201,6 +212,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -105,6 +105,7 @@ Next, we just need to filter out the data where `rk = 1`, then join table `T` to
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -130,6 +131,7 @@ FROM
 WHERE t1.rk = 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

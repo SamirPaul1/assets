@@ -62,6 +62,7 @@ There are 2 steps to sort the array in non-decreasing order. Therefore, we retur
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumReplacement(self, nums: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
             mx = nums[i] // k
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumReplacement(int[] nums) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumReplacement(nums []int) (ans int64) {
 	n := len(nums)
@@ -135,7 +142,9 @@ func minimumReplacement(nums []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumReplacement(nums: number[]): number {
     const n = nums.length;
@@ -153,7 +162,9 @@ function minimumReplacement(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -182,6 +193,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -89,7 +90,9 @@ class Solution:
             cur = cur.next
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -175,7 +182,9 @@ func deleteDuplicatesUnsorted(head *ListNode) *ListNode {
 	return dummy.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -206,6 +215,7 @@ function deleteDuplicatesUnsorted(head: ListNode | null): ListNode | null {
     return dummy.next;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

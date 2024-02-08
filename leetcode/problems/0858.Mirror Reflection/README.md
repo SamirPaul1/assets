@@ -1,6 +1,5 @@
 # [858. Mirror Reflection](https://leetcode.com/problems/mirror-reflection)
 
-[中文文档](/solution/0800-0899/0858.Mirror%20Reflection/README.md)
 
 ## Description
 

@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxRepeating(self, sequence: str, word: str) -> int:
@@ -70,7 +71,9 @@ class Solution:
             if word * k in sequence:
                 return k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxRepeating(String sequence, String word) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxRepeating(sequence string, word string) int {
 	for k := len(sequence) / len(word); k > 0; k-- {
@@ -113,7 +120,9 @@ func maxRepeating(sequence string, word string) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxRepeating(sequence: string, word: string): number {
     let n = sequence.length;
@@ -126,7 +135,9 @@ function maxRepeating(sequence: string, word: string): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_repeating(sequence: String, word: String) -> i32 {
@@ -146,7 +157,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -170,6 +183,7 @@ int maxRepeating(char* sequence, char* word) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -64,6 +64,7 @@ The time complexity is $O(m \times n)$, where $m$ and $n$ are the number of rows
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSum(self, grid: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                 ans = max(ans, s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSum(int[][] grid) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSum(grid [][]int) (ans int) {
 	m, n := len(grid), len(grid[0])
@@ -139,7 +146,9 @@ func maxSum(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSum(grid: number[][]): number {
     const m = grid.length;
@@ -159,6 +168,7 @@ function maxSum(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

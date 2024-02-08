@@ -47,6 +47,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortTransformedArray(
@@ -78,7 +79,9 @@ class Solution:
                 k -= 1
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortTransformedArray(nums []int, a int, b int, c int) []int {
 	n := len(nums)
@@ -191,6 +198,7 @@ func f(a, b, c, x int) int {
 	return a*x*x + b*x + c
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

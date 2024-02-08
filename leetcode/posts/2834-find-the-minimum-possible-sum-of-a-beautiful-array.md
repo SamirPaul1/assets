@@ -82,6 +82,7 @@ The time complexity is $O(n + target)$, and the space complexity is $O(n + targe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumPossibleSum(self, n: int, target: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumPossibleSum(int n, int target) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumPossibleSum(n int, target int) (ans int64) {
 	vis := make([]bool, n+target)
@@ -152,7 +159,9 @@ func minimumPossibleSum(n int, target int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumPossibleSum(n: number, target: number): number {
     const vis: boolean[] = Array(n + target).fill(false);
@@ -169,6 +178,7 @@ function minimumPossibleSum(n: number, target: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

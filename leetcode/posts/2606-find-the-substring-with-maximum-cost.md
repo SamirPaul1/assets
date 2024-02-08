@@ -83,6 +83,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumCostSubstring(self, s: str, chars: str, vals: List[int]) -> int:
@@ -95,7 +96,9 @@ class Solution:
             mi = min(mi, tot)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumCostSubstring(String s, String chars, int[] vals) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumCostSubstring(s string, chars string, vals []int) (ans int) {
 	d := [26]int{}
@@ -161,7 +168,9 @@ func maximumCostSubstring(s string, chars string, vals []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumCostSubstring(s: string, chars: string, vals: number[]): number {
     const d: number[] = Array.from({ length: 26 }, (_, i) => i + 1);
@@ -179,6 +188,7 @@ function maximumCostSubstring(s: string, chars: string, vals: number[]): number 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -192,6 +202,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumCostSubstring(self, s: str, chars: str, vals: List[int]) -> int:
@@ -203,7 +214,9 @@ class Solution:
             ans = max(ans, f)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumCostSubstring(String s, String chars, int[] vals) {
@@ -226,7 +239,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -247,7 +262,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumCostSubstring(s string, chars string, vals []int) (ans int) {
 	d := [26]int{}
@@ -266,7 +283,9 @@ func maximumCostSubstring(s string, chars string, vals []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumCostSubstring(s: string, chars: string, vals: number[]): number {
     const d: number[] = Array.from({ length: 26 }, (_, i) => i + 1);
@@ -282,6 +301,7 @@ function maximumCostSubstring(s: string, chars: string, vals: number[]): number 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

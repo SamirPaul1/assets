@@ -76,6 +76,7 @@ The time complexity is $O(n + k \times \log n)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pickGifts(self, gifts: List[int], k: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
             heapreplace(h, -int(sqrt(-h[0])))
         return -sum(h)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long pickGifts(int[] gifts, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pickGifts(gifts []int, k int) (ans int64) {
 	h := &hp{gifts}
@@ -140,7 +147,9 @@ func (h hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
 func (hp) Pop() (_ any)         { return }
 func (hp) Push(any)             {}
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function pickGifts(gifts: number[], k: number): number {
     const pq = new MaxPriorityQueue();
@@ -157,7 +166,9 @@ function pickGifts(gifts: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn pick_gifts(gifts: Vec<i32>, k: i32) -> i64 {
@@ -179,6 +190,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

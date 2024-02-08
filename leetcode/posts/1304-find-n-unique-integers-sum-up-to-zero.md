@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumZero(self, n: int) -> List[int]:
@@ -68,7 +69,9 @@ class Solution:
             ans.append(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sumZero(int n) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumZero(n int) []int {
 	ans := make([]int, n)
@@ -107,7 +114,9 @@ func sumZero(n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumZero(n: number): number[] {
     const ans = new Array(n).fill(0);
@@ -118,6 +127,7 @@ function sumZero(n: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -125,6 +135,7 @@ function sumZero(n: number): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumZero(self, n: int) -> List[int]:
@@ -132,7 +143,9 @@ class Solution:
         ans.append(-sum(ans))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sumZero(int n) {
@@ -145,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumZero(n int) []int {
 	ans := make([]int, n)
@@ -168,7 +185,9 @@ func sumZero(n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumZero(n: number): number[] {
     const ans = new Array(n).fill(0);
@@ -179,6 +198,7 @@ function sumZero(n: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

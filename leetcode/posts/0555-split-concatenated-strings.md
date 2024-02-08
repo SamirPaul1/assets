@@ -65,6 +65,7 @@ The answer string came from the fourth looped one, where you could cut from the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def splitLoopedString(self, strs: List[str]) -> str:
@@ -79,7 +80,9 @@ class Solution:
                 ans = max(ans, b[::-1] + t + a[::-1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String splitLoopedString(String[] strs) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func splitLoopedString(strs []string) (ans string) {
 	for i, s := range strs {
@@ -203,6 +210,7 @@ func reverse(s string) string {
 	return string(t)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

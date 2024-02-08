@@ -63,6 +63,7 @@ One series of moves that transforms the starting point to the target is:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reachingPoints(self, sx: int, sy: int, tx: int, ty: int) -> bool:
@@ -79,7 +80,9 @@ class Solution:
             return tx > sx and (tx - sx) % ty == 0
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean reachingPoints(int sx, int sy, int tx, int ty) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reachingPoints(sx int, sy int, tx int, ty int) bool {
 	for tx > sx && ty > sy && tx != ty {
@@ -143,6 +150,7 @@ func reachingPoints(sx int, sy int, tx int, ty int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

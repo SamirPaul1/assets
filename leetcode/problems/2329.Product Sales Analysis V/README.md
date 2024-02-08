@@ -1,6 +1,5 @@
 # [2329. Product Sales Analysis V](https://leetcode.com/problems/product-sales-analysis-v)
 
-[中文文档](/solution/2300-2399/2329.Product%20Sales%20Analysis%20V/README.md)
 
 ## Description
 

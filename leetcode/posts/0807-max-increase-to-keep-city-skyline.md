@@ -66,6 +66,7 @@ gridNew = [ [8, 4, 8, 7],
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:
@@ -77,7 +78,9 @@ class Solution:
             for j in range(len(grid[0]))
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxIncreaseKeepingSkyline(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -143,7 +150,9 @@ func maxIncreaseKeepingSkyline(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxIncreaseKeepingSkyline(grid: number[][]): number {
     let rows = grid.map(arr => Math.max(...arr)),
@@ -166,6 +175,7 @@ function maxIncreaseKeepingSkyline(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

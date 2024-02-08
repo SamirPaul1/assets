@@ -66,6 +66,7 @@ F(n) = F(n - 1) + F(n - 2), for n &gt; 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fib(self, n: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
             a, b = b, a + b
         return a
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int fib(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fib(n int) int {
 	a, b := 0, 1
@@ -113,7 +120,9 @@ func fib(n int) int {
 	return a
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fib(n: number): number {
     let a = 0;
@@ -124,7 +133,9 @@ function fib(n: number): number {
     return a;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn fib(n: i32) -> i32 {
@@ -139,7 +150,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -156,7 +169,9 @@ var fib = function (n) {
     return a;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -175,6 +190,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -182,6 +198,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fib(n: number): number {
     if (n < 2) {
@@ -190,7 +207,9 @@ function fib(n: number): number {
     return fib(n - 1) + fib(n - 2);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn fib(n: i32) -> i32 {
@@ -201,6 +220,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

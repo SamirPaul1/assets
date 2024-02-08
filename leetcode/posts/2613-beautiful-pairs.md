@@ -79,6 +79,7 @@ Space complexity: $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautifulPair(self, nums1: List[int], nums2: List[int]) -> List[int]:
@@ -118,7 +119,9 @@ class Solution:
         _, pi, pj = dfs(0, len(points) - 1)
         return [pi, pj]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<int[]> points = new ArrayList<>();
@@ -186,7 +189,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -255,7 +260,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautifulPair(nums1 []int, nums2 []int) []int {
 	n := len(nums1)
@@ -323,7 +330,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function beautifulPair(nums1: number[], nums2: number[]): number[] {
     const pl: Map<number, number[]> = new Map();
@@ -392,6 +401,7 @@ function f(x: number, y: number): number {
     return x * 100000 + y;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -89,6 +89,7 @@ The time complexity is $O(n \times k)$, and the space complexity is $O(n \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def waysToDistribute(self, n: int, k: int) -> int:
@@ -100,7 +101,9 @@ class Solution:
                 f[i][j] = (f[i - 1][j] * j + f[i - 1][j - 1]) % mod
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int waysToDistribute(int n, int k) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func waysToDistribute(n int, k int) int {
 	f := make([][]int, n+1)
@@ -151,7 +158,9 @@ func waysToDistribute(n int, k int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function waysToDistribute(n: number, k: number): number {
     const mod = 10 ** 9 + 7;
@@ -167,6 +176,7 @@ function waysToDistribute(n: number, k: number): number {
     return f[n][k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -60,6 +60,7 @@ So [2,2,3,1,4,2] is the shortest subarray, therefore returning 6.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                     ans = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findShortestSubArray(int[] nums) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findShortestSubArray(nums []int) int {
 	cnt := map[int]int{}
@@ -167,6 +174,7 @@ func findShortestSubArray(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -174,6 +182,7 @@ func findShortestSubArray(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func findShortestSubArray(nums []int) (ans int) {
 	ans = 50000
@@ -229,6 +238,7 @@ func getMaxDegreeElem(maxDegree int, numsMap map[int]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

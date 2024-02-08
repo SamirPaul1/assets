@@ -88,6 +88,7 @@ i=3:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaximums(self, nums: List[int]) -> List[int]:
@@ -116,7 +117,9 @@ class Solution:
             ans[i] = max(ans[i], ans[i + 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findMaximums(int[] nums) {
@@ -157,7 +160,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaximums(nums []int) []int {
 	n := len(nums)
@@ -238,6 +245,7 @@ func findMaximums(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

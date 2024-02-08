@@ -86,6 +86,7 @@ The time complexity is $O(n^2)$, where $n$ is the $n$ given in the problem. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countOfPairs(self, n: int, x: int, y: int) -> List[int]:
@@ -99,7 +100,9 @@ class Solution:
                 ans[min(a, b, c) - 1] += 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countOfPairs(int n, int x, int y) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countOfPairs(n int, x int, y int) []int {
 	ans := make([]int, n)
@@ -161,7 +168,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countOfPairs(n: number, x: number, y: number): number[] {
     const ans: number[] = Array(n).fill(0);
@@ -178,6 +187,7 @@ function countOfPairs(n: number, x: number, y: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

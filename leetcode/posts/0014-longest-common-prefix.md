@@ -60,6 +60,7 @@ The time complexity is $O(n \times m)$, where $n$ and $m$ are the length of the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
@@ -69,7 +70,9 @@ class Solution:
                     return s[:i]
         return strs[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestCommonPrefix(strs []string) string {
 	n := len(strs)
@@ -116,7 +123,9 @@ func longestCommonPrefix(strs []string) string {
 	return strs[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestCommonPrefix(strs: string[]): string {
     const len = strs.reduce((r, s) => Math.min(r, s.length), Infinity);
@@ -129,7 +138,9 @@ function longestCommonPrefix(strs: string[]): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
@@ -149,7 +160,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string[]} strs
@@ -166,7 +179,9 @@ var longestCommonPrefix = function (strs) {
     return strs[0];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
@@ -182,7 +197,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -203,7 +220,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # @param {String[]} strs
 # @return {String}
@@ -231,6 +250,7 @@ def longest_common_prefix(strs)
   idx > 0 ? strs[0][0..idx] : ''
 end
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

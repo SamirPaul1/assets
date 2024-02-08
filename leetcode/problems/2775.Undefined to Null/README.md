@@ -1,6 +1,5 @@
 # [2775. Undefined to Null](https://leetcode.com/problems/undefined-to-null)
 
-[中文文档](/solution/2700-2799/2775.Undefined%20to%20Null/README.md)
 
 ## Description
 

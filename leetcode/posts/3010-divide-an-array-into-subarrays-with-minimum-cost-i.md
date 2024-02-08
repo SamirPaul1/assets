@@ -75,6 +75,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCost(self, nums: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 c = x
         return a + b + c
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCost(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCost(nums []int) int {
 	a, b, c := nums[0], 100, 100
@@ -135,7 +142,9 @@ func minimumCost(nums []int) int {
 	return a + b + c
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCost(nums: number[]): number {
     let [a, b, c] = [nums[0], 100, 100];
@@ -149,6 +158,7 @@ function minimumCost(nums: number[]): number {
     return a + b + c;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ Time complexity $O(2^n)$, space complexity $O(n)$, where $n$ is the length of th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautifulSubsets(self, nums: List[int], k: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautifulSubsets(nums []int, k int) int {
 	ans := -1
@@ -174,7 +181,9 @@ func beautifulSubsets(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function beautifulSubsets(nums: number[], k: number): number {
     let ans: number = -1;
@@ -198,6 +207,7 @@ function beautifulSubsets(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

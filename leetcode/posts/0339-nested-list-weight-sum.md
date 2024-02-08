@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is the interface that allows for creating nested lists.
@@ -119,7 +120,9 @@ class Solution:
 
         return dfs(nestedList, 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the interface that allows for creating nested lists.
@@ -167,7 +170,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * // This is the interface that allows for creating nested lists.
@@ -226,6 +231,7 @@ var depthSum = function (nestedList) {
     return dfs(nestedList, 1);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,12 +73,15 @@ The time complexity is $O(n + \log m)$, and the space complexity is $O(1)$. Wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isGoodArray(self, nums: List[int]) -> bool:
         return reduce(gcd, nums) == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isGoodArray(int[] nums) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isGoodArray(nums []int) bool {
 	g := 0
@@ -124,6 +131,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

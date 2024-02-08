@@ -69,6 +69,7 @@ The right interval for [2,3] is [3,4] since start<sub>2</sub> = 3 is the smalles
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRightInterval(self, intervals: List[List[int]]) -> List[int]:
@@ -83,7 +84,9 @@ class Solution:
                 ans[i] = intervals[j][2]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findRightInterval(int[][] intervals) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRightInterval(intervals [][]int) []int {
 	n := len(intervals)
@@ -173,7 +180,9 @@ func findRightInterval(intervals [][]int) []int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findRightInterval(intervals: number[][]): number[] {
     const n = intervals.length;
@@ -202,6 +211,7 @@ function findRightInterval(intervals: number[][]): number[] {
     });
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

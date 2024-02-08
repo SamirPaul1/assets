@@ -74,6 +74,7 @@ No more pairs can be formed. A total of 1 pair has been formed, and there are 0 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfPairs(self, nums: List[int]) -> List[int]:
@@ -81,7 +82,9 @@ class Solution:
         s = sum(v // 2 for v in cnt.values())
         return [s, len(nums) - s * 2]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] numberOfPairs(int[] nums) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfPairs(nums []int) []int {
 	cnt := [101]int{}
@@ -128,7 +135,9 @@ func numberOfPairs(nums []int) []int {
 	return []int{s, len(nums) - s*2}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfPairs(nums: number[]): number[] {
     const n = nums.length;
@@ -140,7 +149,9 @@ function numberOfPairs(nums: number[]): number[] {
     return [sum, n - sum * 2];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn number_of_pairs(nums: Vec<i32>) -> Vec<i32> {
@@ -157,7 +168,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -172,7 +185,9 @@ var numberOfPairs = function (nums) {
     return [s, nums.length - s * 2];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] NumberOfPairs(int[] nums) {
@@ -188,7 +203,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -209,6 +226,7 @@ int* numberOfPairs(int* nums, int numsSize, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

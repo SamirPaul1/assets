@@ -1,6 +1,5 @@
 # [529. Minesweeper](https://leetcode.com/problems/minesweeper)
 
-[中文文档](/solution/0500-0599/0529.Minesweeper/README.md)
 
 ## Description
 

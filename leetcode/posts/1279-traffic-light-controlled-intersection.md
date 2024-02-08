@@ -98,6 +98,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from threading import Lock
 
@@ -125,7 +126,9 @@ class TrafficLight:
         crossCar()
         self.lock.release()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TrafficLight {
     private int road = 1;
@@ -147,6 +150,7 @@ class TrafficLight {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

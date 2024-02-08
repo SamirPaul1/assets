@@ -82,6 +82,7 @@ The time complexity is $O(n^2 \times \log n)$, and the space complexity is $O(n^
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCost(
@@ -103,7 +104,9 @@ class Solution:
                 heappush(q, (d + dist(x, y, x1, y1) + cost, x2, y2))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCost(int[] start, int[] target, int[][] specialRoads) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCost(start []int, target []int, specialRoads [][]int) int {
 	ans := 1 << 30
@@ -212,7 +219,9 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(tuple)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCost(start: number[], target: number[], specialRoads: number[][]): number {
     const dist = (x1: number, y1: number, x2: number, y2: number): number => {
@@ -304,6 +313,7 @@ class Heap<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

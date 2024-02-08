@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findKthPositive(self, arr: List[int], k: int) -> int:
@@ -75,7 +76,9 @@ class Solution:
                 left = mid + 1
         return arr[left - 1] + k - (arr[left - 1] - (left - 1) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findKthPositive(int[] arr, int k) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findKthPositive(arr []int, k int) int {
 	if arr[0] > k {
@@ -131,6 +138,7 @@ func findKthPositive(arr []int, k int) int {
 	return arr[left-1] + k - (arr[left-1] - (left - 1) - 1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

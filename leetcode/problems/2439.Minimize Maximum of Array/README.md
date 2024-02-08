@@ -1,6 +1,5 @@
 # [2439. Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array)
 
-[中文文档](/solution/2400-2499/2439.Minimize%20Maximum%20of%20Array/README.md)
 
 ## Description
 

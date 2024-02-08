@@ -105,6 +105,7 @@ We can use an equi-join to join the `Users` table and the `Transactions` table o
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -116,6 +117,7 @@ FROM
 GROUP BY account
 HAVING balance > 10000;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,6 +73,7 @@ The time complexity is $O(n \times \sqrt{s})$, where $n$ and $s$ are the length 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def componentValue(self, nums: List[int], edges: List[List[int]]) -> int:
@@ -102,7 +103,9 @@ class Solution:
                     return k - 1
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -165,7 +168,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -204,7 +209,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func componentValue(nums []int, edges [][]int) int {
 	s, mx := 0, slices.Max(nums)
@@ -250,6 +257,7 @@ func componentValue(nums []int, edges [][]int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

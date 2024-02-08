@@ -84,6 +84,7 @@ The time complexity is $O(n \times k)$, and the space complexity is $O(k)$. Here
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rearrangeSticks(self, n: int, k: int) -> int:
@@ -95,7 +96,9 @@ class Solution:
                 f[i][j] = (f[i - 1][j - 1] + f[i - 1][j] * (i - 1)) % mod
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rearrangeSticks(int n, int k) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeSticks(n int, k int) int {
 	const mod = 1e9 + 7
@@ -146,7 +153,9 @@ func rearrangeSticks(n int, k int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rearrangeSticks(n: number, k: number): number {
     const mod = 10 ** 9 + 7;
@@ -162,6 +171,7 @@ function rearrangeSticks(n: number, k: number): number {
     return f[n][k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +179,7 @@ function rearrangeSticks(n: number, k: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rearrangeSticks(self, n: int, k: int) -> int:
@@ -180,7 +191,9 @@ class Solution:
             f[0] = 0
         return f[k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rearrangeSticks(int n, int k) {
@@ -197,7 +210,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -216,7 +231,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeSticks(n int, k int) int {
 	const mod = 1e9 + 7
@@ -231,7 +248,9 @@ func rearrangeSticks(n int, k int) int {
 	return f[k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rearrangeSticks(n: number, k: number): number {
     const mod = 10 ** 9 + 7;
@@ -246,6 +265,7 @@ function rearrangeSticks(n: number, k: number): number {
     return f[k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -89,6 +89,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(2^n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def selfDivisiblePermutationCount(self, n: int) -> int:
@@ -105,7 +106,9 @@ class Solution:
 
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func selfDivisiblePermutationCount(n int) int {
 	f := make([]int, 1<<(n+1))
@@ -189,7 +196,9 @@ func selfDivisiblePermutationCount(n int) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function selfDivisiblePermutationCount(n: number): number {
     const f: number[] = Array(1 << (n + 1)).fill(-1);
@@ -221,6 +230,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +246,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(2^n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def selfDivisiblePermutationCount(self, n: int) -> int:
@@ -248,7 +259,9 @@ class Solution:
                     f[mask] += f[mask ^ (1 << (j - 1))]
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int selfDivisiblePermutationCount(int n) {
@@ -266,7 +279,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -286,7 +301,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func selfDivisiblePermutationCount(n int) int {
 	f := make([]int, 1<<n)
@@ -302,7 +319,9 @@ func selfDivisiblePermutationCount(n int) int {
 	return f[(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function selfDivisiblePermutationCount(n: number): number {
     const f: number[] = Array(1 << n).fill(0);
@@ -327,6 +346,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

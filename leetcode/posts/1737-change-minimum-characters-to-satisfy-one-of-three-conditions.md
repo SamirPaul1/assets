@@ -76,6 +76,7 @@ The time complexity is $O(m + n + C^2)$, where $m$ and $n$ are the lengths of st
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCharacters(self, a: str, b: str) -> int:
@@ -99,7 +100,9 @@ class Solution:
         f(cnt2, cnt1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int ans;
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCharacters(a string, b string) int {
 	cnt1 := [26]int{}
@@ -196,7 +203,9 @@ func minCharacters(a string, b string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCharacters(a: string, b: string): number {
     const m = a.length,
@@ -226,6 +235,7 @@ function minCharacters(a: string, b: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

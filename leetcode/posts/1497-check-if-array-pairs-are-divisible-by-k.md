@@ -67,13 +67,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canArrange(self, arr: List[int], k: int) -> bool:
         cnt = Counter(x % k for x in arr)
         return cnt[0] % 2 == 0 and all(cnt[i] == cnt[k - i] for i in range(1, k))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canArrange(int[] arr, int k) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canArrange(arr []int, k int) bool {
 	cnt := make([]int, k)
@@ -123,6 +130,7 @@ func canArrange(arr []int, k int) bool {
 	return cnt[0]%2 == 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

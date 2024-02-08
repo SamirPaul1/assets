@@ -61,6 +61,7 @@ The maximum total we can obtain is 101.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValueOfCoins(self, piles: List[List[int]], k: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
                         dp[i][j] = max(dp[i][j], dp[i - 1][j - idx] + v)
         return dp[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxValueOfCoins(List<List<Integer>> piles, int k) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxValueOfCoins(piles [][]int, k int) int {
 	var presum [][]int
@@ -151,6 +158,7 @@ func maxValueOfCoins(piles [][]int, k int) int {
 	return dp[k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -158,6 +166,7 @@ func maxValueOfCoins(piles [][]int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValueOfCoins(self, piles: List[List[int]], k: int) -> int:
@@ -170,6 +179,7 @@ class Solution:
                         dp[j] = max(dp[j], dp[j - idx] + v)
         return dp[-1]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

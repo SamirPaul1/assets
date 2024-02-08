@@ -98,6 +98,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxFrequencyScore(self, nums: List[int], k: int) -> int:
@@ -122,7 +123,9 @@ class Solution:
                 r = mid - 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxFrequencyScore(int[] nums, long k) {
@@ -159,7 +162,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -199,7 +204,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxFrequencyScore(nums []int, k int64) int {
 	sort.Ints(nums)
@@ -236,7 +243,9 @@ func maxFrequencyScore(nums []int, k int64) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxFrequencyScore(nums: number[], k: number): number {
     nums.sort((a, b) => a - b);
@@ -271,6 +280,7 @@ function maxFrequencyScore(nums: number[], k: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

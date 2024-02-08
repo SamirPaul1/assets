@@ -65,6 +65,7 @@ The additive sequence is: 1, 99, 100, 199.&nbsp;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isAdditiveNumber(self, num: str) -> bool:
@@ -90,7 +91,9 @@ class Solution:
                     return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isAdditiveNumber(String num) {
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isAdditiveNumber(num string) bool {
 	n := len(num)
@@ -200,6 +207,7 @@ func isAdditiveNumber(num string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

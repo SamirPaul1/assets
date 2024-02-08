@@ -64,12 +64,15 @@ Also note that the first cut will not divide the circle into distinct parts.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfCuts(self, n: int) -> int:
         return n if (n > 1 and n & 1) else n >> 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfCuts(int n) {
@@ -77,7 +80,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -86,7 +91,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfCuts(n int) int {
 	if n > 1 && n%2 == 1 {
@@ -95,13 +102,17 @@ func numberOfCuts(n int) int {
 	return n >> 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfCuts(n: number): number {
     return n > 1 && n & 1 ? n : n >> 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn number_of_cuts(n: i32) -> i32 {
@@ -112,7 +123,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int NumberOfCuts(int n) {
@@ -120,6 +133,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ Therefore, nums is consecutive.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isConsecutive(self, nums: List[int]) -> bool:
@@ -78,7 +79,9 @@ class Solution:
         n = len(nums)
         return len(set(nums)) == n and mx == mi + n - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isConsecutive(int[] nums) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isConsecutive(nums []int) bool {
 	s := map[int]bool{}
@@ -119,6 +126,7 @@ func isConsecutive(nums []int) bool {
 	return len(s) == len(nums) && mx == mi+len(nums)-1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

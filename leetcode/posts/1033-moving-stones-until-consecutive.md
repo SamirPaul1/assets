@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMovesStones(self, a: int, b: int, c: int) -> List[int]:
@@ -82,7 +83,9 @@ class Solution:
             mx = z - x - 2
         return [mi, mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] numMovesStones(int a, int b, int c) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMovesStones(a int, b int, c int) []int {
 	x := min(a, min(b, c))
@@ -132,7 +139,9 @@ func numMovesStones(a int, b int, c int) []int {
 	return []int{mi, mx}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numMovesStones(a: number, b: number, c: number): number[] {
     const x = Math.min(a, Math.min(b, c));
@@ -147,6 +156,7 @@ function numMovesStones(a: number, b: number, c: number): number[] {
     return [mi, mx];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

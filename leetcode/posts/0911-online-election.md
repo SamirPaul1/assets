@@ -70,6 +70,7 @@ topVotedCandidate.q(8); // return 1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class TopVotedCandidate:
     def __init__(self, persons: List[int], times: List[int]):
@@ -98,7 +99,9 @@ class TopVotedCandidate:
 # obj = TopVotedCandidate(persons, times)
 # param_1 = obj.q(t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TopVotedCandidate {
     private int[] times;
@@ -139,7 +142,9 @@ class TopVotedCandidate {
  * int param_1 = obj.q(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class TopVotedCandidate {
 public:
@@ -181,7 +186,9 @@ public:
  * int param_1 = obj->q(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type TopVotedCandidate struct {
 	times []int
@@ -222,6 +229,7 @@ func (this *TopVotedCandidate) Q(t int) int {
  * param_1 := obj.Q(t);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

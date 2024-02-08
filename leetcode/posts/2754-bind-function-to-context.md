@@ -96,6 +96,7 @@ boundFunc(); // &quot;My name is Kathy&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Fn = (...args) => any;
 
@@ -111,6 +112,7 @@ Function.prototype.bindPolyfill = function (obj) {
     };
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

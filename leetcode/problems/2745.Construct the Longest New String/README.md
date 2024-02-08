@@ -1,6 +1,5 @@
 # [2745. Construct the Longest New String](https://leetcode.com/problems/construct-the-longest-new-string)
 
-[中文文档](/solution/2700-2799/2745.Construct%20the%20Longest%20New%20String/README.md)
 
 ## Description
 

@@ -83,6 +83,7 @@ The time complexity is $O(n)$, where $n$ is the number of sandwiches. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countStudents(self, students: List[int], sandwiches: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
             cnt[v] -= 1
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countStudents(int[] students, int[] sandwiches) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countStudents(students []int, sandwiches []int) int {
 	cnt := [2]int{}
@@ -142,7 +149,9 @@ func countStudents(students []int, sandwiches []int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countStudents(students: number[], sandwiches: number[]): number {
     const count = [0, 0];
@@ -158,7 +167,9 @@ function countStudents(students: number[], sandwiches: number[]): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_students(students: Vec<i32>, sandwiches: Vec<i32>) -> i32 {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countStudents(int* students, int studentsSize, int* sandwiches, int sandwichesSize) {
     int count[2] = {0};
@@ -194,6 +207,7 @@ int countStudents(int* students, int studentsSize, int* sandwiches, int sandwich
     return 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

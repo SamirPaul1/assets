@@ -74,6 +74,7 @@ The time complexity is $O(m \times n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumInvitations(self, grid: List[List[int]]) -> int:
@@ -94,7 +95,9 @@ class Solution:
             ans += find(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] grid;
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumInvitations(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -195,6 +202,7 @@ func maximumInvitations(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

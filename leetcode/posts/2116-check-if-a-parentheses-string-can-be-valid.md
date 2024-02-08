@@ -78,6 +78,7 @@ Changing s[0] to either &#39;(&#39; or &#39;)&#39; will not make s valid.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canBeValid(self, s: str, locked: str) -> bool:
@@ -102,7 +103,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canBeValid(String s, String locked) {
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canBeValid(s string, locked string) bool {
 	n := len(s)
@@ -197,6 +204,7 @@ func canBeValid(s string, locked string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

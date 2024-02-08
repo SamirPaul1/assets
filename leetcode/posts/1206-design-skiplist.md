@@ -79,6 +79,7 @@ skiplist.search(1); // return False, 1 has already been erased.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     __slots__ = ['val', 'next']
@@ -145,7 +146,9 @@ class Skiplist:
 # obj.add(num)
 # param_3 = obj.erase(num)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Skiplist {
     private static final int MAX_LEVEL = 32;
@@ -232,7 +235,9 @@ class Skiplist {
  * boolean param_3 = obj.erase(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 struct Node {
     int val;
@@ -311,7 +316,9 @@ public:
  * bool param_3 = obj->erase(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func init() { rand.Seed(time.Now().UnixNano()) }
 
@@ -410,6 +417,7 @@ func randomLevel() int {
  * param_3 := obj.Erase(num);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

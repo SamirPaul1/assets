@@ -49,6 +49,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def thousandSeparator(self, n: int) -> str:
@@ -65,7 +66,9 @@ class Solution:
                 cnt = 0
         return ''.join(ans[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String thousandSeparator(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func thousandSeparator(n int) string {
 	cnt := 0
@@ -134,6 +141,7 @@ func thousandSeparator(n int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

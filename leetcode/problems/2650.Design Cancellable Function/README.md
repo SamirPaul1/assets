@@ -1,6 +1,5 @@
 # [2650. Design Cancellable Function](https://leetcode.com/problems/design-cancellable-function)
 
-[中文文档](/solution/2600-2699/2650.Design%20Cancellable%20Function/README.md)
 
 ## Description
 

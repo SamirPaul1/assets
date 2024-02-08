@@ -90,6 +90,7 @@ You can see that S[root] = &quot;ropetree&quot;. So S[root][7], which represents
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a rope tree node.
 # class RopeTreeNode(object):
@@ -109,7 +110,9 @@ class Solution:
 
         return dfs(root)[k - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a rope tree node.
@@ -153,7 +156,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a rope tree node.
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a rope tree node.
@@ -212,6 +219,7 @@ func getKthCharacter(root *RopeTreeNode, k int) byte {
 	return dfs(root)[k-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

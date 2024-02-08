@@ -70,6 +70,7 @@ The DataFrame is reshaped from wide to long format. Each row represents the sale
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -77,6 +78,7 @@ import pandas as pd
 def meltTable(report: pd.DataFrame) -> pd.DataFrame:
     return pd.melt(report, id_vars=['product'], var_name='quarter', value_name='sales')
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface String {
@@ -72,12 +73,15 @@ String.prototype.replicate = function (times: number) {
     return new Array(times).fill(this).join('');
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 String.prototype.replicate = function (times) {
     return Array(times).fill(this).join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def readBinaryWatch(self, turnedOn: int) -> List[str]:
@@ -72,7 +73,9 @@ class Solution:
             if (bin(i) + bin(j)).count('1') == turnedOn
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> readBinaryWatch(int turnedOn) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func readBinaryWatch(turnedOn int) []string {
 	var ans []string
@@ -119,7 +126,9 @@ func readBinaryWatch(turnedOn int) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function readBinaryWatch(turnedOn: number): string[] {
     if (turnedOn === 0) {
@@ -153,7 +162,9 @@ function readBinaryWatch(turnedOn: number): string[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn create_time(bit_arr: &[bool; 10]) -> (i32, i32) {
@@ -202,6 +213,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -209,6 +221,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def readBinaryWatch(self, turnedOn: int) -> List[str]:
@@ -219,7 +232,9 @@ class Solution:
                 ans.append('{:d}:{:02d}'.format(h, m))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> readBinaryWatch(int turnedOn) {
@@ -234,7 +249,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -250,7 +267,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func readBinaryWatch(turnedOn int) []string {
 	var ans []string
@@ -263,6 +282,7 @@ func readBinaryWatch(turnedOn int) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

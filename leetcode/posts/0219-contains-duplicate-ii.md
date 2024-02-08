@@ -66,6 +66,7 @@ The time complexity is $O(n)$ and the space complexity is $O(n)$. Here $n$ is th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
@@ -76,7 +77,9 @@ class Solution:
             d[x] = i
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func containsNearbyDuplicate(nums []int, k int) bool {
 	d := map[int]int{}
@@ -120,7 +127,9 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function containsNearbyDuplicate(nums: number[], k: number): boolean {
     const d: Map<number, number> = new Map();
@@ -133,7 +142,9 @@ function containsNearbyDuplicate(nums: number[], k: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool ContainsNearbyDuplicate(int[] nums, int k) {
@@ -148,7 +159,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -169,6 +182,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -81,6 +81,7 @@ There are no 1&#39;s to remove so return 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeOnes(self, grid: List[List[int]]) -> int:
@@ -109,7 +110,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int removeOnes(int[][] grid) {
@@ -158,7 +161,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeOnes(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -242,6 +249,7 @@ func removeOnes(grid [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

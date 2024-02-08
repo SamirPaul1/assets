@@ -1,6 +1,5 @@
 # [2733. Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum)
 
-[中文文档](/solution/2700-2799/2733.Neither%20Minimum%20nor%20Maximum/README.md)
 
 ## Description
 

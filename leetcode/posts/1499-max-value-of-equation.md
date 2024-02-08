@@ -61,6 +61,7 @@ No other pairs satisfy the condition, so we return the max of 4 and 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxValueOfEquation(self, points: List[List[int]], k: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
             heappush(pq, (x - y, x))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxValueOfEquation(int[][] points, int k) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxValueOfEquation(points [][]int, k int) int {
 	ans := -(1 << 30)
@@ -146,7 +153,9 @@ func (h hp) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)   { *h = append(*h, v.(pair)) }
 func (h *hp) Pop() any     { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaxValueOfEquation(points: number[][], k: number): number {
     let ans = -(1 << 30);
@@ -229,6 +238,7 @@ class Heap<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +246,7 @@ class Heap<T = number> {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxValueOfEquation(self, points: List[List[int]], k: int) -> int:
@@ -251,7 +262,9 @@ class Solution:
             q.append((x, y))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxValueOfEquation(int[][] points, int k) {
@@ -274,7 +287,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -298,7 +313,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxValueOfEquation(points [][]int, k int) int {
 	ans := -(1 << 30)
@@ -319,7 +336,9 @@ func findMaxValueOfEquation(points [][]int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaxValueOfEquation(points: number[][], k: number): number {
     let ans = -(1 << 30);
@@ -339,6 +358,7 @@ function findMaxValueOfEquation(points: number[][], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

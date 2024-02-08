@@ -97,6 +97,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums1: List[int], nums2: List[int]) -> int:
@@ -113,7 +114,9 @@ class Solution:
         a, b = f(nums1[-1], nums2[-1]), f(nums2[-1], nums1[-1])
         return -1 if a + b == -2 else min(a, b + 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -165,7 +170,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums1 []int, nums2 []int) int {
 	n := len(nums1)
@@ -189,7 +196,9 @@ func minOperations(nums1 []int, nums2 []int) int {
 	return min(a, b+1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums1: number[], nums2: number[]): number {
     const n = nums1.length;
@@ -211,6 +220,7 @@ function minOperations(nums1: number[], nums2: number[]): number {
     return a + b === -2 ? -1 : Math.min(a, b + 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

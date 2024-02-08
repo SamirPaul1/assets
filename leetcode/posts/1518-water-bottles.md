@@ -58,6 +58,7 @@ Number of water bottles you can drink: 15 + 3 + 1 = 19.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numWaterBottles(self, numBottles: int, numExchange: int) -> int:
@@ -67,7 +68,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numWaterBottles(int numBottles, int numExchange) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numWaterBottles(numBottles int, numExchange int) int {
 	ans := numBottles
@@ -102,7 +109,9 @@ func numWaterBottles(numBottles int, numExchange int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numWaterBottles(numBottles: number, numExchange: number): number {
     let ans = numBottles;
@@ -112,7 +121,9 @@ function numWaterBottles(numBottles: number, numExchange: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} numBottles
@@ -127,7 +138,9 @@ var numWaterBottles = function (numBottles, numExchange) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -145,6 +158,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

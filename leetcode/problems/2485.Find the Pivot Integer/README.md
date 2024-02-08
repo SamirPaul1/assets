@@ -1,6 +1,5 @@
 # [2485. Find the Pivot Integer](https://leetcode.com/problems/find-the-pivot-integer)
 
-[中文文档](/solution/2400-2499/2485.Find%20the%20Pivot%20Integer/README.md)
 
 ## Description
 

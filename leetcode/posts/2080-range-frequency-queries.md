@@ -64,6 +64,7 @@ rangeFreqQuery.query(0, 11, 33); // return 2. The value 33 occurs 2 times in the
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class RangeFreqQuery:
     def __init__(self, arr: List[int]):
@@ -83,7 +84,9 @@ class RangeFreqQuery:
 # obj = RangeFreqQuery(arr)
 # param_1 = obj.query(left,right,value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class RangeFreqQuery {
     private Map<Integer, List<Integer>> mp = new HashMap<>();
@@ -124,7 +127,9 @@ class RangeFreqQuery {
  * int param_1 = obj.query(left,right,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class RangeFreqQuery {
 public:
@@ -149,7 +154,9 @@ public:
  * int param_1 = obj->query(left,right,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type RangeFreqQuery struct {
 	mp map[int][]int
@@ -176,6 +183,7 @@ func (this *RangeFreqQuery) Query(left int, right int, value int) int {
  * param_1 := obj.Query(left,right,value);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

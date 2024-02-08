@@ -83,6 +83,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 def primeFactors(n):
     i = 2
@@ -134,7 +135,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -216,7 +219,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -295,7 +300,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumScore(nums []int, k int) int {
 	n := len(nums)
@@ -373,7 +380,9 @@ func primeFactors(n int) int {
 	return len(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumScore(nums: number[], k: number): number {
     const mod = 10 ** 9 + 7;
@@ -451,6 +460,7 @@ function qpow(a: bigint, n: number, mod: number): bigint {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

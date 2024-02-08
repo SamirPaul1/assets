@@ -58,6 +58,7 @@ Below are two general templates for binary search:
 
 Template 1:
 
+{{< terminal title="Java Code" >}}
 ```java
 boolean check(int x) {
 }
@@ -74,9 +75,11 @@ int search(int left, int right) {
     return left;
 }
 ```
+{{< /terminal >}}
 
 Template 2:
 
+{{< terminal title="Java Code" >}}
 ```java
 boolean check(int x) {
 }
@@ -93,6 +96,7 @@ int search(int left, int right) {
     return left;
 }
 ```
+{{< /terminal >}}
 
 When doing binary search problems, you can follow the following routine:
 
@@ -107,6 +111,7 @@ Note that the advantage of these two templates is that they always keep the answ
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
@@ -114,7 +119,9 @@ class Solution:
         r = bisect_left(nums, target + 1)
         return [-1, -1] if l == r else [l, r - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
@@ -137,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func searchRange(nums []int, target int) []int {
 	l := sort.SearchInts(nums, target)
@@ -160,7 +171,9 @@ func searchRange(nums []int, target int) []int {
 	return []int{l, r - 1}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function searchRange(nums: number[], target: number): number[] {
     const search = (x: number): number => {
@@ -180,7 +193,9 @@ function searchRange(nums: number[], target: number): number[] {
     return l === r ? [-1, -1] : [l, r - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn search_range(nums: Vec<i32>, target: i32) -> Vec<i32> {
@@ -207,7 +222,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -233,6 +250,7 @@ var searchRange = function (nums, target) {
     return l == r ? [-1, -1] : [l, r - 1];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

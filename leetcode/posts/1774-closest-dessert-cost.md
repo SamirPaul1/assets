@@ -90,6 +90,7 @@ Total: 3 + 4 + 10 + 0 = 17. You cannot make a dessert with a total cost of 18.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closestCost(
@@ -121,7 +122,9 @@ class Solution:
                             ans = x + y + arr[j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer> arr = new ArrayList<>();
@@ -177,7 +180,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -216,7 +221,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestCost(baseCosts []int, toppingCosts []int, target int) int {
 	arr := []int{}
@@ -260,7 +267,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 const closestCost = function (baseCosts, toppingCosts, target) {
     let closestDessertCost = -Infinity;
@@ -284,6 +293,7 @@ const closestCost = function (baseCosts, toppingCosts, target) {
     return closestDessertCost;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

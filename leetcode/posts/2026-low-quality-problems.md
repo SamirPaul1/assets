@@ -81,6 +81,7 @@ Problems 7, 10, 11, and 13 are low-quality problems because their like percentag
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT problem_id
@@ -88,6 +89,7 @@ FROM Problems
 WHERE likes / (likes + dislikes) < 0.6
 ORDER BY problem_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

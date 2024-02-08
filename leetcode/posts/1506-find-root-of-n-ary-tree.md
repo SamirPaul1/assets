@@ -85,6 +85,7 @@ The input data and serialized Node(1) are the same, so the test passes.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -104,7 +105,9 @@ class Solution:
                 x ^= child.val
         return next(node for node in tree if node.val == x)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -146,7 +149,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a Node.
@@ -211,7 +218,9 @@ func findRoot(tree []*Node) *Node {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for Node.
@@ -236,6 +245,7 @@ function findRoot(tree: Node[]): Node | null {
     return tree.find(node => node.val === x) || null;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

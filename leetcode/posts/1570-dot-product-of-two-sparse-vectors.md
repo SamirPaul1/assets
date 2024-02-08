@@ -73,6 +73,7 @@ v1.dotProduct(v2) = 0*0 + 1*0 + 0*0 + 0*0 + 0*2 = 0
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class SparseVector:
     def __init__(self, nums: List[int]):
@@ -91,7 +92,9 @@ class SparseVector:
 # v2 = SparseVector(nums2)
 # ans = v1.dotProduct(v2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SparseVector {
     public Map<Integer, Integer> d = new HashMap<>(128);
@@ -127,7 +130,9 @@ class SparseVector {
 // SparseVector v2 = new SparseVector(nums2);
 // int ans = v1.dotProduct(v2);
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SparseVector {
 public:
@@ -163,7 +168,9 @@ public:
 // SparseVector v2(nums2);
 // int ans = v1.dotProduct(v2);
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type SparseVector struct {
 	d map[int]int
@@ -200,7 +207,9 @@ func (this *SparseVector) dotProduct(vec SparseVector) (ans int) {
  * ans := v1.dotProduct(v2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class SparseVector {
     d: Map<number, number>;
@@ -238,6 +247,7 @@ class SparseVector {
  * var ans = v1.dotProduct(v2)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

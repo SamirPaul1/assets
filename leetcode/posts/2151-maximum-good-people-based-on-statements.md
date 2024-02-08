@@ -105,6 +105,7 @@ Note that there is more than one way to arrive at this conclusion.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumGood(self, statements: List[List[int]]) -> int:
@@ -120,7 +121,9 @@ class Solution:
 
         return max(check(mask) for mask in range(1, 1 << len(statements)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumGood(int[][] statements) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumGood(statements [][]int) int {
 	n := len(statements)
@@ -200,7 +207,9 @@ func maximumGood(statements [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumGood(statements: number[][]): number {
     const n = statements.length;
@@ -226,6 +235,7 @@ function maximumGood(statements: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

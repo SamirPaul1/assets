@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotateGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
@@ -101,7 +102,9 @@ class Solution:
             rotate(p, k)
         return grid
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rotateGrid(grid [][]int, k int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -245,7 +252,9 @@ func rotateGrid(grid [][]int, k int) [][]int {
 	return grid
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rotateGrid(grid: number[][], k: number): number[][] {
     const m = grid.length;
@@ -288,6 +297,7 @@ function rotateGrid(grid: number[][], k: number): number[][] {
     return grid;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

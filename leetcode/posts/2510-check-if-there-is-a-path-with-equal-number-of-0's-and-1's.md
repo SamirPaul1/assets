@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isThereAPath(self, grid: List[List[int]]) -> bool:
@@ -77,7 +78,9 @@ class Solution:
         s >>= 1
         return dfs(0, 0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int s;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isThereAPath(grid [][]int) bool {
 	m, n := len(grid), len(grid[0])
@@ -177,6 +184,7 @@ func isThereAPath(grid [][]int) bool {
 	return dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

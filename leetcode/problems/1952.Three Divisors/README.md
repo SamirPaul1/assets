@@ -1,6 +1,5 @@
 # [1952. Three Divisors](https://leetcode.com/problems/three-divisors)
 
-[中文文档](/solution/1900-1999/1952.Three%20Divisors/README.md)
 
 ## Description
 

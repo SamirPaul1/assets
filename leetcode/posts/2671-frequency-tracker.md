@@ -97,6 +97,7 @@ frequencyTracker.hasFrequency(1); // Returns true, because 3 occurs once
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FrequencyTracker:
     def __init__(self):
@@ -126,7 +127,9 @@ class FrequencyTracker:
 # obj.deleteOne(number)
 # param_3 = obj.hasFrequency(frequency)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FrequencyTracker {
     private Map<Integer, Integer> cnt = new HashMap<>();
@@ -167,7 +170,9 @@ class FrequencyTracker {
  * boolean param_3 = obj.hasFrequency(frequency);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FrequencyTracker {
 public:
@@ -210,7 +215,9 @@ private:
  * bool param_3 = obj->hasFrequency(frequency);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type FrequencyTracker struct {
 	cnt  map[int]int
@@ -252,7 +259,9 @@ func (this *FrequencyTracker) HasFrequency(frequency int) bool {
  * param_3 := obj.HasFrequency(frequency);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class FrequencyTracker {
     private cnt: Map<number, number>;
@@ -295,6 +304,7 @@ class FrequencyTracker {
  * var param_3 = obj.hasFrequency(frequency)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def palindromePartition(self, s: str, k: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                         f[i][j] = min(f[i][j], f[h][j - 1] + g[h][i - 1])
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int palindromePartition(String s, int k) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func palindromePartition(s string, k int) int {
 	n := len(s)
@@ -185,6 +192,7 @@ func palindromePartition(s string, k int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

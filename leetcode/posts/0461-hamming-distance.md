@@ -56,12 +56,15 @@ The above arrows point to positions where the corresponding bits are different.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         return (x ^ y).bit_count()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int hammingDistance(int x, int y) {
@@ -69,7 +72,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -78,13 +83,17 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hammingDistance(x int, y int) int {
 	return bits.OnesCount(uint(x ^ y))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hammingDistance(x: number, y: number): number {
     x ^= y;
@@ -96,7 +105,9 @@ function hammingDistance(x: number, y: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} x
@@ -113,6 +124,7 @@ var hammingDistance = function (x, y) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

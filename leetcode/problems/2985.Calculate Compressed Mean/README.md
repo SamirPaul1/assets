@@ -1,6 +1,5 @@
 # [2985. Calculate Compressed Mean](https://leetcode.com/problems/calculate-compressed-mean)
 
-[中文文档](/solution/2900-2999/2985.Calculate%20Compressed%20Mean/README.md)
 
 ## Description
 

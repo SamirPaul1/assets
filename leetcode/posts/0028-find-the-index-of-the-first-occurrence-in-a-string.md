@@ -57,6 +57,7 @@ Assuming the length of the string `haystack` is $n$ and the length of the string
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
@@ -66,7 +67,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int strStr(String haystack, String needle) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 private:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func strStr(haystack string, needle string) int {
 	n, m := len(haystack), len(needle)
@@ -161,7 +168,9 @@ func strStr(haystack string, needle string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function strStr(haystack: string, needle: string): number {
     const m = haystack.length;
@@ -181,7 +190,9 @@ function strStr(haystack: string, needle: string): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn str_str(haystack: String, needle: String) -> i32 {
@@ -216,7 +227,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} haystack
@@ -241,7 +254,9 @@ var strStr = function (haystack, needle) {
     return -1;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int StrStr(string haystack, string needle) {
@@ -258,7 +273,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -281,6 +298,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -292,6 +310,7 @@ Assuming the length of the string `haystack` is $n$ and the length of the string
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func strStr(haystack string, needle string) int {
 	n, m := len(haystack), len(needle)
@@ -321,7 +340,9 @@ func strStr(haystack string, needle string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function strStr(haystack: string, needle: string): number {
     const m = haystack.length;
@@ -352,6 +373,7 @@ function strStr(haystack: string, needle: string): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

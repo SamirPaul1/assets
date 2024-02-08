@@ -72,6 +72,7 @@ We first assign bike 0 to worker 0, then assign bike 1 to worker 1 or worker 2, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def assignBikes(self, workers: List[List[int]], bikes: List[List[int]]) -> int:
@@ -88,7 +89,9 @@ class Solution:
                         )
         return min(f[n])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int assignBikes(int[][] workers, int[][] bikes) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func assignBikes(workers [][]int, bikes [][]int) int {
 	n, m := len(workers), len(bikes)
@@ -170,7 +177,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function assignBikes(workers: number[][], bikes: number[][]): number {
     const n = workers.length;
@@ -193,6 +202,7 @@ function assignBikes(workers: number[][], bikes: number[][]): number {
     return Math.min(...f[n]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

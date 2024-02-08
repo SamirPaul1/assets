@@ -1,6 +1,5 @@
 # [1537. Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score)
 
-[中文文档](/solution/1500-1599/1537.Get%20the%20Maximum%20Score/README.md)
 
 ## Description
 

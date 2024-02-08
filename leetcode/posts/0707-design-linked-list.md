@@ -69,6 +69,7 @@ myLinkedList.get(1);              // return 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyLinkedList:
     def __init__(self):
@@ -118,7 +119,9 @@ class MyLinkedList:
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyLinkedList {
     private ListNode dummy = new ListNode();
@@ -183,7 +186,9 @@ class MyLinkedList {
  * obj.deleteAtIndex(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyLinkedList {
 private:
@@ -250,7 +255,9 @@ public:
  * obj->deleteAtIndex(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyLinkedList struct {
 	dummy *ListNode
@@ -316,7 +323,9 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
  * obj.DeleteAtIndex(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class LinkNode {
     public val: number;
@@ -414,7 +423,9 @@ class MyLinkedList {
  * obj.deleteAtIndex(index)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 #[derive(Default)]
 struct MyLinkedList {
@@ -518,6 +529,7 @@ impl MyLinkedList {
  * obj.delete_at_index(index);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -525,6 +537,7 @@ impl MyLinkedList {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyLinkedList:
     def __init__(self):
@@ -588,7 +601,9 @@ class MyLinkedList:
 # obj.addAtIndex(index,val)
 # obj.deleteAtIndex(index)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyLinkedList {
     private int[] e = new int[1010];
@@ -667,7 +682,9 @@ class MyLinkedList {
  * obj.deleteAtIndex(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyLinkedList {
 private:
@@ -745,7 +762,9 @@ public:
  * obj->deleteAtIndex(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyLinkedList struct {
 	e    []int
@@ -829,7 +848,9 @@ func (this *MyLinkedList) DeleteAtIndex(index int) {
  * obj.DeleteAtIndex(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyLinkedList {
     e: Array<number>;
@@ -913,6 +934,7 @@ class MyLinkedList {
  * obj.deleteAtIndex(index)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

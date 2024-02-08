@@ -81,6 +81,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def leftRigthDifference(self, nums: List[int]) -> List[int]:
@@ -92,7 +93,9 @@ class Solution:
             left += x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] leftRigthDifference(int[] nums) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func leftRigthDifference(nums []int) (ans []int) {
 	var left, right int
@@ -146,7 +153,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function leftRigthDifference(nums: number[]): number[] {
     let left = 0,
@@ -160,7 +169,9 @@ function leftRigthDifference(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn left_rigth_difference(nums: Vec<i32>) -> Vec<i32> {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -198,6 +211,7 @@ int* leftRigthDifference(int* nums, int numsSize, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -205,6 +219,7 @@ int* leftRigthDifference(int* nums, int numsSize, int* returnSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function leftRigthDifference(nums: number[]): number[] {
     let left = 0;
@@ -217,7 +232,9 @@ function leftRigthDifference(nums: number[]): number[] {
     });
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn left_right_difference(nums: Vec<i32>) -> Vec<i32> {
@@ -241,6 +258,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -248,6 +266,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn left_right_difference(nums: Vec<i32>) -> Vec<i32> {
@@ -265,6 +284,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

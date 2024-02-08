@@ -72,6 +72,7 @@ solution.pick(); // return [0, 0]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def __init__(self, rects: List[List[int]]):
@@ -91,7 +92,9 @@ class Solution:
 # obj = Solution(rects)
 # param_1 = obj.pick()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] s;
@@ -131,7 +134,9 @@ class Solution {
  * int[] param_1 = obj.pick();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
  * vector<int> param_1 = obj->pick();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Solution struct {
 	s     []int
@@ -196,6 +203,7 @@ func (this *Solution) Pick() []int {
 	return []int{x, y}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

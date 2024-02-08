@@ -43,6 +43,7 @@ Given a list of 24-hour clock time points in <strong>&quot;HH:MM&quot;</strong> 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMinDifference(self, timePoints: List[str]) -> int:
@@ -55,7 +56,9 @@ class Solution:
             res = min(res, mins[i] - mins[i - 1])
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMinDifference(List<String> timePoints) {
@@ -77,7 +80,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMinDifference(timePoints []string) int {
 	if len(timePoints) > 24*60 {
@@ -118,7 +125,9 @@ func findMinDifference(timePoints []string) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMinDifference(timePoints: string[]): number {
     const mins = timePoints
@@ -137,6 +146,7 @@ function findMinDifference(timePoints: string[]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

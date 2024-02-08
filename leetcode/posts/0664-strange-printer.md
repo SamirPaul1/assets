@@ -76,6 +76,7 @@ The time complexity is $O(n^3)$ and the space complexity is $O(n^2)$. Where $n$ 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def strangePrinter(self, s: str) -> int:
@@ -91,7 +92,9 @@ class Solution:
                         f[i][j] = min(f[i][j], f[i][k] + f[k + 1][j])
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int strangePrinter(String s) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func strangePrinter(s string) int {
 	n := len(s)
@@ -167,7 +174,9 @@ func strangePrinter(s string) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function strangePrinter(s: string): number {
     const n = s.length;
@@ -187,6 +196,7 @@ function strangePrinter(s: string): number {
     return f[0][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

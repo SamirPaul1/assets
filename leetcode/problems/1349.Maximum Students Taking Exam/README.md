@@ -1,6 +1,5 @@
 # [1349. Maximum Students Taking Exam](https://leetcode.com/problems/maximum-students-taking-exam)
 
-[中文文档](/solution/1300-1399/1349.Maximum%20Students%20Taking%20Exam/README.md)
 
 ## Description
 

@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDiagonalOrder(self, nums: List[List[int]]) -> List[int]:
@@ -62,7 +63,9 @@ class Solution:
         arr.sort()
         return [v[2] for v in arr]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDiagonalOrder(nums [][]int) []int {
 	arr := [][]int{}
@@ -123,7 +130,9 @@ func findDiagonalOrder(nums [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] FindDiagonalOrder(IList<IList<int>> nums) {
@@ -142,6 +151,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

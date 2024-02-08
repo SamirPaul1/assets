@@ -78,6 +78,7 @@ The time complexity is $O(k \times n^2)$, and the space complexity is $O(k \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def knightProbability(self, n: int, k: int, row: int, column: int) -> float:
@@ -94,7 +95,9 @@ class Solution:
                             f[h][i][j] += f[h - 1][x][y] / 8
         return f[k][row][column]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double knightProbability(int n, int k, int row, int column) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func knightProbability(n int, k int, row int, column int) float64 {
 	f := make([][][]float64, k+1)
@@ -179,7 +186,9 @@ func knightProbability(n int, k int, row int, column int) float64 {
 	return f[k][row][column]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function knightProbability(n: number, k: number, row: number, column: number): number {
     const f = new Array(k + 1)
@@ -207,7 +216,9 @@ function knightProbability(n: number, k: number, row: number, column: number): n
     return f[k][row][column];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 const DIR: [(i32, i32); 8] = [
     (-2, -1),
@@ -261,6 +272,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

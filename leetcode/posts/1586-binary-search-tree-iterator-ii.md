@@ -84,6 +84,7 @@ In terms of time complexity, initializing the iterator requires $O(n)$ time, whe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -127,7 +128,9 @@ class BSTIterator:
 # param_3 = obj.hasPrev()
 # param_4 = obj.prev()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -187,7 +190,9 @@ class BSTIterator {
  * int param_4 = obj.prev();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -247,7 +252,9 @@ private:
  * int param_4 = obj->prev();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -304,7 +311,9 @@ func (this *BSTIterator) Prev() int {
  * param_4 := obj.Prev();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -366,6 +375,7 @@ class BSTIterator {
  * var param_4 = obj.prev()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -83,6 +83,7 @@ The space complexity is $O(n)$, where $n$ is the number of elements in the stack
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyStack:
     def __init__(self):
@@ -112,7 +113,9 @@ class MyStack:
 # param_3 = obj.top()
 # param_4 = obj.empty()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.util.Deque;
 
@@ -155,7 +158,9 @@ class MyStack {
  * boolean param_4 = obj.empty();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyStack {
 public:
@@ -199,7 +204,9 @@ private:
  * bool param_4 = obj->empty();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyStack struct {
 	q1 []int
@@ -242,7 +249,9 @@ func (this *MyStack) Empty() bool {
  * param_4 := obj.Empty();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyStack {
     q1: number[] = [];
@@ -280,7 +289,9 @@ class MyStack {
  * var param_4 = obj.empty()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -332,6 +343,7 @@ impl MyStack {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

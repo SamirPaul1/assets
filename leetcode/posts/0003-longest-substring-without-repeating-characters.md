@@ -69,6 +69,7 @@ The time complexity is $O(n)$, where $n$ represents the length of the string `s`
 
 Two pointers algorithm template:
 
+{{< terminal title="Java Code" >}}
 ```java
 for (int i = 0, j = 0; i < n; ++i) {
     while (j < i && check(j, i)) {
@@ -77,9 +78,11 @@ for (int i = 0, j = 0; i < n; ++i) {
     // logic of specific problem
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
@@ -93,7 +96,9 @@ class Solution:
             ans = max(ans, j - i + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -111,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthOfLongestSubstring(s string) int {
 	ss := map[byte]bool{}
@@ -143,7 +152,9 @@ func lengthOfLongestSubstring(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lengthOfLongestSubstring(s: string): number {
     let ans = 0;
@@ -158,7 +169,9 @@ function lengthOfLongestSubstring(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 
@@ -182,7 +195,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -202,7 +217,9 @@ var lengthOfLongestSubstring = function (s) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int LengthOfLongestSubstring(string s) {
@@ -221,7 +238,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -248,7 +267,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Swift Code" >}}
 ```swift
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
@@ -270,7 +291,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Nim Code" >}}
 ```nim
 proc lengthOfLongestSubstring(s: string): int =
   var
@@ -290,6 +313,7 @@ proc lengthOfLongestSubstring(s: string): int =
 
   result = res # result has the default return value
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -297,6 +321,7 @@ proc lengthOfLongestSubstring(s: string): int =
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -315,7 +340,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -334,7 +361,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthOfLongestSubstring(s string) (ans int) {
 	ss := make([]bool, 128)
@@ -350,7 +379,9 @@ func lengthOfLongestSubstring(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lengthOfLongestSubstring(s: string): number {
     let ans = 0;
@@ -366,6 +397,7 @@ function lengthOfLongestSubstring(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

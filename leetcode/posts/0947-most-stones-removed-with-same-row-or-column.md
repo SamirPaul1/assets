@@ -75,6 +75,7 @@ Stones [0,0] and [1,1] cannot be removed since they do not share a row/column wi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeStones(self, stones: List[List[int]]) -> int:
@@ -91,7 +92,9 @@ class Solution:
         s = {find(x) for x, _ in stones}
         return len(stones) - len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeStones(stones [][]int) int {
 	n := 10010
@@ -167,6 +174,7 @@ func removeStones(stones [][]int) int {
 	return len(stones) - len(s)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

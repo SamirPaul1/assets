@@ -75,6 +75,7 @@ The time complexity is $O(n \times k)$, and the space complexity is $O(n)$, wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 f[i] = max(f[i], f[j - 1] + mx * (i - j + 1))
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumAfterPartitioning(int[] arr, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumAfterPartitioning(arr []int, k int) int {
 	n := len(arr)
@@ -138,7 +145,9 @@ func maxSumAfterPartitioning(arr []int, k int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumAfterPartitioning(arr: number[], k: number): number {
     const n: number = arr.length;
@@ -153,6 +162,7 @@ function maxSumAfterPartitioning(arr: number[], k: number): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

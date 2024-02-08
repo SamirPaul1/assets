@@ -59,6 +59,7 @@ Note that &#39;bcb&#39; is counted only once, even though it occurs twice.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPalindromicSubsequences(self, s: str) -> int:
@@ -82,7 +83,9 @@ class Solution:
                         dp[i][j][k] = dp[i + 1][j - 1][k]
         return sum(dp[0][-1]) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int MOD = (int) 1e9 + 7;
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPalindromicSubsequences(s string) int {
 	mod := int(1e9) + 7
@@ -191,6 +198,7 @@ func countPalindromicSubsequences(s string) int {
 	return ans % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

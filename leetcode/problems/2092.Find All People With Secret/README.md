@@ -1,6 +1,5 @@
 # [2092. Find All People With Secret](https://leetcode.com/problems/find-all-people-with-secret)
 
-[中文文档](/solution/2000-2099/2092.Find%20All%20People%20With%20Secret/README.md)
 
 ## Description
 

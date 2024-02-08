@@ -160,6 +160,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(C)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDivisibleSubstrings(self, word: str) -> int:
@@ -177,7 +178,9 @@ class Solution:
                 ans += s % (j - i + 1) == 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countDivisibleSubstrings(String word) {
@@ -201,7 +204,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -226,7 +231,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDivisibleSubstrings(word string) (ans int) {
 	d := []string{"ab", "cde", "fgh", "ijk", "lmn", "opq", "rst", "uvw", "xyz"}
@@ -249,7 +256,9 @@ func countDivisibleSubstrings(word string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countDivisibleSubstrings(word: string): number {
     const d: string[] = ['ab', 'cde', 'fgh', 'ijk', 'lmn', 'opq', 'rst', 'uvw', 'xyz'];
@@ -273,7 +282,9 @@ function countDivisibleSubstrings(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_divisible_substrings(word: String) -> i32 {
@@ -302,6 +313,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -317,6 +329,7 @@ The time complexity is $O(10 \times n)$, and the space complexity is $O(n)$. Her
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDivisibleSubstrings(self, word: str) -> int:
@@ -336,7 +349,9 @@ class Solution:
                 cnt[s] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countDivisibleSubstrings(String word) {
@@ -363,7 +378,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -388,7 +405,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDivisibleSubstrings(word string) (ans int) {
 	d := []string{"ab", "cde", "fgh", "ijk", "lmn", "opq", "rst", "uvw", "xyz"}
@@ -410,7 +429,9 @@ func countDivisibleSubstrings(word string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countDivisibleSubstrings(word: string): number {
     const d = ['ab', 'cde', 'fgh', 'ijk', 'lmn', 'opq', 'rst', 'uvw', 'xyz'];
@@ -435,7 +456,9 @@ function countDivisibleSubstrings(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -463,6 +486,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

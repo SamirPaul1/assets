@@ -76,6 +76,7 @@ There are no valid node sequences of length 4, so we return -1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumScore(self, scores: List[int], edges: List[List[int]]) -> int:
@@ -94,7 +95,9 @@ class Solution:
                         ans = max(ans, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumScore(int[] scores, int[][] edges) {
@@ -126,6 +129,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

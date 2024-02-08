@@ -66,6 +66,7 @@ Note that the carpets are able to overlap one another.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumWhiteTiles(self, floor: str, numCarpets: int, carpetLen: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] f;
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumWhiteTiles(floor string, numCarpets int, carpetLen int) int {
 	n := len(floor)
@@ -189,6 +196,7 @@ func minimumWhiteTiles(floor string, numCarpets int, carpetLen int) int {
 	return dfs(0, numCarpets)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

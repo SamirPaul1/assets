@@ -65,6 +65,7 @@ Note that even though the subarrays have the same content, the two subarrays are
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findSubarrays(self, nums: List[int]) -> bool:
@@ -75,7 +76,9 @@ class Solution:
             vis.add(x)
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean findSubarrays(int[] nums) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findSubarrays(nums []int) bool {
 	vis := map[int]bool{}
@@ -120,7 +127,9 @@ func findSubarrays(nums []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findSubarrays(nums: number[]): boolean {
     const vis: Set<number> = new Set<number>();
@@ -134,7 +143,9 @@ function findSubarrays(nums: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -150,7 +161,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool findSubarrays(int* nums, int numsSize) {
     for (int i = 1; i < numsSize - 1; i++) {
@@ -163,6 +176,7 @@ bool findSubarrays(int* nums, int numsSize) {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

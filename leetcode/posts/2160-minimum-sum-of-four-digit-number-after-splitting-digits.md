@@ -59,6 +59,7 @@ The minimum sum can be obtained by the pair [4, 9]: 4 + 9 = 13.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSum(self, num: int) -> int:
@@ -69,7 +70,9 @@ class Solution:
         nums.sort()
         return 10 * (nums[0] + nums[1]) + nums[2] + nums[3]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSum(int num) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSum(num int) int {
 	var nums []int
@@ -110,7 +117,9 @@ func minimumSum(num int) int {
 	return 10*(nums[0]+nums[1]) + nums[2] + nums[3]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSum(num: number): number {
     const nums = new Array(4).fill(0);
@@ -122,7 +131,9 @@ function minimumSum(num: number): number {
     return 10 * (nums[0] + nums[1]) + nums[2] + nums[3];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_sum(mut num: i32) -> i32 {
@@ -136,7 +147,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int cmp(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
@@ -152,6 +165,7 @@ int minimumSum(int num) {
     return 10 * (nums[0] + nums[1]) + nums[2] + nums[3];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

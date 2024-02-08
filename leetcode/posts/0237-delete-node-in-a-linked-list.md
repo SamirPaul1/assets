@@ -79,6 +79,7 @@ Time complexity $O(1)$, space complexity $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -96,7 +97,9 @@ class Solution:
         node.val = node.next.val
         node.next = node.next.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -145,7 +152,9 @@ func deleteNode(node *ListNode) {
 	node.Next = node.Next.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -167,7 +176,9 @@ function deleteNode(node: ListNode | null): void {
     node.next = node.next.next;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -185,7 +196,9 @@ var deleteNode = function (node) {
     node.next = node.next.next;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for singly-linked list.
@@ -202,7 +215,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for singly-linked list.
@@ -216,6 +231,7 @@ void deleteNode(struct ListNode* node) {
     node->next = node->next->next;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

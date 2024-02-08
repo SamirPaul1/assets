@@ -74,6 +74,7 @@ Thus, the sorted array is [338,38,991].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortJumbled(self, mapping: List[int], nums: List[int]) -> List[int]:
@@ -89,7 +90,9 @@ class Solution:
         arr.sort()
         return [nums[i] for _, i in arr]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortJumbled(int[] mapping, int[] nums) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortJumbled(mapping []int, nums []int) (ans []int) {
 	n := len(nums)
@@ -167,7 +174,9 @@ func sortJumbled(mapping []int, nums []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortJumbled(mapping: number[], nums: number[]): number[] {
     const n = nums.length;
@@ -185,6 +194,7 @@ function sortJumbled(mapping: number[], nums: number[]): number[] {
     return arr.map(a => nums[a[1]]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

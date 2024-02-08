@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
             g[i] = max(f[i - 1] + x, g[i - 1])
         return max(f[n], g[n])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxAlternatingSum(int[] nums) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxAlternatingSum(nums []int) int64 {
 	n := len(nums)
@@ -126,7 +133,9 @@ func maxAlternatingSum(nums []int) int64 {
 	return int64(max(f[n], g[n]))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxAlternatingSum(nums: number[]): number {
     const n = nums.length;
@@ -139,6 +148,7 @@ function maxAlternatingSum(nums: number[]): number {
     return Math.max(f[n], g[n]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -146,6 +156,7 @@ function maxAlternatingSum(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxAlternatingSum(self, nums: List[int]) -> int:
@@ -154,7 +165,9 @@ class Solution:
             f, g = max(g - x, f), max(f + x, g)
         return max(f, g)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxAlternatingSum(int[] nums) {
@@ -169,7 +182,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -183,7 +198,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxAlternatingSum(nums []int) int64 {
 	var f, g int
@@ -193,7 +210,9 @@ func maxAlternatingSum(nums []int) int64 {
 	return int64(max(f, g))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxAlternatingSum(nums: number[]): number {
     let [f, g] = [0, 0];
@@ -203,6 +222,7 @@ function maxAlternatingSum(nums: number[]): number {
     return g;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

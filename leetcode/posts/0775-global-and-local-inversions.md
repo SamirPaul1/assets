@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isIdealPermutation(self, nums: List[int]) -> bool:
@@ -80,7 +81,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isIdealPermutation(int[] nums) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isIdealPermutation(nums []int) bool {
 	mx := 0
@@ -122,6 +129,7 @@ func isIdealPermutation(nums []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -129,6 +137,7 @@ func isIdealPermutation(nums []int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -161,7 +170,9 @@ class Solution:
             tree.update(v + 1, 1)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -203,7 +214,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -247,7 +260,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isIdealPermutation(nums []int) bool {
 	n := len(nums)
@@ -292,6 +307,7 @@ func (this BinaryIndexedTree) query(x int) int {
 	return s
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

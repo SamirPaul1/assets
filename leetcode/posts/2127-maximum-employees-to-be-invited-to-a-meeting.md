@@ -94,6 +94,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumInvitations(self, favorite: List[int]) -> int:
@@ -133,7 +134,9 @@ class Solution:
 
         return max(max_cycle(favorite), topological_sort(favorite))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumInvitations(int[] favorite) {
@@ -195,7 +198,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -247,7 +252,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumInvitations(favorite []int) int {
 	a, b := maxCycle(favorite), topologicalSort(favorite)
@@ -313,7 +320,9 @@ func topologicalSort(fa []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumInvitations(favorite: number[]): number {
     return Math.max(maxCycle(favorite), topologicalSort(favorite));
@@ -371,6 +380,7 @@ function topologicalSort(fa: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ we can combine 1 and 1 to get 0, so the array converts to [1], then that&#39;s t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lastStoneWeightII(self, stones: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                     )
         return s - 2 * dp[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lastStoneWeightII(int[] stones) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lastStoneWeightII(stones []int) int {
 	s := 0
@@ -145,7 +152,9 @@ func lastStoneWeightII(stones []int) int {
 	return s - dp[m][n]*2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -178,7 +187,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} stones
@@ -199,6 +210,7 @@ var lastStoneWeightII = function (stones) {
     return s - dp[n] * 2;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +218,7 @@ var lastStoneWeightII = function (stones) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lastStoneWeightII(self, stones: List[int]) -> int:
@@ -217,7 +230,9 @@ class Solution:
                 dp[j] = max(dp[j], dp[j - v] + v)
         return s - dp[-1] * 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lastStoneWeightII(int[] stones) {
@@ -237,7 +252,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -252,7 +269,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lastStoneWeightII(stones []int) int {
 	s := 0
@@ -269,6 +288,7 @@ func lastStoneWeightII(stones []int) int {
 	return s - dp[n]*2
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

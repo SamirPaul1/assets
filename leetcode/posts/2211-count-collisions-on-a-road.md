@@ -71,13 +71,16 @@ No cars will collide with each other. Thus, the total number of collisions that 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countCollisions(self, directions: str) -> int:
         d = directions.lstrip('L').rstrip('R')
         return len(d) - d.count('S')
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countCollisions(String directions) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countCollisions(directions string) int {
 	d := strings.TrimLeft(directions, "L")
@@ -128,7 +135,9 @@ func countCollisions(directions string) int {
 	return len(d) - strings.Count(d, "S")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countCollisions(directions: string): number {
     const n = directions.length;
@@ -149,6 +158,7 @@ function countCollisions(directions: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

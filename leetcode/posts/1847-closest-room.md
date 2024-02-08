@@ -79,6 +79,7 @@ The time complexity is $O(n \times \log n + k \times \log k)$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -107,7 +108,9 @@ class Solution:
                 ans[j] = sl[p - 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] closestRoom(int[][] rooms, int[][] queries) {
@@ -150,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -195,7 +200,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestRoom(rooms [][]int, queries [][]int) []int {
 	n, k := len(rooms), len(queries)
@@ -246,6 +253,7 @@ func closestRoom(rooms [][]int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

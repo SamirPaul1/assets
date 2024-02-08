@@ -1,6 +1,5 @@
 # [427. Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree)
 
-[中文文档](/solution/0400-0499/0427.Construct%20Quad%20Tree/README.md)
 
 ## Description
 

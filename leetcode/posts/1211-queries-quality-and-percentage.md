@@ -97,6 +97,7 @@ We can group the query results by `query_name`, and then use the `AVG` and `ROUN
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -106,6 +107,7 @@ SELECT
 FROM Queries
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,6 +57,7 @@ XRLXXRRLX
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canTransform(self, start: str, end: str) -> bool:
@@ -77,7 +78,9 @@ class Solution:
                 return False
             i, j = i + 1, j + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canTransform(String start, String end) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canTransform(start string, end string) bool {
 	n := len(start)
@@ -153,6 +160,7 @@ func canTransform(start string, end string) bool {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

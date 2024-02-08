@@ -93,6 +93,7 @@ curriedLife() === 42
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function curry(fn: Function): Function {
     return function curried(...args) {
@@ -109,6 +110,7 @@ function curry(fn: Function): Function {
  * csum(1)(2) // 3
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

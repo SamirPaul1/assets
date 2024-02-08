@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rangeSum(self, nums: List[int], n: int, left: int, right: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
         mod = 10**9 + 7
         return sum(arr[left - 1 : right]) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rangeSum(int[] nums, int n, int left, int right) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rangeSum(nums []int, n int, left int, right int) (ans int) {
 	var arr []int
@@ -140,6 +147,7 @@ func rangeSum(nums []int, n int, left int, right int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

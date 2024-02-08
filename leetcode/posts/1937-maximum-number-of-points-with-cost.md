@@ -76,6 +76,7 @@ Your final score is 12 - 1 = 11.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
@@ -94,7 +95,9 @@ class Solution:
             f = g
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxPoints(int[][] points) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxPoints(points [][]int) int64 {
 	n := len(points[0])
@@ -170,7 +177,9 @@ func maxPoints(points [][]int) int64 {
 	return slices.Max(f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxPoints(points: number[][]): number {
     const n = points[0].length;
@@ -192,6 +201,7 @@ function maxPoints(points: number[][]): number {
     return Math.max(...f);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

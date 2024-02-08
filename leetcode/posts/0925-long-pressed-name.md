@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isLongPressedName(self, name: str, typed: str) -> bool:
@@ -75,7 +76,9 @@ class Solution:
             i, j = i + 1, j + 1
         return i == m and j == n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isLongPressedName(name string, typed string) bool {
 	m, n := len(name), len(typed)
@@ -154,6 +161,7 @@ func isLongPressedName(name string, typed string) bool {
 	return i == m && j == n
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -134,12 +134,15 @@ $$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nthPersonGetsNthSeat(self, n: int) -> float:
         return 1 if n == 1 else 0.5
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double nthPersonGetsNthSeat(int n) {
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nthPersonGetsNthSeat(n int) float64 {
 	if n == 1 {
@@ -165,6 +172,7 @@ func nthPersonGetsNthSeat(n int) float64 {
 	return .5
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

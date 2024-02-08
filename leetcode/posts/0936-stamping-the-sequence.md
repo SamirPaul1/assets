@@ -96,6 +96,7 @@ The time complexity is $O(n \times (n - m + 1))$, and the space complexity is $O
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def movesToStamp(self, stamp: str, target: str) -> List[int]:
@@ -125,7 +126,9 @@ class Solution:
                             q.append(k)
         return ans[::-1] if all(vis) else []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] movesToStamp(String stamp, String target) {
@@ -172,7 +175,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -219,7 +224,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func movesToStamp(stamp string, target string) (ans []int) {
 	m, n := len(stamp), len(target)
@@ -269,7 +276,9 @@ func movesToStamp(stamp string, target string) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function movesToStamp(stamp: string, target: string): number[] {
     const m: number = stamp.length;
@@ -312,7 +321,9 @@ function movesToStamp(stamp: string, target: string): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -372,6 +383,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

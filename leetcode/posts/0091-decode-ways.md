@@ -89,6 +89,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDecodings(self, s: str) -> int:
@@ -101,7 +102,9 @@ class Solution:
                 f[i] += f[i - 2]
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numDecodings(String s) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDecodings(s string) int {
 	n := len(s)
@@ -158,7 +165,9 @@ func numDecodings(s string) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numDecodings(s: string): number {
     const n = s.length;
@@ -175,7 +184,9 @@ function numDecodings(s: string): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int NumDecodings(string s) {
@@ -194,6 +205,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -201,6 +213,7 @@ We notice that the state $f[i]$ is only related to the states $f[i-1]$ and $f[i-
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDecodings(self, s: str) -> int:
@@ -212,7 +225,9 @@ class Solution:
             f, g = g, h
         return g
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numDecodings(String s) {
@@ -230,7 +245,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -249,7 +266,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDecodings(s string) int {
 	n := len(s)
@@ -267,7 +286,9 @@ func numDecodings(s string) int {
 	return g
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numDecodings(s: string): number {
     const n = s.length;
@@ -282,7 +303,9 @@ function numDecodings(s: string): number {
     return g;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int NumDecodings(string s) {
@@ -300,6 +323,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

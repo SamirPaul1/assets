@@ -59,6 +59,7 @@ The substring with start index = 2 is &quot;ab&quot;, which is an anagram of &qu
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
             cnt2[s[i - n + 1]] -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findAnagrams(s string, p string) (ans []int) {
 	m, n := len(s), len(p)
@@ -157,7 +164,9 @@ func findAnagrams(s string, p string) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findAnagrams(s: string, p: string): number[] {
     const m = s.length;
@@ -185,7 +194,9 @@ function findAnagrams(s: string, p: string): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_anagrams(s: String, p: String) -> Vec<i32> {
@@ -215,7 +226,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<int> FindAnagrams(string s, string p) {
@@ -243,6 +256,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -250,6 +264,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
@@ -269,7 +284,9 @@ class Solution:
                 ans.append(j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
@@ -297,7 +314,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -326,7 +345,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findAnagrams(s string, p string) (ans []int) {
 	m, n := len(s), len(p)
@@ -352,7 +373,9 @@ func findAnagrams(s string, p string) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findAnagrams(s: string, p: string): number[] {
     const m = s.length;
@@ -380,6 +403,7 @@ function findAnagrams(s: string, p: string): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

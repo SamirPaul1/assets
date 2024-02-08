@@ -1,6 +1,5 @@
 # [2353. Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system)
 
-[中文文档](/solution/2300-2399/2353.Design%20a%20Food%20Rating%20System/README.md)
 
 ## Description
 

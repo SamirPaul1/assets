@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minTrioDegree(self, n: int, edges: List[List[int]]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                             ans = min(ans, deg[i] + deg[j] + deg[k] - 6)
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minTrioDegree(int n, int[][] edges) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minTrioDegree(n int, edges [][]int) int {
 	g := make([][]bool, n)
@@ -175,7 +182,9 @@ func minTrioDegree(n int, edges [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minTrioDegree(n: number, edges: number[][]): number {
     const g = Array.from({ length: n }, () => Array(n).fill(false));
@@ -202,6 +211,7 @@ function minTrioDegree(n: number, edges: number[][]): number {
     return ans === Infinity ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

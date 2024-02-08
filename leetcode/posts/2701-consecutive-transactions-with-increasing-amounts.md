@@ -86,6 +86,7 @@ customer_id is sorted in ascending order.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -114,6 +115,7 @@ GROUP BY customer_id, s
 HAVING COUNT(1) >= 3
 ORDER BY customer_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

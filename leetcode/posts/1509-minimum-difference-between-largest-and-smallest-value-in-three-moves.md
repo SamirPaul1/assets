@@ -76,6 +76,7 @@ After performing 3 moves, the difference between the minimum and maximum is 7 - 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDifference(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
             ans = min(ans, nums[n - 1 - r] - nums[l])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDifference(int[] nums) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDifference(nums []int) int {
 	n := len(nums)
@@ -142,6 +149,7 @@ func minDifference(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

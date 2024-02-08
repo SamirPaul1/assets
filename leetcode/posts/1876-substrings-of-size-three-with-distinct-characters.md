@@ -60,6 +60,7 @@ The good substrings are &quot;abc&quot;, &quot;bca&quot;, &quot;cab&quot;, and &
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countGoodSubstrings(self, s: str) -> int:
@@ -68,7 +69,9 @@ class Solution:
             count += s[i] != s[i + 1] and s[i] != s[i + 2] and s[i + 1] != s[i + 2]
         return count
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countGoodSubstrings(String s) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countGoodSubstrings(s: string): number {
     const n: number = s.length;
@@ -99,7 +104,9 @@ function countGoodSubstrings(s: string): number {
     return count;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -117,6 +124,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

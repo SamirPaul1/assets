@@ -72,6 +72,7 @@ output[i] = [a, b, c] (three integers)
 
 <!-- tabs:start -->
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class DiningPhilosophers {
 public:
@@ -93,6 +94,7 @@ private:
     vector<mutex> mutexes_ = vector<mutex>(5);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

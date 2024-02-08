@@ -1,6 +1,5 @@
 # [799. Champagne Tower](https://leetcode.com/problems/champagne-tower)
 
-[中文文档](/solution/0700-0799/0799.Champagne%20Tower/README.md)
 
 ## Description
 

@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthFactor(self, n: int, k: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
                     return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kthFactor(int n, int k) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthFactor(n int, k int) int {
 	for i := 1; i <= n; i++ {
@@ -126,6 +133,7 @@ func kthFactor(n int, k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -133,6 +141,7 @@ func kthFactor(n int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthFactor(self, n: int, k: int) -> int:
@@ -153,7 +162,9 @@ class Solution:
             i -= 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kthFactor(int n, int k) {
@@ -175,7 +186,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthFactor(n int, k int) int {
 	i := 1
@@ -201,6 +214,7 @@ func kthFactor(n int, k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

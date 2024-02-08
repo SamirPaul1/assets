@@ -1,6 +1,5 @@
 # [2810. Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard)
 
-[中文文档](/solution/2800-2899/2810.Faulty%20Keyboard/README.md)
 
 ## Description
 

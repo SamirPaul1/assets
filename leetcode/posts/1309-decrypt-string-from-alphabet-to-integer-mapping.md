@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def freqAlphabets(self, s: str) -> str:
@@ -78,7 +79,9 @@ class Solution:
                 i += 1
         return ''.join(res)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String freqAlphabets(String s) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function freqAlphabets(s: string): string {
     const n = s.length;
@@ -119,7 +124,9 @@ function freqAlphabets(s: string): string {
     return ans.map(c => String.fromCharCode('a'.charCodeAt(0) + Number(c) - 1)).join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn freq_alphabets(s: String) -> String {
@@ -142,7 +149,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* freqAlphabets(char* s) {
     int n = strlen(s);
@@ -164,6 +173,7 @@ char* freqAlphabets(char* s) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

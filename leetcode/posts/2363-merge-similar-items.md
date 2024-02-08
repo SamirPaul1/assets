@@ -83,6 +83,7 @@ Therefore, we return [[1,7],[2,4],[7,1]].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mergeSimilarItems(
@@ -93,7 +94,9 @@ class Solution:
             cnt[v] += w
         return sorted(cnt.items())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> mergeSimilarItems(int[][] items1, int[][] items2) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mergeSimilarItems(items1 [][]int, items2 [][]int) (ans [][]int) {
 	cnt := [1010]int{}
@@ -154,7 +161,9 @@ func mergeSimilarItems(items1 [][]int, items2 [][]int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mergeSimilarItems(items1: number[][], items2: number[][]): number[][] {
     const count = new Array(1001).fill(0);
@@ -167,7 +176,9 @@ function mergeSimilarItems(items1: number[][], items2: number[][]): number[][] {
     return [...count.entries()].filter(v => v[1] !== 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn merge_similar_items(items1: Vec<Vec<i32>>, items2: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -191,7 +202,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Return an array of arrays of size *returnSize.
@@ -223,6 +236,7 @@ int** mergeSimilarItems(int** items1, int items1Size, int* items1ColSize, int** 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

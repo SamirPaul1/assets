@@ -67,6 +67,7 @@ The great partitions will be ([6], [6]) and ([6], [6]).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPartitions(self, nums: List[int], k: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
                     f[i][j] = (f[i][j] + f[i - 1][j - nums[i - 1]]) % mod
         return (ans - sum(f[-1]) * 2 + mod) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPartitions(nums []int, k int) int {
 	s := 0
@@ -184,6 +191,7 @@ func countPartitions(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

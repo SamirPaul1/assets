@@ -74,6 +74,7 @@ The time complexity is $O(n \times \log k)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -92,7 +93,9 @@ class Solution:
                 s.remove(nums[i - indexDiff])
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean containsNearbyAlmostDuplicate(int[] nums, int indexDiff, int valueDiff) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 	n := len(nums)
@@ -151,7 +158,9 @@ func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function containsNearbyAlmostDuplicate(
     nums: number[],
@@ -812,7 +821,9 @@ class TreeMultiSet<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool ContainsNearbyAlmostDuplicate(int[] nums, int k, int t) {
@@ -838,6 +849,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

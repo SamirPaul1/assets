@@ -76,6 +76,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -106,7 +107,9 @@ class Solution:
                     q.append(node.right)
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -158,7 +161,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -206,7 +211,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a Node.
@@ -243,7 +250,9 @@ func connect(root *Node) *Node {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for Node.
@@ -275,6 +284,7 @@ function connect(root: Node | null): Node | null {
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -288,6 +298,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -314,7 +325,9 @@ class Solution:
             dfs(root.left, root.right)
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -358,7 +371,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -397,7 +412,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a Node.
@@ -426,7 +443,9 @@ func connect(root *Node) *Node {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for Node.
@@ -463,6 +482,7 @@ function connect(root: Node | null): Node | null {
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

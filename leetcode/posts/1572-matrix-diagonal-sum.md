@@ -67,6 +67,7 @@ Notice that element mat[1][1] = 5 is counted only once.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def diagonalSum(self, mat: List[List[int]]) -> int:
@@ -77,7 +78,9 @@ class Solution:
             ans += row[i] + (0 if j == i else row[j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int diagonalSum(int[][] mat) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func diagonalSum(mat [][]int) (ans int) {
 	n := len(mat)
@@ -119,7 +126,9 @@ func diagonalSum(mat [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function diagonalSum(mat: number[][]): number {
     let ans = 0;
@@ -131,7 +140,9 @@ function diagonalSum(mat: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn diagonal_sum(mat: Vec<Vec<i32>>) -> i32 {
@@ -147,7 +158,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int diagonalSum(int** mat, int matSize, int* matColSize) {
     int ans = 0;
@@ -160,6 +173,7 @@ int diagonalSum(int** mat, int matSize, int* matColSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -167,6 +181,7 @@ int diagonalSum(int** mat, int matSize, int* matColSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function diagonalSum(mat: number[][]): number {
     const n = mat.length;
@@ -180,6 +195,7 @@ function diagonalSum(mat: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

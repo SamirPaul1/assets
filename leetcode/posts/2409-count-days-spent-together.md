@@ -63,6 +63,7 @@ The time complexity is $O(C)$, and the space complexity is $O(C)$. Here, $C$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDaysTogether(
@@ -75,7 +76,9 @@ class Solution:
         y = sum(days[: int(b[:2]) - 1]) + int(b[3:])
         return max(y - x + 1, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] days = new int[] {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDaysTogether(arriveAlice string, leaveAlice string, arriveBob string, leaveBob string) int {
 	days := []int{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
@@ -153,6 +160,7 @@ func countDaysTogether(arriveAlice string, leaveAlice string, arriveBob string, 
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

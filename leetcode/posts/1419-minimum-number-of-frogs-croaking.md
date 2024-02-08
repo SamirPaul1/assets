@@ -66,6 +66,7 @@ The second frog could yell later &quot;cr<strong>c</strong>oak<strong>roak</stro
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumberOfFrogs(self, croakOfFrogs: str) -> int:
@@ -87,7 +88,9 @@ class Solution:
                     x -= 1
         return -1 if x else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumberOfFrogs(String croakOfFrogs) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumberOfFrogs(croakOfFrogs string) int {
 	n := len(croakOfFrogs)
@@ -189,7 +196,9 @@ func minNumberOfFrogs(croakOfFrogs string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumberOfFrogs(croakOfFrogs: string): number {
     const n = croakOfFrogs.length;
@@ -217,6 +226,7 @@ function minNumberOfFrogs(croakOfFrogs: string): number {
     return x > 0 ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

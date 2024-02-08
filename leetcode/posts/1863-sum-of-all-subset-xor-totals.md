@@ -90,6 +90,7 @@ The time complexity is $O(n \times 2^n)$, where $n$ is the length of the array $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
@@ -102,7 +103,9 @@ class Solution:
             ans += s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int subsetXORSum(int[] nums) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsetXORSum(nums []int) (ans int) {
 	n := len(nums)
@@ -157,7 +164,9 @@ func subsetXORSum(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subsetXORSum(nums: number[]): number {
     let ans = 0;
@@ -174,7 +183,9 @@ function subsetXORSum(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -195,6 +206,7 @@ var subsetXORSum = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -213,6 +225,7 @@ The time complexity is $O(2^n)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
@@ -228,7 +241,9 @@ class Solution:
         dfs(0, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int ans;
@@ -250,7 +265,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -270,7 +287,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsetXORSum(nums []int) (ans int) {
 	n := len(nums)
@@ -287,7 +306,9 @@ func subsetXORSum(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subsetXORSum(nums: number[]): number {
     let ans = 0;
@@ -304,7 +325,9 @@ function subsetXORSum(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -325,6 +348,7 @@ var subsetXORSum = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

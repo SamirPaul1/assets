@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
@@ -98,7 +99,9 @@ class Solution:
             res = max(res, dp[i])
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestStrChain(String[] words) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestStrChain(words []string) int {
 	sort.Slice(words, func(i, j int) bool { return len(words[i]) < len(words[j]) })
@@ -157,7 +164,9 @@ func longestStrChain(words []string) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestStrChain(words: string[]): number {
     words.sort((a, b) => a.length - b.length);
@@ -175,7 +184,9 @@ function longestStrChain(words: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -209,6 +220,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -216,6 +228,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestStrChain(self, words: List[str]) -> int:
@@ -231,6 +244,7 @@ class Solution:
             res = max(res, x)
         return res
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

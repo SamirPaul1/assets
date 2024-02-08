@@ -78,6 +78,7 @@ The time complexity is $O(n\times \log n)$, where $n$ is the length of the strin
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def splitMessage(self, message: str, limit: int) -> List[str]:
@@ -98,7 +99,9 @@ class Solution:
                 return ans
         return []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] splitMessage(String message, int limit) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func splitMessage(message string, limit int) (ans []string) {
 	n := len(message)
@@ -178,6 +185,7 @@ func splitMessage(message string, limit int) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

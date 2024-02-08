@@ -75,6 +75,7 @@ The time complexity is $O(k)$, where $k$ is the integer given in the problem. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, cardPoints: List[int], k: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
             ans = max(ans, s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxScore(int[] cardPoints, int k) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(cardPoints []int, k int) int {
 	n := len(cardPoints)
@@ -133,7 +140,9 @@ func maxScore(cardPoints []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxScore(cardPoints: number[], k: number): number {
     const n = cardPoints.length;
@@ -146,7 +155,9 @@ function maxScore(cardPoints: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_score(card_points: Vec<i32>, k: i32) -> i32 {
@@ -162,7 +173,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} cardPoints
@@ -180,7 +193,9 @@ var maxScore = function (cardPoints, k) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaxScore(int[] cardPoints, int k) {
@@ -195,7 +210,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -215,7 +232,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Scala Code" >}}
 ```scala
 object Solution {
     def maxScore(cardPoints: Array[Int], k: Int): Int = {
@@ -230,7 +249,9 @@ object Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Swift Code" >}}
 ```swift
 class Solution {
     func maxScore(_ cardPoints: [Int], _ k: Int) -> Int {
@@ -245,7 +266,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # @param {Integer[]} card_points
 # @param {Integer} k
@@ -261,7 +284,9 @@ def max_score(card_points, k)
   ans
 end
 ```
+{{< /terminal >}}
 
+{{< terminal title="Kotlin Code" >}}
 ```kotlin
 class Solution {
     fun maxScore(cardPoints: IntArray, k: Int): Int {
@@ -276,6 +301,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

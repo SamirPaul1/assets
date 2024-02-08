@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validPath(
@@ -85,7 +86,9 @@ class Solution:
         vis = set()
         return dfs(source)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private boolean[] vis;
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validPath(n int, edges [][]int, source int, destination int) bool {
 	vis := make([]bool, n)
@@ -169,7 +176,9 @@ func validPath(n int, edges [][]int, source int, destination int) bool {
 	return dfs(source)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn valid_path(n: i32, edges: Vec<Vec<i32>>, source: i32, destination: i32) -> bool {
@@ -200,6 +209,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -207,6 +217,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validPath(
@@ -222,7 +233,9 @@ class Solution:
             p[find(u)] = find(v)
         return find(source) == find(destination)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -246,7 +259,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -262,7 +277,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validPath(n int, edges [][]int, source int, destination int) bool {
 	p := make([]int, n)
@@ -282,6 +299,7 @@ func validPath(n int, edges [][]int, source int, destination int) bool {
 	return find(source) == find(destination)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

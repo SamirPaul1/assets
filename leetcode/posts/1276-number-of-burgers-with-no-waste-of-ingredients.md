@@ -89,6 +89,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfBurgers(self, tomatoSlices: int, cheeseSlices: int) -> List[int]:
@@ -97,7 +98,9 @@ class Solution:
         x = cheeseSlices - y
         return [] if k % 2 or y < 0 or x < 0 else [x, y]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> numOfBurgers(int tomatoSlices, int cheeseSlices) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfBurgers(tomatoSlices int, cheeseSlices int) []int {
 	k := 4*cheeseSlices - tomatoSlices
@@ -132,7 +139,9 @@ func numOfBurgers(tomatoSlices int, cheeseSlices int) []int {
 	return []int{x, y}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfBurgers(tomatoSlices: number, cheeseSlices: number): number[] {
     const k = 4 * cheeseSlices - tomatoSlices;
@@ -141,7 +150,9 @@ function numOfBurgers(tomatoSlices: number, cheeseSlices: number): number[] {
     return k % 2 || y < 0 || x < 0 ? [] : [x, y];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_of_burgers(tomato_slices: i32, cheese_slices: i32) -> Vec<i32> {
@@ -156,6 +167,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

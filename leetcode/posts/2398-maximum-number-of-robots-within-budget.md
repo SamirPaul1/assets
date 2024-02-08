@@ -61,6 +61,7 @@ It can be shown that it is not possible to run more than 3 consecutive robots wi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumRobots(
@@ -81,7 +82,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumRobots(int[] chargeTimes, int[] runningCosts, long budget) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumRobots(chargeTimes []int, runningCosts []int, budget int64) int {
 	s := int64(0)
@@ -158,6 +165,7 @@ func maximumRobots(chargeTimes []int, runningCosts []int, budget int64) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)
 
-[中文文档](/solution/0000-0099/0092.Reverse%20Linked%20List%20II/README.md)
 
 ## Description
 

@@ -111,6 +111,7 @@ Products with product_id = 5 is ordered in February a total of (50 + 50) = 100.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT product_name, SUM(unit) AS unit
@@ -121,6 +122,7 @@ WHERE DATE_FORMAT(order_date, '%Y-%m') = '2020-02'
 GROUP BY o.product_id
 HAVING unit >= 100;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

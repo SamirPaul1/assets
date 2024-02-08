@@ -1,6 +1,5 @@
 # [2073. Time Needed to Buy Tickets](https://leetcode.com/problems/time-needed-to-buy-tickets)
 
-[中文文档](/solution/2000-2099/2073.Time%20Needed%20to%20Buy%20Tickets/README.md)
 
 ## Description
 

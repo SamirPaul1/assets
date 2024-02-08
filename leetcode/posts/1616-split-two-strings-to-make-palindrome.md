@@ -72,6 +72,7 @@ Then, a<sub>prefix</sub> + b<sub>suffix</sub> = &quot;ula&quot; + &quot;alu&quot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkPalindromeFormation(self, a: str, b: str) -> bool:
@@ -86,7 +87,9 @@ class Solution:
 
         return check1(a, b) or check1(b, a)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkPalindromeFormation(String a, String b) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkPalindromeFormation(a string, b string) bool {
 	return check1(a, b) || check1(b, a)
@@ -162,7 +169,9 @@ func check2(a string, i, j int) bool {
 	return i >= j
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkPalindromeFormation(a: string, b: string): boolean {
     const check1 = (a: string, b: string) => {
@@ -185,7 +194,9 @@ function checkPalindromeFormation(a: string, b: string): boolean {
     return check1(a, b) || check1(b, a);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check_palindrome_formation(a: String, b: String) -> bool {
@@ -215,6 +226,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

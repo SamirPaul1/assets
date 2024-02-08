@@ -66,6 +66,7 @@ After shifting the first 3 letters of s by 9, we have &quot;rpl&quot;, the answe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[int]) -> str:
@@ -77,7 +78,9 @@ class Solution:
             s[i] = ascii_lowercase[j]
         return ''.join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[int]) -> str:
@@ -98,7 +101,9 @@ class Solution:
             d[i + 1] += d[i]
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shiftingLetters(String s, int[] shifts) {
@@ -114,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shiftingLetters(s string, shifts []int) string {
 	t := 0
@@ -144,6 +153,7 @@ func shiftingLetters(s string, shifts []int) string {
 	return string(cs)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

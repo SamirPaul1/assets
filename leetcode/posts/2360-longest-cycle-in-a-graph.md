@@ -61,6 +61,7 @@ The length of this cycle is 3, so 3 is returned.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestCycle(self, edges: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
             ans = max(ans, m - k)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestCycle(int[] edges) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestCycle(edges []int) int {
 	vis := make([]bool, len(edges))
@@ -174,7 +181,9 @@ func longestCycle(edges []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestCycle(edges: number[]): number {
     const n = edges.length;
@@ -203,6 +212,7 @@ function longestCycle(edges: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

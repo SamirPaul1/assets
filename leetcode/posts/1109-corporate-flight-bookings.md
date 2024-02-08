@@ -75,6 +75,7 @@ The time complexity is $O(n)$, where $n$ is the number of flights. Ignoring the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def corpFlightBookings(self, bookings: List[List[int]], n: int) -> List[int]:
@@ -85,7 +86,9 @@ class Solution:
                 ans[last] -= seats
         return list(accumulate(ans))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func corpFlightBookings(bookings [][]int, n int) []int {
 	ans := make([]int, n)
@@ -141,7 +148,9 @@ func corpFlightBookings(bookings [][]int, n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -166,7 +175,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} bookings
@@ -187,6 +198,7 @@ var corpFlightBookings = function (bookings, n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -207,6 +219,7 @@ The time complexity of these two operations is $O(\log n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -234,7 +247,9 @@ class Solution:
             tree.update(last + 1, -seats)
         return [tree.query(i + 1) for i in range(n)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
@@ -278,7 +293,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -324,7 +341,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -366,6 +385,7 @@ func corpFlightBookings(bookings [][]int, n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

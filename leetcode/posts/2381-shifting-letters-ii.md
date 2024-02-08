@@ -61,6 +61,7 @@ Finally, shift the characters from index 1 to index 1 forward. Now s = &quot;cat
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shiftingLetters(self, s: str, shifts: List[List[int]]) -> str:
@@ -77,7 +78,9 @@ class Solution:
             chr(ord('a') + (ord(s[i]) - ord('a') + d[i] + 26) % 26) for i in range(n)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shiftingLetters(String s, int[][] shifts) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shiftingLetters(s string, shifts [][]int) string {
 	n := len(s)
@@ -151,6 +158,7 @@ func shiftingLetters(s string, shifts [][]int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

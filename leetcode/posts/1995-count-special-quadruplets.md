@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countQuadruplets(self, nums: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countQuadruplets(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countQuadruplets(nums []int) int {
 	ans, n := 0, len(nums)
@@ -134,6 +141,7 @@ func countQuadruplets(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -141,6 +149,7 @@ func countQuadruplets(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countQuadruplets(self, nums: List[int]) -> int:
@@ -153,7 +162,9 @@ class Solution:
                     ans += counter[nums[a] + nums[b] + nums[c]]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countQuadruplets(int[] nums) {
@@ -171,7 +182,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -190,7 +203,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countQuadruplets(nums []int) int {
 	ans, n := 0, len(nums)
@@ -206,6 +221,7 @@ func countQuadruplets(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -213,6 +229,7 @@ func countQuadruplets(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countQuadruplets(self, nums: List[int]) -> int:
@@ -226,7 +243,9 @@ class Solution:
                 ans += counter[nums[a] + nums[b]]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countQuadruplets(int[] nums) {
@@ -247,7 +266,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -269,7 +290,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countQuadruplets(nums []int) int {
 	ans, n := 0, len(nums)
@@ -288,6 +311,7 @@ func countQuadruplets(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

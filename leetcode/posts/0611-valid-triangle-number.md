@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
@@ -65,7 +66,9 @@ class Solution:
                 ans += k - j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int triangleNumber(int[] nums) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func triangleNumber(nums []int) int {
 	sort.Ints(nums)
@@ -126,7 +133,9 @@ func triangleNumber(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function triangleNumber(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -147,7 +156,9 @@ function triangleNumber(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn triangle_number(mut nums: Vec<i32>) -> i32 {
@@ -170,6 +181,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -177,6 +189,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int triangleNumber(int[] nums) {
@@ -200,6 +213,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

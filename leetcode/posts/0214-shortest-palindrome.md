@@ -45,6 +45,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
@@ -62,7 +63,9 @@ class Solution:
                 idx = i + 1
         return s if idx == n else s[idx:][::-1] + s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shortestPalindrome(String s) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef unsigned long long ull;
 
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestPalindrome(s string) string {
 	n := len(s)
@@ -140,7 +147,9 @@ func shortestPalindrome(s string) string {
 	return string(x) + s
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shortest_palindrome(s: String) -> String {
@@ -164,7 +173,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 ﻿// https://leetcode.com/problems/shortest-palindrome/
 
@@ -206,6 +217,7 @@ public partial class Solution
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

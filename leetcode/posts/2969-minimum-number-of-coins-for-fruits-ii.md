@@ -88,6 +88,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCoins(self, prices: List[int]) -> int:
@@ -103,7 +104,9 @@ class Solution:
             q.append(i)
         return prices[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCoins(int[] prices) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCoins(prices []int) int {
 	n := len(prices)
@@ -226,7 +233,9 @@ func (q Deque) Get(i int) int {
 	return q.r[i-len(q.l)]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCoins(prices: number[]): number {
     const n = prices.length;
@@ -342,6 +351,7 @@ class Deque<T> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

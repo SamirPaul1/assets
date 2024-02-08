@@ -72,6 +72,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
@@ -85,7 +86,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findThePrefixCommonArray(A []int, B []int) []int {
 	n := len(A)
@@ -141,7 +148,9 @@ func findThePrefixCommonArray(A []int, B []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findThePrefixCommonArray(A: number[], B: number[]): number[] {
     const n = A.length;
@@ -158,6 +167,7 @@ function findThePrefixCommonArray(A: number[], B: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -175,6 +185,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
@@ -189,7 +200,9 @@ class Solution:
             ans.append(s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
@@ -209,7 +222,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -229,7 +244,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findThePrefixCommonArray(A []int, B []int) (ans []int) {
 	vis := make([]int, len(A)+1)
@@ -248,7 +265,9 @@ func findThePrefixCommonArray(A []int, B []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findThePrefixCommonArray(A: number[], B: number[]): number[] {
     const n = A.length;
@@ -266,6 +285,7 @@ function findThePrefixCommonArray(A: number[], B: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

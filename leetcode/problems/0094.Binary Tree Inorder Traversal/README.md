@@ -1,6 +1,5 @@
 # [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
 
-[中文文档](/solution/0000-0099/0094.Binary%20Tree%20Inorder%20Traversal/README.md)
 
 ## Description
 

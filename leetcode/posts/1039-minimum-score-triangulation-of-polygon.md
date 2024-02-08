@@ -66,6 +66,7 @@ The minimum score is 144.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minScoreTriangulation(self, values: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
 
         return dfs(0, len(values) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minScoreTriangulation(values []int) int {
 	n := len(values)
@@ -156,7 +163,9 @@ func minScoreTriangulation(values []int) int {
 	return dfs(0, n-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minScoreTriangulation(values: number[]): number {
     const n = values.length;
@@ -178,6 +187,7 @@ function minScoreTriangulation(values: number[]): number {
     return dfs(0, n - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -185,6 +195,7 @@ function minScoreTriangulation(values: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minScoreTriangulation(self, values: List[int]) -> int:
@@ -198,7 +209,9 @@ class Solution:
                 )
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minScoreTriangulation(int[] values) {
@@ -217,7 +230,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -237,7 +252,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minScoreTriangulation(values []int) int {
 	n := len(values)
@@ -253,7 +270,9 @@ func minScoreTriangulation(values []int) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minScoreTriangulation(values: number[]): number {
     const n = values.length;
@@ -269,6 +288,7 @@ function minScoreTriangulation(values: number[]): number {
     return f[0][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -276,6 +296,7 @@ function minScoreTriangulation(values: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minScoreTriangulation(self, values: List[int]) -> int:
@@ -290,7 +311,9 @@ class Solution:
                 )
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minScoreTriangulation(int[] values) {
@@ -310,7 +333,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -331,7 +356,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minScoreTriangulation(values []int) int {
 	n := len(values)
@@ -348,7 +375,9 @@ func minScoreTriangulation(values []int) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minScoreTriangulation(values: number[]): number {
     const n = values.length;
@@ -365,6 +394,7 @@ function minScoreTriangulation(values: number[]): number {
     return f[0][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

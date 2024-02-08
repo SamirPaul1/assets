@@ -81,6 +81,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindrome(self, word1: str, word2: str) -> int:
@@ -100,7 +101,9 @@ class Solution:
                     f[i][j] = max(f[i + 1][j], f[i][j - 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestPalindrome(String word1, String word2) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindrome(word1 string, word2 string) (ans int) {
 	s := word1 + word2
@@ -179,7 +186,9 @@ func longestPalindrome(word1 string, word2 string) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestPalindrome(word1: string, word2: string): number {
     const s = word1 + word2;
@@ -204,7 +213,9 @@ function longestPalindrome(word1: string, word2: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_palindrome(word1: String, word2: String) -> i32 {
@@ -231,6 +242,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

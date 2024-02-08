@@ -76,6 +76,7 @@ The last moment when an ant was on the plank is t = 4 seconds. After that, it fa
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getLastMoment(self, n: int, left: List[int], right: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             ans = max(ans, n - x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getLastMoment(int n, int[] left, int[] right) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getLastMoment(n int, left []int, right []int) (ans int) {
 	for _, x := range left {
@@ -129,7 +136,9 @@ func getLastMoment(n int, left []int, right []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getLastMoment(n: number, left: number[], right: number[]): number {
     let ans = 0;
@@ -142,6 +151,7 @@ function getLastMoment(n: number, left: number[], right: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def angleClock(self, hour: int, minutes: int) -> float:
@@ -67,7 +68,9 @@ class Solution:
         diff = abs(h - m)
         return min(diff, 360 - diff)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double angleClock(int hour, int minutes) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -90,7 +95,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func angleClock(hour int, minutes int) float64 {
 	h := 30*float64(hour) + 0.5*float64(minutes)
@@ -99,7 +106,9 @@ func angleClock(hour int, minutes int) float64 {
 	return math.Min(diff, 360-diff)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function angleClock(hour: number, minutes: number): number {
     const h = 30 * hour + 0.5 * minutes;
@@ -108,6 +117,7 @@ function angleClock(hour: number, minutes: number): number {
     return Math.min(diff, 360 - diff);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

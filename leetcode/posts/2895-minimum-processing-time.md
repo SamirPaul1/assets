@@ -72,6 +72,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minProcessingTime(self, processorTime: List[int], tasks: List[int]) -> int:
@@ -84,7 +85,9 @@ class Solution:
             i -= 4
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minProcessingTime(List<Integer> processorTime, List<Integer> tasks) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minProcessingTime(processorTime []int, tasks []int) (ans int) {
 	sort.Ints(processorTime)
@@ -128,7 +135,9 @@ func minProcessingTime(processorTime []int, tasks []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minProcessingTime(processorTime: number[], tasks: number[]): number {
     processorTime.sort((a, b) => a - b);
@@ -141,6 +150,7 @@ function minProcessingTime(processorTime: number[], tasks: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

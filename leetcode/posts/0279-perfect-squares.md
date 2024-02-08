@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSquares(self, n: int) -> int:
@@ -66,7 +67,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[i][j - i * i] + 1)
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSquares(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSquares(n int) int {
 	m := int(math.Sqrt(float64(n)))
@@ -133,7 +140,9 @@ func numSquares(n int) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numSquares(n: number): number {
     const m = Math.floor(Math.sqrt(n));
@@ -152,7 +161,9 @@ function numSquares(n: number): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_squares(n: i32) -> i32 {
@@ -171,6 +182,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -178,6 +190,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSquares(self, n: int) -> int:
@@ -188,7 +201,9 @@ class Solution:
                 f[j] = min(f[j], f[j - i * i] + 1)
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSquares(int n) {
@@ -205,7 +220,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -223,7 +240,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSquares(n int) int {
 	m := int(math.Sqrt(float64(n)))
@@ -240,7 +259,9 @@ func numSquares(n int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numSquares(n: number): number {
     const m = Math.floor(Math.sqrt(n));
@@ -254,7 +275,9 @@ function numSquares(n: number): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_squares(n: i32) -> i32 {
@@ -270,6 +293,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

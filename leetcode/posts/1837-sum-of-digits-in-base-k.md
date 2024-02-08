@@ -58,6 +58,7 @@ The time complexity is $O(\log_{k}n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumBase(self, n: int, k: int) -> int:
@@ -67,7 +68,9 @@ class Solution:
             n //= k
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumBase(int n, int k) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -94,7 +99,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumBase(n int, k int) (ans int) {
 	for n > 0 {
@@ -104,7 +111,9 @@ func sumBase(n int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumBase(n: number, k: number): number {
     let ans = 0;
@@ -115,7 +124,9 @@ function sumBase(n: number, k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sum_base(mut n: i32, k: i32) -> i32 {
@@ -128,7 +139,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -144,7 +157,9 @@ var sumBase = function (n, k) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int sumBase(int n, int k) {
     int ans = 0;
@@ -155,6 +170,7 @@ int sumBase(int n, int k) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

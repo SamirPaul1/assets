@@ -80,6 +80,7 @@ The blue arrows show how we can find originalText from encodedText.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decodeCiphertext(self, encodedText: str, rows: int) -> str:
@@ -92,7 +93,9 @@ class Solution:
                 x, y = x + 1, y + 1
         return ''.join(ans).rstrip()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String decodeCiphertext(String encodedText, int rows) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function decodeCiphertext(encodedText: string, rows: number): string {
     const cols = Math.ceil(encodedText.length / rows);
@@ -138,6 +145,7 @@ function decodeCiphertext(encodedText: string, rows: number): string {
     return ans.join('').trimEnd();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

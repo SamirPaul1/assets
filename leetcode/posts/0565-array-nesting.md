@@ -65,6 +65,7 @@ s[0] = {nums[0], nums[5], nums[6], nums[2]} = {5, 6, 2, 0}
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayNesting(self, nums: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
             res = max(res, m)
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arrayNesting(int[] nums) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayNesting(nums []int) int {
 	n := len(nums)
@@ -154,6 +161,7 @@ func arrayNesting(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +169,7 @@ func arrayNesting(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayNesting(self, nums: List[int]) -> int:
@@ -175,7 +184,9 @@ class Solution:
             ans = max(ans, cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arrayNesting(int[] nums) {
@@ -195,7 +206,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -216,7 +229,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayNesting(nums []int) int {
 	ans, n := 0, len(nums)
@@ -235,6 +250,7 @@ func arrayNesting(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

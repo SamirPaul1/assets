@@ -73,6 +73,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
 
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] prices;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(prices []int) int {
 	n := len(prices)
@@ -173,7 +180,9 @@ func maxProfit(prices []int) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(prices: number[]): number {
     const n = prices.length;
@@ -196,6 +205,7 @@ function maxProfit(prices: number[]): number {
     return dfs(0, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -213,6 +223,7 @@ We notice that the transition of state $f[i][]$ is only related to $f[i - 1][]$ 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -224,7 +235,9 @@ class Solution:
             f[i][1] = max(f[i - 1][1], f[i - 2][0] - prices[i])
         return f[n - 1][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
@@ -239,7 +252,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -256,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(prices []int) int {
 	n := len(prices)
@@ -273,7 +290,9 @@ func maxProfit(prices []int) int {
 	return f[n-1][0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(prices: number[]): number {
     const n = prices.length;
@@ -286,6 +305,7 @@ function maxProfit(prices: number[]): number {
     return f[n - 1][0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -293,6 +313,7 @@ function maxProfit(prices: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -301,7 +322,9 @@ class Solution:
             f, f0, f1 = f0, max(f0, f1 + x), max(f1, f - x)
         return f0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
@@ -316,7 +339,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -332,7 +357,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(prices []int) int {
 	f, f0, f1 := 0, 0, -prices[0]
@@ -342,7 +369,9 @@ func maxProfit(prices []int) int {
 	return f0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(prices: number[]): number {
     let [f, f0, f1] = [0, 0, -prices[0]];
@@ -352,6 +381,7 @@ function maxProfit(prices: number[]): number {
     return f0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

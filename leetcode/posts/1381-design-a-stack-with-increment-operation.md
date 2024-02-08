@@ -80,6 +80,7 @@ The time complexity is $O(1)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class CustomStack:
     def __init__(self, maxSize: int):
@@ -114,7 +115,9 @@ class CustomStack:
 # param_2 = obj.pop()
 # obj.increment(k,val)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class CustomStack {
     private int[] stk;
@@ -159,7 +162,9 @@ class CustomStack {
  * obj.increment(k,val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class CustomStack {
 public:
@@ -207,7 +212,9 @@ private:
  * obj->increment(k,val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type CustomStack struct {
 	stk []int
@@ -253,7 +260,9 @@ func (this *CustomStack) Increment(k int, val int) {
  * obj.Increment(k,val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class CustomStack {
     private stk: number[];
@@ -299,6 +308,7 @@ class CustomStack {
  * obj.increment(k,val)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

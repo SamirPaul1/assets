@@ -80,6 +80,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkContradictions(
@@ -112,7 +113,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -159,7 +162,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -199,7 +204,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkContradictions(equations [][]string, values []float64) bool {
 	d := make(map[string]int)
@@ -249,7 +256,9 @@ func checkContradictions(equations [][]string, values []float64) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkContradictions(equations: string[][], values: number[]): boolean {
     const d: { [key: string]: number } = {};
@@ -295,6 +304,7 @@ function checkContradictions(equations: string[][], values: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

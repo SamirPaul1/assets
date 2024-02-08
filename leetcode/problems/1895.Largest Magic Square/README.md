@@ -1,6 +1,5 @@
 # [1895. Largest Magic Square](https://leetcode.com/problems/largest-magic-square)
 
-[中文文档](/solution/1800-1899/1895.Largest%20Magic%20Square/README.md)
 
 ## Description
 

@@ -1,6 +1,5 @@
 # [652. Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees)
 
-[中文文档](/solution/0600-0699/0652.Find%20Duplicate%20Subtrees/README.md)
 
 ## Description
 

@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDerangement(self, n: int) -> int:
@@ -61,7 +62,9 @@ class Solution:
             f[i] = (i - 1) * (f[i - 1] + f[i - 2]) % mod
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findDerangement(int n) {
@@ -75,7 +78,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -91,7 +96,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDerangement(n int) int {
 	f := make([]int, n+1)
@@ -103,6 +110,7 @@ func findDerangement(n int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -110,6 +118,7 @@ func findDerangement(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDerangement(self, n: int) -> int:
@@ -119,7 +128,9 @@ class Solution:
             a, b = b, ((i - 1) * (a + b)) % mod
         return b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findDerangement(int n) {
@@ -134,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDerangement(n int) int {
 	a, b := 1, 0
@@ -161,6 +176,7 @@ func findDerangement(n int) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

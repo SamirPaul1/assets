@@ -80,6 +80,7 @@ The time complexity is $O(1)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class ProductOfNumbers:
     def __init__(self):
@@ -100,7 +101,9 @@ class ProductOfNumbers:
 # obj.add(num)
 # param_2 = obj.getProduct(k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ProductOfNumbers {
     private List<Integer> s = new ArrayList<>();
@@ -131,7 +134,9 @@ class ProductOfNumbers {
  * int param_2 = obj.getProduct(k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class ProductOfNumbers {
 public:
@@ -164,7 +169,9 @@ private:
  * int param_2 = obj->getProduct(k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type ProductOfNumbers struct {
 	s []int
@@ -197,6 +204,7 @@ func (this *ProductOfNumbers) GetProduct(k int) int {
  * param_2 := obj.GetProduct(k);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

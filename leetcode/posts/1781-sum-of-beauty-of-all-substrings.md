@@ -60,6 +60,7 @@ The time complexity is $O(n^2 \times C)$, and the space complexity is $O(C)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautySum(self, s: str) -> int:
@@ -71,7 +72,9 @@ class Solution:
                 ans += max(cnt.values()) - min(cnt.values())
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int beautySum(String s) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautySum(s string) (ans int) {
 	for i := range s {
@@ -145,7 +152,9 @@ func beautySum(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -164,6 +173,7 @@ var beautySum = function (s) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -171,6 +181,7 @@ var beautySum = function (s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautySum(self, s: str) -> int:
@@ -194,7 +205,9 @@ class Solution:
                 ans += mx - mi
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int beautySum(String s) {
@@ -226,7 +239,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -259,7 +274,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautySum(s string) (ans int) {
 	n := len(s)
@@ -288,7 +305,9 @@ func beautySum(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -321,6 +340,7 @@ var beautySum = function (s) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ The time complexity is $O(n \times \log m)$, where $n$ and $m$ are the length of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSplits(self, nums: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 g = x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSplits(int[] nums) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSplits(nums []int) int {
 	ans, g := 1, 0
@@ -148,7 +155,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSplits(nums: number[]): number {
     let ans = 1;
@@ -167,6 +176,7 @@ function gcd(a: number, b: number): number {
     return b ? gcd(b, a % b) : a;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

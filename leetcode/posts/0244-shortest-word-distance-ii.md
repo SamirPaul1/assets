@@ -62,6 +62,7 @@ wordDistance.shortest(&quot;makes&quot;, &quot;coding&quot;);    // return 1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class WordDistance:
     def __init__(self, wordsDict: List[str]):
@@ -86,7 +87,9 @@ class WordDistance:
 # obj = WordDistance(wordsDict)
 # param_1 = obj.shortest(word1,word2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class WordDistance {
     private Map<String, List<Integer>> d = new HashMap<>();
@@ -119,7 +122,9 @@ class WordDistance {
  * int param_1 = obj.shortest(word1,word2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class WordDistance {
 public:
@@ -154,7 +159,9 @@ private:
  * int param_1 = obj->shortest(word1,word2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type WordDistance struct {
 	d map[string][]int
@@ -196,6 +203,7 @@ func abs(x int) int {
  * param_1 := obj.Shortest(word1,word2);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

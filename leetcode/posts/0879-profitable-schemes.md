@@ -73,6 +73,7 @@ The time complexity is $O(m \times n \times minProfit)$, and th e space complexi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def profitableSchemes(
@@ -89,7 +90,9 @@ class Solution:
 
         return dfs(0, 0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][][] f;
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func profitableSchemes(n int, minProfit int, group []int, profit []int) int {
 	m := len(group)
@@ -190,6 +197,7 @@ func profitableSchemes(n int, minProfit int, group []int, profit []int) int {
 	return dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -205,6 +213,7 @@ The time complexity is $O(m \times n \times minProfit)$, and the space complexit
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def profitableSchemes(
@@ -223,7 +232,9 @@ class Solution:
                         f[i][j][k] = (f[i][j][k] + f[i - 1][j - x][max(0, k - p)]) % mod
         return f[m][n][minProfit]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int profitableSchemes(int n, int minProfit, int[] group, int[] profit) {
@@ -250,7 +261,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -276,7 +289,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func profitableSchemes(n int, minProfit int, group []int, profit []int) int {
 	m := len(group)
@@ -305,6 +320,7 @@ func profitableSchemes(n int, minProfit int, group []int, profit []int) int {
 	return f[m][n][minProfit]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

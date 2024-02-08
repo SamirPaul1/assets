@@ -59,6 +59,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
@@ -85,7 +86,9 @@ class Solution:
                 s3 -= nums[i - k + 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumOfThreeSubarrays(nums []int, k int) []int {
 	ans := make([]int, 3)
@@ -189,7 +196,9 @@ func maxSumOfThreeSubarrays(nums []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumOfThreeSubarrays(nums: number[], k: number): number[] {
     const n: number = nums.length;
@@ -240,6 +249,7 @@ function maxSumOfThreeSubarrays(nums: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -255,6 +265,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumOfThreeSubarrays(self, nums: List[int], k: int) -> List[int]:
@@ -284,7 +295,9 @@ class Solution:
                 t = cur
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maxSumOfThreeSubarrays(int[] nums, int k) {
@@ -327,7 +340,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -376,7 +391,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumOfThreeSubarrays(nums []int, k int) (ans []int) {
 	n := len(nums)
@@ -419,6 +436,7 @@ func maxSumOfThreeSubarrays(nums []int, k int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

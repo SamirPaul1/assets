@@ -81,6 +81,7 @@ The time complexity is $O(n^2 \times d)$, and the space complexity is $O(n \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDifficulty(self, jobDifficulty: List[int], d: int) -> int:
@@ -95,7 +96,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[k - 1][j - 1] + mx)
         return -1 if f[n][d] >= inf else f[n][d]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDifficulty(int[] jobDifficulty, int d) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDifficulty(jobDifficulty []int, d int) int {
 	n := len(jobDifficulty)
@@ -169,7 +176,9 @@ func minDifficulty(jobDifficulty []int, d int) int {
 	return f[n][d]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minDifficulty(jobDifficulty: number[], d: number): number {
     const n = jobDifficulty.length;
@@ -188,6 +197,7 @@ function minDifficulty(jobDifficulty: number[], d: number): number {
     return f[n][d] < inf ? f[n][d] : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

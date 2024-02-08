@@ -69,6 +69,7 @@ examRoom.seat(); // return 5, the student sits at the last seat number 5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -119,7 +120,9 @@ class ExamRoom:
 # param_1 = obj.seat()
 # obj.leave(p)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ExamRoom {
     private TreeSet<int[]> ts = new TreeSet<>((a, b) -> {
@@ -181,7 +184,9 @@ class ExamRoom {
  * obj.leave(p);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int N;
 
@@ -253,7 +258,9 @@ private:
  * obj->leave(p);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type ExamRoom struct {
 	rbt   *redblacktree.Tree
@@ -323,6 +330,7 @@ func (this *ExamRoom) del(s []int) {
  * obj.Leave(p);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

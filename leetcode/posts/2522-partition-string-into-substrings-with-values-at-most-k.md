@@ -79,6 +79,7 @@ It can be shown that we cannot partition the string into less than 4 substrings.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumPartition(self, s: str, k: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
         ans = dfs(0)
         return ans if ans < inf else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[] f;
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumPartition(s string, k int) int {
 	n := len(s)
@@ -194,6 +201,7 @@ func minimumPartition(s string, k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

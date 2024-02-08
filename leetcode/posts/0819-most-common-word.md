@@ -61,6 +61,7 @@ and that &quot;hit&quot; isn&#39;t the answer even though it occurs more because
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
@@ -68,7 +69,9 @@ class Solution:
         p = Counter(re.findall('[a-z]+', paragraph.lower()))
         return next(word for word, _ in p.most_common() if word not in s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostCommonWord(paragraph string, banned []string) string {
 	s := make(map[string]bool)
@@ -164,7 +171,9 @@ func mostCommonWord(paragraph string, banned []string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mostCommonWord(paragraph: string, banned: string[]): string {
     const s = paragraph.toLocaleLowerCase();
@@ -179,7 +188,9 @@ function mostCommonWord(paragraph: string, banned: string[]): string {
     return [...map.entries()].reduce((r, v) => (v[1] > r[1] ? v : r), ['', 0])[0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::{ HashMap, HashSet };
 impl Solution {
@@ -201,6 +212,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ The time complexity is $O(\log M)$, where $M=maxSum$. The space complexity is $O
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValue(self, n: int, index: int, maxSum: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxValue(int n, int index, int maxSum) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxValue(n int, index int, maxSum int) int {
 	sum := func(x, cnt int) int {
@@ -153,6 +160,7 @@ func maxValue(n int, index int, maxSum int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

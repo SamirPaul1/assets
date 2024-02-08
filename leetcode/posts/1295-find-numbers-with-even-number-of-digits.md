@@ -59,12 +59,15 @@ Only 1771 contains an even number of digits.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         return sum(len(str(v)) % 2 == 0 for v in nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findNumbers(int[] nums) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -91,7 +96,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findNumbers(nums []int) (ans int) {
 	for _, v := range nums {
@@ -102,7 +109,9 @@ func findNumbers(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -116,6 +125,7 @@ var findNumbers = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

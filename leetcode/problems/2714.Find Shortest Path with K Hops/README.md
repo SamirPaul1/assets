@@ -1,6 +1,5 @@
 # [2714. Find Shortest Path with K Hops](https://leetcode.com/problems/find-shortest-path-with-k-hops)
 
-[中文文档](/solution/2700-2799/2714.Find%20Shortest%20Path%20with%20K%20Hops/README.md)
 
 ## Description
 

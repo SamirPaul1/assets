@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -79,7 +80,9 @@ class Solution:
 
         return dfs(root)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -163,7 +170,9 @@ func trimBST(root *TreeNode, low int, high int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -195,7 +204,9 @@ function trimBST(root: TreeNode | null, low: number, high: number): TreeNode | n
     return dfs(root);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -241,7 +252,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -275,7 +288,9 @@ var trimBST = function (root, low, high) {
     return dfs(root);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for a binary tree node.
@@ -301,6 +316,7 @@ struct TreeNode* trimBST(struct TreeNode* root, int low, int high) {
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -308,6 +324,7 @@ struct TreeNode* trimBST(struct TreeNode* root, int low, int high) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -337,7 +354,9 @@ class Solution:
                 node = node.right
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -382,7 +401,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -424,7 +445,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -464,7 +487,9 @@ func trimBST(root *TreeNode, low int, high int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -506,6 +531,7 @@ var trimBST = function (root, low, high) {
     return root;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

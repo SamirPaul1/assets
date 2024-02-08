@@ -59,6 +59,7 @@ The time complexity is $O(n \times \log m)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSymmetricIntegers(self, low: int, high: int) -> int:
@@ -71,7 +72,9 @@ class Solution:
 
         return sum(f(x) for x in range(low, high + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSymmetricIntegers(int low, int high) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSymmetricIntegers(low int, high int) (ans int) {
 	f := func(x int) int {
@@ -150,7 +157,9 @@ func countSymmetricIntegers(low int, high int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSymmetricIntegers(low: number, high: number): number {
     let ans = 0;
@@ -174,6 +183,7 @@ function countSymmetricIntegers(low: number, high: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMoves(self, arr: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
                     f[i][j] = t
         return f[0][n - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumMoves(int[] arr) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumMoves(arr []int) int {
 	n := len(arr)
@@ -168,6 +175,7 @@ func minimumMoves(arr []int) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

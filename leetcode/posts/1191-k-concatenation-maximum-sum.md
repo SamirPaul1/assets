@@ -78,6 +78,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kConcatenationMaxSum(self, arr: List[int], k: int) -> int:
@@ -97,7 +98,9 @@ class Solution:
             ans = max(ans, (k - 2) * s + mx_pre + mx_suf)
         return ans % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kConcatenationMaxSum(int[] arr, int k) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kConcatenationMaxSum(arr []int, k int) int {
 	var s, mxPre, miPre, mxSub int
@@ -171,6 +178,7 @@ func kConcatenationMaxSum(arr []int, k int) int {
 	return ans % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

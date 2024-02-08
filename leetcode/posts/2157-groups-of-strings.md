@@ -88,6 +88,7 @@ Thus, the size of the largest group is 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def groupStrings(self, words: List[str]) -> List[int]:
@@ -130,7 +131,9 @@ class Solution:
                             union(x, x ^ (1 << i) | (1 << j))
         return [n, mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Integer> p;
@@ -192,7 +195,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -240,7 +245,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func groupStrings(words []string) []int {
 	p := map[int]int{}
@@ -294,6 +301,7 @@ func groupStrings(words []string) []int {
 	return []int{n, mx}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

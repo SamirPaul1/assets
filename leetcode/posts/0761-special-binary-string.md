@@ -64,6 +64,7 @@ This is the lexicographically largest string possible after some number of swaps
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeLargestSpecial(self, s: str) -> str:
@@ -81,7 +82,9 @@ class Solution:
         ans.sort(reverse=True)
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String makeLargestSpecial(String s) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeLargestSpecial(s string) string {
 	if s == "" {
@@ -146,6 +153,7 @@ func makeLargestSpecial(s string) string {
 	return strings.Join(ans, "")
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

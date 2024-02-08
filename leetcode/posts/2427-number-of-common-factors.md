@@ -57,13 +57,16 @@ The time complexity is $O(\min(a, b))$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def commonFactors(self, a: int, b: int) -> int:
         g = gcd(a, b)
         return sum(g % x == 0 for x in range(1, g + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int commonFactors(int a, int b) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func commonFactors(a int, b int) (ans int) {
 	g := gcd(a, b)
@@ -115,7 +122,9 @@ func gcd(a int, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function commonFactors(a: number, b: number): number {
     const g = gcd(a, b);
@@ -132,6 +141,7 @@ function gcd(a: number, b: number): number {
     return b === 0 ? a : gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -143,6 +153,7 @@ The time complexity is $O(\sqrt{\min(a, b)})$, and the space complexity is $O(1)
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def commonFactors(self, a: int, b: int) -> int:
@@ -155,7 +166,9 @@ class Solution:
             x += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int commonFactors(int a, int b) {
@@ -177,7 +190,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -194,7 +209,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func commonFactors(a int, b int) (ans int) {
 	g := gcd(a, b)
@@ -216,7 +233,9 @@ func gcd(a int, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function commonFactors(a: number, b: number): number {
     const g = gcd(a, b);
@@ -236,6 +255,7 @@ function gcd(a: number, b: number): number {
     return b === 0 ? a : gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -118,6 +118,7 @@ sol.read(buf, 1); // We have reached the end of file, no more characters can be 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # The read4 API is already defined for you.
 # def read4(buf4: List[str]) -> int:
@@ -142,7 +143,9 @@ class Solution:
                 j += 1
         return j
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * The read4 API is defined in the parent class Reader4.
@@ -177,7 +180,9 @@ public class Solution extends Reader4 {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * The read4 API is defined in the parent class Reader4.
@@ -210,7 +215,9 @@ private:
     int size = 0;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * The read4 API is already defined for you.
@@ -248,6 +255,7 @@ var solution = func(read4 func([]byte) int) func([]byte, int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

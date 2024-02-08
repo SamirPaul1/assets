@@ -78,6 +78,7 @@ Since &quot;leetcode is similar to &quot;onepiece&quot; and the first two words 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areSentencesSimilarTwo(
@@ -115,7 +116,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var p []int
 
@@ -245,6 +252,7 @@ func find(x int) int {
 	return p[x]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

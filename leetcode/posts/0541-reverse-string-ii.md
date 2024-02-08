@@ -46,6 +46,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
@@ -54,7 +55,9 @@ class Solution:
             t[i : i + k] = reversed(t[i : i + k])
         return ''.join(t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseStr(String s, int k) {
@@ -70,7 +73,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -82,7 +87,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseStr(s string, k int) string {
 	t := []byte(s)
@@ -94,6 +101,7 @@ func reverseStr(s string, k int) string {
 	return string(t)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -64,6 +64,7 @@ The string is now alternating.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSwaps(self, s: str) -> int:
@@ -87,7 +88,9 @@ class Solution:
             return s0n0
         return min(s0n0, s1n0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSwaps(String s) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -152,6 +157,7 @@ var minSwaps = function (s) {
     return count == Infinity ? -1 : count;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

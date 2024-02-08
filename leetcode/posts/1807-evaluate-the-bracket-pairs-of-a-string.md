@@ -95,6 +95,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(L)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def evaluate(self, s: str, knowledge: List[List[str]]) -> str:
@@ -111,7 +112,9 @@ class Solution:
             i += 1
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func evaluate(s string, knowledge [][]string) string {
 	d := map[string]string{}
@@ -184,7 +191,9 @@ func evaluate(s string, knowledge [][]string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function evaluate(s: string, knowledge: string[][]): string {
     const n = s.length;
@@ -207,7 +216,9 @@ function evaluate(s: string, knowledge: string[][]): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -240,6 +251,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

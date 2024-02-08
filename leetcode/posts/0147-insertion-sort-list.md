@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -86,7 +87,9 @@ class Solution:
             cur = t
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -162,6 +167,7 @@ var insertionSortList = function (head) {
     return dummy.next;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

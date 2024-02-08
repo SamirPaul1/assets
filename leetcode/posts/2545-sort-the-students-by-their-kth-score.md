@@ -69,12 +69,15 @@ The time complexity is $O(m \times \log m)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortTheStudents(self, score: List[List[int]], k: int) -> List[List[int]]:
         return sorted(score, key=lambda x: -x[k])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] sortTheStudents(int[][] score, int k) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,20 +98,26 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortTheStudents(score [][]int, k int) [][]int {
 	sort.Slice(score, func(i, j int) bool { return score[i][k] > score[j][k] })
 	return score
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortTheStudents(score: number[][], k: number): number[][] {
     return score.sort((a, b) => b[k] - a[k]);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sort_the_students(mut score: Vec<Vec<i32>>, k: i32) -> Vec<Vec<i32>> {
@@ -116,6 +127,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

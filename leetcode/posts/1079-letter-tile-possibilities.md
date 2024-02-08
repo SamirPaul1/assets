@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numTilePossibilities(self, tiles: str) -> int:
@@ -76,7 +77,9 @@ class Solution:
         cnt = Counter(tiles)
         return dfs(cnt)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numTilePossibilities(String tiles) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numTilePossibilities(tiles string) int {
 	cnt := [26]int{}
@@ -148,7 +155,9 @@ func numTilePossibilities(tiles string) int {
 	return dfs(cnt)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numTilePossibilities(tiles: string): number {
     const cnt: number[] = new Array(26).fill(0);
@@ -170,6 +179,7 @@ function numTilePossibilities(tiles: string): number {
     return dfs(cnt);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

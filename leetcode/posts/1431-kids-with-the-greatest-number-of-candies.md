@@ -71,13 +71,16 @@ Kid 1 will always have the greatest number of candies, even if a different kid i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kidsWithCandies(self, candies: List[int], extraCandies: int) -> List[bool]:
         mx = max(candies)
         return [candy + extraCandies >= mx for candy in candies]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kidsWithCandies(candies []int, extraCandies int) (ans []bool) {
 	mx := slices.Max(candies)
@@ -117,14 +124,18 @@ func kidsWithCandies(candies []int, extraCandies int) (ans []bool) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function kidsWithCandies(candies: number[], extraCandies: number): boolean[] {
     const max = candies.reduce((r, v) => Math.max(r, v));
     return candies.map(v => v + extraCandies >= max);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn kids_with_candies(candies: Vec<i32>, extra_candies: i32) -> Vec<bool> {
@@ -136,7 +147,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -154,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 /**
@@ -173,6 +188,7 @@ bool* kidsWithCandies(int* candies, int candiesSize, int extraCandies, int* retu
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -53,12 +53,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeTrailingZeros(self, num: str) -> str:
         return num.rstrip("0")
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeTrailingZeros(String num) {
@@ -70,7 +73,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -82,7 +87,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeTrailingZeros(num string) string {
 	i := len(num) - 1
@@ -92,7 +99,9 @@ func removeTrailingZeros(num string) string {
 	return num[:i+1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeTrailingZeros(num: string): string {
     let i = num.length - 1;
@@ -102,7 +111,9 @@ function removeTrailingZeros(num: string): string {
     return num.substring(0, i + 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_trailing_zeros(num: String) -> String {
@@ -116,6 +127,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -123,6 +135,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_trailing_zeros(num: String) -> String {
@@ -136,6 +149,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

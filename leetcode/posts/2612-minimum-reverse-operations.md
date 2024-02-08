@@ -99,6 +99,7 @@ The time complexity is $O(n \times \log n)$ and the space complexity is $O(n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -131,7 +132,9 @@ class Solution:
                 j = s.bisect_left(mi)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] minReverseOperations(int n, int p, int[] banned, int k) {
@@ -164,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minReverseOperations(n int, p int, banned []int, k int) []int {
 	ans := make([]int, n)
@@ -233,7 +240,9 @@ func minReverseOperations(n int, p int, banned []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minReverseOperations(n: number, p: number, banned: number[], k: number): number[] {
     const ans = new Array(n).fill(-1);
@@ -906,6 +915,7 @@ class TreeMultiSet<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -913,6 +923,7 @@ class TreeMultiSet<T = number> {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minReverseOperations(n: number, p: number, banned: number[], k: number): number[] {
     const ans = new Array(n).fill(-1);
@@ -1563,6 +1574,7 @@ class TreapMultiSet<T = number> implements ITreapMultiSet<T> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

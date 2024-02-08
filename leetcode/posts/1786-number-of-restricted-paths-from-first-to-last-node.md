@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countRestrictedPaths(self, n: int, edges: List[List[int]]) -> int:
@@ -96,7 +97,9 @@ class Solution:
                     heappush(q, (dist[v], v))
         return dfs(1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = Integer.MAX_VALUE;
@@ -157,7 +160,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pii = pair<int, int>;
 
@@ -210,7 +215,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const inf = math.MaxInt32
 const mod = 1e9 + 7
@@ -279,6 +286,7 @@ func countRestrictedPaths(n int, edges [][]int) int {
 	return dfs(1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -286,6 +294,7 @@ func countRestrictedPaths(n int, edges [][]int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countRestrictedPaths(self, n: int, edges: List[List[int]]) -> int:
@@ -313,7 +322,9 @@ class Solution:
                     f[i] = (f[i] + f[j]) % mod
         return f[1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = Integer.MAX_VALUE;
@@ -362,6 +373,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

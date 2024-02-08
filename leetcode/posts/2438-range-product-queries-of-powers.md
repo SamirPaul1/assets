@@ -68,6 +68,7 @@ The time complexity is $O(n \times \log n)$, ignoring the space consumption of t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def productQueries(self, n: int, queries: List[List[int]]) -> List[int]:
@@ -85,7 +86,9 @@ class Solution:
             ans.append(x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func productQueries(n int, queries [][]int) []int {
 	var mod int = 1e9 + 7
@@ -158,6 +165,7 @@ func productQueries(n int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

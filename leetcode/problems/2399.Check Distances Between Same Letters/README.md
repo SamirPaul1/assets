@@ -1,6 +1,5 @@
 # [2399. Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters)
 
-[中文文档](/solution/2300-2399/2399.Check%20Distances%20Between%20Same%20Letters/README.md)
 
 ## Description
 

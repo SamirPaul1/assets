@@ -85,6 +85,7 @@ df1</strong>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -92,6 +93,7 @@ import pandas as pd
 def concatenateTables(df1: pd.DataFrame, df2: pd.DataFrame) -> pd.DataFrame:
     return pd.concat([df1, df2], ignore_index=True)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

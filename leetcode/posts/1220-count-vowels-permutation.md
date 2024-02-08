@@ -68,6 +68,7 @@ math: true
 
 Based on the problem description, we can list the possible subsequent vowels for each vowel:
 
+{{< terminal title="Bash Code" >}}
 ```bash
 a [e]
 e [a|i]
@@ -75,9 +76,11 @@ i [a|e|o|u]
 o [i|u]
 u [a]
 ```
+{{< /terminal >}}
 
 From this, we can deduce the possible preceding vowels for each vowel:
 
+{{< terminal title="Bash Code" >}}
 ```bash
 [e|i|u]	a
 [a|i]	e
@@ -85,6 +88,7 @@ From this, we can deduce the possible preceding vowels for each vowel:
 [i]	o
 [i|o]	u
 ```
+{{< /terminal >}}
 
 We define $f[i]$ as the number of strings of the current length ending with the $i$-th vowel. If the length is $1$, then $f[i]=1$.
 
@@ -107,6 +111,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVowelPermutation(self, n: int) -> int:
@@ -122,7 +127,9 @@ class Solution:
             f = g
         return sum(f) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countVowelPermutation(int n) {
@@ -146,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countVowelPermutation(n int) (ans int) {
 	const mod int = 1e9 + 7
@@ -190,7 +201,9 @@ func countVowelPermutation(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countVowelPermutation(n: number): number {
     const f: number[] = Array(5).fill(1);
@@ -207,7 +220,9 @@ function countVowelPermutation(n: number): number {
     return f.reduce((a, b) => (a + b) % mod);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -228,6 +243,7 @@ var countVowelPermutation = function (n) {
     return f.reduce((a, b) => (a + b) % mod);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -237,6 +253,7 @@ The time complexity is $O(C^3 \times \log n)$, and the space complexity is $O(C^
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVowelPermutation(self, n: int) -> int:
@@ -270,7 +287,9 @@ class Solution:
         res = pow(a, n - 1)
         return sum(map(sum, res)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -313,7 +332,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -359,7 +380,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mod = 1e9 + 7
 
@@ -405,7 +428,9 @@ func pow(a [][]int, n int) [][]int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const mod = 1e9 + 7;
 
@@ -447,7 +472,9 @@ function pow(a: number[][], n: number): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -494,6 +521,7 @@ function pow(a, n) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -501,6 +529,7 @@ function pow(a, n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import numpy as np
 
@@ -527,7 +556,9 @@ class Solution:
             n >>= 1
         return res.sum() % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countVowelPermutation(int n) {
@@ -553,6 +584,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

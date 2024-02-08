@@ -84,6 +84,7 @@ The time complexity is $O(\log^2 n)$, where $n$ is the integer given in the prob
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeIntegerBeautiful(self, n: int, target: int) -> int:
@@ -104,7 +105,9 @@ class Solution:
             x = (y // 10 + 1) * p - n
         return x
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long makeIntegerBeautiful(long n, int target) {
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeIntegerBeautiful(n int64, target int) (x int64) {
 	f := func(x int64) (y int) {
@@ -181,7 +188,9 @@ func makeIntegerBeautiful(n int64, target int) (x int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makeIntegerBeautiful(n: number, target: number): number {
     const f = (x: number): number => {
@@ -205,6 +214,7 @@ function makeIntegerBeautiful(n: number, target: number): number {
     return x;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

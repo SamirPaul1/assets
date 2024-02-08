@@ -55,6 +55,7 @@ The total volume of water trapped is 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                     heappush(pq, (max(h, heightMap[x][y]), x, y))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int trapRainWater(int[][] heightMap) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func trapRainWater(heightMap [][]int) (ans int) {
 	m, n := len(heightMap), len(heightMap[0])
@@ -185,6 +192,7 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(tuple)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ The time complexity is $O(m + n)$, and the space complexity is $O(C)$. Here, $m$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countQuadruples(self, firstString: str, secondString: str) -> int:
@@ -82,7 +83,9 @@ class Solution:
                     ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countQuadruples(String firstString, String secondString) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countQuadruples(firstString string, secondString string) (ans int) {
 	last := [26]int{}
@@ -156,7 +163,9 @@ func countQuadruples(firstString string, secondString string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countQuadruples(firstString: string, secondString: string): number {
     const last: number[] = new Array(26).fill(0);
@@ -179,6 +188,7 @@ function countQuadruples(firstString: string, secondString: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

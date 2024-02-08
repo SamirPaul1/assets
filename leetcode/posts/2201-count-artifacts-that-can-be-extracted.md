@@ -85,6 +85,7 @@ The time complexity is $O(m + k)$, and the space complexity is $O(k)$. Here, $m$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def digArtifacts(
@@ -99,7 +100,9 @@ class Solution:
         s = {(i, j) for i, j in dig}
         return sum(check(a) for a in artifacts)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Set<Integer> s = new HashSet<>();
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func digArtifacts(n int, artifacts [][]int, dig [][]int) (ans int) {
 	s := map[int]bool{}
@@ -182,7 +189,9 @@ func digArtifacts(n int, artifacts [][]int, dig [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function digArtifacts(n: number, artifacts: number[][], dig: number[][]): number {
     const s: Set<number> = new Set();
@@ -207,7 +216,9 @@ function digArtifacts(n: number, artifacts: number[][], dig: number[][]): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 
@@ -239,6 +250,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

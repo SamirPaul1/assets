@@ -66,6 +66,7 @@ Only the first 3 rows are displayed.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -73,6 +74,7 @@ import pandas as pd
 def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
     return employees.head(3)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

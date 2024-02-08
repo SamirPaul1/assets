@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:
@@ -78,7 +79,9 @@ class Solution:
             ans = min(ans, left[i] + right[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minFlipsMonoIncr(String s) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minFlipsMonoIncr(s string) int {
 	n := len(s)
@@ -144,7 +151,9 @@ func minFlipsMonoIncr(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -163,6 +172,7 @@ var minFlipsMonoIncr = function (s) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -170,6 +180,7 @@ var minFlipsMonoIncr = function (s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minFlipsMonoIncr(self, s: str) -> int:
@@ -182,7 +193,9 @@ class Solution:
             ans = min(ans, presum[i] + n - i - (presum[-1] - presum[i]))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minFlipsMonoIncr(String s) {
@@ -199,7 +212,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -213,7 +228,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minFlipsMonoIncr(s string) int {
 	n := len(s)
@@ -228,6 +245,7 @@ func minFlipsMonoIncr(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

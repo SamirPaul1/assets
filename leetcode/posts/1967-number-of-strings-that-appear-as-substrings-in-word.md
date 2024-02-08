@@ -73,12 +73,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfStrings(self, patterns: List[str], word: str) -> int:
         return sum(p in word for p in patterns)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfStrings(String[] patterns, String word) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfStrings(patterns []string, word string) (ans int) {
 	for _, p := range patterns {
@@ -116,7 +123,9 @@ func numOfStrings(patterns []string, word string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfStrings(patterns: string[], word: string): number {
     let ans = 0;
@@ -128,6 +137,7 @@ function numOfStrings(patterns: string[], word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

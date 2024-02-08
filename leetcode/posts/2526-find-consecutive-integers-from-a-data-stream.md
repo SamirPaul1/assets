@@ -63,6 +63,7 @@ dataStream.consec(3); // The last k integers parsed in the stream are [4,4,3].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class DataStream:
     def __init__(self, value: int, k: int):
@@ -78,7 +79,9 @@ class DataStream:
 # obj = DataStream(value, k)
 # param_1 = obj.consec(num)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class DataStream {
     private int cnt;
@@ -102,7 +105,9 @@ class DataStream {
  * boolean param_1 = obj.consec(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class DataStream {
 public:
@@ -127,7 +132,9 @@ private:
  * bool param_1 = obj->consec(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type DataStream struct {
 	val, k, cnt int
@@ -152,7 +159,9 @@ func (this *DataStream) Consec(num int) bool {
  * param_1 := obj.Consec(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class DataStream {
     private val: number;
@@ -177,6 +186,7 @@ class DataStream {
  * var param_1 = obj.consec(num)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

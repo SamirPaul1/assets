@@ -1,6 +1,5 @@
 # [1377. Frog Position After T Seconds](https://leetcode.com/problems/frog-position-after-t-seconds)
 
-[中文文档](/solution/1300-1399/1377.Frog%20Position%20After%20T%20Seconds/README.md)
 
 ## Description
 

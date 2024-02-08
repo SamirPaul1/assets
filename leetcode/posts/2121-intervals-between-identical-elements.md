@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getDistances(self, arr: List[int]) -> List[int]:
@@ -87,7 +88,9 @@ class Solution:
                 ans[p] = val
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] getDistances(int[] arr) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getDistances(arr []int) []int64 {
 	d := make(map[int][]int)
@@ -167,6 +174,7 @@ func getDistances(arr []int) []int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

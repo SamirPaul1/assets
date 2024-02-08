@@ -42,6 +42,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getSum(self, a: int, b: int) -> int:
@@ -51,7 +52,9 @@ class Solution:
             a, b = a ^ b, carry
         return a if a < 0x80000000 else ~(a ^ 0xFFFFFFFF)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getSum(int a, int b) {
@@ -59,7 +62,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -73,7 +78,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getSum(a int, b int) int {
 	for b != 0 {
@@ -84,6 +91,7 @@ func getSum(a int, b int) int {
 	return a
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -68,6 +68,7 @@ There is an algorithm called the Tarjan algorithm for finding "bridges" and "art
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def criticalConnections(
@@ -100,7 +101,9 @@ class Solution:
         tarjan(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int now;
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func criticalConnections(n int, connections [][]int) (ans [][]int) {
 	now := 0
@@ -214,7 +221,9 @@ func criticalConnections(n int, connections [][]int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function criticalConnections(n: number, connections: number[][]): number[][] {
     let now: number = 0;
@@ -249,6 +258,7 @@ function criticalConnections(n: number, connections: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

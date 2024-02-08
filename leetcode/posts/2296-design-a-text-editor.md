@@ -93,6 +93,7 @@ textEditor.cursorRight(6); // return &quot;practi&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class TextEditor:
     def __init__(self):
@@ -128,7 +129,9 @@ class TextEditor:
 # param_3 = obj.cursorLeft(k)
 # param_4 = obj.cursorRight(k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TextEditor {
     private StringBuilder left = new StringBuilder();
@@ -175,7 +178,9 @@ class TextEditor {
  * String param_4 = obj.cursorRight(k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class TextEditor {
 public:
@@ -223,7 +228,9 @@ private:
  * string param_4 = obj->cursorRight(k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type TextEditor struct {
 	left, right []byte
@@ -274,6 +281,7 @@ func (this *TextEditor) CursorRight(k int) string {
  * param_4 := obj.CursorRight(k);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

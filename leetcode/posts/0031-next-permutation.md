@@ -79,6 +79,7 @@ The time complexity is $O(n)$ and the space complexity is $O(1)$. Where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
@@ -89,7 +90,9 @@ class Solution:
             nums[i], nums[j] = nums[j], nums[i]
         nums[i + 1 :] = nums[i + 1 :][::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void nextPermutation(int[] nums) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nextPermutation(nums []int) {
 	n := len(nums)
@@ -163,7 +170,9 @@ func nextPermutation(nums []int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function nextPermutation(nums: number[]): void {
     const n = nums.length;
@@ -184,7 +193,9 @@ function nextPermutation(nums: number[]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -208,7 +219,9 @@ var nextPermutation = function (nums) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public void NextPermutation(int[] nums) {
@@ -237,6 +250,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

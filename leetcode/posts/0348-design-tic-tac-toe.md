@@ -109,6 +109,7 @@ ticTacToe.move(2, 1, 1); // return 1&nbsp;(player 1 wins)
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class TicTacToe:
     def __init__(self, n: int):
@@ -150,7 +151,9 @@ class TicTacToe:
 # obj = TicTacToe(n)
 # param_1 = obj.move(row,col,player)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TicTacToe {
     private int n;
@@ -195,6 +198,7 @@ class TicTacToe {
  * int param_1 = obj.move(row,col,player);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

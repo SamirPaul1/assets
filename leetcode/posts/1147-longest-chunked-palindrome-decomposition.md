@@ -81,6 +81,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$ or $O(1)$. H
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestDecomposition(self, text: str) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 return 2 + self.longestDecomposition(text[i:-i])
         return 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestDecomposition(String text) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestDecomposition(text string) int {
 	n := len(text)
@@ -140,7 +147,9 @@ func longestDecomposition(text string) int {
 	return 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestDecomposition(text: string): number {
     const n: number = text.length;
@@ -155,6 +164,7 @@ function longestDecomposition(text: string): number {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -168,6 +178,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestDecomposition(self, text: str) -> int:
@@ -189,7 +200,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestDecomposition(String text) {
@@ -223,7 +236,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -257,7 +272,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestDecomposition(text string) (ans int) {
 	for i, j := 0, len(text)-1; i <= j; {
@@ -279,7 +296,9 @@ func longestDecomposition(text string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestDecomposition(text: string): number {
     let ans = 0;
@@ -302,6 +321,7 @@ function longestDecomposition(text: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -309,6 +329,7 @@ function longestDecomposition(text: string): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestDecomposition(self, text: str) -> int:
@@ -343,7 +364,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private long[] h;
@@ -385,7 +408,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -427,7 +452,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestDecomposition(text string) (ans int) {
 	n := len(text)
@@ -463,6 +490,7 @@ func longestDecomposition(text string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

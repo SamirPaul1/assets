@@ -74,6 +74,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def earliestAcq(self, logs: List[List[int]], n: int) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 return t
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func earliestAcq(logs [][]int, n int) int {
 	sort.Slice(logs, func(i, j int) bool { return logs[i][0] < logs[j][0] })
@@ -179,7 +186,9 @@ func earliestAcq(logs [][]int, n int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function earliestAcq(logs: number[][], n: number): number {
     const p: number[] = Array(n)
@@ -205,7 +214,9 @@ function earliestAcq(logs: number[][], n: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct UnionFind {
     p: Vec<usize>,
@@ -264,6 +275,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -271,6 +283,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     __slots__ = ('p', 'size')
@@ -307,7 +320,9 @@ class Solution:
                     return t
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private int[] p;
@@ -359,7 +374,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -410,7 +427,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -463,7 +482,9 @@ func earliestAcq(logs [][]int, n int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class UnionFind {
     private p: number[];
@@ -511,6 +532,7 @@ function earliestAcq(logs: number[][], n: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

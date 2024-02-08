@@ -60,6 +60,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNumberOfApples(self, weight: List[int]) -> int:
@@ -71,7 +72,9 @@ class Solution:
                 return i
         return len(weight)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxNumberOfApples(int[] weight) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNumberOfApples(weight []int) int {
 	sort.Ints(weight)
@@ -118,7 +125,9 @@ func maxNumberOfApples(weight []int) int {
 	return len(weight)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxNumberOfApples(weight: number[]): number {
     weight.sort((a, b) => a - b);
@@ -132,6 +141,7 @@ function maxNumberOfApples(weight: number[]): number {
     return weight.length;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

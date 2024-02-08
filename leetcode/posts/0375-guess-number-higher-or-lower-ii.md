@@ -89,6 +89,7 @@ The worst case is that you pay $1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMoneyAmount(self, n: int) -> int:
@@ -102,7 +103,9 @@ class Solution:
                     dp[i][j] = min(dp[i][j], t)
         return dp[1][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getMoneyAmount(int n) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMoneyAmount(n int) int {
 	dp := make([][]int, n+10)
@@ -161,6 +168,7 @@ func getMoneyAmount(n int) int {
 	return dp[1][n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

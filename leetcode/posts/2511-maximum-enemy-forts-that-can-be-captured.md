@@ -72,6 +72,7 @@ Since 4 is the maximum number of enemy forts that can be captured, we return 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def captureForts(self, forts: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
             i = j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int captureForts(int[] forts) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func captureForts(forts []int) (ans int) {
 	n := len(forts)
@@ -152,7 +159,9 @@ func captureForts(forts []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function captureForts(forts: number[]): number {
     const n = forts.length;
@@ -173,7 +182,9 @@ function captureForts(forts: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn capture_forts(forts: Vec<i32>) -> i32 {
@@ -196,6 +207,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -203,6 +215,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn capture_forts(forts: Vec<i32>) -> i32 {
@@ -234,6 +247,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

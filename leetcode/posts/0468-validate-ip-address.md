@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validIPAddress(self, IP: str) -> str:
@@ -100,7 +101,9 @@ class Solution:
             return "IPv6"
         return "Neither"
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validIPAddress(queryIP: string): string {
     const isIPv4 = () => {
@@ -143,7 +146,9 @@ function validIPAddress(queryIP: string): string {
     return 'Neither';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn is_IPv4(s: &String) -> bool {
@@ -200,6 +205,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

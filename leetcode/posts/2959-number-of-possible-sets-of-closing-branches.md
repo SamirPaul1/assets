@@ -101,6 +101,7 @@ The time complexity is $O(2^n \times (n^3 + m))$, and the space complexity is $O
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfSets(self, n: int, maxDistance: int, roads: List[List[int]]) -> int:
@@ -128,7 +129,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfSets(int n, int maxDistance, int[][] roads) {
@@ -171,7 +174,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -211,7 +216,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfSets(n int, maxDistance int, roads [][]int) (ans int) {
 	for mask := 0; mask < 1<<n; mask++ {
@@ -252,7 +259,9 @@ func numberOfSets(n int, maxDistance int, roads [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfSets(n: number, maxDistance: number, roads: number[][]): number {
     let ans = 0;
@@ -287,6 +296,7 @@ function numberOfSets(n: number, maxDistance: number, roads: number[][]): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ So the last character is not one-bit character.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
@@ -69,7 +70,9 @@ class Solution:
             i += bits[i] + 1
         return i == n - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isOneBitCharacter(bits []int) bool {
 	i, n := 0, len(bits)
@@ -102,7 +109,9 @@ func isOneBitCharacter(bits []int) bool {
 	return i == n-1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} bits
@@ -117,6 +126,7 @@ var isOneBitCharacter = function (bits) {
     return i == n - 1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

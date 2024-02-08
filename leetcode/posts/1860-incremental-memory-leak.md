@@ -74,6 +74,7 @@ The time complexity is $O(\sqrt{m_1+m_2})$, where $m_1$ and $m_2$ are the sizes 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def memLeak(self, memory1: int, memory2: int) -> List[int]:
@@ -86,7 +87,9 @@ class Solution:
             i += 1
         return [i, memory1, memory2]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] memLeak(int memory1, int memory2) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func memLeak(memory1 int, memory2 int) []int {
 	i := 1
@@ -133,7 +140,9 @@ func memLeak(memory1 int, memory2 int) []int {
 	return []int{i, memory1, memory2}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function memLeak(memory1: number, memory2: number): number[] {
     let i = 1;
@@ -147,7 +156,9 @@ function memLeak(memory1: number, memory2: number): number[] {
     return [i, memory1, memory2];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} memory1
@@ -166,6 +177,7 @@ var memLeak = function (memory1, memory2) {
     return [i, memory1, memory2];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

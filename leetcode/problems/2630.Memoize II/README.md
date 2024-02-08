@@ -1,6 +1,5 @@
 # [2630. Memoize II](https://leetcode.com/problems/memoize-ii)
 
-[中文文档](/solution/2600-2699/2630.Memoize%20II/README.md)
 
 ## Description
 

@@ -76,6 +76,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSpecialSubsequences(self, nums: List[int]) -> int:
@@ -98,7 +99,9 @@ class Solution:
                 f[i][2] = (f[i - 1][1] + 2 * f[i - 1][2]) % mod
         return f[n - 1][2]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSpecialSubsequences(int[] nums) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSpecialSubsequences(nums []int) int {
 	const mod = 1e9 + 7
@@ -181,7 +188,9 @@ func countSpecialSubsequences(nums []int) int {
 	return f[n-1][2]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSpecialSubsequences(nums: number[]): number {
     const mod = 1e9 + 7;
@@ -208,6 +217,7 @@ function countSpecialSubsequences(nums: number[]): number {
     return f[n - 1][2];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -215,6 +225,7 @@ function countSpecialSubsequences(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSpecialSubsequences(self, nums: List[int]) -> int:
@@ -231,7 +242,9 @@ class Solution:
                 f[2] = (f[1] + 2 * f[2]) % mod
         return f[2]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSpecialSubsequences(int[] nums) {
@@ -252,7 +265,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -274,7 +289,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSpecialSubsequences(nums []int) int {
 	const mod = 1e9 + 7
@@ -295,7 +312,9 @@ func countSpecialSubsequences(nums []int) int {
 	return f[2]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSpecialSubsequences(nums: number[]): number {
     const mod = 1e9 + 7;
@@ -320,6 +339,7 @@ function countSpecialSubsequences(nums: number[]): number {
     return f[2];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

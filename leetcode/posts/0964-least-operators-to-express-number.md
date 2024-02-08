@@ -74,6 +74,7 @@ The expression contains 3 operations.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def leastOpsExpressTarget(self, x: int, target: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
 
         return dfs(target)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int x;
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func leastOpsExpressTarget(x int, target int) int {
 	f := map[int]int{}
@@ -181,7 +188,9 @@ func leastOpsExpressTarget(x int, target int) int {
 	return dfs(target)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function leastOpsExpressTarget(x: number, target: number): number {
     const f: Map<number, number> = new Map();
@@ -208,6 +217,7 @@ function leastOpsExpressTarget(x: number, target: number): number {
     return dfs(target);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

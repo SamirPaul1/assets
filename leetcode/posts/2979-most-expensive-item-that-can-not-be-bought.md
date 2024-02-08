@@ -61,12 +61,15 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostExpensiveItem(self, primeOne: int, primeTwo: int) -> int:
         return primeOne * primeTwo - primeOne - primeTwo
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mostExpensiveItem(int primeOne, int primeTwo) {
@@ -74,7 +77,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -83,19 +88,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostExpensiveItem(primeOne int, primeTwo int) int {
 	return primeOne*primeTwo - primeOne - primeTwo
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mostExpensiveItem(primeOne: number, primeTwo: number): number {
     return primeOne * primeTwo - primeOne - primeTwo;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn most_expensive_item(prime_one: i32, prime_two: i32) -> i32 {
@@ -103,6 +114,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

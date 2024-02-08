@@ -87,6 +87,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkWays(self, pairs: List[List[int]]) -> int:
@@ -121,7 +122,9 @@ class Solution:
             return 0
         return 2 if equal else 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int checkWays(int[][] pairs) {
@@ -171,7 +174,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -214,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkWays(pairs [][]int) int {
 	g := make([][]bool, 510)
@@ -268,6 +275,7 @@ func checkWays(pairs [][]int) int {
 	return 1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

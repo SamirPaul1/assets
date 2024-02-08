@@ -1,6 +1,5 @@
 # [1831. Maximum Transaction Each Day](https://leetcode.com/problems/maximum-transaction-each-day)
 
-[中文文档](/solution/1800-1899/1831.Maximum%20Transaction%20Each%20Day/README.md)
 
 ## Description
 

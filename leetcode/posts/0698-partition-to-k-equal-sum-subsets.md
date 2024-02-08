@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
@@ -74,7 +75,9 @@ class Solution:
         nums.sort(reverse=True)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPartitionKSubsets(nums []int, k int) bool {
 	s := 0
@@ -183,7 +190,9 @@ func canPartitionKSubsets(nums []int, k int) bool {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canPartitionKSubsets(nums: number[], k: number): boolean {
     let s = nums.reduce((a, b) => a + b);
@@ -213,6 +222,7 @@ function canPartitionKSubsets(nums: number[], k: number): boolean {
     return f[(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -220,6 +230,7 @@ function canPartitionKSubsets(nums: number[], k: number): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
@@ -243,7 +254,9 @@ class Solution:
         mask = (1 << len(nums)) - 1
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] f;
@@ -290,7 +303,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -331,7 +346,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPartitionKSubsets(nums []int, k int) bool {
 	s := 0
@@ -374,6 +391,7 @@ func canPartitionKSubsets(nums []int, k int) bool {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -381,6 +399,7 @@ func canPartitionKSubsets(nums []int, k int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canPartitionKSubsets(self, nums: List[int], k: int) -> bool:
@@ -405,7 +424,9 @@ class Solution:
                         f[i | 1 << j] = True
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canPartitionKSubsets(int[] nums, int k) {
@@ -440,7 +461,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -475,7 +498,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canPartitionKSubsets(nums []int, k int) bool {
 	s := 0
@@ -508,6 +533,7 @@ func canPartitionKSubsets(nums []int, k int) bool {
 	return f[(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

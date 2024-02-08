@@ -66,6 +66,7 @@ We can see that both sectors 1 and 2 are visited twice and they are the most vis
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostVisited(self, n: int, rounds: List[int]) -> List[int]:
@@ -73,7 +74,9 @@ class Solution:
             return list(range(rounds[0], rounds[-1] + 1))
         return list(range(1, rounds[-1] + 1)) + list(range(rounds[0], n + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> mostVisited(int n, int[] rounds) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostVisited(n int, rounds []int) []int {
 	m := len(rounds) - 1
@@ -132,6 +139,7 @@ func mostVisited(n int, rounds []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

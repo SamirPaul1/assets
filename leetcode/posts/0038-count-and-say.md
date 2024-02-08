@@ -78,6 +78,7 @@ Space Complexity: $O(m)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countAndSay(self, n: int) -> str:
@@ -95,7 +96,9 @@ class Solution:
             s = ''.join(t)
         return s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String countAndSay(int n) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countAndSay(n int) string {
 	s := "1"
@@ -159,7 +166,9 @@ func countAndSay(n int) string {
 	return s
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countAndSay(n: number): string {
     let s = '1';
@@ -181,7 +190,9 @@ function countAndSay(n: number): string {
     return s;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::iter::once;
 
@@ -205,7 +216,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 const countAndSay = function (n) {
     let s = '1';
@@ -228,7 +241,9 @@ const countAndSay = function (n) {
     return s;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Text;
 public class Solution {
@@ -268,6 +283,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

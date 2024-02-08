@@ -1,6 +1,5 @@
 # [2629. Function Composition](https://leetcode.com/problems/function-composition)
 
-[中文文档](/solution/2600-2699/2629.Function%20Composition/README.md)
 
 ## Description
 

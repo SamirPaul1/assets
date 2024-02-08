@@ -75,6 +75,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canSortArray(self, nums: List[int]) -> bool:
@@ -94,7 +95,9 @@ class Solution:
             i = j
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canSortArray(int[] nums) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canSortArray(nums []int) bool {
 	preMx := -300
@@ -168,7 +175,9 @@ func canSortArray(nums []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canSortArray(nums: number[]): boolean {
     let preMx = -300;
@@ -200,6 +209,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

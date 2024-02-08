@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -84,7 +85,9 @@ class Solution:
                 )
                 return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -119,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -152,6 +157,7 @@ func constructFromPrePost(preorder []int, postorder []int) *TreeNode {
 	return dfs(0, len(preorder)-1, 0, len(postorder)-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

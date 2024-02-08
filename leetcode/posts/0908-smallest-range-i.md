@@ -67,13 +67,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestRangeI(self, nums: List[int], k: int) -> int:
         mx, mi = max(nums), min(nums)
         return max(0, mx - mi - k * 2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestRangeI(int[] nums, int k) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,14 +102,18 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestRangeI(nums []int, k int) int {
 	mi, mx := slices.Min(nums), slices.Max(nums)
 	return max(0, mx-mi-k*2)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestRangeI(nums: number[], k: number): number {
     const max = nums.reduce((r, v) => Math.max(r, v));
@@ -112,7 +121,9 @@ function smallestRangeI(nums: number[], k: number): number {
     return Math.max(max - min - k * 2, 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn smallest_range_i(nums: Vec<i32>, k: i32) -> i32 {
@@ -122,6 +133,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -87,6 +87,7 @@ Starting with 27 energy, we finish the tasks in the following order:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumEffort(self, tasks: List[List[int]]) -> int:
@@ -98,7 +99,9 @@ class Solution:
             cur -= a
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumEffort(int[][] tasks) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumEffort(tasks [][]int) (ans int) {
 	sort.Slice(tasks, func(i, j int) bool { return tasks[i][0]-tasks[i][1] < tasks[j][0]-tasks[j][1] })
@@ -151,7 +158,9 @@ func minimumEffort(tasks [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumEffort(tasks: number[][]): number {
     tasks.sort((a, b) => a[0] - a[1] - (b[0] - b[1]));
@@ -167,6 +176,7 @@ function minimumEffort(tasks: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

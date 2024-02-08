@@ -77,6 +77,7 @@ bSTIterator.hasNext(); // return False
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -110,7 +111,9 @@ class BSTIterator:
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -159,7 +162,9 @@ class BSTIterator {
  * boolean param_2 = obj.hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -205,7 +210,9 @@ public:
  * bool param_2 = obj->hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -249,7 +256,9 @@ func (this *BSTIterator) HasNext() bool {
  * param_2 := obj.HasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -300,7 +309,9 @@ class BSTIterator {
  * var param_2 = obj.hasNext()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -365,7 +376,9 @@ impl BSTIterator {
  * let ret_2: bool = obj.has_next();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -411,6 +424,7 @@ BSTIterator.prototype.hasNext = function () {
  * var param_2 = obj.hasNext()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -418,6 +432,7 @@ BSTIterator.prototype.hasNext = function () {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -449,7 +464,9 @@ class BSTIterator:
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -495,7 +512,9 @@ class BSTIterator {
  * boolean param_2 = obj.hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -539,7 +558,9 @@ public:
  * bool param_2 = obj->hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -594,7 +615,9 @@ class BSTIterator {
  * var param_2 = obj.hasNext()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -661,6 +684,7 @@ impl BSTIterator {
  * let ret_2: bool = obj.has_next();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

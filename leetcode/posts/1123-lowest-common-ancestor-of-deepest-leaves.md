@@ -82,6 +82,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -104,7 +105,9 @@ class Solution:
 
         return dfs(root)[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -212,7 +219,9 @@ func lcaDeepestLeaves(root *TreeNode) *TreeNode {
 	return dfs(root).first
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -246,6 +255,7 @@ function lcaDeepestLeaves(root: TreeNode | null): TreeNode | null {
     return dfs(root)[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

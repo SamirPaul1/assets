@@ -60,6 +60,7 @@ Out of those triplets, only the triplet (0,1,3) satisfies pos2<sub>x</sub> &lt; 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -97,7 +98,9 @@ class Solution:
             tree.update(p, 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long goodTriplets(int[] nums1, int[] nums2) {
@@ -149,7 +152,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -250,6 +257,7 @@ func goodTriplets(nums1 []int, nums2 []int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +265,7 @@ func goodTriplets(nums1 []int, nums2 []int) int64 {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -319,7 +328,9 @@ class Solution:
             tree.modify(1, p, 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long goodTriplets(int[] nums1, int[] nums2) {
@@ -403,7 +414,9 @@ class SegmentTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -477,6 +490,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

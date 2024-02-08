@@ -68,6 +68,7 @@ g.shortestPath(0, 3); // return 6. The shortest path from 0 to 3 now is 0 -&gt; 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Graph:
     def __init__(self, n: int, edges: List[List[int]]):
@@ -100,7 +101,9 @@ class Graph:
 # obj.addEdge(edge)
 # param_2 = obj.shortestPath(node1,node2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Graph {
     private int n;
@@ -152,7 +155,9 @@ class Graph {
  * int param_2 = obj.shortestPath(node1,node2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Graph {
 public:
@@ -202,7 +207,9 @@ private:
  * int param_2 = obj->shortestPath(node1,node2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const inf = 1 << 29
 
@@ -263,7 +270,9 @@ func (this *Graph) ShortestPath(node1 int, node2 int) int {
  * param_2 := obj.ShortestPath(node1,node2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Graph {
     private g: number[][] = [];
@@ -309,7 +318,9 @@ class Graph {
  * var param_2 = obj.shortestPath(node1,node2)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Graph {
     private int n;
@@ -368,6 +379,7 @@ public class Graph {
  * int param_2 = obj.ShortestPath(node1,node2);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -72,6 +72,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the length of the two-
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:
@@ -83,7 +84,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumUnits(boxTypes [][]int, truckSize int) (ans int) {
 	sort.Slice(boxTypes, func(i, j int) bool { return boxTypes[i][1] > boxTypes[j][1] })
@@ -133,7 +140,9 @@ func maximumUnits(boxTypes [][]int, truckSize int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumUnits(boxTypes: number[][], truckSize: number): number {
     boxTypes.sort((a, b) => b[1] - a[1]);
@@ -151,7 +160,9 @@ function maximumUnits(boxTypes: number[][], truckSize: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum_units(mut box_types: Vec<Vec<i32>>, truck_size: i32) -> i32 {
@@ -171,6 +182,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -184,6 +196,7 @@ The time complexity is $O(M)$, where $M$ is the maximum number of units. In this
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:
@@ -200,7 +213,9 @@ class Solution:
                     break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
@@ -221,7 +236,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -243,7 +260,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumUnits(boxTypes [][]int, truckSize int) (ans int) {
 	cnt := [1001]int{}
@@ -261,7 +280,9 @@ func maximumUnits(boxTypes [][]int, truckSize int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumUnits(boxTypes: number[][], truckSize: number): number {
     const cnt = new Array(1001).fill(0);
@@ -279,6 +300,7 @@ function maximumUnits(boxTypes: number[][], truckSize: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

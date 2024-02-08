@@ -96,6 +96,7 @@ Employee table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT project_id
@@ -108,6 +109,7 @@ HAVING
         GROUP BY project_id
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -115,6 +117,7 @@ HAVING
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -129,6 +132,7 @@ SELECT project_id
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

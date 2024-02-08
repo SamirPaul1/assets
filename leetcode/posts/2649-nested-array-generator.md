@@ -65,6 +65,7 @@ generator.next().done; // true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type MultidimensionalArray = (MultidimensionalArray | number)[];
 
@@ -85,6 +86,7 @@ function* inorderTraversal(arr: MultidimensionalArray): Generator<number, void, 
  * gen.next().value; // 3
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

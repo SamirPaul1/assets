@@ -71,6 +71,7 @@ The answers for each of the queries are as follows:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(
@@ -96,7 +97,9 @@ class Solution:
                     ans[i] -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countPairs(int n, int[][] edges, int[] queries) {
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(n int, edges [][]int, queries []int) []int {
 	cnt := make([]int, n)
@@ -212,7 +219,9 @@ func countPairs(n int, edges [][]int, queries []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPairs(n: number, edges: number[][], queries: number[]): number[] {
     const cnt: number[] = new Array(n).fill(0);
@@ -255,6 +264,7 @@ function countPairs(n: number, edges: number[][], queries: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

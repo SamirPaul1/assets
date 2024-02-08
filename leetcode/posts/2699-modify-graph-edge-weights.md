@@ -95,6 +95,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$, where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def modifiedGraphEdges(
@@ -137,7 +138,9 @@ class Solution:
                 e[2] += target - d
         return edges if ok else []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int inf = 2000000000;
@@ -200,7 +203,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 const int inf = 2e9;
@@ -265,7 +270,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func modifiedGraphEdges(n int, edges [][]int, source int, destination int, target int) [][]int {
 	const inf int = 2e9
@@ -328,7 +335,9 @@ func modifiedGraphEdges(n int, edges [][]int, source int, destination int, targe
 	return [][]int{}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function modifiedGraphEdges(
     n: number,
@@ -389,6 +398,7 @@ function modifiedGraphEdges(
     return ok ? edges : [];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

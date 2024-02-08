@@ -1,6 +1,5 @@
 # [2861. Maximum Number of Alloys](https://leetcode.com/problems/maximum-number-of-alloys)
 
-[中文文档](/solution/2800-2899/2861.Maximum%20Number%20of%20Alloys/README.md)
 
 ## Description
 

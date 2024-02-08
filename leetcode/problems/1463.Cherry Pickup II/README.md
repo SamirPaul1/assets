@@ -1,6 +1,5 @@
 # [1463. Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii)
 
-[中文文档](/solution/1400-1499/1463.Cherry%20Pickup%20II/README.md)
 
 ## Description
 

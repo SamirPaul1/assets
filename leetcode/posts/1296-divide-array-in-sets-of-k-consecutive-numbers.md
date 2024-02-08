@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPossibleDivide(self, nums: List[int], k: int) -> bool:
@@ -79,7 +80,9 @@ class Solution:
                         cnt.pop(x)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPossibleDivide(nums []int, k int) bool {
 	cnt := map[int]int{}
@@ -153,6 +160,7 @@ func isPossibleDivide(nums []int, k int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -160,6 +168,7 @@ func isPossibleDivide(nums []int, k int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedDict
 
@@ -185,7 +194,9 @@ class Solution:
                     sd[i] -= 1
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
@@ -213,7 +224,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -235,7 +248,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPossibleDivide(nums []int, k int) bool {
 	if len(nums)%k != 0 {
@@ -265,6 +280,7 @@ func isPossibleDivide(nums []int, k int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

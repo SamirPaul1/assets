@@ -81,6 +81,7 @@ atm.withdraw(550);        // Returns [0,1,0,0,1]. The machine uses 1 $50 banknot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class ATM:
     def __init__(self):
@@ -108,7 +109,9 @@ class ATM:
 # obj.deposit(banknotesCount)
 # param_2 = obj.withdraw(amount)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ATM {
     private long[] cnt = new long[5];
@@ -146,7 +149,9 @@ class ATM {
  * int[] param_2 = obj.withdraw(amount);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class ATM {
 public:
@@ -186,7 +191,9 @@ private:
  * vector<int> param_2 = obj->withdraw(amount);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type ATM struct {
 	d   [5]int
@@ -225,6 +232,7 @@ func (this *ATM) Withdraw(amount int) []int {
  * param_2 := obj.Withdraw(amount);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

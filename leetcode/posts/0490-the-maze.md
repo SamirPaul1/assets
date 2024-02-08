@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hasPath(
@@ -93,7 +94,9 @@ class Solution:
         dfs(start[0], start[1])
         return vis[destination[0]][destination[1]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private boolean[][] vis;
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -170,7 +175,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hasPath(maze [][]int, start []int, destination []int) bool {
 	m, n := len(maze), len(maze[0])
@@ -202,6 +209,7 @@ func hasPath(maze [][]int, start []int, destination []int) bool {
 	return vis[destination[0]][destination[1]]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -209,6 +217,7 @@ func hasPath(maze [][]int, start []int, destination []int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hasPath(
@@ -231,7 +240,9 @@ class Solution:
                     q.append((x, y))
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
@@ -266,7 +277,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -299,7 +312,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hasPath(maze [][]int, start []int, destination []int) bool {
 	m, n := len(maze), len(maze[0])
@@ -332,6 +347,7 @@ func hasPath(maze [][]int, start []int, destination []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

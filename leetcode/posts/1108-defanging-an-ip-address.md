@@ -48,12 +48,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string. Ignoring t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def defangIPaddr(self, address: str) -> str:
         return address.replace('.', '[.]')
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String defangIPaddr(String address) {
@@ -61,7 +64,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -75,18 +80,23 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func defangIPaddr(address string) string {
 	return strings.Replace(address, ".", "[.]", -1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function defangIPaddr(address: string): string {
     return address.split('.').join('[.]');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

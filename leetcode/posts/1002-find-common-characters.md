@@ -44,6 +44,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def commonChars(self, words: List[str]) -> List[str]:
@@ -57,7 +58,9 @@ class Solution:
             ans.extend([c] * v)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> commonChars(String[] words) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func commonChars(words []string) (ans []string) {
 	cnt := [26]int{}
@@ -133,7 +140,9 @@ func commonChars(words []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function commonChars(words: string[]): string[] {
     const freq: number[] = new Array(26).fill(10000);
@@ -155,6 +164,7 @@ function commonChars(words: string[]): string[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

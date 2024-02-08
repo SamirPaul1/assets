@@ -60,6 +60,7 @@ Finally, player 1 has more score (234) than player 2 (12), so you need to return
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
@@ -71,7 +72,9 @@ class Solution:
 
         return dfs(0, len(nums) - 1) >= 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func PredictTheWinner(nums []int) bool {
 	n := len(nums)
@@ -137,7 +144,9 @@ func PredictTheWinner(nums []int) bool {
 	return dfs(0, n-1) >= 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function PredictTheWinner(nums: number[]): boolean {
     const n = nums.length;
@@ -154,7 +163,9 @@ function PredictTheWinner(nums: number[]): boolean {
     return dfs(0, n - 1) >= 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -183,6 +194,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -190,6 +202,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def PredictTheWinner(self, nums: List[int]) -> bool:
@@ -202,7 +215,9 @@ class Solution:
                 f[i][j] = max(nums[i] - f[i + 1][j], nums[j] - f[i][j - 1])
         return f[0][n - 1] >= 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean PredictTheWinner(int[] nums) {
@@ -220,7 +235,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -240,7 +257,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func PredictTheWinner(nums []int) bool {
 	n := len(nums)
@@ -257,7 +276,9 @@ func PredictTheWinner(nums []int) bool {
 	return f[0][n-1] >= 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function PredictTheWinner(nums: number[]): boolean {
     const n = nums.length;
@@ -273,6 +294,7 @@ function PredictTheWinner(nums: number[]): boolean {
     return f[0][n - 1] >= 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

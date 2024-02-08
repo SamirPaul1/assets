@@ -65,6 +65,7 @@ Since the third round will generate the final winner, you need to output the ans
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findContestMatch(self, n: int) -> str:
@@ -75,7 +76,9 @@ class Solution:
             n >>= 1
         return team[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findContestMatch(int n) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findContestMatch(n int) string {
 	team := make([]string, n)
@@ -124,6 +131,7 @@ func findContestMatch(n int) string {
 	return team[0]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

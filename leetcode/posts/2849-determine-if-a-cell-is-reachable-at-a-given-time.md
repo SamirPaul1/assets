@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isReachableAtTime(self, sx: int, sy: int, fx: int, fy: int, t: int) -> bool:
@@ -67,7 +68,9 @@ class Solution:
         dy = abs(sy - fy)
         return max(dx, dy) <= t
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isReachableAtTime(int sx, int sy, int fx, int fy, int t) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isReachableAtTime(sx int, sy int, fx int, fy int, t int) bool {
 	if sx == fx && sy == fy {
@@ -111,7 +118,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isReachableAtTime(sx: number, sy: number, fx: number, fy: number, t: number): boolean {
     if (sx === fx && sy === fy) {
@@ -122,7 +131,9 @@ function isReachableAtTime(sx: number, sy: number, fx: number, fy: number, t: nu
     return Math.max(dx, dy) <= t;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsReachableAtTime(int sx, int sy, int fx, int fy, int t) {
@@ -132,6 +143,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

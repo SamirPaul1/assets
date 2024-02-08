@@ -69,6 +69,7 @@ The time complexity is $O(m \times n)$, where $m$ and $n$ are the number of rows
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumNumberOfOnes(
@@ -83,7 +84,9 @@ class Solution:
         cnt.sort(reverse=True)
         return sum(cnt[:maxOnes])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumNumberOfOnes(int width, int height, int sideLength, int maxOnes) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumNumberOfOnes(width int, height int, sideLength int, maxOnes int) int {
 	x := sideLength
@@ -145,7 +152,9 @@ func maximumNumberOfOnes(width int, height int, sideLength int, maxOnes int) int
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} width
@@ -167,6 +176,7 @@ var maximumNumberOfOnes = function (width, height, sideLength, maxOnes) {
     return cnt.slice(0, maxOnes).reduce((a, b) => a + b, 0);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

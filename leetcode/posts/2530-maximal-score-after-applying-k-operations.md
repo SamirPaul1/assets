@@ -74,6 +74,7 @@ The time complexity is $O(n + k \times \log n)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxKelements(self, nums: List[int], k: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
             heappush(h, -(ceil(v / 3)))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxKelements(int[] nums, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxKelements(nums []int, k int) (ans int64) {
 	h := &hp{nums}
@@ -147,7 +154,9 @@ func (h *hp) Pop() any {
 func (h *hp) push(v int) { heap.Push(h, v) }
 func (h *hp) pop() int   { return heap.Pop(h).(int) }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxKelements(nums: number[], k: number): number {
     const pq = new MaxPriorityQueue();
@@ -162,7 +171,9 @@ function maxKelements(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::BinaryHeap;
 
@@ -182,6 +193,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -189,6 +201,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxKelements(self, nums: List[int], k: int) -> int:
@@ -200,7 +213,9 @@ class Solution:
             ans -= heapreplace(nums, -ceil(-nums[0] / 3))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -218,7 +233,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxKelements(nums []int, k int) (ans int64) {
 	h := hp{nums}
@@ -237,6 +254,7 @@ func (h hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
 func (hp) Push(any)             {}
 func (hp) Pop() (_ any)         { return }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

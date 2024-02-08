@@ -81,12 +81,15 @@ The time complexity is $O(\log n)$, and the space complexity is $O(\log n)$. Her
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def alternateDigitSum(self, n: int) -> int:
         return sum((-1) ** i * int(x) for i, x in enumerate(str(n)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int alternateDigitSum(int n) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func alternateDigitSum(n int) (ans int) {
 	sign := 1
@@ -127,7 +134,9 @@ func alternateDigitSum(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function alternateDigitSum(n: number): number {
     let ans = 0;
@@ -140,7 +149,9 @@ function alternateDigitSum(n: number): number {
     return ans * -sign;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn alternate_digit_sum(mut n: i32) -> i32 {
@@ -155,7 +166,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int alternateDigitSum(int n) {
     int ans = 0;
@@ -168,6 +181,7 @@ int alternateDigitSum(int n) {
     return ans * -sign;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -175,6 +189,7 @@ int alternateDigitSum(int n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def alternateDigitSum(self, n: int) -> int:
@@ -185,7 +200,9 @@ class Solution:
             sign *= -1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn alternate_digit_sum(n: i32) -> i32 {
@@ -202,6 +219,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

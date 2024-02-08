@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkPossibility(self, nums: List[int]) -> bool:
@@ -72,7 +73,9 @@ class Solution:
                 return is_sorted(nums)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkPossibility(nums []int) bool {
 	isSorted := func(nums []int) bool {
@@ -149,7 +156,9 @@ func checkPossibility(nums []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkPossibility(nums: number[]): boolean {
     const isSorted = (nums: number[]) => {
@@ -176,6 +185,7 @@ function checkPossibility(nums: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

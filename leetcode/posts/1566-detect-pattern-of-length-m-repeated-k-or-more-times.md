@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def containsPattern(self, arr: List[int], m: int, k: int) -> bool:
@@ -80,7 +81,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean containsPattern(int[] arr, int m, int k) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func containsPattern(arr []int, m int, k int) bool {
 	n := len(arr)
@@ -139,7 +146,9 @@ func containsPattern(arr []int, m int, k int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function containsPattern(arr: number[], m: number, k: number): boolean {
     const n = arr.length;
@@ -157,6 +166,7 @@ function containsPattern(arr: number[], m: number, k: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [849. Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person)
 
-[中文文档](/solution/0800-0899/0849.Maximize%20Distance%20to%20Closest%20Person/README.md)
 
 ## Description
 

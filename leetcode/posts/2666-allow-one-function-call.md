@@ -66,6 +66,7 @@ onceFn(4, 6, 8); // undefined, fn was not called
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function once<T extends (...args: any[]) => any>(
     fn: T,
@@ -87,6 +88,7 @@ function once<T extends (...args: any[]) => any>(
  * onceFn(2,3,6); // returns undefined without calling fn
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

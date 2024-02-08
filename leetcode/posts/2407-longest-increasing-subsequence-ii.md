@@ -95,6 +95,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -153,7 +154,9 @@ class Solution:
             tree.modify(1, v, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthOfLIS(int[] nums, int k) {
@@ -234,7 +237,9 @@ class SegmentTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -303,7 +308,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthOfLIS(nums []int, k int) int {
 	mx := slices.Max(nums)
@@ -381,6 +388,7 @@ func (t *segmentTree) pushup(u int) {
 	t.tr[u].v = max(t.tr[u<<1].v, t.tr[u<<1|1].v)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

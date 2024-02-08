@@ -1,6 +1,5 @@
 # [2368. Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions)
 
-[中文文档](/solution/2300-2399/2368.Reachable%20Nodes%20With%20Restrictions/README.md)
 
 ## Description
 

@@ -75,6 +75,7 @@ The time complexity is $O(n^2 \times C)$. Where $n$ is the length of the string 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
@@ -90,7 +91,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][][] f;
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindromeSubseq(s string) int {
 	n := len(s)
@@ -184,6 +191,7 @@ func longestPalindromeSubseq(s string) int {
 	return dfs(0, n-1, 26)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

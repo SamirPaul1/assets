@@ -95,6 +95,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMoves(self, grid: List[List[int]]) -> int:
@@ -131,7 +132,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -185,7 +188,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -239,7 +244,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumMoves(grid [][]int) int {
 	n := len(grid)
@@ -292,7 +299,9 @@ func minimumMoves(grid [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumMoves(grid: number[][]): number {
     const n = grid.length;
@@ -340,7 +349,9 @@ function minimumMoves(grid: number[][]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} grid
@@ -392,6 +403,7 @@ var minimumMoves = function (grid) {
     return -1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

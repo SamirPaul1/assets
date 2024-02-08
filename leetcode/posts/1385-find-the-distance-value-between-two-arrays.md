@@ -80,6 +80,7 @@ The time complexity is $O((m + n) \times \log n)$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheDistanceValue(self, arr1: List[int], arr2: List[int], d: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
         arr2.sort()
         return sum(check(a) for a in arr1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheDistanceValue(arr1 []int, arr2 []int, d int) (ans int) {
 	sort.Ints(arr2)
@@ -149,7 +156,9 @@ func findTheDistanceValue(arr1 []int, arr2 []int, d int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheDistanceValue(arr1: number[], arr2: number[], d: number): number {
     const check = (a: number) => {
@@ -175,7 +184,9 @@ function findTheDistanceValue(arr1: number[], arr2: number[], d: number): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_distance_value(arr1: Vec<i32>, mut arr2: Vec<i32>, d: i32) -> i32 {
@@ -205,6 +216,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

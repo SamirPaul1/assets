@@ -58,13 +58,16 @@ The smallest possible number of rabbits in the forest is therefore 5: 3 that ans
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         counter = Counter(answers)
         return sum([math.ceil(v / (k + 1)) * (k + 1) for k, v in counter.items()])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numRabbits(int[] answers) {
@@ -81,6 +84,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

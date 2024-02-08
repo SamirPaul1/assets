@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def verifyPreorder(self, preorder: List[int]) -> bool:
@@ -67,7 +68,9 @@ class Solution:
             stk.append(x)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean verifyPreorder(int[] preorder) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func verifyPreorder(preorder []int) bool {
 	var stk []int
@@ -123,6 +130,7 @@ func verifyPreorder(preorder []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

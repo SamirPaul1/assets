@@ -90,6 +90,7 @@ foodRatings.highestRated(&quot;japanese&quot;); // return &quot;ramen&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -118,7 +119,9 @@ class FoodRatings:
 # obj.changeRating(food,newRating)
 # param_2 = obj.highestRated(cuisine)
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pis = pair<int, string>;
 
@@ -156,6 +159,7 @@ public:
  * string param_2 = obj->highestRated(cuisine);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ Explanation:</strong> Increment the first element three times and the second ele
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
             ans = max(ans, r - l)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxFrequency(int[] nums, int k) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxFrequency(nums []int, k int) int {
 	sort.Ints(nums)
@@ -136,7 +143,9 @@ func maxFrequency(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxFrequency(nums: number[], k: number): number {
     nums.sort((a, b) => a - b);
@@ -153,7 +162,9 @@ function maxFrequency(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -175,6 +186,7 @@ var maxFrequency = function (nums, k) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -182,6 +194,7 @@ var maxFrequency = function (nums, k) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxFrequency(self, nums: List[int], k: int) -> int:
@@ -204,7 +217,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private long[] s;
@@ -244,7 +259,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -278,7 +295,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxFrequency(nums []int, k int) int {
 	sort.Ints(nums)
@@ -308,7 +327,9 @@ func maxFrequency(nums []int, k int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxFrequency(nums: number[], k: number): number {
     nums.sort((a, b) => a - b);
@@ -339,7 +360,9 @@ function maxFrequency(nums: number[], k: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -375,6 +398,7 @@ var maxFrequency = function (nums, k) {
     return left;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

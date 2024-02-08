@@ -73,6 +73,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVowelSubstrings(self, word: str) -> int:
@@ -80,7 +81,9 @@ class Solution:
         s = set('aeiou')
         return sum(set(word[i:j]) == s for i in range(n) for j in range(i + 1, n + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countVowelSubstrings(String word) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countVowelSubstrings(word string) int {
 	ans, n := 0, len(word)
@@ -151,7 +158,9 @@ func countVowelSubstrings(word string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countVowelSubstrings(word: string): number {
     let ans = 0;
@@ -172,6 +181,7 @@ function countVowelSubstrings(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -179,6 +189,7 @@ function countVowelSubstrings(word: string): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVowelSubstrings(self, word: str) -> int:
@@ -193,6 +204,7 @@ class Solution:
                 ans += len(t) == 5
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

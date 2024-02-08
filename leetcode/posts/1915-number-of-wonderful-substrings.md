@@ -83,6 +83,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wonderfulSubstrings(self, word: str) -> int:
@@ -96,7 +97,9 @@ class Solution:
             cnt[st] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long wonderfulSubstrings(String word) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wonderfulSubstrings(word string) (ans int64) {
 	cnt := [1024]int{1}
@@ -152,7 +159,9 @@ func wonderfulSubstrings(word string) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wonderfulSubstrings(word: string): number {
     const cnt: number[] = new Array(1 << 10).fill(0);
@@ -170,7 +179,9 @@ function wonderfulSubstrings(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} word
@@ -192,6 +203,7 @@ var wonderfulSubstrings = function (word) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

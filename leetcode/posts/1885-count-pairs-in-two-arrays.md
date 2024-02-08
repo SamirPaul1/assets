@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(self, nums1: List[int], nums2: List[int]) -> int:
@@ -68,7 +69,9 @@ class Solution:
         d.sort()
         return sum(n - bisect_right(d, -v, lo=i + 1) for i, v in enumerate(d))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long countPairs(int[] nums1, int[] nums2) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(nums1 []int, nums2 []int) int64 {
 	n := len(nums1)
@@ -138,6 +145,7 @@ func countPairs(nums1 []int, nums2 []int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

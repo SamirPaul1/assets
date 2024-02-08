@@ -68,10 +68,12 @@ Days table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT DATE_FORMAT(day, '%W, %M %e, %Y') AS day FROM Days;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

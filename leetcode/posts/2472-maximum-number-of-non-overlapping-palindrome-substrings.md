@@ -79,6 +79,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxPalindromes(self, s: str, k: int) -> int:
@@ -101,7 +102,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private boolean[][] dp;
@@ -146,7 +149,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxPalindromes(s string, k int) int {
 	n := len(s)
@@ -213,6 +220,7 @@ func maxPalindromes(s string, k int) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

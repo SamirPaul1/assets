@@ -80,6 +80,7 @@ The time complexity is $O((n + |\Sigma|) \times \log n)$, and the space complexi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumLength(self, s: str) -> int:
@@ -104,7 +105,9 @@ class Solution:
                 r = mid - 1
         return -1 if l == 0 else l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumLength(s string) int {
 	n := len(s)
@@ -213,7 +220,9 @@ func maximumLength(s string) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumLength(s: string): number {
     const n = s.length;
@@ -245,6 +254,7 @@ function maximumLength(s: string): number {
     return l === 0 ? -1 : l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

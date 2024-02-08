@@ -59,13 +59,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
         g = [list(col) for col in zip(*grid)]
         return sum(row == col for row in grid for col in g)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int equalPairs(int[][] grid) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func equalPairs(grid [][]int) (ans int) {
 	n := len(grid)
@@ -141,7 +148,9 @@ func equalPairs(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function equalPairs(grid: number[][]): number {
     const n = grid.length;
@@ -160,6 +169,7 @@ function equalPairs(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -167,6 +177,7 @@ function equalPairs(grid: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
@@ -177,7 +188,9 @@ class Solution:
                 ans += all(grid[i][k] == grid[k][j] for k in range(n))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int equalPairs(int[][] grid) {
@@ -199,7 +212,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -222,7 +237,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func equalPairs(grid [][]int) (ans int) {
 	for i := range grid {
@@ -240,7 +257,9 @@ func equalPairs(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function equalPairs(grid: number[][]): number {
     const n = grid.length;
@@ -260,6 +279,7 @@ function equalPairs(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

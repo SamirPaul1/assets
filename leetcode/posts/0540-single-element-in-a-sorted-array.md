@@ -47,6 +47,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
@@ -60,7 +61,9 @@ class Solution:
                 left = mid + 1
         return nums[left]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int singleNonDuplicate(int[] nums) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func singleNonDuplicate(nums []int) int {
 	left, right := 0, len(nums)-1
@@ -111,7 +118,9 @@ func singleNonDuplicate(nums []int) int {
 	return nums[left]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function singleNonDuplicate(nums: number[]): number {
     let left = 0,
@@ -127,7 +136,9 @@ function singleNonDuplicate(nums: number[]): number {
     return nums[left];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn single_non_duplicate(nums: Vec<i32>) -> i32 {
@@ -145,7 +156,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int singleNonDuplicate(int* nums, int numsSize) {
     int left = 0;
@@ -161,6 +174,7 @@ int singleNonDuplicate(int* nums, int numsSize) {
     return nums[left];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

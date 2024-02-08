@@ -66,13 +66,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
         t = sorted(set(arr))
         return [bisect_right(t, x) for x in arr]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayRankTransform(arr []int) (ans []int) {
 	t := make([]int, len(arr))
@@ -129,7 +136,9 @@ func arrayRankTransform(arr []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arrayRankTransform(arr: number[]): number[] {
     const t = [...arr].sort((a, b) => a - b);
@@ -158,6 +167,7 @@ function arrayRankTransform(arr: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

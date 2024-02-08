@@ -90,6 +90,7 @@ context = {&quot;context&quot;: 5}
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 Array.prototype.forEach = function (callback: Function, context: any): void {
     for (let i = 0; i < this.length; ++i) {
@@ -107,6 +108,7 @@ Array.prototype.forEach = function (callback: Function, context: any): void {
  *  console.log(arr) // [2,4,6]
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def restoreString(self, s: str, indices: List[int]) -> str:
@@ -65,7 +66,9 @@ class Solution:
             ans[indices[i]] = c
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String restoreString(String s, int[] indices) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func restoreString(s string, indices []int) string {
 	ans := make([]rune, len(s))
@@ -102,7 +109,9 @@ func restoreString(s string, indices []int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -117,6 +126,7 @@ var restoreString = function (s, indices) {
     return rs.join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

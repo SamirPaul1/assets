@@ -73,6 +73,7 @@ The third house of cards uses 2 cards.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def houseOfCards(self, n: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
 
         return dfs(n, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func houseOfCards(n int) int {
 	f := make([][]int, n+1)
@@ -163,7 +170,9 @@ func houseOfCards(n int) int {
 	return dfs(n, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function houseOfCards(n: number): number {
     const f: number[][] = Array(n + 1)
@@ -185,6 +194,7 @@ function houseOfCards(n: number): number {
     return dfs(n, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

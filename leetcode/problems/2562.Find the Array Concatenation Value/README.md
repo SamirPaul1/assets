@@ -1,6 +1,5 @@
 # [2562. Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value)
 
-[中文文档](/solution/2500-2599/2562.Find%20the%20Array%20Concatenation%20Value/README.md)
 
 ## Description
 

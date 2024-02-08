@@ -64,12 +64,15 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def missingNumber(self, arr: List[int]) -> int:
         return (arr[0] + arr[-1]) * (len(arr) + 1) // 2 - sum(arr)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int missingNumber(int[] arr) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func missingNumber(arr []int) int {
 	n := len(arr)
@@ -105,6 +112,7 @@ func missingNumber(arr []int) int {
 	return arr[0]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -112,6 +120,7 @@ func missingNumber(arr []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def missingNumber(self, arr: List[int]) -> int:
@@ -122,7 +131,9 @@ class Solution:
                 return arr[i - 1] + d
         return arr[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int missingNumber(int[] arr) {
@@ -137,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,6 +163,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

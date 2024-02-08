@@ -77,6 +77,7 @@ Maximum sum is obtained with the path [6,7,8,9,10].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSum(self, nums1: List[int], nums2: List[int]) -> int:
@@ -103,7 +104,9 @@ class Solution:
                 j += 1
         return max(f, g) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSum(int[] nums1, int[] nums2) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSum(nums1 []int, nums2 []int) int {
 	const mod int = 1e9 + 7
@@ -188,7 +195,9 @@ func maxSum(nums1 []int, nums2 []int) int {
 	return max(f, g) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSum(nums1: number[], nums2: number[]): number {
     const mod = 1e9 + 7;
@@ -214,6 +223,7 @@ function maxSum(nums1: number[], nums2: number[]): number {
     return Math.max(f, g) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

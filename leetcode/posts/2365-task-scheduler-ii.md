@@ -83,6 +83,7 @@ It can be shown that the tasks cannot be completed in less than 6 days.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def taskSchedulerII(self, tasks: List[int], space: int) -> int:
@@ -94,7 +95,9 @@ class Solution:
             day[task] = ans + space + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long taskSchedulerII(int[] tasks, int space) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func taskSchedulerII(tasks []int, space int) (ans int64) {
 	day := map[int]int64{}
@@ -139,7 +146,9 @@ func taskSchedulerII(tasks []int, space int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function taskSchedulerII(tasks: number[], space: number): number {
     const day = new Map<number, number>();
@@ -152,6 +161,7 @@ function taskSchedulerII(tasks: number[], space: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2933. High-Access Employees](https://leetcode.com/problems/high-access-employees)
 
-[中文文档](/solution/2900-2999/2933.High-Access%20Employees/README.md)
 
 ## Description
 

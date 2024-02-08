@@ -1,6 +1,5 @@
 # [143. Reorder List](https://leetcode.com/problems/reorder-list)
 
-[中文文档](/solution/0100-0199/0143.Reorder%20List/README.md)
 
 ## Description
 

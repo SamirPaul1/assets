@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minEatingSpeed(piles []int, h int) int {
 	return sort.Search(1e9, func(i int) bool {
@@ -132,7 +139,9 @@ func minEatingSpeed(piles []int, h int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minEatingSpeed(piles: number[], h: number): number {
     let left = 1;
@@ -152,7 +161,9 @@ function minEatingSpeed(piles: number[], h: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MinEatingSpeed(int[] piles, int h) {
@@ -178,6 +189,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

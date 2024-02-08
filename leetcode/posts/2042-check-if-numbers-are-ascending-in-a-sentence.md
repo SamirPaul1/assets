@@ -80,6 +80,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areNumbersAscending(self, s: str) -> bool:
@@ -91,7 +92,9 @@ class Solution:
                 pre = cur
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean areNumbersAscending(String s) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func areNumbersAscending(s string) bool {
 	pre := 0
@@ -146,7 +153,9 @@ func areNumbersAscending(s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areNumbersAscending(s: string): boolean {
     let pre = -1;
@@ -162,7 +171,9 @@ function areNumbersAscending(s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn are_numbers_ascending(s: String) -> bool {
@@ -180,7 +191,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool areNumbersAscending(char* s) {
     int pre = -1;
@@ -204,6 +217,7 @@ bool areNumbersAscending(char* s) {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -211,6 +225,7 @@ bool areNumbersAscending(char* s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areNumbersAscending(self, s: str) -> bool:
@@ -229,6 +244,7 @@ class Solution:
                 i += 1
         return True
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

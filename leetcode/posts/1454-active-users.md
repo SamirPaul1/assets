@@ -103,6 +103,7 @@ User Jonathan with id = 7 logged in 7 times in 6 different days, five of them we
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH t AS
@@ -118,6 +119,7 @@ WITH t AS
 FROM t
 WHERE cnt=5;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

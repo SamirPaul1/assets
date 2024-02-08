@@ -74,6 +74,7 @@ A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
         s = sum(v == x for v in cnt.values())
         return max(len(tasks), (x - 1) * (n + 1) + s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int leastInterval(char[] tasks, int n) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func leastInterval(tasks []byte, n int) int {
 	cnt := make([]int, 26)
@@ -142,7 +149,9 @@ func leastInterval(tasks []byte, n int) int {
 	return max(len(tasks), (x-1)*(n+1)+s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int LeastInterval(char[] tasks, int n) {
@@ -160,6 +169,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

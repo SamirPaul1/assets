@@ -1,6 +1,5 @@
 # [79. Word Search](https://leetcode.com/problems/word-search)
 
-[中文文档](/solution/0000-0099/0079.Word%20Search/README.md)
 
 ## Description
 

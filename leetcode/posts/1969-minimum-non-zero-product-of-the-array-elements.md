@@ -78,13 +78,16 @@ The array product is 1 * 6 * 1 * 6 * 1 * 6 * 7 = 1512, which is the minimum poss
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNonZeroProduct(self, p: int) -> int:
         mod = 10**9 + 7
         return (2**p - 1) * pow(2**p - 2, 2 ** (p - 1) - 1, mod) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNonZeroProduct(int p) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNonZeroProduct(p int) int {
 	const mod int = 1e9 + 7
@@ -148,7 +155,9 @@ func minNonZeroProduct(p int) int {
 	return a * b % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNonZeroProduct(p: number): number {
     const mod = BigInt(1e9 + 7);
@@ -168,6 +177,7 @@ function minNonZeroProduct(p: number): number {
     return Number((a * b) % mod);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

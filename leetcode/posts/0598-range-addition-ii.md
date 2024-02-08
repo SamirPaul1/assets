@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
@@ -71,7 +72,9 @@ class Solution:
             n = min(n, b)
         return m * n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxCount(int m, int n, int[][] ops) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxCount(m int, n int, ops [][]int) int {
 	for _, op := range ops {
@@ -106,6 +113,7 @@ func maxCount(m int, n int, ops [][]int) int {
 	return m * n
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

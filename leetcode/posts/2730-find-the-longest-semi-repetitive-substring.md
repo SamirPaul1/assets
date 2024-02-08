@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestSemiRepetitiveSubstring(self, s: str) -> int:
@@ -81,7 +82,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestSemiRepetitiveSubstring(String s) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestSemiRepetitiveSubstring(s string) (ans int) {
 	n := len(s)
@@ -145,7 +152,9 @@ func longestSemiRepetitiveSubstring(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestSemiRepetitiveSubstring(s: string): number {
     const n = s.length;
@@ -165,6 +174,7 @@ function longestSemiRepetitiveSubstring(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -108,6 +108,7 @@ fn = (obj) =&gt; {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Obj = Array<any> | Record<any, any>;
 
@@ -148,6 +149,7 @@ function makeImmutable(obj: Obj): Obj {
  * obj.x = 6; // throws "Error Modifying x"
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,6 +73,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validTicTacToe(self, board: List[str]) -> bool:
@@ -94,7 +95,9 @@ class Solution:
             return False
         return not (win('O') and x != o)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String[] board;
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -165,7 +170,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validTicTacToe(board []string) bool {
 	var x, o int
@@ -201,7 +208,9 @@ func validTicTacToe(board []string) bool {
 	return !(win('O') && x != o)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string[]} board
@@ -241,6 +250,7 @@ var validTicTacToe = function (board) {
     return !(win('O') && x != o);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

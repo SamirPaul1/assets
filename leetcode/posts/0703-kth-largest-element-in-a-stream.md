@@ -65,6 +65,7 @@ kthLargest.add(4);   // return 8
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class KthLargest:
     def __init__(self, k: int, nums: List[int]):
@@ -84,7 +85,9 @@ class KthLargest:
 # obj = KthLargest(k, nums)
 # param_1 = obj.add(val)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class KthLargest {
     private PriorityQueue<Integer> q;
@@ -113,7 +116,9 @@ class KthLargest {
  * int param_1 = obj.add(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class KthLargest {
 public:
@@ -138,7 +143,9 @@ public:
  * int param_1 = obj->add(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type KthLargest struct {
 	h *IntHeap
@@ -214,7 +221,9 @@ func (h *IntHeap) Top() int {
  * param_1 := obj.Add(val);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} k
@@ -331,6 +340,7 @@ class MinHeap {
  * var param_1 = obj.add(val)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

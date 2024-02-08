@@ -73,13 +73,16 @@ The remaining words have a length of at least 3, so the first letter of each rem
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def capitalizeTitle(self, title: str) -> str:
         words = [w.lower() if len(w) < 3 else w.capitalize() for w in title.split()]
         return " ".join(words)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String capitalizeTitle(String title) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func capitalizeTitle(title string) string {
 	title = strings.ToLower(title)
@@ -126,7 +133,9 @@ func capitalizeTitle(title string) string {
 	return strings.Join(words, " ")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function capitalizeTitle(title: string): string {
     const ans: string[] = [];
@@ -140,6 +149,7 @@ function capitalizeTitle(title: string): string {
     return ans.join(' ');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -147,6 +157,7 @@ function capitalizeTitle(title: string): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function capitalizeTitle(title: string): string {
     return title
@@ -159,6 +170,7 @@ function capitalizeTitle(title: string): string {
         .join(' ');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -127,6 +127,7 @@ We know nothing about the average weather_state in Spain in November so we do no
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -142,6 +143,7 @@ FROM
 WHERE DATE_FORMAT(day, '%Y-%m') = '2019-11'
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

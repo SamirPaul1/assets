@@ -1,6 +1,5 @@
 # [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix)
 
-[中文文档](/solution/0000-0099/0054.Spiral%20Matrix/README.md)
 
 ## Description
 

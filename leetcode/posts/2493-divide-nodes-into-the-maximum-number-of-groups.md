@@ -74,6 +74,7 @@ It can be shown that no grouping is possible.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def magnificentSets(self, n: int, edges: List[List[int]]) -> int:
@@ -121,7 +122,9 @@ class Solution:
                 ans += t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -201,7 +204,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -269,7 +274,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func magnificentSets(n int, edges [][]int) int {
 	g := make([][]int, n+1)
@@ -349,7 +356,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var magnificentSets = function (n, edges) {
     const graph = Array.from({ length: n + 1 }, () => new Set());
@@ -393,6 +402,7 @@ var magnificentSets = function (n, edges) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

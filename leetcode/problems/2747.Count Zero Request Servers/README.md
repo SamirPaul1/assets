@@ -1,6 +1,5 @@
 # [2747. Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers)
 
-[中文文档](/solution/2700-2799/2747.Count%20Zero%20Request%20Servers/README.md)
 
 ## Description
 

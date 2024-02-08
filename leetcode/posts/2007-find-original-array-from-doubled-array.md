@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findOriginalArray(self, changed: List[int]) -> List[int]:
@@ -95,7 +96,9 @@ class Solution:
             cnt[x * 2] -= 1
         return ans if len(ans) == n // 2 else []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findOriginalArray(int[] changed) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findOriginalArray(changed []int) []int {
 	n := len(changed)
@@ -185,7 +192,9 @@ func findOriginalArray(changed []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findOriginalArray(changed: number[]): number[] {
     const n = changed.length;
@@ -212,6 +221,7 @@ function findOriginalArray(changed: number[]): number[] {
     return ans.length == n / 2 ? ans : [];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ The time complexity is $O(n \times \log \log n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numPrimeArrangements(self, n: int) -> int:
@@ -83,7 +84,9 @@ class Solution:
         ans = factorial(cnt) * factorial(n - cnt)
         return ans % (10**9 + 7)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 const int MOD = 1e9 + 7;
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numPrimeArrangements(n int) int {
 	count := func(n int) int {
@@ -184,6 +191,7 @@ func numPrimeArrangements(n int) int {
 	return ans % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

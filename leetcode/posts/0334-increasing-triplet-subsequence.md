@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
@@ -76,7 +77,9 @@ class Solution:
                 mid = num
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean increasingTriplet(int[] nums) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func increasingTriplet(nums []int) bool {
 	min, mid := math.MaxInt32, math.MaxInt32
@@ -134,7 +141,9 @@ func increasingTriplet(nums []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function increasingTriplet(nums: number[]): boolean {
     let n = nums.length;
@@ -153,7 +162,9 @@ function increasingTriplet(nums: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn increasing_triplet(nums: Vec<i32>) -> bool {
@@ -176,6 +187,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -183,6 +195,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean increasingTriplet(int[] nums) {
@@ -201,6 +214,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [1998. GCD Sort of an Array](https://leetcode.com/problems/gcd-sort-of-an-array)
 
-[中文文档](/solution/1900-1999/1998.GCD%20Sort%20of%20an%20Array/README.md)
 
 ## Description
 

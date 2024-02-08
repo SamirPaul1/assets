@@ -69,6 +69,7 @@ Every node in the resulting graph is connected to an even number of edges.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPossible(self, n: int, edges: List[List[int]]) -> bool:
@@ -95,7 +96,9 @@ class Solution:
             return False
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPossible(int n, List<List<Integer>> edges) {
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -185,7 +190,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPossible(n int, edges [][]int) bool {
 	g := make([]map[int]bool, n+1)
@@ -236,6 +243,7 @@ func isPossible(n int, edges [][]int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

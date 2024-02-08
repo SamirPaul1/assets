@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMeasureWater(
@@ -105,7 +106,9 @@ class Solution:
                 stk.append([0, cur1 + cur2])
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity) {
@@ -146,7 +149,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canMeasureWater(jug1Capacity int, jug2Capacity int, targetCapacity int) bool {
 	if jug1Capacity+jug2Capacity < targetCapacity {
@@ -182,7 +189,9 @@ func canMeasureWater(jug1Capacity int, jug2Capacity int, targetCapacity int) boo
 	return targetCapacity%gcd(jug1Capacity, jug2Capacity) == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System;
 
@@ -210,6 +219,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -217,6 +227,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMeasureWater(
@@ -228,7 +239,9 @@ class Solution:
             return targetCapacity == 0 or jug1Capacity + jug2Capacity == targetCapacity
         return targetCapacity % gcd(jug1Capacity, jug2Capacity) == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canMeasureWater(int jug1Capacity, int jug2Capacity, int targetCapacity) {
@@ -246,6 +259,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

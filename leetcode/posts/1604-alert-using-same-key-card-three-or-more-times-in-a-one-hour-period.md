@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def alertNames(self, keyName: List[str], keyTime: List[str]) -> List[str]:
@@ -82,7 +83,9 @@ class Solution:
         ans.sort()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> alertNames(String[] keyName, String[] keyTime) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func alertNames(keyName []string, keyTime []string) (ans []string) {
 	d := map[string][]int{}
@@ -171,6 +178,7 @@ func alertNames(keyName []string, keyTime []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

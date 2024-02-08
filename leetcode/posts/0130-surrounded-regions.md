@@ -59,6 +59,7 @@ The other three &#39;O&#39; form a surrounded region, so they are flipped.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
@@ -87,7 +88,9 @@ class Solution:
                 elif board[i][j] == '.':
                     board[i][j] = 'O'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private char[][] board;
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func solve(board [][]byte) {
 	m, n := len(board), len(board[0])
@@ -193,7 +200,9 @@ func solve(board [][]byte) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify board in-place instead.
@@ -230,7 +239,9 @@ function solve(board: string[][]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: usize, j: usize, mark: char, vis: &mut Vec<Vec<bool>>, board: &mut Vec<Vec<char>>) {
@@ -275,7 +286,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System;
 using System.Collections.Generic;
@@ -338,6 +351,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -345,6 +359,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
@@ -374,7 +389,9 @@ class Solution:
                 if board[i][j] == 'O' and find(i * n + j) != find(m * n):
                     board[i][j] = 'X'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -421,7 +438,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -458,7 +477,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func solve(board [][]byte) {
 	m, n := len(board), len(board[0])
@@ -499,7 +520,9 @@ func solve(board [][]byte) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify board in-place instead.
@@ -544,6 +567,7 @@ function solve(board: string[][]): void {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

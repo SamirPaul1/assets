@@ -44,6 +44,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def originalDigits(self, s: str) -> str:
@@ -65,7 +66,9 @@ class Solution:
 
         return ''.join(cnt[i] * str(i) for i in range(10))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String originalDigits(String s) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func originalDigits(s string) string {
 	counter := make([]int, 26)
@@ -154,6 +161,7 @@ func originalDigits(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

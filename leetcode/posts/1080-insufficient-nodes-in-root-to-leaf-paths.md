@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -82,7 +83,9 @@ class Solution:
         root.right = self.sufficientSubset(root.right, limit)
         return None if root.left is None and root.right is None else root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -175,7 +182,9 @@ func sufficientSubset(root *TreeNode, limit int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -204,7 +213,9 @@ function sufficientSubset(root: TreeNode | null, limit: number): TreeNode | null
     return root.left === null && root.right === null ? null : root;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -232,6 +243,7 @@ var sufficientSubset = function (root, limit) {
     return root.left === null && root.right === null ? null : root;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

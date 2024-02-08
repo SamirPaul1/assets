@@ -58,6 +58,7 @@ If instead we turned both strings into &quot;lee&quot; or &quot;eet&quot;, we wo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int:
@@ -77,7 +78,9 @@ class Solution:
                     )
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDeleteSum(String s1, String s2) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDeleteSum(s1 string, s2 string) int {
 	m, n := len(s1), len(s2)
@@ -156,7 +163,9 @@ func minimumDeleteSum(s1 string, s2 string) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDeleteSum(s1: string, s2: string): number {
     const m = s1.length;
@@ -183,7 +192,9 @@ function minimumDeleteSum(s1: string, s2: string): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s1
@@ -215,6 +226,7 @@ var minimumDeleteSum = function (s1, s2) {
     return f[m][n];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

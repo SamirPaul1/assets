@@ -73,6 +73,7 @@ The time complexity is $O(n \times \log M)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getGoodIndices(self, variables: List[List[int]], target: int) -> List[int]:
@@ -82,7 +83,9 @@ class Solution:
             if pow(pow(a, b, 10), c, m) == target
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> getGoodIndices(int[][] variables, int target) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getGoodIndices(variables [][]int, target int) (ans []int) {
 	qpow := func(a, n, mod int) int {
@@ -158,7 +165,9 @@ func getGoodIndices(variables [][]int, target int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getGoodIndices(variables: number[][], target: number): number[] {
     const qpow = (a: number, n: number, mod: number) => {
@@ -181,6 +190,7 @@ function getGoodIndices(variables: number[][], target: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ The absolute difference between the sums of the arrays is abs((2 + 4 + -9) - (-1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDifference(self, nums: List[int]) -> int:
@@ -105,7 +106,9 @@ class Solution:
                     ans = min(ans, abs(a + gi[left - 1]))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDifference(int[] nums) {
@@ -156,7 +159,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -204,7 +209,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDifference(nums []int) int {
 	n := len(nums) >> 1
@@ -261,6 +268,7 @@ func abs(x int) int {
 	return -x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

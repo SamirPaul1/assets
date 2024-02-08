@@ -53,12 +53,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isThree(self, n: int) -> bool:
         return sum(n % i == 0 for i in range(2, n)) == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isThree(int n) {
@@ -72,7 +75,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -85,7 +90,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isThree(n int) bool {
 	cnt := 0
@@ -97,7 +104,9 @@ func isThree(n int) bool {
 	return cnt == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -113,6 +122,7 @@ var isThree = function (n) {
     return cnt == 1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -120,6 +130,7 @@ var isThree = function (n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isThree(self, n: int) -> bool:
@@ -131,7 +142,9 @@ class Solution:
             i += 1
         return cnt == 3
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isThree(int n) {
@@ -145,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +175,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isThree(n int) bool {
 	cnt := 0
@@ -176,7 +193,9 @@ func isThree(n int) bool {
 	return cnt == 3
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -192,6 +211,7 @@ var isThree = function (n) {
     return cnt == 3;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

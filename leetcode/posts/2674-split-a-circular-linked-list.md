@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -78,7 +79,9 @@ class Solution:
         a.next = list
         return [list, list2]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -162,7 +169,9 @@ func splitCircularLinkedList(list *ListNode) []*ListNode {
 	return []*ListNode{list, list2}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -192,6 +201,7 @@ function splitCircularLinkedList(list: ListNode | null): Array<ListNode | null> 
     return [list, list2];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

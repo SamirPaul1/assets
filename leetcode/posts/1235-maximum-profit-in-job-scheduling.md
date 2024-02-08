@@ -88,6 +88,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the number of jobs.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def jobScheduling(
@@ -105,7 +106,9 @@ class Solution:
         n = len(profit)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] jobs;
@@ -151,7 +154,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func jobScheduling(startTime []int, endTime []int, profit []int) int {
 	n := len(profit)
@@ -202,7 +209,9 @@ func jobScheduling(startTime []int, endTime []int, profit []int) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function jobScheduling(startTime: number[], endTime: number[], profit: number[]): number {
     const n = startTime.length;
@@ -235,6 +244,7 @@ function jobScheduling(startTime: number[], endTime: number[], profit: number[])
     return dfs(0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -261,6 +271,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def jobScheduling(
@@ -277,7 +288,9 @@ class Solution:
         idx = sorted(range(n), key=lambda i: startTime[i])
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
@@ -309,7 +322,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -328,7 +343,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func jobScheduling(startTime []int, endTime []int, profit []int) int {
 	n := len(profit)
@@ -346,6 +363,7 @@ func jobScheduling(startTime []int, endTime []int, profit []int) int {
 	return dp[n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -353,6 +371,7 @@ func jobScheduling(startTime []int, endTime []int, profit []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def jobScheduling(
@@ -366,6 +385,7 @@ class Solution:
             dp[i + 1] = max(dp[i], dp[j] + p)
         return dp[n]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

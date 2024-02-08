@@ -1,6 +1,5 @@
 # [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion)
 
-[中文文档](/solution/0000-0099/0006.Zigzag%20Conversion/README.md)
 
 ## Description
 

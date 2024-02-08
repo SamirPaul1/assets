@@ -60,6 +60,7 @@ n = -2
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function createCounter(n: number): () => number {
     let i = n;
@@ -75,6 +76,7 @@ function createCounter(n: number): () => number {
  * counter() // 12
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

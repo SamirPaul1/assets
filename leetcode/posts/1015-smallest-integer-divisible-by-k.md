@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestRepunitDivByK(self, k: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
             n = (n * 10 + 1) % k
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestRepunitDivByK(int k) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestRepunitDivByK(k int) int {
 	n := 1 % k
@@ -117,7 +124,9 @@ func smallestRepunitDivByK(k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestRepunitDivByK(k: number): number {
     let n = 1 % k;
@@ -130,6 +139,7 @@ function smallestRepunitDivByK(k: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

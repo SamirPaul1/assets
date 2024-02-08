@@ -1,6 +1,5 @@
 # [2312. Selling Pieces of Wood](https://leetcode.com/problems/selling-pieces-of-wood)
 
-[中文文档](/solution/2300-2399/2312.Selling%20Pieces%20of%20Wood/README.md)
 
 ## Description
 

@@ -1,6 +1,5 @@
 # [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)
 
-[中文文档](/solution/0000-0099/0073.Set%20Matrix%20Zeroes/README.md)
 
 ## Description
 

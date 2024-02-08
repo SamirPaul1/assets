@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindromeSubseq(self, s: str) -> int:
@@ -69,7 +70,9 @@ class Solution:
                     dp[i][j] = max(dp[i + 1][j], dp[i][j - 1])
         return dp[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestPalindromeSubseq(String s) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindromeSubseq(s string) int {
 	n := len(s)
@@ -135,6 +142,7 @@ func longestPalindromeSubseq(s string) int {
 	return dp[0][n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -44,6 +44,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextGreaterElement(self, n: int) -> int:
@@ -61,7 +62,9 @@ class Solution:
         ans = int(''.join(cs))
         return -1 if ans > 2**31 - 1 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int nextGreaterElement(int n) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nextGreaterElement(n int) int {
 	s := []byte(strconv.Itoa(n))
@@ -138,6 +145,7 @@ func nextGreaterElement(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

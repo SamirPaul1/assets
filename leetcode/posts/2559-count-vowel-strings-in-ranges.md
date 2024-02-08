@@ -71,6 +71,7 @@ The time complexity is $O(n + m \times \log n)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:
@@ -78,7 +79,9 @@ class Solution:
         nums = [i for i, w in enumerate(words) if w[0] in vowels and w[-1] in vowels]
         return [bisect_right(nums, r) - bisect_left(nums, l) for l, r in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer> nums = new ArrayList<>();
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func vowelStrings(words []string, queries [][]int) []int {
 	vowels := map[byte]bool{'a': true, 'e': true, 'i': true, 'o': true, 'u': true}
@@ -155,7 +162,9 @@ func vowelStrings(words []string, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function vowelStrings(words: string[], queries: number[][]): number[] {
     const vowels = new Set(['a', 'e', 'i', 'o', 'u']);
@@ -181,6 +190,7 @@ function vowelStrings(words: string[], queries: number[][]): number[] {
     return queries.map(([l, r]) => search(r + 1) - search(l));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -196,6 +206,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def vowelStrings(self, words: List[str], queries: List[List[int]]) -> List[int]:
@@ -207,7 +218,9 @@ class Solution:
         )
         return [s[r + 1] - s[l] for l, r in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] vowelStrings(String[] words, int[][] queries) {
@@ -228,7 +241,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -250,7 +265,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func vowelStrings(words []string, queries [][]int) []int {
 	vowels := map[byte]bool{'a': true, 'e': true, 'i': true, 'o': true, 'u': true}
@@ -271,7 +288,9 @@ func vowelStrings(words []string, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function vowelStrings(words: string[], queries: number[][]): number[] {
     const vowels = new Set(['a', 'e', 'i', 'o', 'u']);
@@ -287,6 +306,7 @@ function vowelStrings(words: string[], queries: number[][]): number[] {
     return queries.map(([l, r]) => s[r + 1] - s[l]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

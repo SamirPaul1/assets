@@ -70,6 +70,7 @@ peekingIterator.hasNext(); // return False
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Below is the interface for Iterator, which is already defined for you.
 #
@@ -137,7 +138,9 @@ class PeekingIterator:
 #     val = iter.peek()   # Get the next element but not advance the iterator.
 #     iter.next()         # Should return the same value as [val].
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 // Java Iterator interface reference:
 // https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
@@ -180,7 +183,9 @@ class PeekingIterator implements Iterator<Integer> {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
  * Below is the interface for Iterator, which is already defined for you.
@@ -237,7 +242,9 @@ private:
     int peekedElement;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /*   Below is the interface for Iterator, which is already defined for you.
  *
@@ -284,6 +291,7 @@ func (this *PeekingIterator) peek() int {
 	return this.peekedElement
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

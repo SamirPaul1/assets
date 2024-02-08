@@ -68,6 +68,7 @@ You cannot add more items, though only $9 for 2A ,2B and 1C.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shoppingOffers(
@@ -89,7 +90,9 @@ class Solution:
                 ans = min(ans, offer[-1] + self.shoppingOffers(price, special, t))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shoppingOffers(
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shoppingOffers(price []int, special [][]int, needs []int) int {
 	total := func(price, needs []int) int {
@@ -186,6 +193,7 @@ func shoppingOffers(price []int, special [][]int, needs []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

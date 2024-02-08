@@ -55,13 +55,16 @@ Since there are two elements with the value 3, in total there are 2 elements hav
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countElements(self, nums: List[int]) -> int:
         mi, mx = min(nums), max(nums)
         return sum(mi < num < mx for num in nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countElements(nums []int) int {
 	mi, mx := int(1e6), -int(1e6)
@@ -120,7 +127,9 @@ func countElements(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countElements(nums: number[]): number {
     const min = Math.min(...nums),
@@ -135,6 +144,7 @@ function countElements(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

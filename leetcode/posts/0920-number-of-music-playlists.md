@@ -84,6 +84,7 @@ Notice that $f[i][j]$ only depends on $f[i - 1][j - 1]$ and $f[i - 1][j]$, so we
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMusicPlaylists(self, n: int, goal: int, k: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
                 f[i][j] %= mod
         return f[goal][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numMusicPlaylists(int n, int goal, int k) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMusicPlaylists(n int, goal int, k int) int {
 	const mod = 1e9 + 7
@@ -161,7 +168,9 @@ func numMusicPlaylists(n int, goal int, k int) int {
 	return f[goal][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numMusicPlaylists(n: number, goal: number, k: number): number {
     const mod = 1e9 + 7;
@@ -179,7 +188,9 @@ function numMusicPlaylists(n: number, goal: number, k: number): number {
     return f[goal][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -211,6 +222,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,6 +230,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMusicPlaylists(self, n: int, goal: int, k: int) -> int:
@@ -234,7 +247,9 @@ class Solution:
             f = g
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numMusicPlaylists(int n, int goal, int k) {
@@ -256,7 +271,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -279,7 +296,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMusicPlaylists(n int, goal int, k int) int {
 	const mod = 1e9 + 7
@@ -299,7 +318,9 @@ func numMusicPlaylists(n int, goal int, k int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numMusicPlaylists(n: number, goal: number, k: number): number {
     const mod = 1e9 + 7;
@@ -319,6 +340,7 @@ function numMusicPlaylists(n: number, goal: number, k: number): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

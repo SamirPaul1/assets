@@ -83,6 +83,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from threading import Semaphore
 
@@ -116,7 +117,9 @@ class ZeroEvenOdd:
             printNumber(i)
             self.z.release()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ZeroEvenOdd {
     private int n;
@@ -158,7 +161,9 @@ class ZeroEvenOdd {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 #include <semaphore.h>
 
@@ -205,6 +210,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

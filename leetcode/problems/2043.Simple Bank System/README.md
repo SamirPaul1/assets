@@ -1,6 +1,5 @@
 # [2043. Simple Bank System](https://leetcode.com/problems/simple-bank-system)
 
-[中文文档](/solution/2000-2099/2043.Simple%20Bank%20System/README.md)
 
 ## Description
 

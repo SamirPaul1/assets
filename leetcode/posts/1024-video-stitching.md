@@ -74,6 +74,7 @@ Now we have segments [0,2] + [2,8] + [8,10] which cover the sporting event [0, 1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def videoStitching(self, clips: List[List[int]], time: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
                 pre = mx
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int videoStitching(int[][] clips, int time) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func videoStitching(clips [][]int, time int) int {
 	last := make([]int, time)
@@ -169,6 +176,7 @@ func videoStitching(clips [][]int, time int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

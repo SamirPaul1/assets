@@ -99,6 +99,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
@@ -109,7 +110,9 @@ class Solution:
                 k += 1
         return k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDuplicates(nums []int) int {
 	k := 0
@@ -151,7 +158,9 @@ func removeDuplicates(nums []int) int {
 	return k
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeDuplicates(nums: number[]): number {
     let k: number = 0;
@@ -163,7 +172,9 @@ function removeDuplicates(nums: number[]): number {
     return k;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
@@ -178,7 +189,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -194,7 +207,9 @@ var removeDuplicates = function (nums) {
     return k;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int RemoveDuplicates(int[] nums) {
@@ -208,7 +223,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -226,6 +243,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -233,6 +251,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -242,6 +261,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

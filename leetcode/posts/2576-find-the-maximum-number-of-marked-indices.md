@@ -85,6 +85,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNumOfMarkedIndices(self, nums: List[int]) -> int:
@@ -100,7 +101,9 @@ class Solution:
             i, j = i + 1, j + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxNumOfMarkedIndices(int[] nums) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNumOfMarkedIndices(nums []int) (ans int) {
 	sort.Ints(nums)
@@ -155,7 +162,9 @@ func maxNumOfMarkedIndices(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxNumOfMarkedIndices(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -172,6 +181,7 @@ function maxNumOfMarkedIndices(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

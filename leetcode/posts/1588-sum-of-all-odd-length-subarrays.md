@@ -74,6 +74,7 @@ If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58</p
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOddLengthSubarrays(self, arr: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                     ans += s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumOddLengthSubarrays(int[] arr) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOddLengthSubarrays(arr []int) (ans int) {
 	n := len(arr)
@@ -141,7 +148,9 @@ func sumOddLengthSubarrays(arr []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumOddLengthSubarrays(arr: number[]): number {
     const n = arr.length;
@@ -158,7 +167,9 @@ function sumOddLengthSubarrays(arr: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sum_odd_length_subarrays(arr: Vec<i32>) -> i32 {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int sumOddLengthSubarrays(int* arr, int arrSize) {
     int ans = 0;
@@ -193,6 +206,7 @@ int sumOddLengthSubarrays(int* arr, int arrSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

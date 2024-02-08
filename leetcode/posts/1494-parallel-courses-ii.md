@@ -69,6 +69,7 @@ In the fourth semester, you can take course 5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumberOfSemesters(self, n: int, relations: List[List[int]], k: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
                         q.append((nxt | cur, t + 1))
                     nxt = (nxt - 1) & x
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumberOfSemesters(int n, int[][] relations, int k) {
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumberOfSemesters(n int, relations [][]int, k int) int {
 	d := make([]int, n+1)
@@ -229,6 +236,7 @@ func minNumberOfSemesters(n int, relations [][]int, k int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

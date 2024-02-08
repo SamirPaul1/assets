@@ -70,6 +70,7 @@ The time complexity is $O(K \times \log \log K + N + m \times \log K)$, and the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 N = 10020
 MOD = 10**9 + 7
@@ -107,7 +108,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int N = 10020;
@@ -171,7 +174,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int N = 10020;
 int MOD = 1e9 + 7;
@@ -235,7 +240,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const n = 1e4 + 20
 const mod = 1e9 + 7
@@ -294,6 +301,7 @@ func waysToFillArray(queries [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

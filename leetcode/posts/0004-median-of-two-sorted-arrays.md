@@ -75,6 +75,7 @@ The time complexity is $O(\log(m + n))$, and the space complexity is $O(\log(m +
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
@@ -95,7 +96,9 @@ class Solution:
         b = f(0, 0, (m + n + 2) // 2)
         return (a + b) / 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	m, n := len(nums1), len(nums2)
@@ -189,7 +196,9 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	return float64(a+b) / 2.0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
     const m = nums1.length;
@@ -214,7 +223,9 @@ function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
     return (a + b) / 2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -244,7 +255,9 @@ var findMedianSortedArrays = function (nums1, nums2) {
     return (a + b) / 2;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int m;
@@ -279,7 +292,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -301,7 +316,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Nim Code" >}}
 ```nim
 import std/[algorithm, sequtils]
 
@@ -324,6 +341,7 @@ proc medianOfTwoSortedArrays(nums1: seq[int], nums2: seq[int]): float =
 #   arrB: seq[int] = @[3, 4, 5]
 # echo medianOfTwoSortedArrays(arrA, arrB)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

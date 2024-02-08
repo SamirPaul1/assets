@@ -61,6 +61,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoSumLessThanK(self, nums: List[int], k: int) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 ans = max(ans, x + nums[j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int twoSumLessThanK(int[] nums, int k) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoSumLessThanK(nums []int, k int) int {
 	sort.Ints(nums)
@@ -132,7 +139,9 @@ func twoSumLessThanK(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function twoSumLessThanK(nums: number[], k: number): number {
     nums.sort((a, b) => a - b);
@@ -149,6 +158,7 @@ function twoSumLessThanK(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -164,6 +174,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoSumLessThanK(self, nums: List[int], k: int) -> int:
@@ -178,7 +189,9 @@ class Solution:
                 j -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int twoSumLessThanK(int[] nums, int k) {
@@ -197,7 +210,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -217,7 +232,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoSumLessThanK(nums []int, k int) int {
 	sort.Ints(nums)
@@ -233,6 +250,7 @@ func twoSumLessThanK(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ Installing any would create some section that does not have exactly two seats.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWays(self, corridor: str) -> int:
@@ -92,7 +93,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWays(corridor string) int {
 	n := len(corridor)
@@ -198,7 +205,9 @@ func numberOfWays(corridor string) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfWays(corridor: string): number {
     const M: number = 1e9 + 7;
@@ -223,6 +232,7 @@ function numberOfWays(corridor: string): number {
     return result;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

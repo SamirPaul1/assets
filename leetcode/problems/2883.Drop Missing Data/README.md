@@ -1,6 +1,5 @@
 # [2883. Drop Missing Data](https://leetcode.com/problems/drop-missing-data)
 
-[中文文档](/solution/2800-2899/2883.Drop%20Missing%20Data/README.md)
 
 ## Description
 

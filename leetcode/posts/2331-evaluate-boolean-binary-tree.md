@@ -75,6 +75,7 @@ The root node evaluates to True, so we return true.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -92,7 +93,9 @@ class Solution:
 
         return dfs(root)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -178,7 +185,9 @@ func evaluateTree(root *TreeNode) bool {
 	return dfs(root)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -205,7 +214,9 @@ function evaluateTree(root: TreeNode | null): boolean {
     return evaluateTree(left) && evaluateTree(right);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -244,7 +255,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for a binary tree node.
@@ -264,6 +277,7 @@ bool evaluateTree(struct TreeNode* root) {
     return evaluateTree(root->left) && evaluateTree(root->right);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -271,6 +285,7 @@ bool evaluateTree(struct TreeNode* root) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -286,7 +301,9 @@ class Solution:
         r = self.evaluateTree(root.right)
         return l or r if root.val == 2 else l and r
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -314,7 +331,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -339,7 +358,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -360,6 +381,7 @@ func evaluateTree(root *TreeNode) bool {
 	return l && r
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

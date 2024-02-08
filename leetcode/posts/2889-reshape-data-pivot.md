@@ -71,6 +71,7 @@ DataFrame <code>weather</code>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -78,6 +79,7 @@ import pandas as pd
 def pivotTable(weather: pd.DataFrame) -> pd.DataFrame:
     return weather.pivot(index='month', columns='city', values='temperature')
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ User 7 had two purchases on the same day so we add their ID.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -96,6 +97,7 @@ FROM t
 WHERE d <= 7
 ORDER BY user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

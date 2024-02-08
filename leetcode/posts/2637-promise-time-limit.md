@@ -113,6 +113,7 @@ The function immediately throws an error.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Fn = (...params: any[]) => Promise<any>;
 
@@ -130,6 +131,7 @@ function timeLimit(fn: Fn, t: number): Fn {
  * limited(150).catch(console.log) // "Time Limit Exceeded" at t=100ms
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

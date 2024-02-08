@@ -64,6 +64,7 @@ Some of the strings which can be obtained from text and have 6 subsequences &quo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumSubsequenceCount(self, text: str, pattern: str) -> int:
@@ -76,7 +77,9 @@ class Solution:
         ans += max(cnt[pattern[0]], cnt[pattern[1]])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumSubsequenceCount(String text, String pattern) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumSubsequenceCount(text string, pattern string) int64 {
 	ans := 0
@@ -129,6 +136,7 @@ func maximumSubsequenceCount(text string, pattern string) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

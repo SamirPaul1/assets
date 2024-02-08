@@ -68,6 +68,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
                 return i + 1
         return n + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func firstMissingPositive(nums []int) int {
 	n := len(nums)
@@ -145,7 +152,9 @@ func firstMissingPositive(nums []int) int {
 	return n + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function firstMissingPositive(nums: number[]): number {
     const n = nums.length;
@@ -163,7 +172,9 @@ function firstMissingPositive(nums: number[]): number {
     return (res === -1 ? n : res) + 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn first_missing_positive(mut nums: Vec<i32>) -> i32 {
@@ -187,7 +198,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int FirstMissingPositive(int[] nums) {
@@ -225,7 +238,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int firstMissingPositive(int* nums, int numsSize) {
 
@@ -250,6 +265,7 @@ int firstMissingPositive(int* nums, int numsSize) {
     return i;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +273,7 @@ int firstMissingPositive(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function firstMissingPositive(nums: number[]): number {
     const set = new Set(nums);
@@ -267,6 +284,7 @@ function firstMissingPositive(nums: number[]): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

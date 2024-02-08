@@ -70,6 +70,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], k: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
             if count == k:
                 return n - i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(List<Integer> nums, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, k int) int {
 	isAdded := make([]bool, k)
@@ -142,7 +149,9 @@ func minOperations(nums []int, k int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums: number[], k: number): number {
     const n = nums.length;
@@ -160,6 +169,7 @@ function minOperations(nums: number[], k: number): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

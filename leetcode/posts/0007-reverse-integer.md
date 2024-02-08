@@ -78,6 +78,7 @@ The time complexity is $O(\log |x|)$, where $|x|$ is the absolute value of $x$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverse(self, x: int) -> int:
@@ -93,7 +94,9 @@ class Solution:
             x = (x - y) // 10
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reverse(int x) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverse(x int) (ans int) {
 	for ; x != 0; x /= 10 {
@@ -136,7 +143,9 @@ func reverse(x int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse(mut x: i32) -> i32 {
@@ -148,7 +157,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} x
@@ -167,7 +178,9 @@ var reverse = function (x) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int Reverse(int x) {
@@ -182,7 +195,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int reverse(int x) {
     int ans = 0;
@@ -195,7 +210,9 @@ int reverse(int x) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -225,6 +242,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

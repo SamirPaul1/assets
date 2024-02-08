@@ -1,6 +1,5 @@
 # [1571. Warehouse Manager](https://leetcode.com/problems/warehouse-manager)
 
-[中文文档](/solution/1500-1599/1571.Warehouse%20Manager/README.md)
 
 ## Description
 

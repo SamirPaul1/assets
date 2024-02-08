@@ -68,6 +68,7 @@ Other lists of favorite companies are not a subset of another list, therefore, t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def peopleIndexes(self, favoriteCompanies: List[List[str]]) -> List[int]:
@@ -93,7 +94,9 @@ class Solution:
                 ans.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> peopleIndexes(List<List<String>> favoriteCompanies) {
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func peopleIndexes(favoriteCompanies [][]string) []int {
 	d := map[string]int{}
@@ -227,6 +234,7 @@ func peopleIndexes(favoriteCompanies [][]string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

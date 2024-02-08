@@ -66,6 +66,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $num$. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestOddNumber(self, num: str) -> str:
@@ -74,7 +75,9 @@ class Solution:
                 return num[: i + 1]
         return ''
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestOddNumber(String num) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestOddNumber(num string) string {
 	for i := len(num) - 1; i >= 0; i-- {
@@ -115,7 +122,9 @@ func largestOddNumber(num string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestOddNumber(num: string): string {
     for (let i = num.length - 1; ~i; --i) {
@@ -126,7 +135,9 @@ function largestOddNumber(num: string): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} num
@@ -141,6 +152,7 @@ var largestOddNumber = function (num) {
     return '';
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

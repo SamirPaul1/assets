@@ -111,6 +111,7 @@ Since the record is empty, the total sum is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
@@ -126,7 +127,9 @@ class Solution:
                 stk.append(int(op))
         return sum(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int calPoints(String[] ops) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func calPoints(ops []string) int {
 	var stk []int
@@ -197,7 +204,9 @@ func calPoints(ops []string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function calPoints(ops: string[]): number {
     const stack = [];
@@ -216,7 +225,9 @@ function calPoints(ops: string[]): number {
     return stack.reduce((p, v) => p + v);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn cal_points(ops: Vec<String>) -> i32 {
@@ -242,6 +253,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

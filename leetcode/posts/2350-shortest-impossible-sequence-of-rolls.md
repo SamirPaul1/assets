@@ -72,6 +72,7 @@ Note that there are other sequences that cannot be taken from rolls but [4] is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestSequence(self, rolls: List[int], k: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
                 s.clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestSequence(int[] rolls, int k) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestSequence(rolls []int, k int) int {
 	s := map[int]bool{}
@@ -134,6 +141,7 @@ func shortestSequence(rolls []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

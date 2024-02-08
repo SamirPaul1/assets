@@ -68,6 +68,7 @@ The time complexity is $O(\log num)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDigits(self, num: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
             ans += num % val == 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countDigits(int num) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDigits(num int) (ans int) {
 	for x := num; x > 0; x /= 10 {
@@ -117,7 +124,9 @@ func countDigits(num int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countDigits(num: number): number {
     let ans = 0;
@@ -129,7 +138,9 @@ function countDigits(num: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_digits(num: i32) -> i32 {
@@ -145,7 +156,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countDigits(int num) {
     int ans = 0;
@@ -159,6 +172,7 @@ int countDigits(int num) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -166,6 +180,7 @@ int countDigits(int num) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countDigits(num: number): number {
     let ans = 0;
@@ -177,7 +192,9 @@ function countDigits(num: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_digits(num: i32) -> i32 {
@@ -190,6 +207,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

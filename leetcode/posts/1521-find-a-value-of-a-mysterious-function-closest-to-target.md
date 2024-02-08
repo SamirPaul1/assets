@@ -72,6 +72,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closestToTarget(self, arr: List[int], target: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
             ans = min(ans, min(abs(y - target) for y in s))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int closestToTarget(int[] arr, int target) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestToTarget(arr []int, target int) int {
 	ans := abs(arr[0] - target)
@@ -152,7 +159,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function closestToTarget(arr: number[], target: number): number {
     let ans = Math.abs(arr[0] - target);
@@ -172,6 +181,7 @@ function closestToTarget(arr: number[], target: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

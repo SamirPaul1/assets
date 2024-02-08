@@ -71,6 +71,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumLengthOfRanges(self, nums: List[int]) -> List[int]:
@@ -93,7 +94,9 @@ class Solution:
             stk.append(i)
         return [r - l - 1 for l, r in zip(left, right)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maximumLengthOfRanges(int[] nums) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumLengthOfRanges(nums []int) []int {
 	n := len(nums)
@@ -204,7 +211,9 @@ func maximumLengthOfRanges(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumLengthOfRanges(nums: number[]): number[] {
     const n = nums.length;
@@ -233,6 +242,7 @@ function maximumLengthOfRanges(nums: number[]): number[] {
     return left.map((l, i) => right[i] - l - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

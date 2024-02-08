@@ -114,6 +114,7 @@ The time complexity is $(n \times \log n)$, and the space complexity is $O(n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -157,7 +158,9 @@ class DinnerPlates:
 # param_2 = obj.pop()
 # param_3 = obj.popAtStack(index)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class DinnerPlates {
     private int capacity;
@@ -213,7 +216,9 @@ class DinnerPlates {
  * int param_3 = obj.popAtStack(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class DinnerPlates {
 public:
@@ -272,7 +277,9 @@ private:
  * int param_3 = obj->popAtStack(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type DinnerPlates struct {
 	capacity int
@@ -328,7 +335,9 @@ func (this *DinnerPlates) PopAtStack(index int) int {
  * param_3 := obj.PopAtStack(index);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class DinnerPlates {
     capacity: number;
@@ -875,6 +884,7 @@ class TreeSet<T = number> {
  * var param_3 = obj.popAtStack(index)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

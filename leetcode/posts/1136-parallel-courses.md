@@ -68,6 +68,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n + m)$. Here,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSemesters(self, n: int, relations: List[List[int]]) -> int:
@@ -90,7 +91,9 @@ class Solution:
                         q.append(j)
         return -1 if n else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSemesters(int n, int[][] relations) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSemesters(n int, relations [][]int) (ans int) {
 	g := make([][]int, n)
@@ -197,7 +204,9 @@ func minimumSemesters(n int, relations [][]int) (ans int) {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSemesters(n: number, relations: number[][]): number {
     const g = Array.from({ length: n }, () => []);
@@ -228,6 +237,7 @@ function minimumSemesters(n: number, relations: number[][]): number {
     return n === 0 ? ans : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

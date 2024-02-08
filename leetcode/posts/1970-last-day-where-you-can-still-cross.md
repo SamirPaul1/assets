@@ -73,6 +73,7 @@ The last day where it is possible to cross from top to bottom is on day 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def latestDayToCross(self, row: int, col: int, cells: List[List[int]]) -> int:
@@ -103,7 +104,9 @@ class Solution:
                 return k
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var p []int
 
@@ -244,6 +251,7 @@ func find(x int) int {
 	return p[x]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

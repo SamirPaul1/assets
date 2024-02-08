@@ -71,6 +71,7 @@ Note that &quot;bxz&quot; also has a hash of 32 but it appears later than &quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -110,6 +111,7 @@ function getCode(str, index) {
     return BigInt(str.charCodeAt(index) - 'a'.charCodeAt(0) + 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

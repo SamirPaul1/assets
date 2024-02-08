@@ -63,6 +63,7 @@ The image above shows the 5 different ways {(0,2),(2,3)}, {(0,1),(1,3)}, {(0,1),
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfSets(self, n: int, k: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
                     g[i][j] %= mod
         return (f[-1][-1] + g[-1][-1]) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfSets(n int, k int) int {
 	f := make([][]int, n+1)
@@ -160,7 +167,9 @@ func numberOfSets(n int, k int) int {
 	return (f[n][k] + g[n][k]) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfSets(n: number, k: number): number {
     const f = Array.from({ length: n + 1 }, _ => new Array(k + 1).fill(0));
@@ -182,6 +191,7 @@ function numberOfSets(n: number, k: number): number {
     return (f[n][k] + g[n][k]) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

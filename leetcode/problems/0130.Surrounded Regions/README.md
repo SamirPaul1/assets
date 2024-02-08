@@ -1,6 +1,5 @@
 # [130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions)
 
-[中文文档](/solution/0100-0199/0130.Surrounded%20Regions/README.md)
 
 ## Description
 

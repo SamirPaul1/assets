@@ -54,12 +54,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string. Ignoring t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeVowels(self, s: str) -> str:
         return "".join(c for c in s if c not in "aeiou")
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeVowels(String s) {
@@ -74,7 +77,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -89,7 +94,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeVowels(s string) string {
 	ans := []rune{}
@@ -101,12 +108,15 @@ func removeVowels(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeVowels(s: string): string {
     return s.replace(/[aeiou]/g, '');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

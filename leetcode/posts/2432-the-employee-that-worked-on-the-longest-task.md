@@ -97,6 +97,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $logs$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hardestWorker(self, n: int, logs: List[List[int]]) -> int:
@@ -108,7 +109,9 @@ class Solution:
             last += t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int hardestWorker(int n, int[][] logs) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hardestWorker(n int, logs [][]int) (ans int) {
 	var mx, last int
@@ -162,7 +169,9 @@ func hardestWorker(n int, logs [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hardestWorker(n: number, logs: number[][]): number {
     let [ans, mx, last] = [0, 0, 0];
@@ -177,7 +186,9 @@ function hardestWorker(n: number, logs: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn hardest_worker(n: i32, logs: Vec<Vec<i32>>) -> i32 {
@@ -196,7 +207,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
@@ -215,6 +228,7 @@ int hardestWorker(int n, int** logs, int logsSize, int* logsColSize) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -222,6 +236,7 @@ int hardestWorker(int n, int** logs, int logsSize, int* logsColSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn hardest_worker(n: i32, logs: Vec<Vec<i32>>) -> i32 {
@@ -246,6 +261,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ The sub-tree of node 0 contains nodes 0, 1, 2 and 3, all with label &#39;b&#39;,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubTrees(self, n: int, edges: List[List[int]], labels: str) -> List[int]:
@@ -94,7 +95,9 @@ class Solution:
         dfs(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubTrees(n int, edges [][]int, labels string) []int {
 	g := make([][]int, n)
@@ -186,7 +193,9 @@ func countSubTrees(n int, edges [][]int, labels string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSubTrees(n: number, edges: number[][], labels: string): number[] {
     const dfs = (i: number, fa: number) => {
@@ -211,6 +220,7 @@ function countSubTrees(n: number, edges: number[][], labels: string): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

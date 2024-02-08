@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubmatrixSumTarget(self, matrix: List[List[int]], target: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
                 ans += f(col)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubmatrixSumTarget(int[][] matrix, int target) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubmatrixSumTarget(matrix [][]int, target int) (ans int) {
 	m, n := len(matrix), len(matrix[0])
@@ -181,7 +188,9 @@ func f(nums []int, target int) (cnt int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numSubmatrixSumTarget(matrix: number[][], target: number): number {
     const m = matrix.length;
@@ -214,6 +223,7 @@ function f(nums: number[], target: number): number {
     return cnt;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

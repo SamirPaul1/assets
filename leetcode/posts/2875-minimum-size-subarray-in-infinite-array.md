@@ -80,6 +80,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where n is th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSizeSubarray(self, nums: List[int], target: int) -> int:
@@ -103,7 +104,9 @@ class Solution:
             pos[pre] = i
         return -1 if b == inf else a + b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSizeSubarray(int[] nums, int target) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSizeSubarray(nums []int, target int) int {
 	s := 0
@@ -202,7 +209,9 @@ func minSizeSubarray(nums []int, target int) int {
 	return a + b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSizeSubarray(nums: number[], target: number): number {
     const s = nums.reduce((a, b) => a + b);
@@ -232,6 +241,7 @@ function minSizeSubarray(nums: number[], target: number): number {
     return b === Infinity ? -1 : a + b;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -239,6 +249,7 @@ function minSizeSubarray(nums: number[], target: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestSubarray(int[] nums, int k) {
@@ -286,6 +297,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfitAssignment(
@@ -84,7 +85,9 @@ class Solution:
             res += t
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfitAssignment(difficulty []int, profit []int, worker []int) int {
 	var job [][2]int
@@ -152,6 +159,7 @@ func maxProfitAssignment(difficulty []int, profit []int, worker []int) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

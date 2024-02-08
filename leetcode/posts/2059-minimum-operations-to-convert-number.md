@@ -80,6 +80,7 @@ Note that the last operation sets x out of the range 0 &lt;= x &lt;= 1000, which
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, nums: List[int], start: int, goal: int) -> int:
@@ -101,7 +102,9 @@ class Solution:
                         vis[nx] = True
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumOperations(int[] nums, int start, int goal) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(nums []int, start int, goal int) int {
 	type pair struct {
@@ -201,7 +208,9 @@ func minimumOperations(nums []int, start int, goal int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOperations(nums: number[], start: number, goal: number): number {
     const n = nums.length;
@@ -236,6 +245,7 @@ function minimumOperations(nums: number[], start: number, goal: number): number 
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -243,6 +253,7 @@ function minimumOperations(nums: number[], start: number, goal: number): number 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, nums: List[int], start: int, goal: int) -> int:
@@ -269,7 +280,9 @@ class Solution:
                         q.append(y)
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumOperations(int[] nums, int start, int goal) {
@@ -306,7 +319,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -342,7 +357,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(nums []int, start int, goal int) int {
 	next := func(x int) []int {
@@ -374,6 +391,7 @@ func minimumOperations(nums []int, start int, goal int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -381,6 +399,7 @@ func minimumOperations(nums []int, start int, goal int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, nums: List[int], start: int, goal: int) -> int:
@@ -414,7 +433,9 @@ class Solution:
                 return t
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -469,7 +490,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -515,7 +538,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(nums []int, start int, goal int) int {
 	next := func(x int) []int {
@@ -560,6 +585,7 @@ func minimumOperations(nums []int, start int, goal int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

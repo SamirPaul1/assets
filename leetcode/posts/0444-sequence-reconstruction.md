@@ -87,6 +87,7 @@ Since nums is the only shortest supersequence, we return true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sequenceReconstruction(
@@ -109,7 +110,9 @@ class Solution:
                     q.append(j)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean sequenceReconstruction(int[] nums, List<List<Integer>> sequences) {
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sequenceReconstruction(nums []int, sequences [][]int) bool {
 	n := len(nums)
@@ -209,6 +216,7 @@ func sequenceReconstruction(nums []int, sequences [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

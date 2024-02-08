@@ -50,6 +50,7 @@ Explanation: 99 x 91 = 9009, 9009 % 1337 = 987
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestPalindrome(self, n: int) -> int:
@@ -66,7 +67,9 @@ class Solution:
                 t -= 1
         return 9
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestPalindrome(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestPalindrome(n int) int {
 	mx := int(math.Pow10(n)) - 1
@@ -127,6 +134,7 @@ func largestPalindrome(n int) int {
 	return 9
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

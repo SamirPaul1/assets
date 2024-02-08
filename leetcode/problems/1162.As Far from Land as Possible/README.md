@@ -1,6 +1,5 @@
 # [1162. As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible)
 
-[中文文档](/solution/1100-1199/1162.As%20Far%20from%20Land%20as%20Possible/README.md)
 
 ## Description
 

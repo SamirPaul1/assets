@@ -1,6 +1,5 @@
 # [2298. Tasks Count in the Weekend](https://leetcode.com/problems/tasks-count-in-the-weekend)
 
-[中文文档](/solution/2200-2299/2298.Tasks%20Count%20in%20the%20Weekend/README.md)
 
 ## Description
 

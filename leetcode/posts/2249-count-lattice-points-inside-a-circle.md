@@ -67,6 +67,7 @@ Some of them are (0, 2), (2, 0), (2, 4), (3, 2), and (4, 4).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countLatticePoints(self, circles: List[List[int]]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                         break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countLatticePoints(int[][] circles) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countLatticePoints(circles [][]int) (ans int) {
 	mx, my := 0, 0
@@ -155,7 +162,9 @@ func countLatticePoints(circles [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countLatticePoints(circles: number[][]): number {
     let mx = 0;
@@ -180,6 +189,7 @@ function countLatticePoints(circles: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

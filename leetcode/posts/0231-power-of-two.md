@@ -63,12 +63,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         return n > 0 and (n & (n - 1)) == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -85,19 +90,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPowerOfTwo(n int) bool {
 	return n > 0 && (n&(n-1)) == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPowerOfTwo(n: number): boolean {
     return n > 0 && (n & (n - 1)) === 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -107,6 +118,7 @@ var isPowerOfTwo = function (n) {
     return n > 0 && (n & (n - 1)) == 0;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -114,12 +126,15 @@ var isPowerOfTwo = function (n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         return n > 0 and n == n & (-n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPowerOfTwo(int n) {
@@ -127,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,19 +153,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPowerOfTwo(n int) bool {
 	return n > 0 && n == (n&(-n))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPowerOfTwo(n: number): boolean {
     return n > 0 && (n & (n - 1)) === 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -158,6 +181,7 @@ var isPowerOfTwo = function (n) {
     return n > 0 && n == (n & -n);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

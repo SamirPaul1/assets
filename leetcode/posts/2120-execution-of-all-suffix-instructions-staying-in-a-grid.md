@@ -84,6 +84,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def executeInstructions(self, n: int, startPos: List[int], s: str) -> List[int]:
@@ -102,7 +103,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] executeInstructions(int n, int[] startPos, String s) {
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func executeInstructions(n int, startPos []int, s string) []int {
 	m := len(s)
@@ -191,7 +198,9 @@ func executeInstructions(n int, startPos []int, s string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function executeInstructions(n: number, startPos: number[], s: string): number[] {
     const m = s.length;
@@ -219,7 +228,9 @@ function executeInstructions(n: number, startPos: number[], s: string): number[]
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn execute_instructions(n: i32, start_pos: Vec<i32>, s: String) -> Vec<i32> {
@@ -256,7 +267,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -288,6 +301,7 @@ int* executeInstructions(int n, int* startPos, int startPosSize, char* s, int* r
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

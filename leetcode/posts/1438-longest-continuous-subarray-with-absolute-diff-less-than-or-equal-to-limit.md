@@ -71,6 +71,7 @@ Therefore, the size of the longest subarray is 2.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -87,7 +88,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestSubarray(int[] nums, int limit) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestSubarray(nums []int, limit int) (ans int) {
 	tm := treemap.NewWithIntComparator()
@@ -156,7 +163,9 @@ func longestSubarray(nums []int, limit int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestSubarray(nums: number[], limit: number): number {
     const ts = new TreapMultiSet<number>();
@@ -790,6 +799,7 @@ class TreapMultiSet<T = number> implements ITreapMultiSet<T> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

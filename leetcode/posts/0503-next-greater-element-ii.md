@@ -55,6 +55,7 @@ The second 1&#39;s next greater number needs to search circularly, which is also
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
@@ -67,7 +68,9 @@ class Solution:
             stk.append(i % n)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nextGreaterElements(nums []int) []int {
 	n := len(nums)
@@ -123,7 +130,9 @@ func nextGreaterElements(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function nextGreaterElements(nums: number[]): number[] {
     const stack: number[] = [],
@@ -140,7 +149,9 @@ function nextGreaterElements(nums: number[]): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -160,6 +171,7 @@ var nextGreaterElements = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -167,6 +179,7 @@ var nextGreaterElements = function (nums) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
@@ -182,7 +195,9 @@ class Solution:
             stk.append(nums[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] nextGreaterElements(int[] nums) {
@@ -204,7 +219,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -222,7 +239,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nextGreaterElements(nums []int) []int {
 	n := len(nums)
@@ -244,7 +263,9 @@ func nextGreaterElements(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -267,6 +288,7 @@ var nextGreaterElements = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

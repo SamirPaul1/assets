@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProbability(
@@ -103,7 +104,9 @@ class Solution:
                     heappush(q, (-d[v], v))
         return d[end]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProbability(n int, edges [][]int, succProb []float64, start int, end int) float64 {
 	g := make([][]pair, n)
@@ -210,6 +217,7 @@ type pair struct {
 	s   float64
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -217,6 +225,7 @@ type pair struct {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProbability(
@@ -247,7 +256,9 @@ class Solution:
                         vis[j] = True
         return d[end]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start, int end) {
@@ -284,7 +295,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -321,6 +334,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

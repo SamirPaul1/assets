@@ -77,6 +77,7 @@ Total of cherries: 17 + 11 = 28.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
@@ -93,7 +94,9 @@ class Solution:
                                 f[i][j1][j2] = max(f[i][j1][j2], f[i - 1][y1][y2] + x)
         return max(f[-1][j1][j2] for j1, j2 in product(range(n), range(n)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int cherryPickup(int[][] grid) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func cherryPickup(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -203,7 +210,9 @@ func cherryPickup(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function cherryPickup(grid: number[][]): number {
     const m = grid.length;
@@ -235,6 +244,7 @@ function cherryPickup(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -242,6 +252,7 @@ function cherryPickup(grid: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def cherryPickup(self, grid: List[List[int]]) -> int:
@@ -260,7 +271,9 @@ class Solution:
             f, g = g, f
         return max(f[j1][j2] for j1, j2 in product(range(n), range(n)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int cherryPickup(int[][] grid) {
@@ -299,7 +312,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -333,7 +348,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func cherryPickup(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -375,7 +392,9 @@ func cherryPickup(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function cherryPickup(grid: number[][]): number {
     const m = grid.length;
@@ -407,6 +426,7 @@ function cherryPickup(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

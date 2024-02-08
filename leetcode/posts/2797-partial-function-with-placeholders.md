@@ -82,6 +82,7 @@ Placeholder &quot;_&quot; is replaced with 5 and 20 is added at the end of args.
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function partial(fn: Function, args: any[]): Function {
     return function (...restArgs) {
@@ -98,7 +99,9 @@ function partial(fn: Function, args: any[]): Function {
     };
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {Function} fn
@@ -120,6 +123,7 @@ var partial = function (fn, args) {
     };
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

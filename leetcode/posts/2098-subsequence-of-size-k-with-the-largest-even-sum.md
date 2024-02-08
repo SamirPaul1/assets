@@ -68,6 +68,7 @@ No subsequence of nums with length 1 has an even sum.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestEvenSum(self, nums: List[int], k: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
         ans = max(ans - mi1 + mx1, ans - mi2 + mx2, -1)
         return -1 if ans % 2 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long largestEvenSum(int[] nums, int k) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestEvenSum(nums []int, k int) int64 {
 	sort.Ints(nums)
@@ -198,6 +205,7 @@ func largestEvenSum(nums []int, k int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

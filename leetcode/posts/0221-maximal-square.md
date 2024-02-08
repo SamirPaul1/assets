@@ -73,6 +73,7 @@ The time complexity is $O(m\times n)$, and the space complexity is $O(m\times n)
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                     mx = max(mx, dp[i + 1][j + 1])
         return mx * mx
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximalSquare(char[][] matrix) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximalSquare(matrix [][]byte) int {
 	m, n := len(matrix), len(matrix[0])
@@ -145,7 +152,9 @@ func maximalSquare(matrix [][]byte) int {
 	return mx * mx
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaximalSquare(char[][] matrix) {
@@ -167,6 +176,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -77,6 +77,7 @@ The time complexity is $O(m\log m + n\log n)$, where $m$ and $n$ are the lengths
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxArea(
@@ -90,7 +91,9 @@ class Solution:
         y = max(b - a for a, b in pairwise(verticalCuts))
         return (x * y) % (10**9 + 7)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxArea(int h, int w, int[] horizontalCuts, int[] verticalCuts) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxArea(h int, w int, horizontalCuts []int, verticalCuts []int) int {
 	horizontalCuts = append(horizontalCuts, []int{0, h}...)
@@ -152,7 +159,9 @@ func maxArea(h int, w int, horizontalCuts []int, verticalCuts []int) int {
 	return (x * y) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxArea(h: number, w: number, horizontalCuts: number[], verticalCuts: number[]): number {
     const mod = 1e9 + 7;
@@ -170,7 +179,9 @@ function maxArea(h: number, w: number, horizontalCuts: number[], verticalCuts: n
     return Number((BigInt(x) * BigInt(y)) % BigInt(mod));
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_area(
@@ -205,6 +216,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

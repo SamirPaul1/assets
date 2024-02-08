@@ -69,6 +69,7 @@ Note that friendships are not transitive, meaning if <code>x</code> is a friend 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTeachings(
@@ -92,7 +93,9 @@ class Solution:
                 cnt[l] += 1
         return len(s) - max(cnt.values(), default=0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTeachings(int n, int[][] languages, int[][] friendships) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTeachings(n int, languages [][]int, friendships [][]int) int {
 	check := func(u, v int) bool {
@@ -201,6 +208,7 @@ func minimumTeachings(n int, languages [][]int, friendships [][]int) int {
 	return len(s) - slices.Max(cnt)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

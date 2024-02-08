@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxMatrixSum(self, matrix: List[List[int]]) -> int:
@@ -79,7 +80,9 @@ class Solution:
             return s
         return s - mi * 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxMatrixSum(int[][] matrix) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxMatrixSum(matrix [][]int) int64 {
 	s := 0
@@ -148,7 +155,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -171,6 +180,7 @@ var maxMatrixSum = function (matrix) {
     return s - mi * 2;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -88,6 +88,7 @@ The rows ordered from weakest to strongest are [0,2,3,1].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
@@ -97,7 +98,9 @@ class Solution:
         idx.sort(key=lambda i: ans[i])
         return idx[:k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] kWeakestRows(int[][] mat, int k) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kWeakestRows(mat [][]int, k int) []int {
 	m, n := len(mat), len(mat[0])
@@ -184,7 +191,9 @@ func kWeakestRows(mat [][]int, k int) []int {
 	return idx[:k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function kWeakestRows(mat: number[][], k: number): number[] {
     let n = mat.length;
@@ -205,6 +214,7 @@ function kWeakestRows(mat: number[][], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

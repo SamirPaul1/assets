@@ -72,6 +72,7 @@ Customer 3 has one bill with an amount strictly greater than 500.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -79,6 +80,7 @@ SELECT
 FROM Store
 WHERE amount > 500;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

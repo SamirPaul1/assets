@@ -82,6 +82,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestCommonSubsequence(self, text1: str, text2: str) -> int:
@@ -95,7 +96,9 @@ class Solution:
                     f[i][j] = max(f[i - 1][j], f[i][j - 1])
         return f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestCommonSubsequence(text1 string, text2 string) int {
 	m, n := len(text1), len(text2)
@@ -155,7 +162,9 @@ func longestCommonSubsequence(text1 string, text2 string) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestCommonSubsequence(text1: string, text2: string): number {
     const m = text1.length;
@@ -173,7 +182,9 @@ function longestCommonSubsequence(text1: string, text2: string): number {
     return f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_common_subsequence(text1: String, text2: String) -> i32 {
@@ -193,7 +204,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} text1
@@ -216,7 +229,9 @@ var longestCommonSubsequence = function (text1, text2) {
     return f[m][n];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int LongestCommonSubsequence(string text1, string text2) {
@@ -235,7 +250,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Kotlin Code" >}}
 ```kotlin
 class Solution {
     fun longestCommonSubsequence(text1: String, text2: String): Int {
@@ -255,6 +272,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

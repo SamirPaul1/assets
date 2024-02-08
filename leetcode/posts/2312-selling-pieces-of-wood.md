@@ -72,6 +72,7 @@ Notice that we cannot rotate the 1 x 4 piece of wood to obtain a 4 x 1 piece of 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sellingWood(self, m: int, n: int, prices: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
             d[h][w] = p
         return dfs(m, n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private long[][] memo;
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sellingWood(m int, n int, prices [][]int) int64 {
 	memo := make([][]int, m+1)
@@ -180,6 +187,7 @@ func sellingWood(m int, n int, prices [][]int) int64 {
 	return int64(dfs(m, n))
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -187,6 +195,7 @@ func sellingWood(m int, n int, prices [][]int) int64 {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sellingWood(self, m: int, n: int, prices: List[List[int]]) -> int:
@@ -203,7 +212,9 @@ class Solution:
                     dp[i][j] = max(dp[i][j], dp[i][k] + dp[i][j - k])
         return dp[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long sellingWood(int m, int n, int[][] prices) {
@@ -227,7 +238,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -246,7 +259,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sellingWood(m int, n int, prices [][]int) int64 {
 	d := make([][]int, m+1)
@@ -272,6 +287,7 @@ func sellingWood(m int, n int, prices [][]int) int64 {
 	return int64(dp[m][n])
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

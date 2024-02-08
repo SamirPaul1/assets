@@ -1,6 +1,5 @@
 # [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)
 
-[中文文档](/solution/0000-0099/0005.Longest%20Palindromic%20Substring/README.md)
 
 ## Description
 

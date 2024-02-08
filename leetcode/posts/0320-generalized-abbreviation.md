@@ -78,6 +78,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. Wh
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generateAbbreviations(self, word: str) -> List[str]:
@@ -93,7 +94,9 @@ class Solution:
         n = len(word)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String word;
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generateAbbreviations(word string) []string {
 	n := len(word)
@@ -176,7 +183,9 @@ func generateAbbreviations(word string) []string {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function generateAbbreviations(word: string): string[] {
     const n = word.length;
@@ -198,6 +207,7 @@ function generateAbbreviations(word: string): string[] {
     return dfs(0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -209,6 +219,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. Wh
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generateAbbreviations(self, word: str) -> List[str]:
@@ -230,7 +241,9 @@ class Solution:
             ans.append("".join(s))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> generateAbbreviations(String word) {
@@ -259,7 +272,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -289,7 +304,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generateAbbreviations(word string) (ans []string) {
 	n := len(word)
@@ -315,6 +332,7 @@ func generateAbbreviations(word string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

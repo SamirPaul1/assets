@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hammingWeight(self, n: int) -> int:
@@ -78,7 +79,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Solution {
     // you need to treat n as an unsigned value
@@ -92,7 +95,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hammingWeight(num uint32) int {
 	ans := 0
@@ -117,7 +124,9 @@ func hammingWeight(num uint32) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hammingWeight(n: number): number {
     let ans: number = 0;
@@ -128,7 +137,9 @@ function hammingWeight(n: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn hammingWeight(n: u32) -> i32 {
@@ -136,7 +147,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n - a positive integer
@@ -151,7 +164,9 @@ var hammingWeight = function (n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int hammingWeight(uint32_t n) {
     int ans = 0;
@@ -162,6 +177,7 @@ int hammingWeight(uint32_t n) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +185,7 @@ int hammingWeight(uint32_t n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hammingWeight(self, n: int) -> int:
@@ -178,7 +195,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Solution {
     // you need to treat n as an unsigned value
@@ -192,7 +211,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -206,7 +227,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hammingWeight(num uint32) int {
 	ans := 0
@@ -217,7 +240,9 @@ func hammingWeight(num uint32) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn hammingWeight(mut n: u32) -> i32 {
@@ -230,6 +255,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

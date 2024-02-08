@@ -82,6 +82,7 @@ There is no way to make them compete in any other round.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def earliestAndLatest(
@@ -112,6 +113,7 @@ class Solution:
 
         return dp(firstPlayer, n - secondPlayer + 1, n)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

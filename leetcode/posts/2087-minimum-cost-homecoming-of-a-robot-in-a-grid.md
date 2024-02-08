@@ -72,6 +72,7 @@ The total cost is 3 + 2 + 6 + 7 = 18</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(
@@ -94,7 +95,9 @@ class Solution:
             ans += sum(colCosts[y:j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCost(int[] startPos, int[] homePos, int[] rowCosts, int[] colCosts) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(startPos []int, homePos []int, rowCosts []int, colCosts []int) (ans int) {
 	i, j := startPos[0], startPos[1]
@@ -170,6 +177,7 @@ func sum(nums []int, i, j int) (s int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

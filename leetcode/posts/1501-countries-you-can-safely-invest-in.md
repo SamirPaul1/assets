@@ -138,6 +138,7 @@ We can use an equi-join to join the `Person` table and the `Calls` table on the 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT country
@@ -152,6 +153,7 @@ FROM
     ) AS t
 WHERE duration > (SELECT AVG(duration) FROM Calls);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -159,6 +161,7 @@ WHERE duration > (SELECT AVG(duration) FROM Calls);
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -174,6 +177,7 @@ SELECT country
 FROM T
 WHERE duration > (SELECT AVG(duration) FROM Calls);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

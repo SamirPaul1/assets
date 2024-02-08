@@ -82,6 +82,7 @@ The time complexity is $O(n \times k)$, and the space complexity is $O(n)$. Wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 n = 3010
 mod = 10**9 + 7
@@ -108,7 +109,9 @@ class Solution:
                 cnt.pop(c)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int N = 3010;
@@ -160,7 +163,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 const int N = 3010;
 const int MOD = 1e9 + 7;
@@ -213,7 +218,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const n = 3010
 const mod = 1e9 + 7
@@ -261,6 +268,7 @@ func makeStringSorted(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

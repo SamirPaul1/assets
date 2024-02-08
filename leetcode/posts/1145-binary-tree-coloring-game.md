@@ -68,6 +68,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -91,7 +92,9 @@ class Solution:
         l, r = count(node.left), count(node.right)
         return max(l, r, n - l - r - 1) > n // 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -205,7 +212,9 @@ func btreeGameWinningMove(root *TreeNode, n int, x int) bool {
 	return max(max(l, r), n-l-r-1) > n/2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -242,7 +251,9 @@ function btreeGameWinningMove(root: TreeNode | null, n: number, x: number): bool
     return Math.max(l, r, n - l - r - 1) > n / 2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -279,6 +290,7 @@ var btreeGameWinningMove = function (root, n, x) {
     return Math.max(l, r, n - l - r - 1) > n / 2;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

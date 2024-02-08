@@ -81,6 +81,7 @@ Note that we do not have any information about the users that follow users 3, 4,
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -100,6 +101,7 @@ SELECT
 FROM t
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

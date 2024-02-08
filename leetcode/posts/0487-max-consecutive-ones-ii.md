@@ -61,6 +61,7 @@ The max number of consecutive ones is 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
             ans = max(ans, t + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxConsecutiveOnes(nums []int) int {
 	n := len(nums)
@@ -187,6 +194,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -194,6 +202,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
@@ -209,7 +218,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
@@ -230,7 +241,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -252,7 +265,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxConsecutiveOnes(nums []int) int {
 	ans := 1
@@ -272,6 +287,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -279,6 +295,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
@@ -294,7 +311,9 @@ class Solution:
             r += 1
         return r - l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
@@ -312,7 +331,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -331,7 +352,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxConsecutiveOnes(nums []int) int {
 	l, r := 0, 0
@@ -350,6 +373,7 @@ func findMaxConsecutiveOnes(nums []int) int {
 	return r - l
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

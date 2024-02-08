@@ -1,6 +1,5 @@
 # [1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array)
 
-[中文文档](/solution/1900-1999/1991.Find%20the%20Middle%20Index%20in%20Array/README.md)
 
 ## Description
 

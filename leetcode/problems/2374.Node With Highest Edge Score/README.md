@@ -1,6 +1,5 @@
 # [2374. Node With Highest Edge Score](https://leetcode.com/problems/node-with-highest-edge-score)
 
-[中文文档](/solution/2300-2399/2374.Node%20With%20Highest%20Edge%20Score/README.md)
 
 ## Description
 

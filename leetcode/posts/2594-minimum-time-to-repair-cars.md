@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def repairCars(self, ranks: List[int], cars: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
 
         return bisect_left(range(ranks[0] * cars * cars), True, key=check)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long repairCars(int[] ranks, int cars) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func repairCars(ranks []int, cars int) int64 {
 	return int64(sort.Search(ranks[0]*cars*cars, func(t int) bool {
@@ -139,7 +146,9 @@ func repairCars(ranks []int, cars int) int64 {
 	}))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function repairCars(ranks: number[], cars: number): number {
     let left = 0;
@@ -159,6 +168,7 @@ function repairCars(ranks: number[], cars: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

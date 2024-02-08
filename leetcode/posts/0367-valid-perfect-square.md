@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
@@ -67,7 +68,9 @@ class Solution:
                 left = mid + 1
         return left * left == num
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPerfectSquare(int num) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPerfectSquare(num int) bool {
 	left, right := 1, num
@@ -116,7 +123,9 @@ func isPerfectSquare(num int) bool {
 	return left*left == num
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPerfectSquare(num: number): boolean {
     let left = 1;
@@ -132,7 +141,9 @@ function isPerfectSquare(num: number): boolean {
     return left * left === num;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -158,6 +169,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -165,6 +177,7 @@ impl Solution {
 
 This is a math problem：
 
+{{< terminal title="Bash Code" >}}
 ```bash
 1 = 1
 4 = 1 + 3
@@ -175,9 +188,11 @@ This is a math problem：
 ....
 so 1+3+...+(2n-1) = (2n-1 + 1)n/2 = n²
 ```
+{{< /terminal >}}
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
@@ -187,7 +202,9 @@ class Solution:
             i += 2
         return num == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPerfectSquare(int num) {
@@ -198,7 +215,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +227,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPerfectSquare(num int) bool {
 	for i := 1; num > 0; i += 2 {
@@ -217,7 +238,9 @@ func isPerfectSquare(num int) bool {
 	return num == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPerfectSquare(num: number): boolean {
     let i = 1;
@@ -228,7 +251,9 @@ function isPerfectSquare(num: number): boolean {
     return num === 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_perfect_square(mut num: i32) -> bool {
@@ -241,6 +266,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

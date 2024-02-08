@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 size -= 1
         return -1 if size - 1 > cnt else size - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeConnected(n int, connections [][]int) int {
 	p := make([]int, n)
@@ -176,6 +183,7 @@ func makeConnected(n int, connections [][]int) int {
 	return n - 1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

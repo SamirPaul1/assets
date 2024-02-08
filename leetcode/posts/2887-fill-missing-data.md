@@ -63,6 +63,7 @@ The quantity for Wristwatch and WirelessEarbuds are filled by 0.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -71,6 +72,7 @@ def fillMissingValues(products: pd.DataFrame) -> pd.DataFrame:
     products['quantity'] = products['quantity'].fillna(0)
     return products
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

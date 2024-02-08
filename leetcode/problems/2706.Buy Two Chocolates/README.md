@@ -1,6 +1,5 @@
 # [2706. Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates)
 
-[中文文档](/solution/2700-2799/2706.Buy%20Two%20Chocolates/README.md)
 
 ## Description
 

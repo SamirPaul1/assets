@@ -68,6 +68,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canConstruct(self, s: str, k: int) -> bool:
@@ -76,7 +77,9 @@ class Solution:
         cnt = Counter(s)
         return sum(v & 1 for v in cnt.values()) <= k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canConstruct(String s, int k) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canConstruct(s string, k int) bool {
 	if len(s) < k {
@@ -133,7 +140,9 @@ func canConstruct(s string, k int) bool {
 	return x <= k
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canConstruct(s: string, k: number): boolean {
     if (s.length < k) {
@@ -150,6 +159,7 @@ function canConstruct(s: string, k: number): boolean {
     return x <= k;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

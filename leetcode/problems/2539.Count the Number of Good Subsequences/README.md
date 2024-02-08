@@ -1,6 +1,5 @@
 # [2539. Count the Number of Good Subsequences](https://leetcode.com/problems/count-the-number-of-good-subsequences)
 
-[中文文档](/solution/2500-2599/2539.Count%20the%20Number%20of%20Good%20Subsequences/README.md)
 
 ## Description
 

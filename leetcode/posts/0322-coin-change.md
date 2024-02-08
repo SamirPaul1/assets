@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[i][j - x] + 1)
         return -1 if f[m][n] >= inf else f[m][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func coinChange(coins []int, amount int) int {
 	m, n := len(coins), amount
@@ -148,7 +155,9 @@ func coinChange(coins []int, amount int) int {
 	return f[m][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function coinChange(coins: number[], amount: number): number {
     const m = coins.length;
@@ -168,7 +177,9 @@ function coinChange(coins: number[], amount: number): number {
     return f[m][n] > n ? -1 : f[m][n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
@@ -188,7 +199,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} coins
@@ -213,6 +226,7 @@ var coinChange = function (coins, amount) {
     return f[m][n] > n ? -1 : f[m][n];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -220,6 +234,7 @@ var coinChange = function (coins, amount) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
@@ -230,7 +245,9 @@ class Solution:
                 f[j] = min(f[j], f[j - x] + 1)
         return -1 if f[n] >= inf else f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
@@ -248,7 +265,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -266,7 +285,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func coinChange(coins []int, amount int) int {
 	n := amount
@@ -286,7 +307,9 @@ func coinChange(coins []int, amount int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function coinChange(coins: number[], amount: number): number {
     const n = amount;
@@ -300,7 +323,9 @@ function coinChange(coins: number[], amount: number): number {
     return f[n] > n ? -1 : f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} coins
@@ -319,6 +344,7 @@ var coinChange = function (coins, amount) {
     return f[n] > n ? -1 : f[n];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

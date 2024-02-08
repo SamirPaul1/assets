@@ -83,6 +83,7 @@ So, answer[2] = 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minEdgeReversals(self, n: int, edges: List[List[int]]) -> List[int]:
@@ -109,7 +110,9 @@ class Solution:
         dfs2(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<int[]>[] g;
@@ -150,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -184,7 +189,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minEdgeReversals(n int, edges [][]int) []int {
 	g := make([][][2]int, n)
@@ -221,7 +228,9 @@ func minEdgeReversals(n int, edges [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minEdgeReversals(n: number, edges: number[][]): number[] {
     const g: number[][][] = Array.from({ length: n }, () => []);
@@ -251,6 +260,7 @@ function minEdgeReversals(n: number, edges: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

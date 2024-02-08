@@ -74,6 +74,7 @@ Second 7: Fill up a hot cup.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fillCups(self, amount: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
             amount[1] = max(0, amount[1] - 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int fillCups(int[] amount) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fillCups(amount []int) int {
 	ans := 0
@@ -131,7 +138,9 @@ func fillCups(amount []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fillCups(amount: number[]): number {
     amount.sort((a, b) => a - b);
@@ -141,7 +150,9 @@ function fillCups(amount: number[]): number {
     else return Math.floor((diff + 1) / 2) + c;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn fill_cups(mut amount: Vec<i32>) -> i32 {
@@ -154,6 +165,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +173,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fillCups(self, amount: List[int]) -> int:
@@ -169,7 +182,9 @@ class Solution:
             return amount[2]
         return (sum(amount) + 1) // 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int fillCups(int[] amount) {
@@ -181,7 +196,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -194,7 +211,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fillCups(amount []int) int {
 	sort.Ints(amount)
@@ -204,6 +223,7 @@ func fillCups(amount []int) int {
 	return (amount[0] + amount[1] + amount[2] + 1) / 2
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

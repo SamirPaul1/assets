@@ -1,6 +1,5 @@
 # [973. K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)
 
-[中文文档](/solution/0900-0999/0973.K%20Closest%20Points%20to%20Origin/README.md)
 
 ## Description
 

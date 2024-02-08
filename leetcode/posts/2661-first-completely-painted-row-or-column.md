@@ -68,6 +68,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def firstCompleteIndex(self, arr: List[int], mat: List[List[int]]) -> int:
@@ -85,7 +86,9 @@ class Solution:
             if row[i] == n or col[j] == m:
                 return k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int firstCompleteIndex(int[] arr, int[][] mat) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func firstCompleteIndex(arr []int, mat [][]int) int {
 	m, n := len(mat), len(mat[0])
@@ -157,7 +164,9 @@ func firstCompleteIndex(arr []int, mat [][]int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function firstCompleteIndex(arr: number[], mat: number[][]): number {
     const m = mat.length;
@@ -180,7 +189,9 @@ function firstCompleteIndex(arr: number[], mat: number[][]): number {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -212,6 +223,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

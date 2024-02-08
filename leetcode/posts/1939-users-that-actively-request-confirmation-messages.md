@@ -105,6 +105,7 @@ User 7 requested two messages within 24 hours and 1 second of each other, so we 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT DISTINCT user_id
 FROM
@@ -114,6 +115,7 @@ WHERE
     c1.time_stamp < c2.time_stamp
     AND TIMESTAMPDIFF(SECOND, c1.time_stamp, c2.time_stamp) <= 24 * 60 * 60;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

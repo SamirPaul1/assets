@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def integerBreak(self, n: int) -> int:
@@ -62,7 +63,9 @@ class Solution:
                 dp[i] = max(dp[i], dp[i - j] * j, (i - j) * j)
         return dp[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int integerBreak(int n) {
@@ -77,7 +80,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func integerBreak(n int) int {
 	dp := make([]int, n+1)
@@ -106,7 +113,9 @@ func integerBreak(n int) int {
 	return dp[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function integerBreak(n: number): number {
     let dp = new Array(n + 1).fill(1);
@@ -118,7 +127,9 @@ function integerBreak(n: number): number {
     return dp.pop();
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn integer_break(n: i32) -> i32 {
@@ -130,7 +141,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int integerBreak(int n) {
     if (n < 4) {
@@ -140,6 +153,7 @@ int integerBreak(int n) {
     return pow(3, count) * (n - count * 3);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -147,6 +161,7 @@ int integerBreak(int n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def integerBreak(self, n: int) -> int:
@@ -158,7 +173,9 @@ class Solution:
             return pow(3, n // 3 - 1) * 4
         return pow(3, n // 3) * 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int integerBreak(int n) {
@@ -175,7 +192,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -193,7 +212,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func integerBreak(n int) int {
 	if n < 4 {
@@ -208,7 +229,9 @@ func integerBreak(n int) int {
 	return int(math.Pow(3, float64(n/3))) * 2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function integerBreak(n: number): number {
     if (n < 4) {
@@ -224,6 +247,7 @@ function integerBreak(n: number): number {
     return 3 ** m * 2;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

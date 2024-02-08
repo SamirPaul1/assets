@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
@@ -71,7 +72,9 @@ class Solution:
             cnt[x] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numIdenticalPairs(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numIdenticalPairs(nums []int) (ans int) {
 	cnt := [101]int{}
@@ -109,7 +116,9 @@ func numIdenticalPairs(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numIdenticalPairs(nums: number[]): number {
     const cnt = new Array(101).fill(0);
@@ -120,7 +129,9 @@ function numIdenticalPairs(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_identical_pairs(nums: Vec<i32>) -> i32 {
@@ -134,7 +145,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -154,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int numIdenticalPairs(int* nums, int numsSize) {
     int cnt[101] = {0};
@@ -165,6 +180,7 @@ int numIdenticalPairs(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -172,13 +188,16 @@ int numIdenticalPairs(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numIdenticalPairs(self, nums: List[int]) -> int:
         cnt = Counter(nums)
         return sum(v * (v - 1) for v in cnt.values()) >> 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numIdenticalPairs(int[] nums) {
@@ -194,7 +213,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -211,7 +232,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numIdenticalPairs(nums []int) (ans int) {
 	cnt := [101]int{}
@@ -224,7 +247,9 @@ func numIdenticalPairs(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numIdenticalPairs(nums: number[]): number {
     const cnt = new Array(101).fill(0);
@@ -238,7 +263,9 @@ function numIdenticalPairs(nums: number[]): number {
     return ans >> 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_identical_pairs(nums: Vec<i32>) -> i32 {
@@ -254,7 +281,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int numIdenticalPairs(int* nums, int numsSize) {
     int cnt[101] = {0};
@@ -268,6 +297,7 @@ int numIdenticalPairs(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -110,6 +110,7 @@ We can use a left join to join the `Signups` table and the `Confirmations` table
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -120,6 +121,7 @@ FROM
     LEFT JOIN Confirmations USING (user_id)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

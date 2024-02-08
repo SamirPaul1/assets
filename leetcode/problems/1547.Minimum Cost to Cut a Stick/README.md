@@ -1,6 +1,5 @@
 # [1547. Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick)
 
-[中文文档](/solution/1500-1599/1547.Minimum%20Cost%20to%20Cut%20a%20Stick/README.md)
 
 ## Description
 

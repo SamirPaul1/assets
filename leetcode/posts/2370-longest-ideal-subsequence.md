@@ -64,6 +64,7 @@ Note that &quot;acfgbd&quot; is not ideal because &#39;c&#39; and &#39;f&#39; ha
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestIdealString(self, s: str, k: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
             d[s[i]] = i
         return max(dp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestIdealString(String s, int k) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestIdealString(s string, k int) int {
 	n := len(s)
@@ -157,7 +164,9 @@ func longestIdealString(s string, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestIdealString(s: string, k: number): number {
     const dp = new Array(26).fill(0);
@@ -175,6 +184,7 @@ function longestIdealString(s: string, k: number): number {
     return dp.reduce((r, c) => Math.max(r, c), 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

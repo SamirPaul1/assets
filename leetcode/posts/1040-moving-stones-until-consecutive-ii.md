@@ -71,6 +71,7 @@ Notice we cannot move 10 -&gt; 2 to finish the game, because that would be an il
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMovesStonesII(self, stones: List[int]) -> List[int]:
@@ -87,7 +88,9 @@ class Solution:
                 mi = min(mi, n - (j - i + 1))
         return [mi, mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] numMovesStonesII(int[] stones) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMovesStonesII(stones []int) []int {
 	sort.Ints(stones)
@@ -153,7 +160,9 @@ func numMovesStonesII(stones []int) []int {
 	return []int{mi, mx}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numMovesStonesII(stones: number[]): number[] {
     stones.sort((a, b) => a - b);
@@ -173,6 +182,7 @@ function numMovesStonesII(stones: number[]): number[] {
     return [mi, mx];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

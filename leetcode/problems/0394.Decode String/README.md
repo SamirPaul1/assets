@@ -1,6 +1,5 @@
 # [394. Decode String](https://leetcode.com/problems/decode-string)
 
-[中文文档](/solution/0300-0399/0394.Decode%20String/README.md)
 
 ## Description
 

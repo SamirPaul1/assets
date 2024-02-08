@@ -78,6 +78,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestNumber(self, cost: List[int], target: int) -> str:
@@ -104,7 +105,9 @@ class Solution:
                 j = g[i][j]
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestNumber(int[] cost, int target) {
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +185,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestNumber(cost []int, target int) string {
 	const inf = 1 << 30
@@ -221,7 +228,9 @@ func largestNumber(cost []int, target int) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestNumber(cost: number[], target: number): string {
     const inf = 1 << 30;
@@ -259,6 +268,7 @@ function largestNumber(cost: number[], target: number): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

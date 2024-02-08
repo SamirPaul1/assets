@@ -74,6 +74,7 @@ myQueue.empty(); // return false
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyQueue:
     def __init__(self):
@@ -107,7 +108,9 @@ class MyQueue:
 # param_3 = obj.peek()
 # param_4 = obj.empty()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyQueue {
     private Deque<Integer> stk1 = new ArrayDeque<>();
@@ -152,7 +155,9 @@ class MyQueue {
  * boolean param_4 = obj.empty();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyQueue {
 public:
@@ -202,7 +207,9 @@ private:
  * bool param_4 = obj->empty();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyQueue struct {
 	stk1 []int
@@ -251,7 +258,9 @@ func (this *MyQueue) move() {
  * param_4 := obj.Empty();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyQueue {
     stk1: number[];
@@ -298,7 +307,9 @@ class MyQueue {
  * var param_4 = obj.empty()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct MyQueue {
     in_stack: Vec<i32>,
@@ -356,6 +367,7 @@ impl MyQueue {
  * let ret_4: bool = obj.empty();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

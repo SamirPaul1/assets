@@ -63,12 +63,15 @@ The time complexity is $O(n \times \log n)$, where $n$ is the size of $num$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOfNumberAndReverse(self, num: int) -> bool:
         return any(k + int(str(k)[::-1]) == num for k in range(num + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean sumOfNumberAndReverse(int num) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOfNumberAndReverse(num int) bool {
 	for x := 0; x <= num; x++ {
@@ -123,7 +130,9 @@ func sumOfNumberAndReverse(num int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumOfNumberAndReverse(num: number): boolean {
     for (let i = 0; i <= num; i++) {
@@ -134,7 +143,9 @@ function sumOfNumberAndReverse(num: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sum_of_number_and_reverse(num: i32) -> bool {
@@ -158,7 +169,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool sumOfNumberAndReverse(int num) {
     for (int i = 0; i <= num; i++) {
@@ -175,6 +188,7 @@ bool sumOfNumberAndReverse(int num) {
     return 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

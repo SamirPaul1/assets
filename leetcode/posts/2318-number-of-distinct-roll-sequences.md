@@ -65,6 +65,7 @@ There are a total of 22 distinct sequences possible, so we return 22.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctSequences(self, n: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 ans += dp[-1][i][j]
         return ans % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distinctSequences(int n) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctSequences(n int) int {
 	if n == 1 {
@@ -213,6 +220,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

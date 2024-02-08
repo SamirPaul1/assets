@@ -161,6 +161,7 @@ The first yielded promise immediately rejects. This error is caught. Because the
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function cancellable<T>(generator: Generator<Promise<any>, T, unknown>): [() => void, Promise<T>] {
     let cancel: () => void = () => {};
@@ -195,6 +196,7 @@ function cancellable<T>(generator: Generator<Promise<any>, T, unknown>): [() => 
  * promise.catch(console.log); // logs "Cancelled" at t=50ms
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

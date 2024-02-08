@@ -87,6 +87,7 @@ Because only -1 is guaranteed to be found, you should return 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def binarySearchableNumbers(self, nums: List[int]) -> int:
@@ -105,7 +106,9 @@ class Solution:
                 mi = nums[i]
         return sum(ok)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int binarySearchableNumbers(int[] nums) {
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func binarySearchableNumbers(nums []int) (ans int) {
 	n := len(nums)
@@ -184,6 +191,7 @@ func binarySearchableNumbers(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

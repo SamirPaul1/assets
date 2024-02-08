@@ -67,6 +67,7 @@ It can be shown that it is not possible to obtain a palindrome in less than 2 mo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMovesToMakePalindrome(self, s: str) -> int:
@@ -89,7 +90,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMovesToMakePalindrome(String s) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMovesToMakePalindrome(s string) int {
 	cs := []byte(s)
@@ -170,6 +177,7 @@ func minMovesToMakePalindrome(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -69,6 +69,7 @@ Same with other integers chosen by the first player, the second player will alwa
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:
@@ -86,7 +87,9 @@ class Solution:
             return False
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Boolean> memo = new HashMap<>();
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canIWin(maxChoosableInteger int, desiredTotal int) bool {
 	s := (1 + maxChoosableInteger) * maxChoosableInteger / 2
@@ -173,6 +180,7 @@ func canIWin(maxChoosableInteger int, desiredTotal int) bool {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -69,12 +69,15 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumWealth(self, accounts: List[List[int]]) -> int:
         return max(sum(v) for v in accounts)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumWealth(int[][] accounts) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumWealth(accounts [][]int) int {
 	ans := 0
@@ -120,7 +127,9 @@ func maximumWealth(accounts [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumWealth(accounts: number[][]): number {
     return accounts.reduce(
@@ -133,7 +142,9 @@ function maximumWealth(accounts: number[][]): number {
     );
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum_wealth(accounts: Vec<Vec<i32>>) -> i32 {
@@ -145,7 +156,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -167,7 +180,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -183,7 +198,9 @@ int maximumWealth(int** accounts, int accountsSize, int* accountsColSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Kotlin Code" >}}
 ```kotlin
 class Solution {
     fun maximumWealth(accounts: Array<IntArray>): Int {
@@ -198,6 +215,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

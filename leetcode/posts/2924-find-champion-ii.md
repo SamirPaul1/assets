@@ -81,6 +81,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findChampion(self, n: int, edges: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
             indeg[v] += 1
         return -1 if indeg.count(0) != 1 else indeg.index(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findChampion(int n, int[][] edges) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findChampion(n int, edges [][]int) int {
 	indeg := make([]int, n)
@@ -149,7 +156,9 @@ func findChampion(n int, edges [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findChampion(n: number, edges: number[][]): number {
     const indeg: number[] = Array(n).fill(0);
@@ -166,6 +175,7 @@ function findChampion(n: number, edges: number[][]): number {
     return cnt === 1 ? ans : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

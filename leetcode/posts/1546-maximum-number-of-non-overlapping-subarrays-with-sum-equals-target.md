@@ -58,6 +58,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNonOverlapping(self, nums: List[int], target: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxNonOverlapping(int[] nums, int target) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNonOverlapping(nums []int, target int) (ans int) {
 	n := len(nums)
@@ -141,7 +148,9 @@ func maxNonOverlapping(nums []int, target int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxNonOverlapping(nums: number[], target: number): number {
     const n = nums.length;
@@ -162,6 +171,7 @@ function maxNonOverlapping(nums: number[], target: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

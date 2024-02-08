@@ -76,11 +76,13 @@ Assume that a binary number is represented as $B_{n-1}B_{n-2}...B_2B_1B_0$, and 
 
 Therefore, for an integer $x$, we can use the function $gray(x)$ to get its Gray code:
 
+{{< terminal title="Java Code" >}}
 ```java
 int gray(x) {
     return x ^ (x >> 1);
 }
 ```
+{{< /terminal >}}
 
 We directly map the integers $[0,..2^n - 1]$ to the corresponding Gray codes to get the answer array.
 
@@ -88,12 +90,15 @@ The time complexity is $O(2^n)$, where $n$ is the integer given in the problem. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def grayCode(self, n: int) -> List[int]:
         return [i ^ (i >> 1) for i in range(1 << n)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> grayCode(int n) {
@@ -105,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func grayCode(n int) (ans []int) {
 	for i := 0; i < 1<<n; i++ {
@@ -127,7 +136,9 @@ func grayCode(n int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -141,6 +152,7 @@ var grayCode = function (n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

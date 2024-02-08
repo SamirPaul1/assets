@@ -70,6 +70,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumTripletValue(self, nums: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
             mx_diff = max(mx_diff, mx - num)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumTripletValue(int[] nums) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumTripletValue(nums []int) int64 {
 	ans, mx, mx_diff := 0, 0, 0
@@ -125,7 +132,9 @@ func maximumTripletValue(nums []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumTripletValue(nums: number[]): number {
     let [ans, mx, mx_diff] = [0, 0, 0];
@@ -137,6 +146,7 @@ function maximumTripletValue(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

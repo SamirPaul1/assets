@@ -63,12 +63,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findNonMinOrMax(self, nums: List[int]) -> int:
         return -1 if len(nums) < 3 else sorted(nums)[1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findNonMinOrMax(int[] nums) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findNonMinOrMax(nums []int) int {
 	mi, mx := slices.Min(nums), slices.Max(nums)
@@ -114,7 +121,9 @@ func findNonMinOrMax(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_non_min_or_max(nums: Vec<i32>) -> i32 {
@@ -140,6 +149,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -147,6 +157,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findNonMinOrMax(self, nums: List[int]) -> int:
@@ -156,6 +167,7 @@ class Solution:
                 return x
         return -1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

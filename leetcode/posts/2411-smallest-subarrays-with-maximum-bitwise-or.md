@@ -81,6 +81,7 @@ The time complexity is $O(n \times \log m)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestSubarrays(self, nums: List[int]) -> List[int]:
@@ -97,7 +98,9 @@ class Solution:
             ans[i] = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] smallestSubarrays(int[] nums) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestSubarrays(nums []int) []int {
 	n := len(nums)
@@ -166,6 +173,7 @@ func smallestSubarrays(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

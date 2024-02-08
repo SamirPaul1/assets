@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findSubstringInWraproundString(self, p: str) -> int:
@@ -80,7 +81,9 @@ class Solution:
             dp[idx] = max(dp[idx], k)
         return sum(dp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findSubstringInWraproundString(String p) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findSubstringInWraproundString(p string) int {
 	dp := make([]int, 26)
@@ -145,7 +152,9 @@ func findSubstringInWraproundString(p string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findSubstringInWraproundString(p: string): number {
     const n = p.length;
@@ -164,7 +173,9 @@ function findSubstringInWraproundString(p: string): number {
     return dp.reduce((r, v) => r + v);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_substring_in_wrapround_string(p: String) -> i32 {
@@ -186,6 +197,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

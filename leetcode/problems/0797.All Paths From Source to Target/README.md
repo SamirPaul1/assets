@@ -1,6 +1,5 @@
 # [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target)
 
-[中文文档](/solution/0700-0799/0797.All%20Paths%20From%20Source%20to%20Target/README.md)
 
 ## Description
 

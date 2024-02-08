@@ -100,6 +100,7 @@ values = [[5],[]]
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Fn = (...params: any) => any;
 
@@ -127,6 +128,7 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

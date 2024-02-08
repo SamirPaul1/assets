@@ -69,6 +69,7 @@ vector2D.hasNext(); // return False
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Vector2D:
     def __init__(self, vec: List[List[int]]):
@@ -97,7 +98,9 @@ class Vector2D:
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Vector2D {
     private int i;
@@ -133,7 +136,9 @@ class Vector2D {
  * boolean param_2 = obj.hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Vector2D {
 public:
@@ -171,7 +176,9 @@ private:
  * bool param_2 = obj->hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Vector2D struct {
 	i, j int
@@ -208,7 +215,9 @@ func (this *Vector2D) forward() {
  * param_2 := obj.HasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Vector2D {
     i: number;
@@ -246,6 +255,7 @@ class Vector2D {
  * var param_2 = obj.hasNext()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

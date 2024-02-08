@@ -73,6 +73,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestMultipleOfThree(self, digits: List[int]) -> str:
@@ -97,7 +98,9 @@ class Solution:
             i += 1
         return "".join(map(str, arr[i:]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestMultipleOfThree(int[] digits) {
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestMultipleOfThree(digits []int) string {
 	sort.Ints(digits)
@@ -204,7 +211,9 @@ func largestMultipleOfThree(digits []int) string {
 	return string(ans[i:])
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestMultipleOfThree(digits: number[]): string {
     digits.sort((a, b) => a - b);
@@ -234,6 +243,7 @@ function largestMultipleOfThree(digits: number[]): string {
     return arr.slice(i).join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

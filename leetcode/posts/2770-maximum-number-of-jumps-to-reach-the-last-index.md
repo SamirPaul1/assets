@@ -93,6 +93,7 @@ Time complexity $O(n^2)$, space complexity $O(n)$. where $n$ is the length of ar
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumJumps(self, nums: List[int], target: int) -> int:
@@ -110,7 +111,9 @@ class Solution:
         ans = dfs(0)
         return -1 if ans < 0 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[] f;
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumJumps(nums []int, target int) int {
 	n := len(nums)
@@ -210,7 +217,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumJumps(nums: number[], target: number): number {
     const n = nums.length;
@@ -234,6 +243,7 @@ function maximumJumps(nums: number[], target: number): number {
     return ans < 0 ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

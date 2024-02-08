@@ -62,6 +62,7 @@ Other possible solutions are [[2,1,6],[5],[0,4,3]] and [[5],[0,6,2],[4,3,1]].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
@@ -70,7 +71,9 @@ class Solution:
             g[v].append(i)
         return [v[j : j + i] for i, v in g.items() for j in range(0, len(v), i)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func groupThePeople(groupSizes []int) [][]int {
 	n := len(groupSizes)
@@ -127,7 +134,9 @@ func groupThePeople(groupSizes []int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function groupThePeople(groupSizes: number[]): number[][] {
     const res = [];
@@ -145,7 +154,9 @@ function groupThePeople(groupSizes: number[]): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -165,6 +176,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -172,6 +184,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def groupThePeople(self, groupSizes: List[int]) -> List[List[int]]:
@@ -188,7 +201,9 @@ class Solution:
                     t = []
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -209,6 +224,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

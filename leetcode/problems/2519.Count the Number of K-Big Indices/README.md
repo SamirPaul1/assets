@@ -1,6 +1,5 @@
 # [2519. Count the Number of K-Big Indices](https://leetcode.com/problems/count-the-number-of-k-big-indices)
 
-[中文文档](/solution/2500-2599/2519.Count%20the%20Number%20of%20K-Big%20Indices/README.md)
 
 ## Description
 

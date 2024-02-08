@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validMountainArray(self, arr: List[int]) -> bool:
@@ -71,7 +72,9 @@ class Solution:
             r -= 1
         return l == r
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validMountainArray(arr []int) bool {
 	n := len(arr)
@@ -122,6 +129,7 @@ func validMountainArray(arr []int) bool {
 	return l == r
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

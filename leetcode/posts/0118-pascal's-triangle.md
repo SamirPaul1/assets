@@ -48,6 +48,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
@@ -57,7 +58,9 @@ class Solution:
             f.append(g)
         return f
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generate(numRows int) [][]int {
 	f := [][]int{[]int{1}}
@@ -111,7 +118,9 @@ func generate(numRows int) [][]int {
 	return f
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function generate(numRows: number): number[][] {
     const f: number[][] = [[1]];
@@ -126,7 +135,9 @@ function generate(numRows: number): number[][] {
     return f;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -147,7 +158,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} numRows
@@ -166,6 +179,7 @@ var generate = function (numRows) {
     return f;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -72,6 +72,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $word$. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addMinimum(self, word: str) -> int:
@@ -88,7 +89,9 @@ class Solution:
             ans += 1 if word[-1] == 'b' else 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int addMinimum(String word) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addMinimum(word string) (ans int) {
 	s := "abc"
@@ -149,7 +156,9 @@ func addMinimum(word string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addMinimum(word: string): number {
     const s: string = 'abc';
@@ -170,6 +179,7 @@ function addMinimum(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

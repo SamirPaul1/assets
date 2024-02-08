@@ -51,6 +51,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
@@ -63,7 +64,9 @@ class Solution:
                 cnt = 0
         return max(ans, cnt)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaxConsecutiveOnes(nums []int) int {
 	ans, cnt := 0, 0
@@ -113,7 +120,9 @@ func findMaxConsecutiveOnes(nums []int) int {
 	return max(ans, cnt)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMaxConsecutiveOnes(nums: number[]): number {
     let res = 0;
@@ -129,7 +138,9 @@ function findMaxConsecutiveOnes(nums: number[]): number {
     return Math.max(res, count);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_max_consecutive_ones(nums: Vec<i32>) -> i32 {
@@ -147,7 +158,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -167,7 +180,9 @@ var findMaxConsecutiveOnes = function (nums) {
     return Math.max(res, t);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -188,6 +203,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

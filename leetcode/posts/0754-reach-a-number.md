@@ -66,6 +66,7 @@ On the 2<sup>nd</sup> move, we step from 1 to 3 (2 steps).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reachNumber(self, target: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
             k += 1
             s += k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int reachNumber(int target) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reachNumber(target int) int {
 	if target < 0 {
@@ -124,7 +131,9 @@ func reachNumber(target int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} target
@@ -142,6 +151,7 @@ var reachNumber = function (target) {
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

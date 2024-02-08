@@ -64,6 +64,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validPalindrome(self, s: str) -> bool:
@@ -81,7 +82,9 @@ class Solution:
             i, j = i + 1, j - 1
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean validPalindrome(String s) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validPalindrome(s string) bool {
 	check := func(i, j int) bool {
@@ -145,7 +152,9 @@ func validPalindrome(s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validPalindrome(s: string): boolean {
     for (let i: number = 0, j = s.length - 1; i < j; ++i, --j) {
@@ -165,7 +174,9 @@ function isPalinddrome(s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -188,7 +199,9 @@ var validPalindrome = function (s) {
     return true;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool ValidPalindrome(string s) {
@@ -215,6 +228,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

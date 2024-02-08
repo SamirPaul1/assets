@@ -82,6 +82,7 @@ The time complexity is $O(m)$, and the space complexity is $O(m)$. Where $m$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:
@@ -97,7 +98,9 @@ class Solution:
                     ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNumberOfFamilies(n int, reservedSeats [][]int) int {
 	d := map[int]int{}
@@ -165,7 +172,9 @@ func maxNumberOfFamilies(n int, reservedSeats [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxNumberOfFamilies(n: number, reservedSeats: number[][]): number {
     const d: Map<number, number> = new Map();
@@ -185,6 +194,7 @@ function maxNumberOfFamilies(n: number, reservedSeats: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

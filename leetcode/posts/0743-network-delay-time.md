@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
         ans = max(dist)
         return -1 if ans == INF else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = 0x3f3f;
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func networkDelayTime(times [][]int, n int, k int) int {
 	const inf = 0x3f3f
@@ -188,6 +195,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -195,6 +203,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
@@ -214,7 +223,9 @@ class Solution:
         ans = max(dist)
         return -1 if ans == INF else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = 0x3f3f;
@@ -251,7 +262,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -281,7 +294,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const Inf = 0x3f3f3f3f
 
@@ -339,6 +354,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -346,6 +362,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
@@ -359,7 +376,9 @@ class Solution:
         ans = max(dist)
         return -1 if ans == INF else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = 0x3f3f;
@@ -384,7 +403,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -405,7 +426,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func networkDelayTime(times [][]int, n int, k int) int {
 	const inf = 0x3f3f
@@ -429,6 +452,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -436,6 +460,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
@@ -461,7 +486,9 @@ class Solution:
         ans = max(dist)
         return -1 if ans == INF else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = 0x3f3f;
@@ -505,7 +532,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -543,7 +572,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func networkDelayTime(times [][]int, n int, k int) int {
 	const inf = 0x3f3f
@@ -583,6 +614,7 @@ func networkDelayTime(times [][]int, n int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2853. Highest Salaries Difference](https://leetcode.com/problems/highest-salaries-difference)
 
-[中文文档](/solution/2800-2899/2853.Highest%20Salaries%20Difference/README.md)
 
 ## Description
 

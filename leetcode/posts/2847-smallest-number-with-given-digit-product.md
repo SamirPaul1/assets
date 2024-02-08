@@ -65,6 +65,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestNumber(self, n: int) -> str:
@@ -78,7 +79,9 @@ class Solution:
         ans = "".join(str(i) * cnt[i] for i in range(2, 10))
         return ans if ans else "1"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String smallestNumber(long n) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestNumber(n int64) string {
 	cnt := [10]int{}
@@ -153,6 +160,7 @@ func smallestNumber(n int64) string {
 	return "1"
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

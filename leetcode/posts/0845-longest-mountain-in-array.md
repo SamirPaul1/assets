@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestMountain(self, arr: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                     ans = max(ans, f[i] + g[i] - 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestMountain(int[] arr) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestMountain(arr []int) (ans int) {
 	n := len(arr)
@@ -170,6 +177,7 @@ func longestMountain(arr []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -177,6 +185,7 @@ func longestMountain(arr []int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestMountain(self, arr: List[int]) -> int:
@@ -196,7 +205,9 @@ class Solution:
             l = r
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestMountain(int[] arr) {
@@ -222,7 +233,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -249,7 +262,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestMountain(arr []int) (ans int) {
 	n := len(arr)
@@ -272,6 +287,7 @@ func longestMountain(arr []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
@@ -79,7 +80,9 @@ class Solution:
                 last = b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMinArrowShots(int[][] points) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMinArrowShots(points [][]int) (ans int) {
 	sort.Slice(points, func(i, j int) bool { return points[i][1] < points[j][1] })
@@ -134,7 +141,9 @@ func findMinArrowShots(points [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMinArrowShots(points: number[][]): number {
     points.sort((a, b) => a[1] - b[1]);
@@ -149,7 +158,9 @@ function findMinArrowShots(points: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int FindMinArrowShots(int[][] points) {
@@ -166,6 +177,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

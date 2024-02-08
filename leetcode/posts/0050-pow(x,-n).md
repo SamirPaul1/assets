@@ -65,6 +65,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def myPow(self, x: float, n: int) -> float:
@@ -79,7 +80,9 @@ class Solution:
 
         return qpow(x, n) if n >= 0 else 1 / qpow(x, -n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double myPow(double x, int n) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func myPow(x float64, n int) float64 {
 	qpow := func(a float64, n int) float64 {
@@ -136,7 +143,9 @@ func myPow(x float64, n int) float64 {
 	return 1 / qpow(x, -n)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function myPow(x: number, n: number): number {
     const qpow = (a: number, n: number): number => {
@@ -152,7 +161,9 @@ function myPow(x: number, n: number): number {
     return n >= 0 ? qpow(x, n) : 1 / qpow(x, -n);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -181,7 +192,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} x
@@ -202,7 +215,9 @@ var myPow = function (x, n) {
     return n >= 0 ? qpow(x, n) : 1 / qpow(x, -n);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public double MyPow(double x, int n) {
@@ -221,6 +236,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

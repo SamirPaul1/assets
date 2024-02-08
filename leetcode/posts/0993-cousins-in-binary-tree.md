@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -91,7 +92,9 @@ class Solution:
             d += 1
         return p1 != p2 and d1 == d2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -187,7 +192,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -225,6 +232,7 @@ func isCousins(root *TreeNode, x int, y int) bool {
 	return p1 != p2 && d1 == d2
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -232,6 +240,7 @@ func isCousins(root *TreeNode, x int, y int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -255,7 +264,9 @@ class Solution:
         dfs(root, None, 0)
         return t[0][0] != t[1][0] and t[0][1] == t[1][1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -301,7 +312,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -339,7 +352,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -370,6 +385,7 @@ func isCousins(root *TreeNode, x int, y int) bool {
 	return p1 != p2 && d1 == d2
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isEmpty(obj: Record<string, any> | any[]): boolean {
     for (const x in obj) {
@@ -78,7 +79,9 @@ function isEmpty(obj: Record<string, any> | any[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {Object | Array} obj
@@ -91,6 +94,7 @@ var isEmpty = function (obj) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -98,11 +102,13 @@ var isEmpty = function (obj) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isEmpty(obj: Record<string, any> | any[]): boolean {
     return Object.keys(obj).length === 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

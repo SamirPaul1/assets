@@ -44,6 +44,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sequentialDigits(self, low: int, high: int) -> List[int]:
@@ -56,7 +57,9 @@ class Solution:
                     ans.append(x)
         return sorted(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
@@ -75,7 +78,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sequentialDigits(low int, high int) (ans []int) {
 	for i := 1; i < 9; i++ {
@@ -111,7 +118,9 @@ func sequentialDigits(low int, high int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sequentialDigits(low: number, high: number): number[] {
     const ans: number[] = [];
@@ -128,6 +137,7 @@ function sequentialDigits(low: number, high: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

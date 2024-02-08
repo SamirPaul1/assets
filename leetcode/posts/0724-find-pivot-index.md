@@ -75,6 +75,7 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             left += x
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int pivotIndex(int[] nums) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pivotIndex(nums []int) int {
 	var left, right int
@@ -136,7 +143,9 @@ func pivotIndex(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function pivotIndex(nums: number[]): number {
     let left = 0,
@@ -151,7 +160,9 @@ function pivotIndex(nums: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn pivot_index(nums: Vec<i32>) -> i32 {
@@ -167,7 +178,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -186,6 +199,7 @@ var pivotIndex = function (nums) {
     return -1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

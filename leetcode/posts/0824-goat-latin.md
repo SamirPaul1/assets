@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def toGoatLatin(self, sentence: str) -> str:
@@ -81,7 +82,9 @@ class Solution:
             ans.append(word)
         return ' '.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String toGoatLatin(String sentence) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function toGoatLatin(sentence: string): string {
     return sentence
@@ -125,7 +130,9 @@ function toGoatLatin(sentence: string): string {
         .join(' ');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -151,6 +158,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

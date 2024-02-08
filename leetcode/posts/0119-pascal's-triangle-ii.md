@@ -58,6 +58,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
@@ -67,7 +68,9 @@ class Solution:
                 f[j] += f[j - 1]
         return f
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getRow(rowIndex int) []int {
 	f := make([]int, rowIndex+1)
@@ -114,7 +121,9 @@ func getRow(rowIndex int) []int {
 	return f
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getRow(rowIndex: number): number[] {
     const f: number[] = Array(rowIndex + 1).fill(1);
@@ -126,7 +135,9 @@ function getRow(rowIndex: number): number[] {
     return f;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_row(row_index: i32) -> Vec<i32> {
@@ -141,6 +152,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

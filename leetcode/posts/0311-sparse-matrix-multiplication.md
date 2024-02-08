@@ -57,6 +57,7 @@ The time complexity is $O(m \times n \times k)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def multiply(self, mat1: List[List[int]], mat2: List[List[int]]) -> List[List[int]]:
@@ -68,7 +69,9 @@ class Solution:
                     ans[i][j] += mat1[i][k] * mat2[k][j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] multiply(int[][] mat1, int[][] mat2) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func multiply(mat1 [][]int, mat2 [][]int) [][]int {
 	m, n := len(mat1), len(mat2[0])
@@ -121,7 +128,9 @@ func multiply(mat1 [][]int, mat2 [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function multiply(mat1: number[][], mat2: number[][]): number[][] {
     const [m, n] = [mat1.length, mat2[0].length];
@@ -136,6 +145,7 @@ function multiply(mat1: number[][], mat2: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -149,6 +159,7 @@ The time complexity is $O(m \times n \times k)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def multiply(self, mat1: List[List[int]], mat2: List[List[int]]) -> List[List[int]]:
@@ -170,7 +181,9 @@ class Solution:
                     ans[i][j] += x * y
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] multiply(int[][] mat1, int[][] mat2) {
@@ -205,7 +218,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -237,7 +252,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func multiply(mat1 [][]int, mat2 [][]int) [][]int {
 	m, n := len(mat1), len(mat2[0])
@@ -271,7 +288,9 @@ func multiply(mat1 [][]int, mat2 [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function multiply(mat1: number[][], mat2: number[][]): number[][] {
     const [m, n] = [mat1.length, mat2[0].length];
@@ -300,6 +319,7 @@ function multiply(mat1: number[][], mat2: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

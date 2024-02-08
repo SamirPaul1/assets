@@ -97,6 +97,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function possiblyEquals(s1: string, s2: string): boolean {
     const n = s1.length,
@@ -159,6 +160,7 @@ function isDigit(char: string): boolean {
     return /^\d{1}$/g.test(char);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

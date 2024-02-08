@@ -62,6 +62,7 @@ It can be proven that it is not possible to convert current to correct in fewer 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def convertTime(self, current: str, correct: str) -> int:
@@ -73,7 +74,9 @@ class Solution:
             d %= i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int convertTime(String current, String correct) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func convertTime(current string, correct string) int {
 	parse := func(s string) int {
@@ -124,6 +131,7 @@ func convertTime(current string, correct string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

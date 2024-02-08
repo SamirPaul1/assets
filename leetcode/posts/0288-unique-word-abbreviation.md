@@ -86,6 +86,7 @@ In terms of time complexity, the time complexity of initializing the hash table 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class ValidWordAbbr:
     def __init__(self, dictionary: List[str]):
@@ -105,7 +106,9 @@ class ValidWordAbbr:
 # obj = ValidWordAbbr(dictionary)
 # param_1 = obj.isUnique(word)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ValidWordAbbr {
     private Map<String, Set<String>> d = new HashMap<>();
@@ -133,7 +136,9 @@ class ValidWordAbbr {
  * boolean param_1 = obj.isUnique(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class ValidWordAbbr {
 public:
@@ -163,7 +168,9 @@ private:
  * bool param_1 = obj->isUnique(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type ValidWordAbbr struct {
 	d map[string]map[string]bool
@@ -200,7 +207,9 @@ func abbr(s string) string {
  * param_1 := obj.IsUnique(word);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class ValidWordAbbr {
     private d: Map<string, Set<string>> = new Map();
@@ -232,6 +241,7 @@ class ValidWordAbbr {
  * var param_1 = obj.isUnique(word)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -75,6 +75,7 @@ The time complexity is $O(m \times n)$, where $m$ and $n$ are the number of rows
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def construct2DArray(self, original: List[int], m: int, n: int) -> List[List[int]]:
@@ -82,7 +83,9 @@ class Solution:
             return []
         return [original[i : i + n] for i in range(0, m * n, n)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] construct2DArray(int[] original, int m, int n) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func construct2DArray(original []int, m int, n int) (ans [][]int) {
 	if m*n != len(original) {
@@ -129,7 +136,9 @@ func construct2DArray(original []int, m int, n int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function construct2DArray(original: number[], m: number, n: number): number[][] {
     if (m * n != original.length) {
@@ -142,7 +151,9 @@ function construct2DArray(original: number[], m: number, n: number): number[][] 
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} original
@@ -161,6 +172,7 @@ var construct2DArray = function (original, m, n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMin(self, nums: List[int]) -> int:
@@ -88,7 +89,9 @@ class Solution:
                 right = mid
         return nums[left]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMin(int[] nums) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMin(nums []int) int {
 	n := len(nums)
@@ -147,7 +154,9 @@ func findMin(nums []int) int {
 	return nums[left]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMin(nums: number[]): number {
     let left = 0;
@@ -163,7 +172,9 @@ function findMin(nums: number[]): number {
     return nums[left];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_min(nums: Vec<i32>) -> i32 {
@@ -181,7 +192,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -199,6 +212,7 @@ var findMin = function (nums) {
     return nums[l];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

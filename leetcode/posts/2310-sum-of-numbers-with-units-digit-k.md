@@ -77,6 +77,7 @@ It can be shown that 2 is the minimum possible size of a valid set.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumNumbers(self, num: int, k: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumNumbers(int num, int k) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumNumbers(num int, k int) int {
 	if num == 0 {
@@ -133,7 +140,9 @@ func minimumNumbers(num int, k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumNumbers(num: number, k: number): number {
     if (!num) return 0;
@@ -145,6 +154,7 @@ function minimumNumbers(num: number, k: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -152,6 +162,7 @@ function minimumNumbers(num: number, k: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumNumbers(self, num: int, k: int) -> int:
@@ -162,7 +173,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumNumbers(int num, int k) {
@@ -178,7 +191,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -191,7 +206,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumNumbers(num int, k int) int {
 	if num == 0 {
@@ -205,6 +222,7 @@ func minimumNumbers(num int, k int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -212,6 +230,7 @@ func minimumNumbers(num int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumNumbers(self, num: int, k: int) -> int:
@@ -235,6 +254,7 @@ class Solution:
         ans = dfs(num)
         return -1 if ans >= inf else ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

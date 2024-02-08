@@ -73,6 +73,7 @@ Total score = 5 + 4 + 5 + 5 = 19.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumGain(self, s: str, x: int, y: int) -> int:
@@ -101,7 +102,9 @@ class Solution:
                     stk2.append(c)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumGain(String s, int x, int y) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +185,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumGain(s string, x int, y int) int {
 	if x < y {
@@ -220,6 +227,7 @@ func maximumGain(s string, x int, y int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

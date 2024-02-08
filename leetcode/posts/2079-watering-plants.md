@@ -87,6 +87,7 @@ Steps needed = 1 + 1 + 2 + 2 + 3 + 3 + 4 + 4 + 5 + 5 + 6 + 6 + 7 = 49.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wateringPlants(self, plants: List[int], capacity: int) -> int:
@@ -100,7 +101,9 @@ class Solution:
                 ans += i * 2 + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int wateringPlants(int[] plants, int capacity) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wateringPlants(plants []int, capacity int) int {
 	ans, cap := 0, capacity
@@ -153,7 +160,9 @@ func wateringPlants(plants []int, capacity int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wateringPlants(plants: number[], capacity: number): number {
     const n = plants.length;
@@ -171,7 +180,9 @@ function wateringPlants(plants: number[], capacity: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn watering_plants(plants: Vec<i32>, capacity: i32) -> i32 {
@@ -191,7 +202,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int wateringPlants(int* plants, int plantsSize, int capacity) {
     int ans = 0;
@@ -208,6 +221,7 @@ int wateringPlants(int* plants, int plantsSize, int capacity) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

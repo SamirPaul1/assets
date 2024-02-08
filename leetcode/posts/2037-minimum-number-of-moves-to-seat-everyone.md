@@ -90,6 +90,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMovesToSeat(self, seats: List[int], students: List[int]) -> int:
@@ -97,7 +98,9 @@ class Solution:
         students.sort()
         return sum(abs(a - b) for a, b in zip(seats, students))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMovesToSeat(int[] seats, int[] students) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMovesToSeat(seats []int, students []int) (ans int) {
 	sort.Ints(seats)
@@ -145,7 +152,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMovesToSeat(seats: number[], students: number[]): number {
     seats.sort((a, b) => a - b);
@@ -158,7 +167,9 @@ function minMovesToSeat(seats: number[], students: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_moves_to_seat(mut seats: Vec<i32>, mut students: Vec<i32>) -> i32 {
@@ -173,7 +184,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int cmp(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
@@ -189,6 +202,7 @@ int minMovesToSeat(int* seats, int seatsSize, int* students, int studentsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

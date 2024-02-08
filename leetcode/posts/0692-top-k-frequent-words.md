@@ -60,13 +60,16 @@ Note that &quot;i&quot; comes before &quot;love&quot; due to a lower alphabetica
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         cnt = Counter(words)
         return sorted(cnt, key=lambda x: (-cnt[x], x))[:k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func topKFrequent(words []string, k int) []string {
 	cnt := map[string]int{}
@@ -127,6 +134,7 @@ func topKFrequent(words []string, k int) []string {
 	return ans[:k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

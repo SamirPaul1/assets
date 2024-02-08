@@ -81,6 +81,7 @@ The sum of all the total strengths is 25 + 16 + 36 + 36 + 40 + 60 = 213.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def totalStrength(self, strength: List[int]) -> int:
@@ -112,7 +113,9 @@ class Solution:
             ans = (ans + (a - b) * v) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int totalStrength(int[] strength) {
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -199,7 +204,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func totalStrength(strength []int) int {
 	n := len(strength)
@@ -248,6 +255,7 @@ func totalStrength(strength []int) int {
 	return (ans + mod) % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

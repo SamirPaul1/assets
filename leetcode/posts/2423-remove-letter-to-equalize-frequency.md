@@ -69,6 +69,7 @@ The time complexity is $O(n + C^2)$, and the space complexity is $O(C)$. Here, $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def equalFrequency(self, word: str) -> bool:
@@ -80,7 +81,9 @@ class Solution:
             cnt[c] += 1
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean equalFrequency(String word) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func equalFrequency(word string) bool {
 	cnt := [26]int{}
@@ -178,7 +185,9 @@ func equalFrequency(word string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function equalFrequency(word: string): boolean {
     const cnt: number[] = new Array(26).fill(0);
@@ -209,6 +218,7 @@ function equalFrequency(word: string): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

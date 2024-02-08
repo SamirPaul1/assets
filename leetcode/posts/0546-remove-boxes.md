@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeBoxes(self, boxes: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
         dfs.cache_clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][][] f;
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeBoxes(boxes []int) int {
 	n := len(boxes)
@@ -184,6 +191,7 @@ func removeBoxes(boxes []int) int {
 	return dfs(0, n-1, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

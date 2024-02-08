@@ -64,13 +64,16 @@ The indices 0 and 1 both violate the condition, so return false.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def digitCount(self, num: str) -> bool:
         cnt = Counter(num)
         return all(cnt[str(i)] == int(v) for i, v in enumerate(num))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean digitCount(String num) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func digitCount(num string) bool {
 	cnt := [10]int{}
@@ -121,7 +128,9 @@ func digitCount(num string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function digitCount(num: string): boolean {
     const n = num.length;
@@ -135,7 +144,9 @@ function digitCount(num: string): boolean {
     return count.every(v => v === 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn digit_count(num: String) -> bool {
@@ -152,7 +163,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool digitCount(char* num) {
     int count[10] = {0};
@@ -170,6 +183,7 @@ bool digitCount(char* num) {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

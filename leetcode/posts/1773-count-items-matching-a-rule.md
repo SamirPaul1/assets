@@ -63,13 +63,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countMatches(self, items: List[List[str]], ruleKey: str, ruleValue: str) -> int:
         i = 0 if ruleKey[0] == 't' else (1 if ruleKey[0] == 'c' else 2)
         return sum(v[i] == ruleValue for v in items)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -94,7 +99,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countMatches(items [][]string, ruleKey string, ruleValue string) (ans int) {
 	i := map[byte]int{'t': 0, 'c': 1, 'n': 2}[ruleKey[0]]
@@ -106,14 +113,18 @@ func countMatches(items [][]string, ruleKey string, ruleValue string) (ans int) 
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countMatches(items: string[][], ruleKey: string, ruleValue: string): number {
     const key = ruleKey === 'type' ? 0 : ruleKey === 'color' ? 1 : 2;
     return items.reduce((r, v) => r + (v[key] === ruleValue ? 1 : 0), 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_matches(items: Vec<Vec<String>>, rule_key: String, rule_value: String) -> i32 {
@@ -125,7 +136,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countMatches(char*** items, int itemsSize, int* itemsColSize, char* ruleKey, char* ruleValue) {
     int k = strcmp(ruleKey, "type") == 0 ? 0 : strcmp(ruleKey, "color") == 0 ? 1
@@ -139,6 +152,7 @@ int countMatches(char*** items, int itemsSize, int* itemsColSize, char* ruleKey,
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

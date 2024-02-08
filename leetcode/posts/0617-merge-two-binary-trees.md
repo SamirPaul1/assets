@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -76,7 +77,9 @@ class Solution:
         node.right = self.mergeTrees(root1.right, root2.right)
         return node
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -156,7 +163,9 @@ func mergeTrees(root1 *TreeNode, root2 *TreeNode) *TreeNode {
 	return node
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -181,7 +190,9 @@ function mergeTrees(root1: TreeNode | null, root2: TreeNode | null): TreeNode | 
     return new TreeNode(root1.val + root2.val, left, right);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -226,7 +237,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -254,6 +267,7 @@ var mergeTrees = function (root1, root2) {
     return node;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

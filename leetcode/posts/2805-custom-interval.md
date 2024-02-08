@@ -88,6 +88,7 @@ setTimeout(() =&gt; {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const intervalMap = new Map<number, NodeJS.Timeout>();
 
@@ -116,6 +117,7 @@ function customClearInterval(id: number) {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

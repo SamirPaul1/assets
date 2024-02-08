@@ -1,6 +1,5 @@
 # [2405. Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string)
 
-[中文文档](/solution/2400-2499/2405.Optimal%20Partition%20of%20String/README.md)
 
 ## Description
 

@@ -58,12 +58,15 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         return reduce(xor, nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int singleNumber(int[] nums) {
@@ -75,7 +78,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -88,7 +93,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func singleNumber(nums []int) (ans int) {
 	for _, v := range nums {
@@ -97,13 +104,17 @@ func singleNumber(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function singleNumber(nums: number[]): number {
     return nums.reduce((r, v) => r ^ v);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn single_number(nums: Vec<i32>) -> i32 {
@@ -113,7 +124,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -123,7 +136,9 @@ var singleNumber = function (nums) {
     return nums.reduce((a, b) => a ^ b);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int SingleNumber(int[] nums) {
@@ -131,7 +146,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int singleNumber(int* nums, int numsSize) {
     int ans = 0;
@@ -141,7 +158,9 @@ int singleNumber(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Swift Code" >}}
 ```swift
 class Solution {
     func singleNumber(_ nums: [Int]) -> Int {
@@ -149,6 +168,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -156,6 +176,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int singleNumber(int[] nums) {
@@ -163,6 +184,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

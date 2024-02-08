@@ -1,6 +1,5 @@
 # [1609. Even Odd Tree](https://leetcode.com/problems/even-odd-tree)
 
-[中文文档](/solution/1600-1699/1609.Even%20Odd%20Tree/README.md)
 
 ## Description
 

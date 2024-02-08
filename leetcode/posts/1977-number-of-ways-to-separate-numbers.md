@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfCombinations(self, num: str) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 dp[i][j] = (dp[i][j - 1] + v) % mod
         return dp[n][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfCombinations(num string) int {
 	n := len(num)
@@ -208,6 +215,7 @@ func numberOfCombinations(num string) int {
 	return dp[n][n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

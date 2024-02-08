@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestSuperstring(self, words: List[str]) -> str:
@@ -94,7 +95,9 @@ class Solution:
         ans = [words[arr[0]]] + [words[j][g[i][j] :] for i, j in pairwise(arr)]
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String shortestSuperstring(String[] words) {
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -231,7 +236,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestSuperstring(words []string) string {
 	n := len(words)
@@ -300,6 +307,7 @@ func shortestSuperstring(words []string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

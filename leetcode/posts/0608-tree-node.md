@@ -111,6 +111,7 @@ We can use the `CASE WHEN` conditional statement to determine the type of each n
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -122,6 +123,7 @@ SELECT
     END AS type
 FROM Tree;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

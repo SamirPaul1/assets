@@ -1,6 +1,5 @@
 # [2854. Rolling Average Steps](https://leetcode.com/problems/rolling-average-steps)
 
-[中文文档](/solution/2800-2899/2854.Rolling%20Average%20Steps/README.md)
 
 ## Description
 

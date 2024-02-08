@@ -1,6 +1,5 @@
 # [1175. Prime Arrangements](https://leetcode.com/problems/prime-arrangements)
 
-[中文文档](/solution/1100-1199/1175.Prime%20Arrangements/README.md)
 
 ## Description
 

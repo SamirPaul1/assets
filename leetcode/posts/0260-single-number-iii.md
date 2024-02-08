@@ -74,6 +74,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:
@@ -86,7 +87,9 @@ class Solution:
         b = xs ^ a
         return [a, b]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] singleNumber(int[] nums) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func singleNumber(nums []int) []int {
 	xs := 0
@@ -145,7 +152,9 @@ func singleNumber(nums []int) []int {
 	return []int{a, b}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function singleNumber(nums: number[]): number[] {
     const xs = nums.reduce((a, b) => a ^ b);
@@ -160,7 +169,9 @@ function singleNumber(nums: number[]): number[] {
     return [a, b];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn single_number(nums: Vec<i32>) -> Vec<i32> {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -196,7 +209,9 @@ var singleNumber = function (nums) {
     return [a, b];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] SingleNumber(int[] nums) {
@@ -213,6 +228,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

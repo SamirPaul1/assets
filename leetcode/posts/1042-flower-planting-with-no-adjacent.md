@@ -72,6 +72,7 @@ Hence, [1,2,3] is a valid answer. Other valid answers include [1,2,4], [1,4,2], 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def gardenNoAdj(self, n: int, paths: List[List[int]]) -> List[int]:
@@ -89,7 +90,9 @@ class Solution:
                     break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] gardenNoAdj(int n, int[][] paths) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func gardenNoAdj(n int, paths [][]int) []int {
 	g := make([][]int, n)
@@ -172,7 +179,9 @@ func gardenNoAdj(n int, paths [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function gardenNoAdj(n: number, paths: number[][]): number[] {
     const g: number[][] = new Array(n).fill(0).map(() => []);
@@ -196,6 +205,7 @@ function gardenNoAdj(n: number, paths: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -68,6 +68,7 @@ It can be proven that 3 days is the minimum number of days needed.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, jobs: List[int], workers: List[int]) -> int:
@@ -75,7 +76,9 @@ class Solution:
         workers.sort()
         return max((a + b - 1) // b for a, b in zip(jobs, workers))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTime(int[] jobs, int[] workers) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(jobs []int, workers []int) int {
 	sort.Ints(jobs)
@@ -115,6 +122,7 @@ func minimumTime(jobs []int, workers []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

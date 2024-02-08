@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function invertObject(obj: Record<any, any>): Record<any, any> {
     const ans: Record<any, any> = {};
@@ -79,6 +80,7 @@ function invertObject(obj: Record<any, any>): Record<any, any> {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

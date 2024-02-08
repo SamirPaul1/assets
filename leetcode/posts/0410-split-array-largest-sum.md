@@ -67,6 +67,7 @@ The time complexity is $O(n \times \log m)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def splitArray(self, nums: List[int], k: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
         left, right = max(nums), sum(nums)
         return left + bisect_left(range(left, right + 1), True, key=check)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int splitArray(int[] nums, int k) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func splitArray(nums []int, k int) int {
 	left, right := 0, 0
@@ -170,7 +177,9 @@ func splitArray(nums []int, k int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function splitArray(nums: number[], k: number): number {
     let left = 0;
@@ -202,6 +211,7 @@ function splitArray(nums: number[], k: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -86,6 +86,7 @@ lfu.get(4);      // return 4
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self, key: int, value: int) -> None:
@@ -176,7 +177,9 @@ class LFUCache:
 # param_1 = obj.get(key)
 # obj.put(key,value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class LFUCache {
 
@@ -295,7 +298,9 @@ class LFUCache {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -419,7 +424,9 @@ private:
  * obj->put(key,value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type LFUCache struct {
 	cache    map[int]*node
@@ -542,7 +549,9 @@ func (l *list) empty() bool {
 	return l.head.next == l.tail
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cell::RefCell;
 use std::collections::HashMap;
@@ -729,6 +738,7 @@ impl LFUCache {
  * obj.put(key, value);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

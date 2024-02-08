@@ -1,6 +1,5 @@
 # [1206. Design Skiplist](https://leetcode.com/problems/design-skiplist)
 
-[中文文档](/solution/1200-1299/1206.Design%20Skiplist/README.md)
 
 ## Description
 

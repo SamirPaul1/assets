@@ -62,12 +62,15 @@ The time complexity is $O(n \log n)$, and the space complexity is $O(n)$. Where 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortByBits(self, arr: List[int]) -> List[int]:
         return sorted(arr, key=lambda x: (x.bit_count(), x))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortByBits(int[] arr) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortByBits(arr []int) []int {
 	for i, v := range arr {
@@ -112,7 +119,9 @@ func sortByBits(arr []int) []int {
 	return arr
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortByBits(arr: number[]): number[] {
     const countOnes = (n: number) => {
@@ -126,7 +135,9 @@ function sortByBits(arr: number[]): number[] {
     return arr.sort((a, b) => countOnes(a) - countOnes(b) || a - b);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sort_by_bits(mut arr: Vec<i32>) -> Vec<i32> {
@@ -141,7 +152,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -171,6 +184,7 @@ int* sortByBits(int* arr, int arrSize, int* returnSize) {
     return arr;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -178,6 +192,7 @@ int* sortByBits(int* arr, int arrSize, int* returnSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortByBits(int[] arr) {
@@ -197,7 +212,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -210,7 +227,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortByBits(arr []int) []int {
 	sort.Slice(arr, func(i, j int) bool {
@@ -220,6 +239,7 @@ func sortByBits(arr []int) []int {
 	return arr
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

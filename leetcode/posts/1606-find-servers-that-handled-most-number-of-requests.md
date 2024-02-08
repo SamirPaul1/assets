@@ -82,6 +82,7 @@ Server 0 handled two requests, while servers 1 and 2 handled one request each. H
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -108,7 +109,9 @@ class Solution:
         mx = max(cnt)
         return [i for i, v in enumerate(cnt) if v == mx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> busiestServers(int k, int[] arrival, int[] load) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func busiestServers(k int, arrival, load []int) (ans []int) {
 	free := redblacktree.NewWithIntComparator()
@@ -225,6 +232,7 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(pair)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

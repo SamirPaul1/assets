@@ -68,6 +68,7 @@ distanceLimitedPathsExist.query(0, 5, 6); // return false. There are no paths fr
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class PersistentUnionFind:
     def __init__(self, n):
@@ -105,7 +106,9 @@ class DistanceLimitedPathsExist:
     def query(self, p: int, q: int, limit: int) -> bool:
         return self.puf.find(p, limit) == self.puf.find(q, limit)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class PersistentUnionFind {
     private final int inf = 1 << 30;
@@ -172,7 +175,9 @@ public class DistanceLimitedPathsExist {
  * boolean param_1 = obj.query(p,q,limit);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class PersistentUnionFind {
 private:
@@ -245,7 +250,9 @@ public:
  * bool param_1 = obj->query(p,q,limit);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type PersistentUnionFind struct {
 	rank    []int
@@ -328,7 +335,9 @@ func (dle *DistanceLimitedPathsExist) Query(p, q, limit int) bool {
  * param_1 := obj.Query(p,q,limit);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class PersistentUnionFind {
     private rank: number[];
@@ -393,6 +402,7 @@ class DistanceLimitedPathsExist {
  * var param_1 = obj.query(p,q,limit)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ In total, this is 29523 integers that can be written using the digits array.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def atMostNGivenDigitSet(self, digits: List[str], n: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
             n //= 10
         return dfs(l, True, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] a = new int[12];
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -185,7 +190,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func atMostNGivenDigitSet(digits []string, n int) int {
 	s := map[int]bool{}
@@ -232,6 +239,7 @@ func atMostNGivenDigitSet(digits []string, n int) int {
 	return dfs(l, 1, true)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countTriples(self, n: int) -> int:
@@ -65,7 +66,9 @@ class Solution:
                     res += 1
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countTriples(int n) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countTriples(n int) int {
 	res := 0
@@ -118,6 +125,7 @@ func countTriples(n int) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

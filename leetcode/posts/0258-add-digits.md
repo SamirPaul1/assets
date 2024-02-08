@@ -56,12 +56,15 @@ Since 2 has only one digit, return it.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addDigits(self, num: int) -> int:
         return 0 if num == 0 else (num - 1) % 9 + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int addDigits(int num) {
@@ -69,7 +72,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -78,7 +83,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addDigits(num int) int {
 	if num == 0 {
@@ -87,7 +94,9 @@ func addDigits(num int) int {
 	return (num-1)%9 + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn add_digits(num: i32) -> i32 {
@@ -104,6 +113,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -111,6 +121,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn add_digits(mut num: i32) -> i32 {
@@ -118,6 +129,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

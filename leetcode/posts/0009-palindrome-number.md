@@ -84,6 +84,7 @@ The time complexity is $O(\log_{10}(n))$, where $n$ is $x$. For each iteration, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
@@ -95,7 +96,9 @@ class Solution:
             x //= 10
         return x in (y, y // 10)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPalindrome(int x) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPalindrome(x int) bool {
 	if x < 0 || (x > 0 && x%10 == 0) {
@@ -139,7 +146,9 @@ func isPalindrome(x int) bool {
 	return x == y || x == y/10
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPalindrome(x: number): boolean {
     if (x < 0 || (x > 0 && x % 10 === 0)) {
@@ -152,7 +161,9 @@ function isPalindrome(x: number): boolean {
     return x === y || x === ~~(y / 10);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_palindrome(x: i32) -> bool {
@@ -175,7 +186,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_palindrome(mut x: i32) -> bool {
@@ -192,7 +205,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} x
@@ -209,7 +224,9 @@ var isPalindrome = function (x) {
     return x === y || x === ~~(y / 10);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -224,6 +241,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

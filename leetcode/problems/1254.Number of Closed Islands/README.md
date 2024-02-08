@@ -1,6 +1,5 @@
 # [1254. Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands)
 
-[中文文档](/solution/1200-1299/1254.Number%20of%20Closed%20Islands/README.md)
 
 ## Description
 

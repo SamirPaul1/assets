@@ -58,13 +58,16 @@ Hence, the sum of the squares of all special elements of nums is nums[1] * nums[
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOfSquares(self, nums: List[int]) -> int:
         n = len(nums)
         return sum(x * x for i, x in enumerate(nums, 1) if n % i == 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int sumOfSquares(int[] nums) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOfSquares(nums []int) (ans int) {
 	n := len(nums)
@@ -107,7 +114,9 @@ func sumOfSquares(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumOfSquares(nums: number[]): number {
     const n = nums.length;
@@ -120,6 +129,7 @@ function sumOfSquares(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

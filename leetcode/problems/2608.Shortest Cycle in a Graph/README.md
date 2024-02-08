@@ -1,6 +1,5 @@
 # [2608. Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph)
 
-[中文文档](/solution/2600-2699/2608.Shortest%20Cycle%20in%20a%20Graph/README.md)
 
 ## Description
 

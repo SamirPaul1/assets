@@ -1,6 +1,5 @@
 # [51. N-Queens](https://leetcode.com/problems/n-queens)
 
-[中文文档](/solution/0000-0099/0051.N-Queens/README.md)
 
 ## Description
 

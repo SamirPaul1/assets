@@ -81,6 +81,7 @@ The time complexity is $O(steps \times steps)$, and the space complexity is $O(s
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numWays(self, steps: int, arrLen: int) -> int:
@@ -99,7 +100,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(0, steps)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numWays(steps int, arrLen int) int {
 	const mod int = 1e9 + 7
@@ -190,7 +197,9 @@ func numWays(steps int, arrLen int) int {
 	return dfs(0, steps)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numWays(steps: number, arrLen: number): number {
     const f = Array.from({ length: steps }, () => Array(steps + 1).fill(-1));
@@ -214,6 +223,7 @@ function numWays(steps: number, arrLen: number): number {
     return dfs(0, steps);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ Notice that you cannot attend any other event as they overlap, and that you do <
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
         events.sort()
         return dfs(0, k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] events;
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxValue(events [][]int, k int) int {
 	sort.Slice(events, func(i, j int) bool { return events[i][0] < events[j][0] })
@@ -179,7 +186,9 @@ func maxValue(events [][]int, k int) int {
 	return dfs(0, k)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxValue(events: number[][], k: number): number {
     events.sort((a, b) => a[1] - b[1]);
@@ -208,6 +217,7 @@ function maxValue(events: number[][], k: number): number {
     return f[n][k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -215,6 +225,7 @@ function maxValue(events: number[][], k: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValue(self, events: List[List[int]], k: int) -> int:
@@ -227,7 +238,9 @@ class Solution:
                 f[i][j] = max(f[i - 1][j], f[p][j - 1] + val)
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxValue(int[][] events, int k) {
@@ -258,7 +271,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -279,7 +294,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxValue(events [][]int, k int) int {
 	sort.Slice(events, func(i, j int) bool { return events[i][1] < events[j][1] })
@@ -298,6 +315,7 @@ func maxValue(events [][]int, k int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

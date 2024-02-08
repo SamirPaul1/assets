@@ -1,6 +1,5 @@
 # [514. Freedom Trail](https://leetcode.com/problems/freedom-trail)
 
-[中文文档](/solution/0500-0599/0514.Freedom%20Trail/README.md)
 
 ## Description
 

@@ -1,6 +1,5 @@
 # [633. Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers)
 
-[中文文档](/solution/0600-0699/0633.Sum%20of%20Square%20Numbers/README.md)
 
 ## Description
 

@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxIncreasingCells(self, mat: List[List[int]]) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 colMax[j] = max(colMax[j], mx[k])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxIncreasingCells(int[][] mat) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxIncreasingCells(mat [][]int) (ans int) {
 	m, n := len(mat), len(mat[0])
@@ -192,6 +199,7 @@ func maxIncreasingCells(mat [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

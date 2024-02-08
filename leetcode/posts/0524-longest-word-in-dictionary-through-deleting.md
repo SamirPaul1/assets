@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLongestWord(self, s: str, dictionary: List[str]) -> str:
@@ -70,7 +71,9 @@ class Solution:
                 ans = a
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findLongestWord(String s, List<String> dictionary) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLongestWord(s string, dictionary []string) string {
 	ans := ""
@@ -144,7 +151,9 @@ func findLongestWord(s string, dictionary []string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLongestWord(s: string, dictionary: string[]): string {
     dictionary.sort((a, b) => {
@@ -174,7 +183,9 @@ function findLongestWord(s: string, dictionary: string[]): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_longest_word(s: String, mut dictionary: Vec<String>) -> String {
@@ -199,6 +210,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

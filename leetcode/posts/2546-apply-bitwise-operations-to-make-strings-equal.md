@@ -69,12 +69,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeStringsEqual(self, s: str, target: str) -> bool:
         return ("1" in s) == ("1" in target)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean makeStringsEqual(String s, String target) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,19 +98,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeStringsEqual(s string, target string) bool {
 	return strings.Contains(s, "1") == strings.Contains(target, "1")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makeStringsEqual(s: string, target: string): boolean {
     return s.includes('1') === target.includes('1');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn make_strings_equal(s: String, target: String) -> bool {
@@ -113,7 +124,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool makeStringsEqual(char* s, char* target) {
     int count = 0;
@@ -132,6 +145,7 @@ bool makeStringsEqual(char* s, char* target) {
     return !(count & 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

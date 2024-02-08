@@ -64,12 +64,15 @@ Note that &quot;racecar&quot; is also palindromic, but it is not the first.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def firstPalindrome(self, words: List[str]) -> str:
         return next((w for w in words if w == w[::-1]), "")
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String firstPalindrome(String[] words) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func firstPalindrome(words []string) string {
 	for _, w := range words {
@@ -125,7 +132,9 @@ func firstPalindrome(words []string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function firstPalindrome(words: string[]): string {
     for (const word of words) {
@@ -145,7 +154,9 @@ function firstPalindrome(words: string[]): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn first_palindrome(words: Vec<String>) -> String {
@@ -168,7 +179,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* firstPalindrome(char** words, int wordsSize) {
     for (int i = 0; i < wordsSize; i++) {
@@ -188,6 +201,7 @@ char* firstPalindrome(char** words, int wordsSize) {
     return "";
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

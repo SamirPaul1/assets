@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def monotoneIncreasingDigits(self, n: int) -> int:
@@ -75,7 +76,9 @@ class Solution:
                 i += 1
         return int(''.join(s))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int monotoneIncreasingDigits(int n) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func monotoneIncreasingDigits(n int) int {
 	s := []byte(strconv.Itoa(n))
@@ -138,6 +145,7 @@ func monotoneIncreasingDigits(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

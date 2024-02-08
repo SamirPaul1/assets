@@ -91,6 +91,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def deleteString(self, s: str) -> int:
@@ -107,7 +108,9 @@ class Solution:
         n = len(s)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func deleteString(s string) int {
 	n := len(s)
@@ -216,7 +223,9 @@ func deleteString(s string) int {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function deleteString(s: string): number {
     const n = s.length;
@@ -239,6 +248,7 @@ function deleteString(s: string): number {
     return dfs(0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -252,6 +262,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def deleteString(self, s: str) -> int:
@@ -269,7 +280,9 @@ class Solution:
                     f[i] = max(f[i], f[i + j] + 1)
         return f[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int deleteString(String s) {
@@ -295,7 +308,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -323,7 +338,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func deleteString(s string) int {
 	n := len(s)
@@ -350,7 +367,9 @@ func deleteString(s string) int {
 	return f[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function deleteString(s: string): number {
     const n = s.length;
@@ -365,6 +384,7 @@ function deleteString(s: string): number {
     return f[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

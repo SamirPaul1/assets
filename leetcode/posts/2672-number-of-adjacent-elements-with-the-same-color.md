@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def colorTheArray(self, n: int, queries: List[List[int]]) -> List[int]:
@@ -88,7 +89,9 @@ class Solution:
             nums[i] = c
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] colorTheArray(int n, int[][] queries) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func colorTheArray(n int, queries [][]int) (ans []int) {
 	nums := make([]int, n)
@@ -170,7 +177,9 @@ func colorTheArray(n int, queries [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function colorTheArray(n: number, queries: number[][]): number[] {
     const nums: number[] = new Array(n).fill(0);
@@ -195,6 +204,7 @@ function colorTheArray(n: number, queries: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

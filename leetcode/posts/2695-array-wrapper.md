@@ -74,6 +74,7 @@ obj1 + obj2; // 0
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class ArrayWrapper {
     private nums: number[];
@@ -101,6 +102,7 @@ class ArrayWrapper {
  * String(obj2); // "[3,4]"
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

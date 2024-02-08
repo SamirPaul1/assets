@@ -56,6 +56,7 @@ The returned string should always match the method name.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function createInfiniteObject(): Record<string, () => string> {
     return new Proxy(
@@ -71,6 +72,7 @@ function createInfiniteObject(): Record<string, () => string> {
  * obj['abc123'](); // "abc123"
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

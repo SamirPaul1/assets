@@ -86,6 +86,7 @@ So, the total number of times they have to refill is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumRefill(self, plants: List[int], capacityA: int, capacityB: int) -> int:
@@ -111,7 +112,9 @@ class Solution:
             j -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumRefill(int[] plants, int capacityA, int capacityB) {
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumRefill(plants []int, capacityA int, capacityB int) int {
 	i, j := 0, len(plants)-1
@@ -203,6 +210,7 @@ func minimumRefill(plants []int, capacityA int, capacityB int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

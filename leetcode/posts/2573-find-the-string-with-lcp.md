@@ -83,6 +83,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheString(self, lcp: List[List[int]]) -> str:
@@ -111,7 +112,9 @@ class Solution:
                     return ""
         return "".join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findTheString(int[][] lcp) {
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheString(lcp [][]int) string {
 	i, n := 0, len(lcp)
@@ -236,6 +243,7 @@ func findTheString(lcp [][]int) string {
 	return string(s)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

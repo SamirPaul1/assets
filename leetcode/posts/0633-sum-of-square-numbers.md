@@ -50,6 +50,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
@@ -64,7 +65,9 @@ class Solution:
                 b -= 1
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean judgeSquareSum(int c) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func judgeSquareSum(c int) bool {
 	a, b := 0, int(math.Sqrt(float64(c)))
@@ -120,7 +127,9 @@ func judgeSquareSum(c int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function judgeSquareSum(c: number): boolean {
     let a = 0,
@@ -137,7 +146,9 @@ function judgeSquareSum(c: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -163,6 +174,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import operator
 
@@ -99,7 +100,9 @@ class Solution:
                 s.append(int(token))
         return s[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int evalRPN(String[] tokens) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func evalRPN(tokens []string) int {
 	// https://github.com/emirpasic/gods#arraystack
@@ -190,7 +197,9 @@ func popInt(stack *arraystack.Stack) int {
 	return v.(int)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function evalRPN(tokens: string[]): number {
     const stack = [];
@@ -219,7 +228,9 @@ function evalRPN(tokens: string[]): number {
     return stack[0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn eval_rpn(tokens: Vec<String>) -> i32 {
@@ -244,7 +255,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections.Generic;
 
@@ -277,6 +290,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -284,6 +298,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
@@ -303,6 +318,7 @@ class Solution:
                 nums.pop()
         return nums[0]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pushDominoes(self, dominoes: str) -> str:
@@ -96,7 +97,9 @@ class Solution:
                         force[j].append(f)
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String pushDominoes(String dominoes) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pushDominoes(dominoes string) string {
 	n := len(dominoes)
@@ -224,7 +231,9 @@ func pushDominoes(dominoes string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function pushDominoes(dominoes: string): string {
     const n = dominoes.length;
@@ -268,6 +277,7 @@ function pushDominoes(dominoes: string): string {
         .join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

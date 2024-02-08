@@ -1,6 +1,5 @@
 # [935. Knight Dialer](https://leetcode.com/problems/knight-dialer)
 
-[中文文档](/solution/0900-0999/0935.Knight%20Dialer/README.md)
 
 ## Description
 

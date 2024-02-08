@@ -72,6 +72,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
             a, b = b, a + b
         return b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int climbStairs(int n) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func climbStairs(n int) int {
 	a, b := 0, 1
@@ -119,7 +126,9 @@ func climbStairs(n int) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function climbStairs(n: number): number {
     let p = 1;
@@ -130,7 +139,9 @@ function climbStairs(n: number): number {
     return q;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn climb_stairs(n: i32) -> i32 {
@@ -144,7 +155,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -161,7 +174,9 @@ var climbStairs = function (n) {
     return b;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -180,6 +195,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -225,6 +241,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -249,7 +266,9 @@ class Solution:
         a = [[1, 1], [1, 0]]
         return pow(a, n - 1)[0][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int[][] a = {{1, 1}, {1, 0}};
@@ -284,7 +303,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -320,7 +341,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type matrix [2][2]int
 
@@ -353,7 +376,9 @@ func pow(a matrix, n int) matrix {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function climbStairs(n: number): number {
     const a = [
@@ -393,7 +418,9 @@ function pow(a: number[][], n: number): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -437,6 +464,7 @@ function pow(a, n) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -444,6 +472,7 @@ function pow(a, n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import numpy as np
 
@@ -460,6 +489,7 @@ class Solution:
             n >>= 1
         return res[0, 0]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ myCalendarTwo.book(25, 55); // return True, The event can be booked, as the time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedDict
 
@@ -91,7 +92,9 @@ class MyCalendarTwo:
 # obj = MyCalendarTwo()
 # param_1 = obj.book(start,end)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyCalendarTwo {
     private Map<Integer, Integer> tm = new TreeMap<>();
@@ -121,7 +124,9 @@ class MyCalendarTwo {
  * boolean param_1 = obj.book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyCalendarTwo {
 public:
@@ -152,7 +157,9 @@ public:
  * bool param_1 = obj->book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyCalendarTwo struct {
 	*redblacktree.Tree
@@ -191,6 +198,7 @@ func (this *MyCalendarTwo) Book(start int, end int) bool {
  * param_1 := obj.Book(start,end);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -198,6 +206,7 @@ func (this *MyCalendarTwo) Book(start int, end int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self, l, r):
@@ -276,7 +285,9 @@ class MyCalendarTwo:
 # obj = MyCalendarTwo()
 # param_1 = obj.book(start,end)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node left;
@@ -387,7 +398,9 @@ class MyCalendarTwo {
  * boolean param_1 = obj.book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -487,7 +500,9 @@ public:
  * bool param_1 = obj->book(start,end);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type node struct {
 	left      *node
@@ -593,6 +608,7 @@ func (this *MyCalendarTwo) Book(start int, end int) bool {
  * param_1 := obj.Book(start,end);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

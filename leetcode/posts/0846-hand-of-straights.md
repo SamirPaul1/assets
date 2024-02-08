@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
@@ -73,7 +74,9 @@ class Solution:
                         cnt.pop(x)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isNStraightHand(hand []int, groupSize int) bool {
 	cnt := map[int]int{}
@@ -147,6 +154,7 @@ func isNStraightHand(hand []int, groupSize int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,6 +162,7 @@ func isNStraightHand(hand []int, groupSize int) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedDict
 
@@ -179,7 +188,9 @@ class Solution:
                     sd[i] -= 1
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isNStraightHand(int[] hand, int groupSize) {
@@ -207,7 +218,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -229,7 +242,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isNStraightHand(hand []int, groupSize int) bool {
 	if len(hand)%groupSize != 0 {
@@ -259,6 +274,7 @@ func isNStraightHand(hand []int, groupSize int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

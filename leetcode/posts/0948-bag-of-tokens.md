@@ -76,6 +76,7 @@ There is no need to play the 1<sup>st</sup> token since you cannot play it face 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], power: int) -> int:
@@ -94,7 +95,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int bagOfTokensScore(int[] tokens, int power) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func bagOfTokensScore(tokens []int, power int) int {
 	sort.Ints(tokens)
@@ -161,6 +168,7 @@ func bagOfTokensScore(tokens []int, power int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

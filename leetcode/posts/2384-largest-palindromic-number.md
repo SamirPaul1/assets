@@ -65,6 +65,7 @@ Note that the integer returned should not contain leading zeroes.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestPalindromic(self, num: str) -> str:
@@ -84,7 +85,9 @@ class Solution:
                 ans = s + ans + s
         return ans.strip('0') or '0'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestPalindromic(String num) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestPalindromic(num string) string {
 	cnt := make([]int, 10)
@@ -179,7 +186,9 @@ func largestPalindromic(num string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestPalindromic(num: string): string {
     const count = new Array(10).fill(0);
@@ -223,6 +232,7 @@ function largestPalindromic(num: string): string {
     return '0';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

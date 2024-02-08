@@ -69,6 +69,7 @@ The substring of length 1 that starts and ends with the same letter is: &quot;a&
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
@@ -79,7 +80,9 @@ class Solution:
             ans += cnt[c]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long numberOfSubstrings(String s) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfSubstrings(s string) (ans int64) {
 	cnt := [26]int{}
@@ -120,6 +127,7 @@ func numberOfSubstrings(s string) (ans int64) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ Similarly You cannot jump from index 3 to index 2 or index 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
@@ -93,7 +94,9 @@ class Solution:
         n = len(arr)
         return max(dfs(i) for i in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxJumps(arr []int, d int) (ans int) {
 	n := len(arr)
@@ -201,6 +208,7 @@ func maxJumps(arr []int, d int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -208,6 +216,7 @@ func maxJumps(arr []int, d int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
@@ -224,7 +233,9 @@ class Solution:
                 f[i] = max(f[i], 1 + f[j])
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxJumps(int[] arr, int d) {
@@ -256,7 +267,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -284,7 +297,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxJumps(arr []int, d int) int {
 	n := len(arr)
@@ -312,6 +327,7 @@ func maxJumps(arr []int, d int) int {
 	return slices.Max(f)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

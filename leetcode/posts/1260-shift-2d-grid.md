@@ -77,6 +77,7 @@ The time complexity is $O(m \times n)$, where $m$ and $n$ are the number of rows
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
@@ -88,7 +89,9 @@ class Solution:
                 ans[x][y] = v
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> shiftGrid(int[][] grid, int k) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shiftGrid(grid [][]int, k int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -148,7 +155,9 @@ func shiftGrid(grid [][]int, k int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shiftGrid(grid: number[][], k: number): number[][] {
     const [m, n] = [grid.length, grid[0].length];
@@ -163,6 +172,7 @@ function shiftGrid(grid: number[][], k: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

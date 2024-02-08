@@ -1,6 +1,5 @@
 # [2549. Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board)
 
-[中文文档](/solution/2500-2599/2549.Count%20Distinct%20Numbers%20on%20Board/README.md)
 
 ## Description
 

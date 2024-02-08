@@ -1,6 +1,5 @@
 # [2611. Mice and Cheese](https://leetcode.com/problems/mice-and-cheese)
 
-[中文文档](/solution/2600-2699/2611.Mice%20and%20Cheese/README.md)
 
 ## Description
 

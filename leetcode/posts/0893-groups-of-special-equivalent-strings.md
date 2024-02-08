@@ -73,13 +73,16 @@ Note that in particular, &quot;zzxy&quot; is not special equivalent to &quot;zzy
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSpecialEquivGroups(self, words: List[str]) -> int:
         s = {''.join(sorted(word[::2]) + sorted(word[1::2])) for word in words}
         return len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSpecialEquivGroups(String[] words) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSpecialEquivGroups(words []string) int {
 	s := map[string]bool{}
@@ -160,6 +167,7 @@ func numSpecialEquivGroups(words []string) int {
 	return len(s)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

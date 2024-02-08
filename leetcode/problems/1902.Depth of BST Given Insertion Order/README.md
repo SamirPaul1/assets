@@ -1,6 +1,5 @@
 # [1902. Depth of BST Given Insertion Order](https://leetcode.com/problems/depth-of-bst-given-insertion-order)
 
-[中文文档](/solution/1900-1999/1902.Depth%20of%20BST%20Given%20Insertion%20Order/README.md)
 
 ## Description
 

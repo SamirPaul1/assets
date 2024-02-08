@@ -73,6 +73,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMountainRemovals(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                     right[i] = max(right[i], right[j] + 1)
         return n - max(a + b - 1 for a, b in zip(left, right) if a > 1 and b > 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumMountainRemovals(int[] nums) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumMountainRemovals(nums []int) int {
 	n := len(nums)
@@ -184,7 +191,9 @@ func minimumMountainRemovals(nums []int) int {
 	return n - ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumMountainRemovals(nums: number[]): number {
     const n = nums.length;
@@ -213,7 +222,9 @@ function minimumMountainRemovals(nums: number[]): number {
     return n - ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_mountain_removals(nums: Vec<i32>) -> i32 {
@@ -246,6 +257,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

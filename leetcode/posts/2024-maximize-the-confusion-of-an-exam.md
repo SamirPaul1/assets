@@ -75,6 +75,7 @@ In both cases, there are five consecutive &#39;T&#39;s.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxConsecutiveAnswers(self, answerKey: str, k: int) -> int:
@@ -92,7 +93,9 @@ class Solution:
 
         return max(get('T', k), get('F', k))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxConsecutiveAnswers(String answerKey, int k) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxConsecutiveAnswers(answerKey string, k int) int {
 	get := func(c byte, k int) int {
@@ -153,7 +160,9 @@ func maxConsecutiveAnswers(answerKey string, k int) int {
 	return max(get('T', k), get('F', k))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxConsecutiveAnswers(answerKey: string, k: number): number {
     const n = answerKey.length;
@@ -173,7 +182,9 @@ function maxConsecutiveAnswers(answerKey: string, k: number): number {
     return Math.max(getMaxCount('T'), getMaxCount('F'));
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_consecutive_answers(answer_key: String, k: i32) -> i32 {
@@ -199,6 +210,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

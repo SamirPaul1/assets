@@ -71,6 +71,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortSentence(self, s: str) -> str:
@@ -78,7 +79,9 @@ class Solution:
         ws.sort(key=lambda x: x[1])
         return ' '.join(w for w, _ in ws)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String sortSentence(String s) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortSentence(s string) string {
 	ws := strings.Split(s, " ")
@@ -128,7 +135,9 @@ func sortSentence(s string) string {
 	return strings.Join(ans, " ")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortSentence(s: string): string {
     const ws = s.split(' ');
@@ -139,7 +148,9 @@ function sortSentence(s: string): string {
     return ans.join(' ');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -154,6 +165,7 @@ var sortSentence = function (s) {
     return ans.join(' ');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +173,7 @@ var sortSentence = function (s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortSentence(self, s: str) -> str:
@@ -170,6 +183,7 @@ class Solution:
             ans[int(w[-1]) - 1] = w[:-1]
         return ' '.join(ans)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

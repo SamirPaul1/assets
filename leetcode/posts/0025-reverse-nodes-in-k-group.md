@@ -60,6 +60,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -93,7 +94,9 @@ class Solution:
             cur = pre
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -175,7 +180,9 @@ func reverse(start, end *ListNode) *ListNode {
 	return pre
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -226,7 +233,9 @@ function reverse(head: ListNode, tail: ListNode) {
     return [tail, head];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -284,7 +293,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for singly-linked list.
@@ -335,6 +346,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -344,6 +356,7 @@ The time complexity is $O(n)$, and the space complexity is $O(\log_k n)$. Here, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -375,7 +388,9 @@ func reverse(start, end *ListNode) *ListNode {
 	return pre
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -424,6 +439,7 @@ function reverseKGroup(head: ListNode | null, k: number): ListNode | null {
     return dummy.next;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

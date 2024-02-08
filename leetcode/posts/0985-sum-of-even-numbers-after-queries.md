@@ -62,6 +62,7 @@ After adding 2 to nums[3], the array is [-2,-1,3,6], and the sum of even values 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumEvenAfterQueries(
@@ -78,7 +79,9 @@ class Solution:
             ans.append(s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sumEvenAfterQueries(int[] nums, int[][] queries) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumEvenAfterQueries(nums []int, queries [][]int) (ans []int) {
 	s := 0
@@ -156,7 +163,9 @@ func sumEvenAfterQueries(nums []int, queries [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumEvenAfterQueries(nums: number[], queries: number[][]): number[] {
     let s = 0;
@@ -179,7 +188,9 @@ function sumEvenAfterQueries(nums: number[], queries: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -207,6 +218,7 @@ var sumEvenAfterQueries = function (nums, queries) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

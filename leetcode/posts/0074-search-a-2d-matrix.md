@@ -65,6 +65,7 @@ The time complexity is $O(\log(m \times n))$, where $m$ and $n$ are the number o
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
@@ -79,7 +80,9 @@ class Solution:
                 left = mid + 1
         return matrix[left // n][left % n] == target
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func searchMatrix(matrix [][]int, target int) bool {
 	m, n := len(matrix), len(matrix[0])
@@ -135,7 +142,9 @@ func searchMatrix(matrix [][]int, target int) bool {
 	return matrix[left/n][left%n] == target
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function searchMatrix(matrix: number[][], target: number): boolean {
     const m = matrix.length;
@@ -159,7 +168,9 @@ function searchMatrix(matrix: number[][], target: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -185,7 +196,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -210,6 +223,7 @@ var searchMatrix = function (matrix, target) {
     return matrix[Math.floor(left / n)][left % n] == target;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -227,6 +241,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the number of rows and 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
@@ -241,7 +256,9 @@ class Solution:
                 j += 1
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -260,7 +277,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -277,7 +296,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func searchMatrix(matrix [][]int, target int) bool {
 	m, n := len(matrix), len(matrix[0])
@@ -294,7 +315,9 @@ func searchMatrix(matrix [][]int, target int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -323,7 +346,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -346,6 +371,7 @@ var searchMatrix = function (matrix, target) {
     return false;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

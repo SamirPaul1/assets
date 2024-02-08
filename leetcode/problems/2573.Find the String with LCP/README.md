@@ -1,6 +1,5 @@
 # [2573. Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp)
 
-[中文文档](/solution/2500-2599/2573.Find%20the%20String%20with%20LCP/README.md)
 
 ## Description
 

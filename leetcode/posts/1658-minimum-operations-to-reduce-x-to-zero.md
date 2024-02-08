@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], x: int) -> int:
@@ -78,7 +79,9 @@ class Solution:
                 ans = min(ans, n - (i - j))
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[] nums, int x) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, x int) int {
 	x = -x
@@ -150,7 +157,9 @@ func minOperations(nums []int, x int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums: number[], x: number): number {
     x = nums.reduce((a, b) => a + b, 0) - x;
@@ -171,7 +180,9 @@ function minOperations(nums: number[], x: number): number {
     return ans == 1 << 30 ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations(nums: Vec<i32>, x: i32) -> i32 {
@@ -200,7 +211,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
@@ -230,6 +243,7 @@ int minOperations(int* nums, int numsSize, int x) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -237,6 +251,7 @@ int minOperations(int* nums, int numsSize, int x) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], x: int) -> int:
@@ -253,7 +268,9 @@ class Solution:
                 ans = min(ans, n - (i - j + 1))
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[] nums, int x) {
@@ -276,7 +293,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -297,7 +316,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, x int) int {
 	x = -x
@@ -323,7 +344,9 @@ func minOperations(nums []int, x int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums: number[], x: number): number {
     x = nums.reduce((a, b) => a + b, 0) - x;
@@ -341,6 +364,7 @@ function minOperations(nums: number[], x: number): number {
     return ans == 1 << 30 ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

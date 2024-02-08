@@ -68,6 +68,7 @@ It can be proven that 2 is the maximum tastiness that can be achieved.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumTastiness(self, price: List[int], k: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 r = mid - 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumTastiness(int[] price, int k) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumTastiness(price []int, k int) int {
 	sort.Ints(price)
@@ -163,7 +170,9 @@ func maximumTastiness(price []int, k int) int {
 	}) - 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumTastiness(price: number[], k: number): number {
     price.sort((a, b) => a - b);
@@ -190,7 +199,9 @@ function maximumTastiness(price: number[], k: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaximumTastiness(int[] price, int k) {
@@ -219,6 +230,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

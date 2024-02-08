@@ -56,6 +56,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ rep
 
 Common model of monotonic stack: Find the **nearest** number to the left/right of each number that is **larger/smaller** than it. Template:
 
+{{< terminal title="Python Code" >}}
 ```python
 stk = []
 for i in range(n):
@@ -63,9 +64,11 @@ for i in range(n):
         stk.pop()
     stk.append(i)
 ```
+{{< /terminal >}}
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
@@ -82,7 +85,9 @@ class Solution:
             stk.append(i)
         return max(h * (right[i] - left[i] - 1) for i, h in enumerate(heights))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
@@ -105,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestRectangleArea(heights []int) int {
 	res, n := 0, len(heights)
@@ -155,7 +164,9 @@ func largestRectangleArea(heights []int) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -203,7 +214,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System;
 using System.Collections.Generic;
@@ -233,6 +246,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -240,6 +254,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
@@ -263,6 +278,7 @@ class Solution:
             stk.append(i)
         return max(h * (right[i] - left[i] - 1) for i, h in enumerate(heights))
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2191. Sort the Jumbled Numbers](https://leetcode.com/problems/sort-the-jumbled-numbers)
 
-[中文文档](/solution/2100-2199/2191.Sort%20the%20Jumbled%20Numbers/README.md)
 
 ## Description
 

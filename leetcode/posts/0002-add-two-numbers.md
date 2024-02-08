@@ -69,6 +69,7 @@ The time complexity is $O(\max (m, n))$, where $m$ and $n$ are the lengths of th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -90,7 +91,9 @@ class Solution:
             l2 = l2.next if l2 else None
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -183,7 +190,9 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return dummy.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -217,7 +226,9 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
     return dummy.next;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -260,7 +271,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -289,7 +302,9 @@ var addTwoNumbers = function (l1, l2) {
     return dummy.next;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for singly-linked list.
@@ -319,7 +334,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 /**
  * Definition for a singly-linked list.
@@ -369,7 +386,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Swift Code" >}}
 ```swift
 /**
  * Definition for singly-linked list.
@@ -400,7 +419,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # Definition for singly-linked list.
 # class ListNode
@@ -428,7 +449,9 @@ def add_two_numbers(l1, l2)
     dummy.next
 end
 ```
+{{< /terminal >}}
 
+{{< terminal title="Nim Code" >}}
 ```nim
 #[
     # Driver code in the solution file
@@ -462,6 +485,7 @@ proc addTwoNumbers(l1: var SinglyLinkedList, l2: var SinglyLinkedList): SinglyLi
 
   result = aggregate
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

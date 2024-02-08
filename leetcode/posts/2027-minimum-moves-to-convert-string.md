@@ -70,6 +70,7 @@ The time complexity is $O(n)$, where $n$ represents the length of the string $s$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMoves(self, s: str) -> int:
@@ -82,7 +83,9 @@ class Solution:
                 i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumMoves(String s) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumMoves(s string) (ans int) {
 	for i := 0; i < len(s); i++ {
@@ -125,7 +132,9 @@ func minimumMoves(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumMoves(s: string): number {
     const n = s.length;
@@ -142,7 +151,9 @@ function minimumMoves(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_moves(s: String) -> i32 {
@@ -162,7 +173,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minimumMoves(char* s) {
     int n = strlen(s);
@@ -179,6 +192,7 @@ int minimumMoves(char* s) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

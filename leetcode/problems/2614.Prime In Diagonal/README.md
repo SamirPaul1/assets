@@ -1,6 +1,5 @@
 # [2614. Prime In Diagonal](https://leetcode.com/problems/prime-in-diagonal)
 
-[中文文档](/solution/2600-2699/2614.Prime%20In%20Diagonal/README.md)
 
 ## Description
 

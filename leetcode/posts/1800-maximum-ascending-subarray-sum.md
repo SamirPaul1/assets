@@ -74,6 +74,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
                 t = v
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxAscendingSum(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxAscendingSum(nums []int) int {
 	ans, t := 0, 0
@@ -138,7 +145,9 @@ func maxAscendingSum(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxAscendingSum(nums: number[]): number {
     const n = nums.length;
@@ -154,7 +163,9 @@ function maxAscendingSum(nums: number[]): number {
     return Math.max(res, sum);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_ascending_sum(nums: Vec<i32>) -> i32 {
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -189,6 +202,7 @@ int maxAscendingSum(int* nums, int numsSize) {
     return max(res, sum);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

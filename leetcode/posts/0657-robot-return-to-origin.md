@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def judgeCircle(self, moves: str) -> bool:
@@ -73,7 +74,9 @@ class Solution:
                 y -= 1
         return x == 0 and y == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean judgeCircle(String moves) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function judgeCircle(moves: string): boolean {
     let x = 0,
@@ -112,6 +117,7 @@ function judgeCircle(moves: string): boolean {
     return !x && !y;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

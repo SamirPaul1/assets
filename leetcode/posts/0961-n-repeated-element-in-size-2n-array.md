@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
@@ -65,7 +66,9 @@ class Solution:
                 return x
             s.add(x)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int repeatedNTimes(int[] nums) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func repeatedNTimes(nums []int) int {
 	s := map[int]bool{}
@@ -105,7 +112,9 @@ func repeatedNTimes(nums []int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function repeatedNTimes(nums: number[]): number {
     const s: Set<number> = new Set();
@@ -117,7 +126,9 @@ function repeatedNTimes(nums: number[]): number {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -133,6 +144,7 @@ var repeatedNTimes = function (nums) {
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

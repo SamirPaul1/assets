@@ -76,6 +76,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNiceDivisors(self, primeFactors: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
             return 4 * pow(3, primeFactors // 3 - 1, mod) % mod
         return 2 * pow(3, primeFactors // 3, mod) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNiceDivisors(primeFactors int) int {
 	if primeFactors < 4 {
@@ -173,7 +180,9 @@ func maxNiceDivisors(primeFactors int) int {
 	return qpow(3, primeFactors/3) * 2 % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} primeFactors
@@ -204,6 +213,7 @@ var maxNiceDivisors = function (primeFactors) {
     return (2 * qpow(3, k)) % mod;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

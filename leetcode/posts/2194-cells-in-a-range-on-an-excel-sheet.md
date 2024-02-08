@@ -73,6 +73,7 @@ The red arrow denotes the order in which the cells should be presented.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def cellsInRange(self, s: str) -> List[str]:
@@ -82,7 +83,9 @@ class Solution:
             for j in range(int(s[1]), int(s[-1]) + 1)
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> cellsInRange(String s) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func cellsInRange(s string) []string {
 	var ans []string
@@ -121,6 +128,7 @@ func cellsInRange(s string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

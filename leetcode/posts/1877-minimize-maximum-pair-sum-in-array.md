@@ -69,6 +69,7 @@ The maximum pair sum is max(3+5, 4+4, 6+2) = max(8, 8, 8) = 8.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minPairSum(self, nums: List[int]) -> int:
@@ -76,7 +77,9 @@ class Solution:
         n = len(nums)
         return max(x + nums[n - i - 1] for i, x in enumerate(nums[: n >> 1]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minPairSum(int[] nums) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minPairSum(nums []int) (ans int) {
 	sort.Ints(nums)
@@ -114,7 +121,9 @@ func minPairSum(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minPairSum(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -126,7 +135,9 @@ function minPairSum(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MinPairSum(int[] nums) {
@@ -139,6 +150,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

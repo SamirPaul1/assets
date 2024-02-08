@@ -65,6 +65,7 @@ The XOR sum is (1 XOR 5) + (0 XOR 4) + (3 XOR 3) = 4 + 4 + 0 = 8.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumXORSum(self, nums1: List[int], nums2: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                         f[i][j] = min(f[i][j], f[i - 1][j ^ (1 << k)] + (x ^ nums2[k]))
         return f[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumXORSum(int[] nums1, int[] nums2) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumXORSum(nums1 []int, nums2 []int) int {
 	n := len(nums1)
@@ -148,7 +155,9 @@ func minimumXORSum(nums1 []int, nums2 []int) int {
 	return f[n][(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumXORSum(nums1: number[], nums2: number[]): number {
     const n = nums1.length;
@@ -168,6 +177,7 @@ function minimumXORSum(nums1: number[], nums2: number[]): number {
     return f[n][(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -175,6 +185,7 @@ function minimumXORSum(nums1: number[], nums2: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumXORSum(self, nums1: List[int], nums2: List[int]) -> int:
@@ -188,7 +199,9 @@ class Solution:
                         f[j] = min(f[j], f[j ^ (1 << k)] + (x ^ nums2[k]))
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumXORSum(int[] nums1, int[] nums2) {
@@ -209,7 +222,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -231,7 +246,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumXORSum(nums1 []int, nums2 []int) int {
 	n := len(nums1)
@@ -252,7 +269,9 @@ func minimumXORSum(nums1 []int, nums2 []int) int {
 	return f[(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumXORSum(nums1: number[], nums2: number[]): number {
     const n = nums1.length;
@@ -270,6 +289,7 @@ function minimumXORSum(nums1: number[], nums2: number[]): number {
     return f[(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -277,6 +297,7 @@ function minimumXORSum(nums1: number[], nums2: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumXORSum(self, nums1: List[int], nums2: List[int]) -> int:
@@ -290,7 +311,9 @@ class Solution:
                     f[i] = min(f[i], f[i ^ (1 << j)] + (nums1[k] ^ nums2[j]))
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumXORSum(int[] nums1, int[] nums2) {
@@ -310,7 +333,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -331,7 +356,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumXORSum(nums1 []int, nums2 []int) int {
 	n := len(nums1)
@@ -351,7 +378,9 @@ func minimumXORSum(nums1 []int, nums2 []int) int {
 	return f[(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumXORSum(nums1: number[], nums2: number[]): number {
     const n = nums1.length;
@@ -377,6 +406,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

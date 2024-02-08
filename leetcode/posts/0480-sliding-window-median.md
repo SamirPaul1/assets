@@ -68,6 +68,7 @@ Window position                Median
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MedianFinder:
     def __init__(self, k: int):
@@ -135,7 +136,9 @@ class Solution:
             ans.append(finder.find_median())
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MedianFinder {
     private PriorityQueue<Integer> small = new PriorityQueue<>(Comparator.reverseOrder());
@@ -222,7 +225,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MedianFinder {
 public:
@@ -313,7 +318,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MedianFinder struct {
 	small                hp
@@ -414,6 +421,7 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

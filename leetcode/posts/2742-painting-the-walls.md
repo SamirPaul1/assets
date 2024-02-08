@@ -73,6 +73,7 @@ Time complexity $O(n^2)$, space complexity $O(n^2)$. Where $n$ is the length of 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def paintWalls(self, cost: List[int], time: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
         n = len(cost)
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func paintWalls(cost []int, time []int) int {
 	n := len(cost)
@@ -168,7 +175,9 @@ func paintWalls(cost []int, time []int) int {
 	return dfs(0, n)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -209,6 +218,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

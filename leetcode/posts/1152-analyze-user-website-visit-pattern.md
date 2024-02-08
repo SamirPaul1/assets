@@ -85,6 +85,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^3)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostVisitedPattern(
@@ -109,7 +110,9 @@ class Solution:
                 cnt[t] += 1
         return sorted(cnt.items(), key=lambda x: (-x[1], x[0]))[0][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> mostVisitedPattern(String[] username, int[] timestamp, String[] website) {
@@ -164,7 +167,9 @@ class Node {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -217,7 +222,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostVisitedPattern(username []string, timestamp []int, website []string) []string {
 	d := map[string][]pair{}
@@ -259,6 +266,7 @@ type pair struct {
 	site string
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

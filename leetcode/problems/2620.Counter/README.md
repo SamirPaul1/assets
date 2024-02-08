@@ -1,6 +1,5 @@
 # [2620. Counter](https://leetcode.com/problems/counter)
 
-[中文文档](/solution/2600-2699/2620.Counter/README.md)
 
 ## Description
 

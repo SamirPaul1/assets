@@ -1,6 +1,5 @@
 # [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees)
 
-[中文文档](/solution/0600-0699/0617.Merge%20Two%20Binary%20Trees/README.md)
 
 ## Description
 

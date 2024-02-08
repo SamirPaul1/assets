@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
@@ -81,7 +82,9 @@ class Solution:
                     f[i + 1][j + 1] += half
         return f[query_row][query_glass]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double champagneTower(int poured, int query_row, int query_glass) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func champagneTower(poured int, query_row int, query_glass int) float64 {
 	f := [101][101]float64{}
@@ -140,7 +147,9 @@ func champagneTower(poured int, query_row int, query_glass int) float64 {
 	return f[query_row][query_glass]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function champagneTower(poured: number, query_row: number, query_glass: number): number {
     let row = [poured];
@@ -157,7 +166,9 @@ function champagneTower(poured: number, query_row: number, query_glass: number):
     return Math.min(1, row[query_glass]);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn champagne_tower(poured: i32, query_row: i32, query_glass: i32) -> f64 {
@@ -178,6 +189,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -185,6 +197,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
@@ -199,7 +212,9 @@ class Solution:
             f = g
         return min(1, f[query_glass])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double champagneTower(int poured, int query_row, int query_glass) {
@@ -219,7 +234,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -241,7 +258,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func champagneTower(poured int, query_row int, query_glass int) float64 {
 	f := []float64{float64(poured)}
@@ -259,6 +278,7 @@ func champagneTower(poured int, query_row int, query_glass int) float64 {
 	return math.Min(1, f[query_glass])
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

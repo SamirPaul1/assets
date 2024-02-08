@@ -88,6 +88,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def parseBoolExpr(self, expression: str) -> bool:
@@ -111,7 +112,9 @@ class Solution:
                 stk.append(c)
         return stk[0] == 't'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean parseBoolExpr(String expression) {
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func parseBoolExpr(expression string) bool {
 	stk := []rune{}
@@ -195,7 +202,9 @@ func parseBoolExpr(expression string) bool {
 	return stk[0] == 't'
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function parseBoolExpr(expression: string): boolean {
     const expr = expression;
@@ -226,7 +235,9 @@ function parseBoolExpr(expression: string): boolean {
     return dfs()[0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: &mut usize, expr: &[u8]) -> Vec<bool> {
@@ -275,6 +286,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

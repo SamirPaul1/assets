@@ -1,6 +1,5 @@
 # [2498. Frog Jump II](https://leetcode.com/problems/frog-jump-ii)
 
-[中文文档](/solution/2400-2499/2498.Frog%20Jump%20II/README.md)
 
 ## Description
 

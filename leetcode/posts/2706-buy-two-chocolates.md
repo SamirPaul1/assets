@@ -61,6 +61,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def buyChoco(self, prices: List[int], money: int) -> int:
@@ -68,7 +69,9 @@ class Solution:
         cost = prices[0] + prices[1]
         return money if money < cost else money - cost
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int buyChoco(int[] prices, int money) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -89,7 +94,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func buyChoco(prices []int, money int) int {
 	sort.Ints(prices)
@@ -100,7 +107,9 @@ func buyChoco(prices []int, money int) int {
 	return money - cost
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function buyChoco(prices: number[], money: number): number {
     prices.sort((a, b) => a - b);
@@ -108,7 +117,9 @@ function buyChoco(prices: number[], money: number): number {
     return money < cost ? money : money - cost;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn buy_choco(mut prices: Vec<i32>, money: i32) -> i32 {
@@ -121,6 +132,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -132,6 +144,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array `prices`. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def buyChoco(self, prices: List[int], money: int) -> int:
@@ -144,7 +157,9 @@ class Solution:
         cost = a + b
         return money if money < cost else money - cost
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int buyChoco(int[] prices, int money) {
@@ -162,7 +177,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +198,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func buyChoco(prices []int, money int) int {
 	a, b := 1001, 1001
@@ -199,7 +218,9 @@ func buyChoco(prices []int, money int) int {
 	return money - cost
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function buyChoco(prices: number[], money: number): number {
     let [a, b] = [1000, 1000];
@@ -215,7 +236,9 @@ function buyChoco(prices: number[], money: number): number {
     return money < cost ? money : money - cost;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn buy_choco(prices: Vec<i32>, money: i32) -> i32 {
@@ -238,6 +261,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

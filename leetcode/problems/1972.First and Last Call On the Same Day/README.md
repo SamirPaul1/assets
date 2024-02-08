@@ -1,6 +1,5 @@
 # [1972. First and Last Call On the Same Day](https://leetcode.com/problems/first-and-last-call-on-the-same-day)
 
-[中文文档](/solution/1900-1999/1972.First%20and%20Last%20Call%20On%20the%20Same%20Day/README.md)
 
 ## Description
 

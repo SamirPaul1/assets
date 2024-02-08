@@ -49,6 +49,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDigitOne(self, n: int) -> int:
@@ -70,7 +71,9 @@ class Solution:
             l += 1
         return dfs(l, 0, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] a = new int[12];
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDigitOne(n int) int {
 	a := make([]int, 12)
@@ -188,7 +195,9 @@ func countDigitOne(n int) int {
 	return dfs(l, 0, true)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CountDigitOne(int n) {
@@ -208,6 +217,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

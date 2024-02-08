@@ -77,6 +77,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def connectSticks(self, sticks: List[int]) -> int:
@@ -88,7 +89,9 @@ class Solution:
             heappush(sticks, z)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int connectSticks(int[] sticks) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func connectSticks(sticks []int) (ans int) {
 	hp := &hp{sticks}
@@ -153,7 +160,9 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function connectSticks(sticks: number[]): number {
     const pq = new Heap(sticks);
@@ -233,6 +242,7 @@ class Heap<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

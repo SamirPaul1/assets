@@ -48,13 +48,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         cnt = Counter(nums)
         return [v[0] for v in cnt.most_common(k)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
@@ -71,7 +74,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pii = pair<int, int>;
 
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func topKFrequent(nums []int, k int) []int {
 	cnt := map[int]int{}
@@ -126,7 +133,9 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(pair)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function topKFrequent(nums: number[], k: number): number[] {
     let hashMap = new Map();
@@ -142,7 +151,9 @@ function topKFrequent(nums: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -173,6 +184,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -180,6 +192,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
@@ -191,7 +204,9 @@ class Solution:
                 heappop(hp)
         return [v[1] for v in hp]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
@@ -214,7 +229,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function topKFrequent(nums: number[], k: number): number[] {
     const map = new Map<number, number>();
@@ -237,6 +254,7 @@ function topKFrequent(nums: number[], k: number): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

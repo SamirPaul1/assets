@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestSubstring(self, s: str, k: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
 
         return dfs(0, len(s) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestSubstring(s string, k int) int {
 	var dfs func(l, r int) int
@@ -212,6 +219,7 @@ func longestSubstring(s string, k int) int {
 	return dfs(0, len(s)-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

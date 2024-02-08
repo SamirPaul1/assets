@@ -68,6 +68,7 @@ The time complexity is $O(n)$, where $n$ is the length of the linked list. The s
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -85,7 +86,9 @@ class Solution:
         slow.next = slow.next.next
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -165,7 +172,9 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	return dummy.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -194,7 +203,9 @@ function removeNthFromEnd(head: ListNode | null, n: number): ListNode | null {
     return dummy.next;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -229,7 +240,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -258,7 +271,9 @@ var removeNthFromEnd = function (head, n) {
     return dummy.next;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Ruby Code" >}}
 ```rb
 # Definition for singly-linked list.
 # class ListNode
@@ -286,6 +301,7 @@ def remove_nth_from_end(head, n)
     return dummy.next
 end
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

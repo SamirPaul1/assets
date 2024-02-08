@@ -71,6 +71,7 @@ The time complexity is $O(n \times m)$, and the space complexity is $O(n)$. Wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def transformArray(self, arr: List[int]) -> List[int]:
@@ -87,7 +88,9 @@ class Solution:
                     f = True
         return arr
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> transformArray(int[] arr) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func transformArray(arr []int) []int {
 	f := true
@@ -160,6 +167,7 @@ func transformArray(arr []int) []int {
 	return arr
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

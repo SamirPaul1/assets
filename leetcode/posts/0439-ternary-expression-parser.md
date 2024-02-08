@@ -69,6 +69,7 @@ or &quot;(F ? 1 : (T ? 4 : 5))&quot; --&gt; &quot;(T ? 4 : 5)&quot; --&gt; &quot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def parseTernary(self, expression: str) -> str:
@@ -92,7 +93,9 @@ class Solution:
                     stk.append(c)
         return stk[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String parseTernary(String expression) {
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func parseTernary(expression string) string {
 	stk := []byte{}
@@ -188,6 +195,7 @@ func parseTernary(expression string) string {
 	return string(stk[0])
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

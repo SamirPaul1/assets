@@ -1,6 +1,5 @@
 # [2463. Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled)
 
-[中文文档](/solution/2400-2499/2463.Minimum%20Total%20Distance%20Traveled/README.md)
 
 ## Description
 

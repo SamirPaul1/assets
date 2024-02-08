@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def orderOfLargestPlusSign(self, n: int, mines: List[List[int]]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 dp[k][i] = min(dp[k][i], down)
         return max(max(v) for v in dp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int orderOfLargestPlusSign(int n, int[][] mines) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func orderOfLargestPlusSign(n int, mines [][]int) (ans int) {
 	dp := make([][]int, n)
@@ -172,6 +179,7 @@ func orderOfLargestPlusSign(n int, mines [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestArithSeqLength(self, nums: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 ans = max(ans, f[i][j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestArithSeqLength(int[] nums) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestArithSeqLength(nums []int) int {
 	n := len(nums)
@@ -137,7 +144,9 @@ func longestArithSeqLength(nums []int) int {
 	return ans + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestArithSeqLength(nums: number[]): number {
     const n = nums.length;
@@ -153,6 +162,7 @@ function longestArithSeqLength(nums: number[]): number {
     return ans + 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -103,6 +103,7 @@ The 3rd call is delayed by 150ms and ran at 450ms. The inputs were (5, 6).
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type F = (...p: any[]) => any;
 
@@ -126,6 +127,7 @@ function debounce(fn: F, t: number): F {
  * log('Hello'); // Logged at t=100ms
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

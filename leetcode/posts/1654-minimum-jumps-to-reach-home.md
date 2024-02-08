@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumJumps(self, forbidden: List[int], a: int, b: int, x: int) -> int:
@@ -97,7 +98,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumJumps(int[] forbidden, int a, int b, int x) {
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumJumps(forbidden []int, a int, b int, x int) (ans int) {
 	s := map[int]bool{}
@@ -206,7 +213,9 @@ func minimumJumps(forbidden []int, a int, b int, x int) (ans int) {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumJumps(forbidden: number[], a: number, b: number, x: number): number {
     const s: Set<number> = new Set(forbidden);
@@ -235,6 +244,7 @@ function minimumJumps(forbidden: number[], a: number, b: number, x: number): num
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

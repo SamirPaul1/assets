@@ -78,6 +78,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumAlternatingSubarraySum(self, nums: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
             ans = max(ans, f, g)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumAlternatingSubarraySum(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumAlternatingSubarraySum(nums []int) int64 {
 	const inf = 1 << 60
@@ -133,7 +140,9 @@ func maximumAlternatingSubarraySum(nums []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumAlternatingSubarraySum(nums: number[]): number {
     let [ans, f, g] = [-Infinity, -Infinity, -Infinity];
@@ -144,6 +153,7 @@ function maximumAlternatingSubarraySum(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

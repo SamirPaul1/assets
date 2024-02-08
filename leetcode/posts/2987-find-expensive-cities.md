@@ -85,6 +85,7 @@ We group the `Listings` table by `city`, then calculate the average house price 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT city
@@ -93,6 +94,7 @@ GROUP BY city
 HAVING AVG(price) > (SELECT AVG(price) FROM Listings)
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

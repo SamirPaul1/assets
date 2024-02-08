@@ -57,6 +57,7 @@ There are 4 pairs that meet all the requirements:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(self, nums: List[int], k: int) -> int:
@@ -67,7 +68,9 @@ class Solution:
             for j in range(i + 1, n)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countPairs(int[] nums, int k) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(nums []int, k int) int {
 	n := len(nums)
@@ -115,7 +122,9 @@ func countPairs(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPairs(nums: number[], k: number): number {
     const n = nums.length;
@@ -130,7 +139,9 @@ function countPairs(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_pairs(nums: Vec<i32>, k: i32) -> i32 {
@@ -148,7 +159,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countPairs(int* nums, int numsSize, int k) {
     int ans = 0;
@@ -162,6 +175,7 @@ int countPairs(int* nums, int numsSize, int k) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

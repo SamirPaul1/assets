@@ -75,6 +75,7 @@ Note that there are multiple points connected to point 2 in the first group and 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def connectTwoGroups(self, cost: List[List[int]]) -> int:
@@ -91,7 +92,9 @@ class Solution:
                     f[i][j] = min(f[i][j], x)
         return f[m][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int connectTwoGroups(List<List<Integer>> cost) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func connectTwoGroups(cost [][]int) int {
 	m, n := len(cost), len(cost[0])
@@ -170,7 +177,9 @@ func connectTwoGroups(cost [][]int) int {
 	return f[m][(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function connectTwoGroups(cost: number[][]): number {
     const m = cost.length;
@@ -195,6 +204,7 @@ function connectTwoGroups(cost: number[][]): number {
     return f[m][(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -202,6 +212,7 @@ function connectTwoGroups(cost: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def connectTwoGroups(self, cost: List[List[int]]) -> int:
@@ -221,7 +232,9 @@ class Solution:
             f = g[:]
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int connectTwoGroups(List<List<Integer>> cost) {
@@ -249,7 +262,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -276,7 +291,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func connectTwoGroups(cost [][]int) int {
 	m, n := len(cost), len(cost[0])
@@ -304,7 +321,9 @@ func connectTwoGroups(cost [][]int) int {
 	return f[1<<n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function connectTwoGroups(cost: number[][]): number {
     const m = cost.length;
@@ -330,6 +349,7 @@ function connectTwoGroups(cost: number[][]): number {
     return f[(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

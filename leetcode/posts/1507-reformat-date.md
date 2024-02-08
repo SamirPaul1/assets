@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reformatDate(self, date: str) -> str:
@@ -80,7 +81,9 @@ class Solution:
         s[2] = s[2][:-2].zfill(2)
         return "-".join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reformatDate(String date) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reformatDate(date string) string {
 	s := strings.Split(date, " ")
@@ -118,7 +125,9 @@ func reformatDate(date string) string {
 	return fmt.Sprintf("%d-%02d-%02d", year, month, day)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reformatDate(date: string): string {
     const s = date.split(' ');
@@ -128,7 +137,9 @@ function reformatDate(date: string): string {
     return `${s[2]}-${month.toString().padStart(2, '0')}-${day.toString().padStart(2, '0')}`;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -161,6 +172,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

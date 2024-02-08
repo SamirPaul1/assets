@@ -70,6 +70,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def divideArray(self, nums: List[int], k: int) -> List[List[int]]:
@@ -83,7 +84,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] divideArray(int[] nums, int k) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func divideArray(nums []int, k int) [][]int {
 	sort.Ints(nums)
@@ -135,7 +142,9 @@ func divideArray(nums []int, k int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function divideArray(nums: number[], k: number): number[][] {
     nums.sort((a, b) => a - b);
@@ -150,6 +159,7 @@ function divideArray(nums: number[], k: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

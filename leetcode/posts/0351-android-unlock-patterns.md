@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfPatterns(self, m: int, n: int) -> int:
@@ -101,7 +102,9 @@ class Solution:
         vis = [False] * 10
         return dfs(1) * 4 + dfs(2) * 4 + dfs(5)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfPatterns(m int, n int) int {
 	cross := [10][10]int{}
@@ -221,7 +228,9 @@ func numberOfPatterns(m int, n int) int {
 	return dfs(1, 1)*4 + dfs(2, 1)*4 + dfs(5, 1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfPatterns(m: number, n: number): number {
     const cross: number[][] = Array(10)
@@ -257,6 +266,7 @@ function numberOfPatterns(m: number, n: number): number {
     return dfs(1, 1) * 4 + dfs(2, 1) * 4 + dfs(5, 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

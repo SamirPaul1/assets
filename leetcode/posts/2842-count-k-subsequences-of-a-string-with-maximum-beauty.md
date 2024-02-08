@@ -110,6 +110,7 @@ The time complexity is $O(n)$, and the space complexity is $O(|\Sigma|)$. Here, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countKSubsequencesWithMaxBeauty(self, s: str, k: int) -> int:
@@ -129,7 +130,9 @@ class Solution:
         ans = ans * comb(x, k) * pow(val, k, mod) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -191,7 +194,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -250,7 +255,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countKSubsequencesWithMaxBeauty(s string, k int) int {
 	f := [26]int{}
@@ -311,7 +318,9 @@ func countKSubsequencesWithMaxBeauty(s string, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countKSubsequencesWithMaxBeauty(s: string, k: number): number {
     const f: number[] = new Array(26).fill(0);
@@ -358,6 +367,7 @@ function countKSubsequencesWithMaxBeauty(s: string, k: number): number {
     return Number(ans);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

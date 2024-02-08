@@ -78,6 +78,7 @@ Thus, no day is a good day to rob the bank, so return an empty list.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def goodDaysToRobBank(self, security: List[int], time: int) -> List[int]:
@@ -93,7 +94,9 @@ class Solution:
                 right[i] = right[i + 1] + 1
         return [i for i in range(n) if time <= min(left[i], right[i])]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> goodDaysToRobBank(int[] security, int time) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func goodDaysToRobBank(security []int, time int) []int {
 	n := len(security)
@@ -174,7 +181,9 @@ func goodDaysToRobBank(security []int, time int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function goodDaysToRobBank(security: number[], time: number): number[] {
     const n = security.length;
@@ -200,7 +209,9 @@ function goodDaysToRobBank(security: number[], time: number): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 
@@ -234,6 +245,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

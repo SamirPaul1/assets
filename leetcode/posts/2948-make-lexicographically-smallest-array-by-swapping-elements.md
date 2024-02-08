@@ -75,6 +75,7 @@ We cannot obtain a lexicographically smaller array by applying any more operatio
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lexicographicallySmallestArray(self, nums: List[int], limit: int) -> List[int]:
@@ -92,7 +93,9 @@ class Solution:
             i = j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] lexicographicallySmallestArray(int[] nums, int limit) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lexicographicallySmallestArray(nums []int, limit int) []int {
 	n := len(nums)
@@ -172,7 +179,9 @@ func lexicographicallySmallestArray(nums []int, limit int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lexicographicallySmallestArray(nums: number[], limit: number): number[] {
     const n: number = nums.length;
@@ -193,6 +202,7 @@ function lexicographicallySmallestArray(nums: number[], limit: number): number[]
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [3005. Count Elements With Maximum Frequency](https://leetcode.com/problems/count-elements-with-maximum-frequency)
 
-[中文文档](/solution/3000-3099/3005.Count%20Elements%20With%20Maximum%20Frequency/README.md)
 
 ## Description
 

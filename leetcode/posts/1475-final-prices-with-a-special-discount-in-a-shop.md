@@ -67,6 +67,7 @@ For items 3 and 4 you will not receive any discount at all.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
@@ -79,7 +80,9 @@ class Solution:
                     break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] finalPrices(int[] prices) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func finalPrices(prices []int) []int {
 	n := len(prices)
@@ -135,7 +142,9 @@ func finalPrices(prices []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function finalPrices(prices: number[]): number[] {
     const n = prices.length;
@@ -152,7 +161,9 @@ function finalPrices(prices: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn final_prices(prices: Vec<i32>) -> Vec<i32> {
@@ -171,7 +182,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} prices
@@ -189,7 +202,9 @@ var finalPrices = function (prices) {
     return prices;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -209,6 +224,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -216,6 +232,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
@@ -227,7 +244,9 @@ class Solution:
             stk.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] finalPrices(int[] prices) {
@@ -245,7 +264,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +284,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func finalPrices(prices []int) []int {
 	var stk []int
@@ -280,7 +303,9 @@ func finalPrices(prices []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function finalPrices(prices: number[]): number[] {
     const n = prices.length;
@@ -296,6 +321,7 @@ function finalPrices(prices: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -303,6 +329,7 @@ function finalPrices(prices: number[]): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def finalPrices(self, prices: List[int]) -> List[int]:
@@ -316,7 +343,9 @@ class Solution:
             stk.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] finalPrices(int[] prices) {
@@ -337,7 +366,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -359,7 +390,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func finalPrices(prices []int) []int {
 	stk := []int{}
@@ -378,7 +411,9 @@ func finalPrices(prices []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function finalPrices(prices: number[]): number[] {
     const n = prices.length;
@@ -395,6 +430,7 @@ function finalPrices(prices: number[]): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

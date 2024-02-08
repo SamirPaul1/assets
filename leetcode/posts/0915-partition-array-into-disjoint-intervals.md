@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def partitionDisjoint(self, nums: List[int]) -> int:
@@ -76,7 +77,9 @@ class Solution:
             if mx <= mi[i]:
                 return i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int partitionDisjoint(int[] nums) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func partitionDisjoint(nums []int) int {
 	n := len(nums)
@@ -136,6 +143,7 @@ func partitionDisjoint(nums []int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

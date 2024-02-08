@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:
@@ -89,7 +90,9 @@ class Solution:
             ans[k] = cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maxPoints(int[][] grid, int[] queries) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxPoints(grid [][]int, queries []int) []int {
 	k := len(queries)
@@ -214,6 +221,7 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(tuple)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -221,6 +229,7 @@ func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxPoints(self, grid: List[List[int]], queries: List[int]) -> List[int]:
@@ -255,6 +264,7 @@ class Solution:
                 ans[i] = size[find(0)]
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

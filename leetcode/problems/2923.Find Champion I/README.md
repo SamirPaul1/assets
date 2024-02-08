@@ -1,6 +1,5 @@
 # [2923. Find Champion I](https://leetcode.com/problems/find-champion-i)
 
-[中文文档](/solution/2900-2999/2923.Find%20Champion%20I/README.md)
 
 ## Description
 

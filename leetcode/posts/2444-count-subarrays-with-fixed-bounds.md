@@ -75,6 +75,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubarrays(self, nums: List[int], minK: int, maxK: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
             ans += max(0, min(j1, j2) - k)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubarrays(nums []int, minK int, maxK int) int64 {
 	ans := 0
@@ -149,7 +156,9 @@ func countSubarrays(nums []int, minK int, maxK int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSubarrays(nums: number[], minK: number, maxK: number): number {
     let res = 0;
@@ -171,7 +180,9 @@ function countSubarrays(nums: number[], minK: number, maxK: number): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_subarrays(nums: Vec<i32>, min_k: i32, max_k: i32) -> i64 {
@@ -197,7 +208,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 #define min(a, b) (((a) < (b)) ? (a) : (b))
@@ -223,6 +236,7 @@ long long countSubarrays(int* nums, int numsSize, int minK, int maxK) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

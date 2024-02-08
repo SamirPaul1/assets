@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def matrixSum(self, nums: List[List[int]]) -> int:
@@ -65,7 +66,9 @@ class Solution:
             row.sort()
         return sum(map(max, zip(*nums)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int matrixSum(int[][] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func matrixSum(nums [][]int) (ans int) {
 	for _, row := range nums {
@@ -120,7 +127,9 @@ func matrixSum(nums [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function matrixSum(nums: number[][]): number {
     for (const row of nums) {
@@ -137,7 +146,9 @@ function matrixSum(nums: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn matrix_sum(nums: Vec<Vec<i32>>) -> i32 {
@@ -160,6 +171,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -167,6 +179,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn matrix_sum(nums: Vec<Vec<i32>>) -> i32 {
@@ -188,6 +201,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

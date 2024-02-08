@@ -77,6 +77,7 @@ The time complexity is $O(m \times n \times \log(m \times n))$, and the space co
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -125,7 +126,9 @@ class Solution:
                 return h
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private final int[] p;
@@ -195,7 +198,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -263,7 +268,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -337,7 +344,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class UnionFind {
     private p: number[];
@@ -408,6 +417,7 @@ function minimumEffortPath(heights: number[][]): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -421,6 +431,7 @@ The time complexity is $O(m \times n \times \log M)$, and the space complexity i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
@@ -448,7 +459,9 @@ class Solution:
         m, n = len(heights), len(heights[0])
         return bisect_left(range(10**6), True, key=check)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumEffortPath(int[][] heights) {
@@ -490,7 +503,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -531,7 +546,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumEffortPath(heights [][]int) int {
 	return sort.Search(1e6, func(h int) bool {
@@ -570,7 +587,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumEffortPath(heights: number[][]): number {
     const check = (h: number): boolean => {
@@ -618,6 +637,7 @@ function minimumEffortPath(heights: number[][]): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -633,6 +653,7 @@ The time complexity is $O(m \times n \times \log(m \times n))$, and the space co
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
@@ -654,7 +675,9 @@ class Solution:
                     heappush(q, (d, x, y))
         return int(dist[-1][-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumEffortPath(int[][] heights) {
@@ -685,7 +708,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -717,7 +742,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumEffortPath(heights [][]int) int {
 	m, n := len(heights), len(heights[0])
@@ -764,7 +791,9 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(tuple)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumEffortPath(heights: number[][]): number {
     const m = heights.length;
@@ -790,6 +819,7 @@ function minimumEffortPath(heights: number[][]): number {
     return dist[m - 1][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

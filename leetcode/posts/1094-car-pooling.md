@@ -61,6 +61,7 @@ The time complexity is $O(n)$, and the space complexity is $O(M)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
@@ -71,7 +72,9 @@ class Solution:
             d[t] -= x
         return all(s <= capacity for s in accumulate(d))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func carPooling(trips [][]int, capacity int) bool {
 	d := [1001]int{}
@@ -133,7 +140,9 @@ func carPooling(trips [][]int, capacity int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function carPooling(trips: number[][], capacity: number): boolean {
     const mx = Math.max(...trips.map(([, , t]) => t));
@@ -152,7 +161,9 @@ function carPooling(trips: number[][], capacity: number): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn car_pooling(trips: Vec<Vec<i32>>, capacity: i32) -> bool {
@@ -176,7 +187,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} trips
@@ -200,7 +213,9 @@ var carPooling = function (trips, capacity) {
     return true;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool CarPooling(int[][] trips, int capacity) {
@@ -222,6 +237,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

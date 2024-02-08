@@ -76,6 +76,7 @@ The character &#39;-&#39; signifies an empty space on the screen.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wordsTyping(self, sentence: List[str], rows: int, cols: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 cur -= 1
         return cur // m
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int wordsTyping(String[] sentence, int rows, int cols) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wordsTyping(sentence []string, rows int, cols int) int {
 	s := strings.Join(sentence, " ") + " "
@@ -156,7 +163,9 @@ func wordsTyping(sentence []string, rows int, cols int) int {
 	return cur / m
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wordsTyping(sentence: string[], rows: number, cols: number): number {
     const s = sentence.join(' ') + ' ';
@@ -175,6 +184,7 @@ function wordsTyping(sentence: string[], rows: number, cols: number): number {
     return Math.floor(cur / m);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

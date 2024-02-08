@@ -61,6 +61,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array `nums`. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
             right *= nums[i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] productExceptSelf(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func productExceptSelf(nums []int) []int {
 	n := len(nums)
@@ -129,7 +136,9 @@ func productExceptSelf(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function productExceptSelf(nums: number[]): number[] {
     const n = nums.length;
@@ -145,7 +154,9 @@ function productExceptSelf(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
@@ -163,7 +174,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -183,7 +196,9 @@ var productExceptSelf = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] ProductExceptSelf(int[] nums) {
@@ -201,7 +216,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -223,6 +240,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -230,11 +248,13 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function productExceptSelf(nums: number[]): number[] {
     return nums.map((_, i) => nums.reduce((pre, val, j) => pre * (i === j ? 1 : val), 1));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

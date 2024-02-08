@@ -55,13 +55,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def areOccurrencesEqual(self, s: str) -> bool:
         cnt = Counter(s)
         return len(set(cnt.values())) == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean areOccurrencesEqual(String s) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func areOccurrencesEqual(s string) bool {
 	cnt := [26]int{}
@@ -126,7 +133,9 @@ func areOccurrencesEqual(s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areOccurrencesEqual(s: string): boolean {
     const cnt: number[] = new Array(26).fill(0);
@@ -146,7 +155,9 @@ function areOccurrencesEqual(s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -162,6 +173,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -169,6 +181,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areOccurrencesEqual(s: string): boolean {
     const cnt: number[] = new Array(26).fill(0);
@@ -179,6 +192,7 @@ function areOccurrencesEqual(s: string): boolean {
     return cnt.every(v => !v || v === x);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

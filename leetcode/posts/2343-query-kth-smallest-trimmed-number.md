@@ -86,6 +86,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestTrimmedNumbers(
@@ -97,7 +98,9 @@ class Solution:
             ans.append(t[k - 1][1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] smallestTrimmedNumbers(String[] nums, int[][] queries) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestTrimmedNumbers(nums []string, queries [][]int) []int {
 	type pair struct {
@@ -159,6 +166,7 @@ func smallestTrimmedNumbers(nums []string, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

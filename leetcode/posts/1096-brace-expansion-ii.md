@@ -85,6 +85,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def braceExpansionII(self, expression: str) -> List[str]:
@@ -102,7 +103,9 @@ class Solution:
         dfs(expression)
         return sorted(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private TreeSet<String> s = new TreeSet<>();
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func braceExpansionII(expression string) []string {
 	s := map[string]struct{}{}
@@ -182,7 +189,9 @@ func braceExpansionII(expression string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function braceExpansionII(expression: string): string[] {
     const dfs = (exp: string) => {
@@ -203,6 +212,7 @@ function braceExpansionII(expression: string): string[] {
     return Array.from(s).sort();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

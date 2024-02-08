@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfCanBreak(self, s1: str, s2: str) -> bool:
@@ -72,7 +73,9 @@ class Solution:
             a <= b for a, b in zip(cs1, cs2)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkIfCanBreak(String s1, String s2) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfCanBreak(s1 string, s2 string) bool {
 	cs1 := []byte(s1)
@@ -131,7 +138,9 @@ func checkIfCanBreak(s1 string, s2 string) bool {
 	return check(cs1, cs2) || check(cs2, cs1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfCanBreak(s1: string, s2: string): boolean {
     const cs1: string[] = Array.from(s1);
@@ -149,6 +158,7 @@ function checkIfCanBreak(s1: string, s2: string): boolean {
     return check(cs1, cs2) || check(cs2, cs1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ Note that you are allowed to reuse a dictionary word.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
@@ -75,7 +76,9 @@ class Solution:
             f[i] = any(f[j] and s[j:i] in words for j in range(i))
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wordBreak(s string, wordDict []string) bool {
 	words := map[string]bool{}
@@ -138,7 +145,9 @@ func wordBreak(s string, wordDict []string) bool {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wordBreak(s: string, wordDict: string[]): boolean {
     const words = new Set(wordDict);
@@ -156,7 +165,9 @@ function wordBreak(s: string, wordDict: string[]): boolean {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn word_break(s: String, word_dict: Vec<String>) -> bool {
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool WordBreak(string s, IList<string> wordDict) {
@@ -192,6 +205,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -199,6 +213,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -235,7 +250,9 @@ class Solution:
                     break
         return f[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -281,7 +298,9 @@ class Trie {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -330,7 +349,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type trie struct {
 	children [26]*trie
@@ -378,7 +399,9 @@ func wordBreak(s string, wordDict []string) bool {
 	return f[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wordBreak(s: string, wordDict: string[]): boolean {
     const trie = new Trie();
@@ -427,7 +450,9 @@ class Trie {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool WordBreak(string s, IList<string> wordDict) {
@@ -478,6 +503,7 @@ class Trie {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

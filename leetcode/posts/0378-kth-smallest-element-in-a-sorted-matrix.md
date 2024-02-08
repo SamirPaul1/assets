@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kthSmallest(int[][] matrix, int k) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthSmallest(matrix [][]int, k int) int {
 	n := len(matrix)
@@ -186,6 +193,7 @@ func check(matrix [][]int, mid, k, n int) bool {
 	return count >= k
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

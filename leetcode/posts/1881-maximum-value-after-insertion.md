@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValue(self, n: str, x: int) -> str:
@@ -78,7 +79,9 @@ class Solution:
                     return n[: i + 1] + str(x) + n[i + 1 :]
             return n + str(x)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String maxValue(String n, int x) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxValue(n string, x int) string {
 	i := 0
@@ -125,7 +132,9 @@ func maxValue(n string, x int) string {
 	return n[:i] + string(y) + n[i:]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} n
@@ -147,6 +156,7 @@ var maxValue = function (n, x) {
     return nums.join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2256. Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference)
 
-[中文文档](/solution/2200-2299/2256.Minimum%20Average%20Difference/README.md)
 
 ## Description
 

@@ -86,6 +86,7 @@ Their sum = 1 + 2 + 4 + 8 + 121 + 151 + 212 = 499.
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long kMirror(int k, int n) {
@@ -119,6 +120,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

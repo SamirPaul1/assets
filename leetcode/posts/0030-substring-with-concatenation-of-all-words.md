@@ -86,6 +86,7 @@ The time complexity is $O(m \times k)$, and the space complexity is $O(n \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findSubstring(self, s: str, words: List[str]) -> List[int]:
@@ -116,7 +117,9 @@ class Solution:
                     ans.append(l)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
@@ -157,7 +160,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -198,7 +203,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findSubstring(s string, words []string) (ans []int) {
 	cnt := map[string]int{}
@@ -232,7 +239,9 @@ func findSubstring(s string, words []string) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findSubstring(s: string, words: string[]): number[] {
     const cnt: Map<string, number> = new Map();
@@ -273,7 +282,9 @@ function findSubstring(s: string, words: string[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<int> FindSubstring(string s, string[] words) {
@@ -317,6 +328,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -324,6 +336,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -351,6 +364,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

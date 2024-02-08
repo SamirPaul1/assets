@@ -125,6 +125,7 @@ We can use a left join to join the `Seller` table with the `Orders` table on the
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT seller_name
@@ -135,6 +136,7 @@ GROUP BY seller_id
 HAVING IFNULL(SUM(YEAR(sale_date) = 2020), 0) = 0
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ Notice that walls are only built on the shared boundary of two different cells.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def containVirus(self, isInfected: List[List[int]]) -> int:
@@ -119,7 +120,9 @@ class Solution:
                                 isInfected[x][y] = 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int[] DIRS = {-1, 0, 1, 0, -1};
@@ -212,7 +215,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -300,7 +305,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func containVirus(isInfected [][]int) int {
 	m, n := len(isInfected), len(isInfected[0])
@@ -384,6 +391,7 @@ func containVirus(isInfected [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

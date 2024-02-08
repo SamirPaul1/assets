@@ -71,6 +71,7 @@ The time complexity is $O(n^2)$, where $n$ is the number of teams. The space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findChampion(self, grid: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
             if all(x == 1 for j, x in enumerate(row) if i != j):
                 return i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findChampion(int[][] grid) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findChampion(grid [][]int) int {
 	n := len(grid)
@@ -134,7 +141,9 @@ func findChampion(grid [][]int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findChampion(grid: number[][]): number {
     for (let i = 0, n = grid.length; ; ++i) {
@@ -150,6 +159,7 @@ function findChampion(grid: number[][]): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

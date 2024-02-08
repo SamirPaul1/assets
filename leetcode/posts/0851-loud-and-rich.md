@@ -68,6 +68,7 @@ The other answers can be filled out with similar reasoning.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def loudAndRich(self, richer: List[List[int]], quiet: List[int]) -> List[int]:
@@ -89,7 +90,9 @@ class Solution:
             dfs(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func loudAndRich(richer [][]int, quiet []int) []int {
 	n := len(quiet)
@@ -189,7 +196,9 @@ func loudAndRich(richer [][]int, quiet []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function loudAndRich(richer: number[][], quiet: number[]): number[] {
     const n = quiet.length;
@@ -216,6 +225,7 @@ function loudAndRich(richer: number[][], quiet: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

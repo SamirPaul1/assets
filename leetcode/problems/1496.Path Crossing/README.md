@@ -1,6 +1,5 @@
 # [1496. Path Crossing](https://leetcode.com/problems/path-crossing)
 
-[中文文档](/solution/1400-1499/1496.Path%20Crossing/README.md)
 
 ## Description
 

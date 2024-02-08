@@ -60,13 +60,16 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDistinct(self, s: str) -> int:
         n = len(s)
         return len({s[i:j] for i in range(n) for j in range(i + 1, n + 1)})
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countDistinct(String s) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDistinct(s string) int {
 	ss := map[string]struct{}{}
@@ -111,6 +118,7 @@ func countDistinct(s string) int {
 	return len(ss)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -128,6 +136,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDistinct(self, s: str) -> int:
@@ -146,7 +155,9 @@ class Solution:
                 ss.add(t)
         return len(ss)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countDistinct(String s) {
@@ -170,7 +181,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -195,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDistinct(s string) int {
 	n := len(s)
@@ -216,6 +231,7 @@ func countDistinct(s string) int {
 	return len(ss)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -75,6 +75,7 @@ Files table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT 'bull' AS word, COUNT(*) AS count
@@ -85,6 +86,7 @@ SELECT 'bear' AS word, COUNT(*) AS count
 FROM Files
 WHERE content LIKE '% bear %';
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

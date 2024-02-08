@@ -74,6 +74,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countUnguarded(
@@ -93,7 +94,9 @@ class Solution:
                     g[x][y] = 1
         return sum(v == 0 for row in g for v in row)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countUnguarded(int m, int n, int[][] guards, int[][] walls) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countUnguarded(m int, n int, guards [][]int, walls [][]int) (ans int) {
 	g := make([][]int, m)
@@ -195,7 +202,9 @@ func countUnguarded(m int, n int, guards [][]int, walls [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countUnguarded(m: number, n: number, guards: number[][], walls: number[][]): number {
     const g: number[][] = Array.from({ length: m }, () => Array.from({ length: n }, () => 0));
@@ -226,6 +235,7 @@ function countUnguarded(m: number, n: number, guards: number[][], walls: number[
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

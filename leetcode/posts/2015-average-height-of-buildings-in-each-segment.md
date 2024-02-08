@@ -101,6 +101,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def averageHeightOfBuildings(self, buildings: List[List[int]]) -> List[List[int]]:
@@ -125,7 +126,9 @@ class Solution:
             n += cnt[j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] averageHeightOfBuildings(int[][] buildings) {
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -192,7 +197,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func averageHeightOfBuildings(buildings [][]int) [][]int {
 	height := make(map[int]int)
@@ -227,6 +234,7 @@ func averageHeightOfBuildings(buildings [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

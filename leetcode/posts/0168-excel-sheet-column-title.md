@@ -69,6 +69,7 @@ AB -&gt; 28
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def convertToTitle(self, columnNumber: int) -> str:
@@ -79,7 +80,9 @@ class Solution:
             columnNumber //= 26
         return ''.join(res[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String convertToTitle(int columnNumber) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func convertToTitle(columnNumber int) string {
 	res := []rune{}
@@ -105,7 +110,9 @@ func convertToTitle(columnNumber int) string {
 	return string(res)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function convertToTitle(columnNumber: number): string {
     let res: string[] = [];
@@ -118,7 +125,9 @@ function convertToTitle(columnNumber: number): string {
     return res.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -142,7 +151,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string ConvertToTitle(int columnNumber) {
@@ -156,6 +167,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

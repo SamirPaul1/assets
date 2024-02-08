@@ -1,6 +1,5 @@
 # [1943. Describe the Painting](https://leetcode.com/problems/describe-the-painting)
 
-[中文文档](/solution/1900-1999/1943.Describe%20the%20Painting/README.md)
 
 ## Description
 

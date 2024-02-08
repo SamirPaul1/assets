@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rowAndMaximumOnes(self, mat: List[List[int]]) -> List[int]:
@@ -76,7 +77,9 @@ class Solution:
                 ans = [i, cnt]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] rowAndMaximumOnes(int[][] mat) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rowAndMaximumOnes(mat [][]int) []int {
 	ans := make([]int, 2)
@@ -135,7 +142,9 @@ func rowAndMaximumOnes(mat [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rowAndMaximumOnes(mat: number[][]): number[] {
     const ans: number[] = [0, 0];
@@ -149,7 +158,9 @@ function rowAndMaximumOnes(mat: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn row_and_maximum_ones(mat: Vec<Vec<i32>>) -> Vec<i32> {
@@ -170,6 +181,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

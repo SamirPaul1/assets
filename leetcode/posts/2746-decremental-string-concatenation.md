@@ -100,6 +100,7 @@ The time complexity is $O(n \times C^2)$, and the space complexity is $O(n \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeConcatenatedLength(self, words: List[str]) -> int:
@@ -114,7 +115,9 @@ class Solution:
 
         return len(words[0]) + dfs(1, words[0][0], words[0][-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][][] f;
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizeConcatenatedLength(words []string) int {
 	n := len(words)
@@ -198,7 +205,9 @@ func minimizeConcatenatedLength(words []string) int {
 	return len(words[0]) + dfs(1, int(words[0][0]-'a'), int(words[0][len(words[0])-1]-'a'))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimizeConcatenatedLength(words: string[]): number {
     const n = words.length;
@@ -230,6 +239,7 @@ function minimizeConcatenatedLength(words: string[]): number {
     );
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

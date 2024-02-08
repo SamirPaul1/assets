@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def candyCrush(self, board: List[List[int]]) -> List[List[int]]:
@@ -106,7 +107,9 @@ class Solution:
                         curr -= 1
         return board
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] candyCrush(int[][] board) {
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func candyCrush(board [][]int) [][]int {
 	m, n := len(board), len(board[0])
@@ -248,6 +255,7 @@ func abs(x int) int {
 	return -x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

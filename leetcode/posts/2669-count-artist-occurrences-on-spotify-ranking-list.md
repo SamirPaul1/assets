@@ -72,6 +72,7 @@ Each row contains an id, track_name, and artist.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -81,6 +82,7 @@ FROM Spotify
 GROUP BY artist
 ORDER BY occurrences DESC, artist;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

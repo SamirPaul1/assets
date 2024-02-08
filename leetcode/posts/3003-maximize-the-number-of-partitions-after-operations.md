@@ -97,6 +97,7 @@ It can be shown that it is not possible to obtain more than 4 partitions.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxPartitionsAfterOperations(self, s: str, k: int) -> int:
@@ -122,7 +123,9 @@ class Solution:
         n = len(s)
         return dfs(0, 0, 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<List<Integer>, Integer> f = new HashMap<>();
@@ -161,7 +164,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -195,7 +200,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxPartitionsAfterOperations(s string, k int) int {
 	n := len(s)
@@ -234,7 +241,9 @@ func maxPartitionsAfterOperations(s string, k int) int {
 	return dfs(0, 0, 1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxPartitionsAfterOperations(s: string, k: number): number {
     const n = s.length;
@@ -280,6 +289,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

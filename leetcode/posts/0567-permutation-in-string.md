@@ -53,6 +53,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -68,7 +69,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkInclusion(s1 string, s2 string) bool {
 	n, m := len(s1), len(s2)
@@ -151,7 +158,9 @@ func checkInclusion(s1 string, s2 string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkInclusion(s1: string, s2: string): boolean {
     // 滑动窗口方案
@@ -197,7 +206,9 @@ function checkInclusion(s1: string, s2: string): boolean {
     return isMatch();
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -246,6 +257,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -253,6 +265,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
@@ -285,7 +298,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
@@ -331,7 +346,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -377,7 +394,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkInclusion(s1 string, s2 string) bool {
 	n, m := len(s1), len(s2)
@@ -421,6 +440,7 @@ func checkInclusion(s1 string, s2 string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -428,6 +448,7 @@ func checkInclusion(s1 string, s2 string) bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkInclusion(s1 string, s2 string) bool {
 	need, window := make(map[byte]int), make(map[byte]int)
@@ -456,6 +477,7 @@ func checkInclusion(s1 string, s2 string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

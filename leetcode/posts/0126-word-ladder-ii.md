@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLadders(
@@ -118,7 +119,9 @@ class Solution:
             dfs(path, endWord)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<String>> ans;
@@ -187,7 +190,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
 	var ans [][]string
@@ -259,6 +264,7 @@ func findLadders(beginWord string, endWord string, wordList []string) [][]string
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

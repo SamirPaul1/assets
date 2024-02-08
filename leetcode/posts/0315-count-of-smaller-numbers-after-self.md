@@ -62,6 +62,7 @@ To the right of 1 there is <b>0</b> smaller element.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -97,7 +98,9 @@ class Solution:
             ans.append(tree.query(x - 1))
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
@@ -153,7 +156,9 @@ class BinaryIndexedTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -205,7 +210,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -261,6 +268,7 @@ func countSmaller(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -268,6 +276,7 @@ func countSmaller(nums []int) []int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -328,7 +337,9 @@ class Solution:
             tree.modify(1, x, 1)
         return ans[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> countSmaller(int[] nums) {
@@ -416,7 +427,9 @@ class SegmentTree {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -491,7 +504,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Pair struct {
 	val   int
@@ -550,6 +565,7 @@ func merge(arr []Pair, low, mid, high int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

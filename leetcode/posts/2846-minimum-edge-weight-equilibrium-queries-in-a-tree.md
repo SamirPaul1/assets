@@ -96,6 +96,7 @@ The time complexity is $O((n + q) \times C \times \log n)$, and the space comple
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperationsQueries(
@@ -141,7 +142,9 @@ class Solution:
             ans.append(depth[u] + depth[v] - 2 * depth[x] - mx)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] minOperationsQueries(int n, int[][] edges, int[][] queries) {
@@ -211,7 +214,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -281,7 +286,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperationsQueries(n int, edges [][]int, queries [][]int) []int {
 	m := bits.Len(uint(n))
@@ -350,6 +357,7 @@ func minOperationsQueries(n int, edges [][]int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

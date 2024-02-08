@@ -71,6 +71,7 @@ It&#39;s impossible to make all three washing machines have the same number of d
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMinMoves(self, machines: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
             ans = max(ans, abs(s), x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findMinMoves(int[] machines) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMinMoves(machines []int) (ans int) {
 	n := len(machines)
@@ -159,7 +166,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMinMoves(machines: number[]): number {
     const n = machines.length;
@@ -178,6 +187,7 @@ function findMinMoves(machines: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

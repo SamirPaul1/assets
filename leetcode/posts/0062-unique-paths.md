@@ -79,6 +79,7 @@ We notice that $f[i][j]$ is only related to $f[i - 1][j]$ and $f[i][j - 1]$, so 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
@@ -92,7 +93,9 @@ class Solution:
                     f[i][j] += f[i][j - 1]
         return f[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int uniquePaths(int m, int n) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uniquePaths(m int, n int) int {
 	f := make([][]int, m)
@@ -154,7 +161,9 @@ func uniquePaths(m int, n int) int {
 	return f[m-1][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function uniquePaths(m: number, n: number): number {
     const f: number[][] = Array(m)
@@ -174,7 +183,9 @@ function uniquePaths(m: number, n: number): number {
     return f[m - 1][n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn unique_paths(m: i32, n: i32) -> i32 {
@@ -189,7 +200,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} m
@@ -214,6 +227,7 @@ var uniquePaths = function (m, n) {
     return f[m - 1][n - 1];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -221,6 +235,7 @@ var uniquePaths = function (m, n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
@@ -230,7 +245,9 @@ class Solution:
                 f[i][j] = f[i - 1][j] + f[i][j - 1]
         return f[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int uniquePaths(int m, int n) {
@@ -247,7 +264,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -262,7 +281,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uniquePaths(m int, n int) int {
 	f := make([][]int, m)
@@ -280,7 +301,9 @@ func uniquePaths(m int, n int) int {
 	return f[m-1][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function uniquePaths(m: number, n: number): number {
     const f: number[][] = Array(m)
@@ -294,7 +317,9 @@ function uniquePaths(m: number, n: number): number {
     return f[m - 1][n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} m
@@ -313,6 +338,7 @@ var uniquePaths = function (m, n) {
     return f[m - 1][n - 1];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -320,6 +346,7 @@ var uniquePaths = function (m, n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
@@ -329,7 +356,9 @@ class Solution:
                 f[j] += f[j - 1]
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int uniquePaths(int m, int n) {
@@ -344,7 +373,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -359,7 +390,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uniquePaths(m int, n int) int {
 	f := make([]int, n+1)
@@ -374,7 +407,9 @@ func uniquePaths(m int, n int) int {
 	return f[n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function uniquePaths(m: number, n: number): number {
     const f: number[] = Array(n).fill(1);
@@ -386,7 +421,9 @@ function uniquePaths(m: number, n: number): number {
     return f[n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} m
@@ -403,6 +440,7 @@ var uniquePaths = function (m, n) {
     return f[n - 1];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

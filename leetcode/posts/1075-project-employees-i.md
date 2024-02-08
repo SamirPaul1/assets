@@ -97,6 +97,7 @@ Employee table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement
 SELECT project_id, ROUND(AVG(experience_years), 2) AS average_years
@@ -105,6 +106,7 @@ FROM
     JOIN Employee USING (employee_id)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

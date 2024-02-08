@@ -75,6 +75,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n + m)$. Here,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortItems(
@@ -126,7 +127,9 @@ class Solution:
             ans.extend(item_order)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortItems(int n, int m, int[] group, List<List<Integer>> beforeItems) {
@@ -197,7 +200,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -264,7 +269,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortItems(n int, m int, group []int, beforeItems [][]int) []int {
 	idx := m
@@ -333,7 +340,9 @@ func sortItems(n int, m int, group []int, beforeItems [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortItems(n: number, m: number, group: number[], beforeItems: number[][]): number[] {
     let idx = m;
@@ -395,6 +404,7 @@ function sortItems(n: number, m: number, group: number[], beforeItems: number[][
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

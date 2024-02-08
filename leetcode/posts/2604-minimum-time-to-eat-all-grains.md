@@ -80,6 +80,7 @@ Time complexity $O(n \times \log n + m \times \log m + (m + n) \times \log U)$, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, hens: List[int], grains: List[int]) -> int:
@@ -108,7 +109,9 @@ class Solution:
         r = abs(hens[0] - grains[0]) + grains[-1] - grains[0] + 1
         return bisect_left(range(r), True, key=check)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] hens;
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -210,7 +215,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(hens []int, grains []int) int {
 	sort.Ints(hens)
@@ -261,7 +268,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTime(hens: number[], grains: number[]): number {
     hens.sort((a, b) => a - b);
@@ -308,6 +317,7 @@ function minimumTime(hens: number[], grains: number[]): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -80,12 +80,15 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def haveConflict(self, event1: List[str], event2: List[str]) -> bool:
         return not (event1[0] > event2[1] or event1[1] < event2[0])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean haveConflict(String[] event1, String[] event2) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,19 +107,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func haveConflict(event1 []string, event2 []string) bool {
 	return !(event1[0] > event2[1] || event1[1] < event2[0])
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function haveConflict(event1: string[], event2: string[]): boolean {
     return !(event1[0] > event2[1] || event1[1] < event2[0]);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn have_conflict(event1: Vec<String>, event2: Vec<String>) -> bool {
@@ -122,6 +133,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

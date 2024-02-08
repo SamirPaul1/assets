@@ -61,6 +61,7 @@ The third student started doing homework at time 3 and finished at time 7 and wa
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def busyStudent(
@@ -68,7 +69,9 @@ class Solution:
     ) -> int:
         return sum(a <= queryTime <= b for a, b in zip(startTime, endTime))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int busyStudent(int[] startTime, int[] endTime, int queryTime) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func busyStudent(startTime []int, endTime []int, queryTime int) int {
 	ans := 0
@@ -108,7 +115,9 @@ func busyStudent(startTime []int, endTime []int, queryTime int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function busyStudent(startTime: number[], endTime: number[], queryTime: number): number {
     const n = startTime.length;
@@ -121,7 +130,9 @@ function busyStudent(startTime: number[], endTime: number[], queryTime: number):
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn busy_student(start_time: Vec<i32>, end_time: Vec<i32>, query_time: i32) -> i32 {
@@ -135,7 +146,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int busyStudent(int* startTime, int startTimeSize, int* endTime, int endTimeSize, int queryTime) {
     int res = 0;
@@ -147,6 +160,7 @@ int busyStudent(int* startTime, int startTimeSize, int* endTime, int endTimeSize
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,6 +168,7 @@ int busyStudent(int* startTime, int startTimeSize, int* endTime, int endTimeSize
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def busyStudent(
@@ -165,7 +180,9 @@ class Solution:
             c[b + 1] -= 1
         return sum(c[: queryTime + 1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int busyStudent(int[] startTime, int[] endTime, int queryTime) {
@@ -182,7 +199,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func busyStudent(startTime []int, endTime []int, queryTime int) int {
 	c := make([]int, 1010)
@@ -216,6 +237,7 @@ func busyStudent(startTime []int, endTime []int, queryTime int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

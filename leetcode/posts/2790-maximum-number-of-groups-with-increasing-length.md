@@ -83,6 +83,7 @@ So, the output is 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxIncreasingGroups(self, usageLimits: List[int]) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 usageLimits[i + 1] += usageLimits[i]
         return k
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxIncreasingGroups(List<Integer> usageLimits) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxIncreasingGroups(usageLimits []int) int {
 	sort.Ints(usageLimits)
@@ -148,7 +155,9 @@ func maxIncreasingGroups(usageLimits []int) int {
 	return k
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxIncreasingGroups(usageLimits: number[]): number {
     usageLimits.sort((a, b) => a - b);
@@ -164,6 +173,7 @@ function maxIncreasingGroups(usageLimits: number[]): number {
     return k;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -171,6 +181,7 @@ function maxIncreasingGroups(usageLimits: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxIncreasingGroups(self, usageLimits: List[int]) -> int:
@@ -183,6 +194,7 @@ class Solution:
                 s -= k
         return k
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

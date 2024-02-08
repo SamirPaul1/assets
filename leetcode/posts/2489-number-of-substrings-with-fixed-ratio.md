@@ -73,6 +73,7 @@ It can be shown that there are no more ratio substrings.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fixedRatio(self, s: str, num1: int, num2: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
             cnt[x] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long fixedRatio(String s, int num1, int num2) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fixedRatio(s string, num1 int, num2 int) int64 {
 	n0, n1 := 0, 0
@@ -147,6 +154,7 @@ func fixedRatio(s string, num1 int, num2 int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

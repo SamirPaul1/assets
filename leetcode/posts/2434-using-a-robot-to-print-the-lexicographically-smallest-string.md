@@ -87,6 +87,7 @@ The time complexity is $O(n+C)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def robotWithString(self, s: str) -> str:
@@ -103,7 +104,9 @@ class Solution:
                 ans.append(stk.pop())
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String robotWithString(String s) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func robotWithString(s string) string {
 	cnt := make([]int, 26)
@@ -175,7 +182,9 @@ func robotWithString(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function robotWithString(s: string): string {
     let cnt = new Array(128).fill(0);
@@ -196,6 +205,7 @@ function robotWithString(s: string): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -203,6 +213,7 @@ function robotWithString(s: string): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def robotWithString(self, s: str) -> str:
@@ -218,7 +229,9 @@ class Solution:
                 ans.append(stk.pop())
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String robotWithString(String s) {
@@ -241,7 +254,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -264,6 +279,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -129,6 +129,7 @@ The answer for the user with id 4 is no because the brand of their second sold i
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -153,6 +154,7 @@ FROM
         ON u.user_id = o.seller_id AND o.rk = 2
     LEFT JOIN items AS i ON o.item_id = i.item_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

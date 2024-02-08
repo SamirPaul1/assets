@@ -1,6 +1,5 @@
 # [2233. Maximum Product After K Increments](https://leetcode.com/problems/maximum-product-after-k-increments)
 
-[中文文档](/solution/2200-2299/2233.Maximum%20Product%20After%20K%20Increments/README.md)
 
 ## Description
 

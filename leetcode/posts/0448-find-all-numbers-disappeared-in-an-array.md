@@ -47,13 +47,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         s = set(nums)
         return [x for x in range(1, len(nums) + 1) if x not in s]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -72,7 +75,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDisappearedNumbers(nums []int) (ans []int) {
 	n := len(nums)
@@ -109,7 +116,9 @@ func findDisappearedNumbers(nums []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findDisappearedNumbers(nums: number[]): number[] {
     const n = nums.length;
@@ -126,6 +135,7 @@ function findDisappearedNumbers(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -133,6 +143,7 @@ function findDisappearedNumbers(nums: number[]): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
@@ -142,7 +153,9 @@ class Solution:
                 nums[i] *= -1
         return [i + 1 for i in range(len(nums)) if nums[i] > 0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
@@ -163,7 +176,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -185,7 +200,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDisappearedNumbers(nums []int) (ans []int) {
 	n := len(nums)
@@ -210,7 +227,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findDisappearedNumbers(nums: number[]): number[] {
     const n = nums.length;
@@ -229,6 +248,7 @@ function findDisappearedNumbers(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

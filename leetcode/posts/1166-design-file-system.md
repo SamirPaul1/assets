@@ -94,6 +94,7 @@ The total time complexity is $O(\sum_{w \in W}|w|)$, and the total space complex
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self, v: int = -1):
@@ -137,7 +138,9 @@ class FileSystem:
 # param_1 = obj.createPath(path,value)
 # param_2 = obj.get(path)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Map<String, Trie> children = new HashMap<>();
@@ -200,7 +203,9 @@ class FileSystem {
  * int param_2 = obj.get(path);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -278,7 +283,9 @@ private:
  * int param_2 = obj->get(path);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type trie struct {
 	children map[string]*trie
@@ -340,7 +347,9 @@ func (this *FileSystem) Get(path string) int {
  * param_2 := obj.Get(path);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     children: Map<string, Trie>;
@@ -404,6 +413,7 @@ class FileSystem {
  * var param_2 = obj.get(path)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

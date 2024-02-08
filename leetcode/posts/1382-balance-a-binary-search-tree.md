@@ -62,6 +62,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -90,7 +91,9 @@ class Solution:
         dfs(root)
         return build(0, len(nums) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -178,7 +183,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -213,7 +220,9 @@ func balanceBST(root *TreeNode) *TreeNode {
 	return build(0, len(ans)-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -252,6 +261,7 @@ function balanceBST(root: TreeNode | null): TreeNode | null {
     return build(0, nums.length - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

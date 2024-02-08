@@ -68,6 +68,7 @@ The time complexity is $O(m \times \log m)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCost(self, n: int, connections: List[List[int]]) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 return ans
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCost(n int, connections [][]int) (ans int) {
 	p := make([]int, n)
@@ -184,7 +191,9 @@ func minimumCost(n int, connections [][]int) (ans int) {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCost(n: number, connections: number[][]): number {
     const p = new Array(n);
@@ -212,6 +221,7 @@ function minimumCost(n: number, connections: number[][]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

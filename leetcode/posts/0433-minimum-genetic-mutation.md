@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                         s.remove(next)
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMutation(String start, String end, String[] bank) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMutation(start string, end string, bank []string) int {
 	s := make(map[string]bool)
@@ -188,7 +195,9 @@ func minMutation(start string, end string, bank []string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMutation(start: string, end: string, bank: string[]): number {
     const queue = [start];
@@ -219,7 +228,9 @@ function minMutation(start: string, end: string, bank: string[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 impl Solution {
@@ -254,6 +265,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -261,6 +273,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
@@ -282,7 +295,9 @@ class Solution:
         dfs(start, 0)
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int ans;
@@ -320,7 +335,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -354,7 +371,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMutation(start string, end string, bank []string) int {
 	s := make(map[string]bool)
@@ -392,6 +411,7 @@ func minMutation(start string, end string, bank []string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

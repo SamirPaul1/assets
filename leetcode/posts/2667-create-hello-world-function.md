@@ -59,6 +59,7 @@ Any arguments could be passed to the function but it should still always return 
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function createHelloWorld() {
     return function (...args): string {
@@ -71,6 +72,7 @@ function createHelloWorld() {
  * f(); // "Hello World"
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

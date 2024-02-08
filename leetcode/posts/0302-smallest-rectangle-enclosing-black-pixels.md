@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minArea(self, image: List[List[str]], x: int, y: int) -> int:
@@ -112,7 +113,9 @@ class Solution:
         r = left
         return (d - u + 1) * (r - l + 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -181,7 +184,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -238,7 +243,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minArea(image [][]byte, x int, y int) int {
 	m, n := len(image), len(image[0])
@@ -301,6 +308,7 @@ func minArea(image [][]byte, x int, y int) int {
 	return (d - u + 1) * (r - l + 1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

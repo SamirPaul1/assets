@@ -77,6 +77,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class FizzBuzz {
     private int n;
@@ -139,7 +140,9 @@ class FizzBuzz {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FizzBuzz {
 private:
@@ -196,6 +199,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

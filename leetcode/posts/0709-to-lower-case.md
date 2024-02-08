@@ -57,12 +57,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def toLowerCase(self, s: str) -> str:
         return "".join([chr(ord(c) | 32) if c.isupper() else c for c in s])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String toLowerCase(String s) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -90,7 +95,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func toLowerCase(s string) string {
 	cs := []byte(s)
@@ -102,13 +109,17 @@ func toLowerCase(s string) string {
 	return string(cs)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function toLowerCase(s: string): string {
     return s.toLowerCase();
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn to_lower_case(s: String) -> String {
@@ -116,7 +127,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* toLowerCase(char* s) {
     int n = strlen(s);
@@ -128,6 +141,7 @@ char* toLowerCase(char* s) {
     return s;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -135,12 +149,15 @@ char* toLowerCase(char* s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function toLowerCase(s: string): string {
     return [...s].map(c => String.fromCharCode(c.charCodeAt(0) | 32)).join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn to_lower_case(s: String) -> String {
@@ -151,6 +168,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

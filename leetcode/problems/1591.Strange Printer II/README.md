@@ -1,6 +1,5 @@
 # [1591. Strange Printer II](https://leetcode.com/problems/strange-printer-ii)
 
-[中文文档](/solution/1500-1599/1591.Strange%20Printer%20II/README.md)
 
 ## Description
 

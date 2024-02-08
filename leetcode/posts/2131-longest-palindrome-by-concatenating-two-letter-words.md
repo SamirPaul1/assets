@@ -70,6 +70,7 @@ Note that &quot;ll&quot; is another longest palindrome that can be created, and 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindrome(self, words: List[str]) -> int:
@@ -84,7 +85,9 @@ class Solution:
         ans += 2 if x else 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestPalindrome(String[] words) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindrome(words []string) int {
 	cnt := map[string]int{}
@@ -157,6 +164,7 @@ func longestPalindrome(words []string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

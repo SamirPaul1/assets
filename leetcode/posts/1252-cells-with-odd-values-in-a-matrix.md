@@ -74,6 +74,7 @@ The time complexity is $O(\text{indices.length} \times (m+n) + mn)$, and the spa
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def oddCells(self, m: int, n: int, indices: List[List[int]]) -> int:
@@ -85,7 +86,9 @@ class Solution:
                 g[r][j] += 1
         return sum(v % 2 for row in g for v in row)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int oddCells(int m, int n, int[][] indices) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func oddCells(m int, n int, indices [][]int) int {
 	g := make([][]int, m)
@@ -152,6 +159,7 @@ func oddCells(m int, n int, indices [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -165,6 +173,7 @@ The time complexity is $O(\text{indices.length} + mn)$, and the space complexity
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def oddCells(self, m: int, n: int, indices: List[List[int]]) -> int:
@@ -175,7 +184,9 @@ class Solution:
             col[c] += 1
         return sum((i + j) % 2 for i in row for j in col)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int oddCells(int m, int n, int[][] indices) {
@@ -196,7 +207,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -215,7 +228,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func oddCells(m int, n int, indices [][]int) int {
 	row := make([]int, m)
@@ -234,6 +249,7 @@ func oddCells(m int, n int, indices [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -247,6 +263,7 @@ The time complexity is $O(\text{indices.length} + m + n)$, and the space complex
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def oddCells(self, m: int, n: int, indices: List[List[int]]) -> int:
@@ -259,7 +276,9 @@ class Solution:
         cnt2 = sum(v % 2 for v in col)
         return cnt1 * (n - cnt2) + cnt2 * (m - cnt1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int oddCells(int m, int n, int[][] indices) {
@@ -281,7 +300,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -300,7 +321,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func oddCells(m int, n int, indices [][]int) int {
 	row := make([]int, m)
@@ -320,6 +343,7 @@ func oddCells(m int, n int, indices [][]int) int {
 	return cnt1*(n-cnt2) + cnt2*(m-cnt1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

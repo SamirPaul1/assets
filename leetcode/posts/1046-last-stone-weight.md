@@ -66,6 +66,7 @@ we combine 1 and 1 to get 0 so the array converts to [1] then that&#39;s the val
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 heappush(h, x - y)
         return 0 if not h else -h[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lastStoneWeight(int[] stones) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lastStoneWeight(stones []int) int {
 	q := &hp{stones}
@@ -148,7 +155,9 @@ func (h *hp) Pop() any {
 func (h *hp) push(v int) { heap.Push(h, v) }
 func (h *hp) pop() int   { return heap.Pop(h).(int) }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lastStoneWeight(stones: number[]): number {
     const pq = new MaxPriorityQueue();
@@ -165,7 +174,9 @@ function lastStoneWeight(stones: number[]): number {
     return pq.isEmpty() ? 0 : pq.dequeue().element;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} stones
@@ -186,6 +197,7 @@ var lastStoneWeight = function (stones) {
     return pq.isEmpty() ? 0 : pq.dequeue()['priority'];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

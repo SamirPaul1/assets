@@ -50,6 +50,7 @@ The time complexity is $O(n \times \log M)$, where $n$ and $M$ are the length of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
@@ -63,7 +64,9 @@ class Solution:
                     ans |= 1 << i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int singleNumber(int[] nums) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func singleNumber(nums []int) int {
 	ans := int32(0)
@@ -113,7 +120,9 @@ func singleNumber(nums []int) int {
 	return int(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function singleNumber(nums: number[]): number {
     let ans = 0;
@@ -124,7 +133,9 @@ function singleNumber(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn single_number(nums: Vec<i32>) -> i32 {
@@ -140,7 +151,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int singleNumber(int* nums, int numsSize) {
     int ans = 0;
@@ -156,7 +169,9 @@ int singleNumber(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Swift Code" >}}
 ```swift
 class Solution {
     func singleNumber(_ nums: [Int]) -> Int {
@@ -171,6 +186,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -213,6 +229,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
@@ -223,7 +240,9 @@ class Solution:
             a, b = aa, bb
         return b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int singleNumber(int[] nums) {
@@ -238,7 +257,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -254,7 +275,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func singleNumber(nums []int) int {
 	a, b := 0, 0
@@ -266,7 +289,9 @@ func singleNumber(nums []int) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function singleNumber(nums: number[]): number {
     let a = 0;
@@ -280,7 +305,9 @@ function singleNumber(nums: number[]): number {
     return b;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn single_number(nums: Vec<i32>) -> i32 {
@@ -298,6 +325,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

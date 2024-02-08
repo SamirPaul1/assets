@@ -1,6 +1,5 @@
 # [1975. Maximum Matrix Sum](https://leetcode.com/problems/maximum-matrix-sum)
 
-[中文文档](/solution/1900-1999/1975.Maximum%20Matrix%20Sum/README.md)
 
 ## Description
 

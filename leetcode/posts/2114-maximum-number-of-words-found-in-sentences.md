@@ -64,12 +64,15 @@ In this example, the second and third sentences (underlined) have the same numbe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostWordsFound(self, sentences: List[str]) -> int:
         return 1 + max(s.count(' ') for s in sentences)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mostWordsFound(String[] sentences) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostWordsFound(sentences []string) (ans int) {
 	for _, s := range sentences {
@@ -113,7 +120,9 @@ func mostWordsFound(sentences []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mostWordsFound(sentences: string[]): number {
     return sentences.reduce(
@@ -126,7 +135,9 @@ function mostWordsFound(sentences: string[]): number {
     );
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn most_words_found(sentences: Vec<String>) -> i32 {
@@ -144,7 +155,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -163,6 +176,7 @@ int mostWordsFound(char** sentences, int sentencesSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

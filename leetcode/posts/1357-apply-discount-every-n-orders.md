@@ -88,6 +88,7 @@ The time complexity of initialization is $O(n)$, where $n$ is the number of prod
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Cashier:
     def __init__(self, n: int, discount: int, products: List[int], prices: List[int]):
@@ -110,7 +111,9 @@ class Cashier:
 # obj = Cashier(n, discount, products, prices)
 # param_1 = obj.getBill(product,amount)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Cashier {
     private int i;
@@ -144,7 +147,9 @@ class Cashier {
  * double param_1 = obj.getBill(product,amount);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Cashier {
 public:
@@ -179,7 +184,9 @@ private:
  * double param_1 = obj->getBill(product,amount);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Cashier struct {
 	i        int
@@ -215,6 +222,7 @@ func (this *Cashier) GetBill(product []int, amount []int) (ans float64) {
  * param_1 := obj.GetBill(product,amount);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

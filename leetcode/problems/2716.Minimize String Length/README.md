@@ -1,6 +1,5 @@
 # [2716. Minimize String Length](https://leetcode.com/problems/minimize-string-length)
 
-[中文文档](/solution/2700-2799/2716.Minimize%20String%20Length/README.md)
 
 ## Description
 

@@ -87,6 +87,7 @@ Product 3 is sold in Shop and Souq with prices of 1000 and 1900.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 CREATE PROCEDURE UnpivotProducts()
 BEGIN
@@ -116,6 +117,7 @@ BEGIN
     DEALLOCATE PREPARE stmt;
 END;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

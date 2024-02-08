@@ -77,6 +77,7 @@ Furthermore, we can directly reuse the `triangle` as the `f` array, so there is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 f[i][j] = min(f[i + 1][j], f[i + 1][j + 1]) + triangle[i][j]
         return f[0][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTotal(triangle [][]int) int {
 	n := len(triangle)
@@ -132,7 +139,9 @@ func minimumTotal(triangle [][]int) int {
 	return f[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTotal(triangle: number[][]): number {
     const n = triangle.length;
@@ -145,7 +154,9 @@ function minimumTotal(triangle: number[][]): number {
     return f[0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_total(triangle: Vec<Vec<i32>>) -> i32 {
@@ -160,6 +171,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -167,6 +179,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
@@ -177,7 +190,9 @@ class Solution:
                 f[j] = min(f[j], f[j + 1]) + triangle[i][j]
         return f[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -192,7 +207,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -206,7 +223,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTotal(triangle [][]int) int {
 	for i := len(triangle) - 2; i >= 0; i-- {
@@ -217,7 +236,9 @@ func minimumTotal(triangle [][]int) int {
 	return triangle[0][0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTotal(triangle: number[][]): number {
     for (let i = triangle.length - 2; ~i; --i) {
@@ -228,7 +249,9 @@ function minimumTotal(triangle: number[][]): number {
     return triangle[0][0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_total(triangle: Vec<Vec<i32>>) -> i32 {
@@ -242,6 +265,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -249,6 +273,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
@@ -260,6 +285,7 @@ class Solution:
                 )
         return triangle[0][0]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

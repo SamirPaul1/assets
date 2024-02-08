@@ -79,6 +79,7 @@ The time complexity is $O(m \times n)$, where $m$ and $n$ are the number of rows
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
@@ -101,7 +102,9 @@ class Solution:
                 elif board[i][j] == -1:
                     board[i][j] = 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void gameOfLife(int[][] board) {
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func gameOfLife(board [][]int) {
 	m, n := len(board), len(board[0])
@@ -206,7 +213,9 @@ func gameOfLife(board [][]int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify board in-place instead.
@@ -244,7 +253,9 @@ function gameOfLife(board: number[][]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 const DIR: [(i32, i32); 8] = [
     (-1, 0),
@@ -302,7 +313,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public void GameOfLife(int[][] board) {
@@ -339,6 +352,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

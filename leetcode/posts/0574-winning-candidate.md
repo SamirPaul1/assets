@@ -98,6 +98,7 @@ The winner is candidate B.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -113,6 +114,7 @@ FROM
     ) AS t
     INNER JOIN Candidate AS c ON t.id = c.id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -120,6 +122,7 @@ FROM
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT name
@@ -130,6 +133,7 @@ GROUP BY c.id
 ORDER BY COUNT(1) DESC
 LIMIT 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

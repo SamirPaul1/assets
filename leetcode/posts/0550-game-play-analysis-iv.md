@@ -74,6 +74,7 @@ We can first find the first login date of each player, and then perform a left j
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -88,7 +89,9 @@ def gameplay_analysis(activity: pd.DataFrame) -> pd.DataFrame:
         {"fraction": [round(len(activity_2nd_day) / activity.player_id.nunique(), 2)]}
     )
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT ROUND(AVG(b.event_date IS NOT NULL), 2) AS fraction
@@ -101,6 +104,7 @@ FROM
     LEFT JOIN Activity AS b
         ON a.player_id = b.player_id AND DATEDIFF(a.event_date, b.event_date) = -1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -110,6 +114,7 @@ We can use the `LEAD` window function to get the next login date of each player.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -133,6 +138,7 @@ SELECT ROUND(COUNT(IF(st = 1, player_id, NULL)) / COUNT(DISTINCT player_id), 2) 
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

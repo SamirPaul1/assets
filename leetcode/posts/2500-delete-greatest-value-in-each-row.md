@@ -71,6 +71,7 @@ The final answer = 10.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def deleteGreatestValue(self, grid: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
             row.sort()
         return sum(max(col) for col in zip(*grid))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int deleteGreatestValue(int[][] grid) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func deleteGreatestValue(grid [][]int) (ans int) {
 	for _, row := range grid {
@@ -133,7 +140,9 @@ func deleteGreatestValue(grid [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function deleteGreatestValue(grid: number[][]): number {
     for (const row of grid) {
@@ -152,7 +161,9 @@ function deleteGreatestValue(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn delete_greatest_value(grid: Vec<Vec<i32>>) -> i32 {
@@ -178,6 +189,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

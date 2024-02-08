@@ -92,6 +92,7 @@ The answers that read integer 3 from the stream are not accepted.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def buildArray(self, target: List[int], n: int) -> List[str]:
@@ -104,7 +105,9 @@ class Solution:
             ans.append('Push')
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> buildArray(int[] target, int n) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func buildArray(target []int, n int) []string {
 	cur := 0
@@ -153,7 +160,9 @@ func buildArray(target []int, n int) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function buildArray(target: number[], n: number): string[] {
     const res = [];
@@ -167,7 +176,9 @@ function buildArray(target: number[], n: number): string[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn build_array(target: Vec<i32>, n: i32) -> Vec<String> {
@@ -186,7 +197,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -209,6 +222,7 @@ char** buildArray(int* target, int targetSize, int n, int* returnSize) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

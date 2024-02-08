@@ -86,6 +86,7 @@ Account 2:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -98,6 +99,7 @@ SELECT
 FROM Transactions
 ORDER BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

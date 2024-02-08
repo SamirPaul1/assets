@@ -75,6 +75,7 @@ class Node {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -95,7 +96,9 @@ class Solution:
             b = b.parent if b.parent else p
         return a
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for Node.
@@ -173,6 +180,7 @@ func lowestCommonAncestor(p *Node, q *Node) *Node {
 	return a
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

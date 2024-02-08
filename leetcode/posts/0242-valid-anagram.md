@@ -54,6 +54,7 @@ The time complexity is $O(n)$, the space complexity is $O(C)$, where $n$ is the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -66,7 +67,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isAnagram(String s, String t) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) {
@@ -123,7 +130,9 @@ func isAnagram(s string, t string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isAnagram(s: string, t: string): boolean {
     if (s.length !== t.length) {
@@ -137,7 +146,9 @@ function isAnagram(s: string, t: string): boolean {
     return cnt.every(x => x === 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
@@ -159,7 +170,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -178,7 +191,9 @@ var isAnagram = function (s, t) {
     return cnt.every(x => x === 0);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsAnagram(string s, string t) {
@@ -194,7 +209,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int cmp(const void* a, const void* b) {
     return *(char*) a - *(char*) b;
@@ -211,6 +228,7 @@ bool isAnagram(char* s, char* t) {
     return !strcmp(s, t);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,12 +236,15 @@ bool isAnagram(char* s, char* t) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         return Counter(s) == Counter(t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_anagram(s: String, t: String) -> bool {
@@ -242,7 +263,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool isAnagram(char* s, char* t) {
     int n = strlen(s);
@@ -263,6 +286,7 @@ bool isAnagram(char* s, char* t) {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

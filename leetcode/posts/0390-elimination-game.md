@@ -62,6 +62,7 @@ arr = [6]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lastRemaining(self, n: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
             i += 1
         return a1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lastRemaining(int n) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lastRemaining(n int) int {
 	a1, an, step := 1, n, 1
@@ -142,6 +149,7 @@ func lastRemaining(n int) int {
 	return a1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

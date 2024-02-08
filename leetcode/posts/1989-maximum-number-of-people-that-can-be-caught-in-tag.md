@@ -71,6 +71,7 @@ There are no people who are not &quot;it&quot; to catch.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def catchMaximumAmountofPeople(self, team: List[int], dist: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
                     j += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int catchMaximumAmountofPeople(int[] team, int dist) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func catchMaximumAmountofPeople(team []int, dist int) (ans int) {
 	n := len(team)
@@ -153,6 +160,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

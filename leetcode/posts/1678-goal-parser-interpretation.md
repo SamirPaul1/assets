@@ -66,12 +66,15 @@ According to the problem, we only need to replace `"()"` with `'o'` and `"(al)"`
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def interpret(self, command: str) -> str:
         return command.replace('()', 'o').replace('(al)', 'al')
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String interpret(String command) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -90,7 +95,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func interpret(command string) string {
 	command = strings.ReplaceAll(command, "()", "o")
@@ -98,13 +105,17 @@ func interpret(command string) string {
 	return command
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function interpret(command: string): string {
     return command.replace(/\(\)/g, 'o').replace(/\(al\)/g, 'al');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn interpret(command: String) -> String {
@@ -112,7 +123,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* interpret(char* command) {
     int n = strlen(command);
@@ -135,6 +148,7 @@ char* interpret(char* command) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -151,6 +165,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def interpret(self, command: str) -> str:
@@ -162,7 +177,9 @@ class Solution:
                 ans.append('o' if command[i + 1] == ')' else 'al')
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String interpret(String command) {
@@ -179,7 +196,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +215,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func interpret(command string) string {
 	ans := &strings.Builder{}
@@ -214,7 +235,9 @@ func interpret(command string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function interpret(command: string): string {
     const n = command.length;
@@ -230,7 +253,9 @@ function interpret(command: string): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn interpret(command: String) -> String {
@@ -250,6 +275,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

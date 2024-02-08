@@ -72,6 +72,7 @@ They share a common elements nums[4] (0-indexed).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canChoose(self, groups: List[List[int]], nums: List[int]) -> bool:
@@ -86,7 +87,9 @@ class Solution:
                 j += 1
         return i == n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canChoose(int[][] groups, int[] nums) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canChoose(groups [][]int, nums []int) bool {
 	check := func(a, b []int, j int) bool {
@@ -170,6 +177,7 @@ func canChoose(groups [][]int, nums []int) bool {
 	return i == n
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

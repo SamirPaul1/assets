@@ -78,6 +78,7 @@ Thus, answer[0] = [1,2,5,6] and answer[1] = [].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findWinners(self, matches: List[List[int]]) -> List[List[int]]:
@@ -94,7 +95,9 @@ class Solution:
         ans[1].sort()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> findWinners(int[][] matches) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findWinners(matches [][]int) [][]int {
 	cnt := map[int]int{}
@@ -163,7 +170,9 @@ func findWinners(matches [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findWinners(matches: number[][]): number[][] {
     const cnt: Map<number, number> = new Map();
@@ -182,7 +191,9 @@ function findWinners(matches: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matches
@@ -205,6 +216,7 @@ var findWinners = function (matches) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -212,6 +224,7 @@ var findWinners = function (matches) {
 
 <!-- tabs:start -->
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matches
@@ -241,6 +254,7 @@ var findWinners = function (matches) {
     return [[...onlyWins].sort((a, b) => a - b), [...oneLose].sort((a, b) => a - b)];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

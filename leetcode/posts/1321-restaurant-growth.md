@@ -89,6 +89,7 @@ Customer table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -114,6 +115,7 @@ SELECT visited_on, amount, ROUND(amount / 7, 2) AS average_amount
 FROM t
 WHERE rk > 6;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -121,6 +123,7 @@ WHERE rk > 6;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -134,6 +137,7 @@ WHERE a.visited_on >= (SELECT MIN(visited_on) FROM customer) + 6
 GROUP BY 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

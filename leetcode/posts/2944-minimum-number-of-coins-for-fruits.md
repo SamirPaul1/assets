@@ -74,6 +74,7 @@ It can be proven that 2 is the minimum number of coins needed to acquire all the
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCoins(self, prices: List[int]) -> int:
@@ -85,7 +86,9 @@ class Solution:
 
         return dfs(1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] prices;
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCoins(prices []int) int {
 	n := len(prices)
@@ -157,7 +164,9 @@ func minimumCoins(prices []int) int {
 	return dfs(1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCoins(prices: number[]): number {
     const n = prices.length;
@@ -177,6 +186,7 @@ function minimumCoins(prices: number[]): number {
     return dfs(1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -184,6 +194,7 @@ function minimumCoins(prices: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCoins(self, prices: List[int]) -> int:
@@ -192,7 +203,9 @@ class Solution:
             prices[i - 1] += min(prices[i : i * 2 + 1])
         return prices[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCoins(int[] prices) {
@@ -208,7 +221,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -221,7 +236,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCoins(prices []int) int {
 	for i := (len(prices) - 1) / 2; i > 0; i-- {
@@ -230,7 +247,9 @@ func minimumCoins(prices []int) int {
 	return prices[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCoins(prices: number[]): number {
     for (let i = (prices.length - 1) >> 1; i; --i) {
@@ -239,6 +258,7 @@ function minimumCoins(prices: number[]): number {
     return prices[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -246,6 +266,7 @@ function minimumCoins(prices: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCoins(self, prices: List[int]) -> int:
@@ -261,7 +282,9 @@ class Solution:
             q.append(i)
         return prices[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCoins(int[] prices) {
@@ -283,7 +306,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -306,7 +331,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCoins(prices []int) int {
 	n := len(prices)
@@ -384,7 +411,9 @@ func (q Deque) Get(i int) int {
 	return q.r[i-len(q.l)]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCoins(prices: number[]): number {
     const n = prices.length;
@@ -500,6 +529,7 @@ class Deque<T> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

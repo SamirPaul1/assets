@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minWindow(self, s1: str, s2: str) -> str:
@@ -76,7 +77,9 @@ class Solution:
                     p = j
         return "" if k > m else s1[p : p + k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minWindow(String s1, String s2) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minWindow(s1 string, s2 string) string {
 	m, n := len(s1), len(s2)
@@ -173,7 +180,9 @@ func minWindow(s1 string, s2 string) string {
 	return s1[p : p+k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minWindow(s1: string, s2: string): string {
     const m = s1.length;
@@ -204,6 +213,7 @@ function minWindow(s1: string, s2: string): string {
     return k > m ? '' : s1.slice(p, p + k);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

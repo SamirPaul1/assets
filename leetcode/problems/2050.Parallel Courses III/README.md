@@ -1,6 +1,5 @@
 # [2050. Parallel Courses III](https://leetcode.com/problems/parallel-courses-iii)
 
-[中文文档](/solution/2000-2099/2050.Parallel%20Courses%20III/README.md)
 
 ## Description
 

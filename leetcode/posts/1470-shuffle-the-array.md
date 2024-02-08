@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
@@ -70,7 +71,9 @@ class Solution:
             ans.append(nums[i + n])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] shuffle(int[] nums, int n) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,7 +102,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shuffle(nums []int, n int) []int {
 	var ans []int
@@ -108,7 +115,9 @@ func shuffle(nums []int, n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shuffle(nums: number[], n: number): number[] {
     let ans = [];
@@ -118,7 +127,9 @@ function shuffle(nums: number[], n: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shuffle(nums: Vec<i32>, n: i32) -> Vec<i32> {
@@ -132,7 +143,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -147,6 +160,7 @@ int* shuffle(int* nums, int numsSize, int n, int* returnSize) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,13 +168,16 @@ int* shuffle(int* nums, int numsSize, int n, int* returnSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
         nums[::2], nums[1::2] = nums[:n], nums[n:]
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shuffle(mut nums: Vec<i32>, n: i32) -> Vec<i32> {
@@ -180,6 +197,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

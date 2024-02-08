@@ -76,6 +76,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestBeautifulSubstring(self, word: str) -> int:
@@ -95,7 +96,9 @@ class Solution:
                 ans = max(ans, a[1] + b[1] + c[1] + d[1] + e[1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestBeautifulSubstring(String word) {
@@ -131,7 +134,9 @@ class Node {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestBeautifulSubstring(word string) (ans int) {
 	arr := []pair{}
@@ -186,6 +193,7 @@ type pair struct {
 	v int
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

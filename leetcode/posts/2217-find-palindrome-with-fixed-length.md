@@ -60,6 +60,7 @@ The first six palindromes of length 4 are:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthPalindrome(self, queries: List[int], intLength: int) -> List[int]:
@@ -76,7 +77,9 @@ class Solution:
             ans.append(int(s))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] kthPalindrome(int[] queries, int intLength) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthPalindrome(queries []int, intLength int) []int64 {
 	l := (intLength + 1) >> 1
@@ -148,7 +155,9 @@ func kthPalindrome(queries []int, intLength int) []int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function kthPalindrome(queries: number[], intLength: number): number[] {
     const isOdd = intLength % 2 === 1;
@@ -170,7 +179,9 @@ function kthPalindrome(queries: number[], intLength: number): number[] {
     });
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn kth_palindrome(queries: Vec<i32>, int_length: i32) -> Vec<i64> {
@@ -201,6 +212,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

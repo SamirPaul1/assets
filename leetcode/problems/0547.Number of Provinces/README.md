@@ -1,6 +1,5 @@
 # [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces)
 
-[中文文档](/solution/0500-0599/0547.Number%20of%20Provinces/README.md)
 
 ## Description
 

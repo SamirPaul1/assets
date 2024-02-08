@@ -68,6 +68,7 @@ Hence, we need at minimum 2 moves to determine with certainty what the value of 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def superEggDrop(self, k: int, n: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
 
         return dfs(n, k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] f;
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func superEggDrop(k int, n int) int {
 	f := make([][]int, n+1)
@@ -193,7 +200,9 @@ func superEggDrop(k int, n int) int {
 	return dfs(n, k)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function superEggDrop(k: number, n: number): number {
     const f: number[][] = new Array(n + 1).fill(0).map(() => new Array(k + 1).fill(0));
@@ -224,6 +233,7 @@ function superEggDrop(k: number, n: number): number {
     return dfs(n, k);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -231,6 +241,7 @@ function superEggDrop(k: number, n: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def superEggDrop(self, k: int, n: int) -> int:
@@ -250,7 +261,9 @@ class Solution:
                 f[i][j] = max(f[l - 1][j - 1], f[i - l][j]) + 1
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int superEggDrop(int k, int n) {
@@ -278,7 +291,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -308,7 +323,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func superEggDrop(k int, n int) int {
 	f := make([][]int, n+1)
@@ -336,7 +353,9 @@ func superEggDrop(k int, n int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function superEggDrop(k: number, n: number): number {
     const f: number[][] = new Array(n + 1).fill(0).map(() => new Array(k + 1).fill(0));
@@ -363,6 +382,7 @@ function superEggDrop(k: number, n: number): number {
     return f[n][k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

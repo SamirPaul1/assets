@@ -63,6 +63,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestContinuousSubstring(self, s: str) -> int:
@@ -76,7 +77,9 @@ class Solution:
         ans = max(ans, j - i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestContinuousSubstring(String s) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestContinuousSubstring(s string) int {
 	ans := 0
@@ -126,7 +133,9 @@ func longestContinuousSubstring(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestContinuousSubstring(s: string): number {
     const n = s.length;
@@ -141,7 +150,9 @@ function longestContinuousSubstring(s: string): number {
     return Math.max(res, n - i);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_continuous_substring(s: String) -> i32 {
@@ -159,7 +170,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -176,6 +189,7 @@ int longestContinuousSubstring(char* s) {
     return max(res, n - i);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

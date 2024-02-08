@@ -84,13 +84,16 @@ Time complexity is $O(n)$, where $n$ is the length of the array. Space complexit
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeSum(self, nums: List[int], k: int) -> int:
         x = max(nums)
         return k * x + k * (k - 1) // 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeSum(int[] nums, int k) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,21 +117,27 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeSum(nums []int, k int) int {
 	x := slices.Max(nums)
 	return k*x + k*(k-1)/2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeSum(nums: number[], k: number): number {
     const x = Math.max(...nums);
     return k * x + (k * (k - 1)) / 2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximize_sum(nums: Vec<i32>, k: i32) -> i32 {
@@ -142,6 +153,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -149,6 +161,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximize_sum(nums: Vec<i32>, k: i32) -> i32 {
@@ -158,6 +171,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

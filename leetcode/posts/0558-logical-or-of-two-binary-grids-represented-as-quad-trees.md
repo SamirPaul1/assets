@@ -98,6 +98,7 @@ The resulting matrix is of size 1*1 with also zero.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a QuadTree node.
@@ -144,7 +145,9 @@ class Solution:
 
         return dfs(quadTree1, quadTree2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a QuadTree node.
@@ -196,7 +199,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a QuadTree node.
@@ -260,7 +265,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a QuadTree node.
@@ -308,6 +315,7 @@ func intersect(quadTree1 *Node, quadTree2 *Node) *Node {
 	return dfs(quadTree1, quadTree2)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

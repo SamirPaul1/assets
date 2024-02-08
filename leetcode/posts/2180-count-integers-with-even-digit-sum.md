@@ -56,6 +56,7 @@ The 14 integers less than or equal to 30 whose digit sums are even are
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countEven(self, num: int) -> int:
@@ -68,7 +69,9 @@ class Solution:
             ans += s % 2 == 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countEven(int num) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countEven(num int) (ans int) {
 	for i := 1; i <= num; i++ {
@@ -118,7 +125,9 @@ func countEven(num int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countEven(num: number): number {
     let ans = 0;
@@ -134,6 +143,7 @@ function countEven(num: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -141,6 +151,7 @@ function countEven(num: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countEven(self, num: int) -> int:
@@ -152,7 +163,9 @@ class Solution:
         ans += (num % 10 + 2 - (s & 1)) >> 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countEven(int num) {
@@ -166,7 +179,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +196,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countEven(num int) (ans int) {
 	ans = num/10*5 - 1
@@ -193,7 +210,9 @@ func countEven(num int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countEven(num: number): number {
     let ans = Math.floor(num / 10) * 5 - 1;
@@ -205,6 +224,7 @@ function countEven(num: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

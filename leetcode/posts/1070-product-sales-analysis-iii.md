@@ -96,6 +96,7 @@ Product table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -113,6 +114,7 @@ WHERE
         GROUP BY product_id
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -120,6 +122,7 @@ WHERE
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -136,6 +139,7 @@ SELECT product_id, year AS first_year, quantity, price
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,12 +73,15 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
         return max(accumulate(gain, initial=0))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestAltitude(int[] gain) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestAltitude(gain []int) (ans int) {
 	h := 0
@@ -115,7 +122,9 @@ func largestAltitude(gain []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn largest_altitude(gain: Vec<i32>) -> i32 {
@@ -129,7 +138,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} gain
@@ -145,7 +156,9 @@ var largestAltitude = function (gain) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -164,7 +177,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -178,6 +193,7 @@ int largestAltitude(int* gain, int gainSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -185,6 +201,7 @@ int largestAltitude(int* gain, int gainSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestAltitude(self, gain: List[int]) -> int:
@@ -194,6 +211,7 @@ class Solution:
             ans = max(ans, h)
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

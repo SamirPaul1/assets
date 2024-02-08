@@ -74,6 +74,7 @@ For the table 12: James, Ratesh and Amadeus order &quot;Fried Chicken&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def displayTable(self, orders: List[List[str]]) -> List[List[str]]:
@@ -94,7 +95,9 @@ class Solution:
             res.append(t)
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<String>> displayTable(List<List<String>> orders) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func displayTable(orders [][]string) [][]string {
 	tables := make(map[int]bool)
@@ -210,6 +217,7 @@ func displayTable(orders [][]string) [][]string {
 	return res
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

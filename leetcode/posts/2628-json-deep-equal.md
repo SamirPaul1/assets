@@ -86,6 +86,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function areDeeplyEqual(o1: any, o2: any): boolean {
     if (o1 === null || typeof o1 !== 'object') {
@@ -122,6 +123,7 @@ function areDeeplyEqual(o1: any, o2: any): boolean {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

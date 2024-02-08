@@ -67,6 +67,7 @@ Note that [8,6] is not a smooth descent period as 8 - 6 &ne; 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getDescentPeriods(self, prices: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
             i = j
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long getDescentPeriods(int[] prices) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getDescentPeriods(prices []int) (ans int64) {
 	n := len(prices)
@@ -133,7 +140,9 @@ func getDescentPeriods(prices []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getDescentPeriods(prices: number[]): number {
     let ans = 0;
@@ -149,6 +158,7 @@ function getDescentPeriods(prices: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

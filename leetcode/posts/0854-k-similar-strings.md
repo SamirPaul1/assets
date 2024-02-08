@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kSimilarity(self, s1: str, s2: str) -> int:
@@ -83,7 +84,9 @@ class Solution:
                         q.append(nxt)
             ans += 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kSimilarity(String s1, String s2) {
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kSimilarity(s1 string, s2 string) int {
 	next := func(s string) []string {
@@ -211,6 +218,7 @@ func kSimilarity(s1 string, s2 string) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,6 +226,7 @@ func kSimilarity(s1 string, s2 string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kSimilarity(self, s1: str, s2: str) -> int:
@@ -247,7 +256,9 @@ class Solution:
                     dist[nxt] = dist[s] + 1
                     heappush(q, (dist[nxt] + f(nxt), nxt))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kSimilarity(String s1, String s2) {
@@ -304,7 +315,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pis = pair<int, string>;
 
@@ -353,7 +366,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kSimilarity(s1 string, s2 string) int {
 	next := func(s string) []string {
@@ -410,6 +425,7 @@ func (h hp) Swap(i, j int) { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)   { *h = append(*h, v.(pair)) }
 func (h *hp) Pop() any     { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

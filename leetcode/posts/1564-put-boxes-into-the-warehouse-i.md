@@ -80,6 +80,7 @@ Swapping the orange and green boxes is also valid, or swapping one of them with 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxBoxesInWarehouse(self, boxes: List[int], warehouse: List[int]) -> int:
@@ -97,7 +98,9 @@ class Solution:
             i, j = i + 1, j - 1
         return i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxBoxesInWarehouse(int[] boxes, int[] warehouse) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxBoxesInWarehouse(boxes []int, warehouse []int) int {
 	n := len(warehouse)
@@ -173,7 +180,9 @@ func maxBoxesInWarehouse(boxes []int, warehouse []int) int {
 	return i
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxBoxesInWarehouse(boxes: number[], warehouse: number[]): number {
     const n = warehouse.length;
@@ -198,6 +207,7 @@ function maxBoxesInWarehouse(boxes: number[], warehouse: number[]): number {
     return i;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -62,6 +62,7 @@ Except for extremely specially constructed data, the above hash algorithm is unl
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPrefix(self, s: str) -> str:
@@ -70,7 +71,9 @@ class Solution:
                 return s[i:]
         return ''
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private long[] p;
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef unsigned long long ULL;
 
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPrefix(s string) string {
 	base := 131
@@ -146,7 +153,9 @@ func longestPrefix(s string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestPrefix(s: string): string {
     const n = s.length;
@@ -158,7 +167,9 @@ function longestPrefix(s: string): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn longest_prefix(s: String) -> String {
@@ -172,6 +183,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

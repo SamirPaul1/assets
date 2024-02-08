@@ -74,6 +74,7 @@ Then, use the second operation on the third and sixth elements to make s = &quot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minFlips(self, s: str) -> int:
@@ -87,7 +88,9 @@ class Solution:
             ans = min(ans, cnt, n - cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minFlips(String s) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minFlips(s string) int {
 	n := len(s)
@@ -164,7 +171,9 @@ func minFlips(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minFlips(s: string): number {
     const n = s.length;
@@ -188,6 +197,7 @@ function minFlips(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

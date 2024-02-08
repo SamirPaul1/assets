@@ -74,6 +74,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string `word`. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeAlmostEqualCharacters(self, word: str) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int removeAlmostEqualCharacters(String word) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeAlmostEqualCharacters(word string) (ans int) {
 	for i := 1; i < len(word); i++ {
@@ -137,7 +144,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeAlmostEqualCharacters(word: string): number {
     let ans = 0;
@@ -150,6 +159,7 @@ function removeAlmostEqualCharacters(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

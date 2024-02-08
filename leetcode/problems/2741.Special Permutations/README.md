@@ -1,6 +1,5 @@
 # [2741. Special Permutations](https://leetcode.com/problems/special-permutations)
 
-[中文文档](/solution/2700-2799/2741.Special%20Permutations/README.md)
 
 ## Description
 

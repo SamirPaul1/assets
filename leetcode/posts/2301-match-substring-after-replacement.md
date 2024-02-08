@@ -85,6 +85,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(C^2)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def matchReplacement(self, s: str, sub: str, mappings: List[List[str]]) -> bool:
@@ -96,7 +97,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean matchReplacement(String s, String sub, char[][] mappings) {
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func matchReplacement(s string, sub string, mappings [][]byte) bool {
 	d := map[byte]map[byte]bool{}
@@ -172,6 +179,7 @@ func matchReplacement(s string, sub string, mappings [][]byte) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -183,6 +191,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(C^2)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def matchReplacement(self, s: str, sub: str, mappings: List[List[str]]) -> bool:
@@ -196,7 +205,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean matchReplacement(String s, String sub, char[][] mappings) {
@@ -221,7 +232,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -247,7 +260,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func matchReplacement(s string, sub string, mappings [][]byte) bool {
 	d := [128][128]bool{}
@@ -269,6 +284,7 @@ func matchReplacement(s string, sub string, mappings [][]byte) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

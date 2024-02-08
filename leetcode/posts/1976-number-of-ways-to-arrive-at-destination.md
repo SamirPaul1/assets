@@ -67,6 +67,7 @@ The four ways to get there in 7 minutes are:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPaths(self, n: int, roads: List[List[int]]) -> int:
@@ -99,7 +100,9 @@ class Solution:
                     w[i] += w[t]
         return w[-1] % MOD
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final long INF = Long.MAX_VALUE / 2;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 typedef long long ll;
 
@@ -189,7 +194,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPaths(n int, roads [][]int) int {
 	const inf = math.MaxInt64 / 2
@@ -236,6 +243,7 @@ func countPaths(n int, roads [][]int) int {
 	return w[n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

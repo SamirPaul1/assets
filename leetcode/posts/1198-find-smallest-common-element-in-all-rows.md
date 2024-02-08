@@ -61,6 +61,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(10^4)$. H
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestCommonElement(self, mat: List[List[int]]) -> int:
@@ -72,7 +73,9 @@ class Solution:
                     return x
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestCommonElement(int[][] mat) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestCommonElement(mat [][]int) int {
 	cnt := [10001]int{}
@@ -120,7 +127,9 @@ func smallestCommonElement(mat [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestCommonElement(mat: number[][]): number {
     const cnt: number[] = new Array(10001).fill(0);
@@ -134,6 +143,7 @@ function smallestCommonElement(mat: number[][]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

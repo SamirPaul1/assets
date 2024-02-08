@@ -1,6 +1,5 @@
 # [2241. Design an ATM Machine](https://leetcode.com/problems/design-an-atm-machine)
 
-[中文文档](/solution/2200-2299/2241.Design%20an%20ATM%20Machine/README.md)
 
 ## Description
 

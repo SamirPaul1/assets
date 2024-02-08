@@ -54,6 +54,7 @@ Note that [10, 5, 2] is not included as the product of 100 is not strictly less 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
@@ -66,7 +67,9 @@ class Solution:
             ans += i - j + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numSubarrayProductLessThanK(int[] nums, int k) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,7 +102,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numSubarrayProductLessThanK(nums []int, k int) int {
 	ans := 0
@@ -111,7 +118,9 @@ func numSubarrayProductLessThanK(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numSubarrayProductLessThanK(nums: number[], k: number): number {
     let ans = 0;
@@ -125,7 +134,9 @@ function numSubarrayProductLessThanK(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn num_subarray_product_less_than_k(nums: Vec<i32>, k: i32) -> i32 {
@@ -150,7 +161,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -171,6 +184,7 @@ var numSubarrayProductLessThanK = function (nums, k) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -77,6 +77,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minHeightShelves(self, books: List[List[int]], shelfWidth: int) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 f[i] = min(f[i], f[j - 1] + h)
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minHeightShelves(int[][] books, int shelfWidth) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minHeightShelves(books [][]int, shelfWidth int) int {
 	n := len(books)
@@ -158,7 +165,9 @@ func minHeightShelves(books [][]int, shelfWidth int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minHeightShelves(books: number[][], shelfWidth: number): number {
     const n = books.length;
@@ -178,7 +187,9 @@ function minHeightShelves(books: number[][], shelfWidth: number): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MinHeightShelves(int[][] books, int shelfWidth) {
@@ -200,6 +211,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
             last[cur] = i
         return -1 if ans == len(nums) else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSubarray(int[] nums, int p) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSubarray(nums []int, p int) int {
 	k := 0
@@ -167,7 +174,9 @@ func minSubarray(nums []int, p int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSubarray(nums: number[], p: number): number {
     let k = 0;
@@ -194,6 +203,7 @@ function minSubarray(nums: number[], p: number): number {
     return ans === n ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

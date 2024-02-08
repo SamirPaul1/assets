@@ -106,6 +106,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def networkBecomesIdle(self, edges: List[List[int]], patience: List[int]) -> int:
@@ -128,7 +129,9 @@ class Solution:
                         ans = max(ans, (t - 1) // patience[v] * patience[v] + t + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int networkBecomesIdle(int[][] edges, int[] patience) {
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -199,7 +204,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func networkBecomesIdle(edges [][]int, patience []int) (ans int) {
 	n := len(patience)
@@ -229,7 +236,9 @@ func networkBecomesIdle(edges [][]int, patience []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function networkBecomesIdle(edges: number[][], patience: number[]): number {
     const n = patience.length;
@@ -259,6 +268,7 @@ function networkBecomesIdle(edges: number[][], patience: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

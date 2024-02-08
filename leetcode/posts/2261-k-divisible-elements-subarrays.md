@@ -75,6 +75,7 @@ Since all subarrays are distinct, the total number of subarrays satisfying all t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDistinct(self, nums: List[int], k: int, p: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 s.add(tuple(nums[i : j + 1]))
         return len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countDistinct(int[] nums, int k, int p) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countDistinct(nums []int, k int, p int) int {
 	s := map[string]struct{}{}
@@ -152,7 +159,9 @@ func countDistinct(nums []int, k int, p int) int {
 	return len(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countDistinct(nums: number[], k: number, p: number): number {
     const n = nums.length;
@@ -171,6 +180,7 @@ function countDistinct(nums: number[], k: number, p: number): number {
     return s.size;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -178,6 +188,7 @@ function countDistinct(nums: number[], k: number, p: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countDistinct(self, nums: List[int], k: int, p: int) -> int:
@@ -194,6 +205,7 @@ class Solution:
                 s.add(t)
         return len(s)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

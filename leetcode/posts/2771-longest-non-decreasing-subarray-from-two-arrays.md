@@ -74,6 +74,7 @@ The entire array forms a non-decreasing subarray of length 2, making it the maxi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxNonDecreasingLength(self, nums1: List[int], nums2: List[int]) -> int:
@@ -94,7 +95,9 @@ class Solution:
             ans = max(ans, f, g)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxNonDecreasingLength(int[] nums1, int[] nums2) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxNonDecreasingLength(nums1 []int, nums2 []int) int {
 	n := len(nums1)
@@ -178,7 +185,9 @@ func maxNonDecreasingLength(nums1 []int, nums2 []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxNonDecreasingLength(nums1: number[], nums2: number[]): number {
     const n = nums1.length;
@@ -204,6 +213,7 @@ function maxNonDecreasingLength(nums1: number[], nums2: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [1946. Largest Number After Mutating Substring](https://leetcode.com/problems/largest-number-after-mutating-substring)
 
-[中文文档](/solution/1900-1999/1946.Largest%20Number%20After%20Mutating%20Substring/README.md)
 
 ## Description
 

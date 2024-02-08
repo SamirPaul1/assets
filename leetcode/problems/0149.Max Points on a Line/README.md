@@ -1,6 +1,5 @@
 # [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)
 
-[中文文档](/solution/0100-0199/0149.Max%20Points%20on%20a%20Line/README.md)
 
 ## Description
 

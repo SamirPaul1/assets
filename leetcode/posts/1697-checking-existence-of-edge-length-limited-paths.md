@@ -65,6 +65,7 @@ For the second query, there is a path (0 -&gt; 1 -&gt; 2) of two edges with dist
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distanceLimitedPathsExist(
@@ -87,7 +88,9 @@ class Solution:
             ans[i] = find(a) == find(b)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distanceLimitedPathsExist(n int, edgeList [][]int, queries [][]int) []bool {
 	p := make([]int, n)
@@ -192,7 +199,9 @@ func distanceLimitedPathsExist(n int, edgeList [][]int, queries [][]int) []bool 
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -267,6 +276,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,12 +70,15 @@ The time complexity is $O(n)$, where $n$ is the length of `details`. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSeniors(self, details: List[str]) -> int:
         return sum(int(x[11:13]) > 60 for x in details)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSeniors(String[] details) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSeniors(details []string) (ans int) {
 	for _, x := range details {
@@ -116,7 +123,9 @@ func countSeniors(details []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSeniors(details: string[]): number {
     let ans = 0;
@@ -129,7 +138,9 @@ function countSeniors(details: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_seniors(details: Vec<String>) -> i32 {
@@ -147,6 +158,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,12 +166,15 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSeniors(details: string[]): number {
     return details.filter(v => parseInt(v.slice(11, 13)) > 60).length;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_seniors(details: Vec<String>) -> i32 {
@@ -171,6 +186,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

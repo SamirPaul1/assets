@@ -1,6 +1,5 @@
 # [2501. Longest Square Streak in an Array](https://leetcode.com/problems/longest-square-streak-in-an-array)
 
-[中文文档](/solution/2500-2599/2501.Longest%20Square%20Streak%20in%20an%20Array/README.md)
 
 ## Description
 

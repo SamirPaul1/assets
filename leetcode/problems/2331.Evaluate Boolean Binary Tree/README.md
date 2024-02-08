@@ -1,6 +1,5 @@
 # [2331. Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree)
 
-[中文文档](/solution/2300-2399/2331.Evaluate%20Boolean%20Binary%20Tree/README.md)
 
 ## Description
 

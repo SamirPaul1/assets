@@ -1,6 +1,5 @@
 # [2156. Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value)
 
-[中文文档](/solution/2100-2199/2156.Find%20Substring%20With%20Given%20Hash%20Value/README.md)
 
 ## Description
 

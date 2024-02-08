@@ -72,6 +72,7 @@ One is [1, 17, 10, 13, 10, 16, 8] with differences (16, -7, 3, -3, 6, -8).
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
                 down = max(down, up + 1)
         return max(up, down)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int wiggleMaxLength(int[] nums) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wiggleMaxLength(nums []int) int {
 	up, down := 1, 1
@@ -130,7 +137,9 @@ func wiggleMaxLength(nums []int) int {
 	return max(up, down)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wiggleMaxLength(nums: number[]): number {
     let up = 1,
@@ -147,6 +156,7 @@ function wiggleMaxLength(nums: number[]): number {
     return Math.max(up, down);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

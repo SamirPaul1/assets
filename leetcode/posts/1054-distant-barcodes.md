@@ -45,6 +45,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rearrangeBarcodes(self, barcodes: List[int]) -> List[int]:
@@ -56,7 +57,9 @@ class Solution:
         ans[1::2] = barcodes[(n + 1) // 2 :]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] rearrangeBarcodes(int[] barcodes) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rearrangeBarcodes(barcodes []int) []int {
 	mx := slices.Max(barcodes)
@@ -132,7 +139,9 @@ func rearrangeBarcodes(barcodes []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rearrangeBarcodes(barcodes: number[]): number[] {
     const mx = Math.max(...barcodes);
@@ -151,6 +160,7 @@ function rearrangeBarcodes(barcodes: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

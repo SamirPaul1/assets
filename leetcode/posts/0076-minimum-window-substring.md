@@ -78,6 +78,7 @@ The time complexity is $O(m + n)$, and the space complexity is $O(C)$. Here, $m$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
@@ -98,7 +99,9 @@ class Solution:
                 j += 1
         return '' if k < 0 else s[k : k + mi]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minWindow(String s, String t) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minWindow(s string, t string) string {
 	need := [128]int{}
@@ -193,7 +200,9 @@ func minWindow(s string, t string) string {
 	return s[k : k+mi]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minWindow(s: string, t: string): string {
     const need: number[] = new Array(128).fill(0);
@@ -224,7 +233,9 @@ function minWindow(s: string, t: string): string {
     return k < 0 ? '' : s.slice(k, k + mi);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_window(s: String, t: String) -> String {
@@ -260,7 +271,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string MinWindow(string s, string t) {
@@ -290,6 +303,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

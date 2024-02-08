@@ -61,6 +61,7 @@ It can be shown that it is the only way to express 10 as the sum of the 2<sup>nd
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWays(self, n: int, x: int) -> int:
@@ -75,7 +76,9 @@ class Solution:
                     f[i][j] = (f[i][j] + f[i - 1][j - k]) % mod
         return f[n][n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfWays(int n, int x) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWays(n int, x int) int {
 	const mod int = 1e9 + 7
@@ -138,7 +145,9 @@ func numberOfWays(n int, x int) int {
 	return f[n][n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfWays(n: number, x: number): number {
     const mod = 10 ** 9 + 7;
@@ -158,6 +167,7 @@ function numberOfWays(n: number, x: number): number {
     return f[n][n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

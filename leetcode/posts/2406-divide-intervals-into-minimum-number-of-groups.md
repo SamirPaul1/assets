@@ -72,6 +72,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minGroups(self, intervals: List[List[int]]) -> int:
@@ -82,7 +83,9 @@ class Solution:
             heappush(h, b)
         return len(h)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minGroups(int[][] intervals) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minGroups(intervals [][]int) int {
 	sort.Slice(intervals, func(i, j int) bool { return intervals[i][0] < intervals[j][0] })
@@ -139,6 +146,7 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

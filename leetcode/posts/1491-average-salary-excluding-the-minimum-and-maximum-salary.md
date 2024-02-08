@@ -57,13 +57,16 @@ Average salary excluding minimum and maximum salary is (2000) / 1 = 2000
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def average(self, salary: List[int]) -> float:
         s = sum(salary) - min(salary) - max(salary)
         return s / (len(salary) - 2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double average(int[] salary) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func average(salary []int) float64 {
 	s := 0
@@ -110,7 +117,9 @@ func average(salary []int) float64 {
 	return float64(s) / float64(len(salary)-2)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function average(salary: number[]): number {
     let max = -Infinity;
@@ -124,7 +133,9 @@ function average(salary: number[]): number {
     return (sum - max - min) / (salary.length - 2);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn average(salary: Vec<i32>) -> f64 {
@@ -141,7 +152,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -160,7 +173,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 #define min(a, b) (((a) < (b)) ? (a) : (b))
@@ -177,6 +192,7 @@ double average(int* salary, int salarySize) {
     return (sum - mi - ma) * 1.0 / (salarySize - 2);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

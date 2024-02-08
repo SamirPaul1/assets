@@ -86,12 +86,15 @@ The time complexity is $O(n)$, where $n$ is the length of the array `operations`
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def finalValueAfterOperations(self, operations: List[str]) -> int:
         return sum(1 if s[1] == '+' else -1 for s in operations)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int finalValueAfterOperations(String[] operations) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func finalValueAfterOperations(operations []string) (ans int) {
 	for _, s := range operations {
@@ -127,7 +134,9 @@ func finalValueAfterOperations(operations []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function finalValueAfterOperations(operations: string[]): number {
     let ans = 0;
@@ -137,7 +146,9 @@ function finalValueAfterOperations(operations: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn final_value_after_operations(operations: Vec<String>) -> i32 {
@@ -149,7 +160,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string[]} operations
@@ -163,7 +176,9 @@ var finalValueAfterOperations = function (operations) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int finalValueAfterOperations(char** operations, int operationsSize) {
     int ans = 0;
@@ -173,6 +188,7 @@ int finalValueAfterOperations(char** operations, int operationsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -180,11 +196,13 @@ int finalValueAfterOperations(char** operations, int operationsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function finalValueAfterOperations(operations: string[]): number {
     return operations.reduce((r, v) => r + (v[1] === '+' ? 1 : -1), 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

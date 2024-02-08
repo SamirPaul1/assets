@@ -57,6 +57,7 @@ Hence, we return false.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkValid(self, matrix: List[List[int]]) -> bool:
@@ -77,7 +78,9 @@ class Solution:
                 seen[v] = True
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkValid(int[][] matrix) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkValid(matrix [][]int) bool {
 	n := len(matrix)
@@ -159,7 +166,9 @@ func checkValid(matrix [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkValid(matrix: number[][]): boolean {
     const n = matrix.length;
@@ -176,6 +185,7 @@ function checkValid(matrix: number[][]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

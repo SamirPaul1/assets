@@ -146,6 +146,7 @@ obj2 = { &nbsp;
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function objDiff(obj1: any, obj2: any): any {
     if (type(obj1) !== type(obj2)) return [obj1, obj2];
@@ -167,6 +168,7 @@ function isObject(obj: unknown): obj is Record<string, unknown> {
     return typeof obj === 'object' && obj !== null;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

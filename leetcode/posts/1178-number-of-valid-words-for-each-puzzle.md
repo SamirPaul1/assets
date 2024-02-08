@@ -81,6 +81,7 @@ The time complexity is $O(m \times |w| + n \times 2^{|p|})$, and the space compl
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findNumOfValidWords(self, words: List[str], puzzles: List[str]) -> List[int]:
@@ -104,7 +105,9 @@ class Solution:
             ans.append(x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findNumOfValidWords(String[] words, String[] puzzles) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findNumOfValidWords(words []string, puzzles []string) (ans []int) {
 	cnt := map[int]int{}
@@ -194,7 +201,9 @@ func findNumOfValidWords(words []string, puzzles []string) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findNumOfValidWords(words: string[], puzzles: string[]): number[] {
     const cnt: Map<number, number> = new Map();
@@ -223,6 +232,7 @@ function findNumOfValidWords(words: string[], puzzles: string[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

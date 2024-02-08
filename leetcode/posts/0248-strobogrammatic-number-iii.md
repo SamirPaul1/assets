@@ -47,6 +47,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def strobogrammaticInRange(self, low: str, high: str) -> int:
@@ -72,7 +73,9 @@ class Solution:
                     ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int[][] PAIRS = {{1, 1}, {8, 8}, {6, 9}, {9, 6}};
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func strobogrammaticInRange(low string, high string) int {
 	n := 0
@@ -188,6 +195,7 @@ func strobogrammaticInRange(low string, high string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

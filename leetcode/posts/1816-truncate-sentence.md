@@ -79,12 +79,15 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. Ignori
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def truncateSentence(self, s: str, k: int) -> str:
         return ' '.join(s.split()[:k])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String truncateSentence(String s, int k) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func truncateSentence(s string, k int) string {
 	for i, c := range s {
@@ -125,7 +132,9 @@ func truncateSentence(s string, k int) string {
 	return s
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function truncateSentence(s: string, k: number): string {
     for (let i = 0; i < s.length; ++i) {
@@ -136,7 +145,9 @@ function truncateSentence(s: string, k: number): string {
     return s;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -152,6 +163,7 @@ var truncateSentence = function (s, k) {
     return s;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -159,6 +171,7 @@ var truncateSentence = function (s, k) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def truncateSentence(self, s: str, k: int) -> str:
@@ -168,6 +181,7 @@ class Solution:
                 return s[:i]
         return s
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

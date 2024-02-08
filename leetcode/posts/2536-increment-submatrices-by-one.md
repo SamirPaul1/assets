@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rangeAddQueries(self, n: int, queries: List[List[int]]) -> List[List[int]]:
@@ -88,7 +89,9 @@ class Solution:
                     mat[i][j] -= mat[i - 1][j - 1]
         return mat
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] rangeAddQueries(int n, int[][] queries) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rangeAddQueries(n int, queries [][]int) [][]int {
 	mat := make([][]int, n)
@@ -195,6 +202,7 @@ func rangeAddQueries(n int, queries [][]int) [][]int {
 	return mat
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

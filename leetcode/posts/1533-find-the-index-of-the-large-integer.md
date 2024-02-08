@@ -82,6 +82,7 @@ Notice that we made only 3 calls, so the answer is valid.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is ArrayReader's API interface.
@@ -117,7 +118,9 @@ class Solution:
                 left, right = t2 + 1, t3
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is ArrayReader's API interface.
@@ -153,7 +156,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the ArrayReader's API interface.
@@ -191,7 +196,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the ArrayReader's API interface.
@@ -224,6 +231,7 @@ func getIndex(reader *ArrayReader) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

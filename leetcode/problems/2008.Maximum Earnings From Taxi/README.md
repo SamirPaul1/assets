@@ -1,6 +1,5 @@
 # [2008. Maximum Earnings From Taxi](https://leetcode.com/problems/maximum-earnings-from-taxi)
 
-[中文文档](/solution/2000-2099/2008.Maximum%20Earnings%20From%20Taxi/README.md)
 
 ## Description
 

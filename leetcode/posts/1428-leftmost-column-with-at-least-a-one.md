@@ -77,6 +77,7 @@ The time complexity is $O(m \times \log n)$, where $m$ and $n$ are the number of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is BinaryMatrix's API interface.
@@ -96,7 +97,9 @@ class Solution:
             ans = min(ans, j)
         return -1 if ans >= n else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the BinaryMatrix's API interface.
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the BinaryMatrix's API interface.
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the BinaryMatrix's API interface.
@@ -195,7 +202,9 @@ func leftMostColumnWithOne(binaryMatrix BinaryMatrix) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the BinaryMatrix's API interface.
@@ -225,7 +234,9 @@ function leftMostColumnWithOne(binaryMatrix: BinaryMatrix) {
     return ans >= n ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 
 /**
@@ -266,7 +277,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * // This is BinaryMatrix's API interface.
@@ -298,6 +311,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

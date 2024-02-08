@@ -77,6 +77,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
@@ -95,7 +96,9 @@ class Solution:
             i, j = i + 1, j + 1
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int compareVersion(String version1, String version2) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func compareVersion(version1 string, version2 string) int {
 	m, n := len(version1), len(version2)
@@ -162,7 +169,9 @@ func compareVersion(version1 string, version2 string) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function compareVersion(version1: string, version2: string): number {
     let v1 = version1.split('.'),
@@ -176,7 +185,9 @@ function compareVersion(version1: string, version2: string): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CompareVersion(string version1, string version2) {
@@ -197,6 +208,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

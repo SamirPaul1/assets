@@ -56,6 +56,7 @@ Total amount you can rob = 2 + 9 + 1 = 12.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
@@ -66,7 +67,9 @@ class Solution:
             f[i] = max(f[i - 1], f[i - 2] + nums[i - 1])
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rob(int[] nums) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rob(nums []int) int {
 	n := len(nums)
@@ -108,7 +115,9 @@ func rob(nums []int) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rob(nums: number[]): number {
     const n = nums.length;
@@ -120,7 +129,9 @@ function rob(nums: number[]): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
@@ -132,6 +143,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -139,6 +151,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
@@ -147,7 +160,9 @@ class Solution:
             f, g = max(f, g), f + x
         return max(f, g)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rob(int[] nums) {
@@ -161,7 +176,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -176,7 +193,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rob(nums []int) int {
 	f, g := 0, 0
@@ -186,7 +205,9 @@ func rob(nums []int) int {
 	return max(f, g)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function rob(nums: number[]): number {
     let [f, g] = [0, 0];
@@ -196,6 +217,7 @@ function rob(nums: number[]): number {
     return Math.max(f, g);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

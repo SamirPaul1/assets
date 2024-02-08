@@ -81,6 +81,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautifulSubarrays(self, nums: List[int]) -> int:
@@ -92,7 +93,9 @@ class Solution:
             cnt[mask] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long beautifulSubarrays(int[] nums) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautifulSubarrays(nums []int) (ans int64) {
 	cnt := map[int]int{0: 1}
@@ -139,7 +146,9 @@ func beautifulSubarrays(nums []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function beautifulSubarrays(nums: number[]): number {
     const cnt = new Map();
@@ -154,6 +163,7 @@ function beautifulSubarrays(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

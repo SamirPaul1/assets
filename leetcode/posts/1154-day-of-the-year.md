@@ -64,6 +64,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dayOfYear(self, date: str) -> int:
@@ -72,7 +73,9 @@ class Solution:
         days = [31, v, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
         return sum(days[: m - 1]) + d
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int dayOfYear(String date) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dayOfYear(date string) (ans int) {
 	var y, m, d int
@@ -122,7 +129,9 @@ func dayOfYear(date string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dayOfYear(date: string): number {
     const y = +date.slice(0, 4);
@@ -133,7 +142,9 @@ function dayOfYear(date: string): number {
     return days.slice(0, m - 1).reduce((a, b) => a + b, d);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} date
@@ -148,6 +159,7 @@ var dayOfYear = function (date) {
     return days.slice(0, m - 1).reduce((a, b) => a + b, d);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

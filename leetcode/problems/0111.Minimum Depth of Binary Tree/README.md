@@ -1,6 +1,5 @@
 # [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)
 
-[中文文档](/solution/0100-0199/0111.Minimum%20Depth%20of%20Binary%20Tree/README.md)
 
 ## Description
 

@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reformat(self, s: str) -> str:
@@ -80,7 +81,9 @@ class Solution:
             ans.append(a[-1])
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reformat(String s) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reformat(s string) string {
 	a := []byte{}
@@ -176,6 +183,7 @@ func reformat(s string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def threeEqualParts(self, arr: List[int]) -> List[int]:
@@ -81,7 +82,9 @@ class Solution:
             i, j, k = i + 1, j + 1, k + 1
         return [i - 1, j] if k == n else [-1, -1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] arr;
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func threeEqualParts(arr []int) []int {
 	find := func(x int) int {
@@ -178,7 +185,9 @@ func threeEqualParts(arr []int) []int {
 	return []int{-1, -1}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -212,6 +221,7 @@ var threeEqualParts = function (arr) {
     return k == n ? [i - 1, j] : [-1, -1];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

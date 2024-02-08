@@ -74,6 +74,7 @@ In this example, the digit 8 is used twice each time in 288, 828, and 882.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findEvenNumbers(self, digits: List[int]) -> List[int]:
@@ -90,7 +91,9 @@ class Solution:
                 ans.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findEvenNumbers(int[] digits) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findEvenNumbers(digits []int) []int {
 	counter := count(digits)
@@ -198,7 +205,9 @@ func check(cnt1, cnt2 []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findEvenNumbers(digits: number[]): number[] {
     let record = new Array(10).fill(0);
@@ -226,6 +235,7 @@ function check(target: Array<number>, digits: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

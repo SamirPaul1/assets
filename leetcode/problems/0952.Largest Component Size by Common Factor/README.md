@@ -1,6 +1,5 @@
 # [952. Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor)
 
-[中文文档](/solution/0900-0999/0952.Largest%20Component%20Size%20by%20Common%20Factor/README.md)
 
 ## Description
 

@@ -1,6 +1,5 @@
 # [686. Repeated String Match](https://leetcode.com/problems/repeated-string-match)
 
-[中文文档](/solution/0600-0699/0686.Repeated%20String%20Match/README.md)
 
 ## Description
 

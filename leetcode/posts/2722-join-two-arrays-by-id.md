@@ -103,6 +103,7 @@ arr2 = [
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function join(arr1: any[], arr2: any[]): any[] {
     const d = new Map(arr1.map(x => [x.id, x]));
@@ -116,6 +117,7 @@ function join(arr1: any[], arr2: any[]): any[] {
     return [...d.values()].sort((a, b) => a.id - b.id);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

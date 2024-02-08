@@ -1,6 +1,5 @@
 # [148. Sort List](https://leetcode.com/problems/sort-list)
 
-[中文文档](/solution/0100-0199/0148.Sort%20List/README.md)
 
 ## Description
 

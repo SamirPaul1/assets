@@ -1,6 +1,5 @@
 # [2017. Grid Game](https://leetcode.com/problems/grid-game)
 
-[中文文档](/solution/2000-2099/2017.Grid%20Game/README.md)
 
 ## Description
 

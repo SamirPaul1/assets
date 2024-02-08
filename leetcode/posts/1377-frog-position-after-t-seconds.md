@@ -77,6 +77,7 @@ At the end of a round of search, we decrease $t$ by $1$, and then continue the n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def frogPosition(
@@ -102,7 +103,9 @@ class Solution:
             t -= 1
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double frogPosition(int n, int[][] edges, int t, int target) {
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func frogPosition(n int, edges [][]int, t int, target int) float64 {
 	g := make([][]int, n+1)
@@ -214,7 +221,9 @@ func frogPosition(n int, edges [][]int, t int, target int) float64 {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function frogPosition(n: number, edges: number[][], t: number, target: number): number {
     const g: number[][] = Array.from({ length: n + 1 }, () => []);
@@ -243,7 +252,9 @@ function frogPosition(n: number, edges: number[][], t: number, target: number): 
     return 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public double FrogPosition(int n, int[][] edges, int t, int target) {
@@ -279,6 +290,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

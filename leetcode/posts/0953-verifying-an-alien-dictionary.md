@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
@@ -82,7 +83,9 @@ class Solution:
                 return True
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isAlienSorted(words []string, order string) bool {
 	m := make([]int, 26)
@@ -163,7 +170,9 @@ func isAlienSorted(words []string, order string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isAlienSorted(words: string[], order: string): boolean {
     const map = new Map();
@@ -192,7 +201,9 @@ function isAlienSorted(words: string[], order: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -227,7 +238,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
@@ -259,6 +272,7 @@ bool isAlienSorted(char** words, int wordsSize, char* order) {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

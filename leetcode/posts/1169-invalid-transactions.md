@@ -79,6 +79,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def invalidTransactions(self, transactions: List[str]) -> List[str]:
@@ -96,7 +97,9 @@ class Solution:
                     idx.add(j)
         return [transactions[i] for i in idx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> invalidTransactions(String[] transactions) {
@@ -139,7 +142,9 @@ class Item {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func invalidTransactions(transactions []string) (ans []string) {
 	d := map[string][]tuple{}
@@ -221,6 +228,7 @@ type tuple struct {
 	i    int
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

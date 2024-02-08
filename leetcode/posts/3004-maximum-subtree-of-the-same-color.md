@@ -88,6 +88,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumSubtreeSize(self, edges: List[List[int]], colors: List[int]) -> int:
@@ -113,7 +114,9 @@ class Solution:
         dfs(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -153,7 +156,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumSubtreeSize(edges [][]int, colors []int) (ans int) {
 	n := len(edges) + 1
@@ -217,7 +224,9 @@ func maximumSubtreeSize(edges [][]int, colors []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumSubtreeSize(edges: number[][], colors: number[]): number {
     const n = edges.length + 1;
@@ -246,6 +255,7 @@ function maximumSubtreeSize(edges: number[][], colors: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

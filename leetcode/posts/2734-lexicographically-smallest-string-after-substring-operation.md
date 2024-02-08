@@ -71,6 +71,7 @@ It can be proven that the resulting string is the lexicographically smallest.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestString(self, s: str) -> str:
@@ -85,7 +86,9 @@ class Solution:
             j += 1
         return s[:i] + "".join(chr(ord(c) - 1) for c in s[i:j]) + s[j:]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String smallestString(String s) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestString(s string) string {
 	n := len(s)
@@ -151,7 +158,9 @@ func smallestString(s string) string {
 	return string(cs)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestString(s: string): string {
     const cs: string[] = s.split('');
@@ -176,7 +185,9 @@ function smallestString(s: string): string {
     return cs.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn smallest_string(s: String) -> String {
@@ -203,6 +214,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ The total cost is 2. Note that you cannot jump directly from index 0 to index 2 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, nums: List[int], costs: List[int]) -> int:
@@ -98,7 +99,9 @@ class Solution:
                 f[j] = min(f[j], f[i] + costs[j])
         return f[n - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minCost(int[] nums, int[] costs) {
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(nums []int, costs []int) int64 {
 	n := len(nums)
@@ -212,7 +219,9 @@ func minCost(nums []int, costs []int) int64 {
 	return f[n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCost(nums: number[], costs: number[]): number {
     const n = nums.length;
@@ -247,6 +256,7 @@ function minCost(nums: number[], costs: number[]): number {
     return f[n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

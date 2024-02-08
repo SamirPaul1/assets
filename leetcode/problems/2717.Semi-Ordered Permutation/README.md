@@ -1,6 +1,5 @@
 # [2717. Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation)
 
-[中文文档](/solution/2700-2799/2717.Semi-Ordered%20Permutation/README.md)
 
 ## Description
 

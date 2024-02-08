@@ -80,6 +80,7 @@ The time complexity is $O(2^m \times n)$, and the space complexity is $O(2^m)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestSufficientTeam(
@@ -110,7 +111,9 @@ class Solution:
             i = h[i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] smallestSufficientTeam(String[] req_skills, List<List<String>> people) {
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -194,7 +199,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestSufficientTeam(req_skills []string, people [][]string) (ans []int) {
 	d := map[string]int{}
@@ -234,7 +241,9 @@ func smallestSufficientTeam(req_skills []string, people [][]string) (ans []int) 
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestSufficientTeam(req_skills: string[], people: string[][]): number[] {
     const d: Map<string, number> = new Map();
@@ -273,6 +282,7 @@ function smallestSufficientTeam(req_skills: string[], people: string[][]): numbe
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

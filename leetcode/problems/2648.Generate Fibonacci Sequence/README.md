@@ -1,6 +1,5 @@
 # [2648. Generate Fibonacci Sequence](https://leetcode.com/problems/generate-fibonacci-sequence)
 
-[中文文档](/solution/2600-2699/2648.Generate%20Fibonacci%20Sequence/README.md)
 
 ## Description
 

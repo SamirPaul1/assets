@@ -69,12 +69,15 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def theMaximumAchievableX(self, num: int, t: int) -> int:
         return num + t * 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int theMaximumAchievableX(int num, int t) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -91,18 +96,23 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func theMaximumAchievableX(num int, t int) int {
 	return num + t*2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function theMaximumAchievableX(num: number, t: number): number {
     return num + t * 2;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

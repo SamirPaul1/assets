@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fixedPoint(self, arr: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 left = mid + 1
         return left if arr[left] == left else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int fixedPoint(int[] arr) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fixedPoint(arr []int) int {
 	left, right := 0, len(arr)-1
@@ -125,7 +132,9 @@ func fixedPoint(arr []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function fixedPoint(arr: number[]): number {
     let left = 0;
@@ -141,6 +150,7 @@ function fixedPoint(arr: number[]): number {
     return arr[left] === left ? left : -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

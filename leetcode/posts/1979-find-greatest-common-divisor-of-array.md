@@ -71,12 +71,15 @@ The greatest common divisor of 3 and 3 is 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findGCD(self, nums: List[int]) -> int:
         return gcd(max(nums), min(nums))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findGCD(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findGCD(nums []int) int {
 	a, b := slices.Max(nums), slices.Min(nums)
@@ -118,7 +125,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findGCD(nums: number[]): number {
     let a = 1;
@@ -137,6 +146,7 @@ function gcd(a: number, b: number): number {
     return gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

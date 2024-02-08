@@ -1,6 +1,5 @@
 # [391. Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle)
 
-[中文文档](/solution/0300-0399/0391.Perfect%20Rectangle/README.md)
 
 ## Description
 

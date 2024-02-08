@@ -1,6 +1,5 @@
 # [2276. Count Integers in Intervals](https://leetcode.com/problems/count-integers-in-intervals)
 
-[中文文档](/solution/2200-2299/2276.Count%20Integers%20in%20Intervals/README.md)
 
 ## Description
 

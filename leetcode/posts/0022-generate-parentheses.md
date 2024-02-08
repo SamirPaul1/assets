@@ -53,6 +53,7 @@ The time complexity is $O(2^{n\times 2} \times n)$, and the space complexity is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
@@ -69,7 +70,9 @@ class Solution:
         dfs(0, 0, '')
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<String> ans = new ArrayList<>();
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generateParenthesis(n int) (ans []string) {
 	var dfs func(int, int, string)
@@ -133,7 +140,9 @@ func generateParenthesis(n int) (ans []string) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function generateParenthesis(n: number): string[] {
     function dfs(l, r, t) {
@@ -152,7 +161,9 @@ function generateParenthesis(n: number): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(left: i32, right: i32, s: &mut String, res: &mut Vec<String>) {
@@ -179,7 +190,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -202,6 +215,7 @@ var generateParenthesis = function (n) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -209,6 +223,7 @@ var generateParenthesis = function (n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
@@ -239,6 +254,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

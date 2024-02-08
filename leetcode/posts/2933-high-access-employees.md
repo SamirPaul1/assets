@@ -86,6 +86,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findHighAccessEmployees(self, access_times: List[List[str]]) -> List[str]:
@@ -99,7 +100,9 @@ class Solution:
                 ans.append(name)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> findHighAccessEmployees(List<List<String>> access_times) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findHighAccessEmployees(access_times [][]string) (ans []string) {
 	d := map[string][]int{}
@@ -174,7 +181,9 @@ func findHighAccessEmployees(access_times [][]string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findHighAccessEmployees(access_times: string[][]): string[] {
     const d: Map<string, number[]> = new Map();
@@ -200,6 +209,7 @@ function findHighAccessEmployees(access_times: string[][]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

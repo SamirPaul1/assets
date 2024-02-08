@@ -79,6 +79,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -96,7 +97,9 @@ class Solution:
                 ans = min(ans, nums[i] - sl[j - 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAbsoluteDifference(List<Integer> nums, int x) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAbsoluteDifference(nums []int, x int) int {
 	rbt := redblacktree.NewWithIntComparator()
@@ -158,7 +165,9 @@ func minAbsoluteDifference(nums []int, x int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minAbsoluteDifference(nums: number[], x: number): number {
     const s = new TreeMultiSet<number>();
@@ -680,6 +689,7 @@ class TreeMultiSet<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

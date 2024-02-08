@@ -71,6 +71,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $words$. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lastVisitedIntegers(self, words: List[str]) -> List[int]:
@@ -87,7 +88,9 @@ class Solution:
                 nums.append(int(w))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> lastVisitedIntegers(List<String> words) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lastVisitedIntegers(words []string) (ans []int) {
 	nums := []int{}
@@ -153,7 +160,9 @@ func lastVisitedIntegers(words []string) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lastVisitedIntegers(words: string[]): number[] {
     const nums: number[] = [];
@@ -172,7 +181,9 @@ function lastVisitedIntegers(words: string[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn last_visited_integers(words: Vec<String>) -> Vec<i32> {
@@ -195,6 +206,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

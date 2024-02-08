@@ -85,6 +85,7 @@ We can see the cycle 3 --&gt; 4 --&gt; 3 --&gt; ..., and all of its nodes are wh
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def circularArrayLoop(self, nums: List[int]) -> bool:
@@ -109,7 +110,9 @@ class Solution:
                 j = next(j)
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func circularArrayLoop(nums []int) bool {
 	for i, num := range nums {
@@ -210,6 +217,7 @@ func next(nums []int, i int) int {
 	return (i + nums[i]%n + n) % n
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

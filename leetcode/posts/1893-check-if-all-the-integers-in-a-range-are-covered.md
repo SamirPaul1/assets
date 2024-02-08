@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isCovered(self, ranges: List[List[int]], left: int, right: int) -> bool:
@@ -74,7 +75,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isCovered(int[][] ranges, int left, int right) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isCovered(ranges [][]int, left int, right int) bool {
 	diff := [52]int{}
@@ -136,7 +143,9 @@ func isCovered(ranges [][]int, left int, right int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isCovered(ranges: number[][], left: number, right: number): boolean {
     const diff = new Array(52).fill(0);
@@ -154,7 +163,9 @@ function isCovered(ranges: number[][], left: number, right: number): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} ranges
@@ -178,6 +189,7 @@ var isCovered = function (ranges, left, right) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

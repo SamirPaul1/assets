@@ -1,6 +1,5 @@
 # [688. Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard)
 
-[中文文档](/solution/0600-0699/0688.Knight%20Probability%20in%20Chessboard/README.md)
 
 ## Description
 

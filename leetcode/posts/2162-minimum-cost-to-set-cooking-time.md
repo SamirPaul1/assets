@@ -86,6 +86,7 @@ Note other possible ways are 0076, 076, 0116, and 116, but none of them produces
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostSetTime(
@@ -111,7 +112,9 @@ class Solution:
         ans = min(f(m, s), f(m - 1, s + 60))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCostSetTime(int startAt, int moveCost, int pushCost, int targetSeconds) {
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostSetTime(startAt int, moveCost int, pushCost int, targetSeconds int) int {
 	m, s := targetSeconds/60, targetSeconds%60
@@ -192,6 +199,7 @@ func minCostSetTime(startAt int, moveCost int, pushCost int, targetSeconds int) 
 	return min(f(m, s), f(m-1, s+60))
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

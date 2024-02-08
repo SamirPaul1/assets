@@ -68,6 +68,7 @@ x cannot be greater since there are only 2 numbers in nums.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def specialArray(self, nums: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 return x
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int specialArray(int[] nums) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func specialArray(nums []int) int {
 	for x := 1; x <= len(nums); x++ {
@@ -127,7 +134,9 @@ func specialArray(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function specialArray(nums: number[]): number {
     const n = nums.length;
@@ -139,7 +148,9 @@ function specialArray(nums: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn special_array(nums: Vec<i32>) -> i32 {
@@ -159,6 +170,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -166,6 +178,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def specialArray(self, nums: List[int]) -> int:
@@ -177,7 +190,9 @@ class Solution:
                 return x
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int specialArray(int[] nums) {
@@ -202,7 +217,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -217,7 +234,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func specialArray(nums []int) int {
 	sort.Ints(nums)
@@ -240,7 +259,9 @@ func specialArray(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function specialArray(nums: number[]): number {
     const n = nums.length;
@@ -263,7 +284,9 @@ function specialArray(nums: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -295,6 +318,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

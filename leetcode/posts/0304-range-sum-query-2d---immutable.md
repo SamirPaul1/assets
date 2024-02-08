@@ -87,6 +87,7 @@ The time complexity for initializing is $O(m \times n)$, and the time complexity
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class NumMatrix:
     def __init__(self, matrix: List[List[int]]):
@@ -111,7 +112,9 @@ class NumMatrix:
 # obj = NumMatrix(matrix)
 # param_1 = obj.sumRegion(row1,col1,row2,col2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class NumMatrix {
     private int[][] s;
@@ -137,7 +140,9 @@ class NumMatrix {
  * int param_1 = obj.sumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class NumMatrix {
 public:
@@ -164,7 +169,9 @@ public:
  * int param_1 = obj->sumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type NumMatrix struct {
 	s [][]int
@@ -194,7 +201,9 @@ func (this *NumMatrix) SumRegion(row1 int, col1 int, row2 int, col2 int) int {
  * param_1 := obj.SumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class NumMatrix {
     private s: number[][];
@@ -227,7 +236,9 @@ class NumMatrix {
  * var param_1 = obj.sumRegion(row1,col1,row2,col2)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 
 /**
@@ -291,7 +302,9 @@ impl NumMatrix {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -330,6 +343,7 @@ NumMatrix.prototype.sumRegion = function (row1, col1, row2, col2) {
  * var param_1 = obj.sumRegion(row1,col1,row2,col2)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

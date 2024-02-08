@@ -68,6 +68,7 @@ class Node {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for a Node.
@@ -85,7 +86,9 @@ class Solution:
         children = [self.cloneTree(child) for child in root.children]
         return Node(root.val, children)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for a Node.
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
 // Definition for a Node.
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a Node.
@@ -180,6 +187,7 @@ func cloneTree(root *Node) *Node {
 	return &Node{root.Val, children}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

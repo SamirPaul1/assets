@@ -68,6 +68,7 @@ index 0 -&gt; index 4 -&gt; index 1 -&gt; index 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
@@ -83,7 +84,9 @@ class Solution:
                     q.append(j)
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canReach(int[] arr, int start) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canReach(arr []int, start int) bool {
 	q := []int{start}
@@ -151,7 +158,9 @@ func canReach(arr []int, start int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canReach(arr: number[], start: number): boolean {
     const q: number[] = [start];
@@ -171,6 +180,7 @@ function canReach(arr: number[], start: number): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

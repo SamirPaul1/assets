@@ -77,6 +77,7 @@ After that, there are fewer than two non-empty piles, so the game ends.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumScore(self, a: int, b: int, c: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
             s.sort()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumScore(int a, int b, int c) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumScore(a int, b int, c int) (ans int) {
 	s := []int{a, b, c}
@@ -138,6 +145,7 @@ func maximumScore(a int, b int, c int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -145,6 +153,7 @@ func maximumScore(a int, b int, c int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumScore(self, a: int, b: int, c: int) -> int:
@@ -153,7 +162,9 @@ class Solution:
             return a + b
         return (a + b + c) >> 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumScore(int a, int b, int c) {
@@ -166,7 +177,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumScore(a int, b int, c int) int {
 	s := []int{a, b, c}
@@ -189,6 +204,7 @@ func maximumScore(a int, b int, c int) int {
 	return (a + b + c) >> 1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

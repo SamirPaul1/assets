@@ -109,6 +109,7 @@ Since the number of threads for producer/consumer is greater than 1, we do not k
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from threading import Semaphore
 
@@ -133,7 +134,9 @@ class BoundedBlockingQueue(object):
     def size(self) -> int:
         return len(self.q)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BoundedBlockingQueue {
     private Semaphore s1;
@@ -163,7 +166,9 @@ class BoundedBlockingQueue {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 #include <semaphore.h>
 
@@ -197,6 +202,7 @@ private:
     sem_t s1, s2;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2806. Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase)
 
-[中文文档](/solution/2800-2899/2806.Account%20Balance%20After%20Rounded%20Purchase/README.md)
 
 ## Description
 

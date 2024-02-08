@@ -73,6 +73,7 @@ Node 0 with value 2 is the only node remaining after removing node 1.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -89,7 +90,9 @@ class Solution:
         slow.next = slow.next.next
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -160,7 +167,9 @@ func deleteMiddle(head *ListNode) *ListNode {
 	return dummy.Next
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -186,6 +195,7 @@ function deleteMiddle(head: ListNode | null): ListNode | null {
     return head;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

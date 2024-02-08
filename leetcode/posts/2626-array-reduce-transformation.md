@@ -88,6 +88,7 @@ init = 25
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Fn = (accum: number, curr: number) => number;
 
@@ -99,6 +100,7 @@ function reduce(nums: number[], fn: Fn, init: number): number {
     return acc;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

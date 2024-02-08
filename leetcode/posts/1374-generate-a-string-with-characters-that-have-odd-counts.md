@@ -66,12 +66,15 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def generateTheString(self, n: int) -> str:
         return 'a' * n if n & 1 else 'a' * (n - 1) + 'b'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String generateTheString(int n) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func generateTheString(n int) string {
 	ans := strings.Repeat("a", n-1)
@@ -104,7 +111,9 @@ func generateTheString(n int) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function generateTheString(n: number): string {
     const ans = Array(n).fill('a');
@@ -114,6 +123,7 @@ function generateTheString(n: number): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

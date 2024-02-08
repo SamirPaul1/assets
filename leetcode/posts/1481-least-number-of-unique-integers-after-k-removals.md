@@ -63,6 +63,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLeastNumOfUniqueInts(self, arr: List[int], k: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 return len(cnt) - i
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLeastNumOfUniqueInts(int[] arr, int k) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLeastNumOfUniqueInts(arr []int, k int) int {
 	cnt := map[int]int{}
@@ -138,7 +145,9 @@ func findLeastNumOfUniqueInts(arr []int, k int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLeastNumOfUniqueInts(arr: number[], k: number): number {
     const cnt: Map<number, number> = new Map();
@@ -159,6 +168,7 @@ function findLeastNumOfUniqueInts(arr: number[], k: number): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -66,6 +66,7 @@ To go from index 0 to index 2, we can just go directly because gcd(nums[0], nums
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -115,7 +116,9 @@ class Solution:
                 uf.union(i, j + n)
         return len(set(uf.find(i) for i in range(n))) == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private int[] p;
@@ -194,7 +197,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int MX = 100010;
 vector<int> P[100010];
@@ -272,7 +277,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mx = 100010
 
@@ -349,6 +356,7 @@ func canTraverseAllPairs(nums []int) bool {
 	return len(s) == 1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

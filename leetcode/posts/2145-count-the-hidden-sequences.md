@@ -86,6 +86,7 @@ Thus, we return 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfArrays(self, differences: List[int], lower: int, upper: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
             mx = max(mx, num)
         return max(0, upper - lower - (mx - mi) + 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfArrays(int[] differences, int lower, int upper) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfArrays(differences []int, lower int, upper int) int {
 	num, mi, mx := 0, 0, 0
@@ -137,6 +144,7 @@ func numberOfArrays(differences []int, lower int, upper int) int {
 	return max(0, upper-lower-(mx-mi)+1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence)
 
-[中文文档](/solution/2300-2399/2370.Longest%20Ideal%20Subsequence/README.md)
 
 ## Description
 

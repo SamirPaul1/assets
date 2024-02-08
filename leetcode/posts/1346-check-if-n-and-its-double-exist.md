@@ -58,13 +58,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
         m = {v: i for i, v in enumerate(arr)}
         return any(v << 1 in m and m[v << 1] != i for i, v in enumerate(arr))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkIfExist(int[] arr) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,7 +102,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfExist(arr []int) bool {
 	m := make(map[int]int)
@@ -112,7 +119,9 @@ func checkIfExist(arr []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfExist(arr: number[]): boolean {
     const s = new Set();
@@ -125,7 +134,9 @@ function checkIfExist(arr: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -143,7 +154,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -160,7 +173,9 @@ var checkIfExist = function (arr) {
     return false;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -180,6 +195,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -187,6 +203,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
@@ -197,7 +214,9 @@ class Solution:
             s.add(v)
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkIfExist(int[] arr) {
@@ -212,7 +231,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -228,7 +249,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfExist(arr []int) bool {
 	s := map[int]bool{}
@@ -241,7 +264,9 @@ func checkIfExist(arr []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfExist(arr: number[]): boolean {
     let cnt = 0;
@@ -275,7 +300,9 @@ function checkIfExist(arr: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::Ordering;
 impl Solution {
@@ -308,7 +335,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -346,6 +375,7 @@ var checkIfExist = function (arr) {
     return false;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -353,6 +383,7 @@ var checkIfExist = function (arr) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfExist(self, arr: List[int]) -> bool:
@@ -366,7 +397,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkIfExist(int[] arr) {
@@ -392,7 +425,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -412,7 +447,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfExist(arr []int) bool {
 	cnt := 0
@@ -445,6 +482,7 @@ func checkIfExist(arr []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

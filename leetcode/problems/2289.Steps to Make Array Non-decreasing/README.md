@@ -1,6 +1,5 @@
 # [2289. Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing)
 
-[中文文档](/solution/2200-2299/2289.Steps%20to%20Make%20Array%20Non-decreasing/README.md)
 
 ## Description
 

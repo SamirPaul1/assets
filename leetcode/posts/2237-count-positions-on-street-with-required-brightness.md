@@ -75,6 +75,7 @@ Positions 0, 1, 2, and 4 meet the requirement so we return 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def meetRequirement(
@@ -87,7 +88,9 @@ class Solution:
             d[j + 1] -= 1
         return sum(s >= r for s, r in zip(accumulate(d), requirement))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int meetRequirement(int n, int[][] lights, int[] requirement) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func meetRequirement(n int, lights [][]int, requirement []int) int {
 	d := make([]int, 100010)
@@ -149,6 +156,7 @@ func meetRequirement(n int, lights [][]int, requirement []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

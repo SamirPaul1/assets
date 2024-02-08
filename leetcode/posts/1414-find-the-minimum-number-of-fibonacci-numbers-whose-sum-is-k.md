@@ -67,6 +67,7 @@ For k = 7 we can use 2 + 5 = 7.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMinFibonacciNumbers(self, k: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
 
         return dfs(k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMinFibonacciNumbers(k int) int {
 	if k < 2 {
@@ -125,7 +132,9 @@ func findMinFibonacciNumbers(k int) int {
 	return 1 + findMinFibonacciNumbers(k-a)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const arr = [
     1836311903, 1134903170, 701408733, 433494437, 267914296, 165580141, 102334155, 63245986,
@@ -148,7 +157,9 @@ function findMinFibonacciNumbers(k: number): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 const FIB: [i32; 45] = [
     1836311903, 1134903170, 701408733, 433494437, 267914296, 165580141, 102334155, 63245986,
@@ -173,6 +184,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

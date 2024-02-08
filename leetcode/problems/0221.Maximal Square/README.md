@@ -1,6 +1,5 @@
 # [221. Maximal Square](https://leetcode.com/problems/maximal-square)
 
-[中文文档](/solution/0200-0299/0221.Maximal%20Square/README.md)
 
 ## Description
 

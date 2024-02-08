@@ -82,6 +82,7 @@ Thus, on day 2, all the seeds are blooming.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def earliestFullBloom(self, plantTime: List[int], growTime: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             ans = max(ans, t + gt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int earliestFullBloom(int[] plantTime, int[] growTime) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func earliestFullBloom(plantTime []int, growTime []int) (ans int) {
 	n := len(plantTime)
@@ -145,7 +152,9 @@ func earliestFullBloom(plantTime []int, growTime []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function earliestFullBloom(plantTime: number[], growTime: number[]): number {
     const n = plantTime.length;
@@ -159,7 +168,9 @@ function earliestFullBloom(plantTime: number[], growTime: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn earliest_full_bloom(plant_time: Vec<i32>, grow_time: Vec<i32>) -> i32 {
@@ -175,6 +186,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

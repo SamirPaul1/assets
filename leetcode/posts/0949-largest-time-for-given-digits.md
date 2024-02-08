@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestTimeFromDigits(self, arr: List[int]) -> str:
@@ -73,7 +74,9 @@ class Solution:
                     return f'{h:02}:{m:02}'
         return ''
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestTimeFromDigits(int[] arr) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestTimeFromDigits(arr []int) string {
 	ans := -1
@@ -143,6 +150,7 @@ func largestTimeFromDigits(arr []int) string {
 	return fmt.Sprintf("%02d:%02d", ans/60, ans%60)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -150,6 +158,7 @@ func largestTimeFromDigits(arr []int) string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestTimeFromDigits(self, arr: List[int]) -> str:
@@ -164,6 +173,7 @@ class Solution:
                             ans = max(ans, h * 60 + m)
         return '' if ans < 0 else f'{ans // 60:02}:{ans % 60:02}'
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

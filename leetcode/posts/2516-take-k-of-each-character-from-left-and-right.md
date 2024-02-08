@@ -59,6 +59,7 @@ It can be proven that 8 is the minimum number of minutes needed.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def takeCharacters(self, s: str, k: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return len(s) - ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int takeCharacters(String s, int k) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func takeCharacters(s string, k int) int {
 	cnt := [3]int{}
@@ -144,7 +151,9 @@ func takeCharacters(s string, k int) int {
 	return len(s) - ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function takeCharacters(s: string, k: number): number {
     const getIndex = (c: string) => c.charCodeAt(0) - 'a'.charCodeAt(0);
@@ -168,7 +177,9 @@ function takeCharacters(s: string, k: number): number {
     return n - ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn take_characters(s: String, k: i32) -> i32 {
@@ -195,6 +206,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

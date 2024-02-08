@@ -59,6 +59,7 @@ Time complexity $O(n \times \log n)$, space complexity $O(\log n)$. Here $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
@@ -68,7 +69,9 @@ class Solution:
                 return h
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int hIndex(int[] citations) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hIndex(citations []int) int {
 	sort.Ints(citations)
@@ -111,7 +118,9 @@ func hIndex(citations []int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hIndex(citations: number[]): number {
     citations.sort((a, b) => b - a);
@@ -123,7 +132,9 @@ function hIndex(citations: number[]): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -143,6 +154,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -156,6 +168,7 @@ Time complexity $O(n)$, space complexity $O(n)$. Here $n$ is the length of the a
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
@@ -169,7 +182,9 @@ class Solution:
             if s >= h:
                 return h
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int hIndex(int[] citations) {
@@ -187,7 +202,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -207,7 +224,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hIndex(citations []int) int {
 	n := len(citations)
@@ -223,7 +242,9 @@ func hIndex(citations []int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hIndex(citations: number[]): number {
     const n: number = citations.length;
@@ -239,6 +260,7 @@ function hIndex(citations: number[]): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -252,6 +274,7 @@ Time complexity $O(n \times \log n)$, where $n$ is the length of array `citation
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hIndex(self, citations: List[int]) -> int:
@@ -264,7 +287,9 @@ class Solution:
                 r = mid - 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int hIndex(int[] citations) {
@@ -287,7 +312,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -311,7 +338,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hIndex(citations []int) int {
 	l, r := 0, len(citations)
@@ -332,7 +361,9 @@ func hIndex(citations []int) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function hIndex(citations: number[]): number {
     let l = 0;
@@ -354,6 +385,7 @@ function hIndex(citations: number[]): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

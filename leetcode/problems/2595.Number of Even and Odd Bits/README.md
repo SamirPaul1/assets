@@ -1,6 +1,5 @@
 # [2595. Number of Even and Odd Bits](https://leetcode.com/problems/number-of-even-and-odd-bits)
 
-[中文文档](/solution/2500-2599/2595.Number%20of%20Even%20and%20Odd%20Bits/README.md)
 
 ## Description
 

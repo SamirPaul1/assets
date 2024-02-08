@@ -85,6 +85,7 @@ We can use the `GROUP BY` statement to group the data by the `date_id` and `make
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -95,6 +96,7 @@ SELECT
 FROM DailySales
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2818. Apply Operations to Maximize Score](https://leetcode.com/problems/apply-operations-to-maximize-score)
 
-[中文文档](/solution/2800-2899/2818.Apply%20Operations%20to%20Maximize%20Score/README.md)
 
 ## Description
 

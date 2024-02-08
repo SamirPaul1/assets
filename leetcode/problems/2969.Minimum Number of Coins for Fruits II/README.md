@@ -1,6 +1,5 @@
 # [2969. Minimum Number of Coins for Fruits II](https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii)
 
-[中文文档](/solution/2900-2999/2969.Minimum%20Number%20of%20Coins%20for%20Fruits%20II/README.md)
 
 ## Description
 

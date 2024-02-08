@@ -76,6 +76,7 @@ There are 2 different transformations: &quot;--...-.&quot; and &quot;--...--.&qu
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uniqueMorseRepresentations(self, words: List[str]) -> int:
@@ -110,7 +111,9 @@ class Solution:
         s = {''.join([codes[ord(c) - ord('a')] for c in word]) for word in words}
         return len(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uniqueMorseRepresentations(words []string) int {
 	codes := []string{".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.",
@@ -162,7 +169,9 @@ func uniqueMorseRepresentations(words []string) int {
 	return len(s)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 const codes = [
     '.-',
@@ -204,7 +213,9 @@ function uniqueMorseRepresentations(words: string[]): number {
     ).size;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -250,6 +261,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

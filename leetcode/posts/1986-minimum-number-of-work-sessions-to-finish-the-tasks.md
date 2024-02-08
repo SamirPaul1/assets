@@ -78,6 +78,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSessions(self, tasks: List[int], sessionTime: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 j = (j - 1) & i
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSessions(int[] tasks, int sessionTime) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSessions(tasks []int, sessionTime int) int {
 	n := len(tasks)
@@ -182,7 +189,9 @@ func minSessions(tasks []int, sessionTime int) int {
 	return f[1<<n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSessions(tasks: number[], sessionTime: number): number {
     const n = tasks.length;
@@ -209,6 +218,7 @@ function minSessions(tasks: number[], sessionTime: number): number {
     return f[(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

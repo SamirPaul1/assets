@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makesquare(self, matchsticks: List[int]) -> bool:
@@ -76,7 +77,9 @@ class Solution:
         matchsticks.sort(reverse=True)
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean makesquare(int[] matchsticks) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makesquare(matchsticks []int) bool {
 	s := 0
@@ -173,7 +180,9 @@ func makesquare(matchsticks []int) bool {
 	return dfs(0, s/4)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn makesquare(matchsticks: Vec<i32>) -> bool {
@@ -207,6 +216,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -214,6 +224,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makesquare(self, matchsticks: List[int]) -> bool:
@@ -236,6 +247,7 @@ class Solution:
             return False
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

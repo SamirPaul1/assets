@@ -1,6 +1,5 @@
 # [1873. Calculate Special Bonus](https://leetcode.com/problems/calculate-special-bonus)
 
-[中文文档](/solution/1800-1899/1873.Calculate%20Special%20Bonus/README.md)
 
 ## Description
 

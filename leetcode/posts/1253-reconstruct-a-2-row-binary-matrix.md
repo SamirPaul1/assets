@@ -87,6 +87,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $colsum$. Ig
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reconstructMatrix(
@@ -109,7 +110,9 @@ class Solution:
                 return []
         return ans if lower == upper == 0 else []
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> reconstructMatrix(int upper, int lower, int[] colsum) {
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reconstructMatrix(upper int, lower int, colsum []int) [][]int {
 	n := len(colsum)
@@ -204,7 +211,9 @@ func reconstructMatrix(upper int, lower int, colsum []int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reconstructMatrix(upper: number, lower: number, colsum: number[]): number[][] {
     const n = colsum.length;
@@ -232,6 +241,7 @@ function reconstructMatrix(upper: number, lower: number, colsum: number[]): numb
     return upper || lower ? [] : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

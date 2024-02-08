@@ -66,6 +66,7 @@ The time complexity is $O(n^2)$, where $n$ is the length of the array. We need t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def alternatingSubarray(self, nums: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 ans = max(ans, j - i + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int alternatingSubarray(int[] nums) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func alternatingSubarray(nums []int) int {
 	ans, n := -1, len(nums)
@@ -136,7 +143,9 @@ func alternatingSubarray(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function alternatingSubarray(nums: number[]): number {
     let ans = -1;
@@ -154,6 +163,7 @@ function alternatingSubarray(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

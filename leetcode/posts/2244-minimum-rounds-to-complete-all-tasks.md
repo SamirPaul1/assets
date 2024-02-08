@@ -59,6 +59,7 @@ It can be shown that all the tasks cannot be completed in fewer than 4 rounds, s
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumRounds(self, tasks: List[int]) -> int:
@@ -70,7 +71,9 @@ class Solution:
             ans += v // 3 + (v % 3 != 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumRounds(int[] tasks) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumRounds(tasks []int) int {
 	cnt := map[int]int{}
@@ -129,7 +136,9 @@ func minimumRounds(tasks []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumRounds(tasks: number[]): number {
     const cnt = new Map();
@@ -146,6 +155,7 @@ function minimumRounds(tasks: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

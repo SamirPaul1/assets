@@ -68,6 +68,7 @@ Another possible subsequence is [4, 3].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSubsequence(self, nums: List[int], k: int) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
         idx.sort(key=lambda i: nums[i])
         return [nums[i] for i in sorted(idx[-k:])]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maxSubsequence(int[] nums, int k) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSubsequence(nums []int, k int) []int {
 	idx := make([]int, len(nums))
@@ -132,6 +139,7 @@ func maxSubsequence(nums []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

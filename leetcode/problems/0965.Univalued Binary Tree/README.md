@@ -1,6 +1,5 @@
 # [965. Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree)
 
-[中文文档](/solution/0900-0999/0965.Univalued%20Binary%20Tree/README.md)
 
 ## Description
 

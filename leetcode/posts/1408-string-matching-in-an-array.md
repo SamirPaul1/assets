@@ -69,6 +69,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stringMatching(self, words: List[str]) -> List[str]:
@@ -78,7 +79,9 @@ class Solution:
                 ans.append(s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> stringMatching(String[] words) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stringMatching(words []string) []string {
 	ans := []string{}
@@ -130,7 +137,9 @@ func stringMatching(words []string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stringMatching(words: string[]): string[] {
     const ans: string[] = [];
@@ -146,7 +155,9 @@ function stringMatching(words: string[]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn string_matching(words: Vec<String>) -> Vec<String> {
@@ -164,6 +175,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

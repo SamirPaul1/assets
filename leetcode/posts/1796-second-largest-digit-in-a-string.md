@@ -62,6 +62,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def secondHighest(self, s: str) -> int:
@@ -75,7 +76,9 @@ class Solution:
                     b = v
         return b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int secondHighest(String s) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func secondHighest(s string) int {
 	a, b := -1, -1
@@ -133,7 +140,9 @@ func secondHighest(s string) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function secondHighest(s: string): number {
     let first = -1;
@@ -151,7 +160,9 @@ function secondHighest(s: string): number {
     return second;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn second_highest(s: String) -> i32 {
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int secondHighest(char* s) {
     int first = -1;
@@ -191,6 +204,7 @@ int secondHighest(char* s) {
     return second;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +220,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def secondHighest(self, s: str) -> int:
@@ -218,7 +233,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int secondHighest(String s) {
@@ -238,7 +255,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -252,7 +271,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func secondHighest(s string) int {
 	mask := 0
@@ -272,6 +293,7 @@ func secondHighest(s string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

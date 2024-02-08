@@ -71,6 +71,7 @@ Another solution is [-3,1,4,-2], which would also be accepted.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:
@@ -90,7 +91,9 @@ class Solution:
             ans[i] = v[0] if v[1] == ans[i - 2] else v[1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] restoreArray(int[][] adjacentPairs) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func restoreArray(adjacentPairs [][]int) []int {
 	n := len(adjacentPairs) + 1
@@ -173,7 +180,9 @@ func restoreArray(adjacentPairs [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] RestoreArray(int[][] adjacentPairs) {
@@ -211,6 +220,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,6 +228,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def restoreArray(self, adjacentPairs: List[List[int]]) -> List[int]:
@@ -236,7 +247,9 @@ class Solution:
         dfs(i, 1e6)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, List<Integer>> g = new HashMap<>();
@@ -269,7 +282,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -300,7 +315,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func restoreArray(adjacentPairs [][]int) []int {
 	g := map[int][]int{}
@@ -328,6 +345,7 @@ func restoreArray(adjacentPairs [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

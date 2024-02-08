@@ -54,6 +54,7 @@ The time complexity is $O(m + n)$, and the space complexity is $O(C)$. Where $m$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
@@ -64,7 +65,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canConstruct(ransomNote string, magazine string) bool {
 	cnt := [26]int{}
@@ -115,7 +122,9 @@ func canConstruct(ransomNote string, magazine string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canConstruct(ransomNote: string, magazine: string): boolean {
     const cnt: number[] = Array(26).fill(0);
@@ -130,7 +139,9 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool CanConstruct(string ransomNote, string magazine) {
@@ -147,7 +158,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -171,6 +184,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

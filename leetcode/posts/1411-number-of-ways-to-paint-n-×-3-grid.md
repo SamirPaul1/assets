@@ -62,6 +62,7 @@ The time complexity is $O(n)$, where $n$ is the number of rows in the grid. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfWays(self, n: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
             f0, f1 = g0, g1
         return (f0 + f1) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfWays(int n) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfWays(n int) int {
 	mod := int(1e9) + 7
@@ -122,7 +129,9 @@ func numOfWays(n int) int {
 	return (f0 + f1) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfWays(n: number): number {
     const mod: number = 10 ** 9 + 7;
@@ -139,6 +148,7 @@ function numOfWays(n: number): number {
     return (f0 + f1) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -162,6 +172,7 @@ The time complexity is $O((m + n) \times 3^{2m})$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfWays(self, n: int) -> int:
@@ -199,7 +210,9 @@ class Solution:
             f = g
         return sum(f) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfWays(int n) {
@@ -261,7 +274,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -324,7 +339,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfWays(n int) (ans int) {
 	f1 := func(x int) bool {
@@ -381,7 +398,9 @@ func numOfWays(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfWays(n: number): number {
     const f1 = (x: number): boolean => {
@@ -439,6 +458,7 @@ function numOfWays(n: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

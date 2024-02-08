@@ -82,6 +82,7 @@ The grid happiness is 90 + 80 + 90 = 260.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaxGridHappiness(
@@ -125,7 +126,9 @@ class Solution:
                     g[i][j] += h[bits[i][k]][bits[j][k]]
         return dfs(0, 0, introvertsCount, extrovertsCount)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -193,7 +196,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -256,7 +261,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaxGridHappiness(m int, n int, introvertsCount int, extrovertsCount int) int {
 	mx := int(math.Pow(3, float64(n)))
@@ -328,7 +335,9 @@ func getMaxGridHappiness(m int, n int, introvertsCount int, extrovertsCount int)
 	return dfs(0, 0, introvertsCount, extrovertsCount)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaxGridHappiness(
     m: number,
@@ -407,6 +416,7 @@ function getMaxGridHappiness(
     return dfs(0, 0, introvertsCount, extrovertsCount);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -414,6 +424,7 @@ function getMaxGridHappiness(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaxGridHappiness(
@@ -444,7 +455,9 @@ class Solution:
         h = [[0, 0, 0], [0, -60, -10], [0, -10, 40]]
         return dfs(0, 0, introvertsCount, extrovertsCount)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -485,7 +498,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -520,7 +535,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaxGridHappiness(m int, n int, introvertsCount int, extrovertsCount int) int {
 	p := int(math.Pow(3, float64(n-1)))
@@ -576,7 +593,9 @@ func getMaxGridHappiness(m int, n int, introvertsCount int, extrovertsCount int)
 	return dfs(0, 0, introvertsCount, extrovertsCount)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaxGridHappiness(
     m: number,
@@ -628,6 +647,7 @@ function getMaxGridHappiness(
     return dfs(0, 0, introvertsCount, extrovertsCount);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

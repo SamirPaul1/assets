@@ -63,6 +63,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def insert(
@@ -81,7 +82,9 @@ class Solution:
         intervals.append(newInterval)
         return merge(intervals)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func insert(intervals [][]int, newInterval []int) [][]int {
 	merge := func(intervals [][]int) (ans [][]int) {
@@ -152,7 +159,9 @@ func insert(intervals [][]int, newInterval []int) [][]int {
 	return merge(intervals)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function insert(intervals: number[][], newInterval: number[]): number[][] {
     const merge = (intervals: number[][]): number[][] => {
@@ -172,7 +181,9 @@ function insert(intervals: number[][], newInterval: number[]): number[][] {
     return merge(intervals);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn insert(intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>> {
@@ -200,7 +211,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
@@ -227,6 +240,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -244,6 +258,7 @@ The time complexity is $O(n)$, where $n$ is the number of intervals. Ignoring th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def insert(
@@ -267,7 +282,9 @@ class Solution:
             ans.append([st, ed])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] insert(int[][] intervals, int[] newInterval) {
@@ -296,7 +313,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -326,7 +345,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func insert(intervals [][]int, newInterval []int) (ans [][]int) {
 	st, ed := newInterval[0], newInterval[1]
@@ -352,7 +373,9 @@ func insert(intervals [][]int, newInterval []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function insert(intervals: number[][], newInterval: number[]): number[][] {
     let [st, ed] = newInterval;
@@ -378,7 +401,9 @@ function insert(intervals: number[][], newInterval: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn insert(intervals: Vec<Vec<i32>>, new_interval: Vec<i32>) -> Vec<Vec<i32>> {
@@ -409,7 +434,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) {
@@ -438,6 +465,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

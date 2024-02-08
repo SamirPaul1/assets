@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
@@ -73,7 +74,9 @@ class Solution:
             n //= 3
         return n == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPowerOfThree(int n) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPowerOfThree(n int) bool {
 	for n > 2 {
@@ -114,13 +121,17 @@ func isPowerOfThree(n int) bool {
 	return n == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPowerOfThree(n: number): boolean {
     return n > 0 && 1162261467 % n == 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -130,6 +141,7 @@ var isPowerOfThree = function (n) {
     return n > 0 && 1162261467 % n == 0;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -137,12 +149,15 @@ var isPowerOfThree = function (n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         return n > 0 and 1162261467 % n == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPowerOfThree(int n) {
@@ -150,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,12 +176,15 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPowerOfThree(n int) bool {
 	return n > 0 && 1162261467%n == 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -141,6 +141,7 @@ We group the `Orders` table by `customer_id` and `product_id`, and then use the 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -161,6 +162,7 @@ FROM
     JOIN Products USING (product_id)
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

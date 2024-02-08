@@ -85,6 +85,7 @@ The time complexity is $O(n \times m)$, where $n$ and $m$ are the values of the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaximumXor(self, nums: List[int], maximumBit: int) -> List[int]:
@@ -99,7 +100,9 @@ class Solution:
             xs ^= x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaximumXor(nums []int, maximumBit int) (ans []int) {
 	xs := 0
@@ -171,7 +178,9 @@ func getMaximumXor(nums []int, maximumBit int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaximumXor(nums: number[], maximumBit: number): number[] {
     let xs = 0;
@@ -194,7 +203,9 @@ function getMaximumXor(nums: number[], maximumBit: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -222,7 +233,9 @@ var getMaximumXor = function (nums, maximumBit) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] GetMaximumXor(int[] nums, int maximumBit) {
@@ -247,6 +260,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -260,6 +274,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array `nums`. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaximumXor(self, nums: List[int], maximumBit: int) -> List[int]:
@@ -272,7 +287,9 @@ class Solution:
             xs ^= x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
@@ -293,7 +310,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -315,7 +334,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaximumXor(nums []int, maximumBit int) (ans []int) {
 	xs := 0
@@ -332,7 +353,9 @@ func getMaximumXor(nums []int, maximumBit int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaximumXor(nums: number[], maximumBit: number): number[] {
     let xs = 0;
@@ -351,7 +374,9 @@ function getMaximumXor(nums: number[], maximumBit: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -375,7 +400,9 @@ var getMaximumXor = function (nums, maximumBit) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] GetMaximumXor(int[] nums, int maximumBit) {
@@ -396,6 +423,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

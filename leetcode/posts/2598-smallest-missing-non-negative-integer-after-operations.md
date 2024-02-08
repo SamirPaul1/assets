@@ -78,6 +78,7 @@ The time complexity is $O(n)$ and the space complexity is $O(value)$. Where $n$ 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findSmallestInteger(self, nums: List[int], value: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 return i
             cnt[i % value] -= 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findSmallestInteger(int[] nums, int value) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findSmallestInteger(nums []int, value int) int {
 	cnt := make([]int, value)
@@ -136,7 +143,9 @@ func findSmallestInteger(nums []int, value int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findSmallestInteger(nums: number[], value: number): number {
     const cnt: number[] = new Array(value).fill(0);
@@ -150,6 +159,7 @@ function findSmallestInteger(nums: number[], value: number): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -63,6 +63,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
                 i, j = i + 1, j - 1
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortArrayByParity(int[] nums) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortArrayByParity(nums []int) []int {
 	for i, j := 0, len(nums)-1; i < j; {
@@ -133,7 +140,9 @@ func sortArrayByParity(nums []int) []int {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortArrayByParity(nums: number[]): number[] {
     for (let i = 0, j = nums.length - 1; i < j; ) {
@@ -150,7 +159,9 @@ function sortArrayByParity(nums: number[]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sort_array_by_parity(mut nums: Vec<i32>) -> Vec<i32> {
@@ -170,7 +181,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -191,6 +204,7 @@ var sortArrayByParity = function (nums) {
     return nums;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -77,6 +77,7 @@ After removing outer parentheses of each part, this is &quot;&quot; + &quot;&quo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
@@ -93,7 +94,9 @@ class Solution:
                     ans.append(c)
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeOuterParentheses(String s) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeOuterParentheses(s string) string {
 	ans := []rune{}
@@ -158,7 +165,9 @@ func removeOuterParentheses(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeOuterParentheses(s: string): string {
     let res = '';
@@ -177,7 +186,9 @@ function removeOuterParentheses(s: string): string {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_outer_parentheses(s: String) -> String {
@@ -198,6 +209,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -205,6 +217,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeOuterParentheses(self, s: str) -> str:
@@ -219,7 +232,9 @@ class Solution:
                 cnt -= 1
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeOuterParentheses(String s) {
@@ -241,7 +256,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +280,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeOuterParentheses(s string) string {
 	ans := []rune{}
@@ -282,6 +301,7 @@ func removeOuterParentheses(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

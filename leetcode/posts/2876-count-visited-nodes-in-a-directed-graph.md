@@ -77,6 +77,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countVisitedNodes(self, edges: List[int]) -> List[int]:
@@ -101,7 +102,9 @@ class Solution:
                     j = edges[j]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countVisitedNodes(List<Integer> edges) {
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countVisitedNodes(edges []int) []int {
 	n := len(edges)
@@ -188,7 +195,9 @@ func countVisitedNodes(edges []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countVisitedNodes(edges: number[]): number[] {
     const n = edges.length;
@@ -215,6 +224,7 @@ function countVisitedNodes(edges: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -222,6 +232,7 @@ function countVisitedNodes(edges: number[]): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     void dfs(int curr, List<Integer> edges, int[] ans) {
@@ -260,6 +271,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

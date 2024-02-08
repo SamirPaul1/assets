@@ -73,6 +73,7 @@ The time complexity is $O(m)$, and the space complexity is $O(1)$. Where $m = ri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def vowelStrings(self, words: List[str], left: int, right: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
             w[0] in 'aeiou' and w[-1] in 'aeiou' for w in words[left : right + 1]
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int vowelStrings(String[] words, int left, int right) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func vowelStrings(words []string, left int, right int) (ans int) {
 	check := func(c byte) bool {
@@ -130,7 +137,9 @@ func vowelStrings(words []string, left int, right int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function vowelStrings(words: string[], left: number, right: number): number {
     let ans = 0;
@@ -144,7 +153,9 @@ function vowelStrings(words: string[], left: number, right: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn vowel_strings(words: Vec<String>, left: i32, right: i32) -> i32 {
@@ -164,6 +175,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

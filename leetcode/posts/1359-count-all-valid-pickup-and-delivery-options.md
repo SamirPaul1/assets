@@ -78,6 +78,7 @@ The time complexity is $O(n)$, where $n$ is the number of orders. The space comp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countOrders(self, n: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
             f = (f * i * (2 * i - 1)) % mod
         return f
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countOrders(int n) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countOrders(n int) int {
 	const mod = 1e9 + 7
@@ -125,7 +132,9 @@ func countOrders(n int) int {
 	return f
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 const MOD: i64 = (1e9 as i64) + 7;
 
@@ -140,6 +149,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

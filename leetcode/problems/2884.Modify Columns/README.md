@@ -1,6 +1,5 @@
 # [2884. Modify Columns](https://leetcode.com/problems/modify-columns)
 
-[中文文档](/solution/2800-2899/2884.Modify%20Columns/README.md)
 
 ## Description
 

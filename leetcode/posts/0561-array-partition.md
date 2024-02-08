@@ -56,12 +56,15 @@ So the maximum possible sum is 4.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         return sum(sorted(nums)[::2])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arrayPairSum(int[] nums) {
@@ -74,7 +77,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -86,7 +91,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayPairSum(nums []int) int {
 	sort.Ints(nums)
@@ -97,7 +104,9 @@ func arrayPairSum(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn array_pair_sum(mut nums: Vec<i32>) -> i32 {
@@ -113,7 +122,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -128,6 +139,7 @@ var arrayPairSum = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

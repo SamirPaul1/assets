@@ -67,6 +67,7 @@ The total score is: 2 + 4 + 6 + 8 = 20.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScore(self, nums: List[int], x: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
             f[v & 1] = max(f[v & 1] + v, f[v & 1 ^ 1] + v - x)
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxScore(int[] nums, int x) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScore(nums []int, x int) int64 {
 	const inf int = 1 << 40
@@ -118,7 +125,9 @@ func maxScore(nums []int, x int) int64 {
 	return int64(max(f[0], f[1]))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxScore(nums: number[], x: number): number {
     const inf = 1 << 30;
@@ -130,6 +139,7 @@ function maxScore(nums: number[], x: number): number {
     return Math.max(f[0], f[1]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

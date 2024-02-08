@@ -53,6 +53,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
@@ -62,7 +63,9 @@ class Solution:
         s = sum(nums)
         return [s - s2, s1 - s2]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
@@ -81,7 +84,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findErrorNums(nums []int) []int {
 	n := len(nums)
@@ -115,7 +122,9 @@ func findErrorNums(nums []int) []int {
 	return []int{s - s2, s1 - s2}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findErrorNums(nums: number[]): number[] {
     const n = nums.length;
@@ -125,7 +134,9 @@ function findErrorNums(nums: number[]): number[] {
     return [s - s2, s1 - s2];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -138,6 +149,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -151,6 +163,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
@@ -164,7 +177,9 @@ class Solution:
                 ans[1] = x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
@@ -186,7 +201,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +225,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findErrorNums(nums []int) []int {
 	n := len(nums)
@@ -227,7 +246,9 @@ func findErrorNums(nums []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findErrorNums(nums: number[]): number[] {
     const n = nums.length;
@@ -247,7 +268,9 @@ function findErrorNums(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_error_nums(nums: Vec<i32>) -> Vec<i32> {
@@ -275,6 +298,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -290,6 +314,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
@@ -309,7 +334,9 @@ class Solution:
                 return [a, b]
         return [b, a]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
@@ -338,7 +365,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -368,7 +397,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findErrorNums(nums []int) []int {
 	xs := 0
@@ -394,7 +425,9 @@ func findErrorNums(nums []int) []int {
 	return []int{b, a}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findErrorNums(nums: number[]): number[] {
     const n = nums.length;
@@ -416,6 +449,7 @@ function findErrorNums(nums: number[]): number[] {
     return nums.includes(a) ? [a, b] : [b, a];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

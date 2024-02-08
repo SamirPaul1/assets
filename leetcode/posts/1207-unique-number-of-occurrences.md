@@ -61,13 +61,16 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         cnt = Counter(arr)
         return len(set(cnt.values())) == len(cnt)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uniqueOccurrences(arr []int) bool {
 	cnt := map[int]int{}
@@ -116,7 +123,9 @@ func uniqueOccurrences(arr []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function uniqueOccurrences(arr: number[]): boolean {
     const cnt: Map<number, number> = new Map();
@@ -126,6 +135,7 @@ function uniqueOccurrences(arr: number[]): boolean {
     return cnt.size === new Set(cnt.values()).size;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

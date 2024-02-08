@@ -67,6 +67,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is the interface that allows for creating nested lists.
@@ -128,7 +129,9 @@ class Solution:
                 depth -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the interface that allows for creating nested lists.
@@ -182,7 +185,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the interface that allows for creating nested lists.
@@ -238,7 +243,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the interface that allows for creating nested lists.
@@ -289,7 +296,9 @@ func deserialize(s string) *NestedInteger {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the interface that allows for creating nested lists.
@@ -352,6 +361,7 @@ function deserialize(s: string): NestedInteger {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -372,6 +382,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is the interface that allows for creating nested lists.
@@ -438,7 +449,9 @@ class Solution:
                     stk[-1].add(t)
         return stk.pop()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the interface that allows for creating nested lists.
@@ -503,7 +516,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the interface that allows for creating nested lists.
@@ -570,7 +585,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the interface that allows for creating nested lists.
@@ -635,7 +652,9 @@ func deserialize(s string) *NestedInteger {
 	return stk[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the interface that allows for creating nested lists.
@@ -705,6 +724,7 @@ function deserialize(s: string): NestedInteger {
     return stk[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

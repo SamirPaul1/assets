@@ -87,6 +87,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeSimilar(self, nums: List[int], target: List[int]) -> int:
@@ -94,7 +95,9 @@ class Solution:
         target.sort(key=lambda x: (x & 1, x))
         return sum(abs(a - b) for a, b in zip(nums, target)) // 4
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long makeSimilar(int[] nums, int[] target) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeSimilar(nums []int, target []int) int64 {
 	sort.Ints(nums)
@@ -196,7 +203,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makeSimilar(nums: number[], target: number[]): number {
     nums.sort((a, b) => a - b);
@@ -235,6 +244,7 @@ function makeSimilar(nums: number[], target: number[]): number {
     return ans / 4;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

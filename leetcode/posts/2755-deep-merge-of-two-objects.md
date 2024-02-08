@@ -82,6 +82,7 @@ obj2[&quot;b&quot;][&quot;c&quot;] has key &quot;e&quot; that obj1 doesn&#39;t h
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function deepMerge(obj1: any, obj2: any): any {
     const isObj = (obj: any) => obj && typeof obj === 'object';
@@ -103,6 +104,7 @@ function deepMerge(obj1: any, obj2: any): any {
  * deepMerge(obj1, obj2); // {"a": 2, "c": 3, "b": 2}
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

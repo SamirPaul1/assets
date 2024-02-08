@@ -72,6 +72,7 @@ The time complexity is $O(n)$, where $n$ is the length of the strings $s1$ and $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSwap(self, s1: str, s2: str) -> int:
@@ -83,7 +84,9 @@ class Solution:
             return -1
         return xy // 2 + yx // 2 + xy % 2 + yx % 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSwap(String s1, String s2) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSwap(s1 string, s2 string) int {
 	xy, yx := 0, 0
@@ -140,7 +147,9 @@ func minimumSwap(s1 string, s2 string) int {
 	return xy/2 + yx/2 + xy%2 + yx%2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var minimumSwap = function (s1, s2) {
     let xy = 0,
@@ -161,6 +170,7 @@ var minimumSwap = function (s1, s2) {
     return Math.floor(xy / 2) + Math.floor(yx / 2) + (xy % 2) + (yx % 2);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

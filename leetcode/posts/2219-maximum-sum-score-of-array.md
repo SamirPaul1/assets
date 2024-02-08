@@ -70,13 +70,16 @@ The maximum sum score of nums is -3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumSumScore(self, nums: List[int]) -> int:
         s = [0] + list(accumulate(nums))
         return max(max(s[i + 1], s[-1] - s[i]) for i in range(len(nums)))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maximumSumScore(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumSumScore(nums []int) int64 {
 	n := len(nums)
@@ -122,7 +129,9 @@ func maximumSumScore(nums []int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumSumScore(nums: number[]): number {
     const n = nums.length;
@@ -137,7 +146,9 @@ function maximumSumScore(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -156,6 +167,7 @@ var maximumSumScore = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

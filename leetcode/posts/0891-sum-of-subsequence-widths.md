@@ -57,6 +57,7 @@ The sum of these widths is 6.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumSubseqWidths(self, nums: List[int]) -> int:
@@ -68,7 +69,9 @@ class Solution:
             p = (p << 1) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumSubseqWidths(nums []int) (ans int) {
 	const mod int = 1e9 + 7
@@ -116,6 +123,7 @@ func sumSubseqWidths(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

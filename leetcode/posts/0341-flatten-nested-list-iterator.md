@@ -72,6 +72,7 @@ return res
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is the interface that allows for creating nested lists.
@@ -122,7 +123,9 @@ class NestedIterator:
 # i, v = NestedIterator(nestedList), []
 # while i.hasNext(): v.append(i.next())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the interface that allows for creating nested lists.
@@ -180,7 +183,9 @@ public class NestedIterator implements Iterator<Integer> {
  * while (i.hasNext()) v[f()] = i.next();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the interface that allows for creating nested lists.
@@ -235,7 +240,9 @@ private:
  * while (i.hasNext()) cout << i.next();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the interface that allows for creating nested lists.
@@ -294,7 +301,9 @@ func (this *NestedIterator) HasNext() bool {
 	return this.index < this.length
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the interface that allows for creating nested lists.
@@ -371,7 +380,9 @@ class NestedIterator {
  * while (obj.hasNext()) a.push(obj.next());
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // #[derive(Debug, PartialEq, Eq)]
 // pub enum NestedInteger {
@@ -422,6 +433,7 @@ impl NestedIterator {
  * let ret_2: bool = obj.has_next();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -429,6 +441,7 @@ impl NestedIterator {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the interface that allows for creating nested lists.
@@ -486,6 +499,7 @@ func (this *NestedIterator) HasNext() bool {
 	return this.nested.Len() > 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

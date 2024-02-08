@@ -68,6 +68,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMissingRanges(
@@ -86,7 +87,9 @@ class Solution:
             ans.append([nums[-1] + 1, upper])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> findMissingRanges(int[] nums, int lower, int upper) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMissingRanges(nums []int, lower int, upper int) (ans [][]int) {
 	n := len(nums)
@@ -156,7 +163,9 @@ func findMissingRanges(nums []int, lower int, upper int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findMissingRanges(nums: number[], lower: number, upper: number): number[][] {
     const n = nums.length;
@@ -178,6 +187,7 @@ function findMissingRanges(nums: number[], lower: number, upper: number): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

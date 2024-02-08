@@ -63,6 +63,7 @@ Note the bottom corner is not colored 2, because it is not 4-directionally conne
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def floodFill(
@@ -86,7 +87,9 @@ class Solution:
         dfs(sr, sc)
         return image
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] dirs = {-1, 0, 1, 0, -1};
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func floodFill(image [][]int, sr int, sc int, color int) [][]int {
 	oc := image[sr][sc]
@@ -156,7 +163,9 @@ func floodFill(image [][]int, sr int, sc int, color int) [][]int {
 	return image
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function floodFill(image: number[][], sr: number, sc: number, newColor: number): number[][] {
     const m = image.length;
@@ -183,7 +192,9 @@ function floodFill(image: number[][], sr: number, sc: number, newColor: number):
     return image;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(image: &mut Vec<Vec<i32>>, sr: i32, sc: i32, new_color: i32, target: i32) {
@@ -210,6 +221,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -217,6 +229,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def floodFill(
@@ -237,7 +250,9 @@ class Solution:
                     image[x][y] = color
         return image
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
@@ -265,7 +280,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -292,7 +309,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func floodFill(image [][]int, sr int, sc int, color int) [][]int {
 	if image[sr][sc] == color {
@@ -316,6 +335,7 @@ func floodFill(image [][]int, sr int, sc int, color int) [][]int {
 	return image
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

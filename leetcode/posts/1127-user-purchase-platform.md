@@ -81,6 +81,7 @@ On 2019-07-02, user 2 purchased using mobile <strong>only</strong>, user 3 purch
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -109,6 +110,7 @@ FROM
     LEFT JOIN T AS t USING (spend_date, platform)
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -83,6 +83,7 @@ The time complexity is $(2^n \times n \times M)$, and the space complexity is $O
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxScoreWords(
@@ -98,7 +99,9 @@ class Solution:
                 ans = max(ans, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxScoreWords(String[] words, char[] letters, int[] score) {
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxScoreWords(words []string, letters []byte, score []int) (ans int) {
 	cnt := [26]int{}
@@ -204,6 +211,7 @@ func maxScoreWords(words []string, letters []byte, score []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

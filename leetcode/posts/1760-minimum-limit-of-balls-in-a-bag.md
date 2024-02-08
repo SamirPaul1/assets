@@ -76,6 +76,7 @@ The bag with the most number of balls has 2 balls, so your penalty is 2, and you
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSize(self, nums: List[int], maxOperations: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
 
         return bisect_left(range(1, max(nums)), True, key=check) + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSize(int[] nums, int maxOperations) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSize(nums []int, maxOperations int) int {
 	r := slices.Max(nums)
@@ -144,7 +151,9 @@ func minimumSize(nums []int, maxOperations int) int {
 	})
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSize(nums: number[], maxOperations: number): number {
     let left = 1;
@@ -164,7 +173,9 @@ function minimumSize(nums: number[], maxOperations: number): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -189,6 +200,7 @@ var minimumSize = function (nums, maxOperations) {
     return left;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

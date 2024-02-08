@@ -65,6 +65,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tupleSameProduct(self, nums: List[int]) -> int:
@@ -75,7 +76,9 @@ class Solution:
                 cnt[x] += 1
         return sum(v * (v - 1) // 2 for v in cnt.values()) << 3
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int tupleSameProduct(int[] nums) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tupleSameProduct(nums []int) int {
 	cnt := map[int]int{}
@@ -131,7 +138,9 @@ func tupleSameProduct(nums []int) int {
 	return ans << 3
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tupleSameProduct(nums: number[]): number {
     const cnt: Map<number, number> = new Map();
@@ -148,7 +157,9 @@ function tupleSameProduct(nums: number[]): number {
     return ans << 3;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -172,6 +183,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

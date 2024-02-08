@@ -1,6 +1,5 @@
 # [2565. Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score)
 
-[中文文档](/solution/2500-2599/2565.Subsequence%20With%20the%20Minimum%20Score/README.md)
 
 ## Description
 

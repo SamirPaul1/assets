@@ -84,6 +84,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class TreeAncestor:
     def __init__(self, n: int, parent: List[int]):
@@ -109,7 +110,9 @@ class TreeAncestor:
 # obj = TreeAncestor(n, parent)
 # param_1 = obj.getKthAncestor(node,k)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TreeAncestor {
     private int[][] p;
@@ -151,7 +154,9 @@ class TreeAncestor {
  * int param_1 = obj.getKthAncestor(node,k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class TreeAncestor {
 public:
@@ -192,7 +197,9 @@ private:
  * int param_1 = obj->getKthAncestor(node,k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type TreeAncestor struct {
 	p [][18]int
@@ -235,7 +242,9 @@ func (this *TreeAncestor) GetKthAncestor(node int, k int) int {
  * param_1 := obj.GetKthAncestor(node,k);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class TreeAncestor {
     private p: number[][];
@@ -275,6 +284,7 @@ class TreeAncestor {
  * var param_1 = obj.getKthAncestor(node,k)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -46,6 +46,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
@@ -54,7 +55,9 @@ class Solution:
         b = nums[-1] * nums[0] * nums[1]
         return max(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumProduct(int[] nums) {
@@ -66,7 +69,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -79,7 +84,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumProduct(nums []int) int {
 	sort.Ints(nums)
@@ -92,7 +99,9 @@ func maximumProduct(nums []int) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumProduct(nums: number[]): number {
     nums.sort((a, b) => a - b);
@@ -102,6 +111,7 @@ function maximumProduct(nums: number[]): number {
     return Math.max(a, b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -109,6 +119,7 @@ function maximumProduct(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumProduct(self, nums: List[int]) -> int:
@@ -116,7 +127,9 @@ class Solution:
         bottom2 = nlargest(2, nums, key=lambda x: -x)
         return max(top3[0] * top3[1] * top3[2], top3[0] * bottom2[0] * bottom2[1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumProduct(int[] nums) {
@@ -145,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +190,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumProduct(nums []int) int {
 	const inf = 1 << 30
@@ -198,7 +215,9 @@ func maximumProduct(nums []int) int {
 	return max(mi1*mi2*mx1, mx1*mx2*mx3)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumProduct(nums: number[]): number {
     const inf = 1 << 30;
@@ -228,6 +247,7 @@ function maximumProduct(nums: number[]): number {
     return Math.max(mi1 * mi2 * mx1, mx1 * mx2 * mx3);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -82,6 +82,7 @@ We can use the window function `SUM() OVER()` to group by `player_id`, sort by `
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -93,6 +94,7 @@ SELECT
     ) AS games_played_so_far
 FROM Activity;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -102,6 +104,7 @@ We can also use a self-join to join the `Activity` table with itself on the cond
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -114,6 +117,7 @@ FROM
 WHERE t1.player_id = t2.player_id AND t1.event_date >= t2.event_date
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -121,6 +125,7 @@ GROUP BY 1, 2;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -132,6 +137,7 @@ FROM
     CROSS JOIN Activity AS t2 ON t1.player_id = t2.player_id AND t1.event_date >= t2.event_date
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

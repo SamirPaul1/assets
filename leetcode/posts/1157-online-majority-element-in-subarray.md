@@ -86,6 +86,7 @@ In terms of time complexity, the time complexity of the initialization method is
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     __slots__ = ("l", "r", "x", "cnt")
@@ -160,7 +161,9 @@ class MajorityChecker:
 # obj = MajorityChecker(arr)
 # param_1 = obj.query(left,right,threshold)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     int l, r;
@@ -271,7 +274,9 @@ class MajorityChecker {
  * int param_1 = obj.query(left,right,threshold);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -376,7 +381,9 @@ private:
  * int param_1 = obj->query(left,right,threshold);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type node struct {
 	l, r, x, cnt int
@@ -479,6 +486,7 @@ func (this *MajorityChecker) Query(left int, right int, threshold int) int {
  * param_1 := obj.Query(left,right,threshold);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

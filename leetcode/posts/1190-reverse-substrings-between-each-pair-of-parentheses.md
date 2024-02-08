@@ -68,6 +68,7 @@ The time complexity is $O(n^2)$, where $n$ is the length of the string $s$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseParentheses(self, s: str) -> str:
@@ -83,7 +84,9 @@ class Solution:
                 stk.append(c)
         return ''.join(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseParentheses(String s) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseParentheses(s string) string {
 	stk := []byte{}
@@ -157,7 +164,9 @@ func reverseParentheses(s string) string {
 	return string(stk)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -192,6 +201,7 @@ var reverseParentheses = function (s) {
     return ans.join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -207,6 +217,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseParentheses(self, s: str) -> str:
@@ -230,7 +241,9 @@ class Solution:
             i += x
         return ''.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +276,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseParentheses(s string) string {
 	n := len(s)
@@ -292,6 +307,7 @@ func reverseParentheses(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

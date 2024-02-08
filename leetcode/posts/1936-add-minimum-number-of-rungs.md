@@ -77,13 +77,16 @@ The time complexity is $O(n)$, where $n$ is the length of `rungs`. The space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def addRungs(self, rungs: List[int], dist: int) -> int:
         rungs = [0] + rungs
         return sum((b - a - 1) // dist for a, b in pairwise(rungs))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int addRungs(int[] rungs, int dist) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func addRungs(rungs []int, dist int) (ans int) {
 	prev := 0
@@ -121,7 +128,9 @@ func addRungs(rungs []int, dist int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function addRungs(rungs: number[], dist: number): number {
     let ans = 0;
@@ -133,7 +142,9 @@ function addRungs(rungs: number[], dist: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn add_rungs(rungs: Vec<i32>, dist: i32) -> i32 {
@@ -149,6 +160,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

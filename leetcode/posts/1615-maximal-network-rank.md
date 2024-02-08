@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximalNetworkRank(self, n: int, roads: List[List[int]]) -> int:
@@ -88,7 +89,9 @@ class Solution:
                     ans = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximalNetworkRank(int n, int[][] roads) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximalNetworkRank(n int, roads [][]int) (ans int) {
 	g := make([][]int, n)
@@ -158,7 +165,9 @@ func maximalNetworkRank(n int, roads [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximalNetworkRank(n: number, roads: number[][]): number {
     const g: number[][] = Array.from(new Array(n), () => new Array(n).fill(0));
@@ -178,6 +187,7 @@ function maximalNetworkRank(n: number, roads: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -185,6 +195,7 @@ function maximalNetworkRank(n: number, roads: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximalNetworkRank(self, n: int, roads: List[List[int]]) -> int:
@@ -196,6 +207,7 @@ class Solution:
             cnt[b] += 1
         return max(cnt[a] + cnt[b] - g[a][b] for a in range(n) for b in range(a + 1, n))
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

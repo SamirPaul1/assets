@@ -1,6 +1,5 @@
 # [2351. First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice)
 
-[中文文档](/solution/2300-2399/2351.First%20Letter%20to%20Appear%20Twice/README.md)
 
 ## Description
 

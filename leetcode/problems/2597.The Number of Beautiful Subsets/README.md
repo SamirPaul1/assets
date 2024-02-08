@@ -1,6 +1,5 @@
 # [2597. The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets)
 
-[中文文档](/solution/2500-2599/2597.The%20Number%20of%20Beautiful%20Subsets/README.md)
 
 ## Description
 

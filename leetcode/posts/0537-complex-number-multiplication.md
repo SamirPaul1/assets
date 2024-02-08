@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def complexNumberMultiply(self, num1: str, num2: str) -> str:
@@ -66,7 +67,9 @@ class Solution:
         c, d = map(int, num2[:-1].split('+'))
         return f'{a * c - b * d}+{a * d + c * b}i'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String complexNumberMultiply(String num1, String num2) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func complexNumberMultiply(num1, num2 string) string {
 	parse := func(num string) (a, b int) {
@@ -106,7 +113,9 @@ func complexNumberMultiply(num1, num2 string) string {
 	return fmt.Sprintf("%d+%di", a*c-b*d, a*d+b*c)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function complexNumberMultiply(num1: string, num2: string): string {
     let arr1 = num1.split('+'),
@@ -120,6 +129,7 @@ function complexNumberMultiply(num1: string, num2: string): string {
     return `${ansR}+${ansV}i`;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

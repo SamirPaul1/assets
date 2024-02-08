@@ -81,6 +81,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumMinProduct(self, nums: List[int]) -> int:
@@ -105,7 +106,9 @@ class Solution:
         mod = 10**9 + 7
         return max((s[right[i]] - s[left[i] + 1]) * x for i, x in enumerate(nums)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumMinProduct(int[] nums) {
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -189,7 +194,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumMinProduct(nums []int) int {
 	n := len(nums)
@@ -233,7 +240,9 @@ func maxSumMinProduct(nums []int) int {
 	return ans % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumMinProduct(nums: number[]): number {
     const n = nums.length;
@@ -274,6 +283,7 @@ function maxSumMinProduct(nums: number[]): number {
     return Number(ans % BigInt(mod));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

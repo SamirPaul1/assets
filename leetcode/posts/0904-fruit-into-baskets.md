@@ -76,7 +76,8 @@ We traverse the `fruits` array, add the current fruit $x$ to the window, i.e., $
 
 After the traversal ends, we can get the final answer.
 
-```
+{{< terminal title="Text" >}}
+```txt
 1 2 3 2 2 1 4
 ^   ^
 j   i
@@ -91,11 +92,13 @@ j   i
   ^     ^
   j     i
 ```
+{{< /terminal >}}
 
 The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is the length of the `fruits` array.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
@@ -112,7 +115,9 @@ class Solution:
             ans = max(ans, i - j + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int totalFruit(int[] fruits) {
@@ -134,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func totalFruit(fruits []int) int {
 	cnt := map[int]int{}
@@ -173,7 +182,9 @@ func totalFruit(fruits []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function totalFruit(fruits: number[]): number {
     const n = fruits.length;
@@ -196,7 +207,9 @@ function totalFruit(fruits: number[]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -223,6 +236,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +250,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def totalFruit(self, fruits: List[int]) -> int:
@@ -251,7 +266,9 @@ class Solution:
                 j += 1
         return len(fruits) - j
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int totalFruit(int[] fruits) {
@@ -271,7 +288,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -289,7 +308,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func totalFruit(fruits []int) int {
 	cnt := map[int]int{}
@@ -308,7 +329,9 @@ func totalFruit(fruits []int) int {
 	return len(fruits) - j
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function totalFruit(fruits: number[]): number {
     const n = fruits.length;
@@ -327,7 +350,9 @@ function totalFruit(fruits: number[]): number {
     return n - i;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -350,6 +375,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

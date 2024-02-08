@@ -67,6 +67,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isMonotonic(self, nums: List[int]) -> bool:
@@ -74,7 +75,9 @@ class Solution:
         desc = all(a >= b for a, b in pairwise(nums))
         return asc or desc
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isMonotonic(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isMonotonic(nums []int) bool {
 	asc, desc := false, false
@@ -130,7 +137,9 @@ func isMonotonic(nums []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isMonotonic(nums: number[]): boolean {
     let [asc, desc] = [false, false];
@@ -147,7 +156,9 @@ function isMonotonic(nums: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_monotonic(nums: Vec<i32>) -> bool {
@@ -167,7 +178,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -188,6 +201,7 @@ var isMonotonic = function (nums) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

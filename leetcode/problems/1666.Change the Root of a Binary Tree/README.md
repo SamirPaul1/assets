@@ -1,6 +1,5 @@
 # [1666. Change the Root of a Binary Tree](https://leetcode.com/problems/change-the-root-of-a-binary-tree)
 
-[中文文档](/solution/1600-1699/1666.Change%20the%20Root%20of%20a%20Binary%20Tree/README.md)
 
 ## Description
 

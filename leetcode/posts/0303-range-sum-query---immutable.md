@@ -69,6 +69,7 @@ The time complexity for initializing the prefix sum array $s$ is $O(n)$, and the
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class NumArray:
     def __init__(self, nums: List[int]):
@@ -82,7 +83,9 @@ class NumArray:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(left,right)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class NumArray {
     private int[] s;
@@ -106,7 +109,9 @@ class NumArray {
  * int param_1 = obj.sumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class NumArray {
 public:
@@ -132,7 +137,9 @@ private:
  * int param_1 = obj->sumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type NumArray struct {
 	s []int
@@ -157,7 +164,9 @@ func (this *NumArray) SumRange(left int, right int) int {
  * param_1 := obj.SumRange(left,right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class NumArray {
     private s: number[];
@@ -181,7 +190,9 @@ class NumArray {
  * var param_1 = obj.sumRange(left,right)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct NumArray {
     s: Vec<i32>,
@@ -210,7 +221,9 @@ impl NumArray {
  * let ret_1: i32 = obj.sum_range(left, right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -238,7 +251,9 @@ NumArray.prototype.sumRange = function (left, right) {
  * var param_1 = obj.sumRange(left,right)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class NumArray {
     /**
@@ -267,7 +282,9 @@ class NumArray {
  * $ret_1 = $obj->sumRange($left, $right);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 typedef struct {
     int* s;
@@ -301,6 +318,7 @@ void numArrayFree(NumArray* obj) {
  * numArrayFree(obj);
 */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

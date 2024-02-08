@@ -1,6 +1,5 @@
 # [636. Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions)
 
-[中文文档](/solution/0600-0699/0636.Exclusive%20Time%20of%20Functions/README.md)
 
 ## Description
 

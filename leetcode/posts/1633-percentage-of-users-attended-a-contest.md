@@ -109,6 +109,7 @@ We can group the `Register` table by `contest_id` and count the number of regist
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -118,6 +119,7 @@ FROM Register
 GROUP BY 1
 ORDER BY 2 DESC, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

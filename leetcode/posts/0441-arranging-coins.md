@@ -53,12 +53,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrangeCoins(self, n: int) -> int:
         return int(math.sqrt(2) * math.sqrt(n + 0.125) - 0.5)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arrangeCoins(int n) {
@@ -66,7 +69,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using LL = long;
 
@@ -86,7 +91,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrangeCoins(n int) int {
 	left, right := 1, n
@@ -101,6 +108,7 @@ func arrangeCoins(n int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -108,6 +116,7 @@ func arrangeCoins(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrangeCoins(self, n: int) -> int:
@@ -120,7 +129,9 @@ class Solution:
                 right = mid - 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arrangeCoins(int n) {
@@ -137,6 +148,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

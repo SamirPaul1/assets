@@ -50,6 +50,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseWords(self, s: List[str]) -> None:
@@ -73,7 +74,9 @@ class Solution:
             j += 1
         reverse(s, 0, n - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void reverseWords(char[] s) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseWords(s []byte) {
 	n := len(s)
@@ -145,6 +152,7 @@ func reverse(s []byte, i, j int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

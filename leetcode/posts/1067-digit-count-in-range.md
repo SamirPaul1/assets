@@ -53,6 +53,7 @@ Note that the digit d = 1 occurs twice in the number 11.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def digitsCount(self, d: int, low: int, high: int) -> int:
@@ -80,7 +81,9 @@ class Solution:
             n //= 10
         return dfs(l, 0, True, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int d;
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func digitsCount(d int, low int, high int) int {
 	f := func(n int) int {
@@ -227,6 +234,7 @@ func digitsCount(d int, low int, high int) int {
 	return f(high) - f(low-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

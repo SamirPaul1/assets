@@ -73,6 +73,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def deleteTreeNodes(self, nodes: int, parent: List[int], value: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             g[parent[i]].append(i)
         return dfs(0)[1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func deleteTreeNodes(nodes int, parent []int, value []int) int {
 	g := make([][]int, nodes)
@@ -170,6 +177,7 @@ func deleteTreeNodes(nodes int, parent []int, value []int) int {
 	return dfs(0).n
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

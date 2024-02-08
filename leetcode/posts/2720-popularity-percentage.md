@@ -91,6 +91,7 @@ user1 is sorted in ascending order.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -109,6 +110,7 @@ SELECT DISTINCT
 FROM F
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

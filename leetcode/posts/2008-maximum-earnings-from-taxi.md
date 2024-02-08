@@ -82,6 +82,7 @@ The time complexity is $O(m \times \log m)$, and the space complexity is $O(m)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxTaxiEarnings(self, n: int, rides: List[List[int]]) -> int:
@@ -96,7 +97,9 @@ class Solution:
         rides.sort()
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxTaxiEarnings(n int, rides [][]int) int64 {
 	sort.Slice(rides, func(i, j int) bool { return rides[i][0] < rides[j][0] })
@@ -184,7 +191,9 @@ func maxTaxiEarnings(n int, rides [][]int) int64 {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxTaxiEarnings(n: number, rides: number[][]): number {
     rides.sort((a, b) => a[0] - b[0]);
@@ -216,6 +225,7 @@ function maxTaxiEarnings(n: number, rides: number[][]): number {
     return dfs(0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -242,6 +252,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxTaxiEarnings(self, n: int, rides: List[List[int]]) -> int:
@@ -252,7 +263,9 @@ class Solution:
             f[i] = max(f[i - 1], f[j] + ed - st + tip)
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxTaxiEarnings(int n, int[][] rides) {
@@ -282,7 +295,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -301,7 +316,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxTaxiEarnings(n int, rides [][]int) int64 {
 	sort.Slice(rides, func(i, j int) bool { return rides[i][1] < rides[j][1] })
@@ -316,7 +333,9 @@ func maxTaxiEarnings(n int, rides [][]int) int64 {
 	return f[m]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxTaxiEarnings(n: number, rides: number[][]): number {
     rides.sort((a, b) => a[1] - b[1]);
@@ -342,6 +361,7 @@ function maxTaxiEarnings(n: number, rides: number[][]): number {
     return f[m];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)
 
-[中文文档](/solution/0100-0199/0115.Distinct%20Subsequences/README.md)
 
 ## Description
 

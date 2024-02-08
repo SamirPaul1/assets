@@ -1,6 +1,5 @@
 # [1386. Cinema Seat Allocation](https://leetcode.com/problems/cinema-seat-allocation)
 
-[中文文档](/solution/1300-1399/1386.Cinema%20Seat%20Allocation/README.md)
 
 ## Description
 

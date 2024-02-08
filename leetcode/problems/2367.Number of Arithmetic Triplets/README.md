@@ -1,6 +1,5 @@
 # [2367. Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets)
 
-[中文文档](/solution/2300-2399/2367.Number%20of%20Arithmetic%20Triplets/README.md)
 
 ## Description
 

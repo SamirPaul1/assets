@@ -68,6 +68,7 @@ The time complexity is $O(n \times \log n)$, where $n$ is the length of `feature
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortFeatures(self, features: List[str], responses: List[str]) -> List[str]:
@@ -77,7 +78,9 @@ class Solution:
                 cnt[w] += 1
         return sorted(features, key=lambda w: -cnt[w])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] sortFeatures(String[] features, String[] responses) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortFeatures(features []string, responses []string) []string {
 	cnt := map[string]int{}
@@ -157,7 +164,9 @@ func sortFeatures(features []string, responses []string) []string {
 	return features
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortFeatures(features: string[], responses: string[]): string[] {
     const cnt: Map<string, number> = new Map();
@@ -181,6 +190,7 @@ function sortFeatures(features: string[], responses: string[]): string[] {
     return idx.map(i => features[i]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

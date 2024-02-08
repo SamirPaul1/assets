@@ -122,6 +122,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeSquareHoleArea(
@@ -140,7 +141,9 @@ class Solution:
 
         return min(f(hBars), f(vBars)) ** 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeSquareHoleArea(int n, int m, int[] hBars, int[] vBars) {
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -184,7 +189,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeSquareHoleArea(n int, m int, hBars []int, vBars []int) int {
 	f := func(nums []int) int {
@@ -204,7 +211,9 @@ func maximizeSquareHoleArea(n int, m int, hBars []int, vBars []int) int {
 	return x * x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeSquareHoleArea(n: number, m: number, hBars: number[], vBars: number[]): number {
     const f = (nums: number[]): number => {
@@ -222,7 +231,9 @@ function maximizeSquareHoleArea(n: number, m: number, hBars: number[], vBars: nu
     return Math.min(f(hBars), f(vBars)) ** 2;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximize_square_hole_area(n: i32, m: i32, h_bars: Vec<i32>, v_bars: Vec<i32>) -> i32 {
@@ -248,6 +259,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2937. Make Three Strings Equal](https://leetcode.com/problems/make-three-strings-equal)
 
-[中文文档](/solution/2900-2999/2937.Make%20Three%20Strings%20Equal/README.md)
 
 ## Description
 

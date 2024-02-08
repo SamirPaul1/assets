@@ -71,6 +71,7 @@ summaryRanges.getIntervals(); // return [[1, 3], [6, 7]]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedDict
 
@@ -109,7 +110,9 @@ class SummaryRanges:
 # # obj.addNum(val)
 # # param_2 = obj.getIntervals()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SummaryRanges {
     private TreeMap<Integer, int[]> mp;
@@ -150,7 +153,9 @@ class SummaryRanges {
  * int[][] param_2 = obj.getIntervals();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SummaryRanges {
 private:
@@ -188,6 +193,7 @@ public:
  * vector<vector<int>> param_2 = obj->getIntervals();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

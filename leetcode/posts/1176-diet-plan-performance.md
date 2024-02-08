@@ -85,6 +85,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dietPlanPerformance(
@@ -100,7 +101,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int dietPlanPerformance(int[] calories, int k, int lower, int upper) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dietPlanPerformance(calories []int, k int, lower int, upper int) (ans int) {
 	n := len(calories)
@@ -165,7 +172,9 @@ func dietPlanPerformance(calories []int, k int, lower int, upper int) (ans int) 
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dietPlanPerformance(calories: number[], k: number, lower: number, upper: number): number {
     const n = calories.length;
@@ -185,6 +194,7 @@ function dietPlanPerformance(calories: number[], k: number, lower: number, upper
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -196,6 +206,7 @@ The time complexity is $O(n)$, where $n$ is the length of the `calories` array. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dietPlanPerformance(
@@ -215,7 +226,9 @@ class Solution:
             ans += check(s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int dietPlanPerformance(int[] calories, int k, int lower, int upper) {
@@ -241,7 +254,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -266,7 +281,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dietPlanPerformance(calories []int, k int, lower int, upper int) (ans int) {
 	n := len(calories)
@@ -290,7 +307,9 @@ func dietPlanPerformance(calories []int, k int, lower int, upper int) (ans int) 
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dietPlanPerformance(calories: number[], k: number, lower: number, upper: number): number {
     const n = calories.length;
@@ -312,6 +331,7 @@ function dietPlanPerformance(calories: number[], k: number, lower: number, upper
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

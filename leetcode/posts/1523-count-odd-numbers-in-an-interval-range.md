@@ -49,12 +49,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countOdds(self, low: int, high: int) -> int:
         return ((high + 1) >> 1) - (low >> 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countOdds(int low, int high) {
@@ -62,7 +65,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -71,19 +76,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countOdds(low int, high int) int {
 	return ((high + 1) >> 1) - (low >> 1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countOdds(low: number, high: number): number {
     return ((high + 1) >> 1) - (low >> 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_odds(low: i32, high: i32) -> i32 {
@@ -91,7 +102,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -104,12 +117,15 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countOdds(int low, int high) {
     return ((high + 1) >> 1) - (low >> 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

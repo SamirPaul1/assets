@@ -69,13 +69,16 @@ The time complexity is $O(m)$, and the space complexity is $O(C)$. Here, $m$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
         s = set(allowed)
         return sum(all(c in s for c in w) for w in words)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countConsistentStrings(String allowed, String[] words) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countConsistentStrings(allowed string, words []string) (ans int) {
 	s := [26]bool{}
@@ -143,7 +150,9 @@ func countConsistentStrings(allowed string, words []string) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countConsistentStrings(allowed: string, words: string[]): number {
     const set = new Set([...allowed]);
@@ -160,7 +169,9 @@ function countConsistentStrings(allowed: string, words: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_consistent_strings(allowed: String, words: Vec<String>) -> i32 {
@@ -182,7 +193,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countConsistentStrings(char* allowed, char** words, int wordsSize) {
     int n = strlen(allowed);
@@ -203,6 +216,7 @@ int countConsistentStrings(char* allowed, char** words, int wordsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -218,6 +232,7 @@ The time complexity is $O(m)$, where $m$ is the total length of all strings. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countConsistentStrings(self, allowed: str, words: List[str]) -> int:
@@ -227,7 +242,9 @@ class Solution:
         mask = f(allowed)
         return sum((mask | f(w)) == mask for w in words)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countConsistentStrings(String allowed, String[] words) {
@@ -250,7 +267,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -267,7 +286,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countConsistentStrings(allowed string, words []string) (ans int) {
 	f := func(w string) (mask int) {
@@ -286,7 +307,9 @@ func countConsistentStrings(allowed string, words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countConsistentStrings(allowed: string, words: string[]): number {
     const helper = (s: string) => {
@@ -306,7 +329,9 @@ function countConsistentStrings(allowed: string, words: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn helper(s: &String) -> i32 {
@@ -329,7 +354,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int helper(char* s) {
     int res = 0;
@@ -351,6 +378,7 @@ int countConsistentStrings(char* allowed, char** words, int wordsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

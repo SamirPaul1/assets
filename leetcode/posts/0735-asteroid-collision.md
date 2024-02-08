@@ -74,6 +74,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
@@ -90,7 +91,9 @@ class Solution:
                     stk.append(x)
         return stk
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func asteroidCollision(asteroids []int) (stk []int) {
 	for _, x := range asteroids {
@@ -157,7 +164,9 @@ func asteroidCollision(asteroids []int) (stk []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function asteroidCollision(asteroids: number[]): number[] {
     const stk: number[] = [];
@@ -178,7 +187,9 @@ function asteroidCollision(asteroids: number[]): number[] {
     return stk;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -202,6 +213,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

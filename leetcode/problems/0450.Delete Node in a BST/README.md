@@ -1,6 +1,5 @@
 # [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst)
 
-[中文文档](/solution/0400-0499/0450.Delete%20Node%20in%20a%20BST/README.md)
 
 ## Description
 

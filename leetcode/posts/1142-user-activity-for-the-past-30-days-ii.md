@@ -81,6 +81,7 @@ Activity table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -94,6 +95,7 @@ WITH
 SELECT IFNULL(ROUND(AVG(sessions), 2), 0) AS average_sessions_per_user
 FROM T;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -101,6 +103,7 @@ FROM T;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     IFNULL(
@@ -110,6 +113,7 @@ SELECT
 FROM Activity
 WHERE DATEDIFF('2019-07-27', activity_date) < 30;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

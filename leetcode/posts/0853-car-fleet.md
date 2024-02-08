@@ -80,6 +80,7 @@ Then, the fleet (speed 2) and the car starting at 4 (speed 1) become one fleet, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 pre = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int carFleet(int target, int[] position, int[] speed) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func carFleet(target int, position []int, speed []int) (ans int) {
 	n := len(position)
@@ -159,7 +166,9 @@ func carFleet(target int, position []int, speed []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function carFleet(target: number, position: number[], speed: number[]): number {
     const n = position.length;
@@ -179,6 +188,7 @@ function carFleet(target: number, position: number[], speed: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

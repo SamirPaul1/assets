@@ -77,6 +77,7 @@ The shortest distance to reach &quot;leetcode&quot; is 1.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closetTarget(self, words: List[str], target: str, startIndex: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
                 ans = min(ans, t, n - t)
         return -1 if ans == n else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int closetTarget(String[] words, String target, int startIndex) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closetTarget(words []string, target string, startIndex int) int {
 	n := len(words)
@@ -147,7 +154,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function closetTarget(words: string[], target: string, startIndex: number): number {
     const n = words.length;
@@ -159,7 +168,9 @@ function closetTarget(words: string[], target: string, startIndex: number): numb
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn closet_target(words: Vec<String>, target: String, start_index: i32) -> i32 {
@@ -177,7 +188,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int closetTarget(char** words, int wordsSize, char* target, int startIndex) {
     for (int i = 0; i <= wordsSize >> 1; i++) {
@@ -188,6 +201,7 @@ int closetTarget(char** words, int wordsSize, char* target, int startIndex) {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -195,6 +209,7 @@ int closetTarget(char** words, int wordsSize, char* target, int startIndex) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::cmp::min;
 
@@ -217,6 +232,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

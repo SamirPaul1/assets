@@ -75,6 +75,7 @@ Out of the three users, only User 3 is eligible for a discount.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 CREATE FUNCTION getUserIDs(startDate DATE, endDate DATE, minAmount INT) RETURNS INT
 BEGIN
@@ -85,6 +86,7 @@ BEGIN
   );
 END
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

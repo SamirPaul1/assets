@@ -77,6 +77,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSatisfaction(self, satisfaction: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
             ans += s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSatisfaction(int[] satisfaction) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSatisfaction(satisfaction []int) (ans int) {
 	sort.Slice(satisfaction, func(i, j int) bool { return satisfaction[i] > satisfaction[j] })
@@ -139,7 +146,9 @@ func maxSatisfaction(satisfaction []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSatisfaction(satisfaction: number[]): number {
     satisfaction.sort((a, b) => b - a);
@@ -154,6 +163,7 @@ function maxSatisfaction(satisfaction: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

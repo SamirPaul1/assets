@@ -68,6 +68,7 @@ The time complexity is $O(m \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxEvents(self, events: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 heappop(h)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxEvents(int[][] events) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxEvents(events [][]int) int {
 	d := map[int][]int{}
@@ -189,6 +196,7 @@ func (h *hp) Pop() any {
 }
 func (h *hp) Less(i, j int) bool { return h.IntSlice[i] < h.IntSlice[j] }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

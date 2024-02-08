@@ -81,6 +81,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaximumConsecutive(self, coins: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             ans += v
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getMaximumConsecutive(int[] coins) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaximumConsecutive(coins []int) int {
 	sort.Ints(coins)
@@ -136,7 +143,9 @@ func getMaximumConsecutive(coins []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaximumConsecutive(coins: number[]): number {
     coins.sort((a, b) => a - b);
@@ -150,6 +159,7 @@ function getMaximumConsecutive(coins: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

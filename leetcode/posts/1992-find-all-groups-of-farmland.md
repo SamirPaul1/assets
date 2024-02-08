@@ -73,6 +73,7 @@ There are no groups of farmland.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findFarmland(self, land: List[List[int]]) -> List[List[int]]:
@@ -94,7 +95,9 @@ class Solution:
                 ans.append([i, j, x, y])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] findFarmland(int[][] land) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findFarmland(land [][]int) [][]int {
 	m, n := len(land), len(land[0])
@@ -165,6 +172,7 @@ func findFarmland(land [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

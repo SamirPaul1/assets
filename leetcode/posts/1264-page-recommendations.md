@@ -111,6 +111,7 @@ First, we query all users who are friends with `user_id = 1` and record them in 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -125,6 +126,7 @@ FROM
     JOIN Likes USING (user_id)
 WHERE page_id NOT IN (SELECT page_id FROM Likes WHERE user_id = 1);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -132,6 +134,7 @@ WHERE page_id NOT IN (SELECT page_id FROM Likes WHERE user_id = 1);
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT DISTINCT page_id AS recommended_page
@@ -144,6 +147,7 @@ WHERE
     )
     AND page_id NOT IN (SELECT page_id FROM Likes WHERE user_id = 1);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

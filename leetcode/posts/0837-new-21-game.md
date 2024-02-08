@@ -68,6 +68,7 @@ In 6 out of 10 possibilities, she is at or below 6 points.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def new21Game(self, n: int, k: int, maxPts: int) -> float:
@@ -81,7 +82,9 @@ class Solution:
 
         return dfs(0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private double[] f;
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func new21Game(n int, k int, maxPts int) float64 {
 	f := make([]float64, k)
@@ -155,7 +162,9 @@ func new21Game(n int, k int, maxPts int) float64 {
 	return dfs(0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function new21Game(n: number, k: number, maxPts: number): number {
     const f = new Array(k).fill(0);
@@ -174,6 +183,7 @@ function new21Game(n: number, k: number, maxPts: number): number {
     return dfs(0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -181,6 +191,7 @@ function new21Game(n: number, k: number, maxPts: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def new21Game(self, n: int, k: int, maxPts: int) -> float:
@@ -192,7 +203,9 @@ class Solution:
             f[i] = f[i + 1] + (f[i + 1] - f[i + maxPts + 1]) / maxPts
         return f[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double new21Game(int n, int k, int maxPts) {
@@ -211,7 +224,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -232,7 +247,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func new21Game(n int, k int, maxPts int) float64 {
 	if k == 0 {
@@ -249,7 +266,9 @@ func new21Game(n int, k int, maxPts int) float64 {
 	return f[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function new21Game(n: number, k: number, maxPts: number): number {
     if (k === 0) {
@@ -266,6 +285,7 @@ function new21Game(n: number, k: number, maxPts: number): number {
     return f[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

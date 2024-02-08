@@ -88,6 +88,7 @@ Hence, there are a total of (6 * 2) + (3 * 1) = 12 + 3 = 15 ways to decode &quot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDecodings(self, s: str) -> int:
@@ -129,7 +130,9 @@ class Solution:
 
         return c
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -180,7 +183,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mod int = 1e9 + 7
 
@@ -225,6 +230,7 @@ func numDecodings(s string) int {
 	return c
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

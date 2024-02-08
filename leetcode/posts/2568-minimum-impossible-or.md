@@ -62,13 +62,16 @@ The time complexity is $O(n + \log M)$, and the space complexity is $O(n)$. Here
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minImpossibleOR(self, nums: List[int]) -> int:
         s = set(nums)
         return next(1 << i for i in range(32) if 1 << i not in s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minImpossibleOR(int[] nums) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minImpossibleOR(nums []int) int {
 	s := map[int]bool{}
@@ -112,7 +119,9 @@ func minImpossibleOR(nums []int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minImpossibleOR(nums: number[]): number {
     const s: Set<number> = new Set();
@@ -126,6 +135,7 @@ function minImpossibleOR(nums: number[]): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

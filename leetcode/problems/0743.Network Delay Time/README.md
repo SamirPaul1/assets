@@ -1,6 +1,5 @@
 # [743. Network Delay Time](https://leetcode.com/problems/network-delay-time)
 
-[中文文档](/solution/0700-0799/0743.Network%20Delay%20Time/README.md)
 
 ## Description
 

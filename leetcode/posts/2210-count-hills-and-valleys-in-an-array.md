@@ -70,6 +70,7 @@ There are 0 hills and valleys so we return 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countHillValley(self, nums: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
             for i in range(1, len(arr) - 1)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countHillValley(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countHillValley(nums []int) int {
 	ans := 0
@@ -138,7 +145,9 @@ func countHillValley(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countHillValley(nums: number[]): number {
     const n = nums.length;
@@ -158,7 +167,9 @@ function countHillValley(nums: number[]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_hill_valley(nums: Vec<i32>) -> i32 {
@@ -180,6 +191,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -187,6 +199,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countHillValley(self, nums: List[int]) -> int:
@@ -201,6 +214,7 @@ class Solution:
             j = i
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

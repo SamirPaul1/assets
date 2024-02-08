@@ -64,6 +64,7 @@ This is the highest among any shorthand color.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def similarRGB(self, color: str) -> str:
@@ -76,7 +77,9 @@ class Solution:
         a, b, c = color[1:3], color[3:5], color[5:7]
         return f'#{f(a)}{f(b)}{f(c)}'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String similarRGB(String color) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func similarRGB(color string) string {
 	f := func(x string) string {
@@ -108,6 +113,7 @@ func similarRGB(color string) string {
 	return "#" + f(a) + f(b) + f(c)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

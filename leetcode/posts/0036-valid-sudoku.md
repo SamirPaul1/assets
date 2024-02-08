@@ -93,6 +93,7 @@ The time complexity is $O(C)$ and the space complexity is $O(C)$, where $C$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
@@ -113,7 +114,9 @@ class Solution:
                 sub[k][num] = True
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isValidSudoku(char[][] board) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -166,7 +171,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isValidSudoku(board [][]byte) bool {
 	row, col, sub := [9][9]bool{}, [9][9]bool{}, [9][9]bool{}
@@ -188,7 +195,9 @@ func isValidSudoku(board [][]byte) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isValidSudoku(board: string[][]): boolean {
     const row: boolean[][] = Array.from({ length: 9 }, () =>
@@ -218,7 +227,9 @@ function isValidSudoku(board: string[][]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {character[][]} board
@@ -246,6 +257,7 @@ var isValidSudoku = function (board) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

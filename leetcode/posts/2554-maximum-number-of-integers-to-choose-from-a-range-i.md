@@ -80,6 +80,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxCount(self, banned: List[int], n: int, maxSum: int) -> int:
@@ -93,7 +94,9 @@ class Solution:
                 s += i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxCount(int[] banned, int n, int maxSum) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxCount(banned []int, n int, maxSum int) (ans int) {
 	ban := map[int]bool{}
@@ -146,7 +153,9 @@ func maxCount(banned []int, n int, maxSum int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxCount(banned: number[], n: number, maxSum: number): number {
     const set = new Set(banned);
@@ -165,7 +174,9 @@ function maxCount(banned: number[], n: number, maxSum: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -187,7 +198,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int cmp(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
@@ -213,6 +226,7 @@ int maxCount(int* banned, int bannedSize, int n, int maxSum) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -232,6 +246,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxCount(self, banned: List[int], n: int, maxSum: int) -> int:
@@ -252,7 +267,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxCount(int[] banned, int n, int maxSum) {
@@ -288,7 +305,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -320,7 +339,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxCount(banned []int, n int, maxSum int) (ans int) {
 	banned = append(banned, []int{0, n + 1}...)
@@ -352,6 +373,7 @@ func maxCount(banned []int, n int, maxSum int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

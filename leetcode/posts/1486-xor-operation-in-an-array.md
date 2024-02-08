@@ -58,6 +58,7 @@ Where &quot;^&quot; corresponds to bitwise XOR operator.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def xorOperation(self, n: int, start: int) -> int:
@@ -66,7 +67,9 @@ class Solution:
             ans ^= start + 2 * i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int xorOperation(int n, int start) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -91,7 +96,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func xorOperation(n int, start int) (ans int) {
 	for i := 0; i < n; i++ {
@@ -100,6 +107,7 @@ func xorOperation(n int, start int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -107,11 +115,13 @@ func xorOperation(n int, start int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def xorOperation(self, n: int, start: int) -> int:
         return reduce(xor, ((start + 2 * i) for i in range(n)))
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

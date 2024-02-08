@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 N = 10001
 MOD = 10**9 + 7
@@ -89,7 +90,9 @@ class Solution:
             ans = (ans + x - 1) % MOD
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int N = 10001;
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int N = 10001;
 int MOD = 1e9 + 7;
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const n = 1e4 + 1
 const mod = 1e9 + 7
@@ -248,6 +255,7 @@ func countGoodSubsequences(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

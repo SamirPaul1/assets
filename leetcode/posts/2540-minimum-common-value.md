@@ -59,6 +59,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of the two 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getCommon(self, nums1: List[int], nums2: List[int]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 j += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getCommon(int[] nums1, int[] nums2) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getCommon(nums1 []int, nums2 []int) int {
 	m, n := len(nums1), len(nums2)
@@ -129,7 +136,9 @@ func getCommon(nums1 []int, nums2 []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getCommon(nums1: number[], nums2: number[]): number {
     const m = nums1.length;
@@ -149,7 +158,9 @@ function getCommon(nums1: number[], nums2: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_common(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
@@ -171,7 +182,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int getCommon(int* nums1, int nums1Size, int* nums2, int nums2Size) {
     int i = 0;
@@ -189,6 +202,7 @@ int getCommon(int* nums1, int nums1Size, int* nums2, int nums2Size) {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -196,6 +210,7 @@ int getCommon(int* nums1, int nums1Size, int* nums2, int nums2Size) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_common(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
@@ -218,6 +233,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

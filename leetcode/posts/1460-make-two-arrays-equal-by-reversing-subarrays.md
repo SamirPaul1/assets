@@ -68,6 +68,7 @@ There are multiple ways to convert arr to target, this is not the only way to do
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
@@ -75,7 +76,9 @@ class Solution:
         arr.sort()
         return target == arr
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canBeEqual(target []int, arr []int) bool {
 	sort.Ints(target)
@@ -109,7 +116,9 @@ func canBeEqual(target []int, arr []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canBeEqual(target: number[], arr: number[]): boolean {
     target.sort((a, b) => a - b);
@@ -123,7 +132,9 @@ function canBeEqual(target: number[], arr: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_be_equal(mut target: Vec<i32>, mut arr: Vec<i32>) -> bool {
@@ -133,7 +144,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -148,7 +161,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool canBeEqual(int* target, int targetSize, int* arr, int arrSize) {
     int count[1001] = {0};
@@ -164,6 +179,7 @@ bool canBeEqual(int* target, int targetSize, int* arr, int arrSize) {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -171,12 +187,15 @@ bool canBeEqual(int* target, int targetSize, int* arr, int arrSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
         return Counter(target) == Counter(arr)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
@@ -192,7 +211,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -205,7 +226,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canBeEqual(target []int, arr []int) bool {
 	cnt1 := make([]int, 1001)
@@ -224,7 +247,9 @@ func canBeEqual(target []int, arr []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canBeEqual(target: number[], arr: number[]): boolean {
     const n = target.length;
@@ -236,7 +261,9 @@ function canBeEqual(target: number[], arr: number[]): boolean {
     return count.every(v => v === 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_be_equal(mut target: Vec<i32>, mut arr: Vec<i32>) -> bool {
@@ -250,6 +277,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +285,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
@@ -266,7 +295,9 @@ class Solution:
             cnt[b] -= 1
         return all(v == 0 for v in cnt)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canBeEqual(int[] target, int[] arr) {
@@ -283,7 +314,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -296,7 +329,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canBeEqual(target []int, arr []int) bool {
 	cnt := make([]int, 1001)
@@ -312,6 +347,7 @@ func canBeEqual(target []int, arr []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

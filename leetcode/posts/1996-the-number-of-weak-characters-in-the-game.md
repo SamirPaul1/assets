@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWeakCharacters(self, properties: List[List[int]]) -> int:
@@ -75,7 +76,9 @@ class Solution:
             mx = max(mx, x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfWeakCharacters(int[][] properties) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWeakCharacters(properties [][]int) (ans int) {
 	sort.Slice(properties, func(i, j int) bool {
@@ -127,7 +134,9 @@ func numberOfWeakCharacters(properties [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfWeakCharacters(properties: number[][]): number {
     properties.sort((a, b) => (a[0] == b[0] ? a[1] - b[1] : b[0] - a[0]));
@@ -143,7 +152,9 @@ function numberOfWeakCharacters(properties: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} properties
@@ -163,6 +174,7 @@ var numberOfWeakCharacters = function (properties) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

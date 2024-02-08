@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
@@ -79,7 +80,9 @@ class Solution:
                 ans.append(w)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] findWords(String[] words) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findWords(words []string) (ans []string) {
 	s := "12210111011122000010020202"
@@ -147,7 +154,9 @@ func findWords(words []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findWords(words: string[]): string[] {
     const s = '12210111011122000010020202';
@@ -169,7 +178,9 @@ function findWords(words: string[]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string[] FindWords(string[] words) {
@@ -192,6 +203,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -199,6 +211,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
@@ -210,6 +223,7 @@ class Solution:
                 ans.append(w)
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def colorBorder(
@@ -83,7 +84,9 @@ class Solution:
         dfs(row, col, grid[row][col])
         return grid
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] grid;
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func colorBorder(grid [][]int, row int, col int, color int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -186,7 +193,9 @@ func colorBorder(grid [][]int, row int, col int, color int) [][]int {
 	return grid
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function colorBorder(grid: number[][], row: number, col: number, color: number): number[][] {
     const m = grid.length;
@@ -215,6 +224,7 @@ function colorBorder(grid: number[][], row: number, col: number, color: number):
     return grid;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

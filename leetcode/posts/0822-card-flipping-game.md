@@ -61,13 +61,16 @@ There are no good integers no matter how we flip the cards, so we return 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def flipgame(self, fronts: List[int], backs: List[int]) -> int:
         s = {a for a, b in zip(fronts, backs) if a == b}
         return min((x for x in chain(fronts, backs) if x not in s), default=0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int flipgame(int[] fronts, int[] backs) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func flipgame(fronts []int, backs []int) int {
 	s := map[int]struct{}{}
@@ -143,7 +150,9 @@ func flipgame(fronts []int, backs []int) int {
 	return ans % 9999
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function flipgame(fronts: number[], backs: number[]): number {
     const s: Set<number> = new Set();
@@ -167,7 +176,9 @@ function flipgame(fronts: number[], backs: number[]): number {
     return ans % 9999;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int Flipgame(int[] fronts, int[] backs) {
@@ -191,6 +202,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

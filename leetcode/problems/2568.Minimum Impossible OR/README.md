@@ -1,6 +1,5 @@
 # [2568. Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or)
 
-[中文文档](/solution/2500-2599/2568.Minimum%20Impossible%20OR/README.md)
 
 ## Description
 

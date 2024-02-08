@@ -78,6 +78,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
@@ -103,7 +104,9 @@ class Solution:
             ans.append(c)
         return ''.join(ans[::-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minRemoveToMakeValid(String s) {
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minRemoveToMakeValid(s string) string {
 	stk := []byte{}
@@ -208,7 +215,9 @@ func minRemoveToMakeValid(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minRemoveToMakeValid(s: string): string {
     let left = 0;
@@ -244,7 +253,9 @@ function minRemoveToMakeValid(s: string): string {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_remove_to_make_valid(s: String) -> String {
@@ -291,6 +302,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

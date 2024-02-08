@@ -1,6 +1,5 @@
 # [2418. Sort the People](https://leetcode.com/problems/sort-the-people)
 
-[中文文档](/solution/2400-2499/2418.Sort%20the%20People/README.md)
 
 ## Description
 

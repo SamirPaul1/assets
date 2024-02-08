@@ -55,6 +55,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxValueAfterReverse(self, nums: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
             ans = max(ans, s + max(mx - mi, 0))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxValueAfterReverse(int[] nums) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxValueAfterReverse(nums []int) int {
 	s, n := 0, len(nums)
@@ -175,7 +182,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxValueAfterReverse(nums: number[]): number {
     const n = nums.length;
@@ -205,6 +214,7 @@ function maxValueAfterReverse(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

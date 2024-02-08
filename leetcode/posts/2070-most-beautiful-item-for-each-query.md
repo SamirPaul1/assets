@@ -76,6 +76,7 @@ Hence, the answer to the query is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumBeauty(self, items: List[List[int]], queries: List[int]) -> List[int]:
@@ -91,7 +92,9 @@ class Solution:
                 ans[i] = mx[j - 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumBeauty(items [][]int, queries []int) []int {
 	sort.Slice(items, func(i, j int) bool {
@@ -171,6 +178,7 @@ func maximumBeauty(items [][]int, queries []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

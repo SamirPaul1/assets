@@ -1,6 +1,5 @@
 # [1905. Count Sub Islands](https://leetcode.com/problems/count-sub-islands)
 
-[中文文档](/solution/1900-1999/1905.Count%20Sub%20Islands/README.md)
 
 ## Description
 

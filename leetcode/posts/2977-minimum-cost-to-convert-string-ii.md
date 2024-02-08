@@ -116,6 +116,7 @@ The time complexity is $O(m^3 + n^2 + m \times n)$, and the space complexity is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     __slots__ = ["children", "v"]
@@ -186,7 +187,9 @@ class Solution:
         ans = dfs(0)
         return -1 if ans >= inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     Node[] children = new Node[26];
@@ -275,7 +278,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -374,7 +379,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Node struct {
 	children [26]*Node
@@ -466,7 +473,9 @@ func minimumCost(source string, target string, original []string, changed []stri
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Node {
     children: (Node | null)[] = Array(26).fill(null);
@@ -546,6 +555,7 @@ function minimumCost(
     return ans >= Infinity ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

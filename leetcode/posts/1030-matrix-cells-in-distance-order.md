@@ -67,6 +67,7 @@ There are other answers that would also be accepted as correct, such as [[1,2],[
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def allCellsDistOrder(
@@ -87,7 +88,9 @@ class Solution:
                         q.append([x, y])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.util.Deque;
 
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func allCellsDistOrder(rows int, cols int, rCenter int, cCenter int) (ans [][]int) {
 	q := [][]int{{rCenter, cCenter}}
@@ -175,6 +182,7 @@ func allCellsDistOrder(rows int, cols int, rCenter int, cCenter int) (ans [][]in
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

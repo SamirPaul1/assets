@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tallestBillboard(self, rods: List[int]) -> int:
@@ -78,7 +79,9 @@ class Solution:
 
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tallestBillboard(rods []int) int {
 	s := 0
@@ -174,7 +181,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tallestBillboard(rods: number[]): number {
     const s = rods.reduce((a, b) => a + b, 0);
@@ -194,6 +203,7 @@ function tallestBillboard(rods: number[]): number {
     return dfs(0, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -201,6 +211,7 @@ function tallestBillboard(rods: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tallestBillboard(self, rods: List[int]) -> int:
@@ -221,7 +232,9 @@ class Solution:
                     f[i][j] = max(f[i][j], f[i - 1][x - j] + x - j)
         return f[n][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int tallestBillboard(int[] rods) {
@@ -255,7 +268,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -285,7 +300,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tallestBillboard(rods []int) int {
 	n := len(rods)
@@ -320,6 +337,7 @@ func tallestBillboard(rods []int) int {
 	return f[n][0]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

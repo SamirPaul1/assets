@@ -129,6 +129,7 @@ The time complexity is $O(1)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UndergroundSystem:
     def __init__(self):
@@ -154,7 +155,9 @@ class UndergroundSystem:
 # obj.checkOut(id,stationName,t)
 # param_3 = obj.getAverageTime(startStation,endStation)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UndergroundSystem {
     private Map<Integer, Integer> ts = new HashMap<>();
@@ -192,7 +195,9 @@ class UndergroundSystem {
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UndergroundSystem {
 public:
@@ -228,7 +233,9 @@ private:
  * double param_3 = obj->getAverageTime(startStation,endStation);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type UndergroundSystem struct {
 	ts map[int]pair
@@ -280,6 +287,7 @@ type pair struct {
  * param_3 := obj.GetAverageTime(startStation,endStation);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

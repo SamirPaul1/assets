@@ -70,6 +70,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeXor(self, num1: int, num2: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
                 cnt -= 1
         return x
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimizeXor(int num1, int num2) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizeXor(num1 int, num2 int) int {
 	cnt := bits.OnesCount(uint(num2))
@@ -150,7 +157,9 @@ func minimizeXor(num1 int, num2 int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimizeXor(num1: number, num2: number): number {
     let cnt = 0;
@@ -174,6 +183,7 @@ function minimizeXor(num1: number, num2: number): number {
     return x;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -181,6 +191,7 @@ function minimizeXor(num1: number, num2: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeXor(self, num1: int, num2: int) -> int:
@@ -194,7 +205,9 @@ class Solution:
             cnt1 += 1
         return num1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimizeXor(int num1, int num2) {
@@ -210,7 +223,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -227,7 +242,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizeXor(num1 int, num2 int) int {
 	cnt1 := bits.OnesCount(uint(num1))
@@ -241,7 +258,9 @@ func minimizeXor(num1 int, num2 int) int {
 	return num1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimizeXor(num1: number, num2: number): number {
     let cnt1 = bitCount(num1);
@@ -264,6 +283,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

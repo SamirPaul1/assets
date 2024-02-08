@@ -1,6 +1,5 @@
 # [2865. Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i)
 
-[中文文档](/solution/2800-2899/2865.Beautiful%20Towers%20I/README.md)
 
 ## Description
 

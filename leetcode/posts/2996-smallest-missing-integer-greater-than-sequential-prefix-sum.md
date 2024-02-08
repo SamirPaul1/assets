@@ -60,6 +60,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def missingInteger(self, nums: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
             if x not in vis:
                 return x
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int missingInteger(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func missingInteger(nums []int) int {
 	s := nums[0]
@@ -131,7 +138,9 @@ func missingInteger(nums []int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function missingInteger(nums: number[]): number {
     let s = nums[0];
@@ -146,6 +155,7 @@ function missingInteger(nums: number[]): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

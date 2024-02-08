@@ -80,6 +80,7 @@ The time complexity is $O(2^n \times m)$, and the space complexity is $O(m)$. Wh
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumRows(self, matrix: List[List[int]], numSelect: int) -> int:
@@ -96,7 +97,9 @@ class Solution:
             ans = max(ans, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumRows(int[][] matrix, int numSelect) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumRows(matrix [][]int, numSelect int) (ans int) {
 	m, n := len(matrix), len(matrix[0])
@@ -185,7 +192,9 @@ func maximumRows(matrix [][]int, numSelect int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumRows(matrix: number[][], numSelect: number): number {
     const [m, n] = [matrix.length, matrix[0].length];
@@ -222,6 +231,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

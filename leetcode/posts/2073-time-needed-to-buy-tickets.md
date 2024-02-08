@@ -66,6 +66,7 @@ The person at&nbsp;position 0 has successfully bought 5 tickets and it took 4 + 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 ans += min(tickets[k] - 1, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int timeRequiredToBuy(int[] tickets, int k) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func timeRequiredToBuy(tickets []int, k int) int {
 	ans := 0
@@ -124,7 +131,9 @@ func timeRequiredToBuy(tickets []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function timeRequiredToBuy(tickets: number[], k: number): number {
     const n = tickets.length;
@@ -150,6 +159,7 @@ function timeRequiredToBuy(tickets: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

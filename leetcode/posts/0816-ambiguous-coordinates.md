@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def ambiguousCoordinates(self, s: str) -> List[str]:
@@ -86,7 +87,9 @@ class Solution:
             f'({x}, {y})' for i in range(2, n - 1) for x in f(1, i) for y in f(i, n - 1)
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> ambiguousCoordinates(String s) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func ambiguousCoordinates(s string) []string {
 	f := func(i, j int) []string {
@@ -177,7 +184,9 @@ func ambiguousCoordinates(s string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function ambiguousCoordinates(s: string): string[] {
     s = s.slice(1, s.length - 1);
@@ -206,6 +215,7 @@ function ambiguousCoordinates(s: string): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

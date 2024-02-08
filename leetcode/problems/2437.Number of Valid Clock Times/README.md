@@ -1,6 +1,5 @@
 # [2437. Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times)
 
-[中文文档](/solution/2400-2499/2437.Number%20of%20Valid%20Clock%20Times/README.md)
 
 ## Description
 

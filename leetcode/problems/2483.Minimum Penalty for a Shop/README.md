@@ -1,6 +1,5 @@
 # [2483. Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop)
 
-[中文文档](/solution/2400-2499/2483.Minimum%20Penalty%20for%20a%20Shop/README.md)
 
 ## Description
 

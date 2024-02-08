@@ -81,6 +81,7 @@ Thus, one milestone in project 0 will remain unfinished.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWeeks(self, milestones: List[int]) -> int:
@@ -88,7 +89,9 @@ class Solution:
         rest = s - mx
         return rest * 2 + 1 if mx > rest + 1 else s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long numberOfWeeks(int[] milestones) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWeeks(milestones []int) int64 {
 	mx := slices.Max(milestones)
@@ -130,6 +137,7 @@ func numberOfWeeks(milestones []int) int64 {
 	return int64(s)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

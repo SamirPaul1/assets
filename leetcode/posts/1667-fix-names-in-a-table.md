@@ -67,6 +67,7 @@ Users table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     user_id,
@@ -76,6 +77,7 @@ FROM
 ORDER BY
     user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -83,6 +85,7 @@ ORDER BY
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     user_id,
@@ -95,6 +98,7 @@ FROM
 ORDER BY
     user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

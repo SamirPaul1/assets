@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSumOfLengths(self, arr: List[int], target: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
             d[s] = i
         return -1 if ans > n else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSumOfLengths(int[] arr, int target) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSumOfLengths(arr []int, target int) int {
 	d := map[int]int{0: 0}
@@ -160,6 +167,7 @@ func minSumOfLengths(arr []int, target int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

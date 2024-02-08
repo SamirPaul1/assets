@@ -71,6 +71,7 @@ browserHistory.back(7);                   // You are in &quot;google.com&quot;, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BrowserHistory:
     def __init__(self, homepage: str):
@@ -101,7 +102,9 @@ class BrowserHistory:
 # param_2 = obj.back(steps)
 # param_3 = obj.forward(steps)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BrowserHistory {
     private Deque<String> stk1 = new ArrayDeque<>();
@@ -139,7 +142,9 @@ class BrowserHistory {
  * String param_3 = obj.forward(steps);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BrowserHistory {
 public:
@@ -180,7 +185,9 @@ public:
  * string param_3 = obj->forward(steps);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BrowserHistory struct {
 	stk1 []string
@@ -222,6 +229,7 @@ func (this *BrowserHistory) Forward(steps int) string {
  * param_3 := obj.Forward(steps);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ solution.pick(3); // It should return either index 2, 3, or 4 randomly. Each ind
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def __init__(self, nums: List[int]):
@@ -81,7 +82,9 @@ class Solution:
 # obj = Solution(nums)
 # param_1 = obj.pick(target)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -112,7 +115,9 @@ class Solution {
  * int param_1 = obj.pick(target);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
  * int param_1 = obj->pick(target);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Solution struct {
 	nums []int
@@ -171,6 +178,7 @@ func (this *Solution) Pick(target int) int {
  * param_1 := obj.Pick(target);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

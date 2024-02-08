@@ -82,6 +82,7 @@ For <code>[0, -3]</code>, the 1<sup>st</sup> smallest negative integer is -3.</p
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -96,7 +97,9 @@ class Solution:
             ans.append(sl[x - 1] if sl[x - 1] < 0 else 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getSubarrayBeauty(int[] nums, int k, int x) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getSubarrayBeauty(nums []int, k int, x int) []int {
 	n := len(nums)
@@ -186,7 +193,9 @@ func getSubarrayBeauty(nums []int, k int, x int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getSubarrayBeauty(nums: number[], k: number, x: number): number[] {
     const n = nums.length;
@@ -214,6 +223,7 @@ function getSubarrayBeauty(nums: number[], k: number, x: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -221,6 +231,7 @@ function getSubarrayBeauty(nums: number[], k: number, x: number): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getSubarrayBeauty(self, nums: List[int], k: int, x: int) -> List[int]:
@@ -242,6 +253,7 @@ class Solution:
             ans.append(f(x))
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

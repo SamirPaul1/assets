@@ -73,6 +73,7 @@ The time complexity is $O((n +  m) \times \sqrt{n})$, and the space complexity i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def solve(self, nums: List[int], queries: List[List[int]]) -> List[int]:
@@ -91,7 +92,9 @@ class Solution:
                 ans.append(sum(nums[x::y]) % mod)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] solve(int[] nums, int[][] queries) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func solve(nums []int, queries [][]int) (ans []int) {
 	n := len(nums)
@@ -183,7 +190,9 @@ func solve(nums []int, queries [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function solve(nums: number[], queries: number[][]): number[] {
     const n = nums.length;
@@ -212,6 +221,7 @@ function solve(nums: number[], queries: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -87,6 +87,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameVI(self, aliceValues: List[int], bobValues: List[int]) -> int:
@@ -100,7 +101,9 @@ class Solution:
             return -1
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int stoneGameVI(int[] aliceValues, int[] bobValues) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -151,7 +156,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGameVI(aliceValues []int, bobValues []int) int {
 	arr := make([][]int, len(aliceValues))
@@ -177,6 +184,7 @@ func stoneGameVI(aliceValues []int, bobValues []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

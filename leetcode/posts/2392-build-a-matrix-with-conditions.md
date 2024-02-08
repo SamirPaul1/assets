@@ -82,6 +82,7 @@ No matrix can satisfy all the conditions, so we return the empty matrix.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def buildMatrix(
@@ -117,7 +118,9 @@ class Solution:
             ans[i][m[v]] = v
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int k;
@@ -171,7 +174,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -224,7 +229,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func buildMatrix(k int, rowConditions [][]int, colConditions [][]int) [][]int {
 	f := func(cond [][]int) []int {
@@ -280,7 +287,9 @@ func buildMatrix(k int, rowConditions [][]int, colConditions [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function buildMatrix(k: number, rowConditions: number[][], colConditions: number[][]): number[][] {
     function f(cond) {
@@ -325,6 +334,7 @@ function buildMatrix(k: number, rowConditions: number[][], colConditions: number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

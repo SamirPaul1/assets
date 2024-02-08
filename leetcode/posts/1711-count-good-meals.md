@@ -76,6 +76,7 @@ The time complexity is the same as the method above.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(self, deliciousness: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             cnt[d] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(deliciousness []int) (ans int) {
 	mx := slices.Max(deliciousness) << 1
@@ -145,6 +152,7 @@ func countPairs(deliciousness []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -152,6 +160,7 @@ func countPairs(deliciousness []int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(self, deliciousness: List[int]) -> int:
@@ -165,7 +174,9 @@ class Solution:
                     ans += m * (m - 1) if a == b else m * cnt[b]
         return (ans >> 1) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -192,7 +203,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -215,7 +228,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(deliciousness []int) (ans int) {
 	cnt := map[int]int{}
@@ -240,6 +255,7 @@ func countPairs(deliciousness []int) (ans int) {
 	return ans % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

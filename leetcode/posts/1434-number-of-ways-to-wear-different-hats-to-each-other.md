@@ -88,6 +88,7 @@ Time complexity $O(m \times 2^n \times n)$, space complexity $O(m \times 2^n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberWays(self, hats: List[List[int]]) -> int:
@@ -108,7 +109,9 @@ class Solution:
                         f[i][j] = (f[i][j] + f[i - 1][j ^ (1 << k)]) % mod
         return f[m][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberWays(List<List<Integer>> hats) {
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -177,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberWays(hats [][]int) int {
 	n := len(hats)
@@ -210,7 +217,9 @@ func numberWays(hats [][]int) int {
 	return f[m][(1<<n)-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberWays(hats: number[][]): number {
     const n = hats.length;
@@ -239,6 +248,7 @@ function numberWays(hats: number[][]): number {
     return f[m][(1 << n) - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

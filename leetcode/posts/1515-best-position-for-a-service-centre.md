@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMinDistSum(self, positions: List[List[int]]) -> float:
@@ -89,7 +90,9 @@ class Solution:
             if abs(dx) <= eps and abs(dy) <= eps:
                 return dist
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double getMinDistSum(int[][] positions) {
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMinDistSum(positions [][]int) float64 {
 	n := len(positions)
@@ -198,7 +205,9 @@ func getMinDistSum(positions [][]int) float64 {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMinDistSum(positions: number[][]): number {
     const n = positions.length;
@@ -234,6 +243,7 @@ function getMinDistSum(positions: number[][]): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

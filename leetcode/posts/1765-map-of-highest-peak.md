@@ -78,6 +78,7 @@ Any height assignment that has a maximum height of 2 while still meeting the rul
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def highestPeak(self, isWater: List[List[int]]) -> List[List[int]]:
@@ -98,7 +99,9 @@ class Solution:
                     q.append((x, y))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] highestPeak(int[][] isWater) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func highestPeak(isWater [][]int) [][]int {
 	m, n := len(isWater), len(isWater[0])
@@ -194,7 +201,9 @@ func highestPeak(isWater [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function highestPeak(isWater: number[][]): number[][] {
     const m = isWater.length;
@@ -227,7 +236,9 @@ function highestPeak(isWater: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -279,6 +290,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -286,6 +298,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def highestPeak(self, isWater: List[List[int]]) -> List[List[int]]:
@@ -307,7 +320,9 @@ class Solution:
                         q.append((x, y))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] highestPeak(int[][] isWater) {
@@ -340,7 +355,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -375,7 +392,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func highestPeak(isWater [][]int) [][]int {
 	m, n := len(isWater), len(isWater[0])
@@ -409,6 +428,7 @@ func highestPeak(isWater [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

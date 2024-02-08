@@ -86,6 +86,7 @@ At t=250, count() returns 0 because the cache is empty.
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class TimeLimitedCache {
     private cache: Map<number, [value: number, expire: number]> = new Map();
@@ -131,6 +132,7 @@ class TimeLimitedCache {
  * obj.count() // 1
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

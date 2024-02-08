@@ -71,6 +71,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def differenceOfSum(self, nums: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 x //= 10
         return abs(a - b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int differenceOfSum(int[] nums) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func differenceOfSum(nums []int) int {
 	a, b := 0, 0
@@ -132,7 +139,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function differenceOfSum(nums: number[]): number {
     return nums.reduce((r, v) => {
@@ -145,7 +154,9 @@ function differenceOfSum(nums: number[]): number {
     }, 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn difference_of_sum(nums: Vec<i32>) -> i32 {
@@ -162,7 +173,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int differenceOfSum(int* nums, int numsSize) {
     int ans = 0;
@@ -176,6 +189,7 @@ int differenceOfSum(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -183,6 +197,7 @@ int differenceOfSum(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn difference_of_sum(nums: Vec<i32>) -> i32 {
@@ -201,6 +216,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

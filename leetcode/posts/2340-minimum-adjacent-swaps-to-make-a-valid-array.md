@@ -70,6 +70,7 @@ It can be shown that 6 swaps is the minimum swaps required to make a valid array
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumSwaps(self, nums: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
                 j = k
         return 0 if i == j else i + len(nums) - 1 - j - (i > j)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumSwaps(int[] nums) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumSwaps(nums []int) int {
 	var i, j int
@@ -145,7 +152,9 @@ func minimumSwaps(nums []int) int {
 	return i + len(nums) - 2 - j
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumSwaps(nums: number[]): number {
     let i = 0;
@@ -162,6 +171,7 @@ function minimumSwaps(nums: number[]): number {
     return i == j ? 0 : i + n - 1 - j - (i > j ? 1 : 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

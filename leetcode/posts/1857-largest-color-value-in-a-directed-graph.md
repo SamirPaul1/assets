@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestPathValue(self, colors: str, edges: List[List[int]]) -> int:
@@ -97,7 +98,9 @@ class Solution:
                     ans = max(ans, dp[j][k])
         return -1 if cnt < n else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestPathValue(String colors, int[][] edges) {
@@ -139,7 +142,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +185,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestPathValue(colors string, edges [][]int) int {
 	n := len(colors)
@@ -231,6 +238,7 @@ func largestPathValue(colors string, edges [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

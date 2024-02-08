@@ -119,6 +119,7 @@ There are no sales of T-shirts.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -136,6 +137,7 @@ FROM
 GROUP BY category
 ORDER BY category;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

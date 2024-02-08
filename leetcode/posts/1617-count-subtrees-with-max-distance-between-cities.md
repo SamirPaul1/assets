@@ -74,6 +74,7 @@ No subtree has two nodes where the max distance between them is 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubgraphsForEachDiameter(
@@ -107,7 +108,9 @@ class Solution:
                 ans[mx - 1] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -156,7 +159,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -200,7 +205,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubgraphsForEachDiameter(n int, edges [][]int) []int {
 	g := make([][]int, n)
@@ -239,7 +246,9 @@ func countSubgraphsForEachDiameter(n int, edges [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSubgraphsForEachDiameter(n: number, edges: number[][]): number[] {
     const g = Array.from({ length: n }, () => []);
@@ -302,6 +311,7 @@ function numberOfLeadingZeros(i: number): number {
     return n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -309,6 +319,7 @@ function numberOfLeadingZeros(i: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubgraphsForEachDiameter(
@@ -348,7 +359,9 @@ class Solution:
                 ans[mx - 1] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -402,7 +415,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -452,7 +467,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubgraphsForEachDiameter(n int, edges [][]int) []int {
 	g := make([][]int, n)
@@ -499,7 +516,9 @@ func countSubgraphsForEachDiameter(n int, edges [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSubgraphsForEachDiameter(n: number, edges: number[][]): number[] {
     const g = Array.from({ length: n }, () => []);
@@ -567,6 +586,7 @@ function numberOfLeadingZeros(i: number): number {
     return n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumTime(self, time: str) -> str:
@@ -85,7 +86,9 @@ class Solution:
             t[4] = '9'
         return ''.join(t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String maximumTime(String time) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumTime(time string) string {
 	t := []byte(time)
@@ -154,7 +161,9 @@ func maximumTime(time string) string {
 	return string(t)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} time
@@ -177,6 +186,7 @@ var maximumTime = function (time) {
     return t.join('');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

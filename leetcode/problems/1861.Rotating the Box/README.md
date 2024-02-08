@@ -1,6 +1,5 @@
 # [1861. Rotating the Box](https://leetcode.com/problems/rotating-the-box)
 
-[中文文档](/solution/1800-1899/1861.Rotating%20the%20Box/README.md)
 
 ## Description
 

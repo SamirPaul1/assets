@@ -54,6 +54,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
@@ -63,7 +64,9 @@ class Solution:
                 i += 1
                 nums[i], nums[j] = nums[j], nums[i]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void moveZeroes(int[] nums) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func moveZeroes(nums []int) {
 	i := -1
@@ -104,7 +111,9 @@ func moveZeroes(nums []int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify nums in-place instead.
@@ -122,7 +131,9 @@ function moveZeroes(nums: number[]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn move_zeroes(nums: &mut Vec<i32>) {
@@ -139,7 +150,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -156,7 +169,9 @@ var moveZeroes = function (nums) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 void moveZeroes(int* nums, int numsSize) {
     int i = 0;
@@ -171,6 +186,7 @@ void moveZeroes(int* nums, int numsSize) {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

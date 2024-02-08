@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numDistinctIslands(self, grid: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                     path.clear()
         return len(paths)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numDistinctIslands(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -186,7 +193,9 @@ func numDistinctIslands(grid [][]int) int {
 	return len(paths)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numDistinctIslands(grid: number[][]): number {
     const m = grid.length;
@@ -217,6 +226,7 @@ function numDistinctIslands(grid: number[][]): number {
     return paths.size;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

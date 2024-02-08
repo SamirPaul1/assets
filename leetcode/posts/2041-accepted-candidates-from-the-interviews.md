@@ -108,6 +108,7 @@ Rounds table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT candidate_id
@@ -118,6 +119,7 @@ WHERE years_of_exp >= 2
 GROUP BY c.interview_id
 HAVING SUM(score) > 15;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

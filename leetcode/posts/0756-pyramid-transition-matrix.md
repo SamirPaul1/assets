@@ -68,6 +68,7 @@ Starting from the bottom (level 4), there are multiple ways to build level 3, bu
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
@@ -88,7 +89,9 @@ class Solution:
             d[a, b].append(c)
         return dfs(bottom)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] f = new int[7][7];
@@ -130,7 +133,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func pyramidTransition(bottom string, allowed []string) bool {
 	f := make([][]int, 7)
@@ -214,6 +221,7 @@ func pyramidTransition(bottom string, allowed []string) bool {
 	return dfs(bottom, []byte{})
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

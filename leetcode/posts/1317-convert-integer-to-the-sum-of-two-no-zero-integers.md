@@ -63,6 +63,7 @@ Note that there are other valid answers as [8, 3] that can be accepted.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getNoZeroIntegers(self, n: int) -> List[int]:
@@ -71,7 +72,9 @@ class Solution:
             if "0" not in str(a) + str(b):
                 return [a, b]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getNoZeroIntegers(int n) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getNoZeroIntegers(n int) []int {
 	for a := 1; ; a++ {
@@ -109,6 +116,7 @@ func getNoZeroIntegers(n int) []int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -116,6 +124,7 @@ func getNoZeroIntegers(n int) []int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getNoZeroIntegers(self, n: int) -> List[int]:
@@ -131,7 +140,9 @@ class Solution:
             if f(a) and f(b):
                 return [a, b]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getNoZeroIntegers(int n) {
@@ -153,7 +164,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +188,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getNoZeroIntegers(n int) []int {
 	f := func(x int) bool {
@@ -194,6 +209,7 @@ func getNoZeroIntegers(n int) []int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

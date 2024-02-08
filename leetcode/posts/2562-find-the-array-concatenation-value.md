@@ -101,6 +101,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheArrayConcVal(self, nums: List[int]) -> int:
@@ -113,7 +114,9 @@ class Solution:
             ans += nums[i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long findTheArrayConcVal(int[] nums) {
@@ -129,7 +132,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheArrayConcVal(nums []int) (ans int64) {
 	i, j := 0, len(nums)-1
@@ -160,7 +167,9 @@ func findTheArrayConcVal(nums []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheArrayConcVal(nums: number[]): number {
     const n = nums.length;
@@ -178,7 +187,9 @@ function findTheArrayConcVal(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_array_conc_val(nums: Vec<i32>) -> i64 {
@@ -198,7 +209,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int getLen(int num) {
     int res = 0;
@@ -224,6 +237,7 @@ long long findTheArrayConcVal(int* nums, int numsSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -231,6 +245,7 @@ long long findTheArrayConcVal(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_array_conc_val(nums: Vec<i32>) -> i64 {
@@ -251,6 +266,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

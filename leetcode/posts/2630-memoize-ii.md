@@ -82,6 +82,7 @@ Merging two empty objects will always result in an empty object. The 2nd and 3rd
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Fn = (...params: any) => any;
 
@@ -116,6 +117,7 @@ function memoize(fn: Fn): Fn {
  * console.log(callCount) // 1
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

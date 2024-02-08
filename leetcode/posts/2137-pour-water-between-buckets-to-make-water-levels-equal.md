@@ -72,6 +72,7 @@ All buckets have 3.5 gallons of water in them so return 3.5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def equalizeWater(self, buckets: List[int], loss: int) -> float:
@@ -93,7 +94,9 @@ class Solution:
                 r = mid
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double equalizeWater(int[] buckets, int loss) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func equalizeWater(buckets []int, loss int) float64 {
 	check := func(v float64) bool {
@@ -179,7 +186,9 @@ func equalizeWater(buckets []int, loss int) float64 {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function equalizeWater(buckets: number[], loss: number): number {
     let l = 0;
@@ -206,6 +215,7 @@ function equalizeWater(buckets: number[], loss: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

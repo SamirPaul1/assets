@@ -1,6 +1,5 @@
 # [2994. Friday Purchases II](https://leetcode.com/problems/friday-purchases-ii)
 
-[中文文档](/solution/2900-2999/2994.Friday%20Purchases%20II/README.md)
 
 ## Description
 

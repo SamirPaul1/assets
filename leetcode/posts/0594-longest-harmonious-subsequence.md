@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 ans = max(ans, counter[num] + counter[num + 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLHS(int[] nums) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLHS(nums []int) int {
 	counter := make(map[int]int)
@@ -125,6 +132,7 @@ func findLHS(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -132,6 +140,7 @@ func findLHS(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
@@ -141,6 +150,7 @@ class Solution:
             default=0,
         )
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

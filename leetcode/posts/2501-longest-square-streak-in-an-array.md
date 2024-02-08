@@ -65,6 +65,7 @@ It can be shown that every subsequence of length 4 is not a square streak.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestSquareStreak(self, nums: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
                 ans = max(ans, t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestSquareStreak(int[] nums) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestSquareStreak(nums []int) int {
 	s := map[int]bool{}
@@ -143,6 +150,7 @@ func longestSquareStreak(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -150,6 +158,7 @@ func longestSquareStreak(nums []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestSquareStreak(self, nums: List[int]) -> int:
@@ -163,7 +172,9 @@ class Solution:
         ans = max(dfs(x) for x in nums)
         return -1 if ans < 2 else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Integer> f = new HashMap<>();
@@ -193,7 +204,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -214,7 +227,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestSquareStreak(nums []int) (ans int) {
 	s := map[int]bool{}
@@ -244,6 +259,7 @@ func longestSquareStreak(nums []int) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -92,6 +92,7 @@ The second minimum time path is 1 -&gt; 2 -&gt; 1 -&gt; 2 with time = 11 minutes
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def secondMinimum(
@@ -122,7 +123,9 @@ class Solution:
                 ans = (ans + change) // change * change
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int secondMinimum(int n, int[][] edges, int time, int change) {
@@ -167,6 +170,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

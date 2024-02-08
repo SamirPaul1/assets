@@ -93,6 +93,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$, where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, nums1: List[int], nums2: List[int], x: int) -> int:
@@ -110,7 +111,9 @@ class Solution:
                 return j
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTime(List<Integer> nums1, List<Integer> nums2, int x) {
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +185,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(nums1 []int, nums2 []int, x int) int {
 	n := len(nums1)
@@ -214,7 +221,9 @@ func minimumTime(nums1 []int, nums2 []int, x int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTime(nums1: number[], nums2: number[], x: number): number {
     const n = nums1.length;
@@ -245,6 +254,7 @@ function minimumTime(nums1: number[], nums2: number[], x: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -252,6 +262,7 @@ We notice that the state $f[i][j]$ is only related to $f[i-1][j]$ and $f[i-1][j-
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, nums1: List[int], nums2: List[int], x: int) -> int:
@@ -267,7 +278,9 @@ class Solution:
                 return j
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTime(List<Integer> nums1, List<Integer> nums2, int x) {
@@ -301,7 +314,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -330,7 +345,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(nums1 []int, nums2 []int, x int) int {
 	n := len(nums1)
@@ -358,7 +375,9 @@ func minimumTime(nums1 []int, nums2 []int, x int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumTime(nums1: number[], nums2: number[], x: number): number {
     const n = nums1.length;
@@ -383,6 +402,7 @@ function minimumTime(nums1: number[], nums2: number[], x: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

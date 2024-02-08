@@ -65,6 +65,7 @@ The time complexity is $O(\sqrt{num})$, and the space complexity is $O(1)$. Wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closestDivisors(self, num: int) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
         b = f(num + 2)
         return a if abs(a[0] - a[1]) < abs(b[0] - b[1]) else b
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] closestDivisors(int num) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestDivisors(num int) []int {
 	f := func(x int) []int {
@@ -137,6 +144,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

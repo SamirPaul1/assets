@@ -68,6 +68,7 @@ The absolute difference is abs(-4 - (-5)) = abs(1) = 1, which is the minimum.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAbsDifference(self, nums: List[int], goal: int) -> int:
@@ -102,7 +103,9 @@ class Solution:
         self.getSubSeqSum(i + 1, curr, arr, result)
         self.getSubSeqSum(i + 1, curr + arr[i], arr, result)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAbsDifference(int[] nums, int goal) {
@@ -148,7 +151,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +201,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAbsDifference(nums []int, goal int) int {
 	n := len(nums)
@@ -248,6 +255,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -255,6 +263,7 @@ func abs(x int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minAbsDifference(self, nums: List[int], goal: int) -> int:
@@ -280,7 +289,9 @@ class Solution:
                 ans = min(ans, abs(x - right[i - 1]))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minAbsDifference(int[] nums, int goal) {
@@ -323,7 +334,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -355,7 +368,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minAbsDifference(nums []int, goal int) int {
 	n := len(nums)
@@ -402,6 +417,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

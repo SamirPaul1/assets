@@ -112,6 +112,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string. We only ne
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def myAtoi(self, s: str) -> int:
@@ -142,7 +143,9 @@ class Solution:
             i += 1
         return sign * res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int myAtoi(String s) {
@@ -170,7 +173,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func myAtoi(s string) int {
 	i, n := 0, len(s)
@@ -208,7 +213,9 @@ func myAtoi(s string) int {
 	return sign * num
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 const myAtoi = function (str) {
     str = str.trim();
@@ -235,7 +242,9 @@ const myAtoi = function (str) {
     return isPositive ? ans : -ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 ﻿// https://leetcode.com/problems/string-to-integer-atoi/
 
@@ -284,7 +293,9 @@ public partial class Solution
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -304,6 +315,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

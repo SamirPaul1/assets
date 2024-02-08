@@ -59,6 +59,7 @@ The time complexity is $O(n \times 10)$, and the space complexity is $O(n \times
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRepeatedDnaSequences(self, s: str) -> List[str]:
@@ -71,7 +72,9 @@ class Solution:
                 ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> findRepeatedDnaSequences(String s) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRepeatedDnaSequences(s string) (ans []string) {
 	cnt := map[string]int{}
@@ -118,7 +125,9 @@ func findRepeatedDnaSequences(s string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findRepeatedDnaSequences(s: string): string[] {
     const n = s.length;
@@ -134,7 +143,9 @@ function findRepeatedDnaSequences(s: string): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -157,7 +168,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -176,7 +189,9 @@ var findRepeatedDnaSequences = function (s) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<string> FindRepeatedDnaSequences(string s) {
@@ -195,6 +210,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +222,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRepeatedDnaSequences(s string) []string {
 	hashCode := map[byte]int{'A': 0, 'C': 1, 'G': 2, 'T': 3}
@@ -226,6 +243,7 @@ func findRepeatedDnaSequences(s string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

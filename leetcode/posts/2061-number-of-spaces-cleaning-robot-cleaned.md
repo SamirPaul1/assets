@@ -74,6 +74,7 @@ The robot has cleaned 1 space, so return 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfCleanRooms(self, room: List[List[int]]) -> int:
@@ -96,7 +97,9 @@ class Solution:
         dfs(0, 0, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private boolean[][][] vis;
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfCleanRooms(room [][]int) (ans int) {
 	m, n := len(room), len(room[0])
@@ -186,6 +193,7 @@ func numberOfCleanRooms(room [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -193,6 +201,7 @@ func numberOfCleanRooms(room [][]int) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfCleanRooms(self, room: List[List[int]]) -> int:
@@ -211,7 +220,9 @@ class Solution:
                 k = (k + 1) % 4
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfCleanRooms(int[][] room) {
@@ -236,7 +247,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +276,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfCleanRooms(room [][]int) (ans int) {
 	m, n := len(room), len(room[0])
@@ -289,6 +304,7 @@ func numberOfCleanRooms(room [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

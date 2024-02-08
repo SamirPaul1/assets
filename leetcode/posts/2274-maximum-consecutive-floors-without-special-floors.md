@@ -61,6 +61,7 @@ Therefore, we return the maximum number which is 3 floors.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxConsecutive(self, bottom: int, top: int, special: List[int]) -> int:
@@ -70,7 +71,9 @@ class Solution:
             ans = max(ans, special[i] - special[i - 1] - 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxConsecutive(int bottom, int top, int[] special) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxConsecutive(bottom: number, top: number, special: number[]): number {
     let nums = special.slice().sort((a, b) => a - b);
@@ -98,6 +103,7 @@ function maxConsecutive(bottom: number, top: number, special: number[]): number 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

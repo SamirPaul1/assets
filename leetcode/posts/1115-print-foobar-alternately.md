@@ -87,6 +87,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from threading import Semaphore
 
@@ -111,7 +112,9 @@ class FooBar:
             printBar()
             self.f.release()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FooBar {
     private int n;
@@ -141,7 +144,9 @@ class FooBar {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 #include <semaphore.h>
 
@@ -176,6 +181,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

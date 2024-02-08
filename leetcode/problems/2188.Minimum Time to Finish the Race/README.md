@@ -1,6 +1,5 @@
 # [2188. Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race)
 
-[中文文档](/solution/2100-2199/2188.Minimum%20Time%20to%20Finish%20the%20Race/README.md)
 
 ## Description
 

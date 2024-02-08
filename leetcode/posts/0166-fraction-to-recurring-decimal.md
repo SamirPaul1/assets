@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
@@ -91,7 +92,9 @@ class Solution:
                 break
         return ''.join(res)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String fractionToDecimal(int numerator, int denominator) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using LL = long long;
 
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func fractionToDecimal(numerator int, denominator int) string {
 	if numerator == 0 {
@@ -203,7 +210,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 ﻿// https://leetcode.com/problems/fraction-to-recurring-decimal/
 
@@ -263,6 +272,7 @@ public partial class Solution
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

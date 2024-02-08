@@ -60,6 +60,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $perm$. Igno
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decode(self, encoded: List[int]) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
             perm[i] = encoded[i] ^ perm[i + 1]
         return perm
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] decode(int[] encoded) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func decode(encoded []int) []int {
 	n := len(encoded) + 1
@@ -137,6 +144,7 @@ func decode(encoded []int) []int {
 	return perm
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

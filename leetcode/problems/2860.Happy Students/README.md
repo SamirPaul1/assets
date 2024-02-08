@@ -1,6 +1,5 @@
 # [2860. Happy Students](https://leetcode.com/problems/happy-students)
 
-[中文文档](/solution/2800-2899/2860.Happy%20Students/README.md)
 
 ## Description
 

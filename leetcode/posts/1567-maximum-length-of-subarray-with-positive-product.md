@@ -64,6 +64,7 @@ Notice that we cannot include 0 in the subarray since that&#39;ll make the produ
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaxLen(self, nums: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             res = max(res, f1)
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getMaxLen(int[] nums) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaxLen(nums []int) int {
 	f1, f2 := 0, 0
@@ -177,7 +184,9 @@ func getMaxLen(nums []int) int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaxLen(nums: number[]): number {
     // 连续正数计数n1, 连续负数计数n2
@@ -202,6 +211,7 @@ function getMaxLen(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -102,6 +102,7 @@ At t=900, the 3rd function resolves. Pool size is 0 so the returned promise reso
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type F = () => Promise<any>;
 
@@ -117,6 +118,7 @@ function promisePool(functions: F[], n: number): Promise<any> {
     return Promise.all(running.map(fn => fn()));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

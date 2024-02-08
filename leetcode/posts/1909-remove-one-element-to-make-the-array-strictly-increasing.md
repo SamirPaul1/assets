@@ -68,6 +68,7 @@ No resulting array is strictly increasing, so return false.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canBeIncreasing(self, nums: List[int]) -> bool:
@@ -86,7 +87,9 @@ class Solution:
             i += 1
         return check(nums, i - 1) or check(nums, i)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canBeIncreasing(int[] nums) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canBeIncreasing(nums []int) bool {
 	i, n := 1, len(nums)
@@ -157,7 +164,9 @@ func check(nums []int, i int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canBeIncreasing(nums: number[]): boolean {
     const check = (p: number) => {
@@ -180,7 +189,9 @@ function canBeIncreasing(nums: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn can_be_increasing(nums: Vec<i32>) -> bool {
@@ -207,6 +218,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -52,13 +52,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sumOfThree(self, num: int) -> List[int]:
         x, mod = divmod(num, 3)
         return [] if mod else [x - 1, x, x + 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long[] sumOfThree(long num) {
@@ -70,7 +73,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -83,7 +88,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sumOfThree(num int64) []int64 {
 	if num%3 != 0 {
@@ -93,7 +100,9 @@ func sumOfThree(num int64) []int64 {
 	return []int64{x - 1, x, x + 1}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sumOfThree(num: number): number[] {
     if (num % 3) {
@@ -103,6 +112,7 @@ function sumOfThree(num: number): number[] {
     return [x - 1, x, x + 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -86,6 +86,7 @@ The single function was resolved at 200ms with a value of 5.
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 async function promiseAll<T>(functions: (() => Promise<T>)[]): Promise<T[]> {
     return new Promise<T[]>((resolve, reject) => {
@@ -113,6 +114,7 @@ async function promiseAll<T>(functions: (() => Promise<T>)[]): Promise<T[]> {
  * promise.then(console.log); // [42]
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -72,6 +72,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. Ignoring th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPeaks(self, mountain: List[int]) -> List[int]:
@@ -81,7 +82,9 @@ class Solution:
             if mountain[i - 1] < mountain[i] > mountain[i + 1]
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findPeaks(int[] mountain) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPeaks(mountain []int) (ans []int) {
 	for i := 1; i < len(mountain)-1; i++ {
@@ -121,7 +128,9 @@ func findPeaks(mountain []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findPeaks(mountain: number[]): number[] {
     const ans: number[] = [];
@@ -133,6 +142,7 @@ function findPeaks(mountain: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2301. Match Substring After Replacement](https://leetcode.com/problems/match-substring-after-replacement)
 
-[中文文档](/solution/2300-2399/2301.Match%20Substring%20After%20Replacement/README.md)
 
 ## Description
 

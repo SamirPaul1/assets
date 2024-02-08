@@ -82,6 +82,7 @@ You can skip the first and third rest to arrive in ((7/2 + <u>0</u>) + (3/2 + 0)
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSkips(self, dist: List[int], speed: int, hoursBefore: int) -> int:
@@ -100,7 +101,9 @@ class Solution:
                 return j
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSkips(int[] dist, int speed, int hoursBefore) {
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -159,7 +164,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSkips(dist []int, speed int, hoursBefore int) int {
 	n := len(dist)
@@ -190,7 +197,9 @@ func minSkips(dist []int, speed int, hoursBefore int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSkips(dist: number[], speed: number, hoursBefore: number): number {
     const n = dist.length;
@@ -215,6 +224,7 @@ function minSkips(dist: number[], speed: number, hoursBefore: number): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -222,6 +232,7 @@ function minSkips(dist: number[], speed: number, hoursBefore: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSkips(self, dist: List[int], speed: int, hoursBefore: int) -> int:
@@ -239,6 +250,7 @@ class Solution:
                 return j
         return -1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

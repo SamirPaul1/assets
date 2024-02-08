@@ -80,6 +80,7 @@ Out of the three users, only User 3 is eligible for a discount.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 CREATE PROCEDURE getUserIDs(startDate DATE, endDate DATE, minAmount INT)
 BEGIN
@@ -90,6 +91,7 @@ BEGIN
     ORDER BY user_id;
 END;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

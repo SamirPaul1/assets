@@ -69,6 +69,7 @@ It takes 4 minutes for the whole tree to be infected so we return 4.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -105,7 +106,9 @@ class Solution:
                         q.append(j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -165,7 +168,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -218,7 +223,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -267,7 +274,9 @@ func amountOfTime(root *TreeNode, start int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -310,6 +319,7 @@ function amountOfTime(root: TreeNode | null, start: number): number {
     return dfs(start, -1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -317,6 +327,7 @@ function amountOfTime(root: TreeNode | null, start: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -349,7 +360,9 @@ class Solution:
         dfs(root)
         return dfs2(start, -1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -401,7 +414,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -448,7 +463,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -492,6 +509,7 @@ func amountOfTime(root *TreeNode, start int) int {
 	return dfs2(start, -1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

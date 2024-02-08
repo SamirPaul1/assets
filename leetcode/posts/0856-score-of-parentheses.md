@@ -70,6 +70,7 @@ We use $d$ to maintain the current depth of parentheses. For each `(`, we increa
 
 Let's take `(()(()))` as an example. We first find the two closed parentheses `()` inside, and then add the corresponding $2^d$ to the score. In fact, we are calculating the score of `(()) + ((()))`.
 
+{{< terminal title="Bash Code" >}}
 ```bash
 ( ( ) ( ( ) ) )
   ^ ^   ^ ^
@@ -77,6 +78,7 @@ Let's take `(()(()))` as an example. We first find the two closed parentheses `(
 ( ( ) ) + ( ( ( ) ) )
   ^ ^         ^ ^
 ```
+{{< /terminal >}}
 
 The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is the length of the string.
 
@@ -91,6 +93,7 @@ Related problems about parentheses:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def scoreOfParentheses(self, s: str) -> int:
@@ -104,7 +107,9 @@ class Solution:
                     ans += 1 << d
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int scoreOfParentheses(String s) {
@@ -123,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func scoreOfParentheses(s string) int {
 	ans, d := 0, 0
@@ -160,6 +169,7 @@ func scoreOfParentheses(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

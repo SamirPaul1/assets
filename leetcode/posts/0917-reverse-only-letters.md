@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseOnlyLetters(self, s: str) -> str:
@@ -69,7 +70,9 @@ class Solution:
                 i, j = i + 1, j - 1
         return ''.join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String reverseOnlyLetters(String s) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseOnlyLetters(s string) string {
 	ans := []rune(s)
@@ -134,7 +141,9 @@ func reverseOnlyLetters(s string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function reverseOnlyLetters(s: string): string {
     const n = s.length;
@@ -151,7 +160,9 @@ function reverseOnlyLetters(s: string): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_only_letters(s: String) -> String {
@@ -174,6 +185,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

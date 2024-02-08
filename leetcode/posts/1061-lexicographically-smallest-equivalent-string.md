@@ -82,6 +82,7 @@ So only the second letter &#39;o&#39; in baseStr is changed to &#39;d&#39;, the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestEquivalentString(self, s1: str, s2: str, baseStr: str) -> str:
@@ -106,7 +107,9 @@ class Solution:
             res.append(chr(find(a) + ord('a')))
         return ''.join(res)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -174,7 +179,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var p []int
 
@@ -207,6 +214,7 @@ func find(x int) int {
 	return p[x]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

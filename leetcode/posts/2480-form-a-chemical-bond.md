@@ -90,6 +90,7 @@ Each Metal element pairs with a Nonmetal element in the output table.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT a.symbol AS metal, b.symbol AS nonmetal
@@ -98,6 +99,7 @@ FROM
     Elements AS b
 WHERE a.type = 'Metal' AND b.type = 'Nonmetal';
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

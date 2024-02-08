@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countGoodNumbers(self, n: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
 
         return myPow(5, (n + 1) >> 1) * myPow(4, n >> 1) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int mod = 1000000007;
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int MOD = 1000000007;
 
@@ -127,7 +132,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 const mod int64 = 1e9 + 7
 
@@ -147,6 +154,7 @@ func myPow(x, n int64) int64 {
 	return res
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

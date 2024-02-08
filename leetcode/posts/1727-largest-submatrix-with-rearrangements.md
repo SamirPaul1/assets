@@ -66,6 +66,7 @@ The largest submatrix of 1s, in bold, has an area of 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestSubmatrix(self, matrix: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 ans = max(ans, j * v)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestSubmatrix(int[][] matrix) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestSubmatrix(matrix [][]int) int {
 	m, n := len(matrix), len(matrix[0])
@@ -149,7 +156,9 @@ func largestSubmatrix(matrix [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestSubmatrix(matrix: number[][]): number {
     for (let column = 0; column < matrix[0].length; column++) {
@@ -188,6 +197,7 @@ function largestSubmatrix(matrix: number[][]): number {
     return maxSubmatrixArea;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -68,6 +68,7 @@ mapSum.sum(&quot;ap&quot;);           // return 5 (<u>ap</u>ple + <u>ap</u>p = 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -112,7 +113,9 @@ class MapSum:
 # obj.insert(key,val)
 # param_2 = obj.sum(prefix)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[26];
@@ -168,7 +171,9 @@ class MapSum {
  * int param_2 = obj.sum(prefix);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -232,7 +237,9 @@ private:
  * int param_2 = obj->sum(prefix);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type trie struct {
 	children [26]*trie
@@ -287,7 +294,9 @@ func (this *MapSum) Sum(prefix string) int {
  * param_2 := obj.Sum(prefix);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     children: Trie[];
@@ -349,6 +358,7 @@ class MapSum {
  * var param_2 = obj.sum(prefix)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -56,12 +56,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMoves(self, nums: List[int]) -> int:
         return sum(nums) - min(nums) * len(nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMoves(int[] nums) {
@@ -69,7 +72,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -84,7 +89,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMoves(nums []int) int {
 	mi := 1 << 30
@@ -98,7 +105,9 @@ func minMoves(nums []int) int {
 	return s - mi*len(nums)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMoves(nums: number[]): number {
     let mi = 1 << 30;
@@ -110,6 +119,7 @@ function minMoves(nums: number[]): number {
     return s - mi * nums.length;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -117,6 +127,7 @@ function minMoves(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minMoves(int[] nums) {
@@ -130,6 +141,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

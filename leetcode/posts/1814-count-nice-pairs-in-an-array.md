@@ -68,6 +68,7 @@ The time complexity is $O(n \times \log M)$, where $n$ and $M$ are the length of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countNicePairs(self, nums: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
         mod = 10**9 + 7
         return sum(v * (v - 1) // 2 for v in cnt.values()) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countNicePairs(int[] nums) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countNicePairs(nums []int) (ans int) {
 	rev := func(x int) (y int) {
@@ -155,7 +162,9 @@ func countNicePairs(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countNicePairs(nums: number[]): number {
     const rev = (x: number): number => {
@@ -177,7 +186,9 @@ function countNicePairs(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -204,7 +215,9 @@ var countNicePairs = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CountNicePairs(int[] nums) {
@@ -231,6 +244,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -238,6 +252,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countNicePairs(self, nums: List[int]) -> int:
@@ -257,7 +272,9 @@ class Solution:
             cnt[y] += 1
         return ans % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countNicePairs(int[] nums) {
@@ -281,7 +298,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -304,7 +323,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countNicePairs(nums []int) (ans int) {
 	rev := func(x int) (y int) {
@@ -323,7 +344,9 @@ func countNicePairs(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -349,6 +372,7 @@ var countNicePairs = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

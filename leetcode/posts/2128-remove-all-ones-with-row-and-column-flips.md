@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeOnes(self, grid: List[List[int]]) -> bool:
@@ -77,7 +78,9 @@ class Solution:
             s.add(t)
         return len(s) == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean removeOnes(int[][] grid) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeOnes(grid [][]int) bool {
 	s := map[string]bool{}
@@ -128,7 +135,9 @@ func removeOnes(grid [][]int) bool {
 	return len(s) == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeOnes(grid: number[][]): boolean {
     const s = new Set<string>();
@@ -144,6 +153,7 @@ function removeOnes(grid: number[][]): boolean {
     return s.size === 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

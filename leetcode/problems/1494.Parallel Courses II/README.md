@@ -1,6 +1,5 @@
 # [1494. Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii)
 
-[中文文档](/solution/1400-1499/1494.Parallel%20Courses%20II/README.md)
 
 ## Description
 

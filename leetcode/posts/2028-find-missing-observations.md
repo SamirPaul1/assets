@@ -77,6 +77,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(1)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def missingRolls(self, rolls: List[int], mean: int, n: int) -> List[int]:
@@ -89,7 +90,9 @@ class Solution:
             ans[i] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] missingRolls(int[] rolls, int mean, int n) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func missingRolls(rolls []int, mean int, n int) []int {
 	m := len(rolls)
@@ -146,7 +153,9 @@ func missingRolls(rolls []int, mean int, n int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function missingRolls(rolls: number[], mean: number, n: number): number[] {
     const len = rolls.length + n;
@@ -178,7 +187,9 @@ function missingRolls(rolls: number[], mean: number, n: number): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn missing_rolls(rolls: Vec<i32>, mean: i32, n: i32) -> Vec<i32> {
@@ -215,6 +226,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

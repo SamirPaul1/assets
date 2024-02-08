@@ -73,6 +73,7 @@ Patients table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     patient_id,
@@ -81,6 +82,7 @@ SELECT
 FROM patients
 WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%';
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

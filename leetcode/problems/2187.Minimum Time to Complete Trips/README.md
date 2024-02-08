@@ -1,6 +1,5 @@
 # [2187. Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips)
 
-[中文文档](/solution/2100-2199/2187.Minimum%20Time%20to%20Complete%20Trips/README.md)
 
 ## Description
 

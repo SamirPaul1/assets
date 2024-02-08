@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
@@ -96,7 +97,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findRadius(int[] houses, int[] heaters) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findRadius(houses []int, heaters []int) int {
 	sort.Ints(houses)
@@ -187,7 +194,9 @@ func findRadius(houses []int, heaters []int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findRadius(houses: number[], heaters: number[]): number {
     houses.sort((a, b) => a - b);
@@ -208,6 +217,7 @@ function findRadius(houses: number[], heaters: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

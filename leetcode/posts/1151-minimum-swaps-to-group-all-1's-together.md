@@ -68,6 +68,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSwaps(self, data: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
             mx = max(mx, t)
         return k - mx
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSwaps(int[] data) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSwaps(data []int) int {
 	k := 0
@@ -145,7 +152,9 @@ func minSwaps(data []int) int {
 	return k - mx
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSwaps(data: number[]): number {
     const k = data.reduce((acc, cur) => acc + cur, 0);
@@ -158,6 +167,7 @@ function minSwaps(data: number[]): number {
     return k - mx;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2543. Check if Point Is Reachable](https://leetcode.com/problems/check-if-point-is-reachable)
 
-[中文文档](/solution/2500-2599/2543.Check%20if%20Point%20Is%20Reachable/README.md)
 
 ## Description
 

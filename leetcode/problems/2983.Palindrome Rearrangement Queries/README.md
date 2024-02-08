@@ -1,6 +1,5 @@
 # [2983. Palindrome Rearrangement Queries](https://leetcode.com/problems/palindrome-rearrangement-queries)
 
-[中文文档](/solution/2900-2999/2983.Palindrome%20Rearrangement%20Queries/README.md)
 
 ## Description
 

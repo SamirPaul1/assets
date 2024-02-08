@@ -66,6 +66,7 @@ The time complexity is approximately $O(\log n)$, and the space complexity is $O
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
@@ -87,7 +88,9 @@ class Solution:
                 r -= 1
         return nums[l] == target
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean search(int[] nums, int target) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func search(nums []int, target int) bool {
 	l, r := 0, len(nums)-1
@@ -167,7 +174,9 @@ func search(nums []int, target int) bool {
 	return nums[l] == target
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function search(nums: number[], target: number): boolean {
     let [l, r] = [0, nums.length - 1];
@@ -192,6 +201,7 @@ function search(nums: number[], target: number): boolean {
     return nums[l] === target;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

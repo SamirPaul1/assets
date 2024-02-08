@@ -65,6 +65,7 @@ Among them, only integer 3 disobeys the rule (two consecutive ones) and the othe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findIntegers(self, n: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
             n >>= 1
         return dfs(l, 0, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] a = new int[33];
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -165,7 +170,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findIntegers(n int) int {
 	a := make([]int, 33)
@@ -205,6 +212,7 @@ func findIntegers(n int) int {
 	return dfs(l, 0, true)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -85,6 +85,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for polynomial singly-linked list.
 # class PolyNode:
@@ -115,7 +116,9 @@ class Solution:
         curr.next = poly1 or poly2
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for polynomial singly-linked list.
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for polynomial singly-linked list->
@@ -210,7 +215,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for polynomial singly-linked list.
@@ -252,7 +259,9 @@ var addPoly = function (poly1, poly2) {
     return dummy.next;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Definition for polynomial singly-linked list.
@@ -301,6 +310,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

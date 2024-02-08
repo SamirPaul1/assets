@@ -85,6 +85,7 @@ The time complexity is $O(n \times \log m)$, where $m$ and $n$ are the number of
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPeakGrid(self, mat: List[List[int]]) -> List[int]:
@@ -98,7 +99,9 @@ class Solution:
                 l = mid + 1
         return [l, mat[l].index(max(mat[l]))]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findPeakGrid(int[][] mat) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPeakGrid(mat [][]int) []int {
 	maxPos := func(arr []int) int {
@@ -172,7 +179,9 @@ func findPeakGrid(mat [][]int) []int {
 	return []int{l, maxPos(mat[l])}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findPeakGrid(mat: number[][]): number[] {
     let [l, r] = [0, mat.length - 1];
@@ -188,7 +197,9 @@ function findPeakGrid(mat: number[][]): number[] {
     return [l, mat[l].indexOf(Math.max(...mat[l]))];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_peak_grid(mat: Vec<Vec<i32>>) -> Vec<i32> {
@@ -214,6 +225,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

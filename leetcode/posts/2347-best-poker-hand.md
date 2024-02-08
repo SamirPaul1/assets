@@ -77,6 +77,7 @@ Note that we cannot make a &quot;Flush&quot; or a &quot;Three of a Kind&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def bestHand(self, ranks: List[int], suits: List[str]) -> str:
@@ -90,7 +91,9 @@ class Solution:
             return 'Pair'
         return 'High Card'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String bestHand(int[] ranks, char[] suits) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func bestHand(ranks []int, suits []byte) string {
 	flush := true
@@ -162,7 +169,9 @@ func bestHand(ranks []int, suits []byte) string {
 	return "High Card"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function bestHand(ranks: number[], suits: string[]): string {
     if (suits.every(v => v === suits[0])) {
@@ -182,7 +191,9 @@ function bestHand(ranks: number[], suits: string[]): string {
     return 'High Card';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn best_hand(ranks: Vec<i32>, suits: Vec<char>) -> String {
@@ -203,7 +214,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* bestHand(int* ranks, int ranksSize, char* suits, int suitsSize) {
     bool isFlush = true;
@@ -230,6 +243,7 @@ char* bestHand(int* ranks, int ranksSize, char* suits, int suitsSize) {
     return "High Card";
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2574. Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences)
 
-[中文文档](/solution/2500-2599/2574.Left%20and%20Right%20Sum%20Differences/README.md)
 
 ## Description
 

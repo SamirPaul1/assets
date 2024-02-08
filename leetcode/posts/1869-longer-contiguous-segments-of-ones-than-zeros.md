@@ -79,6 +79,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkZeroOnes(self, s: str) -> bool:
@@ -94,7 +95,9 @@ class Solution:
 
         return f("1") > f("0")
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkZeroOnes(String s) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkZeroOnes(s string) bool {
 	f := func(x rune) int {
@@ -152,7 +159,9 @@ func checkZeroOnes(s string) bool {
 	return f('1') > f('0')
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkZeroOnes(s: string): boolean {
     const f = (x: string): number => {
@@ -169,7 +178,9 @@ function checkZeroOnes(s: string): boolean {
     return f('1') > f('0');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -190,6 +201,7 @@ var checkZeroOnes = function (s) {
     return f('1') > f('0');
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

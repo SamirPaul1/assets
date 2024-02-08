@@ -68,6 +68,7 @@ There are a total of 2 lines, and the last line is 4 pixels wide.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfLines(self, widths: List[int], s: str) -> List[int]:
@@ -81,7 +82,9 @@ class Solution:
                 last = w
         return [row, last]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MAX_WIDTH = 100;
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfLines(widths []int, s string) []int {
 	last, row := 0, 1
@@ -138,7 +145,9 @@ func numberOfLines(widths []int, s string) []int {
 	return []int{row, last}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn number_of_lines(widths: Vec<i32>, s: String) -> Vec<i32> {
@@ -156,6 +165,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

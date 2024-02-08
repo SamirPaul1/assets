@@ -70,6 +70,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canReach(self, s: str, minJump: int, maxJump: int) -> bool:
@@ -84,7 +85,9 @@ class Solution:
             pre[i + 1] = pre[i] + f[i]
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canReach(String s, int minJump, int maxJump) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canReach(s string, minJump int, maxJump int) bool {
 	n := len(s)
@@ -150,7 +157,9 @@ func canReach(s string, minJump int, maxJump int) bool {
 	return f[n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canReach(s: string, minJump: number, maxJump: number): boolean {
     const n = s.length;
@@ -168,7 +177,9 @@ function canReach(s: string, minJump: number, maxJump: number): boolean {
     return f[n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -192,6 +203,7 @@ var canReach = function (s, minJump, maxJump) {
     return f[n - 1];
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

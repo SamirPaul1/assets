@@ -80,6 +80,7 @@ The target triplet [5,5,5] is now an element of triplets.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mergeTriplets(self, triplets: List[List[int]], target: List[int]) -> bool:
@@ -92,7 +93,9 @@ class Solution:
                 f = max(f, c)
         return [d, e, f] == target
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean mergeTriplets(int[][] triplets, int[] target) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mergeTriplets(triplets [][]int, target []int) bool {
 	x, y, z := target[0], target[1], target[2]
@@ -145,7 +152,9 @@ func mergeTriplets(triplets [][]int, target []int) bool {
 	return d == x && e == y && f == z
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mergeTriplets(triplets: number[][], target: number[]): boolean {
     const [x, y, z] = target;
@@ -160,6 +169,7 @@ function mergeTriplets(triplets: number[][], target: number[]): boolean {
     return d === x && e === y && f === z;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

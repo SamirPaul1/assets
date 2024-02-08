@@ -68,6 +68,7 @@ Each word would be put on only one column and that in one column there will be o
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def printVertically(self, s: str) -> List[str]:
@@ -81,7 +82,9 @@ class Solution:
             ans.append(''.join(t))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> printVertically(String s) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func printVertically(s string) (ans []string) {
 	words := strings.Split(s, " ")
@@ -158,6 +165,7 @@ func printVertically(s string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -85,6 +85,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function* cycleGenerator(arr: number[], startIndex: number): Generator<number, void, number> {
     const n = arr.length;
@@ -101,6 +102,7 @@ function* cycleGenerator(arr: number[], startIndex: number): Generator<number, v
  *  gen.next(6).value // 5
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

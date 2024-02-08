@@ -67,6 +67,7 @@ Note that different sequences are counted as different combinations.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
                     f[i] += f[i - x]
         return f[target]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int combinationSum4(int[] nums, int target) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func combinationSum4(nums []int, target int) int {
 	f := make([]int, target+1)
@@ -128,7 +135,9 @@ func combinationSum4(nums []int, target int) int {
 	return f[target]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function combinationSum4(nums: number[], target: number): number {
     const f: number[] = new Array(target + 1).fill(0);
@@ -143,7 +152,9 @@ function combinationSum4(nums: number[], target: number): number {
     return f[target];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -163,7 +174,9 @@ var combinationSum4 = function (nums, target) {
     return f[target];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int CombinationSum4(int[] nums, int target) {
@@ -180,6 +193,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

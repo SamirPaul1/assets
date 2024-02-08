@@ -62,6 +62,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -79,7 +80,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<List<Integer>> ans = new ArrayList<>();
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsets(nums []int) (ans [][]int) {
 	t := []int{}
@@ -145,7 +152,9 @@ func subsets(nums []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subsets(nums: number[]): number[][] {
     const ans: number[][] = [];
@@ -164,7 +173,9 @@ function subsets(nums: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: usize, t: &mut Vec<i32>, res: &mut Vec<Vec<i32>>, nums: &Vec<i32>) {
@@ -185,6 +196,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -198,6 +210,7 @@ The time complexity is $O(n \times 2^n)$, and the space complexity is $O(n)$. He
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -207,7 +220,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
@@ -226,7 +241,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -246,7 +263,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subsets(nums []int) (ans [][]int) {
 	n := len(nums)
@@ -262,7 +281,9 @@ func subsets(nums []int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subsets(nums: number[]): number[][] {
     const n = nums.length;
@@ -279,6 +300,7 @@ function subsets(nums: number[]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isMajorityElement(self, nums: List[int], target: int) -> bool:
@@ -68,7 +69,9 @@ class Solution:
         right = bisect_right(nums, target)
         return right - left > len(nums) // 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isMajorityElement(int[] nums, int target) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isMajorityElement(nums []int, target int) bool {
 	left := sort.SearchInts(nums, target)
@@ -110,7 +117,9 @@ func isMajorityElement(nums []int, target int) bool {
 	return right-left > len(nums)/2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isMajorityElement(nums: number[], target: number): boolean {
     const search = (x: number) => {
@@ -131,6 +140,7 @@ function isMajorityElement(nums: number[], target: number): boolean {
     return right - left > nums.length >> 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -142,6 +152,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isMajorityElement(self, nums: List[int], target: int) -> bool:
@@ -149,7 +160,9 @@ class Solution:
         right = left + len(nums) // 2
         return right < len(nums) and nums[right] == target
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isMajorityElement(int[] nums, int target) {
@@ -173,7 +186,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -185,7 +200,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isMajorityElement(nums []int, target int) bool {
 	n := len(nums)
@@ -194,7 +211,9 @@ func isMajorityElement(nums []int, target int) bool {
 	return right < n && nums[right] == target
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isMajorityElement(nums: number[], target: number): boolean {
     const search = (x: number) => {
@@ -216,6 +235,7 @@ function isMajorityElement(nums: number[], target: number): boolean {
     return right < n && nums[right] === target;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

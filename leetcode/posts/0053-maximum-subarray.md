@@ -81,6 +81,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. We o
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
             ans = max(ans, f)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSubArray(nums []int) int {
 	ans, f := nums[0], nums[0]
@@ -128,7 +135,9 @@ func maxSubArray(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSubArray(nums: number[]): number {
     let [ans, f] = [nums[0], nums[0]];
@@ -139,7 +148,9 @@ function maxSubArray(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_sub_array(nums: Vec<i32>) -> i32 {
@@ -154,7 +165,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -169,7 +182,9 @@ var maxSubArray = function (nums) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaxSubArray(int[] nums) {
@@ -182,6 +197,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -189,6 +205,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
@@ -215,7 +232,9 @@ class Solution:
         left, right = 0, len(nums) - 1
         return maxSub(nums, left, right)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSubArray(int[] nums) {
@@ -247,6 +266,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

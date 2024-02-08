@@ -66,6 +66,7 @@ The time complexity is $O(n)$, where $n$ is the number of transactions. The spac
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumMoney(self, transactions: List[List[int]]) -> int:
@@ -78,7 +79,9 @@ class Solution:
                 ans = max(ans, s + a)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumMoney(int[][] transactions) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumMoney(transactions [][]int) int64 {
 	s, ans := 0, 0
@@ -135,6 +142,7 @@ func minimumMoney(transactions [][]int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [1965. Employees With Missing Information](https://leetcode.com/problems/employees-with-missing-information)
 
-[中文文档](/solution/1900-1999/1965.Employees%20With%20Missing%20Information/README.md)
 
 ## Description
 

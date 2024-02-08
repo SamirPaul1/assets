@@ -64,6 +64,7 @@ This demonstrated that taking the first 5 was a winning move for Alice, so we re
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGame(self, piles: List[int]) -> bool:
@@ -75,7 +76,9 @@ class Solution:
 
         return dfs(0, len(piles) - 1) > 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] piles;
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGame(piles []int) bool {
 	n := len(piles)
@@ -141,7 +148,9 @@ func stoneGame(piles []int) bool {
 	return dfs(0, n-1) > 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stoneGame(piles: number[]): boolean {
     const n = piles.length;
@@ -158,6 +167,7 @@ function stoneGame(piles: number[]): boolean {
     return dfs(0, n - 1) > 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -165,6 +175,7 @@ function stoneGame(piles: number[]): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGame(self, piles: List[int]) -> bool:
@@ -177,7 +188,9 @@ class Solution:
                 f[i][j] = max(piles[i] - f[i + 1][j], piles[j] - f[i][j - 1])
         return f[0][n - 1] > 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean stoneGame(int[] piles) {
@@ -195,7 +208,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -215,7 +230,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGame(piles []int) bool {
 	n := len(piles)
@@ -232,7 +249,9 @@ func stoneGame(piles []int) bool {
 	return f[0][n-1] > 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stoneGame(piles: number[]): boolean {
     const n = piles.length;
@@ -248,6 +267,7 @@ function stoneGame(piles: number[]): boolean {
     return f[0][n - 1] > 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

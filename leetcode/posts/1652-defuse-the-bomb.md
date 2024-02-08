@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decrypt(self, code: List[int], k: int) -> List[int]:
@@ -90,7 +91,9 @@ class Solution:
                     ans[i] += code[(j + n) % n]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] decrypt(int[] code, int k) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func decrypt(code []int, k int) []int {
 	n := len(code)
@@ -161,7 +168,9 @@ func decrypt(code []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function decrypt(code: number[], k: number): number[] {
     const n = code.length;
@@ -195,6 +204,7 @@ function decrypt(code: number[], k: number): number[] {
     return code;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -202,6 +212,7 @@ function decrypt(code: number[], k: number): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def decrypt(self, code: List[int], k: int) -> List[int]:
@@ -217,7 +228,9 @@ class Solution:
                 ans[i] = s[i + n] - s[i + k + n]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] decrypt(int[] code, int k) {
@@ -241,7 +254,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -266,7 +281,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func decrypt(code []int, k int) []int {
 	n := len(code)
@@ -288,6 +305,7 @@ func decrypt(code []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ So the total number of operations required is 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countOperations(self, num1: int, num2: int) -> int:
@@ -78,7 +79,9 @@ class Solution:
             ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countOperations(int num1, int num2) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countOperations(num1 int, num2 int) int {
 	ans := 0
@@ -124,7 +131,9 @@ func countOperations(num1 int, num2 int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countOperations(num1: number, num2: number): number {
     let ans = 0;
@@ -135,6 +144,7 @@ function countOperations(num1: number, num2: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -107,6 +107,7 @@ subrectangleQueries.getValue(2, 2); // return 20
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class SubrectangleQueries:
     def __init__(self, rectangle: List[List[int]]):
@@ -130,7 +131,9 @@ class SubrectangleQueries:
 # obj.updateSubrectangle(row1,col1,row2,col2,newValue)
 # param_2 = obj.getValue(row,col)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SubrectangleQueries {
     private int[][] g;
@@ -161,7 +164,9 @@ class SubrectangleQueries {
  * int param_2 = obj.getValue(row,col);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SubrectangleQueries {
 public:
@@ -194,7 +199,9 @@ public:
  * int param_2 = obj->getValue(row,col);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type SubrectangleQueries struct {
 	g   [][]int
@@ -226,7 +233,9 @@ func (this *SubrectangleQueries) GetValue(row int, col int) int {
  * param_2 := obj.GetValue(row,col);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class SubrectangleQueries {
     g: number[][];
@@ -264,6 +273,7 @@ class SubrectangleQueries {
  * var param_2 = obj.getValue(row,col)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

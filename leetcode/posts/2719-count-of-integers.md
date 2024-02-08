@@ -73,6 +73,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def count(self, num1: str, num2: str, min_sum: int, max_sum: int) -> int:
@@ -93,7 +94,9 @@ class Solution:
         b = dfs(0, 0, True)
         return (a - b) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 import java.math.BigInteger;
 
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +185,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func count(num1 string, num2 string, min_sum int, max_sum int) int {
 	const mod = 1e9 + 7
@@ -235,7 +242,9 @@ func count(num1 string, num2 string, min_sum int, max_sum int) int {
 	return (a - b + mod) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function count(num1: string, num2: string, min_sum: number, max_sum: number): number {
     const mod = 1e9 + 7;
@@ -265,6 +274,7 @@ function count(num1: string, num2: string, min_sum: number, max_sum: number): nu
     return (a - b + mod) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

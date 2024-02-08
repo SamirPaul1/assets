@@ -75,6 +75,7 @@ Any permutation of [11,8,6,6,7] is <strong>accepted</strong>.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getStrongest(self, arr: List[int], k: int) -> List[int]:
@@ -83,7 +84,9 @@ class Solution:
         arr.sort(key=lambda x: (-abs(x - m), -x))
         return arr[:k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getStrongest(int[] arr, int k) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getStrongest(arr []int, k int) []int {
 	sort.Ints(arr)
@@ -144,6 +151,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

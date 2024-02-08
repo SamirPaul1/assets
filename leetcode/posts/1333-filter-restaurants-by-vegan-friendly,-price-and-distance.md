@@ -74,6 +74,7 @@ After filter restaurants with veganFriendly = 1, maxPrice = 50 and maxDistance =
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def filterRestaurants(
@@ -90,7 +91,9 @@ class Solution:
                 ans.append(idx)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> filterRestaurants(
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func filterRestaurants(restaurants [][]int, veganFriendly int, maxPrice int, maxDistance int) (ans []int) {
 	sort.Slice(restaurants, func(i, j int) bool {
@@ -145,7 +152,9 @@ func filterRestaurants(restaurants [][]int, veganFriendly int, maxPrice int, max
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function filterRestaurants(
     restaurants: number[][],
@@ -163,6 +172,7 @@ function filterRestaurants(
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

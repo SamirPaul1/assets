@@ -68,6 +68,7 @@ The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interv
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoCitySchedCost(self, costs: List[List[int]]) -> int:
@@ -75,7 +76,9 @@ class Solution:
         n = len(costs) >> 1
         return sum(costs[i][0] + costs[i + n][1] for i in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int twoCitySchedCost(int[][] costs) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoCitySchedCost(costs [][]int) (ans int) {
 	sort.Slice(costs, func(i, j int) bool {
@@ -119,7 +126,9 @@ func twoCitySchedCost(costs [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function twoCitySchedCost(costs: number[][]): number {
     costs.sort((a, b) => a[0] - a[1] - (b[0] - b[1]));
@@ -131,6 +140,7 @@ function twoCitySchedCost(costs: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

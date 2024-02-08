@@ -65,6 +65,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function createObject(keysArr: any[], valuesArr: any[]): Record<string, any> {
     const ans: Record<string, any> = {};
@@ -77,7 +78,9 @@ function createObject(keysArr: any[], valuesArr: any[]): Record<string, any> {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {Array} keysArr
@@ -95,6 +98,7 @@ var createObject = function (keysArr, valuesArr) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestNiceSubstring(self, s: str) -> str:
@@ -79,7 +80,9 @@ class Solution:
                     ans = s[i : j + 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String longestNiceSubstring(String s) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestNiceSubstring(s string) string {
 	n := len(s)
@@ -166,7 +173,9 @@ func longestNiceSubstring(s string) string {
 	return s[k : k+mx]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestNiceSubstring(s: string): string {
     const n = s.length;
@@ -189,6 +198,7 @@ function longestNiceSubstring(s: string): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -196,6 +206,7 @@ function longestNiceSubstring(s: string): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestNiceSubstring(self, s: str) -> str:
@@ -212,7 +223,9 @@ class Solution:
                     ans = s[i : j + 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String longestNiceSubstring(String s) {
@@ -238,7 +251,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +278,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestNiceSubstring(s string) string {
 	n := len(s)
@@ -288,6 +305,7 @@ func longestNiceSubstring(s string) string {
 	return s[k : k+mx]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

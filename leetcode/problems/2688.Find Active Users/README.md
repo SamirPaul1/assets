@@ -1,6 +1,5 @@
 # [2688. Find Active Users](https://leetcode.com/problems/find-active-users)
 
-[中文文档](/solution/2600-2699/2688.Find%20Active%20Users/README.md)
 
 ## Description
 

@@ -99,6 +99,7 @@ For example, Salary for Morninngcat (3, 15) after taxes = 7777 - 7777 * (24 / 10
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -122,6 +123,7 @@ FROM
     ) AS t
         ON s.company_id = t.company_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

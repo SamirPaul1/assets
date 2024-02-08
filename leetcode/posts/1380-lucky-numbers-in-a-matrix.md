@@ -71,6 +71,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m + n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def luckyNumbers(self, matrix: List[List[int]]) -> List[int]:
@@ -78,7 +79,9 @@ class Solution:
         cols = {max(col) for col in zip(*matrix)}
         return list(rows & cols)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> luckyNumbers(int[][] matrix) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func luckyNumbers(matrix [][]int) (ans []int) {
 	m, n := len(matrix), len(matrix[0])
@@ -156,7 +163,9 @@ func luckyNumbers(matrix [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function luckyNumbers(matrix: number[][]): number[] {
     const m = matrix.length;
@@ -180,7 +189,9 @@ function luckyNumbers(matrix: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn lucky_numbers(matrix: Vec<Vec<i32>>) -> Vec<i32> {
@@ -208,6 +219,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

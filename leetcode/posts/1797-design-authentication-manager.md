@@ -83,6 +83,7 @@ The space complexity is $O(n)$, where $n$ is the number of key-value pairs in th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class AuthenticationManager:
     def __init__(self, timeToLive: int):
@@ -107,7 +108,9 @@ class AuthenticationManager:
 # obj.renew(tokenId,currentTime)
 # param_3 = obj.countUnexpiredTokens(currentTime)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class AuthenticationManager {
     private int t;
@@ -147,7 +150,9 @@ class AuthenticationManager {
  * int param_3 = obj.countUnexpiredTokens(currentTime);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class AuthenticationManager {
 public:
@@ -183,7 +188,9 @@ private:
  * int param_3 = obj->countUnexpiredTokens(currentTime);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type AuthenticationManager struct {
 	t int
@@ -223,7 +230,9 @@ func (this *AuthenticationManager) CountUnexpiredTokens(currentTime int) int {
  * param_3 := obj.CountUnexpiredTokens(currentTime);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class AuthenticationManager {
     private timeToLive: number;
@@ -264,7 +273,9 @@ class AuthenticationManager {
  * var param_3 = obj.countUnexpiredTokens(currentTime)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 struct AuthenticationManager {
@@ -309,6 +320,7 @@ impl AuthenticationManager {
  * let ret_3: i32 = obj.count_unexpired_tokens(currentTime);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

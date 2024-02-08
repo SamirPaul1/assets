@@ -76,6 +76,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfGoodPartitions(self, nums: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
             k += i == j
         return pow(2, k - 1, mod)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfGoodPartitions(int[] nums) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfGoodPartitions(nums []int) int {
 	qpow := func(a, n, mod int) int {
@@ -176,7 +183,9 @@ func numberOfGoodPartitions(nums []int) int {
 	return qpow(2, k-1, mod)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfGoodPartitions(nums: number[]): number {
     const qpow = (a: number, n: number, mod: number) => {
@@ -205,6 +214,7 @@ function numberOfGoodPartitions(nums: number[]): number {
     return qpow(2, k - 1, mod);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

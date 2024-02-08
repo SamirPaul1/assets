@@ -85,6 +85,7 @@ The time complexity is $O(n^2 \times m \times (\log n + \log m))$, and the space
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beforeAndAfterPuzzles(self, phrases: List[str]) -> List[str]:
@@ -100,7 +101,9 @@ class Solution:
                     ans.append(phrases[i] + phrases[j][len(ps[j][0]) :])
         return sorted(set(ans))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> beforeAndAfterPuzzles(String[] phrases) {
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beforeAndAfterPuzzles(phrases []string) []string {
 	n := len(phrases)
@@ -179,7 +186,9 @@ func beforeAndAfterPuzzles(phrases []string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function beforeAndAfterPuzzles(phrases: string[]): string[] {
     const ps: string[][] = [];
@@ -199,6 +208,7 @@ function beforeAndAfterPuzzles(phrases: string[]): string[] {
     return [...s].sort();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

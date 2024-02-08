@@ -82,6 +82,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -123,7 +124,9 @@ class Solution:
             prev.next = reverse(prev.next, left)
         return dummy.next
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -178,7 +181,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -219,6 +224,7 @@ function reverseEvenLengthGroups(head: ListNode | null): ListNode | null {
     return head;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2425. Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings)
 
-[中文文档](/solution/2400-2499/2425.Bitwise%20XOR%20of%20All%20Pairings/README.md)
 
 ## Description
 

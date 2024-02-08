@@ -70,6 +70,7 @@ Now s has no occurrences of &quot;xy&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeOccurrences(self, s: str, part: str) -> str:
@@ -77,7 +78,9 @@ class Solution:
             s = s.replace(part, '', 1)
         return s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeOccurrences(String s, String part) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeOccurrences(s string, part string) string {
 	for strings.Contains(s, part) {
@@ -110,7 +117,9 @@ func removeOccurrences(s string, part string) string {
 	return s
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeOccurrences(s: string, part: string): string {
     while (s.includes(part)) {
@@ -119,6 +128,7 @@ function removeOccurrences(s: string, part: string): string {
     return s;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

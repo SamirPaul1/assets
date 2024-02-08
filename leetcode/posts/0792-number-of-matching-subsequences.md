@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
@@ -75,7 +76,9 @@ class Solution:
                     d[t[1]].append(t[1:])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numMatchingSubseq(String s, String[] words) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMatchingSubseq(s string, words []string) (ans int) {
 	d := [26][]string{}
@@ -144,6 +151,7 @@ func numMatchingSubseq(s string, words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -151,6 +159,7 @@ func numMatchingSubseq(s string, words []string) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
@@ -168,7 +177,9 @@ class Solution:
                     d[words[i][j]].append((i, j))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numMatchingSubseq(String s, String[] words) {
@@ -194,7 +205,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -217,7 +230,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMatchingSubseq(s string, words []string) (ans int) {
 	type pair struct{ i, j int }
@@ -240,6 +255,7 @@ func numMatchingSubseq(s string, words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -247,6 +263,7 @@ func numMatchingSubseq(s string, words []string) (ans int) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numMatchingSubseq(self, s: str, words: List[str]) -> int:
@@ -264,7 +281,9 @@ class Solution:
             d[c].append(i)
         return sum(check(w) for w in words)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] d = new List[26];
@@ -310,7 +329,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -333,7 +354,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numMatchingSubseq(s string, words []string) (ans int) {
 	d := [26][]int{}
@@ -360,6 +383,7 @@ func numMatchingSubseq(s string, words []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

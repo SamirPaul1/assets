@@ -72,13 +72,16 @@ The time complexity is $O(\log(\min(targetX, targetY)))$, and the space complexi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isReachable(self, targetX: int, targetY: int) -> bool:
         x = gcd(targetX, targetY)
         return x & (x - 1) == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isReachable(int targetX, int targetY) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isReachable(targetX int, targetY int) bool {
 	x := gcd(targetX, targetY)
@@ -115,7 +122,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isReachable(targetX: number, targetY: number): boolean {
     const x = gcd(targetX, targetY);
@@ -126,6 +135,7 @@ function gcd(a: number, b: number): number {
     return b == 0 ? a : gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

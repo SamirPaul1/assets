@@ -89,6 +89,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findIndices(
@@ -107,7 +108,9 @@ class Solution:
                 return [mx, i]
         return [-1, -1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findIndices(int[] nums, int indexDifference, int valueDifference) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findIndices(nums []int, indexDifference int, valueDifference int) []int {
 	mi, mx := 0, 0
@@ -179,7 +186,9 @@ func findIndices(nums []int, indexDifference int, valueDifference int) []int {
 	return []int{-1, -1}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findIndices(nums: number[], indexDifference: number, valueDifference: number): number[] {
     let [mi, mx] = [0, 0];
@@ -201,7 +210,9 @@ function findIndices(nums: number[], indexDifference: number, valueDifference: n
     return [-1, -1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_indices(nums: Vec<i32>, index_difference: i32, value_difference: i32) -> Vec<i32> {
@@ -233,6 +244,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,6 +67,7 @@ Or paint house 0 into color 2, paint house 1 into color 0. Minimum cost: 3 + 2 =
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCostII(self, costs: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
             f = g
         return min(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCostII(int[][] costs) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCostII(costs [][]int) int {
 	n, k := len(costs), len(costs[0])
@@ -154,6 +161,7 @@ func cp(arr []int) []int {
 	return t
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

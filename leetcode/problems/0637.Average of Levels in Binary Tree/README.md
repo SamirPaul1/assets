@@ -1,6 +1,5 @@
 # [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)
 
-[中文文档](/solution/0600-0699/0637.Average%20of%20Levels%20in%20Binary%20Tree/README.md)
 
 ## Description
 

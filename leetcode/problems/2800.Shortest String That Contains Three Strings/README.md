@@ -1,6 +1,5 @@
 # [2800. Shortest String That Contains Three Strings](https://leetcode.com/problems/shortest-string-that-contains-three-strings)
 
-[中文文档](/solution/2800-2899/2800.Shortest%20String%20That%20Contains%20Three%20Strings/README.md)
 
 ## Description
 

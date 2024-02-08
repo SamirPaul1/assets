@@ -66,6 +66,7 @@ The time complexity is $O(n)$, where $n$ is the given integer. The space complex
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def concatenatedBinary(self, n: int) -> int:
@@ -75,7 +76,9 @@ class Solution:
             ans = (ans << i.bit_length() | i) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int concatenatedBinary(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func concatenatedBinary(n int) (ans int) {
 	const mod = 1e9 + 7
@@ -112,7 +119,9 @@ func concatenatedBinary(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function concatenatedBinary(n: number): number {
     const mod = BigInt(10 ** 9 + 7);
@@ -127,6 +136,7 @@ function concatenatedBinary(n: number): number {
     return Number(ans);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -134,6 +144,7 @@ function concatenatedBinary(n: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def concatenatedBinary(self, n: int) -> int:
@@ -145,7 +156,9 @@ class Solution:
             ans = (ans << shift | i) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int concatenatedBinary(int n) {
@@ -162,7 +175,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -180,7 +195,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func concatenatedBinary(n int) (ans int) {
 	const mod = 1e9 + 7
@@ -194,6 +211,7 @@ func concatenatedBinary(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

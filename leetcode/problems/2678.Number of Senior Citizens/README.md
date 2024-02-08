@@ -1,6 +1,5 @@
 # [2678. Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens)
 
-[中文文档](/solution/2600-2699/2678.Number%20of%20Senior%20Citizens/README.md)
 
 ## Description
 

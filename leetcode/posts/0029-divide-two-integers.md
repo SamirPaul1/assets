@@ -64,6 +64,7 @@ Assuming the dividend is $a$ and the divisor is $b$, the time complexity is $O(\
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def divide(self, a: int, b: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
             ans += cnt
         return ans if sign else -ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int divide(int a, int b) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func divide(a int, b int) int {
 	if b == 1 {
@@ -178,7 +185,9 @@ func divide(a int, b int) int {
 	return -ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function divide(a: number, b: number): number {
     if (b === 1) {
@@ -209,7 +218,9 @@ function divide(a: number, b: number): number {
     return sign ? ans : -ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int Divide(int a, int b) {
@@ -237,6 +248,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

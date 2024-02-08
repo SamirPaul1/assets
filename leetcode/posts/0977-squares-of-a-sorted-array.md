@@ -56,6 +56,7 @@ After sorting, it becomes [0,1,9,16,100].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
@@ -72,7 +73,9 @@ class Solution:
             k -= 1
         return res
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortedSquares(int[] nums) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortedSquares(nums []int) []int {
 	n := len(nums)
@@ -129,7 +136,9 @@ func sortedSquares(nums []int) []int {
 	return res
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sorted_squares(nums: Vec<i32>) -> Vec<i32> {
@@ -152,7 +161,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -173,7 +184,9 @@ var sortedSquares = function (nums) {
     return res;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -200,6 +213,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

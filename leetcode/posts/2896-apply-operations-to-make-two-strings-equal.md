@@ -88,6 +88,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, s1: str, s2: str, x: int) -> int:
@@ -107,7 +108,9 @@ class Solution:
             return -1
         return dfs(0, m - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer> idx = new ArrayList<>();
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(s1 string, s2 string, x int) int {
 	idx := []int{}
@@ -214,7 +221,9 @@ func minOperations(s1 string, s2 string, x int) int {
 	return dfs(0, m-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(s1: string, s2: string, x: number): number {
     const idx: number[] = [];
@@ -246,6 +255,7 @@ function minOperations(s1: string, s2: string, x: number): number {
     return dfs(0, m - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -253,6 +263,7 @@ function minOperations(s1: string, s2: string, x: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(String s1, String s2, int x) {
@@ -282,6 +293,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

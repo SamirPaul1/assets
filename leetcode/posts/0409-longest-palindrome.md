@@ -64,6 +64,7 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestPalindrome(self, s: str) -> int:
@@ -74,7 +75,9 @@ class Solution:
             ans += (ans & 1 ^ 1) and (v & 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestPalindrome(String s) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestPalindrome(s string) (ans int) {
 	cnt := [128]int{}
@@ -129,7 +136,9 @@ func longestPalindrome(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestPalindrome(s: string): number {
     let n = s.length;
@@ -145,7 +154,9 @@ function longestPalindrome(s: string): number {
     return ans < s.length ? ans + 1 : ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -168,6 +179,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -175,6 +187,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestPalindrome(s: string): number {
     const map = new Map();
@@ -193,6 +206,7 @@ function longestPalindrome(s: string): number {
     return res + (hasOdd ? 1 : 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

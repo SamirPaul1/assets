@@ -1,6 +1,5 @@
 # [2081. Sum of k-Mirror Numbers](https://leetcode.com/problems/sum-of-k-mirror-numbers)
 
-[中文文档](/solution/2000-2099/2081.Sum%20of%20k-Mirror%20Numbers/README.md)
 
 ## Description
 

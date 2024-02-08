@@ -79,6 +79,7 @@ The time complexity is $O(n)$ and the space complexity is $O(1)$. Where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumLength(self, s: str) -> int:
@@ -91,7 +92,9 @@ class Solution:
             i, j = i + 1, j - 1
         return max(0, j - i + 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumLength(String s) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumLength(s string) int {
 	i, j := 0, len(s)-1
@@ -146,7 +153,9 @@ func minimumLength(s string) int {
 	return max(0, j-i+1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumLength(s: string): number {
     let i = 0;
@@ -164,7 +173,9 @@ function minimumLength(s: string): number {
     return Math.max(0, j - i + 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_length(s: String) -> i32 {
@@ -186,7 +197,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minimumLength(char* s) {
     int n = strlen(s);
@@ -208,6 +221,7 @@ int minimumLength(char* s) {
     return end - start + 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

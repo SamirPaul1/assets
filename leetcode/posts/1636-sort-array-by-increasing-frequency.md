@@ -60,13 +60,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def frequencySort(self, nums: List[int]) -> List[int]:
         cnt = Counter(nums)
         return sorted(nums, key=lambda x: (cnt[x], -x))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] frequencySort(int[] nums) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func frequencySort(nums []int) []int {
 	cnt := make([]int, 201)
@@ -118,7 +125,9 @@ func frequencySort(nums []int) []int {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function frequencySort(nums: number[]): number[] {
     const map = new Map<number, number>();
@@ -128,7 +137,9 @@ function frequencySort(nums: number[]): number[] {
     return nums.sort((a, b) => map.get(a) - map.get(b) || b - a);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -148,7 +159,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -163,6 +176,7 @@ var frequencySort = function (nums) {
     return nums;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

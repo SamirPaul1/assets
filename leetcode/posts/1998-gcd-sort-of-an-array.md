@@ -71,6 +71,7 @@ We can sort [10,5,9,3,15] by performing the following operations:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def gcdSort(self, nums: List[int]) -> bool:
@@ -99,7 +100,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -181,7 +186,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var p []int
 
@@ -229,6 +236,7 @@ func find(x int) int {
 	return p[x]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -72,6 +72,7 @@ because the wheels of the lock become stuck after the display becomes the dead e
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
@@ -107,7 +108,9 @@ class Solution:
                         s.add(t)
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int openLock(String[] deadends, String target) {
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -197,7 +202,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func openLock(deadends []string, target string) int {
 	if target == "0000" {
@@ -250,6 +257,7 @@ func openLock(deadends []string, target string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +265,7 @@ func openLock(deadends []string, target string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
@@ -301,7 +310,9 @@ class Solution:
             return -1
         return bfs()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String start;
@@ -374,7 +385,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -434,7 +447,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func openLock(deadends []string, target string) int {
 	if target == "0000" {
@@ -510,6 +525,7 @@ func openLock(deadends []string, target string) int {
 	return bfs()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -517,6 +533,7 @@ func openLock(deadends []string, target string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
@@ -562,7 +579,9 @@ class Solution:
                     heappush(q, (dist[t] + f(t), t))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String target;
@@ -634,7 +653,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -697,6 +718,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

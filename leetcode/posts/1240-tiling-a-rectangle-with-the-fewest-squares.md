@@ -73,6 +73,7 @@ Since each position only has two states: filled or not filled, we can use an int
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tilingRectangle(self, n: int, m: int) -> int:
@@ -111,7 +112,9 @@ class Solution:
         dfs(0, 0, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -170,7 +173,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -230,7 +235,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tilingRectangle(n int, m int) int {
 	ans := n * m
@@ -280,7 +287,9 @@ func tilingRectangle(n int, m int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tilingRectangle(n: number, m: number): number {
     let ans = n * m;
@@ -329,6 +338,7 @@ function tilingRectangle(n: number, m: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -336,6 +346,7 @@ function tilingRectangle(n: number, m: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tilingRectangle(self, n: int, m: int) -> int:
@@ -375,7 +386,9 @@ class Solution:
         dfs(0, 0, 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -436,7 +449,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -498,7 +513,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tilingRectangle(n int, m int) int {
 	ans := n * m
@@ -550,7 +567,9 @@ func tilingRectangle(n int, m int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tilingRectangle(n: number, m: number): number {
     let ans = n * m;
@@ -601,6 +620,7 @@ function tilingRectangle(n: number, m: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

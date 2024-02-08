@@ -72,6 +72,7 @@ It can be shown that the maximum profit you can make is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumProfit(self, present: List[int], future: List[int], budget: int) -> int:
@@ -83,7 +84,9 @@ class Solution:
                     f[i][j] = max(f[i][j], f[i - 1][j - w] + future[i - 1] - w)
         return f[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumProfit(int[] present, int[] future, int budget) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumProfit(present []int, future []int, budget int) int {
 	n := len(present)
@@ -141,7 +148,9 @@ func maximumProfit(present []int, future []int, budget int) int {
 	return f[n][budget]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumProfit(present: number[], future: number[], budget: number): number {
     const f = new Array(budget + 1).fill(0);
@@ -154,6 +163,7 @@ function maximumProfit(present: number[], future: number[], budget: number): num
     return f[budget];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +171,7 @@ function maximumProfit(present: number[], future: number[], budget: number): num
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumProfit(self, present: List[int], future: List[int], budget: int) -> int:
@@ -170,7 +181,9 @@ class Solution:
                 f[j] = max(f[j], f[j - a] + b - a)
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumProfit(int[] present, int[] future, int budget) {
@@ -186,7 +199,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -204,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumProfit(present []int, future []int, budget int) int {
 	f := make([]int, budget+1)
@@ -216,6 +233,7 @@ func maximumProfit(present []int, future []int, budget int) int {
 	return f[budget]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

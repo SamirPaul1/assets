@@ -79,6 +79,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $arr$. Ignor
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function filter(arr: number[], fn: (n: number, i: number) => any): number[] {
     const ans: number[] = [];
@@ -90,6 +91,7 @@ function filter(arr: number[], fn: (n: number, i: number) => any): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

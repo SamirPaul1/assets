@@ -68,6 +68,7 @@ There is no occurrence of a subarray with a size more than 3 filled with 0. Ther
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def zeroFilledSubarray(self, nums: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
             ans += cnt
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long zeroFilledSubarray(int[] nums) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func zeroFilledSubarray(nums []int) (ans int64) {
 	cnt := 0
@@ -121,7 +128,9 @@ func zeroFilledSubarray(nums []int) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function zeroFilledSubarray(nums: number[]): number {
     let ans = 0;
@@ -133,6 +142,7 @@ function zeroFilledSubarray(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -62,6 +62,7 @@ It can be proven, that 3 is the minimum number of operations that we need to per
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeTheIntegerZero(self, num1: int, num2: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 return k
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int makeTheIntegerZero(int num1, int num2) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeTheIntegerZero(num1 int, num2 int) int {
 	for k := 1; ; k++ {
@@ -124,6 +131,7 @@ func makeTheIntegerZero(num1 int, num2 int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

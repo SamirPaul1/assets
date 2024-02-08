@@ -1,6 +1,5 @@
 # [2281. Sum of Total Strength of Wizards](https://leetcode.com/problems/sum-of-total-strength-of-wizards)
 
-[中文文档](/solution/2200-2299/2281.Sum%20of%20Total%20Strength%20of%20Wizards/README.md)
 
 ## Description
 

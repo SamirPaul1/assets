@@ -63,13 +63,16 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         x, y = nlargest(2, nums)
         return nums.index(x) if x >= 2 * y else -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int dominantIndex(int[] nums) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dominantIndex(nums []int) int {
 	k := 0
@@ -127,7 +134,9 @@ func dominantIndex(nums []int) int {
 	return k
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function dominantIndex(nums: number[]): number {
     let k = 0;
@@ -144,7 +153,9 @@ function dominantIndex(nums: number[]): number {
     return k;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -165,6 +176,7 @@ var dominantIndex = function (nums) {
     return k;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,6 +73,7 @@ And in round 2, the third senator can just announce the victory since he is the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def predictPartyVictory(self, senate: str) -> str:
@@ -93,7 +94,9 @@ class Solution:
             qd.popleft()
         return "Radiant" if qr else "Dire"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String predictPartyVictory(String senate) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func predictPartyVictory(senate string) string {
 	n := len(senate)
@@ -178,7 +185,9 @@ func predictPartyVictory(senate string) string {
 	return "Dire"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function predictPartyVictory(senate: string): string {
     const n = senate.length;
@@ -203,7 +212,9 @@ function predictPartyVictory(senate: string): string {
     return qr.length > 0 ? 'Radiant' : 'Dire';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn predict_party_victory(senate: String) -> String {
@@ -236,6 +247,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

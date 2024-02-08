@@ -67,6 +67,7 @@ In terms of time complexity, the time complexity of setting a value is $O(1)$, t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class SnapshotArray:
     def __init__(self, length: int):
@@ -92,7 +93,9 @@ class SnapshotArray:
 # param_2 = obj.snap()
 # param_3 = obj.get(index,snap_id)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SnapshotArray {
     private List<int[]>[] arr;
@@ -134,7 +137,9 @@ class SnapshotArray {
  * int param_3 = obj.get(index,snap_id);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SnapshotArray {
 public:
@@ -178,7 +183,9 @@ private:
  * int param_3 = obj->get(index,snap_id);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type SnapshotArray struct {
 	idx int
@@ -217,6 +224,7 @@ type pair struct{ i, v int }
  * param_3 := obj.Get(index,snap_id);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

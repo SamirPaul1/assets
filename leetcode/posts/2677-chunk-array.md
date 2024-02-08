@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function chunk(arr: any[], size: number): any[][] {
     const ans: any[][] = [];
@@ -81,7 +82,9 @@ function chunk(arr: any[], size: number): any[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {Array} arr
@@ -96,6 +99,7 @@ var chunk = function (arr, size) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

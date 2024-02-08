@@ -81,6 +81,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findReplaceString(
@@ -102,7 +103,9 @@ class Solution:
                 i += 1
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findReplaceString(String s, int[] indices, String[] sources, String[] targets) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findReplaceString(s string, indices []int, sources []string, targets []string) string {
 	n := len(s)
@@ -177,7 +184,9 @@ func findReplaceString(s string, indices []int, sources []string, targets []stri
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findReplaceString(
     s: string,
@@ -205,6 +214,7 @@ function findReplaceString(
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

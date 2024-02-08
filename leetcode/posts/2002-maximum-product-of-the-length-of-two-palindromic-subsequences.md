@@ -73,6 +73,7 @@ The time complexity is $(2^n \times n + 3^n)$, and the space complexity is $O(2^
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProduct(self, s: str) -> int:
@@ -102,7 +103,9 @@ class Solution:
                     j = (j - 1) & mx
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProduct(String s) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProduct(s string) (ans int) {
 	n := len(s)
@@ -216,6 +223,7 @@ func maxProduct(s string) (ans int) {
 
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

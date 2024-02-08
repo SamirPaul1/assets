@@ -60,6 +60,7 @@ It satisfies the conditions, 2 unique letters and size 3 (between minSize and ma
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxFreq(self, s: str, maxLetters: int, minSize: int, maxSize: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 ans = max(ans, cnt[t])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxFreq(String s, int maxLetters, int minSize, int maxSize) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxFreq(s string, maxLetters int, minSize int, maxSize int) (ans int) {
 	cnt := map[string]int{}
@@ -132,6 +139,7 @@ func maxFreq(s string, maxLetters int, minSize int, maxSize int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

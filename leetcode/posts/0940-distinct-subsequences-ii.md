@@ -60,6 +60,7 @@ A <strong>subsequence</strong> of a string is a new string that is formed from t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctSubseqII(self, s: str) -> int:
@@ -75,7 +76,9 @@ class Solution:
                     dp[i][j] = dp[i - 1][j]
         return sum(dp[-1]) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctSubseqII(s string) int {
 	const mod int = 1e9 + 7
@@ -134,7 +141,9 @@ func distinctSubseqII(s string) int {
 	return sum(dp)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distinctSubseqII(s: string): number {
     const mod = 1e9 + 7;
@@ -145,7 +154,9 @@ function distinctSubseqII(s: string): number {
     return dp.reduce((r, v) => (r + v) % mod, 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn distinct_subseq_ii(s: String) -> i32 {
@@ -170,7 +181,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int distinctSubseqII(char* s) {
     int mod = 1e9 + 7;
@@ -190,6 +203,7 @@ int distinctSubseqII(char* s) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -197,6 +211,7 @@ int distinctSubseqII(char* s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctSubseqII(self, s: str) -> int:
@@ -207,7 +222,9 @@ class Solution:
             dp[i] = sum(dp) % mod + 1
         return sum(dp) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -225,7 +242,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -244,7 +263,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distinctSubseqII(s string) int {
 	const mod int = 1e9 + 7
@@ -259,6 +280,7 @@ func distinctSubseqII(s string) int {
 	return (ans + mod) % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -266,6 +288,7 @@ func distinctSubseqII(s string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distinctSubseqII(self, s: str) -> int:
@@ -279,6 +302,7 @@ class Solution:
             dp[i] += add
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -104,6 +104,7 @@ Passengers table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -123,6 +124,7 @@ FROM
     JOIN Flights USING (flight_id)
 ORDER BY passenger_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

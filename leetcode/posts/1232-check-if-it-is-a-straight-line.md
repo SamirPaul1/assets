@@ -60,6 +60,7 @@ The time complexity is $O(n)$, where $n$ is the length of the `coordinates` arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
@@ -70,7 +71,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkStraightLine(coordinates [][]int) bool {
 	x1, y1 := coordinates[0][0], coordinates[0][1]
@@ -117,6 +124,7 @@ func checkStraightLine(coordinates [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

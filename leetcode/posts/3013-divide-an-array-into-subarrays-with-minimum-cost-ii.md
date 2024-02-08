@@ -73,6 +73,7 @@ It can be shown that there is no possible way to divide nums into 3 subarrays at
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -112,7 +113,9 @@ class Solution:
 
         return ans + y
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minimumCost(int[] nums, int k, int dist) {
@@ -150,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -202,7 +207,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCost(nums []int, k int, dist int) int64 {
 	res := nums[0] + slices.Min(windowTopKSum(nums[1:], dist+1, k-1, true))
@@ -399,6 +406,7 @@ func (h *Heap) pushDown(root int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

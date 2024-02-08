@@ -82,6 +82,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkArray(self, nums: List[int], k: int) -> bool:
@@ -99,7 +100,9 @@ class Solution:
             d[i + k] += x
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkArray(int[] nums, int k) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkArray(nums []int, k int) bool {
 	n := len(nums)
@@ -167,7 +174,9 @@ func checkArray(nums []int, k int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkArray(nums: number[], k: number): boolean {
     const n = nums.length;
@@ -188,6 +197,7 @@ function checkArray(nums: number[], k: number): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

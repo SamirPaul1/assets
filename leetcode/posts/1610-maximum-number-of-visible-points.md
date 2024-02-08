@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def visiblePoints(
@@ -95,7 +96,9 @@ class Solution:
         mx = max((bisect_right(v, v[i] + t) - i for i in range(n)), default=0)
         return mx + same
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int visiblePoints(List<List<Integer>> points, int angle, List<Integer> location) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func visiblePoints(points [][]int, angle int, location []int) int {
 	same := 0
@@ -184,6 +191,7 @@ func visiblePoints(points [][]int, angle int, location []int) int {
 	return same + mx
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

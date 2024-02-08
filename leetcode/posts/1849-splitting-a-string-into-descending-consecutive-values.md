@@ -76,6 +76,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def splitString(self, s: str) -> bool:
@@ -91,7 +92,9 @@ class Solution:
 
         return dfs(0, -1, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func splitString(s string) bool {
 	var dfs func(i, x, k int) bool
@@ -164,6 +171,7 @@ func splitString(s string) bool {
 	return dfs(0, -1, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

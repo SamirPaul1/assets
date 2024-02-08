@@ -82,6 +82,7 @@ We return true because 0 + 0 == 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isSumEqual(self, firstWord: str, secondWord: str, targetWord: str) -> bool:
@@ -93,7 +94,9 @@ class Solution:
 
         return f(firstWord) + f(secondWord) == f(targetWord)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isSumEqual(String firstWord, String secondWord, String targetWord) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isSumEqual(firstWord string, secondWord string, targetWord string) bool {
 	f := func(s string) int {
@@ -137,7 +144,9 @@ func isSumEqual(firstWord string, secondWord string, targetWord string) bool {
 	return f(firstWord)+f(secondWord) == f(targetWord)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isSumEqual(firstWord: string, secondWord: string, targetWord: string): boolean {
     const calc = (s: string) => {
@@ -150,7 +159,9 @@ function isSumEqual(firstWord: string, secondWord: string, targetWord: string): 
     return calc(firstWord) + calc(secondWord) === calc(targetWord);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn calc(s: &String) -> i32 {
@@ -166,7 +177,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} firstWord
@@ -185,7 +198,9 @@ var isSumEqual = function (firstWord, secondWord, targetWord) {
     return f(firstWord) + f(secondWord) == f(targetWord);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int calc(char* s) {
     int res = 0;
@@ -199,6 +214,7 @@ bool isSumEqual(char* firstWord, char* secondWord, char* targetWord) {
     return calc(firstWord) + calc(secondWord) == calc(targetWord);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

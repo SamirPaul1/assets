@@ -1,6 +1,5 @@
 # [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver)
 
-[中文文档](/solution/0000-0099/0037.Sudoku%20Solver/README.md)
 
 ## Description
 

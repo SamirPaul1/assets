@@ -1,6 +1,5 @@
 # [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability)
 
-[中文文档](/solution/1500-1599/1514.Path%20with%20Maximum%20Probability/README.md)
 
 ## Description
 

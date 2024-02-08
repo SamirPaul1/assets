@@ -100,6 +100,7 @@ The time complexity is $O(m \times n^2)$, and the space complexity is $O(m \time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostSimilar(
@@ -132,7 +133,9 @@ class Solution:
             k = pre[i][k]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> mostSimilar(int n, int[][] roads, String[] names, String[] targetPath) {
@@ -182,7 +185,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -229,7 +234,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostSimilar(n int, roads [][]int, names []string, targetPath []string) []int {
 	g := make([][]int, n)
@@ -286,7 +293,9 @@ func mostSimilar(n int, roads [][]int, names []string, targetPath []string) []in
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mostSimilar(
     n: number,
@@ -332,6 +341,7 @@ function mostSimilar(
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

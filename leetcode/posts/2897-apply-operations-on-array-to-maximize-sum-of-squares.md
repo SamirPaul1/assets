@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSum(self, nums: List[int], k: int) -> int:
@@ -95,7 +96,9 @@ class Solution:
             ans = (ans + x * x) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSum(List<Integer> nums, int k) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSum(nums []int, k int) (ans int) {
 	cnt := [31]int{}
@@ -177,7 +184,9 @@ func maxSum(nums []int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSum(nums: number[], k: number): number {
     const cnt: number[] = Array(31).fill(0);
@@ -203,6 +212,7 @@ function maxSum(nums: number[], k: number): number {
     return Number(ans);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

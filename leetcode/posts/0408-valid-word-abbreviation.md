@@ -93,6 +93,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of the stri
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validWordAbbreviation(self, word: str, abbr: str) -> bool:
@@ -112,7 +113,9 @@ class Solution:
             j += 1
         return i + x == m and j == n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean validWordAbbreviation(String word, String abbr) {
@@ -138,7 +141,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -164,7 +169,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validWordAbbreviation(word string, abbr string) bool {
 	m, n := len(word), len(abbr)
@@ -187,7 +194,9 @@ func validWordAbbreviation(word string, abbr string) bool {
 	return i+x == m && j == n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validWordAbbreviation(word: string, abbr: string): boolean {
     const [m, n] = [word.length, abbr.length];
@@ -209,6 +218,7 @@ function validWordAbbreviation(word: string, abbr: string): boolean {
     return i + x === m && j === n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [1615. Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank)
 
-[中文文档](/solution/1600-1699/1615.Maximal%20Network%20Rank/README.md)
 
 ## Description
 

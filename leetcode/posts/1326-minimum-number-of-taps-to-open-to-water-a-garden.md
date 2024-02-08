@@ -65,6 +65,7 @@ Opening Only the second tap will water the whole garden [0,5]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
                 pre = mx
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minTaps(int n, int[] ranges) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minTaps(n int, ranges []int) (ans int) {
 	last := make([]int, n+1)
@@ -154,7 +161,9 @@ func minTaps(n int, ranges []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minTaps(n: number, ranges: number[]): number {
     const last = new Array(n + 1).fill(0);
@@ -179,7 +188,9 @@ function minTaps(n: number, ranges: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -216,6 +227,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

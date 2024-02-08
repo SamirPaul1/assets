@@ -60,6 +60,7 @@ In step 3, we use Paste operation to get &#39;AAA&#39;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSteps(self, n: int) -> int:
@@ -76,7 +77,9 @@ class Solution:
 
         return dfs(n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] f;
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSteps(n int) int {
 	f := make([]int, n+1)
@@ -156,6 +163,7 @@ func minSteps(n int) int {
 	return dfs(n)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -163,6 +171,7 @@ func minSteps(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSteps(self, n: int) -> int:
@@ -176,7 +185,9 @@ class Solution:
                 j += 1
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSteps(int n) {
@@ -196,7 +207,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -215,7 +228,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSteps(n int) int {
 	dp := make([]int, n+1)
@@ -233,6 +248,7 @@ func minSteps(n int) int {
 	return dp[n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -240,6 +256,7 @@ func minSteps(n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSteps(int n) {
@@ -254,6 +271,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

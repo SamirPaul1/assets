@@ -67,6 +67,7 @@ There is only one element in the final array, which is 11.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxArrayValue(self, nums: List[int]) -> int:
@@ -75,7 +76,9 @@ class Solution:
                 nums[i] += nums[i + 1]
         return max(nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxArrayValue(int[] nums) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxArrayValue(nums []int) int64 {
 	n := len(nums)
@@ -128,7 +135,9 @@ func maxArrayValue(nums []int) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxArrayValue(nums: number[]): number {
     for (let i = nums.length - 2; i >= 0; --i) {
@@ -139,6 +148,7 @@ function maxArrayValue(nums: number[]): number {
     return Math.max(...nums);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

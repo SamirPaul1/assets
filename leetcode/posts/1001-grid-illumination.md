@@ -75,6 +75,7 @@ The 1<sup>st</sup>&nbsp;query asks if the lamp at grid[1][0] is illuminated or n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def gridIllumination(
@@ -101,7 +102,9 @@ class Solution:
                         diag2[x + y] -= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -159,7 +162,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -203,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func gridIllumination(n int, lamps [][]int, queries [][]int) []int {
 	row, col, diag1, diag2 := map[int]int{}, map[int]int{}, map[int]int{}, map[int]int{}
@@ -243,7 +250,9 @@ func gridIllumination(n int, lamps [][]int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function gridIllumination(n: number, lamps: number[][], queries: number[][]): number[] {
     const row = new Map<number, number>();
@@ -284,6 +293,7 @@ function gridIllumination(n: number, lamps: number[][], queries: number[][]): nu
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

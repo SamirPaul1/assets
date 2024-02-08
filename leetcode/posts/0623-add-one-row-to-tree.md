@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -90,7 +91,9 @@ class Solution:
         dfs(root, 1)
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -177,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -208,7 +215,9 @@ func addOneRow(root *TreeNode, val int, depth int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -244,6 +253,7 @@ function addOneRow(root: TreeNode | null, val: number, depth: number): TreeNode 
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -251,6 +261,7 @@ function addOneRow(root: TreeNode | null, val: number, depth: number): TreeNode 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -279,7 +290,9 @@ class Solution:
                     node.right = TreeNode(val, None, node.right)
         return root
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -324,7 +337,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -360,7 +375,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a binary tree node.
@@ -396,7 +413,9 @@ func addOneRow(root *TreeNode, val int, depth int) *TreeNode {
 	return root
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -433,6 +452,7 @@ function addOneRow(root: TreeNode | null, val: number, depth: number): TreeNode 
     return root;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

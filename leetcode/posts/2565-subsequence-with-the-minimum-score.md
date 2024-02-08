@@ -79,6 +79,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumScore(self, s: str, t: str) -> int:
@@ -109,7 +110,9 @@ class Solution:
 
         return bisect_left(range(n + 1), True, key=check)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -163,7 +166,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -209,7 +214,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumScore(s string, t string) int {
 	m, n := len(s), len(t)
@@ -249,6 +256,7 @@ func minimumScore(s string, t string) int {
 	})
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

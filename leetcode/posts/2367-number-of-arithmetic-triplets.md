@@ -66,12 +66,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
         return sum(b - a == diff and c - b == diff for a, b, c in combinations(nums, 3))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arithmeticTriplets(int[] nums, int diff) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arithmeticTriplets(nums []int, diff int) (ans int) {
 	n := len(nums)
@@ -126,7 +133,9 @@ func arithmeticTriplets(nums []int, diff int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arithmeticTriplets(nums: number[], diff: number): number {
     const n = nums.length;
@@ -143,6 +152,7 @@ function arithmeticTriplets(nums: number[], diff: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -150,13 +160,16 @@ function arithmeticTriplets(nums: number[], diff: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arithmeticTriplets(self, nums: List[int], diff: int) -> int:
         vis = set(nums)
         return sum(x + diff in vis and x + diff * 2 in vis for x in nums)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int arithmeticTriplets(int[] nums, int diff) {
@@ -174,7 +187,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -191,7 +206,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arithmeticTriplets(nums []int, diff int) (ans int) {
 	vis := [301]bool{}
@@ -206,7 +223,9 @@ func arithmeticTriplets(nums []int, diff int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arithmeticTriplets(nums: number[], diff: number): number {
     const vis: boolean[] = new Array(301).fill(false);
@@ -222,6 +241,7 @@ function arithmeticTriplets(nums: number[], diff: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

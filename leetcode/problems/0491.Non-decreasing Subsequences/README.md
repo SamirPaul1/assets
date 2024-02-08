@@ -1,6 +1,5 @@
 # [491. Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences)
 
-[中文文档](/solution/0400-0499/0491.Non-decreasing%20Subsequences/README.md)
 
 ## Description
 

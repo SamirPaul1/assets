@@ -78,6 +78,7 @@ Note that the value of $f[i][j]$ is only related to $f[i-1][j]$ and $f[i-1][(j-x
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 f[i][j] = max(f[i - 1][j], f[i - 1][(j - x) % 3] + x)
         return f[n][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumDivThree(int[] nums) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumDivThree(nums []int) int {
 	n := len(nums)
@@ -143,7 +150,9 @@ func maxSumDivThree(nums []int) int {
 	return f[n][0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumDivThree(nums: number[]): number {
     const n = nums.length;
@@ -161,6 +170,7 @@ function maxSumDivThree(nums: number[]): number {
     return f[n][0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -168,6 +178,7 @@ function maxSumDivThree(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:
@@ -179,7 +190,9 @@ class Solution:
             f = g
         return f[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumDivThree(int[] nums) {
@@ -196,7 +209,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -214,7 +229,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumDivThree(nums []int) int {
 	const inf = 1 << 30
@@ -229,7 +246,9 @@ func maxSumDivThree(nums []int) int {
 	return f[0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumDivThree(nums: number[]): number {
     const inf = 1 << 30;
@@ -243,6 +262,7 @@ function maxSumDivThree(nums: number[]): number {
     return f[0];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

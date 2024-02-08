@@ -81,6 +81,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(M)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mergeArrays(
@@ -91,7 +92,9 @@ class Solution:
             cnt[i] += v
         return sorted(cnt.items())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] mergeArrays(int[][] nums1, int[][] nums2) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mergeArrays(nums1 [][]int, nums2 [][]int) (ans [][]int) {
 	cnt := [1001]int{}
@@ -158,7 +165,9 @@ func mergeArrays(nums1 [][]int, nums2 [][]int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mergeArrays(nums1: number[][], nums2: number[][]): number[][] {
     const n = 1001;
@@ -178,7 +187,9 @@ function mergeArrays(nums1: number[][], nums2: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn merge_arrays(nums1: Vec<Vec<i32>>, nums2: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -203,6 +214,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -86,6 +86,7 @@ First, we use the `DATE_FORMAT` function to format the date in the form of `YYYY
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -97,6 +98,7 @@ WHERE DATE_FORMAT(purchase_date, '%Y%m') = '202311' AND DAYOFWEEK(purchase_date)
 GROUP BY 2
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

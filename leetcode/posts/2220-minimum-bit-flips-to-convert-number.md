@@ -64,6 +64,7 @@ It can be shown we cannot convert 3 to 4 in less than 3 steps. Hence, we return 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minBitFlips(self, start: int, goal: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
             t >>= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minBitFlips(int start, int goal) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minBitFlips(start int, goal int) int {
 	t := start ^ goal
@@ -115,7 +122,9 @@ func minBitFlips(start int, goal int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minBitFlips(start: number, goal: number): number {
     let tmp = start ^ goal;
@@ -127,7 +136,9 @@ function minBitFlips(start: number, goal: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_bit_flips(start: i32, goal: i32) -> i32 {
@@ -141,7 +152,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int minBitFlips(int start, int goal) {
     int tmp = start ^ goal;
@@ -153,6 +166,7 @@ int minBitFlips(int start, int goal) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

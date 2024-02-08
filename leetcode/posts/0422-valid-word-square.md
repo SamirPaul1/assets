@@ -75,6 +75,7 @@ Therefore, it is NOT a valid word square.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validWordSquare(self, words: List[str]) -> bool:
@@ -87,7 +88,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean validWordSquare(List<String> words) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validWordSquare(words []string) bool {
 	m := len(words)
@@ -139,7 +146,9 @@ func validWordSquare(words []string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function validWordSquare(words: string[]): boolean {
     const m = words.length;
@@ -154,6 +163,7 @@ function validWordSquare(words: string[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +171,7 @@ function validWordSquare(words: string[]): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validWordSquare(self, words: List[str]) -> bool:
@@ -171,6 +182,7 @@ class Solution:
                     return False
         return True
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

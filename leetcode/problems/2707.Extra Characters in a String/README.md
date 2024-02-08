@@ -1,6 +1,5 @@
 # [2707. Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string)
 
-[中文文档](/solution/2700-2799/2707.Extra%20Characters%20in%20a%20String/README.md)
 
 ## Description
 

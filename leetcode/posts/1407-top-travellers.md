@@ -113,6 +113,7 @@ We can use a left join to join the `Users` table with the `Rides` table on the c
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT name, IFNULL(SUM(distance), 0) AS travelled_distance
@@ -122,6 +123,7 @@ FROM
 GROUP BY u.id
 ORDER BY 2 DESC, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

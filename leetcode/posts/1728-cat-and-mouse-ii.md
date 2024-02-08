@@ -93,6 +93,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMouseWin(self, grid: List[str], catJump: int, mouseJump: int) -> bool:
@@ -165,6 +166,7 @@ class Solution:
 
         return dp(cat, mouse, 0)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

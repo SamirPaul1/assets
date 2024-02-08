@@ -68,6 +68,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def interchangeableRectangles(self, rectangles: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
             cnt[(w, h)] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long interchangeableRectangles(int[][] rectangles) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func interchangeableRectangles(rectangles [][]int) int64 {
 	ans := 0
@@ -149,7 +156,9 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} rectangles
@@ -176,6 +185,7 @@ function gcd(a, b) {
     return gcd(b, a % b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

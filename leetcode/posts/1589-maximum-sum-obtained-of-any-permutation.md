@@ -73,6 +73,7 @@ Total sum: 11 + 8 = 19, which is the best that you can do.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSumRangeQuery(self, nums: List[int], requests: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
         mod = 10**9 + 7
         return sum(a * b for a, b in zip(nums, d)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxSumRangeQuery(int[] nums, int[][] requests) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSumRangeQuery(nums []int, requests [][]int) (ans int) {
 	n := len(nums)
@@ -169,7 +176,9 @@ func maxSumRangeQuery(nums []int, requests [][]int) (ans int) {
 	}
 	return
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSumRangeQuery(nums: number[], requests: number[][]): number {
     const n = nums.length;
@@ -193,6 +202,7 @@ function maxSumRangeQuery(nums: number[], requests: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

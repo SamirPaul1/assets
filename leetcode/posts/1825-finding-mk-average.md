@@ -100,6 +100,7 @@ In terms of time complexity, each call to the $addElement(num)$ function has a t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -158,7 +159,9 @@ class MKAverage:
 # obj.addElement(num)
 # param_2 = obj.calculateMKAverage()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MKAverage {
 
@@ -252,7 +255,9 @@ class MKAverage {
  * int param_2 = obj.calculateMKAverage();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MKAverage {
 public:
@@ -328,7 +333,9 @@ private:
  * int param_2 = obj->calculateMKAverage();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MKAverage struct {
 	lo, mid, hi  *redblacktree.Tree
@@ -423,6 +430,7 @@ func (this *MKAverage) CalculateMKAverage() int {
  * param_2 := obj.CalculateMKAverage();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -430,6 +438,7 @@ func (this *MKAverage) CalculateMKAverage() int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -476,6 +485,7 @@ class MKAverage:
 # obj.addElement(num)
 # param_2 = obj.calculateMKAverage()
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

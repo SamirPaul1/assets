@@ -58,6 +58,7 @@ The closest occurrence of &#39;e&#39; for index 8 is at index 6, so the distance
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestToChar(self, s: str, c: str) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
             ans[i] = min(ans[i], suf - i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] shortestToChar(String s, char c) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestToChar(s string, c byte) []int {
 	n := len(s)
@@ -146,7 +153,9 @@ func shortestToChar(s string, c byte) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function shortestToChar(s: string, c: string): number[] {
     const n = s.length;
@@ -167,7 +176,9 @@ function shortestToChar(s: string, c: string): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn shortest_to_char(s: String, c: char) -> Vec<i32> {
@@ -193,6 +204,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -64,12 +64,15 @@ The strings are the same, so return true.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
         return ''.join(word1) == ''.join(word2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
@@ -77,7 +80,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -86,19 +91,25 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayStringsAreEqual(word1 []string, word2 []string) bool {
 	return strings.Join(word1, "") == strings.Join(word2, "")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arrayStringsAreEqual(word1: string[], word2: string[]): boolean {
     return word1.join('') === word2.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn array_strings_are_equal(word1: Vec<String>, word2: Vec<String>) -> bool {
@@ -106,7 +117,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool arrayStringsAreEqual(char** word1, int word1Size, char** word2, int word2Size) {
     int i = 0;
@@ -130,6 +143,7 @@ bool arrayStringsAreEqual(char** word1, int word1Size, char** word2, int word2Si
     return i == word1Size && j == word2Size;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -137,6 +151,7 @@ bool arrayStringsAreEqual(char** word1, int word1Size, char** word2, int word2Si
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrayStringsAreEqual(self, word1: List[str], word2: List[str]) -> bool:
@@ -151,7 +166,9 @@ class Solution:
                 y, j = 0, j + 1
         return i == len(word1) and j == len(word2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
@@ -174,7 +191,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -189,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrayStringsAreEqual(word1 []string, word2 []string) bool {
 	var i, j, x, y int
@@ -208,7 +229,9 @@ func arrayStringsAreEqual(word1 []string, word2 []string) bool {
 	return i == len(word1) && j == len(word2)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arrayStringsAreEqual(word1: string[], word2: string[]): boolean {
     let [i, j, x, y] = [0, 0, 0, 0];
@@ -228,7 +251,9 @@ function arrayStringsAreEqual(word1: string[], word2: string[]): boolean {
     return i === word1.length && j === word2.length;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn array_strings_are_equal(word1: Vec<String>, word2: Vec<String>) -> bool {
@@ -253,6 +278,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

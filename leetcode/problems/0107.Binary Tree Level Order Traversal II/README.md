@@ -1,6 +1,5 @@
 # [107. Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)
 
-[中文文档](/solution/0100-0199/0107.Binary%20Tree%20Level%20Order%20Traversal%20II/README.md)
 
 ## Description
 

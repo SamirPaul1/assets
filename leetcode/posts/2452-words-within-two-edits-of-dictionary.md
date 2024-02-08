@@ -64,6 +64,7 @@ Applying any two edits to &quot;yes&quot; cannot make it equal to &quot;not&quot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def twoEditWords(self, queries: List[str], dictionary: List[str]) -> List[str]:
@@ -75,7 +76,9 @@ class Solution:
                     break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> twoEditWords(String[] queries, String[] dictionary) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func twoEditWords(queries []string, dictionary []string) (ans []string) {
 	for _, s := range queries {
@@ -139,7 +146,9 @@ func twoEditWords(queries []string, dictionary []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function twoEditWords(queries: string[], dictionary: string[]): string[] {
     const n = queries[0].length;
@@ -159,7 +168,9 @@ function twoEditWords(queries: string[], dictionary: string[]): string[] {
     });
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn two_edit_words(queries: Vec<String>, dictionary: Vec<String>) -> Vec<String> {
@@ -184,6 +195,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

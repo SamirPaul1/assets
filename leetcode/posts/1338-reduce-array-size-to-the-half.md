@@ -57,6 +57,7 @@ Choosing set {2,7} is not possible as it will make the new array [3,3,3,3,5,5,5]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSetSize(self, arr: List[int]) -> int:
@@ -69,7 +70,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSetSize(int[] arr) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSetSize(arr []int) (ans int) {
 	mx := slices.Max(arr)
@@ -143,7 +150,9 @@ func minSetSize(arr []int) (ans int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSetSize(arr: number[]): number {
     const counter = new Map<number, number>();
@@ -164,6 +173,7 @@ function minSetSize(arr: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

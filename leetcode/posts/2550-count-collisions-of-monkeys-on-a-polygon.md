@@ -74,13 +74,16 @@ The time complexity is $O(\log n)$, where $n$ is the number of monkeys. The spac
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def monkeyMove(self, n: int) -> int:
         mod = 10**9 + 7
         return (pow(2, n, mod) - 2) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int monkeyMove(int n) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func monkeyMove(n int) int {
 	const mod = 1e9 + 7
@@ -138,7 +145,9 @@ func monkeyMove(n int) int {
 	return (qpow(2, n) - 2 + mod) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function monkeyMove(n: number): number {
     const mod = 10 ** 9 + 7;
@@ -155,6 +164,7 @@ function monkeyMove(n: number): number {
     return (qpow(2, n) - 2 + mod) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

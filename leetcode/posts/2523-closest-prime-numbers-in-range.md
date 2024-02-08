@@ -72,6 +72,7 @@ Since 11 is smaller than 17, we return the first pair.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closestPrimes(self, left: int, right: int) -> List[int]:
@@ -97,7 +98,9 @@ class Solution:
                 ans = [a, b]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] closestPrimes(int left, int right) {
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -185,7 +190,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestPrimes(left int, right int) []int {
 	cnt := 0
@@ -227,6 +234,7 @@ func closestPrimes(left int, right int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

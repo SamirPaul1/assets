@@ -1,6 +1,5 @@
 # [2365. Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii)
 
-[中文文档](/solution/2300-2399/2365.Task%20Scheduler%20II/README.md)
 
 ## Description
 

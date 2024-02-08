@@ -1,6 +1,5 @@
 # [1797. Design Authentication Manager](https://leetcode.com/problems/design-authentication-manager)
 
-[中文文档](/solution/1700-1799/1797.Design%20Authentication%20Manager/README.md)
 
 ## Description
 

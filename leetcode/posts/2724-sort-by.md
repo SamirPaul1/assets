@@ -63,11 +63,13 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortBy(arr: any[], fn: Function): any[] {
     return arr.sort((a, b) => fn(a) - fn(b));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -65,12 +65,15 @@ There are 0 employees who met the target.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfEmployeesWhoMetTarget(self, hours: List[int], target: int) -> int:
         return sum(x >= target for x in hours)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,7 +102,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfEmployeesWhoMetTarget(hours []int, target int) (ans int) {
 	for _, x := range hours {
@@ -108,7 +115,9 @@ func numberOfEmployeesWhoMetTarget(hours []int, target int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfEmployeesWhoMetTarget(hours: number[], target: number): number {
     let ans = 0;
@@ -120,7 +129,9 @@ function numberOfEmployeesWhoMetTarget(hours: number[], target: number): number 
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn number_of_employees_who_met_target(hours: Vec<i32>, target: i32) -> i32 {
@@ -134,6 +145,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

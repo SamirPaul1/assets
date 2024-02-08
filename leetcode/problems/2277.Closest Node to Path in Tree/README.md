@@ -1,6 +1,5 @@
 # [2277. Closest Node to Path in Tree](https://leetcode.com/problems/closest-node-to-path-in-tree)
 
-[中文文档](/solution/2200-2299/2277.Closest%20Node%20to%20Path%20in%20Tree/README.md)
 
 ## Description
 

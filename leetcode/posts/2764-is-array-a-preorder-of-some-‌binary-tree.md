@@ -67,6 +67,7 @@ For the preorder traversal, first we visit node 0, then we do the preorder trave
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPreorder(self, nodes: List[List[int]]) -> bool:
@@ -83,7 +84,9 @@ class Solution:
         k = 0
         return dfs(nodes[0][0]) and k == len(nodes)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, List<Integer>> g = new HashMap<>();
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPreorder(nodes [][]int) bool {
 	k := 0
@@ -162,7 +169,9 @@ func isPreorder(nodes [][]int) bool {
 	return dfs(nodes[0][0]) && k == len(nodes)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPreorder(nodes: number[][]): boolean {
     let k = 0;
@@ -188,6 +197,7 @@ function isPreorder(nodes: number[][]): boolean {
     return dfs(nodes[0][0]) && k === nodes.length;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

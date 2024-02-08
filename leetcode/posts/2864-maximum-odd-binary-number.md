@@ -63,13 +63,16 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumOddBinaryNumber(self, s: str) -> str:
         cnt = s.count("1")
         return "1" * (cnt - 1) + (len(s) - cnt) * "0" + "1"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String maximumOddBinaryNumber(String s) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,14 +106,18 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumOddBinaryNumber(s string) string {
 	cnt := strings.Count(s, "1")
 	return strings.Repeat("1", cnt-1) + strings.Repeat("0", len(s)-cnt) + "1"
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumOddBinaryNumber(s: string): string {
     let cnt = 0;
@@ -118,6 +127,7 @@ function maximumOddBinaryNumber(s: string): string {
     return '1'.repeat(cnt - 1) + '0'.repeat(s.length - cnt) + '1';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2319. Check if Matrix Is X-Matrix](https://leetcode.com/problems/check-if-matrix-is-x-matrix)
 
-[中文文档](/solution/2300-2399/2319.Check%20if%20Matrix%20Is%20X-Matrix/README.md)
 
 ## Description
 

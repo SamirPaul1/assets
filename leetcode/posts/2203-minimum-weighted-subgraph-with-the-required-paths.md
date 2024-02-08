@@ -70,6 +70,7 @@ It can be seen that there does not exist any path from node 1 to node 2, hence t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumWeight(
@@ -100,7 +101,9 @@ class Solution:
         ans = min(sum(v) for v in zip(d1, d2, d3))
         return -1 if ans >= inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final Long INF = Long.MAX_VALUE;
@@ -162,6 +165,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

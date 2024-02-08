@@ -78,6 +78,7 @@ The total score is 50 + 15 - 9 + 4 + 42 = 102.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
@@ -93,7 +94,9 @@ class Solution:
         m = len(multipliers)
         return f(0, n - 1, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumScore(nums []int, multipliers []int) int {
 	n, m := len(nums), len(multipliers)
@@ -174,7 +181,9 @@ func maximumScore(nums []int, multipliers []int) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumScore(nums: number[], multipliers: number[]): number {
     const inf = 1 << 30;
@@ -200,6 +209,7 @@ function maximumScore(nums: number[], multipliers: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -207,6 +217,7 @@ function maximumScore(nums: number[], multipliers: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumScore(self, nums: List[int], multipliers: List[int]) -> int:
@@ -225,7 +236,9 @@ class Solution:
                     ans = max(ans, f[i][j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumScore(int[] nums, int[] multipliers) {
@@ -255,7 +268,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -283,7 +298,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumScore(nums []int, multipliers []int) int {
 	const inf int = 1 << 30
@@ -314,6 +331,7 @@ func maximumScore(nums []int, multipliers []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

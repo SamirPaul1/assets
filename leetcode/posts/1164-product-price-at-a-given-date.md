@@ -74,6 +74,7 @@ We can use a subquery to find the price of the last price change for each produc
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -94,6 +95,7 @@ FROM
     T
     LEFT JOIN P USING (product_id);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -101,6 +103,7 @@ FROM
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -127,6 +130,7 @@ SELECT product_id, IFNULL(new_price, 10) AS price
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

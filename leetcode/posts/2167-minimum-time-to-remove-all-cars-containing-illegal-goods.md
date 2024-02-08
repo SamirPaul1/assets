@@ -90,6 +90,7 @@ There are no other ways to remove them with less time.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumTime(self, s: str) -> int:
@@ -102,7 +103,9 @@ class Solution:
             suf[i] = suf[i + 1] if s[i] == '0' else min(suf[i + 1] + 2, n - i)
         return min(a + b for a, b in zip(pre[1:], suf[1:]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumTime(String s) {
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -139,7 +144,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumTime(s string) int {
 	n := len(s)
@@ -164,6 +171,7 @@ func minimumTime(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

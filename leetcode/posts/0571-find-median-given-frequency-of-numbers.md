@@ -70,6 +70,7 @@ If we decompress the Numbers table, we will get [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 2
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -86,6 +87,7 @@ SELECT
 FROM t
 WHERE rk1 >= s / 2 AND rk2 >= s / 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

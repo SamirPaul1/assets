@@ -68,6 +68,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makePrefSumNonNegative(self, nums: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int makePrefSumNonNegative(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makePrefSumNonNegative(nums []int) (ans int) {
 	pq := hp{}
@@ -155,7 +162,9 @@ func (h *hp) Pop() any {
 	return v
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makePrefSumNonNegative(nums: number[]): number {
     const pq = new MinPriorityQueue();
@@ -174,6 +183,7 @@ function makePrefSumNonNegative(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

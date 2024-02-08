@@ -129,6 +129,7 @@ On 2013-10-03:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -174,7 +175,9 @@ def trips_and_users(trips: pd.DataFrame, users: pd.DataFrame) -> pd.DataFrame:
     df["Cancellation Rate"] = (df["total_cancelled"] / df["total"]).round(2)
     return df[["Day", "Cancellation Rate"]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -187,6 +190,7 @@ FROM
 WHERE request_at BETWEEN '2013-10-01' AND '2013-10-03'
 GROUP BY request_at;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

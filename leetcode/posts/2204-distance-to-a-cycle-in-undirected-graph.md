@@ -98,6 +98,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distanceToCycle(self, n: int, edges: List[List[int]]) -> List[int]:
@@ -122,7 +123,9 @@ class Solution:
             ans[i] = ans[f[i]] + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] distanceToCycle(int n, int[][] edges) {
@@ -161,7 +164,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -203,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distanceToCycle(n int, edges [][]int) []int {
 	g := make([]map[int]bool, n)
@@ -244,7 +251,9 @@ func distanceToCycle(n int, edges [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distanceToCycle(n: number, edges: number[][]): number[] {
     const g: Set<number>[] = new Array(n).fill(0).map(() => new Set<number>());
@@ -280,6 +289,7 @@ function distanceToCycle(n: number, edges: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

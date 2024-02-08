@@ -1,6 +1,5 @@
 # [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths)
 
-[中文文档](/solution/0200-0299/0257.Binary%20Tree%20Paths/README.md)
 
 ## Description
 

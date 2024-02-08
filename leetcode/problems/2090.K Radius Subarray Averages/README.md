@@ -1,6 +1,5 @@
 # [2090. K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages)
 
-[中文文档](/solution/2000-2099/2090.K%20Radius%20Subarray%20Averages/README.md)
 
 ## Description
 

@@ -1,6 +1,5 @@
 # [2453. Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets)
 
-[中文文档](/solution/2400-2499/2453.Destroy%20Sequential%20Targets/README.md)
 
 ## Description
 

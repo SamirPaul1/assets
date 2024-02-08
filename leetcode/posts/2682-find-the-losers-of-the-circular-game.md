@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def circularGameLosers(self, n: int, k: int) -> List[int]:
@@ -86,7 +87,9 @@ class Solution:
             p += 1
         return [i + 1 for i in range(n) if not vis[i]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] circularGameLosers(int n, int k) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func circularGameLosers(n int, k int) (ans []int) {
 	vis := make([]bool, n)
@@ -144,7 +151,9 @@ func circularGameLosers(n int, k int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function circularGameLosers(n: number, k: number): number[] {
     const vis = new Array(n).fill(false);
@@ -161,7 +170,9 @@ function circularGameLosers(n: number, k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn circular_game_losers(n: i32, k: i32) -> Vec<i32> {
@@ -186,6 +197,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

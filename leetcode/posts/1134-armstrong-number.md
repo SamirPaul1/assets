@@ -57,6 +57,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(\log n)$. Her
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isArmstrong(self, n: int) -> bool:
@@ -67,7 +68,9 @@ class Solution:
             x //= 10
         return s == n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isArmstrong(int n) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -94,7 +99,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isArmstrong(n int) bool {
 	k := 0
@@ -108,7 +115,9 @@ func isArmstrong(n int) bool {
 	return s == n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isArmstrong(n: number): boolean {
     const k = String(n).length;
@@ -119,7 +128,9 @@ function isArmstrong(n: number): boolean {
     return s == n;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -134,6 +145,7 @@ var isArmstrong = function (n) {
     return s == n;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

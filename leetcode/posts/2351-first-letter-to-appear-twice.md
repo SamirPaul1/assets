@@ -66,6 +66,7 @@ The only letter that appears twice is &#39;d&#39; so we return &#39;d&#39;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
@@ -75,7 +76,9 @@ class Solution:
             if cnt[c] == 2:
                 return c
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public char repeatedCharacter(String s) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func repeatedCharacter(s string) byte {
 	cnt := [26]int{}
@@ -115,7 +122,9 @@ func repeatedCharacter(s string) byte {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function repeatedCharacter(s: string): string {
     const vis = new Array(26).fill(false);
@@ -129,7 +138,9 @@ function repeatedCharacter(s: string): string {
     return ' ';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn repeated_character(s: String) -> char {
@@ -144,7 +155,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -161,7 +174,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char repeatedCharacter(char* s) {
     int vis[26] = {0};
@@ -174,6 +189,7 @@ char repeatedCharacter(char* s) {
     return ' ';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -181,6 +197,7 @@ char repeatedCharacter(char* s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def repeatedCharacter(self, s: str) -> str:
@@ -191,7 +208,9 @@ class Solution:
                 return c
             mask |= 1 << i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public char repeatedCharacter(String s) {
@@ -206,7 +225,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -221,7 +242,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func repeatedCharacter(s string) byte {
 	mask := 0
@@ -233,7 +256,9 @@ func repeatedCharacter(s string) byte {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function repeatedCharacter(s: string): string {
     let mask = 0;
@@ -247,7 +272,9 @@ function repeatedCharacter(s: string): string {
     return ' ';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn repeated_character(s: String) -> char {
@@ -262,7 +289,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char repeatedCharacter(char* s) {
     int mask = 0;
@@ -275,6 +304,7 @@ char repeatedCharacter(char* s) {
     return ' ';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

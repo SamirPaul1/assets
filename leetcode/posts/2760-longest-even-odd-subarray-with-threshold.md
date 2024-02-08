@@ -80,6 +80,7 @@ The time complexity is $O(n^2)$, where $n$ is the length of the array $nums$. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 ans = max(ans, r - l)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestAlternatingSubarray(int[] nums, int threshold) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestAlternatingSubarray(nums []int, threshold int) (ans int) {
 	n := len(nums)
@@ -145,7 +152,9 @@ func longestAlternatingSubarray(nums []int, threshold int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestAlternatingSubarray(nums: number[], threshold: number): number {
     const n = nums.length;
@@ -162,6 +171,7 @@ function longestAlternatingSubarray(nums: number[], threshold: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -173,6 +183,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestAlternatingSubarray(self, nums: List[int], threshold: int) -> int:
@@ -188,7 +199,9 @@ class Solution:
                 l += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestAlternatingSubarray(int[] nums, int threshold) {
@@ -209,7 +222,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -231,7 +246,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestAlternatingSubarray(nums []int, threshold int) (ans int) {
 	for l, n := 0, len(nums); l < n; {
@@ -249,7 +266,9 @@ func longestAlternatingSubarray(nums []int, threshold int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestAlternatingSubarray(nums: number[], threshold: number): number {
     const n = nums.length;
@@ -269,6 +288,7 @@ function longestAlternatingSubarray(nums: number[], threshold: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

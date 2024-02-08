@@ -60,6 +60,7 @@ solution.randPoint(); // return [0.36572, 0.17248]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def __init__(self, radius: float, x_center: float, y_center: float):
@@ -74,6 +75,7 @@ class Solution:
         y = self.y_center + length * math.sin(degree)
         return [x, y]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

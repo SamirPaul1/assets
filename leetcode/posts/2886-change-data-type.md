@@ -64,6 +64,7 @@ The data types of the column grade is converted to int.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -72,6 +73,7 @@ def changeDatatype(students: pd.DataFrame) -> pd.DataFrame:
     students['grade'] = students['grade'].astype(int)
     return students
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -61,6 +61,7 @@ There is no way to delete elements from nums to allow this.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], numsDivide: List[int]) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[] nums, int[] numsDivide) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, numsDivide []int) int {
 	x := 0
@@ -137,6 +144,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -144,6 +152,7 @@ func gcd(a, b int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], numsDivide: List[int]) -> int:
@@ -151,7 +160,9 @@ class Solution:
         nums.sort()
         return next((i for i, v in enumerate(nums) if x % v == 0), -1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(int[] nums, int[] numsDivide) {
@@ -182,7 +193,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -208,7 +221,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, numsDivide []int) int {
 	x := 0
@@ -240,6 +255,7 @@ func gcd(a, b int) int {
 	return gcd(b, a%b)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -247,6 +263,7 @@ func gcd(a, b int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], numsDivide: List[int]) -> int:
@@ -254,6 +271,7 @@ class Solution:
         y = min((v for v in nums if x % v == 0), default=0)
         return sum(v < y for v in nums) if y else -1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

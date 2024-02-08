@@ -72,6 +72,7 @@ After that, no pieces can move anymore, so it is impossible to obtain the string
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canChange(self, start: str, target: str) -> bool:
@@ -88,7 +89,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canChange(String start, String target) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pii = pair<int, int>;
 
@@ -157,7 +162,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canChange(start string, target string) bool {
 	f := func(s string) [][]int {
@@ -191,7 +198,9 @@ func canChange(start string, target string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canChange(start: string, target: string): boolean {
     if (
@@ -225,6 +234,7 @@ function canChange(start: string, target: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -232,6 +242,7 @@ function canChange(start: string, target: string): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canChange(self, start: str, target: str) -> bool:
@@ -252,7 +263,9 @@ class Solution:
                 return False
             i, j = i + 1, j + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canChange(String start, String target) {
@@ -280,7 +293,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -300,7 +315,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canChange(start string, target string) bool {
 	n := len(start)
@@ -328,7 +345,9 @@ func canChange(start string, target string) bool {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canChange(start: string, target: string): boolean {
     const n = start.length;
@@ -354,6 +373,7 @@ function canChange(start: string, target: string): boolean {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ Note that any permutation of [1,2,-3] and also any permutation of [-1,-2,3] will
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -101,7 +102,9 @@ class Solution:
                 break
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] recoverArray(int n, int[] sums) {
@@ -155,7 +158,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -203,7 +208,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func recoverArray(n int, sums []int) []int {
 	m := -slices.Min(sums)
@@ -260,6 +267,7 @@ func recoverArray(n int, sums []int) []int {
 
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -267,6 +275,7 @@ func recoverArray(n int, sums []int) []int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def recoverArray(self, n: int, sums: List[int]) -> List[int]:
@@ -291,7 +300,9 @@ class Solution:
             sums = sums1 if sign == 1 else sums2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] recoverArray(int n, int[] sums) {
@@ -327,7 +338,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -365,7 +378,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func recoverArray(n int, sums []int) (ans []int) {
 	sort.Ints(sums)
@@ -399,6 +414,7 @@ func recoverArray(n int, sums []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

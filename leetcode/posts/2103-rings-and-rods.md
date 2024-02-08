@@ -89,6 +89,7 @@ The time complexity is $O(n)$, and the space complexity is $O(|\Sigma|)$, where 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPoints(self, rings: str) -> int:
@@ -100,7 +101,9 @@ class Solution:
             mask[j] |= d[c]
         return mask.count(7)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countPoints(String rings) {
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPoints(rings string) (ans int) {
 	d := ['Z']int{'R': 1, 'G': 2, 'B': 4}
@@ -158,7 +165,9 @@ func countPoints(rings string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPoints(rings: string): number {
     const idx = (c: string) => c.charCodeAt(0) - 'A'.charCodeAt(0);
@@ -175,7 +184,9 @@ function countPoints(rings: string): number {
     return mask.filter(x => x === 7).length;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn count_points(rings: String) -> i32 {
@@ -201,7 +212,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int countPoints(char* rings) {
     int d['Z'];
@@ -229,6 +242,7 @@ int countPoints(char* rings) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +250,7 @@ int countPoints(char* rings) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPoints(rings: string): number {
     let c = 0;
@@ -245,6 +260,7 @@ function countPoints(rings: string): number {
     return c;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

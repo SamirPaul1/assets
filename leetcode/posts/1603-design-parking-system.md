@@ -61,6 +61,7 @@ parkingSystem.addCar(1); // return false because there is no available slot for 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class ParkingSystem:
     def __init__(self, big: int, medium: int, small: int):
@@ -77,7 +78,9 @@ class ParkingSystem:
 # obj = ParkingSystem(big, medium, small)
 # param_1 = obj.addCar(carType)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class ParkingSystem {
     private int[] cnt;
@@ -101,7 +104,9 @@ class ParkingSystem {
  * boolean param_1 = obj.addCar(carType);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class ParkingSystem {
 public:
@@ -124,7 +129,9 @@ public:
  * bool param_1 = obj->addCar(carType);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type ParkingSystem struct {
 	cnt []int
@@ -148,7 +155,9 @@ func (this *ParkingSystem) AddCar(carType int) bool {
  * param_1 := obj.AddCar(carType);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class ParkingSystem {
     private count: [number, number, number];
@@ -172,7 +181,9 @@ class ParkingSystem {
  * var param_1 = obj.addCar(carType)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct ParkingSystem {
     count: [i32; 3],
@@ -203,7 +214,9 @@ impl ParkingSystem {
  * let ret_1: bool = obj.add_car(carType);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class ParkingSystem {
 
@@ -228,7 +241,9 @@ public class ParkingSystem {
  * bool param_1 = obj.AddCar(carType);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 typedef struct {
     int* count;
@@ -264,6 +279,7 @@ void parkingSystemFree(ParkingSystem* obj) {
  * parkingSystemFree(obj);
 */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

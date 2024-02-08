@@ -74,6 +74,7 @@ Time complexity $O(n \times \log n)$, space complexity $O(n)$. Where $n$ is the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def miceAndCheese(self, reward1: List[int], reward2: List[int], k: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
         idx = sorted(range(n), key=lambda i: reward1[i] - reward2[i], reverse=True)
         return sum(reward1[i] for i in idx[:k]) + sum(reward2[i] for i in idx[k:])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int miceAndCheese(int[] reward1, int[] reward2, int k) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func miceAndCheese(reward1 []int, reward2 []int, k int) (ans int) {
 	n := len(reward1)
@@ -143,7 +150,9 @@ func miceAndCheese(reward1 []int, reward2 []int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function miceAndCheese(reward1: number[], reward2: number[], k: number): number {
     const n = reward1.length;
@@ -159,6 +168,7 @@ function miceAndCheese(reward1: number[], reward2: number[], k: number): number 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -166,6 +176,7 @@ function miceAndCheese(reward1: number[], reward2: number[], k: number): number 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def miceAndCheese(self, reward1: List[int], reward2: List[int], k: int) -> int:
@@ -174,7 +185,9 @@ class Solution:
         reward1.sort(reverse=True)
         return sum(reward2) + sum(reward1[:k])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int miceAndCheese(int[] reward1, int[] reward2, int k) {
@@ -192,7 +205,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -209,7 +224,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func miceAndCheese(reward1 []int, reward2 []int, k int) (ans int) {
 	for i, x := range reward2 {
@@ -224,7 +241,9 @@ func miceAndCheese(reward1 []int, reward2 []int, k int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function miceAndCheese(reward1: number[], reward2: number[], k: number): number {
     const n = reward1.length;
@@ -240,6 +259,7 @@ function miceAndCheese(reward1: number[], reward2: number[], k: number): number 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxTurbulenceSize(self, arr: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
             ans = max(ans, f, g)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxTurbulenceSize(int[] arr) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxTurbulenceSize(arr []int) int {
 	ans, f, g := 1, 1, 1
@@ -141,7 +148,9 @@ func maxTurbulenceSize(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxTurbulenceSize(arr: number[]): number {
     let f = 1;
@@ -157,6 +166,7 @@ function maxTurbulenceSize(arr: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -75,6 +75,7 @@ The time complexity is $O(\sum_{w \in words} |w|)$, and the space complexity is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     __slots__ = ["children", "is_end"]
@@ -113,7 +114,9 @@ class Solution:
                 ans = w
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[26];
@@ -164,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 private:
@@ -218,7 +223,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -267,7 +274,9 @@ func longestWord(words []string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     private children: (Trie | null)[] = Array(26).fill(null);
@@ -312,7 +321,9 @@ function longestWord(words: string[]): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct Trie {
     children: [Option<Box<Trie>>; 26],
@@ -367,7 +378,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Trie {
     private Trie[] children = new Trie[26];
@@ -417,6 +430,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

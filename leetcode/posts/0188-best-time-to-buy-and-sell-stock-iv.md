@@ -72,6 +72,7 @@ The time complexity is $O(n \times k)$, and the space complexity is $O(n \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
@@ -88,7 +89,9 @@ class Solution:
 
         return dfs(0, k, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][][] f;
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(k int, prices []int) int {
 	n := len(prices)
@@ -177,7 +184,9 @@ func maxProfit(k int, prices []int) int {
 	return dfs(0, k, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(k: number, prices: number[]): number {
     const n = prices.length;
@@ -202,7 +211,9 @@ function maxProfit(k: number, prices: number[]): number {
     return dfs(0, k, 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int[,,] f;
@@ -240,6 +251,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -271,6 +283,7 @@ We notice that the state $f[i][]$ only depends on the state $f[i - 1][]$, so we 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
@@ -284,7 +297,9 @@ class Solution:
                 f[i][j][1] = max(f[i - 1][j - 1][0] - x, f[i - 1][j][1])
         return f[n - 1][k][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
@@ -303,7 +318,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -324,7 +341,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(k int, prices []int) int {
 	n := len(prices)
@@ -344,7 +363,9 @@ func maxProfit(k int, prices []int) int {
 	return f[n-1][k][0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(k: number, prices: number[]): number {
     const n = prices.length;
@@ -363,7 +384,9 @@ function maxProfit(k: number, prices: number[]): number {
     return f[n - 1][k][0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaxProfit(int k, int[] prices) {
@@ -382,6 +405,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -389,6 +413,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, k: int, prices: List[int]) -> int:
@@ -401,7 +426,9 @@ class Solution:
                 f[j][1] = max(f[j - 1][0] - x, f[j][1])
         return f[k][0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
@@ -420,7 +447,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -441,7 +470,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(k int, prices []int) int {
 	f := make([][2]int, k+1)
@@ -457,7 +488,9 @@ func maxProfit(k int, prices []int) int {
 	return f[k][0]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(k: number, prices: number[]): number {
     const f = Array.from({ length: k + 1 }, () => Array.from({ length: 2 }, () => 0));
@@ -473,7 +506,9 @@ function maxProfit(k: number, prices: number[]): number {
     return f[k][0];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaxProfit(int k, int[] prices) {
@@ -492,6 +527,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -116,6 +116,7 @@ The time complexity is $O(m^2 \times n^2)$, and the space complexity is $O(m^2 \
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minPushBox(self, grid: List[List[str]]) -> int:
@@ -157,7 +158,9 @@ class Solution:
                     q.appendleft((f(sx, sy), f(bi, bj), d))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -225,7 +228,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -283,7 +288,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minPushBox(grid [][]byte) int {
 	m, n := len(grid), len(grid[0])
@@ -339,7 +346,9 @@ func minPushBox(grid [][]byte) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minPushBox(grid: string[][]): number {
     const [m, n] = [grid.length, grid[0].length];
@@ -560,6 +569,7 @@ class Deque<T> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

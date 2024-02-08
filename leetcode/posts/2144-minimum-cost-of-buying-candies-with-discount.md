@@ -77,13 +77,16 @@ Hence, the minimum cost to buy all candies is 5 + 5 = 10.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCost(self, cost: List[int]) -> int:
         cost.sort(reverse=True)
         return sum(cost) - sum(cost[2::3])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCost(int[] cost) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumCost(cost []int) (ans int) {
 	sort.Ints(cost)
@@ -129,7 +136,9 @@ func minimumCost(cost []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumCost(cost: number[]): number {
     cost.sort((a, b) => a - b);
@@ -143,6 +152,7 @@ function minimumCost(cost: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

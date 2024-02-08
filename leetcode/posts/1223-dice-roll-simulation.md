@@ -74,6 +74,7 @@ The time complexity is $O(n \times k^2 \times M)$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dieSimulator(self, n: int, rollMax: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
 
         return dfs(0, 0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][][] f;
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -153,7 +158,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dieSimulator(n int, rollMax []int) int {
 	f := make([][7][16]int, n)
@@ -180,6 +187,7 @@ func dieSimulator(n int, rollMax []int) int {
 	return dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -204,6 +212,7 @@ The time complexity is $O(n \times k^2 \times M)$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def dieSimulator(self, n: int, rollMax: List[int]) -> int:
@@ -225,7 +234,9 @@ class Solution:
                 ans = (ans + f[n][j][x]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int dieSimulator(int n, int[] rollMax) {
@@ -257,7 +268,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -291,7 +304,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func dieSimulator(n int, rollMax []int) (ans int) {
 	f := make([][7][16]int, n+1)
@@ -320,6 +335,7 @@ func dieSimulator(n int, rollMax []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

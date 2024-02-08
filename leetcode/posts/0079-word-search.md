@@ -77,6 +77,7 @@ The time complexity is $O(m \times n \times 3^k)$, and the space complexity is $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
@@ -98,7 +99,9 @@ class Solution:
         m, n = len(board), len(board[0])
         return any(dfs(i, j, 0) for i in range(m) for j in range(n))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -178,7 +183,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func exist(board [][]byte, word string) bool {
 	m, n := len(board), len(board[0])
@@ -212,7 +219,9 @@ func exist(board [][]byte, word string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function exist(board: string[][], word: string): boolean {
     const [m, n] = [board.length, board[0].length];
@@ -246,7 +255,9 @@ function exist(board: string[][], word: string): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(
@@ -301,7 +312,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private int m;
@@ -346,6 +359,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

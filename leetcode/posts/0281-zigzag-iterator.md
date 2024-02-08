@@ -81,6 +81,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class ZigzagIterator:
     def __init__(self, v1: List[int], v2: List[int]):
@@ -110,7 +111,9 @@ class ZigzagIterator:
 # i, v = ZigzagIterator(v1, v2), []
 # while i.hasNext(): v.append(i.next())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class ZigzagIterator {
     private int cur;
@@ -154,7 +157,9 @@ public class ZigzagIterator {
  * while (i.hasNext()) v[f()] = i.next();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 struct ZigzagIterator {
     v1: Vec<i32>,
@@ -210,6 +215,7 @@ impl ZigzagIterator {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

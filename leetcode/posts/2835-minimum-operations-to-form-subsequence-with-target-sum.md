@@ -88,6 +88,7 @@ The time complexity is $O(n \times \log M)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, nums: List[int], target: int) -> int:
@@ -119,7 +120,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(List<Integer> nums, int target) {
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -206,7 +211,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(nums []int, target int) (ans int) {
 	s := 0
@@ -246,7 +253,9 @@ func minOperations(nums []int, target int) (ans int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(nums: number[], target: number): number {
     let s = 0;
@@ -286,6 +295,7 @@ function minOperations(nums: number[], target: number): number {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

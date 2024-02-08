@@ -1,6 +1,5 @@
 # [2766. Relocate Marbles](https://leetcode.com/problems/relocate-marbles)
 
-[中文文档](/solution/2700-2799/2766.Relocate%20Marbles/README.md)
 
 ## Description
 

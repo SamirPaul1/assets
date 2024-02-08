@@ -57,12 +57,15 @@ The time complexity is $O(n)$, and the space complexity is $O(C)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
         return len(set(sentence)) == 26
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkIfPangram(String sentence) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -92,7 +97,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfPangram(sentence string) bool {
 	vis := [26]bool{}
@@ -107,7 +114,9 @@ func checkIfPangram(sentence string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfPangram(sentence: string): boolean {
     const vis = new Array(26).fill(false);
@@ -117,7 +126,9 @@ function checkIfPangram(sentence: string): boolean {
     return vis.every(v => v);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check_if_pangram(sentence: String) -> bool {
@@ -129,7 +140,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool checkIfPangram(char* sentence) {
     int vis[26] = {0};
@@ -144,6 +157,7 @@ bool checkIfPangram(char* sentence) {
     return 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -157,6 +171,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string `sentence`.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkIfPangram(self, sentence: str) -> bool:
@@ -165,7 +180,9 @@ class Solution:
             mask |= 1 << (ord(c) - ord('a'))
         return mask == (1 << 26) - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkIfPangram(String sentence) {
@@ -177,7 +194,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -188,7 +207,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkIfPangram(sentence string) bool {
 	mask := 0
@@ -198,7 +219,9 @@ func checkIfPangram(sentence string) bool {
 	return mask == 1<<26-1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkIfPangram(sentence: string): boolean {
     let mark = 0;
@@ -208,7 +231,9 @@ function checkIfPangram(sentence: string): boolean {
     return mark === (1 << 26) - 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check_if_pangram(sentence: String) -> bool {
@@ -220,7 +245,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool checkIfPangram(char* sentence) {
     int mark = 0;
@@ -230,6 +257,7 @@ bool checkIfPangram(char* sentence) {
     return mark == (1 << 26) - 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,6 +57,7 @@ The arrangement with the smallest value that does not contain any leading zeros 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestNumber(self, num: int) -> int:
@@ -85,7 +86,9 @@ class Solution:
                 ans += str(i) * cnt[i]
         return int(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long smallestNumber(long num) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestNumber(num int64) int64 {
 	if num == 0 {
@@ -201,6 +208,7 @@ func smallestNumber(num int64) int64 {
 	return int64(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

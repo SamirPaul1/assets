@@ -77,6 +77,7 @@ We can create &quot;burger&quot; since we have the ingredient &quot;meat&quot; a
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findAllRecipes(
@@ -100,7 +101,9 @@ class Solution:
                         q.append(j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> findAllRecipes(
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findAllRecipes(recipes []string, ingredients [][]string, supplies []string) []string {
 	g := map[string][]string{}
@@ -200,6 +207,7 @@ func findAllRecipes(recipes []string, ingredients [][]string, supplies []string)
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

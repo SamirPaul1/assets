@@ -60,6 +60,7 @@ The time complexity is $O(n)$, and the space complexity is $O(|\Sigma|)$, where 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
@@ -69,7 +70,9 @@ class Solution:
             if cnt[c] < 0:
                 return c
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public char findTheDifference(String s, String t) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheDifference(s, t string) byte {
 	cnt := [26]int{}
@@ -119,7 +126,9 @@ func findTheDifference(s, t string) byte {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheDifference(s: string, t: string): string {
     const cnt: number[] = Array(26).fill(0);
@@ -136,7 +145,9 @@ function findTheDifference(s: string, t: string): string {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_difference(s: String, t: String) -> char {
@@ -161,7 +172,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char findTheDifference(char* s, char* t) {
     int n = strlen(s);
@@ -178,6 +191,7 @@ char findTheDifference(char* s, char* t) {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -189,6 +203,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
@@ -196,7 +211,9 @@ class Solution:
         b = sum(ord(c) for c in t)
         return chr(b - a)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public char findTheDifference(String s, String t) {
@@ -211,7 +228,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -227,7 +246,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findTheDifference(s string, t string) byte {
 	ss := 0
@@ -240,7 +261,9 @@ func findTheDifference(s string, t string) byte {
 	return byte(ss)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findTheDifference(s: string, t: string): string {
     return String.fromCharCode(
@@ -249,7 +272,9 @@ function findTheDifference(s: string, t: string): string {
     );
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_the_difference(s: String, t: String) -> char {
@@ -264,7 +289,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char findTheDifference(char* s, char* t) {
     int n = strlen(s);
@@ -277,6 +304,7 @@ char findTheDifference(char* s, char* t) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

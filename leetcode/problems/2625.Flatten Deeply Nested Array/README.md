@@ -1,6 +1,5 @@
 # [2625. Flatten Deeply Nested Array](https://leetcode.com/problems/flatten-deeply-nested-array)
 
-[中文文档](/solution/2600-2699/2625.Flatten%20Deeply%20Nested%20Array/README.md)
 
 ## Description
 

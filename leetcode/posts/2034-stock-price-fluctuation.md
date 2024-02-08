@@ -95,6 +95,7 @@ The space complexity is $O(n)$, where $n$ is the number of `update` operations.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -129,7 +130,9 @@ class StockPrice:
 # param_3 = obj.maximum()
 # param_4 = obj.minimum()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class StockPrice {
     private Map<Integer, Integer> d = new HashMap<>();
@@ -173,7 +176,9 @@ class StockPrice {
  * int param_4 = obj.minimum();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class StockPrice {
 public:
@@ -216,7 +221,9 @@ private:
  * int param_4 = obj->minimum();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type StockPrice struct {
 	d    map[int]int
@@ -274,6 +281,7 @@ func (this *StockPrice) Minimum() int {
  * param_4 := obj.Minimum();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

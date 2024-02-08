@@ -78,6 +78,7 @@ Time complexity $O(n)$, where $n$ is the length of the array. Space complexity $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
@@ -95,7 +96,9 @@ class Solution:
             i = j + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> summaryRanges(int[] nums) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func summaryRanges(nums []int) (ans []string) {
 	f := func(i, j int) string {
@@ -154,7 +161,9 @@ func summaryRanges(nums []int) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function summaryRanges(nums: number[]): string[] {
     const f = (i: number, j: number): string => {
@@ -172,7 +181,9 @@ function summaryRanges(nums: number[]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -212,7 +223,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<string> SummaryRanges(int[] nums) {
@@ -232,6 +245,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

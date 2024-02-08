@@ -59,6 +59,7 @@ All the strings are now equal to &quot;abc&quot;, so return <code>true</code>.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeEqual(self, words: List[str]) -> bool:
@@ -69,7 +70,9 @@ class Solution:
         n = len(words)
         return all(count % n == 0 for count in counter.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean makeEqual(String[] words) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeEqual(words []string) bool {
 	counter := [26]int{}
@@ -126,7 +133,9 @@ func makeEqual(words []string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makeEqual(words: string[]): boolean {
     let n = words.length;
@@ -145,6 +154,7 @@ function makeEqual(words: string[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

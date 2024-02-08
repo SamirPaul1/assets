@@ -1,6 +1,5 @@
 # [1001. Grid Illumination](https://leetcode.com/problems/grid-illumination)
 
-[中文文档](/solution/1000-1099/1001.Grid%20Illumination/README.md)
 
 ## Description
 

@@ -75,6 +75,7 @@ Choose suffix from index = 4, so resulting s = &quot;ababab&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 DP, Z-algorithm, Fast mod.
@@ -177,7 +178,9 @@ class Solution:
                 result = self.add(result, dp[0] if i - n == 0 else dp[1])
         return result
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int M = 1000000007;
@@ -263,7 +266,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
     const int M = 1000000007;
@@ -344,6 +349,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

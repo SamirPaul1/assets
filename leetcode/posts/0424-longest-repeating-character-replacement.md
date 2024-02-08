@@ -56,6 +56,7 @@ There may exists other ways to achieve this answer too.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
@@ -70,7 +71,9 @@ class Solution:
             i += 1
         return i - j
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int characterReplacement(String s, int k) {
@@ -90,7 +93,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func characterReplacement(s string, k int) int {
 	counter := make([]int, 26)
@@ -129,6 +136,7 @@ func characterReplacement(s string, k int) int {
 	return len(s) - j
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

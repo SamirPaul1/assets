@@ -1,6 +1,5 @@
 # [2995. Viewers Turned Streamers](https://leetcode.com/problems/viewers-turned-streamers)
 
-[中文文档](/solution/2900-2999/2995.Viewers%20Turned%20Streamers/README.md)
 
 ## Description
 

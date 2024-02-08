@@ -71,6 +71,7 @@ counter.reset(); // 0
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type ReturnObj = {
     increment: () => number;
@@ -100,6 +101,7 @@ function createCounter(init: number): ReturnObj {
  * counter.decrement(); // 4
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -87,6 +87,7 @@ The time complexity is $O(n^2 \times \log n)$, and the space complexity is $O(n 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestPathWithHops(
@@ -110,7 +111,9 @@ class Solution:
                     heappush(pq, (dis + w, v, t))
         return int(min(dist[d]))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestPathWithHops(int n, int[][] edges, int s, int d, int k) {
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestPathWithHops(n int, edges [][]int, s int, d int, k int) int {
 	g := make([][][2]int, n)
@@ -231,6 +238,7 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(tuple)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

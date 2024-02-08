@@ -67,6 +67,7 @@ Two operations could be performed to make s a palindrome so return true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makePalindrome(self, s: str) -> bool:
@@ -77,7 +78,9 @@ class Solution:
             i, j = i + 1, j - 1
         return cnt <= 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean makePalindrome(String s) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makePalindrome(s string) bool {
 	cnt := 0
@@ -119,7 +126,9 @@ func makePalindrome(s string) bool {
 	return cnt <= 2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makePalindrome(s: string): boolean {
     let cnt = 0;
@@ -133,6 +142,7 @@ function makePalindrome(s: string): boolean {
     return cnt <= 2;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

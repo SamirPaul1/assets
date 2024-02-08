@@ -1,6 +1,5 @@
 # [1462. Course Schedule IV](https://leetcode.com/problems/course-schedule-iv)
 
-[中文文档](/solution/1400-1499/1462.Course%20Schedule%20IV/README.md)
 
 ## Description
 

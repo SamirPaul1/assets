@@ -64,13 +64,16 @@ The minimum possible difference is 2.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDifference(self, nums: List[int], k: int) -> int:
         nums.sort()
         return min(nums[i + k - 1] - nums[i] for i in range(len(nums) - k + 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDifference(int[] nums, int k) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDifference(nums []int, k int) int {
 	sort.Ints(nums)
@@ -107,7 +114,9 @@ func minimumDifference(nums []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDifference(nums: number[], k: number): number {
     nums.sort((a, b) => a - b);
@@ -119,7 +128,9 @@ function minimumDifference(nums: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn minimum_difference(mut nums: Vec<i32>, k: i32) -> i32 {
@@ -133,7 +144,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -151,6 +164,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

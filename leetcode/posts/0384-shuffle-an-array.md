@@ -65,6 +65,7 @@ solution.shuffle();    // Returns the random shuffling of array [1,2,3]. Example
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def __init__(self, nums: List[int]):
@@ -87,7 +88,9 @@ class Solution:
 # param_1 = obj.reset()
 # param_2 = obj.shuffle()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] nums;
@@ -126,7 +129,9 @@ class Solution {
  * int[] param_2 = obj.shuffle();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
  * vector<int> param_2 = obj->shuffle();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Solution struct {
 	nums, original []int
@@ -191,7 +198,9 @@ func (this *Solution) Shuffle() []int {
  * param_2 := obj.Shuffle();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Solution {
     private nums: number[];
@@ -222,7 +231,9 @@ class Solution {
  * var param_2 = obj.shuffle()
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use rand::Rng;
 struct Solution {
@@ -258,7 +269,9 @@ impl Solution {
  * let ret_2: Vec<i32> = obj.shuffle();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -297,6 +310,7 @@ Solution.prototype.shuffle = function () {
  * var param_2 = obj.shuffle()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

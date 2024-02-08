@@ -74,6 +74,7 @@ Note that there may be other valid parentheses string paths.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def hasValidPath(self, grid: List[List[str]]) -> bool:
@@ -95,7 +96,9 @@ class Solution:
         m, n = len(grid), len(grid[0])
         return dfs(0, 0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private boolean[][][] vis;
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 bool vis[100][100][200];
 int dirs[3] = {1, 0, 1};
@@ -161,7 +166,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func hasValidPath(grid [][]byte) bool {
 	m, n := len(grid), len(grid[0])
@@ -201,6 +208,7 @@ func hasValidPath(grid [][]byte) bool {
 	return dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -97,6 +97,7 @@ The time complexity is $O(m + n + C \times \log C)$, and the space complexity is
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closeStrings(self, word1: str, word2: str) -> bool:
@@ -105,7 +106,9 @@ class Solution:
             cnt1.keys()
         ) == set(cnt2.keys())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean closeStrings(String word1, String word2) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closeStrings(word1 string, word2 string) bool {
 	cnt1 := make([]int, 26)
@@ -171,7 +178,9 @@ func closeStrings(word1 string, word2 string) bool {
 	return slices.Equal(cnt1, cnt2)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function closeStrings(word1: string, word2: string): boolean {
     const cnt1 = Array(26).fill(0);
@@ -192,7 +201,9 @@ function closeStrings(word1: string, word2: string): boolean {
     return cnt1.join('.') === cnt2.join('.');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn close_strings(word1: String, word2: String) -> bool {
@@ -215,6 +226,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

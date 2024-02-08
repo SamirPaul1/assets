@@ -89,6 +89,7 @@ The error should be thrown because we cannot divide by zero.
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Calculator {
     private x: number;
@@ -130,6 +131,7 @@ class Calculator {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

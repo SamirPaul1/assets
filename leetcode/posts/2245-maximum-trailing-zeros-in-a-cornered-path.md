@@ -75,6 +75,7 @@ There are no cornered paths in the grid that result in a product with a trailing
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxTrailingZeros(self, grid: List[List[int]]) -> int:
@@ -109,7 +110,9 @@ class Solution:
                 ans = max(ans, a, b, c, d)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxTrailingZeros(int[][] grid) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -189,7 +194,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxTrailingZeros(grid [][]int) (ans int) {
 	m, n := len(grid), len(grid[0])
@@ -233,7 +240,9 @@ func get(m, n int) [][]int {
 	return f
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxTrailingZeros(grid: number[][]): number {
     const m = grid.length;
@@ -275,6 +284,7 @@ function maxTrailingZeros(grid: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

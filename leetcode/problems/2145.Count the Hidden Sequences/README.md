@@ -1,6 +1,5 @@
 # [2145. Count the Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences)
 
-[中文文档](/solution/2100-2199/2145.Count%20the%20Hidden%20Sequences/README.md)
 
 ## Description
 

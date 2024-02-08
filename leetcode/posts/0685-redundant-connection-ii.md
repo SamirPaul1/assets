@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -98,7 +99,9 @@ class Solution:
             return [p[v], v]
         return edges[conflict]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findRedundantDirectedConnection(int[][] edges) {
@@ -162,7 +165,9 @@ class UnionFind {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -213,7 +218,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p []int
@@ -273,6 +280,7 @@ func findRedundantDirectedConnection(edges [][]int) []int {
 	return edges[conflict]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

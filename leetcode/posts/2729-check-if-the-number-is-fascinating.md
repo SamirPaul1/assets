@@ -61,13 +61,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isFascinating(self, n: int) -> bool:
         s = str(n) + str(2 * n) + str(3 * n)
         return "".join(sorted(s)) == "123456789"
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isFascinating(int n) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isFascinating(n int) bool {
 	s := strconv.Itoa(n) + strconv.Itoa(n*2) + strconv.Itoa(n*3)
@@ -107,14 +114,18 @@ func isFascinating(n int) bool {
 	return cnt[0] == 0 && len(s) == 9
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isFascinating(n: number): boolean {
     const s = `${n}${n * 2}${n * 3}`;
     return s.split('').sort().join('') === '123456789';
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_fascinating(n: i32) -> bool {
@@ -133,6 +144,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -140,6 +152,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -178,6 +191,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

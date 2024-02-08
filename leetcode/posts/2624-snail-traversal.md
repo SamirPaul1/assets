@@ -84,6 +84,7 @@ colsCount = 2
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Array<T> {
@@ -113,6 +114,7 @@ Array.prototype.snail = function (rowsCount: number, colsCount: number): number[
  * arr.snail(1,4); // [[1,2,3,4]]
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

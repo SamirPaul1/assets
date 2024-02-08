@@ -56,6 +56,7 @@ For example, in &quot;abbaca&quot; we could remove &quot;bb&quot; since the lett
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDuplicates(self, s: str) -> str:
@@ -67,7 +68,9 @@ class Solution:
                 stk.append(c)
         return ''.join(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeDuplicates(String s) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDuplicates(s string) string {
 	stk := []rune{}
@@ -114,7 +121,9 @@ func removeDuplicates(s string) string {
 	return string(stk)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_duplicates(s: String) -> String {
@@ -130,7 +139,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -148,7 +159,9 @@ var removeDuplicates = function (s) {
     return stk.join('');
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* removeDuplicates(char* s) {
     int n = strlen(s);
@@ -166,6 +179,7 @@ char* removeDuplicates(char* s) {
     return stack;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

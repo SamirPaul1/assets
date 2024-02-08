@@ -78,6 +78,7 @@ The minimum time to complete the race is 25 seconds.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumFinishTime(
@@ -99,7 +100,9 @@ class Solution:
             f[i] += changeTime
         return f[numLaps]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumFinishTime(int[][] tires, int changeTime, int numLaps) {
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumFinishTime(tires [][]int, changeTime int, numLaps int) int {
 	const inf = 1 << 30
@@ -189,7 +196,9 @@ func minimumFinishTime(tires [][]int, changeTime int, numLaps int) int {
 	return f[numLaps]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumFinishTime(tires: number[][], changeTime: number, numLaps: number): number {
     const cost: number[] = Array(18).fill(Infinity);
@@ -213,6 +222,7 @@ function minimumFinishTime(tires: number[][], changeTime: number, numLaps: numbe
     return f[numLaps];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

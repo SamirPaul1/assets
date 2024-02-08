@@ -1,6 +1,5 @@
 # [2354. Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs)
 
-[中文文档](/solution/2300-2399/2354.Number%20of%20Excellent%20Pairs/README.md)
 
 ## Description
 

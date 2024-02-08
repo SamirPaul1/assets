@@ -78,6 +78,7 @@ The time complexity is $O(n)$, where $n$ is the integer given in the problem. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumXorProduct(self, a: int, b: int, n: int) -> int:
@@ -95,7 +96,9 @@ class Solution:
                 ax |= 1 << i
         return ax * bx % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumXorProduct(long a, long b, int n) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumXorProduct(a int64, b int64, n int) int {
 	const mod int64 = 1e9 + 7
@@ -166,7 +173,9 @@ func maximumXorProduct(a int64, b int64, n int) int {
 	return int(ax * bx % mod)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumXorProduct(a: number, b: number, n: number): number {
     const mod = BigInt(1e9 + 7);
@@ -189,6 +198,7 @@ function maximumXorProduct(a: number, b: number, n: number): number {
     return Number((ax * bx) % mod);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

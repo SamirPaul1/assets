@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def buddyStrings(self, s: str, goal: str) -> bool:
@@ -78,7 +79,9 @@ class Solution:
         diff = sum(s[i] != goal[i] for i in range(n))
         return diff == 2 or (diff == 0 and any(v > 1 for v in cnt1.values()))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean buddyStrings(String s, String goal) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func buddyStrings(s string, goal string) bool {
 	m, n := len(s), len(goal)
@@ -163,7 +170,9 @@ func buddyStrings(s string, goal string) bool {
 	return diff == 2 || (diff == 0 && f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function buddyStrings(s: string, goal: string): boolean {
     const m = s.length;
@@ -189,6 +198,7 @@ function buddyStrings(s: string, goal: string): boolean {
     return diff == 2 || (diff == 0 && cnt1.some(v => v > 1));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

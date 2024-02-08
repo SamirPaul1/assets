@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wallsAndGates(self, rooms: List[List[int]]) -> None:
@@ -80,7 +81,9 @@ class Solution:
                         rooms[x][y] = d
                         q.append((x, y))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void wallsAndGates(int[][] rooms) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wallsAndGates(rooms [][]int) {
 	m, n := len(rooms), len(rooms[0])
@@ -175,6 +182,7 @@ func wallsAndGates(rooms [][]int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

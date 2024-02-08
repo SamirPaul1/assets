@@ -65,6 +65,7 @@ We cannot form the target &quot;basicbasic&quot; from cutting letters from the g
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minStickers(self, stickers: List[str], target: str) -> int:
@@ -91,7 +92,9 @@ class Solution:
             ans += 1
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minStickers(String[] stickers, String target) {
@@ -132,7 +135,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -170,7 +175,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minStickers(stickers []string, target string) int {
 	q := []int{0}
@@ -209,7 +216,9 @@ func minStickers(stickers []string, target string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::{ HashSet, VecDeque };
 
@@ -252,6 +261,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -67,12 +67,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkRecord(self, s: str) -> bool:
         return s.count('A') < 2 and 'LLL' not in s
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkRecord(String s) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -89,18 +94,23 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkRecord(s string) bool {
 	return strings.Count(s, "A") < 2 && !strings.Contains(s, "LLL")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkRecord(s: string): boolean {
     return s.indexOf('A') === s.lastIndexOf('A') && s.indexOf('LLL') === -1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

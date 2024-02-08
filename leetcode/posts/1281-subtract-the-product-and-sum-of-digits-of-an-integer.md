@@ -65,6 +65,7 @@ The time complexity is $O(\log n)$, where $n$ is the given integer. The space co
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
@@ -75,7 +76,9 @@ class Solution:
             y += v
         return x - y
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int subtractProductAndSum(int n) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func subtractProductAndSum(n int) int {
 	x, y := 1, 0
@@ -116,7 +123,9 @@ func subtractProductAndSum(n int) int {
 	return x - y
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function subtractProductAndSum(n: number): number {
     let [x, y] = [1, 0];
@@ -128,7 +137,9 @@ function subtractProductAndSum(n: number): number {
     return x - y;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn subtract_product_and_sum(mut n: i32) -> i32 {
@@ -144,7 +155,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int SubtractProductAndSum(int n) {
@@ -159,7 +172,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int subtractProductAndSum(int n) {
     int x = 1;
@@ -172,6 +187,7 @@ int subtractProductAndSum(int n) {
     return x - y;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -179,12 +195,14 @@ int subtractProductAndSum(int n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         nums = list(map(int, str(n)))
         return prod(nums) - sum(nums)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def validTree(self, n: int, edges: List[List[int]]) -> bool:
@@ -72,7 +73,9 @@ class Solution:
             n -= 1
         return n == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func validTree(n int, edges [][]int) bool {
 	p := make([]int, n)
@@ -150,7 +157,9 @@ func validTree(n int, edges [][]int) bool {
 	return n == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} n
@@ -178,6 +187,7 @@ var validTree = function (n, edges) {
     return n == 1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

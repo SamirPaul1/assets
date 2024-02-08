@@ -89,6 +89,7 @@ There is no way to obtain a string that is lexicographically smaller than &quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLexSmallestString(self, s: str, a: int, b: int) -> str:
@@ -109,7 +110,9 @@ class Solution:
                     q.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findLexSmallestString(String s, int a, int b) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLexSmallestString(s string, a int, b int) string {
 	q := []string{s}
@@ -197,6 +204,7 @@ func findLexSmallestString(s string, a int, b int) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -204,6 +212,7 @@ func findLexSmallestString(s string, a int, b int) string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLexSmallestString(self, s: str, a: int, b: int) -> str:
@@ -228,7 +237,9 @@ class Solution:
                         ans = t
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findLexSmallestString(String s, int a, int b) {
@@ -263,7 +274,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -292,7 +305,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLexSmallestString(s string, a int, b int) string {
 	n := len(s)
@@ -325,6 +340,7 @@ func findLexSmallestString(s string, a int, b int) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

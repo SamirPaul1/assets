@@ -94,6 +94,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
@@ -113,7 +114,9 @@ class Solution:
 
         return dfs(0, len(arr) - 1)[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mctFromLeafValues(arr []int) int {
 	n := len(arr)
@@ -210,7 +217,9 @@ func mctFromLeafValues(arr []int) int {
 	return dfs(0, n-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mctFromLeafValues(arr: number[]): number {
     const n = arr.length;
@@ -238,6 +247,7 @@ function mctFromLeafValues(arr: number[]): number {
     return dfs(0, n - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -260,6 +270,7 @@ The time complexity is $O(n^3)$, and the space complexity is $O(n^2)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
@@ -279,7 +290,9 @@ class Solution:
                 g[i][j] = max(g[i][j - 1], arr[j])
         return dfs(0, n - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mctFromLeafValues(int[] arr) {
@@ -300,7 +313,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -323,7 +338,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mctFromLeafValues(arr []int) int {
 	n := len(arr)
@@ -346,7 +363,9 @@ func mctFromLeafValues(arr []int) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mctFromLeafValues(arr: number[]): number {
     const n = arr.length;
@@ -365,6 +384,7 @@ function mctFromLeafValues(arr: number[]): number {
     return f[0][n - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -372,6 +392,7 @@ function mctFromLeafValues(arr: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
@@ -387,6 +408,7 @@ class Solution:
                 )
         return f[0][n - 1]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

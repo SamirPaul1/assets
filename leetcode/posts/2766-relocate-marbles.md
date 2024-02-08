@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log n)$ and the space complexity is $O(n)$. 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def relocateMarbles(
@@ -87,7 +88,9 @@ class Solution:
             pos.add(t)
         return sorted(pos)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> relocateMarbles(int[] nums, int[] moveFrom, int[] moveTo) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func relocateMarbles(nums []int, moveFrom []int, moveTo []int) (ans []int) {
 	pos := map[int]bool{}
@@ -142,7 +149,9 @@ func relocateMarbles(nums []int, moveFrom []int, moveTo []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function relocateMarbles(nums: number[], moveFrom: number[], moveTo: number[]): number[] {
     const pos: Set<number> = new Set(nums);
@@ -155,6 +164,7 @@ function relocateMarbles(nums: number[], moveFrom: number[], moveTo: number[]): 
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

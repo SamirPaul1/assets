@@ -65,6 +65,7 @@ The maximum of those two distances is 2. It can be proven that we cannot get a n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:
@@ -94,7 +95,9 @@ class Solution:
                 ans = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -189,7 +194,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestMeetingNode(edges []int, node1 int, node2 int) int {
 	n := len(edges)
@@ -242,7 +249,9 @@ func (h hp) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp) Push(v any)        { *h = append(*h, v.(pair)) }
 func (h *hp) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function closestMeetingNode(edges: number[], node1: number, node2: number): number {
     const n = edges.length;
@@ -282,6 +291,7 @@ function closestMeetingNode(edges: number[], node1: number, node2: number): numb
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -289,6 +299,7 @@ function closestMeetingNode(edges: number[], node1: number, node2: number): numb
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def closestMeetingNode(self, edges: List[int], node1: int, node2: int) -> int:
@@ -318,7 +329,9 @@ class Solution:
                 ans = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -366,7 +379,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -410,7 +425,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func closestMeetingNode(edges []int, node1 int, node2 int) int {
 	n := len(edges)
@@ -454,6 +471,7 @@ func closestMeetingNode(edges []int, node1 int, node2 int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

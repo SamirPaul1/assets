@@ -80,6 +80,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDifference(self, nums: List[int], queries: List[List[int]]) -> List[int]:
@@ -105,7 +106,9 @@ class Solution:
             ans.append(t)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] minDifference(int[] nums, int[][] queries) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -176,7 +181,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDifference(nums []int, queries [][]int) []int {
 	m, n := len(nums), len(queries)
@@ -213,7 +220,9 @@ func minDifference(nums []int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minDifference(nums: number[], queries: number[][]): number[] {
     let m = nums.length,
@@ -245,6 +254,7 @@ function minDifference(nums: number[], queries: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

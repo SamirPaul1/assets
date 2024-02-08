@@ -1,6 +1,5 @@
 # [2986. Find Third Transaction](https://leetcode.com/problems/find-third-transaction)
 
-[中文文档](/solution/2900-2999/2986.Find%20Third%20Transaction/README.md)
 
 ## Description
 

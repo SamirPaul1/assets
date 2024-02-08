@@ -66,6 +66,7 @@ Day 4: A forgets the secret. B, C, and D share the secret with 3 new people. (6 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def peopleAwareOfSecret(self, n: int, delay: int, forget: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
         mod = 10**9 + 7
         return sum(d[: n + 1]) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using ll = long long;
 const int mod = 1e9 + 7;
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func peopleAwareOfSecret(n int, delay int, forget int) int {
 	m := (n << 1) + 10
@@ -168,7 +175,9 @@ func peopleAwareOfSecret(n int, delay int, forget int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function peopleAwareOfSecret(n: number, delay: number, forget: number): number {
     let dp = new Array(n + 1).fill(0n);
@@ -192,6 +201,7 @@ function peopleAwareOfSecret(n: number, delay: number, forget: number): number {
     return Number(pre % BigInt(10 ** 9 + 7));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

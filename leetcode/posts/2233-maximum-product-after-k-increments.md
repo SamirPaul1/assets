@@ -60,6 +60,7 @@ Note that there may be other ways to increment nums to have the maximum product.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumProduct(self, nums: List[int], k: int) -> int:
@@ -72,7 +73,9 @@ class Solution:
             ans = (ans * v) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumProduct(nums []int, k int) int {
 	h := hp{nums}
@@ -131,7 +138,9 @@ type hp struct{ sort.IntSlice }
 func (hp) Push(any)     {}
 func (hp) Pop() (_ any) { return }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -155,6 +164,7 @@ var maximumProduct = function (nums, k) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

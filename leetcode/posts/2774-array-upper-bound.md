@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Array<T> {
@@ -88,6 +89,7 @@ Array.prototype.upperBound = function (target: number) {
 // [1,4,5].upperBound(2); // -1
 // [3,4,6,6,6,6,7].upperBound(6) // 5
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -95,6 +97,7 @@ Array.prototype.upperBound = function (target: number) {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 declare global {
     interface Array<T> {
@@ -110,6 +113,7 @@ Array.prototype.upperBound = function (target: number) {
 // [1,4,5].upperBound(2); // -1
 // [3,4,6,6,6,6,7].upperBound(6) // 5
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -96,6 +96,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxHeight(self, cuboids: List[List[int]]) -> int:
@@ -111,7 +112,9 @@ class Solution:
             f[i] += cuboids[i][2]
         return max(f)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxHeight(int[][] cuboids) {
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxHeight(cuboids [][]int) int {
 	for _, c := range cuboids {
@@ -178,7 +185,9 @@ func maxHeight(cuboids [][]int) int {
 	return slices.Max(f)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} cuboids
@@ -205,6 +214,7 @@ var maxHeight = function (cuboids) {
     return Math.max(...f);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

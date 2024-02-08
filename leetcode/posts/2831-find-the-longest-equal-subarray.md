@@ -75,6 +75,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestEqualSubarray(self, nums: List[int], k: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 l += 1
         return mx
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestEqualSubarray(List<Integer> nums, int k) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestEqualSubarray(nums []int, k int) int {
 	cnt := map[int]int{}
@@ -139,7 +146,9 @@ func longestEqualSubarray(nums []int, k int) int {
 	return mx
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestEqualSubarray(nums: number[], k: number): number {
     const cnt: Map<number, number> = new Map();
@@ -156,6 +165,7 @@ function longestEqualSubarray(nums: number[], k: number): number {
     return mx;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -85,6 +85,7 @@ The time complexity is $O(m \times n \times \log (m \times n))$ and the space co
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumVisitedCells(self, grid: List[List[int]]) -> int:
@@ -108,7 +109,9 @@ class Solution:
                     heappush(col[j], (dist[i][j], i))
         return dist[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumVisitedCells(int[][] grid) {
@@ -148,7 +151,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -183,7 +188,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumVisitedCells(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -235,6 +242,7 @@ func (a hp) Less(i, j int) bool {
 func (a *hp) Push(x any) { *a = append(*a, x.(pair)) }
 func (a *hp) Pop() any   { l := len(*a); t := (*a)[l-1]; *a = (*a)[:l-1]; return t }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2683. Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor)
 
-[中文文档](/solution/2600-2699/2683.Neighboring%20Bitwise%20XOR/README.md)
 
 ## Description
 

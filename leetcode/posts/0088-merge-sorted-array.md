@@ -80,6 +80,7 @@ The time complexity is $O(m + n)$, where $m$ and $n$ are the lengths of two arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
@@ -94,7 +95,9 @@ class Solution:
                 j -= 1
             k -= 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -115,7 +120,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	for i, j, k := m-1, n-1, m+n-1; j >= 0; k-- {
@@ -129,7 +136,9 @@ func merge(nums1 []int, m int, nums2 []int, n int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify nums1 in-place instead.
@@ -140,7 +149,9 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify nums1 in-place instead.
@@ -152,7 +163,9 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
     nums1.sort((a, b) => a - b);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
@@ -181,7 +194,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -196,7 +211,9 @@ var merge = function (nums1, m, nums2, n) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -217,6 +234,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

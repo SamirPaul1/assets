@@ -57,21 +57,29 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

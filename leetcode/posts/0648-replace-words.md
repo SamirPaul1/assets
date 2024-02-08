@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -99,7 +100,9 @@ class Solution:
             ans.append(dictionary[idx] if idx != -1 else w)
         return " ".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 private:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -234,7 +241,9 @@ func replaceWords(dictionary []string, sentence string) string {
 	return ans.String()[:ans.Len()-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class Trie {
     private children: Trie[];
@@ -287,6 +296,7 @@ function replaceWords(dictionary: string[], sentence: string): string {
         .join(' ');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -294,6 +304,7 @@ function replaceWords(dictionary: string[], sentence: string): string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[26];
@@ -342,6 +353,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

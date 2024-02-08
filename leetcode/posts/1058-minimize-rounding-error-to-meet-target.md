@@ -63,6 +63,7 @@ Use Floor, Ceil and Ceil operations to get (0.7 - 0) + (3 - 2.8) + (5 - 4.9) = 0
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimizeError(self, prices: List[str], target: int) -> str:
@@ -80,7 +81,9 @@ class Solution:
         ans = d - sum(arr[:d]) + sum(arr[d:])
         return f'{ans:.3f}'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minimizeError(String[] prices, int target) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimizeError(prices []string, target int) string {
 	arr := []float64{}
@@ -171,6 +178,7 @@ func minimizeError(prices []string, target int) string {
 	return fmt.Sprintf("%.3f", ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

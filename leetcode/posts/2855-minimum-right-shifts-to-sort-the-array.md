@@ -69,6 +69,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumRightShifts(self, nums: List[int]) -> int:
@@ -81,7 +82,9 @@ class Solution:
             k += 1
         return -1 if k < n else n - i
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumRightShifts(List<Integer> nums) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumRightShifts(nums []int) int {
 	n := len(nums)
@@ -134,7 +141,9 @@ func minimumRightShifts(nums []int) int {
 	return n - i
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumRightShifts(nums: number[]): number {
     const n = nums.length;
@@ -149,6 +158,7 @@ function minimumRightShifts(nums: number[]): number {
     return k < n ? -1 : n - i;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
@@ -66,7 +67,9 @@ class Solution:
         ans += cnt[30] * (cnt[30] - 1) // 2
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numPairsDivisibleBy60(int[] time) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numPairsDivisibleBy60(time []int) (ans int) {
 	cnt := [60]int{}
@@ -118,7 +125,9 @@ func numPairsDivisibleBy60(time []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numPairsDivisibleBy60(time: number[]): number {
     const cnt: number[] = new Array(60).fill(0);
@@ -134,6 +143,7 @@ function numPairsDivisibleBy60(time: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -141,6 +151,7 @@ function numPairsDivisibleBy60(time: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
@@ -153,7 +164,9 @@ class Solution:
             cnt[x] += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numPairsDivisibleBy60(int[] time) {
@@ -169,7 +182,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numPairsDivisibleBy60(time []int) (ans int) {
 	cnt := [60]int{}
@@ -199,7 +216,9 @@ func numPairsDivisibleBy60(time []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numPairsDivisibleBy60(time: number[]): number {
     const cnt: number[] = new Array(60).fill(0);
@@ -213,6 +232,7 @@ function numPairsDivisibleBy60(time: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

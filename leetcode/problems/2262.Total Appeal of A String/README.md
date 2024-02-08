@@ -1,6 +1,5 @@
 # [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string)
 
-[中文文档](/solution/2200-2299/2262.Total%20Appeal%20of%20A%20String/README.md)
 
 ## Description
 

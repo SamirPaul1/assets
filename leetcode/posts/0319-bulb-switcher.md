@@ -64,12 +64,15 @@ So you should return 1 because there is only one bulb is on.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def bulbSwitch(self, n: int) -> int:
         return int(n ** (1 / 2))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int bulbSwitch(int n) {
@@ -77,6 +80,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

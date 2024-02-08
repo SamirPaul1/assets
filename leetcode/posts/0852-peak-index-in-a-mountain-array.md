@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def peakIndexInMountainArray(self, arr: List[int]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
@@ -101,7 +104,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func peakIndexInMountainArray(arr []int) int {
 	left, right := 1, len(arr)-2
@@ -133,7 +140,9 @@ func peakIndexInMountainArray(arr []int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function peakIndexInMountainArray(arr: number[]): number {
     let left = 1,
@@ -149,7 +158,9 @@ function peakIndexInMountainArray(arr: number[]): number {
     return left;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn peak_index_in_mountain_array(arr: Vec<i32>) -> i32 {
@@ -167,7 +178,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -187,6 +200,7 @@ var peakIndexInMountainArray = function (arr) {
     return left;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

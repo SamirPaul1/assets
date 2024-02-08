@@ -76,6 +76,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfMinutes(
@@ -92,7 +93,9 @@ class Solution:
             g[x].append(i)
         return dfs(headID)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -119,7 +122,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfMinutes(n int, headID int, manager []int, informTime []int) int {
 	g := make([][]int, n)
@@ -160,7 +167,9 @@ func numOfMinutes(n int, headID int, manager []int, informTime []int) int {
 	return dfs(headID)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfMinutes(n: number, headID: number, manager: number[], informTime: number[]): number {
     const g: number[][] = new Array(n).fill(0).map(() => []);
@@ -179,7 +188,9 @@ function numOfMinutes(n: number, headID: number, manager: number[], informTime: 
     return dfs(headID);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     private List<int>[] g;
@@ -208,6 +219,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

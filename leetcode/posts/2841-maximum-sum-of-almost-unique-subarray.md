@@ -73,6 +73,7 @@ The time complexity is $O(n)$, and the space complexity is $O(k)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSum(self, nums: List[int], m: int, k: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
                 ans = max(ans, s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long maxSum(List<Integer> nums, int m, int k) {
@@ -120,7 +123,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSum(nums []int, m int, k int) int64 {
 	cnt := map[int]int{}
@@ -174,7 +181,9 @@ func maxSum(nums []int, m int, k int) int64 {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSum(nums: number[], m: number, k: number): number {
     const n = nums.length;
@@ -199,6 +208,7 @@ function maxSum(nums: number[], m: number, k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

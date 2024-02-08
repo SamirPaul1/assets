@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPaths(
@@ -75,7 +76,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(startRow, startColumn, maxMove)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPaths(m int, n int, maxMove int, startRow int, startColumn int) int {
 	f := make([][][]int, m+1)
@@ -188,6 +195,7 @@ func findPaths(m int, n int, maxMove int, startRow int, startColumn int) int {
 	return dfs(startRow, startColumn, maxMove)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -195,6 +203,7 @@ func findPaths(m int, n int, maxMove int, startRow int, startColumn int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findPaths(int m, int n, int N, int i, int j) {
@@ -225,6 +234,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

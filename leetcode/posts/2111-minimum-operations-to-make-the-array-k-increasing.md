@@ -90,6 +90,7 @@ Note that there can be other ways to make the array K-increasing, but none of th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kIncreasing(self, arr: List[int], k: int) -> int:
@@ -105,7 +106,9 @@ class Solution:
 
         return sum(lis(arr[i::k]) for i in range(k))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kIncreasing(int[] arr, int k) {
@@ -148,7 +151,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kIncreasing(arr []int, k int) int {
 	searchRight := func(arr []int, x int) int {
@@ -216,6 +223,7 @@ func kIncreasing(arr []int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

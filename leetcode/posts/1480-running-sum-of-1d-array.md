@@ -63,12 +63,15 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def runningSum(self, nums: List[int]) -> List[int]:
         return list(accumulate(nums))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] runningSum(int[] nums) {
@@ -79,7 +82,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -89,7 +94,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func runningSum(nums []int) []int {
 	for i := 1; i < len(nums); i++ {
@@ -98,7 +105,9 @@ func runningSum(nums []int) []int {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function runningSum(nums: number[]): number[] {
     for (let i = 1; i < nums.length; ++i) {
@@ -107,7 +116,9 @@ function runningSum(nums: number[]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int[] RunningSum(int[] nums) {
@@ -118,7 +129,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -133,6 +146,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2484. Count Palindromic Subsequences](https://leetcode.com/problems/count-palindromic-subsequences)
 
-[中文文档](/solution/2400-2499/2484.Count%20Palindromic%20Subsequences/README.md)
 
 ## Description
 

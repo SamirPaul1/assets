@@ -79,6 +79,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def nimGame(self, piles: List[int]) -> bool:
@@ -95,7 +96,9 @@ class Solution:
 
         return dfs(tuple(piles))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<Integer, Boolean> memo = new HashMap<>();
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func nimGame(piles []int) bool {
 	memo := map[int]bool{}
@@ -218,7 +225,9 @@ func nimGame(piles []int) bool {
 	return dfs(piles)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function nimGame(piles: number[]): boolean {
     const p: number[] = Array(8).fill(1);
@@ -255,6 +264,7 @@ function nimGame(piles: number[]): boolean {
     return dfs(piles);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

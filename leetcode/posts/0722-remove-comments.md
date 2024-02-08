@@ -104,6 +104,7 @@ a = b + c;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeComments(self, source: List[str]) -> List[str]:
@@ -131,7 +132,9 @@ class Solution:
                 t.clear()
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> removeComments(String[] source) {
@@ -166,7 +169,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -202,7 +207,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeComments(source []string) (ans []string) {
 	t := []byte{}
@@ -234,7 +241,9 @@ func removeComments(source []string) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removeComments(source: string[]): string[] {
     const ans: string[] = [];
@@ -267,7 +276,9 @@ function removeComments(source: string[]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_comments(source: Vec<String>) -> Vec<String> {
@@ -307,6 +318,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

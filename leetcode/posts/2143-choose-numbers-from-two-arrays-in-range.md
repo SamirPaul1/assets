@@ -86,6 +86,7 @@ In the second balanced range, we choose nums2[1] and in the third balanced range
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSubranges(self, nums1: List[int], nums2: List[int]) -> int:
@@ -106,7 +107,9 @@ class Solution:
             ans = (ans + f[i][s2]) % mod
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSubranges(int[] nums1, int[] nums2) {
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -168,7 +173,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSubranges(nums1 []int, nums2 []int) (ans int) {
 	n := len(nums1)
@@ -204,7 +211,9 @@ func sum(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countSubranges(nums1: number[], nums2: number[]): number {
     const n = nums1.length;
@@ -234,6 +243,7 @@ function countSubranges(nums1: number[], nums2: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

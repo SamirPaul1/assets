@@ -66,6 +66,7 @@ The last round Alice has only one choice to divide the row which is [2], [3]. Bo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stoneGameV(self, stoneValue: List[int]) -> int:
@@ -92,7 +93,9 @@ class Solution:
         s = list(accumulate(stoneValue, initial=0))
         return dfs(0, len(stoneValue) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stoneGameV(stoneValue []int) int {
 	n := len(stoneValue)
@@ -230,6 +237,7 @@ func stoneGameV(stoneValue []int) int {
 	return dfs(0, n-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

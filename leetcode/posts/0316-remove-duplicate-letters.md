@@ -61,6 +61,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
@@ -76,7 +77,9 @@ class Solution:
             vis.add(c)
         return ''.join(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String removeDuplicateLetters(String s) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDuplicateLetters(s string) string {
 	last := make([]int, 26)
@@ -157,6 +164,7 @@ func removeDuplicateLetters(s string) string {
 	return string(stk)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -164,6 +172,7 @@ func removeDuplicateLetters(s string) string {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
@@ -185,7 +194,9 @@ class Solution:
             in_stack[ord(c)] = True
         return ''.join(stack)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removeDuplicateLetters(s string) string {
 	count, in_stack, stack := make([]int, 128), make([]bool, 128), make([]rune, 0)
@@ -209,6 +220,7 @@ func removeDuplicateLetters(s string) string {
 	return string(stack)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

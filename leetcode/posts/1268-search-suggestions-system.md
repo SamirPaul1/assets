@@ -76,6 +76,7 @@ The time complexity is $O(L \times \log n + m)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -114,7 +115,9 @@ class Solution:
             trie.insert(w, i)
         return [[products[i] for i in v] for v in trie.search(searchWord)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[26];
@@ -170,7 +173,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -228,7 +233,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -283,6 +290,7 @@ func suggestedProducts(products []string, searchWord string) (ans [][]string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

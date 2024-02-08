@@ -80,6 +80,7 @@ The time complexity is $O(n)$ and the space complexity is $O(C)$. Where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkAlmostEquivalent(self, word1: str, word2: str) -> bool:
@@ -88,7 +89,9 @@ class Solution:
             cnt[c] -= 1
         return all(abs(x) <= 3 for x in cnt.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkAlmostEquivalent(String word1, String word2) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkAlmostEquivalent(word1 string, word2 string) bool {
 	cnt := [26]int{}
@@ -147,7 +154,9 @@ func checkAlmostEquivalent(word1 string, word2 string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkAlmostEquivalent(word1: string, word2: string): boolean {
     const cnt: number[] = new Array(26).fill(0);
@@ -160,7 +169,9 @@ function checkAlmostEquivalent(word1: string, word2: string): boolean {
     return cnt.every(x => Math.abs(x) <= 3);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} word1
@@ -181,7 +192,9 @@ var checkAlmostEquivalent = function (word1, word2) {
     return true;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool CheckAlmostEquivalent(string word1, string word2) {
@@ -196,7 +209,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -219,6 +234,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

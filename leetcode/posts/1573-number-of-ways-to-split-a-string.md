@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numWays(self, s: str) -> int:
@@ -89,7 +90,9 @@ class Solution:
         j1, j2 = find(cnt * 2), find(cnt * 2 + 1)
         return (i2 - i1) * (j2 - j1) % (10**9 + 7)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String s;
@@ -128,7 +131,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -162,7 +167,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numWays(s string) int {
 	cnt := 0
@@ -197,6 +204,7 @@ func numWays(s string) int {
 	return (i2 - i1) * (j2 - j1) % mod
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

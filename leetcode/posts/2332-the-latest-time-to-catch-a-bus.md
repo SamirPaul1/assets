@@ -85,6 +85,7 @@ The time complexity is $O(n \times \log n + m \times \log m)$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def latestTimeCatchTheBus(
@@ -103,7 +104,9 @@ class Solution:
             ans, j = ans - 1, j - 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int latestTimeCatchTheBus(int[] buses, int[] passengers, int capacity) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func latestTimeCatchTheBus(buses []int, passengers []int, capacity int) int {
 	sort.Ints(buses)
@@ -171,7 +178,9 @@ func latestTimeCatchTheBus(buses []int, passengers []int, capacity int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function latestTimeCatchTheBus(buses: number[], passengers: number[], capacity: number): number {
     buses.sort((a, b) => a - b);
@@ -193,7 +202,9 @@ function latestTimeCatchTheBus(buses: number[], passengers: number[], capacity: 
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} buses
@@ -221,6 +232,7 @@ var latestTimeCatchTheBus = function (buses, passengers, capacity) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

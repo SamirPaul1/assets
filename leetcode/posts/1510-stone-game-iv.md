@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:
@@ -80,7 +81,9 @@ class Solution:
 
         return dfs(n)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Boolean[] f;
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func winnerSquareGame(n int) bool {
 	f := make([]int, n+1)
@@ -157,7 +164,9 @@ func winnerSquareGame(n int) bool {
 	return dfs(n)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function winnerSquareGame(n: number): boolean {
     const f: number[] = new Array(n + 1).fill(0);
@@ -180,6 +189,7 @@ function winnerSquareGame(n: number): boolean {
     return dfs(n);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -187,6 +197,7 @@ function winnerSquareGame(n: number): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def winnerSquareGame(self, n: int) -> bool:
@@ -200,7 +211,9 @@ class Solution:
                 j += 1
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean winnerSquareGame(int n) {
@@ -217,7 +230,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -236,7 +251,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func winnerSquareGame(n int) bool {
 	f := make([]bool, n+1)
@@ -251,7 +268,9 @@ func winnerSquareGame(n int) bool {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function winnerSquareGame(n: number): boolean {
     const f: boolean[] = new Array(n + 1).fill(false);
@@ -266,6 +285,7 @@ function winnerSquareGame(n: number): boolean {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

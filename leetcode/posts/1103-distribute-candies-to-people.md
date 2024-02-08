@@ -72,6 +72,7 @@ The time complexity is $O(\max(\sqrt{candies}, num\_people))$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
@@ -83,7 +84,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distributeCandies(candies int, num_people int) []int {
 	ans := make([]int, num_people)
@@ -121,7 +128,9 @@ func distributeCandies(candies int, num_people int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distributeCandies(candies: number, num_people: number): number[] {
     const ans: number[] = Array(num_people).fill(0);
@@ -132,6 +141,7 @@ function distributeCandies(candies: number, num_people: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

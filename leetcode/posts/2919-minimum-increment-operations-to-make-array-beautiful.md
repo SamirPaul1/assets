@@ -104,6 +104,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minIncrementOperations(self, nums: List[int], k: int) -> int:
@@ -112,7 +113,9 @@ class Solution:
             f, g, h = g, h, min(f, g, h) + max(k - x, 0)
         return min(f, g, h)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long minIncrementOperations(int[] nums, int k) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minIncrementOperations(nums []int, k int) int64 {
 	var f, g, h int
@@ -153,7 +160,9 @@ func minIncrementOperations(nums []int, k int) int64 {
 	return int64(min(f, g, h))
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minIncrementOperations(nums: number[], k: number): number {
     let [f, g, h] = [0, 0, 0];
@@ -163,6 +172,7 @@ function minIncrementOperations(nums: number[], k: number): number {
     return Math.min(f, g, h);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

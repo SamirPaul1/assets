@@ -1,6 +1,5 @@
 # [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii)
 
-[中文文档](/solution/0100-0199/0119.Pascal%27s%20Triangle%20II/README.md)
 
 ## Description
 

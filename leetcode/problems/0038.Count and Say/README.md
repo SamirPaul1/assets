@@ -1,6 +1,5 @@
 # [38. Count and Say](https://leetcode.com/problems/count-and-say)
 
-[中文文档](/solution/0000-0099/0038.Count%20and%20Say/README.md)
 
 ## Description
 

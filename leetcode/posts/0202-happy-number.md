@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isHappy(self, n: int) -> bool:
@@ -77,7 +78,9 @@ class Solution:
             n = x
         return n == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isHappy(int n) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isHappy(n int) bool {
 	vis := map[int]bool{}
@@ -128,7 +135,9 @@ func isHappy(n int) bool {
 	return n == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isHappy(n: number): boolean {
     const getNext = (n: number) => {
@@ -151,7 +160,9 @@ function isHappy(n: number): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -178,7 +189,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int getNext(int n) {
     int res = 0;
@@ -199,6 +212,7 @@ bool isHappy(int n) {
     return fast == 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +220,7 @@ bool isHappy(int n) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isHappy(self, n: int) -> bool:
@@ -221,7 +236,9 @@ class Solution:
             slow, fast = next(slow), next(next(fast))
         return slow == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isHappy(int n) {
@@ -242,7 +259,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -263,7 +282,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isHappy(n int) bool {
 	next := func(x int) (y int) {
@@ -280,7 +301,9 @@ func isHappy(n int) bool {
 	return slow == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isHappy(n: number): boolean {
     const getNext = (n: number) => {
@@ -301,7 +324,9 @@ function isHappy(n: number): boolean {
     return fast === 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_happy(n: i32) -> bool {
@@ -323,6 +348,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

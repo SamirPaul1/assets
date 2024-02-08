@@ -89,6 +89,7 @@ lockingTree.lock(0, 1); // return false because node 0 is already locked.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class LockingTree:
     def __init__(self, parent: List[int]):
@@ -140,7 +141,9 @@ class LockingTree:
 # param_2 = obj.unlock(num,user)
 # param_3 = obj.upgrade(num,user)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class LockingTree {
     private int[] locked;
@@ -211,7 +214,9 @@ class LockingTree {
  * boolean param_3 = obj.upgrade(num,user);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class LockingTree {
 public:
@@ -281,7 +286,9 @@ private:
  * bool param_3 = obj->upgrade(num,user);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type LockingTree struct {
 	locked   []int
@@ -352,7 +359,9 @@ func (this *LockingTree) Upgrade(num int, user int) bool {
  * param_3 := obj.Upgrade(num,user);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class LockingTree {
     private locked: number[];
@@ -421,6 +430,7 @@ class LockingTree {
  * var param_3 = obj.upgrade(num,user)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

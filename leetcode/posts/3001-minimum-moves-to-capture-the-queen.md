@@ -74,6 +74,7 @@ It is impossible to capture the black queen in less than two moves since it is n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minMovesToCaptureTheQueen(
@@ -94,7 +95,9 @@ class Solution:
         dirs2 = (-1, 1, 1, -1, -1)
         return 1 if check(dirs1, a, b, c, d) or check(dirs2, c, d, a, b) else 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int[] dirs1 = {-1, 0, 1, 0, -1};
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -149,7 +154,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minMovesToCaptureTheQueen(a int, b int, c int, d int, e int, f int) int {
 	dirs := [2][5]int{{-1, 0, 1, 0, -1}, {-1, 1, 1, -1, -1}}
@@ -174,7 +181,9 @@ func minMovesToCaptureTheQueen(a int, b int, c int, d int, e int, f int) int {
 	return 2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minMovesToCaptureTheQueen(
     a: number,
@@ -209,6 +218,7 @@ function minMovesToCaptureTheQueen(
     return check(0, a, b, c, d) || check(1, c, d, a, b) ? 1 : 2;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

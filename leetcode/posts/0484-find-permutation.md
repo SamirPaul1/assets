@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPermutation(self, s: str) -> List[int]:
@@ -73,7 +74,9 @@ class Solution:
             i = max(i + 1, j)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] findPermutation(String s) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPermutation(s string) []int {
 	n := len(s)
@@ -149,6 +156,7 @@ func reverse(arr []int, i, j int) {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

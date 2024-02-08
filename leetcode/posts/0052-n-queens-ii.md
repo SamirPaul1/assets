@@ -64,6 +64,7 @@ The time complexity is $O(n!)$, and the space complexity is $O(n)$. Here, $n$ is
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def totalNQueens(self, n: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func totalNQueens(n int) (ans int) {
 	cols := [10]bool{}
@@ -176,7 +183,9 @@ func totalNQueens(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function totalNQueens(n: number): number {
     const cols: boolean[] = Array(10).fill(false);
@@ -202,6 +211,7 @@ function totalNQueens(n: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

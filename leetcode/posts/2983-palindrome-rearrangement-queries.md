@@ -123,6 +123,7 @@ The time complexity is $O((n + q) \times |\Sigma|)$, and the space complexity is
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canMakePalindromeQueries(self, s: str, queries: List[List[int]]) -> List[bool]:
@@ -178,7 +179,9 @@ class Solution:
             ans.append(ok)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean[] canMakePalindromeQueries(String s, int[][] queries) {
@@ -245,7 +248,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -317,7 +322,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canMakePalindromeQueries(s string, queries [][]int) (ans []bool) {
 	n := len(s)
@@ -399,7 +406,9 @@ func reverse(s string) string {
 	return string(runes)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canMakePalindromeQueries(s: string, queries: number[][]): boolean[] {
     const n: number = s.length;
@@ -482,6 +491,7 @@ function arraysEqual(arr1: number[], arr2: number[]): boolean {
     return JSON.stringify(arr1) === JSON.stringify(arr2);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ Time complexity $O(n)$, space complexity $O(1)$, where $n$ is the length of the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxAbsoluteSum(self, nums: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
             ans = max(ans, f, abs(g))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxAbsoluteSum(int[] nums) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxAbsoluteSum(nums []int) (ans int) {
 	var f, g int
@@ -137,7 +144,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxAbsoluteSum(nums: number[]): number {
     let f = 0;
@@ -151,7 +160,9 @@ function maxAbsoluteSum(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_absolute_sum(nums: Vec<i32>) -> i32 {
@@ -167,6 +178,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

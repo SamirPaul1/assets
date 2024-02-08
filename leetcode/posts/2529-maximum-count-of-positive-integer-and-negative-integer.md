@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumCount(self, nums: List[int]) -> int:
@@ -77,7 +78,9 @@ class Solution:
         b = sum(v < 0 for v in nums)
         return max(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumCount(int[] nums) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumCount(nums []int) int {
 	a, b := 0, 0
@@ -127,7 +134,9 @@ func maximumCount(nums []int) int {
 	return max(a, b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumCount(nums: number[]): number {
     const count = [0, 0];
@@ -141,7 +150,9 @@ function maximumCount(nums: number[]): number {
     return Math.max(...count);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum_count(nums: Vec<i32>) -> i32 {
@@ -157,7 +168,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -173,6 +186,7 @@ int maximumCount(int* nums, int numsSize) {
     return max(count[0], count[1]);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -180,6 +194,7 @@ int maximumCount(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumCount(self, nums: List[int]) -> int:
@@ -187,7 +202,9 @@ class Solution:
         b = bisect_left(nums, 0)
         return max(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumCount(int[] nums) {
@@ -210,7 +227,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -221,7 +240,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumCount(nums []int) int {
 	a := len(nums) - sort.SearchInts(nums, 1)
@@ -229,7 +250,9 @@ func maximumCount(nums []int) int {
 	return max(a, b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumCount(nums: number[]): number {
     const search = (target: number) => {
@@ -251,7 +274,9 @@ function maximumCount(nums: number[]): number {
     return Math.max(i, n - j);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn search(nums: &Vec<i32>, target: i32) -> usize {
@@ -276,7 +301,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -300,6 +327,7 @@ int maximumCount(int* nums, int numsSize) {
     return max(i, numsSize - j);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -307,6 +335,7 @@ int maximumCount(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum_count(nums: Vec<i32>) -> i32 {
@@ -325,6 +354,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

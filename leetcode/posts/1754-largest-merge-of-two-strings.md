@@ -76,6 +76,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestMerge(self, word1: str, word2: str) -> str:
@@ -92,7 +93,9 @@ class Solution:
         ans.append(word2[j:])
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestMerge(String word1, String word2) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestMerge(word1 string, word2 string) string {
 	m, n := len(word1), len(word2)
@@ -147,7 +154,9 @@ func largestMerge(word1 string, word2 string) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestMerge(word1: string, word2: string): string {
     const m = word1.length;
@@ -163,7 +172,9 @@ function largestMerge(word1: string, word2: string): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn largest_merge(word1: String, word2: String) -> String {
@@ -189,7 +200,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* largestMerge(char* word1, char* word2) {
     int m = strlen(word1);
@@ -222,6 +235,7 @@ char* largestMerge(char* word1, char* word2) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

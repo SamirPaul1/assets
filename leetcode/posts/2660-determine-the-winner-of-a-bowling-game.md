@@ -91,6 +91,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isWinner(self, player1: List[int], player2: List[int]) -> int:
@@ -104,7 +105,9 @@ class Solution:
         a, b = f(player1), f(player2)
         return 1 if a > b else (2 if b > a else 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int isWinner(int[] player1, int[] player2) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isWinner(player1 []int, player2 []int) int {
 	f := func(arr []int) int {
@@ -164,7 +171,9 @@ func isWinner(player1 []int, player2 []int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isWinner(player1: number[], player2: number[]): number {
     const f = (arr: number[]): number => {
@@ -182,7 +191,9 @@ function isWinner(player1: number[], player2: number[]): number {
     return a > b ? 1 : a < b ? 2 : 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_winner(player1: Vec<i32>, player2: Vec<i32>) -> i32 {
@@ -210,6 +221,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -90,6 +90,7 @@ The time complexity is $O(m \times n \times \min(m, n))$, and the space complexi
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -120,7 +121,9 @@ class Solution:
                     ss.remove(ss[0])
         return list(ss)[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getBiggestThree(int[][] grid) {
@@ -158,7 +161,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -193,7 +198,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getBiggestThree(grid [][]int) []int {
 	m, n := len(grid), len(grid[0])
@@ -235,7 +242,9 @@ func getBiggestThree(grid [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getBiggestThree(grid: number[][]): number[] {
     const m = grid.length;
@@ -908,6 +917,7 @@ class TreeMultiSet<T = number> {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

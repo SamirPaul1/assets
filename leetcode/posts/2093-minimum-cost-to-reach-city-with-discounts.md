@@ -81,6 +81,7 @@ It is impossible to go from 0 to 3 so return -1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumCost(self, n: int, highways: List[List[int]], discounts: int) -> int:
@@ -103,7 +104,9 @@ class Solution:
                     heappush(q, (cost + v // 2, j, k + 1))
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumCost(int n, int[][] highways, int discounts) {
@@ -142,7 +145,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,6 +176,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

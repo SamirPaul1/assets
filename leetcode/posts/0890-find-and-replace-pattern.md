@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
@@ -71,7 +72,9 @@ class Solution:
 
         return [word for word in words if match(word, pattern)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<String> findAndReplacePattern(String[] words, String pattern) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findAndReplacePattern(words []string, pattern string) []string {
 	match := func(s, t string) bool {
@@ -145,7 +152,9 @@ func findAndReplacePattern(words []string, pattern string) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findAndReplacePattern(words: string[], pattern: string): string[] {
     return words.filter(word => {
@@ -162,7 +171,9 @@ function findAndReplacePattern(words: string[], pattern: string): string[] {
     });
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -188,6 +199,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

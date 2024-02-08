@@ -60,6 +60,7 @@ string ans = obj.decode(tiny); // returns the original url after decoding it.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Codec:
     def __init__(self):
@@ -83,7 +84,9 @@ class Codec:
 # codec = Codec()
 # codec.decode(codec.encode(url))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 public class Codec {
     private Map<String, String> m = new HashMap<>();
@@ -108,7 +111,9 @@ public class Codec {
 // Codec codec = new Codec();
 // codec.decode(codec.encode(url));
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ private:
 // Solution solution;
 // solution.decode(solution.encode(url));
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Codec struct {
 	m   map[int]string
@@ -168,6 +175,7 @@ func (this *Codec) decode(shortUrl string) string {
  * ans := obj.decode(url);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

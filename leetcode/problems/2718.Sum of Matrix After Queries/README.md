@@ -1,6 +1,5 @@
 # [2718. Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries)
 
-[中文文档](/solution/2700-2799/2718.Sum%20of%20Matrix%20After%20Queries/README.md)
 
 ## Description
 

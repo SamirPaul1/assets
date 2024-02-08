@@ -1,6 +1,5 @@
 # [2569. Handling Sum Queries After Update](https://leetcode.com/problems/handling-sum-queries-after-update)
 
-[中文文档](/solution/2500-2599/2569.Handling%20Sum%20Queries%20After%20Update/README.md)
 
 ## Description
 

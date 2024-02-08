@@ -1,6 +1,5 @@
 # [2523. Closest Prime Numbers in Range](https://leetcode.com/problems/closest-prime-numbers-in-range)
 
-[中文文档](/solution/2500-2599/2523.Closest%20Prime%20Numbers%20in%20Range/README.md)
 
 ## Description
 

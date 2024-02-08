@@ -81,6 +81,7 @@ We can use the `if` function or the `least` and `greatest` functions to convert 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -91,6 +92,7 @@ SELECT
 FROM Calls
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -98,6 +100,7 @@ GROUP BY 1, 2;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -108,6 +111,7 @@ SELECT
 FROM Calls
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

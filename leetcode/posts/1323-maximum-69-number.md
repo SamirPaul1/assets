@@ -67,12 +67,15 @@ The maximum number is 9969.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximum69Number(self, num: int) -> int:
         return int(str(num).replace("6", "9", 1))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximum69Number(int num) {
@@ -80,7 +83,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximum69Number(num int) int {
 	s := strconv.Itoa(num)
@@ -111,13 +118,17 @@ func maximum69Number(num int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximum69Number(num: number): number {
     return Number((num + '').replace('6', '9'));
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn maximum69_number(num: i32) -> i32 {
@@ -125,7 +136,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -140,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int maximum69Number(int num) {
     int n = 0;
@@ -156,6 +171,7 @@ int maximum69Number(int num) {
     return num + 3 * pow(10, i - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

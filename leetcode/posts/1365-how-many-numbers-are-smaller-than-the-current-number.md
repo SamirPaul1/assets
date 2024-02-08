@@ -71,13 +71,16 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         arr = sorted(nums)
         return [bisect_left(arr, x) for x in nums]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallerNumbersThanCurrent(nums []int) (ans []int) {
 	arr := make([]int, len(nums))
@@ -129,7 +136,9 @@ func smallerNumbersThanCurrent(nums []int) (ans []int) {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallerNumbersThanCurrent(nums: number[]): number[] {
     const search = (nums: number[], x: number) => {
@@ -152,6 +161,7 @@ function smallerNumbersThanCurrent(nums: number[]): number[] {
     return nums;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -163,6 +173,7 @@ The time complexity is $O(n + M)$, and the space complexity is $O(M)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
@@ -172,7 +183,9 @@ class Solution:
         s = list(accumulate(cnt))
         return [s[x] for x in nums]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
@@ -192,7 +205,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -212,7 +227,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallerNumbersThanCurrent(nums []int) (ans []int) {
 	cnt := [102]int{}
@@ -228,7 +245,9 @@ func smallerNumbersThanCurrent(nums []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallerNumbersThanCurrent(nums: number[]): number[] {
     const cnt: number[] = new Array(102).fill(0);
@@ -246,6 +265,7 @@ function smallerNumbersThanCurrent(nums: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

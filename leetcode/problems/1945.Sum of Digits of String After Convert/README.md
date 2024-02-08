@@ -1,6 +1,5 @@
 # [1945. Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert)
 
-[中文文档](/solution/1900-1999/1945.Sum%20of%20Digits%20of%20String%20After%20Convert/README.md)
 
 ## Description
 

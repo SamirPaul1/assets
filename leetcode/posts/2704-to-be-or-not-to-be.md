@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type ToBeOrNotToBe = {
     toBe: (val: any) => boolean;
@@ -85,7 +86,9 @@ function expect(val: any): ToBeOrNotToBe {
  * expect(5).notToBe(5); // throws "Equal"
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} val
@@ -113,6 +116,7 @@ var expect = function (val) {
  * expect(5).notToBe(5); // throws "Equal"
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

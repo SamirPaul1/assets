@@ -71,6 +71,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def eatenApples(self, apples: List[int], days: List[int]) -> int:
@@ -91,7 +92,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int eatenApples(int[] apples, int[] days) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 using pii = pair<int, int>;
 
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func eatenApples(apples []int, days []int) int {
 	var h hp
@@ -180,6 +187,7 @@ func (a hp) Less(i, j int) bool { return a[i].first < a[j].first }
 func (a *hp) Push(x any)        { *a = append(*a, x.(pair)) }
 func (a *hp) Pop() any          { l := len(*a); t := (*a)[l-1]; *a = (*a)[:l-1]; return t }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ The time complexity is $O(m + n)$ and the space complexity is $O(m + n)$. Here $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
@@ -86,7 +87,9 @@ class Solution:
             d2[b] = a
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean wordPattern(String pattern, String s) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func wordPattern(pattern string, s string) bool {
 	ws := strings.Split(s, " ")
@@ -160,7 +167,9 @@ func wordPattern(pattern string, s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function wordPattern(pattern: string, s: string): boolean {
     const ws = s.split(' ');
@@ -184,7 +193,9 @@ function wordPattern(pattern: string, s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -215,7 +226,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool WordPattern(string pattern, string s) {
@@ -241,6 +254,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

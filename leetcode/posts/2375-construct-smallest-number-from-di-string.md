@@ -68,6 +68,7 @@ It can be proven that &quot;4321&quot; is the smallest possible num that meets t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestNumber(self, pattern: str) -> str:
@@ -96,7 +97,9 @@ class Solution:
         dfs(0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private boolean[] vis = new boolean[10];
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -172,7 +177,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestNumber(pattern string) string {
 	vis := make([]bool, 10)
@@ -207,7 +214,9 @@ func smallestNumber(pattern string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestNumber(pattern: string): string {
     const n = pattern.length;
@@ -262,6 +271,7 @@ function smallestNumber(pattern: string): string {
     return res.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

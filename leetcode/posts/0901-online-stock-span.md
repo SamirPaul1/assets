@@ -82,6 +82,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class StockSpanner:
     def __init__(self):
@@ -99,7 +100,9 @@ class StockSpanner:
 # obj = StockSpanner()
 # param_1 = obj.next(price)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class StockSpanner {
     private Deque<int[]> stk = new ArrayDeque<>();
@@ -123,7 +126,9 @@ class StockSpanner {
  * int param_1 = obj.next(price);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class StockSpanner {
 public:
@@ -150,7 +155,9 @@ private:
  * int param_1 = obj->next(price);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type StockSpanner struct {
 	stk []pair
@@ -178,7 +185,9 @@ type pair struct{ price, cnt int }
  * param_1 := obj.Next(price);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class StockSpanner {
     private stk: number[][];
@@ -203,7 +212,9 @@ class StockSpanner {
  * var param_1 = obj.next(price)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 struct StockSpanner {
@@ -235,6 +246,7 @@ impl StockSpanner {
  * let ret_1: i32 = obj.next(price);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [407. Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii)
 
-[中文文档](/solution/0400-0499/0407.Trapping%20Rain%20Water%20II/README.md)
 
 ## Description
 

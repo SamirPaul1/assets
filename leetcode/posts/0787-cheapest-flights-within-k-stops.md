@@ -76,6 +76,7 @@ The optimal path with no stops from city 0 to 2 is marked in red and has cost 50
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findCheapestPrice(
@@ -90,7 +91,9 @@ class Solution:
                 dist[t] = min(dist[t], backup[f] + p)
         return -1 if dist[dst] == INF else dist[dst]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int INF = 0x3f3f3f3f;
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -131,7 +136,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 	const inf = 0x3f3f3f3f
@@ -154,6 +161,7 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 	return dist[dst]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -161,6 +169,7 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findCheapestPrice(
@@ -184,7 +193,9 @@ class Solution:
         ans = dfs(src, k + 1)
         return -1 if ans >= inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] memo;
@@ -228,7 +239,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -260,7 +273,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 	n += 10
@@ -305,6 +320,7 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

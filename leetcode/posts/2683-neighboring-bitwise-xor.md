@@ -81,12 +81,15 @@ derived[1] = original[1] &oplus; original[0] = 1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def doesValidArrayExist(self, derived: List[int]) -> bool:
         return reduce(xor, derived) == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean doesValidArrayExist(int[] derived) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func doesValidArrayExist(derived []int) bool {
 	s := 0
@@ -121,7 +128,9 @@ func doesValidArrayExist(derived []int) bool {
 	return s == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function doesValidArrayExist(derived: number[]): boolean {
     let s = 0;
@@ -131,6 +140,7 @@ function doesValidArrayExist(derived: number[]): boolean {
     return s === 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -138,11 +148,13 @@ function doesValidArrayExist(derived: number[]): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function doesValidArrayExist(derived: number[]): boolean {
     return derived.reduce((acc, x) => acc ^ x, 0) === 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

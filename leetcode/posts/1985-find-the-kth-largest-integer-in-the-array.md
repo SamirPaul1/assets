@@ -72,6 +72,7 @@ The 2<sup>nd</sup> largest integer in nums is &quot;0&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthLargestNumber(self, nums: List[str], k: int) -> str:
@@ -83,7 +84,9 @@ class Solution:
         nums.sort(key=cmp_to_key(cmp))
         return nums[k - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String kthLargestNumber(String[] nums, int k) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kthLargestNumber(nums []string, k int) string {
 	sort.Slice(nums, func(i, j int) bool {
@@ -117,6 +124,7 @@ func kthLargestNumber(nums []string, k int) string {
 	return nums[k-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

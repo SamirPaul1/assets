@@ -1,6 +1,5 @@
 # [2796. Repeat String](https://leetcode.com/problems/repeat-string)
 
-[中文文档](/solution/2700-2799/2796.Repeat%20String/README.md)
 
 ## Description
 

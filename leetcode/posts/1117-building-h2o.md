@@ -68,6 +68,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from threading import Semaphore
 
@@ -90,7 +91,9 @@ class H2O:
         releaseOxygen()
         self.h.release(2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class H2O {
     private Semaphore h = new Semaphore(2);
@@ -114,7 +117,9 @@ class H2O {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 #include <semaphore.h>
 
@@ -150,6 +155,7 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

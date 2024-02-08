@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortArrayByParityII(self, nums: List[int]) -> List[int]:
@@ -71,7 +72,9 @@ class Solution:
                 nums[i], nums[j] = nums[j], nums[i]
         return nums
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortArrayByParityII(nums []int) []int {
 	for i, j := 0, 1; i < len(nums); i += 2 {
@@ -120,7 +127,9 @@ func sortArrayByParityII(nums []int) []int {
 	return nums
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -138,6 +147,7 @@ var sortArrayByParityII = function (nums) {
     return nums;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

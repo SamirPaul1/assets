@@ -82,6 +82,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stringCount(self, n: int) -> int:
@@ -98,7 +99,9 @@ class Solution:
         mod = 10**9 + 7
         return dfs(n, 0, 0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -150,7 +155,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stringCount(n int) int {
 	const mod int = 1e9 + 7
@@ -184,7 +191,9 @@ func stringCount(n int) int {
 	return dfs(n, 0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stringCount(n: number): number {
     const mod = 10 ** 9 + 7;
@@ -209,6 +218,7 @@ function stringCount(n: number): number {
     return dfs(n, 0, 0, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -234,6 +244,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(1)$. Here, $n
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def stringCount(self, n: int) -> int:
@@ -246,7 +257,9 @@ class Solution:
         tot = pow(26, n, mod)
         return (tot - (a + b + c - ab - ac - bc + abc)) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private final int mod = (int) 1e9 + 7;
@@ -275,7 +288,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -304,7 +319,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func stringCount(n int) int {
 	const mod int = 1e9 + 7
@@ -329,7 +346,9 @@ func stringCount(n int) int {
 	return ((tot-(a+b+c-ab-ac-bc+abc))%mod + mod) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function stringCount(n: number): number {
     const mod = BigInt(10 ** 9 + 7);
@@ -354,6 +373,7 @@ function stringCount(n: number): number {
     return Number((((tot - (a + b + c - ab - ac - bc + abc)) % mod) + mod) % mod);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

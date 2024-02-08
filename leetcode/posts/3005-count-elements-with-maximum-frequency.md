@@ -64,6 +64,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxFrequencyElements(self, nums: List[int]) -> int:
@@ -71,7 +72,9 @@ class Solution:
         mx = max(cnt.values())
         return sum(x for x in cnt.values() if x == mx)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxFrequencyElements(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxFrequencyElements(nums []int) (ans int) {
 	cnt := [101]int{}
@@ -132,7 +139,9 @@ func maxFrequencyElements(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxFrequencyElements(nums: number[]): number {
     const cnt: number[] = Array(101).fill(0);
@@ -151,6 +160,7 @@ function maxFrequencyElements(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2490. Circular Sentence](https://leetcode.com/problems/circular-sentence)
 
-[中文文档](/solution/2400-2499/2490.Circular%20Sentence/README.md)
 
 ## Description
 

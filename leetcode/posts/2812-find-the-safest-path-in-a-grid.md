@@ -86,6 +86,7 @@ The time complexity is $O(n^2 \times \log n)$, and the space complexity $O(n^2)$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -143,7 +144,9 @@ class Solution:
                 return int(d)
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximumSafenessFactor(List<List<Integer>> grid) {
@@ -232,7 +235,9 @@ class UnionFind {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -313,7 +318,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p []int
@@ -404,7 +411,9 @@ func maximumSafenessFactor(grid [][]int) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class UnionFind {
     private p: number[];
@@ -487,7 +496,9 @@ function maximumSafenessFactor(grid: number[][]): number {
     return 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 impl Solution {
@@ -553,6 +564,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -560,6 +572,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximumSafenessFactor(grid: number[][]): number {
     const n = grid.length;
@@ -617,6 +630,7 @@ function maximumSafenessFactor(grid: number[][]): number {
     return right;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

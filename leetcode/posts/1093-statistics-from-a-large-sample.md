@@ -79,6 +79,7 @@ The mode is 1 as it appears the most in the sample.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sampleStats(self, count: List[int]) -> List[float]:
@@ -106,7 +107,9 @@ class Solution:
         )
         return [mi, mx, s / cnt, median, mode]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] count;
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sampleStats(count []int) []float64 {
 	find := func(i int) int {
@@ -208,7 +215,9 @@ func sampleStats(count []int) []float64 {
 	return []float64{float64(mi), float64(mx), float64(s) / float64(cnt), median, float64(mode)}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sampleStats(count: number[]): number[] {
     const find = (i: number): number => {
@@ -238,6 +247,7 @@ function sampleStats(count: number[]): number[] {
     return [mi, mx, s / cnt, median, mode];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

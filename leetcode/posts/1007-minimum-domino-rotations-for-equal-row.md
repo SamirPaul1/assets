@@ -72,6 +72,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDominoRotations(self, tops: List[int], bottoms: List[int]) -> int:
@@ -87,7 +88,9 @@ class Solution:
         ans = min(f(tops[0]), f(bottoms[0]))
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -137,7 +142,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDominoRotations(tops []int, bottoms []int) int {
 	n := len(tops)
@@ -164,7 +171,9 @@ func minDominoRotations(tops []int, bottoms []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minDominoRotations(tops: number[], bottoms: number[]): number {
     const n = tops.length;
@@ -183,6 +192,7 @@ function minDominoRotations(tops: number[], bottoms: number[]): number {
     return ans > n ? -1 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

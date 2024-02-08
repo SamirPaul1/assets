@@ -61,6 +61,7 @@ Some of the integers that are not special are: 22, 114, and 131.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSpecialNumbers(self, n: int) -> int:
@@ -87,7 +88,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countSpecialNumbers(int n) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -165,7 +170,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSpecialNumbers(n int) int {
 	digits := []int{}
@@ -208,6 +215,7 @@ func A(m, n int) int {
 	return A(m, n-1) * (m - n + 1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -215,6 +223,7 @@ func A(m, n int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countSpecialNumbers(self, n: int) -> int:
@@ -244,7 +253,9 @@ class Solution:
             n //= 10
         return dfs(l, 0, True, True)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] a = new int[11];
@@ -292,7 +303,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -337,7 +350,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countSpecialNumbers(n int) int {
 	return f(n)
@@ -393,6 +408,7 @@ func f(n int) int {
 	return dfs(l, 0, true, true)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses)
 
-[中文文档](/solution/0800-0899/0856.Score%20of%20Parentheses/README.md)
 
 ## Description
 

@@ -63,6 +63,7 @@ itr.hasNext(); // return False
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class CombinationIterator:
     def __init__(self, characters: str, combinationLength: int):
@@ -98,7 +99,9 @@ class CombinationIterator:
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class CombinationIterator {
     private int n;
@@ -145,7 +148,9 @@ class CombinationIterator {
  * boolean param_2 = obj.hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class CombinationIterator {
 public:
@@ -192,7 +197,9 @@ public:
  * bool param_2 = obj->hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type CombinationIterator struct {
 	cs  []string
@@ -238,6 +245,7 @@ func (this *CombinationIterator) HasNext() bool {
  * param_2 := obj.HasNext();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -245,6 +253,7 @@ func (this *CombinationIterator) HasNext() bool {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class CombinationIterator:
     def __init__(self, characters: str, combinationLength: int):
@@ -273,7 +282,9 @@ class CombinationIterator:
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class CombinationIterator {
     private int curr;
@@ -319,7 +330,9 @@ class CombinationIterator {
  * boolean param_2 = obj.hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class CombinationIterator {
 public:
@@ -361,7 +374,9 @@ public:
  * bool param_2 = obj->hasNext();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type CombinationIterator struct {
 	curr int
@@ -411,6 +426,7 @@ func (this *CombinationIterator) HasNext() bool {
  * param_2 := obj.HasNext();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

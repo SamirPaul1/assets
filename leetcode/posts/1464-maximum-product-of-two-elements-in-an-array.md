@@ -59,6 +59,7 @@ Given the array of integers <code>nums</code>, you will choose two different ind
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
@@ -68,7 +69,9 @@ class Solution:
                 ans = max(ans, (a - 1) * (b - 1))
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProduct(nums []int) int {
 	ans := 0
@@ -114,7 +121,9 @@ func maxProduct(nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProduct(nums: number[]): number {
     const n = nums.length;
@@ -130,7 +139,9 @@ function maxProduct(nums: number[]): number {
     return (nums[0] - 1) * (nums[1] - 1);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_product(nums: Vec<i32>) -> i32 {
@@ -148,7 +159,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -170,7 +183,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int maxProduct(int* nums, int numsSize) {
     int max = 0;
@@ -187,6 +202,7 @@ int maxProduct(int* nums, int numsSize) {
     return (max - 1) * (submax - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -194,13 +210,16 @@ int maxProduct(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         nums.sort()
         return (nums[-1] - 1) * (nums[-2] - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
@@ -210,7 +229,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -220,7 +241,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProduct(nums []int) int {
 	sort.Ints(nums)
@@ -228,7 +251,9 @@ func maxProduct(nums []int) int {
 	return (nums[n-1] - 1) * (nums[n-2] - 1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProduct(nums: number[]): number {
     let max = 0;
@@ -244,6 +269,7 @@ function maxProduct(nums: number[]): number {
     return (max - 1) * (submax - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -251,6 +277,7 @@ function maxProduct(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
@@ -262,7 +289,9 @@ class Solution:
                 b = v
         return (a - 1) * (b - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
@@ -279,7 +308,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -297,7 +328,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProduct(nums []int) int {
 	a, b := 0, 0
@@ -311,6 +344,7 @@ func maxProduct(nums []int) int {
 	return (a - 1) * (b - 1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -62,6 +62,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string. The space 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def halvesAreAlike(self, s: str) -> bool:
@@ -72,7 +73,9 @@ class Solution:
             cnt -= s[i + n] in vowels
         return cnt == 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final Set<Character> VOWELS
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -103,7 +108,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func halvesAreAlike(s string) bool {
 	vowels := map[byte]bool{}
@@ -122,7 +129,9 @@ func halvesAreAlike(s string) bool {
 	return cnt == 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function halvesAreAlike(s: string): boolean {
     const set = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
@@ -135,7 +144,9 @@ function halvesAreAlike(s: string): boolean {
     return count === 0;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashSet;
 impl Solution {
@@ -158,7 +169,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -174,7 +187,9 @@ var halvesAreAlike = function (s) {
     return cnt === 0;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -195,6 +210,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -202,6 +218,7 @@ class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def halvesAreAlike(self, s: str) -> bool:
@@ -209,6 +226,7 @@ class Solution:
         a, b = s[: len(s) >> 1], s[len(s) >> 1 :]
         return sum(c in vowels for c in a) == sum(c in vowels for c in b)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -87,6 +87,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def createTargetArray(self, nums: List[int], index: List[int]) -> List[int]:
@@ -95,7 +96,9 @@ class Solution:
             target.insert(i, x)
         return target
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func createTargetArray(nums []int, index []int) []int {
 	target := make([]int, len(nums))
@@ -137,7 +144,9 @@ func createTargetArray(nums []int, index []int) []int {
 	return target
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function createTargetArray(nums: number[], index: number[]): number[] {
     const ans: number[] = [];
@@ -147,6 +156,7 @@ function createTargetArray(nums: number[], index: number[]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

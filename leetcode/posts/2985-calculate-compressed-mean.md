@@ -73,6 +73,7 @@ We use the `SUM` function to calculate the total quantity of products and the to
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -82,6 +83,7 @@ SELECT
     ) AS average_items_per_order
 FROM Orders;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

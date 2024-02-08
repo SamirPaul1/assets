@@ -71,6 +71,7 @@ This DataFrame contains 10 rows and 5 columns.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -78,6 +79,7 @@ import pandas as pd
 def getDataframeSize(players: pd.DataFrame) -> List[int]:
     return list(players.shape)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

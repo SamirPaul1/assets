@@ -58,6 +58,7 @@ For visited elements, we can also add a constant $300$ to their values, so we do
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
@@ -76,7 +77,9 @@ class Solution:
             j = j + dirs[k + 1]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func spiralOrder(matrix [][]int) (ans []int) {
 	m, n := len(matrix), len(matrix[0])
@@ -146,7 +153,9 @@ func spiralOrder(matrix [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function spiralOrder(matrix: number[][]): number[] {
     const m = matrix.length;
@@ -168,7 +177,9 @@ function spiralOrder(matrix: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn spiral_order(matrix: Vec<Vec<i32>>) -> Vec<i32> {
@@ -206,7 +217,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -232,7 +245,9 @@ var spiralOrder = function (matrix) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<int> SpiralOrder(int[][] matrix) {
@@ -254,6 +269,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -265,6 +281,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(1)$. Here
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
@@ -285,7 +302,9 @@ class Solution:
         #         matrix[i][j] -= 300
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
@@ -311,7 +330,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -338,7 +359,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func spiralOrder(matrix [][]int) (ans []int) {
 	m, n := len(matrix), len(matrix[0])
@@ -360,7 +383,9 @@ func spiralOrder(matrix [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function spiralOrder(matrix: number[][]): number[] {
     const m = matrix.length;
@@ -386,7 +411,9 @@ function spiralOrder(matrix: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -416,7 +443,9 @@ var spiralOrder = function (matrix) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<int> SpiralOrder(int[][] matrix) {
@@ -442,6 +471,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -449,6 +479,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
@@ -469,7 +500,9 @@ class Solution:
             x2, y2 = x2 - 1, y2 - 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
@@ -500,7 +533,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -530,7 +565,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func spiralOrder(matrix [][]int) (ans []int) {
 	m, n := len(matrix), len(matrix[0])
@@ -556,7 +593,9 @@ func spiralOrder(matrix [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function spiralOrder(matrix: number[][]): number[] {
     const m = matrix.length;
@@ -589,7 +628,9 @@ function spiralOrder(matrix: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -626,7 +667,9 @@ var spiralOrder = function (matrix) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public IList<int> SpiralOrder(int[][] matrix) {
@@ -657,6 +700,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2575. Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string)
 
-[中文文档](/solution/2500-2599/2575.Find%20the%20Divisibility%20Array%20of%20a%20String/README.md)
 
 ## Description
 

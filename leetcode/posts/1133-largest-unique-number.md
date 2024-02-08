@@ -55,13 +55,16 @@ The time complexity is $O(n + M)$, and the space complexity is $O(M)$. Here, $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestUniqueNumber(self, nums: List[int]) -> int:
         cnt = Counter(nums)
         return next((x for x in range(1000, -1, -1) if cnt[x] == 1), -1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int largestUniqueNumber(int[] nums) {
@@ -78,7 +81,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -96,7 +101,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestUniqueNumber(nums []int) int {
 	cnt := [1001]int{}
@@ -111,7 +118,9 @@ func largestUniqueNumber(nums []int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestUniqueNumber(nums: number[]): number {
     const cnt = new Array(1001).fill(0);
@@ -126,7 +135,9 @@ function largestUniqueNumber(nums: number[]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -145,6 +156,7 @@ var largestUniqueNumber = function (nums) {
     return -1;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -152,12 +164,14 @@ var largestUniqueNumber = function (nums) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestUniqueNumber(self, nums: List[int]) -> int:
         cnt = Counter(nums)
         return max((x for x, v in cnt.items() if v == 1), default=-1)
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

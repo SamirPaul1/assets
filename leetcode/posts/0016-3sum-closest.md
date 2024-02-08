@@ -61,6 +61,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(\log n)$. Here, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
                     j += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func threeSumClosest(nums []int, target int) int {
 	sort.Ints(nums)
@@ -166,7 +173,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function threeSumClosest(nums: number[], target: number): number {
     nums.sort((a, b) => a - b);
@@ -193,7 +202,9 @@ function threeSumClosest(nums: number[], target: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -225,6 +236,7 @@ var threeSumClosest = function (nums, target) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -73,6 +73,7 @@ Since there is a tie for the largest word count, we return the sender with the l
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestWordCount(self, messages: List[str], senders: List[str]) -> str:
@@ -85,7 +86,9 @@ class Solution:
                 ans = sender
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestWordCount(String[] messages, String[] senders) {
@@ -112,7 +115,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestWordCount(messages []string, senders []string) (ans string) {
 	cnt := map[string]int{}
@@ -149,6 +156,7 @@ func largestWordCount(messages []string, senders []string) (ans string) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

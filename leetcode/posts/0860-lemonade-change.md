@@ -64,6 +64,7 @@ Since not every customer received the correct change, the answer is false.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
@@ -84,7 +85,9 @@ class Solution:
                 return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean lemonadeChange(int[] bills) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lemonadeChange(bills []int) bool {
 	five, ten := 0, 0
@@ -166,7 +173,9 @@ func lemonadeChange(bills []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function lemonadeChange(bills: number[]): boolean {
     let five = 0;
@@ -196,7 +205,9 @@ function lemonadeChange(bills: number[]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn lemonade_change(bills: Vec<i32>) -> bool {
@@ -228,6 +239,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

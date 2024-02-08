@@ -52,13 +52,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
         arr.sort(key=lambda v: abs(v - x))
         return sorted(arr[:k])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
@@ -75,7 +78,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 int target;
 
@@ -95,7 +100,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findClosestElements(arr []int, k int, x int) []int {
 	sort.Slice(arr, func(i, j int) bool {
@@ -117,7 +124,9 @@ func abs(x int) int {
 	return -x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findClosestElements(arr: number[], k: number, x: number): number[] {
     let l = 0;
@@ -132,7 +141,9 @@ function findClosestElements(arr: number[], k: number, x: number): number[] {
     return arr.slice(l, r);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_closest_elements(arr: Vec<i32>, k: i32, x: i32) -> Vec<i32> {
@@ -150,6 +161,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -157,6 +169,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
@@ -168,7 +181,9 @@ class Solution:
                 l += 1
         return arr[l:r]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
@@ -188,7 +203,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -205,7 +222,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findClosestElements(arr []int, k int, x int) []int {
 	l, r := 0, len(arr)
@@ -219,7 +238,9 @@ func findClosestElements(arr []int, k int, x int) []int {
 	return arr[l:r]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findClosestElements(arr: number[], k: number, x: number): number[] {
     let left = 0;
@@ -235,7 +256,9 @@ function findClosestElements(arr: number[], k: number, x: number): number[] {
     return arr.slice(left, left + k);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_closest_elements(arr: Vec<i32>, k: i32, x: i32) -> Vec<i32> {
@@ -255,6 +278,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -262,6 +286,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
@@ -274,7 +299,9 @@ class Solution:
                 left = mid + 1
         return arr[left : left + k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
@@ -296,7 +323,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -313,7 +342,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findClosestElements(arr []int, k int, x int) []int {
 	left, right := 0, len(arr)-k
@@ -328,6 +359,7 @@ func findClosestElements(arr []int, k int, x int) []int {
 	return arr[left : left+k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

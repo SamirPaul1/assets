@@ -88,6 +88,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSwaps(self, s: str) -> int:
@@ -99,7 +100,9 @@ class Solution:
                 x -= 1
         return (x + 1) >> 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSwaps(String s) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSwaps(s string) int {
 	x := 0
@@ -147,7 +154,9 @@ func minSwaps(s string) int {
 	return (x + 1) / 2
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSwaps(s: string): number {
     let x = 0;
@@ -161,6 +170,7 @@ function minSwaps(s: string): number {
     return (x + 1) >> 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

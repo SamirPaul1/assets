@@ -67,6 +67,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string `word`. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def divisibilityArray(self, word: str, m: int) -> List[int]:
@@ -77,7 +78,9 @@ class Solution:
             ans.append(1 if x == 0 else 0)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] divisibilityArray(String word, int m) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -109,7 +114,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func divisibilityArray(word string, m int) (ans []int) {
 	x := 0
@@ -124,7 +131,9 @@ func divisibilityArray(word string, m int) (ans []int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function divisibilityArray(word: string, m: number): number[] {
     const ans: number[] = [];
@@ -136,7 +145,9 @@ function divisibilityArray(word: string, m: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn divisibility_array(word: String, m: i32) -> Vec<i32> {
@@ -156,7 +167,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -173,6 +186,7 @@ int* divisibilityArray(char* word, int m, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

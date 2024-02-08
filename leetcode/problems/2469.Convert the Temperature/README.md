@@ -1,6 +1,5 @@
 # [2469. Convert the Temperature](https://leetcode.com/problems/convert-the-temperature)
 
-[中文文档](/solution/2400-2499/2469.Convert%20the%20Temperature/README.md)
 
 ## Description
 

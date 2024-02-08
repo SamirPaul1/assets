@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def tourOfKnight(self, m: int, n: int, r: int, c: int) -> List[List[int]]:
@@ -83,7 +84,9 @@ class Solution:
         dfs(r, c)
         return g
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] g;
@@ -123,7 +126,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +159,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func tourOfKnight(m int, n int, r int, c int) [][]int {
 	g := make([][]int, m)
@@ -189,7 +196,9 @@ func tourOfKnight(m int, n int, r int, c int) [][]int {
 	return g
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function tourOfKnight(m: number, n: number, r: number, c: number): number[][] {
     const g: number[][] = Array.from({ length: m }, () => Array(n).fill(-1));
@@ -217,7 +226,9 @@ function tourOfKnight(m: number, n: number, r: number, c: number): number[][] {
     return g;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn tour_of_knight(m: i32, n: i32, r: i32, c: i32) -> Vec<Vec<i32>> {
@@ -258,6 +269,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

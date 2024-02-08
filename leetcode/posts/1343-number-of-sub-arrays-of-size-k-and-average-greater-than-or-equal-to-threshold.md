@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfSubarrays(self, arr: List[int], k: int, threshold: int) -> int:
@@ -65,7 +66,9 @@ class Solution:
             ans += int(s / k >= threshold)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numOfSubarrays(int[] arr, int k, int threshold) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -97,7 +102,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfSubarrays(arr []int, k int, threshold int) (ans int) {
 	s := 0
@@ -116,7 +123,9 @@ func numOfSubarrays(arr []int, k int, threshold int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfSubarrays(arr: number[], k: number, threshold: number): number {
     let s = arr.slice(0, k).reduce((acc, cur) => acc + cur, 0);
@@ -128,6 +137,7 @@ function numOfSubarrays(arr: number[], k: number, threshold: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

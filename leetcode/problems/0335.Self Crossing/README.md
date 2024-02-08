@@ -1,6 +1,5 @@
 # [335. Self Crossing](https://leetcode.com/problems/self-crossing)
 
-[中文文档](/solution/0300-0399/0335.Self%20Crossing/README.md)
 
 ## Description
 

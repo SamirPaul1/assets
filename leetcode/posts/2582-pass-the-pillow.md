@@ -63,6 +63,7 @@ The time complexity is $O(time)$ and the space complexity is $O(1)$, where $time
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def passThePillow(self, n: int, time: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
                 k *= -1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int passThePillow(int n, int time) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func passThePillow(n int, time int) int {
 	ans, k := 1, 1
@@ -117,7 +124,9 @@ func passThePillow(n int, time int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function passThePillow(n: number, time: number): number {
     let ans = 1,
@@ -131,7 +140,9 @@ function passThePillow(n: number, time: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn pass_the_pillow(n: i32, time: i32) -> i32 {
@@ -150,6 +161,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -166,13 +178,16 @@ The time complexity is $O(1)$ and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def passThePillow(self, n: int, time: int) -> int:
         k, mod = divmod(time, n - 1)
         return n - mod if k & 1 else mod + 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int passThePillow(int n, int time) {
@@ -182,7 +197,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -193,7 +210,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func passThePillow(n int, time int) int {
 	k, mod := time/(n-1), time%(n-1)
@@ -203,7 +222,9 @@ func passThePillow(n int, time int) int {
 	return mod + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function passThePillow(n: number, time: number): number {
     const k = time / (n - 1);
@@ -211,7 +232,9 @@ function passThePillow(n: number, time: number): number {
     return (k & 1) == 1 ? n - mod : mod + 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn pass_the_pillow(n: i32, time: i32) -> i32 {
@@ -226,6 +249,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

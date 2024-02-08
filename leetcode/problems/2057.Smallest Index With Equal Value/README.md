@@ -1,6 +1,5 @@
 # [2057. Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value)
 
-[中文文档](/solution/2000-2099/2057.Smallest%20Index%20With%20Equal%20Value/README.md)
 
 ## Description
 

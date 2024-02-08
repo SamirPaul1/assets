@@ -72,6 +72,7 @@ freqStack.pop();   // return 4, as 4, 5 and 7 is the most frequent, but 4 is clo
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FreqStack:
     def __init__(self):
@@ -95,7 +96,9 @@ class FreqStack:
 # obj.push(val)
 # param_2 = obj.pop()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FreqStack {
     private Map<Integer, Integer> cnt = new HashMap<>();
@@ -125,7 +128,9 @@ class FreqStack {
  * int param_2 = obj.pop();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FreqStack {
 public:
@@ -157,7 +162,9 @@ private:
  * int param_2 = obj->pop();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type FreqStack struct {
 	cnt map[int]int
@@ -199,6 +206,7 @@ func (h *hp) Pop() any     { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; retur
  * param_2 := obj.Pop();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -206,6 +214,7 @@ func (h *hp) Pop() any     { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; retur
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FreqStack:
     def __init__(self):
@@ -231,7 +240,9 @@ class FreqStack:
 # obj.push(val)
 # param_2 = obj.pop()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FreqStack {
     private Map<Integer, Integer> cnt = new HashMap<>();
@@ -265,7 +276,9 @@ class FreqStack {
  * int param_2 = obj.pop();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FreqStack {
 public:
@@ -299,7 +312,9 @@ private:
  * int param_2 = obj->pop();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type FreqStack struct {
 	cnt map[int]int
@@ -334,6 +349,7 @@ func (this *FreqStack) Pop() int {
  * param_2 := obj.Pop();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

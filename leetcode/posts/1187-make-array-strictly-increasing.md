@@ -75,6 +75,7 @@ The time complexity is $(n \times (\log m + \min(m, n)))$, and the space complex
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def makeArrayIncreasing(self, arr1: List[int], arr2: List[int]) -> int:
@@ -98,7 +99,9 @@ class Solution:
                     f[i] = min(f[i], f[i - k - 1] + k)
         return -1 if f[n - 1] >= inf else f[n - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int makeArrayIncreasing(int[] arr1, int[] arr2) {
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -173,7 +178,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func makeArrayIncreasing(arr1 []int, arr2 []int) int {
 	sort.Ints(arr2)
@@ -211,7 +218,9 @@ func makeArrayIncreasing(arr1 []int, arr2 []int) int {
 	return f[n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function makeArrayIncreasing(arr1: number[], arr2: number[]): number {
     arr2.sort((a, b) => a - b);
@@ -254,7 +263,9 @@ function makeArrayIncreasing(arr1: number[], arr2: number[]): number {
     return f[n - 1] >= inf ? -1 : f[n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MakeArrayIncreasing(int[] arr1, int[] arr2) {
@@ -303,6 +314,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

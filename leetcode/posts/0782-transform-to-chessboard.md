@@ -68,6 +68,7 @@ The second move swaps the second and third row.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def movesToChessboard(self, board: List[List[int]]) -> int:
@@ -111,7 +112,9 @@ class Solution:
         t2 = f(colMask, sameCol)
         return -1 if t1 == -1 or t2 == -1 else t1 + t2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -168,7 +171,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -215,7 +220,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func movesToChessboard(board [][]int) int {
 	n := len(board)
@@ -281,6 +288,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

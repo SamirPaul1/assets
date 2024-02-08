@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def diagonalSort(self, mat: List[List[int]]) -> List[List[int]]:
@@ -65,7 +66,9 @@ class Solution:
                         mat[i][j], mat[i + 1][j + 1] = mat[i + 1][j + 1], mat[i][j]
         return mat
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] diagonalSort(int[][] mat) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func diagonalSort(mat [][]int) [][]int {
 	m, n := len(mat), len(mat[0])
@@ -116,6 +123,7 @@ func diagonalSort(mat [][]int) [][]int {
 	return mat
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

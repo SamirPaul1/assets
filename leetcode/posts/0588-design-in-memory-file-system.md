@@ -79,6 +79,7 @@ fileSystem.readContentFromFile(&quot;/a/b/c/d&quot;); // return &quot;hello&quot
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -142,7 +143,9 @@ class FileSystem:
 # obj.addContentToFile(filePath,content)
 # param_4 = obj.readContentFromFile(filePath)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     String name;
@@ -228,7 +231,9 @@ class FileSystem {
  * String param_4 = obj.readContentFromFile(filePath);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	name     string
@@ -322,6 +327,7 @@ func (this *FileSystem) ReadContentFromFile(filePath string) string {
  * param_4 := obj.ReadContentFromFile(filePath);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n + m)$. Here,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
@@ -90,7 +91,9 @@ class Solution:
                     q.append(j)
         return cnt == numCourses
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canFinish(numCourses int, prerequisites [][]int) bool {
 	g := make([][]int, numCourses)
@@ -186,7 +193,9 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 	return cnt == numCourses
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canFinish(numCourses: number, prerequisites: number[][]): boolean {
     const g: number[][] = new Array(numCourses).fill(0).map(() => []);
@@ -214,7 +223,9 @@ function canFinish(numCourses: number, prerequisites: number[][]): boolean {
     return cnt == numCourses;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 
@@ -264,7 +275,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool CanFinish(int numCourses, int[][] prerequisites) {
@@ -298,6 +311,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -80,6 +80,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string `binary`. I
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximumBinaryString(self, binary: str) -> str:
@@ -89,7 +90,9 @@ class Solution:
         k += binary[k + 1 :].count('0')
         return '1' * k + '0' + '1' * (len(binary) - k - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String maximumBinaryString(String binary) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximumBinaryString(binary string) string {
 	k := strings.IndexByte(binary, '0')
@@ -147,6 +154,7 @@ func maximumBinaryString(binary string) string {
 	return string(ans)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

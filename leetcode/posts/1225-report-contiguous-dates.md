@@ -105,6 +105,7 @@ We can merge the two tables into one table with a field `st` representing the st
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -137,6 +138,7 @@ FROM
 GROUP BY 1, pt
 ORDER BY 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

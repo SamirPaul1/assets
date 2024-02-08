@@ -79,6 +79,7 @@ For 2020-06-02, the Sold item is (Mask), we just return it.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     sell_date,
@@ -88,6 +89,7 @@ FROM Activities
 GROUP BY sell_date
 ORDER BY sell_date;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

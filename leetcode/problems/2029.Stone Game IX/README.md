@@ -1,6 +1,5 @@
 # [2029. Stone Game IX](https://leetcode.com/problems/stone-game-ix)
 
-[中文文档](/solution/2000-2099/2029.Stone%20Game%20IX/README.md)
 
 ## Description
 

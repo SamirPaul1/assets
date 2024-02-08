@@ -66,6 +66,7 @@ There are not any adjacent pairs of 1&#39;s in the binary representation of 8, s
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def binaryGap(self, n: int) -> int:
@@ -78,7 +79,9 @@ class Solution:
             n >>= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int binaryGap(int n) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -111,7 +116,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func binaryGap(n int) int {
 	ans := 0
@@ -126,7 +133,9 @@ func binaryGap(n int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function binaryGap(n: number): number {
     let res = 0;
@@ -143,7 +152,9 @@ function binaryGap(n: number): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn binary_gap(mut n: i32) -> i32 {
@@ -164,6 +175,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

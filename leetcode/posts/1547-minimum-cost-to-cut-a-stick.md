@@ -77,6 +77,7 @@ The time complexity is $O(m^3)$, and the space complexity is $O(m^2)$. Here, $m$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
@@ -92,7 +93,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[i][k] + f[k][j] + cuts[j] - cuts[i])
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCost(int n, int[] cuts) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(n int, cuts []int) int {
 	cuts = append(cuts, []int{0, n}...)
@@ -163,7 +170,9 @@ func minCost(n int, cuts []int) int {
 	return f[0][m-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minCost(n: number, cuts: number[]): number {
     cuts.push(0);
@@ -182,6 +191,7 @@ function minCost(n: number, cuts: number[]): number {
     return f[0][m - 1];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -189,6 +199,7 @@ function minCost(n: number, cuts: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minCost(self, n: int, cuts: List[int]) -> int:
@@ -203,7 +214,9 @@ class Solution:
                     f[i][j] = min(f[i][j], f[i][k] + f[k][j] + cuts[j] - cuts[i])
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minCost(int n, int[] cuts) {
@@ -228,7 +241,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -250,7 +265,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minCost(n int, cuts []int) int {
 	cuts = append(cuts, []int{0, n}...)
@@ -271,6 +288,7 @@ func minCost(n int, cuts []int) int {
 	return f[0][m-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

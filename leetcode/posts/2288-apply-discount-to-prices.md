@@ -73,6 +73,7 @@ Each of them is replaced by &quot;$0.00&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def discountPrices(self, sentence: str, discount: int) -> str:
@@ -83,7 +84,9 @@ class Solution:
             ans.append(w)
         return ' '.join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String discountPrices(String sentence, int discount) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func discountPrices(sentence string, discount int) string {
 	words := strings.Split(sentence, " ")
@@ -159,7 +166,9 @@ func discountPrices(sentence string, discount int) string {
 	return strings.Join(words, " ")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function discountPrices(sentence: string, discount: number): string {
     const sell = (100 - discount) / 100;
@@ -173,6 +182,7 @@ function discountPrices(sentence: string, discount: number): string {
     return arr.join(' ');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -92,6 +92,7 @@ The time complexity is $O(n \log n)$, where $n$ is the value of $z$, and the spa
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
    This is the custom function interface.
@@ -116,7 +117,9 @@ class Solution:
                 ans.append([x, y])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
  * // This is the custom function interface.
@@ -150,7 +153,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
  * // This is the custom function interface.
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * This is the declaration of customFunction API.
@@ -207,7 +214,9 @@ func findSolution(customFunction func(int, int) int, z int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the CustomFunction's API interface.
@@ -237,6 +246,7 @@ function findSolution(customfunction: CustomFunction, z: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -254,6 +264,7 @@ The time complexity is $O(n)$, where $n$ is the value of $z$, and the space comp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
    This is the custom function interface.
@@ -282,7 +293,9 @@ class Solution:
                 x, y = x + 1, y - 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
  * // This is the custom function interface.
@@ -313,7 +326,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /*
  * // This is the custom function interface.
@@ -346,7 +361,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * This is the declaration of customFunction API.
@@ -373,7 +390,9 @@ func findSolution(customFunction func(int, int) int, z int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * // This is the CustomFunction's API interface.
@@ -400,6 +419,7 @@ function findSolution(customfunction: CustomFunction, z: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

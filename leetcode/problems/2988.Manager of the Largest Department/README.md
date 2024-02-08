@@ -1,6 +1,5 @@
 # [2988. Manager of the Largest Department](https://leetcode.com/problems/manager-of-the-largest-department)
 
-[中文文档](/solution/2900-2999/2988.Manager%20of%20the%20Largest%20Department/README.md)
 
 ## Description
 

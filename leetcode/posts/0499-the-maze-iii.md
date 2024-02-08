@@ -78,6 +78,7 @@ Both ways have shortest distance 6, but the first way is lexicographically small
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findShortestWay(
@@ -112,7 +113,9 @@ class Solution:
                         q.append((x, y))
         return path[rh][ch] or 'impossible'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String findShortestWay(int[][] maze, int[] ball, int[] hole) {
@@ -158,7 +161,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -198,7 +203,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 import "math"
 
@@ -247,6 +254,7 @@ func findShortestWay(maze [][]int, ball []int, hole []int) string {
 	return path[rh][ch]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -101,6 +101,7 @@ The time complexity is $O(k)$, where $k$ is the number of moves. The space compl
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWays(
@@ -118,7 +119,9 @@ class Solution:
             return a if source[1] == dest[1] else c
         return b if source[1] == dest[1] else d
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfWays(int n, int m, int k, int[] source, int[] dest) {
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -163,7 +168,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfWays(n int, m int, k int, source []int, dest []int) int {
 	const mod int = 1e9 + 7
@@ -190,6 +197,7 @@ func numberOfWays(n int, m int, k int, source []int, dest []int) int {
 	return f[3]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -197,6 +205,7 @@ func numberOfWays(n int, m int, k int, source []int, dest []int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfWays(
@@ -215,6 +224,7 @@ class Solution:
             return f[0] if source[1] == dest[1] else f[2]
         return f[1] if source[1] == dest[1] else f[3]
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

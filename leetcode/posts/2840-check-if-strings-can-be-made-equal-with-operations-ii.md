@@ -74,6 +74,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkStrings(self, s1: str, s2: str) -> bool:
@@ -81,7 +82,9 @@ class Solution:
             s2[1::2]
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkStrings(String s1, String s2) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkStrings(s1 string, s2 string) bool {
 	cnt := [2][26]int{}
@@ -134,7 +141,9 @@ func checkStrings(s1 string, s2 string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkStrings(s1: string, s2: string): boolean {
     const cnt: number[][] = Array.from({ length: 2 }, () => Array.from({ length: 26 }, () => 0));
@@ -150,6 +159,7 @@ function checkStrings(s1: string, s2: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

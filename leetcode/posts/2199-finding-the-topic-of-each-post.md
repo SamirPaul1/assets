@@ -121,6 +121,7 @@ Note that it is okay to have one word that expresses more than one topic.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -131,6 +132,7 @@ FROM
     LEFT JOIN Keywords ON INSTR(CONCAT(' ', content, ' '), CONCAT(' ', word, ' ')) > 0
 GROUP BY post_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

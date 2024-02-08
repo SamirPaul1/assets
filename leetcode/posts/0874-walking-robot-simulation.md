@@ -114,6 +114,7 @@ Time complexity is $O(C \times n + m)$, space complexity is $O(m)$. Where $C$ re
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
@@ -135,7 +136,9 @@ class Solution:
                     ans = max(ans, x * x + y * y)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
@@ -171,7 +174,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -207,7 +212,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func robotSim(commands []int, obstacles [][]int) (ans int) {
 	dirs := [5]int{0, 1, 0, -1, 0}
@@ -233,7 +240,9 @@ func robotSim(commands []int, obstacles [][]int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function robotSim(commands: number[], obstacles: number[][]): number {
     const dirs = [0, 1, 0, -1, 0];
@@ -262,6 +271,7 @@ function robotSim(commands: number[], obstacles: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

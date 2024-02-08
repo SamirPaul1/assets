@@ -87,6 +87,7 @@ Alternatively, we can also avoid using fast power. Once a new non-overlapping in
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countWays(self, ranges: List[List[int]]) -> int:
@@ -99,7 +100,9 @@ class Solution:
         mod = 10**9 + 7
         return pow(2, cnt, mod)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countWays(int[][] ranges) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -152,7 +157,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countWays(ranges [][]int) int {
 	sort.Slice(ranges, func(i, j int) bool { return ranges[i][0] < ranges[j][0] })
@@ -178,7 +185,9 @@ func countWays(ranges [][]int) int {
 	return qpow(2, cnt, 1e9+7)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countWays(ranges: number[][]): number {
     ranges.sort((a, b) => a[0] - b[0]);
@@ -194,6 +203,7 @@ function countWays(ranges: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -201,6 +211,7 @@ function countWays(ranges: number[][]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countWays(self, ranges: List[List[int]]) -> int:
@@ -214,7 +225,9 @@ class Solution:
             mx = max(mx, end)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countWays(int[][] ranges) {
@@ -232,7 +245,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -250,7 +265,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countWays(ranges [][]int) int {
 	sort.Slice(ranges, func(i, j int) bool { return ranges[i][0] < ranges[j][0] })
@@ -267,6 +284,7 @@ func countWays(ranges [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

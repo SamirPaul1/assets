@@ -1,6 +1,5 @@
 # [417. Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow)
 
-[中文文档](/solution/0400-0499/0417.Pacific%20Atlantic%20Water%20Flow/README.md)
 
 ## Description
 

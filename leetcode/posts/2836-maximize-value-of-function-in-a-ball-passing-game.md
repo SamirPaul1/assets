@@ -165,6 +165,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaxFunctionValue(self, receiver: List[int], k: int) -> int:
@@ -188,7 +189,9 @@ class Solution:
             ans = max(ans, t + p)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public long getMaxFunctionValue(List<Integer> receiver, long k) {
@@ -221,7 +224,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -255,7 +260,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaxFunctionValue(receiver []int, k int64) (ans int64) {
 	n, m := len(receiver), bits.Len(uint(k))
@@ -287,6 +294,7 @@ func getMaxFunctionValue(receiver []int, k int64) (ans int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

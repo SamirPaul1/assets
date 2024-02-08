@@ -64,6 +64,7 @@ The third fraction is 2/5.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kthSmallestPrimeFraction(self, arr: List[int], k: int) -> List[int]:
@@ -75,7 +76,9 @@ class Solution:
                 heappush(h, (arr[i + 1] / arr[j], i + 1, j))
         return [arr[h[0][1]], arr[h[0][2]]]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] kthSmallestPrimeFraction(int[] arr, int k) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type frac struct{ x, y, i, j int }
 type hp []frac
@@ -163,6 +170,7 @@ func kthSmallestPrimeFraction(arr []int, k int) []int {
 	return []int{h[0].x, h[0].y}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -62,6 +62,7 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
@@ -74,7 +75,9 @@ class Solution:
             ans += 3 * comb(n - 2 * limit, 2)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distributeCandies(int n, int limit) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distributeCandies(n int, limit int) int {
 	comb2 := func(n int) int {
@@ -137,7 +144,9 @@ func distributeCandies(n int, limit int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distributeCandies(n: number, limit: number): number {
     const comb2 = (n: number) => (n * (n - 1)) / 2;
@@ -154,6 +163,7 @@ function distributeCandies(n: number, limit: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -78,6 +78,7 @@ Concatenating everything results in [1] + [2] + [4,7,8,9,10] + [6,3] = [1,2,4,7,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode:
@@ -129,7 +130,9 @@ class Solution:
     def is_leaf(self, node) -> bool:
         return node and node.left is None and node.right is None
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -207,7 +210,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -274,6 +279,7 @@ var boundaryOfBinaryTree = function (root) {
     return res;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

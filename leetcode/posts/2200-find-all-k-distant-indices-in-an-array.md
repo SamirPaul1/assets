@@ -69,6 +69,7 @@ The time complexity is $O(n^2)$, where $n$ is the length of the array $nums$. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findKDistantIndices(self, nums: List[int], key: int, k: int) -> List[int]:
@@ -79,7 +80,9 @@ class Solution:
                 ans.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findKDistantIndices(nums []int, key int, k int) (ans []int) {
 	for i := range nums {
@@ -137,7 +144,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findKDistantIndices(nums: number[], key: number, k: number): number[] {
     const n = nums.length;
@@ -153,6 +162,7 @@ function findKDistantIndices(nums: number[], key: number, k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -166,6 +176,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findKDistantIndices(self, nums: List[int], key: int, k: int) -> List[int]:
@@ -178,7 +189,9 @@ class Solution:
                 ans.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
@@ -202,7 +215,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -226,7 +241,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findKDistantIndices(nums []int, key int, k int) (ans []int) {
 	idx := []int{}
@@ -245,7 +262,9 @@ func findKDistantIndices(nums []int, key int, k int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findKDistantIndices(nums: number[], key: number, k: number): number[] {
     const n = nums.length;
@@ -278,6 +297,7 @@ function findKDistantIndices(nums: number[], key: number, k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -289,6 +309,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $nums$. The 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findKDistantIndices(self, nums: List[int], key: int, k: int) -> List[int]:
@@ -301,7 +322,9 @@ class Solution:
                 ans.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> findKDistantIndices(int[] nums, int key, int k) {
@@ -319,7 +342,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -338,7 +363,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findKDistantIndices(nums []int, key int, k int) (ans []int) {
 	n := len(nums)
@@ -353,7 +380,9 @@ func findKDistantIndices(nums []int, key int, k int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findKDistantIndices(nums: number[], key: number, k: number): number[] {
     const n = nums.length;
@@ -369,6 +398,7 @@ function findKDistantIndices(nums: number[], key: number, k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

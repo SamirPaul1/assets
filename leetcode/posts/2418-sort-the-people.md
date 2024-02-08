@@ -66,6 +66,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
@@ -73,7 +74,9 @@ class Solution:
         idx.sort(key=lambda i: -heights[i])
         return [names[i] for i in idx]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] sortPeople(String[] names, int[] heights) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -108,7 +113,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortPeople(names []string, heights []int) (ans []string) {
 	n := len(names)
@@ -123,7 +130,9 @@ func sortPeople(names []string, heights []int) (ans []string) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortPeople(names: string[], heights: number[]): string[] {
     const n = names.length;
@@ -139,7 +148,9 @@ function sortPeople(names: string[], heights: number[]): string[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn sort_people(names: Vec<String>, heights: Vec<i32>) -> Vec<String> {
@@ -152,6 +163,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -159,12 +171,15 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def sortPeople(self, names: List[str], heights: List[int]) -> List[str]:
         return [name for _, name in sorted(zip(heights, names), reverse=True)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] sortPeople(String[] names, int[] heights) {
@@ -182,7 +197,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -201,7 +218,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func sortPeople(names []string, heights []int) []string {
 	n := len(names)
@@ -217,7 +236,9 @@ func sortPeople(names []string, heights []int) []string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function sortPeople(names: string[], heights: number[]): string[] {
     return names
@@ -226,6 +247,7 @@ function sortPeople(names: string[], heights: number[]): string[] {
         .map(([v]) => v);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

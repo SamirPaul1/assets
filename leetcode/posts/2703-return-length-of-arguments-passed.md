@@ -58,6 +58,7 @@ Three values were passed to the function so it should return 3.
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function argumentsLength(...args: any[]): number {
     return args.length;
@@ -67,6 +68,7 @@ function argumentsLength(...args: any[]): number {
  * argumentsLength(1, 2, 3); // 3
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

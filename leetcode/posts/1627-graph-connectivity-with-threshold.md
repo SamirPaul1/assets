@@ -91,6 +91,7 @@ The time complexity is $O(n \times \log n \times (\alpha(n) + q))$, and the spac
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class UnionFind:
     def __init__(self, n):
@@ -125,7 +126,9 @@ class Solution:
                 uf.union(a, b)
         return [uf.find(a) == uf.find(b) for a, b in queries]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class UnionFind {
     private int[] p;
@@ -179,7 +182,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class UnionFind {
 public:
@@ -232,7 +237,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type unionFind struct {
 	p, size []int
@@ -284,7 +291,9 @@ func areConnected(n int, threshold int, queries [][]int) []bool {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class UnionFind {
     p: number[];
@@ -329,6 +338,7 @@ function areConnected(n: number, threshold: number, queries: number[][]): boolea
     return queries.map(([a, b]) => uf.find(a) === uf.find(b));
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

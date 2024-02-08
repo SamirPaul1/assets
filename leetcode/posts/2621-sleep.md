@@ -55,6 +55,7 @@ sleep(100).then(() =&gt; {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 async function sleep(millis: number): Promise<void> {
     return new Promise(r => setTimeout(r, millis));
@@ -65,6 +66,7 @@ async function sleep(millis: number): Promise<void> {
  * sleep(100).then(() => console.log(Date.now() - t)) // 100
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -86,6 +86,7 @@ So, the result is the sum of tiv_2016 of the first and last record, which is 45.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -100,6 +101,7 @@ SELECT ROUND(SUM(tiv_2016), 2) AS tiv_2016
 FROM T
 WHERE cnt1 > 1 AND cnt2 = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -68,6 +68,7 @@ twitter.getNewsFeed(1);  // User 1&#39;s news feed should return a list with 1 t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Twitter:
     def __init__(self):
@@ -120,7 +121,9 @@ class Twitter:
 # obj.follow(followerId,followeeId)
 # obj.unfollow(followerId,followeeId)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Twitter {
     private Map<Integer, List<Integer>> userTweets;
@@ -188,6 +191,7 @@ class Twitter {
  * obj.unfollow(followerId,followeeId);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

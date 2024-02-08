@@ -77,6 +77,7 @@ Time complexity $O(1)$, space complexity $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def distMoney(self, money: int, children: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
         # money-8x >= children-x, x <= (money-children)/7
         return (money - children) // 7
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int distMoney(int money, int children) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func distMoney(money int, children int) int {
 	if money < children {
@@ -142,7 +149,9 @@ func distMoney(money int, children int) int {
 	return (money - children) / 7
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function distMoney(money: number, children: number): number {
     if (money < children) {
@@ -157,7 +166,9 @@ function distMoney(money: number, children: number): number {
     return Math.floor((money - children) / 7);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn dist_money(money: i32, children: i32) -> i32 {
@@ -177,6 +188,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ Thus, the minimum number of swaps required is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSwaps(self, nums: List[int]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                 mx = max(mx, s[j + 1] - s[i])
         return cnt - mx
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSwaps(int[] nums) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSwaps(nums []int) int {
 	cnt := 0
@@ -154,7 +161,9 @@ func minSwaps(nums []int) int {
 	return cnt - mx
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSwaps(nums: number[]): number {
     const n = nums.length;
@@ -170,6 +179,7 @@ function minSwaps(nums: number[]): number {
     return m - ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

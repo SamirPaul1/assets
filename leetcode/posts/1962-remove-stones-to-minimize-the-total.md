@@ -80,6 +80,7 @@ The time complexity is $O(n + k \times \log n)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minStoneSum(self, piles: List[int], k: int) -> int:
@@ -89,7 +90,9 @@ class Solution:
             heapreplace(pq, pq[0] // 2)
         return -sum(pq)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minStoneSum(int[] piles, int k) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minStoneSum(piles []int, k int) (ans int) {
 	pq := &hp{piles}
@@ -160,7 +167,9 @@ func (h *hp) Pop() any {
 func (h *hp) push(v int) { heap.Push(h, v) }
 func (h *hp) pop() int   { return heap.Pop(h).(int) }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minStoneSum(piles: number[], k: number): number {
     const pq = new MaxPriorityQueue();
@@ -178,6 +187,7 @@ function minStoneSum(piles: number[], k: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

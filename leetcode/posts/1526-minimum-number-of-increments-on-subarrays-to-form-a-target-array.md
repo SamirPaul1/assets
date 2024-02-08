@@ -70,12 +70,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minNumberOperations(self, target: List[int]) -> int:
         return target[0] + sum(max(0, b - a) for a, b in pairwise(target))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minNumberOperations(int[] target) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minNumberOperations(target []int) int {
 	f := target[0]
@@ -116,7 +123,9 @@ func minNumberOperations(target []int) int {
 	return f
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minNumberOperations(target: number[]): number {
     let f = target[0];
@@ -128,6 +137,7 @@ function minNumberOperations(target: number[]): number {
     return f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

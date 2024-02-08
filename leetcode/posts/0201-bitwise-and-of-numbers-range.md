@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rangeBitwiseAnd(self, left: int, right: int) -> int:
@@ -63,7 +64,9 @@ class Solution:
             right &= right - 1
         return right
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int rangeBitwiseAnd(int left, int right) {
@@ -74,7 +77,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -86,7 +91,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rangeBitwiseAnd(left int, right int) int {
 	for left < right {
@@ -95,7 +102,9 @@ func rangeBitwiseAnd(left int, right int) int {
 	return right
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number} left
@@ -109,7 +118,9 @@ var rangeBitwiseAnd = function (left, right) {
     return right;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int RangeBitwiseAnd(int left, int right) {
@@ -120,6 +131,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

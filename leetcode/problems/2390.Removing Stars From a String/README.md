@@ -1,6 +1,5 @@
 # [2390. Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string)
 
-[中文文档](/solution/2300-2399/2390.Removing%20Stars%20From%20a%20String/README.md)
 
 ## Description
 

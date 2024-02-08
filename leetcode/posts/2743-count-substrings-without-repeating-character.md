@@ -66,6 +66,7 @@ And it can be shown that there are no special substrings with a length of at lea
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfSpecialSubstrings(self, s: str) -> int:
@@ -79,7 +80,9 @@ class Solution:
             ans += i - j + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfSpecialSubstrings(String s) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfSpecialSubstrings(s string) (ans int) {
 	j := 0
@@ -135,7 +142,9 @@ func numberOfSpecialSubstrings(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfSpecialSubstrings(s: string): number {
     const idx = (c: string) => c.charCodeAt(0) - 'a'.charCodeAt(0);
@@ -153,6 +162,7 @@ function numberOfSpecialSubstrings(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

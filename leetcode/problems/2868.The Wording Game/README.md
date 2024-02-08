@@ -1,6 +1,5 @@
 # [2868. The Wording Game](https://leetcode.com/problems/the-wording-game)
 
-[中文文档](/solution/2800-2899/2868.The%20Wording%20Game/README.md)
 
 ## Description
 

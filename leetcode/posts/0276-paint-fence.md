@@ -67,6 +67,7 @@ Note that painting all the posts red or all the posts green is invalid because t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numWays(self, n: int, k: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
             dp[i][1] = dp[i - 1][0]
         return sum(dp[-1])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numWays(int n, int k) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numWays(n int, k int) int {
 	dp := make([][]int, n)
@@ -121,6 +128,7 @@ func numWays(n int, k int) int {
 	return dp[n-1][0] + dp[n-1][1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

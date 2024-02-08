@@ -1,6 +1,5 @@
 # [2227. Encrypt and Decrypt Strings](https://leetcode.com/problems/encrypt-and-decrypt-strings)
 
-[中文文档](/solution/2200-2299/2227.Encrypt%20and%20Decrypt%20Strings/README.md)
 
 ## Description
 

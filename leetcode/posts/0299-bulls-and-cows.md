@@ -70,6 +70,7 @@ Note that only one of the two unmatched 1s is counted as a cow since the non-bul
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
@@ -87,7 +88,9 @@ class Solution:
             y += min(cnt1[i], cnt2[i])
         return f'{x}A{y}B'
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String getHint(String secret, String guess) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getHint(secret string, guess string) string {
 	x, y := 0, 0
@@ -153,7 +160,9 @@ func getHint(secret string, guess string) string {
 	return fmt.Sprintf("%dA%dB", x, y)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -182,6 +191,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

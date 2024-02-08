@@ -66,6 +66,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Here, $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def orderlyQueue(self, s: str, k: int) -> str:
@@ -77,7 +78,9 @@ class Solution:
             return ans
         return "".join(sorted(s))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String orderlyQueue(String s, int k) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func orderlyQueue(s string, k int) string {
 	if k == 1 {
@@ -134,7 +141,9 @@ func orderlyQueue(s string, k int) string {
 	return string(t)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function orderlyQueue(s: string, k: number): string {
     if (k > 1) {
@@ -151,6 +160,7 @@ function orderlyQueue(s: string, k: number): string {
     return min;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2891. Method Chaining](https://leetcode.com/problems/method-chaining)
 
-[中文文档](/solution/2800-2899/2891.Method%20Chaining/README.md)
 
 ## Description
 

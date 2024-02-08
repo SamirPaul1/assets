@@ -1,6 +1,5 @@
 # [464. Can I Win](https://leetcode.com/problems/can-i-win)
 
-[中文文档](/solution/0400-0499/0464.Can%20I%20Win/README.md)
 
 ## Description
 

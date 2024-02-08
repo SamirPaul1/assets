@@ -85,6 +85,7 @@ Request 3: Person 3 and person 4 cannot be friends since person 0 and person 1 w
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def friendRequests(
@@ -115,7 +116,9 @@ class Solution:
                     p[find(u)] = find(v)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -160,7 +163,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -196,7 +201,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 var p []int
 
@@ -235,6 +242,7 @@ func find(x int) int {
 	return p[x]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

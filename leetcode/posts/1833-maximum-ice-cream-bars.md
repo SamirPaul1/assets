@@ -76,6 +76,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxIceCream(self, costs: List[int], coins: int) -> int:
@@ -86,7 +87,9 @@ class Solution:
             coins -= c
         return len(costs)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxIceCream(int[] costs, int coins) {
@@ -102,7 +105,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxIceCream(costs []int, coins int) int {
 	sort.Ints(costs)
@@ -130,7 +137,9 @@ func maxIceCream(costs []int, coins int) int {
 	return len(costs)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxIceCream(costs: number[], coins: number): number {
     costs.sort((a, b) => a - b);
@@ -144,7 +153,9 @@ function maxIceCream(costs: number[], coins: number): number {
     return n;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} costs
@@ -163,6 +174,7 @@ var maxIceCream = function (costs, coins) {
     return n;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

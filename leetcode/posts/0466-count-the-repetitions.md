@@ -58,6 +58,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getMaxRepetitions(self, s1: str, n1: int, s2: str, n2: int) -> int:
@@ -81,7 +82,9 @@ class Solution:
             ans += cnt
         return ans // n2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getMaxRepetitions(String s1, int n1, String s2, int n2) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -138,7 +143,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getMaxRepetitions(s1 string, n1 int, s2 string, n2 int) (ans int) {
 	n := len(s2)
@@ -165,7 +172,9 @@ func getMaxRepetitions(s1 string, n1 int, s2 string, n2 int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getMaxRepetitions(s1: string, n1: number, s2: string, n2: number): number {
     const n = s2.length;
@@ -191,6 +200,7 @@ function getMaxRepetitions(s1: string, n1: number, s2: string, n2: number): numb
     return Math.floor(ans / n2);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

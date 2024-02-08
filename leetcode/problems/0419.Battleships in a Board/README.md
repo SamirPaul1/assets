@@ -1,6 +1,5 @@
 # [419. Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board)
 
-[中文文档](/solution/0400-0499/0419.Battleships%20in%20a%20Board/README.md)
 
 ## Description
 

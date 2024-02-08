@@ -65,6 +65,7 @@ Therefore, person #1 only need to give person #0 $4, and all debt is settled.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minTransfers(self, transactions: List[List[int]]) -> int:
@@ -89,7 +90,9 @@ class Solution:
                     j = (j - 1) & i
         return f[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minTransfers(int[][] transactions) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -164,7 +169,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minTransfers(transactions [][]int) int {
 	g := [12]int{}
@@ -198,7 +205,9 @@ func minTransfers(transactions [][]int) int {
 	return f[1<<m-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minTransfers(transactions: number[][]): number {
     const g: number[] = new Array(12).fill(0);
@@ -236,6 +245,7 @@ function bitCount(i: number): number {
     return i & 0x3f;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

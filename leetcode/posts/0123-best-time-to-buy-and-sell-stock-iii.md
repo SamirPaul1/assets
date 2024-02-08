@@ -78,6 +78,7 @@ The time complexity is $O(n)$, where $n$ is the length of the `prices` array. Th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -90,7 +91,9 @@ class Solution:
             f4 = max(f4, f3 + price)
         return f4
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxProfit(prices []int) int {
 	f1, f2, f3, f4 := -prices[0], 0, -prices[0], 0
@@ -135,7 +142,9 @@ func maxProfit(prices []int) int {
 	return f4
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxProfit(prices: number[]): number {
     let [f1, f2, f3, f4] = [-prices[0], 0, -prices[0], 0];
@@ -148,7 +157,9 @@ function maxProfit(prices: number[]): number {
     return f4;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -170,7 +181,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MaxProfit(int[] prices) {
@@ -185,6 +198,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

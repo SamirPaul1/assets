@@ -59,6 +59,7 @@ wordFilter.f(&quot;a&quot;, &quot;e&quot;); // return 0, because the word at ind
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class WordFilter:
     def __init__(self, words: List[str]):
@@ -79,7 +80,9 @@ class WordFilter:
 # obj = WordFilter(words)
 # param_1 = obj.f(pref,suff)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class WordFilter {
     private Map<String, Integer> d = new HashMap<>();
@@ -109,7 +112,9 @@ class WordFilter {
  * int param_1 = obj.f(pref,suff);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class WordFilter {
 public:
@@ -142,7 +147,9 @@ public:
  * int param_1 = obj->f(pref,suff);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type WordFilter struct {
 	d map[string]int
@@ -176,6 +183,7 @@ func (this *WordFilter) F(pref string, suff string) int {
  * param_1 := obj.F(pref,suff);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -183,6 +191,7 @@ func (this *WordFilter) F(pref string, suff string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -236,7 +245,9 @@ class WordFilter:
 # obj = WordFilter(words)
 # param_1 = obj.f(pref,suff)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     Trie[] children = new Trie[26];
@@ -308,7 +319,9 @@ class WordFilter {
  * int param_1 = obj.f(pref,suff);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -392,6 +405,7 @@ func reverse(w string) string {
  * param_1 := obj.F(pref,suff);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

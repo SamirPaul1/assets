@@ -45,6 +45,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseString(self, s: List[str]) -> None:
@@ -53,7 +54,9 @@ class Solution:
             s[i], s[j] = s[j], s[i]
             i, j = i + 1, j - 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void reverseString(char[] s) {
@@ -65,7 +68,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -76,7 +81,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func reverseString(s []byte) {
 	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
@@ -84,7 +91,9 @@ func reverseString(s []byte) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify s in-place instead.
@@ -95,7 +104,9 @@ function reverseString(s: string[]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn reverse_string(s: &mut Vec<char>) {
@@ -109,7 +120,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {character[]} s
@@ -121,6 +134,7 @@ var reverseString = function (s) {
     }
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -128,12 +142,15 @@ var reverseString = function (s) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         s[:] = s[::-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify s in-place instead.
@@ -142,6 +159,7 @@ function reverseString(s: string[]): void {
     s.reverse();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

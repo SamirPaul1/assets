@@ -1,6 +1,5 @@
 # [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view)
 
-[中文文档](/solution/0100-0199/0199.Binary%20Tree%20Right%20Side%20View/README.md)
 
 ## Description
 

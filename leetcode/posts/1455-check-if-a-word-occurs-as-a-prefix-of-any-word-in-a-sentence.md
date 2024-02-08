@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPrefixOfWord(self, sentence: str, searchWord: str) -> int:
@@ -74,7 +75,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int isPrefixOfWord(String sentence, String searchWord) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPrefixOfWord(sentence string, searchWord string) int {
 	for i, s := range strings.Split(sentence, " ") {
@@ -115,7 +122,9 @@ func isPrefixOfWord(sentence string, searchWord string) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPrefixOfWord(sentence: string, searchWord: string): number {
     const ss = sentence.split(/\s/);
@@ -128,7 +137,9 @@ function isPrefixOfWord(sentence: string, searchWord: string): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_prefix_of_word(sentence: String, search_word: String) -> i32 {
@@ -142,7 +153,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -161,6 +174,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

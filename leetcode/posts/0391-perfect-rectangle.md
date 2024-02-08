@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isRectangleCover(self, rectangles: List[List[int]]) -> bool:
@@ -97,7 +98,9 @@ class Solution:
 
         return all(c == 2 or c == 4 for c in cnt.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isRectangleCover(int[][] rectangles) {
@@ -164,7 +167,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -208,7 +213,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type pair struct {
 	first  int
@@ -256,6 +263,7 @@ func isRectangleCover(rectangles [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

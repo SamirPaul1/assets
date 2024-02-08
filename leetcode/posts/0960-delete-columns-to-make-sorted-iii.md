@@ -73,6 +73,7 @@ Note that strs[0] &gt; strs[1] - the array strs is not necessarily in lexicograp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
@@ -84,7 +85,9 @@ class Solution:
                     dp[i] = max(dp[i], dp[j] + 1)
         return n - max(dp)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minDeletionSize(String[] strs) {
@@ -113,7 +116,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDeletionSize(strs []string) int {
 	n := len(strs[0])
@@ -167,6 +174,7 @@ func minDeletionSize(strs []string) int {
 	return n - mx
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

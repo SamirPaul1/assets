@@ -164,6 +164,7 @@ By the end of October --&gt; average_ride_distance = (0+163+6)/3=56.33, average_
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH RECURSIVE
@@ -199,6 +200,7 @@ FROM Ride
 ORDER BY month
 LIMIT 10;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

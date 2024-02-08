@@ -62,6 +62,7 @@ However, splitting into [1, 0], [2], [3], [4] is the highest number of chunks po
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxChunksToSorted(int[] arr) {
@@ -87,7 +90,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxChunksToSorted(arr []int) int {
 	ans, mx := 0, 0
@@ -114,7 +121,9 @@ func maxChunksToSorted(arr []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxChunksToSorted(arr: number[]): number {
     const n = arr.length;
@@ -129,7 +138,9 @@ function maxChunksToSorted(arr: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_chunks_to_sorted(arr: Vec<i32>) -> i32 {
@@ -145,7 +156,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
@@ -161,6 +174,7 @@ int maxChunksToSorted(int* arr, int arrSize) {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -168,6 +182,7 @@ int maxChunksToSorted(int* arr, int arrSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
@@ -182,7 +197,9 @@ class Solution:
                 stk.append(mx)
         return len(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxChunksToSorted(int[] arr) {
@@ -202,7 +219,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -224,7 +243,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxChunksToSorted(arr []int) int {
 	stk := []int{}
@@ -243,6 +264,7 @@ func maxChunksToSorted(arr []int) int {
 	return len(stk)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

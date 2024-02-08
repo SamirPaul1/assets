@@ -119,6 +119,7 @@ We can use equijoin to connect the `Orders` table and the `Users` table accordin
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -136,6 +137,7 @@ FROM T
 WHERE num_items = (SELECT MAX(num_items) FROM T)
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

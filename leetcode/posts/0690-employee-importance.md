@@ -69,6 +69,7 @@ Thus, the total importance value of employee 5 is -3.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 """
 # Definition for Employee.
@@ -93,7 +94,9 @@ class Solution:
 
         return dfs(id)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /*
 // Definition for Employee.
@@ -125,7 +128,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for Employee.
@@ -157,6 +162,7 @@ var GetImportance = function (employees, id) {
     return dfs(id);
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

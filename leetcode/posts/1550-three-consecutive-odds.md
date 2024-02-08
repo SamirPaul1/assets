@@ -52,6 +52,7 @@ Given an integer array <code>arr</code>, return <code>true</code>&nbsp;if there 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def threeConsecutiveOdds(self, arr: List[int]) -> bool:
@@ -65,7 +66,9 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean threeConsecutiveOdds(int[] arr) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -101,7 +106,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func threeConsecutiveOdds(arr []int) bool {
 	cnt := 0
@@ -118,7 +125,9 @@ func threeConsecutiveOdds(arr []int) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function threeConsecutiveOdds(arr: number[]): boolean {
     let cnt = 0;
@@ -135,6 +144,7 @@ function threeConsecutiveOdds(arr: number[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -142,6 +152,7 @@ function threeConsecutiveOdds(arr: number[]): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def threeConsecutiveOdds(self, arr: List[int]) -> bool:
@@ -150,6 +161,7 @@ class Solution:
                 return True
         return False
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

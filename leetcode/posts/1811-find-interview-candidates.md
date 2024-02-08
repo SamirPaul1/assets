@@ -121,6 +121,7 @@ Quarz won a medal in 5 consecutive contests (190, 191, 192, 193, and 194), so we
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -162,6 +163,7 @@ FROM
     P AS p
     LEFT JOIN Users AS u ON p.user_id = u.user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

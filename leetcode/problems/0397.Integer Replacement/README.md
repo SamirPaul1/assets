@@ -1,6 +1,5 @@
 # [397. Integer Replacement](https://leetcode.com/problems/integer-replacement)
 
-[中文文档](/solution/0300-0399/0397.Integer%20Replacement/README.md)
 
 ## Description
 

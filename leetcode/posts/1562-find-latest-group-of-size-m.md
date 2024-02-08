@@ -72,6 +72,7 @@ No group of size 2 exists during any step.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLatestStep(self, arr: List[int], m: int) -> int:
@@ -107,7 +108,9 @@ class Solution:
             vis[v] = True
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -162,7 +165,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -205,7 +210,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLatestStep(arr []int, m int) int {
 	n := len(arr)
@@ -255,6 +262,7 @@ func findLatestStep(arr []int, m int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -262,6 +270,7 @@ func findLatestStep(arr []int, m int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLatestStep(self, arr: List[int], m: int) -> int:
@@ -278,7 +287,9 @@ class Solution:
             cnt[v - l] = cnt[v + r] = l + r + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLatestStep(int[] arr, int m) {
@@ -301,7 +312,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -320,7 +333,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLatestStep(arr []int, m int) int {
 	n := len(arr)
@@ -339,6 +354,7 @@ func findLatestStep(arr []int, m int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

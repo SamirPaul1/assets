@@ -76,6 +76,7 @@ The time complexity is $O(m \times \log n)$, where $m$ and $n$ are the lengths o
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
@@ -86,7 +87,9 @@ class Solution:
             ans = max(ans, j - i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxDistance(int[] nums1, int[] nums2) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxDistance(nums1 []int, nums2 []int) int {
 	ans, n := 0, len(nums2)
@@ -144,7 +151,9 @@ func maxDistance(nums1 []int, nums2 []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxDistance(nums1: number[], nums2: number[]): number {
     let ans = 0;
@@ -166,7 +175,9 @@ function maxDistance(nums1: number[], nums2: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_distance(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
@@ -190,7 +201,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -217,6 +230,7 @@ var maxDistance = function (nums1, nums2) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -224,6 +238,7 @@ var maxDistance = function (nums1, nums2) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
@@ -236,7 +251,9 @@ class Solution:
             i += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxDistance(int[] nums1, int[] nums2) {
@@ -252,7 +269,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -269,7 +288,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxDistance(nums1 []int, nums2 []int) int {
 	m, n := len(nums1), len(nums2)
@@ -285,7 +306,9 @@ func maxDistance(nums1 []int, nums2 []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxDistance(nums1: number[], nums2: number[]): number {
     let ans = 0;
@@ -300,7 +323,9 @@ function maxDistance(nums1: number[], nums2: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_distance(nums1: Vec<i32>, nums2: Vec<i32>) -> i32 {
@@ -318,7 +343,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -338,6 +365,7 @@ var maxDistance = function (nums1, nums2) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

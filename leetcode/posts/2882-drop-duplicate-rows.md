@@ -70,6 +70,7 @@ Alic (customer_id = 4) and Finn (customer_id = 5) both use john@example.com, so 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -77,6 +78,7 @@ import pandas as pd
 def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
     return customers.drop_duplicates(subset=['email'])
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

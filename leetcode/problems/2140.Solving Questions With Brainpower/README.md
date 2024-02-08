@@ -1,6 +1,5 @@
 # [2140. Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower)
 
-[中文文档](/solution/2100-2199/2140.Solving%20Questions%20With%20Brainpower/README.md)
 
 ## Description
 

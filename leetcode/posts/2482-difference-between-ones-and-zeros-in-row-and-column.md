@@ -82,6 +82,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def onesMinusZeros(self, grid: List[List[int]]) -> List[List[int]]:
@@ -98,7 +99,9 @@ class Solution:
                 diff[i][j] = r + c - (n - r) - (m - c)
         return diff
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] onesMinusZeros(int[][] grid) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func onesMinusZeros(grid [][]int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -169,7 +176,9 @@ func onesMinusZeros(grid [][]int) [][]int {
 	return diff
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function onesMinusZeros(grid: number[][]): number[][] {
     const m = grid.length;
@@ -193,7 +202,9 @@ function onesMinusZeros(grid: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn ones_minus_zeros(grid: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
@@ -219,7 +230,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Return an array of arrays of size *returnSize.
@@ -251,6 +264,7 @@ int** onesMinusZeros(int** grid, int gridSize, int* gridColSize, int* returnSize
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

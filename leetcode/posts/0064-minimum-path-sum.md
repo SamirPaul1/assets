@@ -67,6 +67,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                 f[i][j] = min(f[i - 1][j], f[i][j - 1]) + grid[i][j]
         return f[-1][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minPathSum(int[][] grid) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minPathSum(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -150,7 +157,9 @@ func minPathSum(grid [][]int) int {
 	return f[m-1][n-1]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minPathSum(grid: number[][]): number {
     const m = grid.length;
@@ -173,7 +182,9 @@ function minPathSum(grid: number[][]): number {
     return f[m - 1][n - 1];
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_path_sum(mut grid: Vec<Vec<i32>>) -> i32 {
@@ -194,7 +205,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} grid
@@ -221,7 +234,9 @@ var minPathSum = function (grid) {
     return f[m - 1][n - 1];
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MinPathSum(int[][] grid) {
@@ -243,6 +258,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

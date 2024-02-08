@@ -88,6 +88,7 @@ The cancellation was scheduled to occur after a delay of cancelTimeMs (100ms), w
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function cancellable(fn: Function, args: any[], t: number): Function {
     const timer = setTimeout(() => fn(...args), t);
@@ -122,7 +123,9 @@ function cancellable(fn: Function, args: any[], t: number): Function {
  *  }, maxT + 15)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {Function} fn
@@ -163,6 +166,7 @@ var cancellable = function (fn, args, t) {
  *  }, maxT + 15)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

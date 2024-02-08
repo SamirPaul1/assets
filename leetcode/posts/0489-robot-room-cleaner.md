@@ -93,6 +93,7 @@ From the top left corner, its position is one row below and three columns right.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # """
 # This is the robot's control interface.
@@ -153,7 +154,9 @@ class Solution:
         vis = set()
         dfs(0, 0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * // This is the robot's control interface.
@@ -202,7 +205,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * // This is the robot's control interface.
@@ -249,7 +254,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * // This is the robot's control interface.
@@ -294,7 +301,9 @@ func cleanRoom(robot *Robot) {
 	dfs(0, 0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * class Robot {
@@ -338,6 +347,7 @@ function cleanRoom(robot: Robot) {
     dfs(0, 0, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -74,6 +74,7 @@ numMatrix.sumRegion(2, 1, 4, 3); // return 10 (i.e. sum of the right red rectang
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     def __init__(self, n):
@@ -124,7 +125,9 @@ class NumMatrix:
 # obj.update(row,col,val)
 # param_2 = obj.sumRegion(row1,col1,row2,col2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -195,7 +198,9 @@ class NumMatrix {
  * int param_2 = obj.sumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 public:
@@ -265,7 +270,9 @@ public:
  * int param_2 = obj->sumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -336,6 +343,7 @@ func (this *NumMatrix) SumRegion(row1 int, col1 int, row2 int, col2 int) int {
  * param_2 := obj.SumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -343,6 +351,7 @@ func (this *NumMatrix) SumRegion(row1 int, col1 int, row2 int, col2 int) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -415,7 +424,9 @@ class NumMatrix:
 # obj.update(row,col,val)
 # param_2 = obj.sumRegion(row1,col1,row2,col2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     int l;
@@ -517,7 +528,9 @@ class NumMatrix {
  * int param_2 = obj.sumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -608,6 +621,7 @@ public:
  * int param_2 = obj->sumRegion(row1,col1,row2,col2);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

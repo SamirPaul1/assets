@@ -80,6 +80,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getAverages(self, nums: List[int], k: int) -> List[int]:
@@ -91,7 +92,9 @@ class Solution:
                 ans[i] = (s[i + k + 1] - s[i - k]) // (k << 1 | 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getAverages(int[] nums, int k) {
@@ -111,7 +114,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -132,7 +137,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getAverages(nums []int, k int) []int {
 	n := len(nums)
@@ -150,7 +157,9 @@ func getAverages(nums []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getAverages(nums: number[], k: number): number[] {
     const n = nums.length;
@@ -167,6 +176,7 @@ function getAverages(nums: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -174,6 +184,7 @@ function getAverages(nums: number[], k: number): number[] {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getAverages(self, nums: List[int], k: int) -> List[int]:
@@ -186,7 +197,9 @@ class Solution:
                 s -= nums[i - k * 2]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] getAverages(int[] nums, int k) {
@@ -205,7 +218,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -224,7 +239,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getAverages(nums []int, k int) []int {
 	ans := make([]int, len(nums))
@@ -240,7 +257,9 @@ func getAverages(nums []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getAverages(nums: number[], k: number): number[] {
     const n = nums.length;
@@ -256,6 +275,7 @@ function getAverages(nums: number[], k: number): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

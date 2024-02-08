@@ -61,6 +61,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Obj = Record<any, any>;
 
@@ -82,7 +83,9 @@ function compactObject(obj: Obj): Obj {
     return obj;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var compactObject = function (obj) {
     if (obj === null || typeof obj !== 'object') {
@@ -103,6 +106,7 @@ var compactObject = function (obj) {
     return result;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

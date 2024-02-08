@@ -110,6 +110,7 @@ emitter.emit(&quot;firstEvent&quot;, [5]); // [7]</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type Callback = (...args: any[]) => any;
 type Subscription = {
@@ -149,6 +150,7 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

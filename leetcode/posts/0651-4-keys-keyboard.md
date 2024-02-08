@@ -62,6 +62,7 @@ A, A, A, Ctrl A, Ctrl C, Ctrl V, Ctrl V
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxA(self, n: int) -> int:
@@ -71,7 +72,9 @@ class Solution:
                 dp[i] = max(dp[i], dp[j - 1] * (i - j))
         return dp[-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxA(int n) {
@@ -88,7 +91,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -104,7 +109,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxA(n int) int {
 	dp := make([]int, n+1)
@@ -119,6 +126,7 @@ func maxA(n int) int {
 	return dp[n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

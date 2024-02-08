@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def seePeople(self, heights: List[List[int]]) -> List[List[int]]:
@@ -100,7 +101,9 @@ class Solution:
                 ans[i][j] += add[i]
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] seePeople(int[][] heights) {
@@ -143,7 +146,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func seePeople(heights [][]int) (ans [][]int) {
 	f := func(nums []int) []int {
@@ -224,7 +231,9 @@ func seePeople(heights [][]int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function seePeople(heights: number[][]): number[][] {
     const f = (nums: number[]): number[] => {
@@ -264,6 +273,7 @@ function seePeople(heights: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

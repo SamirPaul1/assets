@@ -51,6 +51,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -79,7 +80,9 @@ class Solution:
             head = head.next
         return buildBST(nums, 0, len(nums) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -173,7 +178,9 @@ private:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -211,7 +218,9 @@ func buildBST(nums []int, start, end int) *TreeNode {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -261,7 +270,9 @@ function sortedListToBST(head: ListNode | null): TreeNode | null {
     return build(head, null);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
@@ -327,7 +338,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for singly-linked list.
@@ -367,7 +380,9 @@ var sortedListToBST = function (head) {
     return buildBST(nums, 0, nums.length - 1);
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Definition for singly-linked list.
@@ -410,6 +425,7 @@ struct TreeNode* sortedListToBST(struct ListNode* head) {
     return bulid(head, NULL);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

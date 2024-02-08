@@ -79,6 +79,7 @@ Thus the resulting integer is 6.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getLucky(self, s: str, k: int) -> int:
@@ -88,7 +89,9 @@ class Solution:
             s = str(t)
         return int(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int getLucky(String s, int k) {
@@ -108,7 +111,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getLucky(s string, k int) int {
 	var t strings.Builder
@@ -145,7 +152,9 @@ func getLucky(s string, k int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getLucky(s: string, k: number): number {
     let ans = '';
@@ -162,7 +171,9 @@ function getLucky(s: string, k: number): number {
     return Number(ans);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn get_lucky(s: String, k: i32) -> i32 {
@@ -181,7 +192,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -207,6 +220,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

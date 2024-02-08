@@ -74,6 +74,7 @@ Total distance = 6
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDistance(self, word: str) -> int:
@@ -102,7 +103,9 @@ class Solution:
         b = min(f[n - 1][j][ord(word[-1]) - ord('A')] for j in range(26))
         return int(min(a, b))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDistance(String word) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -192,7 +197,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDistance(word string) int {
 	n := len(word)
@@ -244,6 +251,7 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -75,6 +75,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def beautifulPartitions(self, s: str, k: int, minLength: int) -> int:
@@ -94,7 +95,9 @@ class Solution:
                 g[i][j] = (g[i - 1][j] + f[i][j]) % mod
         return f[n][k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int MOD = (int) 1e9 + 7;
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func beautifulPartitions(s string, k int, minLength int) int {
 	prime := func(c byte) bool {
@@ -186,6 +193,7 @@ func beautifulPartitions(s string, k int, minLength int) int {
 	return f[n][k]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

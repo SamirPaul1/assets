@@ -63,6 +63,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # The knows API is already defined for you.
 # return a bool, whether a knows b
@@ -81,7 +82,9 @@ class Solution:
                     return -1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
@@ -105,7 +108,9 @@ public class Solution extends Relation {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /* The knows API is defined for you.
       bool knows(int a, int b); */
@@ -130,7 +135,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * The knows API is already defined for you.
@@ -155,6 +162,7 @@ func solution(knows func(a int, b int) bool) func(n int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

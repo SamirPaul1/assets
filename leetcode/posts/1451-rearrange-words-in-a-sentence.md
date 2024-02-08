@@ -74,6 +74,7 @@ Output is ordered by length and the new first word starts with capital letter.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arrangeWords(self, text: str) -> str:
@@ -83,7 +84,9 @@ class Solution:
         words[0] = words[0].title()
         return " ".join(words)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String arrangeWords(String text) {
@@ -95,7 +98,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arrangeWords(text string) string {
 	words := strings.Split(text, " ")
@@ -130,7 +137,9 @@ func arrangeWords(text string) string {
 	return strings.Join(words, " ")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function arrangeWords(text: string): string {
     let words: string[] = text.split(' ');
@@ -140,7 +149,9 @@ function arrangeWords(text: string): string {
     return words.join(' ');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} text
@@ -154,7 +165,9 @@ var arrangeWords = function (text) {
     return arr.join(' ');
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -177,6 +190,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

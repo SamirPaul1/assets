@@ -69,6 +69,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a category handler.
 # class CategoryHandler:
@@ -90,7 +91,9 @@ class Solution:
                     p[find(a)] = find(b)
         return sum(i == x for i, x in enumerate(p))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a category handler.
@@ -131,7 +134,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a category handler.
@@ -167,7 +172,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for a category handler.
@@ -202,7 +209,9 @@ func numberOfCategories(n int, categoryHandler CategoryHandler) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a category handler.
@@ -235,6 +244,7 @@ function numberOfCategories(n: number, categoryHandler: CategoryHandler): number
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

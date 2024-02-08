@@ -68,12 +68,15 @@ Remove palindromic subsequence &quot;baab&quot; then &quot;b&quot;.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def removePalindromeSub(self, s: str) -> int:
         return 1 if s[::-1] == s else 2
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int removePalindromeSub(String s) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -100,7 +105,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func removePalindromeSub(s string) int {
 	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
@@ -111,7 +118,9 @@ func removePalindromeSub(s string) int {
 	return 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function removePalindromeSub(s: string): number {
     for (let i = 0, j = s.length - 1; i < j; ++i, --j) {
@@ -122,7 +131,9 @@ function removePalindromeSub(s: string): number {
     return 1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn remove_palindrome_sub(s: String) -> i32 {
@@ -140,6 +151,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -63,6 +63,7 @@ recentCounter.ping(3002);  // requests = [1, <u>100</u>, <u>3001</u>, <u>3002</u
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class RecentCounter:
     def __init__(self):
@@ -79,7 +80,9 @@ class RecentCounter:
 # obj = RecentCounter()
 # param_1 = obj.ping(t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class RecentCounter {
     private int[] s = new int[10010];
@@ -113,7 +116,9 @@ class RecentCounter {
  * int param_1 = obj.ping(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class RecentCounter {
 public:
@@ -135,7 +140,9 @@ public:
  * int param_1 = obj->ping(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type RecentCounter struct {
 	q []int
@@ -159,7 +166,9 @@ func (this *RecentCounter) Ping(t int) int {
  * param_1 := obj.Ping(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class RecentCounter {
     private queue: number[];
@@ -183,7 +192,9 @@ class RecentCounter {
  * var param_1 = obj.ping(t)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::VecDeque;
 struct RecentCounter {
@@ -217,7 +228,9 @@ impl RecentCounter {
  * let ret_1: i32 = obj.ping(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 var RecentCounter = function () {
     this.q = [];
@@ -241,7 +254,9 @@ RecentCounter.prototype.ping = function (t) {
  * var param_1 = obj.ping(t)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class RecentCounter {
     private Queue<int> q = new Queue<int>();
@@ -266,6 +281,7 @@ public class RecentCounter {
  * int param_1 = obj.Ping(t);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -273,6 +289,7 @@ public class RecentCounter {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class RecentCounter:
     def __init__(self):
@@ -287,7 +304,9 @@ class RecentCounter:
 # obj = RecentCounter()
 # param_1 = obj.ping(t)
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class RecentCounter {
 public:
@@ -308,7 +327,9 @@ public:
  * int param_1 = obj->ping(t);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type RecentCounter struct {
 	s []int
@@ -341,6 +362,7 @@ func (this *RecentCounter) Ping(t int) int {
  * param_1 := obj.Ping(t);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

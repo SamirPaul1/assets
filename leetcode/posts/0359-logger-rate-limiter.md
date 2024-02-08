@@ -66,6 +66,7 @@ logger.shouldPrintMessage(11, &quot;foo&quot;); // 11 &gt;= 11, return true, nex
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Logger:
     def __init__(self):
@@ -91,7 +92,9 @@ class Logger:
 # obj = Logger()
 # param_1 = obj.shouldPrintMessage(timestamp,message)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Logger {
 
@@ -123,7 +126,9 @@ class Logger {
  * boolean param_1 = obj.shouldPrintMessage(timestamp,message);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Initialize your data structure here.
@@ -155,6 +160,7 @@ Logger.prototype.shouldPrintMessage = function (timestamp, message) {
  * var param_1 = obj.shouldPrintMessage(timestamp,message)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

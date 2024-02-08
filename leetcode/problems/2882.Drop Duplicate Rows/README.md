@@ -1,6 +1,5 @@
 # [2882. Drop Duplicate Rows](https://leetcode.com/problems/drop-duplicate-rows)
 
-[中文文档](/solution/2800-2899/2882.Drop%20Duplicate%20Rows/README.md)
 
 ## Description
 

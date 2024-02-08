@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:
@@ -78,7 +79,9 @@ class Solution:
             right[i] = right[i + 1] + cnt
         return [a + b for a, b in zip(left, right)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] minOperations(String boxes) {
@@ -105,7 +108,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -129,7 +134,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(boxes string) []int {
 	n := len(boxes)
@@ -154,7 +161,9 @@ func minOperations(boxes string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(boxes: string): number[] {
     const n = boxes.length;
@@ -175,7 +184,9 @@ function minOperations(boxes: string): number[] {
     return left.map((v, i) => v + right[i]);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations(boxes: String) -> Vec<i32> {
@@ -204,7 +215,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -237,6 +250,7 @@ int* minOperations(char* boxes, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -244,6 +258,7 @@ int* minOperations(char* boxes, int* returnSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:
@@ -262,7 +277,9 @@ class Solution:
             ans[i] += s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] minOperations(String boxes) {
@@ -285,7 +302,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -305,7 +324,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(boxes string) []int {
 	n := len(boxes)
@@ -326,7 +347,9 @@ func minOperations(boxes string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(boxes: string): number[] {
     const n = boxes.length;
@@ -347,7 +370,9 @@ function minOperations(boxes: string): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations(boxes: String) -> Vec<i32> {
@@ -374,7 +399,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -400,6 +427,7 @@ int* minOperations(char* boxes, int* returnSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

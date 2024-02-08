@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def ways(self, pizza: List[str], k: int) -> int:
@@ -91,7 +92,9 @@ class Solution:
                 s[i][j] = s[i - 1][j] + s[i][j - 1] - s[i - 1][j - 1] + int(c == 'A')
         return dfs(0, 0, k - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -136,7 +139,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -175,7 +180,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func ways(pizza []string, k int) int {
 	const mod = 1e9 + 7
@@ -230,7 +237,9 @@ func ways(pizza []string, k int) int {
 	return dfs(0, 0, k-1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function ways(pizza: string[], k: number): number {
     const mod = 1e9 + 7;
@@ -267,6 +276,7 @@ function ways(pizza: string[], k: number): number {
     return dfs(0, 0, k - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

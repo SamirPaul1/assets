@@ -96,6 +96,7 @@ The time complexity is $O(n + |\Sigma| \times \log |\Sigma|)$, and the space com
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumPushes(self, word: str) -> int:
@@ -105,7 +106,9 @@ class Solution:
             ans += (i // 8 + 1) * x
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumPushes(String word) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumPushes(word string) (ans int) {
 	cnt := make([]int, 26)
@@ -154,7 +161,9 @@ func minimumPushes(word string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumPushes(word: string): number {
     const cnt: number[] = Array(26).fill(0);
@@ -169,6 +178,7 @@ function minimumPushes(word: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

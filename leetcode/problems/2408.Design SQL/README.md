@@ -1,6 +1,5 @@
 # [2408. Design SQL](https://leetcode.com/problems/design-sql)
 
-[中文文档](/solution/2400-2499/2408.Design%20SQL/README.md)
 
 ## Description
 

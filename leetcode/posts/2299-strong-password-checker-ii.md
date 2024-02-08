@@ -70,6 +70,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def strongPasswordCheckerII(self, password: str) -> bool:
@@ -89,7 +90,9 @@ class Solution:
                 mask |= 8
         return mask == 15
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean strongPasswordCheckerII(String password) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func strongPasswordCheckerII(password string) bool {
 	if len(password) < 8 {
@@ -168,7 +175,9 @@ func strongPasswordCheckerII(password string) bool {
 	return mask == 15
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function strongPasswordCheckerII(password: string): boolean {
     if (password.length < 8) {
@@ -193,7 +202,9 @@ function strongPasswordCheckerII(password: string): boolean {
     return mask == 15;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn strong_password_checker_ii(password: String) -> bool {
@@ -223,7 +234,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool strongPasswordCheckerII(char* password) {
     int n = strlen(password);
@@ -250,6 +263,7 @@ bool strongPasswordCheckerII(char* password) {
     return mask == 0b1111;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

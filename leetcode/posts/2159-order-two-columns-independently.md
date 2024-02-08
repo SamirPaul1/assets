@@ -73,6 +73,7 @@ Data table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -93,6 +94,7 @@ FROM
     S
     JOIN T USING (rk);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

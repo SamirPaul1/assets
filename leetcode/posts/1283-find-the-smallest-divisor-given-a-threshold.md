@@ -65,6 +65,7 @@ The time complexity is $O(n \times \log M)$, where $n$ is the length of the arra
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:
@@ -77,7 +78,9 @@ class Solution:
                 l = mid + 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func smallestDivisor(nums []int, threshold int) int {
 	return sort.Search(1000000, func(v int) bool {
@@ -134,7 +141,9 @@ func smallestDivisor(nums []int, threshold int) int {
 	}) + 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function smallestDivisor(nums: number[], threshold: number): number {
     let l = 1;
@@ -154,7 +163,9 @@ function smallestDivisor(nums: number[], threshold: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums
@@ -179,7 +190,9 @@ var smallestDivisor = function (nums, threshold) {
     return l;
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int SmallestDivisor(int[] nums, int threshold) {
@@ -201,6 +214,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -208,6 +222,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def smallestDivisor(self, nums: List[int], threshold: int) -> int:
@@ -217,6 +232,7 @@ class Solution:
 
         return bisect_left(range(max(nums)), True, key=f) + 1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,12 +57,15 @@ The time complexity is $O(\log n)$, and the space complexity is $O(\log n)$. Whe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def encode(self, num: int) -> str:
         return bin(num + 1)[3:]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String encode(int num) {
@@ -70,7 +73,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -85,7 +90,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func encode(num int) string {
 	num++
@@ -93,7 +100,9 @@ func encode(num int) string {
 	return s[1:]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function encode(num: number): string {
     ++num;
@@ -101,6 +110,7 @@ function encode(num: number): string {
     return s.slice(1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

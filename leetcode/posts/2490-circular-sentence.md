@@ -85,6 +85,7 @@ The sentence is <strong>not</strong> circular.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isCircularSentence(self, sentence: str) -> bool:
@@ -92,7 +93,9 @@ class Solution:
         n = len(ss)
         return all(s[-1] == ss[(i + 1) % n][0] for i, s in enumerate(ss))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isCircularSentence(String sentence) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -133,7 +138,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isCircularSentence(sentence string) bool {
 	ss := strings.Split(sentence, " ")
@@ -146,7 +153,9 @@ func isCircularSentence(sentence string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isCircularSentence(sentence: string): boolean {
     const ss = sentence.split(' ');
@@ -159,7 +168,9 @@ function isCircularSentence(sentence: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_circular_sentence(sentence: String) -> bool {
@@ -174,7 +185,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} sentence
@@ -191,6 +204,7 @@ var isCircularSentence = function (sentence) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -198,6 +212,7 @@ var isCircularSentence = function (sentence) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isCircularSentence(self, s: str) -> bool:
@@ -205,7 +220,9 @@ class Solution:
             c != " " or s[i - 1] == s[i + 1] for i, c in enumerate(s)
         )
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isCircularSentence(String s) {
@@ -222,7 +239,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -240,7 +259,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isCircularSentence(s string) bool {
 	n := len(s)
@@ -255,7 +276,9 @@ func isCircularSentence(s string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isCircularSentence(s: string): boolean {
     const n = s.length;
@@ -270,7 +293,9 @@ function isCircularSentence(s: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn is_circular_sentence(sentence: String) -> bool {
@@ -291,7 +316,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {string} s
@@ -310,6 +337,7 @@ var isCircularSentence = function (s) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

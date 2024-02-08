@@ -76,6 +76,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countValidWords(self, sentence: str) -> int:
@@ -98,7 +99,9 @@ class Solution:
 
         return sum(check(token) for token in sentence.split())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countValidWords(String sentence) {
@@ -134,7 +137,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countValidWords(sentence: string): number {
     let words = sentence.trim().split(/\s+/);
@@ -173,6 +178,7 @@ function isValied(str: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

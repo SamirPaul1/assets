@@ -1,6 +1,5 @@
 # [2748. Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs)
 
-[中文文档](/solution/2700-2799/2748.Number%20of%20Beautiful%20Pairs/README.md)
 
 ## Description
 

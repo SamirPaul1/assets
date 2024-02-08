@@ -76,6 +76,7 @@ The answers of other cells are similarly calculated.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def differenceOfDistinctValues(self, grid: List[List[int]]) -> List[List[int]]:
@@ -98,7 +99,9 @@ class Solution:
                 ans[i][j] = abs(tl - br)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] differenceOfDistinctValues(int[][] grid) {
@@ -126,7 +129,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func differenceOfDistinctValues(grid [][]int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -190,7 +197,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function differenceOfDistinctValues(grid: number[][]): number[][] {
     const m = grid.length;
@@ -218,6 +227,7 @@ function differenceOfDistinctValues(grid: number[][]): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -58,6 +58,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array. The space c
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def averageValue(self, nums: List[int]) -> int:
@@ -68,7 +69,9 @@ class Solution:
                 n += 1
         return 0 if n == 0 else s // n
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int averageValue(int[] nums) {
@@ -83,7 +86,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func averageValue(nums []int) int {
 	var s, n int
@@ -115,7 +122,9 @@ func averageValue(nums []int) int {
 	return s / n
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function averageValue(nums: number[]): number {
     let s = 0;
@@ -129,7 +138,9 @@ function averageValue(nums: number[]): number {
     return n === 0 ? 0 : ~~(s / n);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn average_value(nums: Vec<i32>) -> i32 {
@@ -148,7 +159,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int averageValue(int* nums, int numsSize) {
     int s = 0, n = 0;
@@ -161,6 +174,7 @@ int averageValue(int* nums, int numsSize) {
     return n == 0 ? 0 : s / n;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -168,6 +182,7 @@ int averageValue(int* nums, int numsSize) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn average_value(nums: Vec<i32>) -> i32 {
@@ -185,6 +200,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -110,6 +110,7 @@ Invoice table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -124,6 +125,7 @@ FROM
 GROUP BY product_id
 ORDER BY name;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

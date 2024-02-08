@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findInteger(self, k: int, digit1: int, digit2: int) -> int:
@@ -90,7 +91,9 @@ class Solution:
             if digit1 != digit2:
                 q.append(x * 10 + digit2)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findInteger(int k, int digit1, int digit2) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -147,7 +152,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findInteger(k int, digit1 int, digit2 int) int {
 	if digit1 == 0 && digit2 == 0 {
@@ -173,6 +180,7 @@ func findInteger(k int, digit1 int, digit2 int) int {
 	}
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -1,6 +1,5 @@
 # [2248. Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays)
 
-[中文文档](/solution/2200-2299/2248.Intersection%20of%20Multiple%20Arrays/README.md)
 
 ## Description
 

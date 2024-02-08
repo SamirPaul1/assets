@@ -82,6 +82,7 @@ For Department 2:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -101,6 +102,7 @@ SELECT
     ) AS percentage
 FROM Students;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

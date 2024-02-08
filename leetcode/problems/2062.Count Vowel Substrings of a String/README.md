@@ -1,6 +1,5 @@
 # [2062. Count Vowel Substrings of a String](https://leetcode.com/problems/count-vowel-substrings-of-a-string)
 
-[中文文档](/solution/2000-2099/2062.Count%20Vowel%20Substrings%20of%20a%20String/README.md)
 
 ## Description
 

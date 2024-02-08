@@ -66,6 +66,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n)$. Where $n$ i
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumString(self, a: str, b: str, c: str) -> str:
@@ -87,7 +88,9 @@ class Solution:
                 ans = s
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String minimumString(String a, String b, String c) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -157,7 +162,9 @@ public:
     };
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumString(a string, b string, c string) string {
 	f := func(s, t string) string {
@@ -187,7 +194,9 @@ func minimumString(a string, b string, c string) string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumString(a: string, b: string, c: string): string {
     const f = (s: string, t: string): string => {
@@ -225,7 +234,9 @@ function minimumString(a: string, b: string, c: string): string {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn f(s1: String, s2: String) -> String {
@@ -266,6 +277,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

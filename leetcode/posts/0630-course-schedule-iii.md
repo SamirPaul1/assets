@@ -67,6 +67,7 @@ The 4<sup>th</sup> course cannot be taken now, since you will finish it on the 3
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def scheduleCourse(self, courses: List[List[int]]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 s += heappop(pq)
         return len(pq)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int scheduleCourse(int[][] courses) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -122,7 +127,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func scheduleCourse(courses [][]int) int {
 	sort.Slice(courses, func(i, j int) bool { return courses[i][1] < courses[j][1] })
@@ -152,7 +159,9 @@ func (h *hp) Pop() any {
 func (h *hp) push(v int) { heap.Push(h, v) }
 func (h *hp) pop() int   { return heap.Pop(h).(int) }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function scheduleCourse(courses: number[][]): number {
     courses.sort((a, b) => a[1] - b[1]);
@@ -168,6 +177,7 @@ function scheduleCourse(courses: number[][]): number {
     return pq.size();
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

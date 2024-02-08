@@ -58,6 +58,7 @@ Then 4 is the first bad version.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # The isBadVersion API is already defined for you.
 # @param version, an integer
@@ -80,7 +81,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
@@ -100,7 +103,9 @@ public class Solution extends VersionControl {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 // The API isBadVersion is defined for you.
 // bool isBadVersion(int version);
@@ -121,7 +126,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Forward declaration of isBadVersion API.
@@ -144,7 +151,9 @@ func firstBadVersion(n int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // The API isBadVersion is defined for you.
 // isBadVersion(version:i32)-> bool;
@@ -166,7 +175,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for isBadVersion()
@@ -202,6 +213,7 @@ var solution = function (isBadVersion) {
     };
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

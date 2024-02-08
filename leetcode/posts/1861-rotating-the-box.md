@@ -94,6 +94,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m \times 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def rotateTheBox(self, box: List[List[str]]) -> List[List[str]]:
@@ -115,7 +116,9 @@ class Solution:
                     q.append(i)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public char[][] rotateTheBox(char[][] box) {
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -176,7 +181,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func rotateTheBox(box [][]byte) [][]byte {
 	m, n := len(box), len(box[0])
@@ -207,6 +214,7 @@ func rotateTheBox(box [][]byte) [][]byte {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

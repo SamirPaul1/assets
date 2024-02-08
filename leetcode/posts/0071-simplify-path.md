@@ -84,6 +84,7 @@ The time complexity is $O(n)$ and the space complexity is $O(n)$, where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def simplifyPath(self, path: str) -> str:
@@ -98,7 +99,9 @@ class Solution:
                 stk.append(s)
         return '/' + '/'.join(stk)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String simplifyPath(String path) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func simplifyPath(path string) string {
 	var stk []string
@@ -167,7 +174,9 @@ func simplifyPath(path string) string {
 	return "/" + strings.Join(stk, "/")
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function simplifyPath(path: string): string {
     const stk: string[] = [];
@@ -186,7 +195,9 @@ function simplifyPath(path: string): string {
     return '/' + stk.join('/');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     #[allow(dead_code)]
@@ -216,7 +227,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public string SimplifyPath(string path) {
@@ -241,6 +254,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -248,11 +262,13 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Go Code" >}}
 ```go
 func simplifyPath(path string) string {
 	return filepath.Clean(path)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

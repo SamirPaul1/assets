@@ -57,6 +57,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:
@@ -77,7 +78,9 @@ class Solution:
             g[b].append(a)
         return all(c or dfs(i, 1) for i, c in enumerate(color))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private List<Integer>[] g;
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -143,7 +148,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func possibleBipartition(n int, dislikes [][]int) bool {
 	g := make([][]int, n)
@@ -174,7 +181,9 @@ func possibleBipartition(n int, dislikes [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function possibleBipartition(n: number, dislikes: number[][]): boolean {
     const color = new Array(n + 1).fill(0);
@@ -200,7 +209,9 @@ function possibleBipartition(n: number, dislikes: number[][]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(i: usize, v: usize, color: &mut Vec<usize>, g: &Vec<Vec<usize>>) -> bool {
@@ -231,6 +242,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -238,6 +250,7 @@ impl Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:
@@ -259,7 +272,9 @@ class Solution:
                 p[find(j)] = find(g[i][0])
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -295,7 +310,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -322,7 +339,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func possibleBipartition(n int, dislikes [][]int) bool {
 	p := make([]int, n)
@@ -353,6 +372,7 @@ func possibleBipartition(n int, dislikes [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

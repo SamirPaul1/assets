@@ -111,6 +111,7 @@ Note that k = 3 but there are only 2 reachable items within the price range.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def highestRankedKItems(
@@ -135,7 +136,9 @@ class Solution:
         items.sort()
         return [item[2:] for item in items][:k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> highestRankedKItems(
@@ -186,7 +189,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -223,7 +228,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func highestRankedKItems(grid [][]int, pricing []int, start []int, k int) [][]int {
 	m, n := len(grid), len(grid[0])
@@ -271,6 +278,7 @@ func highestRankedKItems(grid [][]int, pricing []int, start []int, k int) [][]in
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -51,6 +51,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
@@ -60,7 +61,9 @@ class Solution:
                 cnt += 1
         return cnt == 0 or cnt == len(word) or (cnt == 1 and word[0].isupper())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean detectCapitalUse(String word) {
@@ -75,7 +78,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -87,7 +92,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func detectCapitalUse(word string) bool {
 	cnt := 0
@@ -99,6 +106,7 @@ func detectCapitalUse(word string) bool {
 	return cnt == 0 || cnt == len(word) || (cnt == 1 && unicode.IsUpper(rune(word[0])))
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

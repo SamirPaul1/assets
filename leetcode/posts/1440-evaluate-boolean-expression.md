@@ -104,6 +104,7 @@ We can associate each row in the `Expressions` table with two rows in the `Varia
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -123,6 +124,7 @@ FROM
     JOIN Variables AS v1 ON e.left_operand = v1.name
     JOIN Variables AS v2 ON e.right_operand = v2.name;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

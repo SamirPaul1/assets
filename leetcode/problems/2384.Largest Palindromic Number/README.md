@@ -1,6 +1,5 @@
 # [2384. Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number)
 
-[中文文档](/solution/2300-2399/2384.Largest%20Palindromic%20Number/README.md)
 
 ## Description
 

@@ -50,6 +50,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findKthNumber(self, n: int, k: int) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 curr *= 10
         return curr
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findKthNumber(n int, k int) int {
 	count := func(curr int) int {
@@ -169,6 +176,7 @@ func findKthNumber(n int, k int) int {
 	return curr
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

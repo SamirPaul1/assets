@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def kInversePairs(self, n: int, k: int) -> int:
@@ -67,7 +68,9 @@ class Solution:
                 s[j] = (s[j - 1] + f[j - 1]) % mod
         return f[k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int kInversePairs(int n, int k) {
@@ -89,7 +92,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -113,7 +118,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func kInversePairs(n int, k int) int {
 	f := make([]int, k+1)
@@ -134,7 +141,9 @@ func kInversePairs(n int, k int) int {
 	return f[k]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function kInversePairs(n: number, k: number): number {
     const f: number[] = new Array(k + 1).fill(0);
@@ -153,6 +162,7 @@ function kInversePairs(n: number, k: number): number {
     return f[k];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

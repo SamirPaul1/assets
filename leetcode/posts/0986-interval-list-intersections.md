@@ -60,6 +60,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def intervalIntersection(
@@ -78,7 +79,9 @@ class Solution:
                 j += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
@@ -100,7 +103,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -120,7 +125,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func intervalIntersection(firstList [][]int, secondList [][]int) [][]int {
 	m, n := len(firstList), len(secondList)
@@ -140,7 +147,9 @@ func intervalIntersection(firstList [][]int, secondList [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function intervalIntersection(firstList: number[][], secondList: number[][]): number[][] {
     const n = firstList.length;
@@ -163,7 +172,9 @@ function intervalIntersection(firstList: number[][], secondList: number[][]): nu
     return res;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn interval_intersection(
@@ -190,6 +201,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

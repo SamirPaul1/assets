@@ -63,6 +63,7 @@ Since there is only one element in nums, the triangular sum is the value of that
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def triangularSum(self, nums: List[int]) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 nums[j] = (nums[j] + nums[j + 1]) % 10
         return nums[0]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int triangularSum(int[] nums) {
@@ -86,7 +89,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func triangularSum(nums []int) int {
 	n := len(nums)
@@ -111,6 +118,7 @@ func triangularSum(nums []int) int {
 	return nums[0]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

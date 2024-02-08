@@ -56,6 +56,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def modifyString(self, s: str) -> str:
@@ -70,7 +71,9 @@ class Solution:
                     break
         return "".join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String modifyString(String s) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func modifyString(s string) string {
 	n := len(s)
@@ -131,7 +138,9 @@ func modifyString(s string) string {
 	return string(cs)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function modifyString(s: string): string {
     const cs = s.split('');
@@ -150,6 +159,7 @@ function modifyString(s: string): string {
     return cs.join('');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

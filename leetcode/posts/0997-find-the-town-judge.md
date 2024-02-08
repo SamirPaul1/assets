@@ -81,6 +81,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
@@ -94,7 +95,9 @@ class Solution:
                 return i
         return -1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findJudge(int n, int[][] trust) {
@@ -114,7 +117,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findJudge(n int, trust [][]int) int {
 	cnt1 := make([]int, n+1)
@@ -153,7 +160,9 @@ func findJudge(n int, trust [][]int) int {
 	return -1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findJudge(n: number, trust: number[][]): number {
     const cnt1: number[] = new Array(n + 1).fill(0);
@@ -170,7 +179,9 @@ function findJudge(n: number, trust: number[][]): number {
     return -1;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_judge(n: i32, trust: Vec<Vec<i32>>) -> i32 {
@@ -194,6 +205,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

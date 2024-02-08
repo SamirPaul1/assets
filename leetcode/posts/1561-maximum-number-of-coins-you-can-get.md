@@ -74,13 +74,16 @@ On the other hand if we choose this arrangement (1, <strong>2</strong>, 8), (2, 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxCoins(self, piles: List[int]) -> int:
         piles.sort()
         return sum(piles[-2 : len(piles) // 3 - 1 : -2])
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
 
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxCoins(piles []int) int {
 	sort.Ints(piles)
@@ -117,7 +124,9 @@ func maxCoins(piles []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxCoins(piles: number[]): number {
     piles.sort((a, b) => a - b);
@@ -129,7 +138,9 @@ function maxCoins(piles: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn max_coins(mut piles: Vec<i32>) -> i32 {
@@ -143,7 +154,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int cmp(const void* a, const void* b) {
     return *(int*) a - *(int*) b;
@@ -158,6 +171,7 @@ int maxCoins(int* piles, int pilesSize) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

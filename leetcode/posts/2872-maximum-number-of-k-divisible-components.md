@@ -77,6 +77,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$, where n is th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxKDivisibleComponents(
@@ -99,7 +100,9 @@ class Solution:
         dfs(0, -1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int ans;
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -160,7 +165,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxKDivisibleComponents(n int, edges [][]int, values []int, k int) (ans int) {
 	g := make([][]int, n)
@@ -186,7 +193,9 @@ func maxKDivisibleComponents(n int, edges [][]int, values []int, k int) (ans int
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxKDivisibleComponents(
     n: number,
@@ -216,6 +225,7 @@ function maxKDivisibleComponents(
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -223,6 +233,7 @@ function maxKDivisibleComponents(
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     int n, k;
@@ -259,6 +270,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

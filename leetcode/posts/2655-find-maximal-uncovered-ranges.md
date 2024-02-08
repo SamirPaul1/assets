@@ -81,6 +81,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findMaximalUncoveredRanges(
@@ -97,7 +98,9 @@ class Solution:
             ans.append([last + 1, n - 1])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] findMaximalUncoveredRanges(int n, int[][] ranges) {
@@ -118,7 +121,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findMaximalUncoveredRanges(n int, ranges [][]int) (ans [][]int) {
 	sort.Slice(ranges, func(i, j int) bool { return ranges[i][0] < ranges[j][0] })
@@ -159,6 +166,7 @@ func findMaximalUncoveredRanges(n int, ranges [][]int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def constructDistancedSequence(self, n: int) -> List[int]:
@@ -91,7 +92,9 @@ class Solution:
         dfs(1)
         return path[1:]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] path;
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -186,7 +191,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func constructDistancedSequence(n int) []int {
 	path := make([]int, n*2)
@@ -229,6 +236,7 @@ func constructDistancedSequence(n int) []int {
 	return path[1:]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -98,6 +98,7 @@ Chargebacks table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -120,6 +121,7 @@ FROM T
 GROUP BY 1, 2
 HAVING approved_amount OR chargeback_amount;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

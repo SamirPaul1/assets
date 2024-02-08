@@ -101,6 +101,7 @@ Singing is performed by 2 friends (Victor J. and Jade W.)
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -113,6 +114,7 @@ SELECT activity
 FROM t
 WHERE cnt > (SELECT MIN(cnt) FROM t) AND cnt < (SELECT MAX(cnt) FROM t);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

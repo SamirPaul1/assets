@@ -77,6 +77,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
@@ -103,7 +104,9 @@ class Solution:
             dfs(i, j)
         return board
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private char[][] board;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -187,7 +192,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func updateBoard(board [][]byte, click []int) [][]byte {
 	m, n := len(board), len(board[0])
@@ -225,7 +232,9 @@ func updateBoard(board [][]byte, click []int) [][]byte {
 	return board
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function updateBoard(board: string[][], click: number[]): string[][] {
     const m = board.length;
@@ -263,6 +272,7 @@ function updateBoard(board: string[][], click: number[]): string[][] {
     return board;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

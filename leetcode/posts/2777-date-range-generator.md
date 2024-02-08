@@ -71,6 +71,7 @@ g.next().value // &#39;2023-04-10&#39;
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function* dateRangeGenerator(start: string, end: string, step: number): Generator<string> {
     const startDate = new Date(start);
@@ -91,6 +92,7 @@ function* dateRangeGenerator(start: string, end: string, step: number): Generato
  * g.next().done; // true
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

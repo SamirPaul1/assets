@@ -101,6 +101,7 @@ The time complexity is $(n^2)$, where $n$ is the parameter given in the problem.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def colorRed(self, n: int) -> List[List[int]]:
@@ -120,7 +121,9 @@ class Solution:
             k = (k + 1) % 4
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] colorRed(int n) {
@@ -145,7 +148,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -171,7 +176,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func colorRed(n int) (ans [][]int) {
 	ans = append(ans, []int{1, 1})
@@ -193,7 +200,9 @@ func colorRed(n int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function colorRed(n: number): number[][] {
     const ans: number[][] = [[1, 1]];
@@ -215,6 +224,7 @@ function colorRed(n: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

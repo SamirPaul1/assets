@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minInsertions(self, s: str) -> int:
@@ -77,7 +78,9 @@ class Solution:
 
         return dfs(0, len(s) - 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minInsertions(s string) int {
 	n := len(s)
@@ -165,6 +172,7 @@ func minInsertions(s string) int {
 	return dfs(0, n-1)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -172,6 +180,7 @@ func minInsertions(s string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minInsertions(self, s: str) -> int:
@@ -185,7 +194,9 @@ class Solution:
                     f[i][j] = min(f[i + 1][j], f[i][j - 1]) + 1
         return f[0][-1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minInsertions(String s) {
@@ -204,7 +215,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -225,7 +238,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minInsertions(s string) int {
 	n := len(s)
@@ -245,6 +260,7 @@ func minInsertions(s string) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -252,6 +268,7 @@ func minInsertions(s string) int {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minInsertions(self, s: str) -> int:
@@ -266,7 +283,9 @@ class Solution:
                     f[i][j] = min(f[i + 1][j], f[i][j - 1]) + 1
         return f[0][n - 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minInsertions(String s) {
@@ -286,7 +305,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -308,7 +329,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minInsertions(s string) int {
 	n := len(s)
@@ -329,6 +352,7 @@ func minInsertions(s string) int {
 	return f[0][n-1]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

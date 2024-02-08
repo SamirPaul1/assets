@@ -59,6 +59,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
@@ -73,7 +74,9 @@ class Solution:
             ans += max(0, cnt - 2)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numberOfArithmeticSlices(int[] nums) {
@@ -92,7 +95,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numberOfArithmeticSlices(nums []int) (ans int) {
 	cnt, d := 0, 3000
@@ -129,7 +136,9 @@ func numberOfArithmeticSlices(nums []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numberOfArithmeticSlices(nums: number[]): number {
     let ans = 0;
@@ -149,6 +158,7 @@ function numberOfArithmeticSlices(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -156,6 +166,7 @@ function numberOfArithmeticSlices(nums: number[]): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
@@ -170,6 +181,7 @@ class Solution:
             ans += cnt
         return ans
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

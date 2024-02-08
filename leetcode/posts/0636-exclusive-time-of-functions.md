@@ -89,6 +89,7 @@ So function 0 spends 2 + 4 + 1 = 7 units of total time executing, and function 1
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
@@ -110,7 +111,9 @@ class Solution:
                 curr = ts + 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] exclusiveTime(int n, List<String> logs) {
@@ -137,7 +140,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -164,7 +169,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func exclusiveTime(n int, logs []string) []int {
 	ans := make([]int, n)
@@ -190,7 +197,9 @@ func exclusiveTime(n int, logs []string) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function exclusiveTime(n: number, logs: string[]): number[] {
     const res = new Array(n).fill(0);
@@ -218,6 +227,7 @@ function exclusiveTime(n: number, logs: string[]): number[] {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

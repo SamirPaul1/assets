@@ -70,6 +70,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
@@ -82,7 +83,9 @@ class Solution:
                 ans = min(ans, j - i)
         return ans if ans <= n else 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -136,7 +141,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSubArrayLen(target int, nums []int) int {
 	n := len(nums)
@@ -157,7 +164,9 @@ func minSubArrayLen(target int, nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSubArrayLen(target: number, nums: number[]): number {
     const n = nums.length;
@@ -188,7 +197,9 @@ function minSubArrayLen(target: number, nums: number[]): number {
     return ans === n + 1 ? 0 : ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_sub_array_len(target: i32, nums: Vec<i32>) -> i32 {
@@ -212,7 +223,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int MinSubArrayLen(int target, int[] nums) {
@@ -230,6 +243,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -245,6 +259,7 @@ The time complexity is $O(n)$, and the space complexity is $O(1)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minSubArrayLen(self, target: int, nums: List[int]) -> int:
@@ -259,7 +274,9 @@ class Solution:
                 j += 1
         return ans if ans <= n else 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
@@ -277,7 +294,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -296,7 +315,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minSubArrayLen(target int, nums []int) int {
 	n := len(nums)
@@ -316,7 +337,9 @@ func minSubArrayLen(target int, nums []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minSubArrayLen(target: number, nums: number[]): number {
     const n = nums.length;
@@ -332,6 +355,7 @@ function minSubArrayLen(target: number, nums: number[]): number {
     return ans === n + 1 ? 0 : ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

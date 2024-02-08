@@ -83,6 +83,7 @@ It takes a total of 7 + 15 + 15 = 37 minutes to collect all the garbage.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def garbageCollection(self, garbage: List[str], travel: List[int]) -> int:
@@ -96,7 +97,9 @@ class Solution:
         ans += sum(s[i] for i in last.values())
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int garbageCollection(String[] garbage, int[] travel) {
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -148,7 +153,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func garbageCollection(garbage []string, travel []int) (ans int) {
 	last := [26]int{}
@@ -168,7 +175,9 @@ func garbageCollection(garbage []string, travel []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function garbageCollection(garbage: string[], travel: number[]): number {
     const n = garbage.length;
@@ -191,7 +200,9 @@ function garbageCollection(garbage: string[], travel: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn garbage_collection(garbage: Vec<String>, travel: Vec<i32>) -> i32 {
@@ -225,7 +236,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public int GarbageCollection(string[] garbage, int[] travel) {
@@ -244,6 +257,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -251,6 +265,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def garbageCollection(self, garbage: List[str], travel: List[int]) -> int:
@@ -267,7 +282,9 @@ class Solution:
 
         return f('M') + f('P') + f('G')
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private String[] garbage;
@@ -301,7 +318,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -329,7 +348,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func garbageCollection(garbage []string, travel []int) (ans int) {
 	f := func(x rune) int {
@@ -349,7 +370,9 @@ func garbageCollection(garbage []string, travel []int) (ans int) {
 	return f('M') + f('P') + f('G')
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function garbageCollection(garbage: string[], travel: number[]): number {
     const f = (x: string) => {
@@ -375,6 +398,7 @@ function garbageCollection(garbage: string[], travel: number[]): number {
     return f('M') + f('P') + f('G');
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

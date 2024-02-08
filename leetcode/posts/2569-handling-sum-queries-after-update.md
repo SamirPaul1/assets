@@ -99,6 +99,7 @@ The time complexity is $O(n + m \times \log n)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self):
@@ -177,7 +178,9 @@ class Solution:
                 ans.append(s)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     int l, r;
@@ -288,7 +291,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Node {
 public:
@@ -396,7 +401,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type node struct {
 	l, r, s, lazy int
@@ -496,6 +503,7 @@ func handleQuery(nums1 []int, nums2 []int, queries [][]int) (ans []int64) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

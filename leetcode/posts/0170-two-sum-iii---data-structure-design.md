@@ -63,6 +63,7 @@ twoSum.find(7);  // No two integers sum up to 7, return false
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class TwoSum:
     def __init__(self):
@@ -85,7 +86,9 @@ class TwoSum:
 # obj.add(number)
 # param_2 = obj.find(value)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class TwoSum {
     private Map<Integer, Integer> cnt = new HashMap<>();
@@ -118,7 +121,9 @@ class TwoSum {
  * boolean param_2 = obj.find(value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class TwoSum {
 public:
@@ -152,7 +157,9 @@ private:
  * bool param_2 = obj->find(value);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type TwoSum struct {
 	cnt map[int]int
@@ -183,6 +190,7 @@ func (this *TwoSum) Find(value int) bool {
  * param_2 := obj.Find(value);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

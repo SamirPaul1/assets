@@ -74,6 +74,7 @@ The time complexity is $O(n)$, where $n$ is the length of the array $flips$. The
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numTimesAllBlue(self, flips: List[int]) -> int:
@@ -83,7 +84,9 @@ class Solution:
             ans += mx == i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int numTimesAllBlue(int[] flips) {
@@ -98,7 +101,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numTimesAllBlue(flips []int) (ans int) {
 	mx := 0
@@ -125,7 +132,9 @@ func numTimesAllBlue(flips []int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numTimesAllBlue(flips: number[]): number {
     let ans = 0;
@@ -139,6 +148,7 @@ function numTimesAllBlue(flips: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

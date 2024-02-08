@@ -55,6 +55,7 @@ The time complexity is $O(n)$, and the space complexity is $O(m)$. Here, $n$ and
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arraysIntersection(
@@ -63,7 +64,9 @@ class Solution:
         cnt = Counter(arr1 + arr2 + arr3)
         return [x for x in arr1 if cnt[x] == 3]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
@@ -84,7 +87,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -106,7 +111,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arraysIntersection(arr1 []int, arr2 []int, arr3 []int) (ans []int) {
 	cnt := [2001]int{}
@@ -125,7 +132,9 @@ func arraysIntersection(arr1 []int, arr2 []int, arr3 []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -147,6 +156,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -158,6 +168,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def arraysIntersection(
@@ -171,7 +182,9 @@ class Solution:
                 ans.append(x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
@@ -187,7 +200,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -204,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func arraysIntersection(arr1 []int, arr2 []int, arr3 []int) (ans []int) {
 	for _, x := range arr1 {
@@ -217,6 +234,7 @@ func arraysIntersection(arr1 []int, arr2 []int, arr3 []int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

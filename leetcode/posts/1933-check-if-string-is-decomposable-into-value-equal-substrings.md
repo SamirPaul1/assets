@@ -77,6 +77,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. The sp
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isDecomposable(self, s: str) -> bool:
@@ -94,7 +95,9 @@ class Solution:
             i = j
         return cnt2 == 1
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isDecomposable(String s) {
@@ -117,7 +120,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -141,7 +146,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isDecomposable(s string) bool {
 	i, n := 0, len(s)
@@ -165,7 +172,9 @@ func isDecomposable(s string) bool {
 	return cnt2 == 1
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isDecomposable(s: string): boolean {
     const n = s.length;
@@ -186,6 +195,7 @@ function isDecomposable(s: string): boolean {
     return cnt2 === 1;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -193,6 +203,7 @@ function isDecomposable(s: string): boolean {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isDecomposable(self, s: str) -> bool:
@@ -206,6 +217,7 @@ class Solution:
                 return False
         return cnt2 == 1
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

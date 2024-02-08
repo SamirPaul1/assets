@@ -1,6 +1,5 @@
 # [2618. Check if Object Instance of Class](https://leetcode.com/problems/check-if-object-instance-of-class)
 
-[中文文档](/solution/2600-2699/2618.Check%20if%20Object%20Instance%20of%20Class/README.md)
 
 ## Description
 

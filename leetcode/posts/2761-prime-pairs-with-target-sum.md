@@ -70,6 +70,7 @@ The time complexity is $O(n \log \log n)$ and the space complexity is $O(n)$, wh
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPrimePairs(self, n: int) -> List[List[int]]:
@@ -85,7 +86,9 @@ class Solution:
                 ans.append([x, y])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<Integer>> findPrimePairs(int n) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -134,7 +139,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPrimePairs(n int) (ans [][]int) {
 	primes := make([]bool, n)
@@ -157,7 +164,9 @@ func findPrimePairs(n int) (ans [][]int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findPrimePairs(n: number): number[][] {
     const primes: boolean[] = new Array(n).fill(true);
@@ -178,6 +187,7 @@ function findPrimePairs(n: number): number[][] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

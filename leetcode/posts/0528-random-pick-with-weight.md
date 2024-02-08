@@ -85,6 +85,7 @@ and so on.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def __init__(self, w: List[int]):
@@ -108,7 +109,9 @@ class Solution:
 # obj = Solution(w)
 # param_1 = obj.pickIndex()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] s;
@@ -143,7 +146,9 @@ class Solution {
  * int param_1 = obj.pickIndex();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -176,7 +181,9 @@ public:
  * int param_1 = obj->pickIndex();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Solution struct {
 	s []int
@@ -212,7 +219,9 @@ func (this *Solution) PickIndex() int {
  * param_1 := obj.PickIndex();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use rand::{ thread_rng, Rng };
 
@@ -253,7 +262,9 @@ impl Solution {
  * let ret_1: i32 = obj.pick_index();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} w
@@ -291,6 +302,7 @@ Solution.prototype.pickIndex = function () {
  * var param_1 = obj.pickIndex()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

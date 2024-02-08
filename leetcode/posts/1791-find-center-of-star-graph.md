@@ -61,12 +61,15 @@ The time complexity is $O(1)$, and the space complexity is $O(1)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findCenter(self, edges: List[List[int]]) -> int:
         return edges[0][0] if edges[0][0] in edges[1] else edges[0][1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findCenter(int[][] edges) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -87,7 +92,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findCenter(edges [][]int) int {
 	a, b := edges[0][0], edges[0][1]
@@ -98,7 +105,9 @@ func findCenter(edges [][]int) int {
 	return b
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findCenter(edges: number[][]): number {
     for (let num of edges[0]) {
@@ -108,7 +117,9 @@ function findCenter(edges: number[][]): number {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_center(edges: Vec<Vec<i32>>) -> i32 {
@@ -119,7 +130,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} edges
@@ -131,6 +144,7 @@ var findCenter = function (edges) {
     return a == c || a == d ? a : b;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

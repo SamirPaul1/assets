@@ -84,6 +84,7 @@ The time complexity of each operation is $O(1)$, and the space complexity is $O(
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class SQL:
     def __init__(self, names: List[str], columns: List[int]):
@@ -105,7 +106,9 @@ class SQL:
 # obj.deleteRow(name,rowId)
 # param_3 = obj.selectCell(name,rowId,columnId)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SQL {
     private Map<String, List<List<String>>> tables;
@@ -134,7 +137,9 @@ class SQL {
  * String param_3 = obj.selectCell(name,rowId,columnId);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SQL {
 public:
@@ -162,7 +167,9 @@ public:
  * string param_3 = obj->selectCell(name,rowId,columnId);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type SQL struct {
 	tables map[string][][]string
@@ -192,6 +199,7 @@ func (this *SQL) SelectCell(name string, rowId int, columnId int) string {
  * param_3 := obj.SelectCell(name,rowId,columnId);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

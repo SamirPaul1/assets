@@ -67,6 +67,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import abc
 from abc import ABC, abstractmethod
@@ -132,7 +133,9 @@ expTree = obj.buildTree(postfix);
 ans = expTree.evaluate();
 """
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * This is the interface for the expression tree Node.
@@ -211,7 +214,9 @@ class TreeBuilder {
  * int ans = expTree.evaluate();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * This is the interface for the expression tree Node.
@@ -287,6 +292,7 @@ public:
  * int ans = expTree->evaluate();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

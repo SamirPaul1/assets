@@ -78,6 +78,7 @@ Note that the last node is not considered a local maxima because it does not hav
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -104,7 +105,9 @@ class Solution:
             prev, curr = curr, curr.next
         return ans if first != last else [-1, -1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -144,7 +147,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -183,7 +188,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -216,7 +223,9 @@ func nodesBetweenCriticalPoints(head *ListNode) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for singly-linked list.
@@ -257,6 +266,7 @@ function nodesBetweenCriticalPoints(head: ListNode | null): number[] {
     return [min, nums[n - 1] - nums[0]];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

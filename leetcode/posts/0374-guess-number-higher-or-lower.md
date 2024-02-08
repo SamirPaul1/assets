@@ -71,6 +71,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # The guess API is already defined for you.
 # @param num, your guess
@@ -89,7 +90,9 @@ class Solution:
                 left = mid + 1
         return left
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Forward declaration of guess API.
@@ -115,7 +118,9 @@ public class Solution extends GuessGame {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Forward declaration of guess API.
@@ -142,7 +147,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Forward declaration of guess API.
@@ -166,7 +173,9 @@ func guessNumber(n int) int {
 	return left
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Forward declaration of guess API.
@@ -191,7 +200,9 @@ function guessNumber(n: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 
 /**
@@ -224,7 +235,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 /**
  * Forward declaration of guess API.
@@ -250,6 +263,7 @@ public class Solution : GuessGame {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -257,6 +271,7 @@ public class Solution : GuessGame {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # The guess API is already defined for you.
 # @param num, your guess
@@ -270,7 +285,9 @@ class Solution:
     def guessNumber(self, n: int) -> int:
         return bisect.bisect(range(1, n + 1), 0, key=lambda x: -guess(x))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Forward declaration of guess API.
@@ -288,6 +305,7 @@ func guessNumber(n int) int {
 	}) + 1
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

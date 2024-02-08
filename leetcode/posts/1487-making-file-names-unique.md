@@ -73,6 +73,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def getFolderNames(self, names: List[str]) -> List[str]:
@@ -87,7 +88,9 @@ class Solution:
             d[names[i]] = 1
         return names
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String[] getFolderNames(String[] names) {
@@ -107,7 +110,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -128,7 +133,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func getFolderNames(names []string) []string {
 	d := map[string]int{}
@@ -149,7 +156,9 @@ func getFolderNames(names []string) []string {
 	return names
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function getFolderNames(names: string[]): string[] {
     let d: Map<string, number> = new Map();
@@ -167,6 +176,7 @@ function getFolderNames(names: string[]): string[] {
     return names;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

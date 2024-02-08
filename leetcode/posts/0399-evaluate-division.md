@@ -76,6 +76,7 @@ note: x is undefined =&gt; -1.0</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def calcEquation(
@@ -104,7 +105,9 @@ class Solution:
             for c, d in queries
         ]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Map<String, String> p;
@@ -152,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -194,7 +199,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func calcEquation(equations [][]string, values []float64, queries [][]string) []float64 {
 	p := make(map[string]string)
@@ -236,7 +243,9 @@ func calcEquation(equations [][]string, values []float64, queries [][]string) []
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 
@@ -323,6 +332,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

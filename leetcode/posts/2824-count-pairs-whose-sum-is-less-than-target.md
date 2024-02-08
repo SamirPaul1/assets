@@ -72,6 +72,7 @@ The time complexity is $O(n \times \log n)$, and the space complexity is $O(\log
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countPairs(self, nums: List[int], target: int) -> int:
@@ -82,7 +83,9 @@ class Solution:
             ans += i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int countPairs(List<Integer> nums, int target) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -125,7 +130,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countPairs(nums []int, target int) (ans int) {
 	sort.Ints(nums)
@@ -136,7 +143,9 @@ func countPairs(nums []int, target int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countPairs(nums: number[], target: number): number {
     nums.sort((a, b) => a - b);
@@ -160,6 +169,7 @@ function countPairs(nums: number[], target: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

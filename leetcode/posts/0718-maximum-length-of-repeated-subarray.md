@@ -52,6 +52,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findLength(self, nums1: List[int], nums2: List[int]) -> int:
@@ -65,7 +66,9 @@ class Solution:
                     ans = max(ans, f[i][j])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findLength(int[] nums1, int[] nums2) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -105,7 +110,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findLength(nums1 []int, nums2 []int) (ans int) {
 	m, n := len(nums1), len(nums2)
@@ -126,7 +133,9 @@ func findLength(nums1 []int, nums2 []int) (ans int) {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findLength(nums1: number[], nums2: number[]): number {
     const m = nums1.length;
@@ -144,7 +153,9 @@ function findLength(nums1: number[], nums2: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} nums1
@@ -167,6 +178,7 @@ var findLength = function (nums1, nums2) {
     return ans;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

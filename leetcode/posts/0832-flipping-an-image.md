@@ -68,6 +68,7 @@ Then invert the image: [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def flipAndInvertImage(self, image: List[List[int]]) -> List[List[int]]:
@@ -83,7 +84,9 @@ class Solution:
                 row[i] ^= 1
         return image
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] image) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -124,7 +129,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func flipAndInvertImage(image [][]int) [][]int {
 	for _, row := range image {
@@ -142,7 +149,9 @@ func flipAndInvertImage(image [][]int) [][]int {
 	return image
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} image
@@ -165,6 +174,7 @@ var flipAndInvertImage = function (image) {
     return image;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

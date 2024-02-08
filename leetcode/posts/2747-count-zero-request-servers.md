@@ -70,6 +70,7 @@ For queries[1]: Only server with id 3 gets no request in the duration [2,4].
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def countServers(
@@ -92,7 +93,9 @@ class Solution:
             ans[i] = n - len(cnt)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] countServers(int n, int[][] logs, int x, int[] queries) {
@@ -124,7 +127,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func countServers(n int, logs [][]int, x int, queries []int) []int {
 	sort.Slice(logs, func(i, j int) bool { return logs[i][1] < logs[j][1] })
@@ -190,7 +197,9 @@ func countServers(n int, logs [][]int, x int, queries []int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function countServers(n: number, logs: number[][], x: number, queries: number[]): number[] {
     logs.sort((a, b) => a[1] - b[1]);
@@ -222,6 +231,7 @@ function countServers(n: number, logs: number[][], x: number, queries: number[])
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

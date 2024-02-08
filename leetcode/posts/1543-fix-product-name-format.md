@@ -86,6 +86,7 @@ In March, one matryoshka was sold.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -100,6 +101,7 @@ FROM t
 GROUP BY 1, 2
 ORDER BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -112,6 +112,7 @@ For example, suppose we take out boxes $1, 2, 3$ and need to deliver them to doc
 
 The code implementation is as follows:
 
+{{< terminal title="Python Code" >}}
 ```python
 # 33/39
 class Solution:
@@ -130,7 +131,9 @@ class Solution:
                     f[i] = min(f[i], f[j] + cs[i - 1] - cs[j] + 2)
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 // 35/39
 class Solution {
@@ -159,7 +162,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 // 35/39
 class Solution {
@@ -188,7 +193,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 // 35/39
 func boxDelivering(boxes [][]int, portsCount int, maxBoxes int, maxWeight int) int {
@@ -218,6 +225,7 @@ func boxDelivering(boxes [][]int, portsCount int, maxBoxes int, maxWeight int) i
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
 The data scale of this problem reaches $10^5$, and the time complexity of the above code is $O(n^2)$, which will exceed the time limit. If we observe carefully:
 
@@ -231,6 +239,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def boxDelivering(
@@ -253,7 +262,9 @@ class Solution:
                 q.append(i)
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int boxDelivering(int[][] boxes, int portsCount, int maxBoxes, int maxWeight) {
@@ -289,7 +300,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -317,7 +330,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func boxDelivering(boxes [][]int, portsCount int, maxBoxes int, maxWeight int) int {
 	n := len(boxes)
@@ -353,6 +368,7 @@ func boxDelivering(boxes [][]int, portsCount int, maxBoxes int, maxWeight int) i
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

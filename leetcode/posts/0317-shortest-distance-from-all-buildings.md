@@ -77,6 +77,7 @@ So return 7.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestDistance(self, grid: List[List[int]]) -> int:
@@ -115,7 +116,9 @@ class Solution:
                     ans = min(ans, dist[i][j])
         return -1 if ans == inf else ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int shortestDistance(int[][] grid) {
@@ -165,7 +168,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -214,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestDistance(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -270,6 +277,7 @@ func shortestDistance(grid [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

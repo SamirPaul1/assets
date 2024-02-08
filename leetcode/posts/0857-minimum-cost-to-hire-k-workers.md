@@ -62,6 +62,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mincostToHireWorkers(
@@ -78,7 +79,9 @@ class Solution:
                 tot += heappop(h)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public double mincostToHireWorkers(int[] quality, int[] wage, int k) {
@@ -113,7 +116,9 @@ class Pair {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -140,7 +145,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mincostToHireWorkers(quality []int, wage []int, k int) float64 {
 	t := []pair{}
@@ -178,6 +185,7 @@ func (h *hp) Pop() any {
 }
 func (h *hp) Less(i, j int) bool { return h.IntSlice[i] > h.IntSlice[j] }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

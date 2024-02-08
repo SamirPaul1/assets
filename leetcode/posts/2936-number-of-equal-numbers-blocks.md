@@ -86,6 +86,7 @@ The time complexity is $O(m \times \log n)$, where $m$ is the number of differen
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for BigArray.
 # class BigArray:
@@ -106,7 +107,9 @@ class Solution(object):
                 i += bisect_left(range(i, n), True, key=lambda j: nums.at(j) != x)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for BigArray.
@@ -140,7 +143,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for BigArray.
@@ -177,7 +182,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for BigArray.
@@ -210,6 +217,7 @@ function countBlocks(nums: BigArray | null): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -221,6 +229,7 @@ The time complexity is $O(\log n)$, and the space complexity is $O(\log n)$. Her
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for BigArray.
@@ -246,7 +255,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for BigArray.
@@ -274,7 +285,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for BigArray.
@@ -297,6 +310,7 @@ function countBlocks(nums: BigArray | null): number {
     return f(0, nums.size() - 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

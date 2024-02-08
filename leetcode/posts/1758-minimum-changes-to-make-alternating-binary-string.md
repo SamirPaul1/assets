@@ -64,13 +64,16 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, s: str) -> int:
         cnt = sum(c != '01'[i & 1] for i, c in enumerate(s))
         return min(cnt, len(s) - cnt)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(String s) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -93,7 +98,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(s string) int {
 	cnt := 0
@@ -105,7 +112,9 @@ func minOperations(s string) int {
 	return min(cnt, len(s)-cnt)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(s: string): number {
     const n = s.length;
@@ -116,7 +125,9 @@ function minOperations(s: string): number {
     return Math.min(count, n - count);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations(s: String) -> i32 {
@@ -131,7 +142,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
@@ -144,6 +157,7 @@ int minOperations(char* s) {
     return min(count, n - count);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

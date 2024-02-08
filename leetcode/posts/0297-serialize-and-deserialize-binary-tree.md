@@ -54,6 +54,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
@@ -110,7 +111,9 @@ class Codec:
 # deser = Codec()
 # ans = deser.deserialize(ser.serialize(root))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for a binary tree node.
@@ -174,7 +177,9 @@ public class Codec {
 // Codec deser = new Codec();
 // TreeNode ans = deser.deserialize(ser.serialize(root));
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for a binary tree node.
@@ -227,7 +232,9 @@ public:
 // Codec ser, deser;
 // TreeNode* ans = deser.deserialize(ser.serialize(root));
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -262,7 +269,9 @@ function deserialize(data: string): TreeNode | null {
  * deserialize(serialize(root));
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
@@ -334,7 +343,9 @@ impl Codec {
  * let ans: Option<Rc<RefCell<TreeNode>>> = obj.deserialize(data);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * Definition for a binary tree node.
@@ -395,6 +406,7 @@ const rdeserialize = dataList => {
  * deserialize(serialize(root));
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -402,6 +414,7 @@ const rdeserialize = dataList => {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  * Definition for a binary tree node.
@@ -452,6 +465,7 @@ function deserialize(data: string): TreeNode | null {
  * deserialize(serialize(root));
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

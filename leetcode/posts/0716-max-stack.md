@@ -72,6 +72,7 @@ stk.top();     // return 5, [<strong><u>5</u></strong>] the stack did not change
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -145,7 +146,9 @@ class MaxStack:
 # param_4 = obj.peekMax()
 # param_5 = obj.popMax()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Node {
     public int val;
@@ -244,7 +247,9 @@ class MaxStack {
  * int param_5 = obj.popMax();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MaxStack {
 public:
@@ -297,6 +302,7 @@ private:
  * int param_5 = obj->popMax();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -80,6 +80,7 @@ The time complexity is $O(n + m)$, and the space complexity is $O(n + m)$. Here,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def shortestAlternatingPaths(
@@ -107,7 +108,9 @@ class Solution:
             d += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] shortestAlternatingPaths(int n, int[][] redEdges, int[][] blueEdges) {
@@ -149,7 +152,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -189,7 +194,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func shortestAlternatingPaths(n int, redEdges [][]int, blueEdges [][]int) []int {
 	g := [2][][]int{}
@@ -231,6 +238,7 @@ func shortestAlternatingPaths(n int, redEdges [][]int, blueEdges [][]int) []int 
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

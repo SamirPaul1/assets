@@ -90,6 +90,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def numOfWays(self, nums: List[int]) -> int:
@@ -112,7 +113,9 @@ class Solution:
                 c[i][j] = (c[i - 1][j] + c[i - 1][j - 1]) % mod
         return (dfs(nums) - 1 + mod) % mod
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[][] c;
@@ -154,7 +157,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -190,7 +195,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func numOfWays(nums []int) int {
 	n := len(nums)
@@ -226,7 +233,9 @@ func numOfWays(nums []int) int {
 	return (dfs(nums) - 1 + mod) % mod
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function numOfWays(nums: number[]): number {
     const n = nums.length;
@@ -261,6 +270,7 @@ function numOfWays(nums: number[]): number {
     return (dfs(nums) - 1 + mod) % mod;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

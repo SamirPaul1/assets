@@ -75,6 +75,7 @@ We can use self-join to connect the information of each employee's superior mana
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -88,6 +89,7 @@ FROM
 GROUP BY 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

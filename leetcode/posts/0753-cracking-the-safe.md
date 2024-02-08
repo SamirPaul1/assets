@@ -77,6 +77,7 @@ Thus &quot;01100&quot; will unlock the safe. &quot;10011&quot;, and &quot;11001&
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def crackSafe(self, n: int, k: int) -> str:
@@ -96,7 +97,9 @@ class Solution:
         ans.append("0" * (n - 1))
         return "".join(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Set<Integer> vis = new HashSet<>();
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -146,7 +151,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func crackSafe(n int, k int) string {
 	mod := int(math.Pow(10, float64(n-1)))
@@ -169,6 +176,7 @@ func crackSafe(n int, k int) string {
 	return ans.String()
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

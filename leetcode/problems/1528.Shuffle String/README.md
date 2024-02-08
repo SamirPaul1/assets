@@ -1,6 +1,5 @@
 # [1528. Shuffle String](https://leetcode.com/problems/shuffle-string)
 
-[中文文档](/solution/1500-1599/1528.Shuffle%20String/README.md)
 
 ## Description
 

@@ -81,6 +81,7 @@ The time complexity is $O(10 \times n)$, where $n$ is the length of the string $
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestGoodInteger(self, num: str) -> str:
@@ -89,7 +90,9 @@ class Solution:
                 return s
         return ""
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String largestGoodInteger(String num) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -118,7 +123,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestGoodInteger(num string) string {
 	for c := '9'; c >= '0'; c-- {
@@ -129,7 +136,9 @@ func largestGoodInteger(num string) string {
 	return ""
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestGoodInteger(num: string): string {
     for (let i = 9; i >= 0; i--) {
@@ -141,6 +150,7 @@ function largestGoodInteger(num: string): string {
     return '';
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

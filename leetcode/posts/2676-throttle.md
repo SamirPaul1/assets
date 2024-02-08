@@ -91,6 +91,7 @@ The 5th is called at 300ms, but it is after 260ms, so it should be called immedi
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 type F = (...args: any[]) => void;
 
@@ -118,6 +119,7 @@ const throttle = (fn: F, t: number): F => {
  * throttled("log"); // logged at t=100ms.
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

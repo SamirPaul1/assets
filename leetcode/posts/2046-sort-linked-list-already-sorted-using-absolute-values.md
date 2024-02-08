@@ -71,6 +71,7 @@ The linked list is already sorted in non-decreasing order.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 # Definition for singly-linked list.
 # class ListNode:
@@ -91,7 +92,9 @@ class Solution:
                 prev, curr = curr, curr.next
         return head
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 /**
  * Definition for singly-linked list.
@@ -122,7 +125,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 /**
  * Definition for singly-linked list.
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 /**
  * Definition for singly-linked list.
@@ -180,6 +187,7 @@ func sortLinkedList(head *ListNode) *ListNode {
 	return head
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

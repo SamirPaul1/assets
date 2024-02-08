@@ -65,6 +65,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Where $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isPrefixString(self, s: str, words: List[str]) -> bool:
@@ -75,7 +76,9 @@ class Solution:
                 return "".join(words[: i + 1]) == s
         return False
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isPrefixString(String s, String[] words) {
@@ -93,7 +96,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isPrefixString(s string, words []string) bool {
 	t := strings.Builder{}
@@ -128,7 +135,9 @@ func isPrefixString(s string, words []string) bool {
 	return false
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isPrefixString(s: string, words: string[]): boolean {
     const t: string[] = [];
@@ -147,6 +156,7 @@ function isPrefixString(s: string, words: string[]): boolean {
     return false;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

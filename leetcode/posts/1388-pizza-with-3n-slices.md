@@ -89,6 +89,7 @@ The time complexity is $O(n^2)$, and the space complexity is $O(n^2)$. Where $n$
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxSizeSlices(self, slices: List[int]) -> int:
@@ -106,7 +107,9 @@ class Solution:
         a, b = g(slices[:-1]), g(slices[1:])
         return max(a, b)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int n;
@@ -133,7 +136,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -158,7 +163,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxSizeSlices(slices []int) int {
 	n := len(slices) / 3
@@ -182,7 +189,9 @@ func maxSizeSlices(slices []int) int {
 	return max(a, b)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maxSizeSlices(slices: number[]): number {
     const n = Math.floor(slices.length / 3);
@@ -203,6 +212,7 @@ function maxSizeSlices(slices: number[]): number {
     return Math.max(a, b);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

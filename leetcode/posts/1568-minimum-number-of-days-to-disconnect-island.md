@@ -63,6 +63,7 @@ Change land grid[1][1] and grid[0][2] to water and get 2 disconnected island.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minDays(self, grid: List[List[int]]) -> int:
@@ -99,7 +100,9 @@ class Solution:
                     grid[i][j] = 1
         return cnt
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private static final int[] DIRS = new int[] {-1, 0, 1, 0, -1};
@@ -159,7 +162,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -216,7 +221,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minDays(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -270,6 +277,7 @@ func minDays(grid [][]int) int {
 	return 2
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

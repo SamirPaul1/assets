@@ -98,6 +98,7 @@ The whole process ends after 58 minutes. We return 50 because the problem asks f
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findCrossingTime(self, n: int, k: int, time: List[List[int]]) -> int:
@@ -142,7 +143,9 @@ class Solution:
                 n -= 1
                 heappush(work_in_right, (cur + time[i][1], i))
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findCrossingTime(int n, int k, int[][] time) {
@@ -208,7 +211,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -276,7 +281,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findCrossingTime(n int, k int, time [][]int) int {
 	sort.SliceStable(time, func(i, j int) bool { return time[i][0]+time[i][2] < time[j][0]+time[j][2] })
@@ -350,6 +357,7 @@ func (h hp2) Swap(i, j int)      { h[i], h[j] = h[j], h[i] }
 func (h *hp2) Push(v any)        { *h = append(*h, v.(pair)) }
 func (h *hp2) Pop() any          { a := *h; v := a[len(a)-1]; *h = a[:len(a)-1]; return v }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

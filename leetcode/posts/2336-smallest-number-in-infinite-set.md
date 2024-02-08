@@ -81,6 +81,7 @@ The space complexity is $O(n)$.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedSet
 
@@ -103,7 +104,9 @@ class SmallestInfiniteSet:
 # param_1 = obj.popSmallest()
 # obj.addBack(num)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class SmallestInfiniteSet {
     private TreeSet<Integer> s = new TreeSet<>();
@@ -130,7 +133,9 @@ class SmallestInfiniteSet {
  * obj.addBack(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class SmallestInfiniteSet {
 public:
@@ -161,7 +166,9 @@ private:
  * obj->addBack(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type SmallestInfiniteSet struct {
 	s *treemap.Map
@@ -192,7 +199,9 @@ func (this *SmallestInfiniteSet) AddBack(num int) {
  * obj.AddBack(num);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class SmallestInfiniteSet {
     private s: TreeSet<number>;
@@ -860,7 +869,9 @@ class TreeMultiSet<T = number> {
  * obj.addBack(num)
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::BTreeSet;
 
@@ -893,6 +904,7 @@ impl SmallestInfiniteSet {
  * obj.add_back(num);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -900,6 +912,7 @@ impl SmallestInfiniteSet {
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class SmallestInfiniteSet {
     private pq: typeof MinPriorityQueue;
@@ -935,6 +948,7 @@ class SmallestInfiniteSet {
  * obj.addBack(num)
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

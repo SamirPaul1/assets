@@ -72,6 +72,7 @@ Although we have two 1s in the input, we should only return the number of <stron
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
@@ -84,7 +85,9 @@ class Solution:
             vis.add(v)
         return len(ans)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findPairs(int[] nums, int k) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findPairs(nums []int, k int) int {
 	vis := map[int]bool{}
@@ -136,7 +143,9 @@ func findPairs(nums []int, k int) int {
 	return len(ans)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn find_pairs(mut nums: Vec<i32>, k: i32) -> i32 {
@@ -169,6 +178,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

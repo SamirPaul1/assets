@@ -63,6 +63,7 @@ As shown in the diagram above, the line chart can be represented with a single l
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumLines(self, stockPrices: List[List[int]]) -> int:
@@ -76,7 +77,9 @@ class Solution:
             dx, dy = dx1, dy1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumLines(int[][] stockPrices) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumLines(stockPrices [][]int) int {
 	ans := 0
@@ -134,7 +141,9 @@ func minimumLines(stockPrices [][]int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumLines(stockPrices: number[][]): number {
     const n = stockPrices.length;
@@ -152,6 +161,7 @@ function minimumLines(stockPrices: number[][]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

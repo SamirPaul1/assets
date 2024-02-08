@@ -100,6 +100,7 @@ The highest price is $1000, and the invoices with the highest prices are 2 and 4
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -121,6 +122,7 @@ FROM
     P
     JOIN T USING (invoice_id);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

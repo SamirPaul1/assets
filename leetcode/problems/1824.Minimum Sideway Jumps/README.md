@@ -1,6 +1,5 @@
 # [1824. Minimum Sideway Jumps](https://leetcode.com/problems/minimum-sideway-jumps)
 
-[中文文档](/solution/1800-1899/1824.Minimum%20Sideway%20Jumps/README.md)
 
 ## Description
 

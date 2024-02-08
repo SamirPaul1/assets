@@ -1,6 +1,5 @@
 # [2407. Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii)
 
-[中文文档](/solution/2400-2499/2407.Longest%20Increasing%20Subsequence%20II/README.md)
 
 ## Description
 

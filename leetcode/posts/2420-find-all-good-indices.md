@@ -73,6 +73,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def goodIndices(self, nums: List[int], k: int) -> List[int]:
@@ -87,7 +88,9 @@ class Solution:
                 incr[i] = incr[i + 1] + 1
         return [i for i in range(k, n - k) if decr[i] >= k and incr[i] >= k]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<Integer> goodIndices(int[] nums, int k) {
@@ -116,7 +119,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func goodIndices(nums []int, k int) []int {
 	n := len(nums)
@@ -173,6 +180,7 @@ func goodIndices(nums []int, k int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

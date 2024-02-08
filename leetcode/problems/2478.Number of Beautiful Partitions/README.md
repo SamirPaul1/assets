@@ -1,6 +1,5 @@
 # [2478. Number of Beautiful Partitions](https://leetcode.com/problems/number-of-beautiful-partitions)
 
-[中文文档](/solution/2400-2499/2478.Number%20of%20Beautiful%20Partitions/README.md)
 
 ## Description
 

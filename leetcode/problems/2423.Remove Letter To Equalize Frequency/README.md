@@ -1,6 +1,5 @@
 # [2423. Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency)
 
-[中文文档](/solution/2400-2499/2423.Remove%20Letter%20To%20Equalize%20Frequency/README.md)
 
 ## Description
 

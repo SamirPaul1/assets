@@ -57,12 +57,15 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def prefixCount(self, words: List[str], pref: str) -> int:
         return sum(w.startswith(pref) for w in words)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int prefixCount(String[] words, String pref) {
@@ -76,7 +79,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -87,7 +92,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func prefixCount(words []string, pref string) (ans int) {
 	for _, w := range words {
@@ -98,13 +105,17 @@ func prefixCount(words []string, pref string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function prefixCount(words: string[], pref: string): number {
     return words.reduce((r, s) => (r += s.startsWith(pref) ? 1 : 0), 0);
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn prefix_count(words: Vec<String>, pref: String) -> i32 {
@@ -115,7 +126,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 int prefixCount(char** words, int wordsSize, char* pref) {
     int ans = 0;
@@ -128,6 +141,7 @@ int prefixCount(char** words, int wordsSize, char* pref) {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -135,6 +149,7 @@ int prefixCount(char** words, int wordsSize, char* pref) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Trie:
     def __init__(self):
@@ -167,7 +182,9 @@ class Solution:
             tree.insert(w)
         return tree.search(pref)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Trie {
     private Trie[] children = new Trie[26];
@@ -208,7 +225,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Trie {
 public:
@@ -256,7 +275,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type Trie struct {
 	children [26]*Trie
@@ -299,6 +320,7 @@ func prefixCount(words []string, pref string) int {
 	return tree.search(pref)
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

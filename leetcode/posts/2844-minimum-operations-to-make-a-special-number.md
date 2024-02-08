@@ -80,6 +80,7 @@ The time complexity is $O(n \times 25)$, and the space complexity is $O(n \times
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOperations(self, num: str) -> int:
@@ -94,7 +95,9 @@ class Solution:
         n = len(num)
         return dfs(0, 0)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Integer[][] f;
@@ -121,7 +124,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -144,7 +149,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOperations(num string) int {
 	n := len(num)
@@ -172,7 +179,9 @@ func minimumOperations(num string) int {
 	return dfs(0, 0)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOperations(num: string): number {
     const n = num.length;
@@ -191,6 +200,7 @@ function minimumOperations(num: string): number {
     return dfs(0, 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

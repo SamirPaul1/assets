@@ -98,6 +98,7 @@ Similar problems:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class BinaryIndexedTree:
     __slots__ = ["n", "c"]
@@ -139,7 +140,9 @@ class Solution:
             ans[i] = tree.query(k)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class BinaryIndexedTree {
     private int n;
@@ -200,7 +203,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class BinaryIndexedTree {
 private:
@@ -259,7 +264,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type BinaryIndexedTree struct {
 	n int
@@ -318,7 +325,9 @@ func maximumSumQueries(nums1 []int, nums2 []int, queries [][]int) []int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class BinaryIndexedTree {
     private n: number;
@@ -386,6 +395,7 @@ function maximumSumQueries(nums1: number[], nums2: number[], queries: number[][]
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -393,6 +403,7 @@ function maximumSumQueries(nums1: number[], nums2: number[], queries: number[][]
 
 <!-- tabs:start -->
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[] maximumSumQueries(int[] nums1, int[] nums2, int[][] q) {
@@ -437,6 +448,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

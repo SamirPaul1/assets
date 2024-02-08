@@ -74,6 +74,7 @@ The time complexity is $O(n)$, where $n$ is the length of the string $s$. Ignori
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def replaceDigits(self, s: str) -> str:
@@ -82,7 +83,9 @@ class Solution:
             s[i] = chr(ord(s[i - 1]) + int(s[i]))
         return ''.join(s)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public String replaceDigits(String s) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -107,7 +112,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func replaceDigits(s string) string {
 	cs := []byte(s)
@@ -117,7 +124,9 @@ func replaceDigits(s string) string {
 	return string(cs)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function replaceDigits(s: string): string {
     const n = s.length;
@@ -128,7 +137,9 @@ function replaceDigits(s: string): string {
     return ans.join('');
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn replace_digits(s: String) -> String {
@@ -143,7 +154,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 char* replaceDigits(char* s) {
     int n = strlen(s);
@@ -153,6 +166,7 @@ char* replaceDigits(char* s) {
     return s;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

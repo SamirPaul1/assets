@@ -64,6 +64,7 @@ Thus, grid is not an X-Matrix.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def checkXMatrix(self, grid: List[List[int]]) -> bool:
@@ -76,7 +77,9 @@ class Solution:
                     return False
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean checkXMatrix(int[][] grid) {
@@ -96,7 +99,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -117,7 +122,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func checkXMatrix(grid [][]int) bool {
 	for i, row := range grid {
@@ -134,7 +141,9 @@ func checkXMatrix(grid [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function checkXMatrix(grid: number[][]): boolean {
     const n = grid.length;
@@ -152,7 +161,9 @@ function checkXMatrix(grid: number[][]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn check_x_matrix(grid: Vec<Vec<i32>>) -> bool {
@@ -172,7 +183,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool CheckXMatrix(int[][] grid) {
@@ -192,7 +205,9 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
 bool checkXMatrix(int** grid, int gridSize, int* gridColSize) {
     for (int i = 0; i < gridSize; i++) {
@@ -209,6 +224,7 @@ bool checkXMatrix(int** grid, int gridSize, int* gridColSize) {
     return true;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

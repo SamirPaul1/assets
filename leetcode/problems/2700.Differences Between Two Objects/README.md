@@ -1,6 +1,5 @@
 # [2700. Differences Between Two Objects](https://leetcode.com/problems/differences-between-two-objects)
 
-[中文文档](/solution/2700-2799/2700.Differences%20Between%20Two%20Objects/README.md)
 
 ## Description
 

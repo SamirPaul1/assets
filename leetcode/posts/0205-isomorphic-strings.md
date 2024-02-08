@@ -57,6 +57,7 @@ The time complexity is $O(n)$ and the space complexity is $O(C)$. Where $n$ is t
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
@@ -69,7 +70,9 @@ class Solution:
             d2[b] = a
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isIsomorphic(String s, String t) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -110,7 +115,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isIsomorphic(s string, t string) bool {
 	d1 := [256]int{}
@@ -125,7 +132,9 @@ func isIsomorphic(s string, t string) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isIsomorphic(s: string, t: string): boolean {
     const d1: number[] = new Array(256).fill(0);
@@ -142,7 +151,9 @@ function isIsomorphic(s: string, t: string): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -166,7 +177,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public bool IsIsomorphic(string s, string t) {
@@ -185,6 +198,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -192,6 +206,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
@@ -203,7 +218,9 @@ class Solution:
             d1[a] = d2[b] = i
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isIsomorphic(String s, String t) {
@@ -222,6 +239,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

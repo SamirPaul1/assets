@@ -72,6 +72,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isGood(self, nums: List[int]) -> bool:
@@ -82,7 +83,9 @@ class Solution:
             cnt[i] -= 1
         return all(v == 0 for v in cnt.values())
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isGood(int[] nums) {
@@ -104,7 +107,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -127,7 +132,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isGood(nums []int) bool {
 	n := len(nums) - 1
@@ -147,7 +154,9 @@ func isGood(nums []int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isGood(nums: number[]): boolean {
     const n = nums.length - 1;
@@ -162,6 +171,7 @@ function isGood(nums: number[]): boolean {
     return cnt.every(x => x >= 0);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

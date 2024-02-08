@@ -63,6 +63,7 @@ Notice that each value in the generated matrix corresponds to the largest value 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def largestLocal(self, grid: List[List[int]]) -> List[List[int]]:
@@ -75,7 +76,9 @@ class Solution:
                 )
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int[][] largestLocal(int[][] grid) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func largestLocal(grid [][]int) [][]int {
 	n := len(grid)
@@ -132,7 +139,9 @@ func largestLocal(grid [][]int) [][]int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function largestLocal(grid: number[][]): number[][] {
     const n = grid.length;
@@ -151,6 +160,7 @@ function largestLocal(grid: number[][]): number[][] {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

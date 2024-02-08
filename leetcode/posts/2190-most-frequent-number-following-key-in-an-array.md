@@ -66,6 +66,7 @@ target = 2 has the maximum number of occurrences following an occurrence of key,
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def mostFrequent(self, nums: List[int], key: int) -> int:
@@ -79,7 +80,9 @@ class Solution:
                     ans = b
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int mostFrequent(int[] nums, int key) {
@@ -97,7 +100,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -116,7 +121,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func mostFrequent(nums []int, key int) (ans int) {
 	cnt := [1001]int{}
@@ -133,7 +140,9 @@ func mostFrequent(nums []int, key int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function mostFrequent(nums: number[], key: number): number {
     const cnt: number[] = new Array(1001).fill(0);
@@ -150,7 +159,9 @@ function mostFrequent(nums: number[], key: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="PHP Code" >}}
 ```php
 class Solution {
     /**
@@ -174,6 +185,7 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

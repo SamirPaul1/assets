@@ -1,6 +1,5 @@
 # [2261. K Divisible Elements Subarrays](https://leetcode.com/problems/k-divisible-elements-subarrays)
 
-[中文文档](/solution/2200-2299/2261.K%20Divisible%20Elements%20Subarrays/README.md)
 
 ## Description
 

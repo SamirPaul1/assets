@@ -101,6 +101,7 @@ Based on that, we return true.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def isRobotBounded(self, instructions: str) -> bool:
@@ -115,7 +116,9 @@ class Solution:
                 dist[k] += 1
         return (dist[0] == dist[2] and dist[1] == dist[3]) or k != 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean isRobotBounded(String instructions) {
@@ -135,7 +138,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -155,7 +160,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func isRobotBounded(instructions string) bool {
 	dist := [4]int{}
@@ -172,7 +179,9 @@ func isRobotBounded(instructions string) bool {
 	return (dist[0] == dist[2] && dist[1] == dist[3]) || k != 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function isRobotBounded(instructions: string): boolean {
     const dist: number[] = new Array(4).fill(0);
@@ -189,6 +198,7 @@ function isRobotBounded(instructions: string): boolean {
     return (dist[0] === dist[2] && dist[1] === dist[3]) || k !== 0;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

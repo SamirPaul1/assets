@@ -64,6 +64,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOneBitOperations(self, n: int) -> int:
@@ -73,7 +74,9 @@ class Solution:
             n >>= 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumOneBitOperations(int n) {
@@ -85,7 +88,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -98,7 +103,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOneBitOperations(n int) (ans int) {
 	for ; n > 0; n >>= 1 {
@@ -107,7 +114,9 @@ func minimumOneBitOperations(n int) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOneBitOperations(n: number): number {
     let ans = 0;
@@ -117,6 +126,7 @@ function minimumOneBitOperations(n: number): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -124,6 +134,7 @@ function minimumOneBitOperations(n: number): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumOneBitOperations(self, n: int) -> int:
@@ -131,7 +142,9 @@ class Solution:
             return 0
         return n ^ self.minimumOneBitOperations(n >> 1)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumOneBitOperations(int n) {
@@ -142,7 +155,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -154,7 +169,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumOneBitOperations(n int) int {
 	if n == 0 {
@@ -163,7 +180,9 @@ func minimumOneBitOperations(n int) int {
 	return n ^ minimumOneBitOperations(n>>1)
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumOneBitOperations(n: number): number {
     if (n === 0) {
@@ -172,6 +191,7 @@ function minimumOneBitOperations(n: number): number {
     return n ^ minimumOneBitOperations(n >> 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

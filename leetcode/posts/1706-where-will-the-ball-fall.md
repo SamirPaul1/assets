@@ -90,6 +90,7 @@ The time complexity is $O(m \times n)$, and the space complexity is $O(m)$. Wher
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findBall(self, grid: List[List[int]]) -> List[int]:
@@ -109,7 +110,9 @@ class Solution:
         m, n = len(grid), len(grid[0])
         return [dfs(0, j) for j in range(n)]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int m;
@@ -147,7 +150,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -179,7 +184,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findBall(grid [][]int) (ans []int) {
 	m, n := len(grid), len(grid[0])
@@ -211,7 +218,9 @@ func findBall(grid [][]int) (ans []int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findBall(grid: number[][]): number[] {
     const m = grid.length;
@@ -239,7 +248,9 @@ function findBall(grid: number[][]): number[] {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     fn dfs(grid: &Vec<Vec<i32>>, i: usize, j: usize) -> i32 {
@@ -270,6 +281,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

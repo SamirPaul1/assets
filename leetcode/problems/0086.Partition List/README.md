@@ -1,6 +1,5 @@
 # [86. Partition List](https://leetcode.com/problems/partition-list)
 
-[中文文档](/solution/0000-0099/0086.Partition%20List/README.md)
 
 ## Description
 

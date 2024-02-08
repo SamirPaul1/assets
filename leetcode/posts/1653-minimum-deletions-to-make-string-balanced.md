@@ -58,6 +58,7 @@ Delete the characters at 0-indexed positions 3 and 6 (&quot;aab<u>a</u>bb<u>a</u
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDeletions(self, s: str) -> int:
@@ -72,7 +73,9 @@ class Solution:
                 f[i] = min(f[i - 1] + 1, b)
         return f[n]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDeletions(String s) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -112,7 +117,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDeletions(s string) int {
 	n := len(s)
@@ -130,7 +137,9 @@ func minimumDeletions(s string) int {
 	return f[n]
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDeletions(s: string): number {
     const n = s.length;
@@ -147,6 +156,7 @@ function minimumDeletions(s: string): number {
     return f[n];
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -154,6 +164,7 @@ function minimumDeletions(s: string): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDeletions(self, s: str) -> int:
@@ -165,7 +176,9 @@ class Solution:
                 ans = min(ans + 1, b)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDeletions(String s) {
@@ -182,7 +195,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -199,7 +214,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDeletions(s string) int {
 	ans, b := 0, 0
@@ -213,7 +230,9 @@ func minimumDeletions(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDeletions(s: string): number {
     const n = s.length;
@@ -229,6 +248,7 @@ function minimumDeletions(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -236,6 +256,7 @@ function minimumDeletions(s: string): number {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumDeletions(self, s: str) -> int:
@@ -247,7 +268,9 @@ class Solution:
             lb += c == 'b'
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minimumDeletions(String s) {
@@ -268,7 +291,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -284,7 +309,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumDeletions(s string) int {
 	lb, ra := 0, strings.Count(s, "a")
@@ -303,7 +330,9 @@ func minimumDeletions(s string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumDeletions(s: string): number {
     let lb = 0,
@@ -323,6 +352,7 @@ function minimumDeletions(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

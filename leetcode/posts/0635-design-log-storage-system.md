@@ -73,6 +73,7 @@ logSystem.retrieve(&quot;2016:01:01:01:01:01&quot;, &quot;2017:01:01:23:00:00&qu
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class LogSystem:
     def __init__(self):
@@ -99,7 +100,9 @@ class LogSystem:
 # obj.put(id,timestamp)
 # param_2 = obj.retrieve(start,end,granularity)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class LogSystem {
     private List<Log> logs = new ArrayList<>();
@@ -150,7 +153,9 @@ class Log {
  * List<Integer> param_2 = obj.retrieve(start,end,granularity);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class LogSystem {
 public:
@@ -193,7 +198,9 @@ private:
  * vector<int> param_2 = obj->retrieve(start,end,granularity);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type LogSystem struct {
 	logs []pair
@@ -240,6 +247,7 @@ type pair struct {
  * param_2 := obj.Retrieve(start,end,granularity);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

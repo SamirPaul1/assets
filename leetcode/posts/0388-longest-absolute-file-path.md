@@ -88,6 +88,7 @@ We return 32 since it is the longest absolute path to a file.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def lengthLongestPath(self, input: str) -> int:
@@ -124,7 +125,9 @@ class Solution:
 
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int lengthLongestPath(String input) {
@@ -169,7 +172,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -214,7 +219,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func lengthLongestPath(input string) int {
 	i, n := 0, len(input)
@@ -255,6 +262,7 @@ func lengthLongestPath(input string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

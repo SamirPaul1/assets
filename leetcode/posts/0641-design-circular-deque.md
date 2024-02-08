@@ -73,6 +73,7 @@ myCircularDeque.getFront();     // return 4
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class MyCircularDeque:
     def __init__(self, k: int):
@@ -167,7 +168,9 @@ class MyCircularDeque:
 # param_7 = obj.isEmpty()
 # param_8 = obj.isFull()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class MyCircularDeque {
     private int[] q;
@@ -265,7 +268,9 @@ class MyCircularDeque {
  * boolean param_8 = obj.isFull();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class MyCircularDeque {
 public:
@@ -348,7 +353,9 @@ public:
  * bool param_8 = obj->isFull();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type MyCircularDeque struct {
 	q        []int
@@ -436,7 +443,9 @@ func (this *MyCircularDeque) IsFull() bool {
  * param_8 := obj.IsFull();
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 class MyCircularDeque {
     private vals: number[];
@@ -552,6 +561,7 @@ class MyCircularDeque {
  * var param_8 = obj.isFull()
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

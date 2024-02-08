@@ -66,6 +66,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
@@ -81,7 +82,9 @@ class Solution:
                 i, j = i + 1, j + 1
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canFormArray(int[] arr, int[][] pieces) {
@@ -103,7 +106,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -126,7 +131,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canFormArray(arr []int, pieces [][]int) bool {
 	for i := 0; i < len(arr); {
@@ -145,7 +152,9 @@ func canFormArray(arr []int, pieces [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function canFormArray(arr: number[], pieces: number[][]): boolean {
     const n = arr.length;
@@ -166,7 +175,9 @@ function canFormArray(arr: number[], pieces: number[][]): boolean {
     return true;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 use std::collections::HashMap;
 impl Solution {
@@ -196,7 +207,9 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[]} arr
@@ -222,6 +235,7 @@ var canFormArray = function (arr, pieces) {
     return true;
 };
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -229,6 +243,7 @@ var canFormArray = function (arr, pieces) {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def canFormArray(self, arr: List[int], pieces: List[List[int]]) -> bool:
@@ -243,7 +258,9 @@ class Solution:
             i += len(p)
         return True
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public boolean canFormArray(int[] arr, int[][] pieces) {
@@ -265,7 +282,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -288,7 +307,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func canFormArray(arr []int, pieces [][]int) bool {
 	d := map[int][]int{}
@@ -310,6 +331,7 @@ func canFormArray(arr []int, pieces [][]int) bool {
 	return true
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

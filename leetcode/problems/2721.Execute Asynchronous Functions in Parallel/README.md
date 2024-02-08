@@ -1,6 +1,5 @@
 # [2721. Execute Asynchronous Functions in Parallel](https://leetcode.com/problems/execute-asynchronous-functions-in-parallel)
 
-[中文文档](/solution/2700-2799/2721.Execute%20Asynchronous%20Functions%20in%20Parallel/README.md)
 
 ## Description
 

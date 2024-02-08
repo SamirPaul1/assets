@@ -82,6 +82,7 @@ movieRentingSystem.search(2);  // return [0, 1]. Movies of ID 2 are unrented at 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 from sortedcontainers import SortedList
 
@@ -119,6 +120,7 @@ class MovieRentingSystem:
 # obj.drop(shop,movie)
 # param_4 = obj.report()
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

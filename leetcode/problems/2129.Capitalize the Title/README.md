@@ -1,6 +1,5 @@
 # [2129. Capitalize the Title](https://leetcode.com/problems/capitalize-the-title)
 
-[中文文档](/solution/2100-2199/2129.Capitalize%20the%20Title/README.md)
 
 ## Description
 

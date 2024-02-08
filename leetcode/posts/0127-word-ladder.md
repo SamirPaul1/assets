@@ -72,6 +72,7 @@ Bidirectional BFS is a common optimization method for BFS, with the main impleme
 3. During each search, prioritize the queue with fewer elements for search expansion. If a node visited from the other direction is found during the expansion, it means the shortest path has been found.
 4. If one of the queues is empty, it means that the search in the current direction cannot continue, indicating that the start and end points are not connected, and there is no need to continue the search.
 
+{{< terminal title="Python Code" >}}
 ```python
 while q1 and q2:
     if len(q1) <= len(q2):
@@ -96,9 +97,11 @@ def extend(m1, m2, q):
             q.append(t)
             m1[t] = step + 1
 ```
+{{< /terminal >}}
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
@@ -124,7 +127,9 @@ class Solution:
                     s[i] = ch
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -159,7 +164,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -189,7 +196,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	words := make(map[string]bool)
@@ -225,7 +234,9 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 using System.Collections;
 using System.Collections.Generic;
@@ -296,6 +307,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -303,6 +315,7 @@ public class Solution {
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
@@ -336,7 +349,9 @@ class Solution:
                 return t + 1
         return 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private Set<String> words;
@@ -389,7 +404,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -430,7 +447,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	words := make(map[string]bool)
@@ -484,6 +503,7 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 	return 0
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

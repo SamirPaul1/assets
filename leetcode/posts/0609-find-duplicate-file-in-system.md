@@ -74,6 +74,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findDuplicate(self, paths: List[str]) -> List[List[str]]:
@@ -86,7 +87,9 @@ class Solution:
                 d[content].append(ps[0] + '/' + name)
         return [v for v in d.values() if len(v) > 1]
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
@@ -110,7 +113,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -145,7 +150,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findDuplicate(paths []string) [][]string {
 	d := map[string][]string{}
@@ -167,7 +174,9 @@ func findDuplicate(paths []string) [][]string {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findDuplicate(paths: string[]): string[][] {
     const d = new Map<string, string[]>();
@@ -183,6 +192,7 @@ function findDuplicate(paths: string[]): string[][] {
     return [...d.values()].filter(e => e.length > 1);
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

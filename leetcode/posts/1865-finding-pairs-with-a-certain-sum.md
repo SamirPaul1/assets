@@ -75,6 +75,7 @@ findSumPairs.count(7);  // return 11; pairs (2,1), (2,2), (2,4), (3,1), (3,2), (
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class FindSumPairs:
     def __init__(self, nums1: List[int], nums2: List[int]):
@@ -97,7 +98,9 @@ class FindSumPairs:
 # obj.add(index,val)
 # param_2 = obj.count(tot)
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class FindSumPairs {
     private int[] nums1;
@@ -135,7 +138,9 @@ class FindSumPairs {
  * int param_2 = obj.count(tot);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class FindSumPairs {
 public:
@@ -175,7 +180,9 @@ private:
  * int param_2 = obj->count(tot);
  */
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 type FindSumPairs struct {
 	nums1 []int
@@ -212,6 +219,7 @@ func (this *FindSumPairs) Count(tot int) (ans int) {
  * param_2 := obj.Count(tot);
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

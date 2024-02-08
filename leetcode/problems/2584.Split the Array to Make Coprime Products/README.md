@@ -1,6 +1,5 @@
 # [2584. Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products)
 
-[中文文档](/solution/2500-2599/2584.Split%20the%20Array%20to%20Make%20Coprime%20Products/README.md)
 
 ## Description
 

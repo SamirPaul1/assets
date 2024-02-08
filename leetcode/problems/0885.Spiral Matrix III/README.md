@@ -1,6 +1,5 @@
 # [885. Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii)
 
-[中文文档](/solution/0800-0899/0885.Spiral%20Matrix%20III/README.md)
 
 ## Description
 

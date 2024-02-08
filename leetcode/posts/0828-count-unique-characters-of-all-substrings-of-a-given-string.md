@@ -79,6 +79,7 @@ The time complexity is $O(n)$, and the space complexity is $O(n)$. Here, $n$ is 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def uniqueLetterString(self, s: str) -> int:
@@ -92,7 +93,9 @@ class Solution:
                 ans += (v[i] - v[i - 1]) * (v[i + 1] - v[i])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int uniqueLetterString(String s) {
@@ -115,7 +118,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func uniqueLetterString(s string) (ans int) {
 	d := make([][]int, 26)
@@ -154,7 +161,9 @@ func uniqueLetterString(s string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function uniqueLetterString(s: string): number {
     const d: number[][] = Array.from({ length: 26 }, () => [-1]);
@@ -172,7 +181,9 @@ function uniqueLetterString(s: string): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn unique_letter_string(s: String) -> i32 {
@@ -191,6 +202,7 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

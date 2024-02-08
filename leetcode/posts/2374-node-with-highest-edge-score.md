@@ -68,6 +68,7 @@ Nodes 0 and 2 both have an edge score of 3. Since node 0 has a smaller index, we
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def edgeScore(self, edges: List[int]) -> int:
@@ -80,7 +81,9 @@ class Solution:
                 ans = i
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int edgeScore(int[] edges) {
@@ -99,7 +102,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -119,7 +124,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func edgeScore(edges []int) int {
 	n := len(edges)
@@ -136,7 +143,9 @@ func edgeScore(edges []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function edgeScore(edges: number[]): number {
     const n = edges.length;
@@ -153,6 +162,7 @@ function edgeScore(edges: number[]): number {
     return res;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -71,6 +71,7 @@ It can be shown that this is the minimum achievable cost.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maxJump(self, stones: List[int]) -> int:
@@ -79,7 +80,9 @@ class Solution:
             ans = max(ans, stones[i] - stones[i - 2])
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maxJump(int[] stones) {
@@ -91,7 +94,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -102,7 +107,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maxJump(stones []int) int {
 	ans := stones[1] - stones[0]
@@ -112,6 +119,7 @@ func maxJump(stones []int) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

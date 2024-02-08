@@ -62,6 +62,7 @@ It can be shown that all other substrings contain either &quot;de&quot;, &quot;l
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def longestValidSubstring(self, word: str, forbidden: List[str]) -> int:
@@ -75,7 +76,9 @@ class Solution:
             ans = max(ans, j - i + 1)
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int longestValidSubstring(String word, List<String> forbidden) {
@@ -94,7 +97,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -114,7 +119,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func longestValidSubstring(word string, forbidden []string) (ans int) {
 	s := map[string]bool{}
@@ -134,7 +141,9 @@ func longestValidSubstring(word string, forbidden []string) (ans int) {
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function longestValidSubstring(word: string, forbidden: string[]): number {
     const s: Set<string> = new Set(forbidden);
@@ -152,6 +161,7 @@ function longestValidSubstring(word: string, forbidden: string[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

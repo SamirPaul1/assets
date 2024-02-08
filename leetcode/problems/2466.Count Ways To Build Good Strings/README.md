@@ -1,6 +1,5 @@
 # [2466. Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings)
 
-[中文文档](/solution/2400-2499/2466.Count%20Ways%20To%20Build%20Good%20Strings/README.md)
 
 ## Description
 

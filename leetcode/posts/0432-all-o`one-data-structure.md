@@ -70,6 +70,7 @@ allOne.getMinKey(); // return &quot;leet&quot;
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Node:
     def __init__(self, key='', cnt=0):
@@ -147,7 +148,9 @@ class AllOne:
 # param_3 = obj.getMaxKey()
 # param_4 = obj.getMinKey()
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class AllOne {
     Node root = new Node();
@@ -249,6 +252,7 @@ class Node {
  * String param_4 = obj.getMinKey();
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

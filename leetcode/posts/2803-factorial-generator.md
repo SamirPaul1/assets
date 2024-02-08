@@ -74,6 +74,7 @@ gen.next().value // 1
 
 <!-- tabs:start -->
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function* factorial(n: number): Generator<number> {
     if (n === 0) {
@@ -92,6 +93,7 @@ function* factorial(n: number): Generator<number> {
  * gen.next().value; // 2
  */
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

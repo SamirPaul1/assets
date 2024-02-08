@@ -69,6 +69,7 @@ The time complexity is $O(m\times n)$, and the space complexity is $O(m+n)$. Whe
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
@@ -84,7 +85,9 @@ class Solution:
                 if rows[i] or cols[j]:
                     matrix[i][j] = 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
@@ -109,7 +112,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -135,7 +140,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func setZeroes(matrix [][]int) {
 	m, n := len(matrix), len(matrix[0])
@@ -158,7 +165,9 @@ func setZeroes(matrix [][]int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify matrix in-place instead.
@@ -185,7 +194,9 @@ function setZeroes(matrix: number[][]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -213,7 +224,9 @@ var setZeroes = function (matrix) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public void SetZeroes(int[][] matrix) {
@@ -237,6 +250,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -250,6 +264,7 @@ The time complexity is $O(m\times n)$, and the space complexity is $O(1)$. Where
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
@@ -271,7 +286,9 @@ class Solution:
             for i in range(m):
                 matrix[i][0] = 0
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public void setZeroes(int[][] matrix) {
@@ -317,7 +334,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -364,7 +383,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func setZeroes(matrix [][]int) {
 	m, n := len(matrix), len(matrix[0])
@@ -407,7 +428,9 @@ func setZeroes(matrix [][]int) {
 	}
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 /**
  Do not return anything, modify matrix in-place instead.
@@ -442,7 +465,9 @@ function setZeroes(matrix: number[][]): void {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 /**
  * @param {number[][]} matrix
@@ -486,7 +511,9 @@ var setZeroes = function (matrix) {
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="C# Code" >}}
 ```cs
 public class Solution {
     public void SetZeroes(int[][] matrix) {
@@ -526,6 +553,7 @@ public class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

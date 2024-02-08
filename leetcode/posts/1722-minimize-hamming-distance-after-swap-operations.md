@@ -78,6 +78,7 @@ The time complexity is $O(n \times \log n)$ or $O(n \times \alpha(n))$, and the 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minimumHammingDistance(
@@ -103,7 +104,9 @@ class Solution:
             ans += cnt[j][x] < 0
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     private int[] p;
@@ -141,7 +144,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -169,7 +174,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minimumHammingDistance(source []int, target []int, allowedSwaps [][]int) (ans int) {
 	n := len(source)
@@ -205,7 +212,9 @@ func minimumHammingDistance(source []int, target []int, allowedSwaps [][]int) (a
 	return
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minimumHammingDistance(
     source: number[],
@@ -244,6 +253,7 @@ function minimumHammingDistance(
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

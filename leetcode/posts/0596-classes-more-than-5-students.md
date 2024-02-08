@@ -80,6 +80,7 @@ We can use the `GROUP BY` statement to group by class and then use the `HAVING` 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT class
@@ -87,6 +88,7 @@ FROM Courses
 GROUP BY 1
 HAVING COUNT(1) >= 5;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

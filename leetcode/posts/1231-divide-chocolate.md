@@ -74,6 +74,7 @@ The time complexity is $O(n \times \log \sum_{i=0}^{n-1} sweetness[i])$, and the
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def maximizeSweetness(self, sweetness: List[int], k: int) -> int:
@@ -95,7 +96,9 @@ class Solution:
                 r = mid - 1
         return l
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int maximizeSweetness(int[] sweetness, int k) {
@@ -127,7 +130,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -156,7 +161,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func maximizeSweetness(sweetness []int, k int) int {
 	l, r := 0, 0
@@ -185,7 +192,9 @@ func maximizeSweetness(sweetness []int, k int) int {
 	return l
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function maximizeSweetness(sweetness: number[], k: number): number {
     let l = 0;
@@ -213,6 +222,7 @@ function maximizeSweetness(sweetness: number[], k: number): number {
     return l;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -57,6 +57,7 @@ Thus, the closest number to 0 in the array is 1.
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def findClosestNumber(self, nums: List[int]) -> int:
@@ -66,7 +67,9 @@ class Solution:
                 ans, d = x, y
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int findClosestNumber(int[] nums) {
@@ -82,7 +85,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -99,7 +104,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func findClosestNumber(nums []int) int {
 	ans, d := 0, 1<<30
@@ -118,7 +125,9 @@ func abs(x int) int {
 	return x
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function findClosestNumber(nums: number[]): number {
     let [ans, d] = [0, 1 << 30];
@@ -131,6 +140,7 @@ function findClosestNumber(nums: number[]): number {
     return ans;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

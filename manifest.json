@@ -1,21 +1,43 @@
 {
-  "short_name": "Static-Assets",
-  "name": "Static Assets - Samir Paul",
-  "icons": [
-    {
-      "src": "./favicon.ico",
+    "name": "Static Assets - Samir Paul",
+    "short_name": "assets",
+    "description": "Static Assets Storage.",
+    "icons": [{
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }, {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }, {
+      "src": "/apple-touch-icon-180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }, {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }, {
+      "src": "/maskable_icon.png",
+      "sizes": "196x196",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "./favicon.ico",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/samirpaulb.github.io/",
-  "background_color": "#ff473e",
-  "theme_color": "#ff473e",
-  "display": "standalone",
-  "scope": "/samirpaulb.github.io/"
-}
+      "purpose": "maskable"
+    }],
+    "screenshots": [{
+       "src": "/screenshot.png",
+        "sizes": "640x320",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Wonder Widgets"
+    }],
+    "start_url": "/",
+    "display": "standalone",
+    "orientation" : "any",
+    "background_color": "#FFFFFF",
+    "theme_color": "#FFFFFF"
+  }

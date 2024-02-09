@@ -7,6 +7,10 @@
 !.husky
 !.commitlintrc.json
 !.versionrc.json
+**/logs
+*.log
+firebase-debug.log
+.firebase
 
 # bundler cache
 _site

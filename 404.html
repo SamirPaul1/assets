@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ff473e">
+  <title>404 Not Found</title>
+  <meta name="title" content="Static Assets Storage">
+  <meta name="description" content="Static Assets Storage">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="./favicon.ico" type="image/png" />
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+</head>
+
+<body>
+<div>
+   <a href="https://samirpaulb.github.io" target="_blank">Website</a> <a href="https://github.com/SamirPaulb" target="_blank">GitHub</a> <a href="https://www.linkedin.com/in/SamirPaul" target="_blank">LinkedIn</a>
+</div>
+
+<h1 style="background-color: red;">404 File Not Found!</h1>
+<a href="#"><img src="/chrome-dino-game.gif" alt="404"></a>
+
+<article>
+    <p>Please check your internet connection.</p>
+</article>
+<a href="https://samirpaulb.github.io"><button>Home!</button></a>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CP4QE6ZEV0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CP4QE6ZEV0');
+</script>
+
+<!-- Register Service Workers -->
+<script>
+if (navigator && navigator.serviceWorker) {
+    navigator.serviceWorker.register("/sw.js", { scope: '/' });
+}
+</script>
+
+
+</body>
+</html>

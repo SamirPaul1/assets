@@ -11,7 +11,7 @@
 *.log
 firebase-debug.log
 .firebase
-
+ 
 # bundler cache
 _site
 vendor

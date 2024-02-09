@@ -1,67 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Offline</title>
-<style>
-  body {
-    width: 100%;
-    min-height: 100vh;
-    display: relative;
-    margin: 0;
-    padding: 0;
-    background: -webkit-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%);
-  }
-  .wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    align-items: center;
-    justify-content: center;
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  h1 {
-    color: white;
-    font-family: arial;
-    font-weight: bold;
-    font-size: 50px;
-    letter-spacing: 5px;
-    line-height: 1rem;
-    text-shadow: 0 0 3px white;
-  }
-  h4 {
-    color: #f1f1f1;
-    font-family: arial;
-    font-weight: 300;
-    font-size: 16px;
-  }
-  .button {
-    display: block;
-    margin: 20px 0 0;
-    padding: 15px 30px;
-    background: #22254C;
-    color: white;
-    font-family: arial;
-    letter-spacing: 5px;
-    border-radius: .4rem;
-    text-decoration: none;
-    box-shadow: 0 0 15px #22254C;
-  }
-</style>
+  <meta name="robots" content="noindex">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#ff473e">
+  <title>Oops! You're offline</title>
+  <meta name="title" content="Static Assets Storage">
+  <meta name="description" content="Static Assets Storage">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="./favicon.ico" type="image/png" />
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
 </head>
-<body>
-  <div class="wrapper">
-    <h1>OFFLINE</h1>
-    <h4>Please check your internet connection</h4>
 
-    <a href="." class="button">RETRY</a>
-  </div>
+<body>
+<div>
+   <a href="https://samirpaulb.github.io" target="_blank">Website</a> <a href="https://github.com/SamirPaulb" target="_blank">GitHub</a> <a href="https://www.linkedin.com/in/SamirPaul" target="_blank">LinkedIn</a>
+</div>
+
+<h1 style="background-color: red;">OFFLINE!</h1>
+<a href="#"><img src="/chrome-dino-game.gif" alt="404"></a>
+
+<article>
+    <p>Please check your internet connection.</p>
+</article>
+<button type="button" onClick="window.location.reload()"><b>Reload Page ⟳</b></button>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CP4QE6ZEV0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CP4QE6ZEV0');
+</script>
+
+<!-- Register Service Workers -->
+<script>
+if (navigator && navigator.serviceWorker) {
+    navigator.serviceWorker.register("/sw.js", { scope: '/' });
+}
+</script>
+
+
 </body>
 </html>

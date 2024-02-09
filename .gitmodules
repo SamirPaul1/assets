@@ -1,0 +1,3 @@
+[submodule "books-pdfs"]
+	path = books-pdfs
+	url = https://github.com/samir-paul/books-pdfs.git

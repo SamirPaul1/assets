@@ -1,0 +1,118 @@
+---
+title: Encode Number
+summary: Encode Number - Solution Explained
+url: "/posts/encode-number"
+date: 2020-10-03T16:00:00
+tags: ["leetcode", "problem-solving"]
+series: [leetcode]
+keywords: ["Encode Number LeetCode Solution Explained in all languages", "1256", "leetcode question 1256", "Encode Number", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+cover:
+    image: https://spcdn.pages.dev/leetcode/images/encode-number.webp
+    alt: Encode Number - Solution Explained
+    hiddenInList: true
+    hiddenInSingle: false
+math: true
+---
+
+
+# [1256. Encode Number](https://leetcode.com/problems/encode-number)
+
+
+## Description
+
+<p>Given a non-negative integer <code>num</code>, Return its <em>encoding</em> string.</p>
+
+<p>The encoding is done by converting the integer to a string using a secret function that you should deduce from the following table:</p>
+
+<p><img alt="" src="https://spcdn.pages.dev/leetcode/problems/1256.Encode%20Number/images/encode_number.png" style="width: 164px; height: 360px;" /></p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> num = 23
+<strong>Output:</strong> &quot;1000&quot;
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> num = 107
+<strong>Output:</strong> &quot;101100&quot;
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>0 &lt;= num &lt;= 10^9</code></li>
+</ul>
+
+## Solutions
+
+### Solution 1: Bit Manipulation
+
+We add one to $num$, then convert it to a binary string and remove the highest bit $1$.
+
+The time complexity is $O(\log n)$, and the space complexity is $O(\log n)$. Where $n$ is the size of $num$.
+
+<!-- tabs:start -->
+
+{{< terminal title="Python Code" >}}
+```python
+class Solution:
+    def encode(self, num: int) -> str:
+        return bin(num + 1)[3:]
+```
+{{< /terminal >}}
+
+{{< terminal title="Java Code" >}}
+```java
+class Solution {
+    public String encode(int num) {
+        return Integer.toBinaryString(num + 1).substring(1);
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="C++ Code" >}}
+```cpp
+class Solution {
+public:
+    string encode(int num) {
+        bitset<32> bs(++num);
+        string ans = bs.to_string();
+        int i = 0;
+        while (ans[i] == '0') {
+            ++i;
+        }
+        return ans.substr(i + 1);
+    }
+};
+```
+{{< /terminal >}}
+
+{{< terminal title="Go Code" >}}
+```go
+func encode(num int) string {
+	num++
+	s := strconv.FormatInt(int64(num), 2)
+	return s[1:]
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="TypeScript Code" >}}
+```ts
+function encode(num: number): string {
+    ++num;
+    let s = num.toString(2);
+    return s.slice(1);
+}
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+<!-- end -->

@@ -1,0 +1,355 @@
+---
+title: Make Two Arrays Equal by Reversing Subarrays
+summary: Make Two Arrays Equal by Reversing Subarrays - Solution Explained
+url: "/posts/make-two-arrays-equal-by-reversing-subarrays"
+date: 2020-09-25T04:00:00
+tags: ["leetcode", "problem-solving"]
+series: [leetcode]
+keywords: ["Make Two Arrays Equal by Reversing Subarrays LeetCode Solution Explained in all languages", "1460", "leetcode question 1460", "Make Two Arrays Equal by Reversing Subarrays", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+cover:
+    image: https://spcdn.pages.dev/leetcode/images/make-two-arrays-equal-by-reversing-subarrays.webp
+    alt: Make Two Arrays Equal by Reversing Subarrays - Solution Explained
+    hiddenInList: true
+    hiddenInSingle: false
+math: true
+---
+
+
+# [1460. Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays)
+
+
+## Description
+
+<p>You are given two integer arrays of equal length <code>target</code> and <code>arr</code>. In one step, you can select any <strong>non-empty subarray</strong> of <code>arr</code> and reverse it. You are allowed to make any number of steps.</p>
+
+<p>Return <code>true</code> <em>if you can make </em><code>arr</code><em> equal to </em><code>target</code><em>&nbsp;or </em><code>false</code><em> otherwise</em>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> target = [1,2,3,4], arr = [2,4,1,3]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> You can follow the next steps to convert arr to target:
+1- Reverse subarray [2,4,1], arr becomes [1,4,2,3]
+2- Reverse subarray [4,2], arr becomes [1,2,4,3]
+3- Reverse subarray [4,3], arr becomes [1,2,3,4]
+There are multiple ways to convert arr to target, this is not the only way to do so.
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> target = [7], arr = [7]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> arr is equal to target without any reverses.
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> target = [3,7,9], arr = [3,7,11]
+<strong>Output:</strong> false
+<strong>Explanation:</strong> arr does not have value 9 and it can never be converted to target.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>target.length == arr.length</code></li>
+	<li><code>1 &lt;= target.length &lt;= 1000</code></li>
+	<li><code>1 &lt;= target[i] &lt;= 1000</code></li>
+	<li><code>1 &lt;= arr[i] &lt;= 1000</code></li>
+</ul>
+
+## Solutions
+
+### Solution 1
+
+<!-- tabs:start -->
+
+{{< terminal title="Python Code" >}}
+```python
+class Solution:
+    def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
+        target.sort()
+        arr.sort()
+        return target == arr
+```
+{{< /terminal >}}
+
+{{< terminal title="Java Code" >}}
+```java
+class Solution {
+    public boolean canBeEqual(int[] target, int[] arr) {
+        Arrays.sort(target);
+        Arrays.sort(arr);
+        return Arrays.equals(target, arr);
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="C++ Code" >}}
+```cpp
+class Solution {
+public:
+    bool canBeEqual(vector<int>& target, vector<int>& arr) {
+        sort(target.begin(), target.end());
+        sort(arr.begin(), arr.end());
+        return target == arr;
+    }
+};
+```
+{{< /terminal >}}
+
+{{< terminal title="Go Code" >}}
+```go
+func canBeEqual(target []int, arr []int) bool {
+	sort.Ints(target)
+	sort.Ints(arr)
+	for i, v := range target {
+		if v != arr[i] {
+			return false
+		}
+	}
+	return true
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="TypeScript Code" >}}
+```ts
+function canBeEqual(target: number[], arr: number[]): boolean {
+    target.sort((a, b) => a - b);
+    arr.sort((a, b) => a - b);
+    const n = arr.length;
+    for (let i = 0; i < n; i++) {
+        if (target[i] !== arr[i]) {
+            return false;
+        }
+    }
+    return true;
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="Rust Code" >}}
+```rust
+impl Solution {
+    pub fn can_be_equal(mut target: Vec<i32>, mut arr: Vec<i32>) -> bool {
+        target.sort();
+        arr.sort();
+        target == arr
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="PHP Code" >}}
+```php
+class Solution {
+    /**
+     * @param Integer[] $target
+     * @param Integer[] $arr
+     * @return Boolean
+     */
+    function canBeEqual($target, $arr) {
+        sort($target);
+        sort($arr);
+        return $target === $arr;
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="C Code" >}}
+```c
+bool canBeEqual(int* target, int targetSize, int* arr, int arrSize) {
+    int count[1001] = {0};
+    for (int i = 0; i < targetSize; i++) {
+        count[target[i]]++;
+        count[arr[i]]--;
+    }
+    for (int i = 0; i < 1001; i++) {
+        if (count[i] != 0) {
+            return false;
+        }
+    }
+    return true;
+}
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+### Solution 2
+
+<!-- tabs:start -->
+
+{{< terminal title="Python Code" >}}
+```python
+class Solution:
+    def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
+        return Counter(target) == Counter(arr)
+```
+{{< /terminal >}}
+
+{{< terminal title="Java Code" >}}
+```java
+class Solution {
+    public boolean canBeEqual(int[] target, int[] arr) {
+        int[] cnt1 = new int[1001];
+        int[] cnt2 = new int[1001];
+        for (int v : target) {
+            ++cnt1[v];
+        }
+        for (int v : arr) {
+            ++cnt2[v];
+        }
+        return Arrays.equals(cnt1, cnt2);
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="C++ Code" >}}
+```cpp
+class Solution {
+public:
+    bool canBeEqual(vector<int>& target, vector<int>& arr) {
+        vector<int> cnt1(1001);
+        vector<int> cnt2(1001);
+        for (int& v : target) ++cnt1[v];
+        for (int& v : arr) ++cnt2[v];
+        return cnt1 == cnt2;
+    }
+};
+```
+{{< /terminal >}}
+
+{{< terminal title="Go Code" >}}
+```go
+func canBeEqual(target []int, arr []int) bool {
+	cnt1 := make([]int, 1001)
+	cnt2 := make([]int, 1001)
+	for _, v := range target {
+		cnt1[v]++
+	}
+	for _, v := range arr {
+		cnt2[v]++
+	}
+	for i, v := range cnt1 {
+		if v != cnt2[i] {
+			return false
+		}
+	}
+	return true
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="TypeScript Code" >}}
+```ts
+function canBeEqual(target: number[], arr: number[]): boolean {
+    const n = target.length;
+    const count = new Array(1001).fill(0);
+    for (let i = 0; i < n; i++) {
+        count[target[i]]++;
+        count[arr[i]]--;
+    }
+    return count.every(v => v === 0);
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="Rust Code" >}}
+```rust
+impl Solution {
+    pub fn can_be_equal(mut target: Vec<i32>, mut arr: Vec<i32>) -> bool {
+        let n = target.len();
+        let mut count = [0; 1001];
+        for i in 0..n {
+            count[target[i] as usize] += 1;
+            count[arr[i] as usize] -= 1;
+        }
+        count.iter().all(|v| *v == 0)
+    }
+}
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+### Solution 3
+
+<!-- tabs:start -->
+
+{{< terminal title="Python Code" >}}
+```python
+class Solution:
+    def canBeEqual(self, target: List[int], arr: List[int]) -> bool:
+        cnt = [0] * 1001
+        for a, b in zip(target, arr):
+            cnt[a] += 1
+            cnt[b] -= 1
+        return all(v == 0 for v in cnt)
+```
+{{< /terminal >}}
+
+{{< terminal title="Java Code" >}}
+```java
+class Solution {
+    public boolean canBeEqual(int[] target, int[] arr) {
+        int[] cnt = new int[1001];
+        for (int v : target) {
+            ++cnt[v];
+        }
+        for (int v : arr) {
+            if (--cnt[v] < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="C++ Code" >}}
+```cpp
+class Solution {
+public:
+    bool canBeEqual(vector<int>& target, vector<int>& arr) {
+        vector<int> cnt(1001);
+        for (int& v : target) ++cnt[v];
+        for (int& v : arr)
+            if (--cnt[v] < 0) return false;
+        return true;
+    }
+};
+```
+{{< /terminal >}}
+
+{{< terminal title="Go Code" >}}
+```go
+func canBeEqual(target []int, arr []int) bool {
+	cnt := make([]int, 1001)
+	for _, v := range target {
+		cnt[v]++
+	}
+	for _, v := range arr {
+		cnt[v]--
+		if cnt[v] < 0 {
+			return false
+		}
+	}
+	return true
+}
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+<!-- end -->

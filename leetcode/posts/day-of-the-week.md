@@ -1,0 +1,214 @@
+---
+title: Day of the Week
+summary: Day of the Week - Solution Explained
+url: "/posts/day-of-the-week"
+date: 2020-10-06T15:00:00
+tags: ["leetcode", "problem-solving"]
+series: [leetcode]
+keywords: ["Day of the Week LeetCode Solution Explained in all languages", "1185", "leetcode question 1185", "Day of the Week", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+cover:
+    image: https://spcdn.pages.dev/leetcode/images/day-of-the-week.webp
+    alt: Day of the Week - Solution Explained
+    hiddenInList: true
+    hiddenInSingle: false
+math: true
+---
+
+
+# [1185. Day of the Week](https://leetcode.com/problems/day-of-the-week)
+
+
+## Description
+
+<p>Given a date, return the corresponding day of the week for that date.</p>
+
+<p>The input is given as three integers representing the <code>day</code>, <code>month</code> and <code>year</code> respectively.</p>
+
+<p>Return the answer as one of the following values&nbsp;<code>{&quot;Sunday&quot;, &quot;Monday&quot;, &quot;Tuesday&quot;, &quot;Wednesday&quot;, &quot;Thursday&quot;, &quot;Friday&quot;, &quot;Saturday&quot;}</code>.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> day = 31, month = 8, year = 2019
+<strong>Output:</strong> &quot;Saturday&quot;
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> day = 18, month = 7, year = 1999
+<strong>Output:</strong> &quot;Sunday&quot;
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> day = 15, month = 8, year = 1993
+<strong>Output:</strong> &quot;Sunday&quot;
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The given dates are valid dates between the years <code>1971</code> and <code>2100</code>.</li>
+</ul>
+
+## Solutions
+
+### Solution 1: Zeller's Congruence
+
+We can use Zeller's Congruence to calculate the day of the week. Zeller's Congruence is as follows:
+
+$$
+w = (\left \lfloor \frac{c}{4} \right \rfloor - 2c + y + \left \lfloor \frac{y}{4} \right \rfloor + \left \lfloor \frac{13(m+1)}{5} \right \rfloor + d - 1) \bmod 7
+$$
+
+Where:
+
+-   `w`: Day of the week (starting from Sunday)
+-   `c`: First two digits of the year
+-   `y`: Last two digits of the year
+-   `m`: Month (the range of m is from 3 to 14, that is, in Zeller's Congruence, January and February of a certain year are considered as the 13th and 14th month of the previous year. For example, January 1, 2003 is considered as the 1st day of the 13th month of 2002)
+-   `d`: Day
+-   `⌊⌋`: Floor function (round down)
+-   `mod`: Modulo operation
+
+The time complexity is $O(1)$, and the space complexity is $O(1)$.
+
+<!-- tabs:start -->
+
+{{< terminal title="Python Code" >}}
+```python
+class Solution:
+    def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
+        return datetime.date(year, month, day).strftime('%A')
+```
+{{< /terminal >}}
+
+{{< terminal title="Java Code" >}}
+```java
+import java.util.Calendar;
+
+class Solution {
+    private static final String[] WEEK
+        = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+
+    public static String dayOfTheWeek(int day, int month, int year) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(year, month - 1, day);
+        return WEEK[calendar.get(Calendar.DAY_OF_WEEK) - 1];
+    }
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="C++ Code" >}}
+```cpp
+class Solution {
+public:
+    string dayOfTheWeek(int d, int m, int y) {
+        if (m < 3) {
+            m += 12;
+            y -= 1;
+        }
+        int c = y / 100;
+        y %= 100;
+        int w = (c / 4 - 2 * c + y + y / 4 + 13 * (m + 1) / 5 + d - 1) % 7;
+        vector<string> weeks = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+        return weeks[(w + 7) % 7];
+    }
+};
+```
+{{< /terminal >}}
+
+{{< terminal title="Go Code" >}}
+```go
+func dayOfTheWeek(d int, m int, y int) string {
+	if m < 3 {
+		m += 12
+		y -= 1
+	}
+	c := y / 100
+	y %= 100
+	w := (c/4 - 2*c + y + y/4 + 13*(m+1)/5 + d - 1) % 7
+	weeks := []string{"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"}
+	return weeks[(w+7)%7]
+}
+```
+{{< /terminal >}}
+
+{{< terminal title="TypeScript Code" >}}
+```ts
+function dayOfTheWeek(d: number, m: number, y: number): string {
+    if (m < 3) {
+        m += 12;
+        y -= 1;
+    }
+    const c: number = (y / 100) | 0;
+    y %= 100;
+    const w = (((c / 4) | 0) - 2 * c + y + ((y / 4) | 0) + (((13 * (m + 1)) / 5) | 0) + d - 1) % 7;
+    const weeks: string[] = [
+        'Sunday',
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+        'Saturday',
+    ];
+    return weeks[(w + 7) % 7];
+}
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+### Solution 2
+
+<!-- tabs:start -->
+
+{{< terminal title="Python Code" >}}
+```python
+class Solution:
+    def dayOfTheWeek(self, d: int, m: int, y: int) -> str:
+        if m < 3:
+            m += 12
+            y -= 1
+        c = y // 100
+        y = y % 100
+        w = (c // 4 - 2 * c + y + y // 4 + 13 * (m + 1) // 5 + d - 1) % 7
+        return [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+        ][w]
+```
+{{< /terminal >}}
+
+{{< terminal title="Java Code" >}}
+```java
+class Solution {
+    public String dayOfTheWeek(int d, int m, int y) {
+        if (m < 3) {
+            m += 12;
+            y -= 1;
+        }
+        int c = y / 100;
+        y %= 100;
+        int w = (c / 4 - 2 * c + y + y / 4 + 13 * (m + 1) / 5 + d - 1) % 7;
+        return new String[] {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+            "Saturday"}[(w + 7) % 7];
+    }
+}
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+<!-- end -->

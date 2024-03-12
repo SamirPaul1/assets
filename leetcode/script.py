@@ -1,39 +1,53 @@
+# pip install hugon
+
 import os
 import re
 import string
+import requests
+import subprocess
+from PIL import Image
+from datetime import datetime, timedelta
 
-def replace_dash_with_space(string):
-  pattern = r"-"
-  new_string = re.sub(pattern, " ", string)
-  return new_string
 
-def remove_dots_with_hyphens(text):
-  return text.translate(str.maketrans(string.punctuation, string.punctuation.replace(".", "-")))
+def make_file_name(input_string):
+  input_string = input_string[input_string.index('.')+1:]
+  cleaned_string = re.sub(r'[^A-Za-z0-9 -]', '', input_string)
+  cleaned_string = re.sub(r'\s+', '-', cleaned_string)
+  cleaned_string = re.sub(r'-+', '-', cleaned_string)
+  return cleaned_string.lower()
 
-def remove_spaces_with_hyphens(sentence):
-  pattern = r"\s+"
-  new_sentence = re.sub(pattern, "-", sentence)
-  return new_sentence
-
+def make_title_name(input_string):
+  input_string = input_string[input_string.index('.')+1:]
+  input_string.replace(".", " ").replace('-', ' ')
+  cleaned_string = re.sub(r'\s+', ' ', input_string)
+  return cleaned_string
 
 src_dir = "./problems"
 dst_dir = "./posts"
+start_date = datetime(2020, 11, 25, 0, 0)  # Adjust the time as needed
+i = 0
 
-for folder_name in os.listdir(src_dir):
+for folder_name in sorted(os.listdir(src_dir)):
   if os.path.isdir(f"{src_dir}/{folder_name}"):  
-    md_file_name = remove_dots_with_hyphens(remove_spaces_with_hyphens(folder_name)).lower()
+    md_file_name = make_file_name(folder_name)
     md_file = open(f"{dst_dir}/{md_file_name}.md", "w")
-    title_name = replace_dash_with_space(remove_dots_with_hyphens(remove_spaces_with_hyphens(folder_name)))
+    title_name = make_title_name(folder_name)
+    
+    i += 1
+    date = start_date - timedelta(hours=i)
+    date = date.strftime("%Y-%m-%dT%H:%M:%S%z")
+    
     md_file.write("---\n")
     md_file.write(f"title: {title_name}\n")
-    md_file.write(f"summary: {title_name} LeetCode Solution Explained\n")
-    md_file.write("date: 2022-11-25\n")
-    md_file.write("tags: [leetcode]\n")
+    md_file.write(f"summary: {title_name} - Solution Explained\n")
+    md_file.write(f"url: \"/posts/{md_file_name}\"\n")
+    md_file.write(f"date: {date}\n")
+    md_file.write("tags: [\"leetcode\", \"problem-solving\"]\n")
     md_file.write("series: [leetcode]\n")
-    md_file.write(f"keywords: [\"{title_name} LeetCode Solution Explained in all languages\", \"{title_name}\", \"LeetCode\", \"leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C\", \"GeeksforGeeks\", \"InterviewBit\", \"Coding Ninjas\", \"HackerRank\", \"HackerEarth\", \"CodeChef\", \"TopCoder\", \"AlgoExpert\", \"freeCodeCamp\", \"Codeforces\", \"GitHub\", \"AtCoder\", \"Samir Paul\"]\n")
+    md_file.write(f"keywords: [\"{title_name} LeetCode Solution Explained in all languages\", \"{i}\", \"leetcode question {i}\", \"{title_name}\", \"LeetCode\", \"leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C\", \"GeeksforGeeks\", \"InterviewBit\", \"Coding Ninjas\", \"HackerRank\", \"HackerEarth\", \"CodeChef\", \"TopCoder\", \"AlgoExpert\", \"freeCodeCamp\", \"Codeforces\", \"GitHub\", \"AtCoder\", \"Samir Paul\"]\n")
     md_file.write("cover:\n")
-    md_file.write(f"    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:{title_name} - Solution Explained/problem-solving.webp\n")
-    md_file.write(f"    alt: {title_name}\n")
+    md_file.write(f"    image: https://spcdn.pages.dev/leetcode/images/{md_file_name}.webp\n")
+    md_file.write(f"    alt: {title_name} - Solution Explained\n")
     md_file.write("    hiddenInList: true\n")
     md_file.write("    hiddenInSingle: false\n")
     md_file.write("math: true\n")

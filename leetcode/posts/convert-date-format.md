@@ -1,0 +1,81 @@
+---
+title: Convert Date Format
+summary: Convert Date Format - Solution Explained
+url: "/posts/convert-date-format"
+date: 2020-09-08T19:00:00
+tags: ["leetcode", "problem-solving"]
+series: [leetcode]
+keywords: ["Convert Date Format LeetCode Solution Explained in all languages", "1853", "leetcode question 1853", "Convert Date Format", "LeetCode", "leetcode solution in Python3 C++ Java Go PHP Ruby Swift TypeScript Rust C# JavaScript C", "GeeksforGeeks", "InterviewBit", "Coding Ninjas", "HackerRank", "HackerEarth", "CodeChef", "TopCoder", "AlgoExpert", "freeCodeCamp", "Codeforces", "GitHub", "AtCoder", "Samir Paul"]
+cover:
+    image: https://spcdn.pages.dev/leetcode/images/convert-date-format.webp
+    alt: Convert Date Format - Solution Explained
+    hiddenInList: true
+    hiddenInSingle: false
+math: true
+---
+
+
+# [1853. Convert Date Format](https://leetcode.com/problems/convert-date-format)
+
+
+## Description
+
+<p>Table: <code>Days</code></p>
+
+<pre>
++-------------+------+
+| Column Name | Type |
++-------------+------+
+| day         | date |
++-------------+------+
+day is the column with unique values for this table.
+</pre>
+
+<p>&nbsp;</p>
+
+<p>Write a solution&nbsp;to convert each date in <code>Days</code> into a string formatted as <code>&quot;day_name, month_name day, year&quot;</code>.</p>
+
+<p>Return the result table in <strong>any order</strong>.</p>
+
+<p>The&nbsp;result format is in the following example.</p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> 
+Days table:
++------------+
+| day        |
++------------+
+| 2022-04-12 |
+| 2021-08-09 |
+| 2020-06-26 |
++------------+
+<strong>Output:</strong> 
++-------------------------+
+| day                     |
++-------------------------+
+| Tuesday, April 12, 2022 |
+| Monday, August 9, 2021  |
+| Friday, June 26, 2020   |
++-------------------------+
+<strong>Explanation:</strong> Please note that the output is case-sensitive.
+</pre>
+
+## Solutions
+
+### Solution 1
+
+<!-- tabs:start -->
+
+{{< terminal title="SQL Code" >}}
+```sql
+# Write your MySQL query statement below
+SELECT DATE_FORMAT(day, '%W, %M %e, %Y') AS day FROM Days;
+```
+{{< /terminal >}}
+
+<!-- tabs:end -->
+
+<!-- end -->

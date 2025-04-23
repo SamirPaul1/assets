@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "firebase": "^9.14.0"
+    "firebase": "^10.9.0"
   }
 }
 
